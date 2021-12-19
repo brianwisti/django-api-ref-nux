@@ -1,7 +1,7 @@
 # A [Django][] API doc site using [Nuxt][]
 
 [Django]: https://djangoproject.com
-[Nux]: https://nuxtjs.org
+[Nuxt]: https://nuxtjs.org
 
 And [Parso][] to parse the Django source.
 
