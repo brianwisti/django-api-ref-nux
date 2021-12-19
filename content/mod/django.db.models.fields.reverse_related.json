@@ -1,0 +1,4 @@
+{
+    "docstring": "\"\"\"\n\"Rel objects\" for related fields.\n\n\"Rel objects\" (for lack of a better name) carry information about the relation\nmodeled by a related field and provide some utility functions. They're stored\nin the ``remote_field`` attribute of the field.\n\nThey also act as reverse fields for the purposes of the Meta API because\nthey're the closest concept currently available.\n\"\"\"",
+    "namespace": "django.db.models.fields.reverse_related"
+}

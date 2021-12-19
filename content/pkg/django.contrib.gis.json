@@ -1,0 +1,76 @@
+{
+    "name": "django.contrib.gis",
+    "docstring": "",
+    "modules": [
+        {
+            "docstring": "\"\"\"\nDistance and Area objects to allow for sensible and convenient calculation\nand conversions.\n\nAuthors: Robert Coup, Justin Bronn, Riccardo Di Virgilio\n\nInspired by GeoPy (https://github.com/geopy/geopy)\nand Geoff Biggs' PhD work on dimensioned units for robotics.\n\"\"\"",
+            "namespace": "django.contrib.gis.measure"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.contrib.gis.feeds"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.contrib.gis.ptr"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.contrib.gis.geometry"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.contrib.gis.views"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.contrib.gis.apps"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.contrib.gis.shortcuts"
+        }
+    ],
+    "subpackages": [
+        {
+            "name": "django.contrib.gis.geos",
+            "docstring": "\"\"\"\nThe GeoDjango GEOS module.  Please consult the GeoDjango documentation\nfor more details: https://docs.djangoproject.com/en/dev/ref/contrib/gis/geos/\n\"\"\""
+        },
+        {
+            "name": "django.contrib.gis.admin",
+            "docstring": ""
+        },
+        {
+            "name": "django.contrib.gis.utils",
+            "docstring": "\"\"\"\n This module contains useful utilities for GeoDjango.\n\"\"\""
+        },
+        {
+            "name": "django.contrib.gis.management",
+            "docstring": ""
+        },
+        {
+            "name": "django.contrib.gis.forms",
+            "docstring": ""
+        },
+        {
+            "name": "django.contrib.gis.geoip2",
+            "docstring": "\"\"\"\nThis module houses the GeoIP2 object, a wrapper for the MaxMind GeoIP2(R)\nPython API (https://geoip2.readthedocs.io/). This is an alternative to the\nPython GeoIP2 interface provided by MaxMind.\n\nGeoIP(R) is a registered trademark of MaxMind, Inc.\n\nFor IP-based geolocation, this module requires the GeoLite2 Country and City\ndatasets, in binary format (CSV will not work!). The datasets may be\ndownloaded from MaxMind at http://dev.maxmind.com/geoip/geoip2/geolite2/.\nGrab GeoLite2-Country.mmdb.gz and GeoLite2-City.mmdb.gz, and unzip them in the\ndirectory corresponding to settings.GEOIP_PATH.\n\"\"\""
+        },
+        {
+            "name": "django.contrib.gis.gdal",
+            "docstring": "\"\"\"\n This module houses ctypes interfaces for GDAL objects.  The following GDAL\n objects are supported:\n\n CoordTransform: Used for coordinate transformations from one spatial\n  reference system to another.\n\n Driver: Wraps an OGR data source driver.\n\n DataSource: Wrapper for the OGR data source object, supports\n  OGR-supported data sources.\n\n Envelope: A ctypes structure for bounding boxes (GDAL library\n  not required).\n\n OGRGeometry: Object for accessing OGR Geometry functionality.\n\n OGRGeomType: A class for representing the different OGR Geometry\n  types (GDAL library not required).\n\n SpatialReference: Represents OSR Spatial Reference objects.\n\n The GDAL library will be imported from the system path using the default\n library name for the current OS. The default library path may be overridden\n by setting `GDAL_LIBRARY_PATH` in your settings with the path to the GDAL C\n library on your system.\n\"\"\""
+        },
+        {
+            "name": "django.contrib.gis.db",
+            "docstring": ""
+        },
+        {
+            "name": "django.contrib.gis.sitemaps",
+            "docstring": ""
+        },
+        {
+            "name": "django.contrib.gis.serializers",
+            "docstring": ""
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "name": "django.core.serializers",
+    "docstring": "\"\"\"\nInterfaces for serializing Django objects.\n\nUsage::\n\n    from django.core import serializers\n    json = serializers.serialize(\"json\", some_queryset)\n    objects = list(serializers.deserialize(\"json\", json))\n\nTo add your own serializers, use the SERIALIZATION_MODULES setting::\n\n    SERIALIZATION_MODULES = {\n        \"csv\": \"path.to.csv.serializer\",\n        \"txt\": \"path.to.txt.serializer\",\n    }\n\n\"\"\"",
+    "modules": [
+        {
+            "docstring": "\"\"\"\nModule for abstract serializer/unserializer base classes.\n\"\"\"",
+            "namespace": "django.core.serializers.base"
+        },
+        {
+            "docstring": "\"\"\"\nXML serializer.\n\"\"\"",
+            "namespace": "django.core.serializers.xml_serializer"
+        },
+        {
+            "docstring": "\"\"\"\nSerialize data to/from JSON Lines\n\"\"\"",
+            "namespace": "django.core.serializers.jsonl"
+        },
+        {
+            "docstring": "\"\"\"\nSerialize data to/from JSON\n\"\"\"",
+            "namespace": "django.core.serializers.json"
+        },
+        {
+            "docstring": "\"\"\"\nYAML serializer.\n\nRequires PyYaml (https://pyyaml.org/), but that's checked for in __init__.\n\"\"\"",
+            "namespace": "django.core.serializers.pyyaml"
+        },
+        {
+            "docstring": "\"\"\"\nA Python \"serializer\". Doesn't do much serializing per se -- just converts to\nand from basic Python data types (lists, dicts, strings, etc.). Useful as a basis for\nother serializers.\n\"\"\"",
+            "namespace": "django.core.serializers.python"
+        }
+    ],
+    "subpackages": []
+}

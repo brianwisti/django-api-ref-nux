@@ -1,0 +1,36 @@
+{
+    "name": "django.views",
+    "docstring": "",
+    "modules": [
+        {
+            "docstring": "",
+            "namespace": "django.views.defaults"
+        },
+        {
+            "docstring": "\"\"\"\nViews and functions for serving static files. These are only to be used\nduring development, and SHOULD NOT be used in a production setting.\n\"\"\"",
+            "namespace": "django.views.static"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.views.i18n"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.views.debug"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.views.csrf"
+        }
+    ],
+    "subpackages": [
+        {
+            "name": "django.views.decorators",
+            "docstring": ""
+        },
+        {
+            "name": "django.views.generic",
+            "docstring": ""
+        }
+    ]
+}

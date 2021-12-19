@@ -1,0 +1,43 @@
+{
+    "name": "django.contrib.gis.db.backends.postgis",
+    "docstring": "",
+    "modules": [
+        {
+            "docstring": "",
+            "namespace": "django.contrib.gis.db.backends.postgis.pgraster"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.contrib.gis.db.backends.postgis.introspection"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.contrib.gis.db.backends.postgis.base"
+        },
+        {
+            "docstring": "\"\"\"\nPostGIS to GDAL conversion constant definitions\n\"\"\"",
+            "namespace": "django.contrib.gis.db.backends.postgis.const"
+        },
+        {
+            "docstring": "\"\"\"\n This object provides quoting for GEOS geometries into PostgreSQL/PostGIS.\n\"\"\"",
+            "namespace": "django.contrib.gis.db.backends.postgis.adapter"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.contrib.gis.db.backends.postgis.operations"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.contrib.gis.db.backends.postgis.features"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.contrib.gis.db.backends.postgis.schema"
+        },
+        {
+            "docstring": "\"\"\"\n The GeometryColumns and SpatialRefSys models for the PostGIS backend.\n\"\"\"",
+            "namespace": "django.contrib.gis.db.backends.postgis.models"
+        }
+    ],
+    "subpackages": []
+}

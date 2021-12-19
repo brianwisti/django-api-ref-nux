@@ -1,0 +1,64 @@
+{
+    "name": "django.db.migrations",
+    "docstring": "",
+    "modules": [
+        {
+            "docstring": "",
+            "namespace": "django.db.migrations.loader"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.db.migrations.exceptions"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.db.migrations.optimizer"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.db.migrations.questioner"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.db.migrations.graph"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.db.migrations.serializer"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.db.migrations.state"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.db.migrations.writer"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.db.migrations.migration"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.db.migrations.executor"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.db.migrations.recorder"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.db.migrations.utils"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.db.migrations.autodetector"
+        }
+    ],
+    "subpackages": [
+        {
+            "name": "django.db.migrations.operations",
+            "docstring": ""
+        }
+    ]
+}

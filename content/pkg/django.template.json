@@ -1,0 +1,72 @@
+{
+    "name": "django.template",
+    "docstring": "\"\"\"\nDjango's support for templates.\n\nThe django.template namespace contains two independent subsystems:\n\n1. Multiple Template Engines: support for pluggable template backends,\n   built-in backends and backend-independent APIs\n2. Django Template Language: Django's own template engine, including its\n   built-in loaders, context processors, tags and filters.\n\nIdeally these subsystems would be implemented in distinct packages. However\nkeeping them together made the implementation of Multiple Template Engines\nless disruptive .\n\nHere's a breakdown of which modules belong to which subsystem.\n\nMultiple Template Engines:\n\n- django.template.backends.*\n- django.template.loader\n- django.template.response\n\nDjango Template Language:\n\n- django.template.base\n- django.template.context\n- django.template.context_processors\n- django.template.loaders.*\n- django.template.debug\n- django.template.defaultfilters\n- django.template.defaulttags\n- django.template.engine\n- django.template.loader_tags\n- django.template.smartif\n\nShared:\n\n- django.template.utils\n\n\"\"\"",
+    "modules": [
+        {
+            "docstring": "",
+            "namespace": "django.template.loader"
+        },
+        {
+            "docstring": "\"\"\"\nThis module contains generic exceptions used by template backends. Although,\ndue to historical reasons, the Django template language also internally uses\nthese exceptions, other exceptions specific to the DTL should not be added\nhere.\n\"\"\"",
+            "namespace": "django.template.exceptions"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.template.engine"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.template.context"
+        },
+        {
+            "docstring": "\"\"\"\nThis is the Django template system.\n\nHow it works:\n\nThe Lexer.tokenize() method converts a template string (i.e., a string\ncontaining markup with custom template tags) to tokens, which can be either\nplain text (TokenType.TEXT), variables (TokenType.VAR), or block statements\n(TokenType.BLOCK).\n\nThe Parser() class takes a list of tokens in its constructor, and its parse()\nmethod returns a compiled template -- which is, under the hood, a list of\nNode objects.\n\nEach Node is responsible for creating some sort of output -- e.g. simple text\n(TextNode), variable values in a given context (VariableNode), results of basic\nlogic (IfNode), results of looping (ForNode), or anything else. The core Node\ntypes are TextNode, VariableNode, IfNode and ForNode, but plugin modules can\ndefine their own custom node types.\n\nEach Node has a render() method, which takes a Context and returns a string of\nthe rendered node. For example, the render() method of a Variable Node returns\nthe variable's value as a string. The render() method of a ForNode returns the\nrendered output of whatever was inside the loop, recursively.\n\nThe Template class is a convenient wrapper that takes care of template\ncompilation and rendering.\n\nUsage:\n\nThe only thing you should ever use directly in this file is the Template class.\nCreate a compiled template object with a template_string, then call render()\nwith a context. In the compilation stage, the TemplateSyntaxError exception\nwill be raised if the template doesn't have proper syntax.\n\nSample code:\n\n>>> from django import template\n>>> s = '<html>{% if test %}<h1>{{ varvalue }}</h1>{% endif %}</html>'\n>>> t = template.Template(s)\n\n(t is now a compiled template, and its render() method can be called multiple\ntimes with multiple contexts)\n\n>>> c = template.Context({'test':True, 'varvalue': 'Hello'})\n>>> t.render(c)\n'<html><h1>Hello</h1></html>'\n>>> c = template.Context({'test':False, 'varvalue': 'Hello'})\n>>> t.render(c)\n'<html></html>'\n\"\"\"",
+            "namespace": "django.template.base"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.template.library"
+        },
+        {
+            "docstring": "\"\"\"Default tags used by the template system, available to all templates.\"\"\"",
+            "namespace": "django.template.defaulttags"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.template.response"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.template.utils"
+        },
+        {
+            "docstring": "\"\"\"\nParser and utilities for the smart 'if' tag\n\"\"\"",
+            "namespace": "django.template.smartif"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.template.autoreload"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.template.loader_tags"
+        },
+        {
+            "docstring": "\"\"\"\nA set of request processors that return dictionaries to be merged into a\ntemplate context. Each function takes the request object as its only parameter\nand returns a dictionary to add to the context.\n\nThese are referenced from the 'context_processors' option of the configuration\nof a DjangoTemplates backend and used by RequestContext.\n\"\"\"",
+            "namespace": "django.template.context_processors"
+        },
+        {
+            "docstring": "\"\"\"Default variable filters.\"\"\"",
+            "namespace": "django.template.defaultfilters"
+        }
+    ],
+    "subpackages": [
+        {
+            "name": "django.template.loaders",
+            "docstring": ""
+        },
+        {
+            "name": "django.template.backends",
+            "docstring": ""
+        }
+    ]
+}

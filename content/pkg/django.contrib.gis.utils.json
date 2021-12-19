@@ -1,0 +1,23 @@
+{
+    "name": "django.contrib.gis.utils",
+    "docstring": "\"\"\"\n This module contains useful utilities for GeoDjango.\n\"\"\"",
+    "modules": [
+        {
+            "docstring": "\"\"\"\nThis module includes some utility functions for inspecting the layout\nof a GDAL data source -- the functionality is analogous to the output\nproduced by the `ogrinfo` utility.\n\"\"\"",
+            "namespace": "django.contrib.gis.utils.ogrinfo"
+        },
+        {
+            "docstring": "\"\"\"\nThis module is for inspecting OGR data sources and generating either\nmodels for GeoDjango and/or mapping dictionaries for use with the\n`LayerMapping` utility.\n\"\"\"",
+            "namespace": "django.contrib.gis.utils.ogrinspect"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.contrib.gis.utils.srs"
+        },
+        {
+            "docstring": "\"\"\"\n The LayerMapping class provides a way to map the contents of OGR\n vector files (e.g. SHP files) to Geographic-enabled Django models.\n\n For more information, please consult the GeoDjango documentation:\n   https://docs.djangoproject.com/en/dev/ref/contrib/gis/layermapping/\n\"\"\"",
+            "namespace": "django.contrib.gis.utils.layermapping"
+        }
+    ],
+    "subpackages": []
+}

@@ -1,0 +1,4 @@
+{
+    "docstring": "\"\"\"\n The GeometryColumns and SpatialRefSys models for the Oracle spatial\n backend.\n\n It should be noted that Oracle Spatial does not have database tables\n named according to the OGC standard, so the closest analogs are used.\n For example, the `USER_SDO_GEOM_METADATA` is used for the GeometryColumns\n model and the `SDO_COORD_REF_SYS` is used for the SpatialRefSys model.\n\"\"\"",
+    "namespace": "django.contrib.gis.db.backends.oracle.models"
+}

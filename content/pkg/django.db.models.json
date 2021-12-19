@@ -1,0 +1,80 @@
+{
+    "name": "django.db.models",
+    "docstring": "",
+    "modules": [
+        {
+            "docstring": "\"\"\"\nConstants used across the ORM in general.\n\"\"\"",
+            "namespace": "django.db.models.constants"
+        },
+        {
+            "docstring": "\"\"\"\nThe main QuerySet implementation. This provides the public API for the ORM.\n\"\"\"",
+            "namespace": "django.db.models.query"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.db.models.base"
+        },
+        {
+            "docstring": "\"\"\"\nVarious data structures used in query construction.\n\nFactored out from django.db.models.query to avoid making the main module very\nlarge and/or so that they can be used by other modules without getting into\ncircular import difficulties.\n\"\"\"",
+            "namespace": "django.db.models.query_utils"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.db.models.enums"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.db.models.indexes"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.db.models.expressions"
+        },
+        {
+            "docstring": "\"\"\"\nClasses to represent the definitions of aggregate functions.\n\"\"\"",
+            "namespace": "django.db.models.aggregates"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.db.models.signals"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.db.models.deletion"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.db.models.utils"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.db.models.options"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.db.models.manager"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.db.models.constraints"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.db.models.lookups"
+        }
+    ],
+    "subpackages": [
+        {
+            "name": "django.db.models.fields",
+            "docstring": ""
+        },
+        {
+            "name": "django.db.models.functions",
+            "docstring": ""
+        },
+        {
+            "name": "django.db.models.sql",
+            "docstring": ""
+        }
+    ]
+}

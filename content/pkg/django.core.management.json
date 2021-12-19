@@ -1,0 +1,32 @@
+{
+    "name": "django.core.management",
+    "docstring": "",
+    "modules": [
+        {
+            "docstring": "\"\"\"\nSets up the terminal color scheme.\n\"\"\"",
+            "namespace": "django.core.management.color"
+        },
+        {
+            "docstring": "\"\"\"\nBase classes for writing management commands (named commands which can\nbe executed through ``django-admin`` or ``manage.py``).\n\"\"\"",
+            "namespace": "django.core.management.base"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.core.management.templates"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.core.management.sql"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.core.management.utils"
+        }
+    ],
+    "subpackages": [
+        {
+            "name": "django.core.management.commands",
+            "docstring": ""
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+{
+    "docstring": "\"\"\"\nThis module converts requested URLs to callback view functions.\n\nURLResolver is the main class here. Its resolve() method takes a URL (as\na string) and returns a ResolverMatch object which provides access to all\nattributes of the resolved URL match.\n\"\"\"",
+    "namespace": "django.urls.resolvers"
+}

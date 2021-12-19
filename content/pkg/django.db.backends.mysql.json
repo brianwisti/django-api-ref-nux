@@ -1,0 +1,43 @@
+{
+    "name": "django.db.backends.mysql",
+    "docstring": "",
+    "modules": [
+        {
+            "docstring": "",
+            "namespace": "django.db.backends.mysql.creation"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.db.backends.mysql.introspection"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.db.backends.mysql.client"
+        },
+        {
+            "docstring": "\"\"\"\nMySQL database backend for Django.\n\nRequires mysqlclient: https://pypi.org/project/mysqlclient/\n\"\"\"",
+            "namespace": "django.db.backends.mysql.base"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.db.backends.mysql.operations"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.db.backends.mysql.features"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.db.backends.mysql.validation"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.db.backends.mysql.compiler"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.db.backends.mysql.schema"
+        }
+    ],
+    "subpackages": []
+}

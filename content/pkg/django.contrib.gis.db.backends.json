@@ -1,0 +1,32 @@
+{
+    "name": "django.contrib.gis.db.backends",
+    "docstring": "",
+    "modules": [
+        {
+            "docstring": "\"\"\"\nA collection of utility routines and classes used by the spatial\nbackends.\n\"\"\"",
+            "namespace": "django.contrib.gis.db.backends.utils"
+        }
+    ],
+    "subpackages": [
+        {
+            "name": "django.contrib.gis.db.backends.oracle",
+            "docstring": ""
+        },
+        {
+            "name": "django.contrib.gis.db.backends.spatialite",
+            "docstring": ""
+        },
+        {
+            "name": "django.contrib.gis.db.backends.mysql",
+            "docstring": ""
+        },
+        {
+            "name": "django.contrib.gis.db.backends.base",
+            "docstring": ""
+        },
+        {
+            "name": "django.contrib.gis.db.backends.postgis",
+            "docstring": ""
+        }
+    ]
+}

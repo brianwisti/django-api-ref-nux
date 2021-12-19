@@ -1,0 +1,4 @@
+{
+    "docstring": "\"\"\"\nDummy database backend for Django.\n\nDjango uses this if the database ENGINE setting is empty (None or empty string).\n\nEach of these API functions, except connection.close(), raise\nImproperlyConfigured.\n\"\"\"",
+    "namespace": "django.db.backends.dummy.base"
+}

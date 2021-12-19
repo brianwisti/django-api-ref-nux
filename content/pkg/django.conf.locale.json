@@ -1,0 +1,315 @@
+{
+    "name": "django.conf.locale",
+    "docstring": "\"\"\"\nLANG_INFO is a dictionary structure to provide meta information about languages.\n\nAbout name_local: capitalize it as if your language name was appearing\ninside a sentence in your language.\nThe 'fallback' key can be used to specify a special fallback logic which doesn't\nfollow the traditional 'fr-ca' -> 'fr' fallback logic.\n\"\"\"",
+    "modules": [],
+    "subpackages": [
+        {
+            "name": "django.conf.locale.zh_Hant",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.kn",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.sk",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.bn",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.da",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.el",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.vi",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.gl",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.fy",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.fa",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.uz",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.hr",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.es_PR",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.ml",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.nn",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.ar_DZ",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.et",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.nb",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.es_NI",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.sr_Latn",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.en",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.fr",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.eu",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.zh_Hans",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.ka",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.ko",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.mn",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.ig",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.de",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.it",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.pt",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.bg",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.ca",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.mk",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.ga",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.en_AU",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.ms",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.sl",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.pl",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.cy",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.lt",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.es_CO",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.th",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.cs",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.is",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.id",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.sq",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.sr",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.ja",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.ar",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.sv",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.tk",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.hi",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.ky",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.es_AR",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.tr",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.km",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.tg",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.ro",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.hu",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.ta",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.bs",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.he",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.de_CH",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.es_MX",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.gd",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.te",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.es",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.pt_BR",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.ru",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.nl",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.fi",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.en_GB",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.eo",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.az",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.uk",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale.lv",
+            "docstring": ""
+        }
+    ]
+}

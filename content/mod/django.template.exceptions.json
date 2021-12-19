@@ -1,0 +1,4 @@
+{
+    "docstring": "\"\"\"\nThis module contains generic exceptions used by template backends. Although,\ndue to historical reasons, the Django template language also internally uses\nthese exceptions, other exceptions specific to the DTL should not be added\nhere.\n\"\"\"",
+    "namespace": "django.template.exceptions"
+}

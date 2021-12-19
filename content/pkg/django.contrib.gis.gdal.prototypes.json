@@ -1,0 +1,31 @@
+{
+    "name": "django.contrib.gis.gdal.prototypes",
+    "docstring": "",
+    "modules": [
+        {
+            "docstring": "\"\"\"\n This module contains functions that generate ctypes prototypes for the\n GDAL routines.\n\"\"\"",
+            "namespace": "django.contrib.gis.gdal.prototypes.generation"
+        },
+        {
+            "docstring": "\"\"\"\n This module houses the ctypes function prototypes for OGR DataSource\n related data structures. OGR_Dr_*, OGR_DS_*, OGR_L_*, OGR_F_*,\n OGR_Fld_* routines are relevant here.\n\"\"\"",
+            "namespace": "django.contrib.gis.gdal.prototypes.ds"
+        },
+        {
+            "docstring": "\"\"\"\n This module houses the error-checking routines used by the GDAL\n ctypes prototypes.\n\"\"\"",
+            "namespace": "django.contrib.gis.gdal.prototypes.errcheck"
+        },
+        {
+            "docstring": "\"\"\"\nThis module houses the ctypes function prototypes for GDAL DataSource (raster)\nrelated data structures.\n\"\"\"",
+            "namespace": "django.contrib.gis.gdal.prototypes.raster"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.contrib.gis.gdal.prototypes.srs"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.contrib.gis.gdal.prototypes.geom"
+        }
+    ],
+    "subpackages": []
+}

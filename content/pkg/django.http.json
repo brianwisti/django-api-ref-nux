@@ -1,0 +1,23 @@
+{
+    "name": "django.http",
+    "docstring": "",
+    "modules": [
+        {
+            "docstring": "",
+            "namespace": "django.http.cookie"
+        },
+        {
+            "docstring": "\"\"\"\nMulti-part parsing for file uploads.\n\nExposes one class, ``MultiPartParser``, which feeds chunks of uploaded data to\nfile upload handlers for processing.\n\"\"\"",
+            "namespace": "django.http.multipartparser"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.http.response"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.http.request"
+        }
+    ],
+    "subpackages": []
+}

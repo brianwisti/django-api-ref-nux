@@ -1,0 +1,72 @@
+{
+    "name": "django",
+    "docstring": "",
+    "modules": [
+        {
+            "docstring": "\"\"\"\nThis module collects helper functions and classes that \"span\" multiple levels\nof MVC. In other words, these functions/classes introduce controlled coupling\nfor convenience's sake.\n\"\"\"",
+            "namespace": "django.shortcuts"
+        }
+    ],
+    "subpackages": [
+        {
+            "name": "django.templatetags",
+            "docstring": ""
+        },
+        {
+            "name": "django.utils",
+            "docstring": ""
+        },
+        {
+            "name": "django.middleware",
+            "docstring": ""
+        },
+        {
+            "name": "django.forms",
+            "docstring": "\"\"\"\nDjango validation and HTML form handling.\n\"\"\""
+        },
+        {
+            "name": "django.conf",
+            "docstring": "\"\"\"\nSettings and configuration for Django.\n\nRead values from the module specified by the DJANGO_SETTINGS_MODULE environment\nvariable, and then from django.conf.global_settings; see the global_settings.py\nfor a list of all possible variables.\n\"\"\""
+        },
+        {
+            "name": "django.core",
+            "docstring": ""
+        },
+        {
+            "name": "django.dispatch",
+            "docstring": "\"\"\"Multi-consumer multi-producer dispatching mechanism\n\nOriginally based on pydispatch (BSD) https://pypi.org/project/PyDispatcher/2.0.1/\nSee license.txt for original license.\n\nHeavily modified for Django's purposes.\n\"\"\""
+        },
+        {
+            "name": "django.urls",
+            "docstring": ""
+        },
+        {
+            "name": "django.views",
+            "docstring": ""
+        },
+        {
+            "name": "django.apps",
+            "docstring": ""
+        },
+        {
+            "name": "django.test",
+            "docstring": "\"\"\"Django Unit Test framework.\"\"\""
+        },
+        {
+            "name": "django.template",
+            "docstring": "\"\"\"\nDjango's support for templates.\n\nThe django.template namespace contains two independent subsystems:\n\n1. Multiple Template Engines: support for pluggable template backends,\n   built-in backends and backend-independent APIs\n2. Django Template Language: Django's own template engine, including its\n   built-in loaders, context processors, tags and filters.\n\nIdeally these subsystems would be implemented in distinct packages. However\nkeeping them together made the implementation of Multiple Template Engines\nless disruptive .\n\nHere's a breakdown of which modules belong to which subsystem.\n\nMultiple Template Engines:\n\n- django.template.backends.*\n- django.template.loader\n- django.template.response\n\nDjango Template Language:\n\n- django.template.base\n- django.template.context\n- django.template.context_processors\n- django.template.loaders.*\n- django.template.debug\n- django.template.defaultfilters\n- django.template.defaulttags\n- django.template.engine\n- django.template.loader_tags\n- django.template.smartif\n\nShared:\n\n- django.template.utils\n\n\"\"\""
+        },
+        {
+            "name": "django.db",
+            "docstring": ""
+        },
+        {
+            "name": "django.contrib",
+            "docstring": ""
+        },
+        {
+            "name": "django.http",
+            "docstring": ""
+        }
+    ]
+}

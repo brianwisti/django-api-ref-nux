@@ -1,0 +1,35 @@
+{
+    "name": "django.test",
+    "docstring": "\"\"\"Django Unit Test framework.\"\"\"",
+    "modules": [
+        {
+            "docstring": "",
+            "namespace": "django.test.selenium"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.test.client"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.test.signals"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.test.utils"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.test.runner"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.test.testcases"
+        },
+        {
+            "docstring": "\"\"\"Compare two HTML documents.\"\"\"",
+            "namespace": "django.test.html"
+        }
+    ],
+    "subpackages": []
+}

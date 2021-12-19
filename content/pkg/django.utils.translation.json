@@ -1,0 +1,23 @@
+{
+    "name": "django.utils.translation",
+    "docstring": "\"\"\"\nInternationalization support.\n\"\"\"",
+    "modules": [
+        {
+            "docstring": "",
+            "namespace": "django.utils.translation.template"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.utils.translation.reloader"
+        },
+        {
+            "docstring": "\"\"\"Translation helper functions.\"\"\"",
+            "namespace": "django.utils.translation.trans_real"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.utils.translation.trans_null"
+        }
+    ],
+    "subpackages": []
+}

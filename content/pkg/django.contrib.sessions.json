@@ -1,0 +1,44 @@
+{
+    "name": "django.contrib.sessions",
+    "docstring": "",
+    "modules": [
+        {
+            "docstring": "",
+            "namespace": "django.contrib.sessions.exceptions"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.contrib.sessions.middleware"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.contrib.sessions.serializers"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.contrib.sessions.apps"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.contrib.sessions.models"
+        },
+        {
+            "docstring": "\"\"\"\nThis module allows importing AbstractBaseSession even\nwhen django.contrib.sessions is not in INSTALLED_APPS.\n\"\"\"",
+            "namespace": "django.contrib.sessions.base_session"
+        }
+    ],
+    "subpackages": [
+        {
+            "name": "django.contrib.sessions.management",
+            "docstring": ""
+        },
+        {
+            "name": "django.contrib.sessions.migrations",
+            "docstring": ""
+        },
+        {
+            "name": "django.contrib.sessions.backends",
+            "docstring": ""
+        }
+    ]
+}

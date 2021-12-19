@@ -1,0 +1,76 @@
+{
+    "name": "django.contrib.admin",
+    "docstring": "",
+    "modules": [
+        {
+            "docstring": "",
+            "namespace": "django.contrib.admin.exceptions"
+        },
+        {
+            "docstring": "\"\"\"\nForm Widget classes specific to the Django admin site.\n\"\"\"",
+            "namespace": "django.contrib.admin.widgets"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.contrib.admin.sites"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.contrib.admin.decorators"
+        },
+        {
+            "docstring": "\"\"\"\nBuilt-in, globally-available admin actions.\n\"\"\"",
+            "namespace": "django.contrib.admin.actions"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.contrib.admin.tests"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.contrib.admin.apps"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.contrib.admin.helpers"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.contrib.admin.utils"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.contrib.admin.options"
+        },
+        {
+            "docstring": "\"\"\"\nThis encapsulates the logic for displaying filters in the Django admin.\nFilters are specified in models with the \"list_filter\" option.\n\nEach filter subclass knows how to display a filter for a field that passes a\ncertain test -- e.g. being a DateField or ForeignKey.\n\"\"\"",
+            "namespace": "django.contrib.admin.filters"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.contrib.admin.forms"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.contrib.admin.checks"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.contrib.admin.models"
+        }
+    ],
+    "subpackages": [
+        {
+            "name": "django.contrib.admin.templatetags",
+            "docstring": ""
+        },
+        {
+            "name": "django.contrib.admin.migrations",
+            "docstring": ""
+        },
+        {
+            "name": "django.contrib.admin.views",
+            "docstring": ""
+        }
+    ]
+}

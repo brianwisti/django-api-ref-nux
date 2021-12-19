@@ -1,0 +1,39 @@
+{
+    "name": "django.middleware",
+    "docstring": "",
+    "modules": [
+        {
+            "docstring": "",
+            "namespace": "django.middleware.locale"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.middleware.gzip"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.middleware.common"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.middleware.security"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.middleware.http"
+        },
+        {
+            "docstring": "\"\"\"\nClickjacking Protection Middleware.\n\nThis module provides a middleware that implements protection against a\nmalicious site loading resources from your site in a hidden frame.\n\"\"\"",
+            "namespace": "django.middleware.clickjacking"
+        },
+        {
+            "docstring": "\"\"\"\nCache middleware. If enabled, each Django-powered page will be cached based on\nURL. The canonical way to enable cache middleware is to set\n``UpdateCacheMiddleware`` as your first piece of middleware, and\n``FetchFromCacheMiddleware`` as the last::\n\n    MIDDLEWARE = [\n        'django.middleware.cache.UpdateCacheMiddleware',\n        ...\n        'django.middleware.cache.FetchFromCacheMiddleware'\n    ]\n\nThis is counter-intuitive, but correct: ``UpdateCacheMiddleware`` needs to run\nlast during the response phase, which processes middleware bottom-up;\n``FetchFromCacheMiddleware`` needs to run last during the request phase, which\nprocesses middleware top-down.\n\nThe single-class ``CacheMiddleware`` can be used for some simple sites.\nHowever, if any other piece of middleware needs to affect the cache key, you'll\nneed to use the two-part ``UpdateCacheMiddleware`` and\n``FetchFromCacheMiddleware``. This'll most often happen when you're using\nDjango's ``LocaleMiddleware``.\n\nMore details about how the caching works:\n\n* Only GET or HEAD-requests with status code 200 are cached.\n\n* The number of seconds each page is stored for is set by the \"max-age\" section\n  of the response's \"Cache-Control\" header, falling back to the\n  CACHE_MIDDLEWARE_SECONDS setting if the section was not found.\n\n* This middleware expects that a HEAD request is answered with the same response\n  headers exactly like the corresponding GET request.\n\n* When a hit occurs, a shallow copy of the original response object is returned\n  from process_request.\n\n* Pages will be cached based on the contents of the request headers listed in\n  the response's \"Vary\" header.\n\n* This middleware also sets ETag, Last-Modified, Expires and Cache-Control\n  headers on the response object.\n\n\"\"\"",
+            "namespace": "django.middleware.cache"
+        },
+        {
+            "docstring": "\"\"\"\nCross Site Request Forgery Middleware.\n\nThis module provides a middleware that implements protection\nagainst request forgeries from other sites.\n\"\"\"",
+            "namespace": "django.middleware.csrf"
+        }
+    ],
+    "subpackages": []
+}

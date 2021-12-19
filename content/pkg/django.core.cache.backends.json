@@ -1,0 +1,35 @@
+{
+    "name": "django.core.cache.backends",
+    "docstring": "",
+    "modules": [
+        {
+            "docstring": "\"File-based cache backend\"",
+            "namespace": "django.core.cache.backends.filebased"
+        },
+        {
+            "docstring": "\"Database cache backend.\"",
+            "namespace": "django.core.cache.backends.db"
+        },
+        {
+            "docstring": "\"\"\"Redis cache backend.\"\"\"",
+            "namespace": "django.core.cache.backends.redis"
+        },
+        {
+            "docstring": "\"Thread-safe in-memory cache backend.\"",
+            "namespace": "django.core.cache.backends.locmem"
+        },
+        {
+            "docstring": "\"Base Cache class.\"",
+            "namespace": "django.core.cache.backends.base"
+        },
+        {
+            "docstring": "\"Dummy cache backend\"",
+            "namespace": "django.core.cache.backends.dummy"
+        },
+        {
+            "docstring": "\"Memcached cache backend\"",
+            "namespace": "django.core.cache.backends.memcached"
+        }
+    ],
+    "subpackages": []
+}

@@ -1,0 +1,4 @@
+{
+    "docstring": "\"\"\"\nFunctions for working with \"safe strings\": strings that can be displayed safely\nwithout further escaping in HTML. Marking something as a \"safe string\" means\nthat the producer of the string has already turned characters that should not\nbe interpreted by the HTML engine (e.g. '<') into the appropriate entities.\n\"\"\"",
+    "namespace": "django.utils.safestring"
+}

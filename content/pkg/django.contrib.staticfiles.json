@@ -1,0 +1,48 @@
+{
+    "name": "django.contrib.staticfiles",
+    "docstring": "",
+    "modules": [
+        {
+            "docstring": "",
+            "namespace": "django.contrib.staticfiles.storage"
+        },
+        {
+            "docstring": "\"\"\"\nViews and functions for serving static files. These are only to be used during\ndevelopment, and SHOULD NOT be used in a production setting.\n\n\"\"\"",
+            "namespace": "django.contrib.staticfiles.views"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.contrib.staticfiles.apps"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.contrib.staticfiles.testing"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.contrib.staticfiles.urls"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.contrib.staticfiles.handlers"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.contrib.staticfiles.utils"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.contrib.staticfiles.checks"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.contrib.staticfiles.finders"
+        }
+    ],
+    "subpackages": [
+        {
+            "name": "django.contrib.staticfiles.management",
+            "docstring": ""
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "name": "django.db.backends",
+    "docstring": "",
+    "modules": [
+        {
+            "docstring": "\"\"\"\nHelpers to manipulate deferred DDL statements that might need to be adjusted or\ndiscarded within when executing a migration.\n\"\"\"",
+            "namespace": "django.db.backends.ddl_references"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.db.backends.signals"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.db.backends.utils"
+        }
+    ],
+    "subpackages": [
+        {
+            "name": "django.db.backends.oracle",
+            "docstring": ""
+        },
+        {
+            "name": "django.db.backends.postgresql",
+            "docstring": ""
+        },
+        {
+            "name": "django.db.backends.mysql",
+            "docstring": ""
+        },
+        {
+            "name": "django.db.backends.base",
+            "docstring": ""
+        },
+        {
+            "name": "django.db.backends.dummy",
+            "docstring": ""
+        },
+        {
+            "name": "django.db.backends.sqlite3",
+            "docstring": ""
+        }
+    ]
+}

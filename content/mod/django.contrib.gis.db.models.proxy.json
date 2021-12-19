@@ -1,0 +1,4 @@
+{
+    "docstring": "\"\"\"\nThe SpatialProxy object allows for lazy-geometries and lazy-rasters. The proxy\nuses Python descriptors for instantiating and setting Geometry or Raster\nobjects corresponding to geographic model fields.\n\nThanks to Robert Coup for providing this functionality (see #4322).\n\"\"\"",
+    "namespace": "django.contrib.gis.db.models.proxy"
+}

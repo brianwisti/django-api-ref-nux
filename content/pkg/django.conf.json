@@ -1,0 +1,20 @@
+{
+    "name": "django.conf",
+    "docstring": "\"\"\"\nSettings and configuration for Django.\n\nRead values from the module specified by the DJANGO_SETTINGS_MODULE environment\nvariable, and then from django.conf.global_settings; see the global_settings.py\nfor a list of all possible variables.\n\"\"\"",
+    "modules": [
+        {
+            "docstring": "\"\"\"\nDefault Django settings. Override these with settings in the module pointed to\nby the DJANGO_SETTINGS_MODULE environment variable.\n\"\"\"",
+            "namespace": "django.conf.global_settings"
+        }
+    ],
+    "subpackages": [
+        {
+            "name": "django.conf.urls",
+            "docstring": ""
+        },
+        {
+            "name": "django.conf.locale",
+            "docstring": "\"\"\"\nLANG_INFO is a dictionary structure to provide meta information about languages.\n\nAbout name_local: capitalize it as if your language name was appearing\ninside a sentence in your language.\nThe 'fallback' key can be used to specify a special fallback logic which doesn't\nfollow the traditional 'fr-ca' -> 'fr' fallback logic.\n\"\"\""
+        }
+    ]
+}

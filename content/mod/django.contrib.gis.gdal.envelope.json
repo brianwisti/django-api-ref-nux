@@ -1,0 +1,4 @@
+{
+    "docstring": "\"\"\"\n The GDAL/OGR library uses an Envelope structure to hold the bounding\n box information for a geometry.  The envelope (bounding box) contains\n two pairs of coordinates, one for the lower left coordinate and one\n for the upper right coordinate:\n\n                           +----------o Upper right; (max_x, max_y)\n                           |          |\n                           |          |\n                           |          |\n Lower left (min_x, min_y) o----------+\n\"\"\"",
+    "namespace": "django.contrib.gis.gdal.envelope"
+}

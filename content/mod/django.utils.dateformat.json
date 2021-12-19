@@ -1,0 +1,4 @@
+{
+    "docstring": "\"\"\"\nPHP date() style date formatting\nSee http://www.php.net/date for format strings\n\nUsage:\n>>> import datetime\n>>> d = datetime.datetime.now()\n>>> df = DateFormat(d)\n>>> print(df.format('jS F Y H:i'))\n7th October 2003 11:39\n>>>\n\"\"\"",
+    "namespace": "django.utils.dateformat"
+}

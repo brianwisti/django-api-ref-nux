@@ -1,0 +1,4 @@
+{
+    "docstring": "\"\"\"\nThis encapsulates the logic for displaying filters in the Django admin.\nFilters are specified in models with the \"list_filter\" option.\n\nEach filter subclass knows how to display a filter for a field that passes a\ncertain test -- e.g. being a DateField or ForeignKey.\n\"\"\"",
+    "namespace": "django.contrib.admin.filters"
+}

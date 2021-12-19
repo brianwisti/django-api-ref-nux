@@ -1,0 +1,27 @@
+{
+    "name": "django.template.loaders",
+    "docstring": "",
+    "modules": [
+        {
+            "docstring": "\"\"\"\nWrapper for loading templates from a plain Python dict.\n\"\"\"",
+            "namespace": "django.template.loaders.locmem"
+        },
+        {
+            "docstring": "",
+            "namespace": "django.template.loaders.base"
+        },
+        {
+            "docstring": "\"\"\"\nWrapper for loading templates from \"templates\" directories in INSTALLED_APPS\npackages.\n\"\"\"",
+            "namespace": "django.template.loaders.app_directories"
+        },
+        {
+            "docstring": "\"\"\"\nWrapper for loading templates from the filesystem.\n\"\"\"",
+            "namespace": "django.template.loaders.filesystem"
+        },
+        {
+            "docstring": "\"\"\"\nWrapper class that takes a list of template loaders as an argument and attempts\nto load templates from them in order, caching the result.\n\"\"\"",
+            "namespace": "django.template.loaders.cached"
+        }
+    ],
+    "subpackages": []
+}
