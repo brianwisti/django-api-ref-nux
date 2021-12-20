@@ -82,7 +82,7 @@ class FunctionDef(BaseModel):
             )
 
         namespace = f"{root_namespace}.{name}"
-        log.info("Loading function %s", namespace)
+        log.debug("Loading function %s", namespace)
         return cls(
             docstring=docstring,
             name=name,
@@ -156,6 +156,7 @@ class Module(BaseModel):
     namespace: str
     docstring: str = EMPTY_STRING
     classes: List[ClassDef] = Field(default_factory=list)
+    functions: List[FunctionDef] = Field(default_factory=list)
     package_name: str = EMPTY_STRING
     _parsed: parso.python.tree.Module = PrivateAttr()
 
@@ -174,6 +175,12 @@ class Module(BaseModel):
     def all_classes(self) -> Generator[ClassDef, None, None]:
         for class_def in self.classes:
             yield class_def
+
+    def all_functions(self) -> Generator[FunctionDef, None, None]:
+        for function_def in self.functions:
+            yield function_def
+        for class_def in self.classes:
+            yield from class_def.all_methods()
 
     def to_json(self) -> str:
         return self.json(
@@ -200,11 +207,19 @@ class Module(BaseModel):
             )
             for classdef in parsed.iter_classdefs()
         ]
+        functions = [
+            FunctionDef.from_parsed_function(
+                parsed_function=funcdef,
+                module_name=namespace,
+            )
+            for funcdef in parsed.iter_funcdefs()
+        ]
 
         return cls(
             namespace=namespace,
             docstring=docstring,
             classes=classes,
+            functions=functions,
             package_name=package_name,
             _parsed=parsed,
         )
@@ -216,6 +231,7 @@ class Package(BaseModel):
     name: str
     docstring: str = EMPTY_STRING
     package_name: str = EMPTY_STRING
+    functions: List[FunctionDef] = Field(default_factory=list)
     classes: List[ClassDef] = Field(default_factory=list)
     modules: List[Module] = Field(default_factory=list)
     subpackages: List["Package"] = Field(default_factory=list)
@@ -228,6 +244,7 @@ class Package(BaseModel):
         package_path = Path(namespace_path) / "__init__.py"
         self._path = find_in_sys_path(package_path)
         self._package_module = Module.from_path(path=self._path, namespace=self.name)
+        self.functions = self._find_functions()
         self.classes = self._find_classes()
         self.modules = self._find_modules()
         self.subpackages = self._find_subpackages()
@@ -253,6 +270,19 @@ class Package(BaseModel):
 
         for subpackage in self.subpackages:
             yield from subpackage.all_classes()
+
+    def all_functions(self) -> Generator[FunctionDef, None, None]:
+        for function_def in self.functions:
+            yield function_def
+
+        for class_def in self.classes:
+            yield from class_def.all_methods()
+
+        for module in self.modules:
+            yield from module.all_functions()
+
+        for subpackage in self.subpackages:
+            yield from subpackage.all_functions()
 
     def all_modules(self) -> Generator[Module, None, None]:
         for module in self.modules:
@@ -287,6 +317,15 @@ class Package(BaseModel):
             classes.append(classdef)
 
         return classes
+
+    def _find_functions(self) -> List[FunctionDef]:
+        functions = []
+        for function_def in self._package_module.functions:
+            function_def.namespace = f"{self.name}.{function_def.name}"
+            function_def.package_name = self.name
+            functions.append(function_def)
+
+        return functions
 
 
     def _find_modules(self) -> List[Module]:
@@ -334,6 +373,10 @@ class CodeLibrary(BaseModel):
     def all_classes(self) -> Generator[ClassDef, None, None]:
         for package in self.packages:
             yield from package.all_classes()
+
+    def all_functions(self) -> Generator[FunctionDef, None, None]:
+        for package in self.packages:
+            yield from package.all_functions()
 
     def all_modules(self) -> Generator[Module, None, None]:
         """Return all modules I loaded."""
@@ -384,6 +427,15 @@ class CodeLibrary(BaseModel):
             class_json_path.write_text(class_def.to_json())
 
         # functions
+        function_dir = target_dir / "def"
+        log.info("Serializing functions to %s", function_dir)
+        function_dir.mkdir(exist_ok=True)
+
+        for function_def in self.all_functions():
+            function_json_path = function_dir / f"{function_def.namespace}.json"
+            log.debug("function %s -> %s", function_def, function_json_path)
+            function_json_path.write_text(function_def.to_json())
+
         # library.json master list
         serialized_self = self.to_json()
         library_path = target_dir / "library.json"
