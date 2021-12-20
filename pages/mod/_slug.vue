@@ -3,7 +3,19 @@
     <b-breadcrumb :items="breadcrumbs" />
     <h1>Module {{ mod.namespace }}</h1>
     <Docstring :docstring="mod.docstring" />
-    <ClassList :classes="mod.classes" :parentName="mod.namespace" />
+    <b-container>
+      <b-row>
+        <b-col>
+          <ClassList :classes="mod.classes" :parentName="mod.namespace" />
+        </b-col>
+        <b-col>
+          <FunctionList
+            :functions="mod.functions"
+            :parentName="mod.namespace"
+          />
+        </b-col>
+      </b-row>
+    </b-container>
   </div>
 </template>
 

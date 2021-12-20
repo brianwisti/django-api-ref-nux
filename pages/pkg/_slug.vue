@@ -23,6 +23,12 @@
             :parentName="pkg.name"
             />
         </b-col>
+        <b-col>
+          <FunctionList
+            :functions="pkg.functions"
+            :parentName="pkg.name"
+          />
+        </b-col>
       </b-row>
     </b-container>
   </div>

@@ -3,6 +3,11 @@
     <b-breadcrumb :items="breadcrumbs" />
     <h1>Class {{ cls.name }}</h1>
     <Docstring :docstring="cls.docstring" />
+    <FunctionList
+      :functions="cls.methods"
+      :parentName="cls.name"
+      :isMethodList="true"
+    />
   </div>
 </template>
 

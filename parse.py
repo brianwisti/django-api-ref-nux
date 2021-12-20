@@ -87,6 +87,7 @@ class FunctionDef(BaseModel):
             docstring=docstring,
             name=name,
             namespace=namespace,
+            class_name=class_name,
             module_name=module_name,
             package_name=package_name,
             _parsed=parsed_function
