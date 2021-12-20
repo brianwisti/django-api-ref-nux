@@ -1,5 +1,6 @@
 <template>
   <div>
+    <b-breadcrumb :items="breadcrumbs" />
     <h1>Package {{ pkg.name }}</h1>
     <Docstring :docstring="pkg.docstring" />
     <b-container>
@@ -31,9 +32,22 @@
 export default {
   async asyncData({ $content, params }) {
     const pkg = await $content('pkg', params.slug).fetch()
+    let breadcrumbs = [];
+
+    if (pkg.package_name) {
+      breadcrumbs.push({
+        text: pkg.package_name,
+        href: `/pkg/${pkg.package_name}`,
+      })
+    }
+
+    breadcrumbs.push({
+      text: pkg.name,
+      active: true
+    });
 
     return {
-      pkg
+      pkg, breadcrumbs
     }
   }
 }

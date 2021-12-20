@@ -50,22 +50,39 @@ class ClassDef(BaseModel):
     docstring: str = EMPTY_STRING
     name: str
     namespace: str
-    parent_namespace: str
+    module_name: str = EMPTY_STRING
+    package_name: str = EMPTY_STRING
     _parsed: parso.python.tree.Class = PrivateAttr()
 
     def to_json(self) -> str:
         return self.json(indent=4)
 
     @classmethod
-    def from_parsed_class(cls, parent_namespace: str, parsed_class: parso.python.tree.Class) -> "ClassDef":
+    def from_parsed_class(
+            cls,
+            parsed_class: parso.python.tree.Class,
+            module_name: str=EMPTY_STRING,
+            package_name: str=EMPTY_STRING,
+    ) -> "ClassDef":
         docstring = find_node_docstring(parsed_class)
         name = parsed_class.name.value
-        namespace = f"{parent_namespace}.{name}"
+
+        if module_name:
+            namespace = f"{module_name}.{name}"
+        elif package_name:
+            namespace = f"{package_name}.{name}"
+
+        if not namespace:
+            raise ValueError(
+                "Make sure a class's module_name or package_name is set"
+            )
+
         return cls(
             docstring=docstring,
             name=name,
             namespace=namespace,
-            parent_namespace=parent_namespace,
+            module_name=module_name,
+            package_name=package_name,
             _parsed=parsed_class
         )
 
@@ -75,6 +92,7 @@ class Module(BaseModel):
     namespace: str
     docstring: str = EMPTY_STRING
     classes: List[ClassDef] = Field(default_factory=list)
+    package_name: str = EMPTY_STRING
     _parsed: parso.python.tree.Module = PrivateAttr()
 
     def __init__(self, **data):
@@ -96,19 +114,36 @@ class Module(BaseModel):
     def to_json(self) -> str:
         return self.json(
             exclude={
-                "classes": { "__all__": { "parent_namespace" }},
+                "classes": { "__all__": { "module_name", "package_name" }},
             },
             indent=4,
         )
 
     @classmethod
-    def from_path(cls, namespace, path: Path):
+    def from_path(
+        cls,
+        namespace,
+        path: Path,
+        package_name: str=EMPTY_STRING
+    ):
         source = path.read_text()
         parsed = parso.parse(source).get_root_node()
         docstring = find_node_docstring(parsed)
-        classes = [ClassDef.from_parsed_class(namespace, classdef) for classdef in parsed.iter_classdefs()]
+        classes = [
+            ClassDef.from_parsed_class(
+                classdef,
+                module_name=namespace,
+            )
+            for classdef in parsed.iter_classdefs()
+        ]
 
-        return cls(namespace=namespace, docstring=docstring, classes=classes, _parsed=parsed)
+        return cls(
+            namespace=namespace,
+            docstring=docstring,
+            classes=classes,
+            package_name=package_name,
+            _parsed=parsed,
+        )
 
 
 class Package(BaseModel):
@@ -116,6 +151,7 @@ class Package(BaseModel):
 
     name: str
     docstring: str = EMPTY_STRING
+    package_name: str = EMPTY_STRING
     classes: List[ClassDef] = Field(default_factory=list)
     modules: List[Module] = Field(default_factory=list)
     subpackages: List["Package"] = Field(default_factory=list)
@@ -183,6 +219,7 @@ class Package(BaseModel):
         # at my package module *through me*
         for classdef in self._package_module.classes:
             classdef.namespace = f"{self.name}.{classdef.name}"
+            classdef.package_name = self.name
             classes.append(classdef)
 
         return classes
@@ -194,9 +231,14 @@ class Package(BaseModel):
             m for m in self._path.parent.glob("*.py") if not m.name.startswith("__")
         ]
         log.debug("module paths found: %s", module_list)
+        package_name = self.name
 
         return [
-            Module.from_path(path=path, namespace=f"{self.name}.{path.stem}")
+            Module.from_path(
+                path=path,
+                package_name=package_name,
+                namespace=f"{self.name}.{path.stem}"
+            )
             for path in module_list
         ]
 
@@ -209,7 +251,12 @@ class Package(BaseModel):
             package_path = d / "__init__.py"
 
             if package_path.is_file():
-                packages.append(Package(name=f"{self.name}.{package_path.parent.stem}"))
+                packages.append(
+                    Package(
+                        name=f"{self.name}.{package_path.parent.stem}",
+                        package_name=self.name,
+                    )
+                )
 
         log.debug("subpackages found: %s", packages)
         return packages
