@@ -1,19 +1,23 @@
 {
     "name": "django.contrib.admin.views",
     "docstring": "",
+    "package_name": "django.contrib.admin",
     "classes": [],
     "modules": [
         {
-            "namespace": "django.contrib.admin.views.decorators",
-            "docstring": ""
+            "namespace": "django.contrib.admin.views.autocomplete",
+            "docstring": "",
+            "package_name": "django.contrib.admin.views"
         },
         {
             "namespace": "django.contrib.admin.views.main",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.admin.views"
         },
         {
-            "namespace": "django.contrib.admin.views.autocomplete",
-            "docstring": ""
+            "namespace": "django.contrib.admin.views.decorators",
+            "docstring": "",
+            "package_name": "django.contrib.admin.views"
         }
     ],
     "subpackages": []

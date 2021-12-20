@@ -1,49 +1,60 @@
 {
     "name": "django.contrib.sites",
     "docstring": "",
+    "package_name": "django.contrib",
     "classes": [],
     "modules": [
         {
-            "namespace": "django.contrib.sites.middleware",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.sites.management",
-            "docstring": "\"\"\"\nCreates the default Site object.\n\"\"\""
-        },
-        {
-            "namespace": "django.contrib.sites.apps",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.sites.admin",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.sites.requests",
-            "docstring": ""
+            "namespace": "django.contrib.sites.models",
+            "docstring": "",
+            "package_name": "django.contrib.sites"
         },
         {
             "namespace": "django.contrib.sites.shortcuts",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.sites"
         },
         {
             "namespace": "django.contrib.sites.checks",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.sites"
         },
         {
-            "namespace": "django.contrib.sites.models",
-            "docstring": ""
+            "namespace": "django.contrib.sites.apps",
+            "docstring": "",
+            "package_name": "django.contrib.sites"
+        },
+        {
+            "namespace": "django.contrib.sites.admin",
+            "docstring": "",
+            "package_name": "django.contrib.sites"
+        },
+        {
+            "namespace": "django.contrib.sites.management",
+            "docstring": "\"\"\"\nCreates the default Site object.\n\"\"\"",
+            "package_name": "django.contrib.sites"
+        },
+        {
+            "namespace": "django.contrib.sites.requests",
+            "docstring": "",
+            "package_name": "django.contrib.sites"
+        },
+        {
+            "namespace": "django.contrib.sites.middleware",
+            "docstring": "",
+            "package_name": "django.contrib.sites"
         },
         {
             "namespace": "django.contrib.sites.managers",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.sites"
         }
     ],
     "subpackages": [
         {
             "name": "django.contrib.sites.migrations",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.sites"
         }
     ]
 }

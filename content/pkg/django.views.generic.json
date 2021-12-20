@@ -1,34 +1,41 @@
 {
     "name": "django.views.generic",
     "docstring": "",
+    "package_name": "django.views",
     "classes": [
         {
             "docstring": "\"\"\"A problem in a generic view.\"\"\"",
             "name": "GenericViewError",
             "namespace": "django.views.generic.GenericViewError",
-            "parent_namespace": "django.views.generic"
+            "module_name": "django.views.generic",
+            "package_name": "django.views.generic"
         }
     ],
     "modules": [
         {
             "namespace": "django.views.generic.list",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.views.generic.base",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.views.generic.dates",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.views.generic"
         },
         {
             "namespace": "django.views.generic.edit",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.views.generic"
         },
         {
             "namespace": "django.views.generic.detail",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.views.generic"
+        },
+        {
+            "namespace": "django.views.generic.dates",
+            "docstring": "",
+            "package_name": "django.views.generic"
+        },
+        {
+            "namespace": "django.views.generic.base",
+            "docstring": "",
+            "package_name": "django.views.generic"
         }
     ],
     "subpackages": []

@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    Statement template and formatting parameters container.\n\n    Allows keeping a reference to a statement without interpolating identifiers\n    that might have to be adjusted if they're referencing a table or column\n    that is removed\n    \"\"\"",
     "name": "Statement",
     "namespace": "django.db.backends.ddl_references.Statement",
-    "parent_namespace": "django.db.backends.ddl_references"
+    "module_name": "django.db.backends.ddl_references",
+    "package_name": ""
 }

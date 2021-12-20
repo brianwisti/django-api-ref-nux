@@ -1,93 +1,115 @@
 {
     "name": "django.contrib.auth",
     "docstring": "",
+    "package_name": "django.contrib",
     "classes": [],
     "modules": [
         {
-            "namespace": "django.contrib.auth.middleware",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.auth.tokens",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.auth.decorators",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.auth.password_validation",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.auth.views",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.auth.apps",
-            "docstring": ""
-        },
-        {
             "namespace": "django.contrib.auth.signals",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.auth.urls",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.auth.hashers",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.auth.admin",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.auth.backends",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.auth.base_user",
-            "docstring": "\"\"\"\nThis module allows importing AbstractBaseUser even when django.contrib.auth is\nnot in INSTALLED_APPS.\n\"\"\""
-        },
-        {
-            "namespace": "django.contrib.auth.forms",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.auth"
         },
         {
             "namespace": "django.contrib.auth.mixins",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.auth"
         },
         {
-            "namespace": "django.contrib.auth.checks",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.auth.validators",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.auth.context_processors",
-            "docstring": ""
+            "namespace": "django.contrib.auth.password_validation",
+            "docstring": "",
+            "package_name": "django.contrib.auth"
         },
         {
             "namespace": "django.contrib.auth.models",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.auth"
+        },
+        {
+            "namespace": "django.contrib.auth.validators",
+            "docstring": "",
+            "package_name": "django.contrib.auth"
+        },
+        {
+            "namespace": "django.contrib.auth.checks",
+            "docstring": "",
+            "package_name": "django.contrib.auth"
+        },
+        {
+            "namespace": "django.contrib.auth.base_user",
+            "docstring": "\"\"\"\nThis module allows importing AbstractBaseUser even when django.contrib.auth is\nnot in INSTALLED_APPS.\n\"\"\"",
+            "package_name": "django.contrib.auth"
+        },
+        {
+            "namespace": "django.contrib.auth.tokens",
+            "docstring": "",
+            "package_name": "django.contrib.auth"
+        },
+        {
+            "namespace": "django.contrib.auth.apps",
+            "docstring": "",
+            "package_name": "django.contrib.auth"
+        },
+        {
+            "namespace": "django.contrib.auth.forms",
+            "docstring": "",
+            "package_name": "django.contrib.auth"
+        },
+        {
+            "namespace": "django.contrib.auth.backends",
+            "docstring": "",
+            "package_name": "django.contrib.auth"
+        },
+        {
+            "namespace": "django.contrib.auth.context_processors",
+            "docstring": "",
+            "package_name": "django.contrib.auth"
+        },
+        {
+            "namespace": "django.contrib.auth.admin",
+            "docstring": "",
+            "package_name": "django.contrib.auth"
+        },
+        {
+            "namespace": "django.contrib.auth.hashers",
+            "docstring": "",
+            "package_name": "django.contrib.auth"
+        },
+        {
+            "namespace": "django.contrib.auth.urls",
+            "docstring": "",
+            "package_name": "django.contrib.auth"
+        },
+        {
+            "namespace": "django.contrib.auth.middleware",
+            "docstring": "",
+            "package_name": "django.contrib.auth"
+        },
+        {
+            "namespace": "django.contrib.auth.views",
+            "docstring": "",
+            "package_name": "django.contrib.auth"
+        },
+        {
+            "namespace": "django.contrib.auth.decorators",
+            "docstring": "",
+            "package_name": "django.contrib.auth"
         }
     ],
     "subpackages": [
         {
-            "name": "django.contrib.auth.handlers",
-            "docstring": ""
+            "name": "django.contrib.auth.migrations",
+            "docstring": "",
+            "package_name": "django.contrib.auth"
         },
         {
             "name": "django.contrib.auth.management",
-            "docstring": "\"\"\"\nCreates permissions for all installed apps that need permissions.\n\"\"\""
+            "docstring": "\"\"\"\nCreates permissions for all installed apps that need permissions.\n\"\"\"",
+            "package_name": "django.contrib.auth"
         },
         {
-            "name": "django.contrib.auth.migrations",
-            "docstring": ""
+            "name": "django.contrib.auth.handlers",
+            "docstring": "",
+            "package_name": "django.contrib.auth"
         }
     ]
 }

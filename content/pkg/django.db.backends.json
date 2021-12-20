@@ -1,45 +1,55 @@
 {
     "name": "django.db.backends",
     "docstring": "",
+    "package_name": "django.db",
     "classes": [],
     "modules": [
         {
-            "namespace": "django.db.backends.ddl_references",
-            "docstring": "\"\"\"\nHelpers to manipulate deferred DDL statements that might need to be adjusted or\ndiscarded within when executing a migration.\n\"\"\""
+            "namespace": "django.db.backends.signals",
+            "docstring": "",
+            "package_name": "django.db.backends"
         },
         {
-            "namespace": "django.db.backends.signals",
-            "docstring": ""
+            "namespace": "django.db.backends.ddl_references",
+            "docstring": "\"\"\"\nHelpers to manipulate deferred DDL statements that might need to be adjusted or\ndiscarded within when executing a migration.\n\"\"\"",
+            "package_name": "django.db.backends"
         },
         {
             "namespace": "django.db.backends.utils",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.db.backends"
         }
     ],
     "subpackages": [
         {
-            "name": "django.db.backends.oracle",
-            "docstring": ""
-        },
-        {
             "name": "django.db.backends.postgresql",
-            "docstring": ""
-        },
-        {
-            "name": "django.db.backends.mysql",
-            "docstring": ""
-        },
-        {
-            "name": "django.db.backends.base",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.db.backends"
         },
         {
             "name": "django.db.backends.dummy",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.db.backends"
+        },
+        {
+            "name": "django.db.backends.oracle",
+            "docstring": "",
+            "package_name": "django.db.backends"
         },
         {
             "name": "django.db.backends.sqlite3",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.db.backends"
+        },
+        {
+            "name": "django.db.backends.mysql",
+            "docstring": "",
+            "package_name": "django.db.backends"
+        },
+        {
+            "name": "django.db.backends.base",
+            "docstring": "",
+            "package_name": "django.db.backends"
         }
     ]
 }

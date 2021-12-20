@@ -1,181 +1,225 @@
 {
     "name": "django.utils",
     "docstring": "",
+    "package_name": "django",
     "classes": [],
     "modules": [
         {
-            "namespace": "django.utils.text",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.utils.hashable",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.utils.tree",
-            "docstring": "\"\"\"\nA class for storing a tree graph. Primarily used for filter constructs in the\nORM.\n\"\"\""
-        },
-        {
-            "namespace": "django.utils.xmlutils",
-            "docstring": "\"\"\"\nUtilities for XML generation/parsing.\n\"\"\""
-        },
-        {
-            "namespace": "django.utils.deprecation",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.utils.duration",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.utils.timesince",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.utils.safestring",
-            "docstring": "\"\"\"\nFunctions for working with \"safe strings\": strings that can be displayed safely\nwithout further escaping in HTML. Marking something as a \"safe string\" means\nthat the producer of the string has already turned characters that should not\nbe interpreted by the HTML engine (e.g. '<') into the appropriate entities.\n\"\"\""
-        },
-        {
-            "namespace": "django.utils.decorators",
-            "docstring": "\"Functions that help with dynamically creating decorators for views.\""
-        },
-        {
-            "namespace": "django.utils.log",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.utils.functional",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.utils.ipv6",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.utils.inspect",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.utils.module_loading",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.utils.encoding",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.utils.dateparse",
-            "docstring": "\"\"\"Functions to parse datetime objects.\"\"\""
-        },
-        {
-            "namespace": "django.utils.topological_sort",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.utils.version",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.utils.asyncio",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.utils.deconstruct",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.utils.lorem_ipsum",
-            "docstring": "\"\"\"\nUtility functions for generating \"lorem ipsum\" Latin text.\n\"\"\""
-        },
-        {
-            "namespace": "django.utils.crypto",
-            "docstring": "\"\"\"\nDjango's standard crypto functions and utilities.\n\"\"\""
-        },
-        {
-            "namespace": "django.utils.dates",
-            "docstring": "\"Commonly-used date structures\""
+            "namespace": "django.utils._os",
+            "docstring": "",
+            "package_name": "django.utils"
         },
         {
             "namespace": "django.utils.termcolors",
-            "docstring": "\"\"\"\ntermcolors.py\n\"\"\""
+            "docstring": "\"\"\"\ntermcolors.py\n\"\"\"",
+            "package_name": "django.utils"
         },
         {
-            "namespace": "django.utils.baseconv",
-            "docstring": "\"\"\"\nConvert numbers from base 10 integers to base X strings and back again.\n\nSample usage::\n\n  >>> base20 = BaseConverter('0123456789abcdefghij')\n  >>> base20.encode(1234)\n  '31e'\n  >>> base20.decode('31e')\n  1234\n  >>> base20.encode(-1234)\n  '-31e'\n  >>> base20.decode('-31e')\n  -1234\n  >>> base11 = BaseConverter('0123456789-', sign='$')\n  >>> base11.encode(-1234)\n  '$-22'\n  >>> base11.decode('$-22')\n  -1234\n\n\"\"\""
+            "namespace": "django.utils.topological_sort",
+            "docstring": "",
+            "package_name": "django.utils"
         },
         {
-            "namespace": "django.utils.dateformat",
-            "docstring": "\"\"\"\nPHP date() style date formatting\nSee http://www.php.net/date for format strings\n\nUsage:\n>>> import datetime\n>>> d = datetime.datetime.now()\n>>> df = DateFormat(d)\n>>> print(df.format('jS F Y H:i'))\n7th October 2003 11:39\n>>>\n\"\"\""
+            "namespace": "django.utils.tree",
+            "docstring": "\"\"\"\nA class for storing a tree graph. Primarily used for filter constructs in the\nORM.\n\"\"\"",
+            "package_name": "django.utils"
         },
         {
-            "namespace": "django.utils.archive",
-            "docstring": "\"\"\"\nBased on \"python-archive\" -- https://pypi.org/project/python-archive/\n\nCopyright (c) 2010 Gary Wilson Jr. <gary.wilson@gmail.com> and contributors.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n\"\"\""
+            "namespace": "django.utils.hashable",
+            "docstring": "",
+            "package_name": "django.utils"
         },
         {
-            "namespace": "django.utils.regex_helper",
-            "docstring": "\"\"\"\nFunctions for reversing a regular expression (used in reverse URL resolving).\nUsed internally by Django and not intended for external use.\n\nThis is not, and is not intended to be, a complete reg-exp decompiler. It\nshould be good enough for a large class of URLS, however.\n\"\"\""
+            "namespace": "django.utils.version",
+            "docstring": "",
+            "package_name": "django.utils"
         },
         {
-            "namespace": "django.utils.datastructures",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.utils.http",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.utils.timezone",
-            "docstring": "\"\"\"\nTimezone-related classes and functions.\n\"\"\""
-        },
-        {
-            "namespace": "django.utils.formats",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.utils._os",
-            "docstring": ""
+            "namespace": "django.utils.encoding",
+            "docstring": "",
+            "package_name": "django.utils"
         },
         {
             "namespace": "django.utils.jslex",
-            "docstring": "\"\"\"JsLex: a lexer for JavaScript\"\"\""
+            "docstring": "\"\"\"JsLex: a lexer for JavaScript\"\"\"",
+            "package_name": "django.utils"
         },
         {
-            "namespace": "django.utils.autoreload",
-            "docstring": ""
+            "namespace": "django.utils.log",
+            "docstring": "",
+            "package_name": "django.utils"
         },
         {
-            "namespace": "django.utils.connection",
-            "docstring": ""
+            "namespace": "django.utils.deprecation",
+            "docstring": "",
+            "package_name": "django.utils"
         },
         {
-            "namespace": "django.utils.itercompat",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.utils.feedgenerator",
-            "docstring": "\"\"\"\nSyndication feed generation library -- used for generating RSS, etc.\n\nSample usage:\n\n>>> from django.utils import feedgenerator\n>>> feed = feedgenerator.Rss201rev2Feed(\n...     title=\"Poynter E-Media Tidbits\",\n...     link=\"http://www.poynter.org/column.asp?id=31\",\n...     description=\"A group blog by the sharpest minds in online media/journalism/publishing.\",\n...     language=\"en\",\n... )\n>>> feed.add_item(\n...     title=\"Hello\",\n...     link=\"http://www.holovaty.com/test/\",\n...     description=\"Testing.\"\n... )\n>>> with open('test.rss', 'w') as fp:\n...     feed.write(fp, 'utf-8')\n\nFor definitions of the different versions of RSS, see:\nhttps://web.archive.org/web/20110718035220/http://diveintomark.org/archives/2004/02/04/incompatible-rss\n\"\"\""
-        },
-        {
-            "namespace": "django.utils.datetime_safe",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.utils.html",
-            "docstring": "\"\"\"HTML utilities suitable for global use.\"\"\""
-        },
-        {
-            "namespace": "django.utils.cache",
-            "docstring": "\"\"\"\nThis module contains helper functions for controlling caching. It does so by\nmanaging the \"Vary\" header of responses. It includes functions to patch the\nheader of response objects directly and decorators that change functions to do\nthat header-patching themselves.\n\nFor information on the Vary header, see:\n\n    https://tools.ietf.org/html/rfc7231#section-7.1.4\n\nEssentially, the \"Vary\" HTTP header defines which headers a cache should take\ninto account when building its cache key. Requests with the same path but\ndifferent header content for headers named in \"Vary\" need to get different\ncache keys to prevent delivery of wrong content.\n\nAn example: i18n middleware would need to distinguish caches by the\n\"Accept-language\" header.\n\"\"\""
+            "namespace": "django.utils.timesince",
+            "docstring": "",
+            "package_name": "django.utils"
         },
         {
             "namespace": "django.utils.numberformat",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.utils"
+        },
+        {
+            "namespace": "django.utils.asyncio",
+            "docstring": "",
+            "package_name": "django.utils"
+        },
+        {
+            "namespace": "django.utils.html",
+            "docstring": "\"\"\"HTML utilities suitable for global use.\"\"\"",
+            "package_name": "django.utils"
+        },
+        {
+            "namespace": "django.utils.duration",
+            "docstring": "",
+            "package_name": "django.utils"
+        },
+        {
+            "namespace": "django.utils.cache",
+            "docstring": "\"\"\"\nThis module contains helper functions for controlling caching. It does so by\nmanaging the \"Vary\" header of responses. It includes functions to patch the\nheader of response objects directly and decorators that change functions to do\nthat header-patching themselves.\n\nFor information on the Vary header, see:\n\n    https://tools.ietf.org/html/rfc7231#section-7.1.4\n\nEssentially, the \"Vary\" HTTP header defines which headers a cache should take\ninto account when building its cache key. Requests with the same path but\ndifferent header content for headers named in \"Vary\" need to get different\ncache keys to prevent delivery of wrong content.\n\nAn example: i18n middleware would need to distinguish caches by the\n\"Accept-language\" header.\n\"\"\"",
+            "package_name": "django.utils"
+        },
+        {
+            "namespace": "django.utils.deconstruct",
+            "docstring": "",
+            "package_name": "django.utils"
+        },
+        {
+            "namespace": "django.utils.datetime_safe",
+            "docstring": "",
+            "package_name": "django.utils"
+        },
+        {
+            "namespace": "django.utils.connection",
+            "docstring": "",
+            "package_name": "django.utils"
+        },
+        {
+            "namespace": "django.utils.inspect",
+            "docstring": "",
+            "package_name": "django.utils"
+        },
+        {
+            "namespace": "django.utils.functional",
+            "docstring": "",
+            "package_name": "django.utils"
+        },
+        {
+            "namespace": "django.utils.crypto",
+            "docstring": "\"\"\"\nDjango's standard crypto functions and utilities.\n\"\"\"",
+            "package_name": "django.utils"
+        },
+        {
+            "namespace": "django.utils.lorem_ipsum",
+            "docstring": "\"\"\"\nUtility functions for generating \"lorem ipsum\" Latin text.\n\"\"\"",
+            "package_name": "django.utils"
+        },
+        {
+            "namespace": "django.utils.regex_helper",
+            "docstring": "\"\"\"\nFunctions for reversing a regular expression (used in reverse URL resolving).\nUsed internally by Django and not intended for external use.\n\nThis is not, and is not intended to be, a complete reg-exp decompiler. It\nshould be good enough for a large class of URLS, however.\n\"\"\"",
+            "package_name": "django.utils"
+        },
+        {
+            "namespace": "django.utils.http",
+            "docstring": "",
+            "package_name": "django.utils"
+        },
+        {
+            "namespace": "django.utils.formats",
+            "docstring": "",
+            "package_name": "django.utils"
+        },
+        {
+            "namespace": "django.utils.baseconv",
+            "docstring": "\"\"\"\nConvert numbers from base 10 integers to base X strings and back again.\n\nSample usage::\n\n  >>> base20 = BaseConverter('0123456789abcdefghij')\n  >>> base20.encode(1234)\n  '31e'\n  >>> base20.decode('31e')\n  1234\n  >>> base20.encode(-1234)\n  '-31e'\n  >>> base20.decode('-31e')\n  -1234\n  >>> base11 = BaseConverter('0123456789-', sign='$')\n  >>> base11.encode(-1234)\n  '$-22'\n  >>> base11.decode('$-22')\n  -1234\n\n\"\"\"",
+            "package_name": "django.utils"
+        },
+        {
+            "namespace": "django.utils.text",
+            "docstring": "",
+            "package_name": "django.utils"
+        },
+        {
+            "namespace": "django.utils.archive",
+            "docstring": "\"\"\"\nBased on \"python-archive\" -- https://pypi.org/project/python-archive/\n\nCopyright (c) 2010 Gary Wilson Jr. <gary.wilson@gmail.com> and contributors.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n\"\"\"",
+            "package_name": "django.utils"
+        },
+        {
+            "namespace": "django.utils.safestring",
+            "docstring": "\"\"\"\nFunctions for working with \"safe strings\": strings that can be displayed safely\nwithout further escaping in HTML. Marking something as a \"safe string\" means\nthat the producer of the string has already turned characters that should not\nbe interpreted by the HTML engine (e.g. '<') into the appropriate entities.\n\"\"\"",
+            "package_name": "django.utils"
+        },
+        {
+            "namespace": "django.utils.dates",
+            "docstring": "\"Commonly-used date structures\"",
+            "package_name": "django.utils"
+        },
+        {
+            "namespace": "django.utils.feedgenerator",
+            "docstring": "\"\"\"\nSyndication feed generation library -- used for generating RSS, etc.\n\nSample usage:\n\n>>> from django.utils import feedgenerator\n>>> feed = feedgenerator.Rss201rev2Feed(\n...     title=\"Poynter E-Media Tidbits\",\n...     link=\"http://www.poynter.org/column.asp?id=31\",\n...     description=\"A group blog by the sharpest minds in online media/journalism/publishing.\",\n...     language=\"en\",\n... )\n>>> feed.add_item(\n...     title=\"Hello\",\n...     link=\"http://www.holovaty.com/test/\",\n...     description=\"Testing.\"\n... )\n>>> with open('test.rss', 'w') as fp:\n...     feed.write(fp, 'utf-8')\n\nFor definitions of the different versions of RSS, see:\nhttps://web.archive.org/web/20110718035220/http://diveintomark.org/archives/2004/02/04/incompatible-rss\n\"\"\"",
+            "package_name": "django.utils"
+        },
+        {
+            "namespace": "django.utils.autoreload",
+            "docstring": "",
+            "package_name": "django.utils"
+        },
+        {
+            "namespace": "django.utils.datastructures",
+            "docstring": "",
+            "package_name": "django.utils"
+        },
+        {
+            "namespace": "django.utils.dateformat",
+            "docstring": "\"\"\"\nPHP date() style date formatting\nSee http://www.php.net/date for format strings\n\nUsage:\n>>> import datetime\n>>> d = datetime.datetime.now()\n>>> df = DateFormat(d)\n>>> print(df.format('jS F Y H:i'))\n7th October 2003 11:39\n>>>\n\"\"\"",
+            "package_name": "django.utils"
+        },
+        {
+            "namespace": "django.utils.timezone",
+            "docstring": "\"\"\"\nTimezone-related classes and functions.\n\"\"\"",
+            "package_name": "django.utils"
+        },
+        {
+            "namespace": "django.utils.ipv6",
+            "docstring": "",
+            "package_name": "django.utils"
+        },
+        {
+            "namespace": "django.utils.module_loading",
+            "docstring": "",
+            "package_name": "django.utils"
+        },
+        {
+            "namespace": "django.utils.dateparse",
+            "docstring": "\"\"\"Functions to parse datetime objects.\"\"\"",
+            "package_name": "django.utils"
+        },
+        {
+            "namespace": "django.utils.itercompat",
+            "docstring": "",
+            "package_name": "django.utils"
+        },
+        {
+            "namespace": "django.utils.xmlutils",
+            "docstring": "\"\"\"\nUtilities for XML generation/parsing.\n\"\"\"",
+            "package_name": "django.utils"
+        },
+        {
+            "namespace": "django.utils.decorators",
+            "docstring": "\"Functions that help with dynamically creating decorators for views.\"",
+            "package_name": "django.utils"
         }
     ],
     "subpackages": [
         {
             "name": "django.utils.translation",
-            "docstring": "\"\"\"\nInternationalization support.\n\"\"\""
+            "docstring": "\"\"\"\nInternationalization support.\n\"\"\"",
+            "package_name": "django.utils"
         }
     ]
 }

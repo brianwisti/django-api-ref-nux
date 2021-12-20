@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    This subclass of template.Context automatically populates itself using\n    the processors defined in the engine's configuration.\n    Additional processors can be specified as a list of callables\n    using the \"processors\" keyword argument.\n    \"\"\"",
     "name": "RequestContext",
     "namespace": "django.template.context.RequestContext",
-    "parent_namespace": "django.template.context"
+    "module_name": "django.template.context",
+    "package_name": ""
 }

@@ -1,27 +1,33 @@
 {
     "name": "django.template.loaders",
     "docstring": "",
+    "package_name": "django.template",
     "classes": [],
     "modules": [
         {
-            "namespace": "django.template.loaders.locmem",
-            "docstring": "\"\"\"\nWrapper for loading templates from a plain Python dict.\n\"\"\""
-        },
-        {
-            "namespace": "django.template.loaders.base",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.template.loaders.app_directories",
-            "docstring": "\"\"\"\nWrapper for loading templates from \"templates\" directories in INSTALLED_APPS\npackages.\n\"\"\""
-        },
-        {
             "namespace": "django.template.loaders.filesystem",
-            "docstring": "\"\"\"\nWrapper for loading templates from the filesystem.\n\"\"\""
+            "docstring": "\"\"\"\nWrapper for loading templates from the filesystem.\n\"\"\"",
+            "package_name": "django.template.loaders"
         },
         {
             "namespace": "django.template.loaders.cached",
-            "docstring": "\"\"\"\nWrapper class that takes a list of template loaders as an argument and attempts\nto load templates from them in order, caching the result.\n\"\"\""
+            "docstring": "\"\"\"\nWrapper class that takes a list of template loaders as an argument and attempts\nto load templates from them in order, caching the result.\n\"\"\"",
+            "package_name": "django.template.loaders"
+        },
+        {
+            "namespace": "django.template.loaders.app_directories",
+            "docstring": "\"\"\"\nWrapper for loading templates from \"templates\" directories in INSTALLED_APPS\npackages.\n\"\"\"",
+            "package_name": "django.template.loaders"
+        },
+        {
+            "namespace": "django.template.loaders.base",
+            "docstring": "",
+            "package_name": "django.template.loaders"
+        },
+        {
+            "namespace": "django.template.loaders.locmem",
+            "docstring": "\"\"\"\nWrapper for loading templates from a plain Python dict.\n\"\"\"",
+            "package_name": "django.template.loaders"
         }
     ],
     "subpackages": []

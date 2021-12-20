@@ -1,41 +1,50 @@
 {
     "name": "django.contrib.messages",
     "docstring": "",
+    "package_name": "django.contrib",
     "classes": [],
     "modules": [
         {
             "namespace": "django.contrib.messages.constants",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.messages.middleware",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.messages.views",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.messages"
         },
         {
             "namespace": "django.contrib.messages.apps",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.messages.utils",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.messages"
         },
         {
             "namespace": "django.contrib.messages.api",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.messages"
         },
         {
             "namespace": "django.contrib.messages.context_processors",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.messages"
+        },
+        {
+            "namespace": "django.contrib.messages.utils",
+            "docstring": "",
+            "package_name": "django.contrib.messages"
+        },
+        {
+            "namespace": "django.contrib.messages.middleware",
+            "docstring": "",
+            "package_name": "django.contrib.messages"
+        },
+        {
+            "namespace": "django.contrib.messages.views",
+            "docstring": "",
+            "package_name": "django.contrib.messages"
         }
     ],
     "subpackages": [
         {
             "name": "django.contrib.messages.storage",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.messages"
         }
     ]
 }

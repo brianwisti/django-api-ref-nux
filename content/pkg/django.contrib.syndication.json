@@ -1,15 +1,18 @@
 {
     "name": "django.contrib.syndication",
     "docstring": "",
+    "package_name": "django.contrib",
     "classes": [],
     "modules": [
         {
-            "namespace": "django.contrib.syndication.views",
-            "docstring": ""
+            "namespace": "django.contrib.syndication.apps",
+            "docstring": "",
+            "package_name": "django.contrib.syndication"
         },
         {
-            "namespace": "django.contrib.syndication.apps",
-            "docstring": ""
+            "namespace": "django.contrib.syndication.views",
+            "docstring": "",
+            "package_name": "django.contrib.syndication"
         }
     ],
     "subpackages": []

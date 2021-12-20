@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    RelatedPopulator is used for select_related() object instantiation.\n\n    The idea is that each select_related() model will be populated by a\n    different RelatedPopulator instance. The RelatedPopulator instances get\n    klass_info and select (computed in SQLCompiler) plus the used db as\n    input for initialization. That data is used to compute which columns\n    to use, how to instantiate the model, and how to populate the links\n    between the objects.\n\n    The actual creation of the objects is done in populate() method. This\n    method gets row and from_obj as input and populates the select_related()\n    model instance.\n    \"\"\"",
     "name": "RelatedPopulator",
     "namespace": "django.db.models.query.RelatedPopulator",
-    "parent_namespace": "django.db.models.query"
+    "module_name": "django.db.models.query",
+    "package_name": ""
 }

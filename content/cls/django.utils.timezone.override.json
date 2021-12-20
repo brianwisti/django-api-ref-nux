@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    Temporarily set the time zone for the current thread.\n\n    This is a context manager that uses django.utils.timezone.activate()\n    to set the timezone on entry and restores the previously active timezone\n    on exit.\n\n    The ``timezone`` argument must be an instance of a ``tzinfo`` subclass, a\n    time zone name, or ``None``. If it is ``None``, Django enables the default\n    time zone.\n    \"\"\"",
     "name": "override",
     "namespace": "django.utils.timezone.override",
-    "parent_namespace": "django.utils.timezone"
+    "module_name": "django.utils.timezone",
+    "package_name": ""
 }

@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    Act as either a decorator or a context manager to register models defined\n    in its wrapped context to an isolated registry.\n\n    The list of installed apps the isolated registry should contain must be\n    passed as arguments.\n\n    Two optional keyword arguments can be specified:\n\n    `attr_name`: attribute assigned the isolated registry if used as a class\n                 decorator.\n\n    `kwarg_name`: keyword argument passing the isolated registry if used as a\n                  function decorator.\n    \"\"\"",
     "name": "isolate_apps",
     "namespace": "django.test.utils.isolate_apps",
-    "parent_namespace": "django.test.utils"
+    "module_name": "django.test.utils",
+    "package_name": ""
 }

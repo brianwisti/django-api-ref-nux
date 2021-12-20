@@ -1,39 +1,48 @@
 {
     "name": "django.views.decorators",
     "docstring": "",
+    "package_name": "django.views",
     "classes": [],
     "modules": [
         {
-            "namespace": "django.views.decorators.gzip",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.views.decorators.vary",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.views.decorators.common",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.views.decorators.http",
-            "docstring": "\"\"\"\nDecorators for views based on HTTP headers.\n\"\"\""
-        },
-        {
-            "namespace": "django.views.decorators.debug",
-            "docstring": ""
-        },
-        {
             "namespace": "django.views.decorators.clickjacking",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.views.decorators"
         },
         {
-            "namespace": "django.views.decorators.cache",
-            "docstring": ""
+            "namespace": "django.views.decorators.gzip",
+            "docstring": "",
+            "package_name": "django.views.decorators"
         },
         {
             "namespace": "django.views.decorators.csrf",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.views.decorators"
+        },
+        {
+            "namespace": "django.views.decorators.vary",
+            "docstring": "",
+            "package_name": "django.views.decorators"
+        },
+        {
+            "namespace": "django.views.decorators.cache",
+            "docstring": "",
+            "package_name": "django.views.decorators"
+        },
+        {
+            "namespace": "django.views.decorators.common",
+            "docstring": "",
+            "package_name": "django.views.decorators"
+        },
+        {
+            "namespace": "django.views.decorators.debug",
+            "docstring": "",
+            "package_name": "django.views.decorators"
+        },
+        {
+            "namespace": "django.views.decorators.http",
+            "docstring": "\"\"\"\nDecorators for views based on HTTP headers.\n\"\"\"",
+            "package_name": "django.views.decorators"
         }
     ],
     "subpackages": []

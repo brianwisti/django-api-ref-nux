@@ -1,39 +1,48 @@
 {
     "name": "django.db.backends.base",
     "docstring": "",
+    "package_name": "django.db.backends",
     "classes": [],
     "modules": [
         {
             "namespace": "django.db.backends.base.creation",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.db.backends.base.introspection",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.db.backends.base"
         },
         {
             "namespace": "django.db.backends.base.client",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.db.backends.base.base",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.db.backends.base.operations",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.db.backends.base"
         },
         {
             "namespace": "django.db.backends.base.features",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.db.backends.base"
         },
         {
-            "namespace": "django.db.backends.base.validation",
-            "docstring": ""
+            "namespace": "django.db.backends.base.operations",
+            "docstring": "",
+            "package_name": "django.db.backends.base"
+        },
+        {
+            "namespace": "django.db.backends.base.introspection",
+            "docstring": "",
+            "package_name": "django.db.backends.base"
+        },
+        {
+            "namespace": "django.db.backends.base.base",
+            "docstring": "",
+            "package_name": "django.db.backends.base"
         },
         {
             "namespace": "django.db.backends.base.schema",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.db.backends.base"
+        },
+        {
+            "namespace": "django.db.backends.base.validation",
+            "docstring": "",
+            "package_name": "django.db.backends.base"
         }
     ],
     "subpackages": []

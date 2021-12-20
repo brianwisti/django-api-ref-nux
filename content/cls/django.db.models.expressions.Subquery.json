@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    An explicit subquery. It may contain OuterRef() references to the outer\n    query which will be resolved when it is applied to that query.\n    \"\"\"",
     "name": "Subquery",
     "namespace": "django.db.models.expressions.Subquery",
-    "parent_namespace": "django.db.models.expressions"
+    "module_name": "django.db.models.expressions",
+    "package_name": ""
 }

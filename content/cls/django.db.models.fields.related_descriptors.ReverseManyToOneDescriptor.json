@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    Accessor to the related objects manager on the reverse side of a\n    many-to-one relation.\n\n    In the example::\n\n        class Child(Model):\n            parent = ForeignKey(Parent, related_name='children')\n\n    ``Parent.children`` is a ``ReverseManyToOneDescriptor`` instance.\n\n    Most of the implementation is delegated to a dynamically defined manager\n    class built by ``create_forward_many_to_many_manager()`` defined below.\n    \"\"\"",
     "name": "ReverseManyToOneDescriptor",
     "namespace": "django.db.models.fields.related_descriptors.ReverseManyToOneDescriptor",
-    "parent_namespace": "django.db.models.fields.related_descriptors"
+    "module_name": "django.db.models.fields.related_descriptors",
+    "package_name": ""
 }

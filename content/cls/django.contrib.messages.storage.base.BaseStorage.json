@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    This is the base backend for temporary message storage.\n\n    This is not a complete class; to be a usable storage backend, it must be\n    subclassed and the two methods ``_get`` and ``_store`` overridden.\n    \"\"\"",
     "name": "BaseStorage",
     "namespace": "django.contrib.messages.storage.base.BaseStorage",
-    "parent_namespace": "django.contrib.messages.storage.base"
+    "module_name": "django.contrib.messages.storage.base",
+    "package_name": ""
 }

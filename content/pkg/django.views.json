@@ -1,37 +1,45 @@
 {
     "name": "django.views",
     "docstring": "",
+    "package_name": "django",
     "classes": [],
     "modules": [
         {
-            "namespace": "django.views.defaults",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.views.static",
-            "docstring": "\"\"\"\nViews and functions for serving static files. These are only to be used\nduring development, and SHOULD NOT be used in a production setting.\n\"\"\""
-        },
-        {
-            "namespace": "django.views.i18n",
-            "docstring": ""
+            "namespace": "django.views.csrf",
+            "docstring": "",
+            "package_name": "django.views"
         },
         {
             "namespace": "django.views.debug",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.views"
         },
         {
-            "namespace": "django.views.csrf",
-            "docstring": ""
+            "namespace": "django.views.static",
+            "docstring": "\"\"\"\nViews and functions for serving static files. These are only to be used\nduring development, and SHOULD NOT be used in a production setting.\n\"\"\"",
+            "package_name": "django.views"
+        },
+        {
+            "namespace": "django.views.defaults",
+            "docstring": "",
+            "package_name": "django.views"
+        },
+        {
+            "namespace": "django.views.i18n",
+            "docstring": "",
+            "package_name": "django.views"
         }
     ],
     "subpackages": [
         {
             "name": "django.views.decorators",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.views"
         },
         {
             "name": "django.views.generic",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.views"
         }
     ]
 }

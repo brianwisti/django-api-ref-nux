@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    Represent the entire project's overall state. This is the item that is\n    passed around - do it here rather than at the app level so that cross-app\n    FKs/etc. resolve properly.\n    \"\"\"",
     "name": "ProjectState",
     "namespace": "django.db.migrations.state.ProjectState",
-    "parent_namespace": "django.db.migrations.state"
+    "module_name": "django.db.migrations.state",
+    "package_name": ""
 }

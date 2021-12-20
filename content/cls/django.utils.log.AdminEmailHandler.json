@@ -2,5 +2,6 @@
     "docstring": "\"\"\"An exception log handler that emails log entries to site admins.\n\n    If the request is passed as the first argument to the log record,\n    request data will be provided in the email report.\n    \"\"\"",
     "name": "AdminEmailHandler",
     "namespace": "django.utils.log.AdminEmailHandler",
-    "parent_namespace": "django.utils.log"
+    "module_name": "django.utils.log",
+    "package_name": ""
 }

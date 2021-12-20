@@ -1,35 +1,43 @@
 {
     "name": "django.db.backends.sqlite3",
     "docstring": "",
+    "package_name": "django.db.backends",
     "classes": [],
     "modules": [
         {
             "namespace": "django.db.backends.sqlite3.creation",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.db.backends.sqlite3.introspection",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.db.backends.sqlite3"
         },
         {
             "namespace": "django.db.backends.sqlite3.client",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.db.backends.sqlite3.base",
-            "docstring": "\"\"\"\nSQLite backend for the sqlite3 module in the standard library.\n\"\"\""
-        },
-        {
-            "namespace": "django.db.backends.sqlite3.operations",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.db.backends.sqlite3"
         },
         {
             "namespace": "django.db.backends.sqlite3.features",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.db.backends.sqlite3"
+        },
+        {
+            "namespace": "django.db.backends.sqlite3.operations",
+            "docstring": "",
+            "package_name": "django.db.backends.sqlite3"
+        },
+        {
+            "namespace": "django.db.backends.sqlite3.introspection",
+            "docstring": "",
+            "package_name": "django.db.backends.sqlite3"
+        },
+        {
+            "namespace": "django.db.backends.sqlite3.base",
+            "docstring": "\"\"\"\nSQLite backend for the sqlite3 module in the standard library.\n\"\"\"",
+            "package_name": "django.db.backends.sqlite3"
         },
         {
             "namespace": "django.db.backends.sqlite3.schema",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.db.backends.sqlite3"
         }
     ],
     "subpackages": []

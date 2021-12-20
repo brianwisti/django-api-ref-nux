@@ -1,19 +1,23 @@
 {
     "name": "django.contrib.postgres.aggregates",
     "docstring": "",
+    "package_name": "django.contrib.postgres",
     "classes": [],
     "modules": [
         {
-            "namespace": "django.contrib.postgres.aggregates.statistics",
-            "docstring": ""
+            "namespace": "django.contrib.postgres.aggregates.mixins",
+            "docstring": "",
+            "package_name": "django.contrib.postgres.aggregates"
         },
         {
-            "namespace": "django.contrib.postgres.aggregates.mixins",
-            "docstring": ""
+            "namespace": "django.contrib.postgres.aggregates.statistics",
+            "docstring": "",
+            "package_name": "django.contrib.postgres.aggregates"
         },
         {
             "namespace": "django.contrib.postgres.aggregates.general",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.postgres.aggregates"
         }
     ],
     "subpackages": []

@@ -1,46 +1,54 @@
 {
     "name": "django.conf",
     "docstring": "\"\"\"\nSettings and configuration for Django.\n\nRead values from the module specified by the DJANGO_SETTINGS_MODULE environment\nvariable, and then from django.conf.global_settings; see the global_settings.py\nfor a list of all possible variables.\n\"\"\"",
+    "package_name": "django",
     "classes": [
         {
             "docstring": "\"\"\"\n    String subclass which references a current settings value. It's treated as\n    the value in memory but serializes to a settings.NAME attribute reference.\n    \"\"\"",
             "name": "SettingsReference",
             "namespace": "django.conf.SettingsReference",
-            "parent_namespace": "django.conf"
+            "module_name": "django.conf",
+            "package_name": "django.conf"
         },
         {
             "docstring": "\"\"\"\n    A lazy proxy for either global Django settings or a custom settings object.\n    The user can manually configure settings prior to using them. Otherwise,\n    Django uses the settings module pointed to by DJANGO_SETTINGS_MODULE.\n    \"\"\"",
             "name": "LazySettings",
             "namespace": "django.conf.LazySettings",
-            "parent_namespace": "django.conf"
+            "module_name": "django.conf",
+            "package_name": "django.conf"
         },
         {
             "docstring": "",
             "name": "Settings",
             "namespace": "django.conf.Settings",
-            "parent_namespace": "django.conf"
+            "module_name": "django.conf",
+            "package_name": "django.conf"
         },
         {
             "docstring": "\"\"\"Holder for user configured settings.\"\"\"",
             "name": "UserSettingsHolder",
             "namespace": "django.conf.UserSettingsHolder",
-            "parent_namespace": "django.conf"
+            "module_name": "django.conf",
+            "package_name": "django.conf"
         }
     ],
     "modules": [
         {
             "namespace": "django.conf.global_settings",
-            "docstring": "\"\"\"\nDefault Django settings. Override these with settings in the module pointed to\nby the DJANGO_SETTINGS_MODULE environment variable.\n\"\"\""
+            "docstring": "\"\"\"\nDefault Django settings. Override these with settings in the module pointed to\nby the DJANGO_SETTINGS_MODULE environment variable.\n\"\"\"",
+            "package_name": "django.conf"
         }
     ],
     "subpackages": [
         {
-            "name": "django.conf.urls",
-            "docstring": ""
+            "name": "django.conf.locale",
+            "docstring": "\"\"\"\nLANG_INFO is a dictionary structure to provide meta information about languages.\n\nAbout name_local: capitalize it as if your language name was appearing\ninside a sentence in your language.\nThe 'fallback' key can be used to specify a special fallback logic which doesn't\nfollow the traditional 'fr-ca' -> 'fr' fallback logic.\n\"\"\"",
+            "package_name": "django.conf"
         },
         {
-            "name": "django.conf.locale",
-            "docstring": "\"\"\"\nLANG_INFO is a dictionary structure to provide meta information about languages.\n\nAbout name_local: capitalize it as if your language name was appearing\ninside a sentence in your language.\nThe 'fallback' key can be used to specify a special fallback logic which doesn't\nfollow the traditional 'fr-ca' -> 'fr' fallback logic.\n\"\"\""
+            "name": "django.conf.urls",
+            "docstring": "",
+            "package_name": "django.conf"
         }
     ]
 }

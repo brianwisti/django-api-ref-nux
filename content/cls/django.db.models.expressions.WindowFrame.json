@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    Model the frame clause in window expressions. There are two types of frame\n    clauses which are subclasses, however, all processing and validation (by no\n    means intended to be complete) is done here. Thus, providing an end for a\n    frame is optional (the default is UNBOUNDED FOLLOWING, which is the last\n    row in the frame).\n    \"\"\"",
     "name": "WindowFrame",
     "namespace": "django.db.models.expressions.WindowFrame",
-    "parent_namespace": "django.db.models.expressions"
+    "module_name": "django.db.models.expressions",
+    "package_name": ""
 }

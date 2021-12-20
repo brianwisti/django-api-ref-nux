@@ -1,45 +1,55 @@
 {
     "name": "django.contrib.sessions",
     "docstring": "",
+    "package_name": "django.contrib",
     "classes": [],
     "modules": [
         {
-            "namespace": "django.contrib.sessions.exceptions",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.sessions.middleware",
-            "docstring": ""
+            "namespace": "django.contrib.sessions.models",
+            "docstring": "",
+            "package_name": "django.contrib.sessions"
         },
         {
             "namespace": "django.contrib.sessions.serializers",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.sessions"
         },
         {
             "namespace": "django.contrib.sessions.apps",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.sessions"
         },
         {
-            "namespace": "django.contrib.sessions.models",
-            "docstring": ""
+            "namespace": "django.contrib.sessions.exceptions",
+            "docstring": "",
+            "package_name": "django.contrib.sessions"
         },
         {
             "namespace": "django.contrib.sessions.base_session",
-            "docstring": "\"\"\"\nThis module allows importing AbstractBaseSession even\nwhen django.contrib.sessions is not in INSTALLED_APPS.\n\"\"\""
+            "docstring": "\"\"\"\nThis module allows importing AbstractBaseSession even\nwhen django.contrib.sessions is not in INSTALLED_APPS.\n\"\"\"",
+            "package_name": "django.contrib.sessions"
+        },
+        {
+            "namespace": "django.contrib.sessions.middleware",
+            "docstring": "",
+            "package_name": "django.contrib.sessions"
         }
     ],
     "subpackages": [
         {
-            "name": "django.contrib.sessions.management",
-            "docstring": ""
-        },
-        {
             "name": "django.contrib.sessions.migrations",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.sessions"
         },
         {
             "name": "django.contrib.sessions.backends",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.sessions"
+        },
+        {
+            "name": "django.contrib.sessions.management",
+            "docstring": "",
+            "package_name": "django.contrib.sessions"
         }
     ]
 }

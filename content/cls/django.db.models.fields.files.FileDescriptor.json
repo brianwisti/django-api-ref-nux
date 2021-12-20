@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    The descriptor for the file attribute on the model instance. Return a\n    FieldFile when accessed so you can write code like::\n\n        >>> from myapp.models import MyModel\n        >>> instance = MyModel.objects.get(pk=1)\n        >>> instance.file.size\n\n    Assign a file object on assignment so you can do::\n\n        >>> with open('/path/to/hello.world') as f:\n        ...     instance.file = File(f)\n    \"\"\"",
     "name": "FileDescriptor",
     "namespace": "django.db.models.fields.files.FileDescriptor",
-    "parent_namespace": "django.db.models.fields.files"
+    "module_name": "django.db.models.fields.files",
+    "package_name": ""
 }

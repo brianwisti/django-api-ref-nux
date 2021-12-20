@@ -1,33 +1,40 @@
 {
     "name": "django.contrib.gis.db.models",
     "docstring": "",
+    "package_name": "django.contrib.gis.db",
     "classes": [],
     "modules": [
         {
-            "namespace": "django.contrib.gis.db.models.aggregates",
-            "docstring": ""
-        },
-        {
             "namespace": "django.contrib.gis.db.models.functions",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.gis.db.models.proxy",
-            "docstring": "\"\"\"\nThe SpatialProxy object allows for lazy-geometries and lazy-rasters. The proxy\nuses Python descriptors for instantiating and setting Geometry or Raster\nobjects corresponding to geographic model fields.\n\nThanks to Robert Coup for providing this functionality (see #4322).\n\"\"\""
+            "docstring": "",
+            "package_name": "django.contrib.gis.db.models"
         },
         {
             "namespace": "django.contrib.gis.db.models.fields",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.gis.db.models"
+        },
+        {
+            "namespace": "django.contrib.gis.db.models.proxy",
+            "docstring": "\"\"\"\nThe SpatialProxy object allows for lazy-geometries and lazy-rasters. The proxy\nuses Python descriptors for instantiating and setting Geometry or Raster\nobjects corresponding to geographic model fields.\n\nThanks to Robert Coup for providing this functionality (see #4322).\n\"\"\"",
+            "package_name": "django.contrib.gis.db.models"
         },
         {
             "namespace": "django.contrib.gis.db.models.lookups",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.gis.db.models"
+        },
+        {
+            "namespace": "django.contrib.gis.db.models.aggregates",
+            "docstring": "",
+            "package_name": "django.contrib.gis.db.models"
         }
     ],
     "subpackages": [
         {
             "name": "django.contrib.gis.db.models.sql",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.gis.db.models"
         }
     ]
 }

@@ -1,15 +1,18 @@
 {
     "name": "django.conf.urls",
     "docstring": "",
+    "package_name": "django.conf",
     "classes": [],
     "modules": [
         {
             "namespace": "django.conf.urls.static",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.conf.urls"
         },
         {
             "namespace": "django.conf.urls.i18n",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.conf.urls"
         }
     ],
     "subpackages": []

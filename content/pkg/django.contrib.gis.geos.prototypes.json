@@ -1,43 +1,53 @@
 {
     "name": "django.contrib.gis.geos.prototypes",
     "docstring": "\"\"\"\n This module contains all of the GEOS ctypes function prototypes. Each\n prototype handles the interaction between the GEOS library and Python\n via ctypes.\n\"\"\"",
+    "package_name": "django.contrib.gis.geos",
     "classes": [],
     "modules": [
         {
-            "namespace": "django.contrib.gis.geos.prototypes.coordseq",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.gis.geos.prototypes.prepared",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.gis.geos.prototypes.errcheck",
-            "docstring": "\"\"\"\n Error checking functions for GEOS ctypes prototype functions.\n\"\"\""
-        },
-        {
-            "namespace": "django.contrib.gis.geos.prototypes.threadsafe",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.gis.geos.prototypes.topology",
-            "docstring": "\"\"\"\n This module houses the GEOS ctypes prototype functions for the\n topological operations on geometries.\n\"\"\""
+            "namespace": "django.contrib.gis.geos.prototypes.misc",
+            "docstring": "\"\"\"\n This module is for the miscellaneous GEOS routines, particularly the\n ones that return the area, distance, and length.\n\"\"\"",
+            "package_name": "django.contrib.gis.geos.prototypes"
         },
         {
             "namespace": "django.contrib.gis.geos.prototypes.predicates",
-            "docstring": "\"\"\"\n This module houses the GEOS ctypes prototype functions for the\n unary and binary predicate operations on geometries.\n\"\"\""
+            "docstring": "\"\"\"\n This module houses the GEOS ctypes prototype functions for the\n unary and binary predicate operations on geometries.\n\"\"\"",
+            "package_name": "django.contrib.gis.geos.prototypes"
         },
         {
-            "namespace": "django.contrib.gis.geos.prototypes.misc",
-            "docstring": "\"\"\"\n This module is for the miscellaneous GEOS routines, particularly the\n ones that return the area, distance, and length.\n\"\"\""
+            "namespace": "django.contrib.gis.geos.prototypes.prepared",
+            "docstring": "",
+            "package_name": "django.contrib.gis.geos.prototypes"
         },
         {
             "namespace": "django.contrib.gis.geos.prototypes.geom",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.gis.geos.prototypes"
         },
         {
             "namespace": "django.contrib.gis.geos.prototypes.io",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.gis.geos.prototypes"
+        },
+        {
+            "namespace": "django.contrib.gis.geos.prototypes.coordseq",
+            "docstring": "",
+            "package_name": "django.contrib.gis.geos.prototypes"
+        },
+        {
+            "namespace": "django.contrib.gis.geos.prototypes.topology",
+            "docstring": "\"\"\"\n This module houses the GEOS ctypes prototype functions for the\n topological operations on geometries.\n\"\"\"",
+            "package_name": "django.contrib.gis.geos.prototypes"
+        },
+        {
+            "namespace": "django.contrib.gis.geos.prototypes.threadsafe",
+            "docstring": "",
+            "package_name": "django.contrib.gis.geos.prototypes"
+        },
+        {
+            "namespace": "django.contrib.gis.geos.prototypes.errcheck",
+            "docstring": "\"\"\"\n Error checking functions for GEOS ctypes prototype functions.\n\"\"\"",
+            "package_name": "django.contrib.gis.geos.prototypes"
         }
     ],
     "subpackages": []

@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    ASGI application which wraps another and intercepts requests for static\n    files, passing them off to Django's static file serving.\n    \"\"\"",
     "name": "ASGIStaticFilesHandler",
     "namespace": "django.contrib.staticfiles.handlers.ASGIStaticFilesHandler",
-    "parent_namespace": "django.contrib.staticfiles.handlers"
+    "module_name": "django.contrib.staticfiles.handlers",
+    "package_name": ""
 }

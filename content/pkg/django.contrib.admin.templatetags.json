@@ -1,27 +1,33 @@
 {
     "name": "django.contrib.admin.templatetags",
     "docstring": "",
+    "package_name": "django.contrib.admin",
     "classes": [],
     "modules": [
         {
-            "namespace": "django.contrib.admin.templatetags.base",
-            "docstring": ""
+            "namespace": "django.contrib.admin.templatetags.admin_list",
+            "docstring": "",
+            "package_name": "django.contrib.admin.templatetags"
         },
         {
             "namespace": "django.contrib.admin.templatetags.log",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.admin.templatetags"
         },
         {
             "namespace": "django.contrib.admin.templatetags.admin_modify",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.admin.templatetags"
         },
         {
-            "namespace": "django.contrib.admin.templatetags.admin_list",
-            "docstring": ""
+            "namespace": "django.contrib.admin.templatetags.base",
+            "docstring": "",
+            "package_name": "django.contrib.admin.templatetags"
         },
         {
             "namespace": "django.contrib.admin.templatetags.admin_urls",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.admin.templatetags"
         }
     ],
     "subpackages": []

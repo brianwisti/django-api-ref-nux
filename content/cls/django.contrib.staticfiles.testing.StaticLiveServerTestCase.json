@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    Extend django.test.LiveServerTestCase to transparently overlay at test\n    execution-time the assets provided by the staticfiles app finders. This\n    means you don't need to run collectstatic before or as a part of your tests\n    setup.\n    \"\"\"",
     "name": "StaticLiveServerTestCase",
     "namespace": "django.contrib.staticfiles.testing.StaticLiveServerTestCase",
-    "parent_namespace": "django.contrib.staticfiles.testing"
+    "module_name": "django.contrib.staticfiles.testing",
+    "package_name": ""
 }

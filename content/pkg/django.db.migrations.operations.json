@@ -1,23 +1,28 @@
 {
     "name": "django.db.migrations.operations",
     "docstring": "",
+    "package_name": "django.db.migrations",
     "classes": [],
     "modules": [
         {
-            "namespace": "django.db.migrations.operations.base",
-            "docstring": ""
+            "namespace": "django.db.migrations.operations.models",
+            "docstring": "",
+            "package_name": "django.db.migrations.operations"
         },
         {
             "namespace": "django.db.migrations.operations.fields",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.db.migrations.operations.models",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.db.migrations.operations"
         },
         {
             "namespace": "django.db.migrations.operations.special",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.db.migrations.operations"
+        },
+        {
+            "namespace": "django.db.migrations.operations.base",
+            "docstring": "",
+            "package_name": "django.db.migrations.operations"
         }
     ],
     "subpackages": []

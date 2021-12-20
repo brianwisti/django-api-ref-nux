@@ -1,29 +1,35 @@
 {
     "name": "django.db",
     "docstring": "",
+    "package_name": "django",
     "classes": [],
     "modules": [
         {
             "namespace": "django.db.transaction",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.db"
         },
         {
             "namespace": "django.db.utils",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.db"
         }
     ],
     "subpackages": [
         {
             "name": "django.db.migrations",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.db"
         },
         {
             "name": "django.db.backends",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.db"
         },
         {
             "name": "django.db.models",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.db"
         }
     ]
 }

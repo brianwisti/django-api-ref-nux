@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    Mixin for combining with a lookup expecting a text lhs from a JSONField\n    key lookup. On PostgreSQL, make use of the ->> operator instead of casting\n    key values to text and performing the lookup on the resulting\n    representation.\n    \"\"\"",
     "name": "KeyTransformTextLookupMixin",
     "namespace": "django.db.models.fields.json.KeyTransformTextLookupMixin",
-    "parent_namespace": "django.db.models.fields.json"
+    "module_name": "django.db.models.fields.json",
+    "package_name": ""
 }

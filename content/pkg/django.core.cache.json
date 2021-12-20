@@ -1,24 +1,28 @@
 {
     "name": "django.core.cache",
     "docstring": "\"\"\"\nCaching framework.\n\nThis package defines set of cache backends that all conform to a simple API.\nIn a nutshell, a cache is a set of values -- which can be any object that\nmay be pickled -- identified by string keys.  For the complete API, see\nthe abstract BaseCache class in django.core.cache.backends.base.\n\nClient code should use the `cache` variable defined here to access the default\ncache backend and look up non-default cache backends in the `caches` dict-like\nobject.\n\nSee docs/topics/cache.txt for information on the public API.\n\"\"\"",
+    "package_name": "django.core",
     "classes": [
         {
             "docstring": "",
             "name": "CacheHandler",
             "namespace": "django.core.cache.CacheHandler",
-            "parent_namespace": "django.core.cache"
+            "module_name": "django.core.cache",
+            "package_name": "django.core.cache"
         }
     ],
     "modules": [
         {
             "namespace": "django.core.cache.utils",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.core.cache"
         }
     ],
     "subpackages": [
         {
             "name": "django.core.cache.backends",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.core.cache"
         }
     ]
 }

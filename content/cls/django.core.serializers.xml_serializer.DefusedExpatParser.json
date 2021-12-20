@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    An expat parser hardened against XML bomb attacks.\n\n    Forbid DTDs, external entity references\n    \"\"\"",
     "name": "DefusedExpatParser",
     "namespace": "django.core.serializers.xml_serializer.DefusedExpatParser",
-    "parent_namespace": "django.core.serializers.xml_serializer"
+    "module_name": "django.core.serializers.xml_serializer",
+    "package_name": ""
 }

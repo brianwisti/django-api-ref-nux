@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    Render a \"detail\" view of an object.\n\n    By default this is a model instance looked up from `self.queryset`, but the\n    view will support display of *any* object by overriding `self.get_object()`.\n    \"\"\"",
     "name": "DetailView",
     "namespace": "django.views.generic.detail.DetailView",
-    "parent_namespace": "django.views.generic.detail"
+    "module_name": "django.views.generic.detail",
+    "package_name": ""
 }

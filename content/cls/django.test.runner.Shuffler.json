@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    This class implements shuffling with a special consistency property.\n    Consistency means that, for a given seed and key function, if two sets of\n    items are shuffled, the resulting order will agree on the intersection of\n    the two sets. For example, if items are removed from an original set, the\n    shuffled order for the new set will be the shuffled order of the original\n    set restricted to the smaller set.\n    \"\"\"",
     "name": "Shuffler",
     "namespace": "django.test.runner.Shuffler",
-    "parent_namespace": "django.test.runner"
+    "module_name": "django.test.runner",
+    "package_name": ""
 }

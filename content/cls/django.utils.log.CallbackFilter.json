@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    A logging filter that checks the return value of a given callable (which\n    takes the record-to-be-logged as its only parameter) to decide whether to\n    log a record.\n    \"\"\"",
     "name": "CallbackFilter",
     "namespace": "django.utils.log.CallbackFilter",
-    "parent_namespace": "django.utils.log"
+    "module_name": "django.utils.log",
+    "package_name": ""
 }

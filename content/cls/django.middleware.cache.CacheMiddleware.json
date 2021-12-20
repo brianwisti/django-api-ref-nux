@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    Cache middleware that provides basic behavior for many simple sites.\n\n    Also used as the hook point for the cache decorator, which is generated\n    using the decorator-from-middleware utility.\n    \"\"\"",
     "name": "CacheMiddleware",
     "namespace": "django.middleware.cache.CacheMiddleware",
-    "parent_namespace": "django.middleware.cache"
+    "module_name": "django.middleware.cache",
+    "package_name": ""
 }

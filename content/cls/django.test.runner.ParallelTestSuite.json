@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    Run a series of tests in parallel in several processes.\n\n    While the unittest module's documentation implies that orchestrating the\n    execution of tests is the responsibility of the test runner, in practice,\n    it appears that TestRunner classes are more concerned with formatting and\n    displaying test results.\n\n    Since there are fewer use cases for customizing TestSuite than TestRunner,\n    implementing parallelization at the level of the TestSuite improves\n    interoperability with existing custom test runners. A single instance of a\n    test runner can still collect results from all tests without being aware\n    that they have been run in parallel.\n    \"\"\"",
     "name": "ParallelTestSuite",
     "namespace": "django.test.runner.ParallelTestSuite",
-    "parent_namespace": "django.test.runner"
+    "module_name": "django.test.runner",
+    "package_name": ""
 }

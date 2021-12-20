@@ -1,19 +1,23 @@
 {
     "name": "django.contrib.staticfiles.management.commands",
     "docstring": "",
+    "package_name": "django.contrib.staticfiles.management",
     "classes": [],
     "modules": [
         {
-            "namespace": "django.contrib.staticfiles.management.commands.collectstatic",
-            "docstring": ""
+            "namespace": "django.contrib.staticfiles.management.commands.findstatic",
+            "docstring": "",
+            "package_name": "django.contrib.staticfiles.management.commands"
         },
         {
             "namespace": "django.contrib.staticfiles.management.commands.runserver",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.staticfiles.management.commands"
         },
         {
-            "namespace": "django.contrib.staticfiles.management.commands.findstatic",
-            "docstring": ""
+            "namespace": "django.contrib.staticfiles.management.commands.collectstatic",
+            "docstring": "",
+            "package_name": "django.contrib.staticfiles.management.commands"
         }
     ],
     "subpackages": []

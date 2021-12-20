@@ -1,27 +1,33 @@
 {
     "name": "django.template.backends",
     "docstring": "",
+    "package_name": "django.template",
     "classes": [],
     "modules": [
         {
-            "namespace": "django.template.backends.base",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.template.backends.dummy",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.template.backends.utils",
-            "docstring": ""
+            "namespace": "django.template.backends.django",
+            "docstring": "",
+            "package_name": "django.template.backends"
         },
         {
             "namespace": "django.template.backends.jinja2",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.template.backends"
         },
         {
-            "namespace": "django.template.backends.django",
-            "docstring": ""
+            "namespace": "django.template.backends.utils",
+            "docstring": "",
+            "package_name": "django.template.backends"
+        },
+        {
+            "namespace": "django.template.backends.dummy",
+            "docstring": "",
+            "package_name": "django.template.backends"
+        },
+        {
+            "namespace": "django.template.backends.base",
+            "docstring": "",
+            "package_name": "django.template.backends"
         }
     ],
     "subpackages": []

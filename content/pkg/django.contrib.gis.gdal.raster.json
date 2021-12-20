@@ -1,23 +1,28 @@
 {
     "name": "django.contrib.gis.gdal.raster",
     "docstring": "",
+    "package_name": "django.contrib.gis.gdal",
     "classes": [],
     "modules": [
         {
-            "namespace": "django.contrib.gis.gdal.raster.base",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.gis.gdal.raster.const",
-            "docstring": "\"\"\"\nGDAL - Constant definitions\n\"\"\""
+            "namespace": "django.contrib.gis.gdal.raster.band",
+            "docstring": "",
+            "package_name": "django.contrib.gis.gdal.raster"
         },
         {
             "namespace": "django.contrib.gis.gdal.raster.source",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.gis.gdal.raster"
         },
         {
-            "namespace": "django.contrib.gis.gdal.raster.band",
-            "docstring": ""
+            "namespace": "django.contrib.gis.gdal.raster.base",
+            "docstring": "",
+            "package_name": "django.contrib.gis.gdal.raster"
+        },
+        {
+            "namespace": "django.contrib.gis.gdal.raster.const",
+            "docstring": "\"\"\"\nGDAL - Constant definitions\n\"\"\"",
+            "package_name": "django.contrib.gis.gdal.raster"
         }
     ],
     "subpackages": []

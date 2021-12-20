@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    A late-binding cursor variable that can be passed to Cursor.execute\n    as a parameter, in order to receive the id of the row created by an\n    insert statement.\n    \"\"\"",
     "name": "InsertVar",
     "namespace": "django.db.backends.oracle.utils.InsertVar",
-    "parent_namespace": "django.db.backends.oracle.utils"
+    "module_name": "django.db.backends.oracle.utils",
+    "package_name": ""
 }

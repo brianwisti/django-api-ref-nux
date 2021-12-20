@@ -1,40 +1,47 @@
 {
     "name": "django.contrib.sitemaps",
     "docstring": "",
+    "package_name": "django.contrib",
     "classes": [
         {
             "docstring": "",
             "name": "SitemapNotFound",
             "namespace": "django.contrib.sitemaps.SitemapNotFound",
-            "parent_namespace": "django.contrib.sitemaps"
+            "module_name": "django.contrib.sitemaps",
+            "package_name": "django.contrib.sitemaps"
         },
         {
             "docstring": "",
             "name": "Sitemap",
             "namespace": "django.contrib.sitemaps.Sitemap",
-            "parent_namespace": "django.contrib.sitemaps"
+            "module_name": "django.contrib.sitemaps",
+            "package_name": "django.contrib.sitemaps"
         },
         {
             "docstring": "",
             "name": "GenericSitemap",
             "namespace": "django.contrib.sitemaps.GenericSitemap",
-            "parent_namespace": "django.contrib.sitemaps"
+            "module_name": "django.contrib.sitemaps",
+            "package_name": "django.contrib.sitemaps"
         }
     ],
     "modules": [
         {
-            "namespace": "django.contrib.sitemaps.views",
-            "docstring": ""
+            "namespace": "django.contrib.sitemaps.apps",
+            "docstring": "",
+            "package_name": "django.contrib.sitemaps"
         },
         {
-            "namespace": "django.contrib.sitemaps.apps",
-            "docstring": ""
+            "namespace": "django.contrib.sitemaps.views",
+            "docstring": "",
+            "package_name": "django.contrib.sitemaps"
         }
     ],
     "subpackages": [
         {
             "name": "django.contrib.sitemaps.management",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.sitemaps"
         }
     ]
 }

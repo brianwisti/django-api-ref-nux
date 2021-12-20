@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    You cannot access raw_post_data from a request that has\n    multipart/* POST data if it has been accessed via POST,\n    FILES, etc..\n    \"\"\"",
     "name": "RawPostDataException",
     "namespace": "django.http.request.RawPostDataException",
-    "parent_namespace": "django.http.request"
+    "module_name": "django.http.request",
+    "package_name": ""
 }

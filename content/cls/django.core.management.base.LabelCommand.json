@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    A management command which takes one or more arbitrary arguments\n    (labels) on the command line, and does something with each of\n    them.\n\n    Rather than implementing ``handle()``, subclasses must implement\n    ``handle_label()``, which will be called once for each label.\n\n    If the arguments should be names of installed applications, use\n    ``AppCommand`` instead.\n    \"\"\"",
     "name": "LabelCommand",
     "namespace": "django.core.management.base.LabelCommand",
-    "parent_namespace": "django.core.management.base"
+    "module_name": "django.core.management.base",
+    "package_name": ""
 }

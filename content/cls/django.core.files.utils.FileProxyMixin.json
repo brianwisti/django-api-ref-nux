@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    A mixin class used to forward file methods to an underlaying file\n    object.  The internal file object has to be called \"file\"::\n\n        class FileProxy(FileProxyMixin):\n            def __init__(self, file):\n                self.file = file\n    \"\"\"",
     "name": "FileProxyMixin",
     "namespace": "django.core.files.utils.FileProxyMixin",
-    "parent_namespace": "django.core.files.utils"
+    "module_name": "django.core.files.utils",
+    "package_name": ""
 }

@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    A wrapper around BytesIO that restricts what can be read since data from\n    the network can't be sought and cannot be read outside of its content\n    length. This makes sure that views can't do anything under the test client\n    that wouldn't work in real life.\n    \"\"\"",
     "name": "FakePayload",
     "namespace": "django.test.client.FakePayload",
-    "parent_namespace": "django.test.client"
+    "module_name": "django.test.client",
+    "package_name": ""
 }

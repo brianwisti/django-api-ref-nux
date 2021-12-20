@@ -1,27 +1,33 @@
 {
     "name": "django.templatetags",
     "docstring": "",
+    "package_name": "django",
     "classes": [],
     "modules": [
         {
-            "namespace": "django.templatetags.static",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.templatetags.i18n",
-            "docstring": ""
+            "namespace": "django.templatetags.l10n",
+            "docstring": "",
+            "package_name": "django.templatetags"
         },
         {
             "namespace": "django.templatetags.tz",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.templatetags.l10n",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.templatetags"
         },
         {
             "namespace": "django.templatetags.cache",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.templatetags"
+        },
+        {
+            "namespace": "django.templatetags.static",
+            "docstring": "",
+            "package_name": "django.templatetags"
+        },
+        {
+            "namespace": "django.templatetags.i18n",
+            "docstring": "",
+            "package_name": "django.templatetags"
         }
     ],
     "subpackages": []

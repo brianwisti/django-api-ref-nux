@@ -1,11 +1,13 @@
 {
     "name": "django.core.servers",
     "docstring": "",
+    "package_name": "django.core",
     "classes": [],
     "modules": [
         {
             "namespace": "django.core.servers.basehttp",
-            "docstring": "\"\"\"\nHTTP server that implements the Python WSGI protocol (PEP 333, rev 1.21).\n\nBased on wsgiref.simple_server which is part of the standard library since 2.5.\n\nThis is a simple server for use in testing or debugging Django apps. It hasn't\nbeen reviewed for security issues. DON'T USE IT FOR PRODUCTION USE!\n\"\"\""
+            "docstring": "\"\"\"\nHTTP server that implements the Python WSGI protocol (PEP 333, rev 1.21).\n\nBased on wsgiref.simple_server which is part of the standard library since 2.5.\n\nThis is a simple server for use in testing or debugging Django apps. It hasn't\nbeen reviewed for security issues. DON'T USE IT FOR PRODUCTION USE!\n\"\"\"",
+            "package_name": "django.core.servers"
         }
     ],
     "subpackages": []

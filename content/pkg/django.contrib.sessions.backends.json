@@ -1,31 +1,38 @@
 {
     "name": "django.contrib.sessions.backends",
     "docstring": "",
+    "package_name": "django.contrib.sessions",
     "classes": [],
     "modules": [
         {
-            "namespace": "django.contrib.sessions.backends.db",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.sessions.backends.base",
-            "docstring": ""
-        },
-        {
             "namespace": "django.contrib.sessions.backends.signed_cookies",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.sessions.backends"
+        },
+        {
+            "namespace": "django.contrib.sessions.backends.db",
+            "docstring": "",
+            "package_name": "django.contrib.sessions.backends"
         },
         {
             "namespace": "django.contrib.sessions.backends.cached_db",
-            "docstring": "\"\"\"\nCached, database-backed sessions.\n\"\"\""
-        },
-        {
-            "namespace": "django.contrib.sessions.backends.file",
-            "docstring": ""
+            "docstring": "\"\"\"\nCached, database-backed sessions.\n\"\"\"",
+            "package_name": "django.contrib.sessions.backends"
         },
         {
             "namespace": "django.contrib.sessions.backends.cache",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.sessions.backends"
+        },
+        {
+            "namespace": "django.contrib.sessions.backends.file",
+            "docstring": "",
+            "package_name": "django.contrib.sessions.backends"
+        },
+        {
+            "namespace": "django.contrib.sessions.backends.base",
+            "docstring": "",
+            "package_name": "django.contrib.sessions.backends"
         }
     ],
     "subpackages": []

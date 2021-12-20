@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    Wrapper object for formatting parameters for Oracle. If the string\n    representation of the value is large enough (greater than 4000 characters)\n    the input size needs to be set as CLOB. Alternatively, if the parameter\n    has an `input_size` attribute, then the value of the `input_size` attribute\n    will be used instead. Otherwise, no input size will be set for the\n    parameter when executing the query.\n    \"\"\"",
     "name": "OracleParam",
     "namespace": "django.db.backends.oracle.base.OracleParam",
-    "parent_namespace": "django.db.backends.oracle.base"
+    "module_name": "django.db.backends.oracle.base",
+    "package_name": ""
 }

@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    Mapping allowing case-insensitive key lookups. Original case of keys is\n    preserved for iteration and string representation.\n\n    Example::\n\n        >>> ci_map = CaseInsensitiveMapping({'name': 'Jane'})\n        >>> ci_map['Name']\n        Jane\n        >>> ci_map['NAME']\n        Jane\n        >>> ci_map['name']\n        Jane\n        >>> ci_map  # original case preserved\n        {'name': 'Jane'}\n    \"\"\"",
     "name": "CaseInsensitiveMapping",
     "namespace": "django.utils.datastructures.CaseInsensitiveMapping",
-    "parent_namespace": "django.utils.datastructures"
+    "module_name": "django.utils.datastructures",
+    "package_name": ""
 }

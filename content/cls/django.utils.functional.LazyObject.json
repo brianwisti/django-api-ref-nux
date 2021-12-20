@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    A wrapper for another class that can be used to delay instantiation of the\n    wrapped class.\n\n    By subclassing, you have the opportunity to intercept and alter the\n    instantiation. If you don't need to do that, use SimpleLazyObject.\n    \"\"\"",
     "name": "LazyObject",
     "namespace": "django.utils.functional.LazyObject",
-    "parent_namespace": "django.utils.functional"
+    "module_name": "django.utils.functional",
+    "package_name": ""
 }

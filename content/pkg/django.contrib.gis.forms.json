@@ -1,15 +1,18 @@
 {
     "name": "django.contrib.gis.forms",
     "docstring": "",
+    "package_name": "django.contrib.gis",
     "classes": [],
     "modules": [
         {
-            "namespace": "django.contrib.gis.forms.widgets",
-            "docstring": ""
+            "namespace": "django.contrib.gis.forms.fields",
+            "docstring": "",
+            "package_name": "django.contrib.gis.forms"
         },
         {
-            "namespace": "django.contrib.gis.forms.fields",
-            "docstring": ""
+            "namespace": "django.contrib.gis.forms.widgets",
+            "docstring": "",
+            "package_name": "django.contrib.gis.forms"
         }
     ],
     "subpackages": []

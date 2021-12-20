@@ -1,57 +1,70 @@
 {
     "name": "django.core.checks",
     "docstring": "",
+    "package_name": "django.core",
     "classes": [],
     "modules": [
         {
-            "namespace": "django.core.checks.database",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.core.checks.templates",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.core.checks.registry",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.core.checks.urls",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.core.checks.messages",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.core.checks.model_checks",
-            "docstring": ""
-        },
-        {
             "namespace": "django.core.checks.files",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.core.checks.translation",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.core.checks.async_checks",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.core.checks"
         },
         {
             "namespace": "django.core.checks.caches",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.core.checks"
+        },
+        {
+            "namespace": "django.core.checks.registry",
+            "docstring": "",
+            "package_name": "django.core.checks"
+        },
+        {
+            "namespace": "django.core.checks.model_checks",
+            "docstring": "",
+            "package_name": "django.core.checks"
+        },
+        {
+            "namespace": "django.core.checks.database",
+            "docstring": "",
+            "package_name": "django.core.checks"
+        },
+        {
+            "namespace": "django.core.checks.templates",
+            "docstring": "",
+            "package_name": "django.core.checks"
+        },
+        {
+            "namespace": "django.core.checks.translation",
+            "docstring": "",
+            "package_name": "django.core.checks"
+        },
+        {
+            "namespace": "django.core.checks.async_checks",
+            "docstring": "",
+            "package_name": "django.core.checks"
+        },
+        {
+            "namespace": "django.core.checks.messages",
+            "docstring": "",
+            "package_name": "django.core.checks"
+        },
+        {
+            "namespace": "django.core.checks.urls",
+            "docstring": "",
+            "package_name": "django.core.checks"
         }
     ],
     "subpackages": [
         {
             "name": "django.core.checks.compatibility",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.core.checks"
         },
         {
             "name": "django.core.checks.security",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.core.checks"
         }
     ]
 }

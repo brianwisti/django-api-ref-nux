@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    The exception used when a template does not exist. Optional arguments:\n\n    backend\n        The template backend class used when raising this exception.\n\n    tried\n        A list of sources that were tried when finding the template. This\n        is formatted as a list of tuples containing (origin, status), where\n        origin is an Origin object or duck type and status is a string with the\n        reason the template wasn't found.\n\n    chain\n        A list of intermediate TemplateDoesNotExist exceptions. This is used to\n        encapsulate multiple exceptions when loading templates from multiple\n        engines.\n    \"\"\"",
     "name": "TemplateDoesNotExist",
     "namespace": "django.template.exceptions.TemplateDoesNotExist",
-    "parent_namespace": "django.template.exceptions"
+    "module_name": "django.template.exceptions",
+    "package_name": ""
 }

@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    String subclass which references a current settings value. It's treated as\n    the value in memory but serializes to a settings.NAME attribute reference.\n    \"\"\"",
     "name": "SettingsReference",
     "namespace": "django.conf.SettingsReference",
-    "parent_namespace": "django.conf"
+    "module_name": "django.conf",
+    "package_name": "django.conf"
 }

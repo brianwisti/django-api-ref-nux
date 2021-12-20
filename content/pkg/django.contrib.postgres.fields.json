@@ -1,31 +1,38 @@
 {
     "name": "django.contrib.postgres.fields",
     "docstring": "",
+    "package_name": "django.contrib.postgres",
     "classes": [],
     "modules": [
         {
             "namespace": "django.contrib.postgres.fields.citext",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.postgres.fields.array",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.postgres.fields"
         },
         {
             "namespace": "django.contrib.postgres.fields.ranges",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.postgres.fields"
         },
         {
             "namespace": "django.contrib.postgres.fields.utils",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.postgres.fields"
         },
         {
             "namespace": "django.contrib.postgres.fields.jsonb",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.postgres.fields"
+        },
+        {
+            "namespace": "django.contrib.postgres.fields.array",
+            "docstring": "",
+            "package_name": "django.contrib.postgres.fields"
         },
         {
             "namespace": "django.contrib.postgres.fields.hstore",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.postgres.fields"
         }
     ],
     "subpackages": []

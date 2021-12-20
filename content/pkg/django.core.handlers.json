@@ -1,23 +1,28 @@
 {
     "name": "django.core.handlers",
     "docstring": "",
+    "package_name": "django.core",
     "classes": [],
     "modules": [
         {
-            "namespace": "django.core.handlers.base",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.core.handlers.wsgi",
-            "docstring": ""
-        },
-        {
             "namespace": "django.core.handlers.exception",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.core.handlers"
         },
         {
             "namespace": "django.core.handlers.asgi",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.core.handlers"
+        },
+        {
+            "namespace": "django.core.handlers.base",
+            "docstring": "",
+            "package_name": "django.core.handlers"
+        },
+        {
+            "namespace": "django.core.handlers.wsgi",
+            "docstring": "",
+            "package_name": "django.core.handlers"
         }
     ],
     "subpackages": []

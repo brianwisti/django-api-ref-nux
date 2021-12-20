@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    Used by ManyToManyField to store information about the relation.\n\n    ``_meta.get_fields()`` returns this class to provide access to the field\n    flags for the reverse relation.\n    \"\"\"",
     "name": "ManyToManyRel",
     "namespace": "django.db.models.fields.reverse_related.ManyToManyRel",
-    "parent_namespace": "django.db.models.fields.reverse_related"
+    "module_name": "django.db.models.fields.reverse_related",
+    "package_name": ""
 }

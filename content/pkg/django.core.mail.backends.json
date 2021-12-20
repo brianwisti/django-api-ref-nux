@@ -1,31 +1,38 @@
 {
     "name": "django.core.mail.backends",
     "docstring": "",
+    "package_name": "django.core.mail",
     "classes": [],
     "modules": [
         {
-            "namespace": "django.core.mail.backends.filebased",
-            "docstring": "\"\"\"Email backend that writes messages to a file.\"\"\""
-        },
-        {
-            "namespace": "django.core.mail.backends.locmem",
-            "docstring": "\"\"\"\nBackend for test environment.\n\"\"\""
-        },
-        {
-            "namespace": "django.core.mail.backends.base",
-            "docstring": "\"\"\"Base email backend class.\"\"\""
-        },
-        {
-            "namespace": "django.core.mail.backends.dummy",
-            "docstring": "\"\"\"\nDummy email backend that does nothing.\n\"\"\""
-        },
-        {
             "namespace": "django.core.mail.backends.console",
-            "docstring": "\"\"\"\nEmail backend that writes messages to console instead of sending them.\n\"\"\""
+            "docstring": "\"\"\"\nEmail backend that writes messages to console instead of sending them.\n\"\"\"",
+            "package_name": "django.core.mail.backends"
+        },
+        {
+            "namespace": "django.core.mail.backends.filebased",
+            "docstring": "\"\"\"Email backend that writes messages to a file.\"\"\"",
+            "package_name": "django.core.mail.backends"
         },
         {
             "namespace": "django.core.mail.backends.smtp",
-            "docstring": "\"\"\"SMTP email backend class.\"\"\""
+            "docstring": "\"\"\"SMTP email backend class.\"\"\"",
+            "package_name": "django.core.mail.backends"
+        },
+        {
+            "namespace": "django.core.mail.backends.dummy",
+            "docstring": "\"\"\"\nDummy email backend that does nothing.\n\"\"\"",
+            "package_name": "django.core.mail.backends"
+        },
+        {
+            "namespace": "django.core.mail.backends.base",
+            "docstring": "\"\"\"Base email backend class.\"\"\"",
+            "package_name": "django.core.mail.backends"
+        },
+        {
+            "namespace": "django.core.mail.backends.locmem",
+            "docstring": "\"\"\"\nBackend for test environment.\n\"\"\"",
+            "package_name": "django.core.mail.backends"
         }
     ],
     "subpackages": []

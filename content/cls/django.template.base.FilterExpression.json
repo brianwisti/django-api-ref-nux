@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    Parse a variable token and its optional filters (all as a single string),\n    and return a list of tuples of the filter name and arguments.\n    Sample::\n\n        >>> token = 'variable|default:\"Default value\"|date:\"Y-m-d\"'\n        >>> p = Parser('')\n        >>> fe = FilterExpression(token, p)\n        >>> len(fe.filters)\n        2\n        >>> fe.var\n        <Variable: 'variable'>\n    \"\"\"",
     "name": "FilterExpression",
     "namespace": "django.template.base.FilterExpression",
-    "parent_namespace": "django.template.base"
+    "module_name": "django.template.base",
+    "package_name": ""
 }

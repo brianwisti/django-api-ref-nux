@@ -1,45 +1,55 @@
 {
     "name": "django.contrib.contenttypes",
     "docstring": "",
+    "package_name": "django.contrib",
     "classes": [],
     "modules": [
         {
-            "namespace": "django.contrib.contenttypes.views",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.contenttypes.apps",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.contenttypes.admin",
-            "docstring": ""
+            "namespace": "django.contrib.contenttypes.models",
+            "docstring": "",
+            "package_name": "django.contrib.contenttypes"
         },
         {
             "namespace": "django.contrib.contenttypes.fields",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.contenttypes.forms",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.contenttypes"
         },
         {
             "namespace": "django.contrib.contenttypes.checks",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.contenttypes"
         },
         {
-            "namespace": "django.contrib.contenttypes.models",
-            "docstring": ""
+            "namespace": "django.contrib.contenttypes.apps",
+            "docstring": "",
+            "package_name": "django.contrib.contenttypes"
+        },
+        {
+            "namespace": "django.contrib.contenttypes.forms",
+            "docstring": "",
+            "package_name": "django.contrib.contenttypes"
+        },
+        {
+            "namespace": "django.contrib.contenttypes.admin",
+            "docstring": "",
+            "package_name": "django.contrib.contenttypes"
+        },
+        {
+            "namespace": "django.contrib.contenttypes.views",
+            "docstring": "",
+            "package_name": "django.contrib.contenttypes"
         }
     ],
     "subpackages": [
         {
-            "name": "django.contrib.contenttypes.management",
-            "docstring": ""
+            "name": "django.contrib.contenttypes.migrations",
+            "docstring": "",
+            "package_name": "django.contrib.contenttypes"
         },
         {
-            "name": "django.contrib.contenttypes.migrations",
-            "docstring": ""
+            "name": "django.contrib.contenttypes.management",
+            "docstring": "",
+            "package_name": "django.contrib.contenttypes"
         }
     ]
 }

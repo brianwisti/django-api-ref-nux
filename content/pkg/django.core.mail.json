@@ -1,21 +1,25 @@
 {
     "name": "django.core.mail",
     "docstring": "\"\"\"\nTools for sending email.\n\"\"\"",
+    "package_name": "django.core",
     "classes": [],
     "modules": [
         {
             "namespace": "django.core.mail.message",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.core.mail"
         },
         {
             "namespace": "django.core.mail.utils",
-            "docstring": "\"\"\"\nEmail message and email sending related helper functions.\n\"\"\""
+            "docstring": "\"\"\"\nEmail message and email sending related helper functions.\n\"\"\"",
+            "package_name": "django.core.mail"
         }
     ],
     "subpackages": [
         {
             "name": "django.core.mail.backends",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.core.mail"
         }
     ]
 }

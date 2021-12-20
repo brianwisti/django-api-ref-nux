@@ -1,11 +1,13 @@
 {
     "name": "django.dispatch",
     "docstring": "\"\"\"Multi-consumer multi-producer dispatching mechanism\n\nOriginally based on pydispatch (BSD) https://pypi.org/project/PyDispatcher/2.0.1/\nSee license.txt for original license.\n\nHeavily modified for Django's purposes.\n\"\"\"",
+    "package_name": "django",
     "classes": [],
     "modules": [
         {
             "namespace": "django.dispatch.dispatcher",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.dispatch"
         }
     ],
     "subpackages": []

@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    The permissions system provides a way to assign permissions to specific\n    users and groups of users.\n\n    The permission system is used by the Django admin site, but may also be\n    useful in your own code. The Django admin site uses permissions as follows:\n\n        - The \"add\" permission limits the user's ability to view the \"add\" form\n          and add an object.\n        - The \"change\" permission limits a user's ability to view the change\n          list, view the \"change\" form and change an object.\n        - The \"delete\" permission limits the ability to delete an object.\n        - The \"view\" permission limits the ability to view an object.\n\n    Permissions are set globally per type of object, not per specific object\n    instance. It is possible to say \"Mary may change news stories,\" but it's\n    not currently possible to say \"Mary may change news stories, but only the\n    ones she created herself\" or \"Mary may only change news stories that have a\n    certain status or publication date.\"\n\n    The permissions listed above are automatically created for each model.\n    \"\"\"",
     "name": "Permission",
     "namespace": "django.contrib.auth.models.Permission",
-    "parent_namespace": "django.contrib.auth.models"
+    "module_name": "django.contrib.auth.models",
+    "package_name": ""
 }

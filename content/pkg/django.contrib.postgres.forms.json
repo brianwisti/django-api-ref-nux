@@ -1,19 +1,23 @@
 {
     "name": "django.contrib.postgres.forms",
     "docstring": "",
+    "package_name": "django.contrib.postgres",
     "classes": [],
     "modules": [
         {
-            "namespace": "django.contrib.postgres.forms.array",
-            "docstring": ""
+            "namespace": "django.contrib.postgres.forms.ranges",
+            "docstring": "",
+            "package_name": "django.contrib.postgres.forms"
         },
         {
-            "namespace": "django.contrib.postgres.forms.ranges",
-            "docstring": ""
+            "namespace": "django.contrib.postgres.forms.array",
+            "docstring": "",
+            "package_name": "django.contrib.postgres.forms"
         },
         {
             "namespace": "django.contrib.postgres.forms.hstore",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.postgres.forms"
         }
     ],
     "subpackages": []

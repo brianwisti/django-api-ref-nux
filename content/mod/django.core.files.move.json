@@ -1,5 +1,6 @@
 {
     "namespace": "django.core.files.move",
     "docstring": "\"\"\"\nMove a file in the safest way possible::\n\n    >>> from django.core.files.move import file_move_safe\n    >>> file_move_safe(\"/tmp/old_file\", \"/tmp/new_file\")\n\"\"\"",
-    "classes": []
+    "classes": [],
+    "package_name": "django.core.files"
 }

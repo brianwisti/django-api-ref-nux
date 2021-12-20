@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    Descriptor to provide TestCase instance isolation for attributes assigned\n    during the setUpTestData() phase.\n\n    Allow safe alteration of objects assigned in setUpTestData() by test\n    methods by exposing deep copies instead of the original objects.\n\n    Objects are deep copied using a memo kept on the test case instance in\n    order to maintain their original relationships.\n    \"\"\"",
     "name": "TestData",
     "namespace": "django.test.testcases.TestData",
-    "parent_namespace": "django.test.testcases"
+    "module_name": "django.test.testcases",
+    "package_name": ""
 }

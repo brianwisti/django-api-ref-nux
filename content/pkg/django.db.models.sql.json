@@ -1,31 +1,38 @@
 {
     "name": "django.db.models.sql",
     "docstring": "",
+    "package_name": "django.db.models",
     "classes": [],
     "modules": [
         {
-            "namespace": "django.db.models.sql.constants",
-            "docstring": "\"\"\"\nConstants specific to the SQL storage portion of the ORM.\n\"\"\""
-        },
-        {
-            "namespace": "django.db.models.sql.subqueries",
-            "docstring": "\"\"\"\nQuery subclasses which provide extra functionality beyond simple data retrieval.\n\"\"\""
+            "namespace": "django.db.models.sql.compiler",
+            "docstring": "",
+            "package_name": "django.db.models.sql"
         },
         {
             "namespace": "django.db.models.sql.query",
-            "docstring": "\"\"\"\nCreate SQL statements for QuerySets.\n\nThe code in here encapsulates all of the SQL construction so that QuerySets\nthemselves do not have to (and could be backed by things other than SQL\ndatabases). The abstraction barrier only works one way: this module has to know\nall about the internals of models in order to get the information it needs.\n\"\"\""
+            "docstring": "\"\"\"\nCreate SQL statements for QuerySets.\n\nThe code in here encapsulates all of the SQL construction so that QuerySets\nthemselves do not have to (and could be backed by things other than SQL\ndatabases). The abstraction barrier only works one way: this module has to know\nall about the internals of models in order to get the information it needs.\n\"\"\"",
+            "package_name": "django.db.models.sql"
+        },
+        {
+            "namespace": "django.db.models.sql.subqueries",
+            "docstring": "\"\"\"\nQuery subclasses which provide extra functionality beyond simple data retrieval.\n\"\"\"",
+            "package_name": "django.db.models.sql"
         },
         {
             "namespace": "django.db.models.sql.where",
-            "docstring": "\"\"\"\nCode to manage the creation and SQL rendering of 'where' constraints.\n\"\"\""
+            "docstring": "\"\"\"\nCode to manage the creation and SQL rendering of 'where' constraints.\n\"\"\"",
+            "package_name": "django.db.models.sql"
+        },
+        {
+            "namespace": "django.db.models.sql.constants",
+            "docstring": "\"\"\"\nConstants specific to the SQL storage portion of the ORM.\n\"\"\"",
+            "package_name": "django.db.models.sql"
         },
         {
             "namespace": "django.db.models.sql.datastructures",
-            "docstring": "\"\"\"\nUseful auxiliary data structures for query construction. Not useful outside\nthe SQL domain.\n\"\"\""
-        },
-        {
-            "namespace": "django.db.models.sql.compiler",
-            "docstring": ""
+            "docstring": "\"\"\"\nUseful auxiliary data structures for query construction. Not useful outside\nthe SQL domain.\n\"\"\"",
+            "package_name": "django.db.models.sql"
         }
     ],
     "subpackages": []

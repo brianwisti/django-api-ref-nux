@@ -1,23 +1,28 @@
 {
     "name": "django.contrib.gis.db.backends.base",
     "docstring": "",
+    "package_name": "django.contrib.gis.db.backends",
     "classes": [],
     "modules": [
         {
-            "namespace": "django.contrib.gis.db.backends.base.adapter",
-            "docstring": ""
+            "namespace": "django.contrib.gis.db.backends.base.models",
+            "docstring": "",
+            "package_name": "django.contrib.gis.db.backends.base"
         },
         {
-            "namespace": "django.contrib.gis.db.backends.base.operations",
-            "docstring": ""
+            "namespace": "django.contrib.gis.db.backends.base.adapter",
+            "docstring": "",
+            "package_name": "django.contrib.gis.db.backends.base"
         },
         {
             "namespace": "django.contrib.gis.db.backends.base.features",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.gis.db.backends.base"
         },
         {
-            "namespace": "django.contrib.gis.db.backends.base.models",
-            "docstring": ""
+            "namespace": "django.contrib.gis.db.backends.base.operations",
+            "docstring": "",
+            "package_name": "django.contrib.gis.db.backends.base"
         }
     ],
     "subpackages": []

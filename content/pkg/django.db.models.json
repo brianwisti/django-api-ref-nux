@@ -1,81 +1,100 @@
 {
     "name": "django.db.models",
     "docstring": "",
+    "package_name": "django.db",
     "classes": [],
     "modules": [
         {
-            "namespace": "django.db.models.constants",
-            "docstring": "\"\"\"\nConstants used across the ORM in general.\n\"\"\""
-        },
-        {
-            "namespace": "django.db.models.query",
-            "docstring": "\"\"\"\nThe main QuerySet implementation. This provides the public API for the ORM.\n\"\"\""
-        },
-        {
-            "namespace": "django.db.models.base",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.db.models.query_utils",
-            "docstring": "\"\"\"\nVarious data structures used in query construction.\n\nFactored out from django.db.models.query to avoid making the main module very\nlarge and/or so that they can be used by other modules without getting into\ncircular import difficulties.\n\"\"\""
-        },
-        {
-            "namespace": "django.db.models.enums",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.db.models.indexes",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.db.models.expressions",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.db.models.aggregates",
-            "docstring": "\"\"\"\nClasses to represent the definitions of aggregate functions.\n\"\"\""
+            "namespace": "django.db.models.options",
+            "docstring": "",
+            "package_name": "django.db.models"
         },
         {
             "namespace": "django.db.models.signals",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.db.models"
         },
         {
-            "namespace": "django.db.models.deletion",
-            "docstring": ""
+            "namespace": "django.db.models.enums",
+            "docstring": "",
+            "package_name": "django.db.models"
         },
         {
-            "namespace": "django.db.models.utils",
-            "docstring": ""
+            "namespace": "django.db.models.query",
+            "docstring": "\"\"\"\nThe main QuerySet implementation. This provides the public API for the ORM.\n\"\"\"",
+            "package_name": "django.db.models"
         },
         {
-            "namespace": "django.db.models.options",
-            "docstring": ""
+            "namespace": "django.db.models.constants",
+            "docstring": "\"\"\"\nConstants used across the ORM in general.\n\"\"\"",
+            "package_name": "django.db.models"
         },
         {
-            "namespace": "django.db.models.manager",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.db.models.constraints",
-            "docstring": ""
+            "namespace": "django.db.models.expressions",
+            "docstring": "",
+            "package_name": "django.db.models"
         },
         {
             "namespace": "django.db.models.lookups",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.db.models"
+        },
+        {
+            "namespace": "django.db.models.indexes",
+            "docstring": "",
+            "package_name": "django.db.models"
+        },
+        {
+            "namespace": "django.db.models.utils",
+            "docstring": "",
+            "package_name": "django.db.models"
+        },
+        {
+            "namespace": "django.db.models.aggregates",
+            "docstring": "\"\"\"\nClasses to represent the definitions of aggregate functions.\n\"\"\"",
+            "package_name": "django.db.models"
+        },
+        {
+            "namespace": "django.db.models.deletion",
+            "docstring": "",
+            "package_name": "django.db.models"
+        },
+        {
+            "namespace": "django.db.models.constraints",
+            "docstring": "",
+            "package_name": "django.db.models"
+        },
+        {
+            "namespace": "django.db.models.manager",
+            "docstring": "",
+            "package_name": "django.db.models"
+        },
+        {
+            "namespace": "django.db.models.query_utils",
+            "docstring": "\"\"\"\nVarious data structures used in query construction.\n\nFactored out from django.db.models.query to avoid making the main module very\nlarge and/or so that they can be used by other modules without getting into\ncircular import difficulties.\n\"\"\"",
+            "package_name": "django.db.models"
+        },
+        {
+            "namespace": "django.db.models.base",
+            "docstring": "",
+            "package_name": "django.db.models"
         }
     ],
     "subpackages": [
         {
-            "name": "django.db.models.fields",
-            "docstring": ""
+            "name": "django.db.models.functions",
+            "docstring": "",
+            "package_name": "django.db.models"
         },
         {
-            "name": "django.db.models.functions",
-            "docstring": ""
+            "name": "django.db.models.fields",
+            "docstring": "",
+            "package_name": "django.db.models"
         },
         {
             "name": "django.db.models.sql",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.db.models"
         }
     ]
 }

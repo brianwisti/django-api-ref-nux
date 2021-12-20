@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    WSGI middleware that intercepts calls to a directory, as defined by one of\n    the *_ROOT settings, and serves those files, publishing them under *_URL.\n    \"\"\"",
     "name": "FSFilesHandler",
     "namespace": "django.test.testcases.FSFilesHandler",
-    "parent_namespace": "django.test.testcases"
+    "module_name": "django.test.testcases",
+    "package_name": ""
 }

@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    A class for registering template tags and filters. Compiled filter and\n    template tag functions are stored in the filters and tags attributes.\n    The filter, simple_tag, and inclusion_tag methods provide a convenient\n    way to register callables as tags.\n    \"\"\"",
     "name": "Library",
     "namespace": "django.template.library.Library",
-    "parent_namespace": "django.template.library"
+    "module_name": "django.template.library",
+    "package_name": ""
 }

@@ -1,55 +1,68 @@
 {
     "name": "django.contrib.auth.migrations",
     "docstring": "",
+    "package_name": "django.contrib.auth",
     "classes": [],
     "modules": [
         {
-            "namespace": "django.contrib.auth.migrations.0008_alter_user_username_max_length",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.auth.migrations.0010_alter_group_name_max_length",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.auth.migrations.0005_alter_user_last_login_null",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.auth.migrations.0002_alter_permission_name_max_length",
-            "docstring": ""
+            "namespace": "django.contrib.auth.migrations.0012_alter_user_first_name_max_length",
+            "docstring": "",
+            "package_name": "django.contrib.auth.migrations"
         },
         {
             "namespace": "django.contrib.auth.migrations.0004_alter_user_username_opts",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.auth.migrations"
         },
         {
-            "namespace": "django.contrib.auth.migrations.0012_alter_user_first_name_max_length",
-            "docstring": ""
+            "namespace": "django.contrib.auth.migrations.0010_alter_group_name_max_length",
+            "docstring": "",
+            "package_name": "django.contrib.auth.migrations"
         },
         {
-            "namespace": "django.contrib.auth.migrations.0007_alter_validators_add_error_messages",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.auth.migrations.0006_require_contenttypes_0002",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.auth.migrations.0003_alter_user_email_max_length",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.auth.migrations.0011_update_proxy_permissions",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.auth.migrations.0001_initial",
-            "docstring": ""
+            "namespace": "django.contrib.auth.migrations.0005_alter_user_last_login_null",
+            "docstring": "",
+            "package_name": "django.contrib.auth.migrations"
         },
         {
             "namespace": "django.contrib.auth.migrations.0009_alter_user_last_name_max_length",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.auth.migrations"
+        },
+        {
+            "namespace": "django.contrib.auth.migrations.0003_alter_user_email_max_length",
+            "docstring": "",
+            "package_name": "django.contrib.auth.migrations"
+        },
+        {
+            "namespace": "django.contrib.auth.migrations.0007_alter_validators_add_error_messages",
+            "docstring": "",
+            "package_name": "django.contrib.auth.migrations"
+        },
+        {
+            "namespace": "django.contrib.auth.migrations.0006_require_contenttypes_0002",
+            "docstring": "",
+            "package_name": "django.contrib.auth.migrations"
+        },
+        {
+            "namespace": "django.contrib.auth.migrations.0011_update_proxy_permissions",
+            "docstring": "",
+            "package_name": "django.contrib.auth.migrations"
+        },
+        {
+            "namespace": "django.contrib.auth.migrations.0002_alter_permission_name_max_length",
+            "docstring": "",
+            "package_name": "django.contrib.auth.migrations"
+        },
+        {
+            "namespace": "django.contrib.auth.migrations.0001_initial",
+            "docstring": "",
+            "package_name": "django.contrib.auth.migrations"
+        },
+        {
+            "namespace": "django.contrib.auth.migrations.0008_alter_user_username_max_length",
+            "docstring": "",
+            "package_name": "django.contrib.auth.migrations"
         }
     ],
     "subpackages": []

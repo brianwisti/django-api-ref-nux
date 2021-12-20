@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    A management command which takes one or more installed application labels\n    as arguments, and does something with each of them.\n\n    Rather than implementing ``handle()``, subclasses must implement\n    ``handle_app_config()``, which will be called once for each application.\n    \"\"\"",
     "name": "AppCommand",
     "namespace": "django.core.management.base.AppCommand",
-    "parent_namespace": "django.core.management.base"
+    "module_name": "django.core.management.base",
+    "package_name": ""
 }

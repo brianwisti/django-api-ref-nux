@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    Metaclass to maintain backward inheritance compatibility for AutoField.\n\n    It is intended that AutoFieldMixin become public API when it is possible to\n    create a non-integer automatically-generated field using column defaults\n    stored in the database.\n\n    In many areas Django also relies on using isinstance() to check for an\n    automatically-generated field as a subclass of AutoField. A new flag needs\n    to be implemented on Field to be used instead.\n\n    When these issues have been addressed, this metaclass could be used to\n    deprecate inheritance from AutoField and use of isinstance() with AutoField\n    for detecting automatically-generated fields.\n    \"\"\"",
     "name": "AutoFieldMeta",
     "namespace": "django.db.models.fields.AutoFieldMeta",
-    "parent_namespace": "django.db.models.fields"
+    "module_name": "django.db.models.fields",
+    "package_name": "django.db.models.fields"
 }

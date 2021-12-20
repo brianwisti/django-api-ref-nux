@@ -1,49 +1,60 @@
 {
     "name": "django.contrib.flatpages",
     "docstring": "",
+    "package_name": "django.contrib",
     "classes": [],
     "modules": [
         {
-            "namespace": "django.contrib.flatpages.middleware",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.flatpages.views",
-            "docstring": ""
+            "namespace": "django.contrib.flatpages.models",
+            "docstring": "",
+            "package_name": "django.contrib.flatpages"
         },
         {
             "namespace": "django.contrib.flatpages.apps",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.flatpages.urls",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.flatpages.sitemaps",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.flatpages.admin",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.flatpages"
         },
         {
             "namespace": "django.contrib.flatpages.forms",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.flatpages"
         },
         {
-            "namespace": "django.contrib.flatpages.models",
-            "docstring": ""
+            "namespace": "django.contrib.flatpages.admin",
+            "docstring": "",
+            "package_name": "django.contrib.flatpages"
+        },
+        {
+            "namespace": "django.contrib.flatpages.urls",
+            "docstring": "",
+            "package_name": "django.contrib.flatpages"
+        },
+        {
+            "namespace": "django.contrib.flatpages.sitemaps",
+            "docstring": "",
+            "package_name": "django.contrib.flatpages"
+        },
+        {
+            "namespace": "django.contrib.flatpages.middleware",
+            "docstring": "",
+            "package_name": "django.contrib.flatpages"
+        },
+        {
+            "namespace": "django.contrib.flatpages.views",
+            "docstring": "",
+            "package_name": "django.contrib.flatpages"
         }
     ],
     "subpackages": [
         {
             "name": "django.contrib.flatpages.templatetags",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.flatpages"
         },
         {
             "name": "django.contrib.flatpages.migrations",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.flatpages"
         }
     ]
 }

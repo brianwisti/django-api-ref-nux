@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    A OneToOneField is essentially the same as a ForeignKey, with the exception\n    that it always carries a \"unique\" constraint with it and the reverse\n    relation always returns the object pointed to (since there will only ever\n    be one), rather than returning a list.\n    \"\"\"",
     "name": "OneToOneField",
     "namespace": "django.db.models.fields.related.OneToOneField",
-    "parent_namespace": "django.db.models.fields.related"
+    "module_name": "django.db.models.fields.related",
+    "package_name": ""
 }

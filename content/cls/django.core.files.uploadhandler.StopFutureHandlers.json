@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    Upload handlers that have handled a file and do not want future handlers to\n    run should raise this exception instead of returning None.\n    \"\"\"",
     "name": "StopFutureHandlers",
     "namespace": "django.core.files.uploadhandler.StopFutureHandlers",
-    "parent_namespace": "django.core.files.uploadhandler"
+    "module_name": "django.core.files.uploadhandler",
+    "package_name": ""
 }

@@ -1,27 +1,33 @@
 {
     "name": "django.contrib.gis.db.backends.mysql",
     "docstring": "",
+    "package_name": "django.contrib.gis.db.backends",
     "classes": [],
     "modules": [
         {
-            "namespace": "django.contrib.gis.db.backends.mysql.introspection",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.gis.db.backends.mysql.base",
-            "docstring": ""
+            "namespace": "django.contrib.gis.db.backends.mysql.features",
+            "docstring": "",
+            "package_name": "django.contrib.gis.db.backends.mysql"
         },
         {
             "namespace": "django.contrib.gis.db.backends.mysql.operations",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.gis.db.backends.mysql"
         },
         {
-            "namespace": "django.contrib.gis.db.backends.mysql.features",
-            "docstring": ""
+            "namespace": "django.contrib.gis.db.backends.mysql.introspection",
+            "docstring": "",
+            "package_name": "django.contrib.gis.db.backends.mysql"
+        },
+        {
+            "namespace": "django.contrib.gis.db.backends.mysql.base",
+            "docstring": "",
+            "package_name": "django.contrib.gis.db.backends.mysql"
         },
         {
             "namespace": "django.contrib.gis.db.backends.mysql.schema",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.gis.db.backends.mysql"
         }
     ],
     "subpackages": []

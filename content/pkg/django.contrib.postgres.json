@@ -1,69 +1,85 @@
 {
     "name": "django.contrib.postgres",
     "docstring": "",
+    "package_name": "django.contrib",
     "classes": [],
     "modules": [
         {
-            "namespace": "django.contrib.postgres.serializers",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.postgres.indexes",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.postgres.expressions",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.postgres.apps",
-            "docstring": ""
+            "namespace": "django.contrib.postgres.functions",
+            "docstring": "",
+            "package_name": "django.contrib.postgres"
         },
         {
             "namespace": "django.contrib.postgres.signals",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.postgres.functions",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.postgres.search",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.postgres.operations",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.postgres.utils",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.postgres"
         },
         {
             "namespace": "django.contrib.postgres.validators",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.postgres"
         },
         {
-            "namespace": "django.contrib.postgres.constraints",
-            "docstring": ""
+            "namespace": "django.contrib.postgres.serializers",
+            "docstring": "",
+            "package_name": "django.contrib.postgres"
+        },
+        {
+            "namespace": "django.contrib.postgres.expressions",
+            "docstring": "",
+            "package_name": "django.contrib.postgres"
         },
         {
             "namespace": "django.contrib.postgres.lookups",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.postgres"
+        },
+        {
+            "namespace": "django.contrib.postgres.apps",
+            "docstring": "",
+            "package_name": "django.contrib.postgres"
+        },
+        {
+            "namespace": "django.contrib.postgres.operations",
+            "docstring": "",
+            "package_name": "django.contrib.postgres"
+        },
+        {
+            "namespace": "django.contrib.postgres.indexes",
+            "docstring": "",
+            "package_name": "django.contrib.postgres"
+        },
+        {
+            "namespace": "django.contrib.postgres.utils",
+            "docstring": "",
+            "package_name": "django.contrib.postgres"
+        },
+        {
+            "namespace": "django.contrib.postgres.search",
+            "docstring": "",
+            "package_name": "django.contrib.postgres"
+        },
+        {
+            "namespace": "django.contrib.postgres.constraints",
+            "docstring": "",
+            "package_name": "django.contrib.postgres"
         }
     ],
     "subpackages": [
         {
-            "name": "django.contrib.postgres.fields",
-            "docstring": ""
-        },
-        {
             "name": "django.contrib.postgres.forms",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.postgres"
         },
         {
             "name": "django.contrib.postgres.aggregates",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.postgres"
+        },
+        {
+            "name": "django.contrib.postgres.fields",
+            "docstring": "",
+            "package_name": "django.contrib.postgres"
         }
     ]
 }

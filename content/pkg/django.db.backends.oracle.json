@@ -1,47 +1,58 @@
 {
     "name": "django.db.backends.oracle",
     "docstring": "",
+    "package_name": "django.db.backends",
     "classes": [],
     "modules": [
         {
-            "namespace": "django.db.backends.oracle.creation",
-            "docstring": ""
+            "namespace": "django.db.backends.oracle.functions",
+            "docstring": "",
+            "package_name": "django.db.backends.oracle"
         },
         {
-            "namespace": "django.db.backends.oracle.introspection",
-            "docstring": ""
+            "namespace": "django.db.backends.oracle.creation",
+            "docstring": "",
+            "package_name": "django.db.backends.oracle"
         },
         {
             "namespace": "django.db.backends.oracle.client",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.db.backends.oracle.base",
-            "docstring": "\"\"\"\nOracle database backend for Django.\n\nRequires cx_Oracle: https://oracle.github.io/python-cx_Oracle/\n\"\"\""
-        },
-        {
-            "namespace": "django.db.backends.oracle.functions",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.db.backends.oracle.operations",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.db.backends.oracle.utils",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.db.backends.oracle"
         },
         {
             "namespace": "django.db.backends.oracle.features",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.db.backends.oracle"
         },
         {
-            "namespace": "django.db.backends.oracle.validation",
-            "docstring": ""
+            "namespace": "django.db.backends.oracle.operations",
+            "docstring": "",
+            "package_name": "django.db.backends.oracle"
+        },
+        {
+            "namespace": "django.db.backends.oracle.utils",
+            "docstring": "",
+            "package_name": "django.db.backends.oracle"
+        },
+        {
+            "namespace": "django.db.backends.oracle.introspection",
+            "docstring": "",
+            "package_name": "django.db.backends.oracle"
+        },
+        {
+            "namespace": "django.db.backends.oracle.base",
+            "docstring": "\"\"\"\nOracle database backend for Django.\n\nRequires cx_Oracle: https://oracle.github.io/python-cx_Oracle/\n\"\"\"",
+            "package_name": "django.db.backends.oracle"
         },
         {
             "namespace": "django.db.backends.oracle.schema",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.db.backends.oracle"
+        },
+        {
+            "namespace": "django.db.backends.oracle.validation",
+            "docstring": "",
+            "package_name": "django.db.backends.oracle"
         }
     ],
     "subpackages": []

@@ -1,29 +1,35 @@
 {
     "name": "django.contrib.redirects",
     "docstring": "",
+    "package_name": "django.contrib",
     "classes": [],
     "modules": [
         {
-            "namespace": "django.contrib.redirects.middleware",
-            "docstring": ""
+            "namespace": "django.contrib.redirects.models",
+            "docstring": "",
+            "package_name": "django.contrib.redirects"
         },
         {
             "namespace": "django.contrib.redirects.apps",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.redirects"
         },
         {
             "namespace": "django.contrib.redirects.admin",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.redirects"
         },
         {
-            "namespace": "django.contrib.redirects.models",
-            "docstring": ""
+            "namespace": "django.contrib.redirects.middleware",
+            "docstring": "",
+            "package_name": "django.contrib.redirects"
         }
     ],
     "subpackages": [
         {
             "name": "django.contrib.redirects.migrations",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.redirects"
         }
     ]
 }

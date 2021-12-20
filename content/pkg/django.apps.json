@@ -1,15 +1,18 @@
 {
     "name": "django.apps",
     "docstring": "",
+    "package_name": "django",
     "classes": [],
     "modules": [
         {
-            "namespace": "django.apps.registry",
-            "docstring": ""
+            "namespace": "django.apps.config",
+            "docstring": "",
+            "package_name": "django.apps"
         },
         {
-            "namespace": "django.apps.config",
-            "docstring": ""
+            "namespace": "django.apps.registry",
+            "docstring": "",
+            "package_name": "django.apps"
         }
     ],
     "subpackages": []

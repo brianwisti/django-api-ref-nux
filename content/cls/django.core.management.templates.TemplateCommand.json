@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    Copy either a Django application layout template or a Django project\n    layout template into the specified directory.\n\n    :param style: A color style object (see django.core.management.color).\n    :param app_or_project: The string 'app' or 'project'.\n    :param name: The name of the application or project.\n    :param directory: The directory to which the template should be copied.\n    :param options: The additional variables passed to project or app templates\n    \"\"\"",
     "name": "TemplateCommand",
     "namespace": "django.core.management.templates.TemplateCommand",
-    "parent_namespace": "django.core.management.templates"
+    "module_name": "django.core.management.templates",
+    "package_name": ""
 }

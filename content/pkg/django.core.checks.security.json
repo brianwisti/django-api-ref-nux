@@ -1,19 +1,23 @@
 {
     "name": "django.core.checks.security",
     "docstring": "",
+    "package_name": "django.core.checks",
     "classes": [],
     "modules": [
         {
-            "namespace": "django.core.checks.security.base",
-            "docstring": ""
-        },
-        {
             "namespace": "django.core.checks.security.sessions",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.core.checks.security"
         },
         {
             "namespace": "django.core.checks.security.csrf",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.core.checks.security"
+        },
+        {
+            "namespace": "django.core.checks.security.base",
+            "docstring": "",
+            "package_name": "django.core.checks.security"
         }
     ],
     "subpackages": []

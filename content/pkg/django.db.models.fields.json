@@ -1,250 +1,294 @@
 {
     "name": "django.db.models.fields",
     "docstring": "",
+    "package_name": "django.db.models",
     "classes": [
         {
             "docstring": "",
             "name": "Empty",
             "namespace": "django.db.models.fields.Empty",
-            "parent_namespace": "django.db.models.fields"
+            "module_name": "django.db.models.fields",
+            "package_name": "django.db.models.fields"
         },
         {
             "docstring": "",
             "name": "NOT_PROVIDED",
             "namespace": "django.db.models.fields.NOT_PROVIDED",
-            "parent_namespace": "django.db.models.fields"
+            "module_name": "django.db.models.fields",
+            "package_name": "django.db.models.fields"
         },
         {
             "docstring": "\"\"\"Base class for all field types\"\"\"",
             "name": "Field",
             "namespace": "django.db.models.fields.Field",
-            "parent_namespace": "django.db.models.fields"
+            "module_name": "django.db.models.fields",
+            "package_name": "django.db.models.fields"
         },
         {
             "docstring": "",
             "name": "BooleanField",
             "namespace": "django.db.models.fields.BooleanField",
-            "parent_namespace": "django.db.models.fields"
+            "module_name": "django.db.models.fields",
+            "package_name": "django.db.models.fields"
         },
         {
             "docstring": "",
             "name": "CharField",
             "namespace": "django.db.models.fields.CharField",
-            "parent_namespace": "django.db.models.fields"
+            "module_name": "django.db.models.fields",
+            "package_name": "django.db.models.fields"
         },
         {
             "docstring": "",
             "name": "CommaSeparatedIntegerField",
             "namespace": "django.db.models.fields.CommaSeparatedIntegerField",
-            "parent_namespace": "django.db.models.fields"
+            "module_name": "django.db.models.fields",
+            "package_name": "django.db.models.fields"
         },
         {
             "docstring": "",
             "name": "DateTimeCheckMixin",
             "namespace": "django.db.models.fields.DateTimeCheckMixin",
-            "parent_namespace": "django.db.models.fields"
+            "module_name": "django.db.models.fields",
+            "package_name": "django.db.models.fields"
         },
         {
             "docstring": "",
             "name": "DateField",
             "namespace": "django.db.models.fields.DateField",
-            "parent_namespace": "django.db.models.fields"
+            "module_name": "django.db.models.fields",
+            "package_name": "django.db.models.fields"
         },
         {
             "docstring": "",
             "name": "DateTimeField",
             "namespace": "django.db.models.fields.DateTimeField",
-            "parent_namespace": "django.db.models.fields"
+            "module_name": "django.db.models.fields",
+            "package_name": "django.db.models.fields"
         },
         {
             "docstring": "",
             "name": "DecimalField",
             "namespace": "django.db.models.fields.DecimalField",
-            "parent_namespace": "django.db.models.fields"
+            "module_name": "django.db.models.fields",
+            "package_name": "django.db.models.fields"
         },
         {
             "docstring": "\"\"\"\n    Store timedelta objects.\n\n    Use interval on PostgreSQL, INTERVAL DAY TO SECOND on Oracle, and bigint\n    of microseconds on other databases.\n    \"\"\"",
             "name": "DurationField",
             "namespace": "django.db.models.fields.DurationField",
-            "parent_namespace": "django.db.models.fields"
+            "module_name": "django.db.models.fields",
+            "package_name": "django.db.models.fields"
         },
         {
             "docstring": "",
             "name": "EmailField",
             "namespace": "django.db.models.fields.EmailField",
-            "parent_namespace": "django.db.models.fields"
+            "module_name": "django.db.models.fields",
+            "package_name": "django.db.models.fields"
         },
         {
             "docstring": "",
             "name": "FilePathField",
             "namespace": "django.db.models.fields.FilePathField",
-            "parent_namespace": "django.db.models.fields"
+            "module_name": "django.db.models.fields",
+            "package_name": "django.db.models.fields"
         },
         {
             "docstring": "",
             "name": "FloatField",
             "namespace": "django.db.models.fields.FloatField",
-            "parent_namespace": "django.db.models.fields"
+            "module_name": "django.db.models.fields",
+            "package_name": "django.db.models.fields"
         },
         {
             "docstring": "",
             "name": "IntegerField",
             "namespace": "django.db.models.fields.IntegerField",
-            "parent_namespace": "django.db.models.fields"
+            "module_name": "django.db.models.fields",
+            "package_name": "django.db.models.fields"
         },
         {
             "docstring": "",
             "name": "BigIntegerField",
             "namespace": "django.db.models.fields.BigIntegerField",
-            "parent_namespace": "django.db.models.fields"
+            "module_name": "django.db.models.fields",
+            "package_name": "django.db.models.fields"
         },
         {
             "docstring": "",
             "name": "SmallIntegerField",
             "namespace": "django.db.models.fields.SmallIntegerField",
-            "parent_namespace": "django.db.models.fields"
+            "module_name": "django.db.models.fields",
+            "package_name": "django.db.models.fields"
         },
         {
             "docstring": "",
             "name": "IPAddressField",
             "namespace": "django.db.models.fields.IPAddressField",
-            "parent_namespace": "django.db.models.fields"
+            "module_name": "django.db.models.fields",
+            "package_name": "django.db.models.fields"
         },
         {
             "docstring": "",
             "name": "GenericIPAddressField",
             "namespace": "django.db.models.fields.GenericIPAddressField",
-            "parent_namespace": "django.db.models.fields"
+            "module_name": "django.db.models.fields",
+            "package_name": "django.db.models.fields"
         },
         {
             "docstring": "",
             "name": "NullBooleanField",
             "namespace": "django.db.models.fields.NullBooleanField",
-            "parent_namespace": "django.db.models.fields"
+            "module_name": "django.db.models.fields",
+            "package_name": "django.db.models.fields"
         },
         {
             "docstring": "",
             "name": "PositiveIntegerRelDbTypeMixin",
             "namespace": "django.db.models.fields.PositiveIntegerRelDbTypeMixin",
-            "parent_namespace": "django.db.models.fields"
+            "module_name": "django.db.models.fields",
+            "package_name": "django.db.models.fields"
         },
         {
             "docstring": "",
             "name": "PositiveBigIntegerField",
             "namespace": "django.db.models.fields.PositiveBigIntegerField",
-            "parent_namespace": "django.db.models.fields"
+            "module_name": "django.db.models.fields",
+            "package_name": "django.db.models.fields"
         },
         {
             "docstring": "",
             "name": "PositiveIntegerField",
             "namespace": "django.db.models.fields.PositiveIntegerField",
-            "parent_namespace": "django.db.models.fields"
+            "module_name": "django.db.models.fields",
+            "package_name": "django.db.models.fields"
         },
         {
             "docstring": "",
             "name": "PositiveSmallIntegerField",
             "namespace": "django.db.models.fields.PositiveSmallIntegerField",
-            "parent_namespace": "django.db.models.fields"
+            "module_name": "django.db.models.fields",
+            "package_name": "django.db.models.fields"
         },
         {
             "docstring": "",
             "name": "SlugField",
             "namespace": "django.db.models.fields.SlugField",
-            "parent_namespace": "django.db.models.fields"
+            "module_name": "django.db.models.fields",
+            "package_name": "django.db.models.fields"
         },
         {
             "docstring": "",
             "name": "TextField",
             "namespace": "django.db.models.fields.TextField",
-            "parent_namespace": "django.db.models.fields"
+            "module_name": "django.db.models.fields",
+            "package_name": "django.db.models.fields"
         },
         {
             "docstring": "",
             "name": "TimeField",
             "namespace": "django.db.models.fields.TimeField",
-            "parent_namespace": "django.db.models.fields"
+            "module_name": "django.db.models.fields",
+            "package_name": "django.db.models.fields"
         },
         {
             "docstring": "",
             "name": "URLField",
             "namespace": "django.db.models.fields.URLField",
-            "parent_namespace": "django.db.models.fields"
+            "module_name": "django.db.models.fields",
+            "package_name": "django.db.models.fields"
         },
         {
             "docstring": "",
             "name": "BinaryField",
             "namespace": "django.db.models.fields.BinaryField",
-            "parent_namespace": "django.db.models.fields"
+            "module_name": "django.db.models.fields",
+            "package_name": "django.db.models.fields"
         },
         {
             "docstring": "",
             "name": "UUIDField",
             "namespace": "django.db.models.fields.UUIDField",
-            "parent_namespace": "django.db.models.fields"
+            "module_name": "django.db.models.fields",
+            "package_name": "django.db.models.fields"
         },
         {
             "docstring": "",
             "name": "AutoFieldMixin",
             "namespace": "django.db.models.fields.AutoFieldMixin",
-            "parent_namespace": "django.db.models.fields"
+            "module_name": "django.db.models.fields",
+            "package_name": "django.db.models.fields"
         },
         {
             "docstring": "\"\"\"\n    Metaclass to maintain backward inheritance compatibility for AutoField.\n\n    It is intended that AutoFieldMixin become public API when it is possible to\n    create a non-integer automatically-generated field using column defaults\n    stored in the database.\n\n    In many areas Django also relies on using isinstance() to check for an\n    automatically-generated field as a subclass of AutoField. A new flag needs\n    to be implemented on Field to be used instead.\n\n    When these issues have been addressed, this metaclass could be used to\n    deprecate inheritance from AutoField and use of isinstance() with AutoField\n    for detecting automatically-generated fields.\n    \"\"\"",
             "name": "AutoFieldMeta",
             "namespace": "django.db.models.fields.AutoFieldMeta",
-            "parent_namespace": "django.db.models.fields"
+            "module_name": "django.db.models.fields",
+            "package_name": "django.db.models.fields"
         },
         {
             "docstring": "",
             "name": "AutoField",
             "namespace": "django.db.models.fields.AutoField",
-            "parent_namespace": "django.db.models.fields"
+            "module_name": "django.db.models.fields",
+            "package_name": "django.db.models.fields"
         },
         {
             "docstring": "",
             "name": "BigAutoField",
             "namespace": "django.db.models.fields.BigAutoField",
-            "parent_namespace": "django.db.models.fields"
+            "module_name": "django.db.models.fields",
+            "package_name": "django.db.models.fields"
         },
         {
             "docstring": "",
             "name": "SmallAutoField",
             "namespace": "django.db.models.fields.SmallAutoField",
-            "parent_namespace": "django.db.models.fields"
+            "module_name": "django.db.models.fields",
+            "package_name": "django.db.models.fields"
         }
     ],
     "modules": [
         {
-            "namespace": "django.db.models.fields.related_lookups",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.db.models.fields.reverse_related",
-            "docstring": "\"\"\"\n\"Rel objects\" for related fields.\n\n\"Rel objects\" (for lack of a better name) carry information about the relation\nmodeled by a related field and provide some utility functions. They're stored\nin the ``remote_field`` attribute of the field.\n\nThey also act as reverse fields for the purposes of the Meta API because\nthey're the closest concept currently available.\n\"\"\""
-        },
-        {
-            "namespace": "django.db.models.fields.related",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.db.models.fields.json",
-            "docstring": ""
-        },
-        {
             "namespace": "django.db.models.fields.related_descriptors",
-            "docstring": "\"\"\"\nAccessors for related objects.\n\nWhen a field defines a relation between two models, each model class provides\nan attribute to access related instances of the other model class (unless the\nreverse accessor has been disabled with related_name='+').\n\nAccessors are implemented as descriptors in order to customize access and\nassignment. This module defines the descriptor classes.\n\nForward accessors follow foreign keys. Reverse accessors trace them back. For\nexample, with the following models::\n\n    class Parent(Model):\n        pass\n\n    class Child(Model):\n        parent = ForeignKey(Parent, related_name='children')\n\n ``child.parent`` is a forward many-to-one relation. ``parent.children`` is a\nreverse many-to-one relation.\n\nThere are three types of relations (many-to-one, one-to-one, and many-to-many)\nand two directions (forward and reverse) for a total of six combinations.\n\n1. Related instance on the forward side of a many-to-one relation:\n   ``ForwardManyToOneDescriptor``.\n\n   Uniqueness of foreign key values is irrelevant to accessing the related\n   instance, making the many-to-one and one-to-one cases identical as far as\n   the descriptor is concerned. The constraint is checked upstream (unicity\n   validation in forms) or downstream (unique indexes in the database).\n\n2. Related instance on the forward side of a one-to-one\n   relation: ``ForwardOneToOneDescriptor``.\n\n   It avoids querying the database when accessing the parent link field in\n   a multi-table inheritance scenario.\n\n3. Related instance on the reverse side of a one-to-one relation:\n   ``ReverseOneToOneDescriptor``.\n\n   One-to-one relations are asymmetrical, despite the apparent symmetry of the\n   name, because they're implemented in the database with a foreign key from\n   one table to another. As a consequence ``ReverseOneToOneDescriptor`` is\n   slightly different from ``ForwardManyToOneDescriptor``.\n\n4. Related objects manager for related instances on the reverse side of a\n   many-to-one relation: ``ReverseManyToOneDescriptor``.\n\n   Unlike the previous two classes, this one provides access to a collection\n   of objects. It returns a manager rather than an instance.\n\n5. Related objects manager for related instances on the forward or reverse\n   sides of a many-to-many relation: ``ManyToManyDescriptor``.\n\n   Many-to-many relations are symmetrical. The syntax of Django models\n   requires declaring them on one side but that's an implementation detail.\n   They could be declared on the other side without any change in behavior.\n   Therefore the forward and reverse descriptors can be the same.\n\n   If you're looking for ``ForwardManyToManyDescriptor`` or\n   ``ReverseManyToManyDescriptor``, use ``ManyToManyDescriptor`` instead.\n\"\"\""
-        },
-        {
-            "namespace": "django.db.models.fields.proxy",
-            "docstring": "\"\"\"\nField-like classes that aren't really fields. It's easier to use objects that\nhave the same attributes as fields sometimes (avoids a lot of special casing).\n\"\"\""
+            "docstring": "\"\"\"\nAccessors for related objects.\n\nWhen a field defines a relation between two models, each model class provides\nan attribute to access related instances of the other model class (unless the\nreverse accessor has been disabled with related_name='+').\n\nAccessors are implemented as descriptors in order to customize access and\nassignment. This module defines the descriptor classes.\n\nForward accessors follow foreign keys. Reverse accessors trace them back. For\nexample, with the following models::\n\n    class Parent(Model):\n        pass\n\n    class Child(Model):\n        parent = ForeignKey(Parent, related_name='children')\n\n ``child.parent`` is a forward many-to-one relation. ``parent.children`` is a\nreverse many-to-one relation.\n\nThere are three types of relations (many-to-one, one-to-one, and many-to-many)\nand two directions (forward and reverse) for a total of six combinations.\n\n1. Related instance on the forward side of a many-to-one relation:\n   ``ForwardManyToOneDescriptor``.\n\n   Uniqueness of foreign key values is irrelevant to accessing the related\n   instance, making the many-to-one and one-to-one cases identical as far as\n   the descriptor is concerned. The constraint is checked upstream (unicity\n   validation in forms) or downstream (unique indexes in the database).\n\n2. Related instance on the forward side of a one-to-one\n   relation: ``ForwardOneToOneDescriptor``.\n\n   It avoids querying the database when accessing the parent link field in\n   a multi-table inheritance scenario.\n\n3. Related instance on the reverse side of a one-to-one relation:\n   ``ReverseOneToOneDescriptor``.\n\n   One-to-one relations are asymmetrical, despite the apparent symmetry of the\n   name, because they're implemented in the database with a foreign key from\n   one table to another. As a consequence ``ReverseOneToOneDescriptor`` is\n   slightly different from ``ForwardManyToOneDescriptor``.\n\n4. Related objects manager for related instances on the reverse side of a\n   many-to-one relation: ``ReverseManyToOneDescriptor``.\n\n   Unlike the previous two classes, this one provides access to a collection\n   of objects. It returns a manager rather than an instance.\n\n5. Related objects manager for related instances on the forward or reverse\n   sides of a many-to-many relation: ``ManyToManyDescriptor``.\n\n   Many-to-many relations are symmetrical. The syntax of Django models\n   requires declaring them on one side but that's an implementation detail.\n   They could be declared on the other side without any change in behavior.\n   Therefore the forward and reverse descriptors can be the same.\n\n   If you're looking for ``ForwardManyToManyDescriptor`` or\n   ``ReverseManyToManyDescriptor``, use ``ManyToManyDescriptor`` instead.\n\"\"\"",
+            "package_name": "django.db.models.fields"
         },
         {
             "namespace": "django.db.models.fields.files",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.db.models.fields"
         },
         {
             "namespace": "django.db.models.fields.mixins",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.db.models.fields"
+        },
+        {
+            "namespace": "django.db.models.fields.related",
+            "docstring": "",
+            "package_name": "django.db.models.fields"
+        },
+        {
+            "namespace": "django.db.models.fields.proxy",
+            "docstring": "\"\"\"\nField-like classes that aren't really fields. It's easier to use objects that\nhave the same attributes as fields sometimes (avoids a lot of special casing).\n\"\"\"",
+            "package_name": "django.db.models.fields"
+        },
+        {
+            "namespace": "django.db.models.fields.reverse_related",
+            "docstring": "\"\"\"\n\"Rel objects\" for related fields.\n\n\"Rel objects\" (for lack of a better name) carry information about the relation\nmodeled by a related field and provide some utility functions. They're stored\nin the ``remote_field`` attribute of the field.\n\nThey also act as reverse fields for the purposes of the Meta API because\nthey're the closest concept currently available.\n\"\"\"",
+            "package_name": "django.db.models.fields"
+        },
+        {
+            "namespace": "django.db.models.fields.related_lookups",
+            "docstring": "",
+            "package_name": "django.db.models.fields"
+        },
+        {
+            "namespace": "django.db.models.fields.json",
+            "docstring": "",
+            "package_name": "django.db.models.fields"
         }
     ],
     "subpackages": []

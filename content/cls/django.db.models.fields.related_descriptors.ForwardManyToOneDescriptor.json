@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    Accessor to the related object on the forward side of a many-to-one or\n    one-to-one (via ForwardOneToOneDescriptor subclass) relation.\n\n    In the example::\n\n        class Child(Model):\n            parent = ForeignKey(Parent, related_name='children')\n\n    ``Child.parent`` is a ``ForwardManyToOneDescriptor`` instance.\n    \"\"\"",
     "name": "ForwardManyToOneDescriptor",
     "namespace": "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor",
-    "parent_namespace": "django.db.models.fields.related_descriptors"
+    "module_name": "django.db.models.fields.related_descriptors",
+    "package_name": ""
 }

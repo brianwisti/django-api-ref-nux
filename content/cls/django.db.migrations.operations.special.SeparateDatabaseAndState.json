@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    Take two lists of operations - ones that will be used for the database,\n    and ones that will be used for the state change. This allows operations\n    that don't support state change to have it applied, or have operations\n    that affect the state or not the database, or so on.\n    \"\"\"",
     "name": "SeparateDatabaseAndState",
     "namespace": "django.db.migrations.operations.special.SeparateDatabaseAndState",
-    "parent_namespace": "django.db.migrations.operations.special"
+    "module_name": "django.db.migrations.operations.special",
+    "package_name": ""
 }

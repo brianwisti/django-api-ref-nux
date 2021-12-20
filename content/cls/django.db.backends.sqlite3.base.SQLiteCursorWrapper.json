@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    Django uses \"format\" style placeholders, but pysqlite2 uses \"qmark\" style.\n    This fixes it -- but note that if you want to use a literal \"%s\" in a query,\n    you'll need to use \"%%s\".\n    \"\"\"",
     "name": "SQLiteCursorWrapper",
     "namespace": "django.db.backends.sqlite3.base.SQLiteCursorWrapper",
-    "parent_namespace": "django.db.backends.sqlite3.base"
+    "module_name": "django.db.backends.sqlite3.base",
+    "package_name": ""
 }

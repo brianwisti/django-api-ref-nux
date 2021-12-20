@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    Base class for email backend implementations.\n\n    Subclasses must at least overwrite send_messages().\n\n    open() and close() can be called indirectly by using a backend object as a\n    context manager:\n\n       with backend as connection:\n           # do something with connection\n           pass\n    \"\"\"",
     "name": "BaseEmailBackend",
     "namespace": "django.core.mail.backends.base.BaseEmailBackend",
-    "parent_namespace": "django.core.mail.backends.base"
+    "module_name": "django.core.mail.backends.base",
+    "package_name": ""
 }

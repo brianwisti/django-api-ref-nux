@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    Return Sunday=1 through Saturday=7.\n\n    To replicate this in Python: (mydatetime.isoweekday() % 7) + 1\n    \"\"\"",
     "name": "ExtractWeekDay",
     "namespace": "django.db.models.functions.datetime.ExtractWeekDay",
-    "parent_namespace": "django.db.models.functions.datetime"
+    "module_name": "django.db.models.functions.datetime",
+    "package_name": ""
 }

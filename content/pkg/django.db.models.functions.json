@@ -1,31 +1,38 @@
 {
     "name": "django.db.models.functions",
     "docstring": "",
+    "package_name": "django.db.models",
     "classes": [],
     "modules": [
         {
-            "namespace": "django.db.models.functions.text",
-            "docstring": ""
+            "namespace": "django.db.models.functions.mixins",
+            "docstring": "",
+            "package_name": "django.db.models.functions"
         },
         {
             "namespace": "django.db.models.functions.window",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.db.models.functions"
         },
         {
             "namespace": "django.db.models.functions.comparison",
-            "docstring": "\"\"\"Database functions that do comparisons or type conversions.\"\"\""
+            "docstring": "\"\"\"Database functions that do comparisons or type conversions.\"\"\"",
+            "package_name": "django.db.models.functions"
+        },
+        {
+            "namespace": "django.db.models.functions.text",
+            "docstring": "",
+            "package_name": "django.db.models.functions"
         },
         {
             "namespace": "django.db.models.functions.math",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.db.models.functions"
         },
         {
             "namespace": "django.db.models.functions.datetime",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.db.models.functions.mixins",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.db.models.functions"
         }
     ],
     "subpackages": []

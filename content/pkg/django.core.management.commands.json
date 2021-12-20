@@ -1,103 +1,128 @@
 {
     "name": "django.core.management.commands",
     "docstring": "",
+    "package_name": "django.core.management",
     "classes": [],
     "modules": [
         {
-            "namespace": "django.core.management.commands.dbshell",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.core.management.commands.diffsettings",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.core.management.commands.showmigrations",
-            "docstring": ""
-        },
-        {
             "namespace": "django.core.management.commands.createcachetable",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.core.management.commands.sqlflush",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.core.management.commands.flush",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.core.management.commands.compilemessages",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.core.management.commands.startapp",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.core.management.commands.makemessages",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.core.management.commands.dumpdata",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.core.management.commands.sqlsequencereset",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.core.management.commands.test",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.core.management.commands.shell",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.core.management.commands.startproject",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.core.management.commands.makemigrations",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.core.management.commands.runserver",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.core.management.commands.migrate",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.core.management.commands.squashmigrations",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.core.management.commands.sqlmigrate",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.core.management.commands.testserver",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.core.management.commands"
         },
         {
             "namespace": "django.core.management.commands.inspectdb",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.core.management.commands"
         },
         {
-            "namespace": "django.core.management.commands.loaddata",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.core.management.commands.sendtestemail",
-            "docstring": ""
+            "namespace": "django.core.management.commands.squashmigrations",
+            "docstring": "",
+            "package_name": "django.core.management.commands"
         },
         {
             "namespace": "django.core.management.commands.check",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.core.management.commands"
+        },
+        {
+            "namespace": "django.core.management.commands.startapp",
+            "docstring": "",
+            "package_name": "django.core.management.commands"
+        },
+        {
+            "namespace": "django.core.management.commands.sqlmigrate",
+            "docstring": "",
+            "package_name": "django.core.management.commands"
+        },
+        {
+            "namespace": "django.core.management.commands.makemigrations",
+            "docstring": "",
+            "package_name": "django.core.management.commands"
+        },
+        {
+            "namespace": "django.core.management.commands.sqlflush",
+            "docstring": "",
+            "package_name": "django.core.management.commands"
+        },
+        {
+            "namespace": "django.core.management.commands.makemessages",
+            "docstring": "",
+            "package_name": "django.core.management.commands"
+        },
+        {
+            "namespace": "django.core.management.commands.shell",
+            "docstring": "",
+            "package_name": "django.core.management.commands"
+        },
+        {
+            "namespace": "django.core.management.commands.dumpdata",
+            "docstring": "",
+            "package_name": "django.core.management.commands"
+        },
+        {
+            "namespace": "django.core.management.commands.test",
+            "docstring": "",
+            "package_name": "django.core.management.commands"
+        },
+        {
+            "namespace": "django.core.management.commands.flush",
+            "docstring": "",
+            "package_name": "django.core.management.commands"
+        },
+        {
+            "namespace": "django.core.management.commands.loaddata",
+            "docstring": "",
+            "package_name": "django.core.management.commands"
+        },
+        {
+            "namespace": "django.core.management.commands.runserver",
+            "docstring": "",
+            "package_name": "django.core.management.commands"
+        },
+        {
+            "namespace": "django.core.management.commands.showmigrations",
+            "docstring": "",
+            "package_name": "django.core.management.commands"
+        },
+        {
+            "namespace": "django.core.management.commands.sqlsequencereset",
+            "docstring": "",
+            "package_name": "django.core.management.commands"
+        },
+        {
+            "namespace": "django.core.management.commands.dbshell",
+            "docstring": "",
+            "package_name": "django.core.management.commands"
+        },
+        {
+            "namespace": "django.core.management.commands.sendtestemail",
+            "docstring": "",
+            "package_name": "django.core.management.commands"
+        },
+        {
+            "namespace": "django.core.management.commands.startproject",
+            "docstring": "",
+            "package_name": "django.core.management.commands"
+        },
+        {
+            "namespace": "django.core.management.commands.migrate",
+            "docstring": "",
+            "package_name": "django.core.management.commands"
+        },
+        {
+            "namespace": "django.core.management.commands.compilemessages",
+            "docstring": "",
+            "package_name": "django.core.management.commands"
+        },
+        {
+            "namespace": "django.core.management.commands.diffsettings",
+            "docstring": "",
+            "package_name": "django.core.management.commands"
+        },
+        {
+            "namespace": "django.core.management.commands.testserver",
+            "docstring": "",
+            "package_name": "django.core.management.commands"
         }
     ],
     "subpackages": []

@@ -1,17 +1,20 @@
 {
     "name": "django.contrib.humanize",
     "docstring": "",
+    "package_name": "django.contrib",
     "classes": [],
     "modules": [
         {
             "namespace": "django.contrib.humanize.apps",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.humanize"
         }
     ],
     "subpackages": [
         {
             "name": "django.contrib.humanize.templatetags",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.humanize"
         }
     ]
 }

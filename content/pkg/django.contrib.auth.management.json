@@ -1,12 +1,14 @@
 {
     "name": "django.contrib.auth.management",
     "docstring": "\"\"\"\nCreates permissions for all installed apps that need permissions.\n\"\"\"",
+    "package_name": "django.contrib.auth",
     "classes": [],
     "modules": [],
     "subpackages": [
         {
             "name": "django.contrib.auth.management.commands",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.auth.management"
         }
     ]
 }

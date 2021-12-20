@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    WSGI middleware that intercepts calls to the static files directory, as\n    defined by the STATIC_URL setting, and serves those files.\n    \"\"\"",
     "name": "StaticFilesHandler",
     "namespace": "django.contrib.staticfiles.handlers.StaticFilesHandler",
-    "parent_namespace": "django.contrib.staticfiles.handlers"
+    "module_name": "django.contrib.staticfiles.handlers",
+    "package_name": ""
 }

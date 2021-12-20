@@ -1,27 +1,33 @@
 {
     "name": "django.contrib.admindocs",
     "docstring": "",
+    "package_name": "django.contrib",
     "classes": [],
     "modules": [
         {
-            "namespace": "django.contrib.admindocs.middleware",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.admindocs.views",
-            "docstring": ""
-        },
-        {
             "namespace": "django.contrib.admindocs.apps",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.admindocs.urls",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.admindocs"
         },
         {
             "namespace": "django.contrib.admindocs.utils",
-            "docstring": "\"Misc. utility functions/classes for admin documentation generator.\""
+            "docstring": "\"Misc. utility functions/classes for admin documentation generator.\"",
+            "package_name": "django.contrib.admindocs"
+        },
+        {
+            "namespace": "django.contrib.admindocs.urls",
+            "docstring": "",
+            "package_name": "django.contrib.admindocs"
+        },
+        {
+            "namespace": "django.contrib.admindocs.middleware",
+            "docstring": "",
+            "package_name": "django.contrib.admindocs"
+        },
+        {
+            "namespace": "django.contrib.admindocs.views",
+            "docstring": "",
+            "package_name": "django.contrib.admindocs"
         }
     ],
     "subpackages": []

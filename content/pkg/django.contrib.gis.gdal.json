@@ -1,65 +1,80 @@
 {
     "name": "django.contrib.gis.gdal",
     "docstring": "\"\"\"\n This module houses ctypes interfaces for GDAL objects.  The following GDAL\n objects are supported:\n\n CoordTransform: Used for coordinate transformations from one spatial\n  reference system to another.\n\n Driver: Wraps an OGR data source driver.\n\n DataSource: Wrapper for the OGR data source object, supports\n  OGR-supported data sources.\n\n Envelope: A ctypes structure for bounding boxes (GDAL library\n  not required).\n\n OGRGeometry: Object for accessing OGR Geometry functionality.\n\n OGRGeomType: A class for representing the different OGR Geometry\n  types (GDAL library not required).\n\n SpatialReference: Represents OSR Spatial Reference objects.\n\n The GDAL library will be imported from the system path using the default\n library name for the current OS. The default library path may be overridden\n by setting `GDAL_LIBRARY_PATH` in your settings with the path to the GDAL C\n library on your system.\n\"\"\"",
+    "package_name": "django.contrib.gis",
     "classes": [],
     "modules": [
         {
-            "namespace": "django.contrib.gis.gdal.envelope",
-            "docstring": "\"\"\"\n The GDAL/OGR library uses an Envelope structure to hold the bounding\n box information for a geometry.  The envelope (bounding box) contains\n two pairs of coordinates, one for the lower left coordinate and one\n for the upper right coordinate:\n\n                           +----------o Upper right; (max_x, max_y)\n                           |          |\n                           |          |\n                           |          |\n Lower left (min_x, min_y) o----------+\n\"\"\""
-        },
-        {
-            "namespace": "django.contrib.gis.gdal.feature",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.gis.gdal.datasource",
-            "docstring": "\"\"\"\n DataSource is a wrapper for the OGR Data Source object, which provides\n an interface for reading vector geometry data from many different file\n formats (including ESRI shapefiles).\n\n When instantiating a DataSource object, use the filename of a\n GDAL-supported data source.  For example, a SHP file or a\n TIGER/Line file from the government.\n\n The ds_driver keyword is used internally when a ctypes pointer\n is passed in directly.\n\n Example:\n  ds = DataSource('/home/foo/bar.shp')\n  for layer in ds:\n      for feature in layer:\n          # Getting the geometry for the feature.\n          g = feature.geom\n\n          # Getting the 'description' field for the feature.\n          desc = feature['description']\n\n          # We can also increment through all of the fields\n          #  attached to this feature.\n          for field in feature:\n              # Get the name of the field (e.g. 'description')\n              nm = field.name\n\n              # Get the type (integer) of the field, e.g. 0 => OFTInteger\n              t = field.type\n\n              # Returns the value the field; OFTIntegers return ints,\n              #  OFTReal returns floats, all else returns string.\n              val = field.value\n\"\"\""
-        },
-        {
-            "namespace": "django.contrib.gis.gdal.base",
-            "docstring": ""
+            "namespace": "django.contrib.gis.gdal.field",
+            "docstring": "",
+            "package_name": "django.contrib.gis.gdal"
         },
         {
             "namespace": "django.contrib.gis.gdal.srs",
-            "docstring": "\"\"\"\n  The Spatial Reference class, represents OGR Spatial Reference objects.\n\n  Example:\n  >>> from django.contrib.gis.gdal import SpatialReference\n  >>> srs = SpatialReference('WGS84')\n  >>> print(srs)\n  GEOGCS[\"WGS 84\",\n      DATUM[\"WGS_1984\",\n          SPHEROID[\"WGS 84\",6378137,298.257223563,\n              AUTHORITY[\"EPSG\",\"7030\"]],\n          TOWGS84[0,0,0,0,0,0,0],\n          AUTHORITY[\"EPSG\",\"6326\"]],\n      PRIMEM[\"Greenwich\",0,\n          AUTHORITY[\"EPSG\",\"8901\"]],\n      UNIT[\"degree\",0.01745329251994328,\n          AUTHORITY[\"EPSG\",\"9122\"]],\n      AUTHORITY[\"EPSG\",\"4326\"]]\n  >>> print(srs.proj)\n  +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs\n  >>> print(srs.ellipsoid)\n  (6378137.0, 6356752.3142451793, 298.25722356300003)\n  >>> print(srs.projected, srs.geographic)\n  False True\n  >>> srs.import_epsg(32140)\n  >>> print(srs.name)\n  NAD83 / Texas South Central\n\"\"\""
-        },
-        {
-            "namespace": "django.contrib.gis.gdal.geomtype",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.gis.gdal.driver",
-            "docstring": ""
+            "docstring": "\"\"\"\n  The Spatial Reference class, represents OGR Spatial Reference objects.\n\n  Example:\n  >>> from django.contrib.gis.gdal import SpatialReference\n  >>> srs = SpatialReference('WGS84')\n  >>> print(srs)\n  GEOGCS[\"WGS 84\",\n      DATUM[\"WGS_1984\",\n          SPHEROID[\"WGS 84\",6378137,298.257223563,\n              AUTHORITY[\"EPSG\",\"7030\"]],\n          TOWGS84[0,0,0,0,0,0,0],\n          AUTHORITY[\"EPSG\",\"6326\"]],\n      PRIMEM[\"Greenwich\",0,\n          AUTHORITY[\"EPSG\",\"8901\"]],\n      UNIT[\"degree\",0.01745329251994328,\n          AUTHORITY[\"EPSG\",\"9122\"]],\n      AUTHORITY[\"EPSG\",\"4326\"]]\n  >>> print(srs.proj)\n  +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs\n  >>> print(srs.ellipsoid)\n  (6378137.0, 6356752.3142451793, 298.25722356300003)\n  >>> print(srs.projected, srs.geographic)\n  False True\n  >>> srs.import_epsg(32140)\n  >>> print(srs.name)\n  NAD83 / Texas South Central\n\"\"\"",
+            "package_name": "django.contrib.gis.gdal"
         },
         {
             "namespace": "django.contrib.gis.gdal.error",
-            "docstring": "\"\"\"\n This module houses the GDAL & SRS Exception objects, and the\n check_err() routine which checks the status code returned by\n GDAL/OGR methods.\n\"\"\""
+            "docstring": "\"\"\"\n This module houses the GDAL & SRS Exception objects, and the\n check_err() routine which checks the status code returned by\n GDAL/OGR methods.\n\"\"\"",
+            "package_name": "django.contrib.gis.gdal"
         },
         {
-            "namespace": "django.contrib.gis.gdal.libgdal",
-            "docstring": ""
+            "namespace": "django.contrib.gis.gdal.geomtype",
+            "docstring": "",
+            "package_name": "django.contrib.gis.gdal"
         },
         {
-            "namespace": "django.contrib.gis.gdal.field",
-            "docstring": ""
+            "namespace": "django.contrib.gis.gdal.feature",
+            "docstring": "",
+            "package_name": "django.contrib.gis.gdal"
+        },
+        {
+            "namespace": "django.contrib.gis.gdal.datasource",
+            "docstring": "\"\"\"\n DataSource is a wrapper for the OGR Data Source object, which provides\n an interface for reading vector geometry data from many different file\n formats (including ESRI shapefiles).\n\n When instantiating a DataSource object, use the filename of a\n GDAL-supported data source.  For example, a SHP file or a\n TIGER/Line file from the government.\n\n The ds_driver keyword is used internally when a ctypes pointer\n is passed in directly.\n\n Example:\n  ds = DataSource('/home/foo/bar.shp')\n  for layer in ds:\n      for feature in layer:\n          # Getting the geometry for the feature.\n          g = feature.geom\n\n          # Getting the 'description' field for the feature.\n          desc = feature['description']\n\n          # We can also increment through all of the fields\n          #  attached to this feature.\n          for field in feature:\n              # Get the name of the field (e.g. 'description')\n              nm = field.name\n\n              # Get the type (integer) of the field, e.g. 0 => OFTInteger\n              t = field.type\n\n              # Returns the value the field; OFTIntegers return ints,\n              #  OFTReal returns floats, all else returns string.\n              val = field.value\n\"\"\"",
+            "package_name": "django.contrib.gis.gdal"
         },
         {
             "namespace": "django.contrib.gis.gdal.layer",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.gis.gdal"
+        },
+        {
+            "namespace": "django.contrib.gis.gdal.driver",
+            "docstring": "",
+            "package_name": "django.contrib.gis.gdal"
         },
         {
             "namespace": "django.contrib.gis.gdal.geometries",
-            "docstring": "\"\"\"\n The OGRGeometry is a wrapper for using the OGR Geometry class\n (see https://gdal.org/api/ogrgeometry_cpp.html#_CPPv411OGRGeometry).\n OGRGeometry may be instantiated when reading geometries from OGR Data Sources\n (e.g. SHP files), or when given OGC WKT (a string).\n\n While the 'full' API is not present yet, the API is \"pythonic\" unlike\n the traditional and \"next-generation\" OGR Python bindings.  One major\n advantage OGR Geometries have over their GEOS counterparts is support\n for spatial reference systems and their transformation.\n\n Example:\n  >>> from django.contrib.gis.gdal import OGRGeometry, OGRGeomType, SpatialReference\n  >>> wkt1, wkt2 = 'POINT(-90 30)', 'POLYGON((0 0, 5 0, 5 5, 0 5)'\n  >>> pnt = OGRGeometry(wkt1)\n  >>> print(pnt)\n  POINT (-90 30)\n  >>> mpnt = OGRGeometry(OGRGeomType('MultiPoint'), SpatialReference('WGS84'))\n  >>> mpnt.add(wkt1)\n  >>> mpnt.add(wkt1)\n  >>> print(mpnt)\n  MULTIPOINT (-90 30,-90 30)\n  >>> print(mpnt.srs.name)\n  WGS 84\n  >>> print(mpnt.srs.proj)\n  +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs\n  >>> mpnt.transform(SpatialReference('NAD27'))\n  >>> print(mpnt.proj)\n  +proj=longlat +ellps=clrk66 +datum=NAD27 +no_defs\n  >>> print(mpnt)\n  MULTIPOINT (-89.999930378602485 29.999797886557641,-89.999930378602485 29.999797886557641)\n\n  The OGRGeomType class is to make it easy to specify an OGR geometry type:\n  >>> from django.contrib.gis.gdal import OGRGeomType\n  >>> gt1 = OGRGeomType(3) # Using an integer for the type\n  >>> gt2 = OGRGeomType('Polygon') # Using a string\n  >>> gt3 = OGRGeomType('POLYGON') # It's case-insensitive\n  >>> print(gt1 == 3, gt1 == 'Polygon') # Equivalence works w/non-OGRGeomType objects\n  True True\n\"\"\""
+            "docstring": "\"\"\"\n The OGRGeometry is a wrapper for using the OGR Geometry class\n (see https://gdal.org/api/ogrgeometry_cpp.html#_CPPv411OGRGeometry).\n OGRGeometry may be instantiated when reading geometries from OGR Data Sources\n (e.g. SHP files), or when given OGC WKT (a string).\n\n While the 'full' API is not present yet, the API is \"pythonic\" unlike\n the traditional and \"next-generation\" OGR Python bindings.  One major\n advantage OGR Geometries have over their GEOS counterparts is support\n for spatial reference systems and their transformation.\n\n Example:\n  >>> from django.contrib.gis.gdal import OGRGeometry, OGRGeomType, SpatialReference\n  >>> wkt1, wkt2 = 'POINT(-90 30)', 'POLYGON((0 0, 5 0, 5 5, 0 5)'\n  >>> pnt = OGRGeometry(wkt1)\n  >>> print(pnt)\n  POINT (-90 30)\n  >>> mpnt = OGRGeometry(OGRGeomType('MultiPoint'), SpatialReference('WGS84'))\n  >>> mpnt.add(wkt1)\n  >>> mpnt.add(wkt1)\n  >>> print(mpnt)\n  MULTIPOINT (-90 30,-90 30)\n  >>> print(mpnt.srs.name)\n  WGS 84\n  >>> print(mpnt.srs.proj)\n  +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs\n  >>> mpnt.transform(SpatialReference('NAD27'))\n  >>> print(mpnt.proj)\n  +proj=longlat +ellps=clrk66 +datum=NAD27 +no_defs\n  >>> print(mpnt)\n  MULTIPOINT (-89.999930378602485 29.999797886557641,-89.999930378602485 29.999797886557641)\n\n  The OGRGeomType class is to make it easy to specify an OGR geometry type:\n  >>> from django.contrib.gis.gdal import OGRGeomType\n  >>> gt1 = OGRGeomType(3) # Using an integer for the type\n  >>> gt2 = OGRGeomType('Polygon') # Using a string\n  >>> gt3 = OGRGeomType('POLYGON') # It's case-insensitive\n  >>> print(gt1 == 3, gt1 == 'Polygon') # Equivalence works w/non-OGRGeomType objects\n  True True\n\"\"\"",
+            "package_name": "django.contrib.gis.gdal"
+        },
+        {
+            "namespace": "django.contrib.gis.gdal.base",
+            "docstring": "",
+            "package_name": "django.contrib.gis.gdal"
+        },
+        {
+            "namespace": "django.contrib.gis.gdal.libgdal",
+            "docstring": "",
+            "package_name": "django.contrib.gis.gdal"
+        },
+        {
+            "namespace": "django.contrib.gis.gdal.envelope",
+            "docstring": "\"\"\"\n The GDAL/OGR library uses an Envelope structure to hold the bounding\n box information for a geometry.  The envelope (bounding box) contains\n two pairs of coordinates, one for the lower left coordinate and one\n for the upper right coordinate:\n\n                           +----------o Upper right; (max_x, max_y)\n                           |          |\n                           |          |\n                           |          |\n Lower left (min_x, min_y) o----------+\n\"\"\"",
+            "package_name": "django.contrib.gis.gdal"
         }
     ],
     "subpackages": [
         {
-            "name": "django.contrib.gis.gdal.raster",
-            "docstring": ""
+            "name": "django.contrib.gis.gdal.prototypes",
+            "docstring": "",
+            "package_name": "django.contrib.gis.gdal"
         },
         {
-            "name": "django.contrib.gis.gdal.prototypes",
-            "docstring": ""
+            "name": "django.contrib.gis.gdal.raster",
+            "docstring": "",
+            "package_name": "django.contrib.gis.gdal"
         }
     ]
 }

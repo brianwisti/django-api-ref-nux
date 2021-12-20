@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    A base class that can either be used as a context manager during tests\n    or as a test function or unittest.TestCase subclass decorator to perform\n    temporary alterations.\n\n    `attr_name`: attribute assigned the return value of enable() if used as\n                 a class decorator.\n\n    `kwarg_name`: keyword argument passing the return value of enable() if\n                  used as a function decorator.\n    \"\"\"",
     "name": "TestContextDecorator",
     "namespace": "django.test.utils.TestContextDecorator",
-    "parent_namespace": "django.test.utils"
+    "module_name": "django.test.utils",
+    "package_name": ""
 }

@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    Power the optimization process, where you provide a list of Operations\n    and you are returned a list of equal or shorter length - operations\n    are merged into one if possible.\n\n    For example, a CreateModel and an AddField can be optimized into a\n    new CreateModel, and CreateModel and DeleteModel can be optimized into\n    nothing.\n    \"\"\"",
     "name": "MigrationOptimizer",
     "namespace": "django.db.migrations.optimizer.MigrationOptimizer",
-    "parent_namespace": "django.db.migrations.optimizer"
+    "module_name": "django.db.migrations.optimizer",
+    "package_name": ""
 }

@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    Response-phase cache middleware that updates the cache if the response is\n    cacheable.\n\n    Must be used as part of the two-part update/fetch cache middleware.\n    UpdateCacheMiddleware must be the first piece of middleware in MIDDLEWARE\n    so that it'll get called last during the response phase.\n    \"\"\"",
     "name": "UpdateCacheMiddleware",
     "namespace": "django.middleware.cache.UpdateCacheMiddleware",
-    "parent_namespace": "django.middleware.cache"
+    "module_name": "django.middleware.cache",
+    "package_name": ""
 }

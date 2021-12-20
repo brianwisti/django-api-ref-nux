@@ -1,15 +1,18 @@
 {
     "name": "django.contrib.gis.management.commands",
     "docstring": "",
+    "package_name": "django.contrib.gis.management",
     "classes": [],
     "modules": [
         {
-            "namespace": "django.contrib.gis.management.commands.ogrinspect",
-            "docstring": ""
+            "namespace": "django.contrib.gis.management.commands.inspectdb",
+            "docstring": "",
+            "package_name": "django.contrib.gis.management.commands"
         },
         {
-            "namespace": "django.contrib.gis.management.commands.inspectdb",
-            "docstring": ""
+            "namespace": "django.contrib.gis.management.commands.ogrinspect",
+            "docstring": "",
+            "package_name": "django.contrib.gis.management.commands"
         }
     ],
     "subpackages": []

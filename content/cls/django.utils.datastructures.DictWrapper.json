@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    Wrap accesses to a dictionary so that certain values (those starting with\n    the specified prefix) are passed through a function before being returned.\n    The prefix is removed before looking up the real value.\n\n    Used by the SQL construction code to ensure that values are correctly\n    quoted before being used.\n    \"\"\"",
     "name": "DictWrapper",
     "namespace": "django.utils.datastructures.DictWrapper",
-    "parent_namespace": "django.utils.datastructures"
+    "module_name": "django.utils.datastructures",
+    "package_name": ""
 }

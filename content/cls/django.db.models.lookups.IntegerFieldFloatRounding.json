@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    Allow floats to work as query values for IntegerField. Without this, the\n    decimal portion of the float would always be discarded.\n    \"\"\"",
     "name": "IntegerFieldFloatRounding",
     "namespace": "django.db.models.lookups.IntegerFieldFloatRounding",
-    "parent_namespace": "django.db.models.lookups"
+    "module_name": "django.db.models.lookups",
+    "package_name": ""
 }

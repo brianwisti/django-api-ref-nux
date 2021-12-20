@@ -1,39 +1,48 @@
 {
     "name": "django.contrib.gis.db.backends.spatialite",
     "docstring": "",
+    "package_name": "django.contrib.gis.db.backends",
     "classes": [],
     "modules": [
         {
-            "namespace": "django.contrib.gis.db.backends.spatialite.introspection",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.gis.db.backends.spatialite.client",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.gis.db.backends.spatialite.base",
-            "docstring": ""
+            "namespace": "django.contrib.gis.db.backends.spatialite.models",
+            "docstring": "\"\"\"\n The GeometryColumns and SpatialRefSys models for the SpatiaLite backend.\n\"\"\"",
+            "package_name": "django.contrib.gis.db.backends.spatialite"
         },
         {
             "namespace": "django.contrib.gis.db.backends.spatialite.adapter",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.gis.db.backends.spatialite"
         },
         {
-            "namespace": "django.contrib.gis.db.backends.spatialite.operations",
-            "docstring": "\"\"\"\nSQL functions reference lists:\nhttps://www.gaia-gis.it/gaia-sins/spatialite-sql-4.3.0.html\n\"\"\""
+            "namespace": "django.contrib.gis.db.backends.spatialite.client",
+            "docstring": "",
+            "package_name": "django.contrib.gis.db.backends.spatialite"
         },
         {
             "namespace": "django.contrib.gis.db.backends.spatialite.features",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.gis.db.backends.spatialite"
+        },
+        {
+            "namespace": "django.contrib.gis.db.backends.spatialite.operations",
+            "docstring": "\"\"\"\nSQL functions reference lists:\nhttps://www.gaia-gis.it/gaia-sins/spatialite-sql-4.3.0.html\n\"\"\"",
+            "package_name": "django.contrib.gis.db.backends.spatialite"
+        },
+        {
+            "namespace": "django.contrib.gis.db.backends.spatialite.introspection",
+            "docstring": "",
+            "package_name": "django.contrib.gis.db.backends.spatialite"
+        },
+        {
+            "namespace": "django.contrib.gis.db.backends.spatialite.base",
+            "docstring": "",
+            "package_name": "django.contrib.gis.db.backends.spatialite"
         },
         {
             "namespace": "django.contrib.gis.db.backends.spatialite.schema",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.contrib.gis.db.backends.spatialite.models",
-            "docstring": "\"\"\"\n The GeometryColumns and SpatialRefSys models for the SpatiaLite backend.\n\"\"\""
+            "docstring": "",
+            "package_name": "django.contrib.gis.db.backends.spatialite"
         }
     ],
     "subpackages": []

@@ -1,15 +1,18 @@
 {
     "name": "django.contrib.gis.sitemaps",
     "docstring": "",
+    "package_name": "django.contrib.gis",
     "classes": [],
     "modules": [
         {
-            "namespace": "django.contrib.gis.sitemaps.views",
-            "docstring": ""
+            "namespace": "django.contrib.gis.sitemaps.kml",
+            "docstring": "",
+            "package_name": "django.contrib.gis.sitemaps"
         },
         {
-            "namespace": "django.contrib.gis.sitemaps.kml",
-            "docstring": ""
+            "namespace": "django.contrib.gis.sitemaps.views",
+            "docstring": "",
+            "package_name": "django.contrib.gis.sitemaps"
         }
     ],
     "subpackages": []

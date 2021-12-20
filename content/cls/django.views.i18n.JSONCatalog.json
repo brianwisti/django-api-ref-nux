@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    Return the selected language catalog as a JSON object.\n\n    Receive the same parameters as JavaScriptCatalog and return a response\n    with a JSON object of the following format:\n\n        {\n            \"catalog\": {\n                # Translations catalog\n            },\n            \"formats\": {\n                # Language formats for date, time, etc.\n            },\n            \"plural\": '...'  # Expression for plural forms, or null.\n        }\n    \"\"\"",
     "name": "JSONCatalog",
     "namespace": "django.views.i18n.JSONCatalog",
-    "parent_namespace": "django.views.i18n"
+    "module_name": "django.views.i18n",
+    "package_name": ""
 }

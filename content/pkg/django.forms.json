@@ -1,39 +1,48 @@
 {
     "name": "django.forms",
     "docstring": "\"\"\"\nDjango validation and HTML form handling.\n\"\"\"",
+    "package_name": "django",
     "classes": [],
     "modules": [
         {
-            "namespace": "django.forms.widgets",
-            "docstring": "\"\"\"\nHTML Widget classes\n\"\"\""
-        },
-        {
-            "namespace": "django.forms.formsets",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.forms.utils",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.forms.renderers",
-            "docstring": ""
+            "namespace": "django.forms.models",
+            "docstring": "\"\"\"\nHelper functions for creating Form classes from Django models\nand database field objects.\n\"\"\"",
+            "package_name": "django.forms"
         },
         {
             "namespace": "django.forms.fields",
-            "docstring": "\"\"\"\nField classes.\n\"\"\""
-        },
-        {
-            "namespace": "django.forms.forms",
-            "docstring": "\"\"\"\nForm classes\n\"\"\""
+            "docstring": "\"\"\"\nField classes.\n\"\"\"",
+            "package_name": "django.forms"
         },
         {
             "namespace": "django.forms.boundfield",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.forms"
         },
         {
-            "namespace": "django.forms.models",
-            "docstring": "\"\"\"\nHelper functions for creating Form classes from Django models\nand database field objects.\n\"\"\""
+            "namespace": "django.forms.renderers",
+            "docstring": "",
+            "package_name": "django.forms"
+        },
+        {
+            "namespace": "django.forms.widgets",
+            "docstring": "\"\"\"\nHTML Widget classes\n\"\"\"",
+            "package_name": "django.forms"
+        },
+        {
+            "namespace": "django.forms.formsets",
+            "docstring": "",
+            "package_name": "django.forms"
+        },
+        {
+            "namespace": "django.forms.forms",
+            "docstring": "\"\"\"\nForm classes\n\"\"\"",
+            "package_name": "django.forms"
+        },
+        {
+            "namespace": "django.forms.utils",
+            "docstring": "",
+            "package_name": "django.forms"
         }
     ],
     "subpackages": []

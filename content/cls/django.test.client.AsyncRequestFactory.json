@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    Class that lets you create mock ASGI-like Request objects for use in\n    testing. Usage:\n\n    rf = AsyncRequestFactory()\n    get_request = await rf.get('/hello/')\n    post_request = await rf.post('/submit/', {'foo': 'bar'})\n\n    Once you have a request object you can pass it to any view function,\n    including synchronous ones. The reason we have a separate class here is:\n    a) this makes ASGIRequest subclasses, and\n    b) AsyncTestClient can subclass it.\n    \"\"\"",
     "name": "AsyncRequestFactory",
     "namespace": "django.test.client.AsyncRequestFactory",
-    "parent_namespace": "django.test.client"
+    "module_name": "django.test.client",
+    "package_name": ""
 }

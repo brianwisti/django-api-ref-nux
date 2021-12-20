@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    Class that lets you create mock Request objects for use in testing.\n\n    Usage:\n\n    rf = RequestFactory()\n    get_request = rf.get('/hello/')\n    post_request = rf.post('/submit/', {'foo': 'bar'})\n\n    Once you have a request object you can pass it to any view function,\n    just as if that view had been hooked up using a URLconf.\n    \"\"\"",
     "name": "RequestFactory",
     "namespace": "django.test.client.RequestFactory",
-    "parent_namespace": "django.test.client"
+    "module_name": "django.test.client",
+    "package_name": ""
 }

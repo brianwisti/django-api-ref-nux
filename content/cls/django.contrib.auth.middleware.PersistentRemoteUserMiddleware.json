@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n    Middleware for web-server provided authentication on logon pages.\n\n    Like RemoteUserMiddleware but keeps the user authenticated even if\n    the header (``REMOTE_USER``) is not found in the request. Useful\n    for setups when the external authentication via ``REMOTE_USER``\n    is only expected to happen on some \"logon\" URL and the rest of\n    the application wants to use Django's authentication mechanism.\n    \"\"\"",
     "name": "PersistentRemoteUserMiddleware",
     "namespace": "django.contrib.auth.middleware.PersistentRemoteUserMiddleware",
-    "parent_namespace": "django.contrib.auth.middleware"
+    "module_name": "django.contrib.auth.middleware",
+    "package_name": ""
 }

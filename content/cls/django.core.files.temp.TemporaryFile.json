@@ -2,5 +2,6 @@
     "docstring": "\"\"\"\n        Temporary file object constructor that supports reopening of the\n        temporary file in Windows.\n\n        Unlike tempfile.NamedTemporaryFile from the standard library,\n        __init__() doesn't support the 'delete', 'buffering', 'encoding', or\n        'newline' keyword arguments.\n        \"\"\"",
     "name": "TemporaryFile",
     "namespace": "django.core.files.temp.TemporaryFile",
-    "parent_namespace": "django.core.files.temp"
+    "module_name": "django.core.files.temp",
+    "package_name": ""
 }

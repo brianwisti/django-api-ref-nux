@@ -1,69 +1,85 @@
 {
     "name": "django.core",
     "docstring": "",
+    "package_name": "django",
     "classes": [],
     "modules": [
         {
-            "namespace": "django.core.exceptions",
-            "docstring": "\"\"\"\nGlobal Django exception and warning classes.\n\"\"\""
-        },
-        {
             "namespace": "django.core.signing",
-            "docstring": "\"\"\"\nFunctions for creating and restoring url-safe signed JSON objects.\n\nThe format used looks like this:\n\n>>> signing.dumps(\"hello\")\n'ImhlbGxvIg:1QaUZC:YIye-ze3TTx7gtSv422nZA4sgmk'\n\nThere are two components here, separated by a ':'. The first component is a\nURLsafe base64 encoded JSON of the object passed to dumps(). The second\ncomponent is a base64 encoded hmac/SHA1 hash of \"$first_component:$secret\"\n\nsigning.loads(s) checks the signature and returns the deserialized object.\nIf the signature fails, a BadSignature exception is raised.\n\n>>> signing.loads(\"ImhlbGxvIg:1QaUZC:YIye-ze3TTx7gtSv422nZA4sgmk\")\n'hello'\n>>> signing.loads(\"ImhlbGxvIg:1QaUZC:YIye-ze3TTx7gtSv422nZA4sgmk-modified\")\n...\nBadSignature: Signature failed: ImhlbGxvIg:1QaUZC:YIye-ze3TTx7gtSv422nZA4sgmk-modified\n\nYou can optionally compress the JSON prior to base64 encoding it to save\nspace, using the compress=True argument. This checks if compression actually\nhelps and only applies compression if the result is a shorter string:\n\n>>> signing.dumps(list(range(1, 20)), compress=True)\n'.eJwFwcERACAIwLCF-rCiILN47r-GyZVJsNgkxaFxoDgxcOHGxMKD_T7vhAml:1QaUaL:BA0thEZrp4FQVXIXuOvYJtLJSrQ'\n\nThe fact that the string is compressed is signalled by the prefixed '.' at the\nstart of the base64 JSON.\n\nThere are 65 url-safe characters: the 64 used by url-safe base64 and the ':'.\nThese functions make use of all of them.\n\"\"\""
+            "docstring": "\"\"\"\nFunctions for creating and restoring url-safe signed JSON objects.\n\nThe format used looks like this:\n\n>>> signing.dumps(\"hello\")\n'ImhlbGxvIg:1QaUZC:YIye-ze3TTx7gtSv422nZA4sgmk'\n\nThere are two components here, separated by a ':'. The first component is a\nURLsafe base64 encoded JSON of the object passed to dumps(). The second\ncomponent is a base64 encoded hmac/SHA1 hash of \"$first_component:$secret\"\n\nsigning.loads(s) checks the signature and returns the deserialized object.\nIf the signature fails, a BadSignature exception is raised.\n\n>>> signing.loads(\"ImhlbGxvIg:1QaUZC:YIye-ze3TTx7gtSv422nZA4sgmk\")\n'hello'\n>>> signing.loads(\"ImhlbGxvIg:1QaUZC:YIye-ze3TTx7gtSv422nZA4sgmk-modified\")\n...\nBadSignature: Signature failed: ImhlbGxvIg:1QaUZC:YIye-ze3TTx7gtSv422nZA4sgmk-modified\n\nYou can optionally compress the JSON prior to base64 encoding it to save\nspace, using the compress=True argument. This checks if compression actually\nhelps and only applies compression if the result is a shorter string:\n\n>>> signing.dumps(list(range(1, 20)), compress=True)\n'.eJwFwcERACAIwLCF-rCiILN47r-GyZVJsNgkxaFxoDgxcOHGxMKD_T7vhAml:1QaUaL:BA0thEZrp4FQVXIXuOvYJtLJSrQ'\n\nThe fact that the string is compressed is signalled by the prefixed '.' at the\nstart of the base64 JSON.\n\nThere are 65 url-safe characters: the 64 used by url-safe base64 and the ':'.\nThese functions make use of all of them.\n\"\"\"",
+            "package_name": "django.core"
         },
         {
             "namespace": "django.core.signals",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.core.wsgi",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.core.paginator",
-            "docstring": ""
-        },
-        {
-            "namespace": "django.core.asgi",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.core"
         },
         {
             "namespace": "django.core.validators",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.core"
+        },
+        {
+            "namespace": "django.core.asgi",
+            "docstring": "",
+            "package_name": "django.core"
+        },
+        {
+            "namespace": "django.core.paginator",
+            "docstring": "",
+            "package_name": "django.core"
+        },
+        {
+            "namespace": "django.core.exceptions",
+            "docstring": "\"\"\"\nGlobal Django exception and warning classes.\n\"\"\"",
+            "package_name": "django.core"
+        },
+        {
+            "namespace": "django.core.wsgi",
+            "docstring": "",
+            "package_name": "django.core"
         }
     ],
     "subpackages": [
         {
-            "name": "django.core.handlers",
-            "docstring": ""
-        },
-        {
-            "name": "django.core.checks",
-            "docstring": ""
-        },
-        {
-            "name": "django.core.management",
-            "docstring": ""
+            "name": "django.core.cache",
+            "docstring": "\"\"\"\nCaching framework.\n\nThis package defines set of cache backends that all conform to a simple API.\nIn a nutshell, a cache is a set of values -- which can be any object that\nmay be pickled -- identified by string keys.  For the complete API, see\nthe abstract BaseCache class in django.core.cache.backends.base.\n\nClient code should use the `cache` variable defined here to access the default\ncache backend and look up non-default cache backends in the `caches` dict-like\nobject.\n\nSee docs/topics/cache.txt for information on the public API.\n\"\"\"",
+            "package_name": "django.core"
         },
         {
             "name": "django.core.mail",
-            "docstring": "\"\"\"\nTools for sending email.\n\"\"\""
+            "docstring": "\"\"\"\nTools for sending email.\n\"\"\"",
+            "package_name": "django.core"
         },
         {
-            "name": "django.core.files",
-            "docstring": ""
+            "name": "django.core.checks",
+            "docstring": "",
+            "package_name": "django.core"
         },
         {
-            "name": "django.core.cache",
-            "docstring": "\"\"\"\nCaching framework.\n\nThis package defines set of cache backends that all conform to a simple API.\nIn a nutshell, a cache is a set of values -- which can be any object that\nmay be pickled -- identified by string keys.  For the complete API, see\nthe abstract BaseCache class in django.core.cache.backends.base.\n\nClient code should use the `cache` variable defined here to access the default\ncache backend and look up non-default cache backends in the `caches` dict-like\nobject.\n\nSee docs/topics/cache.txt for information on the public API.\n\"\"\""
-        },
-        {
-            "name": "django.core.servers",
-            "docstring": ""
+            "name": "django.core.management",
+            "docstring": "",
+            "package_name": "django.core"
         },
         {
             "name": "django.core.serializers",
-            "docstring": "\"\"\"\nInterfaces for serializing Django objects.\n\nUsage::\n\n    from django.core import serializers\n    json = serializers.serialize(\"json\", some_queryset)\n    objects = list(serializers.deserialize(\"json\", json))\n\nTo add your own serializers, use the SERIALIZATION_MODULES setting::\n\n    SERIALIZATION_MODULES = {\n        \"csv\": \"path.to.csv.serializer\",\n        \"txt\": \"path.to.txt.serializer\",\n    }\n\n\"\"\""
+            "docstring": "\"\"\"\nInterfaces for serializing Django objects.\n\nUsage::\n\n    from django.core import serializers\n    json = serializers.serialize(\"json\", some_queryset)\n    objects = list(serializers.deserialize(\"json\", json))\n\nTo add your own serializers, use the SERIALIZATION_MODULES setting::\n\n    SERIALIZATION_MODULES = {\n        \"csv\": \"path.to.csv.serializer\",\n        \"txt\": \"path.to.txt.serializer\",\n    }\n\n\"\"\"",
+            "package_name": "django.core"
+        },
+        {
+            "name": "django.core.files",
+            "docstring": "",
+            "package_name": "django.core"
+        },
+        {
+            "name": "django.core.handlers",
+            "docstring": "",
+            "package_name": "django.core"
+        },
+        {
+            "name": "django.core.servers",
+            "docstring": "",
+            "package_name": "django.core"
         }
     ]
 }

@@ -1,12 +1,14 @@
 {
     "name": "django.contrib.staticfiles.management",
     "docstring": "",
+    "package_name": "django.contrib.staticfiles",
     "classes": [],
     "modules": [],
     "subpackages": [
         {
             "name": "django.contrib.staticfiles.management.commands",
-            "docstring": ""
+            "docstring": "",
+            "package_name": "django.contrib.staticfiles.management"
         }
     ]
 }
