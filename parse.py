@@ -44,6 +44,56 @@ def find_node_docstring(node) -> str:
     return str(docstring)
 
 
+class FunctionDef(BaseModel):
+    """A Python function or method definition."""
+
+    docstring: str = EMPTY_STRING
+    name: str
+    namespace: str
+    class_name: str = EMPTY_STRING
+    module_name: str = EMPTY_STRING
+    package_name: str = EMPTY_STRING
+    _parsed: parso.python.tree.Function = PrivateAttr()
+
+    def to_json(self) -> str:
+        return self.json(indent=4)
+
+    @classmethod
+    def from_parsed_function(
+        cls,
+        parsed_function: parso.python.tree.Function,
+        class_name: str=EMPTY_STRING,
+        module_name: str=EMPTY_STRING,
+        package_name: str=EMPTY_STRING,
+    ) -> "FunctionDef":
+        docstring = find_node_docstring(parsed_function)
+        name = parsed_function.name.value
+
+        if module_name:
+            root_namespace = module_name
+        elif package_name:
+            root_namespace = package_name
+        elif class_name:
+            root_namespace = class_name
+
+        if not root_namespace:
+            raise ValueError(
+                "Make sure a functions's module_name, package_name, or class_name is set"
+            )
+
+        namespace = f"{root_namespace}.{name}"
+        log.info("Loading function %s", namespace)
+        return cls(
+            docstring=docstring,
+            name=name,
+            namespace=namespace,
+            module_name=module_name,
+            package_name=package_name,
+            _parsed=parsed_function
+        )
+
+
+
 class ClassDef(BaseModel):
     """A Python class definition."""
 
@@ -52,7 +102,12 @@ class ClassDef(BaseModel):
     namespace: str
     module_name: str = EMPTY_STRING
     package_name: str = EMPTY_STRING
+    methods: List[FunctionDef] = Field(default_factory=list)
     _parsed: parso.python.tree.Class = PrivateAttr()
+
+    def all_methods(self) -> Generator[FunctionDef, None, None]:
+        for method_def in self.methods:
+            yield method_def
 
     def to_json(self) -> str:
         return self.json(indent=4)
@@ -77,10 +132,19 @@ class ClassDef(BaseModel):
                 "Make sure a class's module_name or package_name is set"
             )
 
+        methods = [
+            FunctionDef.from_parsed_function(
+                parsed_function=funcdef,
+                class_name=namespace,
+            )
+            for funcdef in parsed_class.iter_funcdefs()
+        ]
+
         return cls(
             docstring=docstring,
             name=name,
             namespace=namespace,
+            methods=methods,
             module_name=module_name,
             package_name=package_name,
             _parsed=parsed_class
