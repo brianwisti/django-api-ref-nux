@@ -1,34 +1,20 @@
 <template>
   <div>
     <h1>Package {{ pkg.name }}</h1>
-    <b-card v-if="pkg.docstring.length > 0">
-      <b-card-text>
-        <pre>{{ pkg.docstring }}</pre>
-      </b-card-text>
-    </b-card>
+    <Docstring :docstring="pkg.docstring" />
     <b-container>
       <b-row>
         <b-col>
-          <h2>Subpackages</h2>
-          <div v-if="pkg.subpackages.length > 0">
-            <div v-for="subpkg in pkg.subpackages" :key="subpkg.name">
-              <NuxtLink :to="`/pkg/${subpkg.name}`">{{ subpkg.name }}</NuxtLink>
-            </div>
-          </div>
-          <b-alert show v-else>
-            {{ pkg.name }} has no subpackages
-          </b-alert>
+          <SubpackageList
+            :subpackages="pkg.subpackages"
+            :packageName="pkg.name"
+            />
         </b-col>
         <b-col>
-          <h2>Modules</h2>
-          <div v-if="pkg.subpackages.length > 0">
-            <div v-for="mod in pkg.modules" :key="mod.namespace">
-              <NuxtLink :to="`/mod/${mod.namespace}`">{{ mod.namespace }}</NuxtLink>
-            </div>
-          </div>
-          <b-alert show v-else>
-            {{ pkg.name }} has no direct submodules.
-          </b-alert>
+          <ModuleList
+            :modules="pkg.modules"
+            :packageName="pkg.name"
+            />
         </b-col>
       </b-row>
     </b-container>
