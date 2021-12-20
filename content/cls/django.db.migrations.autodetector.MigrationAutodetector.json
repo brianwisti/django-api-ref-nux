@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    Take a pair of ProjectStates and compare them to see what the first would\n    need doing to make it match the second (the second usually being the\n    project's current state).\n\n    Note that this naturally operates on entire projects at a time,\n    as it's likely that changes interact (for example, you can't\n    add a ForeignKey without having a migration to add the table it\n    depends on first). A user interface may offer single-app usage\n    if it wishes, with the caveat that it may not always be possible.\n    \"\"\"",
+    "name": "MigrationAutodetector",
+    "namespace": "django.db.migrations.autodetector.MigrationAutodetector",
+    "parent_namespace": "django.db.migrations.autodetector"
+}

@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    Return the minimum expression.\n\n    If any expression is null the return value is database-specific:\n    On PostgreSQL, return the minimum not-null expression.\n    On MySQL, Oracle, and SQLite, if any expression is null, return null.\n    \"\"\"",
+    "name": "Least",
+    "namespace": "django.db.models.functions.comparison.Least",
+    "parent_namespace": "django.db.models.functions.comparison"
+}

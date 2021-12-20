@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    An SQL searched CASE expression:\n\n        CASE\n            WHEN n > 0\n                THEN 'positive'\n            WHEN n < 0\n                THEN 'negative'\n            ELSE 'zero'\n        END\n    \"\"\"",
+    "name": "Case",
+    "namespace": "django.db.models.expressions.Case",
+    "parent_namespace": "django.db.models.expressions"
+}

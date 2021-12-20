@@ -1,11 +1,11 @@
 {
-    "docstring": "",
     "namespace": "django.db.backends.base.introspection",
+    "docstring": "",
     "classes": [
         {
             "docstring": "\"\"\"Encapsulate backend-specific introspection utilities.\"\"\"",
             "name": "BaseDatabaseIntrospection",
-            "parent_name": "django.db.backends.base.introspection"
+            "namespace": "django.db.backends.base.introspection.BaseDatabaseIntrospection"
         }
     ]
 }

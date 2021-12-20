@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    Customized ArgumentParser class to improve some error messages and prevent\n    SystemExit in several occasions, as SystemExit is unacceptable when a\n    command is called programmatically.\n    \"\"\"",
+    "name": "CommandParser",
+    "namespace": "django.core.management.base.CommandParser",
+    "parent_namespace": "django.core.management.base"
+}

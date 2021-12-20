@@ -1,151 +1,47 @@
 {
     "name": "django.db.backends.oracle",
     "docstring": "",
+    "classes": [],
     "modules": [
         {
-            "docstring": "",
             "namespace": "django.db.backends.oracle.creation",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "DatabaseCreation",
-                    "parent_name": "django.db.backends.oracle.creation"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.db.backends.oracle.introspection",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "DatabaseIntrospection",
-                    "parent_name": "django.db.backends.oracle.introspection"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.db.backends.oracle.client",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "DatabaseClient",
-                    "parent_name": "django.db.backends.oracle.client"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "\"\"\"\nOracle database backend for Django.\n\nRequires cx_Oracle: https://oracle.github.io/python-cx_Oracle/\n\"\"\"",
             "namespace": "django.db.backends.oracle.base",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "_UninitializedOperatorsDescriptor",
-                    "parent_name": "django.db.backends.oracle.base"
-                },
-                {
-                    "docstring": "",
-                    "name": "DatabaseWrapper",
-                    "parent_name": "django.db.backends.oracle.base"
-                },
-                {
-                    "docstring": "\"\"\"\n    Wrapper object for formatting parameters for Oracle. If the string\n    representation of the value is large enough (greater than 4000 characters)\n    the input size needs to be set as CLOB. Alternatively, if the parameter\n    has an `input_size` attribute, then the value of the `input_size` attribute\n    will be used instead. Otherwise, no input size will be set for the\n    parameter when executing the query.\n    \"\"\"",
-                    "name": "OracleParam",
-                    "parent_name": "django.db.backends.oracle.base"
-                },
-                {
-                    "docstring": "\"\"\"\n    An adapter class for cursor variables that prevents the wrapped object\n    from being converted into a string when used to instantiate an OracleParam.\n    This can be used generally for any other object that should be passed into\n    Cursor.execute as-is.\n    \"\"\"",
-                    "name": "VariableWrapper",
-                    "parent_name": "django.db.backends.oracle.base"
-                },
-                {
-                    "docstring": "\"\"\"\n    Django uses \"format\" (e.g. '%s') style placeholders, but Oracle uses \":var\"\n    style. This fixes it -- but note that if you want to use a literal \"%s\" in\n    a query, you'll need to use \"%%s\".\n    \"\"\"",
-                    "name": "FormatStylePlaceholderCursor",
-                    "parent_name": "django.db.backends.oracle.base"
-                }
-            ]
+            "docstring": "\"\"\"\nOracle database backend for Django.\n\nRequires cx_Oracle: https://oracle.github.io/python-cx_Oracle/\n\"\"\""
         },
         {
-            "docstring": "",
             "namespace": "django.db.backends.oracle.functions",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "IntervalToSeconds",
-                    "parent_name": "django.db.backends.oracle.functions"
-                },
-                {
-                    "docstring": "",
-                    "name": "SecondsToInterval",
-                    "parent_name": "django.db.backends.oracle.functions"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.db.backends.oracle.operations",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "DatabaseOperations",
-                    "parent_name": "django.db.backends.oracle.operations"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.db.backends.oracle.utils",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    A late-binding cursor variable that can be passed to Cursor.execute\n    as a parameter, in order to receive the id of the row created by an\n    insert statement.\n    \"\"\"",
-                    "name": "InsertVar",
-                    "parent_name": "django.db.backends.oracle.utils"
-                },
-                {
-                    "docstring": "\"\"\"\n    A datetime object, with an additional class attribute\n    to tell cx_Oracle to save the microseconds too.\n    \"\"\"",
-                    "name": "Oracle_datetime",
-                    "parent_name": "django.db.backends.oracle.utils"
-                },
-                {
-                    "docstring": "",
-                    "name": "BulkInsertMapper",
-                    "parent_name": "django.db.backends.oracle.utils"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.db.backends.oracle.features",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "DatabaseFeatures",
-                    "parent_name": "django.db.backends.oracle.features"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.db.backends.oracle.validation",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "DatabaseValidation",
-                    "parent_name": "django.db.backends.oracle.validation"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.db.backends.oracle.schema",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "DatabaseSchemaEditor",
-                    "parent_name": "django.db.backends.oracle.schema"
-                }
-            ]
+            "docstring": ""
         }
     ],
     "subpackages": []

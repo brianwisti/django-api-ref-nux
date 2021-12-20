@@ -1,121 +1,27 @@
 {
     "name": "django.templatetags",
     "docstring": "",
+    "classes": [],
     "modules": [
         {
-            "docstring": "",
             "namespace": "django.templatetags.static",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "PrefixNode",
-                    "parent_name": "django.templatetags.static"
-                },
-                {
-                    "docstring": "",
-                    "name": "StaticNode",
-                    "parent_name": "django.templatetags.static"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.templatetags.i18n",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "GetAvailableLanguagesNode",
-                    "parent_name": "django.templatetags.i18n"
-                },
-                {
-                    "docstring": "",
-                    "name": "GetLanguageInfoNode",
-                    "parent_name": "django.templatetags.i18n"
-                },
-                {
-                    "docstring": "",
-                    "name": "GetLanguageInfoListNode",
-                    "parent_name": "django.templatetags.i18n"
-                },
-                {
-                    "docstring": "",
-                    "name": "GetCurrentLanguageNode",
-                    "parent_name": "django.templatetags.i18n"
-                },
-                {
-                    "docstring": "",
-                    "name": "GetCurrentLanguageBidiNode",
-                    "parent_name": "django.templatetags.i18n"
-                },
-                {
-                    "docstring": "",
-                    "name": "TranslateNode",
-                    "parent_name": "django.templatetags.i18n"
-                },
-                {
-                    "docstring": "",
-                    "name": "BlockTranslateNode",
-                    "parent_name": "django.templatetags.i18n"
-                },
-                {
-                    "docstring": "",
-                    "name": "LanguageNode",
-                    "parent_name": "django.templatetags.i18n"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.templatetags.tz",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "UnknownTimezoneException",
-                    "parent_name": "django.templatetags.tz"
-                },
-                {
-                    "docstring": "",
-                    "name": "datetimeobject",
-                    "parent_name": "django.templatetags.tz"
-                },
-                {
-                    "docstring": "\"\"\"\n    Template node class used by ``localtime_tag``.\n    \"\"\"",
-                    "name": "LocalTimeNode",
-                    "parent_name": "django.templatetags.tz"
-                },
-                {
-                    "docstring": "\"\"\"\n    Template node class used by ``timezone_tag``.\n    \"\"\"",
-                    "name": "TimezoneNode",
-                    "parent_name": "django.templatetags.tz"
-                },
-                {
-                    "docstring": "\"\"\"\n    Template node class used by ``get_current_timezone_tag``.\n    \"\"\"",
-                    "name": "GetCurrentTimezoneNode",
-                    "parent_name": "django.templatetags.tz"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.templatetags.l10n",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "LocalizeNode",
-                    "parent_name": "django.templatetags.l10n"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.templatetags.cache",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "CacheNode",
-                    "parent_name": "django.templatetags.cache"
-                }
-            ]
+            "docstring": ""
         }
     ],
     "subpackages": []

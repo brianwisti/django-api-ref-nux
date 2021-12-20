@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    Concatenate text fields together. Backends that result in an entire\n    null expression when any arguments are null will wrap each argument in\n    coalesce functions to ensure a non-null result.\n    \"\"\"",
+    "name": "Concat",
+    "namespace": "django.db.models.functions.text.Concat",
+    "parent_namespace": "django.db.models.functions.text"
+}

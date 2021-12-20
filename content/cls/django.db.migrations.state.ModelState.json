@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    Represent a Django Model. Don't use the actual Model class as it's not\n    designed to have its options changed - instead, mutate this one and then\n    render it into a Model as required.\n\n    Note that while you are allowed to mutate .fields, you are not allowed\n    to mutate the Field instances inside there themselves - you must instead\n    assign new ones, as these are not detached during a clone.\n    \"\"\"",
+    "name": "ModelState",
+    "namespace": "django.db.migrations.state.ModelState",
+    "parent_namespace": "django.db.migrations.state"
+}

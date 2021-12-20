@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    Exception class indicating a problem while executing a management\n    command.\n\n    If this exception is raised during the execution of a management\n    command, it will be caught and turned into a nicely-printed error\n    message to the appropriate output stream (i.e., stderr); as a\n    result, raising this exception (with a sensible description of the\n    error) is the preferred way to indicate that something has gone\n    wrong in the execution of a command.\n    \"\"\"",
+    "name": "CommandError",
+    "namespace": "django.core.management.base.CommandError",
+    "parent_namespace": "django.core.management.base"
+}

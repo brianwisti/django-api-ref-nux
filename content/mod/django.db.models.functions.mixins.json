@@ -1,21 +1,21 @@
 {
-    "docstring": "",
     "namespace": "django.db.models.functions.mixins",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "FixDecimalInputMixin",
-            "parent_name": "django.db.models.functions.mixins"
+            "namespace": "django.db.models.functions.mixins.FixDecimalInputMixin"
         },
         {
             "docstring": "",
             "name": "FixDurationInputMixin",
-            "parent_name": "django.db.models.functions.mixins"
+            "namespace": "django.db.models.functions.mixins.FixDurationInputMixin"
         },
         {
             "docstring": "",
             "name": "NumericOutputFieldMixin",
-            "parent_name": "django.db.models.functions.mixins"
+            "namespace": "django.db.models.functions.mixins.NumericOutputFieldMixin"
         }
     ]
 }

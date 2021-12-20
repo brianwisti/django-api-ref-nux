@@ -1,21 +1,21 @@
 {
-    "docstring": "",
     "namespace": "django.contrib.admin.checks",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "BaseModelAdminChecks",
-            "parent_name": "django.contrib.admin.checks"
+            "namespace": "django.contrib.admin.checks.BaseModelAdminChecks"
         },
         {
             "docstring": "",
             "name": "ModelAdminChecks",
-            "parent_name": "django.contrib.admin.checks"
+            "namespace": "django.contrib.admin.checks.ModelAdminChecks"
         },
         {
             "docstring": "",
             "name": "InlineModelAdminChecks",
-            "parent_name": "django.contrib.admin.checks"
+            "namespace": "django.contrib.admin.checks.InlineModelAdminChecks"
         }
     ]
 }

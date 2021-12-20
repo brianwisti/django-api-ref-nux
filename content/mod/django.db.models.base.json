@@ -1,31 +1,31 @@
 {
-    "docstring": "",
     "namespace": "django.db.models.base",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "Deferred",
-            "parent_name": "django.db.models.base"
+            "namespace": "django.db.models.base.Deferred"
         },
         {
             "docstring": "\"\"\"Metaclass for all models.\"\"\"",
             "name": "ModelBase",
-            "parent_name": "django.db.models.base"
+            "namespace": "django.db.models.base.ModelBase"
         },
         {
             "docstring": "",
             "name": "ModelStateFieldsCacheDescriptor",
-            "parent_name": "django.db.models.base"
+            "namespace": "django.db.models.base.ModelStateFieldsCacheDescriptor"
         },
         {
             "docstring": "\"\"\"Store model instance state.\"\"\"",
             "name": "ModelState",
-            "parent_name": "django.db.models.base"
+            "namespace": "django.db.models.base.ModelState"
         },
         {
             "docstring": "",
             "name": "Model",
-            "parent_name": "django.db.models.base"
+            "namespace": "django.db.models.base.Model"
         }
     ]
 }

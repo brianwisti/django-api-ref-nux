@@ -1,36 +1,36 @@
 {
-    "docstring": "",
     "namespace": "django.utils.datastructures",
+    "docstring": "",
     "classes": [
         {
             "docstring": "\"\"\"\n    A set which keeps the ordering of the inserted items.\n    \"\"\"",
             "name": "OrderedSet",
-            "parent_name": "django.utils.datastructures"
+            "namespace": "django.utils.datastructures.OrderedSet"
         },
         {
             "docstring": "",
             "name": "MultiValueDictKeyError",
-            "parent_name": "django.utils.datastructures"
+            "namespace": "django.utils.datastructures.MultiValueDictKeyError"
         },
         {
             "docstring": "\"\"\"\n    A subclass of dictionary customized to handle multiple values for the\n    same key.\n\n    >>> d = MultiValueDict({'name': ['Adrian', 'Simon'], 'position': ['Developer']})\n    >>> d['name']\n    'Simon'\n    >>> d.getlist('name')\n    ['Adrian', 'Simon']\n    >>> d.getlist('doesnotexist')\n    []\n    >>> d.getlist('doesnotexist', ['Adrian', 'Simon'])\n    ['Adrian', 'Simon']\n    >>> d.get('lastname', 'nonexistent')\n    'nonexistent'\n    >>> d.setlist('lastname', ['Holovaty', 'Willison'])\n\n    This class exists to solve the irritating problem raised by cgi.parse_qs,\n    which returns a list for every key, even though most web forms submit\n    single name-value pairs.\n    \"\"\"",
             "name": "MultiValueDict",
-            "parent_name": "django.utils.datastructures"
+            "namespace": "django.utils.datastructures.MultiValueDict"
         },
         {
             "docstring": "\"\"\"\n    A tuple-like object that raises useful errors when it is asked to mutate.\n\n    Example::\n\n        >>> a = ImmutableList(range(5), warning=\"You cannot mutate this.\")\n        >>> a[3] = '4'\n        Traceback (most recent call last):\n            ...\n        AttributeError: You cannot mutate this.\n    \"\"\"",
             "name": "ImmutableList",
-            "parent_name": "django.utils.datastructures"
+            "namespace": "django.utils.datastructures.ImmutableList"
         },
         {
             "docstring": "\"\"\"\n    Wrap accesses to a dictionary so that certain values (those starting with\n    the specified prefix) are passed through a function before being returned.\n    The prefix is removed before looking up the real value.\n\n    Used by the SQL construction code to ensure that values are correctly\n    quoted before being used.\n    \"\"\"",
             "name": "DictWrapper",
-            "parent_name": "django.utils.datastructures"
+            "namespace": "django.utils.datastructures.DictWrapper"
         },
         {
             "docstring": "\"\"\"\n    Mapping allowing case-insensitive key lookups. Original case of keys is\n    preserved for iteration and string representation.\n\n    Example::\n\n        >>> ci_map = CaseInsensitiveMapping({'name': 'Jane'})\n        >>> ci_map['Name']\n        Jane\n        >>> ci_map['NAME']\n        Jane\n        >>> ci_map['name']\n        Jane\n        >>> ci_map  # original case preserved\n        {'name': 'Jane'}\n    \"\"\"",
             "name": "CaseInsensitiveMapping",
-            "parent_name": "django.utils.datastructures"
+            "namespace": "django.utils.datastructures.CaseInsensitiveMapping"
         }
     ]
 }

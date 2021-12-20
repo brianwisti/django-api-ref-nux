@@ -1,11 +1,11 @@
 {
-    "docstring": "",
     "namespace": "django.apps.registry",
+    "docstring": "",
     "classes": [
         {
             "docstring": "\"\"\"\n    A registry that stores the configuration of installed applications.\n\n    It also keeps track of models, e.g. to provide reverse relations.\n    \"\"\"",
             "name": "Apps",
-            "parent_name": "django.apps.registry"
+            "namespace": "django.apps.registry.Apps"
         }
     ]
 }

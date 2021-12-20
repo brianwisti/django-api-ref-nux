@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    Provide a many-to-many relation by using an intermediary model that\n    holds two ForeignKey fields pointed at the two sides of the relation.\n\n    Unless a ``through`` model was provided, ManyToManyField will use the\n    create_many_to_many_intermediary_model factory to automatically generate\n    the intermediary model.\n    \"\"\"",
+    "name": "ManyToManyField",
+    "namespace": "django.db.models.fields.related.ManyToManyField",
+    "parent_namespace": "django.db.models.fields.related"
+}

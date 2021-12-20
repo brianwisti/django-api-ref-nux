@@ -1,36 +1,36 @@
 {
-    "docstring": "",
     "namespace": "django.utils.deprecation",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "RemovedInDjango41Warning",
-            "parent_name": "django.utils.deprecation"
+            "namespace": "django.utils.deprecation.RemovedInDjango41Warning"
         },
         {
             "docstring": "",
             "name": "RemovedInDjango50Warning",
-            "parent_name": "django.utils.deprecation"
+            "namespace": "django.utils.deprecation.RemovedInDjango50Warning"
         },
         {
             "docstring": "",
             "name": "warn_about_renamed_method",
-            "parent_name": "django.utils.deprecation"
+            "namespace": "django.utils.deprecation.warn_about_renamed_method"
         },
         {
             "docstring": "\"\"\"\n    Handles the deprecation paths when renaming a method.\n\n    It does the following:\n        1) Define the new method if missing and complain about it.\n        2) Define the old method if missing.\n        3) Complain whenever an old method is called.\n\n    See #15363 for more details.\n    \"\"\"",
             "name": "RenameMethodsBase",
-            "parent_name": "django.utils.deprecation"
+            "namespace": "django.utils.deprecation.RenameMethodsBase"
         },
         {
             "docstring": "",
             "name": "DeprecationInstanceCheck",
-            "parent_name": "django.utils.deprecation"
+            "namespace": "django.utils.deprecation.DeprecationInstanceCheck"
         },
         {
             "docstring": "",
             "name": "MiddlewareMixin",
-            "parent_name": "django.utils.deprecation"
+            "namespace": "django.utils.deprecation.MiddlewareMixin"
         }
     ]
 }

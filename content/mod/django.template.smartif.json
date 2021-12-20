@@ -1,26 +1,26 @@
 {
-    "docstring": "\"\"\"\nParser and utilities for the smart 'if' tag\n\"\"\"",
     "namespace": "django.template.smartif",
+    "docstring": "\"\"\"\nParser and utilities for the smart 'if' tag\n\"\"\"",
     "classes": [
         {
             "docstring": "\"\"\"\n    Base class for operators and literals, mainly for debugging and for throwing\n    syntax errors.\n    \"\"\"",
             "name": "TokenBase",
-            "parent_name": "django.template.smartif"
+            "namespace": "django.template.smartif.TokenBase"
         },
         {
             "docstring": "\"\"\"\n    A basic self-resolvable object similar to a Django template variable.\n    \"\"\"",
             "name": "Literal",
-            "parent_name": "django.template.smartif"
+            "namespace": "django.template.smartif.Literal"
         },
         {
             "docstring": "",
             "name": "EndToken",
-            "parent_name": "django.template.smartif"
+            "namespace": "django.template.smartif.EndToken"
         },
         {
             "docstring": "",
             "name": "IfParser",
-            "parent_name": "django.template.smartif"
+            "namespace": "django.template.smartif.IfParser"
         }
     ]
 }

@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    A specialized MultiValueDict which represents a query string.\n\n    A QueryDict can be used to represent GET or POST data. It subclasses\n    MultiValueDict since keys in such data can be repeated, for instance\n    in the data from a form with a <select multiple> field.\n\n    By default QueryDicts are immutable, though the copy() method\n    will always return a mutable copy.\n\n    Both keys and values set on this class are converted from the given encoding\n    (DEFAULT_CHARSET by default) to str.\n    \"\"\"",
+    "name": "QueryDict",
+    "namespace": "django.http.request.QueryDict",
+    "parent_namespace": "django.http.request"
+}

@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    This is the basic form field for a Geometry.  Any textual input that is\n    accepted by GEOSGeometry is accepted by this form.  By default,\n    this includes WKT, HEXEWKB, WKB (in a buffer), and GeoJSON.\n    \"\"\"",
+    "name": "GeometryField",
+    "namespace": "django.contrib.gis.forms.fields.GeometryField",
+    "parent_namespace": "django.contrib.gis.forms.fields"
+}

@@ -1,36 +1,36 @@
 {
-    "docstring": "",
     "namespace": "django.contrib.admin.options",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "IncorrectLookupParameters",
-            "parent_name": "django.contrib.admin.options"
+            "namespace": "django.contrib.admin.options.IncorrectLookupParameters"
         },
         {
             "docstring": "\"\"\"Functionality common to both ModelAdmin and InlineAdmin.\"\"\"",
             "name": "BaseModelAdmin",
-            "parent_name": "django.contrib.admin.options"
+            "namespace": "django.contrib.admin.options.BaseModelAdmin"
         },
         {
             "docstring": "\"\"\"Encapsulate all admin options and functionality for a given model.\"\"\"",
             "name": "ModelAdmin",
-            "parent_name": "django.contrib.admin.options"
+            "namespace": "django.contrib.admin.options.ModelAdmin"
         },
         {
             "docstring": "\"\"\"\n    Options for inline editing of ``model`` instances.\n\n    Provide ``fk_name`` to specify the attribute name of the ``ForeignKey``\n    from ``model`` to its parent. This is required if ``model`` has more than\n    one ``ForeignKey`` to its parent.\n    \"\"\"",
             "name": "InlineModelAdmin",
-            "parent_name": "django.contrib.admin.options"
+            "namespace": "django.contrib.admin.options.InlineModelAdmin"
         },
         {
             "docstring": "",
             "name": "StackedInline",
-            "parent_name": "django.contrib.admin.options"
+            "namespace": "django.contrib.admin.options.StackedInline"
         },
         {
             "docstring": "",
             "name": "TabularInline",
-            "parent_name": "django.contrib.admin.options"
+            "namespace": "django.contrib.admin.options.TabularInline"
         }
     ]
 }

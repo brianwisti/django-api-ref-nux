@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    Act as a decorator. Override list of registered system checks.\n    Useful when you override `INSTALLED_APPS`, e.g. if you exclude `auth` app,\n    you also need to exclude its system checks.\n    \"\"\"",
+    "name": "override_system_checks",
+    "namespace": "django.test.utils.override_system_checks",
+    "parent_namespace": "django.test.utils"
+}

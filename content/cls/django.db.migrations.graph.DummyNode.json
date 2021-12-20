@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    A node that doesn't correspond to a migration file on disk.\n    (A squashed migration that was removed, for example.)\n\n    After the migration graph is processed, all dummy nodes should be removed.\n    If there are any left, a nonexistent dependency error is raised.\n    \"\"\"",
+    "name": "DummyNode",
+    "namespace": "django.db.migrations.graph.DummyNode",
+    "parent_namespace": "django.db.migrations.graph"
+}

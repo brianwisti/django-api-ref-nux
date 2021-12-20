@@ -1,16 +1,16 @@
 {
-    "docstring": "\"\"\"\nSQL functions reference lists:\nhttps://www.gaia-gis.it/gaia-sins/spatialite-sql-4.3.0.html\n\"\"\"",
     "namespace": "django.contrib.gis.db.backends.spatialite.operations",
+    "docstring": "\"\"\"\nSQL functions reference lists:\nhttps://www.gaia-gis.it/gaia-sins/spatialite-sql-4.3.0.html\n\"\"\"",
     "classes": [
         {
             "docstring": "",
             "name": "SpatialiteNullCheckOperator",
-            "parent_name": "django.contrib.gis.db.backends.spatialite.operations"
+            "namespace": "django.contrib.gis.db.backends.spatialite.operations.SpatialiteNullCheckOperator"
         },
         {
             "docstring": "",
             "name": "SpatiaLiteOperations",
-            "parent_name": "django.contrib.gis.db.backends.spatialite.operations"
+            "namespace": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations"
         }
     ]
 }

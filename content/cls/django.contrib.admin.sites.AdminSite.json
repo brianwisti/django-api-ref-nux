@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    An AdminSite object encapsulates an instance of the Django admin application, ready\n    to be hooked in to your URLconf. Models are registered with the AdminSite using the\n    register() method, and the get_urls() method can then be used to access Django view\n    functions that present a full admin interface for the collection of registered\n    models.\n    \"\"\"",
+    "name": "AdminSite",
+    "namespace": "django.contrib.admin.sites.AdminSite",
+    "parent_namespace": "django.contrib.admin.sites"
+}

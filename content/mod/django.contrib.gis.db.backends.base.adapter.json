@@ -1,11 +1,11 @@
 {
-    "docstring": "",
     "namespace": "django.contrib.gis.db.backends.base.adapter",
+    "docstring": "",
     "classes": [
         {
             "docstring": "\"\"\"\n    An adaptor for Geometries sent to the MySQL and Oracle database backends.\n    \"\"\"",
             "name": "WKTAdapter",
-            "parent_name": "django.contrib.gis.db.backends.base.adapter"
+            "namespace": "django.contrib.gis.db.backends.base.adapter.WKTAdapter"
         }
     ]
 }

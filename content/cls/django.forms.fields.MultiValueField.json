@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    Aggregate the logic of multiple Fields.\n\n    Its clean() method takes a \"decompressed\" list of values, which are then\n    cleaned into a single value according to self.fields. Each value in\n    this list is cleaned by the corresponding field -- the first value is\n    cleaned by the first field, the second value is cleaned by the second\n    field, etc. Once all fields are cleaned, the list of clean values is\n    \"compressed\" into a single value.\n\n    Subclasses should not have to implement clean(). Instead, they must\n    implement compress(), which takes a list of valid values and returns a\n    \"compressed\" version of those values -- a single value.\n\n    You'll probably want to use this with MultiWidget.\n    \"\"\"",
+    "name": "MultiValueField",
+    "namespace": "django.forms.fields.MultiValueField",
+    "parent_namespace": "django.forms.fields"
+}

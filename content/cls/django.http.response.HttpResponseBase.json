@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    An HTTP response base class with dictionary-accessed headers.\n\n    This class doesn't handle content. It should not be used directly.\n    Use the HttpResponse and StreamingHttpResponse subclasses instead.\n    \"\"\"",
+    "name": "HttpResponseBase",
+    "namespace": "django.http.response.HttpResponseBase",
+    "parent_namespace": "django.http.response"
+}

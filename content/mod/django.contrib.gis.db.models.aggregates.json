@@ -1,36 +1,36 @@
 {
-    "docstring": "",
     "namespace": "django.contrib.gis.db.models.aggregates",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "GeoAggregate",
-            "parent_name": "django.contrib.gis.db.models.aggregates"
+            "namespace": "django.contrib.gis.db.models.aggregates.GeoAggregate"
         },
         {
             "docstring": "",
             "name": "Collect",
-            "parent_name": "django.contrib.gis.db.models.aggregates"
+            "namespace": "django.contrib.gis.db.models.aggregates.Collect"
         },
         {
             "docstring": "",
             "name": "Extent",
-            "parent_name": "django.contrib.gis.db.models.aggregates"
+            "namespace": "django.contrib.gis.db.models.aggregates.Extent"
         },
         {
             "docstring": "",
             "name": "Extent3D",
-            "parent_name": "django.contrib.gis.db.models.aggregates"
+            "namespace": "django.contrib.gis.db.models.aggregates.Extent3D"
         },
         {
             "docstring": "",
             "name": "MakeLine",
-            "parent_name": "django.contrib.gis.db.models.aggregates"
+            "namespace": "django.contrib.gis.db.models.aggregates.MakeLine"
         },
         {
             "docstring": "",
             "name": "Union",
-            "parent_name": "django.contrib.gis.db.models.aggregates"
+            "namespace": "django.contrib.gis.db.models.aggregates.Union"
         }
     ]
 }

@@ -1,21 +1,21 @@
 {
-    "docstring": "",
     "namespace": "django.core.handlers.wsgi",
+    "docstring": "",
     "classes": [
         {
             "docstring": "\"\"\"Wrap another stream to disallow reading it past a number of bytes.\"\"\"",
             "name": "LimitedStream",
-            "parent_name": "django.core.handlers.wsgi"
+            "namespace": "django.core.handlers.wsgi.LimitedStream"
         },
         {
             "docstring": "",
             "name": "WSGIRequest",
-            "parent_name": "django.core.handlers.wsgi"
+            "namespace": "django.core.handlers.wsgi.WSGIRequest"
         },
         {
             "docstring": "",
             "name": "WSGIHandler",
-            "parent_name": "django.core.handlers.wsgi"
+            "namespace": "django.core.handlers.wsgi.WSGIHandler"
         }
     ]
 }

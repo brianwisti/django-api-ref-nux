@@ -1,26 +1,26 @@
 {
-    "docstring": "",
     "namespace": "django.views.generic.detail",
+    "docstring": "",
     "classes": [
         {
             "docstring": "\"\"\"\n    Provide the ability to retrieve a single object for further manipulation.\n    \"\"\"",
             "name": "SingleObjectMixin",
-            "parent_name": "django.views.generic.detail"
+            "namespace": "django.views.generic.detail.SingleObjectMixin"
         },
         {
             "docstring": "\"\"\"A base view for displaying a single object.\"\"\"",
             "name": "BaseDetailView",
-            "parent_name": "django.views.generic.detail"
+            "namespace": "django.views.generic.detail.BaseDetailView"
         },
         {
             "docstring": "",
             "name": "SingleObjectTemplateResponseMixin",
-            "parent_name": "django.views.generic.detail"
+            "namespace": "django.views.generic.detail.SingleObjectTemplateResponseMixin"
         },
         {
             "docstring": "\"\"\"\n    Render a \"detail\" view of an object.\n\n    By default this is a model instance looked up from `self.queryset`, but the\n    view will support display of *any* object by overriding `self.get_object()`.\n    \"\"\"",
             "name": "DetailView",
-            "parent_name": "django.views.generic.detail"
+            "namespace": "django.views.generic.detail.DetailView"
         }
     ]
 }

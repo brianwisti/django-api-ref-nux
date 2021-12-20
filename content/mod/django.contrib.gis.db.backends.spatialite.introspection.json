@@ -1,16 +1,16 @@
 {
-    "docstring": "",
     "namespace": "django.contrib.gis.db.backends.spatialite.introspection",
+    "docstring": "",
     "classes": [
         {
             "docstring": "\"\"\"\n    Subclass that includes updates the `base_data_types_reverse` dict\n    for geometry field types.\n    \"\"\"",
             "name": "GeoFlexibleFieldLookupDict",
-            "parent_name": "django.contrib.gis.db.backends.spatialite.introspection"
+            "namespace": "django.contrib.gis.db.backends.spatialite.introspection.GeoFlexibleFieldLookupDict"
         },
         {
             "docstring": "",
             "name": "SpatiaLiteIntrospection",
-            "parent_name": "django.contrib.gis.db.backends.spatialite.introspection"
+            "namespace": "django.contrib.gis.db.backends.spatialite.introspection.SpatiaLiteIntrospection"
         }
     ]
 }

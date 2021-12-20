@@ -1,169 +1,43 @@
 {
     "name": "django.core.files",
     "docstring": "",
+    "classes": [],
     "modules": [
         {
-            "docstring": "\"\"\"\nUtility functions for handling images.\n\nRequires Pillow as you might imagine.\n\"\"\"",
             "namespace": "django.core.files.images",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    A mixin for use alongside django.core.files.base.File, which provides\n    additional features for dealing with images.\n    \"\"\"",
-                    "name": "ImageFile",
-                    "parent_name": "django.core.files.images"
-                }
-            ]
+            "docstring": "\"\"\"\nUtility functions for handling images.\n\nRequires Pillow as you might imagine.\n\"\"\""
         },
         {
-            "docstring": "",
             "namespace": "django.core.files.base",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "File",
-                    "parent_name": "django.core.files.base"
-                },
-                {
-                    "docstring": "\"\"\"\n    A File-like object that takes just raw content, rather than an actual file.\n    \"\"\"",
-                    "name": "ContentFile",
-                    "parent_name": "django.core.files.base"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.core.files.storage",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    A base storage class, providing some default behaviors that all other\n    storage systems can inherit or override, as necessary.\n    \"\"\"",
-                    "name": "Storage",
-                    "parent_name": "django.core.files.storage"
-                },
-                {
-                    "docstring": "\"\"\"\n    Standard filesystem storage\n    \"\"\"",
-                    "name": "FileSystemStorage",
-                    "parent_name": "django.core.files.storage"
-                },
-                {
-                    "docstring": "",
-                    "name": "DefaultStorage",
-                    "parent_name": "django.core.files.storage"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "\"\"\"\nClasses representing uploaded files.\n\"\"\"",
             "namespace": "django.core.files.uploadedfile",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    An abstract uploaded file (``TemporaryUploadedFile`` and\n    ``InMemoryUploadedFile`` are the built-in concrete subclasses).\n\n    An ``UploadedFile`` object behaves somewhat like a file object and\n    represents some file data that the user submitted with a form.\n    \"\"\"",
-                    "name": "UploadedFile",
-                    "parent_name": "django.core.files.uploadedfile"
-                },
-                {
-                    "docstring": "\"\"\"\n    A file uploaded to a temporary location (i.e. stream-to-disk).\n    \"\"\"",
-                    "name": "TemporaryUploadedFile",
-                    "parent_name": "django.core.files.uploadedfile"
-                },
-                {
-                    "docstring": "\"\"\"\n    A file uploaded into memory (i.e. stream-to-memory).\n    \"\"\"",
-                    "name": "InMemoryUploadedFile",
-                    "parent_name": "django.core.files.uploadedfile"
-                },
-                {
-                    "docstring": "\"\"\"\n    A simple representation of a file, which just has content, size, and a name.\n    \"\"\"",
-                    "name": "SimpleUploadedFile",
-                    "parent_name": "django.core.files.uploadedfile"
-                }
-            ]
+            "docstring": "\"\"\"\nClasses representing uploaded files.\n\"\"\""
         },
         {
-            "docstring": "\"\"\"\nPortable file locking utilities.\n\nBased partially on an example by Jonathan Feignberg in the Python\nCookbook [1] (licensed under the Python Software License) and a ctypes port by\nAnatoly Techtonik for Roundup [2] (license [3]).\n\n[1] http://aspn.activestate.com/ASPN/Cookbook/Python/Recipe/65203\n[2] https://sourceforge.net/p/roundup/code/ci/default/tree/roundup/backends/portalocker.py\n[3] https://sourceforge.net/p/roundup/code/ci/default/tree/COPYING.txt\n\nExample Usage::\n\n    >>> from django.core.files import locks\n    >>> with open('./file', 'wb') as f:\n    ...     locks.lock(f, locks.LOCK_EX)\n    ...     f.write('Django')\n\"\"\"",
             "namespace": "django.core.files.locks",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "_OFFSET",
-                    "parent_name": "django.core.files.locks"
-                },
-                {
-                    "docstring": "",
-                    "name": "_OFFSET_UNION",
-                    "parent_name": "django.core.files.locks"
-                },
-                {
-                    "docstring": "",
-                    "name": "OVERLAPPED",
-                    "parent_name": "django.core.files.locks"
-                }
-            ]
+            "docstring": "\"\"\"\nPortable file locking utilities.\n\nBased partially on an example by Jonathan Feignberg in the Python\nCookbook [1] (licensed under the Python Software License) and a ctypes port by\nAnatoly Techtonik for Roundup [2] (license [3]).\n\n[1] http://aspn.activestate.com/ASPN/Cookbook/Python/Recipe/65203\n[2] https://sourceforge.net/p/roundup/code/ci/default/tree/roundup/backends/portalocker.py\n[3] https://sourceforge.net/p/roundup/code/ci/default/tree/COPYING.txt\n\nExample Usage::\n\n    >>> from django.core.files import locks\n    >>> with open('./file', 'wb') as f:\n    ...     locks.lock(f, locks.LOCK_EX)\n    ...     f.write('Django')\n\"\"\""
         },
         {
-            "docstring": "",
             "namespace": "django.core.files.utils",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    A mixin class used to forward file methods to an underlaying file\n    object.  The internal file object has to be called \"file\"::\n\n        class FileProxy(FileProxyMixin):\n            def __init__(self, file):\n                self.file = file\n    \"\"\"",
-                    "name": "FileProxyMixin",
-                    "parent_name": "django.core.files.utils"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "\"\"\"\nMove a file in the safest way possible::\n\n    >>> from django.core.files.move import file_move_safe\n    >>> file_move_safe(\"/tmp/old_file\", \"/tmp/new_file\")\n\"\"\"",
             "namespace": "django.core.files.move",
-            "classes": []
+            "docstring": "\"\"\"\nMove a file in the safest way possible::\n\n    >>> from django.core.files.move import file_move_safe\n    >>> file_move_safe(\"/tmp/old_file\", \"/tmp/new_file\")\n\"\"\""
         },
         {
-            "docstring": "\"\"\"\nBase file upload handler classes, and the built-in concrete subclasses\n\"\"\"",
             "namespace": "django.core.files.uploadhandler",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    Any error having to do with uploading files.\n    \"\"\"",
-                    "name": "UploadFileException",
-                    "parent_name": "django.core.files.uploadhandler"
-                },
-                {
-                    "docstring": "\"\"\"\n    This exception is raised when an upload must abort.\n    \"\"\"",
-                    "name": "StopUpload",
-                    "parent_name": "django.core.files.uploadhandler"
-                },
-                {
-                    "docstring": "\"\"\"\n    This exception is raised by an upload handler that wants to skip a given file.\n    \"\"\"",
-                    "name": "SkipFile",
-                    "parent_name": "django.core.files.uploadhandler"
-                },
-                {
-                    "docstring": "\"\"\"\n    Upload handlers that have handled a file and do not want future handlers to\n    run should raise this exception instead of returning None.\n    \"\"\"",
-                    "name": "StopFutureHandlers",
-                    "parent_name": "django.core.files.uploadhandler"
-                },
-                {
-                    "docstring": "\"\"\"\n    Base class for streaming upload handlers.\n    \"\"\"",
-                    "name": "FileUploadHandler",
-                    "parent_name": "django.core.files.uploadhandler"
-                },
-                {
-                    "docstring": "\"\"\"\n    Upload handler that streams data into a temporary file.\n    \"\"\"",
-                    "name": "TemporaryFileUploadHandler",
-                    "parent_name": "django.core.files.uploadhandler"
-                },
-                {
-                    "docstring": "\"\"\"\n    File upload handler to stream uploads into memory (used for small files).\n    \"\"\"",
-                    "name": "MemoryFileUploadHandler",
-                    "parent_name": "django.core.files.uploadhandler"
-                }
-            ]
+            "docstring": "\"\"\"\nBase file upload handler classes, and the built-in concrete subclasses\n\"\"\""
         },
         {
-            "docstring": "\"\"\"\nThe temp module provides a NamedTemporaryFile that can be reopened in the same\nprocess on any platform. Most platforms use the standard Python\ntempfile.NamedTemporaryFile class, but Windows users are given a custom class.\n\nThis is needed because the Python implementation of NamedTemporaryFile uses the\nO_TEMPORARY flag under Windows, which prevents the file from being reopened\nif the same flag is not provided [1][2]. Note that this does not address the\nmore general issue of opening a file for writing and reading in multiple\nprocesses in a manner that works across platforms.\n\nThe custom version of NamedTemporaryFile doesn't support the same keyword\narguments available in tempfile.NamedTemporaryFile.\n\n1: https://mail.python.org/pipermail/python-list/2005-December/336957.html\n2: https://bugs.python.org/issue14243\n\"\"\"",
             "namespace": "django.core.files.temp",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n        Temporary file object constructor that supports reopening of the\n        temporary file in Windows.\n\n        Unlike tempfile.NamedTemporaryFile from the standard library,\n        __init__() doesn't support the 'delete', 'buffering', 'encoding', or\n        'newline' keyword arguments.\n        \"\"\"",
-                    "name": "TemporaryFile",
-                    "parent_name": "django.core.files.temp"
-                }
-            ]
+            "docstring": "\"\"\"\nThe temp module provides a NamedTemporaryFile that can be reopened in the same\nprocess on any platform. Most platforms use the standard Python\ntempfile.NamedTemporaryFile class, but Windows users are given a custom class.\n\nThis is needed because the Python implementation of NamedTemporaryFile uses the\nO_TEMPORARY flag under Windows, which prevents the file from being reopened\nif the same flag is not provided [1][2]. Note that this does not address the\nmore general issue of opening a file for writing and reading in multiple\nprocesses in a manner that works across platforms.\n\nThe custom version of NamedTemporaryFile doesn't support the same keyword\narguments available in tempfile.NamedTemporaryFile.\n\n1: https://mail.python.org/pipermail/python-list/2005-December/336957.html\n2: https://bugs.python.org/issue14243\n\"\"\""
         }
     ],
     "subpackages": []

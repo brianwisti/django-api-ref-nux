@@ -1,61 +1,27 @@
 {
     "name": "django.contrib.gis.db.backends.mysql",
     "docstring": "",
+    "classes": [],
     "modules": [
         {
-            "docstring": "",
             "namespace": "django.contrib.gis.db.backends.mysql.introspection",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "MySQLIntrospection",
-                    "parent_name": "django.contrib.gis.db.backends.mysql.introspection"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.gis.db.backends.mysql.base",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "DatabaseWrapper",
-                    "parent_name": "django.contrib.gis.db.backends.mysql.base"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.gis.db.backends.mysql.operations",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "MySQLOperations",
-                    "parent_name": "django.contrib.gis.db.backends.mysql.operations"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.gis.db.backends.mysql.features",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "DatabaseFeatures",
-                    "parent_name": "django.contrib.gis.db.backends.mysql.features"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.gis.db.backends.mysql.schema",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "MySQLGISSchemaEditor",
-                    "parent_name": "django.contrib.gis.db.backends.mysql.schema"
-                }
-            ]
+            "docstring": ""
         }
     ],
     "subpackages": []

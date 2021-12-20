@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    A subclass of dictionary customized to handle multiple values for the\n    same key.\n\n    >>> d = MultiValueDict({'name': ['Adrian', 'Simon'], 'position': ['Developer']})\n    >>> d['name']\n    'Simon'\n    >>> d.getlist('name')\n    ['Adrian', 'Simon']\n    >>> d.getlist('doesnotexist')\n    []\n    >>> d.getlist('doesnotexist', ['Adrian', 'Simon'])\n    ['Adrian', 'Simon']\n    >>> d.get('lastname', 'nonexistent')\n    'nonexistent'\n    >>> d.setlist('lastname', ['Holovaty', 'Willison'])\n\n    This class exists to solve the irritating problem raised by cgi.parse_qs,\n    which returns a list for every key, even though most web forms submit\n    single name-value pairs.\n    \"\"\"",
+    "name": "MultiValueDict",
+    "namespace": "django.utils.datastructures.MultiValueDict",
+    "parent_namespace": "django.utils.datastructures"
+}

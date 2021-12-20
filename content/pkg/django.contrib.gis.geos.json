@@ -1,198 +1,59 @@
 {
     "name": "django.contrib.gis.geos",
     "docstring": "\"\"\"\nThe GeoDjango GEOS module.  Please consult the GeoDjango documentation\nfor more details: https://docs.djangoproject.com/en/dev/ref/contrib/gis/geos/\n\"\"\"",
+    "classes": [],
     "modules": [
         {
-            "docstring": "\"\"\"\n This module houses the GEOSCoordSeq object, which is used internally\n by GEOSGeometry to house the actual coordinates of the Point,\n LineString, and LinearRing geometries.\n\"\"\"",
             "namespace": "django.contrib.gis.geos.coordseq",
-            "classes": [
-                {
-                    "docstring": "\"The internal representation of a list of coordinates inside a Geometry.\"",
-                    "name": "GEOSCoordSeq",
-                    "parent_name": "django.contrib.gis.geos.coordseq"
-                }
-            ]
+            "docstring": "\"\"\"\n This module houses the GEOSCoordSeq object, which is used internally\n by GEOSGeometry to house the actual coordinates of the Point,\n LineString, and LinearRing geometries.\n\"\"\""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.gis.geos.prepared",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    A geometry that is prepared for performing certain operations.\n    At the moment this includes the contains covers, and intersects\n    operations.\n    \"\"\"",
-                    "name": "PreparedGeometry",
-                    "parent_name": "django.contrib.gis.geos.prepared"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.gis.geos.factory",
-            "classes": []
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.gis.geos.point",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "Point",
-                    "parent_name": "django.contrib.gis.geos.point"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "\"\"\"\nThis module contains a base type which provides list-style mutations\nwithout specific data storage methods.\n\nSee also http://static.aryehleib.com/oldsite/MutableLists.html\n\nAuthor: Aryeh Leib Taurog.\n\"\"\"",
             "namespace": "django.contrib.gis.geos.mutable_list",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    A base class which provides complete list interface.\n    Derived classes must call ListMixin's __init__() function\n    and implement the following:\n\n    function _get_single_external(self, i):\n        Return single item with index i for general use.\n        The index i will always satisfy 0 <= i < len(self).\n\n    function _get_single_internal(self, i):\n        Same as above, but for use within the class [Optional]\n        Note that if _get_single_internal and _get_single_internal return\n        different types of objects, _set_list must distinguish\n        between the two and handle each appropriately.\n\n    function _set_list(self, length, items):\n        Recreate the entire object.\n\n        NOTE: items may be a generator which calls _get_single_internal.\n        Therefore, it is necessary to cache the values in a temporary:\n            temp = list(items)\n        before clobbering the original storage.\n\n    function _set_single(self, i, value):\n        Set the single item at index i to value [Optional]\n        If left undefined, all mutations will result in rebuilding\n        the object using _set_list.\n\n    function __len__(self):\n        Return the length\n\n    int _minlength:\n        The minimum legal length [Optional]\n\n    int _maxlength:\n        The maximum legal length [Optional]\n\n    type or tuple _allowed:\n        A type or tuple of allowed item types [Optional]\n    \"\"\"",
-                    "name": "ListMixin",
-                    "parent_name": "django.contrib.gis.geos.mutable_list"
-                }
-            ]
+            "docstring": "\"\"\"\nThis module contains a base type which provides list-style mutations\nwithout specific data storage methods.\n\nSee also http://static.aryehleib.com/oldsite/MutableLists.html\n\nAuthor: Aryeh Leib Taurog.\n\"\"\""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.gis.geos.base",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "GEOSBase",
-                    "parent_name": "django.contrib.gis.geos.base"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "\"\"\"\n This module contains the 'base' GEOSGeometry object -- all GEOS Geometries\n inherit from this object.\n\"\"\"",
             "namespace": "django.contrib.gis.geos.geometry",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "GEOSGeometryBase",
-                    "parent_name": "django.contrib.gis.geos.geometry"
-                },
-                {
-                    "docstring": "\"\"\"\n    Used for LineString and MultiLineString.\n    \"\"\"",
-                    "name": "LinearGeometryMixin",
-                    "parent_name": "django.contrib.gis.geos.geometry"
-                },
-                {
-                    "docstring": "\"A class that, generally, encapsulates a GEOS geometry.\"",
-                    "name": "GEOSGeometry",
-                    "parent_name": "django.contrib.gis.geos.geometry"
-                }
-            ]
+            "docstring": "\"\"\"\n This module contains the 'base' GEOSGeometry object -- all GEOS Geometries\n inherit from this object.\n\"\"\""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.gis.geos.polygon",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "Polygon",
-                    "parent_name": "django.contrib.gis.geos.polygon"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "\"\"\"\n This module houses the Geometry Collection objects:\n GeometryCollection, MultiPoint, MultiLineString, and MultiPolygon\n\"\"\"",
             "namespace": "django.contrib.gis.geos.collections",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "GeometryCollection",
-                    "parent_name": "django.contrib.gis.geos.collections"
-                },
-                {
-                    "docstring": "",
-                    "name": "MultiPoint",
-                    "parent_name": "django.contrib.gis.geos.collections"
-                },
-                {
-                    "docstring": "",
-                    "name": "MultiLineString",
-                    "parent_name": "django.contrib.gis.geos.collections"
-                },
-                {
-                    "docstring": "",
-                    "name": "MultiPolygon",
-                    "parent_name": "django.contrib.gis.geos.collections"
-                }
-            ]
+            "docstring": "\"\"\"\n This module houses the Geometry Collection objects:\n GeometryCollection, MultiPoint, MultiLineString, and MultiPolygon\n\"\"\""
         },
         {
-            "docstring": "\"\"\"\n This module houses the ctypes initialization procedures, as well\n as the notice and error handler function callbacks (get called\n when an error occurs in GEOS).\n\n This module also houses GEOS Pointer utilities, including\n get_pointer_arr(), and GEOM_PTR.\n\"\"\"",
             "namespace": "django.contrib.gis.geos.libgeos",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "GEOSGeom_t",
-                    "parent_name": "django.contrib.gis.geos.libgeos"
-                },
-                {
-                    "docstring": "",
-                    "name": "GEOSPrepGeom_t",
-                    "parent_name": "django.contrib.gis.geos.libgeos"
-                },
-                {
-                    "docstring": "",
-                    "name": "GEOSCoordSeq_t",
-                    "parent_name": "django.contrib.gis.geos.libgeos"
-                },
-                {
-                    "docstring": "",
-                    "name": "GEOSContextHandle_t",
-                    "parent_name": "django.contrib.gis.geos.libgeos"
-                },
-                {
-                    "docstring": "\"\"\"\n    Lazy loading of GEOS functions.\n    \"\"\"",
-                    "name": "GEOSFuncFactory",
-                    "parent_name": "django.contrib.gis.geos.libgeos"
-                }
-            ]
+            "docstring": "\"\"\"\n This module houses the ctypes initialization procedures, as well\n as the notice and error handler function callbacks (get called\n when an error occurs in GEOS).\n\n This module also houses GEOS Pointer utilities, including\n get_pointer_arr(), and GEOM_PTR.\n\"\"\""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.gis.geos.error",
-            "classes": [
-                {
-                    "docstring": "\"The base GEOS exception, indicates a GEOS-related error.\"",
-                    "name": "GEOSException",
-                    "parent_name": "django.contrib.gis.geos.error"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "\"\"\"\nModule that holds classes for performing I/O operations on GEOS geometry\nobjects.  Specifically, this has Python implementations of WKB/WKT\nreader and writer classes.\n\"\"\"",
             "namespace": "django.contrib.gis.geos.io",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "WKBReader",
-                    "parent_name": "django.contrib.gis.geos.io"
-                },
-                {
-                    "docstring": "",
-                    "name": "WKTReader",
-                    "parent_name": "django.contrib.gis.geos.io"
-                }
-            ]
+            "docstring": "\"\"\"\nModule that holds classes for performing I/O operations on GEOS geometry\nobjects.  Specifically, this has Python implementations of WKB/WKT\nreader and writer classes.\n\"\"\""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.gis.geos.linestring",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "LineString",
-                    "parent_name": "django.contrib.gis.geos.linestring"
-                },
-                {
-                    "docstring": "",
-                    "name": "LinearRing",
-                    "parent_name": "django.contrib.gis.geos.linestring"
-                }
-            ]
+            "docstring": ""
         }
     ],
     "subpackages": [

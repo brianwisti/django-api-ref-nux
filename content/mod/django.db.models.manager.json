@@ -1,26 +1,26 @@
 {
-    "docstring": "",
     "namespace": "django.db.models.manager",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "BaseManager",
-            "parent_name": "django.db.models.manager"
+            "namespace": "django.db.models.manager.BaseManager"
         },
         {
             "docstring": "",
             "name": "Manager",
-            "parent_name": "django.db.models.manager"
+            "namespace": "django.db.models.manager.Manager"
         },
         {
             "docstring": "",
             "name": "ManagerDescriptor",
-            "parent_name": "django.db.models.manager"
+            "namespace": "django.db.models.manager.ManagerDescriptor"
         },
         {
             "docstring": "",
             "name": "EmptyManager",
-            "parent_name": "django.db.models.manager"
+            "namespace": "django.db.models.manager.EmptyManager"
         }
     ]
 }

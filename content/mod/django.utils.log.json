@@ -1,31 +1,31 @@
 {
-    "docstring": "",
     "namespace": "django.utils.log",
+    "docstring": "",
     "classes": [
         {
             "docstring": "\"\"\"An exception log handler that emails log entries to site admins.\n\n    If the request is passed as the first argument to the log record,\n    request data will be provided in the email report.\n    \"\"\"",
             "name": "AdminEmailHandler",
-            "parent_name": "django.utils.log"
+            "namespace": "django.utils.log.AdminEmailHandler"
         },
         {
             "docstring": "\"\"\"\n    A logging filter that checks the return value of a given callable (which\n    takes the record-to-be-logged as its only parameter) to decide whether to\n    log a record.\n    \"\"\"",
             "name": "CallbackFilter",
-            "parent_name": "django.utils.log"
+            "namespace": "django.utils.log.CallbackFilter"
         },
         {
             "docstring": "",
             "name": "RequireDebugFalse",
-            "parent_name": "django.utils.log"
+            "namespace": "django.utils.log.RequireDebugFalse"
         },
         {
             "docstring": "",
             "name": "RequireDebugTrue",
-            "parent_name": "django.utils.log"
+            "namespace": "django.utils.log.RequireDebugTrue"
         },
         {
             "docstring": "",
             "name": "ServerFormatter",
-            "parent_name": "django.utils.log"
+            "namespace": "django.utils.log.ServerFormatter"
         }
     ]
 }

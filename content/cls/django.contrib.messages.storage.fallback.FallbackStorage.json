@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    Try to store all messages in the first backend. Store any unstored\n    messages in each subsequent backend.\n    \"\"\"",
+    "name": "FallbackStorage",
+    "namespace": "django.contrib.messages.storage.fallback.FallbackStorage",
+    "parent_namespace": "django.contrib.messages.storage.fallback"
+}

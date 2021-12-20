@@ -1,152 +1,38 @@
 {
     "name": "django.core.serializers",
     "docstring": "\"\"\"\nInterfaces for serializing Django objects.\n\nUsage::\n\n    from django.core import serializers\n    json = serializers.serialize(\"json\", some_queryset)\n    objects = list(serializers.deserialize(\"json\", json))\n\nTo add your own serializers, use the SERIALIZATION_MODULES setting::\n\n    SERIALIZATION_MODULES = {\n        \"csv\": \"path.to.csv.serializer\",\n        \"txt\": \"path.to.txt.serializer\",\n    }\n\n\"\"\"",
+    "classes": [
+        {
+            "docstring": "\"\"\"\n    Stub serializer to hold exception raised during registration\n\n    This allows the serializer registration to cache serializers and if there\n    is an error raised in the process of creating a serializer it will be\n    raised and passed along to the caller when the serializer is used.\n    \"\"\"",
+            "name": "BadSerializer",
+            "namespace": "django.core.serializers.BadSerializer",
+            "parent_namespace": "django.core.serializers"
+        }
+    ],
     "modules": [
         {
-            "docstring": "\"\"\"\nModule for abstract serializer/unserializer base classes.\n\"\"\"",
             "namespace": "django.core.serializers.base",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    Simple wrapper around pickle to be used in signing.dumps()/loads() and\n    cache backends.\n    \"\"\"",
-                    "name": "PickleSerializer",
-                    "parent_name": "django.core.serializers.base"
-                },
-                {
-                    "docstring": "\"\"\"The requested serializer was not found.\"\"\"",
-                    "name": "SerializerDoesNotExist",
-                    "parent_name": "django.core.serializers.base"
-                },
-                {
-                    "docstring": "\"\"\"Something bad happened during serialization.\"\"\"",
-                    "name": "SerializationError",
-                    "parent_name": "django.core.serializers.base"
-                },
-                {
-                    "docstring": "\"\"\"Something bad happened during deserialization.\"\"\"",
-                    "name": "DeserializationError",
-                    "parent_name": "django.core.serializers.base"
-                },
-                {
-                    "docstring": "\"\"\"Something bad happened during deserialization of a ManyToManyField.\"\"\"",
-                    "name": "M2MDeserializationError",
-                    "parent_name": "django.core.serializers.base"
-                },
-                {
-                    "docstring": "",
-                    "name": "ProgressBar",
-                    "parent_name": "django.core.serializers.base"
-                },
-                {
-                    "docstring": "\"\"\"\n    Abstract serializer base class.\n    \"\"\"",
-                    "name": "Serializer",
-                    "parent_name": "django.core.serializers.base"
-                },
-                {
-                    "docstring": "\"\"\"\n    Abstract base deserializer class.\n    \"\"\"",
-                    "name": "Deserializer",
-                    "parent_name": "django.core.serializers.base"
-                },
-                {
-                    "docstring": "\"\"\"\n    A deserialized model.\n\n    Basically a container for holding the pre-saved deserialized data along\n    with the many-to-many data saved with the object.\n\n    Call ``save()`` to save the object (with the many-to-many data) to the\n    database; call ``save(save_m2m=False)`` to save just the object fields\n    (and not touch the many-to-many stuff.)\n    \"\"\"",
-                    "name": "DeserializedObject",
-                    "parent_name": "django.core.serializers.base"
-                }
-            ]
+            "docstring": "\"\"\"\nModule for abstract serializer/unserializer base classes.\n\"\"\""
         },
         {
-            "docstring": "\"\"\"\nXML serializer.\n\"\"\"",
             "namespace": "django.core.serializers.xml_serializer",
-            "classes": [
-                {
-                    "docstring": "\"\"\"Serialize a QuerySet to XML.\"\"\"",
-                    "name": "Serializer",
-                    "parent_name": "django.core.serializers.xml_serializer"
-                },
-                {
-                    "docstring": "\"\"\"Deserialize XML.\"\"\"",
-                    "name": "Deserializer",
-                    "parent_name": "django.core.serializers.xml_serializer"
-                },
-                {
-                    "docstring": "\"\"\"\n    An expat parser hardened against XML bomb attacks.\n\n    Forbid DTDs, external entity references\n    \"\"\"",
-                    "name": "DefusedExpatParser",
-                    "parent_name": "django.core.serializers.xml_serializer"
-                },
-                {
-                    "docstring": "\"\"\"Base exception.\"\"\"",
-                    "name": "DefusedXmlException",
-                    "parent_name": "django.core.serializers.xml_serializer"
-                },
-                {
-                    "docstring": "\"\"\"Document type definition is forbidden.\"\"\"",
-                    "name": "DTDForbidden",
-                    "parent_name": "django.core.serializers.xml_serializer"
-                },
-                {
-                    "docstring": "\"\"\"Entity definition is forbidden.\"\"\"",
-                    "name": "EntitiesForbidden",
-                    "parent_name": "django.core.serializers.xml_serializer"
-                },
-                {
-                    "docstring": "\"\"\"Resolving an external reference is forbidden.\"\"\"",
-                    "name": "ExternalReferenceForbidden",
-                    "parent_name": "django.core.serializers.xml_serializer"
-                }
-            ]
+            "docstring": "\"\"\"\nXML serializer.\n\"\"\""
         },
         {
-            "docstring": "\"\"\"\nSerialize data to/from JSON Lines\n\"\"\"",
             "namespace": "django.core.serializers.jsonl",
-            "classes": [
-                {
-                    "docstring": "\"\"\"Convert a queryset to JSON Lines.\"\"\"",
-                    "name": "Serializer",
-                    "parent_name": "django.core.serializers.jsonl"
-                }
-            ]
+            "docstring": "\"\"\"\nSerialize data to/from JSON Lines\n\"\"\""
         },
         {
-            "docstring": "\"\"\"\nSerialize data to/from JSON\n\"\"\"",
             "namespace": "django.core.serializers.json",
-            "classes": [
-                {
-                    "docstring": "\"\"\"Convert a queryset to JSON.\"\"\"",
-                    "name": "Serializer",
-                    "parent_name": "django.core.serializers.json"
-                },
-                {
-                    "docstring": "\"\"\"\n    JSONEncoder subclass that knows how to encode date/time, decimal types, and\n    UUIDs.\n    \"\"\"",
-                    "name": "DjangoJSONEncoder",
-                    "parent_name": "django.core.serializers.json"
-                }
-            ]
+            "docstring": "\"\"\"\nSerialize data to/from JSON\n\"\"\""
         },
         {
-            "docstring": "\"\"\"\nYAML serializer.\n\nRequires PyYaml (https://pyyaml.org/), but that's checked for in __init__.\n\"\"\"",
             "namespace": "django.core.serializers.pyyaml",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "DjangoSafeDumper",
-                    "parent_name": "django.core.serializers.pyyaml"
-                },
-                {
-                    "docstring": "\"\"\"Convert a queryset to YAML.\"\"\"",
-                    "name": "Serializer",
-                    "parent_name": "django.core.serializers.pyyaml"
-                }
-            ]
+            "docstring": "\"\"\"\nYAML serializer.\n\nRequires PyYaml (https://pyyaml.org/), but that's checked for in __init__.\n\"\"\""
         },
         {
-            "docstring": "\"\"\"\nA Python \"serializer\". Doesn't do much serializing per se -- just converts to\nand from basic Python data types (lists, dicts, strings, etc.). Useful as a basis for\nother serializers.\n\"\"\"",
             "namespace": "django.core.serializers.python",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    Serialize a QuerySet to basic Python objects.\n    \"\"\"",
-                    "name": "Serializer",
-                    "parent_name": "django.core.serializers.python"
-                }
-            ]
+            "docstring": "\"\"\"\nA Python \"serializer\". Doesn't do much serializing per se -- just converts to\nand from basic Python data types (lists, dicts, strings, etc.). Useful as a basis for\nother serializers.\n\"\"\""
         }
     ],
     "subpackages": []

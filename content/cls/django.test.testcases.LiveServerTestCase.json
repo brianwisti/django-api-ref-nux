@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    Do basically the same as TransactionTestCase but also launch a live HTTP\n    server in a separate thread so that the tests may use another testing\n    framework, such as Selenium for example, instead of the built-in dummy\n    client.\n    It inherits from TransactionTestCase instead of TestCase because the\n    threads don't share the same transactions (unless if using in-memory sqlite)\n    and each thread needs to commit all their transactions so that the other\n    thread can see the changes.\n    \"\"\"",
+    "name": "LiveServerTestCase",
+    "namespace": "django.test.testcases.LiveServerTestCase",
+    "parent_namespace": "django.test.testcases"
+}

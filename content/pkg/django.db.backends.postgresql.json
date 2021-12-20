@@ -1,88 +1,35 @@
 {
     "name": "django.db.backends.postgresql",
     "docstring": "",
+    "classes": [],
     "modules": [
         {
-            "docstring": "",
             "namespace": "django.db.backends.postgresql.creation",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "DatabaseCreation",
-                    "parent_name": "django.db.backends.postgresql.creation"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.db.backends.postgresql.introspection",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "DatabaseIntrospection",
-                    "parent_name": "django.db.backends.postgresql.introspection"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.db.backends.postgresql.client",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "DatabaseClient",
-                    "parent_name": "django.db.backends.postgresql.client"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "\"\"\"\nPostgreSQL database backend for Django.\n\nRequires psycopg 2: https://www.psycopg.org/\n\"\"\"",
             "namespace": "django.db.backends.postgresql.base",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "DatabaseWrapper",
-                    "parent_name": "django.db.backends.postgresql.base"
-                },
-                {
-                    "docstring": "",
-                    "name": "CursorDebugWrapper",
-                    "parent_name": "django.db.backends.postgresql.base"
-                }
-            ]
+            "docstring": "\"\"\"\nPostgreSQL database backend for Django.\n\nRequires psycopg 2: https://www.psycopg.org/\n\"\"\""
         },
         {
-            "docstring": "",
             "namespace": "django.db.backends.postgresql.operations",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "DatabaseOperations",
-                    "parent_name": "django.db.backends.postgresql.operations"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.db.backends.postgresql.features",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "DatabaseFeatures",
-                    "parent_name": "django.db.backends.postgresql.features"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.db.backends.postgresql.schema",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "DatabaseSchemaEditor",
-                    "parent_name": "django.db.backends.postgresql.schema"
-                }
-            ]
+            "docstring": ""
         }
     ],
     "subpackages": []

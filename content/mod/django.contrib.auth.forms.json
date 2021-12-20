@@ -1,56 +1,56 @@
 {
-    "docstring": "",
     "namespace": "django.contrib.auth.forms",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "ReadOnlyPasswordHashWidget",
-            "parent_name": "django.contrib.auth.forms"
+            "namespace": "django.contrib.auth.forms.ReadOnlyPasswordHashWidget"
         },
         {
             "docstring": "",
             "name": "ReadOnlyPasswordHashField",
-            "parent_name": "django.contrib.auth.forms"
+            "namespace": "django.contrib.auth.forms.ReadOnlyPasswordHashField"
         },
         {
             "docstring": "",
             "name": "UsernameField",
-            "parent_name": "django.contrib.auth.forms"
+            "namespace": "django.contrib.auth.forms.UsernameField"
         },
         {
             "docstring": "\"\"\"\n    A form that creates a user, with no privileges, from the given username and\n    password.\n    \"\"\"",
             "name": "UserCreationForm",
-            "parent_name": "django.contrib.auth.forms"
+            "namespace": "django.contrib.auth.forms.UserCreationForm"
         },
         {
             "docstring": "",
             "name": "UserChangeForm",
-            "parent_name": "django.contrib.auth.forms"
+            "namespace": "django.contrib.auth.forms.UserChangeForm"
         },
         {
             "docstring": "\"\"\"\n    Base class for authenticating users. Extend this to get a form that accepts\n    username/password logins.\n    \"\"\"",
             "name": "AuthenticationForm",
-            "parent_name": "django.contrib.auth.forms"
+            "namespace": "django.contrib.auth.forms.AuthenticationForm"
         },
         {
             "docstring": "",
             "name": "PasswordResetForm",
-            "parent_name": "django.contrib.auth.forms"
+            "namespace": "django.contrib.auth.forms.PasswordResetForm"
         },
         {
             "docstring": "\"\"\"\n    A form that lets a user change set their password without entering the old\n    password\n    \"\"\"",
             "name": "SetPasswordForm",
-            "parent_name": "django.contrib.auth.forms"
+            "namespace": "django.contrib.auth.forms.SetPasswordForm"
         },
         {
             "docstring": "\"\"\"\n    A form that lets a user change their password by entering their old\n    password.\n    \"\"\"",
             "name": "PasswordChangeForm",
-            "parent_name": "django.contrib.auth.forms"
+            "namespace": "django.contrib.auth.forms.PasswordChangeForm"
         },
         {
             "docstring": "\"\"\"\n    A form used to change the password of a user in the admin interface.\n    \"\"\"",
             "name": "AdminPasswordChangeForm",
-            "parent_name": "django.contrib.auth.forms"
+            "namespace": "django.contrib.auth.forms.AdminPasswordChangeForm"
         }
     ]
 }

@@ -1,22 +1,11 @@
 {
     "name": "django.contrib.contenttypes.management.commands",
     "docstring": "",
+    "classes": [],
     "modules": [
         {
-            "docstring": "",
             "namespace": "django.contrib.contenttypes.management.commands.remove_stale_contenttypes",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "Command",
-                    "parent_name": "django.contrib.contenttypes.management.commands.remove_stale_contenttypes"
-                },
-                {
-                    "docstring": "",
-                    "name": "NoFastDeleteCollector",
-                    "parent_name": "django.contrib.contenttypes.management.commands.remove_stale_contenttypes"
-                }
-            ]
+            "docstring": ""
         }
     ],
     "subpackages": []

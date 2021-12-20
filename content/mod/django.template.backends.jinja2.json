@@ -1,21 +1,21 @@
 {
-    "docstring": "",
     "namespace": "django.template.backends.jinja2",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "Jinja2",
-            "parent_name": "django.template.backends.jinja2"
+            "namespace": "django.template.backends.jinja2.Jinja2"
         },
         {
             "docstring": "",
             "name": "Template",
-            "parent_name": "django.template.backends.jinja2"
+            "namespace": "django.template.backends.jinja2.Template"
         },
         {
             "docstring": "\"\"\"\n    A container to hold debug information as described in the template API\n    documentation.\n    \"\"\"",
             "name": "Origin",
-            "parent_name": "django.template.backends.jinja2"
+            "namespace": "django.template.backends.jinja2.Origin"
         }
     ]
 }

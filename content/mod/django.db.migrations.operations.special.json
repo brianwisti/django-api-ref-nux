@@ -1,21 +1,21 @@
 {
-    "docstring": "",
     "namespace": "django.db.migrations.operations.special",
+    "docstring": "",
     "classes": [
         {
             "docstring": "\"\"\"\n    Take two lists of operations - ones that will be used for the database,\n    and ones that will be used for the state change. This allows operations\n    that don't support state change to have it applied, or have operations\n    that affect the state or not the database, or so on.\n    \"\"\"",
             "name": "SeparateDatabaseAndState",
-            "parent_name": "django.db.migrations.operations.special"
+            "namespace": "django.db.migrations.operations.special.SeparateDatabaseAndState"
         },
         {
             "docstring": "\"\"\"\n    Run some raw SQL. A reverse SQL statement may be provided.\n\n    Also accept a list of operations that represent the state change effected\n    by this SQL change, in case it's custom column/table creation/deletion.\n    \"\"\"",
             "name": "RunSQL",
-            "parent_name": "django.db.migrations.operations.special"
+            "namespace": "django.db.migrations.operations.special.RunSQL"
         },
         {
             "docstring": "\"\"\"\n    Run Python code in a context suitable for doing versioned ORM operations.\n    \"\"\"",
             "name": "RunPython",
-            "parent_name": "django.db.migrations.operations.special"
+            "namespace": "django.db.migrations.operations.special.RunPython"
         }
     ]
 }

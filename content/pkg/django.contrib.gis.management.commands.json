@@ -1,38 +1,15 @@
 {
     "name": "django.contrib.gis.management.commands",
     "docstring": "",
+    "classes": [],
     "modules": [
         {
-            "docstring": "",
             "namespace": "django.contrib.gis.management.commands.ogrinspect",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    Custom argparse action for the `ogrinspect` `layer_key` keyword option\n    which may be an integer or a string.\n    \"\"\"",
-                    "name": "LayerOptionAction",
-                    "parent_name": "django.contrib.gis.management.commands.ogrinspect"
-                },
-                {
-                    "docstring": "\"\"\"\n    Custom argparse action for `ogrinspect` keywords that require\n    a string list. If the string is 'True'/'true' then the option\n    value will be a boolean instead.\n    \"\"\"",
-                    "name": "ListOptionAction",
-                    "parent_name": "django.contrib.gis.management.commands.ogrinspect"
-                },
-                {
-                    "docstring": "",
-                    "name": "Command",
-                    "parent_name": "django.contrib.gis.management.commands.ogrinspect"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.gis.management.commands.inspectdb",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "Command",
-                    "parent_name": "django.contrib.gis.management.commands.inspectdb"
-                }
-            ]
+            "docstring": ""
         }
     ],
     "subpackages": []

@@ -1,11 +1,11 @@
 {
-    "docstring": "",
     "namespace": "django.contrib.gis.gdal.driver",
+    "docstring": "",
     "classes": [
         {
             "docstring": "\"\"\"\n    Wrap a GDAL/OGR Data Source Driver.\n    For more information, see the C API documentation:\n    https://gdal.org/api/vector_c_api.html\n    https://gdal.org/api/raster_c_api.html\n    \"\"\"",
             "name": "Driver",
-            "parent_name": "django.contrib.gis.gdal.driver"
+            "namespace": "django.contrib.gis.gdal.driver.Driver"
         }
     ]
 }

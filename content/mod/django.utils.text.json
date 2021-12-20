@@ -1,16 +1,16 @@
 {
-    "docstring": "",
     "namespace": "django.utils.text",
+    "docstring": "",
     "classes": [
         {
             "docstring": "\"\"\"\n    An object used to truncate text, either by characters or words.\n    \"\"\"",
             "name": "Truncator",
-            "parent_name": "django.utils.text"
+            "namespace": "django.utils.text.Truncator"
         },
         {
             "docstring": "",
             "name": "StreamingBuffer",
-            "parent_name": "django.utils.text"
+            "namespace": "django.utils.text.StreamingBuffer"
         }
     ]
 }

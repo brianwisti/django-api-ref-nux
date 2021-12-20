@@ -1,160 +1,23 @@
 {
     "name": "django.db.migrations.operations",
     "docstring": "",
+    "classes": [],
     "modules": [
         {
-            "docstring": "",
             "namespace": "django.db.migrations.operations.base",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    Base class for migration operations.\n\n    It's responsible for both mutating the in-memory model state\n    (see db/migrations/state.py) to represent what it performs, as well\n    as actually performing it against a live database.\n\n    Note that some operations won't modify memory state at all (e.g. data\n    copying operations), and some will need their modifications to be\n    optionally specified by the user (e.g. custom Python code snippets)\n\n    Due to the way this class deals with deconstruction, it should be\n    considered immutable.\n    \"\"\"",
-                    "name": "Operation",
-                    "parent_name": "django.db.migrations.operations.base"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.db.migrations.operations.fields",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "FieldOperation",
-                    "parent_name": "django.db.migrations.operations.fields"
-                },
-                {
-                    "docstring": "\"\"\"Add a field to a model.\"\"\"",
-                    "name": "AddField",
-                    "parent_name": "django.db.migrations.operations.fields"
-                },
-                {
-                    "docstring": "\"\"\"Remove a field from a model.\"\"\"",
-                    "name": "RemoveField",
-                    "parent_name": "django.db.migrations.operations.fields"
-                },
-                {
-                    "docstring": "\"\"\"\n    Alter a field's database column (e.g. null, max_length) to the provided\n    new field.\n    \"\"\"",
-                    "name": "AlterField",
-                    "parent_name": "django.db.migrations.operations.fields"
-                },
-                {
-                    "docstring": "\"\"\"Rename a field on the model. Might affect db_column too.\"\"\"",
-                    "name": "RenameField",
-                    "parent_name": "django.db.migrations.operations.fields"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.db.migrations.operations.models",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "ModelOperation",
-                    "parent_name": "django.db.migrations.operations.models"
-                },
-                {
-                    "docstring": "\"\"\"Create a model's table.\"\"\"",
-                    "name": "CreateModel",
-                    "parent_name": "django.db.migrations.operations.models"
-                },
-                {
-                    "docstring": "\"\"\"Drop a model's table.\"\"\"",
-                    "name": "DeleteModel",
-                    "parent_name": "django.db.migrations.operations.models"
-                },
-                {
-                    "docstring": "\"\"\"Rename a model.\"\"\"",
-                    "name": "RenameModel",
-                    "parent_name": "django.db.migrations.operations.models"
-                },
-                {
-                    "docstring": "",
-                    "name": "ModelOptionOperation",
-                    "parent_name": "django.db.migrations.operations.models"
-                },
-                {
-                    "docstring": "\"\"\"Rename a model's table.\"\"\"",
-                    "name": "AlterModelTable",
-                    "parent_name": "django.db.migrations.operations.models"
-                },
-                {
-                    "docstring": "",
-                    "name": "AlterTogetherOptionOperation",
-                    "parent_name": "django.db.migrations.operations.models"
-                },
-                {
-                    "docstring": "\"\"\"\n    Change the value of unique_together to the target one.\n    Input value of unique_together must be a set of tuples.\n    \"\"\"",
-                    "name": "AlterUniqueTogether",
-                    "parent_name": "django.db.migrations.operations.models"
-                },
-                {
-                    "docstring": "\"\"\"\n    Change the value of index_together to the target one.\n    Input value of index_together must be a set of tuples.\n    \"\"\"",
-                    "name": "AlterIndexTogether",
-                    "parent_name": "django.db.migrations.operations.models"
-                },
-                {
-                    "docstring": "\"\"\"Represent a change with the order_with_respect_to option.\"\"\"",
-                    "name": "AlterOrderWithRespectTo",
-                    "parent_name": "django.db.migrations.operations.models"
-                },
-                {
-                    "docstring": "\"\"\"\n    Set new model options that don't directly affect the database schema\n    (like verbose_name, permissions, ordering). Python code in migrations\n    may still need them.\n    \"\"\"",
-                    "name": "AlterModelOptions",
-                    "parent_name": "django.db.migrations.operations.models"
-                },
-                {
-                    "docstring": "\"\"\"Alter the model's managers.\"\"\"",
-                    "name": "AlterModelManagers",
-                    "parent_name": "django.db.migrations.operations.models"
-                },
-                {
-                    "docstring": "",
-                    "name": "IndexOperation",
-                    "parent_name": "django.db.migrations.operations.models"
-                },
-                {
-                    "docstring": "\"\"\"Add an index on a model.\"\"\"",
-                    "name": "AddIndex",
-                    "parent_name": "django.db.migrations.operations.models"
-                },
-                {
-                    "docstring": "\"\"\"Remove an index from a model.\"\"\"",
-                    "name": "RemoveIndex",
-                    "parent_name": "django.db.migrations.operations.models"
-                },
-                {
-                    "docstring": "",
-                    "name": "AddConstraint",
-                    "parent_name": "django.db.migrations.operations.models"
-                },
-                {
-                    "docstring": "",
-                    "name": "RemoveConstraint",
-                    "parent_name": "django.db.migrations.operations.models"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.db.migrations.operations.special",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    Take two lists of operations - ones that will be used for the database,\n    and ones that will be used for the state change. This allows operations\n    that don't support state change to have it applied, or have operations\n    that affect the state or not the database, or so on.\n    \"\"\"",
-                    "name": "SeparateDatabaseAndState",
-                    "parent_name": "django.db.migrations.operations.special"
-                },
-                {
-                    "docstring": "\"\"\"\n    Run some raw SQL. A reverse SQL statement may be provided.\n\n    Also accept a list of operations that represent the state change effected\n    by this SQL change, in case it's custom column/table creation/deletion.\n    \"\"\"",
-                    "name": "RunSQL",
-                    "parent_name": "django.db.migrations.operations.special"
-                },
-                {
-                    "docstring": "\"\"\"\n    Run Python code in a context suitable for doing versioned ORM operations.\n    \"\"\"",
-                    "name": "RunPython",
-                    "parent_name": "django.db.migrations.operations.special"
-                }
-            ]
+            "docstring": ""
         }
     ],
     "subpackages": []

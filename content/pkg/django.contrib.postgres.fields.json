@@ -1,267 +1,31 @@
 {
     "name": "django.contrib.postgres.fields",
     "docstring": "",
+    "classes": [],
     "modules": [
         {
-            "docstring": "",
             "namespace": "django.contrib.postgres.fields.citext",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "CIText",
-                    "parent_name": "django.contrib.postgres.fields.citext"
-                },
-                {
-                    "docstring": "",
-                    "name": "CICharField",
-                    "parent_name": "django.contrib.postgres.fields.citext"
-                },
-                {
-                    "docstring": "",
-                    "name": "CIEmailField",
-                    "parent_name": "django.contrib.postgres.fields.citext"
-                },
-                {
-                    "docstring": "",
-                    "name": "CITextField",
-                    "parent_name": "django.contrib.postgres.fields.citext"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.postgres.fields.array",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "ArrayField",
-                    "parent_name": "django.contrib.postgres.fields.array"
-                },
-                {
-                    "docstring": "",
-                    "name": "ArrayRHSMixin",
-                    "parent_name": "django.contrib.postgres.fields.array"
-                },
-                {
-                    "docstring": "",
-                    "name": "ArrayContains",
-                    "parent_name": "django.contrib.postgres.fields.array"
-                },
-                {
-                    "docstring": "",
-                    "name": "ArrayContainedBy",
-                    "parent_name": "django.contrib.postgres.fields.array"
-                },
-                {
-                    "docstring": "",
-                    "name": "ArrayExact",
-                    "parent_name": "django.contrib.postgres.fields.array"
-                },
-                {
-                    "docstring": "",
-                    "name": "ArrayOverlap",
-                    "parent_name": "django.contrib.postgres.fields.array"
-                },
-                {
-                    "docstring": "",
-                    "name": "ArrayLenTransform",
-                    "parent_name": "django.contrib.postgres.fields.array"
-                },
-                {
-                    "docstring": "",
-                    "name": "ArrayInLookup",
-                    "parent_name": "django.contrib.postgres.fields.array"
-                },
-                {
-                    "docstring": "",
-                    "name": "IndexTransform",
-                    "parent_name": "django.contrib.postgres.fields.array"
-                },
-                {
-                    "docstring": "",
-                    "name": "IndexTransformFactory",
-                    "parent_name": "django.contrib.postgres.fields.array"
-                },
-                {
-                    "docstring": "",
-                    "name": "SliceTransform",
-                    "parent_name": "django.contrib.postgres.fields.array"
-                },
-                {
-                    "docstring": "",
-                    "name": "SliceTransformFactory",
-                    "parent_name": "django.contrib.postgres.fields.array"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.postgres.fields.ranges",
-            "classes": [
-                {
-                    "docstring": "\"\"\"A class that represents range boundaries.\"\"\"",
-                    "name": "RangeBoundary",
-                    "parent_name": "django.contrib.postgres.fields.ranges"
-                },
-                {
-                    "docstring": "",
-                    "name": "RangeOperators",
-                    "parent_name": "django.contrib.postgres.fields.ranges"
-                },
-                {
-                    "docstring": "",
-                    "name": "RangeField",
-                    "parent_name": "django.contrib.postgres.fields.ranges"
-                },
-                {
-                    "docstring": "",
-                    "name": "IntegerRangeField",
-                    "parent_name": "django.contrib.postgres.fields.ranges"
-                },
-                {
-                    "docstring": "",
-                    "name": "BigIntegerRangeField",
-                    "parent_name": "django.contrib.postgres.fields.ranges"
-                },
-                {
-                    "docstring": "",
-                    "name": "DecimalRangeField",
-                    "parent_name": "django.contrib.postgres.fields.ranges"
-                },
-                {
-                    "docstring": "",
-                    "name": "DateTimeRangeField",
-                    "parent_name": "django.contrib.postgres.fields.ranges"
-                },
-                {
-                    "docstring": "",
-                    "name": "DateRangeField",
-                    "parent_name": "django.contrib.postgres.fields.ranges"
-                },
-                {
-                    "docstring": "\"\"\"\n    Lookup for Date/DateTimeRange containment to cast the rhs to the correct\n    type.\n    \"\"\"",
-                    "name": "DateTimeRangeContains",
-                    "parent_name": "django.contrib.postgres.fields.ranges"
-                },
-                {
-                    "docstring": "",
-                    "name": "RangeContainedBy",
-                    "parent_name": "django.contrib.postgres.fields.ranges"
-                },
-                {
-                    "docstring": "",
-                    "name": "FullyLessThan",
-                    "parent_name": "django.contrib.postgres.fields.ranges"
-                },
-                {
-                    "docstring": "",
-                    "name": "FullGreaterThan",
-                    "parent_name": "django.contrib.postgres.fields.ranges"
-                },
-                {
-                    "docstring": "",
-                    "name": "NotLessThan",
-                    "parent_name": "django.contrib.postgres.fields.ranges"
-                },
-                {
-                    "docstring": "",
-                    "name": "NotGreaterThan",
-                    "parent_name": "django.contrib.postgres.fields.ranges"
-                },
-                {
-                    "docstring": "",
-                    "name": "AdjacentToLookup",
-                    "parent_name": "django.contrib.postgres.fields.ranges"
-                },
-                {
-                    "docstring": "",
-                    "name": "RangeStartsWith",
-                    "parent_name": "django.contrib.postgres.fields.ranges"
-                },
-                {
-                    "docstring": "",
-                    "name": "RangeEndsWith",
-                    "parent_name": "django.contrib.postgres.fields.ranges"
-                },
-                {
-                    "docstring": "",
-                    "name": "IsEmpty",
-                    "parent_name": "django.contrib.postgres.fields.ranges"
-                },
-                {
-                    "docstring": "",
-                    "name": "LowerInclusive",
-                    "parent_name": "django.contrib.postgres.fields.ranges"
-                },
-                {
-                    "docstring": "",
-                    "name": "LowerInfinite",
-                    "parent_name": "django.contrib.postgres.fields.ranges"
-                },
-                {
-                    "docstring": "",
-                    "name": "UpperInclusive",
-                    "parent_name": "django.contrib.postgres.fields.ranges"
-                },
-                {
-                    "docstring": "",
-                    "name": "UpperInfinite",
-                    "parent_name": "django.contrib.postgres.fields.ranges"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.postgres.fields.utils",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "AttributeSetter",
-                    "parent_name": "django.contrib.postgres.fields.utils"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.postgres.fields.jsonb",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "JSONField",
-                    "parent_name": "django.contrib.postgres.fields.jsonb"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.postgres.fields.hstore",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "HStoreField",
-                    "parent_name": "django.contrib.postgres.fields.hstore"
-                },
-                {
-                    "docstring": "",
-                    "name": "KeyTransform",
-                    "parent_name": "django.contrib.postgres.fields.hstore"
-                },
-                {
-                    "docstring": "",
-                    "name": "KeyTransformFactory",
-                    "parent_name": "django.contrib.postgres.fields.hstore"
-                },
-                {
-                    "docstring": "",
-                    "name": "KeysTransform",
-                    "parent_name": "django.contrib.postgres.fields.hstore"
-                },
-                {
-                    "docstring": "",
-                    "name": "ValuesTransform",
-                    "parent_name": "django.contrib.postgres.fields.hstore"
-                }
-            ]
+            "docstring": ""
         }
     ],
     "subpackages": []

@@ -1,27 +1,15 @@
 {
     "name": "django.contrib.gis.sitemaps",
     "docstring": "",
+    "classes": [],
     "modules": [
         {
-            "docstring": "",
             "namespace": "django.contrib.gis.sitemaps.views",
-            "classes": []
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.gis.sitemaps.kml",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    A minimal hook to produce KML sitemaps.\n    \"\"\"",
-                    "name": "KMLSitemap",
-                    "parent_name": "django.contrib.gis.sitemaps.kml"
-                },
-                {
-                    "docstring": "",
-                    "name": "KMZSitemap",
-                    "parent_name": "django.contrib.gis.sitemaps.kml"
-                }
-            ]
+            "docstring": ""
         }
     ],
     "subpackages": []

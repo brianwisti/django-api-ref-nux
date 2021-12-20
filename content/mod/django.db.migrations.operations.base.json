@@ -1,11 +1,11 @@
 {
-    "docstring": "",
     "namespace": "django.db.migrations.operations.base",
+    "docstring": "",
     "classes": [
         {
             "docstring": "\"\"\"\n    Base class for migration operations.\n\n    It's responsible for both mutating the in-memory model state\n    (see db/migrations/state.py) to represent what it performs, as well\n    as actually performing it against a live database.\n\n    Note that some operations won't modify memory state at all (e.g. data\n    copying operations), and some will need their modifications to be\n    optionally specified by the user (e.g. custom Python code snippets)\n\n    Due to the way this class deals with deconstruction, it should be\n    considered immutable.\n    \"\"\"",
             "name": "Operation",
-            "parent_name": "django.db.migrations.operations.base"
+            "namespace": "django.db.migrations.operations.base.Operation"
         }
     ]
 }

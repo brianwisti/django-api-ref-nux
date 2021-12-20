@@ -1,109 +1,39 @@
 {
     "name": "django.contrib.gis.db.backends.spatialite",
     "docstring": "",
+    "classes": [],
     "modules": [
         {
-            "docstring": "",
             "namespace": "django.contrib.gis.db.backends.spatialite.introspection",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    Subclass that includes updates the `base_data_types_reverse` dict\n    for geometry field types.\n    \"\"\"",
-                    "name": "GeoFlexibleFieldLookupDict",
-                    "parent_name": "django.contrib.gis.db.backends.spatialite.introspection"
-                },
-                {
-                    "docstring": "",
-                    "name": "SpatiaLiteIntrospection",
-                    "parent_name": "django.contrib.gis.db.backends.spatialite.introspection"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.gis.db.backends.spatialite.client",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "SpatiaLiteClient",
-                    "parent_name": "django.contrib.gis.db.backends.spatialite.client"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.gis.db.backends.spatialite.base",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "DatabaseWrapper",
-                    "parent_name": "django.contrib.gis.db.backends.spatialite.base"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.gis.db.backends.spatialite.adapter",
-            "classes": [
-                {
-                    "docstring": "\"SQLite adapter for geometry objects.\"",
-                    "name": "SpatiaLiteAdapter",
-                    "parent_name": "django.contrib.gis.db.backends.spatialite.adapter"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "\"\"\"\nSQL functions reference lists:\nhttps://www.gaia-gis.it/gaia-sins/spatialite-sql-4.3.0.html\n\"\"\"",
             "namespace": "django.contrib.gis.db.backends.spatialite.operations",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "SpatialiteNullCheckOperator",
-                    "parent_name": "django.contrib.gis.db.backends.spatialite.operations"
-                },
-                {
-                    "docstring": "",
-                    "name": "SpatiaLiteOperations",
-                    "parent_name": "django.contrib.gis.db.backends.spatialite.operations"
-                }
-            ]
+            "docstring": "\"\"\"\nSQL functions reference lists:\nhttps://www.gaia-gis.it/gaia-sins/spatialite-sql-4.3.0.html\n\"\"\""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.gis.db.backends.spatialite.features",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "DatabaseFeatures",
-                    "parent_name": "django.contrib.gis.db.backends.spatialite.features"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.gis.db.backends.spatialite.schema",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "SpatialiteSchemaEditor",
-                    "parent_name": "django.contrib.gis.db.backends.spatialite.schema"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "\"\"\"\n The GeometryColumns and SpatialRefSys models for the SpatiaLite backend.\n\"\"\"",
             "namespace": "django.contrib.gis.db.backends.spatialite.models",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    The 'geometry_columns' table from SpatiaLite.\n    \"\"\"",
-                    "name": "SpatialiteGeometryColumns",
-                    "parent_name": "django.contrib.gis.db.backends.spatialite.models"
-                },
-                {
-                    "docstring": "\"\"\"\n    The 'spatial_ref_sys' table from SpatiaLite.\n    \"\"\"",
-                    "name": "SpatialiteSpatialRefSys",
-                    "parent_name": "django.contrib.gis.db.backends.spatialite.models"
-                }
-            ]
+            "docstring": "\"\"\"\n The GeometryColumns and SpatialRefSys models for the SpatiaLite backend.\n\"\"\""
         }
     ],
     "subpackages": []

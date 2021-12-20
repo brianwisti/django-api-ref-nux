@@ -1,16 +1,16 @@
 {
-    "docstring": "",
     "namespace": "django.contrib.admin.apps",
+    "docstring": "",
     "classes": [
         {
             "docstring": "\"\"\"Simple AppConfig which does not do automatic discovery.\"\"\"",
             "name": "SimpleAdminConfig",
-            "parent_name": "django.contrib.admin.apps"
+            "namespace": "django.contrib.admin.apps.SimpleAdminConfig"
         },
         {
             "docstring": "\"\"\"The default AppConfig for admin which does autodiscovery.\"\"\"",
             "name": "AdminConfig",
-            "parent_name": "django.contrib.admin.apps"
+            "namespace": "django.contrib.admin.apps.AdminConfig"
         }
     ]
 }

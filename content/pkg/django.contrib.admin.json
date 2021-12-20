@@ -1,413 +1,63 @@
 {
     "name": "django.contrib.admin",
     "docstring": "",
+    "classes": [],
     "modules": [
         {
-            "docstring": "",
             "namespace": "django.contrib.admin.exceptions",
-            "classes": [
-                {
-                    "docstring": "\"\"\"Invalid filter was passed to admin view via URL querystring\"\"\"",
-                    "name": "DisallowedModelAdminLookup",
-                    "parent_name": "django.contrib.admin.exceptions"
-                },
-                {
-                    "docstring": "\"\"\"Invalid to_field was passed to admin view via URL query string\"\"\"",
-                    "name": "DisallowedModelAdminToField",
-                    "parent_name": "django.contrib.admin.exceptions"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "\"\"\"\nForm Widget classes specific to the Django admin site.\n\"\"\"",
             "namespace": "django.contrib.admin.widgets",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    A SelectMultiple with a JavaScript filter interface.\n\n    Note that the resulting JavaScript assumes that the jsi18n\n    catalog has been loaded in the page\n    \"\"\"",
-                    "name": "FilteredSelectMultiple",
-                    "parent_name": "django.contrib.admin.widgets"
-                },
-                {
-                    "docstring": "",
-                    "name": "AdminDateWidget",
-                    "parent_name": "django.contrib.admin.widgets"
-                },
-                {
-                    "docstring": "",
-                    "name": "AdminTimeWidget",
-                    "parent_name": "django.contrib.admin.widgets"
-                },
-                {
-                    "docstring": "\"\"\"\n    A SplitDateTime Widget that has some admin-specific styling.\n    \"\"\"",
-                    "name": "AdminSplitDateTime",
-                    "parent_name": "django.contrib.admin.widgets"
-                },
-                {
-                    "docstring": "",
-                    "name": "AdminRadioSelect",
-                    "parent_name": "django.contrib.admin.widgets"
-                },
-                {
-                    "docstring": "",
-                    "name": "AdminFileWidget",
-                    "parent_name": "django.contrib.admin.widgets"
-                },
-                {
-                    "docstring": "\"\"\"\n    A Widget for displaying ForeignKeys in the \"raw_id\" interface rather than\n    in a <select> box.\n    \"\"\"",
-                    "name": "ForeignKeyRawIdWidget",
-                    "parent_name": "django.contrib.admin.widgets"
-                },
-                {
-                    "docstring": "\"\"\"\n    A Widget for displaying ManyToMany ids in the \"raw_id\" interface rather than\n    in a <select multiple> box.\n    \"\"\"",
-                    "name": "ManyToManyRawIdWidget",
-                    "parent_name": "django.contrib.admin.widgets"
-                },
-                {
-                    "docstring": "\"\"\"\n    This class is a wrapper to a given widget to add the add icon for the\n    admin interface.\n    \"\"\"",
-                    "name": "RelatedFieldWidgetWrapper",
-                    "parent_name": "django.contrib.admin.widgets"
-                },
-                {
-                    "docstring": "",
-                    "name": "AdminTextareaWidget",
-                    "parent_name": "django.contrib.admin.widgets"
-                },
-                {
-                    "docstring": "",
-                    "name": "AdminTextInputWidget",
-                    "parent_name": "django.contrib.admin.widgets"
-                },
-                {
-                    "docstring": "",
-                    "name": "AdminEmailInputWidget",
-                    "parent_name": "django.contrib.admin.widgets"
-                },
-                {
-                    "docstring": "",
-                    "name": "AdminURLFieldWidget",
-                    "parent_name": "django.contrib.admin.widgets"
-                },
-                {
-                    "docstring": "",
-                    "name": "AdminIntegerFieldWidget",
-                    "parent_name": "django.contrib.admin.widgets"
-                },
-                {
-                    "docstring": "",
-                    "name": "AdminBigIntegerFieldWidget",
-                    "parent_name": "django.contrib.admin.widgets"
-                },
-                {
-                    "docstring": "",
-                    "name": "AdminUUIDInputWidget",
-                    "parent_name": "django.contrib.admin.widgets"
-                },
-                {
-                    "docstring": "\"\"\"\n    Select widget mixin that loads options from AutocompleteJsonView via AJAX.\n\n    Renders the necessary data attributes for select2 and adds the static form\n    media.\n    \"\"\"",
-                    "name": "AutocompleteMixin",
-                    "parent_name": "django.contrib.admin.widgets"
-                },
-                {
-                    "docstring": "",
-                    "name": "AutocompleteSelect",
-                    "parent_name": "django.contrib.admin.widgets"
-                },
-                {
-                    "docstring": "",
-                    "name": "AutocompleteSelectMultiple",
-                    "parent_name": "django.contrib.admin.widgets"
-                }
-            ]
+            "docstring": "\"\"\"\nForm Widget classes specific to the Django admin site.\n\"\"\""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.admin.sites",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "AlreadyRegistered",
-                    "parent_name": "django.contrib.admin.sites"
-                },
-                {
-                    "docstring": "",
-                    "name": "NotRegistered",
-                    "parent_name": "django.contrib.admin.sites"
-                },
-                {
-                    "docstring": "\"\"\"\n    An AdminSite object encapsulates an instance of the Django admin application, ready\n    to be hooked in to your URLconf. Models are registered with the AdminSite using the\n    register() method, and the get_urls() method can then be used to access Django view\n    functions that present a full admin interface for the collection of registered\n    models.\n    \"\"\"",
-                    "name": "AdminSite",
-                    "parent_name": "django.contrib.admin.sites"
-                },
-                {
-                    "docstring": "",
-                    "name": "DefaultAdminSite",
-                    "parent_name": "django.contrib.admin.sites"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.admin.decorators",
-            "classes": []
+            "docstring": ""
         },
         {
-            "docstring": "\"\"\"\nBuilt-in, globally-available admin actions.\n\"\"\"",
             "namespace": "django.contrib.admin.actions",
-            "classes": []
+            "docstring": "\"\"\"\nBuilt-in, globally-available admin actions.\n\"\"\""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.admin.tests",
-            "classes": [
-                {
-                    "docstring": "\"\"\"The admin's JavaScript should be compatible with CSP.\"\"\"",
-                    "name": "CSPMiddleware",
-                    "parent_name": "django.contrib.admin.tests"
-                },
-                {
-                    "docstring": "",
-                    "name": "AdminSeleniumTestCase",
-                    "parent_name": "django.contrib.admin.tests"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.admin.apps",
-            "classes": [
-                {
-                    "docstring": "\"\"\"Simple AppConfig which does not do automatic discovery.\"\"\"",
-                    "name": "SimpleAdminConfig",
-                    "parent_name": "django.contrib.admin.apps"
-                },
-                {
-                    "docstring": "\"\"\"The default AppConfig for admin which does autodiscovery.\"\"\"",
-                    "name": "AdminConfig",
-                    "parent_name": "django.contrib.admin.apps"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.admin.helpers",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "ActionForm",
-                    "parent_name": "django.contrib.admin.helpers"
-                },
-                {
-                    "docstring": "",
-                    "name": "AdminForm",
-                    "parent_name": "django.contrib.admin.helpers"
-                },
-                {
-                    "docstring": "",
-                    "name": "Fieldset",
-                    "parent_name": "django.contrib.admin.helpers"
-                },
-                {
-                    "docstring": "",
-                    "name": "Fieldline",
-                    "parent_name": "django.contrib.admin.helpers"
-                },
-                {
-                    "docstring": "",
-                    "name": "AdminField",
-                    "parent_name": "django.contrib.admin.helpers"
-                },
-                {
-                    "docstring": "",
-                    "name": "AdminReadonlyField",
-                    "parent_name": "django.contrib.admin.helpers"
-                },
-                {
-                    "docstring": "\"\"\"\n    A wrapper around an inline formset for use in the admin system.\n    \"\"\"",
-                    "name": "InlineAdminFormSet",
-                    "parent_name": "django.contrib.admin.helpers"
-                },
-                {
-                    "docstring": "\"\"\"\n    A wrapper around an inline form for use in the admin system.\n    \"\"\"",
-                    "name": "InlineAdminForm",
-                    "parent_name": "django.contrib.admin.helpers"
-                },
-                {
-                    "docstring": "",
-                    "name": "InlineFieldset",
-                    "parent_name": "django.contrib.admin.helpers"
-                },
-                {
-                    "docstring": "\"\"\"Store errors for the form/formsets in an add/change view.\"\"\"",
-                    "name": "AdminErrorList",
-                    "parent_name": "django.contrib.admin.helpers"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.admin.utils",
-            "classes": [
-                {
-                    "docstring": "\"\"\"A field is a foreign key attname, i.e. <FK>_id.\"\"\"",
-                    "name": "FieldIsAForeignKeyColumnName",
-                    "parent_name": "django.contrib.admin.utils"
-                },
-                {
-                    "docstring": "",
-                    "name": "NestedObjects",
-                    "parent_name": "django.contrib.admin.utils"
-                },
-                {
-                    "docstring": "",
-                    "name": "NotRelationField",
-                    "parent_name": "django.contrib.admin.utils"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.admin.options",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "IncorrectLookupParameters",
-                    "parent_name": "django.contrib.admin.options"
-                },
-                {
-                    "docstring": "\"\"\"Functionality common to both ModelAdmin and InlineAdmin.\"\"\"",
-                    "name": "BaseModelAdmin",
-                    "parent_name": "django.contrib.admin.options"
-                },
-                {
-                    "docstring": "\"\"\"Encapsulate all admin options and functionality for a given model.\"\"\"",
-                    "name": "ModelAdmin",
-                    "parent_name": "django.contrib.admin.options"
-                },
-                {
-                    "docstring": "\"\"\"\n    Options for inline editing of ``model`` instances.\n\n    Provide ``fk_name`` to specify the attribute name of the ``ForeignKey``\n    from ``model`` to its parent. This is required if ``model`` has more than\n    one ``ForeignKey`` to its parent.\n    \"\"\"",
-                    "name": "InlineModelAdmin",
-                    "parent_name": "django.contrib.admin.options"
-                },
-                {
-                    "docstring": "",
-                    "name": "StackedInline",
-                    "parent_name": "django.contrib.admin.options"
-                },
-                {
-                    "docstring": "",
-                    "name": "TabularInline",
-                    "parent_name": "django.contrib.admin.options"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "\"\"\"\nThis encapsulates the logic for displaying filters in the Django admin.\nFilters are specified in models with the \"list_filter\" option.\n\nEach filter subclass knows how to display a filter for a field that passes a\ncertain test -- e.g. being a DateField or ForeignKey.\n\"\"\"",
             "namespace": "django.contrib.admin.filters",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "ListFilter",
-                    "parent_name": "django.contrib.admin.filters"
-                },
-                {
-                    "docstring": "",
-                    "name": "SimpleListFilter",
-                    "parent_name": "django.contrib.admin.filters"
-                },
-                {
-                    "docstring": "",
-                    "name": "FieldListFilter",
-                    "parent_name": "django.contrib.admin.filters"
-                },
-                {
-                    "docstring": "",
-                    "name": "RelatedFieldListFilter",
-                    "parent_name": "django.contrib.admin.filters"
-                },
-                {
-                    "docstring": "",
-                    "name": "BooleanFieldListFilter",
-                    "parent_name": "django.contrib.admin.filters"
-                },
-                {
-                    "docstring": "",
-                    "name": "ChoicesFieldListFilter",
-                    "parent_name": "django.contrib.admin.filters"
-                },
-                {
-                    "docstring": "",
-                    "name": "DateFieldListFilter",
-                    "parent_name": "django.contrib.admin.filters"
-                },
-                {
-                    "docstring": "",
-                    "name": "AllValuesFieldListFilter",
-                    "parent_name": "django.contrib.admin.filters"
-                },
-                {
-                    "docstring": "",
-                    "name": "RelatedOnlyFieldListFilter",
-                    "parent_name": "django.contrib.admin.filters"
-                },
-                {
-                    "docstring": "",
-                    "name": "EmptyFieldListFilter",
-                    "parent_name": "django.contrib.admin.filters"
-                }
-            ]
+            "docstring": "\"\"\"\nThis encapsulates the logic for displaying filters in the Django admin.\nFilters are specified in models with the \"list_filter\" option.\n\nEach filter subclass knows how to display a filter for a field that passes a\ncertain test -- e.g. being a DateField or ForeignKey.\n\"\"\""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.admin.forms",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    A custom authentication form used in the admin app.\n    \"\"\"",
-                    "name": "AdminAuthenticationForm",
-                    "parent_name": "django.contrib.admin.forms"
-                },
-                {
-                    "docstring": "",
-                    "name": "AdminPasswordChangeForm",
-                    "parent_name": "django.contrib.admin.forms"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.admin.checks",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "BaseModelAdminChecks",
-                    "parent_name": "django.contrib.admin.checks"
-                },
-                {
-                    "docstring": "",
-                    "name": "ModelAdminChecks",
-                    "parent_name": "django.contrib.admin.checks"
-                },
-                {
-                    "docstring": "",
-                    "name": "InlineModelAdminChecks",
-                    "parent_name": "django.contrib.admin.checks"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.admin.models",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "LogEntryManager",
-                    "parent_name": "django.contrib.admin.models"
-                },
-                {
-                    "docstring": "",
-                    "name": "LogEntry",
-                    "parent_name": "django.contrib.admin.models"
-                }
-            ]
+            "docstring": ""
         }
     ],
     "subpackages": [

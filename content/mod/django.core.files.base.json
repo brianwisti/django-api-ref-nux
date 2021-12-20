@@ -1,16 +1,16 @@
 {
-    "docstring": "",
     "namespace": "django.core.files.base",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "File",
-            "parent_name": "django.core.files.base"
+            "namespace": "django.core.files.base.File"
         },
         {
             "docstring": "\"\"\"\n    A File-like object that takes just raw content, rather than an actual file.\n    \"\"\"",
             "name": "ContentFile",
-            "parent_name": "django.core.files.base"
+            "namespace": "django.core.files.base.ContentFile"
         }
     ]
 }

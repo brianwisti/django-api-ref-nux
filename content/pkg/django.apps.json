@@ -1,28 +1,15 @@
 {
     "name": "django.apps",
     "docstring": "",
+    "classes": [],
     "modules": [
         {
-            "docstring": "",
             "namespace": "django.apps.registry",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    A registry that stores the configuration of installed applications.\n\n    It also keeps track of models, e.g. to provide reverse relations.\n    \"\"\"",
-                    "name": "Apps",
-                    "parent_name": "django.apps.registry"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.apps.config",
-            "classes": [
-                {
-                    "docstring": "\"\"\"Class representing a Django application and its configuration.\"\"\"",
-                    "name": "AppConfig",
-                    "parent_name": "django.apps.config"
-                }
-            ]
+            "docstring": ""
         }
     ],
     "subpackages": []

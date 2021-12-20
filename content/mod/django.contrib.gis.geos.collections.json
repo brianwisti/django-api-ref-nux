@@ -1,26 +1,26 @@
 {
-    "docstring": "\"\"\"\n This module houses the Geometry Collection objects:\n GeometryCollection, MultiPoint, MultiLineString, and MultiPolygon\n\"\"\"",
     "namespace": "django.contrib.gis.geos.collections",
+    "docstring": "\"\"\"\n This module houses the Geometry Collection objects:\n GeometryCollection, MultiPoint, MultiLineString, and MultiPolygon\n\"\"\"",
     "classes": [
         {
             "docstring": "",
             "name": "GeometryCollection",
-            "parent_name": "django.contrib.gis.geos.collections"
+            "namespace": "django.contrib.gis.geos.collections.GeometryCollection"
         },
         {
             "docstring": "",
             "name": "MultiPoint",
-            "parent_name": "django.contrib.gis.geos.collections"
+            "namespace": "django.contrib.gis.geos.collections.MultiPoint"
         },
         {
             "docstring": "",
             "name": "MultiLineString",
-            "parent_name": "django.contrib.gis.geos.collections"
+            "namespace": "django.contrib.gis.geos.collections.MultiLineString"
         },
         {
             "docstring": "",
             "name": "MultiPolygon",
-            "parent_name": "django.contrib.gis.geos.collections"
+            "namespace": "django.contrib.gis.geos.collections.MultiPolygon"
         }
     ]
 }

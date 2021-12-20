@@ -1,16 +1,16 @@
 {
-    "docstring": "",
     "namespace": "django.urls.exceptions",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "Resolver404",
-            "parent_name": "django.urls.exceptions"
+            "namespace": "django.urls.exceptions.Resolver404"
         },
         {
             "docstring": "",
             "name": "NoReverseMatch",
-            "parent_name": "django.urls.exceptions"
+            "namespace": "django.urls.exceptions.NoReverseMatch"
         }
     ]
 }

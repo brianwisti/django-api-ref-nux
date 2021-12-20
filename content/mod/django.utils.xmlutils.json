@@ -1,16 +1,16 @@
 {
-    "docstring": "\"\"\"\nUtilities for XML generation/parsing.\n\"\"\"",
     "namespace": "django.utils.xmlutils",
+    "docstring": "\"\"\"\nUtilities for XML generation/parsing.\n\"\"\"",
     "classes": [
         {
             "docstring": "",
             "name": "UnserializableContentError",
-            "parent_name": "django.utils.xmlutils"
+            "namespace": "django.utils.xmlutils.UnserializableContentError"
         },
         {
             "docstring": "",
             "name": "SimplerXMLGenerator",
-            "parent_name": "django.utils.xmlutils"
+            "namespace": "django.utils.xmlutils.SimplerXMLGenerator"
         }
     ]
 }

@@ -1,22 +1,11 @@
 {
     "name": "django.contrib.gis.serializers",
     "docstring": "",
+    "classes": [],
     "modules": [
         {
-            "docstring": "",
             "namespace": "django.contrib.gis.serializers.geojson",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    Convert a queryset to GeoJSON, http://geojson.org/\n    \"\"\"",
-                    "name": "Serializer",
-                    "parent_name": "django.contrib.gis.serializers.geojson"
-                },
-                {
-                    "docstring": "",
-                    "name": "Deserializer",
-                    "parent_name": "django.contrib.gis.serializers.geojson"
-                }
-            ]
+            "docstring": ""
         }
     ],
     "subpackages": []

@@ -1,11 +1,11 @@
 {
-    "docstring": "",
     "namespace": "django.contrib.postgres.forms.hstore",
+    "docstring": "",
     "classes": [
         {
             "docstring": "\"\"\"\n    A field for HStore data which accepts dictionary JSON input.\n    \"\"\"",
             "name": "HStoreField",
-            "parent_name": "django.contrib.postgres.forms.hstore"
+            "namespace": "django.contrib.postgres.forms.hstore.HStoreField"
         }
     ]
 }

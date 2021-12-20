@@ -1,17 +1,11 @@
 {
     "name": "django.dispatch",
     "docstring": "\"\"\"Multi-consumer multi-producer dispatching mechanism\n\nOriginally based on pydispatch (BSD) https://pypi.org/project/PyDispatcher/2.0.1/\nSee license.txt for original license.\n\nHeavily modified for Django's purposes.\n\"\"\"",
+    "classes": [],
     "modules": [
         {
-            "docstring": "",
             "namespace": "django.dispatch.dispatcher",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    Base class for all signals\n\n    Internal attributes:\n\n        receivers\n            { receiverkey (id) : weakref(receiver) }\n    \"\"\"",
-                    "name": "Signal",
-                    "parent_name": "django.dispatch.dispatcher"
-                }
-            ]
+            "docstring": ""
         }
     ],
     "subpackages": []

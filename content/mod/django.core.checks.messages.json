@@ -1,36 +1,36 @@
 {
-    "docstring": "",
     "namespace": "django.core.checks.messages",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "CheckMessage",
-            "parent_name": "django.core.checks.messages"
+            "namespace": "django.core.checks.messages.CheckMessage"
         },
         {
             "docstring": "",
             "name": "Debug",
-            "parent_name": "django.core.checks.messages"
+            "namespace": "django.core.checks.messages.Debug"
         },
         {
             "docstring": "",
             "name": "Info",
-            "parent_name": "django.core.checks.messages"
+            "namespace": "django.core.checks.messages.Info"
         },
         {
             "docstring": "",
             "name": "Warning",
-            "parent_name": "django.core.checks.messages"
+            "namespace": "django.core.checks.messages.Warning"
         },
         {
             "docstring": "",
             "name": "Error",
-            "parent_name": "django.core.checks.messages"
+            "namespace": "django.core.checks.messages.Error"
         },
         {
             "docstring": "",
             "name": "Critical",
-            "parent_name": "django.core.checks.messages"
+            "namespace": "django.core.checks.messages.Critical"
         }
     ]
 }

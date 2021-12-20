@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    Return the maximum expression.\n\n    If any expression is null the return value is database-specific:\n    On PostgreSQL, the maximum not-null expression is returned.\n    On MySQL, Oracle, and SQLite, if any expression is null, null is returned.\n    \"\"\"",
+    "name": "Greatest",
+    "namespace": "django.db.models.functions.comparison.Greatest",
+    "parent_namespace": "django.db.models.functions.comparison"
+}

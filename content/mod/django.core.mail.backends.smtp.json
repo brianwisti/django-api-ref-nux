@@ -1,11 +1,11 @@
 {
-    "docstring": "\"\"\"SMTP email backend class.\"\"\"",
     "namespace": "django.core.mail.backends.smtp",
+    "docstring": "\"\"\"SMTP email backend class.\"\"\"",
     "classes": [
         {
             "docstring": "\"\"\"\n    A wrapper that manages the SMTP network connection.\n    \"\"\"",
             "name": "EmailBackend",
-            "parent_name": "django.core.mail.backends.smtp"
+            "namespace": "django.core.mail.backends.smtp.EmailBackend"
         }
     ]
 }

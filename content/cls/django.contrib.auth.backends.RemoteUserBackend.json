@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    This backend is to be used in conjunction with the ``RemoteUserMiddleware``\n    found in the middleware module of this package, and is used when the server\n    is handling authentication outside of Django.\n\n    By default, the ``authenticate`` method creates ``User`` objects for\n    usernames that don't already exist in the database.  Subclasses can disable\n    this behavior by setting the ``create_unknown_user`` attribute to\n    ``False``.\n    \"\"\"",
+    "name": "RemoteUserBackend",
+    "namespace": "django.contrib.auth.backends.RemoteUserBackend",
+    "parent_namespace": "django.contrib.auth.backends"
+}

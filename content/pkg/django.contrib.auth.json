@@ -1,445 +1,79 @@
 {
     "name": "django.contrib.auth",
     "docstring": "",
+    "classes": [],
     "modules": [
         {
-            "docstring": "",
             "namespace": "django.contrib.auth.middleware",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "AuthenticationMiddleware",
-                    "parent_name": "django.contrib.auth.middleware"
-                },
-                {
-                    "docstring": "\"\"\"\n    Middleware for utilizing web-server-provided authentication.\n\n    If request.user is not authenticated, then this middleware attempts to\n    authenticate the username passed in the ``REMOTE_USER`` request header.\n    If authentication is successful, the user is automatically logged in to\n    persist the user in the session.\n\n    The header used is configurable and defaults to ``REMOTE_USER``.  Subclass\n    this class and change the ``header`` attribute if you need to use a\n    different header.\n    \"\"\"",
-                    "name": "RemoteUserMiddleware",
-                    "parent_name": "django.contrib.auth.middleware"
-                },
-                {
-                    "docstring": "\"\"\"\n    Middleware for web-server provided authentication on logon pages.\n\n    Like RemoteUserMiddleware but keeps the user authenticated even if\n    the header (``REMOTE_USER``) is not found in the request. Useful\n    for setups when the external authentication via ``REMOTE_USER``\n    is only expected to happen on some \"logon\" URL and the rest of\n    the application wants to use Django's authentication mechanism.\n    \"\"\"",
-                    "name": "PersistentRemoteUserMiddleware",
-                    "parent_name": "django.contrib.auth.middleware"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.auth.tokens",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    Strategy object used to generate and check tokens for the password\n    reset mechanism.\n    \"\"\"",
-                    "name": "PasswordResetTokenGenerator",
-                    "parent_name": "django.contrib.auth.tokens"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.auth.decorators",
-            "classes": []
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.auth.password_validation",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    Validate whether the password is of a minimum length.\n    \"\"\"",
-                    "name": "MinimumLengthValidator",
-                    "parent_name": "django.contrib.auth.password_validation"
-                },
-                {
-                    "docstring": "\"\"\"\n    Validate whether the password is sufficiently different from the user's\n    attributes.\n\n    If no specific attributes are provided, look at a sensible list of\n    defaults. Attributes that don't exist are ignored. Comparison is made to\n    not only the full attribute value, but also its components, so that, for\n    example, a password is validated against either part of an email address,\n    as well as the full address.\n    \"\"\"",
-                    "name": "UserAttributeSimilarityValidator",
-                    "parent_name": "django.contrib.auth.password_validation"
-                },
-                {
-                    "docstring": "\"\"\"\n    Validate whether the password is a common password.\n\n    The password is rejected if it occurs in a provided list of passwords,\n    which may be gzipped. The list Django ships with contains 20000 common\n    passwords (lowercased and deduplicated), created by Royce Williams:\n    https://gist.github.com/roycewilliams/281ce539915a947a23db17137d91aeb7\n    The password list must be lowercased to match the comparison in validate().\n    \"\"\"",
-                    "name": "CommonPasswordValidator",
-                    "parent_name": "django.contrib.auth.password_validation"
-                },
-                {
-                    "docstring": "\"\"\"\n    Validate whether the password is alphanumeric.\n    \"\"\"",
-                    "name": "NumericPasswordValidator",
-                    "parent_name": "django.contrib.auth.password_validation"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.auth.views",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "SuccessURLAllowedHostsMixin",
-                    "parent_name": "django.contrib.auth.views"
-                },
-                {
-                    "docstring": "\"\"\"\n    Display the login form and handle the login action.\n    \"\"\"",
-                    "name": "LoginView",
-                    "parent_name": "django.contrib.auth.views"
-                },
-                {
-                    "docstring": "\"\"\"\n    Log out the user and display the 'You are logged out' message.\n    \"\"\"",
-                    "name": "LogoutView",
-                    "parent_name": "django.contrib.auth.views"
-                },
-                {
-                    "docstring": "",
-                    "name": "PasswordContextMixin",
-                    "parent_name": "django.contrib.auth.views"
-                },
-                {
-                    "docstring": "",
-                    "name": "PasswordResetView",
-                    "parent_name": "django.contrib.auth.views"
-                },
-                {
-                    "docstring": "",
-                    "name": "PasswordResetDoneView",
-                    "parent_name": "django.contrib.auth.views"
-                },
-                {
-                    "docstring": "",
-                    "name": "PasswordResetConfirmView",
-                    "parent_name": "django.contrib.auth.views"
-                },
-                {
-                    "docstring": "",
-                    "name": "PasswordResetCompleteView",
-                    "parent_name": "django.contrib.auth.views"
-                },
-                {
-                    "docstring": "",
-                    "name": "PasswordChangeView",
-                    "parent_name": "django.contrib.auth.views"
-                },
-                {
-                    "docstring": "",
-                    "name": "PasswordChangeDoneView",
-                    "parent_name": "django.contrib.auth.views"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.auth.apps",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "AuthConfig",
-                    "parent_name": "django.contrib.auth.apps"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.auth.signals",
-            "classes": []
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.auth.urls",
-            "classes": []
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.auth.hashers",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    Abstract base class for password hashers\n\n    When creating your own hasher, you need to override algorithm,\n    verify(), encode() and safe_summary().\n\n    PasswordHasher objects are immutable.\n    \"\"\"",
-                    "name": "BasePasswordHasher",
-                    "parent_name": "django.contrib.auth.hashers"
-                },
-                {
-                    "docstring": "\"\"\"\n    Secure password hashing using the PBKDF2 algorithm (recommended)\n\n    Configured to use PBKDF2 + HMAC + SHA256.\n    The result is a 64 byte binary string.  Iterations may be changed\n    safely but you must rename the algorithm if you change SHA256.\n    \"\"\"",
-                    "name": "PBKDF2PasswordHasher",
-                    "parent_name": "django.contrib.auth.hashers"
-                },
-                {
-                    "docstring": "\"\"\"\n    Alternate PBKDF2 hasher which uses SHA1, the default PRF\n    recommended by PKCS #5. This is compatible with other\n    implementations of PBKDF2, such as openssl's\n    PKCS5_PBKDF2_HMAC_SHA1().\n    \"\"\"",
-                    "name": "PBKDF2SHA1PasswordHasher",
-                    "parent_name": "django.contrib.auth.hashers"
-                },
-                {
-                    "docstring": "\"\"\"\n    Secure password hashing using the argon2 algorithm.\n\n    This is the winner of the Password Hashing Competition 2013-2015\n    (https://password-hashing.net). It requires the argon2-cffi library which\n    depends on native C code and might cause portability issues.\n    \"\"\"",
-                    "name": "Argon2PasswordHasher",
-                    "parent_name": "django.contrib.auth.hashers"
-                },
-                {
-                    "docstring": "\"\"\"\n    Secure password hashing using the bcrypt algorithm (recommended)\n\n    This is considered by many to be the most secure algorithm but you\n    must first install the bcrypt library.  Please be warned that\n    this library depends on native C code and might cause portability\n    issues.\n    \"\"\"",
-                    "name": "BCryptSHA256PasswordHasher",
-                    "parent_name": "django.contrib.auth.hashers"
-                },
-                {
-                    "docstring": "\"\"\"\n    Secure password hashing using the bcrypt algorithm\n\n    This is considered by many to be the most secure algorithm but you\n    must first install the bcrypt library.  Please be warned that\n    this library depends on native C code and might cause portability\n    issues.\n\n    This hasher does not first hash the password which means it is subject to\n    bcrypt's 72 bytes password truncation. Most use cases should prefer the\n    BCryptSHA256PasswordHasher.\n    \"\"\"",
-                    "name": "BCryptPasswordHasher",
-                    "parent_name": "django.contrib.auth.hashers"
-                },
-                {
-                    "docstring": "\"\"\"\n    Secure password hashing using the Scrypt algorithm.\n    \"\"\"",
-                    "name": "ScryptPasswordHasher",
-                    "parent_name": "django.contrib.auth.hashers"
-                },
-                {
-                    "docstring": "\"\"\"\n    The SHA1 password hashing algorithm (not recommended)\n    \"\"\"",
-                    "name": "SHA1PasswordHasher",
-                    "parent_name": "django.contrib.auth.hashers"
-                },
-                {
-                    "docstring": "\"\"\"\n    The Salted MD5 password hashing algorithm (not recommended)\n    \"\"\"",
-                    "name": "MD5PasswordHasher",
-                    "parent_name": "django.contrib.auth.hashers"
-                },
-                {
-                    "docstring": "\"\"\"\n    Very insecure algorithm that you should *never* use; store SHA1 hashes\n    with an empty salt.\n\n    This class is implemented because Django used to accept such password\n    hashes. Some older Django installs still have these values lingering\n    around so we need to handle and upgrade them properly.\n    \"\"\"",
-                    "name": "UnsaltedSHA1PasswordHasher",
-                    "parent_name": "django.contrib.auth.hashers"
-                },
-                {
-                    "docstring": "\"\"\"\n    Incredibly insecure algorithm that you should *never* use; stores unsalted\n    MD5 hashes without the algorithm prefix, also accepts MD5 hashes with an\n    empty salt.\n\n    This class is implemented because Django used to store passwords this way\n    and to accept such password hashes. Some older Django installs still have\n    these values lingering around so we need to handle and upgrade them\n    properly.\n    \"\"\"",
-                    "name": "UnsaltedMD5PasswordHasher",
-                    "parent_name": "django.contrib.auth.hashers"
-                },
-                {
-                    "docstring": "\"\"\"\n    Password hashing using UNIX crypt (not recommended)\n\n    The crypt module is not supported on all platforms.\n    \"\"\"",
-                    "name": "CryptPasswordHasher",
-                    "parent_name": "django.contrib.auth.hashers"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.auth.admin",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "GroupAdmin",
-                    "parent_name": "django.contrib.auth.admin"
-                },
-                {
-                    "docstring": "",
-                    "name": "UserAdmin",
-                    "parent_name": "django.contrib.auth.admin"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.auth.backends",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "BaseBackend",
-                    "parent_name": "django.contrib.auth.backends"
-                },
-                {
-                    "docstring": "\"\"\"\n    Authenticates against settings.AUTH_USER_MODEL.\n    \"\"\"",
-                    "name": "ModelBackend",
-                    "parent_name": "django.contrib.auth.backends"
-                },
-                {
-                    "docstring": "",
-                    "name": "AllowAllUsersModelBackend",
-                    "parent_name": "django.contrib.auth.backends"
-                },
-                {
-                    "docstring": "\"\"\"\n    This backend is to be used in conjunction with the ``RemoteUserMiddleware``\n    found in the middleware module of this package, and is used when the server\n    is handling authentication outside of Django.\n\n    By default, the ``authenticate`` method creates ``User`` objects for\n    usernames that don't already exist in the database.  Subclasses can disable\n    this behavior by setting the ``create_unknown_user`` attribute to\n    ``False``.\n    \"\"\"",
-                    "name": "RemoteUserBackend",
-                    "parent_name": "django.contrib.auth.backends"
-                },
-                {
-                    "docstring": "",
-                    "name": "AllowAllUsersRemoteUserBackend",
-                    "parent_name": "django.contrib.auth.backends"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "\"\"\"\nThis module allows importing AbstractBaseUser even when django.contrib.auth is\nnot in INSTALLED_APPS.\n\"\"\"",
             "namespace": "django.contrib.auth.base_user",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "BaseUserManager",
-                    "parent_name": "django.contrib.auth.base_user"
-                },
-                {
-                    "docstring": "",
-                    "name": "AbstractBaseUser",
-                    "parent_name": "django.contrib.auth.base_user"
-                }
-            ]
+            "docstring": "\"\"\"\nThis module allows importing AbstractBaseUser even when django.contrib.auth is\nnot in INSTALLED_APPS.\n\"\"\""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.auth.forms",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "ReadOnlyPasswordHashWidget",
-                    "parent_name": "django.contrib.auth.forms"
-                },
-                {
-                    "docstring": "",
-                    "name": "ReadOnlyPasswordHashField",
-                    "parent_name": "django.contrib.auth.forms"
-                },
-                {
-                    "docstring": "",
-                    "name": "UsernameField",
-                    "parent_name": "django.contrib.auth.forms"
-                },
-                {
-                    "docstring": "\"\"\"\n    A form that creates a user, with no privileges, from the given username and\n    password.\n    \"\"\"",
-                    "name": "UserCreationForm",
-                    "parent_name": "django.contrib.auth.forms"
-                },
-                {
-                    "docstring": "",
-                    "name": "UserChangeForm",
-                    "parent_name": "django.contrib.auth.forms"
-                },
-                {
-                    "docstring": "\"\"\"\n    Base class for authenticating users. Extend this to get a form that accepts\n    username/password logins.\n    \"\"\"",
-                    "name": "AuthenticationForm",
-                    "parent_name": "django.contrib.auth.forms"
-                },
-                {
-                    "docstring": "",
-                    "name": "PasswordResetForm",
-                    "parent_name": "django.contrib.auth.forms"
-                },
-                {
-                    "docstring": "\"\"\"\n    A form that lets a user change set their password without entering the old\n    password\n    \"\"\"",
-                    "name": "SetPasswordForm",
-                    "parent_name": "django.contrib.auth.forms"
-                },
-                {
-                    "docstring": "\"\"\"\n    A form that lets a user change their password by entering their old\n    password.\n    \"\"\"",
-                    "name": "PasswordChangeForm",
-                    "parent_name": "django.contrib.auth.forms"
-                },
-                {
-                    "docstring": "\"\"\"\n    A form used to change the password of a user in the admin interface.\n    \"\"\"",
-                    "name": "AdminPasswordChangeForm",
-                    "parent_name": "django.contrib.auth.forms"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.auth.mixins",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    Abstract CBV mixin that gives access mixins the same customizable\n    functionality.\n    \"\"\"",
-                    "name": "AccessMixin",
-                    "parent_name": "django.contrib.auth.mixins"
-                },
-                {
-                    "docstring": "\"\"\"Verify that the current user is authenticated.\"\"\"",
-                    "name": "LoginRequiredMixin",
-                    "parent_name": "django.contrib.auth.mixins"
-                },
-                {
-                    "docstring": "\"\"\"Verify that the current user has all specified permissions.\"\"\"",
-                    "name": "PermissionRequiredMixin",
-                    "parent_name": "django.contrib.auth.mixins"
-                },
-                {
-                    "docstring": "\"\"\"\n    Deny a request with a permission error if the test_func() method returns\n    False.\n    \"\"\"",
-                    "name": "UserPassesTestMixin",
-                    "parent_name": "django.contrib.auth.mixins"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.auth.checks",
-            "classes": []
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.auth.validators",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "ASCIIUsernameValidator",
-                    "parent_name": "django.contrib.auth.validators"
-                },
-                {
-                    "docstring": "",
-                    "name": "UnicodeUsernameValidator",
-                    "parent_name": "django.contrib.auth.validators"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.auth.context_processors",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "PermLookupDict",
-                    "parent_name": "django.contrib.auth.context_processors"
-                },
-                {
-                    "docstring": "",
-                    "name": "PermWrapper",
-                    "parent_name": "django.contrib.auth.context_processors"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.auth.models",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "PermissionManager",
-                    "parent_name": "django.contrib.auth.models"
-                },
-                {
-                    "docstring": "\"\"\"\n    The permissions system provides a way to assign permissions to specific\n    users and groups of users.\n\n    The permission system is used by the Django admin site, but may also be\n    useful in your own code. The Django admin site uses permissions as follows:\n\n        - The \"add\" permission limits the user's ability to view the \"add\" form\n          and add an object.\n        - The \"change\" permission limits a user's ability to view the change\n          list, view the \"change\" form and change an object.\n        - The \"delete\" permission limits the ability to delete an object.\n        - The \"view\" permission limits the ability to view an object.\n\n    Permissions are set globally per type of object, not per specific object\n    instance. It is possible to say \"Mary may change news stories,\" but it's\n    not currently possible to say \"Mary may change news stories, but only the\n    ones she created herself\" or \"Mary may only change news stories that have a\n    certain status or publication date.\"\n\n    The permissions listed above are automatically created for each model.\n    \"\"\"",
-                    "name": "Permission",
-                    "parent_name": "django.contrib.auth.models"
-                },
-                {
-                    "docstring": "\"\"\"\n    The manager for the auth's Group model.\n    \"\"\"",
-                    "name": "GroupManager",
-                    "parent_name": "django.contrib.auth.models"
-                },
-                {
-                    "docstring": "\"\"\"\n    Groups are a generic way of categorizing users to apply permissions, or\n    some other label, to those users. A user can belong to any number of\n    groups.\n\n    A user in a group automatically has all the permissions granted to that\n    group. For example, if the group 'Site editors' has the permission\n    can_edit_home_page, any user in that group will have that permission.\n\n    Beyond permissions, groups are a convenient way to categorize users to\n    apply some label, or extended functionality, to them. For example, you\n    could create a group 'Special users', and you could write code that would\n    do special things to those users -- such as giving them access to a\n    members-only portion of your site, or sending them members-only email\n    messages.\n    \"\"\"",
-                    "name": "Group",
-                    "parent_name": "django.contrib.auth.models"
-                },
-                {
-                    "docstring": "",
-                    "name": "UserManager",
-                    "parent_name": "django.contrib.auth.models"
-                },
-                {
-                    "docstring": "\"\"\"\n    Add the fields and methods necessary to support the Group and Permission\n    models using the ModelBackend.\n    \"\"\"",
-                    "name": "PermissionsMixin",
-                    "parent_name": "django.contrib.auth.models"
-                },
-                {
-                    "docstring": "\"\"\"\n    An abstract base class implementing a fully featured User model with\n    admin-compliant permissions.\n\n    Username and password are required. Other fields are optional.\n    \"\"\"",
-                    "name": "AbstractUser",
-                    "parent_name": "django.contrib.auth.models"
-                },
-                {
-                    "docstring": "\"\"\"\n    Users within the Django authentication system are represented by this\n    model.\n\n    Username and password are required. Other fields are optional.\n    \"\"\"",
-                    "name": "User",
-                    "parent_name": "django.contrib.auth.models"
-                },
-                {
-                    "docstring": "",
-                    "name": "AnonymousUser",
-                    "parent_name": "django.contrib.auth.models"
-                }
-            ]
+            "docstring": ""
         }
     ],
     "subpackages": [

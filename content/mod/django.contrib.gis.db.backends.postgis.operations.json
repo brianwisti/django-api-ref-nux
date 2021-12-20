@@ -1,21 +1,21 @@
 {
-    "docstring": "",
     "namespace": "django.contrib.gis.db.backends.postgis.operations",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "PostGISOperator",
-            "parent_name": "django.contrib.gis.db.backends.postgis.operations"
+            "namespace": "django.contrib.gis.db.backends.postgis.operations.PostGISOperator"
         },
         {
             "docstring": "",
             "name": "ST_Polygon",
-            "parent_name": "django.contrib.gis.db.backends.postgis.operations"
+            "namespace": "django.contrib.gis.db.backends.postgis.operations.ST_Polygon"
         },
         {
             "docstring": "",
             "name": "PostGISOperations",
-            "parent_name": "django.contrib.gis.db.backends.postgis.operations"
+            "namespace": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations"
         }
     ]
 }

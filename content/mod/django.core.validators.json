@@ -1,61 +1,61 @@
 {
-    "docstring": "",
     "namespace": "django.core.validators",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "RegexValidator",
-            "parent_name": "django.core.validators"
+            "namespace": "django.core.validators.RegexValidator"
         },
         {
             "docstring": "",
             "name": "URLValidator",
-            "parent_name": "django.core.validators"
+            "namespace": "django.core.validators.URLValidator"
         },
         {
             "docstring": "",
             "name": "EmailValidator",
-            "parent_name": "django.core.validators"
+            "namespace": "django.core.validators.EmailValidator"
         },
         {
             "docstring": "",
             "name": "BaseValidator",
-            "parent_name": "django.core.validators"
+            "namespace": "django.core.validators.BaseValidator"
         },
         {
             "docstring": "",
             "name": "MaxValueValidator",
-            "parent_name": "django.core.validators"
+            "namespace": "django.core.validators.MaxValueValidator"
         },
         {
             "docstring": "",
             "name": "MinValueValidator",
-            "parent_name": "django.core.validators"
+            "namespace": "django.core.validators.MinValueValidator"
         },
         {
             "docstring": "",
             "name": "MinLengthValidator",
-            "parent_name": "django.core.validators"
+            "namespace": "django.core.validators.MinLengthValidator"
         },
         {
             "docstring": "",
             "name": "MaxLengthValidator",
-            "parent_name": "django.core.validators"
+            "namespace": "django.core.validators.MaxLengthValidator"
         },
         {
             "docstring": "\"\"\"\n    Validate that the input does not exceed the maximum number of digits\n    expected, otherwise raise ValidationError.\n    \"\"\"",
             "name": "DecimalValidator",
-            "parent_name": "django.core.validators"
+            "namespace": "django.core.validators.DecimalValidator"
         },
         {
             "docstring": "",
             "name": "FileExtensionValidator",
-            "parent_name": "django.core.validators"
+            "namespace": "django.core.validators.FileExtensionValidator"
         },
         {
             "docstring": "\"\"\"Validate that the string doesn't contain the null character.\"\"\"",
             "name": "ProhibitNullCharactersValidator",
-            "parent_name": "django.core.validators"
+            "namespace": "django.core.validators.ProhibitNullCharactersValidator"
         }
     ]
 }

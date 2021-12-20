@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    A class that can act as a client for testing purposes.\n\n    It allows the user to compose GET and POST requests, and\n    obtain the response that the server gave to those requests.\n    The server Response objects are annotated with the details\n    of the contexts and templates that were rendered during the\n    process of serving the request.\n\n    Client objects are stateful - they will retain cookie (and\n    thus session) details for the lifetime of the Client instance.\n\n    This is not intended as a replacement for Twill/Selenium or\n    the like - it is here to allow testing against the\n    contexts and templates produced by a view, rather than the\n    HTML rendered to the end-user.\n    \"\"\"",
+    "name": "Client",
+    "namespace": "django.test.client.Client",
+    "parent_namespace": "django.test.client"
+}

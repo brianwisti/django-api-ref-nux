@@ -1,46 +1,46 @@
 {
-    "docstring": "",
     "namespace": "django.contrib.postgres.aggregates.general",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "DeprecatedConvertValueMixin",
-            "parent_name": "django.contrib.postgres.aggregates.general"
+            "namespace": "django.contrib.postgres.aggregates.general.DeprecatedConvertValueMixin"
         },
         {
             "docstring": "",
             "name": "ArrayAgg",
-            "parent_name": "django.contrib.postgres.aggregates.general"
+            "namespace": "django.contrib.postgres.aggregates.general.ArrayAgg"
         },
         {
             "docstring": "",
             "name": "BitAnd",
-            "parent_name": "django.contrib.postgres.aggregates.general"
+            "namespace": "django.contrib.postgres.aggregates.general.BitAnd"
         },
         {
             "docstring": "",
             "name": "BitOr",
-            "parent_name": "django.contrib.postgres.aggregates.general"
+            "namespace": "django.contrib.postgres.aggregates.general.BitOr"
         },
         {
             "docstring": "",
             "name": "BoolAnd",
-            "parent_name": "django.contrib.postgres.aggregates.general"
+            "namespace": "django.contrib.postgres.aggregates.general.BoolAnd"
         },
         {
             "docstring": "",
             "name": "BoolOr",
-            "parent_name": "django.contrib.postgres.aggregates.general"
+            "namespace": "django.contrib.postgres.aggregates.general.BoolOr"
         },
         {
             "docstring": "",
             "name": "JSONBAgg",
-            "parent_name": "django.contrib.postgres.aggregates.general"
+            "namespace": "django.contrib.postgres.aggregates.general.JSONBAgg"
         },
         {
             "docstring": "",
             "name": "StringAgg",
-            "parent_name": "django.contrib.postgres.aggregates.general"
+            "namespace": "django.contrib.postgres.aggregates.general.StringAgg"
         }
     ]
 }

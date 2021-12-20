@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    The LazyStream wrapper allows one to get and \"unget\" bytes from a stream.\n\n    Given a producer object (an iterator that yields bytestrings), the\n    LazyStream object will support iteration, reading, and keeping a \"look-back\"\n    variable in case you need to \"unget\" some bytes.\n    \"\"\"",
+    "name": "LazyStream",
+    "namespace": "django.http.multipartparser.LazyStream",
+    "parent_namespace": "django.http.multipartparser"
+}

@@ -1,51 +1,51 @@
 {
-    "docstring": "",
     "namespace": "django.contrib.postgres.indexes",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "PostgresIndex",
-            "parent_name": "django.contrib.postgres.indexes"
+            "namespace": "django.contrib.postgres.indexes.PostgresIndex"
         },
         {
             "docstring": "",
             "name": "BloomIndex",
-            "parent_name": "django.contrib.postgres.indexes"
+            "namespace": "django.contrib.postgres.indexes.BloomIndex"
         },
         {
             "docstring": "",
             "name": "BrinIndex",
-            "parent_name": "django.contrib.postgres.indexes"
+            "namespace": "django.contrib.postgres.indexes.BrinIndex"
         },
         {
             "docstring": "",
             "name": "BTreeIndex",
-            "parent_name": "django.contrib.postgres.indexes"
+            "namespace": "django.contrib.postgres.indexes.BTreeIndex"
         },
         {
             "docstring": "",
             "name": "GinIndex",
-            "parent_name": "django.contrib.postgres.indexes"
+            "namespace": "django.contrib.postgres.indexes.GinIndex"
         },
         {
             "docstring": "",
             "name": "GistIndex",
-            "parent_name": "django.contrib.postgres.indexes"
+            "namespace": "django.contrib.postgres.indexes.GistIndex"
         },
         {
             "docstring": "",
             "name": "HashIndex",
-            "parent_name": "django.contrib.postgres.indexes"
+            "namespace": "django.contrib.postgres.indexes.HashIndex"
         },
         {
             "docstring": "",
             "name": "SpGistIndex",
-            "parent_name": "django.contrib.postgres.indexes"
+            "namespace": "django.contrib.postgres.indexes.SpGistIndex"
         },
         {
             "docstring": "",
             "name": "OpClass",
-            "parent_name": "django.contrib.postgres.indexes"
+            "namespace": "django.contrib.postgres.indexes.OpClass"
         }
     ]
 }

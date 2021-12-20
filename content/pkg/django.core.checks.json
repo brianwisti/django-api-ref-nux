@@ -1,98 +1,47 @@
 {
     "name": "django.core.checks",
     "docstring": "",
+    "classes": [],
     "modules": [
         {
-            "docstring": "",
             "namespace": "django.core.checks.database",
-            "classes": []
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.core.checks.templates",
-            "classes": []
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.core.checks.registry",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    Built-in tags for internal checks.\n    \"\"\"",
-                    "name": "Tags",
-                    "parent_name": "django.core.checks.registry"
-                },
-                {
-                    "docstring": "",
-                    "name": "CheckRegistry",
-                    "parent_name": "django.core.checks.registry"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.core.checks.urls",
-            "classes": []
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.core.checks.messages",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "CheckMessage",
-                    "parent_name": "django.core.checks.messages"
-                },
-                {
-                    "docstring": "",
-                    "name": "Debug",
-                    "parent_name": "django.core.checks.messages"
-                },
-                {
-                    "docstring": "",
-                    "name": "Info",
-                    "parent_name": "django.core.checks.messages"
-                },
-                {
-                    "docstring": "",
-                    "name": "Warning",
-                    "parent_name": "django.core.checks.messages"
-                },
-                {
-                    "docstring": "",
-                    "name": "Error",
-                    "parent_name": "django.core.checks.messages"
-                },
-                {
-                    "docstring": "",
-                    "name": "Critical",
-                    "parent_name": "django.core.checks.messages"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.core.checks.model_checks",
-            "classes": []
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.core.checks.files",
-            "classes": []
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.core.checks.translation",
-            "classes": []
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.core.checks.async_checks",
-            "classes": []
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.core.checks.caches",
-            "classes": []
+            "docstring": ""
         }
     ],
     "subpackages": [

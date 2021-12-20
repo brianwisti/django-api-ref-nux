@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    A rfc2388 multipart/form-data parser.\n\n    ``MultiValueDict.parse()`` reads the input stream in ``chunk_size`` chunks\n    and returns a tuple of ``(MultiValueDict(POST), MultiValueDict(FILES))``.\n    \"\"\"",
+    "name": "MultiPartParser",
+    "namespace": "django.http.multipartparser.MultiPartParser",
+    "parent_namespace": "django.http.multipartparser"
+}

@@ -1,94 +1,39 @@
 {
     "name": "django.db.backends.base",
     "docstring": "",
+    "classes": [],
     "modules": [
         {
-            "docstring": "",
             "namespace": "django.db.backends.base.creation",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    Encapsulate backend-specific differences pertaining to creation and\n    destruction of the test database.\n    \"\"\"",
-                    "name": "BaseDatabaseCreation",
-                    "parent_name": "django.db.backends.base.creation"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.db.backends.base.introspection",
-            "classes": [
-                {
-                    "docstring": "\"\"\"Encapsulate backend-specific introspection utilities.\"\"\"",
-                    "name": "BaseDatabaseIntrospection",
-                    "parent_name": "django.db.backends.base.introspection"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.db.backends.base.client",
-            "classes": [
-                {
-                    "docstring": "\"\"\"Encapsulate backend-specific methods for opening a client shell.\"\"\"",
-                    "name": "BaseDatabaseClient",
-                    "parent_name": "django.db.backends.base.client"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.db.backends.base.base",
-            "classes": [
-                {
-                    "docstring": "\"\"\"Represent a database connection.\"\"\"",
-                    "name": "BaseDatabaseWrapper",
-                    "parent_name": "django.db.backends.base.base"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.db.backends.base.operations",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    Encapsulate backend-specific differences, such as the way a backend\n    performs ordering or calculates the ID of a recently-inserted row.\n    \"\"\"",
-                    "name": "BaseDatabaseOperations",
-                    "parent_name": "django.db.backends.base.operations"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.db.backends.base.features",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "BaseDatabaseFeatures",
-                    "parent_name": "django.db.backends.base.features"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.db.backends.base.validation",
-            "classes": [
-                {
-                    "docstring": "\"\"\"Encapsulate backend-specific validation.\"\"\"",
-                    "name": "BaseDatabaseValidation",
-                    "parent_name": "django.db.backends.base.validation"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.db.backends.base.schema",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    This class and its subclasses are responsible for emitting schema-changing\n    statements to the databases - model creation/removal/alteration, field\n    renaming, index fiddling, and so on.\n    \"\"\"",
-                    "name": "BaseDatabaseSchemaEditor",
-                    "parent_name": "django.db.backends.base.schema"
-                }
-            ]
+            "docstring": ""
         }
     ],
     "subpackages": []

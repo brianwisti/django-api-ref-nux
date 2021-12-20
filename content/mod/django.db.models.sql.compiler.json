@@ -1,31 +1,31 @@
 {
-    "docstring": "",
     "namespace": "django.db.models.sql.compiler",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "SQLCompiler",
-            "parent_name": "django.db.models.sql.compiler"
+            "namespace": "django.db.models.sql.compiler.SQLCompiler"
         },
         {
             "docstring": "",
             "name": "SQLInsertCompiler",
-            "parent_name": "django.db.models.sql.compiler"
+            "namespace": "django.db.models.sql.compiler.SQLInsertCompiler"
         },
         {
             "docstring": "",
             "name": "SQLDeleteCompiler",
-            "parent_name": "django.db.models.sql.compiler"
+            "namespace": "django.db.models.sql.compiler.SQLDeleteCompiler"
         },
         {
             "docstring": "",
             "name": "SQLUpdateCompiler",
-            "parent_name": "django.db.models.sql.compiler"
+            "namespace": "django.db.models.sql.compiler.SQLUpdateCompiler"
         },
         {
             "docstring": "",
             "name": "SQLAggregateCompiler",
-            "parent_name": "django.db.models.sql.compiler"
+            "namespace": "django.db.models.sql.compiler.SQLAggregateCompiler"
         }
     ]
 }

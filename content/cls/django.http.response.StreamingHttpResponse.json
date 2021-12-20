@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    A streaming HTTP response class with an iterator as content.\n\n    This should only be iterated once, when the response is streamed to the\n    client. However, it can be appended to or replaced with a new iterator\n    that wraps the original content (or yields entirely new content).\n    \"\"\"",
+    "name": "StreamingHttpResponse",
+    "namespace": "django.http.response.StreamingHttpResponse",
+    "parent_namespace": "django.http.response"
+}

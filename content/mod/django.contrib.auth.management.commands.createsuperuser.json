@@ -1,16 +1,16 @@
 {
-    "docstring": "\"\"\"\nManagement utility to create superusers.\n\"\"\"",
     "namespace": "django.contrib.auth.management.commands.createsuperuser",
+    "docstring": "\"\"\"\nManagement utility to create superusers.\n\"\"\"",
     "classes": [
         {
             "docstring": "",
             "name": "NotRunningInTTYException",
-            "parent_name": "django.contrib.auth.management.commands.createsuperuser"
+            "namespace": "django.contrib.auth.management.commands.createsuperuser.NotRunningInTTYException"
         },
         {
             "docstring": "",
             "name": "Command",
-            "parent_name": "django.contrib.auth.management.commands.createsuperuser"
+            "namespace": "django.contrib.auth.management.commands.createsuperuser.Command"
         }
     ]
 }

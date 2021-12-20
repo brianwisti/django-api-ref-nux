@@ -1,26 +1,26 @@
 {
-    "docstring": "\"Memcached cache backend\"",
     "namespace": "django.core.cache.backends.memcached",
+    "docstring": "\"Memcached cache backend\"",
     "classes": [
         {
             "docstring": "",
             "name": "BaseMemcachedCache",
-            "parent_name": "django.core.cache.backends.memcached"
+            "namespace": "django.core.cache.backends.memcached.BaseMemcachedCache"
         },
         {
             "docstring": "\"An implementation of a cache binding using python-memcached\"",
             "name": "MemcachedCache",
-            "parent_name": "django.core.cache.backends.memcached"
+            "namespace": "django.core.cache.backends.memcached.MemcachedCache"
         },
         {
             "docstring": "\"An implementation of a cache binding using pylibmc\"",
             "name": "PyLibMCCache",
-            "parent_name": "django.core.cache.backends.memcached"
+            "namespace": "django.core.cache.backends.memcached.PyLibMCCache"
         },
         {
             "docstring": "\"\"\"An implementation of a cache binding using pymemcache.\"\"\"",
             "name": "PyMemcacheCache",
-            "parent_name": "django.core.cache.backends.memcached"
+            "namespace": "django.core.cache.backends.memcached.PyMemcacheCache"
         }
     ]
 }

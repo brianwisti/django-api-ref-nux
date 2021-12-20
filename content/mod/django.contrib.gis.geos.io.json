@@ -1,16 +1,16 @@
 {
-    "docstring": "\"\"\"\nModule that holds classes for performing I/O operations on GEOS geometry\nobjects.  Specifically, this has Python implementations of WKB/WKT\nreader and writer classes.\n\"\"\"",
     "namespace": "django.contrib.gis.geos.io",
+    "docstring": "\"\"\"\nModule that holds classes for performing I/O operations on GEOS geometry\nobjects.  Specifically, this has Python implementations of WKB/WKT\nreader and writer classes.\n\"\"\"",
     "classes": [
         {
             "docstring": "",
             "name": "WKBReader",
-            "parent_name": "django.contrib.gis.geos.io"
+            "namespace": "django.contrib.gis.geos.io.WKBReader"
         },
         {
             "docstring": "",
             "name": "WKTReader",
-            "parent_name": "django.contrib.gis.geos.io"
+            "namespace": "django.contrib.gis.geos.io.WKTReader"
         }
     ]
 }

@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    Similar to TransactionTestCase, but use `transaction.atomic()` to achieve\n    test isolation.\n\n    In most situations, TestCase should be preferred to TransactionTestCase as\n    it allows faster execution. However, there are some situations where using\n    TransactionTestCase might be necessary (e.g. testing some transactional\n    behavior).\n\n    On database backends with no transaction support, TestCase behaves as\n    TransactionTestCase.\n    \"\"\"",
+    "name": "TestCase",
+    "namespace": "django.test.testcases.TestCase",
+    "parent_namespace": "django.test.testcases"
+}

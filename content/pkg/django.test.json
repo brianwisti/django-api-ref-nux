@@ -1,312 +1,35 @@
 {
     "name": "django.test",
     "docstring": "\"\"\"Django Unit Test framework.\"\"\"",
+    "classes": [],
     "modules": [
         {
-            "docstring": "",
             "namespace": "django.test.selenium",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "SeleniumTestCaseBase",
-                    "parent_name": "django.test.selenium"
-                },
-                {
-                    "docstring": "",
-                    "name": "SeleniumTestCase",
-                    "parent_name": "django.test.selenium"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.test.client",
-            "classes": [
-                {
-                    "docstring": "\"\"\"The test client has been asked to follow a redirect loop.\"\"\"",
-                    "name": "RedirectCycleError",
-                    "parent_name": "django.test.client"
-                },
-                {
-                    "docstring": "\"\"\"\n    A wrapper around BytesIO that restricts what can be read since data from\n    the network can't be sought and cannot be read outside of its content\n    length. This makes sure that views can't do anything under the test client\n    that wouldn't work in real life.\n    \"\"\"",
-                    "name": "FakePayload",
-                    "parent_name": "django.test.client"
-                },
-                {
-                    "docstring": "\"\"\"\n    An HTTP Handler that can be used for testing purposes. Use the WSGI\n    interface to compose requests, but return the raw HttpResponse object with\n    the originating WSGIRequest attached to its ``wsgi_request`` attribute.\n    \"\"\"",
-                    "name": "ClientHandler",
-                    "parent_name": "django.test.client"
-                },
-                {
-                    "docstring": "\"\"\"An async version of ClientHandler.\"\"\"",
-                    "name": "AsyncClientHandler",
-                    "parent_name": "django.test.client"
-                },
-                {
-                    "docstring": "\"\"\"\n    Class that lets you create mock Request objects for use in testing.\n\n    Usage:\n\n    rf = RequestFactory()\n    get_request = rf.get('/hello/')\n    post_request = rf.post('/submit/', {'foo': 'bar'})\n\n    Once you have a request object you can pass it to any view function,\n    just as if that view had been hooked up using a URLconf.\n    \"\"\"",
-                    "name": "RequestFactory",
-                    "parent_name": "django.test.client"
-                },
-                {
-                    "docstring": "\"\"\"\n    Class that lets you create mock ASGI-like Request objects for use in\n    testing. Usage:\n\n    rf = AsyncRequestFactory()\n    get_request = await rf.get('/hello/')\n    post_request = await rf.post('/submit/', {'foo': 'bar'})\n\n    Once you have a request object you can pass it to any view function,\n    including synchronous ones. The reason we have a separate class here is:\n    a) this makes ASGIRequest subclasses, and\n    b) AsyncTestClient can subclass it.\n    \"\"\"",
-                    "name": "AsyncRequestFactory",
-                    "parent_name": "django.test.client"
-                },
-                {
-                    "docstring": "\"\"\"\n    Mixin with common methods between Client and AsyncClient.\n    \"\"\"",
-                    "name": "ClientMixin",
-                    "parent_name": "django.test.client"
-                },
-                {
-                    "docstring": "\"\"\"\n    A class that can act as a client for testing purposes.\n\n    It allows the user to compose GET and POST requests, and\n    obtain the response that the server gave to those requests.\n    The server Response objects are annotated with the details\n    of the contexts and templates that were rendered during the\n    process of serving the request.\n\n    Client objects are stateful - they will retain cookie (and\n    thus session) details for the lifetime of the Client instance.\n\n    This is not intended as a replacement for Twill/Selenium or\n    the like - it is here to allow testing against the\n    contexts and templates produced by a view, rather than the\n    HTML rendered to the end-user.\n    \"\"\"",
-                    "name": "Client",
-                    "parent_name": "django.test.client"
-                },
-                {
-                    "docstring": "\"\"\"\n    An async version of Client that creates ASGIRequests and calls through an\n    async request path.\n\n    Does not currently support \"follow\" on its methods.\n    \"\"\"",
-                    "name": "AsyncClient",
-                    "parent_name": "django.test.client"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.test.signals",
-            "classes": []
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.test.utils",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "Approximate",
-                    "parent_name": "django.test.utils"
-                },
-                {
-                    "docstring": "\"\"\"\n    A wrapper that provides direct key access to context items contained\n    in a list of context objects.\n    \"\"\"",
-                    "name": "ContextList",
-                    "parent_name": "django.test.utils"
-                },
-                {
-                    "docstring": "",
-                    "name": "_TestState",
-                    "parent_name": "django.test.utils"
-                },
-                {
-                    "docstring": "\"\"\"\n    A base class that can either be used as a context manager during tests\n    or as a test function or unittest.TestCase subclass decorator to perform\n    temporary alterations.\n\n    `attr_name`: attribute assigned the return value of enable() if used as\n                 a class decorator.\n\n    `kwarg_name`: keyword argument passing the return value of enable() if\n                  used as a function decorator.\n    \"\"\"",
-                    "name": "TestContextDecorator",
-                    "parent_name": "django.test.utils"
-                },
-                {
-                    "docstring": "\"\"\"\n    Act as either a decorator or a context manager. If it's a decorator, take a\n    function and return a wrapped function. If it's a contextmanager, use it\n    with the ``with`` statement. In either event, entering/exiting are called\n    before and after, respectively, the function/block is executed.\n    \"\"\"",
-                    "name": "override_settings",
-                    "parent_name": "django.test.utils"
-                },
-                {
-                    "docstring": "\"\"\"\n    Like override_settings, but makes it possible to append, prepend, or remove\n    items instead of redefining the entire list.\n    \"\"\"",
-                    "name": "modify_settings",
-                    "parent_name": "django.test.utils"
-                },
-                {
-                    "docstring": "\"\"\"\n    Act as a decorator. Override list of registered system checks.\n    Useful when you override `INSTALLED_APPS`, e.g. if you exclude `auth` app,\n    you also need to exclude its system checks.\n    \"\"\"",
-                    "name": "override_system_checks",
-                    "parent_name": "django.test.utils"
-                },
-                {
-                    "docstring": "\"\"\"\n    Context manager that captures queries executed by the specified connection.\n    \"\"\"",
-                    "name": "CaptureQueriesContext",
-                    "parent_name": "django.test.utils"
-                },
-                {
-                    "docstring": "",
-                    "name": "ignore_warnings",
-                    "parent_name": "django.test.utils"
-                },
-                {
-                    "docstring": "\"\"\"Decorator or context manager to temporary override the script prefix.\"\"\"",
-                    "name": "override_script_prefix",
-                    "parent_name": "django.test.utils"
-                },
-                {
-                    "docstring": "\"\"\"\n    Capture the output from the 'django' logger and store it on the class's\n    logger_output attribute.\n    \"\"\"",
-                    "name": "LoggingCaptureMixin",
-                    "parent_name": "django.test.utils"
-                },
-                {
-                    "docstring": "\"\"\"\n    Act as either a decorator or a context manager to register models defined\n    in its wrapped context to an isolated registry.\n\n    The list of installed apps the isolated registry should contain must be\n    passed as arguments.\n\n    Two optional keyword arguments can be specified:\n\n    `attr_name`: attribute assigned the isolated registry if used as a class\n                 decorator.\n\n    `kwarg_name`: keyword argument passing the isolated registry if used as a\n                  function decorator.\n    \"\"\"",
-                    "name": "isolate_apps",
-                    "parent_name": "django.test.utils"
-                },
-                {
-                    "docstring": "",
-                    "name": "TimeKeeper",
-                    "parent_name": "django.test.utils"
-                },
-                {
-                    "docstring": "",
-                    "name": "NullTimeKeeper",
-                    "parent_name": "django.test.utils"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.test.runner",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "DebugSQLTextTestResult",
-                    "parent_name": "django.test.runner"
-                },
-                {
-                    "docstring": "\"\"\"\n    Custom result class that triggers a PDB session when an error or failure\n    occurs.\n    \"\"\"",
-                    "name": "PDBDebugResult",
-                    "parent_name": "django.test.runner"
-                },
-                {
-                    "docstring": "\"\"\"\n    Dummy list class for faking storage of results in unittest.TestResult.\n    \"\"\"",
-                    "name": "DummyList",
-                    "parent_name": "django.test.runner"
-                },
-                {
-                    "docstring": "\"\"\"\n    Extend unittest.TestResult to record events in the child processes so they\n    can be replayed in the parent process. Events include things like which\n    tests succeeded or failed.\n    \"\"\"",
-                    "name": "RemoteTestResult",
-                    "parent_name": "django.test.runner"
-                },
-                {
-                    "docstring": "\"\"\"\n    Run tests and record everything but don't display anything.\n\n    The implementation matches the unpythonic coding style of unittest2.\n    \"\"\"",
-                    "name": "RemoteTestRunner",
-                    "parent_name": "django.test.runner"
-                },
-                {
-                    "docstring": "\"\"\"\n    Run a series of tests in parallel in several processes.\n\n    While the unittest module's documentation implies that orchestrating the\n    execution of tests is the responsibility of the test runner, in practice,\n    it appears that TestRunner classes are more concerned with formatting and\n    displaying test results.\n\n    Since there are fewer use cases for customizing TestSuite than TestRunner,\n    implementing parallelization at the level of the TestSuite improves\n    interoperability with existing custom test runners. A single instance of a\n    test runner can still collect results from all tests without being aware\n    that they have been run in parallel.\n    \"\"\"",
-                    "name": "ParallelTestSuite",
-                    "parent_name": "django.test.runner"
-                },
-                {
-                    "docstring": "\"\"\"\n    This class implements shuffling with a special consistency property.\n    Consistency means that, for a given seed and key function, if two sets of\n    items are shuffled, the resulting order will agree on the intersection of\n    the two sets. For example, if items are removed from an original set, the\n    shuffled order for the new set will be the shuffled order of the original\n    set restricted to the smaller set.\n    \"\"\"",
-                    "name": "Shuffler",
-                    "parent_name": "django.test.runner"
-                },
-                {
-                    "docstring": "\"\"\"A Django test runner that uses unittest2 test discovery.\"\"\"",
-                    "name": "DiscoverRunner",
-                    "parent_name": "django.test.runner"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.test.testcases",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "_AssertNumQueriesContext",
-                    "parent_name": "django.test.testcases"
-                },
-                {
-                    "docstring": "",
-                    "name": "_AssertTemplateUsedContext",
-                    "parent_name": "django.test.testcases"
-                },
-                {
-                    "docstring": "",
-                    "name": "_AssertTemplateNotUsedContext",
-                    "parent_name": "django.test.testcases"
-                },
-                {
-                    "docstring": "",
-                    "name": "_DatabaseFailure",
-                    "parent_name": "django.test.testcases"
-                },
-                {
-                    "docstring": "",
-                    "name": "SimpleTestCase",
-                    "parent_name": "django.test.testcases"
-                },
-                {
-                    "docstring": "",
-                    "name": "TransactionTestCase",
-                    "parent_name": "django.test.testcases"
-                },
-                {
-                    "docstring": "\"\"\"\n    Descriptor to provide TestCase instance isolation for attributes assigned\n    during the setUpTestData() phase.\n\n    Allow safe alteration of objects assigned in setUpTestData() by test\n    methods by exposing deep copies instead of the original objects.\n\n    Objects are deep copied using a memo kept on the test case instance in\n    order to maintain their original relationships.\n    \"\"\"",
-                    "name": "TestData",
-                    "parent_name": "django.test.testcases"
-                },
-                {
-                    "docstring": "\"\"\"\n    Similar to TransactionTestCase, but use `transaction.atomic()` to achieve\n    test isolation.\n\n    In most situations, TestCase should be preferred to TransactionTestCase as\n    it allows faster execution. However, there are some situations where using\n    TransactionTestCase might be necessary (e.g. testing some transactional\n    behavior).\n\n    On database backends with no transaction support, TestCase behaves as\n    TransactionTestCase.\n    \"\"\"",
-                    "name": "TestCase",
-                    "parent_name": "django.test.testcases"
-                },
-                {
-                    "docstring": "\"\"\"Descriptor class for deferred condition checking.\"\"\"",
-                    "name": "CheckCondition",
-                    "parent_name": "django.test.testcases"
-                },
-                {
-                    "docstring": "\"\"\"\n    A WSGIRequestHandler that doesn't log to standard output any of the\n    requests received, so as to not clutter the test result output.\n    \"\"\"",
-                    "name": "QuietWSGIRequestHandler",
-                    "parent_name": "django.test.testcases"
-                },
-                {
-                    "docstring": "\"\"\"\n    WSGI middleware that intercepts calls to a directory, as defined by one of\n    the *_ROOT settings, and serves those files, publishing them under *_URL.\n    \"\"\"",
-                    "name": "FSFilesHandler",
-                    "parent_name": "django.test.testcases"
-                },
-                {
-                    "docstring": "\"\"\"\n    Handler for serving static files. A private class that is meant to be used\n    solely as a convenience by LiveServerThread.\n    \"\"\"",
-                    "name": "_StaticFilesHandler",
-                    "parent_name": "django.test.testcases"
-                },
-                {
-                    "docstring": "\"\"\"\n    Handler for serving the media files. A private class that is meant to be\n    used solely as a convenience by LiveServerThread.\n    \"\"\"",
-                    "name": "_MediaFilesHandler",
-                    "parent_name": "django.test.testcases"
-                },
-                {
-                    "docstring": "\"\"\"Thread for running a live HTTP server while the tests are running.\"\"\"",
-                    "name": "LiveServerThread",
-                    "parent_name": "django.test.testcases"
-                },
-                {
-                    "docstring": "\"\"\"\n    Do basically the same as TransactionTestCase but also launch a live HTTP\n    server in a separate thread so that the tests may use another testing\n    framework, such as Selenium for example, instead of the built-in dummy\n    client.\n    It inherits from TransactionTestCase instead of TestCase because the\n    threads don't share the same transactions (unless if using in-memory sqlite)\n    and each thread needs to commit all their transactions so that the other\n    thread can see the changes.\n    \"\"\"",
-                    "name": "LiveServerTestCase",
-                    "parent_name": "django.test.testcases"
-                },
-                {
-                    "docstring": "\"\"\"\n    Enforce serialization of TestCases that share a common resource.\n\n    Define a common 'lockfile' for each set of TestCases to serialize. This\n    file must exist on the filesystem.\n\n    Place it early in the MRO in order to isolate setUpClass()/tearDownClass().\n    \"\"\"",
-                    "name": "SerializeMixin",
-                    "parent_name": "django.test.testcases"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "\"\"\"Compare two HTML documents.\"\"\"",
             "namespace": "django.test.html",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "Element",
-                    "parent_name": "django.test.html"
-                },
-                {
-                    "docstring": "",
-                    "name": "RootElement",
-                    "parent_name": "django.test.html"
-                },
-                {
-                    "docstring": "",
-                    "name": "HTMLParseError",
-                    "parent_name": "django.test.html"
-                },
-                {
-                    "docstring": "",
-                    "name": "Parser",
-                    "parent_name": "django.test.html"
-                }
-            ]
+            "docstring": "\"\"\"Compare two HTML documents.\"\"\""
         }
     ],
     "subpackages": []

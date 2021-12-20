@@ -1,82 +1,39 @@
 {
     "name": "django.contrib.flatpages",
     "docstring": "",
+    "classes": [],
     "modules": [
         {
-            "docstring": "",
             "namespace": "django.contrib.flatpages.middleware",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "FlatpageFallbackMiddleware",
-                    "parent_name": "django.contrib.flatpages.middleware"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.flatpages.views",
-            "classes": []
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.flatpages.apps",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "FlatPagesConfig",
-                    "parent_name": "django.contrib.flatpages.apps"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.flatpages.urls",
-            "classes": []
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.flatpages.sitemaps",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "FlatPageSitemap",
-                    "parent_name": "django.contrib.flatpages.sitemaps"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.flatpages.admin",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "FlatPageAdmin",
-                    "parent_name": "django.contrib.flatpages.admin"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.flatpages.forms",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "FlatpageForm",
-                    "parent_name": "django.contrib.flatpages.forms"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.flatpages.models",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "FlatPage",
-                    "parent_name": "django.contrib.flatpages.models"
-                }
-            ]
+            "docstring": ""
         }
     ],
     "subpackages": [

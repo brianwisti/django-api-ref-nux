@@ -1,61 +1,27 @@
 {
     "name": "django.template.loaders",
     "docstring": "",
+    "classes": [],
     "modules": [
         {
-            "docstring": "\"\"\"\nWrapper for loading templates from a plain Python dict.\n\"\"\"",
             "namespace": "django.template.loaders.locmem",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "Loader",
-                    "parent_name": "django.template.loaders.locmem"
-                }
-            ]
+            "docstring": "\"\"\"\nWrapper for loading templates from a plain Python dict.\n\"\"\""
         },
         {
-            "docstring": "",
             "namespace": "django.template.loaders.base",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "Loader",
-                    "parent_name": "django.template.loaders.base"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "\"\"\"\nWrapper for loading templates from \"templates\" directories in INSTALLED_APPS\npackages.\n\"\"\"",
             "namespace": "django.template.loaders.app_directories",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "Loader",
-                    "parent_name": "django.template.loaders.app_directories"
-                }
-            ]
+            "docstring": "\"\"\"\nWrapper for loading templates from \"templates\" directories in INSTALLED_APPS\npackages.\n\"\"\""
         },
         {
-            "docstring": "\"\"\"\nWrapper for loading templates from the filesystem.\n\"\"\"",
             "namespace": "django.template.loaders.filesystem",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "Loader",
-                    "parent_name": "django.template.loaders.filesystem"
-                }
-            ]
+            "docstring": "\"\"\"\nWrapper for loading templates from the filesystem.\n\"\"\""
         },
         {
-            "docstring": "\"\"\"\nWrapper class that takes a list of template loaders as an argument and attempts\nto load templates from them in order, caching the result.\n\"\"\"",
             "namespace": "django.template.loaders.cached",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "Loader",
-                    "parent_name": "django.template.loaders.cached"
-                }
-            ]
+            "docstring": "\"\"\"\nWrapper class that takes a list of template loaders as an argument and attempts\nto load templates from them in order, caching the result.\n\"\"\""
         }
     ],
     "subpackages": []

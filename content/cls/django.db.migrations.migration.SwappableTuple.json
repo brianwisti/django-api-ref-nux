@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    Subclass of tuple so Django can tell this was originally a swappable\n    dependency when it reads the migration file.\n    \"\"\"",
+    "name": "SwappableTuple",
+    "namespace": "django.db.migrations.migration.SwappableTuple",
+    "parent_namespace": "django.db.migrations.migration"
+}

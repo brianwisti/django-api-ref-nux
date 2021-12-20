@@ -1,66 +1,66 @@
 {
-    "docstring": "\"\"\"\nThe main QuerySet implementation. This provides the public API for the ORM.\n\"\"\"",
     "namespace": "django.db.models.query",
+    "docstring": "\"\"\"\nThe main QuerySet implementation. This provides the public API for the ORM.\n\"\"\"",
     "classes": [
         {
             "docstring": "",
             "name": "BaseIterable",
-            "parent_name": "django.db.models.query"
+            "namespace": "django.db.models.query.BaseIterable"
         },
         {
             "docstring": "\"\"\"Iterable that yields a model instance for each row.\"\"\"",
             "name": "ModelIterable",
-            "parent_name": "django.db.models.query"
+            "namespace": "django.db.models.query.ModelIterable"
         },
         {
             "docstring": "\"\"\"\n    Iterable returned by QuerySet.values() that yields a dict for each row.\n    \"\"\"",
             "name": "ValuesIterable",
-            "parent_name": "django.db.models.query"
+            "namespace": "django.db.models.query.ValuesIterable"
         },
         {
             "docstring": "\"\"\"\n    Iterable returned by QuerySet.values_list(flat=False) that yields a tuple\n    for each row.\n    \"\"\"",
             "name": "ValuesListIterable",
-            "parent_name": "django.db.models.query"
+            "namespace": "django.db.models.query.ValuesListIterable"
         },
         {
             "docstring": "\"\"\"\n    Iterable returned by QuerySet.values_list(named=True) that yields a\n    namedtuple for each row.\n    \"\"\"",
             "name": "NamedValuesListIterable",
-            "parent_name": "django.db.models.query"
+            "namespace": "django.db.models.query.NamedValuesListIterable"
         },
         {
             "docstring": "\"\"\"\n    Iterable returned by QuerySet.values_list(flat=True) that yields single\n    values.\n    \"\"\"",
             "name": "FlatValuesListIterable",
-            "parent_name": "django.db.models.query"
+            "namespace": "django.db.models.query.FlatValuesListIterable"
         },
         {
             "docstring": "\"\"\"Represent a lazy database lookup for a set of objects.\"\"\"",
             "name": "QuerySet",
-            "parent_name": "django.db.models.query"
+            "namespace": "django.db.models.query.QuerySet"
         },
         {
             "docstring": "",
             "name": "InstanceCheckMeta",
-            "parent_name": "django.db.models.query"
+            "namespace": "django.db.models.query.InstanceCheckMeta"
         },
         {
             "docstring": "\"\"\"\n    Marker class to checking if a queryset is empty by .none():\n        isinstance(qs.none(), EmptyQuerySet) -> True\n    \"\"\"",
             "name": "EmptyQuerySet",
-            "parent_name": "django.db.models.query"
+            "namespace": "django.db.models.query.EmptyQuerySet"
         },
         {
             "docstring": "\"\"\"\n    Provide an iterator which converts the results of raw SQL queries into\n    annotated model instances.\n    \"\"\"",
             "name": "RawQuerySet",
-            "parent_name": "django.db.models.query"
+            "namespace": "django.db.models.query.RawQuerySet"
         },
         {
             "docstring": "",
             "name": "Prefetch",
-            "parent_name": "django.db.models.query"
+            "namespace": "django.db.models.query.Prefetch"
         },
         {
             "docstring": "\"\"\"\n    RelatedPopulator is used for select_related() object instantiation.\n\n    The idea is that each select_related() model will be populated by a\n    different RelatedPopulator instance. The RelatedPopulator instances get\n    klass_info and select (computed in SQLCompiler) plus the used db as\n    input for initialization. That data is used to compute which columns\n    to use, how to instantiate the model, and how to populate the links\n    between the objects.\n\n    The actual creation of the objects is done in populate() method. This\n    method gets row and from_obj as input and populates the select_related()\n    model instance.\n    \"\"\"",
             "name": "RelatedPopulator",
-            "parent_name": "django.db.models.query"
+            "namespace": "django.db.models.query.RelatedPopulator"
         }
     ]
 }

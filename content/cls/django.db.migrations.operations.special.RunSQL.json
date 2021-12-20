@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    Run some raw SQL. A reverse SQL statement may be provided.\n\n    Also accept a list of operations that represent the state change effected\n    by this SQL change, in case it's custom column/table creation/deletion.\n    \"\"\"",
+    "name": "RunSQL",
+    "namespace": "django.db.migrations.operations.special.RunSQL",
+    "parent_namespace": "django.db.migrations.operations.special"
+}

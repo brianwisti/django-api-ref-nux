@@ -1,11 +1,11 @@
 {
-    "docstring": "\"\"\"\n This object provides quoting for GEOS geometries into PostgreSQL/PostGIS.\n\"\"\"",
     "namespace": "django.contrib.gis.db.backends.postgis.adapter",
+    "docstring": "\"\"\"\n This object provides quoting for GEOS geometries into PostgreSQL/PostGIS.\n\"\"\"",
     "classes": [
         {
             "docstring": "",
             "name": "PostGISAdapter",
-            "parent_name": "django.contrib.gis.db.backends.postgis.adapter"
+            "namespace": "django.contrib.gis.db.backends.postgis.adapter.PostGISAdapter"
         }
     ]
 }

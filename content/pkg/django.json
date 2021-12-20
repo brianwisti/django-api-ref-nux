@@ -1,11 +1,11 @@
 {
     "name": "django",
     "docstring": "",
+    "classes": [],
     "modules": [
         {
-            "docstring": "\"\"\"\nThis module collects helper functions and classes that \"span\" multiple levels\nof MVC. In other words, these functions/classes introduce controlled coupling\nfor convenience's sake.\n\"\"\"",
             "namespace": "django.shortcuts",
-            "classes": []
+            "docstring": "\"\"\"\nThis module collects helper functions and classes that \"span\" multiple levels\nof MVC. In other words, these functions/classes introduce controlled coupling\nfor convenience's sake.\n\"\"\""
         }
     ],
     "subpackages": [

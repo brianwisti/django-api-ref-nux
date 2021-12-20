@@ -1,146 +1,146 @@
 {
-    "docstring": "",
     "namespace": "django.db.models.functions.text",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "MySQLSHA2Mixin",
-            "parent_name": "django.db.models.functions.text"
+            "namespace": "django.db.models.functions.text.MySQLSHA2Mixin"
         },
         {
             "docstring": "",
             "name": "OracleHashMixin",
-            "parent_name": "django.db.models.functions.text"
+            "namespace": "django.db.models.functions.text.OracleHashMixin"
         },
         {
             "docstring": "",
             "name": "PostgreSQLSHAMixin",
-            "parent_name": "django.db.models.functions.text"
+            "namespace": "django.db.models.functions.text.PostgreSQLSHAMixin"
         },
         {
             "docstring": "",
             "name": "Chr",
-            "parent_name": "django.db.models.functions.text"
+            "namespace": "django.db.models.functions.text.Chr"
         },
         {
             "docstring": "\"\"\"\n    Concatenate two arguments together. This is used by `Concat` because not\n    all backend databases support more than two arguments.\n    \"\"\"",
             "name": "ConcatPair",
-            "parent_name": "django.db.models.functions.text"
+            "namespace": "django.db.models.functions.text.ConcatPair"
         },
         {
             "docstring": "\"\"\"\n    Concatenate text fields together. Backends that result in an entire\n    null expression when any arguments are null will wrap each argument in\n    coalesce functions to ensure a non-null result.\n    \"\"\"",
             "name": "Concat",
-            "parent_name": "django.db.models.functions.text"
+            "namespace": "django.db.models.functions.text.Concat"
         },
         {
             "docstring": "",
             "name": "Left",
-            "parent_name": "django.db.models.functions.text"
+            "namespace": "django.db.models.functions.text.Left"
         },
         {
             "docstring": "\"\"\"Return the number of characters in the expression.\"\"\"",
             "name": "Length",
-            "parent_name": "django.db.models.functions.text"
+            "namespace": "django.db.models.functions.text.Length"
         },
         {
             "docstring": "",
             "name": "Lower",
-            "parent_name": "django.db.models.functions.text"
+            "namespace": "django.db.models.functions.text.Lower"
         },
         {
             "docstring": "",
             "name": "LPad",
-            "parent_name": "django.db.models.functions.text"
+            "namespace": "django.db.models.functions.text.LPad"
         },
         {
             "docstring": "",
             "name": "LTrim",
-            "parent_name": "django.db.models.functions.text"
+            "namespace": "django.db.models.functions.text.LTrim"
         },
         {
             "docstring": "",
             "name": "MD5",
-            "parent_name": "django.db.models.functions.text"
+            "namespace": "django.db.models.functions.text.MD5"
         },
         {
             "docstring": "",
             "name": "Ord",
-            "parent_name": "django.db.models.functions.text"
+            "namespace": "django.db.models.functions.text.Ord"
         },
         {
             "docstring": "",
             "name": "Repeat",
-            "parent_name": "django.db.models.functions.text"
+            "namespace": "django.db.models.functions.text.Repeat"
         },
         {
             "docstring": "",
             "name": "Replace",
-            "parent_name": "django.db.models.functions.text"
+            "namespace": "django.db.models.functions.text.Replace"
         },
         {
             "docstring": "",
             "name": "Reverse",
-            "parent_name": "django.db.models.functions.text"
+            "namespace": "django.db.models.functions.text.Reverse"
         },
         {
             "docstring": "",
             "name": "Right",
-            "parent_name": "django.db.models.functions.text"
+            "namespace": "django.db.models.functions.text.Right"
         },
         {
             "docstring": "",
             "name": "RPad",
-            "parent_name": "django.db.models.functions.text"
+            "namespace": "django.db.models.functions.text.RPad"
         },
         {
             "docstring": "",
             "name": "RTrim",
-            "parent_name": "django.db.models.functions.text"
+            "namespace": "django.db.models.functions.text.RTrim"
         },
         {
             "docstring": "",
             "name": "SHA1",
-            "parent_name": "django.db.models.functions.text"
+            "namespace": "django.db.models.functions.text.SHA1"
         },
         {
             "docstring": "",
             "name": "SHA224",
-            "parent_name": "django.db.models.functions.text"
+            "namespace": "django.db.models.functions.text.SHA224"
         },
         {
             "docstring": "",
             "name": "SHA256",
-            "parent_name": "django.db.models.functions.text"
+            "namespace": "django.db.models.functions.text.SHA256"
         },
         {
             "docstring": "",
             "name": "SHA384",
-            "parent_name": "django.db.models.functions.text"
+            "namespace": "django.db.models.functions.text.SHA384"
         },
         {
             "docstring": "",
             "name": "SHA512",
-            "parent_name": "django.db.models.functions.text"
+            "namespace": "django.db.models.functions.text.SHA512"
         },
         {
             "docstring": "\"\"\"\n    Return a positive integer corresponding to the 1-indexed position of the\n    first occurrence of a substring inside another string, or 0 if the\n    substring is not found.\n    \"\"\"",
             "name": "StrIndex",
-            "parent_name": "django.db.models.functions.text"
+            "namespace": "django.db.models.functions.text.StrIndex"
         },
         {
             "docstring": "",
             "name": "Substr",
-            "parent_name": "django.db.models.functions.text"
+            "namespace": "django.db.models.functions.text.Substr"
         },
         {
             "docstring": "",
             "name": "Trim",
-            "parent_name": "django.db.models.functions.text"
+            "namespace": "django.db.models.functions.text.Trim"
         },
         {
             "docstring": "",
             "name": "Upper",
-            "parent_name": "django.db.models.functions.text"
+            "namespace": "django.db.models.functions.text.Upper"
         }
     ]
 }

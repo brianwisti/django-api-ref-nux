@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    Django provides full support for anonymous sessions. The session\n    framework lets you store and retrieve arbitrary data on a\n    per-site-visitor basis. It stores data on the server side and\n    abstracts the sending and receiving of cookies. Cookies contain a\n    session ID -- not the data itself.\n\n    The Django sessions framework is entirely cookie-based. It does\n    not fall back to putting session IDs in URLs. This is an intentional\n    design decision. Not only does that behavior make URLs ugly, it makes\n    your site vulnerable to session-ID theft via the \"Referer\" header.\n\n    For complete documentation on using Sessions in your code, consult\n    the sessions documentation that is shipped with Django (also available\n    on the Django web site).\n    \"\"\"",
+    "name": "Session",
+    "namespace": "django.contrib.sessions.models.Session",
+    "parent_namespace": "django.contrib.sessions.models"
+}

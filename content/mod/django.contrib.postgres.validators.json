@@ -1,31 +1,31 @@
 {
-    "docstring": "",
     "namespace": "django.contrib.postgres.validators",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "ArrayMaxLengthValidator",
-            "parent_name": "django.contrib.postgres.validators"
+            "namespace": "django.contrib.postgres.validators.ArrayMaxLengthValidator"
         },
         {
             "docstring": "",
             "name": "ArrayMinLengthValidator",
-            "parent_name": "django.contrib.postgres.validators"
+            "namespace": "django.contrib.postgres.validators.ArrayMinLengthValidator"
         },
         {
             "docstring": "\"\"\"A validator designed for HStore to require/restrict keys.\"\"\"",
             "name": "KeysValidator",
-            "parent_name": "django.contrib.postgres.validators"
+            "namespace": "django.contrib.postgres.validators.KeysValidator"
         },
         {
             "docstring": "",
             "name": "RangeMaxValueValidator",
-            "parent_name": "django.contrib.postgres.validators"
+            "namespace": "django.contrib.postgres.validators.RangeMaxValueValidator"
         },
         {
             "docstring": "",
             "name": "RangeMinValueValidator",
-            "parent_name": "django.contrib.postgres.validators"
+            "namespace": "django.contrib.postgres.validators.RangeMinValueValidator"
         }
     ]
 }

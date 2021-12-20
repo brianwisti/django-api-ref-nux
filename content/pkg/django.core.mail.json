@@ -1,58 +1,15 @@
 {
     "name": "django.core.mail",
     "docstring": "\"\"\"\nTools for sending email.\n\"\"\"",
+    "classes": [],
     "modules": [
         {
-            "docstring": "",
             "namespace": "django.core.mail.message",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "BadHeaderError",
-                    "parent_name": "django.core.mail.message"
-                },
-                {
-                    "docstring": "",
-                    "name": "MIMEMixin",
-                    "parent_name": "django.core.mail.message"
-                },
-                {
-                    "docstring": "",
-                    "name": "SafeMIMEMessage",
-                    "parent_name": "django.core.mail.message"
-                },
-                {
-                    "docstring": "",
-                    "name": "SafeMIMEText",
-                    "parent_name": "django.core.mail.message"
-                },
-                {
-                    "docstring": "",
-                    "name": "SafeMIMEMultipart",
-                    "parent_name": "django.core.mail.message"
-                },
-                {
-                    "docstring": "\"\"\"A container for email information.\"\"\"",
-                    "name": "EmailMessage",
-                    "parent_name": "django.core.mail.message"
-                },
-                {
-                    "docstring": "\"\"\"\n    A version of EmailMessage that makes it easy to send multipart/alternative\n    messages. For example, including text and HTML versions of the text is\n    made easier.\n    \"\"\"",
-                    "name": "EmailMultiAlternatives",
-                    "parent_name": "django.core.mail.message"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "\"\"\"\nEmail message and email sending related helper functions.\n\"\"\"",
             "namespace": "django.core.mail.utils",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "CachedDnsName",
-                    "parent_name": "django.core.mail.utils"
-                }
-            ]
+            "docstring": "\"\"\"\nEmail message and email sending related helper functions.\n\"\"\""
         }
     ],
     "subpackages": [

@@ -1,121 +1,121 @@
 {
-    "docstring": "\"\"\"Default tags used by the template system, available to all templates.\"\"\"",
     "namespace": "django.template.defaulttags",
+    "docstring": "\"\"\"Default tags used by the template system, available to all templates.\"\"\"",
     "classes": [
         {
             "docstring": "\"\"\"Implement the actions of the autoescape tag.\"\"\"",
             "name": "AutoEscapeControlNode",
-            "parent_name": "django.template.defaulttags"
+            "namespace": "django.template.defaulttags.AutoEscapeControlNode"
         },
         {
             "docstring": "",
             "name": "CommentNode",
-            "parent_name": "django.template.defaulttags"
+            "namespace": "django.template.defaulttags.CommentNode"
         },
         {
             "docstring": "",
             "name": "CsrfTokenNode",
-            "parent_name": "django.template.defaulttags"
+            "namespace": "django.template.defaulttags.CsrfTokenNode"
         },
         {
             "docstring": "",
             "name": "CycleNode",
-            "parent_name": "django.template.defaulttags"
+            "namespace": "django.template.defaulttags.CycleNode"
         },
         {
             "docstring": "",
             "name": "DebugNode",
-            "parent_name": "django.template.defaulttags"
+            "namespace": "django.template.defaulttags.DebugNode"
         },
         {
             "docstring": "",
             "name": "FilterNode",
-            "parent_name": "django.template.defaulttags"
+            "namespace": "django.template.defaulttags.FilterNode"
         },
         {
             "docstring": "",
             "name": "FirstOfNode",
-            "parent_name": "django.template.defaulttags"
+            "namespace": "django.template.defaulttags.FirstOfNode"
         },
         {
             "docstring": "",
             "name": "ForNode",
-            "parent_name": "django.template.defaulttags"
+            "namespace": "django.template.defaulttags.ForNode"
         },
         {
             "docstring": "",
             "name": "IfChangedNode",
-            "parent_name": "django.template.defaulttags"
+            "namespace": "django.template.defaulttags.IfChangedNode"
         },
         {
             "docstring": "",
             "name": "IfNode",
-            "parent_name": "django.template.defaulttags"
+            "namespace": "django.template.defaulttags.IfNode"
         },
         {
             "docstring": "",
             "name": "LoremNode",
-            "parent_name": "django.template.defaulttags"
+            "namespace": "django.template.defaulttags.LoremNode"
         },
         {
             "docstring": "",
             "name": "RegroupNode",
-            "parent_name": "django.template.defaulttags"
+            "namespace": "django.template.defaulttags.RegroupNode"
         },
         {
             "docstring": "",
             "name": "LoadNode",
-            "parent_name": "django.template.defaulttags"
+            "namespace": "django.template.defaulttags.LoadNode"
         },
         {
             "docstring": "",
             "name": "NowNode",
-            "parent_name": "django.template.defaulttags"
+            "namespace": "django.template.defaulttags.NowNode"
         },
         {
             "docstring": "",
             "name": "ResetCycleNode",
-            "parent_name": "django.template.defaulttags"
+            "namespace": "django.template.defaulttags.ResetCycleNode"
         },
         {
             "docstring": "",
             "name": "SpacelessNode",
-            "parent_name": "django.template.defaulttags"
+            "namespace": "django.template.defaulttags.SpacelessNode"
         },
         {
             "docstring": "",
             "name": "TemplateTagNode",
-            "parent_name": "django.template.defaulttags"
+            "namespace": "django.template.defaulttags.TemplateTagNode"
         },
         {
             "docstring": "",
             "name": "URLNode",
-            "parent_name": "django.template.defaulttags"
+            "namespace": "django.template.defaulttags.URLNode"
         },
         {
             "docstring": "",
             "name": "VerbatimNode",
-            "parent_name": "django.template.defaulttags"
+            "namespace": "django.template.defaulttags.VerbatimNode"
         },
         {
             "docstring": "",
             "name": "WidthRatioNode",
-            "parent_name": "django.template.defaulttags"
+            "namespace": "django.template.defaulttags.WidthRatioNode"
         },
         {
             "docstring": "",
             "name": "WithNode",
-            "parent_name": "django.template.defaulttags"
+            "namespace": "django.template.defaulttags.WithNode"
         },
         {
             "docstring": "",
             "name": "TemplateLiteral",
-            "parent_name": "django.template.defaulttags"
+            "namespace": "django.template.defaulttags.TemplateLiteral"
         },
         {
             "docstring": "",
             "name": "TemplateIfParser",
-            "parent_name": "django.template.defaulttags"
+            "namespace": "django.template.defaulttags.TemplateIfParser"
         }
     ]
 }

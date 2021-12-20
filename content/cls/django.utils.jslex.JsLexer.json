@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    A JavaScript lexer\n\n    >>> lexer = JsLexer()\n    >>> list(lexer.lex(\"a = 1\"))\n    [('id', 'a'), ('ws', ' '), ('punct', '='), ('ws', ' '), ('dnum', '1')]\n\n    This doesn't properly handle non-ASCII characters in the JavaScript source.\n    \"\"\"",
+    "name": "JsLexer",
+    "namespace": "django.utils.jslex.JsLexer",
+    "parent_namespace": "django.utils.jslex"
+}

@@ -1,95 +1,35 @@
 {
     "name": "django.contrib.gis",
     "docstring": "",
+    "classes": [],
     "modules": [
         {
-            "docstring": "\"\"\"\nDistance and Area objects to allow for sensible and convenient calculation\nand conversions.\n\nAuthors: Robert Coup, Justin Bronn, Riccardo Di Virgilio\n\nInspired by GeoPy (https://github.com/geopy/geopy)\nand Geoff Biggs' PhD work on dimensioned units for robotics.\n\"\"\"",
             "namespace": "django.contrib.gis.measure",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "MeasureBase",
-                    "parent_name": "django.contrib.gis.measure"
-                },
-                {
-                    "docstring": "",
-                    "name": "Distance",
-                    "parent_name": "django.contrib.gis.measure"
-                },
-                {
-                    "docstring": "",
-                    "name": "Area",
-                    "parent_name": "django.contrib.gis.measure"
-                }
-            ]
+            "docstring": "\"\"\"\nDistance and Area objects to allow for sensible and convenient calculation\nand conversions.\n\nAuthors: Robert Coup, Justin Bronn, Riccardo Di Virgilio\n\nInspired by GeoPy (https://github.com/geopy/geopy)\nand Geoff Biggs' PhD work on dimensioned units for robotics.\n\"\"\""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.gis.feeds",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    This mixin provides the necessary routines for SyndicationFeed subclasses\n    to produce simple GeoRSS or W3C Geo elements.\n    \"\"\"",
-                    "name": "GeoFeedMixin",
-                    "parent_name": "django.contrib.gis.feeds"
-                },
-                {
-                    "docstring": "",
-                    "name": "GeoRSSFeed",
-                    "parent_name": "django.contrib.gis.feeds"
-                },
-                {
-                    "docstring": "",
-                    "name": "GeoAtom1Feed",
-                    "parent_name": "django.contrib.gis.feeds"
-                },
-                {
-                    "docstring": "",
-                    "name": "W3CGeoFeed",
-                    "parent_name": "django.contrib.gis.feeds"
-                },
-                {
-                    "docstring": "\"\"\"\n    This is a subclass of the `Feed` from `django.contrib.syndication`.\n    This allows users to define a `geometry(obj)` and/or `item_geometry(item)`\n    methods on their own subclasses so that geo-referenced information may\n    placed in the feed.\n    \"\"\"",
-                    "name": "Feed",
-                    "parent_name": "django.contrib.gis.feeds"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.gis.ptr",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    Base class for objects that have a pointer access property\n    that controls access to the underlying C pointer.\n    \"\"\"",
-                    "name": "CPointerBase",
-                    "parent_name": "django.contrib.gis.ptr"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.gis.geometry",
-            "classes": []
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.gis.views",
-            "classes": []
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.gis.apps",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "GISConfig",
-                    "parent_name": "django.contrib.gis.apps"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.gis.shortcuts",
-            "classes": []
+            "docstring": ""
         }
     ],
     "subpackages": [

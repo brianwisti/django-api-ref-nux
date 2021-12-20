@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    RegisterLookupMixin() is first so that get_lookup() and get_transform()\n    first examine self and then check output_field.\n    \"\"\"",
+    "name": "Transform",
+    "namespace": "django.db.models.lookups.Transform",
+    "parent_namespace": "django.db.models.lookups"
+}

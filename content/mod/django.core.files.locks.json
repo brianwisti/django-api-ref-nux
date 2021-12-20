@@ -1,21 +1,21 @@
 {
-    "docstring": "\"\"\"\nPortable file locking utilities.\n\nBased partially on an example by Jonathan Feignberg in the Python\nCookbook [1] (licensed under the Python Software License) and a ctypes port by\nAnatoly Techtonik for Roundup [2] (license [3]).\n\n[1] http://aspn.activestate.com/ASPN/Cookbook/Python/Recipe/65203\n[2] https://sourceforge.net/p/roundup/code/ci/default/tree/roundup/backends/portalocker.py\n[3] https://sourceforge.net/p/roundup/code/ci/default/tree/COPYING.txt\n\nExample Usage::\n\n    >>> from django.core.files import locks\n    >>> with open('./file', 'wb') as f:\n    ...     locks.lock(f, locks.LOCK_EX)\n    ...     f.write('Django')\n\"\"\"",
     "namespace": "django.core.files.locks",
+    "docstring": "\"\"\"\nPortable file locking utilities.\n\nBased partially on an example by Jonathan Feignberg in the Python\nCookbook [1] (licensed under the Python Software License) and a ctypes port by\nAnatoly Techtonik for Roundup [2] (license [3]).\n\n[1] http://aspn.activestate.com/ASPN/Cookbook/Python/Recipe/65203\n[2] https://sourceforge.net/p/roundup/code/ci/default/tree/roundup/backends/portalocker.py\n[3] https://sourceforge.net/p/roundup/code/ci/default/tree/COPYING.txt\n\nExample Usage::\n\n    >>> from django.core.files import locks\n    >>> with open('./file', 'wb') as f:\n    ...     locks.lock(f, locks.LOCK_EX)\n    ...     f.write('Django')\n\"\"\"",
     "classes": [
         {
             "docstring": "",
             "name": "_OFFSET",
-            "parent_name": "django.core.files.locks"
+            "namespace": "django.core.files.locks._OFFSET"
         },
         {
             "docstring": "",
             "name": "_OFFSET_UNION",
-            "parent_name": "django.core.files.locks"
+            "namespace": "django.core.files.locks._OFFSET_UNION"
         },
         {
             "docstring": "",
             "name": "OVERLAPPED",
-            "parent_name": "django.core.files.locks"
+            "namespace": "django.core.files.locks.OVERLAPPED"
         }
     ]
 }

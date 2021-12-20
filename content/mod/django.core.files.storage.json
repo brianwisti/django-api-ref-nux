@@ -1,21 +1,21 @@
 {
-    "docstring": "",
     "namespace": "django.core.files.storage",
+    "docstring": "",
     "classes": [
         {
             "docstring": "\"\"\"\n    A base storage class, providing some default behaviors that all other\n    storage systems can inherit or override, as necessary.\n    \"\"\"",
             "name": "Storage",
-            "parent_name": "django.core.files.storage"
+            "namespace": "django.core.files.storage.Storage"
         },
         {
             "docstring": "\"\"\"\n    Standard filesystem storage\n    \"\"\"",
             "name": "FileSystemStorage",
-            "parent_name": "django.core.files.storage"
+            "namespace": "django.core.files.storage.FileSystemStorage"
         },
         {
             "docstring": "",
             "name": "DefaultStorage",
-            "parent_name": "django.core.files.storage"
+            "namespace": "django.core.files.storage.DefaultStorage"
         }
     ]
 }

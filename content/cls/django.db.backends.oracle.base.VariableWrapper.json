@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    An adapter class for cursor variables that prevents the wrapped object\n    from being converted into a string when used to instantiate an OracleParam.\n    This can be used generally for any other object that should be passed into\n    Cursor.execute as-is.\n    \"\"\"",
+    "name": "VariableWrapper",
+    "namespace": "django.db.backends.oracle.base.VariableWrapper",
+    "parent_namespace": "django.db.backends.oracle.base"
+}

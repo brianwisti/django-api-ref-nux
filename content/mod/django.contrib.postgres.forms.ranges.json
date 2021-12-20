@@ -1,41 +1,41 @@
 {
-    "docstring": "",
     "namespace": "django.contrib.postgres.forms.ranges",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "RangeWidget",
-            "parent_name": "django.contrib.postgres.forms.ranges"
+            "namespace": "django.contrib.postgres.forms.ranges.RangeWidget"
         },
         {
             "docstring": "\"\"\"A widget that splits input into two <input type=\"hidden\"> inputs.\"\"\"",
             "name": "HiddenRangeWidget",
-            "parent_name": "django.contrib.postgres.forms.ranges"
+            "namespace": "django.contrib.postgres.forms.ranges.HiddenRangeWidget"
         },
         {
             "docstring": "",
             "name": "BaseRangeField",
-            "parent_name": "django.contrib.postgres.forms.ranges"
+            "namespace": "django.contrib.postgres.forms.ranges.BaseRangeField"
         },
         {
             "docstring": "",
             "name": "IntegerRangeField",
-            "parent_name": "django.contrib.postgres.forms.ranges"
+            "namespace": "django.contrib.postgres.forms.ranges.IntegerRangeField"
         },
         {
             "docstring": "",
             "name": "DecimalRangeField",
-            "parent_name": "django.contrib.postgres.forms.ranges"
+            "namespace": "django.contrib.postgres.forms.ranges.DecimalRangeField"
         },
         {
             "docstring": "",
             "name": "DateTimeRangeField",
-            "parent_name": "django.contrib.postgres.forms.ranges"
+            "namespace": "django.contrib.postgres.forms.ranges.DateTimeRangeField"
         },
         {
             "docstring": "",
             "name": "DateRangeField",
-            "parent_name": "django.contrib.postgres.forms.ranges"
+            "namespace": "django.contrib.postgres.forms.ranges.DateRangeField"
         }
     ]
 }

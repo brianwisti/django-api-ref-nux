@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    Custom argparse action for `ogrinspect` keywords that require\n    a string list. If the string is 'True'/'true' then the option\n    value will be a boolean instead.\n    \"\"\"",
+    "name": "ListOptionAction",
+    "namespace": "django.contrib.gis.management.commands.ogrinspect.ListOptionAction",
+    "parent_namespace": "django.contrib.gis.management.commands.ogrinspect"
+}

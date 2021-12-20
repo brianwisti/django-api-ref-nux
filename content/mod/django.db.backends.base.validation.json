@@ -1,11 +1,11 @@
 {
-    "docstring": "",
     "namespace": "django.db.backends.base.validation",
+    "docstring": "",
     "classes": [
         {
             "docstring": "\"\"\"Encapsulate backend-specific validation.\"\"\"",
             "name": "BaseDatabaseValidation",
-            "parent_name": "django.db.backends.base.validation"
+            "namespace": "django.db.backends.base.validation.BaseDatabaseValidation"
         }
     ]
 }

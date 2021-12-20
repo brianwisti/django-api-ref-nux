@@ -1,91 +1,91 @@
 {
-    "docstring": "",
     "namespace": "django.contrib.postgres.operations",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "CreateExtension",
-            "parent_name": "django.contrib.postgres.operations"
+            "namespace": "django.contrib.postgres.operations.CreateExtension"
         },
         {
             "docstring": "",
             "name": "BloomExtension",
-            "parent_name": "django.contrib.postgres.operations"
+            "namespace": "django.contrib.postgres.operations.BloomExtension"
         },
         {
             "docstring": "",
             "name": "BtreeGinExtension",
-            "parent_name": "django.contrib.postgres.operations"
+            "namespace": "django.contrib.postgres.operations.BtreeGinExtension"
         },
         {
             "docstring": "",
             "name": "BtreeGistExtension",
-            "parent_name": "django.contrib.postgres.operations"
+            "namespace": "django.contrib.postgres.operations.BtreeGistExtension"
         },
         {
             "docstring": "",
             "name": "CITextExtension",
-            "parent_name": "django.contrib.postgres.operations"
+            "namespace": "django.contrib.postgres.operations.CITextExtension"
         },
         {
             "docstring": "",
             "name": "CryptoExtension",
-            "parent_name": "django.contrib.postgres.operations"
+            "namespace": "django.contrib.postgres.operations.CryptoExtension"
         },
         {
             "docstring": "",
             "name": "HStoreExtension",
-            "parent_name": "django.contrib.postgres.operations"
+            "namespace": "django.contrib.postgres.operations.HStoreExtension"
         },
         {
             "docstring": "",
             "name": "TrigramExtension",
-            "parent_name": "django.contrib.postgres.operations"
+            "namespace": "django.contrib.postgres.operations.TrigramExtension"
         },
         {
             "docstring": "",
             "name": "UnaccentExtension",
-            "parent_name": "django.contrib.postgres.operations"
+            "namespace": "django.contrib.postgres.operations.UnaccentExtension"
         },
         {
             "docstring": "",
             "name": "NotInTransactionMixin",
-            "parent_name": "django.contrib.postgres.operations"
+            "namespace": "django.contrib.postgres.operations.NotInTransactionMixin"
         },
         {
             "docstring": "\"\"\"Create an index using PostgreSQL's CREATE INDEX CONCURRENTLY syntax.\"\"\"",
             "name": "AddIndexConcurrently",
-            "parent_name": "django.contrib.postgres.operations"
+            "namespace": "django.contrib.postgres.operations.AddIndexConcurrently"
         },
         {
             "docstring": "\"\"\"Remove an index using PostgreSQL's DROP INDEX CONCURRENTLY syntax.\"\"\"",
             "name": "RemoveIndexConcurrently",
-            "parent_name": "django.contrib.postgres.operations"
+            "namespace": "django.contrib.postgres.operations.RemoveIndexConcurrently"
         },
         {
             "docstring": "",
             "name": "CollationOperation",
-            "parent_name": "django.contrib.postgres.operations"
+            "namespace": "django.contrib.postgres.operations.CollationOperation"
         },
         {
             "docstring": "\"\"\"Create a collation.\"\"\"",
             "name": "CreateCollation",
-            "parent_name": "django.contrib.postgres.operations"
+            "namespace": "django.contrib.postgres.operations.CreateCollation"
         },
         {
             "docstring": "\"\"\"Remove a collation.\"\"\"",
             "name": "RemoveCollation",
-            "parent_name": "django.contrib.postgres.operations"
+            "namespace": "django.contrib.postgres.operations.RemoveCollation"
         },
         {
             "docstring": "\"\"\"\n    Add a table constraint without enforcing validation, using PostgreSQL's\n    NOT VALID syntax.\n    \"\"\"",
             "name": "AddConstraintNotValid",
-            "parent_name": "django.contrib.postgres.operations"
+            "namespace": "django.contrib.postgres.operations.AddConstraintNotValid"
         },
         {
             "docstring": "\"\"\"Validate a table NOT VALID constraint.\"\"\"",
             "name": "ValidateConstraint",
-            "parent_name": "django.contrib.postgres.operations"
+            "namespace": "django.contrib.postgres.operations.ValidateConstraint"
         }
     ]
 }

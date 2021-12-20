@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    Set new model options that don't directly affect the database schema\n    (like verbose_name, permissions, ordering). Python code in migrations\n    may still need them.\n    \"\"\"",
+    "name": "AlterModelOptions",
+    "namespace": "django.db.migrations.operations.models.AlterModelOptions",
+    "parent_namespace": "django.db.migrations.operations.models"
+}

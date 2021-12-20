@@ -1,88 +1,15 @@
 {
     "name": "django.db",
     "docstring": "",
+    "classes": [],
     "modules": [
         {
-            "docstring": "",
             "namespace": "django.db.transaction",
-            "classes": [
-                {
-                    "docstring": "\"\"\"Transaction management is used improperly.\"\"\"",
-                    "name": "TransactionManagementError",
-                    "parent_name": "django.db.transaction"
-                },
-                {
-                    "docstring": "\"\"\"\n    Guarantee the atomic execution of a given block.\n\n    An instance can be used either as a decorator or as a context manager.\n\n    When it's used as a decorator, __call__ wraps the execution of the\n    decorated function in the instance itself, used as a context manager.\n\n    When it's used as a context manager, __enter__ creates a transaction or a\n    savepoint, depending on whether a transaction is already in progress, and\n    __exit__ commits the transaction or releases the savepoint on normal exit,\n    and rolls back the transaction or to the savepoint on exceptions.\n\n    It's possible to disable the creation of savepoints if the goal is to\n    ensure that some code runs within a transaction without creating overhead.\n\n    A stack of savepoints identifiers is maintained as an attribute of the\n    connection. None denotes the absence of a savepoint.\n\n    This allows reentrancy even if the same AtomicWrapper is reused. For\n    example, it's possible to define `oa = atomic('other')` and use `@oa` or\n    `with oa:` multiple times.\n\n    Since database connections are thread-local, this is thread-safe.\n\n    An atomic block can be tagged as durable. In this case, raise a\n    RuntimeError if it's nested within another atomic block. This guarantees\n    that database changes in a durable block are committed to the database when\n    the block exists without error.\n\n    This is a private API.\n    \"\"\"",
-                    "name": "Atomic",
-                    "parent_name": "django.db.transaction"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.db.utils",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "Error",
-                    "parent_name": "django.db.utils"
-                },
-                {
-                    "docstring": "",
-                    "name": "InterfaceError",
-                    "parent_name": "django.db.utils"
-                },
-                {
-                    "docstring": "",
-                    "name": "DatabaseError",
-                    "parent_name": "django.db.utils"
-                },
-                {
-                    "docstring": "",
-                    "name": "DataError",
-                    "parent_name": "django.db.utils"
-                },
-                {
-                    "docstring": "",
-                    "name": "OperationalError",
-                    "parent_name": "django.db.utils"
-                },
-                {
-                    "docstring": "",
-                    "name": "IntegrityError",
-                    "parent_name": "django.db.utils"
-                },
-                {
-                    "docstring": "",
-                    "name": "InternalError",
-                    "parent_name": "django.db.utils"
-                },
-                {
-                    "docstring": "",
-                    "name": "ProgrammingError",
-                    "parent_name": "django.db.utils"
-                },
-                {
-                    "docstring": "",
-                    "name": "NotSupportedError",
-                    "parent_name": "django.db.utils"
-                },
-                {
-                    "docstring": "\"\"\"\n    Context manager and decorator that reraises backend-specific database\n    exceptions using Django's common wrappers.\n    \"\"\"",
-                    "name": "DatabaseErrorWrapper",
-                    "parent_name": "django.db.utils"
-                },
-                {
-                    "docstring": "",
-                    "name": "ConnectionHandler",
-                    "parent_name": "django.db.utils"
-                },
-                {
-                    "docstring": "",
-                    "name": "ConnectionRouter",
-                    "parent_name": "django.db.utils"
-                }
-            ]
+            "docstring": ""
         }
     ],
     "subpackages": [

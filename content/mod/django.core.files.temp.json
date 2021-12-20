@@ -1,11 +1,11 @@
 {
-    "docstring": "\"\"\"\nThe temp module provides a NamedTemporaryFile that can be reopened in the same\nprocess on any platform. Most platforms use the standard Python\ntempfile.NamedTemporaryFile class, but Windows users are given a custom class.\n\nThis is needed because the Python implementation of NamedTemporaryFile uses the\nO_TEMPORARY flag under Windows, which prevents the file from being reopened\nif the same flag is not provided [1][2]. Note that this does not address the\nmore general issue of opening a file for writing and reading in multiple\nprocesses in a manner that works across platforms.\n\nThe custom version of NamedTemporaryFile doesn't support the same keyword\narguments available in tempfile.NamedTemporaryFile.\n\n1: https://mail.python.org/pipermail/python-list/2005-December/336957.html\n2: https://bugs.python.org/issue14243\n\"\"\"",
     "namespace": "django.core.files.temp",
+    "docstring": "\"\"\"\nThe temp module provides a NamedTemporaryFile that can be reopened in the same\nprocess on any platform. Most platforms use the standard Python\ntempfile.NamedTemporaryFile class, but Windows users are given a custom class.\n\nThis is needed because the Python implementation of NamedTemporaryFile uses the\nO_TEMPORARY flag under Windows, which prevents the file from being reopened\nif the same flag is not provided [1][2]. Note that this does not address the\nmore general issue of opening a file for writing and reading in multiple\nprocesses in a manner that works across platforms.\n\nThe custom version of NamedTemporaryFile doesn't support the same keyword\narguments available in tempfile.NamedTemporaryFile.\n\n1: https://mail.python.org/pipermail/python-list/2005-December/336957.html\n2: https://bugs.python.org/issue14243\n\"\"\"",
     "classes": [
         {
             "docstring": "\"\"\"\n        Temporary file object constructor that supports reopening of the\n        temporary file in Windows.\n\n        Unlike tempfile.NamedTemporaryFile from the standard library,\n        __init__() doesn't support the 'delete', 'buffering', 'encoding', or\n        'newline' keyword arguments.\n        \"\"\"",
             "name": "TemporaryFile",
-            "parent_name": "django.core.files.temp"
+            "namespace": "django.core.files.temp.TemporaryFile"
         }
     ]
 }

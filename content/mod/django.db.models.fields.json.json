@@ -1,156 +1,156 @@
 {
-    "docstring": "",
     "namespace": "django.db.models.fields.json",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "JSONField",
-            "parent_name": "django.db.models.fields.json"
+            "namespace": "django.db.models.fields.json.JSONField"
         },
         {
             "docstring": "",
             "name": "DataContains",
-            "parent_name": "django.db.models.fields.json"
+            "namespace": "django.db.models.fields.json.DataContains"
         },
         {
             "docstring": "",
             "name": "ContainedBy",
-            "parent_name": "django.db.models.fields.json"
+            "namespace": "django.db.models.fields.json.ContainedBy"
         },
         {
             "docstring": "",
             "name": "HasKeyLookup",
-            "parent_name": "django.db.models.fields.json"
+            "namespace": "django.db.models.fields.json.HasKeyLookup"
         },
         {
             "docstring": "",
             "name": "HasKey",
-            "parent_name": "django.db.models.fields.json"
+            "namespace": "django.db.models.fields.json.HasKey"
         },
         {
             "docstring": "",
             "name": "HasKeys",
-            "parent_name": "django.db.models.fields.json"
+            "namespace": "django.db.models.fields.json.HasKeys"
         },
         {
             "docstring": "",
             "name": "HasAnyKeys",
-            "parent_name": "django.db.models.fields.json"
+            "namespace": "django.db.models.fields.json.HasAnyKeys"
         },
         {
             "docstring": "\"\"\"\n    Mixin to allow case-insensitive comparison of JSON values on MySQL.\n    MySQL handles strings used in JSON context using the utf8mb4_bin collation.\n    Because utf8mb4_bin is a binary collation, comparison of JSON values is\n    case-sensitive.\n    \"\"\"",
             "name": "CaseInsensitiveMixin",
-            "parent_name": "django.db.models.fields.json"
+            "namespace": "django.db.models.fields.json.CaseInsensitiveMixin"
         },
         {
             "docstring": "",
             "name": "JSONExact",
-            "parent_name": "django.db.models.fields.json"
+            "namespace": "django.db.models.fields.json.JSONExact"
         },
         {
             "docstring": "",
             "name": "JSONIContains",
-            "parent_name": "django.db.models.fields.json"
+            "namespace": "django.db.models.fields.json.JSONIContains"
         },
         {
             "docstring": "",
             "name": "KeyTransform",
-            "parent_name": "django.db.models.fields.json"
+            "namespace": "django.db.models.fields.json.KeyTransform"
         },
         {
             "docstring": "",
             "name": "KeyTextTransform",
-            "parent_name": "django.db.models.fields.json"
+            "namespace": "django.db.models.fields.json.KeyTextTransform"
         },
         {
             "docstring": "\"\"\"\n    Mixin for combining with a lookup expecting a text lhs from a JSONField\n    key lookup. On PostgreSQL, make use of the ->> operator instead of casting\n    key values to text and performing the lookup on the resulting\n    representation.\n    \"\"\"",
             "name": "KeyTransformTextLookupMixin",
-            "parent_name": "django.db.models.fields.json"
+            "namespace": "django.db.models.fields.json.KeyTransformTextLookupMixin"
         },
         {
             "docstring": "",
             "name": "KeyTransformIsNull",
-            "parent_name": "django.db.models.fields.json"
+            "namespace": "django.db.models.fields.json.KeyTransformIsNull"
         },
         {
             "docstring": "",
             "name": "KeyTransformIn",
-            "parent_name": "django.db.models.fields.json"
+            "namespace": "django.db.models.fields.json.KeyTransformIn"
         },
         {
             "docstring": "",
             "name": "KeyTransformExact",
-            "parent_name": "django.db.models.fields.json"
+            "namespace": "django.db.models.fields.json.KeyTransformExact"
         },
         {
             "docstring": "",
             "name": "KeyTransformIExact",
-            "parent_name": "django.db.models.fields.json"
+            "namespace": "django.db.models.fields.json.KeyTransformIExact"
         },
         {
             "docstring": "",
             "name": "KeyTransformIContains",
-            "parent_name": "django.db.models.fields.json"
+            "namespace": "django.db.models.fields.json.KeyTransformIContains"
         },
         {
             "docstring": "",
             "name": "KeyTransformStartsWith",
-            "parent_name": "django.db.models.fields.json"
+            "namespace": "django.db.models.fields.json.KeyTransformStartsWith"
         },
         {
             "docstring": "",
             "name": "KeyTransformIStartsWith",
-            "parent_name": "django.db.models.fields.json"
+            "namespace": "django.db.models.fields.json.KeyTransformIStartsWith"
         },
         {
             "docstring": "",
             "name": "KeyTransformEndsWith",
-            "parent_name": "django.db.models.fields.json"
+            "namespace": "django.db.models.fields.json.KeyTransformEndsWith"
         },
         {
             "docstring": "",
             "name": "KeyTransformIEndsWith",
-            "parent_name": "django.db.models.fields.json"
+            "namespace": "django.db.models.fields.json.KeyTransformIEndsWith"
         },
         {
             "docstring": "",
             "name": "KeyTransformRegex",
-            "parent_name": "django.db.models.fields.json"
+            "namespace": "django.db.models.fields.json.KeyTransformRegex"
         },
         {
             "docstring": "",
             "name": "KeyTransformIRegex",
-            "parent_name": "django.db.models.fields.json"
+            "namespace": "django.db.models.fields.json.KeyTransformIRegex"
         },
         {
             "docstring": "",
             "name": "KeyTransformNumericLookupMixin",
-            "parent_name": "django.db.models.fields.json"
+            "namespace": "django.db.models.fields.json.KeyTransformNumericLookupMixin"
         },
         {
             "docstring": "",
             "name": "KeyTransformLt",
-            "parent_name": "django.db.models.fields.json"
+            "namespace": "django.db.models.fields.json.KeyTransformLt"
         },
         {
             "docstring": "",
             "name": "KeyTransformLte",
-            "parent_name": "django.db.models.fields.json"
+            "namespace": "django.db.models.fields.json.KeyTransformLte"
         },
         {
             "docstring": "",
             "name": "KeyTransformGt",
-            "parent_name": "django.db.models.fields.json"
+            "namespace": "django.db.models.fields.json.KeyTransformGt"
         },
         {
             "docstring": "",
             "name": "KeyTransformGte",
-            "parent_name": "django.db.models.fields.json"
+            "namespace": "django.db.models.fields.json.KeyTransformGte"
         },
         {
             "docstring": "",
             "name": "KeyTransformFactory",
-            "parent_name": "django.db.models.fields.json"
+            "namespace": "django.db.models.fields.json.KeyTransformFactory"
         }
     ]
 }

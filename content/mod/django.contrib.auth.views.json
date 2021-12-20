@@ -1,56 +1,56 @@
 {
-    "docstring": "",
     "namespace": "django.contrib.auth.views",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "SuccessURLAllowedHostsMixin",
-            "parent_name": "django.contrib.auth.views"
+            "namespace": "django.contrib.auth.views.SuccessURLAllowedHostsMixin"
         },
         {
             "docstring": "\"\"\"\n    Display the login form and handle the login action.\n    \"\"\"",
             "name": "LoginView",
-            "parent_name": "django.contrib.auth.views"
+            "namespace": "django.contrib.auth.views.LoginView"
         },
         {
             "docstring": "\"\"\"\n    Log out the user and display the 'You are logged out' message.\n    \"\"\"",
             "name": "LogoutView",
-            "parent_name": "django.contrib.auth.views"
+            "namespace": "django.contrib.auth.views.LogoutView"
         },
         {
             "docstring": "",
             "name": "PasswordContextMixin",
-            "parent_name": "django.contrib.auth.views"
+            "namespace": "django.contrib.auth.views.PasswordContextMixin"
         },
         {
             "docstring": "",
             "name": "PasswordResetView",
-            "parent_name": "django.contrib.auth.views"
+            "namespace": "django.contrib.auth.views.PasswordResetView"
         },
         {
             "docstring": "",
             "name": "PasswordResetDoneView",
-            "parent_name": "django.contrib.auth.views"
+            "namespace": "django.contrib.auth.views.PasswordResetDoneView"
         },
         {
             "docstring": "",
             "name": "PasswordResetConfirmView",
-            "parent_name": "django.contrib.auth.views"
+            "namespace": "django.contrib.auth.views.PasswordResetConfirmView"
         },
         {
             "docstring": "",
             "name": "PasswordResetCompleteView",
-            "parent_name": "django.contrib.auth.views"
+            "namespace": "django.contrib.auth.views.PasswordResetCompleteView"
         },
         {
             "docstring": "",
             "name": "PasswordChangeView",
-            "parent_name": "django.contrib.auth.views"
+            "namespace": "django.contrib.auth.views.PasswordChangeView"
         },
         {
             "docstring": "",
             "name": "PasswordChangeDoneView",
-            "parent_name": "django.contrib.auth.views"
+            "namespace": "django.contrib.auth.views.PasswordChangeDoneView"
         }
     ]
 }

@@ -1,66 +1,66 @@
 {
-    "docstring": "",
     "namespace": "django.db.utils",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "Error",
-            "parent_name": "django.db.utils"
+            "namespace": "django.db.utils.Error"
         },
         {
             "docstring": "",
             "name": "InterfaceError",
-            "parent_name": "django.db.utils"
+            "namespace": "django.db.utils.InterfaceError"
         },
         {
             "docstring": "",
             "name": "DatabaseError",
-            "parent_name": "django.db.utils"
+            "namespace": "django.db.utils.DatabaseError"
         },
         {
             "docstring": "",
             "name": "DataError",
-            "parent_name": "django.db.utils"
+            "namespace": "django.db.utils.DataError"
         },
         {
             "docstring": "",
             "name": "OperationalError",
-            "parent_name": "django.db.utils"
+            "namespace": "django.db.utils.OperationalError"
         },
         {
             "docstring": "",
             "name": "IntegrityError",
-            "parent_name": "django.db.utils"
+            "namespace": "django.db.utils.IntegrityError"
         },
         {
             "docstring": "",
             "name": "InternalError",
-            "parent_name": "django.db.utils"
+            "namespace": "django.db.utils.InternalError"
         },
         {
             "docstring": "",
             "name": "ProgrammingError",
-            "parent_name": "django.db.utils"
+            "namespace": "django.db.utils.ProgrammingError"
         },
         {
             "docstring": "",
             "name": "NotSupportedError",
-            "parent_name": "django.db.utils"
+            "namespace": "django.db.utils.NotSupportedError"
         },
         {
             "docstring": "\"\"\"\n    Context manager and decorator that reraises backend-specific database\n    exceptions using Django's common wrappers.\n    \"\"\"",
             "name": "DatabaseErrorWrapper",
-            "parent_name": "django.db.utils"
+            "namespace": "django.db.utils.DatabaseErrorWrapper"
         },
         {
             "docstring": "",
             "name": "ConnectionHandler",
-            "parent_name": "django.db.utils"
+            "namespace": "django.db.utils.ConnectionHandler"
         },
         {
             "docstring": "",
             "name": "ConnectionRouter",
-            "parent_name": "django.db.utils"
+            "namespace": "django.db.utils.ConnectionRouter"
         }
     ]
 }

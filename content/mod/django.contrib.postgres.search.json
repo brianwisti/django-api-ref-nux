@@ -1,96 +1,96 @@
 {
-    "docstring": "",
     "namespace": "django.contrib.postgres.search",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "SearchVectorExact",
-            "parent_name": "django.contrib.postgres.search"
+            "namespace": "django.contrib.postgres.search.SearchVectorExact"
         },
         {
             "docstring": "",
             "name": "SearchVectorField",
-            "parent_name": "django.contrib.postgres.search"
+            "namespace": "django.contrib.postgres.search.SearchVectorField"
         },
         {
             "docstring": "",
             "name": "SearchQueryField",
-            "parent_name": "django.contrib.postgres.search"
+            "namespace": "django.contrib.postgres.search.SearchQueryField"
         },
         {
             "docstring": "",
             "name": "SearchConfig",
-            "parent_name": "django.contrib.postgres.search"
+            "namespace": "django.contrib.postgres.search.SearchConfig"
         },
         {
             "docstring": "",
             "name": "SearchVectorCombinable",
-            "parent_name": "django.contrib.postgres.search"
+            "namespace": "django.contrib.postgres.search.SearchVectorCombinable"
         },
         {
             "docstring": "",
             "name": "SearchVector",
-            "parent_name": "django.contrib.postgres.search"
+            "namespace": "django.contrib.postgres.search.SearchVector"
         },
         {
             "docstring": "",
             "name": "CombinedSearchVector",
-            "parent_name": "django.contrib.postgres.search"
+            "namespace": "django.contrib.postgres.search.CombinedSearchVector"
         },
         {
             "docstring": "",
             "name": "SearchQueryCombinable",
-            "parent_name": "django.contrib.postgres.search"
+            "namespace": "django.contrib.postgres.search.SearchQueryCombinable"
         },
         {
             "docstring": "",
             "name": "SearchQuery",
-            "parent_name": "django.contrib.postgres.search"
+            "namespace": "django.contrib.postgres.search.SearchQuery"
         },
         {
             "docstring": "",
             "name": "CombinedSearchQuery",
-            "parent_name": "django.contrib.postgres.search"
+            "namespace": "django.contrib.postgres.search.CombinedSearchQuery"
         },
         {
             "docstring": "",
             "name": "SearchRank",
-            "parent_name": "django.contrib.postgres.search"
+            "namespace": "django.contrib.postgres.search.SearchRank"
         },
         {
             "docstring": "",
             "name": "SearchHeadline",
-            "parent_name": "django.contrib.postgres.search"
+            "namespace": "django.contrib.postgres.search.SearchHeadline"
         },
         {
             "docstring": "",
             "name": "TrigramBase",
-            "parent_name": "django.contrib.postgres.search"
+            "namespace": "django.contrib.postgres.search.TrigramBase"
         },
         {
             "docstring": "",
             "name": "TrigramWordBase",
-            "parent_name": "django.contrib.postgres.search"
+            "namespace": "django.contrib.postgres.search.TrigramWordBase"
         },
         {
             "docstring": "",
             "name": "TrigramSimilarity",
-            "parent_name": "django.contrib.postgres.search"
+            "namespace": "django.contrib.postgres.search.TrigramSimilarity"
         },
         {
             "docstring": "",
             "name": "TrigramDistance",
-            "parent_name": "django.contrib.postgres.search"
+            "namespace": "django.contrib.postgres.search.TrigramDistance"
         },
         {
             "docstring": "",
             "name": "TrigramWordDistance",
-            "parent_name": "django.contrib.postgres.search"
+            "namespace": "django.contrib.postgres.search.TrigramWordDistance"
         },
         {
             "docstring": "",
             "name": "TrigramWordSimilarity",
-            "parent_name": "django.contrib.postgres.search"
+            "namespace": "django.contrib.postgres.search.TrigramWordSimilarity"
         }
     ]
 }

@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    Enforce serialization of TestCases that share a common resource.\n\n    Define a common 'lockfile' for each set of TestCases to serialize. This\n    file must exist on the filesystem.\n\n    Place it early in the MRO in order to isolate setUpClass()/tearDownClass().\n    \"\"\"",
+    "name": "SerializeMixin",
+    "namespace": "django.test.testcases.SerializeMixin",
+    "parent_namespace": "django.test.testcases"
+}

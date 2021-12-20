@@ -1,31 +1,31 @@
 {
-    "docstring": "",
     "namespace": "django.db.migrations.operations.fields",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "FieldOperation",
-            "parent_name": "django.db.migrations.operations.fields"
+            "namespace": "django.db.migrations.operations.fields.FieldOperation"
         },
         {
             "docstring": "\"\"\"Add a field to a model.\"\"\"",
             "name": "AddField",
-            "parent_name": "django.db.migrations.operations.fields"
+            "namespace": "django.db.migrations.operations.fields.AddField"
         },
         {
             "docstring": "\"\"\"Remove a field from a model.\"\"\"",
             "name": "RemoveField",
-            "parent_name": "django.db.migrations.operations.fields"
+            "namespace": "django.db.migrations.operations.fields.RemoveField"
         },
         {
             "docstring": "\"\"\"\n    Alter a field's database column (e.g. null, max_length) to the provided\n    new field.\n    \"\"\"",
             "name": "AlterField",
-            "parent_name": "django.db.migrations.operations.fields"
+            "namespace": "django.db.migrations.operations.fields.AlterField"
         },
         {
             "docstring": "\"\"\"Rename a field on the model. Might affect db_column too.\"\"\"",
             "name": "RenameField",
-            "parent_name": "django.db.migrations.operations.fields"
+            "namespace": "django.db.migrations.operations.fields.RenameField"
         }
     ]
 }

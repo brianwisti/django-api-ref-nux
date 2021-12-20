@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    An HTTP response class that consumes data to be serialized to JSON.\n\n    :param data: Data to be dumped into json. By default only ``dict`` objects\n      are allowed to be passed due to a security flaw before ECMAScript 5. See\n      the ``safe`` parameter for more information.\n    :param encoder: Should be a json encoder class. Defaults to\n      ``django.core.serializers.json.DjangoJSONEncoder``.\n    :param safe: Controls if only ``dict`` objects may be serialized. Defaults\n      to ``True``.\n    :param json_dumps_params: A dictionary of kwargs passed to json.dumps().\n    \"\"\"",
+    "name": "JsonResponse",
+    "namespace": "django.http.response.JsonResponse",
+    "parent_namespace": "django.http.response"
+}

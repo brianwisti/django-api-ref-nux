@@ -1,57 +1,39 @@
 {
     "name": "django.views.decorators",
     "docstring": "",
+    "classes": [],
     "modules": [
         {
-            "docstring": "",
             "namespace": "django.views.decorators.gzip",
-            "classes": []
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.views.decorators.vary",
-            "classes": []
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.views.decorators.common",
-            "classes": []
+            "docstring": ""
         },
         {
-            "docstring": "\"\"\"\nDecorators for views based on HTTP headers.\n\"\"\"",
             "namespace": "django.views.decorators.http",
-            "classes": []
+            "docstring": "\"\"\"\nDecorators for views based on HTTP headers.\n\"\"\""
         },
         {
-            "docstring": "",
             "namespace": "django.views.decorators.debug",
-            "classes": []
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.views.decorators.clickjacking",
-            "classes": []
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.views.decorators.cache",
-            "classes": []
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.views.decorators.csrf",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "_EnsureCsrfToken",
-                    "parent_name": "django.views.decorators.csrf"
-                },
-                {
-                    "docstring": "",
-                    "name": "_EnsureCsrfCookie",
-                    "parent_name": "django.views.decorators.csrf"
-                }
-            ]
+            "docstring": ""
         }
     ],
     "subpackages": []

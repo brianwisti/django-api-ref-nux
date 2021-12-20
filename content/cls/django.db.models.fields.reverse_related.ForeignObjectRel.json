@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    Used by ForeignObject to store information about the relation.\n\n    ``_meta.get_fields()`` returns this class to provide access to the field\n    flags for the reverse relation.\n    \"\"\"",
+    "name": "ForeignObjectRel",
+    "namespace": "django.db.models.fields.reverse_related.ForeignObjectRel",
+    "parent_namespace": "django.db.models.fields.reverse_related"
+}

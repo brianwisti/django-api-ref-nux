@@ -1,101 +1,101 @@
 {
-    "docstring": "\"\"\"\nForm Widget classes specific to the Django admin site.\n\"\"\"",
     "namespace": "django.contrib.admin.widgets",
+    "docstring": "\"\"\"\nForm Widget classes specific to the Django admin site.\n\"\"\"",
     "classes": [
         {
             "docstring": "\"\"\"\n    A SelectMultiple with a JavaScript filter interface.\n\n    Note that the resulting JavaScript assumes that the jsi18n\n    catalog has been loaded in the page\n    \"\"\"",
             "name": "FilteredSelectMultiple",
-            "parent_name": "django.contrib.admin.widgets"
+            "namespace": "django.contrib.admin.widgets.FilteredSelectMultiple"
         },
         {
             "docstring": "",
             "name": "AdminDateWidget",
-            "parent_name": "django.contrib.admin.widgets"
+            "namespace": "django.contrib.admin.widgets.AdminDateWidget"
         },
         {
             "docstring": "",
             "name": "AdminTimeWidget",
-            "parent_name": "django.contrib.admin.widgets"
+            "namespace": "django.contrib.admin.widgets.AdminTimeWidget"
         },
         {
             "docstring": "\"\"\"\n    A SplitDateTime Widget that has some admin-specific styling.\n    \"\"\"",
             "name": "AdminSplitDateTime",
-            "parent_name": "django.contrib.admin.widgets"
+            "namespace": "django.contrib.admin.widgets.AdminSplitDateTime"
         },
         {
             "docstring": "",
             "name": "AdminRadioSelect",
-            "parent_name": "django.contrib.admin.widgets"
+            "namespace": "django.contrib.admin.widgets.AdminRadioSelect"
         },
         {
             "docstring": "",
             "name": "AdminFileWidget",
-            "parent_name": "django.contrib.admin.widgets"
+            "namespace": "django.contrib.admin.widgets.AdminFileWidget"
         },
         {
             "docstring": "\"\"\"\n    A Widget for displaying ForeignKeys in the \"raw_id\" interface rather than\n    in a <select> box.\n    \"\"\"",
             "name": "ForeignKeyRawIdWidget",
-            "parent_name": "django.contrib.admin.widgets"
+            "namespace": "django.contrib.admin.widgets.ForeignKeyRawIdWidget"
         },
         {
             "docstring": "\"\"\"\n    A Widget for displaying ManyToMany ids in the \"raw_id\" interface rather than\n    in a <select multiple> box.\n    \"\"\"",
             "name": "ManyToManyRawIdWidget",
-            "parent_name": "django.contrib.admin.widgets"
+            "namespace": "django.contrib.admin.widgets.ManyToManyRawIdWidget"
         },
         {
             "docstring": "\"\"\"\n    This class is a wrapper to a given widget to add the add icon for the\n    admin interface.\n    \"\"\"",
             "name": "RelatedFieldWidgetWrapper",
-            "parent_name": "django.contrib.admin.widgets"
+            "namespace": "django.contrib.admin.widgets.RelatedFieldWidgetWrapper"
         },
         {
             "docstring": "",
             "name": "AdminTextareaWidget",
-            "parent_name": "django.contrib.admin.widgets"
+            "namespace": "django.contrib.admin.widgets.AdminTextareaWidget"
         },
         {
             "docstring": "",
             "name": "AdminTextInputWidget",
-            "parent_name": "django.contrib.admin.widgets"
+            "namespace": "django.contrib.admin.widgets.AdminTextInputWidget"
         },
         {
             "docstring": "",
             "name": "AdminEmailInputWidget",
-            "parent_name": "django.contrib.admin.widgets"
+            "namespace": "django.contrib.admin.widgets.AdminEmailInputWidget"
         },
         {
             "docstring": "",
             "name": "AdminURLFieldWidget",
-            "parent_name": "django.contrib.admin.widgets"
+            "namespace": "django.contrib.admin.widgets.AdminURLFieldWidget"
         },
         {
             "docstring": "",
             "name": "AdminIntegerFieldWidget",
-            "parent_name": "django.contrib.admin.widgets"
+            "namespace": "django.contrib.admin.widgets.AdminIntegerFieldWidget"
         },
         {
             "docstring": "",
             "name": "AdminBigIntegerFieldWidget",
-            "parent_name": "django.contrib.admin.widgets"
+            "namespace": "django.contrib.admin.widgets.AdminBigIntegerFieldWidget"
         },
         {
             "docstring": "",
             "name": "AdminUUIDInputWidget",
-            "parent_name": "django.contrib.admin.widgets"
+            "namespace": "django.contrib.admin.widgets.AdminUUIDInputWidget"
         },
         {
             "docstring": "\"\"\"\n    Select widget mixin that loads options from AutocompleteJsonView via AJAX.\n\n    Renders the necessary data attributes for select2 and adds the static form\n    media.\n    \"\"\"",
             "name": "AutocompleteMixin",
-            "parent_name": "django.contrib.admin.widgets"
+            "namespace": "django.contrib.admin.widgets.AutocompleteMixin"
         },
         {
             "docstring": "",
             "name": "AutocompleteSelect",
-            "parent_name": "django.contrib.admin.widgets"
+            "namespace": "django.contrib.admin.widgets.AutocompleteSelect"
         },
         {
             "docstring": "",
             "name": "AutocompleteSelectMultiple",
-            "parent_name": "django.contrib.admin.widgets"
+            "namespace": "django.contrib.admin.widgets.AutocompleteSelectMultiple"
         }
     ]
 }

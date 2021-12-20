@@ -1,21 +1,21 @@
 {
-    "docstring": "\"\"\"\n This module contains the 'base' GEOSGeometry object -- all GEOS Geometries\n inherit from this object.\n\"\"\"",
     "namespace": "django.contrib.gis.geos.geometry",
+    "docstring": "\"\"\"\n This module contains the 'base' GEOSGeometry object -- all GEOS Geometries\n inherit from this object.\n\"\"\"",
     "classes": [
         {
             "docstring": "",
             "name": "GEOSGeometryBase",
-            "parent_name": "django.contrib.gis.geos.geometry"
+            "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase"
         },
         {
             "docstring": "\"\"\"\n    Used for LineString and MultiLineString.\n    \"\"\"",
             "name": "LinearGeometryMixin",
-            "parent_name": "django.contrib.gis.geos.geometry"
+            "namespace": "django.contrib.gis.geos.geometry.LinearGeometryMixin"
         },
         {
             "docstring": "\"A class that, generally, encapsulates a GEOS geometry.\"",
             "name": "GEOSGeometry",
-            "parent_name": "django.contrib.gis.geos.geometry"
+            "namespace": "django.contrib.gis.geos.geometry.GEOSGeometry"
         }
     ]
 }

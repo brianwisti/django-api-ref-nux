@@ -1,11 +1,11 @@
 {
-    "docstring": "",
     "namespace": "django.contrib.sessions.backends.db",
+    "docstring": "",
     "classes": [
         {
             "docstring": "\"\"\"\n    Implement database session store.\n    \"\"\"",
             "name": "SessionStore",
-            "parent_name": "django.contrib.sessions.backends.db"
+            "namespace": "django.contrib.sessions.backends.db.SessionStore"
         }
     ]
 }

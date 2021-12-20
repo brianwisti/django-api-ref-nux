@@ -1,81 +1,81 @@
 {
-    "docstring": "",
     "namespace": "django.contrib.gis.gdal.field",
+    "docstring": "",
     "classes": [
         {
             "docstring": "\"\"\"\n    Wrap an OGR Field. Needs to be instantiated from a Feature object.\n    \"\"\"",
             "name": "Field",
-            "parent_name": "django.contrib.gis.gdal.field"
+            "namespace": "django.contrib.gis.gdal.field.Field"
         },
         {
             "docstring": "",
             "name": "OFTInteger",
-            "parent_name": "django.contrib.gis.gdal.field"
+            "namespace": "django.contrib.gis.gdal.field.OFTInteger"
         },
         {
             "docstring": "",
             "name": "OFTReal",
-            "parent_name": "django.contrib.gis.gdal.field"
+            "namespace": "django.contrib.gis.gdal.field.OFTReal"
         },
         {
             "docstring": "",
             "name": "OFTString",
-            "parent_name": "django.contrib.gis.gdal.field"
+            "namespace": "django.contrib.gis.gdal.field.OFTString"
         },
         {
             "docstring": "",
             "name": "OFTWideString",
-            "parent_name": "django.contrib.gis.gdal.field"
+            "namespace": "django.contrib.gis.gdal.field.OFTWideString"
         },
         {
             "docstring": "",
             "name": "OFTBinary",
-            "parent_name": "django.contrib.gis.gdal.field"
+            "namespace": "django.contrib.gis.gdal.field.OFTBinary"
         },
         {
             "docstring": "",
             "name": "OFTDate",
-            "parent_name": "django.contrib.gis.gdal.field"
+            "namespace": "django.contrib.gis.gdal.field.OFTDate"
         },
         {
             "docstring": "",
             "name": "OFTDateTime",
-            "parent_name": "django.contrib.gis.gdal.field"
+            "namespace": "django.contrib.gis.gdal.field.OFTDateTime"
         },
         {
             "docstring": "",
             "name": "OFTTime",
-            "parent_name": "django.contrib.gis.gdal.field"
+            "namespace": "django.contrib.gis.gdal.field.OFTTime"
         },
         {
             "docstring": "",
             "name": "OFTInteger64",
-            "parent_name": "django.contrib.gis.gdal.field"
+            "namespace": "django.contrib.gis.gdal.field.OFTInteger64"
         },
         {
             "docstring": "",
             "name": "OFTIntegerList",
-            "parent_name": "django.contrib.gis.gdal.field"
+            "namespace": "django.contrib.gis.gdal.field.OFTIntegerList"
         },
         {
             "docstring": "",
             "name": "OFTRealList",
-            "parent_name": "django.contrib.gis.gdal.field"
+            "namespace": "django.contrib.gis.gdal.field.OFTRealList"
         },
         {
             "docstring": "",
             "name": "OFTStringList",
-            "parent_name": "django.contrib.gis.gdal.field"
+            "namespace": "django.contrib.gis.gdal.field.OFTStringList"
         },
         {
             "docstring": "",
             "name": "OFTWideStringList",
-            "parent_name": "django.contrib.gis.gdal.field"
+            "namespace": "django.contrib.gis.gdal.field.OFTWideStringList"
         },
         {
             "docstring": "",
             "name": "OFTInteger64List",
-            "parent_name": "django.contrib.gis.gdal.field"
+            "namespace": "django.contrib.gis.gdal.field.OFTInteger64List"
         }
     ]
 }

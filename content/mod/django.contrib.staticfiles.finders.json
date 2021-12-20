@@ -1,31 +1,31 @@
 {
-    "docstring": "",
     "namespace": "django.contrib.staticfiles.finders",
+    "docstring": "",
     "classes": [
         {
             "docstring": "\"\"\"\n    A base file finder to be used for custom staticfiles finder classes.\n    \"\"\"",
             "name": "BaseFinder",
-            "parent_name": "django.contrib.staticfiles.finders"
+            "namespace": "django.contrib.staticfiles.finders.BaseFinder"
         },
         {
             "docstring": "\"\"\"\n    A static files finder that uses the ``STATICFILES_DIRS`` setting\n    to locate files.\n    \"\"\"",
             "name": "FileSystemFinder",
-            "parent_name": "django.contrib.staticfiles.finders"
+            "namespace": "django.contrib.staticfiles.finders.FileSystemFinder"
         },
         {
             "docstring": "\"\"\"\n    A static files finder that looks in the directory of each app as\n    specified in the source_dir attribute.\n    \"\"\"",
             "name": "AppDirectoriesFinder",
-            "parent_name": "django.contrib.staticfiles.finders"
+            "namespace": "django.contrib.staticfiles.finders.AppDirectoriesFinder"
         },
         {
             "docstring": "\"\"\"\n    A base static files finder to be used to extended\n    with an own storage class.\n    \"\"\"",
             "name": "BaseStorageFinder",
-            "parent_name": "django.contrib.staticfiles.finders"
+            "namespace": "django.contrib.staticfiles.finders.BaseStorageFinder"
         },
         {
             "docstring": "\"\"\"\n    A static files finder that uses the default storage backend.\n    \"\"\"",
             "name": "DefaultStorageFinder",
-            "parent_name": "django.contrib.staticfiles.finders"
+            "namespace": "django.contrib.staticfiles.finders.DefaultStorageFinder"
         }
     ]
 }

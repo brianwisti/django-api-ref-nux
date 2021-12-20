@@ -1,66 +1,66 @@
 {
-    "docstring": "",
     "namespace": "django.contrib.postgres.aggregates.statistics",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "StatAggregate",
-            "parent_name": "django.contrib.postgres.aggregates.statistics"
+            "namespace": "django.contrib.postgres.aggregates.statistics.StatAggregate"
         },
         {
             "docstring": "",
             "name": "Corr",
-            "parent_name": "django.contrib.postgres.aggregates.statistics"
+            "namespace": "django.contrib.postgres.aggregates.statistics.Corr"
         },
         {
             "docstring": "",
             "name": "CovarPop",
-            "parent_name": "django.contrib.postgres.aggregates.statistics"
+            "namespace": "django.contrib.postgres.aggregates.statistics.CovarPop"
         },
         {
             "docstring": "",
             "name": "RegrAvgX",
-            "parent_name": "django.contrib.postgres.aggregates.statistics"
+            "namespace": "django.contrib.postgres.aggregates.statistics.RegrAvgX"
         },
         {
             "docstring": "",
             "name": "RegrAvgY",
-            "parent_name": "django.contrib.postgres.aggregates.statistics"
+            "namespace": "django.contrib.postgres.aggregates.statistics.RegrAvgY"
         },
         {
             "docstring": "",
             "name": "RegrCount",
-            "parent_name": "django.contrib.postgres.aggregates.statistics"
+            "namespace": "django.contrib.postgres.aggregates.statistics.RegrCount"
         },
         {
             "docstring": "",
             "name": "RegrIntercept",
-            "parent_name": "django.contrib.postgres.aggregates.statistics"
+            "namespace": "django.contrib.postgres.aggregates.statistics.RegrIntercept"
         },
         {
             "docstring": "",
             "name": "RegrR2",
-            "parent_name": "django.contrib.postgres.aggregates.statistics"
+            "namespace": "django.contrib.postgres.aggregates.statistics.RegrR2"
         },
         {
             "docstring": "",
             "name": "RegrSlope",
-            "parent_name": "django.contrib.postgres.aggregates.statistics"
+            "namespace": "django.contrib.postgres.aggregates.statistics.RegrSlope"
         },
         {
             "docstring": "",
             "name": "RegrSXX",
-            "parent_name": "django.contrib.postgres.aggregates.statistics"
+            "namespace": "django.contrib.postgres.aggregates.statistics.RegrSXX"
         },
         {
             "docstring": "",
             "name": "RegrSXY",
-            "parent_name": "django.contrib.postgres.aggregates.statistics"
+            "namespace": "django.contrib.postgres.aggregates.statistics.RegrSXY"
         },
         {
             "docstring": "",
             "name": "RegrSYY",
-            "parent_name": "django.contrib.postgres.aggregates.statistics"
+            "namespace": "django.contrib.postgres.aggregates.statistics.RegrSYY"
         }
     ]
 }

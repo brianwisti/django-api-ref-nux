@@ -1,16 +1,16 @@
 {
-    "docstring": "",
     "namespace": "django.core.checks.registry",
+    "docstring": "",
     "classes": [
         {
             "docstring": "\"\"\"\n    Built-in tags for internal checks.\n    \"\"\"",
             "name": "Tags",
-            "parent_name": "django.core.checks.registry"
+            "namespace": "django.core.checks.registry.Tags"
         },
         {
             "docstring": "",
             "name": "CheckRegistry",
-            "parent_name": "django.core.checks.registry"
+            "namespace": "django.core.checks.registry.CheckRegistry"
         }
     ]
 }

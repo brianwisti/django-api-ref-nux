@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    A lazy proxy for either global Django settings or a custom settings object.\n    The user can manually configure settings prior to using them. Otherwise,\n    Django uses the settings module pointed to by DJANGO_SETTINGS_MODULE.\n    \"\"\"",
+    "name": "LazySettings",
+    "namespace": "django.conf.LazySettings",
+    "parent_namespace": "django.conf"
+}

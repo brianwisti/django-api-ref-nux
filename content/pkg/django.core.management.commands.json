@@ -1,290 +1,103 @@
 {
     "name": "django.core.management.commands",
     "docstring": "",
+    "classes": [],
     "modules": [
         {
-            "docstring": "",
             "namespace": "django.core.management.commands.dbshell",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "Command",
-                    "parent_name": "django.core.management.commands.dbshell"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.core.management.commands.diffsettings",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "Command",
-                    "parent_name": "django.core.management.commands.diffsettings"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.core.management.commands.showmigrations",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "Command",
-                    "parent_name": "django.core.management.commands.showmigrations"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.core.management.commands.createcachetable",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "Command",
-                    "parent_name": "django.core.management.commands.createcachetable"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.core.management.commands.sqlflush",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "Command",
-                    "parent_name": "django.core.management.commands.sqlflush"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.core.management.commands.flush",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "Command",
-                    "parent_name": "django.core.management.commands.flush"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.core.management.commands.compilemessages",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "Command",
-                    "parent_name": "django.core.management.commands.compilemessages"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.core.management.commands.startapp",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "Command",
-                    "parent_name": "django.core.management.commands.startapp"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.core.management.commands.makemessages",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "TranslatableFile",
-                    "parent_name": "django.core.management.commands.makemessages"
-                },
-                {
-                    "docstring": "\"\"\"\n    Represent the state of a translatable file during the build process.\n    \"\"\"",
-                    "name": "BuildFile",
-                    "parent_name": "django.core.management.commands.makemessages"
-                },
-                {
-                    "docstring": "",
-                    "name": "Command",
-                    "parent_name": "django.core.management.commands.makemessages"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.core.management.commands.dumpdata",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "ProxyModelWarning",
-                    "parent_name": "django.core.management.commands.dumpdata"
-                },
-                {
-                    "docstring": "",
-                    "name": "Command",
-                    "parent_name": "django.core.management.commands.dumpdata"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.core.management.commands.sqlsequencereset",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "Command",
-                    "parent_name": "django.core.management.commands.sqlsequencereset"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.core.management.commands.test",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "Command",
-                    "parent_name": "django.core.management.commands.test"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.core.management.commands.shell",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "Command",
-                    "parent_name": "django.core.management.commands.shell"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.core.management.commands.startproject",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "Command",
-                    "parent_name": "django.core.management.commands.startproject"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.core.management.commands.makemigrations",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "Command",
-                    "parent_name": "django.core.management.commands.makemigrations"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.core.management.commands.runserver",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "Command",
-                    "parent_name": "django.core.management.commands.runserver"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.core.management.commands.migrate",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "Command",
-                    "parent_name": "django.core.management.commands.migrate"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.core.management.commands.squashmigrations",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "Command",
-                    "parent_name": "django.core.management.commands.squashmigrations"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.core.management.commands.sqlmigrate",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "Command",
-                    "parent_name": "django.core.management.commands.sqlmigrate"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.core.management.commands.testserver",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "Command",
-                    "parent_name": "django.core.management.commands.testserver"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.core.management.commands.inspectdb",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "Command",
-                    "parent_name": "django.core.management.commands.inspectdb"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.core.management.commands.loaddata",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "Command",
-                    "parent_name": "django.core.management.commands.loaddata"
-                },
-                {
-                    "docstring": "",
-                    "name": "SingleZipReader",
-                    "parent_name": "django.core.management.commands.loaddata"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.core.management.commands.sendtestemail",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "Command",
-                    "parent_name": "django.core.management.commands.sendtestemail"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.core.management.commands.check",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "Command",
-                    "parent_name": "django.core.management.commands.check"
-                }
-            ]
+            "docstring": ""
         }
     ],
     "subpackages": []

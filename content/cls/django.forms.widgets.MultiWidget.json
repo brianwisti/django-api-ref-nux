@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    A widget that is composed of multiple widgets.\n\n    In addition to the values added by Widget.get_context(), this widget\n    adds a list of subwidgets to the context as widget['subwidgets'].\n    These can be looped over and rendered like normal widgets.\n\n    You'll probably want to use this class with MultiValueField.\n    \"\"\"",
+    "name": "MultiWidget",
+    "namespace": "django.forms.widgets.MultiWidget",
+    "parent_namespace": "django.forms.widgets"
+}

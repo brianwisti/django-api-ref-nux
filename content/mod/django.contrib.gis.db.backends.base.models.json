@@ -1,11 +1,11 @@
 {
-    "docstring": "",
     "namespace": "django.contrib.gis.db.backends.base.models",
+    "docstring": "",
     "classes": [
         {
             "docstring": "\"\"\"\n    The SpatialRefSysMixin is a class used by the database-dependent\n    SpatialRefSys objects to reduce redundant code.\n    \"\"\"",
             "name": "SpatialRefSysMixin",
-            "parent_name": "django.contrib.gis.db.backends.base.models"
+            "namespace": "django.contrib.gis.db.backends.base.models.SpatialRefSysMixin"
         }
     ]
 }

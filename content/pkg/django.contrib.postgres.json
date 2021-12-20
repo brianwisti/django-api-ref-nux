@@ -1,401 +1,55 @@
 {
     "name": "django.contrib.postgres",
     "docstring": "",
+    "classes": [],
     "modules": [
         {
-            "docstring": "",
             "namespace": "django.contrib.postgres.serializers",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "RangeSerializer",
-                    "parent_name": "django.contrib.postgres.serializers"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.postgres.indexes",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "PostgresIndex",
-                    "parent_name": "django.contrib.postgres.indexes"
-                },
-                {
-                    "docstring": "",
-                    "name": "BloomIndex",
-                    "parent_name": "django.contrib.postgres.indexes"
-                },
-                {
-                    "docstring": "",
-                    "name": "BrinIndex",
-                    "parent_name": "django.contrib.postgres.indexes"
-                },
-                {
-                    "docstring": "",
-                    "name": "BTreeIndex",
-                    "parent_name": "django.contrib.postgres.indexes"
-                },
-                {
-                    "docstring": "",
-                    "name": "GinIndex",
-                    "parent_name": "django.contrib.postgres.indexes"
-                },
-                {
-                    "docstring": "",
-                    "name": "GistIndex",
-                    "parent_name": "django.contrib.postgres.indexes"
-                },
-                {
-                    "docstring": "",
-                    "name": "HashIndex",
-                    "parent_name": "django.contrib.postgres.indexes"
-                },
-                {
-                    "docstring": "",
-                    "name": "SpGistIndex",
-                    "parent_name": "django.contrib.postgres.indexes"
-                },
-                {
-                    "docstring": "",
-                    "name": "OpClass",
-                    "parent_name": "django.contrib.postgres.indexes"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.postgres.expressions",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "ArraySubquery",
-                    "parent_name": "django.contrib.postgres.expressions"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.postgres.apps",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "PostgresConfig",
-                    "parent_name": "django.contrib.postgres.apps"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.postgres.signals",
-            "classes": []
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.postgres.functions",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "RandomUUID",
-                    "parent_name": "django.contrib.postgres.functions"
-                },
-                {
-                    "docstring": "",
-                    "name": "TransactionNow",
-                    "parent_name": "django.contrib.postgres.functions"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.postgres.search",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "SearchVectorExact",
-                    "parent_name": "django.contrib.postgres.search"
-                },
-                {
-                    "docstring": "",
-                    "name": "SearchVectorField",
-                    "parent_name": "django.contrib.postgres.search"
-                },
-                {
-                    "docstring": "",
-                    "name": "SearchQueryField",
-                    "parent_name": "django.contrib.postgres.search"
-                },
-                {
-                    "docstring": "",
-                    "name": "SearchConfig",
-                    "parent_name": "django.contrib.postgres.search"
-                },
-                {
-                    "docstring": "",
-                    "name": "SearchVectorCombinable",
-                    "parent_name": "django.contrib.postgres.search"
-                },
-                {
-                    "docstring": "",
-                    "name": "SearchVector",
-                    "parent_name": "django.contrib.postgres.search"
-                },
-                {
-                    "docstring": "",
-                    "name": "CombinedSearchVector",
-                    "parent_name": "django.contrib.postgres.search"
-                },
-                {
-                    "docstring": "",
-                    "name": "SearchQueryCombinable",
-                    "parent_name": "django.contrib.postgres.search"
-                },
-                {
-                    "docstring": "",
-                    "name": "SearchQuery",
-                    "parent_name": "django.contrib.postgres.search"
-                },
-                {
-                    "docstring": "",
-                    "name": "CombinedSearchQuery",
-                    "parent_name": "django.contrib.postgres.search"
-                },
-                {
-                    "docstring": "",
-                    "name": "SearchRank",
-                    "parent_name": "django.contrib.postgres.search"
-                },
-                {
-                    "docstring": "",
-                    "name": "SearchHeadline",
-                    "parent_name": "django.contrib.postgres.search"
-                },
-                {
-                    "docstring": "",
-                    "name": "TrigramBase",
-                    "parent_name": "django.contrib.postgres.search"
-                },
-                {
-                    "docstring": "",
-                    "name": "TrigramWordBase",
-                    "parent_name": "django.contrib.postgres.search"
-                },
-                {
-                    "docstring": "",
-                    "name": "TrigramSimilarity",
-                    "parent_name": "django.contrib.postgres.search"
-                },
-                {
-                    "docstring": "",
-                    "name": "TrigramDistance",
-                    "parent_name": "django.contrib.postgres.search"
-                },
-                {
-                    "docstring": "",
-                    "name": "TrigramWordDistance",
-                    "parent_name": "django.contrib.postgres.search"
-                },
-                {
-                    "docstring": "",
-                    "name": "TrigramWordSimilarity",
-                    "parent_name": "django.contrib.postgres.search"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.postgres.operations",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "CreateExtension",
-                    "parent_name": "django.contrib.postgres.operations"
-                },
-                {
-                    "docstring": "",
-                    "name": "BloomExtension",
-                    "parent_name": "django.contrib.postgres.operations"
-                },
-                {
-                    "docstring": "",
-                    "name": "BtreeGinExtension",
-                    "parent_name": "django.contrib.postgres.operations"
-                },
-                {
-                    "docstring": "",
-                    "name": "BtreeGistExtension",
-                    "parent_name": "django.contrib.postgres.operations"
-                },
-                {
-                    "docstring": "",
-                    "name": "CITextExtension",
-                    "parent_name": "django.contrib.postgres.operations"
-                },
-                {
-                    "docstring": "",
-                    "name": "CryptoExtension",
-                    "parent_name": "django.contrib.postgres.operations"
-                },
-                {
-                    "docstring": "",
-                    "name": "HStoreExtension",
-                    "parent_name": "django.contrib.postgres.operations"
-                },
-                {
-                    "docstring": "",
-                    "name": "TrigramExtension",
-                    "parent_name": "django.contrib.postgres.operations"
-                },
-                {
-                    "docstring": "",
-                    "name": "UnaccentExtension",
-                    "parent_name": "django.contrib.postgres.operations"
-                },
-                {
-                    "docstring": "",
-                    "name": "NotInTransactionMixin",
-                    "parent_name": "django.contrib.postgres.operations"
-                },
-                {
-                    "docstring": "\"\"\"Create an index using PostgreSQL's CREATE INDEX CONCURRENTLY syntax.\"\"\"",
-                    "name": "AddIndexConcurrently",
-                    "parent_name": "django.contrib.postgres.operations"
-                },
-                {
-                    "docstring": "\"\"\"Remove an index using PostgreSQL's DROP INDEX CONCURRENTLY syntax.\"\"\"",
-                    "name": "RemoveIndexConcurrently",
-                    "parent_name": "django.contrib.postgres.operations"
-                },
-                {
-                    "docstring": "",
-                    "name": "CollationOperation",
-                    "parent_name": "django.contrib.postgres.operations"
-                },
-                {
-                    "docstring": "\"\"\"Create a collation.\"\"\"",
-                    "name": "CreateCollation",
-                    "parent_name": "django.contrib.postgres.operations"
-                },
-                {
-                    "docstring": "\"\"\"Remove a collation.\"\"\"",
-                    "name": "RemoveCollation",
-                    "parent_name": "django.contrib.postgres.operations"
-                },
-                {
-                    "docstring": "\"\"\"\n    Add a table constraint without enforcing validation, using PostgreSQL's\n    NOT VALID syntax.\n    \"\"\"",
-                    "name": "AddConstraintNotValid",
-                    "parent_name": "django.contrib.postgres.operations"
-                },
-                {
-                    "docstring": "\"\"\"Validate a table NOT VALID constraint.\"\"\"",
-                    "name": "ValidateConstraint",
-                    "parent_name": "django.contrib.postgres.operations"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.postgres.utils",
-            "classes": []
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.postgres.validators",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "ArrayMaxLengthValidator",
-                    "parent_name": "django.contrib.postgres.validators"
-                },
-                {
-                    "docstring": "",
-                    "name": "ArrayMinLengthValidator",
-                    "parent_name": "django.contrib.postgres.validators"
-                },
-                {
-                    "docstring": "\"\"\"A validator designed for HStore to require/restrict keys.\"\"\"",
-                    "name": "KeysValidator",
-                    "parent_name": "django.contrib.postgres.validators"
-                },
-                {
-                    "docstring": "",
-                    "name": "RangeMaxValueValidator",
-                    "parent_name": "django.contrib.postgres.validators"
-                },
-                {
-                    "docstring": "",
-                    "name": "RangeMinValueValidator",
-                    "parent_name": "django.contrib.postgres.validators"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.postgres.constraints",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "ExclusionConstraint",
-                    "parent_name": "django.contrib.postgres.constraints"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.postgres.lookups",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "DataContains",
-                    "parent_name": "django.contrib.postgres.lookups"
-                },
-                {
-                    "docstring": "",
-                    "name": "ContainedBy",
-                    "parent_name": "django.contrib.postgres.lookups"
-                },
-                {
-                    "docstring": "",
-                    "name": "Overlap",
-                    "parent_name": "django.contrib.postgres.lookups"
-                },
-                {
-                    "docstring": "",
-                    "name": "HasKey",
-                    "parent_name": "django.contrib.postgres.lookups"
-                },
-                {
-                    "docstring": "",
-                    "name": "HasKeys",
-                    "parent_name": "django.contrib.postgres.lookups"
-                },
-                {
-                    "docstring": "",
-                    "name": "HasAnyKeys",
-                    "parent_name": "django.contrib.postgres.lookups"
-                },
-                {
-                    "docstring": "",
-                    "name": "Unaccent",
-                    "parent_name": "django.contrib.postgres.lookups"
-                },
-                {
-                    "docstring": "",
-                    "name": "SearchLookup",
-                    "parent_name": "django.contrib.postgres.lookups"
-                },
-                {
-                    "docstring": "",
-                    "name": "TrigramSimilar",
-                    "parent_name": "django.contrib.postgres.lookups"
-                },
-                {
-                    "docstring": "",
-                    "name": "TrigramWordSimilar",
-                    "parent_name": "django.contrib.postgres.lookups"
-                }
-            ]
+            "docstring": ""
         }
     ],
     "subpackages": [

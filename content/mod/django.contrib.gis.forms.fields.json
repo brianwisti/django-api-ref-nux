@@ -1,46 +1,46 @@
 {
-    "docstring": "",
     "namespace": "django.contrib.gis.forms.fields",
+    "docstring": "",
     "classes": [
         {
             "docstring": "\"\"\"\n    This is the basic form field for a Geometry.  Any textual input that is\n    accepted by GEOSGeometry is accepted by this form.  By default,\n    this includes WKT, HEXEWKB, WKB (in a buffer), and GeoJSON.\n    \"\"\"",
             "name": "GeometryField",
-            "parent_name": "django.contrib.gis.forms.fields"
+            "namespace": "django.contrib.gis.forms.fields.GeometryField"
         },
         {
             "docstring": "",
             "name": "GeometryCollectionField",
-            "parent_name": "django.contrib.gis.forms.fields"
+            "namespace": "django.contrib.gis.forms.fields.GeometryCollectionField"
         },
         {
             "docstring": "",
             "name": "PointField",
-            "parent_name": "django.contrib.gis.forms.fields"
+            "namespace": "django.contrib.gis.forms.fields.PointField"
         },
         {
             "docstring": "",
             "name": "MultiPointField",
-            "parent_name": "django.contrib.gis.forms.fields"
+            "namespace": "django.contrib.gis.forms.fields.MultiPointField"
         },
         {
             "docstring": "",
             "name": "LineStringField",
-            "parent_name": "django.contrib.gis.forms.fields"
+            "namespace": "django.contrib.gis.forms.fields.LineStringField"
         },
         {
             "docstring": "",
             "name": "MultiLineStringField",
-            "parent_name": "django.contrib.gis.forms.fields"
+            "namespace": "django.contrib.gis.forms.fields.MultiLineStringField"
         },
         {
             "docstring": "",
             "name": "PolygonField",
-            "parent_name": "django.contrib.gis.forms.fields"
+            "namespace": "django.contrib.gis.forms.fields.PolygonField"
         },
         {
             "docstring": "",
             "name": "MultiPolygonField",
-            "parent_name": "django.contrib.gis.forms.fields"
+            "namespace": "django.contrib.gis.forms.fields.MultiPolygonField"
         }
     ]
 }

@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    Object to wrap callable appearing in settings.\n    * Not to call in the debug page (#21345).\n    * Not to break the debug page if the callable forbidding to set attributes\n      (#23070).\n    \"\"\"",
+    "name": "CallableSettingWrapper",
+    "namespace": "django.views.debug.CallableSettingWrapper",
+    "parent_namespace": "django.views.debug"
+}

@@ -1,21 +1,21 @@
 {
-    "docstring": "",
     "namespace": "django.contrib.admin.utils",
+    "docstring": "",
     "classes": [
         {
             "docstring": "\"\"\"A field is a foreign key attname, i.e. <FK>_id.\"\"\"",
             "name": "FieldIsAForeignKeyColumnName",
-            "parent_name": "django.contrib.admin.utils"
+            "namespace": "django.contrib.admin.utils.FieldIsAForeignKeyColumnName"
         },
         {
             "docstring": "",
             "name": "NestedObjects",
-            "parent_name": "django.contrib.admin.utils"
+            "namespace": "django.contrib.admin.utils.NestedObjects"
         },
         {
             "docstring": "",
             "name": "NotRelationField",
-            "parent_name": "django.contrib.admin.utils"
+            "namespace": "django.contrib.admin.utils.NotRelationField"
         }
     ]
 }

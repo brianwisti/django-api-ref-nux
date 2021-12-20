@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    Request-phase cache middleware that fetches a page from the cache.\n\n    Must be used as part of the two-part update/fetch cache middleware.\n    FetchFromCacheMiddleware must be the last piece of middleware in MIDDLEWARE\n    so that it'll get called last during the request phase.\n    \"\"\"",
+    "name": "FetchFromCacheMiddleware",
+    "namespace": "django.middleware.cache.FetchFromCacheMiddleware",
+    "parent_namespace": "django.middleware.cache"
+}

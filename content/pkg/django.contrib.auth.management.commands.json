@@ -1,33 +1,15 @@
 {
     "name": "django.contrib.auth.management.commands",
     "docstring": "",
+    "classes": [],
     "modules": [
         {
-            "docstring": "\"\"\"\nManagement utility to create superusers.\n\"\"\"",
             "namespace": "django.contrib.auth.management.commands.createsuperuser",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "NotRunningInTTYException",
-                    "parent_name": "django.contrib.auth.management.commands.createsuperuser"
-                },
-                {
-                    "docstring": "",
-                    "name": "Command",
-                    "parent_name": "django.contrib.auth.management.commands.createsuperuser"
-                }
-            ]
+            "docstring": "\"\"\"\nManagement utility to create superusers.\n\"\"\""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.auth.management.commands.changepassword",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "Command",
-                    "parent_name": "django.contrib.auth.management.commands.changepassword"
-                }
-            ]
+            "docstring": ""
         }
     ],
     "subpackages": []

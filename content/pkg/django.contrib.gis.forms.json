@@ -1,73 +1,15 @@
 {
     "name": "django.contrib.gis.forms",
     "docstring": "",
+    "classes": [],
     "modules": [
         {
-            "docstring": "",
             "namespace": "django.contrib.gis.forms.widgets",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    The base class for rich geometry widgets.\n    Render a map using the WKT of the geometry.\n    \"\"\"",
-                    "name": "BaseGeometryWidget",
-                    "parent_name": "django.contrib.gis.forms.widgets"
-                },
-                {
-                    "docstring": "",
-                    "name": "OpenLayersWidget",
-                    "parent_name": "django.contrib.gis.forms.widgets"
-                },
-                {
-                    "docstring": "\"\"\"\n    An OpenLayers/OpenStreetMap-based widget.\n    \"\"\"",
-                    "name": "OSMWidget",
-                    "parent_name": "django.contrib.gis.forms.widgets"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.gis.forms.fields",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    This is the basic form field for a Geometry.  Any textual input that is\n    accepted by GEOSGeometry is accepted by this form.  By default,\n    this includes WKT, HEXEWKB, WKB (in a buffer), and GeoJSON.\n    \"\"\"",
-                    "name": "GeometryField",
-                    "parent_name": "django.contrib.gis.forms.fields"
-                },
-                {
-                    "docstring": "",
-                    "name": "GeometryCollectionField",
-                    "parent_name": "django.contrib.gis.forms.fields"
-                },
-                {
-                    "docstring": "",
-                    "name": "PointField",
-                    "parent_name": "django.contrib.gis.forms.fields"
-                },
-                {
-                    "docstring": "",
-                    "name": "MultiPointField",
-                    "parent_name": "django.contrib.gis.forms.fields"
-                },
-                {
-                    "docstring": "",
-                    "name": "LineStringField",
-                    "parent_name": "django.contrib.gis.forms.fields"
-                },
-                {
-                    "docstring": "",
-                    "name": "MultiLineStringField",
-                    "parent_name": "django.contrib.gis.forms.fields"
-                },
-                {
-                    "docstring": "",
-                    "name": "PolygonField",
-                    "parent_name": "django.contrib.gis.forms.fields"
-                },
-                {
-                    "docstring": "",
-                    "name": "MultiPolygonField",
-                    "parent_name": "django.contrib.gis.forms.fields"
-                }
-            ]
+            "docstring": ""
         }
     ],
     "subpackages": []

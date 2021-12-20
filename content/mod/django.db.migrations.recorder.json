@@ -1,11 +1,11 @@
 {
-    "docstring": "",
     "namespace": "django.db.migrations.recorder",
+    "docstring": "",
     "classes": [
         {
             "docstring": "\"\"\"\n    Deal with storing migration records in the database.\n\n    Because this table is actually itself used for dealing with model\n    creation, it's the one thing we can't do normally via migrations.\n    We manually handle table creation/schema updating (using schema backend)\n    and then have a floating model to do queries with.\n\n    If a migration is unapplied its row is removed from the table. Having\n    a row in the table always means a migration is applied.\n    \"\"\"",
             "name": "MigrationRecorder",
-            "parent_name": "django.db.migrations.recorder"
+            "namespace": "django.db.migrations.recorder.MigrationRecorder"
         }
     ]
 }

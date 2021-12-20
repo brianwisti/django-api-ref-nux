@@ -1,106 +1,35 @@
 {
     "name": "django.contrib.contenttypes",
     "docstring": "",
+    "classes": [],
     "modules": [
         {
-            "docstring": "",
             "namespace": "django.contrib.contenttypes.views",
-            "classes": []
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.contenttypes.apps",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "ContentTypesConfig",
-                    "parent_name": "django.contrib.contenttypes.apps"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.contenttypes.admin",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "GenericInlineModelAdminChecks",
-                    "parent_name": "django.contrib.contenttypes.admin"
-                },
-                {
-                    "docstring": "",
-                    "name": "GenericInlineModelAdmin",
-                    "parent_name": "django.contrib.contenttypes.admin"
-                },
-                {
-                    "docstring": "",
-                    "name": "GenericStackedInline",
-                    "parent_name": "django.contrib.contenttypes.admin"
-                },
-                {
-                    "docstring": "",
-                    "name": "GenericTabularInline",
-                    "parent_name": "django.contrib.contenttypes.admin"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.contenttypes.fields",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    Provide a generic many-to-one relation through the ``content_type`` and\n    ``object_id`` fields.\n\n    This class also doubles as an accessor to the related object (similar to\n    ForwardManyToOneDescriptor) by adding itself as a model attribute.\n    \"\"\"",
-                    "name": "GenericForeignKey",
-                    "parent_name": "django.contrib.contenttypes.fields"
-                },
-                {
-                    "docstring": "\"\"\"\n    Used by GenericRelation to store information about the relation.\n    \"\"\"",
-                    "name": "GenericRel",
-                    "parent_name": "django.contrib.contenttypes.fields"
-                },
-                {
-                    "docstring": "\"\"\"\n    Provide a reverse to a relation created by a GenericForeignKey.\n    \"\"\"",
-                    "name": "GenericRelation",
-                    "parent_name": "django.contrib.contenttypes.fields"
-                },
-                {
-                    "docstring": "\"\"\"\n    Accessor to the related objects manager on the one-to-many relation created\n    by GenericRelation.\n\n    In the example::\n\n        class Post(Model):\n            comments = GenericRelation(Comment)\n\n    ``post.comments`` is a ReverseGenericManyToOneDescriptor instance.\n    \"\"\"",
-                    "name": "ReverseGenericManyToOneDescriptor",
-                    "parent_name": "django.contrib.contenttypes.fields"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.contenttypes.forms",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    A formset for generic inline objects to a parent.\n    \"\"\"",
-                    "name": "BaseGenericInlineFormSet",
-                    "parent_name": "django.contrib.contenttypes.forms"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.contenttypes.checks",
-            "classes": []
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.contenttypes.models",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "ContentTypeManager",
-                    "parent_name": "django.contrib.contenttypes.models"
-                },
-                {
-                    "docstring": "",
-                    "name": "ContentType",
-                    "parent_name": "django.contrib.contenttypes.models"
-                }
-            ]
+            "docstring": ""
         }
     ],
     "subpackages": [

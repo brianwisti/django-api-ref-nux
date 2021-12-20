@@ -1,11 +1,11 @@
 {
-    "docstring": "\"\"\"\nWrapper for loading templates from a plain Python dict.\n\"\"\"",
     "namespace": "django.template.loaders.locmem",
+    "docstring": "\"\"\"\nWrapper for loading templates from a plain Python dict.\n\"\"\"",
     "classes": [
         {
             "docstring": "",
             "name": "Loader",
-            "parent_name": "django.template.loaders.locmem"
+            "namespace": "django.template.loaders.locmem.Loader"
         }
     ]
 }

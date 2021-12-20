@@ -1,21 +1,21 @@
 {
-    "docstring": "",
     "namespace": "django.contrib.auth.middleware",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "AuthenticationMiddleware",
-            "parent_name": "django.contrib.auth.middleware"
+            "namespace": "django.contrib.auth.middleware.AuthenticationMiddleware"
         },
         {
             "docstring": "\"\"\"\n    Middleware for utilizing web-server-provided authentication.\n\n    If request.user is not authenticated, then this middleware attempts to\n    authenticate the username passed in the ``REMOTE_USER`` request header.\n    If authentication is successful, the user is automatically logged in to\n    persist the user in the session.\n\n    The header used is configurable and defaults to ``REMOTE_USER``.  Subclass\n    this class and change the ``header`` attribute if you need to use a\n    different header.\n    \"\"\"",
             "name": "RemoteUserMiddleware",
-            "parent_name": "django.contrib.auth.middleware"
+            "namespace": "django.contrib.auth.middleware.RemoteUserMiddleware"
         },
         {
             "docstring": "\"\"\"\n    Middleware for web-server provided authentication on logon pages.\n\n    Like RemoteUserMiddleware but keeps the user authenticated even if\n    the header (``REMOTE_USER``) is not found in the request. Useful\n    for setups when the external authentication via ``REMOTE_USER``\n    is only expected to happen on some \"logon\" URL and the rest of\n    the application wants to use Django's authentication mechanism.\n    \"\"\"",
             "name": "PersistentRemoteUserMiddleware",
-            "parent_name": "django.contrib.auth.middleware"
+            "namespace": "django.contrib.auth.middleware.PersistentRemoteUserMiddleware"
         }
     ]
 }

@@ -1,46 +1,46 @@
 {
-    "docstring": "\"\"\"\nThis module converts requested URLs to callback view functions.\n\nURLResolver is the main class here. Its resolve() method takes a URL (as\na string) and returns a ResolverMatch object which provides access to all\nattributes of the resolved URL match.\n\"\"\"",
     "namespace": "django.urls.resolvers",
+    "docstring": "\"\"\"\nThis module converts requested URLs to callback view functions.\n\nURLResolver is the main class here. Its resolve() method takes a URL (as\na string) and returns a ResolverMatch object which provides access to all\nattributes of the resolved URL match.\n\"\"\"",
     "classes": [
         {
             "docstring": "",
             "name": "ResolverMatch",
-            "parent_name": "django.urls.resolvers"
+            "namespace": "django.urls.resolvers.ResolverMatch"
         },
         {
             "docstring": "",
             "name": "LocaleRegexDescriptor",
-            "parent_name": "django.urls.resolvers"
+            "namespace": "django.urls.resolvers.LocaleRegexDescriptor"
         },
         {
             "docstring": "",
             "name": "CheckURLMixin",
-            "parent_name": "django.urls.resolvers"
+            "namespace": "django.urls.resolvers.CheckURLMixin"
         },
         {
             "docstring": "",
             "name": "RegexPattern",
-            "parent_name": "django.urls.resolvers"
+            "namespace": "django.urls.resolvers.RegexPattern"
         },
         {
             "docstring": "",
             "name": "RoutePattern",
-            "parent_name": "django.urls.resolvers"
+            "namespace": "django.urls.resolvers.RoutePattern"
         },
         {
             "docstring": "",
             "name": "LocalePrefixPattern",
-            "parent_name": "django.urls.resolvers"
+            "namespace": "django.urls.resolvers.LocalePrefixPattern"
         },
         {
             "docstring": "",
             "name": "URLPattern",
-            "parent_name": "django.urls.resolvers"
+            "namespace": "django.urls.resolvers.URLPattern"
         },
         {
             "docstring": "",
             "name": "URLResolver",
-            "parent_name": "django.urls.resolvers"
+            "namespace": "django.urls.resolvers.URLResolver"
         }
     ]
 }

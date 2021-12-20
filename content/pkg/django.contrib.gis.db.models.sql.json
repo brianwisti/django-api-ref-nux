@@ -1,22 +1,11 @@
 {
     "name": "django.contrib.gis.db.models.sql",
     "docstring": "",
+    "classes": [],
     "modules": [
         {
-            "docstring": "\"\"\"\nThis module holds simple classes to convert geospatial values from the\ndatabase.\n\"\"\"",
             "namespace": "django.contrib.gis.db.models.sql.conversion",
-            "classes": [
-                {
-                    "docstring": "\"Wrapper for Area values.\"",
-                    "name": "AreaField",
-                    "parent_name": "django.contrib.gis.db.models.sql.conversion"
-                },
-                {
-                    "docstring": "\"Wrapper for Distance values.\"",
-                    "name": "DistanceField",
-                    "parent_name": "django.contrib.gis.db.models.sql.conversion"
-                }
-            ]
+            "docstring": "\"\"\"\nThis module holds simple classes to convert geospatial values from the\ndatabase.\n\"\"\""
         }
     ],
     "subpackages": []

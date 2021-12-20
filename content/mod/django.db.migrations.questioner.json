@@ -1,21 +1,21 @@
 {
-    "docstring": "",
     "namespace": "django.db.migrations.questioner",
+    "docstring": "",
     "classes": [
         {
             "docstring": "\"\"\"\n    Give the autodetector responses to questions it might have.\n    This base class has a built-in noninteractive mode, but the\n    interactive subclass is what the command-line arguments will use.\n    \"\"\"",
             "name": "MigrationQuestioner",
-            "parent_name": "django.db.migrations.questioner"
+            "namespace": "django.db.migrations.questioner.MigrationQuestioner"
         },
         {
             "docstring": "",
             "name": "InteractiveMigrationQuestioner",
-            "parent_name": "django.db.migrations.questioner"
+            "namespace": "django.db.migrations.questioner.InteractiveMigrationQuestioner"
         },
         {
             "docstring": "",
             "name": "NonInteractiveMigrationQuestioner",
-            "parent_name": "django.db.migrations.questioner"
+            "namespace": "django.db.migrations.questioner.NonInteractiveMigrationQuestioner"
         }
     ]
 }

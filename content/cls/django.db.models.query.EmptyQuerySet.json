@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    Marker class to checking if a queryset is empty by .none():\n        isinstance(qs.none(), EmptyQuerySet) -> True\n    \"\"\"",
+    "name": "EmptyQuerySet",
+    "namespace": "django.db.models.query.EmptyQuerySet",
+    "parent_namespace": "django.db.models.query"
+}

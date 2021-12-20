@@ -1,46 +1,46 @@
 {
-    "docstring": "\"\"\"\nClasses to represent the definitions of aggregate functions.\n\"\"\"",
     "namespace": "django.db.models.aggregates",
+    "docstring": "\"\"\"\nClasses to represent the definitions of aggregate functions.\n\"\"\"",
     "classes": [
         {
             "docstring": "",
             "name": "Aggregate",
-            "parent_name": "django.db.models.aggregates"
+            "namespace": "django.db.models.aggregates.Aggregate"
         },
         {
             "docstring": "",
             "name": "Avg",
-            "parent_name": "django.db.models.aggregates"
+            "namespace": "django.db.models.aggregates.Avg"
         },
         {
             "docstring": "",
             "name": "Count",
-            "parent_name": "django.db.models.aggregates"
+            "namespace": "django.db.models.aggregates.Count"
         },
         {
             "docstring": "",
             "name": "Max",
-            "parent_name": "django.db.models.aggregates"
+            "namespace": "django.db.models.aggregates.Max"
         },
         {
             "docstring": "",
             "name": "Min",
-            "parent_name": "django.db.models.aggregates"
+            "namespace": "django.db.models.aggregates.Min"
         },
         {
             "docstring": "",
             "name": "StdDev",
-            "parent_name": "django.db.models.aggregates"
+            "namespace": "django.db.models.aggregates.StdDev"
         },
         {
             "docstring": "",
             "name": "Sum",
-            "parent_name": "django.db.models.aggregates"
+            "namespace": "django.db.models.aggregates.Sum"
         },
         {
             "docstring": "",
             "name": "Variance",
-            "parent_name": "django.db.models.aggregates"
+            "namespace": "django.db.models.aggregates.Variance"
         }
     ]
 }

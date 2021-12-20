@@ -1,91 +1,91 @@
 {
-    "docstring": "",
     "namespace": "django.db.migrations.operations.models",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "ModelOperation",
-            "parent_name": "django.db.migrations.operations.models"
+            "namespace": "django.db.migrations.operations.models.ModelOperation"
         },
         {
             "docstring": "\"\"\"Create a model's table.\"\"\"",
             "name": "CreateModel",
-            "parent_name": "django.db.migrations.operations.models"
+            "namespace": "django.db.migrations.operations.models.CreateModel"
         },
         {
             "docstring": "\"\"\"Drop a model's table.\"\"\"",
             "name": "DeleteModel",
-            "parent_name": "django.db.migrations.operations.models"
+            "namespace": "django.db.migrations.operations.models.DeleteModel"
         },
         {
             "docstring": "\"\"\"Rename a model.\"\"\"",
             "name": "RenameModel",
-            "parent_name": "django.db.migrations.operations.models"
+            "namespace": "django.db.migrations.operations.models.RenameModel"
         },
         {
             "docstring": "",
             "name": "ModelOptionOperation",
-            "parent_name": "django.db.migrations.operations.models"
+            "namespace": "django.db.migrations.operations.models.ModelOptionOperation"
         },
         {
             "docstring": "\"\"\"Rename a model's table.\"\"\"",
             "name": "AlterModelTable",
-            "parent_name": "django.db.migrations.operations.models"
+            "namespace": "django.db.migrations.operations.models.AlterModelTable"
         },
         {
             "docstring": "",
             "name": "AlterTogetherOptionOperation",
-            "parent_name": "django.db.migrations.operations.models"
+            "namespace": "django.db.migrations.operations.models.AlterTogetherOptionOperation"
         },
         {
             "docstring": "\"\"\"\n    Change the value of unique_together to the target one.\n    Input value of unique_together must be a set of tuples.\n    \"\"\"",
             "name": "AlterUniqueTogether",
-            "parent_name": "django.db.migrations.operations.models"
+            "namespace": "django.db.migrations.operations.models.AlterUniqueTogether"
         },
         {
             "docstring": "\"\"\"\n    Change the value of index_together to the target one.\n    Input value of index_together must be a set of tuples.\n    \"\"\"",
             "name": "AlterIndexTogether",
-            "parent_name": "django.db.migrations.operations.models"
+            "namespace": "django.db.migrations.operations.models.AlterIndexTogether"
         },
         {
             "docstring": "\"\"\"Represent a change with the order_with_respect_to option.\"\"\"",
             "name": "AlterOrderWithRespectTo",
-            "parent_name": "django.db.migrations.operations.models"
+            "namespace": "django.db.migrations.operations.models.AlterOrderWithRespectTo"
         },
         {
             "docstring": "\"\"\"\n    Set new model options that don't directly affect the database schema\n    (like verbose_name, permissions, ordering). Python code in migrations\n    may still need them.\n    \"\"\"",
             "name": "AlterModelOptions",
-            "parent_name": "django.db.migrations.operations.models"
+            "namespace": "django.db.migrations.operations.models.AlterModelOptions"
         },
         {
             "docstring": "\"\"\"Alter the model's managers.\"\"\"",
             "name": "AlterModelManagers",
-            "parent_name": "django.db.migrations.operations.models"
+            "namespace": "django.db.migrations.operations.models.AlterModelManagers"
         },
         {
             "docstring": "",
             "name": "IndexOperation",
-            "parent_name": "django.db.migrations.operations.models"
+            "namespace": "django.db.migrations.operations.models.IndexOperation"
         },
         {
             "docstring": "\"\"\"Add an index on a model.\"\"\"",
             "name": "AddIndex",
-            "parent_name": "django.db.migrations.operations.models"
+            "namespace": "django.db.migrations.operations.models.AddIndex"
         },
         {
             "docstring": "\"\"\"Remove an index from a model.\"\"\"",
             "name": "RemoveIndex",
-            "parent_name": "django.db.migrations.operations.models"
+            "namespace": "django.db.migrations.operations.models.RemoveIndex"
         },
         {
             "docstring": "",
             "name": "AddConstraint",
-            "parent_name": "django.db.migrations.operations.models"
+            "namespace": "django.db.migrations.operations.models.AddConstraint"
         },
         {
             "docstring": "",
             "name": "RemoveConstraint",
-            "parent_name": "django.db.migrations.operations.models"
+            "namespace": "django.db.migrations.operations.models.RemoveConstraint"
         }
     ]
 }

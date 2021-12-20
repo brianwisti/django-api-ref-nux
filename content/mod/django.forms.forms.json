@@ -1,21 +1,21 @@
 {
-    "docstring": "\"\"\"\nForm classes\n\"\"\"",
     "namespace": "django.forms.forms",
+    "docstring": "\"\"\"\nForm classes\n\"\"\"",
     "classes": [
         {
             "docstring": "\"\"\"Collect Fields declared on the base classes.\"\"\"",
             "name": "DeclarativeFieldsMetaclass",
-            "parent_name": "django.forms.forms"
+            "namespace": "django.forms.forms.DeclarativeFieldsMetaclass"
         },
         {
             "docstring": "\"\"\"\n    The main implementation of all the Form logic. Note that this class is\n    different than Form. See the comments by the Form class for more info. Any\n    improvements to the form API should be made to this class, not to the Form\n    class.\n    \"\"\"",
             "name": "BaseForm",
-            "parent_name": "django.forms.forms"
+            "namespace": "django.forms.forms.BaseForm"
         },
         {
             "docstring": "\"A collection of Fields, plus their associated data.\"",
             "name": "Form",
-            "parent_name": "django.forms.forms"
+            "namespace": "django.forms.forms.Form"
         }
     ]
 }

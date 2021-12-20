@@ -1,156 +1,156 @@
 {
-    "docstring": "\"\"\"\nHTML Widget classes\n\"\"\"",
     "namespace": "django.forms.widgets",
+    "docstring": "\"\"\"\nHTML Widget classes\n\"\"\"",
     "classes": [
         {
             "docstring": "",
             "name": "MediaOrderConflictWarning",
-            "parent_name": "django.forms.widgets"
+            "namespace": "django.forms.widgets.MediaOrderConflictWarning"
         },
         {
             "docstring": "",
             "name": "Media",
-            "parent_name": "django.forms.widgets"
+            "namespace": "django.forms.widgets.Media"
         },
         {
             "docstring": "\"\"\"\n    Metaclass for classes that can have media definitions.\n    \"\"\"",
             "name": "MediaDefiningClass",
-            "parent_name": "django.forms.widgets"
+            "namespace": "django.forms.widgets.MediaDefiningClass"
         },
         {
             "docstring": "",
             "name": "Widget",
-            "parent_name": "django.forms.widgets"
+            "namespace": "django.forms.widgets.Widget"
         },
         {
             "docstring": "\"\"\"\n    Base class for all <input> widgets.\n    \"\"\"",
             "name": "Input",
-            "parent_name": "django.forms.widgets"
+            "namespace": "django.forms.widgets.Input"
         },
         {
             "docstring": "",
             "name": "TextInput",
-            "parent_name": "django.forms.widgets"
+            "namespace": "django.forms.widgets.TextInput"
         },
         {
             "docstring": "",
             "name": "NumberInput",
-            "parent_name": "django.forms.widgets"
+            "namespace": "django.forms.widgets.NumberInput"
         },
         {
             "docstring": "",
             "name": "EmailInput",
-            "parent_name": "django.forms.widgets"
+            "namespace": "django.forms.widgets.EmailInput"
         },
         {
             "docstring": "",
             "name": "URLInput",
-            "parent_name": "django.forms.widgets"
+            "namespace": "django.forms.widgets.URLInput"
         },
         {
             "docstring": "",
             "name": "PasswordInput",
-            "parent_name": "django.forms.widgets"
+            "namespace": "django.forms.widgets.PasswordInput"
         },
         {
             "docstring": "",
             "name": "HiddenInput",
-            "parent_name": "django.forms.widgets"
+            "namespace": "django.forms.widgets.HiddenInput"
         },
         {
             "docstring": "\"\"\"\n    Handle <input type=\"hidden\"> for fields that have a list\n    of values.\n    \"\"\"",
             "name": "MultipleHiddenInput",
-            "parent_name": "django.forms.widgets"
+            "namespace": "django.forms.widgets.MultipleHiddenInput"
         },
         {
             "docstring": "",
             "name": "FileInput",
-            "parent_name": "django.forms.widgets"
+            "namespace": "django.forms.widgets.FileInput"
         },
         {
             "docstring": "",
             "name": "ClearableFileInput",
-            "parent_name": "django.forms.widgets"
+            "namespace": "django.forms.widgets.ClearableFileInput"
         },
         {
             "docstring": "",
             "name": "Textarea",
-            "parent_name": "django.forms.widgets"
+            "namespace": "django.forms.widgets.Textarea"
         },
         {
             "docstring": "",
             "name": "DateTimeBaseInput",
-            "parent_name": "django.forms.widgets"
+            "namespace": "django.forms.widgets.DateTimeBaseInput"
         },
         {
             "docstring": "",
             "name": "DateInput",
-            "parent_name": "django.forms.widgets"
+            "namespace": "django.forms.widgets.DateInput"
         },
         {
             "docstring": "",
             "name": "DateTimeInput",
-            "parent_name": "django.forms.widgets"
+            "namespace": "django.forms.widgets.DateTimeInput"
         },
         {
             "docstring": "",
             "name": "TimeInput",
-            "parent_name": "django.forms.widgets"
+            "namespace": "django.forms.widgets.TimeInput"
         },
         {
             "docstring": "",
             "name": "CheckboxInput",
-            "parent_name": "django.forms.widgets"
+            "namespace": "django.forms.widgets.CheckboxInput"
         },
         {
             "docstring": "",
             "name": "ChoiceWidget",
-            "parent_name": "django.forms.widgets"
+            "namespace": "django.forms.widgets.ChoiceWidget"
         },
         {
             "docstring": "",
             "name": "Select",
-            "parent_name": "django.forms.widgets"
+            "namespace": "django.forms.widgets.Select"
         },
         {
             "docstring": "\"\"\"\n    A Select Widget intended to be used with NullBooleanField.\n    \"\"\"",
             "name": "NullBooleanSelect",
-            "parent_name": "django.forms.widgets"
+            "namespace": "django.forms.widgets.NullBooleanSelect"
         },
         {
             "docstring": "",
             "name": "SelectMultiple",
-            "parent_name": "django.forms.widgets"
+            "namespace": "django.forms.widgets.SelectMultiple"
         },
         {
             "docstring": "",
             "name": "RadioSelect",
-            "parent_name": "django.forms.widgets"
+            "namespace": "django.forms.widgets.RadioSelect"
         },
         {
             "docstring": "",
             "name": "CheckboxSelectMultiple",
-            "parent_name": "django.forms.widgets"
+            "namespace": "django.forms.widgets.CheckboxSelectMultiple"
         },
         {
             "docstring": "\"\"\"\n    A widget that is composed of multiple widgets.\n\n    In addition to the values added by Widget.get_context(), this widget\n    adds a list of subwidgets to the context as widget['subwidgets'].\n    These can be looped over and rendered like normal widgets.\n\n    You'll probably want to use this class with MultiValueField.\n    \"\"\"",
             "name": "MultiWidget",
-            "parent_name": "django.forms.widgets"
+            "namespace": "django.forms.widgets.MultiWidget"
         },
         {
             "docstring": "\"\"\"\n    A widget that splits datetime input into two <input type=\"text\"> boxes.\n    \"\"\"",
             "name": "SplitDateTimeWidget",
-            "parent_name": "django.forms.widgets"
+            "namespace": "django.forms.widgets.SplitDateTimeWidget"
         },
         {
             "docstring": "\"\"\"\n    A widget that splits datetime input into two <input type=\"hidden\"> inputs.\n    \"\"\"",
             "name": "SplitHiddenDateTimeWidget",
-            "parent_name": "django.forms.widgets"
+            "namespace": "django.forms.widgets.SplitHiddenDateTimeWidget"
         },
         {
             "docstring": "\"\"\"\n    A widget that splits date input into three <select> boxes.\n\n    This also serves as an example of a Widget that has more than one HTML\n    element and hence implements value_from_datadict.\n    \"\"\"",
             "name": "SelectDateWidget",
-            "parent_name": "django.forms.widgets"
+            "namespace": "django.forms.widgets.SelectDateWidget"
         }
     ]
 }

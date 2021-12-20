@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    Django uses \"format\" (e.g. '%s') style placeholders, but Oracle uses \":var\"\n    style. This fixes it -- but note that if you want to use a literal \"%s\" in\n    a query, you'll need to use \"%%s\".\n    \"\"\"",
+    "name": "FormatStylePlaceholderCursor",
+    "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor",
+    "parent_namespace": "django.db.backends.oracle.base"
+}

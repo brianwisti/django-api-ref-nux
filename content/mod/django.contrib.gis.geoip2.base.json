@@ -1,16 +1,16 @@
 {
-    "docstring": "",
     "namespace": "django.contrib.gis.geoip2.base",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "GeoIP2Exception",
-            "parent_name": "django.contrib.gis.geoip2.base"
+            "namespace": "django.contrib.gis.geoip2.base.GeoIP2Exception"
         },
         {
             "docstring": "",
             "name": "GeoIP2",
-            "parent_name": "django.contrib.gis.geoip2.base"
+            "namespace": "django.contrib.gis.geoip2.base.GeoIP2"
         }
     ]
 }

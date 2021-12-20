@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    Load migration files from disk and their status from the database.\n\n    Migration files are expected to live in the \"migrations\" directory of\n    an app. Their names are entirely unimportant from a code perspective,\n    but will probably follow the 1234_name.py convention.\n\n    On initialization, this class will scan those directories, and open and\n    read the Python files, looking for a class called Migration, which should\n    inherit from django.db.migrations.Migration. See\n    django.db.migrations.migration for what that looks like.\n\n    Some migrations will be marked as \"replacing\" another set of migrations.\n    These are loaded into a separate set of migrations away from the main ones.\n    If all the migrations they replace are either unapplied or missing from\n    disk, then they are injected into the main set, replacing the named migrations.\n    Any dependency pointers to the replaced migrations are re-pointed to the\n    new migration.\n\n    This does mean that this class MUST also talk to the database as well as\n    to disk, but this is probably fine. We're already not just operating\n    in memory.\n    \"\"\"",
+    "name": "MigrationLoader",
+    "namespace": "django.db.migrations.loader.MigrationLoader",
+    "parent_namespace": "django.db.migrations.loader"
+}

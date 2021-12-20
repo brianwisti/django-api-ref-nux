@@ -1,171 +1,171 @@
 {
-    "docstring": "\"\"\"\nField classes.\n\"\"\"",
     "namespace": "django.forms.fields",
+    "docstring": "\"\"\"\nField classes.\n\"\"\"",
     "classes": [
         {
             "docstring": "",
             "name": "Field",
-            "parent_name": "django.forms.fields"
+            "namespace": "django.forms.fields.Field"
         },
         {
             "docstring": "",
             "name": "CharField",
-            "parent_name": "django.forms.fields"
+            "namespace": "django.forms.fields.CharField"
         },
         {
             "docstring": "",
             "name": "IntegerField",
-            "parent_name": "django.forms.fields"
+            "namespace": "django.forms.fields.IntegerField"
         },
         {
             "docstring": "",
             "name": "FloatField",
-            "parent_name": "django.forms.fields"
+            "namespace": "django.forms.fields.FloatField"
         },
         {
             "docstring": "",
             "name": "DecimalField",
-            "parent_name": "django.forms.fields"
+            "namespace": "django.forms.fields.DecimalField"
         },
         {
             "docstring": "",
             "name": "BaseTemporalField",
-            "parent_name": "django.forms.fields"
+            "namespace": "django.forms.fields.BaseTemporalField"
         },
         {
             "docstring": "",
             "name": "DateField",
-            "parent_name": "django.forms.fields"
+            "namespace": "django.forms.fields.DateField"
         },
         {
             "docstring": "",
             "name": "TimeField",
-            "parent_name": "django.forms.fields"
+            "namespace": "django.forms.fields.TimeField"
         },
         {
             "docstring": "",
             "name": "DateTimeFormatsIterator",
-            "parent_name": "django.forms.fields"
+            "namespace": "django.forms.fields.DateTimeFormatsIterator"
         },
         {
             "docstring": "",
             "name": "DateTimeField",
-            "parent_name": "django.forms.fields"
+            "namespace": "django.forms.fields.DateTimeField"
         },
         {
             "docstring": "",
             "name": "DurationField",
-            "parent_name": "django.forms.fields"
+            "namespace": "django.forms.fields.DurationField"
         },
         {
             "docstring": "",
             "name": "RegexField",
-            "parent_name": "django.forms.fields"
+            "namespace": "django.forms.fields.RegexField"
         },
         {
             "docstring": "",
             "name": "EmailField",
-            "parent_name": "django.forms.fields"
+            "namespace": "django.forms.fields.EmailField"
         },
         {
             "docstring": "",
             "name": "FileField",
-            "parent_name": "django.forms.fields"
+            "namespace": "django.forms.fields.FileField"
         },
         {
             "docstring": "",
             "name": "ImageField",
-            "parent_name": "django.forms.fields"
+            "namespace": "django.forms.fields.ImageField"
         },
         {
             "docstring": "",
             "name": "URLField",
-            "parent_name": "django.forms.fields"
+            "namespace": "django.forms.fields.URLField"
         },
         {
             "docstring": "",
             "name": "BooleanField",
-            "parent_name": "django.forms.fields"
+            "namespace": "django.forms.fields.BooleanField"
         },
         {
             "docstring": "\"\"\"\n    A field whose valid values are None, True, and False. Clean invalid values\n    to None.\n    \"\"\"",
             "name": "NullBooleanField",
-            "parent_name": "django.forms.fields"
+            "namespace": "django.forms.fields.NullBooleanField"
         },
         {
             "docstring": "",
             "name": "CallableChoiceIterator",
-            "parent_name": "django.forms.fields"
+            "namespace": "django.forms.fields.CallableChoiceIterator"
         },
         {
             "docstring": "",
             "name": "ChoiceField",
-            "parent_name": "django.forms.fields"
+            "namespace": "django.forms.fields.ChoiceField"
         },
         {
             "docstring": "",
             "name": "TypedChoiceField",
-            "parent_name": "django.forms.fields"
+            "namespace": "django.forms.fields.TypedChoiceField"
         },
         {
             "docstring": "",
             "name": "MultipleChoiceField",
-            "parent_name": "django.forms.fields"
+            "namespace": "django.forms.fields.MultipleChoiceField"
         },
         {
             "docstring": "",
             "name": "TypedMultipleChoiceField",
-            "parent_name": "django.forms.fields"
+            "namespace": "django.forms.fields.TypedMultipleChoiceField"
         },
         {
             "docstring": "\"\"\"\n    A Field whose clean() method calls multiple Field clean() methods.\n    \"\"\"",
             "name": "ComboField",
-            "parent_name": "django.forms.fields"
+            "namespace": "django.forms.fields.ComboField"
         },
         {
             "docstring": "\"\"\"\n    Aggregate the logic of multiple Fields.\n\n    Its clean() method takes a \"decompressed\" list of values, which are then\n    cleaned into a single value according to self.fields. Each value in\n    this list is cleaned by the corresponding field -- the first value is\n    cleaned by the first field, the second value is cleaned by the second\n    field, etc. Once all fields are cleaned, the list of clean values is\n    \"compressed\" into a single value.\n\n    Subclasses should not have to implement clean(). Instead, they must\n    implement compress(), which takes a list of valid values and returns a\n    \"compressed\" version of those values -- a single value.\n\n    You'll probably want to use this with MultiWidget.\n    \"\"\"",
             "name": "MultiValueField",
-            "parent_name": "django.forms.fields"
+            "namespace": "django.forms.fields.MultiValueField"
         },
         {
             "docstring": "",
             "name": "FilePathField",
-            "parent_name": "django.forms.fields"
+            "namespace": "django.forms.fields.FilePathField"
         },
         {
             "docstring": "",
             "name": "SplitDateTimeField",
-            "parent_name": "django.forms.fields"
+            "namespace": "django.forms.fields.SplitDateTimeField"
         },
         {
             "docstring": "",
             "name": "GenericIPAddressField",
-            "parent_name": "django.forms.fields"
+            "namespace": "django.forms.fields.GenericIPAddressField"
         },
         {
             "docstring": "",
             "name": "SlugField",
-            "parent_name": "django.forms.fields"
+            "namespace": "django.forms.fields.SlugField"
         },
         {
             "docstring": "",
             "name": "UUIDField",
-            "parent_name": "django.forms.fields"
+            "namespace": "django.forms.fields.UUIDField"
         },
         {
             "docstring": "",
             "name": "InvalidJSONInput",
-            "parent_name": "django.forms.fields"
+            "namespace": "django.forms.fields.InvalidJSONInput"
         },
         {
             "docstring": "",
             "name": "JSONString",
-            "parent_name": "django.forms.fields"
+            "namespace": "django.forms.fields.JSONString"
         },
         {
             "docstring": "",
             "name": "JSONField",
-            "parent_name": "django.forms.fields"
+            "namespace": "django.forms.fields.JSONField"
         }
     ]
 }

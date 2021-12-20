@@ -1,26 +1,26 @@
 {
-    "docstring": "\"\"\"\nVarious data structures used in query construction.\n\nFactored out from django.db.models.query to avoid making the main module very\nlarge and/or so that they can be used by other modules without getting into\ncircular import difficulties.\n\"\"\"",
     "namespace": "django.db.models.query_utils",
+    "docstring": "\"\"\"\nVarious data structures used in query construction.\n\nFactored out from django.db.models.query to avoid making the main module very\nlarge and/or so that they can be used by other modules without getting into\ncircular import difficulties.\n\"\"\"",
     "classes": [
         {
             "docstring": "\"\"\"\n    Encapsulate filters as objects that can then be combined logically (using\n    `&` and `|`).\n    \"\"\"",
             "name": "Q",
-            "parent_name": "django.db.models.query_utils"
+            "namespace": "django.db.models.query_utils.Q"
         },
         {
             "docstring": "\"\"\"\n    A wrapper for a deferred-loading field. When the value is read from this\n    object the first time, the query is executed.\n    \"\"\"",
             "name": "DeferredAttribute",
-            "parent_name": "django.db.models.query_utils"
+            "namespace": "django.db.models.query_utils.DeferredAttribute"
         },
         {
             "docstring": "",
             "name": "RegisterLookupMixin",
-            "parent_name": "django.db.models.query_utils"
+            "namespace": "django.db.models.query_utils.RegisterLookupMixin"
         },
         {
             "docstring": "\"\"\"Specify custom filtering in the ON clause of SQL joins.\"\"\"",
             "name": "FilteredRelation",
-            "parent_name": "django.db.models.query_utils"
+            "namespace": "django.db.models.query_utils.FilteredRelation"
         }
     ]
 }

@@ -1,31 +1,31 @@
 {
-    "docstring": "",
     "namespace": "django.contrib.gis.feeds",
+    "docstring": "",
     "classes": [
         {
             "docstring": "\"\"\"\n    This mixin provides the necessary routines for SyndicationFeed subclasses\n    to produce simple GeoRSS or W3C Geo elements.\n    \"\"\"",
             "name": "GeoFeedMixin",
-            "parent_name": "django.contrib.gis.feeds"
+            "namespace": "django.contrib.gis.feeds.GeoFeedMixin"
         },
         {
             "docstring": "",
             "name": "GeoRSSFeed",
-            "parent_name": "django.contrib.gis.feeds"
+            "namespace": "django.contrib.gis.feeds.GeoRSSFeed"
         },
         {
             "docstring": "",
             "name": "GeoAtom1Feed",
-            "parent_name": "django.contrib.gis.feeds"
+            "namespace": "django.contrib.gis.feeds.GeoAtom1Feed"
         },
         {
             "docstring": "",
             "name": "W3CGeoFeed",
-            "parent_name": "django.contrib.gis.feeds"
+            "namespace": "django.contrib.gis.feeds.W3CGeoFeed"
         },
         {
             "docstring": "\"\"\"\n    This is a subclass of the `Feed` from `django.contrib.syndication`.\n    This allows users to define a `geometry(obj)` and/or `item_geometry(item)`\n    methods on their own subclasses so that geo-referenced information may\n    placed in the feed.\n    \"\"\"",
             "name": "Feed",
-            "parent_name": "django.contrib.gis.feeds"
+            "namespace": "django.contrib.gis.feeds.Feed"
         }
     ]
 }

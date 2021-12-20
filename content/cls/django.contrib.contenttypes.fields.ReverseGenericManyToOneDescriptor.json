@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    Accessor to the related objects manager on the one-to-many relation created\n    by GenericRelation.\n\n    In the example::\n\n        class Post(Model):\n            comments = GenericRelation(Comment)\n\n    ``post.comments`` is a ReverseGenericManyToOneDescriptor instance.\n    \"\"\"",
+    "name": "ReverseGenericManyToOneDescriptor",
+    "namespace": "django.contrib.contenttypes.fields.ReverseGenericManyToOneDescriptor",
+    "parent_namespace": "django.contrib.contenttypes.fields"
+}

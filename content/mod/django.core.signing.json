@@ -1,31 +1,31 @@
 {
-    "docstring": "\"\"\"\nFunctions for creating and restoring url-safe signed JSON objects.\n\nThe format used looks like this:\n\n>>> signing.dumps(\"hello\")\n'ImhlbGxvIg:1QaUZC:YIye-ze3TTx7gtSv422nZA4sgmk'\n\nThere are two components here, separated by a ':'. The first component is a\nURLsafe base64 encoded JSON of the object passed to dumps(). The second\ncomponent is a base64 encoded hmac/SHA1 hash of \"$first_component:$secret\"\n\nsigning.loads(s) checks the signature and returns the deserialized object.\nIf the signature fails, a BadSignature exception is raised.\n\n>>> signing.loads(\"ImhlbGxvIg:1QaUZC:YIye-ze3TTx7gtSv422nZA4sgmk\")\n'hello'\n>>> signing.loads(\"ImhlbGxvIg:1QaUZC:YIye-ze3TTx7gtSv422nZA4sgmk-modified\")\n...\nBadSignature: Signature failed: ImhlbGxvIg:1QaUZC:YIye-ze3TTx7gtSv422nZA4sgmk-modified\n\nYou can optionally compress the JSON prior to base64 encoding it to save\nspace, using the compress=True argument. This checks if compression actually\nhelps and only applies compression if the result is a shorter string:\n\n>>> signing.dumps(list(range(1, 20)), compress=True)\n'.eJwFwcERACAIwLCF-rCiILN47r-GyZVJsNgkxaFxoDgxcOHGxMKD_T7vhAml:1QaUaL:BA0thEZrp4FQVXIXuOvYJtLJSrQ'\n\nThe fact that the string is compressed is signalled by the prefixed '.' at the\nstart of the base64 JSON.\n\nThere are 65 url-safe characters: the 64 used by url-safe base64 and the ':'.\nThese functions make use of all of them.\n\"\"\"",
     "namespace": "django.core.signing",
+    "docstring": "\"\"\"\nFunctions for creating and restoring url-safe signed JSON objects.\n\nThe format used looks like this:\n\n>>> signing.dumps(\"hello\")\n'ImhlbGxvIg:1QaUZC:YIye-ze3TTx7gtSv422nZA4sgmk'\n\nThere are two components here, separated by a ':'. The first component is a\nURLsafe base64 encoded JSON of the object passed to dumps(). The second\ncomponent is a base64 encoded hmac/SHA1 hash of \"$first_component:$secret\"\n\nsigning.loads(s) checks the signature and returns the deserialized object.\nIf the signature fails, a BadSignature exception is raised.\n\n>>> signing.loads(\"ImhlbGxvIg:1QaUZC:YIye-ze3TTx7gtSv422nZA4sgmk\")\n'hello'\n>>> signing.loads(\"ImhlbGxvIg:1QaUZC:YIye-ze3TTx7gtSv422nZA4sgmk-modified\")\n...\nBadSignature: Signature failed: ImhlbGxvIg:1QaUZC:YIye-ze3TTx7gtSv422nZA4sgmk-modified\n\nYou can optionally compress the JSON prior to base64 encoding it to save\nspace, using the compress=True argument. This checks if compression actually\nhelps and only applies compression if the result is a shorter string:\n\n>>> signing.dumps(list(range(1, 20)), compress=True)\n'.eJwFwcERACAIwLCF-rCiILN47r-GyZVJsNgkxaFxoDgxcOHGxMKD_T7vhAml:1QaUaL:BA0thEZrp4FQVXIXuOvYJtLJSrQ'\n\nThe fact that the string is compressed is signalled by the prefixed '.' at the\nstart of the base64 JSON.\n\nThere are 65 url-safe characters: the 64 used by url-safe base64 and the ':'.\nThese functions make use of all of them.\n\"\"\"",
     "classes": [
         {
             "docstring": "\"\"\"Signature does not match.\"\"\"",
             "name": "BadSignature",
-            "parent_name": "django.core.signing"
+            "namespace": "django.core.signing.BadSignature"
         },
         {
             "docstring": "\"\"\"Signature timestamp is older than required max_age.\"\"\"",
             "name": "SignatureExpired",
-            "parent_name": "django.core.signing"
+            "namespace": "django.core.signing.SignatureExpired"
         },
         {
             "docstring": "\"\"\"\n    Simple wrapper around json to be used in signing.dumps and\n    signing.loads.\n    \"\"\"",
             "name": "JSONSerializer",
-            "parent_name": "django.core.signing"
+            "namespace": "django.core.signing.JSONSerializer"
         },
         {
             "docstring": "",
             "name": "Signer",
-            "parent_name": "django.core.signing"
+            "namespace": "django.core.signing.Signer"
         },
         {
             "docstring": "",
             "name": "TimestampSigner",
-            "parent_name": "django.core.signing"
+            "namespace": "django.core.signing.TimestampSigner"
         }
     ]
 }

@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    Middleware for utilizing web-server-provided authentication.\n\n    If request.user is not authenticated, then this middleware attempts to\n    authenticate the username passed in the ``REMOTE_USER`` request header.\n    If authentication is successful, the user is automatically logged in to\n    persist the user in the session.\n\n    The header used is configurable and defaults to ``REMOTE_USER``.  Subclass\n    this class and change the ``header`` attribute if you need to use a\n    different header.\n    \"\"\"",
+    "name": "RemoteUserMiddleware",
+    "namespace": "django.contrib.auth.middleware.RemoteUserMiddleware",
+    "parent_namespace": "django.contrib.auth.middleware"
+}

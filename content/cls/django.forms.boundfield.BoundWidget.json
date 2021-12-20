@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    A container class used for iterating over widgets. This is useful for\n    widgets that have choices. For example, the following can be used in a\n    template:\n\n    {% for radio in myform.beatles %}\n      <label for=\"{{ radio.id_for_label }}\">\n        {{ radio.choice_label }}\n        <span class=\"radio\">{{ radio.tag }}</span>\n      </label>\n    {% endfor %}\n    \"\"\"",
+    "name": "BoundWidget",
+    "namespace": "django.forms.boundfield.BoundWidget",
+    "parent_namespace": "django.forms.boundfield"
+}

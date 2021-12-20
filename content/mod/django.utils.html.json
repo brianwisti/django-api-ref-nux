@@ -1,11 +1,11 @@
 {
-    "docstring": "\"\"\"HTML utilities suitable for global use.\"\"\"",
     "namespace": "django.utils.html",
+    "docstring": "\"\"\"HTML utilities suitable for global use.\"\"\"",
     "classes": [
         {
             "docstring": "",
             "name": "MLStripper",
-            "parent_name": "django.utils.html"
+            "namespace": "django.utils.html.MLStripper"
         }
     ]
 }

@@ -1,11 +1,36 @@
 {
     "name": "django.conf",
     "docstring": "\"\"\"\nSettings and configuration for Django.\n\nRead values from the module specified by the DJANGO_SETTINGS_MODULE environment\nvariable, and then from django.conf.global_settings; see the global_settings.py\nfor a list of all possible variables.\n\"\"\"",
+    "classes": [
+        {
+            "docstring": "\"\"\"\n    String subclass which references a current settings value. It's treated as\n    the value in memory but serializes to a settings.NAME attribute reference.\n    \"\"\"",
+            "name": "SettingsReference",
+            "namespace": "django.conf.SettingsReference",
+            "parent_namespace": "django.conf"
+        },
+        {
+            "docstring": "\"\"\"\n    A lazy proxy for either global Django settings or a custom settings object.\n    The user can manually configure settings prior to using them. Otherwise,\n    Django uses the settings module pointed to by DJANGO_SETTINGS_MODULE.\n    \"\"\"",
+            "name": "LazySettings",
+            "namespace": "django.conf.LazySettings",
+            "parent_namespace": "django.conf"
+        },
+        {
+            "docstring": "",
+            "name": "Settings",
+            "namespace": "django.conf.Settings",
+            "parent_namespace": "django.conf"
+        },
+        {
+            "docstring": "\"\"\"Holder for user configured settings.\"\"\"",
+            "name": "UserSettingsHolder",
+            "namespace": "django.conf.UserSettingsHolder",
+            "parent_namespace": "django.conf"
+        }
+    ],
     "modules": [
         {
-            "docstring": "\"\"\"\nDefault Django settings. Override these with settings in the module pointed to\nby the DJANGO_SETTINGS_MODULE environment variable.\n\"\"\"",
             "namespace": "django.conf.global_settings",
-            "classes": []
+            "docstring": "\"\"\"\nDefault Django settings. Override these with settings in the module pointed to\nby the DJANGO_SETTINGS_MODULE environment variable.\n\"\"\""
         }
     ],
     "subpackages": [

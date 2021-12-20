@@ -1,136 +1,136 @@
 {
-    "docstring": "",
     "namespace": "django.db.models.functions.datetime",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "TimezoneMixin",
-            "parent_name": "django.db.models.functions.datetime"
+            "namespace": "django.db.models.functions.datetime.TimezoneMixin"
         },
         {
             "docstring": "",
             "name": "Extract",
-            "parent_name": "django.db.models.functions.datetime"
+            "namespace": "django.db.models.functions.datetime.Extract"
         },
         {
             "docstring": "",
             "name": "ExtractYear",
-            "parent_name": "django.db.models.functions.datetime"
+            "namespace": "django.db.models.functions.datetime.ExtractYear"
         },
         {
             "docstring": "\"\"\"Return the ISO-8601 week-numbering year.\"\"\"",
             "name": "ExtractIsoYear",
-            "parent_name": "django.db.models.functions.datetime"
+            "namespace": "django.db.models.functions.datetime.ExtractIsoYear"
         },
         {
             "docstring": "",
             "name": "ExtractMonth",
-            "parent_name": "django.db.models.functions.datetime"
+            "namespace": "django.db.models.functions.datetime.ExtractMonth"
         },
         {
             "docstring": "",
             "name": "ExtractDay",
-            "parent_name": "django.db.models.functions.datetime"
+            "namespace": "django.db.models.functions.datetime.ExtractDay"
         },
         {
             "docstring": "\"\"\"\n    Return 1-52 or 53, based on ISO-8601, i.e., Monday is the first of the\n    week.\n    \"\"\"",
             "name": "ExtractWeek",
-            "parent_name": "django.db.models.functions.datetime"
+            "namespace": "django.db.models.functions.datetime.ExtractWeek"
         },
         {
             "docstring": "\"\"\"\n    Return Sunday=1 through Saturday=7.\n\n    To replicate this in Python: (mydatetime.isoweekday() % 7) + 1\n    \"\"\"",
             "name": "ExtractWeekDay",
-            "parent_name": "django.db.models.functions.datetime"
+            "namespace": "django.db.models.functions.datetime.ExtractWeekDay"
         },
         {
             "docstring": "\"\"\"Return Monday=1 through Sunday=7, based on ISO-8601.\"\"\"",
             "name": "ExtractIsoWeekDay",
-            "parent_name": "django.db.models.functions.datetime"
+            "namespace": "django.db.models.functions.datetime.ExtractIsoWeekDay"
         },
         {
             "docstring": "",
             "name": "ExtractQuarter",
-            "parent_name": "django.db.models.functions.datetime"
+            "namespace": "django.db.models.functions.datetime.ExtractQuarter"
         },
         {
             "docstring": "",
             "name": "ExtractHour",
-            "parent_name": "django.db.models.functions.datetime"
+            "namespace": "django.db.models.functions.datetime.ExtractHour"
         },
         {
             "docstring": "",
             "name": "ExtractMinute",
-            "parent_name": "django.db.models.functions.datetime"
+            "namespace": "django.db.models.functions.datetime.ExtractMinute"
         },
         {
             "docstring": "",
             "name": "ExtractSecond",
-            "parent_name": "django.db.models.functions.datetime"
+            "namespace": "django.db.models.functions.datetime.ExtractSecond"
         },
         {
             "docstring": "",
             "name": "Now",
-            "parent_name": "django.db.models.functions.datetime"
+            "namespace": "django.db.models.functions.datetime.Now"
         },
         {
             "docstring": "",
             "name": "TruncBase",
-            "parent_name": "django.db.models.functions.datetime"
+            "namespace": "django.db.models.functions.datetime.TruncBase"
         },
         {
             "docstring": "",
             "name": "Trunc",
-            "parent_name": "django.db.models.functions.datetime"
+            "namespace": "django.db.models.functions.datetime.Trunc"
         },
         {
             "docstring": "",
             "name": "TruncYear",
-            "parent_name": "django.db.models.functions.datetime"
+            "namespace": "django.db.models.functions.datetime.TruncYear"
         },
         {
             "docstring": "",
             "name": "TruncQuarter",
-            "parent_name": "django.db.models.functions.datetime"
+            "namespace": "django.db.models.functions.datetime.TruncQuarter"
         },
         {
             "docstring": "",
             "name": "TruncMonth",
-            "parent_name": "django.db.models.functions.datetime"
+            "namespace": "django.db.models.functions.datetime.TruncMonth"
         },
         {
             "docstring": "\"\"\"Truncate to midnight on the Monday of the week.\"\"\"",
             "name": "TruncWeek",
-            "parent_name": "django.db.models.functions.datetime"
+            "namespace": "django.db.models.functions.datetime.TruncWeek"
         },
         {
             "docstring": "",
             "name": "TruncDay",
-            "parent_name": "django.db.models.functions.datetime"
+            "namespace": "django.db.models.functions.datetime.TruncDay"
         },
         {
             "docstring": "",
             "name": "TruncDate",
-            "parent_name": "django.db.models.functions.datetime"
+            "namespace": "django.db.models.functions.datetime.TruncDate"
         },
         {
             "docstring": "",
             "name": "TruncTime",
-            "parent_name": "django.db.models.functions.datetime"
+            "namespace": "django.db.models.functions.datetime.TruncTime"
         },
         {
             "docstring": "",
             "name": "TruncHour",
-            "parent_name": "django.db.models.functions.datetime"
+            "namespace": "django.db.models.functions.datetime.TruncHour"
         },
         {
             "docstring": "",
             "name": "TruncMinute",
-            "parent_name": "django.db.models.functions.datetime"
+            "namespace": "django.db.models.functions.datetime.TruncMinute"
         },
         {
             "docstring": "",
             "name": "TruncSecond",
-            "parent_name": "django.db.models.functions.datetime"
+            "namespace": "django.db.models.functions.datetime.TruncSecond"
         }
     ]
 }

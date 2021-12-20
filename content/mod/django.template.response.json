@@ -1,21 +1,21 @@
 {
-    "docstring": "",
     "namespace": "django.template.response",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "ContentNotRenderedError",
-            "parent_name": "django.template.response"
+            "namespace": "django.template.response.ContentNotRenderedError"
         },
         {
             "docstring": "",
             "name": "SimpleTemplateResponse",
-            "parent_name": "django.template.response"
+            "namespace": "django.template.response.SimpleTemplateResponse"
         },
         {
             "docstring": "",
             "name": "TemplateResponse",
-            "parent_name": "django.template.response"
+            "namespace": "django.template.response.TemplateResponse"
         }
     ]
 }

@@ -1,201 +1,201 @@
 {
-    "docstring": "",
     "namespace": "django.contrib.gis.db.models.functions",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "GeoFuncMixin",
-            "parent_name": "django.contrib.gis.db.models.functions"
+            "namespace": "django.contrib.gis.db.models.functions.GeoFuncMixin"
         },
         {
             "docstring": "",
             "name": "GeoFunc",
-            "parent_name": "django.contrib.gis.db.models.functions"
+            "namespace": "django.contrib.gis.db.models.functions.GeoFunc"
         },
         {
             "docstring": "",
             "name": "GeomOutputGeoFunc",
-            "parent_name": "django.contrib.gis.db.models.functions"
+            "namespace": "django.contrib.gis.db.models.functions.GeomOutputGeoFunc"
         },
         {
             "docstring": "\"\"\"\n    By default, Decimal values are converted to str by the SQLite backend, which\n    is not acceptable by the GIS functions expecting numeric values.\n    \"\"\"",
             "name": "SQLiteDecimalToFloatMixin",
-            "parent_name": "django.contrib.gis.db.models.functions"
+            "namespace": "django.contrib.gis.db.models.functions.SQLiteDecimalToFloatMixin"
         },
         {
             "docstring": "",
             "name": "OracleToleranceMixin",
-            "parent_name": "django.contrib.gis.db.models.functions"
+            "namespace": "django.contrib.gis.db.models.functions.OracleToleranceMixin"
         },
         {
             "docstring": "",
             "name": "Area",
-            "parent_name": "django.contrib.gis.db.models.functions"
+            "namespace": "django.contrib.gis.db.models.functions.Area"
         },
         {
             "docstring": "",
             "name": "Azimuth",
-            "parent_name": "django.contrib.gis.db.models.functions"
+            "namespace": "django.contrib.gis.db.models.functions.Azimuth"
         },
         {
             "docstring": "",
             "name": "AsGeoJSON",
-            "parent_name": "django.contrib.gis.db.models.functions"
+            "namespace": "django.contrib.gis.db.models.functions.AsGeoJSON"
         },
         {
             "docstring": "",
             "name": "AsGML",
-            "parent_name": "django.contrib.gis.db.models.functions"
+            "namespace": "django.contrib.gis.db.models.functions.AsGML"
         },
         {
             "docstring": "",
             "name": "AsKML",
-            "parent_name": "django.contrib.gis.db.models.functions"
+            "namespace": "django.contrib.gis.db.models.functions.AsKML"
         },
         {
             "docstring": "",
             "name": "AsSVG",
-            "parent_name": "django.contrib.gis.db.models.functions"
+            "namespace": "django.contrib.gis.db.models.functions.AsSVG"
         },
         {
             "docstring": "",
             "name": "AsWKB",
-            "parent_name": "django.contrib.gis.db.models.functions"
+            "namespace": "django.contrib.gis.db.models.functions.AsWKB"
         },
         {
             "docstring": "",
             "name": "AsWKT",
-            "parent_name": "django.contrib.gis.db.models.functions"
+            "namespace": "django.contrib.gis.db.models.functions.AsWKT"
         },
         {
             "docstring": "",
             "name": "BoundingCircle",
-            "parent_name": "django.contrib.gis.db.models.functions"
+            "namespace": "django.contrib.gis.db.models.functions.BoundingCircle"
         },
         {
             "docstring": "",
             "name": "Centroid",
-            "parent_name": "django.contrib.gis.db.models.functions"
+            "namespace": "django.contrib.gis.db.models.functions.Centroid"
         },
         {
             "docstring": "",
             "name": "Difference",
-            "parent_name": "django.contrib.gis.db.models.functions"
+            "namespace": "django.contrib.gis.db.models.functions.Difference"
         },
         {
             "docstring": "",
             "name": "DistanceResultMixin",
-            "parent_name": "django.contrib.gis.db.models.functions"
+            "namespace": "django.contrib.gis.db.models.functions.DistanceResultMixin"
         },
         {
             "docstring": "",
             "name": "Distance",
-            "parent_name": "django.contrib.gis.db.models.functions"
+            "namespace": "django.contrib.gis.db.models.functions.Distance"
         },
         {
             "docstring": "",
             "name": "Envelope",
-            "parent_name": "django.contrib.gis.db.models.functions"
+            "namespace": "django.contrib.gis.db.models.functions.Envelope"
         },
         {
             "docstring": "",
             "name": "ForcePolygonCW",
-            "parent_name": "django.contrib.gis.db.models.functions"
+            "namespace": "django.contrib.gis.db.models.functions.ForcePolygonCW"
         },
         {
             "docstring": "",
             "name": "GeoHash",
-            "parent_name": "django.contrib.gis.db.models.functions"
+            "namespace": "django.contrib.gis.db.models.functions.GeoHash"
         },
         {
             "docstring": "",
             "name": "GeometryDistance",
-            "parent_name": "django.contrib.gis.db.models.functions"
+            "namespace": "django.contrib.gis.db.models.functions.GeometryDistance"
         },
         {
             "docstring": "",
             "name": "Intersection",
-            "parent_name": "django.contrib.gis.db.models.functions"
+            "namespace": "django.contrib.gis.db.models.functions.Intersection"
         },
         {
             "docstring": "",
             "name": "IsValid",
-            "parent_name": "django.contrib.gis.db.models.functions"
+            "namespace": "django.contrib.gis.db.models.functions.IsValid"
         },
         {
             "docstring": "",
             "name": "Length",
-            "parent_name": "django.contrib.gis.db.models.functions"
+            "namespace": "django.contrib.gis.db.models.functions.Length"
         },
         {
             "docstring": "",
             "name": "LineLocatePoint",
-            "parent_name": "django.contrib.gis.db.models.functions"
+            "namespace": "django.contrib.gis.db.models.functions.LineLocatePoint"
         },
         {
             "docstring": "",
             "name": "MakeValid",
-            "parent_name": "django.contrib.gis.db.models.functions"
+            "namespace": "django.contrib.gis.db.models.functions.MakeValid"
         },
         {
             "docstring": "",
             "name": "MemSize",
-            "parent_name": "django.contrib.gis.db.models.functions"
+            "namespace": "django.contrib.gis.db.models.functions.MemSize"
         },
         {
             "docstring": "",
             "name": "NumGeometries",
-            "parent_name": "django.contrib.gis.db.models.functions"
+            "namespace": "django.contrib.gis.db.models.functions.NumGeometries"
         },
         {
             "docstring": "",
             "name": "NumPoints",
-            "parent_name": "django.contrib.gis.db.models.functions"
+            "namespace": "django.contrib.gis.db.models.functions.NumPoints"
         },
         {
             "docstring": "",
             "name": "Perimeter",
-            "parent_name": "django.contrib.gis.db.models.functions"
+            "namespace": "django.contrib.gis.db.models.functions.Perimeter"
         },
         {
             "docstring": "",
             "name": "PointOnSurface",
-            "parent_name": "django.contrib.gis.db.models.functions"
+            "namespace": "django.contrib.gis.db.models.functions.PointOnSurface"
         },
         {
             "docstring": "",
             "name": "Reverse",
-            "parent_name": "django.contrib.gis.db.models.functions"
+            "namespace": "django.contrib.gis.db.models.functions.Reverse"
         },
         {
             "docstring": "",
             "name": "Scale",
-            "parent_name": "django.contrib.gis.db.models.functions"
+            "namespace": "django.contrib.gis.db.models.functions.Scale"
         },
         {
             "docstring": "",
             "name": "SnapToGrid",
-            "parent_name": "django.contrib.gis.db.models.functions"
+            "namespace": "django.contrib.gis.db.models.functions.SnapToGrid"
         },
         {
             "docstring": "",
             "name": "SymDifference",
-            "parent_name": "django.contrib.gis.db.models.functions"
+            "namespace": "django.contrib.gis.db.models.functions.SymDifference"
         },
         {
             "docstring": "",
             "name": "Transform",
-            "parent_name": "django.contrib.gis.db.models.functions"
+            "namespace": "django.contrib.gis.db.models.functions.Transform"
         },
         {
             "docstring": "",
             "name": "Translate",
-            "parent_name": "django.contrib.gis.db.models.functions"
+            "namespace": "django.contrib.gis.db.models.functions.Translate"
         },
         {
             "docstring": "",
             "name": "Union",
-            "parent_name": "django.contrib.gis.db.models.functions"
+            "namespace": "django.contrib.gis.db.models.functions.Union"
         }
     ]
 }

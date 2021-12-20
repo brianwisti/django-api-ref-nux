@@ -1,26 +1,26 @@
 {
-    "docstring": "",
     "namespace": "django.db.models.constraints",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "BaseConstraint",
-            "parent_name": "django.db.models.constraints"
+            "namespace": "django.db.models.constraints.BaseConstraint"
         },
         {
             "docstring": "",
             "name": "CheckConstraint",
-            "parent_name": "django.db.models.constraints"
+            "namespace": "django.db.models.constraints.CheckConstraint"
         },
         {
             "docstring": "",
             "name": "Deferrable",
-            "parent_name": "django.db.models.constraints"
+            "namespace": "django.db.models.constraints.Deferrable"
         },
         {
             "docstring": "",
             "name": "UniqueConstraint",
-            "parent_name": "django.db.models.constraints"
+            "namespace": "django.db.models.constraints.UniqueConstraint"
         }
     ]
 }

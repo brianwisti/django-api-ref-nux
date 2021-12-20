@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    Extend unittest.TestResult to record events in the child processes so they\n    can be replayed in the parent process. Events include things like which\n    tests succeeded or failed.\n    \"\"\"",
+    "name": "RemoteTestResult",
+    "namespace": "django.test.runner.RemoteTestResult",
+    "parent_namespace": "django.test.runner"
+}

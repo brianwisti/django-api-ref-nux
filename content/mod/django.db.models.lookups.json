@@ -1,211 +1,211 @@
 {
-    "docstring": "",
     "namespace": "django.db.models.lookups",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "Lookup",
-            "parent_name": "django.db.models.lookups"
+            "namespace": "django.db.models.lookups.Lookup"
         },
         {
             "docstring": "\"\"\"\n    RegisterLookupMixin() is first so that get_lookup() and get_transform()\n    first examine self and then check output_field.\n    \"\"\"",
             "name": "Transform",
-            "parent_name": "django.db.models.lookups"
+            "namespace": "django.db.models.lookups.Transform"
         },
         {
             "docstring": "",
             "name": "BuiltinLookup",
-            "parent_name": "django.db.models.lookups"
+            "namespace": "django.db.models.lookups.BuiltinLookup"
         },
         {
             "docstring": "\"\"\"\n    Some lookups require Field.get_db_prep_value() to be called on their\n    inputs.\n    \"\"\"",
             "name": "FieldGetDbPrepValueMixin",
-            "parent_name": "django.db.models.lookups"
+            "namespace": "django.db.models.lookups.FieldGetDbPrepValueMixin"
         },
         {
             "docstring": "\"\"\"\n    Some lookups require Field.get_db_prep_value() to be called on each value\n    in an iterable.\n    \"\"\"",
             "name": "FieldGetDbPrepValueIterableMixin",
-            "parent_name": "django.db.models.lookups"
+            "namespace": "django.db.models.lookups.FieldGetDbPrepValueIterableMixin"
         },
         {
             "docstring": "\"\"\"Lookup defined by operators on PostgreSQL.\"\"\"",
             "name": "PostgresOperatorLookup",
-            "parent_name": "django.db.models.lookups"
+            "namespace": "django.db.models.lookups.PostgresOperatorLookup"
         },
         {
             "docstring": "",
             "name": "Exact",
-            "parent_name": "django.db.models.lookups"
+            "namespace": "django.db.models.lookups.Exact"
         },
         {
             "docstring": "",
             "name": "IExact",
-            "parent_name": "django.db.models.lookups"
+            "namespace": "django.db.models.lookups.IExact"
         },
         {
             "docstring": "",
             "name": "GreaterThan",
-            "parent_name": "django.db.models.lookups"
+            "namespace": "django.db.models.lookups.GreaterThan"
         },
         {
             "docstring": "",
             "name": "GreaterThanOrEqual",
-            "parent_name": "django.db.models.lookups"
+            "namespace": "django.db.models.lookups.GreaterThanOrEqual"
         },
         {
             "docstring": "",
             "name": "LessThan",
-            "parent_name": "django.db.models.lookups"
+            "namespace": "django.db.models.lookups.LessThan"
         },
         {
             "docstring": "",
             "name": "LessThanOrEqual",
-            "parent_name": "django.db.models.lookups"
+            "namespace": "django.db.models.lookups.LessThanOrEqual"
         },
         {
             "docstring": "\"\"\"\n    Allow floats to work as query values for IntegerField. Without this, the\n    decimal portion of the float would always be discarded.\n    \"\"\"",
             "name": "IntegerFieldFloatRounding",
-            "parent_name": "django.db.models.lookups"
+            "namespace": "django.db.models.lookups.IntegerFieldFloatRounding"
         },
         {
             "docstring": "",
             "name": "IntegerGreaterThanOrEqual",
-            "parent_name": "django.db.models.lookups"
+            "namespace": "django.db.models.lookups.IntegerGreaterThanOrEqual"
         },
         {
             "docstring": "",
             "name": "IntegerLessThan",
-            "parent_name": "django.db.models.lookups"
+            "namespace": "django.db.models.lookups.IntegerLessThan"
         },
         {
             "docstring": "",
             "name": "In",
-            "parent_name": "django.db.models.lookups"
+            "namespace": "django.db.models.lookups.In"
         },
         {
             "docstring": "",
             "name": "PatternLookup",
-            "parent_name": "django.db.models.lookups"
+            "namespace": "django.db.models.lookups.PatternLookup"
         },
         {
             "docstring": "",
             "name": "Contains",
-            "parent_name": "django.db.models.lookups"
+            "namespace": "django.db.models.lookups.Contains"
         },
         {
             "docstring": "",
             "name": "IContains",
-            "parent_name": "django.db.models.lookups"
+            "namespace": "django.db.models.lookups.IContains"
         },
         {
             "docstring": "",
             "name": "StartsWith",
-            "parent_name": "django.db.models.lookups"
+            "namespace": "django.db.models.lookups.StartsWith"
         },
         {
             "docstring": "",
             "name": "IStartsWith",
-            "parent_name": "django.db.models.lookups"
+            "namespace": "django.db.models.lookups.IStartsWith"
         },
         {
             "docstring": "",
             "name": "EndsWith",
-            "parent_name": "django.db.models.lookups"
+            "namespace": "django.db.models.lookups.EndsWith"
         },
         {
             "docstring": "",
             "name": "IEndsWith",
-            "parent_name": "django.db.models.lookups"
+            "namespace": "django.db.models.lookups.IEndsWith"
         },
         {
             "docstring": "",
             "name": "Range",
-            "parent_name": "django.db.models.lookups"
+            "namespace": "django.db.models.lookups.Range"
         },
         {
             "docstring": "",
             "name": "IsNull",
-            "parent_name": "django.db.models.lookups"
+            "namespace": "django.db.models.lookups.IsNull"
         },
         {
             "docstring": "",
             "name": "Regex",
-            "parent_name": "django.db.models.lookups"
+            "namespace": "django.db.models.lookups.Regex"
         },
         {
             "docstring": "",
             "name": "IRegex",
-            "parent_name": "django.db.models.lookups"
+            "namespace": "django.db.models.lookups.IRegex"
         },
         {
             "docstring": "",
             "name": "YearLookup",
-            "parent_name": "django.db.models.lookups"
+            "namespace": "django.db.models.lookups.YearLookup"
         },
         {
             "docstring": "",
             "name": "YearExact",
-            "parent_name": "django.db.models.lookups"
+            "namespace": "django.db.models.lookups.YearExact"
         },
         {
             "docstring": "",
             "name": "YearGt",
-            "parent_name": "django.db.models.lookups"
+            "namespace": "django.db.models.lookups.YearGt"
         },
         {
             "docstring": "",
             "name": "YearGte",
-            "parent_name": "django.db.models.lookups"
+            "namespace": "django.db.models.lookups.YearGte"
         },
         {
             "docstring": "",
             "name": "YearLt",
-            "parent_name": "django.db.models.lookups"
+            "namespace": "django.db.models.lookups.YearLt"
         },
         {
             "docstring": "",
             "name": "YearLte",
-            "parent_name": "django.db.models.lookups"
+            "namespace": "django.db.models.lookups.YearLte"
         },
         {
             "docstring": "\"\"\"\n    Strip hyphens from a value when filtering a UUIDField on backends without\n    a native datatype for UUID.\n    \"\"\"",
             "name": "UUIDTextMixin",
-            "parent_name": "django.db.models.lookups"
+            "namespace": "django.db.models.lookups.UUIDTextMixin"
         },
         {
             "docstring": "",
             "name": "UUIDIExact",
-            "parent_name": "django.db.models.lookups"
+            "namespace": "django.db.models.lookups.UUIDIExact"
         },
         {
             "docstring": "",
             "name": "UUIDContains",
-            "parent_name": "django.db.models.lookups"
+            "namespace": "django.db.models.lookups.UUIDContains"
         },
         {
             "docstring": "",
             "name": "UUIDIContains",
-            "parent_name": "django.db.models.lookups"
+            "namespace": "django.db.models.lookups.UUIDIContains"
         },
         {
             "docstring": "",
             "name": "UUIDStartsWith",
-            "parent_name": "django.db.models.lookups"
+            "namespace": "django.db.models.lookups.UUIDStartsWith"
         },
         {
             "docstring": "",
             "name": "UUIDIStartsWith",
-            "parent_name": "django.db.models.lookups"
+            "namespace": "django.db.models.lookups.UUIDIStartsWith"
         },
         {
             "docstring": "",
             "name": "UUIDEndsWith",
-            "parent_name": "django.db.models.lookups"
+            "namespace": "django.db.models.lookups.UUIDEndsWith"
         },
         {
             "docstring": "",
             "name": "UUIDIEndsWith",
-            "parent_name": "django.db.models.lookups"
+            "namespace": "django.db.models.lookups.UUIDIEndsWith"
         }
     ]
 }

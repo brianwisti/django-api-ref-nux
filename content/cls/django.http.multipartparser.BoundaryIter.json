@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    A Producer that is sensitive to boundaries.\n\n    Will happily yield bytes until a boundary is found. Will yield the bytes\n    before the boundary, throw away the boundary bytes themselves, and push the\n    post-boundary bytes back on the stream.\n\n    The future calls to next() after locating the boundary will raise a\n    StopIteration exception.\n    \"\"\"",
+    "name": "BoundaryIter",
+    "namespace": "django.http.multipartparser.BoundaryIter",
+    "parent_namespace": "django.http.multipartparser"
+}

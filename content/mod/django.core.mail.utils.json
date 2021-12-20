@@ -1,11 +1,11 @@
 {
-    "docstring": "\"\"\"\nEmail message and email sending related helper functions.\n\"\"\"",
     "namespace": "django.core.mail.utils",
+    "docstring": "\"\"\"\nEmail message and email sending related helper functions.\n\"\"\"",
     "classes": [
         {
             "docstring": "",
             "name": "CachedDnsName",
-            "parent_name": "django.core.mail.utils"
+            "namespace": "django.core.mail.utils.CachedDnsName"
         }
     ]
 }

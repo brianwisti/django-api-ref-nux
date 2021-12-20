@@ -1,66 +1,66 @@
 {
-    "docstring": "",
     "namespace": "django.db.models.functions.window",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "CumeDist",
-            "parent_name": "django.db.models.functions.window"
+            "namespace": "django.db.models.functions.window.CumeDist"
         },
         {
             "docstring": "",
             "name": "DenseRank",
-            "parent_name": "django.db.models.functions.window"
+            "namespace": "django.db.models.functions.window.DenseRank"
         },
         {
             "docstring": "",
             "name": "FirstValue",
-            "parent_name": "django.db.models.functions.window"
+            "namespace": "django.db.models.functions.window.FirstValue"
         },
         {
             "docstring": "",
             "name": "LagLeadFunction",
-            "parent_name": "django.db.models.functions.window"
+            "namespace": "django.db.models.functions.window.LagLeadFunction"
         },
         {
             "docstring": "",
             "name": "Lag",
-            "parent_name": "django.db.models.functions.window"
+            "namespace": "django.db.models.functions.window.Lag"
         },
         {
             "docstring": "",
             "name": "LastValue",
-            "parent_name": "django.db.models.functions.window"
+            "namespace": "django.db.models.functions.window.LastValue"
         },
         {
             "docstring": "",
             "name": "Lead",
-            "parent_name": "django.db.models.functions.window"
+            "namespace": "django.db.models.functions.window.Lead"
         },
         {
             "docstring": "",
             "name": "NthValue",
-            "parent_name": "django.db.models.functions.window"
+            "namespace": "django.db.models.functions.window.NthValue"
         },
         {
             "docstring": "",
             "name": "Ntile",
-            "parent_name": "django.db.models.functions.window"
+            "namespace": "django.db.models.functions.window.Ntile"
         },
         {
             "docstring": "",
             "name": "PercentRank",
-            "parent_name": "django.db.models.functions.window"
+            "namespace": "django.db.models.functions.window.PercentRank"
         },
         {
             "docstring": "",
             "name": "Rank",
-            "parent_name": "django.db.models.functions.window"
+            "namespace": "django.db.models.functions.window.Rank"
         },
         {
             "docstring": "",
             "name": "RowNumber",
-            "parent_name": "django.db.models.functions.window"
+            "namespace": "django.db.models.functions.window.RowNumber"
         }
     ]
 }

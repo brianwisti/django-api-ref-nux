@@ -1,26 +1,26 @@
 {
-    "docstring": "\"\"\"Compare two HTML documents.\"\"\"",
     "namespace": "django.test.html",
+    "docstring": "\"\"\"Compare two HTML documents.\"\"\"",
     "classes": [
         {
             "docstring": "",
             "name": "Element",
-            "parent_name": "django.test.html"
+            "namespace": "django.test.html.Element"
         },
         {
             "docstring": "",
             "name": "RootElement",
-            "parent_name": "django.test.html"
+            "namespace": "django.test.html.RootElement"
         },
         {
             "docstring": "",
             "name": "HTMLParseError",
-            "parent_name": "django.test.html"
+            "namespace": "django.test.html.HTMLParseError"
         },
         {
             "docstring": "",
             "name": "Parser",
-            "parent_name": "django.test.html"
+            "namespace": "django.test.html.Parser"
         }
     ]
 }

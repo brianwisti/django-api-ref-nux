@@ -1,11 +1,11 @@
 {
-    "docstring": "",
     "namespace": "django.contrib.sites.middleware",
+    "docstring": "",
     "classes": [
         {
             "docstring": "\"\"\"\n    Middleware that sets `site` attribute to request object.\n    \"\"\"",
             "name": "CurrentSiteMiddleware",
-            "parent_name": "django.contrib.sites.middleware"
+            "namespace": "django.contrib.sites.middleware.CurrentSiteMiddleware"
         }
     ]
 }

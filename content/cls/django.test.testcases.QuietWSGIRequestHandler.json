@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    A WSGIRequestHandler that doesn't log to standard output any of the\n    requests received, so as to not clutter the test result output.\n    \"\"\"",
+    "name": "QuietWSGIRequestHandler",
+    "namespace": "django.test.testcases.QuietWSGIRequestHandler",
+    "parent_namespace": "django.test.testcases"
+}

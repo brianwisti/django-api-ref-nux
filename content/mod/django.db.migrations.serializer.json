@@ -1,146 +1,146 @@
 {
-    "docstring": "",
     "namespace": "django.db.migrations.serializer",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "BaseSerializer",
-            "parent_name": "django.db.migrations.serializer"
+            "namespace": "django.db.migrations.serializer.BaseSerializer"
         },
         {
             "docstring": "",
             "name": "BaseSequenceSerializer",
-            "parent_name": "django.db.migrations.serializer"
+            "namespace": "django.db.migrations.serializer.BaseSequenceSerializer"
         },
         {
             "docstring": "",
             "name": "BaseSimpleSerializer",
-            "parent_name": "django.db.migrations.serializer"
+            "namespace": "django.db.migrations.serializer.BaseSimpleSerializer"
         },
         {
             "docstring": "",
             "name": "ChoicesSerializer",
-            "parent_name": "django.db.migrations.serializer"
+            "namespace": "django.db.migrations.serializer.ChoicesSerializer"
         },
         {
             "docstring": "\"\"\"For datetime.*, except datetime.datetime.\"\"\"",
             "name": "DateTimeSerializer",
-            "parent_name": "django.db.migrations.serializer"
+            "namespace": "django.db.migrations.serializer.DateTimeSerializer"
         },
         {
             "docstring": "\"\"\"For datetime.datetime.\"\"\"",
             "name": "DatetimeDatetimeSerializer",
-            "parent_name": "django.db.migrations.serializer"
+            "namespace": "django.db.migrations.serializer.DatetimeDatetimeSerializer"
         },
         {
             "docstring": "",
             "name": "DecimalSerializer",
-            "parent_name": "django.db.migrations.serializer"
+            "namespace": "django.db.migrations.serializer.DecimalSerializer"
         },
         {
             "docstring": "",
             "name": "DeconstructableSerializer",
-            "parent_name": "django.db.migrations.serializer"
+            "namespace": "django.db.migrations.serializer.DeconstructableSerializer"
         },
         {
             "docstring": "",
             "name": "DictionarySerializer",
-            "parent_name": "django.db.migrations.serializer"
+            "namespace": "django.db.migrations.serializer.DictionarySerializer"
         },
         {
             "docstring": "",
             "name": "EnumSerializer",
-            "parent_name": "django.db.migrations.serializer"
+            "namespace": "django.db.migrations.serializer.EnumSerializer"
         },
         {
             "docstring": "",
             "name": "FloatSerializer",
-            "parent_name": "django.db.migrations.serializer"
+            "namespace": "django.db.migrations.serializer.FloatSerializer"
         },
         {
             "docstring": "",
             "name": "FrozensetSerializer",
-            "parent_name": "django.db.migrations.serializer"
+            "namespace": "django.db.migrations.serializer.FrozensetSerializer"
         },
         {
             "docstring": "",
             "name": "FunctionTypeSerializer",
-            "parent_name": "django.db.migrations.serializer"
+            "namespace": "django.db.migrations.serializer.FunctionTypeSerializer"
         },
         {
             "docstring": "",
             "name": "FunctoolsPartialSerializer",
-            "parent_name": "django.db.migrations.serializer"
+            "namespace": "django.db.migrations.serializer.FunctoolsPartialSerializer"
         },
         {
             "docstring": "",
             "name": "IterableSerializer",
-            "parent_name": "django.db.migrations.serializer"
+            "namespace": "django.db.migrations.serializer.IterableSerializer"
         },
         {
             "docstring": "",
             "name": "ModelFieldSerializer",
-            "parent_name": "django.db.migrations.serializer"
+            "namespace": "django.db.migrations.serializer.ModelFieldSerializer"
         },
         {
             "docstring": "",
             "name": "ModelManagerSerializer",
-            "parent_name": "django.db.migrations.serializer"
+            "namespace": "django.db.migrations.serializer.ModelManagerSerializer"
         },
         {
             "docstring": "",
             "name": "OperationSerializer",
-            "parent_name": "django.db.migrations.serializer"
+            "namespace": "django.db.migrations.serializer.OperationSerializer"
         },
         {
             "docstring": "",
             "name": "PathLikeSerializer",
-            "parent_name": "django.db.migrations.serializer"
+            "namespace": "django.db.migrations.serializer.PathLikeSerializer"
         },
         {
             "docstring": "",
             "name": "PathSerializer",
-            "parent_name": "django.db.migrations.serializer"
+            "namespace": "django.db.migrations.serializer.PathSerializer"
         },
         {
             "docstring": "",
             "name": "RegexSerializer",
-            "parent_name": "django.db.migrations.serializer"
+            "namespace": "django.db.migrations.serializer.RegexSerializer"
         },
         {
             "docstring": "",
             "name": "SequenceSerializer",
-            "parent_name": "django.db.migrations.serializer"
+            "namespace": "django.db.migrations.serializer.SequenceSerializer"
         },
         {
             "docstring": "",
             "name": "SetSerializer",
-            "parent_name": "django.db.migrations.serializer"
+            "namespace": "django.db.migrations.serializer.SetSerializer"
         },
         {
             "docstring": "",
             "name": "SettingsReferenceSerializer",
-            "parent_name": "django.db.migrations.serializer"
+            "namespace": "django.db.migrations.serializer.SettingsReferenceSerializer"
         },
         {
             "docstring": "",
             "name": "TupleSerializer",
-            "parent_name": "django.db.migrations.serializer"
+            "namespace": "django.db.migrations.serializer.TupleSerializer"
         },
         {
             "docstring": "",
             "name": "TypeSerializer",
-            "parent_name": "django.db.migrations.serializer"
+            "namespace": "django.db.migrations.serializer.TypeSerializer"
         },
         {
             "docstring": "",
             "name": "UUIDSerializer",
-            "parent_name": "django.db.migrations.serializer"
+            "namespace": "django.db.migrations.serializer.UUIDSerializer"
         },
         {
             "docstring": "",
             "name": "Serializer",
-            "parent_name": "django.db.migrations.serializer"
+            "namespace": "django.db.migrations.serializer.Serializer"
         }
     ]
 }

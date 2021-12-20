@@ -1,11 +1,11 @@
 {
-    "docstring": "",
     "namespace": "django.contrib.admin.templatetags.admin_list",
+    "docstring": "",
     "classes": [
         {
             "docstring": "\"\"\"\n    Wrapper class used to return items in a list_editable changelist, annotated\n    with the form object for error reporting purposes. Needed to maintain\n    backwards compatibility with existing admin templates.\n    \"\"\"",
             "name": "ResultList",
-            "parent_name": "django.contrib.admin.templatetags.admin_list"
+            "namespace": "django.contrib.admin.templatetags.admin_list.ResultList"
         }
     ]
 }

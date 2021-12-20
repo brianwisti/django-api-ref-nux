@@ -1,21 +1,21 @@
 {
-    "docstring": "",
     "namespace": "django.contrib.gis.management.commands.ogrinspect",
+    "docstring": "",
     "classes": [
         {
             "docstring": "\"\"\"\n    Custom argparse action for the `ogrinspect` `layer_key` keyword option\n    which may be an integer or a string.\n    \"\"\"",
             "name": "LayerOptionAction",
-            "parent_name": "django.contrib.gis.management.commands.ogrinspect"
+            "namespace": "django.contrib.gis.management.commands.ogrinspect.LayerOptionAction"
         },
         {
             "docstring": "\"\"\"\n    Custom argparse action for `ogrinspect` keywords that require\n    a string list. If the string is 'True'/'true' then the option\n    value will be a boolean instead.\n    \"\"\"",
             "name": "ListOptionAction",
-            "parent_name": "django.contrib.gis.management.commands.ogrinspect"
+            "namespace": "django.contrib.gis.management.commands.ogrinspect.ListOptionAction"
         },
         {
             "docstring": "",
             "name": "Command",
-            "parent_name": "django.contrib.gis.management.commands.ogrinspect"
+            "namespace": "django.contrib.gis.management.commands.ogrinspect.Command"
         }
     ]
 }

@@ -1,72 +1,31 @@
 {
     "name": "django.core.mail.backends",
     "docstring": "",
+    "classes": [],
     "modules": [
         {
-            "docstring": "\"\"\"Email backend that writes messages to a file.\"\"\"",
             "namespace": "django.core.mail.backends.filebased",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "EmailBackend",
-                    "parent_name": "django.core.mail.backends.filebased"
-                }
-            ]
+            "docstring": "\"\"\"Email backend that writes messages to a file.\"\"\""
         },
         {
-            "docstring": "\"\"\"\nBackend for test environment.\n\"\"\"",
             "namespace": "django.core.mail.backends.locmem",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    An email backend for use during test sessions.\n\n    The test connection stores email messages in a dummy outbox,\n    rather than sending them out on the wire.\n\n    The dummy outbox is accessible through the outbox instance attribute.\n    \"\"\"",
-                    "name": "EmailBackend",
-                    "parent_name": "django.core.mail.backends.locmem"
-                }
-            ]
+            "docstring": "\"\"\"\nBackend for test environment.\n\"\"\""
         },
         {
-            "docstring": "\"\"\"Base email backend class.\"\"\"",
             "namespace": "django.core.mail.backends.base",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    Base class for email backend implementations.\n\n    Subclasses must at least overwrite send_messages().\n\n    open() and close() can be called indirectly by using a backend object as a\n    context manager:\n\n       with backend as connection:\n           # do something with connection\n           pass\n    \"\"\"",
-                    "name": "BaseEmailBackend",
-                    "parent_name": "django.core.mail.backends.base"
-                }
-            ]
+            "docstring": "\"\"\"Base email backend class.\"\"\""
         },
         {
-            "docstring": "\"\"\"\nDummy email backend that does nothing.\n\"\"\"",
             "namespace": "django.core.mail.backends.dummy",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "EmailBackend",
-                    "parent_name": "django.core.mail.backends.dummy"
-                }
-            ]
+            "docstring": "\"\"\"\nDummy email backend that does nothing.\n\"\"\""
         },
         {
-            "docstring": "\"\"\"\nEmail backend that writes messages to console instead of sending them.\n\"\"\"",
             "namespace": "django.core.mail.backends.console",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "EmailBackend",
-                    "parent_name": "django.core.mail.backends.console"
-                }
-            ]
+            "docstring": "\"\"\"\nEmail backend that writes messages to console instead of sending them.\n\"\"\""
         },
         {
-            "docstring": "\"\"\"SMTP email backend class.\"\"\"",
             "namespace": "django.core.mail.backends.smtp",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    A wrapper that manages the SMTP network connection.\n    \"\"\"",
-                    "name": "EmailBackend",
-                    "parent_name": "django.core.mail.backends.smtp"
-                }
-            ]
+            "docstring": "\"\"\"SMTP email backend class.\"\"\""
         }
     ],
     "subpackages": []

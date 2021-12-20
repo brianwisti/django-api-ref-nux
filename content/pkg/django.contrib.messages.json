@@ -1,65 +1,35 @@
 {
     "name": "django.contrib.messages",
     "docstring": "",
+    "classes": [],
     "modules": [
         {
-            "docstring": "",
             "namespace": "django.contrib.messages.constants",
-            "classes": []
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.messages.middleware",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    Middleware that handles temporary messages.\n    \"\"\"",
-                    "name": "MessageMiddleware",
-                    "parent_name": "django.contrib.messages.middleware"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.messages.views",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    Add a success message on successful form submission.\n    \"\"\"",
-                    "name": "SuccessMessageMixin",
-                    "parent_name": "django.contrib.messages.views"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.messages.apps",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "MessagesConfig",
-                    "parent_name": "django.contrib.messages.apps"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.messages.utils",
-            "classes": []
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.messages.api",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "MessageFailure",
-                    "parent_name": "django.contrib.messages.api"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.messages.context_processors",
-            "classes": []
+            "docstring": ""
         }
     ],
     "subpackages": [

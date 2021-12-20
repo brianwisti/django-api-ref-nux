@@ -1,41 +1,41 @@
 {
-    "docstring": "",
     "namespace": "django.core.mail.message",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "BadHeaderError",
-            "parent_name": "django.core.mail.message"
+            "namespace": "django.core.mail.message.BadHeaderError"
         },
         {
             "docstring": "",
             "name": "MIMEMixin",
-            "parent_name": "django.core.mail.message"
+            "namespace": "django.core.mail.message.MIMEMixin"
         },
         {
             "docstring": "",
             "name": "SafeMIMEMessage",
-            "parent_name": "django.core.mail.message"
+            "namespace": "django.core.mail.message.SafeMIMEMessage"
         },
         {
             "docstring": "",
             "name": "SafeMIMEText",
-            "parent_name": "django.core.mail.message"
+            "namespace": "django.core.mail.message.SafeMIMEText"
         },
         {
             "docstring": "",
             "name": "SafeMIMEMultipart",
-            "parent_name": "django.core.mail.message"
+            "namespace": "django.core.mail.message.SafeMIMEMultipart"
         },
         {
             "docstring": "\"\"\"A container for email information.\"\"\"",
             "name": "EmailMessage",
-            "parent_name": "django.core.mail.message"
+            "namespace": "django.core.mail.message.EmailMessage"
         },
         {
             "docstring": "\"\"\"\n    A version of EmailMessage that makes it easy to send multipart/alternative\n    messages. For example, including text and HTML versions of the text is\n    made easier.\n    \"\"\"",
             "name": "EmailMultiAlternatives",
-            "parent_name": "django.core.mail.message"
+            "namespace": "django.core.mail.message.EmailMultiAlternatives"
         }
     ]
 }

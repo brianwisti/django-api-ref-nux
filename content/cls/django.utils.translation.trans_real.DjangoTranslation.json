@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    Set up the GNUTranslations context with regard to output charset.\n\n    This translation object will be constructed out of multiple GNUTranslations\n    objects by merging their catalogs. It will construct an object for the\n    requested language and add a fallback to the default language, if it's\n    different from the requested language.\n    \"\"\"",
+    "name": "DjangoTranslation",
+    "namespace": "django.utils.translation.trans_real.DjangoTranslation",
+    "parent_namespace": "django.utils.translation.trans_real"
+}

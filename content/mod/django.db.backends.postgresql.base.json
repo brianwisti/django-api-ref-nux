@@ -1,16 +1,16 @@
 {
-    "docstring": "\"\"\"\nPostgreSQL database backend for Django.\n\nRequires psycopg 2: https://www.psycopg.org/\n\"\"\"",
     "namespace": "django.db.backends.postgresql.base",
+    "docstring": "\"\"\"\nPostgreSQL database backend for Django.\n\nRequires psycopg 2: https://www.psycopg.org/\n\"\"\"",
     "classes": [
         {
             "docstring": "",
             "name": "DatabaseWrapper",
-            "parent_name": "django.db.backends.postgresql.base"
+            "namespace": "django.db.backends.postgresql.base.DatabaseWrapper"
         },
         {
             "docstring": "",
             "name": "CursorDebugWrapper",
-            "parent_name": "django.db.backends.postgresql.base"
+            "namespace": "django.db.backends.postgresql.base.CursorDebugWrapper"
         }
     ]
 }

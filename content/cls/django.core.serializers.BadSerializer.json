@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    Stub serializer to hold exception raised during registration\n\n    This allows the serializer registration to cache serializers and if there\n    is an error raised in the process of creating a serializer it will be\n    raised and passed along to the caller when the serializer is used.\n    \"\"\"",
+    "name": "BadSerializer",
+    "namespace": "django.core.serializers.BadSerializer",
+    "parent_namespace": "django.core.serializers"
+}

@@ -1,16 +1,16 @@
 {
-    "docstring": "",
     "namespace": "django.template.backends.dummy",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "TemplateStrings",
-            "parent_name": "django.template.backends.dummy"
+            "namespace": "django.template.backends.dummy.TemplateStrings"
         },
         {
             "docstring": "",
             "name": "Template",
-            "parent_name": "django.template.backends.dummy"
+            "namespace": "django.template.backends.dummy.Template"
         }
     ]
 }

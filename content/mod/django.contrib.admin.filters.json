@@ -1,56 +1,56 @@
 {
-    "docstring": "\"\"\"\nThis encapsulates the logic for displaying filters in the Django admin.\nFilters are specified in models with the \"list_filter\" option.\n\nEach filter subclass knows how to display a filter for a field that passes a\ncertain test -- e.g. being a DateField or ForeignKey.\n\"\"\"",
     "namespace": "django.contrib.admin.filters",
+    "docstring": "\"\"\"\nThis encapsulates the logic for displaying filters in the Django admin.\nFilters are specified in models with the \"list_filter\" option.\n\nEach filter subclass knows how to display a filter for a field that passes a\ncertain test -- e.g. being a DateField or ForeignKey.\n\"\"\"",
     "classes": [
         {
             "docstring": "",
             "name": "ListFilter",
-            "parent_name": "django.contrib.admin.filters"
+            "namespace": "django.contrib.admin.filters.ListFilter"
         },
         {
             "docstring": "",
             "name": "SimpleListFilter",
-            "parent_name": "django.contrib.admin.filters"
+            "namespace": "django.contrib.admin.filters.SimpleListFilter"
         },
         {
             "docstring": "",
             "name": "FieldListFilter",
-            "parent_name": "django.contrib.admin.filters"
+            "namespace": "django.contrib.admin.filters.FieldListFilter"
         },
         {
             "docstring": "",
             "name": "RelatedFieldListFilter",
-            "parent_name": "django.contrib.admin.filters"
+            "namespace": "django.contrib.admin.filters.RelatedFieldListFilter"
         },
         {
             "docstring": "",
             "name": "BooleanFieldListFilter",
-            "parent_name": "django.contrib.admin.filters"
+            "namespace": "django.contrib.admin.filters.BooleanFieldListFilter"
         },
         {
             "docstring": "",
             "name": "ChoicesFieldListFilter",
-            "parent_name": "django.contrib.admin.filters"
+            "namespace": "django.contrib.admin.filters.ChoicesFieldListFilter"
         },
         {
             "docstring": "",
             "name": "DateFieldListFilter",
-            "parent_name": "django.contrib.admin.filters"
+            "namespace": "django.contrib.admin.filters.DateFieldListFilter"
         },
         {
             "docstring": "",
             "name": "AllValuesFieldListFilter",
-            "parent_name": "django.contrib.admin.filters"
+            "namespace": "django.contrib.admin.filters.AllValuesFieldListFilter"
         },
         {
             "docstring": "",
             "name": "RelatedOnlyFieldListFilter",
-            "parent_name": "django.contrib.admin.filters"
+            "namespace": "django.contrib.admin.filters.RelatedOnlyFieldListFilter"
         },
         {
             "docstring": "",
             "name": "EmptyFieldListFilter",
-            "parent_name": "django.contrib.admin.filters"
+            "namespace": "django.contrib.admin.filters.EmptyFieldListFilter"
         }
     ]
 }

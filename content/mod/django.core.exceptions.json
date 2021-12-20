@@ -1,111 +1,111 @@
 {
-    "docstring": "\"\"\"\nGlobal Django exception and warning classes.\n\"\"\"",
     "namespace": "django.core.exceptions",
+    "docstring": "\"\"\"\nGlobal Django exception and warning classes.\n\"\"\"",
     "classes": [
         {
             "docstring": "\"\"\"The requested model field does not exist\"\"\"",
             "name": "FieldDoesNotExist",
-            "parent_name": "django.core.exceptions"
+            "namespace": "django.core.exceptions.FieldDoesNotExist"
         },
         {
             "docstring": "\"\"\"The django.apps registry is not populated yet\"\"\"",
             "name": "AppRegistryNotReady",
-            "parent_name": "django.core.exceptions"
+            "namespace": "django.core.exceptions.AppRegistryNotReady"
         },
         {
             "docstring": "\"\"\"The requested object does not exist\"\"\"",
             "name": "ObjectDoesNotExist",
-            "parent_name": "django.core.exceptions"
+            "namespace": "django.core.exceptions.ObjectDoesNotExist"
         },
         {
             "docstring": "\"\"\"The query returned multiple objects when only one was expected.\"\"\"",
             "name": "MultipleObjectsReturned",
-            "parent_name": "django.core.exceptions"
+            "namespace": "django.core.exceptions.MultipleObjectsReturned"
         },
         {
             "docstring": "\"\"\"The user did something suspicious\"\"\"",
             "name": "SuspiciousOperation",
-            "parent_name": "django.core.exceptions"
+            "namespace": "django.core.exceptions.SuspiciousOperation"
         },
         {
             "docstring": "\"\"\"Suspect MIME request in multipart form data\"\"\"",
             "name": "SuspiciousMultipartForm",
-            "parent_name": "django.core.exceptions"
+            "namespace": "django.core.exceptions.SuspiciousMultipartForm"
         },
         {
             "docstring": "\"\"\"A Suspicious filesystem operation was attempted\"\"\"",
             "name": "SuspiciousFileOperation",
-            "parent_name": "django.core.exceptions"
+            "namespace": "django.core.exceptions.SuspiciousFileOperation"
         },
         {
             "docstring": "\"\"\"HTTP_HOST header contains invalid value\"\"\"",
             "name": "DisallowedHost",
-            "parent_name": "django.core.exceptions"
+            "namespace": "django.core.exceptions.DisallowedHost"
         },
         {
             "docstring": "\"\"\"Redirect to scheme not in allowed list\"\"\"",
             "name": "DisallowedRedirect",
-            "parent_name": "django.core.exceptions"
+            "namespace": "django.core.exceptions.DisallowedRedirect"
         },
         {
             "docstring": "\"\"\"\n    The number of fields in a GET or POST request exceeded\n    settings.DATA_UPLOAD_MAX_NUMBER_FIELDS.\n    \"\"\"",
             "name": "TooManyFieldsSent",
-            "parent_name": "django.core.exceptions"
+            "namespace": "django.core.exceptions.TooManyFieldsSent"
         },
         {
             "docstring": "\"\"\"\n    The size of the request (excluding any file uploads) exceeded\n    settings.DATA_UPLOAD_MAX_MEMORY_SIZE.\n    \"\"\"",
             "name": "RequestDataTooBig",
-            "parent_name": "django.core.exceptions"
+            "namespace": "django.core.exceptions.RequestDataTooBig"
         },
         {
             "docstring": "\"\"\"The request was closed before it was completed, or timed out.\"\"\"",
             "name": "RequestAborted",
-            "parent_name": "django.core.exceptions"
+            "namespace": "django.core.exceptions.RequestAborted"
         },
         {
             "docstring": "\"\"\"The request is malformed and cannot be processed.\"\"\"",
             "name": "BadRequest",
-            "parent_name": "django.core.exceptions"
+            "namespace": "django.core.exceptions.BadRequest"
         },
         {
             "docstring": "\"\"\"The user did not have permission to do that\"\"\"",
             "name": "PermissionDenied",
-            "parent_name": "django.core.exceptions"
+            "namespace": "django.core.exceptions.PermissionDenied"
         },
         {
             "docstring": "\"\"\"The requested view does not exist\"\"\"",
             "name": "ViewDoesNotExist",
-            "parent_name": "django.core.exceptions"
+            "namespace": "django.core.exceptions.ViewDoesNotExist"
         },
         {
             "docstring": "\"\"\"This middleware is not used in this server configuration\"\"\"",
             "name": "MiddlewareNotUsed",
-            "parent_name": "django.core.exceptions"
+            "namespace": "django.core.exceptions.MiddlewareNotUsed"
         },
         {
             "docstring": "\"\"\"Django is somehow improperly configured\"\"\"",
             "name": "ImproperlyConfigured",
-            "parent_name": "django.core.exceptions"
+            "namespace": "django.core.exceptions.ImproperlyConfigured"
         },
         {
             "docstring": "\"\"\"Some kind of problem with a model field.\"\"\"",
             "name": "FieldError",
-            "parent_name": "django.core.exceptions"
+            "namespace": "django.core.exceptions.FieldError"
         },
         {
             "docstring": "\"\"\"An error while validating data.\"\"\"",
             "name": "ValidationError",
-            "parent_name": "django.core.exceptions"
+            "namespace": "django.core.exceptions.ValidationError"
         },
         {
             "docstring": "\"\"\"A database query predicate is impossible.\"\"\"",
             "name": "EmptyResultSet",
-            "parent_name": "django.core.exceptions"
+            "namespace": "django.core.exceptions.EmptyResultSet"
         },
         {
             "docstring": "\"\"\"The user tried to call a sync-only function from an async context.\"\"\"",
             "name": "SynchronousOnlyOperation",
-            "parent_name": "django.core.exceptions"
+            "namespace": "django.core.exceptions.SynchronousOnlyOperation"
         }
     ]
 }

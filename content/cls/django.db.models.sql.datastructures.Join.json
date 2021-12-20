@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    Used by sql.Query and sql.SQLCompiler to generate JOIN clauses into the\n    FROM entry. For example, the SQL generated could be\n        LEFT OUTER JOIN \"sometable\" T1 ON (\"othertable\".\"sometable_id\" = \"sometable\".\"id\")\n\n    This class is primarily used in Query.alias_map. All entries in alias_map\n    must be Join compatible by providing the following attributes and methods:\n        - table_name (string)\n        - table_alias (possible alias for the table, can be None)\n        - join_type (can be None for those entries that aren't joined from\n          anything)\n        - parent_alias (which table is this join's parent, can be None similarly\n          to join_type)\n        - as_sql()\n        - relabeled_clone()\n    \"\"\"",
+    "name": "Join",
+    "namespace": "django.db.models.sql.datastructures.Join",
+    "parent_namespace": "django.db.models.sql.datastructures"
+}

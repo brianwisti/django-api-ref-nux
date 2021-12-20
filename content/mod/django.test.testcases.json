@@ -1,86 +1,86 @@
 {
-    "docstring": "",
     "namespace": "django.test.testcases",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "_AssertNumQueriesContext",
-            "parent_name": "django.test.testcases"
+            "namespace": "django.test.testcases._AssertNumQueriesContext"
         },
         {
             "docstring": "",
             "name": "_AssertTemplateUsedContext",
-            "parent_name": "django.test.testcases"
+            "namespace": "django.test.testcases._AssertTemplateUsedContext"
         },
         {
             "docstring": "",
             "name": "_AssertTemplateNotUsedContext",
-            "parent_name": "django.test.testcases"
+            "namespace": "django.test.testcases._AssertTemplateNotUsedContext"
         },
         {
             "docstring": "",
             "name": "_DatabaseFailure",
-            "parent_name": "django.test.testcases"
+            "namespace": "django.test.testcases._DatabaseFailure"
         },
         {
             "docstring": "",
             "name": "SimpleTestCase",
-            "parent_name": "django.test.testcases"
+            "namespace": "django.test.testcases.SimpleTestCase"
         },
         {
             "docstring": "",
             "name": "TransactionTestCase",
-            "parent_name": "django.test.testcases"
+            "namespace": "django.test.testcases.TransactionTestCase"
         },
         {
             "docstring": "\"\"\"\n    Descriptor to provide TestCase instance isolation for attributes assigned\n    during the setUpTestData() phase.\n\n    Allow safe alteration of objects assigned in setUpTestData() by test\n    methods by exposing deep copies instead of the original objects.\n\n    Objects are deep copied using a memo kept on the test case instance in\n    order to maintain their original relationships.\n    \"\"\"",
             "name": "TestData",
-            "parent_name": "django.test.testcases"
+            "namespace": "django.test.testcases.TestData"
         },
         {
             "docstring": "\"\"\"\n    Similar to TransactionTestCase, but use `transaction.atomic()` to achieve\n    test isolation.\n\n    In most situations, TestCase should be preferred to TransactionTestCase as\n    it allows faster execution. However, there are some situations where using\n    TransactionTestCase might be necessary (e.g. testing some transactional\n    behavior).\n\n    On database backends with no transaction support, TestCase behaves as\n    TransactionTestCase.\n    \"\"\"",
             "name": "TestCase",
-            "parent_name": "django.test.testcases"
+            "namespace": "django.test.testcases.TestCase"
         },
         {
             "docstring": "\"\"\"Descriptor class for deferred condition checking.\"\"\"",
             "name": "CheckCondition",
-            "parent_name": "django.test.testcases"
+            "namespace": "django.test.testcases.CheckCondition"
         },
         {
             "docstring": "\"\"\"\n    A WSGIRequestHandler that doesn't log to standard output any of the\n    requests received, so as to not clutter the test result output.\n    \"\"\"",
             "name": "QuietWSGIRequestHandler",
-            "parent_name": "django.test.testcases"
+            "namespace": "django.test.testcases.QuietWSGIRequestHandler"
         },
         {
             "docstring": "\"\"\"\n    WSGI middleware that intercepts calls to a directory, as defined by one of\n    the *_ROOT settings, and serves those files, publishing them under *_URL.\n    \"\"\"",
             "name": "FSFilesHandler",
-            "parent_name": "django.test.testcases"
+            "namespace": "django.test.testcases.FSFilesHandler"
         },
         {
             "docstring": "\"\"\"\n    Handler for serving static files. A private class that is meant to be used\n    solely as a convenience by LiveServerThread.\n    \"\"\"",
             "name": "_StaticFilesHandler",
-            "parent_name": "django.test.testcases"
+            "namespace": "django.test.testcases._StaticFilesHandler"
         },
         {
             "docstring": "\"\"\"\n    Handler for serving the media files. A private class that is meant to be\n    used solely as a convenience by LiveServerThread.\n    \"\"\"",
             "name": "_MediaFilesHandler",
-            "parent_name": "django.test.testcases"
+            "namespace": "django.test.testcases._MediaFilesHandler"
         },
         {
             "docstring": "\"\"\"Thread for running a live HTTP server while the tests are running.\"\"\"",
             "name": "LiveServerThread",
-            "parent_name": "django.test.testcases"
+            "namespace": "django.test.testcases.LiveServerThread"
         },
         {
             "docstring": "\"\"\"\n    Do basically the same as TransactionTestCase but also launch a live HTTP\n    server in a separate thread so that the tests may use another testing\n    framework, such as Selenium for example, instead of the built-in dummy\n    client.\n    It inherits from TransactionTestCase instead of TestCase because the\n    threads don't share the same transactions (unless if using in-memory sqlite)\n    and each thread needs to commit all their transactions so that the other\n    thread can see the changes.\n    \"\"\"",
             "name": "LiveServerTestCase",
-            "parent_name": "django.test.testcases"
+            "namespace": "django.test.testcases.LiveServerTestCase"
         },
         {
             "docstring": "\"\"\"\n    Enforce serialization of TestCases that share a common resource.\n\n    Define a common 'lockfile' for each set of TestCases to serialize. This\n    file must exist on the filesystem.\n\n    Place it early in the MRO in order to isolate setUpClass()/tearDownClass().\n    \"\"\"",
             "name": "SerializeMixin",
-            "parent_name": "django.test.testcases"
+            "namespace": "django.test.testcases.SerializeMixin"
         }
     ]
 }

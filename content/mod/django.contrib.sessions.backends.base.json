@@ -1,21 +1,21 @@
 {
-    "docstring": "",
     "namespace": "django.contrib.sessions.backends.base",
+    "docstring": "",
     "classes": [
         {
             "docstring": "\"\"\"\n    Used internally as a consistent exception type to catch from save (see the\n    docstring for SessionBase.save() for details).\n    \"\"\"",
             "name": "CreateError",
-            "parent_name": "django.contrib.sessions.backends.base"
+            "namespace": "django.contrib.sessions.backends.base.CreateError"
         },
         {
             "docstring": "\"\"\"\n    Occurs if Django tries to update a session that was deleted.\n    \"\"\"",
             "name": "UpdateError",
-            "parent_name": "django.contrib.sessions.backends.base"
+            "namespace": "django.contrib.sessions.backends.base.UpdateError"
         },
         {
             "docstring": "\"\"\"\n    Base class for all Session classes.\n    \"\"\"",
             "name": "SessionBase",
-            "parent_name": "django.contrib.sessions.backends.base"
+            "namespace": "django.contrib.sessions.backends.base.SessionBase"
         }
     ]
 }

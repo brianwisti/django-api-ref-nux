@@ -1,31 +1,31 @@
 {
-    "docstring": "",
     "namespace": "django.template.library",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "InvalidTemplateLibrary",
-            "parent_name": "django.template.library"
+            "namespace": "django.template.library.InvalidTemplateLibrary"
         },
         {
             "docstring": "\"\"\"\n    A class for registering template tags and filters. Compiled filter and\n    template tag functions are stored in the filters and tags attributes.\n    The filter, simple_tag, and inclusion_tag methods provide a convenient\n    way to register callables as tags.\n    \"\"\"",
             "name": "Library",
-            "parent_name": "django.template.library"
+            "namespace": "django.template.library.Library"
         },
         {
             "docstring": "\"\"\"\n    Base class for tag helper nodes such as SimpleNode and InclusionNode.\n    Manages the positional and keyword arguments to be passed to the decorated\n    function.\n    \"\"\"",
             "name": "TagHelperNode",
-            "parent_name": "django.template.library"
+            "namespace": "django.template.library.TagHelperNode"
         },
         {
             "docstring": "",
             "name": "SimpleNode",
-            "parent_name": "django.template.library"
+            "namespace": "django.template.library.SimpleNode"
         },
         {
             "docstring": "",
             "name": "InclusionNode",
-            "parent_name": "django.template.library"
+            "namespace": "django.template.library.InclusionNode"
         }
     ]
 }

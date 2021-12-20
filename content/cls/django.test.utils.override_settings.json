@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    Act as either a decorator or a context manager. If it's a decorator, take a\n    function and return a wrapped function. If it's a contextmanager, use it\n    with the ``with`` statement. In either event, entering/exiting are called\n    before and after, respectively, the function/block is executed.\n    \"\"\"",
+    "name": "override_settings",
+    "namespace": "django.test.utils.override_settings",
+    "parent_namespace": "django.test.utils"
+}

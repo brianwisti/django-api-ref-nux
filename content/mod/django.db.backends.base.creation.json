@@ -1,11 +1,11 @@
 {
-    "docstring": "",
     "namespace": "django.db.backends.base.creation",
+    "docstring": "",
     "classes": [
         {
             "docstring": "\"\"\"\n    Encapsulate backend-specific differences pertaining to creation and\n    destruction of the test database.\n    \"\"\"",
             "name": "BaseDatabaseCreation",
-            "parent_name": "django.db.backends.base.creation"
+            "namespace": "django.db.backends.base.creation.BaseDatabaseCreation"
         }
     ]
 }

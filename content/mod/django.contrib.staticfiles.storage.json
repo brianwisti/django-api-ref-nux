@@ -1,31 +1,31 @@
 {
-    "docstring": "",
     "namespace": "django.contrib.staticfiles.storage",
+    "docstring": "",
     "classes": [
         {
             "docstring": "\"\"\"\n    Standard file system storage for static files.\n\n    The defaults for ``location`` and ``base_url`` are\n    ``STATIC_ROOT`` and ``STATIC_URL``.\n    \"\"\"",
             "name": "StaticFilesStorage",
-            "parent_name": "django.contrib.staticfiles.storage"
+            "namespace": "django.contrib.staticfiles.storage.StaticFilesStorage"
         },
         {
             "docstring": "",
             "name": "HashedFilesMixin",
-            "parent_name": "django.contrib.staticfiles.storage"
+            "namespace": "django.contrib.staticfiles.storage.HashedFilesMixin"
         },
         {
             "docstring": "",
             "name": "ManifestFilesMixin",
-            "parent_name": "django.contrib.staticfiles.storage"
+            "namespace": "django.contrib.staticfiles.storage.ManifestFilesMixin"
         },
         {
             "docstring": "\"\"\"\n    A static file system storage backend which also saves\n    hashed copies of the files it saves.\n    \"\"\"",
             "name": "ManifestStaticFilesStorage",
-            "parent_name": "django.contrib.staticfiles.storage"
+            "namespace": "django.contrib.staticfiles.storage.ManifestStaticFilesStorage"
         },
         {
             "docstring": "",
             "name": "ConfiguredStorage",
-            "parent_name": "django.contrib.staticfiles.storage"
+            "namespace": "django.contrib.staticfiles.storage.ConfiguredStorage"
         }
     ]
 }

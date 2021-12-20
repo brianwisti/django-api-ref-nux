@@ -1,11 +1,11 @@
 {
-    "docstring": "\"\"\"\nUtility functions for handling images.\n\nRequires Pillow as you might imagine.\n\"\"\"",
     "namespace": "django.core.files.images",
+    "docstring": "\"\"\"\nUtility functions for handling images.\n\nRequires Pillow as you might imagine.\n\"\"\"",
     "classes": [
         {
             "docstring": "\"\"\"\n    A mixin for use alongside django.core.files.base.File, which provides\n    additional features for dealing with images.\n    \"\"\"",
             "name": "ImageFile",
-            "parent_name": "django.core.files.images"
+            "namespace": "django.core.files.images.ImageFile"
         }
     ]
 }

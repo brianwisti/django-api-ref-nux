@@ -1,26 +1,26 @@
 {
-    "docstring": "\"Base Cache class.\"",
     "namespace": "django.core.cache.backends.base",
+    "docstring": "\"Base Cache class.\"",
     "classes": [
         {
             "docstring": "",
             "name": "InvalidCacheBackendError",
-            "parent_name": "django.core.cache.backends.base"
+            "namespace": "django.core.cache.backends.base.InvalidCacheBackendError"
         },
         {
             "docstring": "",
             "name": "CacheKeyWarning",
-            "parent_name": "django.core.cache.backends.base"
+            "namespace": "django.core.cache.backends.base.CacheKeyWarning"
         },
         {
             "docstring": "",
             "name": "InvalidCacheKey",
-            "parent_name": "django.core.cache.backends.base"
+            "namespace": "django.core.cache.backends.base.InvalidCacheKey"
         },
         {
             "docstring": "",
             "name": "BaseCache",
-            "parent_name": "django.core.cache.backends.base"
+            "namespace": "django.core.cache.backends.base.BaseCache"
         }
     ]
 }

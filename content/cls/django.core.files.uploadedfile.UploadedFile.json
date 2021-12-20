@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    An abstract uploaded file (``TemporaryUploadedFile`` and\n    ``InMemoryUploadedFile`` are the built-in concrete subclasses).\n\n    An ``UploadedFile`` object behaves somewhat like a file object and\n    represents some file data that the user submitted with a form.\n    \"\"\"",
+    "name": "UploadedFile",
+    "namespace": "django.core.files.uploadedfile.UploadedFile",
+    "parent_namespace": "django.core.files.uploadedfile"
+}

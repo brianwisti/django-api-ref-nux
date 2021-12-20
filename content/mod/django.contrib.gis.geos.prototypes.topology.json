@@ -1,11 +1,11 @@
 {
-    "docstring": "\"\"\"\n This module houses the GEOS ctypes prototype functions for the\n topological operations on geometries.\n\"\"\"",
     "namespace": "django.contrib.gis.geos.prototypes.topology",
+    "docstring": "\"\"\"\n This module houses the GEOS ctypes prototype functions for the\n topological operations on geometries.\n\"\"\"",
     "classes": [
         {
             "docstring": "\"For GEOS unary topology functions.\"",
             "name": "Topology",
-            "parent_name": "django.contrib.gis.geos.prototypes.topology"
+            "namespace": "django.contrib.gis.geos.prototypes.topology.Topology"
         }
     ]
 }

@@ -1,49 +1,27 @@
 {
     "name": "django.contrib.admin.templatetags",
     "docstring": "",
+    "classes": [],
     "modules": [
         {
-            "docstring": "",
             "namespace": "django.contrib.admin.templatetags.base",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    Template tag that allows its template to be overridden per model, per app,\n    or globally.\n    \"\"\"",
-                    "name": "InclusionAdminNode",
-                    "parent_name": "django.contrib.admin.templatetags.base"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.admin.templatetags.log",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "AdminLogNode",
-                    "parent_name": "django.contrib.admin.templatetags.log"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.admin.templatetags.admin_modify",
-            "classes": []
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.admin.templatetags.admin_list",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    Wrapper class used to return items in a list_editable changelist, annotated\n    with the form object for error reporting purposes. Needed to maintain\n    backwards compatibility with existing admin templates.\n    \"\"\"",
-                    "name": "ResultList",
-                    "parent_name": "django.contrib.admin.templatetags.admin_list"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.admin.templatetags.admin_urls",
-            "classes": []
+            "docstring": ""
         }
     ],
     "subpackages": []

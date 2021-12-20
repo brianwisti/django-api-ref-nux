@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    Options for inline editing of ``model`` instances.\n\n    Provide ``fk_name`` to specify the attribute name of the ``ForeignKey``\n    from ``model`` to its parent. This is required if ``model`` has more than\n    one ``ForeignKey`` to its parent.\n    \"\"\"",
+    "name": "InlineModelAdmin",
+    "namespace": "django.contrib.admin.options.InlineModelAdmin",
+    "parent_namespace": "django.contrib.admin.options"
+}

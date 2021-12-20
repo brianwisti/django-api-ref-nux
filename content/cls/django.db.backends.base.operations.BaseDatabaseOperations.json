@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    Encapsulate backend-specific differences, such as the way a backend\n    performs ordering or calculates the ID of a recently-inserted row.\n    \"\"\"",
+    "name": "BaseDatabaseOperations",
+    "namespace": "django.db.backends.base.operations.BaseDatabaseOperations",
+    "parent_namespace": "django.db.backends.base.operations"
+}

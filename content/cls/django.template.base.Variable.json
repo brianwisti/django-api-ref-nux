@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    A template variable, resolvable against a given context. The variable may\n    be a hard-coded string (if it begins and ends with single or double quote\n    marks)::\n\n        >>> c = {'article': {'section':'News'}}\n        >>> Variable('article.section').resolve(c)\n        'News'\n        >>> Variable('article').resolve(c)\n        {'section': 'News'}\n        >>> class AClass: pass\n        >>> c = AClass()\n        >>> c.article = AClass()\n        >>> c.article.section = 'News'\n\n    (The example assumes VARIABLE_ATTRIBUTE_SEPARATOR is '.')\n    \"\"\"",
+    "name": "Variable",
+    "namespace": "django.template.base.Variable",
+    "parent_namespace": "django.template.base"
+}

@@ -1,56 +1,56 @@
 {
-    "docstring": "",
     "namespace": "django.contrib.postgres.lookups",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "DataContains",
-            "parent_name": "django.contrib.postgres.lookups"
+            "namespace": "django.contrib.postgres.lookups.DataContains"
         },
         {
             "docstring": "",
             "name": "ContainedBy",
-            "parent_name": "django.contrib.postgres.lookups"
+            "namespace": "django.contrib.postgres.lookups.ContainedBy"
         },
         {
             "docstring": "",
             "name": "Overlap",
-            "parent_name": "django.contrib.postgres.lookups"
+            "namespace": "django.contrib.postgres.lookups.Overlap"
         },
         {
             "docstring": "",
             "name": "HasKey",
-            "parent_name": "django.contrib.postgres.lookups"
+            "namespace": "django.contrib.postgres.lookups.HasKey"
         },
         {
             "docstring": "",
             "name": "HasKeys",
-            "parent_name": "django.contrib.postgres.lookups"
+            "namespace": "django.contrib.postgres.lookups.HasKeys"
         },
         {
             "docstring": "",
             "name": "HasAnyKeys",
-            "parent_name": "django.contrib.postgres.lookups"
+            "namespace": "django.contrib.postgres.lookups.HasAnyKeys"
         },
         {
             "docstring": "",
             "name": "Unaccent",
-            "parent_name": "django.contrib.postgres.lookups"
+            "namespace": "django.contrib.postgres.lookups.Unaccent"
         },
         {
             "docstring": "",
             "name": "SearchLookup",
-            "parent_name": "django.contrib.postgres.lookups"
+            "namespace": "django.contrib.postgres.lookups.SearchLookup"
         },
         {
             "docstring": "",
             "name": "TrigramSimilar",
-            "parent_name": "django.contrib.postgres.lookups"
+            "namespace": "django.contrib.postgres.lookups.TrigramSimilar"
         },
         {
             "docstring": "",
             "name": "TrigramWordSimilar",
-            "parent_name": "django.contrib.postgres.lookups"
+            "namespace": "django.contrib.postgres.lookups.TrigramWordSimilar"
         }
     ]
 }

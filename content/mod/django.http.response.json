@@ -1,96 +1,96 @@
 {
-    "docstring": "",
     "namespace": "django.http.response",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "ResponseHeaders",
-            "parent_name": "django.http.response"
+            "namespace": "django.http.response.ResponseHeaders"
         },
         {
             "docstring": "",
             "name": "BadHeaderError",
-            "parent_name": "django.http.response"
+            "namespace": "django.http.response.BadHeaderError"
         },
         {
             "docstring": "\"\"\"\n    An HTTP response base class with dictionary-accessed headers.\n\n    This class doesn't handle content. It should not be used directly.\n    Use the HttpResponse and StreamingHttpResponse subclasses instead.\n    \"\"\"",
             "name": "HttpResponseBase",
-            "parent_name": "django.http.response"
+            "namespace": "django.http.response.HttpResponseBase"
         },
         {
             "docstring": "\"\"\"\n    An HTTP response class with a string as content.\n\n    This content can be read, appended to, or replaced.\n    \"\"\"",
             "name": "HttpResponse",
-            "parent_name": "django.http.response"
+            "namespace": "django.http.response.HttpResponse"
         },
         {
             "docstring": "\"\"\"\n    A streaming HTTP response class with an iterator as content.\n\n    This should only be iterated once, when the response is streamed to the\n    client. However, it can be appended to or replaced with a new iterator\n    that wraps the original content (or yields entirely new content).\n    \"\"\"",
             "name": "StreamingHttpResponse",
-            "parent_name": "django.http.response"
+            "namespace": "django.http.response.StreamingHttpResponse"
         },
         {
             "docstring": "\"\"\"\n    A streaming HTTP response class optimized for files.\n    \"\"\"",
             "name": "FileResponse",
-            "parent_name": "django.http.response"
+            "namespace": "django.http.response.FileResponse"
         },
         {
             "docstring": "",
             "name": "HttpResponseRedirectBase",
-            "parent_name": "django.http.response"
+            "namespace": "django.http.response.HttpResponseRedirectBase"
         },
         {
             "docstring": "",
             "name": "HttpResponseRedirect",
-            "parent_name": "django.http.response"
+            "namespace": "django.http.response.HttpResponseRedirect"
         },
         {
             "docstring": "",
             "name": "HttpResponsePermanentRedirect",
-            "parent_name": "django.http.response"
+            "namespace": "django.http.response.HttpResponsePermanentRedirect"
         },
         {
             "docstring": "",
             "name": "HttpResponseNotModified",
-            "parent_name": "django.http.response"
+            "namespace": "django.http.response.HttpResponseNotModified"
         },
         {
             "docstring": "",
             "name": "HttpResponseBadRequest",
-            "parent_name": "django.http.response"
+            "namespace": "django.http.response.HttpResponseBadRequest"
         },
         {
             "docstring": "",
             "name": "HttpResponseNotFound",
-            "parent_name": "django.http.response"
+            "namespace": "django.http.response.HttpResponseNotFound"
         },
         {
             "docstring": "",
             "name": "HttpResponseForbidden",
-            "parent_name": "django.http.response"
+            "namespace": "django.http.response.HttpResponseForbidden"
         },
         {
             "docstring": "",
             "name": "HttpResponseNotAllowed",
-            "parent_name": "django.http.response"
+            "namespace": "django.http.response.HttpResponseNotAllowed"
         },
         {
             "docstring": "",
             "name": "HttpResponseGone",
-            "parent_name": "django.http.response"
+            "namespace": "django.http.response.HttpResponseGone"
         },
         {
             "docstring": "",
             "name": "HttpResponseServerError",
-            "parent_name": "django.http.response"
+            "namespace": "django.http.response.HttpResponseServerError"
         },
         {
             "docstring": "",
             "name": "Http404",
-            "parent_name": "django.http.response"
+            "namespace": "django.http.response.Http404"
         },
         {
             "docstring": "\"\"\"\n    An HTTP response class that consumes data to be serialized to JSON.\n\n    :param data: Data to be dumped into json. By default only ``dict`` objects\n      are allowed to be passed due to a security flaw before ECMAScript 5. See\n      the ``safe`` parameter for more information.\n    :param encoder: Should be a json encoder class. Defaults to\n      ``django.core.serializers.json.DjangoJSONEncoder``.\n    :param safe: Controls if only ``dict`` objects may be serialized. Defaults\n      to ``True``.\n    :param json_dumps_params: A dictionary of kwargs passed to json.dumps().\n    \"\"\"",
             "name": "JsonResponse",
-            "parent_name": "django.http.response"
+            "namespace": "django.http.response.JsonResponse"
         }
     ]
 }

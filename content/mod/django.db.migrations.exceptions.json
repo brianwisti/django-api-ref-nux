@@ -1,51 +1,51 @@
 {
-    "docstring": "",
     "namespace": "django.db.migrations.exceptions",
+    "docstring": "",
     "classes": [
         {
             "docstring": "\"\"\"More than one migration matches a name prefix.\"\"\"",
             "name": "AmbiguityError",
-            "parent_name": "django.db.migrations.exceptions"
+            "namespace": "django.db.migrations.exceptions.AmbiguityError"
         },
         {
             "docstring": "\"\"\"There's a bad migration (unreadable/bad format/etc.).\"\"\"",
             "name": "BadMigrationError",
-            "parent_name": "django.db.migrations.exceptions"
+            "namespace": "django.db.migrations.exceptions.BadMigrationError"
         },
         {
             "docstring": "\"\"\"There's an impossible-to-resolve circular dependency.\"\"\"",
             "name": "CircularDependencyError",
-            "parent_name": "django.db.migrations.exceptions"
+            "namespace": "django.db.migrations.exceptions.CircularDependencyError"
         },
         {
             "docstring": "\"\"\"An applied migration has some of its dependencies not applied.\"\"\"",
             "name": "InconsistentMigrationHistory",
-            "parent_name": "django.db.migrations.exceptions"
+            "namespace": "django.db.migrations.exceptions.InconsistentMigrationHistory"
         },
         {
             "docstring": "\"\"\"A model's base classes can't be resolved.\"\"\"",
             "name": "InvalidBasesError",
-            "parent_name": "django.db.migrations.exceptions"
+            "namespace": "django.db.migrations.exceptions.InvalidBasesError"
         },
         {
             "docstring": "\"\"\"An irreversible migration is about to be reversed.\"\"\"",
             "name": "IrreversibleError",
-            "parent_name": "django.db.migrations.exceptions"
+            "namespace": "django.db.migrations.exceptions.IrreversibleError"
         },
         {
             "docstring": "\"\"\"An attempt on a node is made that is not available in the graph.\"\"\"",
             "name": "NodeNotFoundError",
-            "parent_name": "django.db.migrations.exceptions"
+            "namespace": "django.db.migrations.exceptions.NodeNotFoundError"
         },
         {
             "docstring": "",
             "name": "MigrationSchemaMissing",
-            "parent_name": "django.db.migrations.exceptions"
+            "namespace": "django.db.migrations.exceptions.MigrationSchemaMissing"
         },
         {
             "docstring": "",
             "name": "InvalidMigrationPlan",
-            "parent_name": "django.db.migrations.exceptions"
+            "namespace": "django.db.migrations.exceptions.InvalidMigrationPlan"
         }
     ]
 }

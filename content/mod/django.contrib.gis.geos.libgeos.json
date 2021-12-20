@@ -1,31 +1,31 @@
 {
-    "docstring": "\"\"\"\n This module houses the ctypes initialization procedures, as well\n as the notice and error handler function callbacks (get called\n when an error occurs in GEOS).\n\n This module also houses GEOS Pointer utilities, including\n get_pointer_arr(), and GEOM_PTR.\n\"\"\"",
     "namespace": "django.contrib.gis.geos.libgeos",
+    "docstring": "\"\"\"\n This module houses the ctypes initialization procedures, as well\n as the notice and error handler function callbacks (get called\n when an error occurs in GEOS).\n\n This module also houses GEOS Pointer utilities, including\n get_pointer_arr(), and GEOM_PTR.\n\"\"\"",
     "classes": [
         {
             "docstring": "",
             "name": "GEOSGeom_t",
-            "parent_name": "django.contrib.gis.geos.libgeos"
+            "namespace": "django.contrib.gis.geos.libgeos.GEOSGeom_t"
         },
         {
             "docstring": "",
             "name": "GEOSPrepGeom_t",
-            "parent_name": "django.contrib.gis.geos.libgeos"
+            "namespace": "django.contrib.gis.geos.libgeos.GEOSPrepGeom_t"
         },
         {
             "docstring": "",
             "name": "GEOSCoordSeq_t",
-            "parent_name": "django.contrib.gis.geos.libgeos"
+            "namespace": "django.contrib.gis.geos.libgeos.GEOSCoordSeq_t"
         },
         {
             "docstring": "",
             "name": "GEOSContextHandle_t",
-            "parent_name": "django.contrib.gis.geos.libgeos"
+            "namespace": "django.contrib.gis.geos.libgeos.GEOSContextHandle_t"
         },
         {
             "docstring": "\"\"\"\n    Lazy loading of GEOS functions.\n    \"\"\"",
             "name": "GEOSFuncFactory",
-            "parent_name": "django.contrib.gis.geos.libgeos"
+            "namespace": "django.contrib.gis.geos.libgeos.GEOSFuncFactory"
         }
     ]
 }

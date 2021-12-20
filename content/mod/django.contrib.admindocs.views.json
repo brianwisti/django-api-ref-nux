@@ -1,51 +1,51 @@
 {
-    "docstring": "",
     "namespace": "django.contrib.admindocs.views",
+    "docstring": "",
     "classes": [
         {
             "docstring": "\"\"\"\n    Base view for admindocs views.\n    \"\"\"",
             "name": "BaseAdminDocsView",
-            "parent_name": "django.contrib.admindocs.views"
+            "namespace": "django.contrib.admindocs.views.BaseAdminDocsView"
         },
         {
             "docstring": "",
             "name": "BookmarkletsView",
-            "parent_name": "django.contrib.admindocs.views"
+            "namespace": "django.contrib.admindocs.views.BookmarkletsView"
         },
         {
             "docstring": "",
             "name": "TemplateTagIndexView",
-            "parent_name": "django.contrib.admindocs.views"
+            "namespace": "django.contrib.admindocs.views.TemplateTagIndexView"
         },
         {
             "docstring": "",
             "name": "TemplateFilterIndexView",
-            "parent_name": "django.contrib.admindocs.views"
+            "namespace": "django.contrib.admindocs.views.TemplateFilterIndexView"
         },
         {
             "docstring": "",
             "name": "ViewIndexView",
-            "parent_name": "django.contrib.admindocs.views"
+            "namespace": "django.contrib.admindocs.views.ViewIndexView"
         },
         {
             "docstring": "",
             "name": "ViewDetailView",
-            "parent_name": "django.contrib.admindocs.views"
+            "namespace": "django.contrib.admindocs.views.ViewDetailView"
         },
         {
             "docstring": "",
             "name": "ModelIndexView",
-            "parent_name": "django.contrib.admindocs.views"
+            "namespace": "django.contrib.admindocs.views.ModelIndexView"
         },
         {
             "docstring": "",
             "name": "ModelDetailView",
-            "parent_name": "django.contrib.admindocs.views"
+            "namespace": "django.contrib.admindocs.views.ModelDetailView"
         },
         {
             "docstring": "",
             "name": "TemplateDetailView",
-            "parent_name": "django.contrib.admindocs.views"
+            "namespace": "django.contrib.admindocs.views.TemplateDetailView"
         }
     ]
 }

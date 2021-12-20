@@ -1,41 +1,41 @@
 {
-    "docstring": "\"\"\"\nBase file upload handler classes, and the built-in concrete subclasses\n\"\"\"",
     "namespace": "django.core.files.uploadhandler",
+    "docstring": "\"\"\"\nBase file upload handler classes, and the built-in concrete subclasses\n\"\"\"",
     "classes": [
         {
             "docstring": "\"\"\"\n    Any error having to do with uploading files.\n    \"\"\"",
             "name": "UploadFileException",
-            "parent_name": "django.core.files.uploadhandler"
+            "namespace": "django.core.files.uploadhandler.UploadFileException"
         },
         {
             "docstring": "\"\"\"\n    This exception is raised when an upload must abort.\n    \"\"\"",
             "name": "StopUpload",
-            "parent_name": "django.core.files.uploadhandler"
+            "namespace": "django.core.files.uploadhandler.StopUpload"
         },
         {
             "docstring": "\"\"\"\n    This exception is raised by an upload handler that wants to skip a given file.\n    \"\"\"",
             "name": "SkipFile",
-            "parent_name": "django.core.files.uploadhandler"
+            "namespace": "django.core.files.uploadhandler.SkipFile"
         },
         {
             "docstring": "\"\"\"\n    Upload handlers that have handled a file and do not want future handlers to\n    run should raise this exception instead of returning None.\n    \"\"\"",
             "name": "StopFutureHandlers",
-            "parent_name": "django.core.files.uploadhandler"
+            "namespace": "django.core.files.uploadhandler.StopFutureHandlers"
         },
         {
             "docstring": "\"\"\"\n    Base class for streaming upload handlers.\n    \"\"\"",
             "name": "FileUploadHandler",
-            "parent_name": "django.core.files.uploadhandler"
+            "namespace": "django.core.files.uploadhandler.FileUploadHandler"
         },
         {
             "docstring": "\"\"\"\n    Upload handler that streams data into a temporary file.\n    \"\"\"",
             "name": "TemporaryFileUploadHandler",
-            "parent_name": "django.core.files.uploadhandler"
+            "namespace": "django.core.files.uploadhandler.TemporaryFileUploadHandler"
         },
         {
             "docstring": "\"\"\"\n    File upload handler to stream uploads into memory (used for small files).\n    \"\"\"",
             "name": "MemoryFileUploadHandler",
-            "parent_name": "django.core.files.uploadhandler"
+            "namespace": "django.core.files.uploadhandler.MemoryFileUploadHandler"
         }
     ]
 }

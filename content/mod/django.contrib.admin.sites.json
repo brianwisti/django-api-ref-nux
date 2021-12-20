@@ -1,26 +1,26 @@
 {
-    "docstring": "",
     "namespace": "django.contrib.admin.sites",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "AlreadyRegistered",
-            "parent_name": "django.contrib.admin.sites"
+            "namespace": "django.contrib.admin.sites.AlreadyRegistered"
         },
         {
             "docstring": "",
             "name": "NotRegistered",
-            "parent_name": "django.contrib.admin.sites"
+            "namespace": "django.contrib.admin.sites.NotRegistered"
         },
         {
             "docstring": "\"\"\"\n    An AdminSite object encapsulates an instance of the Django admin application, ready\n    to be hooked in to your URLconf. Models are registered with the AdminSite using the\n    register() method, and the get_urls() method can then be used to access Django view\n    functions that present a full admin interface for the collection of registered\n    models.\n    \"\"\"",
             "name": "AdminSite",
-            "parent_name": "django.contrib.admin.sites"
+            "namespace": "django.contrib.admin.sites.AdminSite"
         },
         {
             "docstring": "",
             "name": "DefaultAdminSite",
-            "parent_name": "django.contrib.admin.sites"
+            "namespace": "django.contrib.admin.sites.DefaultAdminSite"
         }
     ]
 }

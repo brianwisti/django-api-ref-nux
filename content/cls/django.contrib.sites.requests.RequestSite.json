@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    A class that shares the primary interface of Site (i.e., it has ``domain``\n    and ``name`` attributes) but gets its data from an HttpRequest object\n    rather than from a database.\n\n    The save() and delete() methods raise NotImplementedError.\n    \"\"\"",
+    "name": "RequestSite",
+    "namespace": "django.contrib.sites.requests.RequestSite",
+    "parent_namespace": "django.contrib.sites.requests"
+}

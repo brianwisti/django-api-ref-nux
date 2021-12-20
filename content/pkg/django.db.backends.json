@@ -1,78 +1,19 @@
 {
     "name": "django.db.backends",
     "docstring": "",
+    "classes": [],
     "modules": [
         {
-            "docstring": "\"\"\"\nHelpers to manipulate deferred DDL statements that might need to be adjusted or\ndiscarded within when executing a migration.\n\"\"\"",
             "namespace": "django.db.backends.ddl_references",
-            "classes": [
-                {
-                    "docstring": "\"\"\"Base class that defines the reference interface.\"\"\"",
-                    "name": "Reference",
-                    "parent_name": "django.db.backends.ddl_references"
-                },
-                {
-                    "docstring": "\"\"\"Hold a reference to a table.\"\"\"",
-                    "name": "Table",
-                    "parent_name": "django.db.backends.ddl_references"
-                },
-                {
-                    "docstring": "\"\"\"Base class for references to multiple columns of a table.\"\"\"",
-                    "name": "TableColumns",
-                    "parent_name": "django.db.backends.ddl_references"
-                },
-                {
-                    "docstring": "\"\"\"Hold a reference to one or many columns.\"\"\"",
-                    "name": "Columns",
-                    "parent_name": "django.db.backends.ddl_references"
-                },
-                {
-                    "docstring": "\"\"\"Hold a reference to an index name.\"\"\"",
-                    "name": "IndexName",
-                    "parent_name": "django.db.backends.ddl_references"
-                },
-                {
-                    "docstring": "",
-                    "name": "IndexColumns",
-                    "parent_name": "django.db.backends.ddl_references"
-                },
-                {
-                    "docstring": "\"\"\"Hold a reference to a foreign key name.\"\"\"",
-                    "name": "ForeignKeyName",
-                    "parent_name": "django.db.backends.ddl_references"
-                },
-                {
-                    "docstring": "\"\"\"\n    Statement template and formatting parameters container.\n\n    Allows keeping a reference to a statement without interpolating identifiers\n    that might have to be adjusted if they're referencing a table or column\n    that is removed\n    \"\"\"",
-                    "name": "Statement",
-                    "parent_name": "django.db.backends.ddl_references"
-                },
-                {
-                    "docstring": "",
-                    "name": "Expressions",
-                    "parent_name": "django.db.backends.ddl_references"
-                }
-            ]
+            "docstring": "\"\"\"\nHelpers to manipulate deferred DDL statements that might need to be adjusted or\ndiscarded within when executing a migration.\n\"\"\""
         },
         {
-            "docstring": "",
             "namespace": "django.db.backends.signals",
-            "classes": []
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.db.backends.utils",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "CursorWrapper",
-                    "parent_name": "django.db.backends.utils"
-                },
-                {
-                    "docstring": "",
-                    "name": "CursorDebugWrapper",
-                    "parent_name": "django.db.backends.utils"
-                }
-            ]
+            "docstring": ""
         }
     ],
     "subpackages": [

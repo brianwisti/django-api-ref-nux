@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    The purpose of this class is to store the actual translation function upon\n    receiving the first call to that function. After this is done, changes to\n    USE_I18N will have no effect to which function is served upon request. If\n    your tests rely on changing USE_I18N, you can delete all the functions\n    from _trans.__dict__.\n\n    Note that storing the function with setattr will have a noticeable\n    performance effect, as access to the function goes the normal path,\n    instead of using __getattr__.\n    \"\"\"",
+    "name": "Trans",
+    "namespace": "django.utils.translation.Trans",
+    "parent_namespace": "django.utils.translation"
+}

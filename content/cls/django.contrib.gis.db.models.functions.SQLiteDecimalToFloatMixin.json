@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    By default, Decimal values are converted to str by the SQLite backend, which\n    is not acceptable by the GIS functions expecting numeric values.\n    \"\"\"",
+    "name": "SQLiteDecimalToFloatMixin",
+    "namespace": "django.contrib.gis.db.models.functions.SQLiteDecimalToFloatMixin",
+    "parent_namespace": "django.contrib.gis.db.models.functions"
+}

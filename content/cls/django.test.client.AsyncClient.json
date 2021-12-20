@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    An async version of Client that creates ASGIRequests and calls through an\n    async request path.\n\n    Does not currently support \"follow\" on its methods.\n    \"\"\"",
+    "name": "AsyncClient",
+    "namespace": "django.test.client.AsyncClient",
+    "parent_namespace": "django.test.client"
+}

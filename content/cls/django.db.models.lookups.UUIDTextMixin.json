@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    Strip hyphens from a value when filtering a UUIDField on backends without\n    a native datatype for UUID.\n    \"\"\"",
+    "name": "UUIDTextMixin",
+    "namespace": "django.db.models.lookups.UUIDTextMixin",
+    "parent_namespace": "django.db.models.lookups"
+}

@@ -1,21 +1,21 @@
 {
-    "docstring": "",
     "namespace": "django.db.models.deletion",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "ProtectedError",
-            "parent_name": "django.db.models.deletion"
+            "namespace": "django.db.models.deletion.ProtectedError"
         },
         {
             "docstring": "",
             "name": "RestrictedError",
-            "parent_name": "django.db.models.deletion"
+            "namespace": "django.db.models.deletion.RestrictedError"
         },
         {
             "docstring": "",
             "name": "Collector",
-            "parent_name": "django.db.models.deletion"
+            "namespace": "django.db.models.deletion.Collector"
         }
     ]
 }

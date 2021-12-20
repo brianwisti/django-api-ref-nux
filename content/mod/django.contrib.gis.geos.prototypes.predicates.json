@@ -1,16 +1,16 @@
 {
-    "docstring": "\"\"\"\n This module houses the GEOS ctypes prototype functions for the\n unary and binary predicate operations on geometries.\n\"\"\"",
     "namespace": "django.contrib.gis.geos.prototypes.predicates",
+    "docstring": "\"\"\"\n This module houses the GEOS ctypes prototype functions for the\n unary and binary predicate operations on geometries.\n\"\"\"",
     "classes": [
         {
             "docstring": "\"For GEOS unary predicate functions.\"",
             "name": "UnaryPredicate",
-            "parent_name": "django.contrib.gis.geos.prototypes.predicates"
+            "namespace": "django.contrib.gis.geos.prototypes.predicates.UnaryPredicate"
         },
         {
             "docstring": "\"For GEOS binary predicate functions.\"",
             "name": "BinaryPredicate",
-            "parent_name": "django.contrib.gis.geos.prototypes.predicates"
+            "namespace": "django.contrib.gis.geos.prototypes.predicates.BinaryPredicate"
         }
     ]
 }

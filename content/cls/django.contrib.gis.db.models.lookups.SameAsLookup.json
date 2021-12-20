@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    The \"~=\" operator is the \"same as\" operator. It tests actual geometric\n    equality of two features. So if A and B are the same feature,\n    vertex-by-vertex, the operator returns true.\n    \"\"\"",
+    "name": "SameAsLookup",
+    "namespace": "django.contrib.gis.db.models.lookups.SameAsLookup",
+    "parent_namespace": "django.contrib.gis.db.models.lookups"
+}

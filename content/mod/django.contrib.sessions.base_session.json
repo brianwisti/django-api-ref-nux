@@ -1,16 +1,16 @@
 {
-    "docstring": "\"\"\"\nThis module allows importing AbstractBaseSession even\nwhen django.contrib.sessions is not in INSTALLED_APPS.\n\"\"\"",
     "namespace": "django.contrib.sessions.base_session",
+    "docstring": "\"\"\"\nThis module allows importing AbstractBaseSession even\nwhen django.contrib.sessions is not in INSTALLED_APPS.\n\"\"\"",
     "classes": [
         {
             "docstring": "",
             "name": "BaseSessionManager",
-            "parent_name": "django.contrib.sessions.base_session"
+            "namespace": "django.contrib.sessions.base_session.BaseSessionManager"
         },
         {
             "docstring": "",
             "name": "AbstractBaseSession",
-            "parent_name": "django.contrib.sessions.base_session"
+            "namespace": "django.contrib.sessions.base_session.AbstractBaseSession"
         }
     ]
 }

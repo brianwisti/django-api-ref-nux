@@ -1,119 +1,39 @@
 {
     "name": "django.middleware",
     "docstring": "",
+    "classes": [],
     "modules": [
         {
-            "docstring": "",
             "namespace": "django.middleware.locale",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    Parse a request and decide what translation object to install in the\n    current thread context. This allows pages to be dynamically translated to\n    the language the user desires (if the language is available).\n    \"\"\"",
-                    "name": "LocaleMiddleware",
-                    "parent_name": "django.middleware.locale"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.middleware.gzip",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    Compress content if the browser allows gzip compression.\n    Set the Vary header accordingly, so that caches will base their storage\n    on the Accept-Encoding header.\n    \"\"\"",
-                    "name": "GZipMiddleware",
-                    "parent_name": "django.middleware.gzip"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.middleware.common",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    \"Common\" middleware for taking care of some basic operations:\n\n        - Forbid access to User-Agents in settings.DISALLOWED_USER_AGENTS\n\n        - URL rewriting: Based on the APPEND_SLASH and PREPEND_WWW settings,\n          append missing slashes and/or prepends missing \"www.\"s.\n\n            - If APPEND_SLASH is set and the initial URL doesn't end with a\n              slash, and it is not found in urlpatterns, form a new URL by\n              appending a slash at the end. If this new URL is found in\n              urlpatterns, return an HTTP redirect to this new URL; otherwise\n              process the initial URL as usual.\n\n          This behavior can be customized by subclassing CommonMiddleware and\n          overriding the response_redirect_class attribute.\n    \"\"\"",
-                    "name": "CommonMiddleware",
-                    "parent_name": "django.middleware.common"
-                },
-                {
-                    "docstring": "",
-                    "name": "BrokenLinkEmailsMiddleware",
-                    "parent_name": "django.middleware.common"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.middleware.security",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "SecurityMiddleware",
-                    "parent_name": "django.middleware.security"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.middleware.http",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    Handle conditional GET operations. If the response has an ETag or\n    Last-Modified header and the request has If-None-Match or If-Modified-Since,\n    replace the response with HttpNotModified. Add an ETag header if needed.\n    \"\"\"",
-                    "name": "ConditionalGetMiddleware",
-                    "parent_name": "django.middleware.http"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "\"\"\"\nClickjacking Protection Middleware.\n\nThis module provides a middleware that implements protection against a\nmalicious site loading resources from your site in a hidden frame.\n\"\"\"",
             "namespace": "django.middleware.clickjacking",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    Set the X-Frame-Options HTTP header in HTTP responses.\n\n    Do not set the header if it's already set or if the response contains\n    a xframe_options_exempt value set to True.\n\n    By default, set the X-Frame-Options header to 'SAMEORIGIN', meaning the\n    response can only be loaded on a frame within the same site. To prevent the\n    response from being loaded in a frame in any site, set X_FRAME_OPTIONS in\n    your project's Django settings to 'DENY'.\n    \"\"\"",
-                    "name": "XFrameOptionsMiddleware",
-                    "parent_name": "django.middleware.clickjacking"
-                }
-            ]
+            "docstring": "\"\"\"\nClickjacking Protection Middleware.\n\nThis module provides a middleware that implements protection against a\nmalicious site loading resources from your site in a hidden frame.\n\"\"\""
         },
         {
-            "docstring": "\"\"\"\nCache middleware. If enabled, each Django-powered page will be cached based on\nURL. The canonical way to enable cache middleware is to set\n``UpdateCacheMiddleware`` as your first piece of middleware, and\n``FetchFromCacheMiddleware`` as the last::\n\n    MIDDLEWARE = [\n        'django.middleware.cache.UpdateCacheMiddleware',\n        ...\n        'django.middleware.cache.FetchFromCacheMiddleware'\n    ]\n\nThis is counter-intuitive, but correct: ``UpdateCacheMiddleware`` needs to run\nlast during the response phase, which processes middleware bottom-up;\n``FetchFromCacheMiddleware`` needs to run last during the request phase, which\nprocesses middleware top-down.\n\nThe single-class ``CacheMiddleware`` can be used for some simple sites.\nHowever, if any other piece of middleware needs to affect the cache key, you'll\nneed to use the two-part ``UpdateCacheMiddleware`` and\n``FetchFromCacheMiddleware``. This'll most often happen when you're using\nDjango's ``LocaleMiddleware``.\n\nMore details about how the caching works:\n\n* Only GET or HEAD-requests with status code 200 are cached.\n\n* The number of seconds each page is stored for is set by the \"max-age\" section\n  of the response's \"Cache-Control\" header, falling back to the\n  CACHE_MIDDLEWARE_SECONDS setting if the section was not found.\n\n* This middleware expects that a HEAD request is answered with the same response\n  headers exactly like the corresponding GET request.\n\n* When a hit occurs, a shallow copy of the original response object is returned\n  from process_request.\n\n* Pages will be cached based on the contents of the request headers listed in\n  the response's \"Vary\" header.\n\n* This middleware also sets ETag, Last-Modified, Expires and Cache-Control\n  headers on the response object.\n\n\"\"\"",
             "namespace": "django.middleware.cache",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    Response-phase cache middleware that updates the cache if the response is\n    cacheable.\n\n    Must be used as part of the two-part update/fetch cache middleware.\n    UpdateCacheMiddleware must be the first piece of middleware in MIDDLEWARE\n    so that it'll get called last during the response phase.\n    \"\"\"",
-                    "name": "UpdateCacheMiddleware",
-                    "parent_name": "django.middleware.cache"
-                },
-                {
-                    "docstring": "\"\"\"\n    Request-phase cache middleware that fetches a page from the cache.\n\n    Must be used as part of the two-part update/fetch cache middleware.\n    FetchFromCacheMiddleware must be the last piece of middleware in MIDDLEWARE\n    so that it'll get called last during the request phase.\n    \"\"\"",
-                    "name": "FetchFromCacheMiddleware",
-                    "parent_name": "django.middleware.cache"
-                },
-                {
-                    "docstring": "\"\"\"\n    Cache middleware that provides basic behavior for many simple sites.\n\n    Also used as the hook point for the cache decorator, which is generated\n    using the decorator-from-middleware utility.\n    \"\"\"",
-                    "name": "CacheMiddleware",
-                    "parent_name": "django.middleware.cache"
-                }
-            ]
+            "docstring": "\"\"\"\nCache middleware. If enabled, each Django-powered page will be cached based on\nURL. The canonical way to enable cache middleware is to set\n``UpdateCacheMiddleware`` as your first piece of middleware, and\n``FetchFromCacheMiddleware`` as the last::\n\n    MIDDLEWARE = [\n        'django.middleware.cache.UpdateCacheMiddleware',\n        ...\n        'django.middleware.cache.FetchFromCacheMiddleware'\n    ]\n\nThis is counter-intuitive, but correct: ``UpdateCacheMiddleware`` needs to run\nlast during the response phase, which processes middleware bottom-up;\n``FetchFromCacheMiddleware`` needs to run last during the request phase, which\nprocesses middleware top-down.\n\nThe single-class ``CacheMiddleware`` can be used for some simple sites.\nHowever, if any other piece of middleware needs to affect the cache key, you'll\nneed to use the two-part ``UpdateCacheMiddleware`` and\n``FetchFromCacheMiddleware``. This'll most often happen when you're using\nDjango's ``LocaleMiddleware``.\n\nMore details about how the caching works:\n\n* Only GET or HEAD-requests with status code 200 are cached.\n\n* The number of seconds each page is stored for is set by the \"max-age\" section\n  of the response's \"Cache-Control\" header, falling back to the\n  CACHE_MIDDLEWARE_SECONDS setting if the section was not found.\n\n* This middleware expects that a HEAD request is answered with the same response\n  headers exactly like the corresponding GET request.\n\n* When a hit occurs, a shallow copy of the original response object is returned\n  from process_request.\n\n* Pages will be cached based on the contents of the request headers listed in\n  the response's \"Vary\" header.\n\n* This middleware also sets ETag, Last-Modified, Expires and Cache-Control\n  headers on the response object.\n\n\"\"\""
         },
         {
-            "docstring": "\"\"\"\nCross Site Request Forgery Middleware.\n\nThis module provides a middleware that implements protection\nagainst request forgeries from other sites.\n\"\"\"",
             "namespace": "django.middleware.csrf",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "InvalidTokenFormat",
-                    "parent_name": "django.middleware.csrf"
-                },
-                {
-                    "docstring": "",
-                    "name": "RejectRequest",
-                    "parent_name": "django.middleware.csrf"
-                },
-                {
-                    "docstring": "\"\"\"\n    Require a present and correct csrfmiddlewaretoken for POST requests that\n    have a CSRF cookie, and set an outgoing CSRF cookie.\n\n    This middleware should be used in conjunction with the {% csrf_token %}\n    template tag.\n    \"\"\"",
-                    "name": "CsrfViewMiddleware",
-                    "parent_name": "django.middleware.csrf"
-                }
-            ]
+            "docstring": "\"\"\"\nCross Site Request Forgery Middleware.\n\nThis module provides a middleware that implements protection\nagainst request forgeries from other sites.\n\"\"\""
         }
     ],
     "subpackages": []

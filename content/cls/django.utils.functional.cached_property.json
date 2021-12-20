@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    Decorator that converts a method with a single self argument into a\n    property cached on the instance.\n\n    A cached property can be made out of an existing method:\n    (e.g. ``url = cached_property(get_absolute_url)``).\n    The optional ``name`` argument is obsolete as of Python 3.6 and will be\n    deprecated in Django 4.0 (#30127).\n    \"\"\"",
+    "name": "cached_property",
+    "namespace": "django.utils.functional.cached_property",
+    "parent_namespace": "django.utils.functional"
+}

@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    Store timedelta objects.\n\n    Use interval on PostgreSQL, INTERVAL DAY TO SECOND on Oracle, and bigint\n    of microseconds on other databases.\n    \"\"\"",
+    "name": "DurationField",
+    "namespace": "django.db.models.fields.DurationField",
+    "parent_namespace": "django.db.models.fields"
+}

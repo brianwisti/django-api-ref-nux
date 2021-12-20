@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    A stack container for storing Template state.\n\n    RenderContext simplifies the implementation of template Nodes by providing a\n    safe place to store state between invocations of a node's `render` method.\n\n    The RenderContext also provides scoping rules that are more sensible for\n    'template local' variables. The render context stack is pushed before each\n    template is rendered, creating a fresh scope with nothing in it. Name\n    resolution fails if a variable is not found at the top of the RequestContext\n    stack. Thus, variables are local to a specific template and don't affect the\n    rendering of other templates as they would if they were stored in the normal\n    template context.\n    \"\"\"",
+    "name": "RenderContext",
+    "namespace": "django.template.context.RenderContext",
+    "parent_namespace": "django.template.context"
+}

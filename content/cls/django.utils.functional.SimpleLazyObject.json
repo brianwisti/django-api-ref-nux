@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    A lazy object initialized from any function.\n\n    Designed for compound objects of unknown type. For builtins or objects of\n    known type, use django.utils.functional.lazy.\n    \"\"\"",
+    "name": "SimpleLazyObject",
+    "namespace": "django.utils.functional.SimpleLazyObject",
+    "parent_namespace": "django.utils.functional"
+}

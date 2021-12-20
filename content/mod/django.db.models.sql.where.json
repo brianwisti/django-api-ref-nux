@@ -1,26 +1,26 @@
 {
-    "docstring": "\"\"\"\nCode to manage the creation and SQL rendering of 'where' constraints.\n\"\"\"",
     "namespace": "django.db.models.sql.where",
+    "docstring": "\"\"\"\nCode to manage the creation and SQL rendering of 'where' constraints.\n\"\"\"",
     "classes": [
         {
             "docstring": "\"\"\"\n    An SQL WHERE clause.\n\n    The class is tied to the Query class that created it (in order to create\n    the correct SQL).\n\n    A child is usually an expression producing boolean values. Most likely the\n    expression is a Lookup instance.\n\n    However, a child could also be any class with as_sql() and either\n    relabeled_clone() method or relabel_aliases() and clone() methods and\n    contains_aggregate attribute.\n    \"\"\"",
             "name": "WhereNode",
-            "parent_name": "django.db.models.sql.where"
+            "namespace": "django.db.models.sql.where.WhereNode"
         },
         {
             "docstring": "\"\"\"A node that matches nothing.\"\"\"",
             "name": "NothingNode",
-            "parent_name": "django.db.models.sql.where"
+            "namespace": "django.db.models.sql.where.NothingNode"
         },
         {
             "docstring": "",
             "name": "ExtraWhere",
-            "parent_name": "django.db.models.sql.where"
+            "namespace": "django.db.models.sql.where.ExtraWhere"
         },
         {
             "docstring": "",
             "name": "SubqueryConstraint",
-            "parent_name": "django.db.models.sql.where"
+            "namespace": "django.db.models.sql.where.SubqueryConstraint"
         }
     ]
 }

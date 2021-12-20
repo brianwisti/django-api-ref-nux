@@ -1,31 +1,31 @@
 {
-    "docstring": "",
     "namespace": "django.contrib.postgres.fields.hstore",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "HStoreField",
-            "parent_name": "django.contrib.postgres.fields.hstore"
+            "namespace": "django.contrib.postgres.fields.hstore.HStoreField"
         },
         {
             "docstring": "",
             "name": "KeyTransform",
-            "parent_name": "django.contrib.postgres.fields.hstore"
+            "namespace": "django.contrib.postgres.fields.hstore.KeyTransform"
         },
         {
             "docstring": "",
             "name": "KeyTransformFactory",
-            "parent_name": "django.contrib.postgres.fields.hstore"
+            "namespace": "django.contrib.postgres.fields.hstore.KeyTransformFactory"
         },
         {
             "docstring": "",
             "name": "KeysTransform",
-            "parent_name": "django.contrib.postgres.fields.hstore"
+            "namespace": "django.contrib.postgres.fields.hstore.KeysTransform"
         },
         {
             "docstring": "",
             "name": "ValuesTransform",
-            "parent_name": "django.contrib.postgres.fields.hstore"
+            "namespace": "django.contrib.postgres.fields.hstore.ValuesTransform"
         }
     ]
 }

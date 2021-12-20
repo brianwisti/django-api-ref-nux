@@ -1,75 +1,27 @@
 {
     "name": "django.template.backends",
     "docstring": "",
+    "classes": [],
     "modules": [
         {
-            "docstring": "",
             "namespace": "django.template.backends.base",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "BaseEngine",
-                    "parent_name": "django.template.backends.base"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.template.backends.dummy",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "TemplateStrings",
-                    "parent_name": "django.template.backends.dummy"
-                },
-                {
-                    "docstring": "",
-                    "name": "Template",
-                    "parent_name": "django.template.backends.dummy"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.template.backends.utils",
-            "classes": []
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.template.backends.jinja2",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "Jinja2",
-                    "parent_name": "django.template.backends.jinja2"
-                },
-                {
-                    "docstring": "",
-                    "name": "Template",
-                    "parent_name": "django.template.backends.jinja2"
-                },
-                {
-                    "docstring": "\"\"\"\n    A container to hold debug information as described in the template API\n    documentation.\n    \"\"\"",
-                    "name": "Origin",
-                    "parent_name": "django.template.backends.jinja2"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.template.backends.django",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "DjangoTemplates",
-                    "parent_name": "django.template.backends.django"
-                },
-                {
-                    "docstring": "",
-                    "name": "Template",
-                    "parent_name": "django.template.backends.django"
-                }
-            ]
+            "docstring": ""
         }
     ],
     "subpackages": []

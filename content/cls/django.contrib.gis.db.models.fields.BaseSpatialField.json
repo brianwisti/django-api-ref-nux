@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    The Base GIS Field.\n\n    It's used as a base class for GeometryField and RasterField. Defines\n    properties that are common to all GIS fields such as the characteristics\n    of the spatial reference system of the field.\n    \"\"\"",
+    "name": "BaseSpatialField",
+    "namespace": "django.contrib.gis.db.models.fields.BaseSpatialField",
+    "parent_namespace": "django.contrib.gis.db.models.fields"
+}

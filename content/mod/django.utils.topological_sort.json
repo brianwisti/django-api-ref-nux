@@ -1,11 +1,11 @@
 {
-    "docstring": "",
     "namespace": "django.utils.topological_sort",
+    "docstring": "",
     "classes": [
         {
             "docstring": "",
             "name": "CyclicDependencyError",
-            "parent_name": "django.utils.topological_sort"
+            "namespace": "django.utils.topological_sort.CyclicDependencyError"
         }
     ]
 }

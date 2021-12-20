@@ -1,63 +1,27 @@
 {
     "name": "django.views",
     "docstring": "",
+    "classes": [],
     "modules": [
         {
-            "docstring": "",
             "namespace": "django.views.defaults",
-            "classes": []
+            "docstring": ""
         },
         {
-            "docstring": "\"\"\"\nViews and functions for serving static files. These are only to be used\nduring development, and SHOULD NOT be used in a production setting.\n\"\"\"",
             "namespace": "django.views.static",
-            "classes": []
+            "docstring": "\"\"\"\nViews and functions for serving static files. These are only to be used\nduring development, and SHOULD NOT be used in a production setting.\n\"\"\""
         },
         {
-            "docstring": "",
             "namespace": "django.views.i18n",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    Return the selected language catalog as a JavaScript library.\n\n    Receive the list of packages to check for translations in the `packages`\n    kwarg either from the extra dictionary passed to the path() function or as\n    a plus-sign delimited string from the request. Default is 'django.conf'.\n\n    You can override the gettext domain for this view, but usually you don't\n    want to do that as JavaScript messages go to the djangojs domain. This\n    might be needed if you deliver your JavaScript source from Django templates.\n    \"\"\"",
-                    "name": "JavaScriptCatalog",
-                    "parent_name": "django.views.i18n"
-                },
-                {
-                    "docstring": "\"\"\"\n    Return the selected language catalog as a JSON object.\n\n    Receive the same parameters as JavaScriptCatalog and return a response\n    with a JSON object of the following format:\n\n        {\n            \"catalog\": {\n                # Translations catalog\n            },\n            \"formats\": {\n                # Language formats for date, time, etc.\n            },\n            \"plural\": '...'  # Expression for plural forms, or null.\n        }\n    \"\"\"",
-                    "name": "JSONCatalog",
-                    "parent_name": "django.views.i18n"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.views.debug",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "ExceptionCycleWarning",
-                    "parent_name": "django.views.debug"
-                },
-                {
-                    "docstring": "\"\"\"\n    Object to wrap callable appearing in settings.\n    * Not to call in the debug page (#21345).\n    * Not to break the debug page if the callable forbidding to set attributes\n      (#23070).\n    \"\"\"",
-                    "name": "CallableSettingWrapper",
-                    "parent_name": "django.views.debug"
-                },
-                {
-                    "docstring": "\"\"\"\n    Use annotations made by the sensitive_post_parameters and\n    sensitive_variables decorators to filter out sensitive information.\n    \"\"\"",
-                    "name": "SafeExceptionReporterFilter",
-                    "parent_name": "django.views.debug"
-                },
-                {
-                    "docstring": "\"\"\"Organize and coordinate reporting on exceptions.\"\"\"",
-                    "name": "ExceptionReporter",
-                    "parent_name": "django.views.debug"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.views.csrf",
-            "classes": []
+            "docstring": ""
         }
     ],
     "subpackages": [

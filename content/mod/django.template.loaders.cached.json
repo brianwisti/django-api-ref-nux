@@ -1,11 +1,11 @@
 {
-    "docstring": "\"\"\"\nWrapper class that takes a list of template loaders as an argument and attempts\nto load templates from them in order, caching the result.\n\"\"\"",
     "namespace": "django.template.loaders.cached",
+    "docstring": "\"\"\"\nWrapper class that takes a list of template loaders as an argument and attempts\nto load templates from them in order, caching the result.\n\"\"\"",
     "classes": [
         {
             "docstring": "",
             "name": "Loader",
-            "parent_name": "django.template.loaders.cached"
+            "namespace": "django.template.loaders.cached.Loader"
         }
     ]
 }

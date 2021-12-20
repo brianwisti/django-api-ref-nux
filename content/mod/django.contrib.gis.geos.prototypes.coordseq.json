@@ -1,21 +1,21 @@
 {
-    "docstring": "",
     "namespace": "django.contrib.gis.geos.prototypes.coordseq",
+    "docstring": "",
     "classes": [
         {
             "docstring": "\"For coordinate sequence routines that return an integer.\"",
             "name": "CsInt",
-            "parent_name": "django.contrib.gis.geos.prototypes.coordseq"
+            "namespace": "django.contrib.gis.geos.prototypes.coordseq.CsInt"
         },
         {
             "docstring": "\"For coordinate sequence operations.\"",
             "name": "CsOperation",
-            "parent_name": "django.contrib.gis.geos.prototypes.coordseq"
+            "namespace": "django.contrib.gis.geos.prototypes.coordseq.CsOperation"
         },
         {
             "docstring": "",
             "name": "CsOutput",
-            "parent_name": "django.contrib.gis.geos.prototypes.coordseq"
+            "namespace": "django.contrib.gis.geos.prototypes.coordseq.CsOutput"
         }
     ]
 }

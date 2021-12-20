@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    Provide a generic many-to-one relation through the ``content_type`` and\n    ``object_id`` fields.\n\n    This class also doubles as an accessor to the related object (similar to\n    ForwardManyToOneDescriptor) by adding itself as a model attribute.\n    \"\"\"",
+    "name": "GenericForeignKey",
+    "namespace": "django.contrib.contenttypes.fields.GenericForeignKey",
+    "parent_namespace": "django.contrib.contenttypes.fields"
+}

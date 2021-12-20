@@ -1,131 +1,43 @@
 {
     "name": "django.contrib.staticfiles",
     "docstring": "",
+    "classes": [],
     "modules": [
         {
-            "docstring": "",
             "namespace": "django.contrib.staticfiles.storage",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    Standard file system storage for static files.\n\n    The defaults for ``location`` and ``base_url`` are\n    ``STATIC_ROOT`` and ``STATIC_URL``.\n    \"\"\"",
-                    "name": "StaticFilesStorage",
-                    "parent_name": "django.contrib.staticfiles.storage"
-                },
-                {
-                    "docstring": "",
-                    "name": "HashedFilesMixin",
-                    "parent_name": "django.contrib.staticfiles.storage"
-                },
-                {
-                    "docstring": "",
-                    "name": "ManifestFilesMixin",
-                    "parent_name": "django.contrib.staticfiles.storage"
-                },
-                {
-                    "docstring": "\"\"\"\n    A static file system storage backend which also saves\n    hashed copies of the files it saves.\n    \"\"\"",
-                    "name": "ManifestStaticFilesStorage",
-                    "parent_name": "django.contrib.staticfiles.storage"
-                },
-                {
-                    "docstring": "",
-                    "name": "ConfiguredStorage",
-                    "parent_name": "django.contrib.staticfiles.storage"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "\"\"\"\nViews and functions for serving static files. These are only to be used during\ndevelopment, and SHOULD NOT be used in a production setting.\n\n\"\"\"",
             "namespace": "django.contrib.staticfiles.views",
-            "classes": []
+            "docstring": "\"\"\"\nViews and functions for serving static files. These are only to be used during\ndevelopment, and SHOULD NOT be used in a production setting.\n\n\"\"\""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.staticfiles.apps",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "StaticFilesConfig",
-                    "parent_name": "django.contrib.staticfiles.apps"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.staticfiles.testing",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    Extend django.test.LiveServerTestCase to transparently overlay at test\n    execution-time the assets provided by the staticfiles app finders. This\n    means you don't need to run collectstatic before or as a part of your tests\n    setup.\n    \"\"\"",
-                    "name": "StaticLiveServerTestCase",
-                    "parent_name": "django.contrib.staticfiles.testing"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.staticfiles.urls",
-            "classes": []
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.staticfiles.handlers",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    Common methods used by WSGI and ASGI handlers.\n    \"\"\"",
-                    "name": "StaticFilesHandlerMixin",
-                    "parent_name": "django.contrib.staticfiles.handlers"
-                },
-                {
-                    "docstring": "\"\"\"\n    WSGI middleware that intercepts calls to the static files directory, as\n    defined by the STATIC_URL setting, and serves those files.\n    \"\"\"",
-                    "name": "StaticFilesHandler",
-                    "parent_name": "django.contrib.staticfiles.handlers"
-                },
-                {
-                    "docstring": "\"\"\"\n    ASGI application which wraps another and intercepts requests for static\n    files, passing them off to Django's static file serving.\n    \"\"\"",
-                    "name": "ASGIStaticFilesHandler",
-                    "parent_name": "django.contrib.staticfiles.handlers"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.staticfiles.utils",
-            "classes": []
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.staticfiles.checks",
-            "classes": []
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.staticfiles.finders",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    A base file finder to be used for custom staticfiles finder classes.\n    \"\"\"",
-                    "name": "BaseFinder",
-                    "parent_name": "django.contrib.staticfiles.finders"
-                },
-                {
-                    "docstring": "\"\"\"\n    A static files finder that uses the ``STATICFILES_DIRS`` setting\n    to locate files.\n    \"\"\"",
-                    "name": "FileSystemFinder",
-                    "parent_name": "django.contrib.staticfiles.finders"
-                },
-                {
-                    "docstring": "\"\"\"\n    A static files finder that looks in the directory of each app as\n    specified in the source_dir attribute.\n    \"\"\"",
-                    "name": "AppDirectoriesFinder",
-                    "parent_name": "django.contrib.staticfiles.finders"
-                },
-                {
-                    "docstring": "\"\"\"\n    A base static files finder to be used to extended\n    with an own storage class.\n    \"\"\"",
-                    "name": "BaseStorageFinder",
-                    "parent_name": "django.contrib.staticfiles.finders"
-                },
-                {
-                    "docstring": "\"\"\"\n    A static files finder that uses the default storage backend.\n    \"\"\"",
-                    "name": "DefaultStorageFinder",
-                    "parent_name": "django.contrib.staticfiles.finders"
-                }
-            ]
+            "docstring": ""
         }
     ],
     "subpackages": [

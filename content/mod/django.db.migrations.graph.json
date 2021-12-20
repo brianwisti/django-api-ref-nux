@@ -1,21 +1,21 @@
 {
-    "docstring": "",
     "namespace": "django.db.migrations.graph",
+    "docstring": "",
     "classes": [
         {
             "docstring": "\"\"\"\n    A single node in the migration graph. Contains direct links to adjacent\n    nodes in either direction.\n    \"\"\"",
             "name": "Node",
-            "parent_name": "django.db.migrations.graph"
+            "namespace": "django.db.migrations.graph.Node"
         },
         {
             "docstring": "\"\"\"\n    A node that doesn't correspond to a migration file on disk.\n    (A squashed migration that was removed, for example.)\n\n    After the migration graph is processed, all dummy nodes should be removed.\n    If there are any left, a nonexistent dependency error is raised.\n    \"\"\"",
             "name": "DummyNode",
-            "parent_name": "django.db.migrations.graph"
+            "namespace": "django.db.migrations.graph.DummyNode"
         },
         {
             "docstring": "\"\"\"\n    Represent the digraph of all migrations in a project.\n\n    Each migration is a node, and each dependency is an edge. There are\n    no implicit dependencies between numbered migrations - the numbering is\n    merely a convention to aid file listing. Every new numbered migration\n    has a declared dependency to the previous number, meaning that VCS\n    branch merges can be detected and resolved.\n\n    Migrations files can be marked as replacing another set of migrations -\n    this is to support the \"squash\" feature. The graph handler isn't responsible\n    for these; instead, the code to load them in here should examine the\n    migration files and if the replaced migrations are all either unapplied\n    or not present, it should ignore the replaced ones, load in just the\n    replacing migration, and repoint any dependencies that pointed to the\n    replaced migrations to point to the replacing one.\n\n    A node should be a tuple: (app_path, migration_name). The tree special-cases\n    things within an app - namely, root nodes and leaf nodes ignore dependencies\n    to other apps.\n    \"\"\"",
             "name": "MigrationGraph",
-            "parent_name": "django.db.migrations.graph"
+            "namespace": "django.db.migrations.graph.MigrationGraph"
         }
     ]
 }

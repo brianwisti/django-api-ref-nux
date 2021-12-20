@@ -1,129 +1,19 @@
 {
     "name": "django.contrib.postgres.aggregates",
     "docstring": "",
+    "classes": [],
     "modules": [
         {
-            "docstring": "",
             "namespace": "django.contrib.postgres.aggregates.statistics",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "StatAggregate",
-                    "parent_name": "django.contrib.postgres.aggregates.statistics"
-                },
-                {
-                    "docstring": "",
-                    "name": "Corr",
-                    "parent_name": "django.contrib.postgres.aggregates.statistics"
-                },
-                {
-                    "docstring": "",
-                    "name": "CovarPop",
-                    "parent_name": "django.contrib.postgres.aggregates.statistics"
-                },
-                {
-                    "docstring": "",
-                    "name": "RegrAvgX",
-                    "parent_name": "django.contrib.postgres.aggregates.statistics"
-                },
-                {
-                    "docstring": "",
-                    "name": "RegrAvgY",
-                    "parent_name": "django.contrib.postgres.aggregates.statistics"
-                },
-                {
-                    "docstring": "",
-                    "name": "RegrCount",
-                    "parent_name": "django.contrib.postgres.aggregates.statistics"
-                },
-                {
-                    "docstring": "",
-                    "name": "RegrIntercept",
-                    "parent_name": "django.contrib.postgres.aggregates.statistics"
-                },
-                {
-                    "docstring": "",
-                    "name": "RegrR2",
-                    "parent_name": "django.contrib.postgres.aggregates.statistics"
-                },
-                {
-                    "docstring": "",
-                    "name": "RegrSlope",
-                    "parent_name": "django.contrib.postgres.aggregates.statistics"
-                },
-                {
-                    "docstring": "",
-                    "name": "RegrSXX",
-                    "parent_name": "django.contrib.postgres.aggregates.statistics"
-                },
-                {
-                    "docstring": "",
-                    "name": "RegrSXY",
-                    "parent_name": "django.contrib.postgres.aggregates.statistics"
-                },
-                {
-                    "docstring": "",
-                    "name": "RegrSYY",
-                    "parent_name": "django.contrib.postgres.aggregates.statistics"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.postgres.aggregates.mixins",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "OrderableAggMixin",
-                    "parent_name": "django.contrib.postgres.aggregates.mixins"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.contrib.postgres.aggregates.general",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "DeprecatedConvertValueMixin",
-                    "parent_name": "django.contrib.postgres.aggregates.general"
-                },
-                {
-                    "docstring": "",
-                    "name": "ArrayAgg",
-                    "parent_name": "django.contrib.postgres.aggregates.general"
-                },
-                {
-                    "docstring": "",
-                    "name": "BitAnd",
-                    "parent_name": "django.contrib.postgres.aggregates.general"
-                },
-                {
-                    "docstring": "",
-                    "name": "BitOr",
-                    "parent_name": "django.contrib.postgres.aggregates.general"
-                },
-                {
-                    "docstring": "",
-                    "name": "BoolAnd",
-                    "parent_name": "django.contrib.postgres.aggregates.general"
-                },
-                {
-                    "docstring": "",
-                    "name": "BoolOr",
-                    "parent_name": "django.contrib.postgres.aggregates.general"
-                },
-                {
-                    "docstring": "",
-                    "name": "JSONBAgg",
-                    "parent_name": "django.contrib.postgres.aggregates.general"
-                },
-                {
-                    "docstring": "",
-                    "name": "StringAgg",
-                    "parent_name": "django.contrib.postgres.aggregates.general"
-                }
-            ]
+            "docstring": ""
         }
     ],
     "subpackages": []

@@ -1,21 +1,21 @@
 {
-    "docstring": "",
     "namespace": "django.db.backends.oracle.utils",
+    "docstring": "",
     "classes": [
         {
             "docstring": "\"\"\"\n    A late-binding cursor variable that can be passed to Cursor.execute\n    as a parameter, in order to receive the id of the row created by an\n    insert statement.\n    \"\"\"",
             "name": "InsertVar",
-            "parent_name": "django.db.backends.oracle.utils"
+            "namespace": "django.db.backends.oracle.utils.InsertVar"
         },
         {
             "docstring": "\"\"\"\n    A datetime object, with an additional class attribute\n    to tell cx_Oracle to save the microseconds too.\n    \"\"\"",
             "name": "Oracle_datetime",
-            "parent_name": "django.db.backends.oracle.utils"
+            "namespace": "django.db.backends.oracle.utils.Oracle_datetime"
         },
         {
             "docstring": "",
             "name": "BulkInsertMapper",
-            "parent_name": "django.db.backends.oracle.utils"
+            "namespace": "django.db.backends.oracle.utils.BulkInsertMapper"
         }
     ]
 }

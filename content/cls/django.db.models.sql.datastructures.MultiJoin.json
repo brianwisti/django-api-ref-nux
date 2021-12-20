@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    Used by join construction code to indicate the point at which a\n    multi-valued join was attempted (if the caller wants to treat that\n    exceptionally).\n    \"\"\"",
+    "name": "MultiJoin",
+    "namespace": "django.db.models.sql.datastructures.MultiJoin",
+    "parent_namespace": "django.db.models.sql.datastructures"
+}

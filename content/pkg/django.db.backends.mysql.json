@@ -1,130 +1,43 @@
 {
     "name": "django.db.backends.mysql",
     "docstring": "",
+    "classes": [],
     "modules": [
         {
-            "docstring": "",
             "namespace": "django.db.backends.mysql.creation",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "DatabaseCreation",
-                    "parent_name": "django.db.backends.mysql.creation"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.db.backends.mysql.introspection",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "DatabaseIntrospection",
-                    "parent_name": "django.db.backends.mysql.introspection"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.db.backends.mysql.client",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "DatabaseClient",
-                    "parent_name": "django.db.backends.mysql.client"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "\"\"\"\nMySQL database backend for Django.\n\nRequires mysqlclient: https://pypi.org/project/mysqlclient/\n\"\"\"",
             "namespace": "django.db.backends.mysql.base",
-            "classes": [
-                {
-                    "docstring": "\"\"\"\n    A thin wrapper around MySQLdb's normal cursor class that catches particular\n    exception instances and reraises them with the correct types.\n\n    Implemented as a wrapper, rather than a subclass, so that it isn't stuck\n    to the particular underlying representation returned by Connection.cursor().\n    \"\"\"",
-                    "name": "CursorWrapper",
-                    "parent_name": "django.db.backends.mysql.base"
-                },
-                {
-                    "docstring": "",
-                    "name": "DatabaseWrapper",
-                    "parent_name": "django.db.backends.mysql.base"
-                }
-            ]
+            "docstring": "\"\"\"\nMySQL database backend for Django.\n\nRequires mysqlclient: https://pypi.org/project/mysqlclient/\n\"\"\""
         },
         {
-            "docstring": "",
             "namespace": "django.db.backends.mysql.operations",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "DatabaseOperations",
-                    "parent_name": "django.db.backends.mysql.operations"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.db.backends.mysql.features",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "DatabaseFeatures",
-                    "parent_name": "django.db.backends.mysql.features"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.db.backends.mysql.validation",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "DatabaseValidation",
-                    "parent_name": "django.db.backends.mysql.validation"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.db.backends.mysql.compiler",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "SQLCompiler",
-                    "parent_name": "django.db.backends.mysql.compiler"
-                },
-                {
-                    "docstring": "",
-                    "name": "SQLInsertCompiler",
-                    "parent_name": "django.db.backends.mysql.compiler"
-                },
-                {
-                    "docstring": "",
-                    "name": "SQLDeleteCompiler",
-                    "parent_name": "django.db.backends.mysql.compiler"
-                },
-                {
-                    "docstring": "",
-                    "name": "SQLUpdateCompiler",
-                    "parent_name": "django.db.backends.mysql.compiler"
-                },
-                {
-                    "docstring": "",
-                    "name": "SQLAggregateCompiler",
-                    "parent_name": "django.db.backends.mysql.compiler"
-                }
-            ]
+            "docstring": ""
         },
         {
-            "docstring": "",
             "namespace": "django.db.backends.mysql.schema",
-            "classes": [
-                {
-                    "docstring": "",
-                    "name": "DatabaseSchemaEditor",
-                    "parent_name": "django.db.backends.mysql.schema"
-                }
-            ]
+            "docstring": ""
         }
     ],
     "subpackages": []

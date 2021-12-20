@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    An SQL WHERE clause.\n\n    The class is tied to the Query class that created it (in order to create\n    the correct SQL).\n\n    A child is usually an expression producing boolean values. Most likely the\n    expression is a Lookup instance.\n\n    However, a child could also be any class with as_sql() and either\n    relabeled_clone() method or relabel_aliases() and clone() methods and\n    contains_aggregate attribute.\n    \"\"\"",
+    "name": "WhereNode",
+    "namespace": "django.db.models.sql.where.WhereNode",
+    "parent_namespace": "django.db.models.sql.where"
+}

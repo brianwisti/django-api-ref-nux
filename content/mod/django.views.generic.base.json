@@ -1,31 +1,31 @@
 {
-    "docstring": "",
     "namespace": "django.views.generic.base",
+    "docstring": "",
     "classes": [
         {
             "docstring": "\"\"\"\n    A default context mixin that passes the keyword arguments received by\n    get_context_data() as the template context.\n    \"\"\"",
             "name": "ContextMixin",
-            "parent_name": "django.views.generic.base"
+            "namespace": "django.views.generic.base.ContextMixin"
         },
         {
             "docstring": "\"\"\"\n    Intentionally simple parent class for all views. Only implements\n    dispatch-by-method and simple sanity checking.\n    \"\"\"",
             "name": "View",
-            "parent_name": "django.views.generic.base"
+            "namespace": "django.views.generic.base.View"
         },
         {
             "docstring": "\"\"\"A mixin that can be used to render a template.\"\"\"",
             "name": "TemplateResponseMixin",
-            "parent_name": "django.views.generic.base"
+            "namespace": "django.views.generic.base.TemplateResponseMixin"
         },
         {
             "docstring": "\"\"\"\n    Render a template. Pass keyword arguments from the URLconf to the context.\n    \"\"\"",
             "name": "TemplateView",
-            "parent_name": "django.views.generic.base"
+            "namespace": "django.views.generic.base.TemplateView"
         },
         {
             "docstring": "\"\"\"Provide a redirect on any GET request.\"\"\"",
             "name": "RedirectView",
-            "parent_name": "django.views.generic.base"
+            "namespace": "django.views.generic.base.RedirectView"
         }
     ]
 }

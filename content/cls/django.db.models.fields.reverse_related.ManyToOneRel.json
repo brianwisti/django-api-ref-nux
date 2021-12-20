@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    Used by the ForeignKey field to store information about the relation.\n\n    ``_meta.get_fields()`` returns this class to provide access to the field\n    flags for the reverse relation.\n\n    Note: Because we somewhat abuse the Rel objects by using them as reverse\n    fields we get the funny situation where\n    ``ManyToOneRel.many_to_one == False`` and\n    ``ManyToOneRel.one_to_many == True``. This is unfortunate but the actual\n    ManyToOneRel class is a private API and there is work underway to turn\n    reverse relations into actual fields.\n    \"\"\"",
+    "name": "ManyToOneRel",
+    "namespace": "django.db.models.fields.reverse_related.ManyToOneRel",
+    "parent_namespace": "django.db.models.fields.reverse_related"
+}

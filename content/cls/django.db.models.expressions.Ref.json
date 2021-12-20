@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    Reference to column alias of the query. For example, Ref('sum_cost') in\n    qs.annotate(sum_cost=Sum('cost')) query.\n    \"\"\"",
+    "name": "Ref",
+    "namespace": "django.db.models.expressions.Ref",
+    "parent_namespace": "django.db.models.expressions"
+}

@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    Mixin to allow case-insensitive comparison of JSON values on MySQL.\n    MySQL handles strings used in JSON context using the utf8mb4_bin collation.\n    Because utf8mb4_bin is a binary collation, comparison of JSON values is\n    case-sensitive.\n    \"\"\"",
+    "name": "CaseInsensitiveMixin",
+    "namespace": "django.db.models.fields.json.CaseInsensitiveMixin",
+    "parent_namespace": "django.db.models.fields.json"
+}

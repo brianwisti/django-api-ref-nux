@@ -1,26 +1,26 @@
 {
-    "docstring": "",
     "namespace": "django.contrib.auth.mixins",
+    "docstring": "",
     "classes": [
         {
             "docstring": "\"\"\"\n    Abstract CBV mixin that gives access mixins the same customizable\n    functionality.\n    \"\"\"",
             "name": "AccessMixin",
-            "parent_name": "django.contrib.auth.mixins"
+            "namespace": "django.contrib.auth.mixins.AccessMixin"
         },
         {
             "docstring": "\"\"\"Verify that the current user is authenticated.\"\"\"",
             "name": "LoginRequiredMixin",
-            "parent_name": "django.contrib.auth.mixins"
+            "namespace": "django.contrib.auth.mixins.LoginRequiredMixin"
         },
         {
             "docstring": "\"\"\"Verify that the current user has all specified permissions.\"\"\"",
             "name": "PermissionRequiredMixin",
-            "parent_name": "django.contrib.auth.mixins"
+            "namespace": "django.contrib.auth.mixins.PermissionRequiredMixin"
         },
         {
             "docstring": "\"\"\"\n    Deny a request with a permission error if the test_func() method returns\n    False.\n    \"\"\"",
             "name": "UserPassesTestMixin",
-            "parent_name": "django.contrib.auth.mixins"
+            "namespace": "django.contrib.auth.mixins.UserPassesTestMixin"
         }
     ]
 }

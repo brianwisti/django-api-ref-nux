@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    Accessor to the related objects manager on the forward and reverse sides of\n    a many-to-many relation.\n\n    In the example::\n\n        class Pizza(Model):\n            toppings = ManyToManyField(Topping, related_name='pizzas')\n\n    ``Pizza.toppings`` and ``Topping.pizzas`` are ``ManyToManyDescriptor``\n    instances.\n\n    Most of the implementation is delegated to a dynamically defined manager\n    class built by ``create_forward_many_to_many_manager()`` defined below.\n    \"\"\"",
+    "name": "ManyToManyDescriptor",
+    "namespace": "django.db.models.fields.related_descriptors.ManyToManyDescriptor",
+    "parent_namespace": "django.db.models.fields.related_descriptors"
+}

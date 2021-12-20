@@ -1,0 +1,6 @@
+{
+    "docstring": "\"\"\"\n    Accessor to the related object on the reverse side of a one-to-one\n    relation.\n\n    In the example::\n\n        class Restaurant(Model):\n            place = OneToOneField(Place, related_name='restaurant')\n\n    ``Place.restaurant`` is a ``ReverseOneToOneDescriptor`` instance.\n    \"\"\"",
+    "name": "ReverseOneToOneDescriptor",
+    "namespace": "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor",
+    "parent_namespace": "django.db.models.fields.related_descriptors"
+}
