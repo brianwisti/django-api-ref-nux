@@ -1,4 +1,21 @@
 {
     "docstring": "\"\"\"\nDistance and Area objects to allow for sensible and convenient calculation\nand conversions.\n\nAuthors: Robert Coup, Justin Bronn, Riccardo Di Virgilio\n\nInspired by GeoPy (https://github.com/geopy/geopy)\nand Geoff Biggs' PhD work on dimensioned units for robotics.\n\"\"\"",
-    "namespace": "django.contrib.gis.measure"
+    "namespace": "django.contrib.gis.measure",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "MeasureBase",
+            "parent_name": "django.contrib.gis.measure"
+        },
+        {
+            "docstring": "",
+            "name": "Distance",
+            "parent_name": "django.contrib.gis.measure"
+        },
+        {
+            "docstring": "",
+            "name": "Area",
+            "parent_name": "django.contrib.gis.measure"
+        }
+    ]
 }

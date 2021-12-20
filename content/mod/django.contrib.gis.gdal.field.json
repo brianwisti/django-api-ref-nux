@@ -1,4 +1,81 @@
 {
     "docstring": "",
-    "namespace": "django.contrib.gis.gdal.field"
+    "namespace": "django.contrib.gis.gdal.field",
+    "classes": [
+        {
+            "docstring": "\"\"\"\n    Wrap an OGR Field. Needs to be instantiated from a Feature object.\n    \"\"\"",
+            "name": "Field",
+            "parent_name": "django.contrib.gis.gdal.field"
+        },
+        {
+            "docstring": "",
+            "name": "OFTInteger",
+            "parent_name": "django.contrib.gis.gdal.field"
+        },
+        {
+            "docstring": "",
+            "name": "OFTReal",
+            "parent_name": "django.contrib.gis.gdal.field"
+        },
+        {
+            "docstring": "",
+            "name": "OFTString",
+            "parent_name": "django.contrib.gis.gdal.field"
+        },
+        {
+            "docstring": "",
+            "name": "OFTWideString",
+            "parent_name": "django.contrib.gis.gdal.field"
+        },
+        {
+            "docstring": "",
+            "name": "OFTBinary",
+            "parent_name": "django.contrib.gis.gdal.field"
+        },
+        {
+            "docstring": "",
+            "name": "OFTDate",
+            "parent_name": "django.contrib.gis.gdal.field"
+        },
+        {
+            "docstring": "",
+            "name": "OFTDateTime",
+            "parent_name": "django.contrib.gis.gdal.field"
+        },
+        {
+            "docstring": "",
+            "name": "OFTTime",
+            "parent_name": "django.contrib.gis.gdal.field"
+        },
+        {
+            "docstring": "",
+            "name": "OFTInteger64",
+            "parent_name": "django.contrib.gis.gdal.field"
+        },
+        {
+            "docstring": "",
+            "name": "OFTIntegerList",
+            "parent_name": "django.contrib.gis.gdal.field"
+        },
+        {
+            "docstring": "",
+            "name": "OFTRealList",
+            "parent_name": "django.contrib.gis.gdal.field"
+        },
+        {
+            "docstring": "",
+            "name": "OFTStringList",
+            "parent_name": "django.contrib.gis.gdal.field"
+        },
+        {
+            "docstring": "",
+            "name": "OFTWideStringList",
+            "parent_name": "django.contrib.gis.gdal.field"
+        },
+        {
+            "docstring": "",
+            "name": "OFTInteger64List",
+            "parent_name": "django.contrib.gis.gdal.field"
+        }
+    ]
 }

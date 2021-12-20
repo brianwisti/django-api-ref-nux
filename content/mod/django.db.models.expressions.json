@@ -1,4 +1,141 @@
 {
     "docstring": "",
-    "namespace": "django.db.models.expressions"
+    "namespace": "django.db.models.expressions",
+    "classes": [
+        {
+            "docstring": "\"\"\"\n    Some expressions with output_field=DecimalField() must be cast to\n    numeric to be properly filtered.\n    \"\"\"",
+            "name": "SQLiteNumericMixin",
+            "parent_name": "django.db.models.expressions"
+        },
+        {
+            "docstring": "\"\"\"\n    Provide the ability to combine one or two objects with\n    some connector. For example F('foo') + F('bar').\n    \"\"\"",
+            "name": "Combinable",
+            "parent_name": "django.db.models.expressions"
+        },
+        {
+            "docstring": "\"\"\"Base class for all query expressions.\"\"\"",
+            "name": "BaseExpression",
+            "parent_name": "django.db.models.expressions"
+        },
+        {
+            "docstring": "\"\"\"An expression that can be combined with other expressions.\"\"\"",
+            "name": "Expression",
+            "parent_name": "django.db.models.expressions"
+        },
+        {
+            "docstring": "",
+            "name": "CombinedExpression",
+            "parent_name": "django.db.models.expressions"
+        },
+        {
+            "docstring": "",
+            "name": "DurationExpression",
+            "parent_name": "django.db.models.expressions"
+        },
+        {
+            "docstring": "",
+            "name": "TemporalSubtraction",
+            "parent_name": "django.db.models.expressions"
+        },
+        {
+            "docstring": "\"\"\"An object capable of resolving references to existing query objects.\"\"\"",
+            "name": "F",
+            "parent_name": "django.db.models.expressions"
+        },
+        {
+            "docstring": "\"\"\"\n    An object that contains a reference to an outer query.\n\n    In this case, the reference to the outer query has been resolved because\n    the inner query has been used as a subquery.\n    \"\"\"",
+            "name": "ResolvedOuterRef",
+            "parent_name": "django.db.models.expressions"
+        },
+        {
+            "docstring": "",
+            "name": "OuterRef",
+            "parent_name": "django.db.models.expressions"
+        },
+        {
+            "docstring": "\"\"\"An SQL function call.\"\"\"",
+            "name": "Func",
+            "parent_name": "django.db.models.expressions"
+        },
+        {
+            "docstring": "\"\"\"Represent a wrapped value as a node within an expression.\"\"\"",
+            "name": "Value",
+            "parent_name": "django.db.models.expressions"
+        },
+        {
+            "docstring": "",
+            "name": "RawSQL",
+            "parent_name": "django.db.models.expressions"
+        },
+        {
+            "docstring": "",
+            "name": "Star",
+            "parent_name": "django.db.models.expressions"
+        },
+        {
+            "docstring": "",
+            "name": "Col",
+            "parent_name": "django.db.models.expressions"
+        },
+        {
+            "docstring": "\"\"\"\n    Reference to column alias of the query. For example, Ref('sum_cost') in\n    qs.annotate(sum_cost=Sum('cost')) query.\n    \"\"\"",
+            "name": "Ref",
+            "parent_name": "django.db.models.expressions"
+        },
+        {
+            "docstring": "\"\"\"\n    An expression containing multiple expressions. Can be used to provide a\n    list of expressions as an argument to another expression, like an\n    ordering clause.\n    \"\"\"",
+            "name": "ExpressionList",
+            "parent_name": "django.db.models.expressions"
+        },
+        {
+            "docstring": "\"\"\"\n    An expression that can wrap another expression so that it can provide\n    extra context to the inner expression, such as the output_field.\n    \"\"\"",
+            "name": "ExpressionWrapper",
+            "parent_name": "django.db.models.expressions"
+        },
+        {
+            "docstring": "",
+            "name": "When",
+            "parent_name": "django.db.models.expressions"
+        },
+        {
+            "docstring": "\"\"\"\n    An SQL searched CASE expression:\n\n        CASE\n            WHEN n > 0\n                THEN 'positive'\n            WHEN n < 0\n                THEN 'negative'\n            ELSE 'zero'\n        END\n    \"\"\"",
+            "name": "Case",
+            "parent_name": "django.db.models.expressions"
+        },
+        {
+            "docstring": "\"\"\"\n    An explicit subquery. It may contain OuterRef() references to the outer\n    query which will be resolved when it is applied to that query.\n    \"\"\"",
+            "name": "Subquery",
+            "parent_name": "django.db.models.expressions"
+        },
+        {
+            "docstring": "",
+            "name": "Exists",
+            "parent_name": "django.db.models.expressions"
+        },
+        {
+            "docstring": "",
+            "name": "OrderBy",
+            "parent_name": "django.db.models.expressions"
+        },
+        {
+            "docstring": "",
+            "name": "Window",
+            "parent_name": "django.db.models.expressions"
+        },
+        {
+            "docstring": "\"\"\"\n    Model the frame clause in window expressions. There are two types of frame\n    clauses which are subclasses, however, all processing and validation (by no\n    means intended to be complete) is done here. Thus, providing an end for a\n    frame is optional (the default is UNBOUNDED FOLLOWING, which is the last\n    row in the frame).\n    \"\"\"",
+            "name": "WindowFrame",
+            "parent_name": "django.db.models.expressions"
+        },
+        {
+            "docstring": "",
+            "name": "RowRange",
+            "parent_name": "django.db.models.expressions"
+        },
+        {
+            "docstring": "",
+            "name": "ValueRange",
+            "parent_name": "django.db.models.expressions"
+        }
+    ]
 }

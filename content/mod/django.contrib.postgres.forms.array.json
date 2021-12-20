@@ -1,4 +1,21 @@
 {
     "docstring": "",
-    "namespace": "django.contrib.postgres.forms.array"
+    "namespace": "django.contrib.postgres.forms.array",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "SimpleArrayField",
+            "parent_name": "django.contrib.postgres.forms.array"
+        },
+        {
+            "docstring": "",
+            "name": "SplitArrayWidget",
+            "parent_name": "django.contrib.postgres.forms.array"
+        },
+        {
+            "docstring": "",
+            "name": "SplitArrayField",
+            "parent_name": "django.contrib.postgres.forms.array"
+        }
+    ]
 }

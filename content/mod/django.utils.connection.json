@@ -1,4 +1,21 @@
 {
     "docstring": "",
-    "namespace": "django.utils.connection"
+    "namespace": "django.utils.connection",
+    "classes": [
+        {
+            "docstring": "\"\"\"Proxy for accessing a connection object's attributes.\"\"\"",
+            "name": "ConnectionProxy",
+            "parent_name": "django.utils.connection"
+        },
+        {
+            "docstring": "",
+            "name": "ConnectionDoesNotExist",
+            "parent_name": "django.utils.connection"
+        },
+        {
+            "docstring": "",
+            "name": "BaseConnectionHandler",
+            "parent_name": "django.utils.connection"
+        }
+    ]
 }

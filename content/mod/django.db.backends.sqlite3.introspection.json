@@ -1,4 +1,16 @@
 {
     "docstring": "",
-    "namespace": "django.db.backends.sqlite3.introspection"
+    "namespace": "django.db.backends.sqlite3.introspection",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "FlexibleFieldLookupDict",
+            "parent_name": "django.db.backends.sqlite3.introspection"
+        },
+        {
+            "docstring": "",
+            "name": "DatabaseIntrospection",
+            "parent_name": "django.db.backends.sqlite3.introspection"
+        }
+    ]
 }

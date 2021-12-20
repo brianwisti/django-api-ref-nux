@@ -1,4 +1,171 @@
 {
     "docstring": "\"\"\"\nField classes.\n\"\"\"",
-    "namespace": "django.forms.fields"
+    "namespace": "django.forms.fields",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "Field",
+            "parent_name": "django.forms.fields"
+        },
+        {
+            "docstring": "",
+            "name": "CharField",
+            "parent_name": "django.forms.fields"
+        },
+        {
+            "docstring": "",
+            "name": "IntegerField",
+            "parent_name": "django.forms.fields"
+        },
+        {
+            "docstring": "",
+            "name": "FloatField",
+            "parent_name": "django.forms.fields"
+        },
+        {
+            "docstring": "",
+            "name": "DecimalField",
+            "parent_name": "django.forms.fields"
+        },
+        {
+            "docstring": "",
+            "name": "BaseTemporalField",
+            "parent_name": "django.forms.fields"
+        },
+        {
+            "docstring": "",
+            "name": "DateField",
+            "parent_name": "django.forms.fields"
+        },
+        {
+            "docstring": "",
+            "name": "TimeField",
+            "parent_name": "django.forms.fields"
+        },
+        {
+            "docstring": "",
+            "name": "DateTimeFormatsIterator",
+            "parent_name": "django.forms.fields"
+        },
+        {
+            "docstring": "",
+            "name": "DateTimeField",
+            "parent_name": "django.forms.fields"
+        },
+        {
+            "docstring": "",
+            "name": "DurationField",
+            "parent_name": "django.forms.fields"
+        },
+        {
+            "docstring": "",
+            "name": "RegexField",
+            "parent_name": "django.forms.fields"
+        },
+        {
+            "docstring": "",
+            "name": "EmailField",
+            "parent_name": "django.forms.fields"
+        },
+        {
+            "docstring": "",
+            "name": "FileField",
+            "parent_name": "django.forms.fields"
+        },
+        {
+            "docstring": "",
+            "name": "ImageField",
+            "parent_name": "django.forms.fields"
+        },
+        {
+            "docstring": "",
+            "name": "URLField",
+            "parent_name": "django.forms.fields"
+        },
+        {
+            "docstring": "",
+            "name": "BooleanField",
+            "parent_name": "django.forms.fields"
+        },
+        {
+            "docstring": "\"\"\"\n    A field whose valid values are None, True, and False. Clean invalid values\n    to None.\n    \"\"\"",
+            "name": "NullBooleanField",
+            "parent_name": "django.forms.fields"
+        },
+        {
+            "docstring": "",
+            "name": "CallableChoiceIterator",
+            "parent_name": "django.forms.fields"
+        },
+        {
+            "docstring": "",
+            "name": "ChoiceField",
+            "parent_name": "django.forms.fields"
+        },
+        {
+            "docstring": "",
+            "name": "TypedChoiceField",
+            "parent_name": "django.forms.fields"
+        },
+        {
+            "docstring": "",
+            "name": "MultipleChoiceField",
+            "parent_name": "django.forms.fields"
+        },
+        {
+            "docstring": "",
+            "name": "TypedMultipleChoiceField",
+            "parent_name": "django.forms.fields"
+        },
+        {
+            "docstring": "\"\"\"\n    A Field whose clean() method calls multiple Field clean() methods.\n    \"\"\"",
+            "name": "ComboField",
+            "parent_name": "django.forms.fields"
+        },
+        {
+            "docstring": "\"\"\"\n    Aggregate the logic of multiple Fields.\n\n    Its clean() method takes a \"decompressed\" list of values, which are then\n    cleaned into a single value according to self.fields. Each value in\n    this list is cleaned by the corresponding field -- the first value is\n    cleaned by the first field, the second value is cleaned by the second\n    field, etc. Once all fields are cleaned, the list of clean values is\n    \"compressed\" into a single value.\n\n    Subclasses should not have to implement clean(). Instead, they must\n    implement compress(), which takes a list of valid values and returns a\n    \"compressed\" version of those values -- a single value.\n\n    You'll probably want to use this with MultiWidget.\n    \"\"\"",
+            "name": "MultiValueField",
+            "parent_name": "django.forms.fields"
+        },
+        {
+            "docstring": "",
+            "name": "FilePathField",
+            "parent_name": "django.forms.fields"
+        },
+        {
+            "docstring": "",
+            "name": "SplitDateTimeField",
+            "parent_name": "django.forms.fields"
+        },
+        {
+            "docstring": "",
+            "name": "GenericIPAddressField",
+            "parent_name": "django.forms.fields"
+        },
+        {
+            "docstring": "",
+            "name": "SlugField",
+            "parent_name": "django.forms.fields"
+        },
+        {
+            "docstring": "",
+            "name": "UUIDField",
+            "parent_name": "django.forms.fields"
+        },
+        {
+            "docstring": "",
+            "name": "InvalidJSONInput",
+            "parent_name": "django.forms.fields"
+        },
+        {
+            "docstring": "",
+            "name": "JSONString",
+            "parent_name": "django.forms.fields"
+        },
+        {
+            "docstring": "",
+            "name": "JSONField",
+            "parent_name": "django.forms.fields"
+        }
+    ]
 }

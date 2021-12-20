@@ -1,4 +1,51 @@
 {
     "docstring": "\"\"\"\nModule for abstract serializer/unserializer base classes.\n\"\"\"",
-    "namespace": "django.core.serializers.base"
+    "namespace": "django.core.serializers.base",
+    "classes": [
+        {
+            "docstring": "\"\"\"\n    Simple wrapper around pickle to be used in signing.dumps()/loads() and\n    cache backends.\n    \"\"\"",
+            "name": "PickleSerializer",
+            "parent_name": "django.core.serializers.base"
+        },
+        {
+            "docstring": "\"\"\"The requested serializer was not found.\"\"\"",
+            "name": "SerializerDoesNotExist",
+            "parent_name": "django.core.serializers.base"
+        },
+        {
+            "docstring": "\"\"\"Something bad happened during serialization.\"\"\"",
+            "name": "SerializationError",
+            "parent_name": "django.core.serializers.base"
+        },
+        {
+            "docstring": "\"\"\"Something bad happened during deserialization.\"\"\"",
+            "name": "DeserializationError",
+            "parent_name": "django.core.serializers.base"
+        },
+        {
+            "docstring": "\"\"\"Something bad happened during deserialization of a ManyToManyField.\"\"\"",
+            "name": "M2MDeserializationError",
+            "parent_name": "django.core.serializers.base"
+        },
+        {
+            "docstring": "",
+            "name": "ProgressBar",
+            "parent_name": "django.core.serializers.base"
+        },
+        {
+            "docstring": "\"\"\"\n    Abstract serializer base class.\n    \"\"\"",
+            "name": "Serializer",
+            "parent_name": "django.core.serializers.base"
+        },
+        {
+            "docstring": "\"\"\"\n    Abstract base deserializer class.\n    \"\"\"",
+            "name": "Deserializer",
+            "parent_name": "django.core.serializers.base"
+        },
+        {
+            "docstring": "\"\"\"\n    A deserialized model.\n\n    Basically a container for holding the pre-saved deserialized data along\n    with the many-to-many data saved with the object.\n\n    Call ``save()`` to save the object (with the many-to-many data) to the\n    database; call ``save(save_m2m=False)`` to save just the object fields\n    (and not touch the many-to-many stuff.)\n    \"\"\"",
+            "name": "DeserializedObject",
+            "parent_name": "django.core.serializers.base"
+        }
+    ]
 }

@@ -1,4 +1,26 @@
 {
     "docstring": "",
-    "namespace": "django.views.debug"
+    "namespace": "django.views.debug",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "ExceptionCycleWarning",
+            "parent_name": "django.views.debug"
+        },
+        {
+            "docstring": "\"\"\"\n    Object to wrap callable appearing in settings.\n    * Not to call in the debug page (#21345).\n    * Not to break the debug page if the callable forbidding to set attributes\n      (#23070).\n    \"\"\"",
+            "name": "CallableSettingWrapper",
+            "parent_name": "django.views.debug"
+        },
+        {
+            "docstring": "\"\"\"\n    Use annotations made by the sensitive_post_parameters and\n    sensitive_variables decorators to filter out sensitive information.\n    \"\"\"",
+            "name": "SafeExceptionReporterFilter",
+            "parent_name": "django.views.debug"
+        },
+        {
+            "docstring": "\"\"\"Organize and coordinate reporting on exceptions.\"\"\"",
+            "name": "ExceptionReporter",
+            "parent_name": "django.views.debug"
+        }
+    ]
 }

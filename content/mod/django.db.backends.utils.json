@@ -1,4 +1,16 @@
 {
     "docstring": "",
-    "namespace": "django.db.backends.utils"
+    "namespace": "django.db.backends.utils",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "CursorWrapper",
+            "parent_name": "django.db.backends.utils"
+        },
+        {
+            "docstring": "",
+            "name": "CursorDebugWrapper",
+            "parent_name": "django.db.backends.utils"
+        }
+    ]
 }

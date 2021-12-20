@@ -1,4 +1,36 @@
 {
     "docstring": "",
-    "namespace": "django.http.request"
+    "namespace": "django.http.request",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "UnreadablePostError",
+            "parent_name": "django.http.request"
+        },
+        {
+            "docstring": "\"\"\"\n    You cannot access raw_post_data from a request that has\n    multipart/* POST data if it has been accessed via POST,\n    FILES, etc..\n    \"\"\"",
+            "name": "RawPostDataException",
+            "parent_name": "django.http.request"
+        },
+        {
+            "docstring": "\"\"\"A basic HTTP request.\"\"\"",
+            "name": "HttpRequest",
+            "parent_name": "django.http.request"
+        },
+        {
+            "docstring": "",
+            "name": "HttpHeaders",
+            "parent_name": "django.http.request"
+        },
+        {
+            "docstring": "\"\"\"\n    A specialized MultiValueDict which represents a query string.\n\n    A QueryDict can be used to represent GET or POST data. It subclasses\n    MultiValueDict since keys in such data can be repeated, for instance\n    in the data from a form with a <select multiple> field.\n\n    By default QueryDicts are immutable, though the copy() method\n    will always return a mutable copy.\n\n    Both keys and values set on this class are converted from the given encoding\n    (DEFAULT_CHARSET by default) to str.\n    \"\"\"",
+            "name": "QueryDict",
+            "parent_name": "django.http.request"
+        },
+        {
+            "docstring": "",
+            "name": "MediaType",
+            "parent_name": "django.http.request"
+        }
+    ]
 }

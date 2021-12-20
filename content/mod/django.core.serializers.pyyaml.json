@@ -1,4 +1,16 @@
 {
     "docstring": "\"\"\"\nYAML serializer.\n\nRequires PyYaml (https://pyyaml.org/), but that's checked for in __init__.\n\"\"\"",
-    "namespace": "django.core.serializers.pyyaml"
+    "namespace": "django.core.serializers.pyyaml",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "DjangoSafeDumper",
+            "parent_name": "django.core.serializers.pyyaml"
+        },
+        {
+            "docstring": "\"\"\"Convert a queryset to YAML.\"\"\"",
+            "name": "Serializer",
+            "parent_name": "django.core.serializers.pyyaml"
+        }
+    ]
 }

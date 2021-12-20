@@ -1,4 +1,11 @@
 {
     "docstring": "",
-    "namespace": "django.db.backends.base.client"
+    "namespace": "django.db.backends.base.client",
+    "classes": [
+        {
+            "docstring": "\"\"\"Encapsulate backend-specific methods for opening a client shell.\"\"\"",
+            "name": "BaseDatabaseClient",
+            "parent_name": "django.db.backends.base.client"
+        }
+    ]
 }

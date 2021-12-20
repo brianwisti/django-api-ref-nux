@@ -1,4 +1,16 @@
 {
     "docstring": "\"\"\"\nThis module contains generic exceptions used by template backends. Although,\ndue to historical reasons, the Django template language also internally uses\nthese exceptions, other exceptions specific to the DTL should not be added\nhere.\n\"\"\"",
-    "namespace": "django.template.exceptions"
+    "namespace": "django.template.exceptions",
+    "classes": [
+        {
+            "docstring": "\"\"\"\n    The exception used when a template does not exist. Optional arguments:\n\n    backend\n        The template backend class used when raising this exception.\n\n    tried\n        A list of sources that were tried when finding the template. This\n        is formatted as a list of tuples containing (origin, status), where\n        origin is an Origin object or duck type and status is a string with the\n        reason the template wasn't found.\n\n    chain\n        A list of intermediate TemplateDoesNotExist exceptions. This is used to\n        encapsulate multiple exceptions when loading templates from multiple\n        engines.\n    \"\"\"",
+            "name": "TemplateDoesNotExist",
+            "parent_name": "django.template.exceptions"
+        },
+        {
+            "docstring": "\"\"\"\n    The exception used for syntax errors during parsing or rendering.\n    \"\"\"",
+            "name": "TemplateSyntaxError",
+            "parent_name": "django.template.exceptions"
+        }
+    ]
 }

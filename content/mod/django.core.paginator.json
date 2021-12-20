@@ -1,4 +1,36 @@
 {
     "docstring": "",
-    "namespace": "django.core.paginator"
+    "namespace": "django.core.paginator",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "UnorderedObjectListWarning",
+            "parent_name": "django.core.paginator"
+        },
+        {
+            "docstring": "",
+            "name": "InvalidPage",
+            "parent_name": "django.core.paginator"
+        },
+        {
+            "docstring": "",
+            "name": "PageNotAnInteger",
+            "parent_name": "django.core.paginator"
+        },
+        {
+            "docstring": "",
+            "name": "EmptyPage",
+            "parent_name": "django.core.paginator"
+        },
+        {
+            "docstring": "",
+            "name": "Paginator",
+            "parent_name": "django.core.paginator"
+        },
+        {
+            "docstring": "",
+            "name": "Page",
+            "parent_name": "django.core.paginator"
+        }
+    ]
 }

@@ -1,4 +1,16 @@
 {
     "docstring": "",
-    "namespace": "django.views.decorators.csrf"
+    "namespace": "django.views.decorators.csrf",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "_EnsureCsrfToken",
+            "parent_name": "django.views.decorators.csrf"
+        },
+        {
+            "docstring": "",
+            "name": "_EnsureCsrfCookie",
+            "parent_name": "django.views.decorators.csrf"
+        }
+    ]
 }

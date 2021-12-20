@@ -4,171 +4,566 @@
     "modules": [
         {
             "docstring": "",
-            "namespace": "django.utils.text"
+            "namespace": "django.utils.text",
+            "classes": [
+                {
+                    "docstring": "\"\"\"\n    An object used to truncate text, either by characters or words.\n    \"\"\"",
+                    "name": "Truncator",
+                    "parent_name": "django.utils.text"
+                },
+                {
+                    "docstring": "",
+                    "name": "StreamingBuffer",
+                    "parent_name": "django.utils.text"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.utils.hashable"
+            "namespace": "django.utils.hashable",
+            "classes": []
         },
         {
             "docstring": "\"\"\"\nA class for storing a tree graph. Primarily used for filter constructs in the\nORM.\n\"\"\"",
-            "namespace": "django.utils.tree"
+            "namespace": "django.utils.tree",
+            "classes": [
+                {
+                    "docstring": "\"\"\"\n    A single internal node in the tree graph. A Node should be viewed as a\n    connection (the root) with the children being either leaf nodes or other\n    Node instances.\n    \"\"\"",
+                    "name": "Node",
+                    "parent_name": "django.utils.tree"
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\nUtilities for XML generation/parsing.\n\"\"\"",
-            "namespace": "django.utils.xmlutils"
+            "namespace": "django.utils.xmlutils",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "UnserializableContentError",
+                    "parent_name": "django.utils.xmlutils"
+                },
+                {
+                    "docstring": "",
+                    "name": "SimplerXMLGenerator",
+                    "parent_name": "django.utils.xmlutils"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.utils.deprecation"
+            "namespace": "django.utils.deprecation",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "RemovedInDjango41Warning",
+                    "parent_name": "django.utils.deprecation"
+                },
+                {
+                    "docstring": "",
+                    "name": "RemovedInDjango50Warning",
+                    "parent_name": "django.utils.deprecation"
+                },
+                {
+                    "docstring": "",
+                    "name": "warn_about_renamed_method",
+                    "parent_name": "django.utils.deprecation"
+                },
+                {
+                    "docstring": "\"\"\"\n    Handles the deprecation paths when renaming a method.\n\n    It does the following:\n        1) Define the new method if missing and complain about it.\n        2) Define the old method if missing.\n        3) Complain whenever an old method is called.\n\n    See #15363 for more details.\n    \"\"\"",
+                    "name": "RenameMethodsBase",
+                    "parent_name": "django.utils.deprecation"
+                },
+                {
+                    "docstring": "",
+                    "name": "DeprecationInstanceCheck",
+                    "parent_name": "django.utils.deprecation"
+                },
+                {
+                    "docstring": "",
+                    "name": "MiddlewareMixin",
+                    "parent_name": "django.utils.deprecation"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.utils.duration"
+            "namespace": "django.utils.duration",
+            "classes": []
         },
         {
             "docstring": "",
-            "namespace": "django.utils.timesince"
+            "namespace": "django.utils.timesince",
+            "classes": []
         },
         {
             "docstring": "\"\"\"\nFunctions for working with \"safe strings\": strings that can be displayed safely\nwithout further escaping in HTML. Marking something as a \"safe string\" means\nthat the producer of the string has already turned characters that should not\nbe interpreted by the HTML engine (e.g. '<') into the appropriate entities.\n\"\"\"",
-            "namespace": "django.utils.safestring"
+            "namespace": "django.utils.safestring",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "SafeData",
+                    "parent_name": "django.utils.safestring"
+                },
+                {
+                    "docstring": "\"\"\"\n    A str subclass that has been specifically marked as \"safe\" for HTML output\n    purposes.\n    \"\"\"",
+                    "name": "SafeString",
+                    "parent_name": "django.utils.safestring"
+                }
+            ]
         },
         {
             "docstring": "\"Functions that help with dynamically creating decorators for views.\"",
-            "namespace": "django.utils.decorators"
+            "namespace": "django.utils.decorators",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "classonlymethod",
+                    "parent_name": "django.utils.decorators"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.utils.log"
+            "namespace": "django.utils.log",
+            "classes": [
+                {
+                    "docstring": "\"\"\"An exception log handler that emails log entries to site admins.\n\n    If the request is passed as the first argument to the log record,\n    request data will be provided in the email report.\n    \"\"\"",
+                    "name": "AdminEmailHandler",
+                    "parent_name": "django.utils.log"
+                },
+                {
+                    "docstring": "\"\"\"\n    A logging filter that checks the return value of a given callable (which\n    takes the record-to-be-logged as its only parameter) to decide whether to\n    log a record.\n    \"\"\"",
+                    "name": "CallbackFilter",
+                    "parent_name": "django.utils.log"
+                },
+                {
+                    "docstring": "",
+                    "name": "RequireDebugFalse",
+                    "parent_name": "django.utils.log"
+                },
+                {
+                    "docstring": "",
+                    "name": "RequireDebugTrue",
+                    "parent_name": "django.utils.log"
+                },
+                {
+                    "docstring": "",
+                    "name": "ServerFormatter",
+                    "parent_name": "django.utils.log"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.utils.functional"
+            "namespace": "django.utils.functional",
+            "classes": [
+                {
+                    "docstring": "\"\"\"\n    Decorator that converts a method with a single self argument into a\n    property cached on the instance.\n\n    A cached property can be made out of an existing method:\n    (e.g. ``url = cached_property(get_absolute_url)``).\n    The optional ``name`` argument is obsolete as of Python 3.6 and will be\n    deprecated in Django 4.0 (#30127).\n    \"\"\"",
+                    "name": "cached_property",
+                    "parent_name": "django.utils.functional"
+                },
+                {
+                    "docstring": "\"\"\"\n    Decorator that converts a method with a single cls argument into a property\n    that can be accessed directly from the class.\n    \"\"\"",
+                    "name": "classproperty",
+                    "parent_name": "django.utils.functional"
+                },
+                {
+                    "docstring": "\"\"\"\n    Base class for the proxy class created in the closure of the lazy function.\n    It's used to recognize promises in code.\n    \"\"\"",
+                    "name": "Promise",
+                    "parent_name": "django.utils.functional"
+                },
+                {
+                    "docstring": "\"\"\"\n    A wrapper for another class that can be used to delay instantiation of the\n    wrapped class.\n\n    By subclassing, you have the opportunity to intercept and alter the\n    instantiation. If you don't need to do that, use SimpleLazyObject.\n    \"\"\"",
+                    "name": "LazyObject",
+                    "parent_name": "django.utils.functional"
+                },
+                {
+                    "docstring": "\"\"\"\n    A lazy object initialized from any function.\n\n    Designed for compound objects of unknown type. For builtins or objects of\n    known type, use django.utils.functional.lazy.\n    \"\"\"",
+                    "name": "SimpleLazyObject",
+                    "parent_name": "django.utils.functional"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.utils.ipv6"
+            "namespace": "django.utils.ipv6",
+            "classes": []
         },
         {
             "docstring": "",
-            "namespace": "django.utils.inspect"
+            "namespace": "django.utils.inspect",
+            "classes": []
         },
         {
             "docstring": "",
-            "namespace": "django.utils.module_loading"
+            "namespace": "django.utils.module_loading",
+            "classes": []
         },
         {
             "docstring": "",
-            "namespace": "django.utils.encoding"
+            "namespace": "django.utils.encoding",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "DjangoUnicodeDecodeError",
+                    "parent_name": "django.utils.encoding"
+                }
+            ]
         },
         {
             "docstring": "\"\"\"Functions to parse datetime objects.\"\"\"",
-            "namespace": "django.utils.dateparse"
+            "namespace": "django.utils.dateparse",
+            "classes": []
         },
         {
             "docstring": "",
-            "namespace": "django.utils.topological_sort"
+            "namespace": "django.utils.topological_sort",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "CyclicDependencyError",
+                    "parent_name": "django.utils.topological_sort"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.utils.version"
+            "namespace": "django.utils.version",
+            "classes": []
         },
         {
             "docstring": "",
-            "namespace": "django.utils.asyncio"
+            "namespace": "django.utils.asyncio",
+            "classes": []
         },
         {
             "docstring": "",
-            "namespace": "django.utils.deconstruct"
+            "namespace": "django.utils.deconstruct",
+            "classes": []
         },
         {
             "docstring": "\"\"\"\nUtility functions for generating \"lorem ipsum\" Latin text.\n\"\"\"",
-            "namespace": "django.utils.lorem_ipsum"
+            "namespace": "django.utils.lorem_ipsum",
+            "classes": []
         },
         {
             "docstring": "\"\"\"\nDjango's standard crypto functions and utilities.\n\"\"\"",
-            "namespace": "django.utils.crypto"
+            "namespace": "django.utils.crypto",
+            "classes": [
+                {
+                    "docstring": "\"\"\"Algorithm is not supported by hashlib.\"\"\"",
+                    "name": "InvalidAlgorithm",
+                    "parent_name": "django.utils.crypto"
+                }
+            ]
         },
         {
             "docstring": "\"Commonly-used date structures\"",
-            "namespace": "django.utils.dates"
+            "namespace": "django.utils.dates",
+            "classes": []
         },
         {
             "docstring": "\"\"\"\ntermcolors.py\n\"\"\"",
-            "namespace": "django.utils.termcolors"
+            "namespace": "django.utils.termcolors",
+            "classes": []
         },
         {
             "docstring": "\"\"\"\nConvert numbers from base 10 integers to base X strings and back again.\n\nSample usage::\n\n  >>> base20 = BaseConverter('0123456789abcdefghij')\n  >>> base20.encode(1234)\n  '31e'\n  >>> base20.decode('31e')\n  1234\n  >>> base20.encode(-1234)\n  '-31e'\n  >>> base20.decode('-31e')\n  -1234\n  >>> base11 = BaseConverter('0123456789-', sign='$')\n  >>> base11.encode(-1234)\n  '$-22'\n  >>> base11.decode('$-22')\n  -1234\n\n\"\"\"",
-            "namespace": "django.utils.baseconv"
+            "namespace": "django.utils.baseconv",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "BaseConverter",
+                    "parent_name": "django.utils.baseconv"
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\nPHP date() style date formatting\nSee http://www.php.net/date for format strings\n\nUsage:\n>>> import datetime\n>>> d = datetime.datetime.now()\n>>> df = DateFormat(d)\n>>> print(df.format('jS F Y H:i'))\n7th October 2003 11:39\n>>>\n\"\"\"",
-            "namespace": "django.utils.dateformat"
+            "namespace": "django.utils.dateformat",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "Formatter",
+                    "parent_name": "django.utils.dateformat"
+                },
+                {
+                    "docstring": "",
+                    "name": "TimeFormat",
+                    "parent_name": "django.utils.dateformat"
+                },
+                {
+                    "docstring": "",
+                    "name": "DateFormat",
+                    "parent_name": "django.utils.dateformat"
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\nBased on \"python-archive\" -- https://pypi.org/project/python-archive/\n\nCopyright (c) 2010 Gary Wilson Jr. <gary.wilson@gmail.com> and contributors.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n\"\"\"",
-            "namespace": "django.utils.archive"
+            "namespace": "django.utils.archive",
+            "classes": [
+                {
+                    "docstring": "\"\"\"\n    Base exception class for all archive errors.\n    \"\"\"",
+                    "name": "ArchiveException",
+                    "parent_name": "django.utils.archive"
+                },
+                {
+                    "docstring": "\"\"\"\n    Error raised when passed file is not a recognized archive format.\n    \"\"\"",
+                    "name": "UnrecognizedArchiveFormat",
+                    "parent_name": "django.utils.archive"
+                },
+                {
+                    "docstring": "\"\"\"\n    The external API class that encapsulates an archive implementation.\n    \"\"\"",
+                    "name": "Archive",
+                    "parent_name": "django.utils.archive"
+                },
+                {
+                    "docstring": "\"\"\"\n    Base Archive class.  Implementations should inherit this class.\n    \"\"\"",
+                    "name": "BaseArchive",
+                    "parent_name": "django.utils.archive"
+                },
+                {
+                    "docstring": "",
+                    "name": "TarArchive",
+                    "parent_name": "django.utils.archive"
+                },
+                {
+                    "docstring": "",
+                    "name": "ZipArchive",
+                    "parent_name": "django.utils.archive"
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\nFunctions for reversing a regular expression (used in reverse URL resolving).\nUsed internally by Django and not intended for external use.\n\nThis is not, and is not intended to be, a complete reg-exp decompiler. It\nshould be good enough for a large class of URLS, however.\n\"\"\"",
-            "namespace": "django.utils.regex_helper"
+            "namespace": "django.utils.regex_helper",
+            "classes": [
+                {
+                    "docstring": "\"\"\"Represent multiple possibilities at this point in a pattern string.\"\"\"",
+                    "name": "Choice",
+                    "parent_name": "django.utils.regex_helper"
+                },
+                {
+                    "docstring": "\"\"\"Represent a capturing group in the pattern string.\"\"\"",
+                    "name": "Group",
+                    "parent_name": "django.utils.regex_helper"
+                },
+                {
+                    "docstring": "\"\"\"Represent a non-capturing group in the pattern string.\"\"\"",
+                    "name": "NonCapture",
+                    "parent_name": "django.utils.regex_helper"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.utils.datastructures"
+            "namespace": "django.utils.datastructures",
+            "classes": [
+                {
+                    "docstring": "\"\"\"\n    A set which keeps the ordering of the inserted items.\n    \"\"\"",
+                    "name": "OrderedSet",
+                    "parent_name": "django.utils.datastructures"
+                },
+                {
+                    "docstring": "",
+                    "name": "MultiValueDictKeyError",
+                    "parent_name": "django.utils.datastructures"
+                },
+                {
+                    "docstring": "\"\"\"\n    A subclass of dictionary customized to handle multiple values for the\n    same key.\n\n    >>> d = MultiValueDict({'name': ['Adrian', 'Simon'], 'position': ['Developer']})\n    >>> d['name']\n    'Simon'\n    >>> d.getlist('name')\n    ['Adrian', 'Simon']\n    >>> d.getlist('doesnotexist')\n    []\n    >>> d.getlist('doesnotexist', ['Adrian', 'Simon'])\n    ['Adrian', 'Simon']\n    >>> d.get('lastname', 'nonexistent')\n    'nonexistent'\n    >>> d.setlist('lastname', ['Holovaty', 'Willison'])\n\n    This class exists to solve the irritating problem raised by cgi.parse_qs,\n    which returns a list for every key, even though most web forms submit\n    single name-value pairs.\n    \"\"\"",
+                    "name": "MultiValueDict",
+                    "parent_name": "django.utils.datastructures"
+                },
+                {
+                    "docstring": "\"\"\"\n    A tuple-like object that raises useful errors when it is asked to mutate.\n\n    Example::\n\n        >>> a = ImmutableList(range(5), warning=\"You cannot mutate this.\")\n        >>> a[3] = '4'\n        Traceback (most recent call last):\n            ...\n        AttributeError: You cannot mutate this.\n    \"\"\"",
+                    "name": "ImmutableList",
+                    "parent_name": "django.utils.datastructures"
+                },
+                {
+                    "docstring": "\"\"\"\n    Wrap accesses to a dictionary so that certain values (those starting with\n    the specified prefix) are passed through a function before being returned.\n    The prefix is removed before looking up the real value.\n\n    Used by the SQL construction code to ensure that values are correctly\n    quoted before being used.\n    \"\"\"",
+                    "name": "DictWrapper",
+                    "parent_name": "django.utils.datastructures"
+                },
+                {
+                    "docstring": "\"\"\"\n    Mapping allowing case-insensitive key lookups. Original case of keys is\n    preserved for iteration and string representation.\n\n    Example::\n\n        >>> ci_map = CaseInsensitiveMapping({'name': 'Jane'})\n        >>> ci_map['Name']\n        Jane\n        >>> ci_map['NAME']\n        Jane\n        >>> ci_map['name']\n        Jane\n        >>> ci_map  # original case preserved\n        {'name': 'Jane'}\n    \"\"\"",
+                    "name": "CaseInsensitiveMapping",
+                    "parent_name": "django.utils.datastructures"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.utils.http"
+            "namespace": "django.utils.http",
+            "classes": []
         },
         {
             "docstring": "\"\"\"\nTimezone-related classes and functions.\n\"\"\"",
-            "namespace": "django.utils.timezone"
+            "namespace": "django.utils.timezone",
+            "classes": [
+                {
+                    "docstring": "\"\"\"\n    Temporarily set the time zone for the current thread.\n\n    This is a context manager that uses django.utils.timezone.activate()\n    to set the timezone on entry and restores the previously active timezone\n    on exit.\n\n    The ``timezone`` argument must be an instance of a ``tzinfo`` subclass, a\n    time zone name, or ``None``. If it is ``None``, Django enables the default\n    time zone.\n    \"\"\"",
+                    "name": "override",
+                    "parent_name": "django.utils.timezone"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.utils.formats"
+            "namespace": "django.utils.formats",
+            "classes": []
         },
         {
             "docstring": "",
-            "namespace": "django.utils._os"
+            "namespace": "django.utils._os",
+            "classes": []
         },
         {
             "docstring": "\"\"\"JsLex: a lexer for JavaScript\"\"\"",
-            "namespace": "django.utils.jslex"
+            "namespace": "django.utils.jslex",
+            "classes": [
+                {
+                    "docstring": "\"\"\"\n    A specification for a token class.\n    \"\"\"",
+                    "name": "Tok",
+                    "parent_name": "django.utils.jslex"
+                },
+                {
+                    "docstring": "\"\"\"\n    A generic multi-state regex-based lexer.\n    \"\"\"",
+                    "name": "Lexer",
+                    "parent_name": "django.utils.jslex"
+                },
+                {
+                    "docstring": "\"\"\"\n    A JavaScript lexer\n\n    >>> lexer = JsLexer()\n    >>> list(lexer.lex(\"a = 1\"))\n    [('id', 'a'), ('ws', ' '), ('punct', '='), ('ws', ' '), ('dnum', '1')]\n\n    This doesn't properly handle non-ASCII characters in the JavaScript source.\n    \"\"\"",
+                    "name": "JsLexer",
+                    "parent_name": "django.utils.jslex"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.utils.autoreload"
+            "namespace": "django.utils.autoreload",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "BaseReloader",
+                    "parent_name": "django.utils.autoreload"
+                },
+                {
+                    "docstring": "",
+                    "name": "StatReloader",
+                    "parent_name": "django.utils.autoreload"
+                },
+                {
+                    "docstring": "",
+                    "name": "WatchmanUnavailable",
+                    "parent_name": "django.utils.autoreload"
+                },
+                {
+                    "docstring": "",
+                    "name": "WatchmanReloader",
+                    "parent_name": "django.utils.autoreload"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.utils.connection"
+            "namespace": "django.utils.connection",
+            "classes": [
+                {
+                    "docstring": "\"\"\"Proxy for accessing a connection object's attributes.\"\"\"",
+                    "name": "ConnectionProxy",
+                    "parent_name": "django.utils.connection"
+                },
+                {
+                    "docstring": "",
+                    "name": "ConnectionDoesNotExist",
+                    "parent_name": "django.utils.connection"
+                },
+                {
+                    "docstring": "",
+                    "name": "BaseConnectionHandler",
+                    "parent_name": "django.utils.connection"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.utils.itercompat"
+            "namespace": "django.utils.itercompat",
+            "classes": []
         },
         {
             "docstring": "\"\"\"\nSyndication feed generation library -- used for generating RSS, etc.\n\nSample usage:\n\n>>> from django.utils import feedgenerator\n>>> feed = feedgenerator.Rss201rev2Feed(\n...     title=\"Poynter E-Media Tidbits\",\n...     link=\"http://www.poynter.org/column.asp?id=31\",\n...     description=\"A group blog by the sharpest minds in online media/journalism/publishing.\",\n...     language=\"en\",\n... )\n>>> feed.add_item(\n...     title=\"Hello\",\n...     link=\"http://www.holovaty.com/test/\",\n...     description=\"Testing.\"\n... )\n>>> with open('test.rss', 'w') as fp:\n...     feed.write(fp, 'utf-8')\n\nFor definitions of the different versions of RSS, see:\nhttps://web.archive.org/web/20110718035220/http://diveintomark.org/archives/2004/02/04/incompatible-rss\n\"\"\"",
-            "namespace": "django.utils.feedgenerator"
+            "namespace": "django.utils.feedgenerator",
+            "classes": [
+                {
+                    "docstring": "\"Base class for all syndication feeds. Subclasses should provide write()\"",
+                    "name": "SyndicationFeed",
+                    "parent_name": "django.utils.feedgenerator"
+                },
+                {
+                    "docstring": "\"\"\"An RSS enclosure\"\"\"",
+                    "name": "Enclosure",
+                    "parent_name": "django.utils.feedgenerator"
+                },
+                {
+                    "docstring": "",
+                    "name": "RssFeed",
+                    "parent_name": "django.utils.feedgenerator"
+                },
+                {
+                    "docstring": "",
+                    "name": "RssUserland091Feed",
+                    "parent_name": "django.utils.feedgenerator"
+                },
+                {
+                    "docstring": "",
+                    "name": "Rss201rev2Feed",
+                    "parent_name": "django.utils.feedgenerator"
+                },
+                {
+                    "docstring": "",
+                    "name": "Atom1Feed",
+                    "parent_name": "django.utils.feedgenerator"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.utils.datetime_safe"
+            "namespace": "django.utils.datetime_safe",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "date",
+                    "parent_name": "django.utils.datetime_safe"
+                },
+                {
+                    "docstring": "",
+                    "name": "datetime",
+                    "parent_name": "django.utils.datetime_safe"
+                }
+            ]
         },
         {
             "docstring": "\"\"\"HTML utilities suitable for global use.\"\"\"",
-            "namespace": "django.utils.html"
+            "namespace": "django.utils.html",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "MLStripper",
+                    "parent_name": "django.utils.html"
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\nThis module contains helper functions for controlling caching. It does so by\nmanaging the \"Vary\" header of responses. It includes functions to patch the\nheader of response objects directly and decorators that change functions to do\nthat header-patching themselves.\n\nFor information on the Vary header, see:\n\n    https://tools.ietf.org/html/rfc7231#section-7.1.4\n\nEssentially, the \"Vary\" HTTP header defines which headers a cache should take\ninto account when building its cache key. Requests with the same path but\ndifferent header content for headers named in \"Vary\" need to get different\ncache keys to prevent delivery of wrong content.\n\nAn example: i18n middleware would need to distinguish caches by the\n\"Accept-language\" header.\n\"\"\"",
-            "namespace": "django.utils.cache"
+            "namespace": "django.utils.cache",
+            "classes": []
         },
         {
             "docstring": "",
-            "namespace": "django.utils.numberformat"
+            "namespace": "django.utils.numberformat",
+            "classes": []
         }
     ],
     "subpackages": [

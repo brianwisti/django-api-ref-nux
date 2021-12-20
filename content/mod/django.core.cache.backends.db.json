@@ -1,4 +1,21 @@
 {
     "docstring": "\"Database cache backend.\"",
-    "namespace": "django.core.cache.backends.db"
+    "namespace": "django.core.cache.backends.db",
+    "classes": [
+        {
+            "docstring": "\"\"\"A class that will quack like a Django model _meta class.\n\n    This allows cache operations to be controlled by the router\n    \"\"\"",
+            "name": "Options",
+            "parent_name": "django.core.cache.backends.db"
+        },
+        {
+            "docstring": "",
+            "name": "BaseDatabaseCache",
+            "parent_name": "django.core.cache.backends.db"
+        },
+        {
+            "docstring": "",
+            "name": "DatabaseCache",
+            "parent_name": "django.core.cache.backends.db"
+        }
+    ]
 }

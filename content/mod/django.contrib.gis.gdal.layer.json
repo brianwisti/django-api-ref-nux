@@ -1,4 +1,11 @@
 {
     "docstring": "",
-    "namespace": "django.contrib.gis.gdal.layer"
+    "namespace": "django.contrib.gis.gdal.layer",
+    "classes": [
+        {
+            "docstring": "\"A class that wraps an OGR Layer, needs to be instantiated from a DataSource object.\"",
+            "name": "Layer",
+            "parent_name": "django.contrib.gis.gdal.layer"
+        }
+    ]
 }

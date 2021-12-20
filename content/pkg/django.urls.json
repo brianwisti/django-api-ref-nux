@@ -4,27 +4,111 @@
     "modules": [
         {
             "docstring": "",
-            "namespace": "django.urls.exceptions"
+            "namespace": "django.urls.exceptions",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "Resolver404",
+                    "parent_name": "django.urls.exceptions"
+                },
+                {
+                    "docstring": "",
+                    "name": "NoReverseMatch",
+                    "parent_name": "django.urls.exceptions"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.urls.base"
+            "namespace": "django.urls.base",
+            "classes": []
         },
         {
             "docstring": "",
-            "namespace": "django.urls.converters"
+            "namespace": "django.urls.converters",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "IntConverter",
+                    "parent_name": "django.urls.converters"
+                },
+                {
+                    "docstring": "",
+                    "name": "StringConverter",
+                    "parent_name": "django.urls.converters"
+                },
+                {
+                    "docstring": "",
+                    "name": "UUIDConverter",
+                    "parent_name": "django.urls.converters"
+                },
+                {
+                    "docstring": "",
+                    "name": "SlugConverter",
+                    "parent_name": "django.urls.converters"
+                },
+                {
+                    "docstring": "",
+                    "name": "PathConverter",
+                    "parent_name": "django.urls.converters"
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\nThis module converts requested URLs to callback view functions.\n\nURLResolver is the main class here. Its resolve() method takes a URL (as\na string) and returns a ResolverMatch object which provides access to all\nattributes of the resolved URL match.\n\"\"\"",
-            "namespace": "django.urls.resolvers"
+            "namespace": "django.urls.resolvers",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "ResolverMatch",
+                    "parent_name": "django.urls.resolvers"
+                },
+                {
+                    "docstring": "",
+                    "name": "LocaleRegexDescriptor",
+                    "parent_name": "django.urls.resolvers"
+                },
+                {
+                    "docstring": "",
+                    "name": "CheckURLMixin",
+                    "parent_name": "django.urls.resolvers"
+                },
+                {
+                    "docstring": "",
+                    "name": "RegexPattern",
+                    "parent_name": "django.urls.resolvers"
+                },
+                {
+                    "docstring": "",
+                    "name": "RoutePattern",
+                    "parent_name": "django.urls.resolvers"
+                },
+                {
+                    "docstring": "",
+                    "name": "LocalePrefixPattern",
+                    "parent_name": "django.urls.resolvers"
+                },
+                {
+                    "docstring": "",
+                    "name": "URLPattern",
+                    "parent_name": "django.urls.resolvers"
+                },
+                {
+                    "docstring": "",
+                    "name": "URLResolver",
+                    "parent_name": "django.urls.resolvers"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.urls.utils"
+            "namespace": "django.urls.utils",
+            "classes": []
         },
         {
             "docstring": "\"\"\"Functions for use in URLsconfs.\"\"\"",
-            "namespace": "django.urls.conf"
+            "namespace": "django.urls.conf",
+            "classes": []
         }
     ],
     "subpackages": []

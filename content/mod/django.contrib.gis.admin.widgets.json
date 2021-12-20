@@ -1,4 +1,11 @@
 {
     "docstring": "",
-    "namespace": "django.contrib.gis.admin.widgets"
+    "namespace": "django.contrib.gis.admin.widgets",
+    "classes": [
+        {
+            "docstring": "\"\"\"\n    Render an OpenLayers map using the WKT of the geometry.\n    \"\"\"",
+            "name": "OpenLayersWidget",
+            "parent_name": "django.contrib.gis.admin.widgets"
+        }
+    ]
 }

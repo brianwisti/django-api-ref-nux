@@ -1,4 +1,11 @@
 {
     "docstring": "\"\"\"\nSerialize data to/from JSON Lines\n\"\"\"",
-    "namespace": "django.core.serializers.jsonl"
+    "namespace": "django.core.serializers.jsonl",
+    "classes": [
+        {
+            "docstring": "\"\"\"Convert a queryset to JSON Lines.\"\"\"",
+            "name": "Serializer",
+            "parent_name": "django.core.serializers.jsonl"
+        }
+    ]
 }

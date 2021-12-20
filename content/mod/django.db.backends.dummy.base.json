@@ -1,4 +1,31 @@
 {
     "docstring": "\"\"\"\nDummy database backend for Django.\n\nDjango uses this if the database ENGINE setting is empty (None or empty string).\n\nEach of these API functions, except connection.close(), raise\nImproperlyConfigured.\n\"\"\"",
-    "namespace": "django.db.backends.dummy.base"
+    "namespace": "django.db.backends.dummy.base",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "DatabaseOperations",
+            "parent_name": "django.db.backends.dummy.base"
+        },
+        {
+            "docstring": "",
+            "name": "DatabaseClient",
+            "parent_name": "django.db.backends.dummy.base"
+        },
+        {
+            "docstring": "",
+            "name": "DatabaseCreation",
+            "parent_name": "django.db.backends.dummy.base"
+        },
+        {
+            "docstring": "",
+            "name": "DatabaseIntrospection",
+            "parent_name": "django.db.backends.dummy.base"
+        },
+        {
+            "docstring": "",
+            "name": "DatabaseWrapper",
+            "parent_name": "django.db.backends.dummy.base"
+        }
+    ]
 }

@@ -1,4 +1,16 @@
 {
     "docstring": "\"\"\"\nSerialize data to/from JSON\n\"\"\"",
-    "namespace": "django.core.serializers.json"
+    "namespace": "django.core.serializers.json",
+    "classes": [
+        {
+            "docstring": "\"\"\"Convert a queryset to JSON.\"\"\"",
+            "name": "Serializer",
+            "parent_name": "django.core.serializers.json"
+        },
+        {
+            "docstring": "\"\"\"\n    JSONEncoder subclass that knows how to encode date/time, decimal types, and\n    UUIDs.\n    \"\"\"",
+            "name": "DjangoJSONEncoder",
+            "parent_name": "django.core.serializers.json"
+        }
+    ]
 }

@@ -4,39 +4,89 @@
     "modules": [
         {
             "docstring": "",
-            "namespace": "django.contrib.sites.middleware"
+            "namespace": "django.contrib.sites.middleware",
+            "classes": [
+                {
+                    "docstring": "\"\"\"\n    Middleware that sets `site` attribute to request object.\n    \"\"\"",
+                    "name": "CurrentSiteMiddleware",
+                    "parent_name": "django.contrib.sites.middleware"
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\nCreates the default Site object.\n\"\"\"",
-            "namespace": "django.contrib.sites.management"
+            "namespace": "django.contrib.sites.management",
+            "classes": []
         },
         {
             "docstring": "",
-            "namespace": "django.contrib.sites.apps"
+            "namespace": "django.contrib.sites.apps",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "SitesConfig",
+                    "parent_name": "django.contrib.sites.apps"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.contrib.sites.admin"
+            "namespace": "django.contrib.sites.admin",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "SiteAdmin",
+                    "parent_name": "django.contrib.sites.admin"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.contrib.sites.requests"
+            "namespace": "django.contrib.sites.requests",
+            "classes": [
+                {
+                    "docstring": "\"\"\"\n    A class that shares the primary interface of Site (i.e., it has ``domain``\n    and ``name`` attributes) but gets its data from an HttpRequest object\n    rather than from a database.\n\n    The save() and delete() methods raise NotImplementedError.\n    \"\"\"",
+                    "name": "RequestSite",
+                    "parent_name": "django.contrib.sites.requests"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.contrib.sites.shortcuts"
+            "namespace": "django.contrib.sites.shortcuts",
+            "classes": []
         },
         {
             "docstring": "",
-            "namespace": "django.contrib.sites.checks"
+            "namespace": "django.contrib.sites.checks",
+            "classes": []
         },
         {
             "docstring": "",
-            "namespace": "django.contrib.sites.models"
+            "namespace": "django.contrib.sites.models",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "SiteManager",
+                    "parent_name": "django.contrib.sites.models"
+                },
+                {
+                    "docstring": "",
+                    "name": "Site",
+                    "parent_name": "django.contrib.sites.models"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.contrib.sites.managers"
+            "namespace": "django.contrib.sites.managers",
+            "classes": [
+                {
+                    "docstring": "\"Use this to limit objects to those associated with the current site.\"",
+                    "name": "CurrentSiteManager",
+                    "parent_name": "django.contrib.sites.managers"
+                }
+            ]
         }
     ],
     "subpackages": [

@@ -1,4 +1,11 @@
 {
     "docstring": "\"\"\"\nConvert numbers from base 10 integers to base X strings and back again.\n\nSample usage::\n\n  >>> base20 = BaseConverter('0123456789abcdefghij')\n  >>> base20.encode(1234)\n  '31e'\n  >>> base20.decode('31e')\n  1234\n  >>> base20.encode(-1234)\n  '-31e'\n  >>> base20.decode('-31e')\n  -1234\n  >>> base11 = BaseConverter('0123456789-', sign='$')\n  >>> base11.encode(-1234)\n  '$-22'\n  >>> base11.decode('$-22')\n  -1234\n\n\"\"\"",
-    "namespace": "django.utils.baseconv"
+    "namespace": "django.utils.baseconv",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "BaseConverter",
+            "parent_name": "django.utils.baseconv"
+        }
+    ]
 }

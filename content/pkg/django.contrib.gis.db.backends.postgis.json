@@ -4,39 +4,105 @@
     "modules": [
         {
             "docstring": "",
-            "namespace": "django.contrib.gis.db.backends.postgis.pgraster"
+            "namespace": "django.contrib.gis.db.backends.postgis.pgraster",
+            "classes": []
         },
         {
             "docstring": "",
-            "namespace": "django.contrib.gis.db.backends.postgis.introspection"
+            "namespace": "django.contrib.gis.db.backends.postgis.introspection",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "PostGISIntrospection",
+                    "parent_name": "django.contrib.gis.db.backends.postgis.introspection"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.contrib.gis.db.backends.postgis.base"
+            "namespace": "django.contrib.gis.db.backends.postgis.base",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "DatabaseWrapper",
+                    "parent_name": "django.contrib.gis.db.backends.postgis.base"
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\nPostGIS to GDAL conversion constant definitions\n\"\"\"",
-            "namespace": "django.contrib.gis.db.backends.postgis.const"
+            "namespace": "django.contrib.gis.db.backends.postgis.const",
+            "classes": []
         },
         {
             "docstring": "\"\"\"\n This object provides quoting for GEOS geometries into PostgreSQL/PostGIS.\n\"\"\"",
-            "namespace": "django.contrib.gis.db.backends.postgis.adapter"
+            "namespace": "django.contrib.gis.db.backends.postgis.adapter",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "PostGISAdapter",
+                    "parent_name": "django.contrib.gis.db.backends.postgis.adapter"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.contrib.gis.db.backends.postgis.operations"
+            "namespace": "django.contrib.gis.db.backends.postgis.operations",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "PostGISOperator",
+                    "parent_name": "django.contrib.gis.db.backends.postgis.operations"
+                },
+                {
+                    "docstring": "",
+                    "name": "ST_Polygon",
+                    "parent_name": "django.contrib.gis.db.backends.postgis.operations"
+                },
+                {
+                    "docstring": "",
+                    "name": "PostGISOperations",
+                    "parent_name": "django.contrib.gis.db.backends.postgis.operations"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.contrib.gis.db.backends.postgis.features"
+            "namespace": "django.contrib.gis.db.backends.postgis.features",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "DatabaseFeatures",
+                    "parent_name": "django.contrib.gis.db.backends.postgis.features"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.contrib.gis.db.backends.postgis.schema"
+            "namespace": "django.contrib.gis.db.backends.postgis.schema",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "PostGISSchemaEditor",
+                    "parent_name": "django.contrib.gis.db.backends.postgis.schema"
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n The GeometryColumns and SpatialRefSys models for the PostGIS backend.\n\"\"\"",
-            "namespace": "django.contrib.gis.db.backends.postgis.models"
+            "namespace": "django.contrib.gis.db.backends.postgis.models",
+            "classes": [
+                {
+                    "docstring": "\"\"\"\n    The 'geometry_columns' view from PostGIS. See the PostGIS\n    documentation at Ch. 4.3.2.\n    \"\"\"",
+                    "name": "PostGISGeometryColumns",
+                    "parent_name": "django.contrib.gis.db.backends.postgis.models"
+                },
+                {
+                    "docstring": "\"\"\"\n    The 'spatial_ref_sys' table from PostGIS. See the PostGIS\n    documentation at Ch. 4.2.1.\n    \"\"\"",
+                    "name": "PostGISSpatialRefSys",
+                    "parent_name": "django.contrib.gis.db.backends.postgis.models"
+                }
+            ]
         }
     ],
     "subpackages": []

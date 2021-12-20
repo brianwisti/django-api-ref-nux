@@ -1,4 +1,21 @@
 {
     "docstring": "\"\"\"JsLex: a lexer for JavaScript\"\"\"",
-    "namespace": "django.utils.jslex"
+    "namespace": "django.utils.jslex",
+    "classes": [
+        {
+            "docstring": "\"\"\"\n    A specification for a token class.\n    \"\"\"",
+            "name": "Tok",
+            "parent_name": "django.utils.jslex"
+        },
+        {
+            "docstring": "\"\"\"\n    A generic multi-state regex-based lexer.\n    \"\"\"",
+            "name": "Lexer",
+            "parent_name": "django.utils.jslex"
+        },
+        {
+            "docstring": "\"\"\"\n    A JavaScript lexer\n\n    >>> lexer = JsLexer()\n    >>> list(lexer.lex(\"a = 1\"))\n    [('id', 'a'), ('ws', ' '), ('punct', '='), ('ws', ' '), ('dnum', '1')]\n\n    This doesn't properly handle non-ASCII characters in the JavaScript source.\n    \"\"\"",
+            "name": "JsLexer",
+            "parent_name": "django.utils.jslex"
+        }
+    ]
 }

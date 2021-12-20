@@ -1,4 +1,46 @@
 {
     "docstring": "",
-    "namespace": "django.templatetags.i18n"
+    "namespace": "django.templatetags.i18n",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "GetAvailableLanguagesNode",
+            "parent_name": "django.templatetags.i18n"
+        },
+        {
+            "docstring": "",
+            "name": "GetLanguageInfoNode",
+            "parent_name": "django.templatetags.i18n"
+        },
+        {
+            "docstring": "",
+            "name": "GetLanguageInfoListNode",
+            "parent_name": "django.templatetags.i18n"
+        },
+        {
+            "docstring": "",
+            "name": "GetCurrentLanguageNode",
+            "parent_name": "django.templatetags.i18n"
+        },
+        {
+            "docstring": "",
+            "name": "GetCurrentLanguageBidiNode",
+            "parent_name": "django.templatetags.i18n"
+        },
+        {
+            "docstring": "",
+            "name": "TranslateNode",
+            "parent_name": "django.templatetags.i18n"
+        },
+        {
+            "docstring": "",
+            "name": "BlockTranslateNode",
+            "parent_name": "django.templatetags.i18n"
+        },
+        {
+            "docstring": "",
+            "name": "LanguageNode",
+            "parent_name": "django.templatetags.i18n"
+        }
+    ]
 }

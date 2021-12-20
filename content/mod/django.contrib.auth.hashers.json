@@ -1,4 +1,66 @@
 {
     "docstring": "",
-    "namespace": "django.contrib.auth.hashers"
+    "namespace": "django.contrib.auth.hashers",
+    "classes": [
+        {
+            "docstring": "\"\"\"\n    Abstract base class for password hashers\n\n    When creating your own hasher, you need to override algorithm,\n    verify(), encode() and safe_summary().\n\n    PasswordHasher objects are immutable.\n    \"\"\"",
+            "name": "BasePasswordHasher",
+            "parent_name": "django.contrib.auth.hashers"
+        },
+        {
+            "docstring": "\"\"\"\n    Secure password hashing using the PBKDF2 algorithm (recommended)\n\n    Configured to use PBKDF2 + HMAC + SHA256.\n    The result is a 64 byte binary string.  Iterations may be changed\n    safely but you must rename the algorithm if you change SHA256.\n    \"\"\"",
+            "name": "PBKDF2PasswordHasher",
+            "parent_name": "django.contrib.auth.hashers"
+        },
+        {
+            "docstring": "\"\"\"\n    Alternate PBKDF2 hasher which uses SHA1, the default PRF\n    recommended by PKCS #5. This is compatible with other\n    implementations of PBKDF2, such as openssl's\n    PKCS5_PBKDF2_HMAC_SHA1().\n    \"\"\"",
+            "name": "PBKDF2SHA1PasswordHasher",
+            "parent_name": "django.contrib.auth.hashers"
+        },
+        {
+            "docstring": "\"\"\"\n    Secure password hashing using the argon2 algorithm.\n\n    This is the winner of the Password Hashing Competition 2013-2015\n    (https://password-hashing.net). It requires the argon2-cffi library which\n    depends on native C code and might cause portability issues.\n    \"\"\"",
+            "name": "Argon2PasswordHasher",
+            "parent_name": "django.contrib.auth.hashers"
+        },
+        {
+            "docstring": "\"\"\"\n    Secure password hashing using the bcrypt algorithm (recommended)\n\n    This is considered by many to be the most secure algorithm but you\n    must first install the bcrypt library.  Please be warned that\n    this library depends on native C code and might cause portability\n    issues.\n    \"\"\"",
+            "name": "BCryptSHA256PasswordHasher",
+            "parent_name": "django.contrib.auth.hashers"
+        },
+        {
+            "docstring": "\"\"\"\n    Secure password hashing using the bcrypt algorithm\n\n    This is considered by many to be the most secure algorithm but you\n    must first install the bcrypt library.  Please be warned that\n    this library depends on native C code and might cause portability\n    issues.\n\n    This hasher does not first hash the password which means it is subject to\n    bcrypt's 72 bytes password truncation. Most use cases should prefer the\n    BCryptSHA256PasswordHasher.\n    \"\"\"",
+            "name": "BCryptPasswordHasher",
+            "parent_name": "django.contrib.auth.hashers"
+        },
+        {
+            "docstring": "\"\"\"\n    Secure password hashing using the Scrypt algorithm.\n    \"\"\"",
+            "name": "ScryptPasswordHasher",
+            "parent_name": "django.contrib.auth.hashers"
+        },
+        {
+            "docstring": "\"\"\"\n    The SHA1 password hashing algorithm (not recommended)\n    \"\"\"",
+            "name": "SHA1PasswordHasher",
+            "parent_name": "django.contrib.auth.hashers"
+        },
+        {
+            "docstring": "\"\"\"\n    The Salted MD5 password hashing algorithm (not recommended)\n    \"\"\"",
+            "name": "MD5PasswordHasher",
+            "parent_name": "django.contrib.auth.hashers"
+        },
+        {
+            "docstring": "\"\"\"\n    Very insecure algorithm that you should *never* use; store SHA1 hashes\n    with an empty salt.\n\n    This class is implemented because Django used to accept such password\n    hashes. Some older Django installs still have these values lingering\n    around so we need to handle and upgrade them properly.\n    \"\"\"",
+            "name": "UnsaltedSHA1PasswordHasher",
+            "parent_name": "django.contrib.auth.hashers"
+        },
+        {
+            "docstring": "\"\"\"\n    Incredibly insecure algorithm that you should *never* use; stores unsalted\n    MD5 hashes without the algorithm prefix, also accepts MD5 hashes with an\n    empty salt.\n\n    This class is implemented because Django used to store passwords this way\n    and to accept such password hashes. Some older Django installs still have\n    these values lingering around so we need to handle and upgrade them\n    properly.\n    \"\"\"",
+            "name": "UnsaltedMD5PasswordHasher",
+            "parent_name": "django.contrib.auth.hashers"
+        },
+        {
+            "docstring": "\"\"\"\n    Password hashing using UNIX crypt (not recommended)\n\n    The crypt module is not supported on all platforms.\n    \"\"\"",
+            "name": "CryptPasswordHasher",
+            "parent_name": "django.contrib.auth.hashers"
+        }
+    ]
 }

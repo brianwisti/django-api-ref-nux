@@ -1,4 +1,26 @@
 {
     "docstring": "\"\"\"\nQuery subclasses which provide extra functionality beyond simple data retrieval.\n\"\"\"",
-    "namespace": "django.db.models.sql.subqueries"
+    "namespace": "django.db.models.sql.subqueries",
+    "classes": [
+        {
+            "docstring": "\"\"\"A DELETE SQL query.\"\"\"",
+            "name": "DeleteQuery",
+            "parent_name": "django.db.models.sql.subqueries"
+        },
+        {
+            "docstring": "\"\"\"An UPDATE SQL query.\"\"\"",
+            "name": "UpdateQuery",
+            "parent_name": "django.db.models.sql.subqueries"
+        },
+        {
+            "docstring": "",
+            "name": "InsertQuery",
+            "parent_name": "django.db.models.sql.subqueries"
+        },
+        {
+            "docstring": "\"\"\"\n    Take another query as a parameter to the FROM clause and only select the\n    elements in the provided list.\n    \"\"\"",
+            "name": "AggregateQuery",
+            "parent_name": "django.db.models.sql.subqueries"
+        }
+    ]
 }

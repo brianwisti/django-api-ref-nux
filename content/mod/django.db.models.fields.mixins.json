@@ -1,4 +1,16 @@
 {
     "docstring": "",
-    "namespace": "django.db.models.fields.mixins"
+    "namespace": "django.db.models.fields.mixins",
+    "classes": [
+        {
+            "docstring": "\"\"\"Provide an API for working with the model's fields value cache.\"\"\"",
+            "name": "FieldCacheMixin",
+            "parent_name": "django.db.models.fields.mixins"
+        },
+        {
+            "docstring": "",
+            "name": "CheckFieldDefaultMixin",
+            "parent_name": "django.db.models.fields.mixins"
+        }
+    ]
 }

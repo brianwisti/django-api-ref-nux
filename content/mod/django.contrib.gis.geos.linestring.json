@@ -1,4 +1,16 @@
 {
     "docstring": "",
-    "namespace": "django.contrib.gis.geos.linestring"
+    "namespace": "django.contrib.gis.geos.linestring",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "LineString",
+            "parent_name": "django.contrib.gis.geos.linestring"
+        },
+        {
+            "docstring": "",
+            "name": "LinearRing",
+            "parent_name": "django.contrib.gis.geos.linestring"
+        }
+    ]
 }

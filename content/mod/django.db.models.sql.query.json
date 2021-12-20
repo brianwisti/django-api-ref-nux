@@ -1,4 +1,21 @@
 {
     "docstring": "\"\"\"\nCreate SQL statements for QuerySets.\n\nThe code in here encapsulates all of the SQL construction so that QuerySets\nthemselves do not have to (and could be backed by things other than SQL\ndatabases). The abstraction barrier only works one way: this module has to know\nall about the internals of models in order to get the information it needs.\n\"\"\"",
-    "namespace": "django.db.models.sql.query"
+    "namespace": "django.db.models.sql.query",
+    "classes": [
+        {
+            "docstring": "\"\"\"A single raw SQL query.\"\"\"",
+            "name": "RawQuery",
+            "parent_name": "django.db.models.sql.query"
+        },
+        {
+            "docstring": "\"\"\"A single SQL query.\"\"\"",
+            "name": "Query",
+            "parent_name": "django.db.models.sql.query"
+        },
+        {
+            "docstring": "\"\"\"\n    A class to abstract away join promotion problems for complex filter\n    conditions.\n    \"\"\"",
+            "name": "JoinPromoter",
+            "parent_name": "django.db.models.sql.query"
+        }
+    ]
 }

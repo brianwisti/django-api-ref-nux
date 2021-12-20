@@ -1,4 +1,16 @@
 {
     "docstring": "",
-    "namespace": "django.core.handlers.asgi"
+    "namespace": "django.core.handlers.asgi",
+    "classes": [
+        {
+            "docstring": "\"\"\"\n    Custom request subclass that decodes from an ASGI-standard request dict\n    and wraps request body handling.\n    \"\"\"",
+            "name": "ASGIRequest",
+            "parent_name": "django.core.handlers.asgi"
+        },
+        {
+            "docstring": "\"\"\"Handler for ASGI requests.\"\"\"",
+            "name": "ASGIHandler",
+            "parent_name": "django.core.handlers.asgi"
+        }
+    ]
 }

@@ -1,4 +1,16 @@
 {
     "docstring": "",
-    "namespace": "django.contrib.admin.forms"
+    "namespace": "django.contrib.admin.forms",
+    "classes": [
+        {
+            "docstring": "\"\"\"\n    A custom authentication form used in the admin app.\n    \"\"\"",
+            "name": "AdminAuthenticationForm",
+            "parent_name": "django.contrib.admin.forms"
+        },
+        {
+            "docstring": "",
+            "name": "AdminPasswordChangeForm",
+            "parent_name": "django.contrib.admin.forms"
+        }
+    ]
 }

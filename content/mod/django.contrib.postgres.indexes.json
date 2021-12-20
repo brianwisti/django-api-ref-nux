@@ -1,4 +1,51 @@
 {
     "docstring": "",
-    "namespace": "django.contrib.postgres.indexes"
+    "namespace": "django.contrib.postgres.indexes",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "PostgresIndex",
+            "parent_name": "django.contrib.postgres.indexes"
+        },
+        {
+            "docstring": "",
+            "name": "BloomIndex",
+            "parent_name": "django.contrib.postgres.indexes"
+        },
+        {
+            "docstring": "",
+            "name": "BrinIndex",
+            "parent_name": "django.contrib.postgres.indexes"
+        },
+        {
+            "docstring": "",
+            "name": "BTreeIndex",
+            "parent_name": "django.contrib.postgres.indexes"
+        },
+        {
+            "docstring": "",
+            "name": "GinIndex",
+            "parent_name": "django.contrib.postgres.indexes"
+        },
+        {
+            "docstring": "",
+            "name": "GistIndex",
+            "parent_name": "django.contrib.postgres.indexes"
+        },
+        {
+            "docstring": "",
+            "name": "HashIndex",
+            "parent_name": "django.contrib.postgres.indexes"
+        },
+        {
+            "docstring": "",
+            "name": "SpGistIndex",
+            "parent_name": "django.contrib.postgres.indexes"
+        },
+        {
+            "docstring": "",
+            "name": "OpClass",
+            "parent_name": "django.contrib.postgres.indexes"
+        }
+    ]
 }

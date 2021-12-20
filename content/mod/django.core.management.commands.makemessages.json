@@ -1,4 +1,21 @@
 {
     "docstring": "",
-    "namespace": "django.core.management.commands.makemessages"
+    "namespace": "django.core.management.commands.makemessages",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "TranslatableFile",
+            "parent_name": "django.core.management.commands.makemessages"
+        },
+        {
+            "docstring": "\"\"\"\n    Represent the state of a translatable file during the build process.\n    \"\"\"",
+            "name": "BuildFile",
+            "parent_name": "django.core.management.commands.makemessages"
+        },
+        {
+            "docstring": "",
+            "name": "Command",
+            "parent_name": "django.core.management.commands.makemessages"
+        }
+    ]
 }

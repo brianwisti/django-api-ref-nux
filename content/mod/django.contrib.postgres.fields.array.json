@@ -1,4 +1,66 @@
 {
     "docstring": "",
-    "namespace": "django.contrib.postgres.fields.array"
+    "namespace": "django.contrib.postgres.fields.array",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "ArrayField",
+            "parent_name": "django.contrib.postgres.fields.array"
+        },
+        {
+            "docstring": "",
+            "name": "ArrayRHSMixin",
+            "parent_name": "django.contrib.postgres.fields.array"
+        },
+        {
+            "docstring": "",
+            "name": "ArrayContains",
+            "parent_name": "django.contrib.postgres.fields.array"
+        },
+        {
+            "docstring": "",
+            "name": "ArrayContainedBy",
+            "parent_name": "django.contrib.postgres.fields.array"
+        },
+        {
+            "docstring": "",
+            "name": "ArrayExact",
+            "parent_name": "django.contrib.postgres.fields.array"
+        },
+        {
+            "docstring": "",
+            "name": "ArrayOverlap",
+            "parent_name": "django.contrib.postgres.fields.array"
+        },
+        {
+            "docstring": "",
+            "name": "ArrayLenTransform",
+            "parent_name": "django.contrib.postgres.fields.array"
+        },
+        {
+            "docstring": "",
+            "name": "ArrayInLookup",
+            "parent_name": "django.contrib.postgres.fields.array"
+        },
+        {
+            "docstring": "",
+            "name": "IndexTransform",
+            "parent_name": "django.contrib.postgres.fields.array"
+        },
+        {
+            "docstring": "",
+            "name": "IndexTransformFactory",
+            "parent_name": "django.contrib.postgres.fields.array"
+        },
+        {
+            "docstring": "",
+            "name": "SliceTransform",
+            "parent_name": "django.contrib.postgres.fields.array"
+        },
+        {
+            "docstring": "",
+            "name": "SliceTransformFactory",
+            "parent_name": "django.contrib.postgres.fields.array"
+        }
+    ]
 }

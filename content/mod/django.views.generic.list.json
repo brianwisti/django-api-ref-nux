@@ -1,4 +1,26 @@
 {
     "docstring": "",
-    "namespace": "django.views.generic.list"
+    "namespace": "django.views.generic.list",
+    "classes": [
+        {
+            "docstring": "\"\"\"A mixin for views manipulating multiple objects.\"\"\"",
+            "name": "MultipleObjectMixin",
+            "parent_name": "django.views.generic.list"
+        },
+        {
+            "docstring": "\"\"\"A base view for displaying a list of objects.\"\"\"",
+            "name": "BaseListView",
+            "parent_name": "django.views.generic.list"
+        },
+        {
+            "docstring": "\"\"\"Mixin for responding with a template and list of objects.\"\"\"",
+            "name": "MultipleObjectTemplateResponseMixin",
+            "parent_name": "django.views.generic.list"
+        },
+        {
+            "docstring": "\"\"\"\n    Render some list of objects, set by `self.model` or `self.queryset`.\n    `self.queryset` can actually be any iterable of items, not just a queryset.\n    \"\"\"",
+            "name": "ListView",
+            "parent_name": "django.views.generic.list"
+        }
+    ]
 }

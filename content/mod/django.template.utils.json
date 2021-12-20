@@ -1,4 +1,16 @@
 {
     "docstring": "",
-    "namespace": "django.template.utils"
+    "namespace": "django.template.utils",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "InvalidTemplateEngineError",
+            "parent_name": "django.template.utils"
+        },
+        {
+            "docstring": "",
+            "name": "EngineHandler",
+            "parent_name": "django.template.utils"
+        }
+    ]
 }

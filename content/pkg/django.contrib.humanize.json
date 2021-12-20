@@ -4,7 +4,14 @@
     "modules": [
         {
             "docstring": "",
-            "namespace": "django.contrib.humanize.apps"
+            "namespace": "django.contrib.humanize.apps",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "HumanizeConfig",
+                    "parent_name": "django.contrib.humanize.apps"
+                }
+            ]
         }
     ],
     "subpackages": [

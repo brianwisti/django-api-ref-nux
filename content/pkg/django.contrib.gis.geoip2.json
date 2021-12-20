@@ -4,11 +4,24 @@
     "modules": [
         {
             "docstring": "",
-            "namespace": "django.contrib.gis.geoip2.base"
+            "namespace": "django.contrib.gis.geoip2.base",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "GeoIP2Exception",
+                    "parent_name": "django.contrib.gis.geoip2.base"
+                },
+                {
+                    "docstring": "",
+                    "name": "GeoIP2",
+                    "parent_name": "django.contrib.gis.geoip2.base"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.contrib.gis.geoip2.resources"
+            "namespace": "django.contrib.gis.geoip2.resources",
+            "classes": []
         }
     ],
     "subpackages": []

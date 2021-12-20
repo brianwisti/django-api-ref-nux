@@ -1,4 +1,16 @@
 {
     "docstring": "",
-    "namespace": "django.contrib.auth.context_processors"
+    "namespace": "django.contrib.auth.context_processors",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "PermLookupDict",
+            "parent_name": "django.contrib.auth.context_processors"
+        },
+        {
+            "docstring": "",
+            "name": "PermWrapper",
+            "parent_name": "django.contrib.auth.context_processors"
+        }
+    ]
 }

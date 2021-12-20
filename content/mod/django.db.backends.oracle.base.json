@@ -1,4 +1,31 @@
 {
     "docstring": "\"\"\"\nOracle database backend for Django.\n\nRequires cx_Oracle: https://oracle.github.io/python-cx_Oracle/\n\"\"\"",
-    "namespace": "django.db.backends.oracle.base"
+    "namespace": "django.db.backends.oracle.base",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "_UninitializedOperatorsDescriptor",
+            "parent_name": "django.db.backends.oracle.base"
+        },
+        {
+            "docstring": "",
+            "name": "DatabaseWrapper",
+            "parent_name": "django.db.backends.oracle.base"
+        },
+        {
+            "docstring": "\"\"\"\n    Wrapper object for formatting parameters for Oracle. If the string\n    representation of the value is large enough (greater than 4000 characters)\n    the input size needs to be set as CLOB. Alternatively, if the parameter\n    has an `input_size` attribute, then the value of the `input_size` attribute\n    will be used instead. Otherwise, no input size will be set for the\n    parameter when executing the query.\n    \"\"\"",
+            "name": "OracleParam",
+            "parent_name": "django.db.backends.oracle.base"
+        },
+        {
+            "docstring": "\"\"\"\n    An adapter class for cursor variables that prevents the wrapped object\n    from being converted into a string when used to instantiate an OracleParam.\n    This can be used generally for any other object that should be passed into\n    Cursor.execute as-is.\n    \"\"\"",
+            "name": "VariableWrapper",
+            "parent_name": "django.db.backends.oracle.base"
+        },
+        {
+            "docstring": "\"\"\"\n    Django uses \"format\" (e.g. '%s') style placeholders, but Oracle uses \":var\"\n    style. This fixes it -- but note that if you want to use a literal \"%s\" in\n    a query, you'll need to use \"%%s\".\n    \"\"\"",
+            "name": "FormatStylePlaceholderCursor",
+            "parent_name": "django.db.backends.oracle.base"
+        }
+    ]
 }

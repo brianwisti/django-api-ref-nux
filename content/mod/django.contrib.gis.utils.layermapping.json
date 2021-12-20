@@ -1,4 +1,36 @@
 {
     "docstring": "\"\"\"\n The LayerMapping class provides a way to map the contents of OGR\n vector files (e.g. SHP files) to Geographic-enabled Django models.\n\n For more information, please consult the GeoDjango documentation:\n   https://docs.djangoproject.com/en/dev/ref/contrib/gis/layermapping/\n\"\"\"",
-    "namespace": "django.contrib.gis.utils.layermapping"
+    "namespace": "django.contrib.gis.utils.layermapping",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "LayerMapError",
+            "parent_name": "django.contrib.gis.utils.layermapping"
+        },
+        {
+            "docstring": "",
+            "name": "InvalidString",
+            "parent_name": "django.contrib.gis.utils.layermapping"
+        },
+        {
+            "docstring": "",
+            "name": "InvalidDecimal",
+            "parent_name": "django.contrib.gis.utils.layermapping"
+        },
+        {
+            "docstring": "",
+            "name": "InvalidInteger",
+            "parent_name": "django.contrib.gis.utils.layermapping"
+        },
+        {
+            "docstring": "",
+            "name": "MissingForeignKey",
+            "parent_name": "django.contrib.gis.utils.layermapping"
+        },
+        {
+            "docstring": "\"A class that maps OGR Layers to GeoDjango Models.\"",
+            "name": "LayerMapping",
+            "parent_name": "django.contrib.gis.utils.layermapping"
+        }
+    ]
 }

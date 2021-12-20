@@ -1,4 +1,61 @@
 {
     "docstring": "\"\"\"\nHelper functions for creating Form classes from Django models\nand database field objects.\n\"\"\"",
-    "namespace": "django.forms.models"
+    "namespace": "django.forms.models",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "ModelFormOptions",
+            "parent_name": "django.forms.models"
+        },
+        {
+            "docstring": "",
+            "name": "ModelFormMetaclass",
+            "parent_name": "django.forms.models"
+        },
+        {
+            "docstring": "",
+            "name": "BaseModelForm",
+            "parent_name": "django.forms.models"
+        },
+        {
+            "docstring": "",
+            "name": "ModelForm",
+            "parent_name": "django.forms.models"
+        },
+        {
+            "docstring": "\"\"\"\n    A ``FormSet`` for editing a queryset and/or adding new objects to it.\n    \"\"\"",
+            "name": "BaseModelFormSet",
+            "parent_name": "django.forms.models"
+        },
+        {
+            "docstring": "\"\"\"A formset for child objects related to a parent.\"\"\"",
+            "name": "BaseInlineFormSet",
+            "parent_name": "django.forms.models"
+        },
+        {
+            "docstring": "\"\"\"\n    A basic integer field that deals with validating the given value to a\n    given parent instance in an inline.\n    \"\"\"",
+            "name": "InlineForeignKeyField",
+            "parent_name": "django.forms.models"
+        },
+        {
+            "docstring": "",
+            "name": "ModelChoiceIteratorValue",
+            "parent_name": "django.forms.models"
+        },
+        {
+            "docstring": "",
+            "name": "ModelChoiceIterator",
+            "parent_name": "django.forms.models"
+        },
+        {
+            "docstring": "\"\"\"A ChoiceField whose choices are a model QuerySet.\"\"\"",
+            "name": "ModelChoiceField",
+            "parent_name": "django.forms.models"
+        },
+        {
+            "docstring": "\"\"\"A MultipleChoiceField whose choices are a model QuerySet.\"\"\"",
+            "name": "ModelMultipleChoiceField",
+            "parent_name": "django.forms.models"
+        }
+    ]
 }

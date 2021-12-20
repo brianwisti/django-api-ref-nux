@@ -1,4 +1,11 @@
 {
     "docstring": "\"\"\"\nCached, database-backed sessions.\n\"\"\"",
-    "namespace": "django.contrib.sessions.backends.cached_db"
+    "namespace": "django.contrib.sessions.backends.cached_db",
+    "classes": [
+        {
+            "docstring": "\"\"\"\n    Implement cached, database backed sessions.\n    \"\"\"",
+            "name": "SessionStore",
+            "parent_name": "django.contrib.sessions.backends.cached_db"
+        }
+    ]
 }

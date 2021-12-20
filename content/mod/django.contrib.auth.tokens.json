@@ -1,4 +1,11 @@
 {
     "docstring": "",
-    "namespace": "django.contrib.auth.tokens"
+    "namespace": "django.contrib.auth.tokens",
+    "classes": [
+        {
+            "docstring": "\"\"\"\n    Strategy object used to generate and check tokens for the password\n    reset mechanism.\n    \"\"\"",
+            "name": "PasswordResetTokenGenerator",
+            "parent_name": "django.contrib.auth.tokens"
+        }
+    ]
 }

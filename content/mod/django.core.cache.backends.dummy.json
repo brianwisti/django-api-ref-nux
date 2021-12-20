@@ -1,4 +1,11 @@
 {
     "docstring": "\"Dummy cache backend\"",
-    "namespace": "django.core.cache.backends.dummy"
+    "namespace": "django.core.cache.backends.dummy",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "DummyCache",
+            "parent_name": "django.core.cache.backends.dummy"
+        }
+    ]
 }

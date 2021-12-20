@@ -1,4 +1,11 @@
 {
     "docstring": "\"\"\"\n DataSource is a wrapper for the OGR Data Source object, which provides\n an interface for reading vector geometry data from many different file\n formats (including ESRI shapefiles).\n\n When instantiating a DataSource object, use the filename of a\n GDAL-supported data source.  For example, a SHP file or a\n TIGER/Line file from the government.\n\n The ds_driver keyword is used internally when a ctypes pointer\n is passed in directly.\n\n Example:\n  ds = DataSource('/home/foo/bar.shp')\n  for layer in ds:\n      for feature in layer:\n          # Getting the geometry for the feature.\n          g = feature.geom\n\n          # Getting the 'description' field for the feature.\n          desc = feature['description']\n\n          # We can also increment through all of the fields\n          #  attached to this feature.\n          for field in feature:\n              # Get the name of the field (e.g. 'description')\n              nm = field.name\n\n              # Get the type (integer) of the field, e.g. 0 => OFTInteger\n              t = field.type\n\n              # Returns the value the field; OFTIntegers return ints,\n              #  OFTReal returns floats, all else returns string.\n              val = field.value\n\"\"\"",
-    "namespace": "django.contrib.gis.gdal.datasource"
+    "namespace": "django.contrib.gis.gdal.datasource",
+    "classes": [
+        {
+            "docstring": "\"Wraps an OGR Data Source object.\"",
+            "name": "DataSource",
+            "parent_name": "django.contrib.gis.gdal.datasource"
+        }
+    ]
 }

@@ -1,4 +1,16 @@
 {
     "docstring": "",
-    "namespace": "django.contrib.gis.gdal.raster.source"
+    "namespace": "django.contrib.gis.gdal.raster.source",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "TransformPoint",
+            "parent_name": "django.contrib.gis.gdal.raster.source"
+        },
+        {
+            "docstring": "\"\"\"\n    Wrap a raster GDAL Data Source object.\n    \"\"\"",
+            "name": "GDALRaster",
+            "parent_name": "django.contrib.gis.gdal.raster.source"
+        }
+    ]
 }

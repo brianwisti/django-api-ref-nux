@@ -1,4 +1,21 @@
 {
     "docstring": "",
-    "namespace": "django.contrib.gis.geos.prototypes.threadsafe"
+    "namespace": "django.contrib.gis.geos.prototypes.threadsafe",
+    "classes": [
+        {
+            "docstring": "\"\"\"Represent a GEOS context handle.\"\"\"",
+            "name": "GEOSContextHandle",
+            "parent_name": "django.contrib.gis.geos.prototypes.threadsafe"
+        },
+        {
+            "docstring": "",
+            "name": "GEOSContext",
+            "parent_name": "django.contrib.gis.geos.prototypes.threadsafe"
+        },
+        {
+            "docstring": "\"\"\"\n    Serve as a wrapper for GEOS C Functions. Use thread-safe function\n    variants when available.\n    \"\"\"",
+            "name": "GEOSFunc",
+            "parent_name": "django.contrib.gis.geos.prototypes.threadsafe"
+        }
+    ]
 }

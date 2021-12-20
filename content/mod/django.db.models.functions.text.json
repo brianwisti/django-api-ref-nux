@@ -1,4 +1,146 @@
 {
     "docstring": "",
-    "namespace": "django.db.models.functions.text"
+    "namespace": "django.db.models.functions.text",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "MySQLSHA2Mixin",
+            "parent_name": "django.db.models.functions.text"
+        },
+        {
+            "docstring": "",
+            "name": "OracleHashMixin",
+            "parent_name": "django.db.models.functions.text"
+        },
+        {
+            "docstring": "",
+            "name": "PostgreSQLSHAMixin",
+            "parent_name": "django.db.models.functions.text"
+        },
+        {
+            "docstring": "",
+            "name": "Chr",
+            "parent_name": "django.db.models.functions.text"
+        },
+        {
+            "docstring": "\"\"\"\n    Concatenate two arguments together. This is used by `Concat` because not\n    all backend databases support more than two arguments.\n    \"\"\"",
+            "name": "ConcatPair",
+            "parent_name": "django.db.models.functions.text"
+        },
+        {
+            "docstring": "\"\"\"\n    Concatenate text fields together. Backends that result in an entire\n    null expression when any arguments are null will wrap each argument in\n    coalesce functions to ensure a non-null result.\n    \"\"\"",
+            "name": "Concat",
+            "parent_name": "django.db.models.functions.text"
+        },
+        {
+            "docstring": "",
+            "name": "Left",
+            "parent_name": "django.db.models.functions.text"
+        },
+        {
+            "docstring": "\"\"\"Return the number of characters in the expression.\"\"\"",
+            "name": "Length",
+            "parent_name": "django.db.models.functions.text"
+        },
+        {
+            "docstring": "",
+            "name": "Lower",
+            "parent_name": "django.db.models.functions.text"
+        },
+        {
+            "docstring": "",
+            "name": "LPad",
+            "parent_name": "django.db.models.functions.text"
+        },
+        {
+            "docstring": "",
+            "name": "LTrim",
+            "parent_name": "django.db.models.functions.text"
+        },
+        {
+            "docstring": "",
+            "name": "MD5",
+            "parent_name": "django.db.models.functions.text"
+        },
+        {
+            "docstring": "",
+            "name": "Ord",
+            "parent_name": "django.db.models.functions.text"
+        },
+        {
+            "docstring": "",
+            "name": "Repeat",
+            "parent_name": "django.db.models.functions.text"
+        },
+        {
+            "docstring": "",
+            "name": "Replace",
+            "parent_name": "django.db.models.functions.text"
+        },
+        {
+            "docstring": "",
+            "name": "Reverse",
+            "parent_name": "django.db.models.functions.text"
+        },
+        {
+            "docstring": "",
+            "name": "Right",
+            "parent_name": "django.db.models.functions.text"
+        },
+        {
+            "docstring": "",
+            "name": "RPad",
+            "parent_name": "django.db.models.functions.text"
+        },
+        {
+            "docstring": "",
+            "name": "RTrim",
+            "parent_name": "django.db.models.functions.text"
+        },
+        {
+            "docstring": "",
+            "name": "SHA1",
+            "parent_name": "django.db.models.functions.text"
+        },
+        {
+            "docstring": "",
+            "name": "SHA224",
+            "parent_name": "django.db.models.functions.text"
+        },
+        {
+            "docstring": "",
+            "name": "SHA256",
+            "parent_name": "django.db.models.functions.text"
+        },
+        {
+            "docstring": "",
+            "name": "SHA384",
+            "parent_name": "django.db.models.functions.text"
+        },
+        {
+            "docstring": "",
+            "name": "SHA512",
+            "parent_name": "django.db.models.functions.text"
+        },
+        {
+            "docstring": "\"\"\"\n    Return a positive integer corresponding to the 1-indexed position of the\n    first occurrence of a substring inside another string, or 0 if the\n    substring is not found.\n    \"\"\"",
+            "name": "StrIndex",
+            "parent_name": "django.db.models.functions.text"
+        },
+        {
+            "docstring": "",
+            "name": "Substr",
+            "parent_name": "django.db.models.functions.text"
+        },
+        {
+            "docstring": "",
+            "name": "Trim",
+            "parent_name": "django.db.models.functions.text"
+        },
+        {
+            "docstring": "",
+            "name": "Upper",
+            "parent_name": "django.db.models.functions.text"
+        }
+    ]
 }

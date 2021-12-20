@@ -1,4 +1,11 @@
 {
     "docstring": "\"\"\"\nWrapper for loading templates from \"templates\" directories in INSTALLED_APPS\npackages.\n\"\"\"",
-    "namespace": "django.template.loaders.app_directories"
+    "namespace": "django.template.loaders.app_directories",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "Loader",
+            "parent_name": "django.template.loaders.app_directories"
+        }
+    ]
 }

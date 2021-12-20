@@ -1,4 +1,11 @@
 {
     "docstring": "",
-    "namespace": "django.db.backends.base.base"
+    "namespace": "django.db.backends.base.base",
+    "classes": [
+        {
+            "docstring": "\"\"\"Represent a database connection.\"\"\"",
+            "name": "BaseDatabaseWrapper",
+            "parent_name": "django.db.backends.base.base"
+        }
+    ]
 }

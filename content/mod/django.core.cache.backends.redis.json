@@ -1,4 +1,21 @@
 {
     "docstring": "\"\"\"Redis cache backend.\"\"\"",
-    "namespace": "django.core.cache.backends.redis"
+    "namespace": "django.core.cache.backends.redis",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "RedisSerializer",
+            "parent_name": "django.core.cache.backends.redis"
+        },
+        {
+            "docstring": "",
+            "name": "RedisCacheClient",
+            "parent_name": "django.core.cache.backends.redis"
+        },
+        {
+            "docstring": "",
+            "name": "RedisCache",
+            "parent_name": "django.core.cache.backends.redis"
+        }
+    ]
 }

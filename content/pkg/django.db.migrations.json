@@ -4,55 +4,366 @@
     "modules": [
         {
             "docstring": "",
-            "namespace": "django.db.migrations.loader"
+            "namespace": "django.db.migrations.loader",
+            "classes": [
+                {
+                    "docstring": "\"\"\"\n    Load migration files from disk and their status from the database.\n\n    Migration files are expected to live in the \"migrations\" directory of\n    an app. Their names are entirely unimportant from a code perspective,\n    but will probably follow the 1234_name.py convention.\n\n    On initialization, this class will scan those directories, and open and\n    read the Python files, looking for a class called Migration, which should\n    inherit from django.db.migrations.Migration. See\n    django.db.migrations.migration for what that looks like.\n\n    Some migrations will be marked as \"replacing\" another set of migrations.\n    These are loaded into a separate set of migrations away from the main ones.\n    If all the migrations they replace are either unapplied or missing from\n    disk, then they are injected into the main set, replacing the named migrations.\n    Any dependency pointers to the replaced migrations are re-pointed to the\n    new migration.\n\n    This does mean that this class MUST also talk to the database as well as\n    to disk, but this is probably fine. We're already not just operating\n    in memory.\n    \"\"\"",
+                    "name": "MigrationLoader",
+                    "parent_name": "django.db.migrations.loader"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.db.migrations.exceptions"
+            "namespace": "django.db.migrations.exceptions",
+            "classes": [
+                {
+                    "docstring": "\"\"\"More than one migration matches a name prefix.\"\"\"",
+                    "name": "AmbiguityError",
+                    "parent_name": "django.db.migrations.exceptions"
+                },
+                {
+                    "docstring": "\"\"\"There's a bad migration (unreadable/bad format/etc.).\"\"\"",
+                    "name": "BadMigrationError",
+                    "parent_name": "django.db.migrations.exceptions"
+                },
+                {
+                    "docstring": "\"\"\"There's an impossible-to-resolve circular dependency.\"\"\"",
+                    "name": "CircularDependencyError",
+                    "parent_name": "django.db.migrations.exceptions"
+                },
+                {
+                    "docstring": "\"\"\"An applied migration has some of its dependencies not applied.\"\"\"",
+                    "name": "InconsistentMigrationHistory",
+                    "parent_name": "django.db.migrations.exceptions"
+                },
+                {
+                    "docstring": "\"\"\"A model's base classes can't be resolved.\"\"\"",
+                    "name": "InvalidBasesError",
+                    "parent_name": "django.db.migrations.exceptions"
+                },
+                {
+                    "docstring": "\"\"\"An irreversible migration is about to be reversed.\"\"\"",
+                    "name": "IrreversibleError",
+                    "parent_name": "django.db.migrations.exceptions"
+                },
+                {
+                    "docstring": "\"\"\"An attempt on a node is made that is not available in the graph.\"\"\"",
+                    "name": "NodeNotFoundError",
+                    "parent_name": "django.db.migrations.exceptions"
+                },
+                {
+                    "docstring": "",
+                    "name": "MigrationSchemaMissing",
+                    "parent_name": "django.db.migrations.exceptions"
+                },
+                {
+                    "docstring": "",
+                    "name": "InvalidMigrationPlan",
+                    "parent_name": "django.db.migrations.exceptions"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.db.migrations.optimizer"
+            "namespace": "django.db.migrations.optimizer",
+            "classes": [
+                {
+                    "docstring": "\"\"\"\n    Power the optimization process, where you provide a list of Operations\n    and you are returned a list of equal or shorter length - operations\n    are merged into one if possible.\n\n    For example, a CreateModel and an AddField can be optimized into a\n    new CreateModel, and CreateModel and DeleteModel can be optimized into\n    nothing.\n    \"\"\"",
+                    "name": "MigrationOptimizer",
+                    "parent_name": "django.db.migrations.optimizer"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.db.migrations.questioner"
+            "namespace": "django.db.migrations.questioner",
+            "classes": [
+                {
+                    "docstring": "\"\"\"\n    Give the autodetector responses to questions it might have.\n    This base class has a built-in noninteractive mode, but the\n    interactive subclass is what the command-line arguments will use.\n    \"\"\"",
+                    "name": "MigrationQuestioner",
+                    "parent_name": "django.db.migrations.questioner"
+                },
+                {
+                    "docstring": "",
+                    "name": "InteractiveMigrationQuestioner",
+                    "parent_name": "django.db.migrations.questioner"
+                },
+                {
+                    "docstring": "",
+                    "name": "NonInteractiveMigrationQuestioner",
+                    "parent_name": "django.db.migrations.questioner"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.db.migrations.graph"
+            "namespace": "django.db.migrations.graph",
+            "classes": [
+                {
+                    "docstring": "\"\"\"\n    A single node in the migration graph. Contains direct links to adjacent\n    nodes in either direction.\n    \"\"\"",
+                    "name": "Node",
+                    "parent_name": "django.db.migrations.graph"
+                },
+                {
+                    "docstring": "\"\"\"\n    A node that doesn't correspond to a migration file on disk.\n    (A squashed migration that was removed, for example.)\n\n    After the migration graph is processed, all dummy nodes should be removed.\n    If there are any left, a nonexistent dependency error is raised.\n    \"\"\"",
+                    "name": "DummyNode",
+                    "parent_name": "django.db.migrations.graph"
+                },
+                {
+                    "docstring": "\"\"\"\n    Represent the digraph of all migrations in a project.\n\n    Each migration is a node, and each dependency is an edge. There are\n    no implicit dependencies between numbered migrations - the numbering is\n    merely a convention to aid file listing. Every new numbered migration\n    has a declared dependency to the previous number, meaning that VCS\n    branch merges can be detected and resolved.\n\n    Migrations files can be marked as replacing another set of migrations -\n    this is to support the \"squash\" feature. The graph handler isn't responsible\n    for these; instead, the code to load them in here should examine the\n    migration files and if the replaced migrations are all either unapplied\n    or not present, it should ignore the replaced ones, load in just the\n    replacing migration, and repoint any dependencies that pointed to the\n    replaced migrations to point to the replacing one.\n\n    A node should be a tuple: (app_path, migration_name). The tree special-cases\n    things within an app - namely, root nodes and leaf nodes ignore dependencies\n    to other apps.\n    \"\"\"",
+                    "name": "MigrationGraph",
+                    "parent_name": "django.db.migrations.graph"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.db.migrations.serializer"
+            "namespace": "django.db.migrations.serializer",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "BaseSerializer",
+                    "parent_name": "django.db.migrations.serializer"
+                },
+                {
+                    "docstring": "",
+                    "name": "BaseSequenceSerializer",
+                    "parent_name": "django.db.migrations.serializer"
+                },
+                {
+                    "docstring": "",
+                    "name": "BaseSimpleSerializer",
+                    "parent_name": "django.db.migrations.serializer"
+                },
+                {
+                    "docstring": "",
+                    "name": "ChoicesSerializer",
+                    "parent_name": "django.db.migrations.serializer"
+                },
+                {
+                    "docstring": "\"\"\"For datetime.*, except datetime.datetime.\"\"\"",
+                    "name": "DateTimeSerializer",
+                    "parent_name": "django.db.migrations.serializer"
+                },
+                {
+                    "docstring": "\"\"\"For datetime.datetime.\"\"\"",
+                    "name": "DatetimeDatetimeSerializer",
+                    "parent_name": "django.db.migrations.serializer"
+                },
+                {
+                    "docstring": "",
+                    "name": "DecimalSerializer",
+                    "parent_name": "django.db.migrations.serializer"
+                },
+                {
+                    "docstring": "",
+                    "name": "DeconstructableSerializer",
+                    "parent_name": "django.db.migrations.serializer"
+                },
+                {
+                    "docstring": "",
+                    "name": "DictionarySerializer",
+                    "parent_name": "django.db.migrations.serializer"
+                },
+                {
+                    "docstring": "",
+                    "name": "EnumSerializer",
+                    "parent_name": "django.db.migrations.serializer"
+                },
+                {
+                    "docstring": "",
+                    "name": "FloatSerializer",
+                    "parent_name": "django.db.migrations.serializer"
+                },
+                {
+                    "docstring": "",
+                    "name": "FrozensetSerializer",
+                    "parent_name": "django.db.migrations.serializer"
+                },
+                {
+                    "docstring": "",
+                    "name": "FunctionTypeSerializer",
+                    "parent_name": "django.db.migrations.serializer"
+                },
+                {
+                    "docstring": "",
+                    "name": "FunctoolsPartialSerializer",
+                    "parent_name": "django.db.migrations.serializer"
+                },
+                {
+                    "docstring": "",
+                    "name": "IterableSerializer",
+                    "parent_name": "django.db.migrations.serializer"
+                },
+                {
+                    "docstring": "",
+                    "name": "ModelFieldSerializer",
+                    "parent_name": "django.db.migrations.serializer"
+                },
+                {
+                    "docstring": "",
+                    "name": "ModelManagerSerializer",
+                    "parent_name": "django.db.migrations.serializer"
+                },
+                {
+                    "docstring": "",
+                    "name": "OperationSerializer",
+                    "parent_name": "django.db.migrations.serializer"
+                },
+                {
+                    "docstring": "",
+                    "name": "PathLikeSerializer",
+                    "parent_name": "django.db.migrations.serializer"
+                },
+                {
+                    "docstring": "",
+                    "name": "PathSerializer",
+                    "parent_name": "django.db.migrations.serializer"
+                },
+                {
+                    "docstring": "",
+                    "name": "RegexSerializer",
+                    "parent_name": "django.db.migrations.serializer"
+                },
+                {
+                    "docstring": "",
+                    "name": "SequenceSerializer",
+                    "parent_name": "django.db.migrations.serializer"
+                },
+                {
+                    "docstring": "",
+                    "name": "SetSerializer",
+                    "parent_name": "django.db.migrations.serializer"
+                },
+                {
+                    "docstring": "",
+                    "name": "SettingsReferenceSerializer",
+                    "parent_name": "django.db.migrations.serializer"
+                },
+                {
+                    "docstring": "",
+                    "name": "TupleSerializer",
+                    "parent_name": "django.db.migrations.serializer"
+                },
+                {
+                    "docstring": "",
+                    "name": "TypeSerializer",
+                    "parent_name": "django.db.migrations.serializer"
+                },
+                {
+                    "docstring": "",
+                    "name": "UUIDSerializer",
+                    "parent_name": "django.db.migrations.serializer"
+                },
+                {
+                    "docstring": "",
+                    "name": "Serializer",
+                    "parent_name": "django.db.migrations.serializer"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.db.migrations.state"
+            "namespace": "django.db.migrations.state",
+            "classes": [
+                {
+                    "docstring": "\"\"\"\n    Represent the entire project's overall state. This is the item that is\n    passed around - do it here rather than at the app level so that cross-app\n    FKs/etc. resolve properly.\n    \"\"\"",
+                    "name": "ProjectState",
+                    "parent_name": "django.db.migrations.state"
+                },
+                {
+                    "docstring": "\"\"\"Stub of an AppConfig. Only provides a label and a dict of models.\"\"\"",
+                    "name": "AppConfigStub",
+                    "parent_name": "django.db.migrations.state"
+                },
+                {
+                    "docstring": "\"\"\"\n    Subclass of the global Apps registry class to better handle dynamic model\n    additions and removals.\n    \"\"\"",
+                    "name": "StateApps",
+                    "parent_name": "django.db.migrations.state"
+                },
+                {
+                    "docstring": "\"\"\"\n    Represent a Django Model. Don't use the actual Model class as it's not\n    designed to have its options changed - instead, mutate this one and then\n    render it into a Model as required.\n\n    Note that while you are allowed to mutate .fields, you are not allowed\n    to mutate the Field instances inside there themselves - you must instead\n    assign new ones, as these are not detached during a clone.\n    \"\"\"",
+                    "name": "ModelState",
+                    "parent_name": "django.db.migrations.state"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.db.migrations.writer"
+            "namespace": "django.db.migrations.writer",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "OperationWriter",
+                    "parent_name": "django.db.migrations.writer"
+                },
+                {
+                    "docstring": "\"\"\"\n    Take a Migration instance and is able to produce the contents\n    of the migration file from it.\n    \"\"\"",
+                    "name": "MigrationWriter",
+                    "parent_name": "django.db.migrations.writer"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.db.migrations.migration"
+            "namespace": "django.db.migrations.migration",
+            "classes": [
+                {
+                    "docstring": "\"\"\"\n    The base class for all migrations.\n\n    Migration files will import this from django.db.migrations.Migration\n    and subclass it as a class called Migration. It will have one or more\n    of the following attributes:\n\n     - operations: A list of Operation instances, probably from django.db.migrations.operations\n     - dependencies: A list of tuples of (app_path, migration_name)\n     - run_before: A list of tuples of (app_path, migration_name)\n     - replaces: A list of migration_names\n\n    Note that all migrations come out of migrations and into the Loader or\n    Graph as instances, having been initialized with their app label and name.\n    \"\"\"",
+                    "name": "Migration",
+                    "parent_name": "django.db.migrations.migration"
+                },
+                {
+                    "docstring": "\"\"\"\n    Subclass of tuple so Django can tell this was originally a swappable\n    dependency when it reads the migration file.\n    \"\"\"",
+                    "name": "SwappableTuple",
+                    "parent_name": "django.db.migrations.migration"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.db.migrations.executor"
+            "namespace": "django.db.migrations.executor",
+            "classes": [
+                {
+                    "docstring": "\"\"\"\n    End-to-end migration execution - load migrations and run them up or down\n    to a specified set of targets.\n    \"\"\"",
+                    "name": "MigrationExecutor",
+                    "parent_name": "django.db.migrations.executor"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.db.migrations.recorder"
+            "namespace": "django.db.migrations.recorder",
+            "classes": [
+                {
+                    "docstring": "\"\"\"\n    Deal with storing migration records in the database.\n\n    Because this table is actually itself used for dealing with model\n    creation, it's the one thing we can't do normally via migrations.\n    We manually handle table creation/schema updating (using schema backend)\n    and then have a floating model to do queries with.\n\n    If a migration is unapplied its row is removed from the table. Having\n    a row in the table always means a migration is applied.\n    \"\"\"",
+                    "name": "MigrationRecorder",
+                    "parent_name": "django.db.migrations.recorder"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.db.migrations.utils"
+            "namespace": "django.db.migrations.utils",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "RegexObject",
+                    "parent_name": "django.db.migrations.utils"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.db.migrations.autodetector"
+            "namespace": "django.db.migrations.autodetector",
+            "classes": [
+                {
+                    "docstring": "\"\"\"\n    Take a pair of ProjectStates and compare them to see what the first would\n    need doing to make it match the second (the second usually being the\n    project's current state).\n\n    Note that this naturally operates on entire projects at a time,\n    as it's likely that changes interact (for example, you can't\n    add a ForeignKey without having a migration to add the table it\n    depends on first). A user interface may offer single-app usage\n    if it wishes, with the caveat that it may not always be possible.\n    \"\"\"",
+                    "name": "MigrationAutodetector",
+                    "parent_name": "django.db.migrations.autodetector"
+                }
+            ]
         }
     ],
     "subpackages": [

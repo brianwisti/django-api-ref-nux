@@ -1,4 +1,5 @@
 {
     "docstring": "\"\"\"\nA set of request processors that return dictionaries to be merged into a\ntemplate context. Each function takes the request object as its only parameter\nand returns a dictionary to add to the context.\n\nThese are referenced from the 'context_processors' option of the configuration\nof a DjangoTemplates backend and used by RequestContext.\n\"\"\"",
-    "namespace": "django.template.context_processors"
+    "namespace": "django.template.context_processors",
+    "classes": []
 }

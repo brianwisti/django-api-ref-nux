@@ -1,4 +1,11 @@
 {
     "docstring": "",
-    "namespace": "django.contrib.messages.middleware"
+    "namespace": "django.contrib.messages.middleware",
+    "classes": [
+        {
+            "docstring": "\"\"\"\n    Middleware that handles temporary messages.\n    \"\"\"",
+            "name": "MessageMiddleware",
+            "parent_name": "django.contrib.messages.middleware"
+        }
+    ]
 }

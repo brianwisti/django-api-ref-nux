@@ -1,4 +1,11 @@
 {
     "docstring": "",
-    "namespace": "django.middleware.locale"
+    "namespace": "django.middleware.locale",
+    "classes": [
+        {
+            "docstring": "\"\"\"\n    Parse a request and decide what translation object to install in the\n    current thread context. This allows pages to be dynamically translated to\n    the language the user desires (if the language is available).\n    \"\"\"",
+            "name": "LocaleMiddleware",
+            "parent_name": "django.middleware.locale"
+        }
+    ]
 }

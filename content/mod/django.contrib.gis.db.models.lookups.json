@@ -1,4 +1,171 @@
 {
     "docstring": "",
-    "namespace": "django.contrib.gis.db.models.lookups"
+    "namespace": "django.contrib.gis.db.models.lookups",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "RasterBandTransform",
+            "parent_name": "django.contrib.gis.db.models.lookups"
+        },
+        {
+            "docstring": "",
+            "name": "GISLookup",
+            "parent_name": "django.contrib.gis.db.models.lookups"
+        },
+        {
+            "docstring": "\"\"\"\n    The overlaps_left operator returns true if A's bounding box overlaps or is to the\n    left of B's bounding box.\n    \"\"\"",
+            "name": "OverlapsLeftLookup",
+            "parent_name": "django.contrib.gis.db.models.lookups"
+        },
+        {
+            "docstring": "\"\"\"\n    The 'overlaps_right' operator returns true if A's bounding box overlaps or is to the\n    right of B's bounding box.\n    \"\"\"",
+            "name": "OverlapsRightLookup",
+            "parent_name": "django.contrib.gis.db.models.lookups"
+        },
+        {
+            "docstring": "\"\"\"\n    The 'overlaps_below' operator returns true if A's bounding box overlaps or is below\n    B's bounding box.\n    \"\"\"",
+            "name": "OverlapsBelowLookup",
+            "parent_name": "django.contrib.gis.db.models.lookups"
+        },
+        {
+            "docstring": "\"\"\"\n    The 'overlaps_above' operator returns true if A's bounding box overlaps or is above\n    B's bounding box.\n    \"\"\"",
+            "name": "OverlapsAboveLookup",
+            "parent_name": "django.contrib.gis.db.models.lookups"
+        },
+        {
+            "docstring": "\"\"\"\n    The 'left' operator returns true if A's bounding box is strictly to the left\n    of B's bounding box.\n    \"\"\"",
+            "name": "LeftLookup",
+            "parent_name": "django.contrib.gis.db.models.lookups"
+        },
+        {
+            "docstring": "\"\"\"\n    The 'right' operator returns true if A's bounding box is strictly to the right\n    of B's bounding box.\n    \"\"\"",
+            "name": "RightLookup",
+            "parent_name": "django.contrib.gis.db.models.lookups"
+        },
+        {
+            "docstring": "\"\"\"\n    The 'strictly_below' operator returns true if A's bounding box is strictly below B's\n    bounding box.\n    \"\"\"",
+            "name": "StrictlyBelowLookup",
+            "parent_name": "django.contrib.gis.db.models.lookups"
+        },
+        {
+            "docstring": "\"\"\"\n    The 'strictly_above' operator returns true if A's bounding box is strictly above B's\n    bounding box.\n    \"\"\"",
+            "name": "StrictlyAboveLookup",
+            "parent_name": "django.contrib.gis.db.models.lookups"
+        },
+        {
+            "docstring": "\"\"\"\n    The \"~=\" operator is the \"same as\" operator. It tests actual geometric\n    equality of two features. So if A and B are the same feature,\n    vertex-by-vertex, the operator returns true.\n    \"\"\"",
+            "name": "SameAsLookup",
+            "parent_name": "django.contrib.gis.db.models.lookups"
+        },
+        {
+            "docstring": "\"\"\"\n    The 'bbcontains' operator returns true if A's bounding box completely contains\n    by B's bounding box.\n    \"\"\"",
+            "name": "BBContainsLookup",
+            "parent_name": "django.contrib.gis.db.models.lookups"
+        },
+        {
+            "docstring": "\"\"\"\n    The 'bboverlaps' operator returns true if A's bounding box overlaps B's bounding box.\n    \"\"\"",
+            "name": "BBOverlapsLookup",
+            "parent_name": "django.contrib.gis.db.models.lookups"
+        },
+        {
+            "docstring": "\"\"\"\n    The 'contained' operator returns true if A's bounding box is completely contained\n    by B's bounding box.\n    \"\"\"",
+            "name": "ContainedLookup",
+            "parent_name": "django.contrib.gis.db.models.lookups"
+        },
+        {
+            "docstring": "",
+            "name": "ContainsLookup",
+            "parent_name": "django.contrib.gis.db.models.lookups"
+        },
+        {
+            "docstring": "",
+            "name": "ContainsProperlyLookup",
+            "parent_name": "django.contrib.gis.db.models.lookups"
+        },
+        {
+            "docstring": "",
+            "name": "CoveredByLookup",
+            "parent_name": "django.contrib.gis.db.models.lookups"
+        },
+        {
+            "docstring": "",
+            "name": "CoversLookup",
+            "parent_name": "django.contrib.gis.db.models.lookups"
+        },
+        {
+            "docstring": "",
+            "name": "CrossesLookup",
+            "parent_name": "django.contrib.gis.db.models.lookups"
+        },
+        {
+            "docstring": "",
+            "name": "DisjointLookup",
+            "parent_name": "django.contrib.gis.db.models.lookups"
+        },
+        {
+            "docstring": "",
+            "name": "EqualsLookup",
+            "parent_name": "django.contrib.gis.db.models.lookups"
+        },
+        {
+            "docstring": "",
+            "name": "IntersectsLookup",
+            "parent_name": "django.contrib.gis.db.models.lookups"
+        },
+        {
+            "docstring": "",
+            "name": "OverlapsLookup",
+            "parent_name": "django.contrib.gis.db.models.lookups"
+        },
+        {
+            "docstring": "",
+            "name": "RelateLookup",
+            "parent_name": "django.contrib.gis.db.models.lookups"
+        },
+        {
+            "docstring": "",
+            "name": "TouchesLookup",
+            "parent_name": "django.contrib.gis.db.models.lookups"
+        },
+        {
+            "docstring": "",
+            "name": "WithinLookup",
+            "parent_name": "django.contrib.gis.db.models.lookups"
+        },
+        {
+            "docstring": "",
+            "name": "DistanceLookupBase",
+            "parent_name": "django.contrib.gis.db.models.lookups"
+        },
+        {
+            "docstring": "",
+            "name": "DWithinLookup",
+            "parent_name": "django.contrib.gis.db.models.lookups"
+        },
+        {
+            "docstring": "",
+            "name": "DistanceLookupFromFunction",
+            "parent_name": "django.contrib.gis.db.models.lookups"
+        },
+        {
+            "docstring": "",
+            "name": "DistanceGTLookup",
+            "parent_name": "django.contrib.gis.db.models.lookups"
+        },
+        {
+            "docstring": "",
+            "name": "DistanceGTELookup",
+            "parent_name": "django.contrib.gis.db.models.lookups"
+        },
+        {
+            "docstring": "",
+            "name": "DistanceLTLookup",
+            "parent_name": "django.contrib.gis.db.models.lookups"
+        },
+        {
+            "docstring": "",
+            "name": "DistanceLTELookup",
+            "parent_name": "django.contrib.gis.db.models.lookups"
+        }
+    ]
 }

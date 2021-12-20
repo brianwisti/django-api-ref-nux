@@ -1,4 +1,16 @@
 {
     "docstring": "\"\"\"\nThis module allows importing AbstractBaseUser even when django.contrib.auth is\nnot in INSTALLED_APPS.\n\"\"\"",
-    "namespace": "django.contrib.auth.base_user"
+    "namespace": "django.contrib.auth.base_user",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "BaseUserManager",
+            "parent_name": "django.contrib.auth.base_user"
+        },
+        {
+            "docstring": "",
+            "name": "AbstractBaseUser",
+            "parent_name": "django.contrib.auth.base_user"
+        }
+    ]
 }

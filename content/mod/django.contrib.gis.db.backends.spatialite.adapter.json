@@ -1,4 +1,11 @@
 {
     "docstring": "",
-    "namespace": "django.contrib.gis.db.backends.spatialite.adapter"
+    "namespace": "django.contrib.gis.db.backends.spatialite.adapter",
+    "classes": [
+        {
+            "docstring": "\"SQLite adapter for geometry objects.\"",
+            "name": "SpatiaLiteAdapter",
+            "parent_name": "django.contrib.gis.db.backends.spatialite.adapter"
+        }
+    ]
 }

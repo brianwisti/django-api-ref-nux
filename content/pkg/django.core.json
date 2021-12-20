@@ -4,31 +4,257 @@
     "modules": [
         {
             "docstring": "\"\"\"\nGlobal Django exception and warning classes.\n\"\"\"",
-            "namespace": "django.core.exceptions"
+            "namespace": "django.core.exceptions",
+            "classes": [
+                {
+                    "docstring": "\"\"\"The requested model field does not exist\"\"\"",
+                    "name": "FieldDoesNotExist",
+                    "parent_name": "django.core.exceptions"
+                },
+                {
+                    "docstring": "\"\"\"The django.apps registry is not populated yet\"\"\"",
+                    "name": "AppRegistryNotReady",
+                    "parent_name": "django.core.exceptions"
+                },
+                {
+                    "docstring": "\"\"\"The requested object does not exist\"\"\"",
+                    "name": "ObjectDoesNotExist",
+                    "parent_name": "django.core.exceptions"
+                },
+                {
+                    "docstring": "\"\"\"The query returned multiple objects when only one was expected.\"\"\"",
+                    "name": "MultipleObjectsReturned",
+                    "parent_name": "django.core.exceptions"
+                },
+                {
+                    "docstring": "\"\"\"The user did something suspicious\"\"\"",
+                    "name": "SuspiciousOperation",
+                    "parent_name": "django.core.exceptions"
+                },
+                {
+                    "docstring": "\"\"\"Suspect MIME request in multipart form data\"\"\"",
+                    "name": "SuspiciousMultipartForm",
+                    "parent_name": "django.core.exceptions"
+                },
+                {
+                    "docstring": "\"\"\"A Suspicious filesystem operation was attempted\"\"\"",
+                    "name": "SuspiciousFileOperation",
+                    "parent_name": "django.core.exceptions"
+                },
+                {
+                    "docstring": "\"\"\"HTTP_HOST header contains invalid value\"\"\"",
+                    "name": "DisallowedHost",
+                    "parent_name": "django.core.exceptions"
+                },
+                {
+                    "docstring": "\"\"\"Redirect to scheme not in allowed list\"\"\"",
+                    "name": "DisallowedRedirect",
+                    "parent_name": "django.core.exceptions"
+                },
+                {
+                    "docstring": "\"\"\"\n    The number of fields in a GET or POST request exceeded\n    settings.DATA_UPLOAD_MAX_NUMBER_FIELDS.\n    \"\"\"",
+                    "name": "TooManyFieldsSent",
+                    "parent_name": "django.core.exceptions"
+                },
+                {
+                    "docstring": "\"\"\"\n    The size of the request (excluding any file uploads) exceeded\n    settings.DATA_UPLOAD_MAX_MEMORY_SIZE.\n    \"\"\"",
+                    "name": "RequestDataTooBig",
+                    "parent_name": "django.core.exceptions"
+                },
+                {
+                    "docstring": "\"\"\"The request was closed before it was completed, or timed out.\"\"\"",
+                    "name": "RequestAborted",
+                    "parent_name": "django.core.exceptions"
+                },
+                {
+                    "docstring": "\"\"\"The request is malformed and cannot be processed.\"\"\"",
+                    "name": "BadRequest",
+                    "parent_name": "django.core.exceptions"
+                },
+                {
+                    "docstring": "\"\"\"The user did not have permission to do that\"\"\"",
+                    "name": "PermissionDenied",
+                    "parent_name": "django.core.exceptions"
+                },
+                {
+                    "docstring": "\"\"\"The requested view does not exist\"\"\"",
+                    "name": "ViewDoesNotExist",
+                    "parent_name": "django.core.exceptions"
+                },
+                {
+                    "docstring": "\"\"\"This middleware is not used in this server configuration\"\"\"",
+                    "name": "MiddlewareNotUsed",
+                    "parent_name": "django.core.exceptions"
+                },
+                {
+                    "docstring": "\"\"\"Django is somehow improperly configured\"\"\"",
+                    "name": "ImproperlyConfigured",
+                    "parent_name": "django.core.exceptions"
+                },
+                {
+                    "docstring": "\"\"\"Some kind of problem with a model field.\"\"\"",
+                    "name": "FieldError",
+                    "parent_name": "django.core.exceptions"
+                },
+                {
+                    "docstring": "\"\"\"An error while validating data.\"\"\"",
+                    "name": "ValidationError",
+                    "parent_name": "django.core.exceptions"
+                },
+                {
+                    "docstring": "\"\"\"A database query predicate is impossible.\"\"\"",
+                    "name": "EmptyResultSet",
+                    "parent_name": "django.core.exceptions"
+                },
+                {
+                    "docstring": "\"\"\"The user tried to call a sync-only function from an async context.\"\"\"",
+                    "name": "SynchronousOnlyOperation",
+                    "parent_name": "django.core.exceptions"
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\nFunctions for creating and restoring url-safe signed JSON objects.\n\nThe format used looks like this:\n\n>>> signing.dumps(\"hello\")\n'ImhlbGxvIg:1QaUZC:YIye-ze3TTx7gtSv422nZA4sgmk'\n\nThere are two components here, separated by a ':'. The first component is a\nURLsafe base64 encoded JSON of the object passed to dumps(). The second\ncomponent is a base64 encoded hmac/SHA1 hash of \"$first_component:$secret\"\n\nsigning.loads(s) checks the signature and returns the deserialized object.\nIf the signature fails, a BadSignature exception is raised.\n\n>>> signing.loads(\"ImhlbGxvIg:1QaUZC:YIye-ze3TTx7gtSv422nZA4sgmk\")\n'hello'\n>>> signing.loads(\"ImhlbGxvIg:1QaUZC:YIye-ze3TTx7gtSv422nZA4sgmk-modified\")\n...\nBadSignature: Signature failed: ImhlbGxvIg:1QaUZC:YIye-ze3TTx7gtSv422nZA4sgmk-modified\n\nYou can optionally compress the JSON prior to base64 encoding it to save\nspace, using the compress=True argument. This checks if compression actually\nhelps and only applies compression if the result is a shorter string:\n\n>>> signing.dumps(list(range(1, 20)), compress=True)\n'.eJwFwcERACAIwLCF-rCiILN47r-GyZVJsNgkxaFxoDgxcOHGxMKD_T7vhAml:1QaUaL:BA0thEZrp4FQVXIXuOvYJtLJSrQ'\n\nThe fact that the string is compressed is signalled by the prefixed '.' at the\nstart of the base64 JSON.\n\nThere are 65 url-safe characters: the 64 used by url-safe base64 and the ':'.\nThese functions make use of all of them.\n\"\"\"",
-            "namespace": "django.core.signing"
+            "namespace": "django.core.signing",
+            "classes": [
+                {
+                    "docstring": "\"\"\"Signature does not match.\"\"\"",
+                    "name": "BadSignature",
+                    "parent_name": "django.core.signing"
+                },
+                {
+                    "docstring": "\"\"\"Signature timestamp is older than required max_age.\"\"\"",
+                    "name": "SignatureExpired",
+                    "parent_name": "django.core.signing"
+                },
+                {
+                    "docstring": "\"\"\"\n    Simple wrapper around json to be used in signing.dumps and\n    signing.loads.\n    \"\"\"",
+                    "name": "JSONSerializer",
+                    "parent_name": "django.core.signing"
+                },
+                {
+                    "docstring": "",
+                    "name": "Signer",
+                    "parent_name": "django.core.signing"
+                },
+                {
+                    "docstring": "",
+                    "name": "TimestampSigner",
+                    "parent_name": "django.core.signing"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.core.signals"
+            "namespace": "django.core.signals",
+            "classes": []
         },
         {
             "docstring": "",
-            "namespace": "django.core.wsgi"
+            "namespace": "django.core.wsgi",
+            "classes": []
         },
         {
             "docstring": "",
-            "namespace": "django.core.paginator"
+            "namespace": "django.core.paginator",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "UnorderedObjectListWarning",
+                    "parent_name": "django.core.paginator"
+                },
+                {
+                    "docstring": "",
+                    "name": "InvalidPage",
+                    "parent_name": "django.core.paginator"
+                },
+                {
+                    "docstring": "",
+                    "name": "PageNotAnInteger",
+                    "parent_name": "django.core.paginator"
+                },
+                {
+                    "docstring": "",
+                    "name": "EmptyPage",
+                    "parent_name": "django.core.paginator"
+                },
+                {
+                    "docstring": "",
+                    "name": "Paginator",
+                    "parent_name": "django.core.paginator"
+                },
+                {
+                    "docstring": "",
+                    "name": "Page",
+                    "parent_name": "django.core.paginator"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.core.asgi"
+            "namespace": "django.core.asgi",
+            "classes": []
         },
         {
             "docstring": "",
-            "namespace": "django.core.validators"
+            "namespace": "django.core.validators",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "RegexValidator",
+                    "parent_name": "django.core.validators"
+                },
+                {
+                    "docstring": "",
+                    "name": "URLValidator",
+                    "parent_name": "django.core.validators"
+                },
+                {
+                    "docstring": "",
+                    "name": "EmailValidator",
+                    "parent_name": "django.core.validators"
+                },
+                {
+                    "docstring": "",
+                    "name": "BaseValidator",
+                    "parent_name": "django.core.validators"
+                },
+                {
+                    "docstring": "",
+                    "name": "MaxValueValidator",
+                    "parent_name": "django.core.validators"
+                },
+                {
+                    "docstring": "",
+                    "name": "MinValueValidator",
+                    "parent_name": "django.core.validators"
+                },
+                {
+                    "docstring": "",
+                    "name": "MinLengthValidator",
+                    "parent_name": "django.core.validators"
+                },
+                {
+                    "docstring": "",
+                    "name": "MaxLengthValidator",
+                    "parent_name": "django.core.validators"
+                },
+                {
+                    "docstring": "\"\"\"\n    Validate that the input does not exceed the maximum number of digits\n    expected, otherwise raise ValidationError.\n    \"\"\"",
+                    "name": "DecimalValidator",
+                    "parent_name": "django.core.validators"
+                },
+                {
+                    "docstring": "",
+                    "name": "FileExtensionValidator",
+                    "parent_name": "django.core.validators"
+                },
+                {
+                    "docstring": "\"\"\"Validate that the string doesn't contain the null character.\"\"\"",
+                    "name": "ProhibitNullCharactersValidator",
+                    "parent_name": "django.core.validators"
+                }
+            ]
         }
     ],
     "subpackages": [

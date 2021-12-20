@@ -1,4 +1,66 @@
 {
     "docstring": "",
-    "namespace": "django.contrib.postgres.aggregates.statistics"
+    "namespace": "django.contrib.postgres.aggregates.statistics",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "StatAggregate",
+            "parent_name": "django.contrib.postgres.aggregates.statistics"
+        },
+        {
+            "docstring": "",
+            "name": "Corr",
+            "parent_name": "django.contrib.postgres.aggregates.statistics"
+        },
+        {
+            "docstring": "",
+            "name": "CovarPop",
+            "parent_name": "django.contrib.postgres.aggregates.statistics"
+        },
+        {
+            "docstring": "",
+            "name": "RegrAvgX",
+            "parent_name": "django.contrib.postgres.aggregates.statistics"
+        },
+        {
+            "docstring": "",
+            "name": "RegrAvgY",
+            "parent_name": "django.contrib.postgres.aggregates.statistics"
+        },
+        {
+            "docstring": "",
+            "name": "RegrCount",
+            "parent_name": "django.contrib.postgres.aggregates.statistics"
+        },
+        {
+            "docstring": "",
+            "name": "RegrIntercept",
+            "parent_name": "django.contrib.postgres.aggregates.statistics"
+        },
+        {
+            "docstring": "",
+            "name": "RegrR2",
+            "parent_name": "django.contrib.postgres.aggregates.statistics"
+        },
+        {
+            "docstring": "",
+            "name": "RegrSlope",
+            "parent_name": "django.contrib.postgres.aggregates.statistics"
+        },
+        {
+            "docstring": "",
+            "name": "RegrSXX",
+            "parent_name": "django.contrib.postgres.aggregates.statistics"
+        },
+        {
+            "docstring": "",
+            "name": "RegrSXY",
+            "parent_name": "django.contrib.postgres.aggregates.statistics"
+        },
+        {
+            "docstring": "",
+            "name": "RegrSYY",
+            "parent_name": "django.contrib.postgres.aggregates.statistics"
+        }
+    ]
 }

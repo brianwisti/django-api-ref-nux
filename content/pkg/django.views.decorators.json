@@ -4,35 +4,54 @@
     "modules": [
         {
             "docstring": "",
-            "namespace": "django.views.decorators.gzip"
+            "namespace": "django.views.decorators.gzip",
+            "classes": []
         },
         {
             "docstring": "",
-            "namespace": "django.views.decorators.vary"
+            "namespace": "django.views.decorators.vary",
+            "classes": []
         },
         {
             "docstring": "",
-            "namespace": "django.views.decorators.common"
+            "namespace": "django.views.decorators.common",
+            "classes": []
         },
         {
             "docstring": "\"\"\"\nDecorators for views based on HTTP headers.\n\"\"\"",
-            "namespace": "django.views.decorators.http"
+            "namespace": "django.views.decorators.http",
+            "classes": []
         },
         {
             "docstring": "",
-            "namespace": "django.views.decorators.debug"
+            "namespace": "django.views.decorators.debug",
+            "classes": []
         },
         {
             "docstring": "",
-            "namespace": "django.views.decorators.clickjacking"
+            "namespace": "django.views.decorators.clickjacking",
+            "classes": []
         },
         {
             "docstring": "",
-            "namespace": "django.views.decorators.cache"
+            "namespace": "django.views.decorators.cache",
+            "classes": []
         },
         {
             "docstring": "",
-            "namespace": "django.views.decorators.csrf"
+            "namespace": "django.views.decorators.csrf",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "_EnsureCsrfToken",
+                    "parent_name": "django.views.decorators.csrf"
+                },
+                {
+                    "docstring": "",
+                    "name": "_EnsureCsrfCookie",
+                    "parent_name": "django.views.decorators.csrf"
+                }
+            ]
         }
     ],
     "subpackages": []

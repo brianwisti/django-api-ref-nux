@@ -1,4 +1,31 @@
 {
     "docstring": "",
-    "namespace": "django.forms.renderers"
+    "namespace": "django.forms.renderers",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "BaseRenderer",
+            "parent_name": "django.forms.renderers"
+        },
+        {
+            "docstring": "",
+            "name": "EngineMixin",
+            "parent_name": "django.forms.renderers"
+        },
+        {
+            "docstring": "\"\"\"\n    Load Django templates from the built-in widget templates in\n    django/forms/templates and from apps' 'templates' directory.\n    \"\"\"",
+            "name": "DjangoTemplates",
+            "parent_name": "django.forms.renderers"
+        },
+        {
+            "docstring": "\"\"\"\n    Load Jinja2 templates from the built-in widget templates in\n    django/forms/jinja2 and from apps' 'jinja2' directory.\n    \"\"\"",
+            "name": "Jinja2",
+            "parent_name": "django.forms.renderers"
+        },
+        {
+            "docstring": "\"\"\"\n    Load templates using template.loader.get_template() which is configured\n    based on settings.TEMPLATES.\n    \"\"\"",
+            "name": "TemplatesSetting",
+            "parent_name": "django.forms.renderers"
+        }
+    ]
 }

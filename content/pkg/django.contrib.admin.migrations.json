@@ -4,15 +4,36 @@
     "modules": [
         {
             "docstring": "",
-            "namespace": "django.contrib.admin.migrations.0003_logentry_add_action_flag_choices"
+            "namespace": "django.contrib.admin.migrations.0003_logentry_add_action_flag_choices",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "Migration",
+                    "parent_name": "django.contrib.admin.migrations.0003_logentry_add_action_flag_choices"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.contrib.admin.migrations.0002_logentry_remove_auto_add"
+            "namespace": "django.contrib.admin.migrations.0002_logentry_remove_auto_add",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "Migration",
+                    "parent_name": "django.contrib.admin.migrations.0002_logentry_remove_auto_add"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.contrib.admin.migrations.0001_initial"
+            "namespace": "django.contrib.admin.migrations.0001_initial",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "Migration",
+                    "parent_name": "django.contrib.admin.migrations.0001_initial"
+                }
+            ]
         }
     ],
     "subpackages": []

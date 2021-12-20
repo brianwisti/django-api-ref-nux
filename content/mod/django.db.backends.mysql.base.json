@@ -1,4 +1,16 @@
 {
     "docstring": "\"\"\"\nMySQL database backend for Django.\n\nRequires mysqlclient: https://pypi.org/project/mysqlclient/\n\"\"\"",
-    "namespace": "django.db.backends.mysql.base"
+    "namespace": "django.db.backends.mysql.base",
+    "classes": [
+        {
+            "docstring": "\"\"\"\n    A thin wrapper around MySQLdb's normal cursor class that catches particular\n    exception instances and reraises them with the correct types.\n\n    Implemented as a wrapper, rather than a subclass, so that it isn't stuck\n    to the particular underlying representation returned by Connection.cursor().\n    \"\"\"",
+            "name": "CursorWrapper",
+            "parent_name": "django.db.backends.mysql.base"
+        },
+        {
+            "docstring": "",
+            "name": "DatabaseWrapper",
+            "parent_name": "django.db.backends.mysql.base"
+        }
+    ]
 }

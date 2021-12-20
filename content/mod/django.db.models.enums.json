@@ -1,4 +1,26 @@
 {
     "docstring": "",
-    "namespace": "django.db.models.enums"
+    "namespace": "django.db.models.enums",
+    "classes": [
+        {
+            "docstring": "\"\"\"A metaclass for creating a enum choices.\"\"\"",
+            "name": "ChoicesMeta",
+            "parent_name": "django.db.models.enums"
+        },
+        {
+            "docstring": "\"\"\"Class for creating enumerated choices.\"\"\"",
+            "name": "Choices",
+            "parent_name": "django.db.models.enums"
+        },
+        {
+            "docstring": "\"\"\"Class for creating enumerated integer choices.\"\"\"",
+            "name": "IntegerChoices",
+            "parent_name": "django.db.models.enums"
+        },
+        {
+            "docstring": "\"\"\"Class for creating enumerated string choices.\"\"\"",
+            "name": "TextChoices",
+            "parent_name": "django.db.models.enums"
+        }
+    ]
 }

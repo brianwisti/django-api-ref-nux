@@ -4,19 +4,34 @@
     "modules": [
         {
             "docstring": "",
-            "namespace": "django.utils.translation.template"
+            "namespace": "django.utils.translation.template",
+            "classes": []
         },
         {
             "docstring": "",
-            "namespace": "django.utils.translation.reloader"
+            "namespace": "django.utils.translation.reloader",
+            "classes": []
         },
         {
             "docstring": "\"\"\"Translation helper functions.\"\"\"",
-            "namespace": "django.utils.translation.trans_real"
+            "namespace": "django.utils.translation.trans_real",
+            "classes": [
+                {
+                    "docstring": "\"\"\"\n    Simulate a dict for DjangoTranslation._catalog so as multiple catalogs\n    with different plural equations are kept separate.\n    \"\"\"",
+                    "name": "TranslationCatalog",
+                    "parent_name": "django.utils.translation.trans_real"
+                },
+                {
+                    "docstring": "\"\"\"\n    Set up the GNUTranslations context with regard to output charset.\n\n    This translation object will be constructed out of multiple GNUTranslations\n    objects by merging their catalogs. It will construct an object for the\n    requested language and add a fallback to the default language, if it's\n    different from the requested language.\n    \"\"\"",
+                    "name": "DjangoTranslation",
+                    "parent_name": "django.utils.translation.trans_real"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.utils.translation.trans_null"
+            "namespace": "django.utils.translation.trans_null",
+            "classes": []
         }
     ],
     "subpackages": []

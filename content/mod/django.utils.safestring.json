@@ -1,4 +1,16 @@
 {
     "docstring": "\"\"\"\nFunctions for working with \"safe strings\": strings that can be displayed safely\nwithout further escaping in HTML. Marking something as a \"safe string\" means\nthat the producer of the string has already turned characters that should not\nbe interpreted by the HTML engine (e.g. '<') into the appropriate entities.\n\"\"\"",
-    "namespace": "django.utils.safestring"
+    "namespace": "django.utils.safestring",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "SafeData",
+            "parent_name": "django.utils.safestring"
+        },
+        {
+            "docstring": "\"\"\"\n    A str subclass that has been specifically marked as \"safe\" for HTML output\n    purposes.\n    \"\"\"",
+            "name": "SafeString",
+            "parent_name": "django.utils.safestring"
+        }
+    ]
 }

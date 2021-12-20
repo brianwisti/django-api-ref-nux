@@ -1,4 +1,16 @@
 {
     "docstring": "",
-    "namespace": "django.test.selenium"
+    "namespace": "django.test.selenium",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "SeleniumTestCaseBase",
+            "parent_name": "django.test.selenium"
+        },
+        {
+            "docstring": "",
+            "name": "SeleniumTestCase",
+            "parent_name": "django.test.selenium"
+        }
+    ]
 }

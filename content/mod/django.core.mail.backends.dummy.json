@@ -1,4 +1,11 @@
 {
     "docstring": "\"\"\"\nDummy email backend that does nothing.\n\"\"\"",
-    "namespace": "django.core.mail.backends.dummy"
+    "namespace": "django.core.mail.backends.dummy",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "EmailBackend",
+            "parent_name": "django.core.mail.backends.dummy"
+        }
+    ]
 }

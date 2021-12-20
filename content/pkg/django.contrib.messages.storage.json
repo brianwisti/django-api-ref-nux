@@ -4,19 +4,67 @@
     "modules": [
         {
             "docstring": "",
-            "namespace": "django.contrib.messages.storage.cookie"
+            "namespace": "django.contrib.messages.storage.cookie",
+            "classes": [
+                {
+                    "docstring": "\"\"\"\n    Compactly serialize instances of the ``Message`` class as JSON.\n    \"\"\"",
+                    "name": "MessageEncoder",
+                    "parent_name": "django.contrib.messages.storage.cookie"
+                },
+                {
+                    "docstring": "\"\"\"\n    Decode JSON that includes serialized ``Message`` instances.\n    \"\"\"",
+                    "name": "MessageDecoder",
+                    "parent_name": "django.contrib.messages.storage.cookie"
+                },
+                {
+                    "docstring": "",
+                    "name": "MessageSerializer",
+                    "parent_name": "django.contrib.messages.storage.cookie"
+                },
+                {
+                    "docstring": "\"\"\"\n    Store messages in a cookie.\n    \"\"\"",
+                    "name": "CookieStorage",
+                    "parent_name": "django.contrib.messages.storage.cookie"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.contrib.messages.storage.session"
+            "namespace": "django.contrib.messages.storage.session",
+            "classes": [
+                {
+                    "docstring": "\"\"\"\n    Store messages in the session (that is, django.contrib.sessions).\n    \"\"\"",
+                    "name": "SessionStorage",
+                    "parent_name": "django.contrib.messages.storage.session"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.contrib.messages.storage.base"
+            "namespace": "django.contrib.messages.storage.base",
+            "classes": [
+                {
+                    "docstring": "\"\"\"\n    Represent an actual message that can be stored in any of the supported\n    storage classes (typically session- or cookie-based) and rendered in a view\n    or template.\n    \"\"\"",
+                    "name": "Message",
+                    "parent_name": "django.contrib.messages.storage.base"
+                },
+                {
+                    "docstring": "\"\"\"\n    This is the base backend for temporary message storage.\n\n    This is not a complete class; to be a usable storage backend, it must be\n    subclassed and the two methods ``_get`` and ``_store`` overridden.\n    \"\"\"",
+                    "name": "BaseStorage",
+                    "parent_name": "django.contrib.messages.storage.base"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.contrib.messages.storage.fallback"
+            "namespace": "django.contrib.messages.storage.fallback",
+            "classes": [
+                {
+                    "docstring": "\"\"\"\n    Try to store all messages in the first backend. Store any unstored\n    messages in each subsequent backend.\n    \"\"\"",
+                    "name": "FallbackStorage",
+                    "parent_name": "django.contrib.messages.storage.fallback"
+                }
+            ]
         }
     ],
     "subpackages": []

@@ -1,4 +1,46 @@
 {
     "docstring": "\"\"\"\nMulti-part parsing for file uploads.\n\nExposes one class, ``MultiPartParser``, which feeds chunks of uploaded data to\nfile upload handlers for processing.\n\"\"\"",
-    "namespace": "django.http.multipartparser"
+    "namespace": "django.http.multipartparser",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "MultiPartParserError",
+            "parent_name": "django.http.multipartparser"
+        },
+        {
+            "docstring": "\"\"\"\n    No more reads are allowed from this device.\n    \"\"\"",
+            "name": "InputStreamExhausted",
+            "parent_name": "django.http.multipartparser"
+        },
+        {
+            "docstring": "\"\"\"\n    A rfc2388 multipart/form-data parser.\n\n    ``MultiValueDict.parse()`` reads the input stream in ``chunk_size`` chunks\n    and returns a tuple of ``(MultiValueDict(POST), MultiValueDict(FILES))``.\n    \"\"\"",
+            "name": "MultiPartParser",
+            "parent_name": "django.http.multipartparser"
+        },
+        {
+            "docstring": "\"\"\"\n    The LazyStream wrapper allows one to get and \"unget\" bytes from a stream.\n\n    Given a producer object (an iterator that yields bytestrings), the\n    LazyStream object will support iteration, reading, and keeping a \"look-back\"\n    variable in case you need to \"unget\" some bytes.\n    \"\"\"",
+            "name": "LazyStream",
+            "parent_name": "django.http.multipartparser"
+        },
+        {
+            "docstring": "\"\"\"\n    An iterable that will yield chunks of data. Given a file-like object as the\n    constructor, yield chunks of read operations from that object.\n    \"\"\"",
+            "name": "ChunkIter",
+            "parent_name": "django.http.multipartparser"
+        },
+        {
+            "docstring": "\"\"\"\n    A Producer that will iterate over boundaries.\n    \"\"\"",
+            "name": "InterBoundaryIter",
+            "parent_name": "django.http.multipartparser"
+        },
+        {
+            "docstring": "\"\"\"\n    A Producer that is sensitive to boundaries.\n\n    Will happily yield bytes until a boundary is found. Will yield the bytes\n    before the boundary, throw away the boundary bytes themselves, and push the\n    post-boundary bytes back on the stream.\n\n    The future calls to next() after locating the boundary will raise a\n    StopIteration exception.\n    \"\"\"",
+            "name": "BoundaryIter",
+            "parent_name": "django.http.multipartparser"
+        },
+        {
+            "docstring": "",
+            "name": "Parser",
+            "parent_name": "django.http.multipartparser"
+        }
+    ]
 }

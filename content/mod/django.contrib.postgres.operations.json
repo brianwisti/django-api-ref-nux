@@ -1,4 +1,91 @@
 {
     "docstring": "",
-    "namespace": "django.contrib.postgres.operations"
+    "namespace": "django.contrib.postgres.operations",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "CreateExtension",
+            "parent_name": "django.contrib.postgres.operations"
+        },
+        {
+            "docstring": "",
+            "name": "BloomExtension",
+            "parent_name": "django.contrib.postgres.operations"
+        },
+        {
+            "docstring": "",
+            "name": "BtreeGinExtension",
+            "parent_name": "django.contrib.postgres.operations"
+        },
+        {
+            "docstring": "",
+            "name": "BtreeGistExtension",
+            "parent_name": "django.contrib.postgres.operations"
+        },
+        {
+            "docstring": "",
+            "name": "CITextExtension",
+            "parent_name": "django.contrib.postgres.operations"
+        },
+        {
+            "docstring": "",
+            "name": "CryptoExtension",
+            "parent_name": "django.contrib.postgres.operations"
+        },
+        {
+            "docstring": "",
+            "name": "HStoreExtension",
+            "parent_name": "django.contrib.postgres.operations"
+        },
+        {
+            "docstring": "",
+            "name": "TrigramExtension",
+            "parent_name": "django.contrib.postgres.operations"
+        },
+        {
+            "docstring": "",
+            "name": "UnaccentExtension",
+            "parent_name": "django.contrib.postgres.operations"
+        },
+        {
+            "docstring": "",
+            "name": "NotInTransactionMixin",
+            "parent_name": "django.contrib.postgres.operations"
+        },
+        {
+            "docstring": "\"\"\"Create an index using PostgreSQL's CREATE INDEX CONCURRENTLY syntax.\"\"\"",
+            "name": "AddIndexConcurrently",
+            "parent_name": "django.contrib.postgres.operations"
+        },
+        {
+            "docstring": "\"\"\"Remove an index using PostgreSQL's DROP INDEX CONCURRENTLY syntax.\"\"\"",
+            "name": "RemoveIndexConcurrently",
+            "parent_name": "django.contrib.postgres.operations"
+        },
+        {
+            "docstring": "",
+            "name": "CollationOperation",
+            "parent_name": "django.contrib.postgres.operations"
+        },
+        {
+            "docstring": "\"\"\"Create a collation.\"\"\"",
+            "name": "CreateCollation",
+            "parent_name": "django.contrib.postgres.operations"
+        },
+        {
+            "docstring": "\"\"\"Remove a collation.\"\"\"",
+            "name": "RemoveCollation",
+            "parent_name": "django.contrib.postgres.operations"
+        },
+        {
+            "docstring": "\"\"\"\n    Add a table constraint without enforcing validation, using PostgreSQL's\n    NOT VALID syntax.\n    \"\"\"",
+            "name": "AddConstraintNotValid",
+            "parent_name": "django.contrib.postgres.operations"
+        },
+        {
+            "docstring": "\"\"\"Validate a table NOT VALID constraint.\"\"\"",
+            "name": "ValidateConstraint",
+            "parent_name": "django.contrib.postgres.operations"
+        }
+    ]
 }

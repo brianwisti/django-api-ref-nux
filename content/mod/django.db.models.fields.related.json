@@ -1,4 +1,31 @@
 {
     "docstring": "",
-    "namespace": "django.db.models.fields.related"
+    "namespace": "django.db.models.fields.related",
+    "classes": [
+        {
+            "docstring": "\"\"\"Base class that all relational fields inherit from.\"\"\"",
+            "name": "RelatedField",
+            "parent_name": "django.db.models.fields.related"
+        },
+        {
+            "docstring": "\"\"\"\n    Abstraction of the ForeignKey relation to support multi-column relations.\n    \"\"\"",
+            "name": "ForeignObject",
+            "parent_name": "django.db.models.fields.related"
+        },
+        {
+            "docstring": "\"\"\"\n    Provide a many-to-one relation by adding a column to the local model\n    to hold the remote value.\n\n    By default ForeignKey will target the pk of the remote model but this\n    behavior can be changed by using the ``to_field`` argument.\n    \"\"\"",
+            "name": "ForeignKey",
+            "parent_name": "django.db.models.fields.related"
+        },
+        {
+            "docstring": "\"\"\"\n    A OneToOneField is essentially the same as a ForeignKey, with the exception\n    that it always carries a \"unique\" constraint with it and the reverse\n    relation always returns the object pointed to (since there will only ever\n    be one), rather than returning a list.\n    \"\"\"",
+            "name": "OneToOneField",
+            "parent_name": "django.db.models.fields.related"
+        },
+        {
+            "docstring": "\"\"\"\n    Provide a many-to-many relation by using an intermediary model that\n    holds two ForeignKey fields pointed at the two sides of the relation.\n\n    Unless a ``through`` model was provided, ManyToManyField will use the\n    create_many_to_many_intermediary_model factory to automatically generate\n    the intermediary model.\n    \"\"\"",
+            "name": "ManyToManyField",
+            "parent_name": "django.db.models.fields.related"
+        }
+    ]
 }

@@ -1,4 +1,31 @@
 {
     "docstring": "",
-    "namespace": "django.utils.functional"
+    "namespace": "django.utils.functional",
+    "classes": [
+        {
+            "docstring": "\"\"\"\n    Decorator that converts a method with a single self argument into a\n    property cached on the instance.\n\n    A cached property can be made out of an existing method:\n    (e.g. ``url = cached_property(get_absolute_url)``).\n    The optional ``name`` argument is obsolete as of Python 3.6 and will be\n    deprecated in Django 4.0 (#30127).\n    \"\"\"",
+            "name": "cached_property",
+            "parent_name": "django.utils.functional"
+        },
+        {
+            "docstring": "\"\"\"\n    Decorator that converts a method with a single cls argument into a property\n    that can be accessed directly from the class.\n    \"\"\"",
+            "name": "classproperty",
+            "parent_name": "django.utils.functional"
+        },
+        {
+            "docstring": "\"\"\"\n    Base class for the proxy class created in the closure of the lazy function.\n    It's used to recognize promises in code.\n    \"\"\"",
+            "name": "Promise",
+            "parent_name": "django.utils.functional"
+        },
+        {
+            "docstring": "\"\"\"\n    A wrapper for another class that can be used to delay instantiation of the\n    wrapped class.\n\n    By subclassing, you have the opportunity to intercept and alter the\n    instantiation. If you don't need to do that, use SimpleLazyObject.\n    \"\"\"",
+            "name": "LazyObject",
+            "parent_name": "django.utils.functional"
+        },
+        {
+            "docstring": "\"\"\"\n    A lazy object initialized from any function.\n\n    Designed for compound objects of unknown type. For builtins or objects of\n    known type, use django.utils.functional.lazy.\n    \"\"\"",
+            "name": "SimpleLazyObject",
+            "parent_name": "django.utils.functional"
+        }
+    ]
 }

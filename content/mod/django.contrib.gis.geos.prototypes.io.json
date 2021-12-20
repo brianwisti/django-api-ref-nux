@@ -1,4 +1,76 @@
 {
     "docstring": "",
-    "namespace": "django.contrib.gis.geos.prototypes.io"
+    "namespace": "django.contrib.gis.geos.prototypes.io",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "WKTReader_st",
+            "parent_name": "django.contrib.gis.geos.prototypes.io"
+        },
+        {
+            "docstring": "",
+            "name": "WKTWriter_st",
+            "parent_name": "django.contrib.gis.geos.prototypes.io"
+        },
+        {
+            "docstring": "",
+            "name": "WKBReader_st",
+            "parent_name": "django.contrib.gis.geos.prototypes.io"
+        },
+        {
+            "docstring": "",
+            "name": "WKBWriter_st",
+            "parent_name": "django.contrib.gis.geos.prototypes.io"
+        },
+        {
+            "docstring": "",
+            "name": "WKBReadFunc",
+            "parent_name": "django.contrib.gis.geos.prototypes.io"
+        },
+        {
+            "docstring": "",
+            "name": "WKBWriteFunc",
+            "parent_name": "django.contrib.gis.geos.prototypes.io"
+        },
+        {
+            "docstring": "",
+            "name": "WKBWriterGet",
+            "parent_name": "django.contrib.gis.geos.prototypes.io"
+        },
+        {
+            "docstring": "",
+            "name": "WKBWriterSet",
+            "parent_name": "django.contrib.gis.geos.prototypes.io"
+        },
+        {
+            "docstring": "\"Base class for GEOS I/O objects.\"",
+            "name": "IOBase",
+            "parent_name": "django.contrib.gis.geos.prototypes.io"
+        },
+        {
+            "docstring": "",
+            "name": "_WKTReader",
+            "parent_name": "django.contrib.gis.geos.prototypes.io"
+        },
+        {
+            "docstring": "",
+            "name": "_WKBReader",
+            "parent_name": "django.contrib.gis.geos.prototypes.io"
+        },
+        {
+            "docstring": "",
+            "name": "WKTWriter",
+            "parent_name": "django.contrib.gis.geos.prototypes.io"
+        },
+        {
+            "docstring": "",
+            "name": "WKBWriter",
+            "parent_name": "django.contrib.gis.geos.prototypes.io"
+        },
+        {
+            "docstring": "",
+            "name": "ThreadLocalIO",
+            "parent_name": "django.contrib.gis.geos.prototypes.io"
+        }
+    ]
 }

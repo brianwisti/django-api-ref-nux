@@ -4,7 +4,14 @@
     "modules": [
         {
             "docstring": "\"\"\"\nA collection of utility routines and classes used by the spatial\nbackends.\n\"\"\"",
-            "namespace": "django.contrib.gis.db.backends.utils"
+            "namespace": "django.contrib.gis.db.backends.utils",
+            "classes": [
+                {
+                    "docstring": "\"\"\"\n    Class encapsulating the behavior specific to a GIS operation (used by lookups).\n    \"\"\"",
+                    "name": "SpatialOperator",
+                    "parent_name": "django.contrib.gis.db.backends.utils"
+                }
+            ]
         }
     ],
     "subpackages": [

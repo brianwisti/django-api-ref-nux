@@ -4,27 +4,83 @@
     "modules": [
         {
             "docstring": "",
-            "namespace": "django.contrib.sessions.exceptions"
+            "namespace": "django.contrib.sessions.exceptions",
+            "classes": [
+                {
+                    "docstring": "\"\"\"Invalid characters in session key\"\"\"",
+                    "name": "InvalidSessionKey",
+                    "parent_name": "django.contrib.sessions.exceptions"
+                },
+                {
+                    "docstring": "\"\"\"The session may be tampered with\"\"\"",
+                    "name": "SuspiciousSession",
+                    "parent_name": "django.contrib.sessions.exceptions"
+                },
+                {
+                    "docstring": "\"\"\"The session was interrupted.\"\"\"",
+                    "name": "SessionInterrupted",
+                    "parent_name": "django.contrib.sessions.exceptions"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.contrib.sessions.middleware"
+            "namespace": "django.contrib.sessions.middleware",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "SessionMiddleware",
+                    "parent_name": "django.contrib.sessions.middleware"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.contrib.sessions.serializers"
+            "namespace": "django.contrib.sessions.serializers",
+            "classes": []
         },
         {
             "docstring": "",
-            "namespace": "django.contrib.sessions.apps"
+            "namespace": "django.contrib.sessions.apps",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "SessionsConfig",
+                    "parent_name": "django.contrib.sessions.apps"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.contrib.sessions.models"
+            "namespace": "django.contrib.sessions.models",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "SessionManager",
+                    "parent_name": "django.contrib.sessions.models"
+                },
+                {
+                    "docstring": "\"\"\"\n    Django provides full support for anonymous sessions. The session\n    framework lets you store and retrieve arbitrary data on a\n    per-site-visitor basis. It stores data on the server side and\n    abstracts the sending and receiving of cookies. Cookies contain a\n    session ID -- not the data itself.\n\n    The Django sessions framework is entirely cookie-based. It does\n    not fall back to putting session IDs in URLs. This is an intentional\n    design decision. Not only does that behavior make URLs ugly, it makes\n    your site vulnerable to session-ID theft via the \"Referer\" header.\n\n    For complete documentation on using Sessions in your code, consult\n    the sessions documentation that is shipped with Django (also available\n    on the Django web site).\n    \"\"\"",
+                    "name": "Session",
+                    "parent_name": "django.contrib.sessions.models"
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\nThis module allows importing AbstractBaseSession even\nwhen django.contrib.sessions is not in INSTALLED_APPS.\n\"\"\"",
-            "namespace": "django.contrib.sessions.base_session"
+            "namespace": "django.contrib.sessions.base_session",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "BaseSessionManager",
+                    "parent_name": "django.contrib.sessions.base_session"
+                },
+                {
+                    "docstring": "",
+                    "name": "AbstractBaseSession",
+                    "parent_name": "django.contrib.sessions.base_session"
+                }
+            ]
         }
     ],
     "subpackages": [

@@ -1,4 +1,51 @@
 {
     "docstring": "",
-    "namespace": "django.contrib.admindocs.views"
+    "namespace": "django.contrib.admindocs.views",
+    "classes": [
+        {
+            "docstring": "\"\"\"\n    Base view for admindocs views.\n    \"\"\"",
+            "name": "BaseAdminDocsView",
+            "parent_name": "django.contrib.admindocs.views"
+        },
+        {
+            "docstring": "",
+            "name": "BookmarkletsView",
+            "parent_name": "django.contrib.admindocs.views"
+        },
+        {
+            "docstring": "",
+            "name": "TemplateTagIndexView",
+            "parent_name": "django.contrib.admindocs.views"
+        },
+        {
+            "docstring": "",
+            "name": "TemplateFilterIndexView",
+            "parent_name": "django.contrib.admindocs.views"
+        },
+        {
+            "docstring": "",
+            "name": "ViewIndexView",
+            "parent_name": "django.contrib.admindocs.views"
+        },
+        {
+            "docstring": "",
+            "name": "ViewDetailView",
+            "parent_name": "django.contrib.admindocs.views"
+        },
+        {
+            "docstring": "",
+            "name": "ModelIndexView",
+            "parent_name": "django.contrib.admindocs.views"
+        },
+        {
+            "docstring": "",
+            "name": "ModelDetailView",
+            "parent_name": "django.contrib.admindocs.views"
+        },
+        {
+            "docstring": "",
+            "name": "TemplateDetailView",
+            "parent_name": "django.contrib.admindocs.views"
+        }
+    ]
 }

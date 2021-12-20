@@ -1,4 +1,46 @@
 {
     "docstring": "",
-    "namespace": "django.contrib.gis.forms.fields"
+    "namespace": "django.contrib.gis.forms.fields",
+    "classes": [
+        {
+            "docstring": "\"\"\"\n    This is the basic form field for a Geometry.  Any textual input that is\n    accepted by GEOSGeometry is accepted by this form.  By default,\n    this includes WKT, HEXEWKB, WKB (in a buffer), and GeoJSON.\n    \"\"\"",
+            "name": "GeometryField",
+            "parent_name": "django.contrib.gis.forms.fields"
+        },
+        {
+            "docstring": "",
+            "name": "GeometryCollectionField",
+            "parent_name": "django.contrib.gis.forms.fields"
+        },
+        {
+            "docstring": "",
+            "name": "PointField",
+            "parent_name": "django.contrib.gis.forms.fields"
+        },
+        {
+            "docstring": "",
+            "name": "MultiPointField",
+            "parent_name": "django.contrib.gis.forms.fields"
+        },
+        {
+            "docstring": "",
+            "name": "LineStringField",
+            "parent_name": "django.contrib.gis.forms.fields"
+        },
+        {
+            "docstring": "",
+            "name": "MultiLineStringField",
+            "parent_name": "django.contrib.gis.forms.fields"
+        },
+        {
+            "docstring": "",
+            "name": "PolygonField",
+            "parent_name": "django.contrib.gis.forms.fields"
+        },
+        {
+            "docstring": "",
+            "name": "MultiPolygonField",
+            "parent_name": "django.contrib.gis.forms.fields"
+        }
+    ]
 }

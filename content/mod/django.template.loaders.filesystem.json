@@ -1,4 +1,11 @@
 {
     "docstring": "\"\"\"\nWrapper for loading templates from the filesystem.\n\"\"\"",
-    "namespace": "django.template.loaders.filesystem"
+    "namespace": "django.template.loaders.filesystem",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "Loader",
+            "parent_name": "django.template.loaders.filesystem"
+        }
+    ]
 }

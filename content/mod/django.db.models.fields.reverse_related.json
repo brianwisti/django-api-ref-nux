@@ -1,4 +1,26 @@
 {
     "docstring": "\"\"\"\n\"Rel objects\" for related fields.\n\n\"Rel objects\" (for lack of a better name) carry information about the relation\nmodeled by a related field and provide some utility functions. They're stored\nin the ``remote_field`` attribute of the field.\n\nThey also act as reverse fields for the purposes of the Meta API because\nthey're the closest concept currently available.\n\"\"\"",
-    "namespace": "django.db.models.fields.reverse_related"
+    "namespace": "django.db.models.fields.reverse_related",
+    "classes": [
+        {
+            "docstring": "\"\"\"\n    Used by ForeignObject to store information about the relation.\n\n    ``_meta.get_fields()`` returns this class to provide access to the field\n    flags for the reverse relation.\n    \"\"\"",
+            "name": "ForeignObjectRel",
+            "parent_name": "django.db.models.fields.reverse_related"
+        },
+        {
+            "docstring": "\"\"\"\n    Used by the ForeignKey field to store information about the relation.\n\n    ``_meta.get_fields()`` returns this class to provide access to the field\n    flags for the reverse relation.\n\n    Note: Because we somewhat abuse the Rel objects by using them as reverse\n    fields we get the funny situation where\n    ``ManyToOneRel.many_to_one == False`` and\n    ``ManyToOneRel.one_to_many == True``. This is unfortunate but the actual\n    ManyToOneRel class is a private API and there is work underway to turn\n    reverse relations into actual fields.\n    \"\"\"",
+            "name": "ManyToOneRel",
+            "parent_name": "django.db.models.fields.reverse_related"
+        },
+        {
+            "docstring": "\"\"\"\n    Used by OneToOneField to store information about the relation.\n\n    ``_meta.get_fields()`` returns this class to provide access to the field\n    flags for the reverse relation.\n    \"\"\"",
+            "name": "OneToOneRel",
+            "parent_name": "django.db.models.fields.reverse_related"
+        },
+        {
+            "docstring": "\"\"\"\n    Used by ManyToManyField to store information about the relation.\n\n    ``_meta.get_fields()`` returns this class to provide access to the field\n    flags for the reverse relation.\n    \"\"\"",
+            "name": "ManyToManyRel",
+            "parent_name": "django.db.models.fields.reverse_related"
+        }
+    ]
 }

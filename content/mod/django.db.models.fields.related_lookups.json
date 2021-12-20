@@ -1,4 +1,51 @@
 {
     "docstring": "",
-    "namespace": "django.db.models.fields.related_lookups"
+    "namespace": "django.db.models.fields.related_lookups",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "MultiColSource",
+            "parent_name": "django.db.models.fields.related_lookups"
+        },
+        {
+            "docstring": "",
+            "name": "RelatedIn",
+            "parent_name": "django.db.models.fields.related_lookups"
+        },
+        {
+            "docstring": "",
+            "name": "RelatedLookupMixin",
+            "parent_name": "django.db.models.fields.related_lookups"
+        },
+        {
+            "docstring": "",
+            "name": "RelatedExact",
+            "parent_name": "django.db.models.fields.related_lookups"
+        },
+        {
+            "docstring": "",
+            "name": "RelatedLessThan",
+            "parent_name": "django.db.models.fields.related_lookups"
+        },
+        {
+            "docstring": "",
+            "name": "RelatedGreaterThan",
+            "parent_name": "django.db.models.fields.related_lookups"
+        },
+        {
+            "docstring": "",
+            "name": "RelatedGreaterThanOrEqual",
+            "parent_name": "django.db.models.fields.related_lookups"
+        },
+        {
+            "docstring": "",
+            "name": "RelatedLessThanOrEqual",
+            "parent_name": "django.db.models.fields.related_lookups"
+        },
+        {
+            "docstring": "",
+            "name": "RelatedIsNull",
+            "parent_name": "django.db.models.fields.related_lookups"
+        }
+    ]
 }

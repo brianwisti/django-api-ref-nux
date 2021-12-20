@@ -1,4 +1,16 @@
 {
     "docstring": "",
-    "namespace": "django.db.migrations.writer"
+    "namespace": "django.db.migrations.writer",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "OperationWriter",
+            "parent_name": "django.db.migrations.writer"
+        },
+        {
+            "docstring": "\"\"\"\n    Take a Migration instance and is able to produce the contents\n    of the migration file from it.\n    \"\"\"",
+            "name": "MigrationWriter",
+            "parent_name": "django.db.migrations.writer"
+        }
+    ]
 }

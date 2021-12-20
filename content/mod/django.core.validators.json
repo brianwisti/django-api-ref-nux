@@ -1,4 +1,61 @@
 {
     "docstring": "",
-    "namespace": "django.core.validators"
+    "namespace": "django.core.validators",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "RegexValidator",
+            "parent_name": "django.core.validators"
+        },
+        {
+            "docstring": "",
+            "name": "URLValidator",
+            "parent_name": "django.core.validators"
+        },
+        {
+            "docstring": "",
+            "name": "EmailValidator",
+            "parent_name": "django.core.validators"
+        },
+        {
+            "docstring": "",
+            "name": "BaseValidator",
+            "parent_name": "django.core.validators"
+        },
+        {
+            "docstring": "",
+            "name": "MaxValueValidator",
+            "parent_name": "django.core.validators"
+        },
+        {
+            "docstring": "",
+            "name": "MinValueValidator",
+            "parent_name": "django.core.validators"
+        },
+        {
+            "docstring": "",
+            "name": "MinLengthValidator",
+            "parent_name": "django.core.validators"
+        },
+        {
+            "docstring": "",
+            "name": "MaxLengthValidator",
+            "parent_name": "django.core.validators"
+        },
+        {
+            "docstring": "\"\"\"\n    Validate that the input does not exceed the maximum number of digits\n    expected, otherwise raise ValidationError.\n    \"\"\"",
+            "name": "DecimalValidator",
+            "parent_name": "django.core.validators"
+        },
+        {
+            "docstring": "",
+            "name": "FileExtensionValidator",
+            "parent_name": "django.core.validators"
+        },
+        {
+            "docstring": "\"\"\"Validate that the string doesn't contain the null character.\"\"\"",
+            "name": "ProhibitNullCharactersValidator",
+            "parent_name": "django.core.validators"
+        }
+    ]
 }

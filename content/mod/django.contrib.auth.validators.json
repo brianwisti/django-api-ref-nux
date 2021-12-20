@@ -1,4 +1,16 @@
 {
     "docstring": "",
-    "namespace": "django.contrib.auth.validators"
+    "namespace": "django.contrib.auth.validators",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "ASCIIUsernameValidator",
+            "parent_name": "django.contrib.auth.validators"
+        },
+        {
+            "docstring": "",
+            "name": "UnicodeUsernameValidator",
+            "parent_name": "django.contrib.auth.validators"
+        }
+    ]
 }

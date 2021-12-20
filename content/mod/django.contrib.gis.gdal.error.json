@@ -1,4 +1,16 @@
 {
     "docstring": "\"\"\"\n This module houses the GDAL & SRS Exception objects, and the\n check_err() routine which checks the status code returned by\n GDAL/OGR methods.\n\"\"\"",
-    "namespace": "django.contrib.gis.gdal.error"
+    "namespace": "django.contrib.gis.gdal.error",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "GDALException",
+            "parent_name": "django.contrib.gis.gdal.error"
+        },
+        {
+            "docstring": "",
+            "name": "SRSException",
+            "parent_name": "django.contrib.gis.gdal.error"
+        }
+    ]
 }

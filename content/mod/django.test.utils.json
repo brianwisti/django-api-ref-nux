@@ -1,4 +1,76 @@
 {
     "docstring": "",
-    "namespace": "django.test.utils"
+    "namespace": "django.test.utils",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "Approximate",
+            "parent_name": "django.test.utils"
+        },
+        {
+            "docstring": "\"\"\"\n    A wrapper that provides direct key access to context items contained\n    in a list of context objects.\n    \"\"\"",
+            "name": "ContextList",
+            "parent_name": "django.test.utils"
+        },
+        {
+            "docstring": "",
+            "name": "_TestState",
+            "parent_name": "django.test.utils"
+        },
+        {
+            "docstring": "\"\"\"\n    A base class that can either be used as a context manager during tests\n    or as a test function or unittest.TestCase subclass decorator to perform\n    temporary alterations.\n\n    `attr_name`: attribute assigned the return value of enable() if used as\n                 a class decorator.\n\n    `kwarg_name`: keyword argument passing the return value of enable() if\n                  used as a function decorator.\n    \"\"\"",
+            "name": "TestContextDecorator",
+            "parent_name": "django.test.utils"
+        },
+        {
+            "docstring": "\"\"\"\n    Act as either a decorator or a context manager. If it's a decorator, take a\n    function and return a wrapped function. If it's a contextmanager, use it\n    with the ``with`` statement. In either event, entering/exiting are called\n    before and after, respectively, the function/block is executed.\n    \"\"\"",
+            "name": "override_settings",
+            "parent_name": "django.test.utils"
+        },
+        {
+            "docstring": "\"\"\"\n    Like override_settings, but makes it possible to append, prepend, or remove\n    items instead of redefining the entire list.\n    \"\"\"",
+            "name": "modify_settings",
+            "parent_name": "django.test.utils"
+        },
+        {
+            "docstring": "\"\"\"\n    Act as a decorator. Override list of registered system checks.\n    Useful when you override `INSTALLED_APPS`, e.g. if you exclude `auth` app,\n    you also need to exclude its system checks.\n    \"\"\"",
+            "name": "override_system_checks",
+            "parent_name": "django.test.utils"
+        },
+        {
+            "docstring": "\"\"\"\n    Context manager that captures queries executed by the specified connection.\n    \"\"\"",
+            "name": "CaptureQueriesContext",
+            "parent_name": "django.test.utils"
+        },
+        {
+            "docstring": "",
+            "name": "ignore_warnings",
+            "parent_name": "django.test.utils"
+        },
+        {
+            "docstring": "\"\"\"Decorator or context manager to temporary override the script prefix.\"\"\"",
+            "name": "override_script_prefix",
+            "parent_name": "django.test.utils"
+        },
+        {
+            "docstring": "\"\"\"\n    Capture the output from the 'django' logger and store it on the class's\n    logger_output attribute.\n    \"\"\"",
+            "name": "LoggingCaptureMixin",
+            "parent_name": "django.test.utils"
+        },
+        {
+            "docstring": "\"\"\"\n    Act as either a decorator or a context manager to register models defined\n    in its wrapped context to an isolated registry.\n\n    The list of installed apps the isolated registry should contain must be\n    passed as arguments.\n\n    Two optional keyword arguments can be specified:\n\n    `attr_name`: attribute assigned the isolated registry if used as a class\n                 decorator.\n\n    `kwarg_name`: keyword argument passing the isolated registry if used as a\n                  function decorator.\n    \"\"\"",
+            "name": "isolate_apps",
+            "parent_name": "django.test.utils"
+        },
+        {
+            "docstring": "",
+            "name": "TimeKeeper",
+            "parent_name": "django.test.utils"
+        },
+        {
+            "docstring": "",
+            "name": "NullTimeKeeper",
+            "parent_name": "django.test.utils"
+        }
+    ]
 }

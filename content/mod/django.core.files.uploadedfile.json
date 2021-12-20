@@ -1,4 +1,26 @@
 {
     "docstring": "\"\"\"\nClasses representing uploaded files.\n\"\"\"",
-    "namespace": "django.core.files.uploadedfile"
+    "namespace": "django.core.files.uploadedfile",
+    "classes": [
+        {
+            "docstring": "\"\"\"\n    An abstract uploaded file (``TemporaryUploadedFile`` and\n    ``InMemoryUploadedFile`` are the built-in concrete subclasses).\n\n    An ``UploadedFile`` object behaves somewhat like a file object and\n    represents some file data that the user submitted with a form.\n    \"\"\"",
+            "name": "UploadedFile",
+            "parent_name": "django.core.files.uploadedfile"
+        },
+        {
+            "docstring": "\"\"\"\n    A file uploaded to a temporary location (i.e. stream-to-disk).\n    \"\"\"",
+            "name": "TemporaryUploadedFile",
+            "parent_name": "django.core.files.uploadedfile"
+        },
+        {
+            "docstring": "\"\"\"\n    A file uploaded into memory (i.e. stream-to-memory).\n    \"\"\"",
+            "name": "InMemoryUploadedFile",
+            "parent_name": "django.core.files.uploadedfile"
+        },
+        {
+            "docstring": "\"\"\"\n    A simple representation of a file, which just has content, size, and a name.\n    \"\"\"",
+            "name": "SimpleUploadedFile",
+            "parent_name": "django.core.files.uploadedfile"
+        }
+    ]
 }

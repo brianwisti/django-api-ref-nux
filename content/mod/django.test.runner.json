@@ -1,4 +1,46 @@
 {
     "docstring": "",
-    "namespace": "django.test.runner"
+    "namespace": "django.test.runner",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "DebugSQLTextTestResult",
+            "parent_name": "django.test.runner"
+        },
+        {
+            "docstring": "\"\"\"\n    Custom result class that triggers a PDB session when an error or failure\n    occurs.\n    \"\"\"",
+            "name": "PDBDebugResult",
+            "parent_name": "django.test.runner"
+        },
+        {
+            "docstring": "\"\"\"\n    Dummy list class for faking storage of results in unittest.TestResult.\n    \"\"\"",
+            "name": "DummyList",
+            "parent_name": "django.test.runner"
+        },
+        {
+            "docstring": "\"\"\"\n    Extend unittest.TestResult to record events in the child processes so they\n    can be replayed in the parent process. Events include things like which\n    tests succeeded or failed.\n    \"\"\"",
+            "name": "RemoteTestResult",
+            "parent_name": "django.test.runner"
+        },
+        {
+            "docstring": "\"\"\"\n    Run tests and record everything but don't display anything.\n\n    The implementation matches the unpythonic coding style of unittest2.\n    \"\"\"",
+            "name": "RemoteTestRunner",
+            "parent_name": "django.test.runner"
+        },
+        {
+            "docstring": "\"\"\"\n    Run a series of tests in parallel in several processes.\n\n    While the unittest module's documentation implies that orchestrating the\n    execution of tests is the responsibility of the test runner, in practice,\n    it appears that TestRunner classes are more concerned with formatting and\n    displaying test results.\n\n    Since there are fewer use cases for customizing TestSuite than TestRunner,\n    implementing parallelization at the level of the TestSuite improves\n    interoperability with existing custom test runners. A single instance of a\n    test runner can still collect results from all tests without being aware\n    that they have been run in parallel.\n    \"\"\"",
+            "name": "ParallelTestSuite",
+            "parent_name": "django.test.runner"
+        },
+        {
+            "docstring": "\"\"\"\n    This class implements shuffling with a special consistency property.\n    Consistency means that, for a given seed and key function, if two sets of\n    items are shuffled, the resulting order will agree on the intersection of\n    the two sets. For example, if items are removed from an original set, the\n    shuffled order for the new set will be the shuffled order of the original\n    set restricted to the smaller set.\n    \"\"\"",
+            "name": "Shuffler",
+            "parent_name": "django.test.runner"
+        },
+        {
+            "docstring": "\"\"\"A Django test runner that uses unittest2 test discovery.\"\"\"",
+            "name": "DiscoverRunner",
+            "parent_name": "django.test.runner"
+        }
+    ]
 }

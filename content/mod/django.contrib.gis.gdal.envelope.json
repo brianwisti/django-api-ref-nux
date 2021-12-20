@@ -1,4 +1,16 @@
 {
     "docstring": "\"\"\"\n The GDAL/OGR library uses an Envelope structure to hold the bounding\n box information for a geometry.  The envelope (bounding box) contains\n two pairs of coordinates, one for the lower left coordinate and one\n for the upper right coordinate:\n\n                           +----------o Upper right; (max_x, max_y)\n                           |          |\n                           |          |\n                           |          |\n Lower left (min_x, min_y) o----------+\n\"\"\"",
-    "namespace": "django.contrib.gis.gdal.envelope"
+    "namespace": "django.contrib.gis.gdal.envelope",
+    "classes": [
+        {
+            "docstring": "\"Represent the OGREnvelope C Structure.\"",
+            "name": "OGREnvelope",
+            "parent_name": "django.contrib.gis.gdal.envelope"
+        },
+        {
+            "docstring": "\"\"\"\n    The Envelope object is a C structure that contains the minimum and\n    maximum X, Y coordinates for a rectangle bounding box.  The naming\n    of the variables is compatible with the OGR Envelope structure.\n    \"\"\"",
+            "name": "Envelope",
+            "parent_name": "django.contrib.gis.gdal.envelope"
+        }
+    ]
 }

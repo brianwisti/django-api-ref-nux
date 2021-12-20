@@ -1,4 +1,26 @@
 {
     "docstring": "",
-    "namespace": "django.contrib.postgres.fields.citext"
+    "namespace": "django.contrib.postgres.fields.citext",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "CIText",
+            "parent_name": "django.contrib.postgres.fields.citext"
+        },
+        {
+            "docstring": "",
+            "name": "CICharField",
+            "parent_name": "django.contrib.postgres.fields.citext"
+        },
+        {
+            "docstring": "",
+            "name": "CIEmailField",
+            "parent_name": "django.contrib.postgres.fields.citext"
+        },
+        {
+            "docstring": "",
+            "name": "CITextField",
+            "parent_name": "django.contrib.postgres.fields.citext"
+        }
+    ]
 }

@@ -1,4 +1,41 @@
 {
     "docstring": "\"\"\"\nXML serializer.\n\"\"\"",
-    "namespace": "django.core.serializers.xml_serializer"
+    "namespace": "django.core.serializers.xml_serializer",
+    "classes": [
+        {
+            "docstring": "\"\"\"Serialize a QuerySet to XML.\"\"\"",
+            "name": "Serializer",
+            "parent_name": "django.core.serializers.xml_serializer"
+        },
+        {
+            "docstring": "\"\"\"Deserialize XML.\"\"\"",
+            "name": "Deserializer",
+            "parent_name": "django.core.serializers.xml_serializer"
+        },
+        {
+            "docstring": "\"\"\"\n    An expat parser hardened against XML bomb attacks.\n\n    Forbid DTDs, external entity references\n    \"\"\"",
+            "name": "DefusedExpatParser",
+            "parent_name": "django.core.serializers.xml_serializer"
+        },
+        {
+            "docstring": "\"\"\"Base exception.\"\"\"",
+            "name": "DefusedXmlException",
+            "parent_name": "django.core.serializers.xml_serializer"
+        },
+        {
+            "docstring": "\"\"\"Document type definition is forbidden.\"\"\"",
+            "name": "DTDForbidden",
+            "parent_name": "django.core.serializers.xml_serializer"
+        },
+        {
+            "docstring": "\"\"\"Entity definition is forbidden.\"\"\"",
+            "name": "EntitiesForbidden",
+            "parent_name": "django.core.serializers.xml_serializer"
+        },
+        {
+            "docstring": "\"\"\"Resolving an external reference is forbidden.\"\"\"",
+            "name": "ExternalReferenceForbidden",
+            "parent_name": "django.core.serializers.xml_serializer"
+        }
+    ]
 }

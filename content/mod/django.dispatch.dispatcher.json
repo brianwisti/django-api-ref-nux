@@ -1,4 +1,11 @@
 {
     "docstring": "",
-    "namespace": "django.dispatch.dispatcher"
+    "namespace": "django.dispatch.dispatcher",
+    "classes": [
+        {
+            "docstring": "\"\"\"\n    Base class for all signals\n\n    Internal attributes:\n\n        receivers\n            { receiverkey (id) : weakref(receiver) }\n    \"\"\"",
+            "name": "Signal",
+            "parent_name": "django.dispatch.dispatcher"
+        }
+    ]
 }

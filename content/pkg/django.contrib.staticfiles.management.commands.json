@@ -4,15 +4,36 @@
     "modules": [
         {
             "docstring": "",
-            "namespace": "django.contrib.staticfiles.management.commands.collectstatic"
+            "namespace": "django.contrib.staticfiles.management.commands.collectstatic",
+            "classes": [
+                {
+                    "docstring": "\"\"\"\n    Copies or symlinks static files from different locations to the\n    settings.STATIC_ROOT.\n    \"\"\"",
+                    "name": "Command",
+                    "parent_name": "django.contrib.staticfiles.management.commands.collectstatic"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.contrib.staticfiles.management.commands.runserver"
+            "namespace": "django.contrib.staticfiles.management.commands.runserver",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "Command",
+                    "parent_name": "django.contrib.staticfiles.management.commands.runserver"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.contrib.staticfiles.management.commands.findstatic"
+            "namespace": "django.contrib.staticfiles.management.commands.findstatic",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "Command",
+                    "parent_name": "django.contrib.staticfiles.management.commands.findstatic"
+                }
+            ]
         }
     ],
     "subpackages": []

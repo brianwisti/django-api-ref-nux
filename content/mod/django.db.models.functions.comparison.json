@@ -1,4 +1,41 @@
 {
     "docstring": "\"\"\"Database functions that do comparisons or type conversions.\"\"\"",
-    "namespace": "django.db.models.functions.comparison"
+    "namespace": "django.db.models.functions.comparison",
+    "classes": [
+        {
+            "docstring": "\"\"\"Coerce an expression to a new field type.\"\"\"",
+            "name": "Cast",
+            "parent_name": "django.db.models.functions.comparison"
+        },
+        {
+            "docstring": "\"\"\"Return, from left to right, the first non-null expression.\"\"\"",
+            "name": "Coalesce",
+            "parent_name": "django.db.models.functions.comparison"
+        },
+        {
+            "docstring": "",
+            "name": "Collate",
+            "parent_name": "django.db.models.functions.comparison"
+        },
+        {
+            "docstring": "\"\"\"\n    Return the maximum expression.\n\n    If any expression is null the return value is database-specific:\n    On PostgreSQL, the maximum not-null expression is returned.\n    On MySQL, Oracle, and SQLite, if any expression is null, null is returned.\n    \"\"\"",
+            "name": "Greatest",
+            "parent_name": "django.db.models.functions.comparison"
+        },
+        {
+            "docstring": "",
+            "name": "JSONObject",
+            "parent_name": "django.db.models.functions.comparison"
+        },
+        {
+            "docstring": "\"\"\"\n    Return the minimum expression.\n\n    If any expression is null the return value is database-specific:\n    On PostgreSQL, return the minimum not-null expression.\n    On MySQL, Oracle, and SQLite, if any expression is null, return null.\n    \"\"\"",
+            "name": "Least",
+            "parent_name": "django.db.models.functions.comparison"
+        },
+        {
+            "docstring": "",
+            "name": "NullIf",
+            "parent_name": "django.db.models.functions.comparison"
+        }
+    ]
 }

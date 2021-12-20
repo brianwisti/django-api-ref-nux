@@ -1,4 +1,16 @@
 {
     "docstring": "",
-    "namespace": "django.contrib.auth.admin"
+    "namespace": "django.contrib.auth.admin",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "GroupAdmin",
+            "parent_name": "django.contrib.auth.admin"
+        },
+        {
+            "docstring": "",
+            "name": "UserAdmin",
+            "parent_name": "django.contrib.auth.admin"
+        }
+    ]
 }

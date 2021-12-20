@@ -1,4 +1,201 @@
 {
     "docstring": "",
-    "namespace": "django.contrib.gis.db.models.functions"
+    "namespace": "django.contrib.gis.db.models.functions",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "GeoFuncMixin",
+            "parent_name": "django.contrib.gis.db.models.functions"
+        },
+        {
+            "docstring": "",
+            "name": "GeoFunc",
+            "parent_name": "django.contrib.gis.db.models.functions"
+        },
+        {
+            "docstring": "",
+            "name": "GeomOutputGeoFunc",
+            "parent_name": "django.contrib.gis.db.models.functions"
+        },
+        {
+            "docstring": "\"\"\"\n    By default, Decimal values are converted to str by the SQLite backend, which\n    is not acceptable by the GIS functions expecting numeric values.\n    \"\"\"",
+            "name": "SQLiteDecimalToFloatMixin",
+            "parent_name": "django.contrib.gis.db.models.functions"
+        },
+        {
+            "docstring": "",
+            "name": "OracleToleranceMixin",
+            "parent_name": "django.contrib.gis.db.models.functions"
+        },
+        {
+            "docstring": "",
+            "name": "Area",
+            "parent_name": "django.contrib.gis.db.models.functions"
+        },
+        {
+            "docstring": "",
+            "name": "Azimuth",
+            "parent_name": "django.contrib.gis.db.models.functions"
+        },
+        {
+            "docstring": "",
+            "name": "AsGeoJSON",
+            "parent_name": "django.contrib.gis.db.models.functions"
+        },
+        {
+            "docstring": "",
+            "name": "AsGML",
+            "parent_name": "django.contrib.gis.db.models.functions"
+        },
+        {
+            "docstring": "",
+            "name": "AsKML",
+            "parent_name": "django.contrib.gis.db.models.functions"
+        },
+        {
+            "docstring": "",
+            "name": "AsSVG",
+            "parent_name": "django.contrib.gis.db.models.functions"
+        },
+        {
+            "docstring": "",
+            "name": "AsWKB",
+            "parent_name": "django.contrib.gis.db.models.functions"
+        },
+        {
+            "docstring": "",
+            "name": "AsWKT",
+            "parent_name": "django.contrib.gis.db.models.functions"
+        },
+        {
+            "docstring": "",
+            "name": "BoundingCircle",
+            "parent_name": "django.contrib.gis.db.models.functions"
+        },
+        {
+            "docstring": "",
+            "name": "Centroid",
+            "parent_name": "django.contrib.gis.db.models.functions"
+        },
+        {
+            "docstring": "",
+            "name": "Difference",
+            "parent_name": "django.contrib.gis.db.models.functions"
+        },
+        {
+            "docstring": "",
+            "name": "DistanceResultMixin",
+            "parent_name": "django.contrib.gis.db.models.functions"
+        },
+        {
+            "docstring": "",
+            "name": "Distance",
+            "parent_name": "django.contrib.gis.db.models.functions"
+        },
+        {
+            "docstring": "",
+            "name": "Envelope",
+            "parent_name": "django.contrib.gis.db.models.functions"
+        },
+        {
+            "docstring": "",
+            "name": "ForcePolygonCW",
+            "parent_name": "django.contrib.gis.db.models.functions"
+        },
+        {
+            "docstring": "",
+            "name": "GeoHash",
+            "parent_name": "django.contrib.gis.db.models.functions"
+        },
+        {
+            "docstring": "",
+            "name": "GeometryDistance",
+            "parent_name": "django.contrib.gis.db.models.functions"
+        },
+        {
+            "docstring": "",
+            "name": "Intersection",
+            "parent_name": "django.contrib.gis.db.models.functions"
+        },
+        {
+            "docstring": "",
+            "name": "IsValid",
+            "parent_name": "django.contrib.gis.db.models.functions"
+        },
+        {
+            "docstring": "",
+            "name": "Length",
+            "parent_name": "django.contrib.gis.db.models.functions"
+        },
+        {
+            "docstring": "",
+            "name": "LineLocatePoint",
+            "parent_name": "django.contrib.gis.db.models.functions"
+        },
+        {
+            "docstring": "",
+            "name": "MakeValid",
+            "parent_name": "django.contrib.gis.db.models.functions"
+        },
+        {
+            "docstring": "",
+            "name": "MemSize",
+            "parent_name": "django.contrib.gis.db.models.functions"
+        },
+        {
+            "docstring": "",
+            "name": "NumGeometries",
+            "parent_name": "django.contrib.gis.db.models.functions"
+        },
+        {
+            "docstring": "",
+            "name": "NumPoints",
+            "parent_name": "django.contrib.gis.db.models.functions"
+        },
+        {
+            "docstring": "",
+            "name": "Perimeter",
+            "parent_name": "django.contrib.gis.db.models.functions"
+        },
+        {
+            "docstring": "",
+            "name": "PointOnSurface",
+            "parent_name": "django.contrib.gis.db.models.functions"
+        },
+        {
+            "docstring": "",
+            "name": "Reverse",
+            "parent_name": "django.contrib.gis.db.models.functions"
+        },
+        {
+            "docstring": "",
+            "name": "Scale",
+            "parent_name": "django.contrib.gis.db.models.functions"
+        },
+        {
+            "docstring": "",
+            "name": "SnapToGrid",
+            "parent_name": "django.contrib.gis.db.models.functions"
+        },
+        {
+            "docstring": "",
+            "name": "SymDifference",
+            "parent_name": "django.contrib.gis.db.models.functions"
+        },
+        {
+            "docstring": "",
+            "name": "Transform",
+            "parent_name": "django.contrib.gis.db.models.functions"
+        },
+        {
+            "docstring": "",
+            "name": "Translate",
+            "parent_name": "django.contrib.gis.db.models.functions"
+        },
+        {
+            "docstring": "",
+            "name": "Union",
+            "parent_name": "django.contrib.gis.db.models.functions"
+        }
+    ]
 }

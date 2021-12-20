@@ -1,4 +1,11 @@
 {
     "docstring": "\"\"\"\nClickjacking Protection Middleware.\n\nThis module provides a middleware that implements protection against a\nmalicious site loading resources from your site in a hidden frame.\n\"\"\"",
-    "namespace": "django.middleware.clickjacking"
+    "namespace": "django.middleware.clickjacking",
+    "classes": [
+        {
+            "docstring": "\"\"\"\n    Set the X-Frame-Options HTTP header in HTTP responses.\n\n    Do not set the header if it's already set or if the response contains\n    a xframe_options_exempt value set to True.\n\n    By default, set the X-Frame-Options header to 'SAMEORIGIN', meaning the\n    response can only be loaded on a frame within the same site. To prevent the\n    response from being loaded in a frame in any site, set X_FRAME_OPTIONS in\n    your project's Django settings to 'DENY'.\n    \"\"\"",
+            "name": "XFrameOptionsMiddleware",
+            "parent_name": "django.middleware.clickjacking"
+        }
+    ]
 }

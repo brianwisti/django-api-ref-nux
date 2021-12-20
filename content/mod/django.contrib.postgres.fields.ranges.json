@@ -1,4 +1,116 @@
 {
     "docstring": "",
-    "namespace": "django.contrib.postgres.fields.ranges"
+    "namespace": "django.contrib.postgres.fields.ranges",
+    "classes": [
+        {
+            "docstring": "\"\"\"A class that represents range boundaries.\"\"\"",
+            "name": "RangeBoundary",
+            "parent_name": "django.contrib.postgres.fields.ranges"
+        },
+        {
+            "docstring": "",
+            "name": "RangeOperators",
+            "parent_name": "django.contrib.postgres.fields.ranges"
+        },
+        {
+            "docstring": "",
+            "name": "RangeField",
+            "parent_name": "django.contrib.postgres.fields.ranges"
+        },
+        {
+            "docstring": "",
+            "name": "IntegerRangeField",
+            "parent_name": "django.contrib.postgres.fields.ranges"
+        },
+        {
+            "docstring": "",
+            "name": "BigIntegerRangeField",
+            "parent_name": "django.contrib.postgres.fields.ranges"
+        },
+        {
+            "docstring": "",
+            "name": "DecimalRangeField",
+            "parent_name": "django.contrib.postgres.fields.ranges"
+        },
+        {
+            "docstring": "",
+            "name": "DateTimeRangeField",
+            "parent_name": "django.contrib.postgres.fields.ranges"
+        },
+        {
+            "docstring": "",
+            "name": "DateRangeField",
+            "parent_name": "django.contrib.postgres.fields.ranges"
+        },
+        {
+            "docstring": "\"\"\"\n    Lookup for Date/DateTimeRange containment to cast the rhs to the correct\n    type.\n    \"\"\"",
+            "name": "DateTimeRangeContains",
+            "parent_name": "django.contrib.postgres.fields.ranges"
+        },
+        {
+            "docstring": "",
+            "name": "RangeContainedBy",
+            "parent_name": "django.contrib.postgres.fields.ranges"
+        },
+        {
+            "docstring": "",
+            "name": "FullyLessThan",
+            "parent_name": "django.contrib.postgres.fields.ranges"
+        },
+        {
+            "docstring": "",
+            "name": "FullGreaterThan",
+            "parent_name": "django.contrib.postgres.fields.ranges"
+        },
+        {
+            "docstring": "",
+            "name": "NotLessThan",
+            "parent_name": "django.contrib.postgres.fields.ranges"
+        },
+        {
+            "docstring": "",
+            "name": "NotGreaterThan",
+            "parent_name": "django.contrib.postgres.fields.ranges"
+        },
+        {
+            "docstring": "",
+            "name": "AdjacentToLookup",
+            "parent_name": "django.contrib.postgres.fields.ranges"
+        },
+        {
+            "docstring": "",
+            "name": "RangeStartsWith",
+            "parent_name": "django.contrib.postgres.fields.ranges"
+        },
+        {
+            "docstring": "",
+            "name": "RangeEndsWith",
+            "parent_name": "django.contrib.postgres.fields.ranges"
+        },
+        {
+            "docstring": "",
+            "name": "IsEmpty",
+            "parent_name": "django.contrib.postgres.fields.ranges"
+        },
+        {
+            "docstring": "",
+            "name": "LowerInclusive",
+            "parent_name": "django.contrib.postgres.fields.ranges"
+        },
+        {
+            "docstring": "",
+            "name": "LowerInfinite",
+            "parent_name": "django.contrib.postgres.fields.ranges"
+        },
+        {
+            "docstring": "",
+            "name": "UpperInclusive",
+            "parent_name": "django.contrib.postgres.fields.ranges"
+        },
+        {
+            "docstring": "",
+            "name": "UpperInfinite",
+            "parent_name": "django.contrib.postgres.fields.ranges"
+        }
+    ]
 }

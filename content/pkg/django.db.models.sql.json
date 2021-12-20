@@ -4,27 +4,138 @@
     "modules": [
         {
             "docstring": "\"\"\"\nConstants specific to the SQL storage portion of the ORM.\n\"\"\"",
-            "namespace": "django.db.models.sql.constants"
+            "namespace": "django.db.models.sql.constants",
+            "classes": []
         },
         {
             "docstring": "\"\"\"\nQuery subclasses which provide extra functionality beyond simple data retrieval.\n\"\"\"",
-            "namespace": "django.db.models.sql.subqueries"
+            "namespace": "django.db.models.sql.subqueries",
+            "classes": [
+                {
+                    "docstring": "\"\"\"A DELETE SQL query.\"\"\"",
+                    "name": "DeleteQuery",
+                    "parent_name": "django.db.models.sql.subqueries"
+                },
+                {
+                    "docstring": "\"\"\"An UPDATE SQL query.\"\"\"",
+                    "name": "UpdateQuery",
+                    "parent_name": "django.db.models.sql.subqueries"
+                },
+                {
+                    "docstring": "",
+                    "name": "InsertQuery",
+                    "parent_name": "django.db.models.sql.subqueries"
+                },
+                {
+                    "docstring": "\"\"\"\n    Take another query as a parameter to the FROM clause and only select the\n    elements in the provided list.\n    \"\"\"",
+                    "name": "AggregateQuery",
+                    "parent_name": "django.db.models.sql.subqueries"
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\nCreate SQL statements for QuerySets.\n\nThe code in here encapsulates all of the SQL construction so that QuerySets\nthemselves do not have to (and could be backed by things other than SQL\ndatabases). The abstraction barrier only works one way: this module has to know\nall about the internals of models in order to get the information it needs.\n\"\"\"",
-            "namespace": "django.db.models.sql.query"
+            "namespace": "django.db.models.sql.query",
+            "classes": [
+                {
+                    "docstring": "\"\"\"A single raw SQL query.\"\"\"",
+                    "name": "RawQuery",
+                    "parent_name": "django.db.models.sql.query"
+                },
+                {
+                    "docstring": "\"\"\"A single SQL query.\"\"\"",
+                    "name": "Query",
+                    "parent_name": "django.db.models.sql.query"
+                },
+                {
+                    "docstring": "\"\"\"\n    A class to abstract away join promotion problems for complex filter\n    conditions.\n    \"\"\"",
+                    "name": "JoinPromoter",
+                    "parent_name": "django.db.models.sql.query"
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\nCode to manage the creation and SQL rendering of 'where' constraints.\n\"\"\"",
-            "namespace": "django.db.models.sql.where"
+            "namespace": "django.db.models.sql.where",
+            "classes": [
+                {
+                    "docstring": "\"\"\"\n    An SQL WHERE clause.\n\n    The class is tied to the Query class that created it (in order to create\n    the correct SQL).\n\n    A child is usually an expression producing boolean values. Most likely the\n    expression is a Lookup instance.\n\n    However, a child could also be any class with as_sql() and either\n    relabeled_clone() method or relabel_aliases() and clone() methods and\n    contains_aggregate attribute.\n    \"\"\"",
+                    "name": "WhereNode",
+                    "parent_name": "django.db.models.sql.where"
+                },
+                {
+                    "docstring": "\"\"\"A node that matches nothing.\"\"\"",
+                    "name": "NothingNode",
+                    "parent_name": "django.db.models.sql.where"
+                },
+                {
+                    "docstring": "",
+                    "name": "ExtraWhere",
+                    "parent_name": "django.db.models.sql.where"
+                },
+                {
+                    "docstring": "",
+                    "name": "SubqueryConstraint",
+                    "parent_name": "django.db.models.sql.where"
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\nUseful auxiliary data structures for query construction. Not useful outside\nthe SQL domain.\n\"\"\"",
-            "namespace": "django.db.models.sql.datastructures"
+            "namespace": "django.db.models.sql.datastructures",
+            "classes": [
+                {
+                    "docstring": "\"\"\"\n    Used by join construction code to indicate the point at which a\n    multi-valued join was attempted (if the caller wants to treat that\n    exceptionally).\n    \"\"\"",
+                    "name": "MultiJoin",
+                    "parent_name": "django.db.models.sql.datastructures"
+                },
+                {
+                    "docstring": "",
+                    "name": "Empty",
+                    "parent_name": "django.db.models.sql.datastructures"
+                },
+                {
+                    "docstring": "\"\"\"\n    Used by sql.Query and sql.SQLCompiler to generate JOIN clauses into the\n    FROM entry. For example, the SQL generated could be\n        LEFT OUTER JOIN \"sometable\" T1 ON (\"othertable\".\"sometable_id\" = \"sometable\".\"id\")\n\n    This class is primarily used in Query.alias_map. All entries in alias_map\n    must be Join compatible by providing the following attributes and methods:\n        - table_name (string)\n        - table_alias (possible alias for the table, can be None)\n        - join_type (can be None for those entries that aren't joined from\n          anything)\n        - parent_alias (which table is this join's parent, can be None similarly\n          to join_type)\n        - as_sql()\n        - relabeled_clone()\n    \"\"\"",
+                    "name": "Join",
+                    "parent_name": "django.db.models.sql.datastructures"
+                },
+                {
+                    "docstring": "\"\"\"\n    The BaseTable class is used for base table references in FROM clause. For\n    example, the SQL \"foo\" in\n        SELECT * FROM \"foo\" WHERE somecond\n    could be generated by this class.\n    \"\"\"",
+                    "name": "BaseTable",
+                    "parent_name": "django.db.models.sql.datastructures"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.db.models.sql.compiler"
+            "namespace": "django.db.models.sql.compiler",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "SQLCompiler",
+                    "parent_name": "django.db.models.sql.compiler"
+                },
+                {
+                    "docstring": "",
+                    "name": "SQLInsertCompiler",
+                    "parent_name": "django.db.models.sql.compiler"
+                },
+                {
+                    "docstring": "",
+                    "name": "SQLDeleteCompiler",
+                    "parent_name": "django.db.models.sql.compiler"
+                },
+                {
+                    "docstring": "",
+                    "name": "SQLUpdateCompiler",
+                    "parent_name": "django.db.models.sql.compiler"
+                },
+                {
+                    "docstring": "",
+                    "name": "SQLAggregateCompiler",
+                    "parent_name": "django.db.models.sql.compiler"
+                }
+            ]
         }
     ],
     "subpackages": []

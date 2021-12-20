@@ -1,4 +1,16 @@
 {
     "docstring": "",
-    "namespace": "django.contrib.admin.exceptions"
+    "namespace": "django.contrib.admin.exceptions",
+    "classes": [
+        {
+            "docstring": "\"\"\"Invalid filter was passed to admin view via URL querystring\"\"\"",
+            "name": "DisallowedModelAdminLookup",
+            "parent_name": "django.contrib.admin.exceptions"
+        },
+        {
+            "docstring": "\"\"\"Invalid to_field was passed to admin view via URL query string\"\"\"",
+            "name": "DisallowedModelAdminToField",
+            "parent_name": "django.contrib.admin.exceptions"
+        }
+    ]
 }

@@ -1,4 +1,21 @@
 {
     "docstring": "\"\"\"\nCross Site Request Forgery Middleware.\n\nThis module provides a middleware that implements protection\nagainst request forgeries from other sites.\n\"\"\"",
-    "namespace": "django.middleware.csrf"
+    "namespace": "django.middleware.csrf",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "InvalidTokenFormat",
+            "parent_name": "django.middleware.csrf"
+        },
+        {
+            "docstring": "",
+            "name": "RejectRequest",
+            "parent_name": "django.middleware.csrf"
+        },
+        {
+            "docstring": "\"\"\"\n    Require a present and correct csrfmiddlewaretoken for POST requests that\n    have a CSRF cookie, and set an outgoing CSRF cookie.\n\n    This middleware should be used in conjunction with the {% csrf_token %}\n    template tag.\n    \"\"\"",
+            "name": "CsrfViewMiddleware",
+            "parent_name": "django.middleware.csrf"
+        }
+    ]
 }

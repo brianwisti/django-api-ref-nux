@@ -4,31 +4,130 @@
     "modules": [
         {
             "docstring": "\"File-based cache backend\"",
-            "namespace": "django.core.cache.backends.filebased"
+            "namespace": "django.core.cache.backends.filebased",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "FileBasedCache",
+                    "parent_name": "django.core.cache.backends.filebased"
+                }
+            ]
         },
         {
             "docstring": "\"Database cache backend.\"",
-            "namespace": "django.core.cache.backends.db"
+            "namespace": "django.core.cache.backends.db",
+            "classes": [
+                {
+                    "docstring": "\"\"\"A class that will quack like a Django model _meta class.\n\n    This allows cache operations to be controlled by the router\n    \"\"\"",
+                    "name": "Options",
+                    "parent_name": "django.core.cache.backends.db"
+                },
+                {
+                    "docstring": "",
+                    "name": "BaseDatabaseCache",
+                    "parent_name": "django.core.cache.backends.db"
+                },
+                {
+                    "docstring": "",
+                    "name": "DatabaseCache",
+                    "parent_name": "django.core.cache.backends.db"
+                }
+            ]
         },
         {
             "docstring": "\"\"\"Redis cache backend.\"\"\"",
-            "namespace": "django.core.cache.backends.redis"
+            "namespace": "django.core.cache.backends.redis",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "RedisSerializer",
+                    "parent_name": "django.core.cache.backends.redis"
+                },
+                {
+                    "docstring": "",
+                    "name": "RedisCacheClient",
+                    "parent_name": "django.core.cache.backends.redis"
+                },
+                {
+                    "docstring": "",
+                    "name": "RedisCache",
+                    "parent_name": "django.core.cache.backends.redis"
+                }
+            ]
         },
         {
             "docstring": "\"Thread-safe in-memory cache backend.\"",
-            "namespace": "django.core.cache.backends.locmem"
+            "namespace": "django.core.cache.backends.locmem",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "LocMemCache",
+                    "parent_name": "django.core.cache.backends.locmem"
+                }
+            ]
         },
         {
             "docstring": "\"Base Cache class.\"",
-            "namespace": "django.core.cache.backends.base"
+            "namespace": "django.core.cache.backends.base",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "InvalidCacheBackendError",
+                    "parent_name": "django.core.cache.backends.base"
+                },
+                {
+                    "docstring": "",
+                    "name": "CacheKeyWarning",
+                    "parent_name": "django.core.cache.backends.base"
+                },
+                {
+                    "docstring": "",
+                    "name": "InvalidCacheKey",
+                    "parent_name": "django.core.cache.backends.base"
+                },
+                {
+                    "docstring": "",
+                    "name": "BaseCache",
+                    "parent_name": "django.core.cache.backends.base"
+                }
+            ]
         },
         {
             "docstring": "\"Dummy cache backend\"",
-            "namespace": "django.core.cache.backends.dummy"
+            "namespace": "django.core.cache.backends.dummy",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "DummyCache",
+                    "parent_name": "django.core.cache.backends.dummy"
+                }
+            ]
         },
         {
             "docstring": "\"Memcached cache backend\"",
-            "namespace": "django.core.cache.backends.memcached"
+            "namespace": "django.core.cache.backends.memcached",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "BaseMemcachedCache",
+                    "parent_name": "django.core.cache.backends.memcached"
+                },
+                {
+                    "docstring": "\"An implementation of a cache binding using python-memcached\"",
+                    "name": "MemcachedCache",
+                    "parent_name": "django.core.cache.backends.memcached"
+                },
+                {
+                    "docstring": "\"An implementation of a cache binding using pylibmc\"",
+                    "name": "PyLibMCCache",
+                    "parent_name": "django.core.cache.backends.memcached"
+                },
+                {
+                    "docstring": "\"\"\"An implementation of a cache binding using pymemcache.\"\"\"",
+                    "name": "PyMemcacheCache",
+                    "parent_name": "django.core.cache.backends.memcached"
+                }
+            ]
         }
     ],
     "subpackages": []

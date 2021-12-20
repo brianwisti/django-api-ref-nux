@@ -1,4 +1,56 @@
 {
     "docstring": "",
-    "namespace": "django.contrib.admin.helpers"
+    "namespace": "django.contrib.admin.helpers",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "ActionForm",
+            "parent_name": "django.contrib.admin.helpers"
+        },
+        {
+            "docstring": "",
+            "name": "AdminForm",
+            "parent_name": "django.contrib.admin.helpers"
+        },
+        {
+            "docstring": "",
+            "name": "Fieldset",
+            "parent_name": "django.contrib.admin.helpers"
+        },
+        {
+            "docstring": "",
+            "name": "Fieldline",
+            "parent_name": "django.contrib.admin.helpers"
+        },
+        {
+            "docstring": "",
+            "name": "AdminField",
+            "parent_name": "django.contrib.admin.helpers"
+        },
+        {
+            "docstring": "",
+            "name": "AdminReadonlyField",
+            "parent_name": "django.contrib.admin.helpers"
+        },
+        {
+            "docstring": "\"\"\"\n    A wrapper around an inline formset for use in the admin system.\n    \"\"\"",
+            "name": "InlineAdminFormSet",
+            "parent_name": "django.contrib.admin.helpers"
+        },
+        {
+            "docstring": "\"\"\"\n    A wrapper around an inline form for use in the admin system.\n    \"\"\"",
+            "name": "InlineAdminForm",
+            "parent_name": "django.contrib.admin.helpers"
+        },
+        {
+            "docstring": "",
+            "name": "InlineFieldset",
+            "parent_name": "django.contrib.admin.helpers"
+        },
+        {
+            "docstring": "\"\"\"Store errors for the form/formsets in an add/change view.\"\"\"",
+            "name": "AdminErrorList",
+            "parent_name": "django.contrib.admin.helpers"
+        }
+    ]
 }

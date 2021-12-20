@@ -1,4 +1,16 @@
 {
     "docstring": "",
-    "namespace": "django.db.models.indexes"
+    "namespace": "django.db.models.indexes",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "Index",
+            "parent_name": "django.db.models.indexes"
+        },
+        {
+            "docstring": "\"\"\"Order and wrap expressions for CREATE INDEX statements.\"\"\"",
+            "name": "IndexExpression",
+            "parent_name": "django.db.models.indexes"
+        }
+    ]
 }

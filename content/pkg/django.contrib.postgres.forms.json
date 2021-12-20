@@ -4,15 +4,76 @@
     "modules": [
         {
             "docstring": "",
-            "namespace": "django.contrib.postgres.forms.array"
+            "namespace": "django.contrib.postgres.forms.array",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "SimpleArrayField",
+                    "parent_name": "django.contrib.postgres.forms.array"
+                },
+                {
+                    "docstring": "",
+                    "name": "SplitArrayWidget",
+                    "parent_name": "django.contrib.postgres.forms.array"
+                },
+                {
+                    "docstring": "",
+                    "name": "SplitArrayField",
+                    "parent_name": "django.contrib.postgres.forms.array"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.contrib.postgres.forms.ranges"
+            "namespace": "django.contrib.postgres.forms.ranges",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "RangeWidget",
+                    "parent_name": "django.contrib.postgres.forms.ranges"
+                },
+                {
+                    "docstring": "\"\"\"A widget that splits input into two <input type=\"hidden\"> inputs.\"\"\"",
+                    "name": "HiddenRangeWidget",
+                    "parent_name": "django.contrib.postgres.forms.ranges"
+                },
+                {
+                    "docstring": "",
+                    "name": "BaseRangeField",
+                    "parent_name": "django.contrib.postgres.forms.ranges"
+                },
+                {
+                    "docstring": "",
+                    "name": "IntegerRangeField",
+                    "parent_name": "django.contrib.postgres.forms.ranges"
+                },
+                {
+                    "docstring": "",
+                    "name": "DecimalRangeField",
+                    "parent_name": "django.contrib.postgres.forms.ranges"
+                },
+                {
+                    "docstring": "",
+                    "name": "DateTimeRangeField",
+                    "parent_name": "django.contrib.postgres.forms.ranges"
+                },
+                {
+                    "docstring": "",
+                    "name": "DateRangeField",
+                    "parent_name": "django.contrib.postgres.forms.ranges"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.contrib.postgres.forms.hstore"
+            "namespace": "django.contrib.postgres.forms.hstore",
+            "classes": [
+                {
+                    "docstring": "\"\"\"\n    A field for HStore data which accepts dictionary JSON input.\n    \"\"\"",
+                    "name": "HStoreField",
+                    "parent_name": "django.contrib.postgres.forms.hstore"
+                }
+            ]
         }
     ],
     "subpackages": []

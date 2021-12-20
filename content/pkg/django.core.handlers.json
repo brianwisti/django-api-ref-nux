@@ -4,19 +4,56 @@
     "modules": [
         {
             "docstring": "",
-            "namespace": "django.core.handlers.base"
+            "namespace": "django.core.handlers.base",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "BaseHandler",
+                    "parent_name": "django.core.handlers.base"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.core.handlers.wsgi"
+            "namespace": "django.core.handlers.wsgi",
+            "classes": [
+                {
+                    "docstring": "\"\"\"Wrap another stream to disallow reading it past a number of bytes.\"\"\"",
+                    "name": "LimitedStream",
+                    "parent_name": "django.core.handlers.wsgi"
+                },
+                {
+                    "docstring": "",
+                    "name": "WSGIRequest",
+                    "parent_name": "django.core.handlers.wsgi"
+                },
+                {
+                    "docstring": "",
+                    "name": "WSGIHandler",
+                    "parent_name": "django.core.handlers.wsgi"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.core.handlers.exception"
+            "namespace": "django.core.handlers.exception",
+            "classes": []
         },
         {
             "docstring": "",
-            "namespace": "django.core.handlers.asgi"
+            "namespace": "django.core.handlers.asgi",
+            "classes": [
+                {
+                    "docstring": "\"\"\"\n    Custom request subclass that decodes from an ASGI-standard request dict\n    and wraps request body handling.\n    \"\"\"",
+                    "name": "ASGIRequest",
+                    "parent_name": "django.core.handlers.asgi"
+                },
+                {
+                    "docstring": "\"\"\"Handler for ASGI requests.\"\"\"",
+                    "name": "ASGIHandler",
+                    "parent_name": "django.core.handlers.asgi"
+                }
+            ]
         }
     ],
     "subpackages": []

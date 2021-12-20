@@ -4,15 +4,35 @@
     "modules": [
         {
             "docstring": "",
-            "namespace": "django.contrib.admin.views.decorators"
+            "namespace": "django.contrib.admin.views.decorators",
+            "classes": []
         },
         {
             "docstring": "",
-            "namespace": "django.contrib.admin.views.main"
+            "namespace": "django.contrib.admin.views.main",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "ChangeListSearchForm",
+                    "parent_name": "django.contrib.admin.views.main"
+                },
+                {
+                    "docstring": "",
+                    "name": "ChangeList",
+                    "parent_name": "django.contrib.admin.views.main"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.contrib.admin.views.autocomplete"
+            "namespace": "django.contrib.admin.views.autocomplete",
+            "classes": [
+                {
+                    "docstring": "\"\"\"Handle AutocompleteWidget's AJAX requests for data.\"\"\"",
+                    "name": "AutocompleteJsonView",
+                    "parent_name": "django.contrib.admin.views.autocomplete"
+                }
+            ]
         }
     ],
     "subpackages": []

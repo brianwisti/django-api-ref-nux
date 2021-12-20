@@ -1,4 +1,16 @@
 {
     "docstring": "",
-    "namespace": "django.db.migrations.migration"
+    "namespace": "django.db.migrations.migration",
+    "classes": [
+        {
+            "docstring": "\"\"\"\n    The base class for all migrations.\n\n    Migration files will import this from django.db.migrations.Migration\n    and subclass it as a class called Migration. It will have one or more\n    of the following attributes:\n\n     - operations: A list of Operation instances, probably from django.db.migrations.operations\n     - dependencies: A list of tuples of (app_path, migration_name)\n     - run_before: A list of tuples of (app_path, migration_name)\n     - replaces: A list of migration_names\n\n    Note that all migrations come out of migrations and into the Loader or\n    Graph as instances, having been initialized with their app label and name.\n    \"\"\"",
+            "name": "Migration",
+            "parent_name": "django.db.migrations.migration"
+        },
+        {
+            "docstring": "\"\"\"\n    Subclass of tuple so Django can tell this was originally a swappable\n    dependency when it reads the migration file.\n    \"\"\"",
+            "name": "SwappableTuple",
+            "parent_name": "django.db.migrations.migration"
+        }
+    ]
 }

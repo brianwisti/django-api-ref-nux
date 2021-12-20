@@ -1,4 +1,46 @@
 {
     "docstring": "\"\"\"\nThis module converts requested URLs to callback view functions.\n\nURLResolver is the main class here. Its resolve() method takes a URL (as\na string) and returns a ResolverMatch object which provides access to all\nattributes of the resolved URL match.\n\"\"\"",
-    "namespace": "django.urls.resolvers"
+    "namespace": "django.urls.resolvers",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "ResolverMatch",
+            "parent_name": "django.urls.resolvers"
+        },
+        {
+            "docstring": "",
+            "name": "LocaleRegexDescriptor",
+            "parent_name": "django.urls.resolvers"
+        },
+        {
+            "docstring": "",
+            "name": "CheckURLMixin",
+            "parent_name": "django.urls.resolvers"
+        },
+        {
+            "docstring": "",
+            "name": "RegexPattern",
+            "parent_name": "django.urls.resolvers"
+        },
+        {
+            "docstring": "",
+            "name": "RoutePattern",
+            "parent_name": "django.urls.resolvers"
+        },
+        {
+            "docstring": "",
+            "name": "LocalePrefixPattern",
+            "parent_name": "django.urls.resolvers"
+        },
+        {
+            "docstring": "",
+            "name": "URLPattern",
+            "parent_name": "django.urls.resolvers"
+        },
+        {
+            "docstring": "",
+            "name": "URLResolver",
+            "parent_name": "django.urls.resolvers"
+        }
+    ]
 }

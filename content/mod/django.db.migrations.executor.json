@@ -1,4 +1,11 @@
 {
     "docstring": "",
-    "namespace": "django.db.migrations.executor"
+    "namespace": "django.db.migrations.executor",
+    "classes": [
+        {
+            "docstring": "\"\"\"\n    End-to-end migration execution - load migrations and run them up or down\n    to a specified set of targets.\n    \"\"\"",
+            "name": "MigrationExecutor",
+            "parent_name": "django.db.migrations.executor"
+        }
+    ]
 }

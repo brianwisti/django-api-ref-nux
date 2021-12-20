@@ -1,4 +1,26 @@
 {
     "docstring": "\"\"\"Compare two HTML documents.\"\"\"",
-    "namespace": "django.test.html"
+    "namespace": "django.test.html",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "Element",
+            "parent_name": "django.test.html"
+        },
+        {
+            "docstring": "",
+            "name": "RootElement",
+            "parent_name": "django.test.html"
+        },
+        {
+            "docstring": "",
+            "name": "HTMLParseError",
+            "parent_name": "django.test.html"
+        },
+        {
+            "docstring": "",
+            "name": "Parser",
+            "parent_name": "django.test.html"
+        }
+    ]
 }

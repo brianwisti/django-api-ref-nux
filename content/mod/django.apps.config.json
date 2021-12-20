@@ -1,4 +1,11 @@
 {
     "docstring": "",
-    "namespace": "django.apps.config"
+    "namespace": "django.apps.config",
+    "classes": [
+        {
+            "docstring": "\"\"\"Class representing a Django application and its configuration.\"\"\"",
+            "name": "AppConfig",
+            "parent_name": "django.apps.config"
+        }
+    ]
 }

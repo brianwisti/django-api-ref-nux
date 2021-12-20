@@ -1,4 +1,16 @@
 {
     "docstring": "\"\"\"\n The GeometryColumns and SpatialRefSys models for the PostGIS backend.\n\"\"\"",
-    "namespace": "django.contrib.gis.db.backends.postgis.models"
+    "namespace": "django.contrib.gis.db.backends.postgis.models",
+    "classes": [
+        {
+            "docstring": "\"\"\"\n    The 'geometry_columns' view from PostGIS. See the PostGIS\n    documentation at Ch. 4.3.2.\n    \"\"\"",
+            "name": "PostGISGeometryColumns",
+            "parent_name": "django.contrib.gis.db.backends.postgis.models"
+        },
+        {
+            "docstring": "\"\"\"\n    The 'spatial_ref_sys' table from PostGIS. See the PostGIS\n    documentation at Ch. 4.2.1.\n    \"\"\"",
+            "name": "PostGISSpatialRefSys",
+            "parent_name": "django.contrib.gis.db.backends.postgis.models"
+        }
+    ]
 }

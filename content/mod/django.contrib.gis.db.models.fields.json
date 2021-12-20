@@ -1,4 +1,61 @@
 {
     "docstring": "",
-    "namespace": "django.contrib.gis.db.models.fields"
+    "namespace": "django.contrib.gis.db.models.fields",
+    "classes": [
+        {
+            "docstring": "\"\"\"\n    The Base GIS Field.\n\n    It's used as a base class for GeometryField and RasterField. Defines\n    properties that are common to all GIS fields such as the characteristics\n    of the spatial reference system of the field.\n    \"\"\"",
+            "name": "BaseSpatialField",
+            "parent_name": "django.contrib.gis.db.models.fields"
+        },
+        {
+            "docstring": "\"\"\"\n    The base Geometry field -- maps to the OpenGIS Specification Geometry type.\n    \"\"\"",
+            "name": "GeometryField",
+            "parent_name": "django.contrib.gis.db.models.fields"
+        },
+        {
+            "docstring": "",
+            "name": "PointField",
+            "parent_name": "django.contrib.gis.db.models.fields"
+        },
+        {
+            "docstring": "",
+            "name": "LineStringField",
+            "parent_name": "django.contrib.gis.db.models.fields"
+        },
+        {
+            "docstring": "",
+            "name": "PolygonField",
+            "parent_name": "django.contrib.gis.db.models.fields"
+        },
+        {
+            "docstring": "",
+            "name": "MultiPointField",
+            "parent_name": "django.contrib.gis.db.models.fields"
+        },
+        {
+            "docstring": "",
+            "name": "MultiLineStringField",
+            "parent_name": "django.contrib.gis.db.models.fields"
+        },
+        {
+            "docstring": "",
+            "name": "MultiPolygonField",
+            "parent_name": "django.contrib.gis.db.models.fields"
+        },
+        {
+            "docstring": "",
+            "name": "GeometryCollectionField",
+            "parent_name": "django.contrib.gis.db.models.fields"
+        },
+        {
+            "docstring": "\"Used as a return value from an extent aggregate\"",
+            "name": "ExtentField",
+            "parent_name": "django.contrib.gis.db.models.fields"
+        },
+        {
+            "docstring": "\"\"\"\n    Raster field for GeoDjango -- evaluates into GDALRaster objects.\n    \"\"\"",
+            "name": "RasterField",
+            "parent_name": "django.contrib.gis.db.models.fields"
+        }
+    ]
 }

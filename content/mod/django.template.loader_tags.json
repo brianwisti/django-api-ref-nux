@@ -1,4 +1,26 @@
 {
     "docstring": "",
-    "namespace": "django.template.loader_tags"
+    "namespace": "django.template.loader_tags",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "BlockContext",
+            "parent_name": "django.template.loader_tags"
+        },
+        {
+            "docstring": "",
+            "name": "BlockNode",
+            "parent_name": "django.template.loader_tags"
+        },
+        {
+            "docstring": "",
+            "name": "ExtendsNode",
+            "parent_name": "django.template.loader_tags"
+        },
+        {
+            "docstring": "",
+            "name": "IncludeNode",
+            "parent_name": "django.template.loader_tags"
+        }
+    ]
 }

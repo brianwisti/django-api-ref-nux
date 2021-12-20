@@ -1,4 +1,21 @@
 {
     "docstring": "",
-    "namespace": "django.contrib.staticfiles.handlers"
+    "namespace": "django.contrib.staticfiles.handlers",
+    "classes": [
+        {
+            "docstring": "\"\"\"\n    Common methods used by WSGI and ASGI handlers.\n    \"\"\"",
+            "name": "StaticFilesHandlerMixin",
+            "parent_name": "django.contrib.staticfiles.handlers"
+        },
+        {
+            "docstring": "\"\"\"\n    WSGI middleware that intercepts calls to the static files directory, as\n    defined by the STATIC_URL setting, and serves those files.\n    \"\"\"",
+            "name": "StaticFilesHandler",
+            "parent_name": "django.contrib.staticfiles.handlers"
+        },
+        {
+            "docstring": "\"\"\"\n    ASGI application which wraps another and intercepts requests for static\n    files, passing them off to Django's static file serving.\n    \"\"\"",
+            "name": "ASGIStaticFilesHandler",
+            "parent_name": "django.contrib.staticfiles.handlers"
+        }
+    ]
 }

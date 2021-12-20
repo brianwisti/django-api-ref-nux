@@ -1,4 +1,11 @@
 {
     "docstring": "",
-    "namespace": "django.contrib.gis.gdal.geomtype"
+    "namespace": "django.contrib.gis.gdal.geomtype",
+    "classes": [
+        {
+            "docstring": "\"Encapsulate OGR Geometry Types.\"",
+            "name": "OGRGeomType",
+            "parent_name": "django.contrib.gis.gdal.geomtype"
+        }
+    ]
 }

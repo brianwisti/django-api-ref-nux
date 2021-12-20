@@ -4,35 +4,366 @@
     "modules": [
         {
             "docstring": "",
-            "namespace": "django.db.models.fields.related_lookups"
+            "namespace": "django.db.models.fields.related_lookups",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "MultiColSource",
+                    "parent_name": "django.db.models.fields.related_lookups"
+                },
+                {
+                    "docstring": "",
+                    "name": "RelatedIn",
+                    "parent_name": "django.db.models.fields.related_lookups"
+                },
+                {
+                    "docstring": "",
+                    "name": "RelatedLookupMixin",
+                    "parent_name": "django.db.models.fields.related_lookups"
+                },
+                {
+                    "docstring": "",
+                    "name": "RelatedExact",
+                    "parent_name": "django.db.models.fields.related_lookups"
+                },
+                {
+                    "docstring": "",
+                    "name": "RelatedLessThan",
+                    "parent_name": "django.db.models.fields.related_lookups"
+                },
+                {
+                    "docstring": "",
+                    "name": "RelatedGreaterThan",
+                    "parent_name": "django.db.models.fields.related_lookups"
+                },
+                {
+                    "docstring": "",
+                    "name": "RelatedGreaterThanOrEqual",
+                    "parent_name": "django.db.models.fields.related_lookups"
+                },
+                {
+                    "docstring": "",
+                    "name": "RelatedLessThanOrEqual",
+                    "parent_name": "django.db.models.fields.related_lookups"
+                },
+                {
+                    "docstring": "",
+                    "name": "RelatedIsNull",
+                    "parent_name": "django.db.models.fields.related_lookups"
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n\"Rel objects\" for related fields.\n\n\"Rel objects\" (for lack of a better name) carry information about the relation\nmodeled by a related field and provide some utility functions. They're stored\nin the ``remote_field`` attribute of the field.\n\nThey also act as reverse fields for the purposes of the Meta API because\nthey're the closest concept currently available.\n\"\"\"",
-            "namespace": "django.db.models.fields.reverse_related"
+            "namespace": "django.db.models.fields.reverse_related",
+            "classes": [
+                {
+                    "docstring": "\"\"\"\n    Used by ForeignObject to store information about the relation.\n\n    ``_meta.get_fields()`` returns this class to provide access to the field\n    flags for the reverse relation.\n    \"\"\"",
+                    "name": "ForeignObjectRel",
+                    "parent_name": "django.db.models.fields.reverse_related"
+                },
+                {
+                    "docstring": "\"\"\"\n    Used by the ForeignKey field to store information about the relation.\n\n    ``_meta.get_fields()`` returns this class to provide access to the field\n    flags for the reverse relation.\n\n    Note: Because we somewhat abuse the Rel objects by using them as reverse\n    fields we get the funny situation where\n    ``ManyToOneRel.many_to_one == False`` and\n    ``ManyToOneRel.one_to_many == True``. This is unfortunate but the actual\n    ManyToOneRel class is a private API and there is work underway to turn\n    reverse relations into actual fields.\n    \"\"\"",
+                    "name": "ManyToOneRel",
+                    "parent_name": "django.db.models.fields.reverse_related"
+                },
+                {
+                    "docstring": "\"\"\"\n    Used by OneToOneField to store information about the relation.\n\n    ``_meta.get_fields()`` returns this class to provide access to the field\n    flags for the reverse relation.\n    \"\"\"",
+                    "name": "OneToOneRel",
+                    "parent_name": "django.db.models.fields.reverse_related"
+                },
+                {
+                    "docstring": "\"\"\"\n    Used by ManyToManyField to store information about the relation.\n\n    ``_meta.get_fields()`` returns this class to provide access to the field\n    flags for the reverse relation.\n    \"\"\"",
+                    "name": "ManyToManyRel",
+                    "parent_name": "django.db.models.fields.reverse_related"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.db.models.fields.related"
+            "namespace": "django.db.models.fields.related",
+            "classes": [
+                {
+                    "docstring": "\"\"\"Base class that all relational fields inherit from.\"\"\"",
+                    "name": "RelatedField",
+                    "parent_name": "django.db.models.fields.related"
+                },
+                {
+                    "docstring": "\"\"\"\n    Abstraction of the ForeignKey relation to support multi-column relations.\n    \"\"\"",
+                    "name": "ForeignObject",
+                    "parent_name": "django.db.models.fields.related"
+                },
+                {
+                    "docstring": "\"\"\"\n    Provide a many-to-one relation by adding a column to the local model\n    to hold the remote value.\n\n    By default ForeignKey will target the pk of the remote model but this\n    behavior can be changed by using the ``to_field`` argument.\n    \"\"\"",
+                    "name": "ForeignKey",
+                    "parent_name": "django.db.models.fields.related"
+                },
+                {
+                    "docstring": "\"\"\"\n    A OneToOneField is essentially the same as a ForeignKey, with the exception\n    that it always carries a \"unique\" constraint with it and the reverse\n    relation always returns the object pointed to (since there will only ever\n    be one), rather than returning a list.\n    \"\"\"",
+                    "name": "OneToOneField",
+                    "parent_name": "django.db.models.fields.related"
+                },
+                {
+                    "docstring": "\"\"\"\n    Provide a many-to-many relation by using an intermediary model that\n    holds two ForeignKey fields pointed at the two sides of the relation.\n\n    Unless a ``through`` model was provided, ManyToManyField will use the\n    create_many_to_many_intermediary_model factory to automatically generate\n    the intermediary model.\n    \"\"\"",
+                    "name": "ManyToManyField",
+                    "parent_name": "django.db.models.fields.related"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.db.models.fields.json"
+            "namespace": "django.db.models.fields.json",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "JSONField",
+                    "parent_name": "django.db.models.fields.json"
+                },
+                {
+                    "docstring": "",
+                    "name": "DataContains",
+                    "parent_name": "django.db.models.fields.json"
+                },
+                {
+                    "docstring": "",
+                    "name": "ContainedBy",
+                    "parent_name": "django.db.models.fields.json"
+                },
+                {
+                    "docstring": "",
+                    "name": "HasKeyLookup",
+                    "parent_name": "django.db.models.fields.json"
+                },
+                {
+                    "docstring": "",
+                    "name": "HasKey",
+                    "parent_name": "django.db.models.fields.json"
+                },
+                {
+                    "docstring": "",
+                    "name": "HasKeys",
+                    "parent_name": "django.db.models.fields.json"
+                },
+                {
+                    "docstring": "",
+                    "name": "HasAnyKeys",
+                    "parent_name": "django.db.models.fields.json"
+                },
+                {
+                    "docstring": "\"\"\"\n    Mixin to allow case-insensitive comparison of JSON values on MySQL.\n    MySQL handles strings used in JSON context using the utf8mb4_bin collation.\n    Because utf8mb4_bin is a binary collation, comparison of JSON values is\n    case-sensitive.\n    \"\"\"",
+                    "name": "CaseInsensitiveMixin",
+                    "parent_name": "django.db.models.fields.json"
+                },
+                {
+                    "docstring": "",
+                    "name": "JSONExact",
+                    "parent_name": "django.db.models.fields.json"
+                },
+                {
+                    "docstring": "",
+                    "name": "JSONIContains",
+                    "parent_name": "django.db.models.fields.json"
+                },
+                {
+                    "docstring": "",
+                    "name": "KeyTransform",
+                    "parent_name": "django.db.models.fields.json"
+                },
+                {
+                    "docstring": "",
+                    "name": "KeyTextTransform",
+                    "parent_name": "django.db.models.fields.json"
+                },
+                {
+                    "docstring": "\"\"\"\n    Mixin for combining with a lookup expecting a text lhs from a JSONField\n    key lookup. On PostgreSQL, make use of the ->> operator instead of casting\n    key values to text and performing the lookup on the resulting\n    representation.\n    \"\"\"",
+                    "name": "KeyTransformTextLookupMixin",
+                    "parent_name": "django.db.models.fields.json"
+                },
+                {
+                    "docstring": "",
+                    "name": "KeyTransformIsNull",
+                    "parent_name": "django.db.models.fields.json"
+                },
+                {
+                    "docstring": "",
+                    "name": "KeyTransformIn",
+                    "parent_name": "django.db.models.fields.json"
+                },
+                {
+                    "docstring": "",
+                    "name": "KeyTransformExact",
+                    "parent_name": "django.db.models.fields.json"
+                },
+                {
+                    "docstring": "",
+                    "name": "KeyTransformIExact",
+                    "parent_name": "django.db.models.fields.json"
+                },
+                {
+                    "docstring": "",
+                    "name": "KeyTransformIContains",
+                    "parent_name": "django.db.models.fields.json"
+                },
+                {
+                    "docstring": "",
+                    "name": "KeyTransformStartsWith",
+                    "parent_name": "django.db.models.fields.json"
+                },
+                {
+                    "docstring": "",
+                    "name": "KeyTransformIStartsWith",
+                    "parent_name": "django.db.models.fields.json"
+                },
+                {
+                    "docstring": "",
+                    "name": "KeyTransformEndsWith",
+                    "parent_name": "django.db.models.fields.json"
+                },
+                {
+                    "docstring": "",
+                    "name": "KeyTransformIEndsWith",
+                    "parent_name": "django.db.models.fields.json"
+                },
+                {
+                    "docstring": "",
+                    "name": "KeyTransformRegex",
+                    "parent_name": "django.db.models.fields.json"
+                },
+                {
+                    "docstring": "",
+                    "name": "KeyTransformIRegex",
+                    "parent_name": "django.db.models.fields.json"
+                },
+                {
+                    "docstring": "",
+                    "name": "KeyTransformNumericLookupMixin",
+                    "parent_name": "django.db.models.fields.json"
+                },
+                {
+                    "docstring": "",
+                    "name": "KeyTransformLt",
+                    "parent_name": "django.db.models.fields.json"
+                },
+                {
+                    "docstring": "",
+                    "name": "KeyTransformLte",
+                    "parent_name": "django.db.models.fields.json"
+                },
+                {
+                    "docstring": "",
+                    "name": "KeyTransformGt",
+                    "parent_name": "django.db.models.fields.json"
+                },
+                {
+                    "docstring": "",
+                    "name": "KeyTransformGte",
+                    "parent_name": "django.db.models.fields.json"
+                },
+                {
+                    "docstring": "",
+                    "name": "KeyTransformFactory",
+                    "parent_name": "django.db.models.fields.json"
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\nAccessors for related objects.\n\nWhen a field defines a relation between two models, each model class provides\nan attribute to access related instances of the other model class (unless the\nreverse accessor has been disabled with related_name='+').\n\nAccessors are implemented as descriptors in order to customize access and\nassignment. This module defines the descriptor classes.\n\nForward accessors follow foreign keys. Reverse accessors trace them back. For\nexample, with the following models::\n\n    class Parent(Model):\n        pass\n\n    class Child(Model):\n        parent = ForeignKey(Parent, related_name='children')\n\n ``child.parent`` is a forward many-to-one relation. ``parent.children`` is a\nreverse many-to-one relation.\n\nThere are three types of relations (many-to-one, one-to-one, and many-to-many)\nand two directions (forward and reverse) for a total of six combinations.\n\n1. Related instance on the forward side of a many-to-one relation:\n   ``ForwardManyToOneDescriptor``.\n\n   Uniqueness of foreign key values is irrelevant to accessing the related\n   instance, making the many-to-one and one-to-one cases identical as far as\n   the descriptor is concerned. The constraint is checked upstream (unicity\n   validation in forms) or downstream (unique indexes in the database).\n\n2. Related instance on the forward side of a one-to-one\n   relation: ``ForwardOneToOneDescriptor``.\n\n   It avoids querying the database when accessing the parent link field in\n   a multi-table inheritance scenario.\n\n3. Related instance on the reverse side of a one-to-one relation:\n   ``ReverseOneToOneDescriptor``.\n\n   One-to-one relations are asymmetrical, despite the apparent symmetry of the\n   name, because they're implemented in the database with a foreign key from\n   one table to another. As a consequence ``ReverseOneToOneDescriptor`` is\n   slightly different from ``ForwardManyToOneDescriptor``.\n\n4. Related objects manager for related instances on the reverse side of a\n   many-to-one relation: ``ReverseManyToOneDescriptor``.\n\n   Unlike the previous two classes, this one provides access to a collection\n   of objects. It returns a manager rather than an instance.\n\n5. Related objects manager for related instances on the forward or reverse\n   sides of a many-to-many relation: ``ManyToManyDescriptor``.\n\n   Many-to-many relations are symmetrical. The syntax of Django models\n   requires declaring them on one side but that's an implementation detail.\n   They could be declared on the other side without any change in behavior.\n   Therefore the forward and reverse descriptors can be the same.\n\n   If you're looking for ``ForwardManyToManyDescriptor`` or\n   ``ReverseManyToManyDescriptor``, use ``ManyToManyDescriptor`` instead.\n\"\"\"",
-            "namespace": "django.db.models.fields.related_descriptors"
+            "namespace": "django.db.models.fields.related_descriptors",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "ForeignKeyDeferredAttribute",
+                    "parent_name": "django.db.models.fields.related_descriptors"
+                },
+                {
+                    "docstring": "\"\"\"\n    Accessor to the related object on the forward side of a many-to-one or\n    one-to-one (via ForwardOneToOneDescriptor subclass) relation.\n\n    In the example::\n\n        class Child(Model):\n            parent = ForeignKey(Parent, related_name='children')\n\n    ``Child.parent`` is a ``ForwardManyToOneDescriptor`` instance.\n    \"\"\"",
+                    "name": "ForwardManyToOneDescriptor",
+                    "parent_name": "django.db.models.fields.related_descriptors"
+                },
+                {
+                    "docstring": "\"\"\"\n    Accessor to the related object on the forward side of a one-to-one relation.\n\n    In the example::\n\n        class Restaurant(Model):\n            place = OneToOneField(Place, related_name='restaurant')\n\n    ``Restaurant.place`` is a ``ForwardOneToOneDescriptor`` instance.\n    \"\"\"",
+                    "name": "ForwardOneToOneDescriptor",
+                    "parent_name": "django.db.models.fields.related_descriptors"
+                },
+                {
+                    "docstring": "\"\"\"\n    Accessor to the related object on the reverse side of a one-to-one\n    relation.\n\n    In the example::\n\n        class Restaurant(Model):\n            place = OneToOneField(Place, related_name='restaurant')\n\n    ``Place.restaurant`` is a ``ReverseOneToOneDescriptor`` instance.\n    \"\"\"",
+                    "name": "ReverseOneToOneDescriptor",
+                    "parent_name": "django.db.models.fields.related_descriptors"
+                },
+                {
+                    "docstring": "\"\"\"\n    Accessor to the related objects manager on the reverse side of a\n    many-to-one relation.\n\n    In the example::\n\n        class Child(Model):\n            parent = ForeignKey(Parent, related_name='children')\n\n    ``Parent.children`` is a ``ReverseManyToOneDescriptor`` instance.\n\n    Most of the implementation is delegated to a dynamically defined manager\n    class built by ``create_forward_many_to_many_manager()`` defined below.\n    \"\"\"",
+                    "name": "ReverseManyToOneDescriptor",
+                    "parent_name": "django.db.models.fields.related_descriptors"
+                },
+                {
+                    "docstring": "\"\"\"\n    Accessor to the related objects manager on the forward and reverse sides of\n    a many-to-many relation.\n\n    In the example::\n\n        class Pizza(Model):\n            toppings = ManyToManyField(Topping, related_name='pizzas')\n\n    ``Pizza.toppings`` and ``Topping.pizzas`` are ``ManyToManyDescriptor``\n    instances.\n\n    Most of the implementation is delegated to a dynamically defined manager\n    class built by ``create_forward_many_to_many_manager()`` defined below.\n    \"\"\"",
+                    "name": "ManyToManyDescriptor",
+                    "parent_name": "django.db.models.fields.related_descriptors"
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\nField-like classes that aren't really fields. It's easier to use objects that\nhave the same attributes as fields sometimes (avoids a lot of special casing).\n\"\"\"",
-            "namespace": "django.db.models.fields.proxy"
+            "namespace": "django.db.models.fields.proxy",
+            "classes": [
+                {
+                    "docstring": "\"\"\"\n    A proxy for the _order database field that is used when\n    Meta.order_with_respect_to is specified.\n    \"\"\"",
+                    "name": "OrderWrt",
+                    "parent_name": "django.db.models.fields.proxy"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.db.models.fields.files"
+            "namespace": "django.db.models.fields.files",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "FieldFile",
+                    "parent_name": "django.db.models.fields.files"
+                },
+                {
+                    "docstring": "\"\"\"\n    The descriptor for the file attribute on the model instance. Return a\n    FieldFile when accessed so you can write code like::\n\n        >>> from myapp.models import MyModel\n        >>> instance = MyModel.objects.get(pk=1)\n        >>> instance.file.size\n\n    Assign a file object on assignment so you can do::\n\n        >>> with open('/path/to/hello.world') as f:\n        ...     instance.file = File(f)\n    \"\"\"",
+                    "name": "FileDescriptor",
+                    "parent_name": "django.db.models.fields.files"
+                },
+                {
+                    "docstring": "",
+                    "name": "FileField",
+                    "parent_name": "django.db.models.fields.files"
+                },
+                {
+                    "docstring": "\"\"\"\n    Just like the FileDescriptor, but for ImageFields. The only difference is\n    assigning the width/height to the width_field/height_field, if appropriate.\n    \"\"\"",
+                    "name": "ImageFileDescriptor",
+                    "parent_name": "django.db.models.fields.files"
+                },
+                {
+                    "docstring": "",
+                    "name": "ImageFieldFile",
+                    "parent_name": "django.db.models.fields.files"
+                },
+                {
+                    "docstring": "",
+                    "name": "ImageField",
+                    "parent_name": "django.db.models.fields.files"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.db.models.fields.mixins"
+            "namespace": "django.db.models.fields.mixins",
+            "classes": [
+                {
+                    "docstring": "\"\"\"Provide an API for working with the model's fields value cache.\"\"\"",
+                    "name": "FieldCacheMixin",
+                    "parent_name": "django.db.models.fields.mixins"
+                },
+                {
+                    "docstring": "",
+                    "name": "CheckFieldDefaultMixin",
+                    "parent_name": "django.db.models.fields.mixins"
+                }
+            ]
         }
     ],
     "subpackages": []

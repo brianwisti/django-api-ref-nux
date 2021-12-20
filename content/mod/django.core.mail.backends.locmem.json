@@ -1,4 +1,11 @@
 {
     "docstring": "\"\"\"\nBackend for test environment.\n\"\"\"",
-    "namespace": "django.core.mail.backends.locmem"
+    "namespace": "django.core.mail.backends.locmem",
+    "classes": [
+        {
+            "docstring": "\"\"\"\n    An email backend for use during test sessions.\n\n    The test connection stores email messages in a dummy outbox,\n    rather than sending them out on the wire.\n\n    The dummy outbox is accessible through the outbox instance attribute.\n    \"\"\"",
+            "name": "EmailBackend",
+            "parent_name": "django.core.mail.backends.locmem"
+        }
+    ]
 }

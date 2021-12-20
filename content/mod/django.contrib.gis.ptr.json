@@ -1,4 +1,11 @@
 {
     "docstring": "",
-    "namespace": "django.contrib.gis.ptr"
+    "namespace": "django.contrib.gis.ptr",
+    "classes": [
+        {
+            "docstring": "\"\"\"\n    Base class for objects that have a pointer access property\n    that controls access to the underlying C pointer.\n    \"\"\"",
+            "name": "CPointerBase",
+            "parent_name": "django.contrib.gis.ptr"
+        }
+    ]
 }

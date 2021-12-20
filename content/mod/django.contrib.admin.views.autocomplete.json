@@ -1,4 +1,11 @@
 {
     "docstring": "",
-    "namespace": "django.contrib.admin.views.autocomplete"
+    "namespace": "django.contrib.admin.views.autocomplete",
+    "classes": [
+        {
+            "docstring": "\"\"\"Handle AutocompleteWidget's AJAX requests for data.\"\"\"",
+            "name": "AutocompleteJsonView",
+            "parent_name": "django.contrib.admin.views.autocomplete"
+        }
+    ]
 }

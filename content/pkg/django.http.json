@@ -4,19 +4,186 @@
     "modules": [
         {
             "docstring": "",
-            "namespace": "django.http.cookie"
+            "namespace": "django.http.cookie",
+            "classes": []
         },
         {
             "docstring": "\"\"\"\nMulti-part parsing for file uploads.\n\nExposes one class, ``MultiPartParser``, which feeds chunks of uploaded data to\nfile upload handlers for processing.\n\"\"\"",
-            "namespace": "django.http.multipartparser"
+            "namespace": "django.http.multipartparser",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "MultiPartParserError",
+                    "parent_name": "django.http.multipartparser"
+                },
+                {
+                    "docstring": "\"\"\"\n    No more reads are allowed from this device.\n    \"\"\"",
+                    "name": "InputStreamExhausted",
+                    "parent_name": "django.http.multipartparser"
+                },
+                {
+                    "docstring": "\"\"\"\n    A rfc2388 multipart/form-data parser.\n\n    ``MultiValueDict.parse()`` reads the input stream in ``chunk_size`` chunks\n    and returns a tuple of ``(MultiValueDict(POST), MultiValueDict(FILES))``.\n    \"\"\"",
+                    "name": "MultiPartParser",
+                    "parent_name": "django.http.multipartparser"
+                },
+                {
+                    "docstring": "\"\"\"\n    The LazyStream wrapper allows one to get and \"unget\" bytes from a stream.\n\n    Given a producer object (an iterator that yields bytestrings), the\n    LazyStream object will support iteration, reading, and keeping a \"look-back\"\n    variable in case you need to \"unget\" some bytes.\n    \"\"\"",
+                    "name": "LazyStream",
+                    "parent_name": "django.http.multipartparser"
+                },
+                {
+                    "docstring": "\"\"\"\n    An iterable that will yield chunks of data. Given a file-like object as the\n    constructor, yield chunks of read operations from that object.\n    \"\"\"",
+                    "name": "ChunkIter",
+                    "parent_name": "django.http.multipartparser"
+                },
+                {
+                    "docstring": "\"\"\"\n    A Producer that will iterate over boundaries.\n    \"\"\"",
+                    "name": "InterBoundaryIter",
+                    "parent_name": "django.http.multipartparser"
+                },
+                {
+                    "docstring": "\"\"\"\n    A Producer that is sensitive to boundaries.\n\n    Will happily yield bytes until a boundary is found. Will yield the bytes\n    before the boundary, throw away the boundary bytes themselves, and push the\n    post-boundary bytes back on the stream.\n\n    The future calls to next() after locating the boundary will raise a\n    StopIteration exception.\n    \"\"\"",
+                    "name": "BoundaryIter",
+                    "parent_name": "django.http.multipartparser"
+                },
+                {
+                    "docstring": "",
+                    "name": "Parser",
+                    "parent_name": "django.http.multipartparser"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.http.response"
+            "namespace": "django.http.response",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "ResponseHeaders",
+                    "parent_name": "django.http.response"
+                },
+                {
+                    "docstring": "",
+                    "name": "BadHeaderError",
+                    "parent_name": "django.http.response"
+                },
+                {
+                    "docstring": "\"\"\"\n    An HTTP response base class with dictionary-accessed headers.\n\n    This class doesn't handle content. It should not be used directly.\n    Use the HttpResponse and StreamingHttpResponse subclasses instead.\n    \"\"\"",
+                    "name": "HttpResponseBase",
+                    "parent_name": "django.http.response"
+                },
+                {
+                    "docstring": "\"\"\"\n    An HTTP response class with a string as content.\n\n    This content can be read, appended to, or replaced.\n    \"\"\"",
+                    "name": "HttpResponse",
+                    "parent_name": "django.http.response"
+                },
+                {
+                    "docstring": "\"\"\"\n    A streaming HTTP response class with an iterator as content.\n\n    This should only be iterated once, when the response is streamed to the\n    client. However, it can be appended to or replaced with a new iterator\n    that wraps the original content (or yields entirely new content).\n    \"\"\"",
+                    "name": "StreamingHttpResponse",
+                    "parent_name": "django.http.response"
+                },
+                {
+                    "docstring": "\"\"\"\n    A streaming HTTP response class optimized for files.\n    \"\"\"",
+                    "name": "FileResponse",
+                    "parent_name": "django.http.response"
+                },
+                {
+                    "docstring": "",
+                    "name": "HttpResponseRedirectBase",
+                    "parent_name": "django.http.response"
+                },
+                {
+                    "docstring": "",
+                    "name": "HttpResponseRedirect",
+                    "parent_name": "django.http.response"
+                },
+                {
+                    "docstring": "",
+                    "name": "HttpResponsePermanentRedirect",
+                    "parent_name": "django.http.response"
+                },
+                {
+                    "docstring": "",
+                    "name": "HttpResponseNotModified",
+                    "parent_name": "django.http.response"
+                },
+                {
+                    "docstring": "",
+                    "name": "HttpResponseBadRequest",
+                    "parent_name": "django.http.response"
+                },
+                {
+                    "docstring": "",
+                    "name": "HttpResponseNotFound",
+                    "parent_name": "django.http.response"
+                },
+                {
+                    "docstring": "",
+                    "name": "HttpResponseForbidden",
+                    "parent_name": "django.http.response"
+                },
+                {
+                    "docstring": "",
+                    "name": "HttpResponseNotAllowed",
+                    "parent_name": "django.http.response"
+                },
+                {
+                    "docstring": "",
+                    "name": "HttpResponseGone",
+                    "parent_name": "django.http.response"
+                },
+                {
+                    "docstring": "",
+                    "name": "HttpResponseServerError",
+                    "parent_name": "django.http.response"
+                },
+                {
+                    "docstring": "",
+                    "name": "Http404",
+                    "parent_name": "django.http.response"
+                },
+                {
+                    "docstring": "\"\"\"\n    An HTTP response class that consumes data to be serialized to JSON.\n\n    :param data: Data to be dumped into json. By default only ``dict`` objects\n      are allowed to be passed due to a security flaw before ECMAScript 5. See\n      the ``safe`` parameter for more information.\n    :param encoder: Should be a json encoder class. Defaults to\n      ``django.core.serializers.json.DjangoJSONEncoder``.\n    :param safe: Controls if only ``dict`` objects may be serialized. Defaults\n      to ``True``.\n    :param json_dumps_params: A dictionary of kwargs passed to json.dumps().\n    \"\"\"",
+                    "name": "JsonResponse",
+                    "parent_name": "django.http.response"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.http.request"
+            "namespace": "django.http.request",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "UnreadablePostError",
+                    "parent_name": "django.http.request"
+                },
+                {
+                    "docstring": "\"\"\"\n    You cannot access raw_post_data from a request that has\n    multipart/* POST data if it has been accessed via POST,\n    FILES, etc..\n    \"\"\"",
+                    "name": "RawPostDataException",
+                    "parent_name": "django.http.request"
+                },
+                {
+                    "docstring": "\"\"\"A basic HTTP request.\"\"\"",
+                    "name": "HttpRequest",
+                    "parent_name": "django.http.request"
+                },
+                {
+                    "docstring": "",
+                    "name": "HttpHeaders",
+                    "parent_name": "django.http.request"
+                },
+                {
+                    "docstring": "\"\"\"\n    A specialized MultiValueDict which represents a query string.\n\n    A QueryDict can be used to represent GET or POST data. It subclasses\n    MultiValueDict since keys in such data can be repeated, for instance\n    in the data from a form with a <select multiple> field.\n\n    By default QueryDicts are immutable, though the copy() method\n    will always return a mutable copy.\n\n    Both keys and values set on this class are converted from the given encoding\n    (DEFAULT_CHARSET by default) to str.\n    \"\"\"",
+                    "name": "QueryDict",
+                    "parent_name": "django.http.request"
+                },
+                {
+                    "docstring": "",
+                    "name": "MediaType",
+                    "parent_name": "django.http.request"
+                }
+            ]
         }
     ],
     "subpackages": []

@@ -1,4 +1,26 @@
 {
     "docstring": "",
-    "namespace": "django.db.migrations.state"
+    "namespace": "django.db.migrations.state",
+    "classes": [
+        {
+            "docstring": "\"\"\"\n    Represent the entire project's overall state. This is the item that is\n    passed around - do it here rather than at the app level so that cross-app\n    FKs/etc. resolve properly.\n    \"\"\"",
+            "name": "ProjectState",
+            "parent_name": "django.db.migrations.state"
+        },
+        {
+            "docstring": "\"\"\"Stub of an AppConfig. Only provides a label and a dict of models.\"\"\"",
+            "name": "AppConfigStub",
+            "parent_name": "django.db.migrations.state"
+        },
+        {
+            "docstring": "\"\"\"\n    Subclass of the global Apps registry class to better handle dynamic model\n    additions and removals.\n    \"\"\"",
+            "name": "StateApps",
+            "parent_name": "django.db.migrations.state"
+        },
+        {
+            "docstring": "\"\"\"\n    Represent a Django Model. Don't use the actual Model class as it's not\n    designed to have its options changed - instead, mutate this one and then\n    render it into a Model as required.\n\n    Note that while you are allowed to mutate .fields, you are not allowed\n    to mutate the Field instances inside there themselves - you must instead\n    assign new ones, as these are not detached during a clone.\n    \"\"\"",
+            "name": "ModelState",
+            "parent_name": "django.db.migrations.state"
+        }
+    ]
 }

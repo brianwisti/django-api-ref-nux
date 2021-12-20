@@ -1,4 +1,21 @@
 {
     "docstring": "",
-    "namespace": "django.contrib.gis.forms.widgets"
+    "namespace": "django.contrib.gis.forms.widgets",
+    "classes": [
+        {
+            "docstring": "\"\"\"\n    The base class for rich geometry widgets.\n    Render a map using the WKT of the geometry.\n    \"\"\"",
+            "name": "BaseGeometryWidget",
+            "parent_name": "django.contrib.gis.forms.widgets"
+        },
+        {
+            "docstring": "",
+            "name": "OpenLayersWidget",
+            "parent_name": "django.contrib.gis.forms.widgets"
+        },
+        {
+            "docstring": "\"\"\"\n    An OpenLayers/OpenStreetMap-based widget.\n    \"\"\"",
+            "name": "OSMWidget",
+            "parent_name": "django.contrib.gis.forms.widgets"
+        }
+    ]
 }

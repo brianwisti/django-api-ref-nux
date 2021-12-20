@@ -1,4 +1,56 @@
 {
     "docstring": "",
-    "namespace": "django.contrib.postgres.lookups"
+    "namespace": "django.contrib.postgres.lookups",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "DataContains",
+            "parent_name": "django.contrib.postgres.lookups"
+        },
+        {
+            "docstring": "",
+            "name": "ContainedBy",
+            "parent_name": "django.contrib.postgres.lookups"
+        },
+        {
+            "docstring": "",
+            "name": "Overlap",
+            "parent_name": "django.contrib.postgres.lookups"
+        },
+        {
+            "docstring": "",
+            "name": "HasKey",
+            "parent_name": "django.contrib.postgres.lookups"
+        },
+        {
+            "docstring": "",
+            "name": "HasKeys",
+            "parent_name": "django.contrib.postgres.lookups"
+        },
+        {
+            "docstring": "",
+            "name": "HasAnyKeys",
+            "parent_name": "django.contrib.postgres.lookups"
+        },
+        {
+            "docstring": "",
+            "name": "Unaccent",
+            "parent_name": "django.contrib.postgres.lookups"
+        },
+        {
+            "docstring": "",
+            "name": "SearchLookup",
+            "parent_name": "django.contrib.postgres.lookups"
+        },
+        {
+            "docstring": "",
+            "name": "TrigramSimilar",
+            "parent_name": "django.contrib.postgres.lookups"
+        },
+        {
+            "docstring": "",
+            "name": "TrigramWordSimilar",
+            "parent_name": "django.contrib.postgres.lookups"
+        }
+    ]
 }

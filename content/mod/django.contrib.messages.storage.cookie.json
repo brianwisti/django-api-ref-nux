@@ -1,4 +1,26 @@
 {
     "docstring": "",
-    "namespace": "django.contrib.messages.storage.cookie"
+    "namespace": "django.contrib.messages.storage.cookie",
+    "classes": [
+        {
+            "docstring": "\"\"\"\n    Compactly serialize instances of the ``Message`` class as JSON.\n    \"\"\"",
+            "name": "MessageEncoder",
+            "parent_name": "django.contrib.messages.storage.cookie"
+        },
+        {
+            "docstring": "\"\"\"\n    Decode JSON that includes serialized ``Message`` instances.\n    \"\"\"",
+            "name": "MessageDecoder",
+            "parent_name": "django.contrib.messages.storage.cookie"
+        },
+        {
+            "docstring": "",
+            "name": "MessageSerializer",
+            "parent_name": "django.contrib.messages.storage.cookie"
+        },
+        {
+            "docstring": "\"\"\"\n    Store messages in a cookie.\n    \"\"\"",
+            "name": "CookieStorage",
+            "parent_name": "django.contrib.messages.storage.cookie"
+        }
+    ]
 }

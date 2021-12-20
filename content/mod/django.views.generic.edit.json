@@ -1,4 +1,71 @@
 {
     "docstring": "",
-    "namespace": "django.views.generic.edit"
+    "namespace": "django.views.generic.edit",
+    "classes": [
+        {
+            "docstring": "\"\"\"Provide a way to show and handle a form in a request.\"\"\"",
+            "name": "FormMixin",
+            "parent_name": "django.views.generic.edit"
+        },
+        {
+            "docstring": "\"\"\"Provide a way to show and handle a ModelForm in a request.\"\"\"",
+            "name": "ModelFormMixin",
+            "parent_name": "django.views.generic.edit"
+        },
+        {
+            "docstring": "\"\"\"Render a form on GET and processes it on POST.\"\"\"",
+            "name": "ProcessFormView",
+            "parent_name": "django.views.generic.edit"
+        },
+        {
+            "docstring": "\"\"\"A base view for displaying a form.\"\"\"",
+            "name": "BaseFormView",
+            "parent_name": "django.views.generic.edit"
+        },
+        {
+            "docstring": "\"\"\"A view for displaying a form and rendering a template response.\"\"\"",
+            "name": "FormView",
+            "parent_name": "django.views.generic.edit"
+        },
+        {
+            "docstring": "\"\"\"\n    Base view for creating a new object instance.\n\n    Using this base class requires subclassing to provide a response mixin.\n    \"\"\"",
+            "name": "BaseCreateView",
+            "parent_name": "django.views.generic.edit"
+        },
+        {
+            "docstring": "\"\"\"\n    View for creating a new object, with a response rendered by a template.\n    \"\"\"",
+            "name": "CreateView",
+            "parent_name": "django.views.generic.edit"
+        },
+        {
+            "docstring": "\"\"\"\n    Base view for updating an existing object.\n\n    Using this base class requires subclassing to provide a response mixin.\n    \"\"\"",
+            "name": "BaseUpdateView",
+            "parent_name": "django.views.generic.edit"
+        },
+        {
+            "docstring": "\"\"\"View for updating an object, with a response rendered by a template.\"\"\"",
+            "name": "UpdateView",
+            "parent_name": "django.views.generic.edit"
+        },
+        {
+            "docstring": "\"\"\"Provide the ability to delete objects.\"\"\"",
+            "name": "DeletionMixin",
+            "parent_name": "django.views.generic.edit"
+        },
+        {
+            "docstring": "",
+            "name": "DeleteViewCustomDeleteWarning",
+            "parent_name": "django.views.generic.edit"
+        },
+        {
+            "docstring": "\"\"\"\n    Base view for deleting an object.\n\n    Using this base class requires subclassing to provide a response mixin.\n    \"\"\"",
+            "name": "BaseDeleteView",
+            "parent_name": "django.views.generic.edit"
+        },
+        {
+            "docstring": "\"\"\"\n    View for deleting an object retrieved with self.get_object(), with a\n    response rendered by a template.\n    \"\"\"",
+            "name": "DeleteView",
+            "parent_name": "django.views.generic.edit"
+        }
+    ]
 }

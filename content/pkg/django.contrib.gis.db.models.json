@@ -4,23 +4,483 @@
     "modules": [
         {
             "docstring": "",
-            "namespace": "django.contrib.gis.db.models.aggregates"
+            "namespace": "django.contrib.gis.db.models.aggregates",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "GeoAggregate",
+                    "parent_name": "django.contrib.gis.db.models.aggregates"
+                },
+                {
+                    "docstring": "",
+                    "name": "Collect",
+                    "parent_name": "django.contrib.gis.db.models.aggregates"
+                },
+                {
+                    "docstring": "",
+                    "name": "Extent",
+                    "parent_name": "django.contrib.gis.db.models.aggregates"
+                },
+                {
+                    "docstring": "",
+                    "name": "Extent3D",
+                    "parent_name": "django.contrib.gis.db.models.aggregates"
+                },
+                {
+                    "docstring": "",
+                    "name": "MakeLine",
+                    "parent_name": "django.contrib.gis.db.models.aggregates"
+                },
+                {
+                    "docstring": "",
+                    "name": "Union",
+                    "parent_name": "django.contrib.gis.db.models.aggregates"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.contrib.gis.db.models.functions"
+            "namespace": "django.contrib.gis.db.models.functions",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "GeoFuncMixin",
+                    "parent_name": "django.contrib.gis.db.models.functions"
+                },
+                {
+                    "docstring": "",
+                    "name": "GeoFunc",
+                    "parent_name": "django.contrib.gis.db.models.functions"
+                },
+                {
+                    "docstring": "",
+                    "name": "GeomOutputGeoFunc",
+                    "parent_name": "django.contrib.gis.db.models.functions"
+                },
+                {
+                    "docstring": "\"\"\"\n    By default, Decimal values are converted to str by the SQLite backend, which\n    is not acceptable by the GIS functions expecting numeric values.\n    \"\"\"",
+                    "name": "SQLiteDecimalToFloatMixin",
+                    "parent_name": "django.contrib.gis.db.models.functions"
+                },
+                {
+                    "docstring": "",
+                    "name": "OracleToleranceMixin",
+                    "parent_name": "django.contrib.gis.db.models.functions"
+                },
+                {
+                    "docstring": "",
+                    "name": "Area",
+                    "parent_name": "django.contrib.gis.db.models.functions"
+                },
+                {
+                    "docstring": "",
+                    "name": "Azimuth",
+                    "parent_name": "django.contrib.gis.db.models.functions"
+                },
+                {
+                    "docstring": "",
+                    "name": "AsGeoJSON",
+                    "parent_name": "django.contrib.gis.db.models.functions"
+                },
+                {
+                    "docstring": "",
+                    "name": "AsGML",
+                    "parent_name": "django.contrib.gis.db.models.functions"
+                },
+                {
+                    "docstring": "",
+                    "name": "AsKML",
+                    "parent_name": "django.contrib.gis.db.models.functions"
+                },
+                {
+                    "docstring": "",
+                    "name": "AsSVG",
+                    "parent_name": "django.contrib.gis.db.models.functions"
+                },
+                {
+                    "docstring": "",
+                    "name": "AsWKB",
+                    "parent_name": "django.contrib.gis.db.models.functions"
+                },
+                {
+                    "docstring": "",
+                    "name": "AsWKT",
+                    "parent_name": "django.contrib.gis.db.models.functions"
+                },
+                {
+                    "docstring": "",
+                    "name": "BoundingCircle",
+                    "parent_name": "django.contrib.gis.db.models.functions"
+                },
+                {
+                    "docstring": "",
+                    "name": "Centroid",
+                    "parent_name": "django.contrib.gis.db.models.functions"
+                },
+                {
+                    "docstring": "",
+                    "name": "Difference",
+                    "parent_name": "django.contrib.gis.db.models.functions"
+                },
+                {
+                    "docstring": "",
+                    "name": "DistanceResultMixin",
+                    "parent_name": "django.contrib.gis.db.models.functions"
+                },
+                {
+                    "docstring": "",
+                    "name": "Distance",
+                    "parent_name": "django.contrib.gis.db.models.functions"
+                },
+                {
+                    "docstring": "",
+                    "name": "Envelope",
+                    "parent_name": "django.contrib.gis.db.models.functions"
+                },
+                {
+                    "docstring": "",
+                    "name": "ForcePolygonCW",
+                    "parent_name": "django.contrib.gis.db.models.functions"
+                },
+                {
+                    "docstring": "",
+                    "name": "GeoHash",
+                    "parent_name": "django.contrib.gis.db.models.functions"
+                },
+                {
+                    "docstring": "",
+                    "name": "GeometryDistance",
+                    "parent_name": "django.contrib.gis.db.models.functions"
+                },
+                {
+                    "docstring": "",
+                    "name": "Intersection",
+                    "parent_name": "django.contrib.gis.db.models.functions"
+                },
+                {
+                    "docstring": "",
+                    "name": "IsValid",
+                    "parent_name": "django.contrib.gis.db.models.functions"
+                },
+                {
+                    "docstring": "",
+                    "name": "Length",
+                    "parent_name": "django.contrib.gis.db.models.functions"
+                },
+                {
+                    "docstring": "",
+                    "name": "LineLocatePoint",
+                    "parent_name": "django.contrib.gis.db.models.functions"
+                },
+                {
+                    "docstring": "",
+                    "name": "MakeValid",
+                    "parent_name": "django.contrib.gis.db.models.functions"
+                },
+                {
+                    "docstring": "",
+                    "name": "MemSize",
+                    "parent_name": "django.contrib.gis.db.models.functions"
+                },
+                {
+                    "docstring": "",
+                    "name": "NumGeometries",
+                    "parent_name": "django.contrib.gis.db.models.functions"
+                },
+                {
+                    "docstring": "",
+                    "name": "NumPoints",
+                    "parent_name": "django.contrib.gis.db.models.functions"
+                },
+                {
+                    "docstring": "",
+                    "name": "Perimeter",
+                    "parent_name": "django.contrib.gis.db.models.functions"
+                },
+                {
+                    "docstring": "",
+                    "name": "PointOnSurface",
+                    "parent_name": "django.contrib.gis.db.models.functions"
+                },
+                {
+                    "docstring": "",
+                    "name": "Reverse",
+                    "parent_name": "django.contrib.gis.db.models.functions"
+                },
+                {
+                    "docstring": "",
+                    "name": "Scale",
+                    "parent_name": "django.contrib.gis.db.models.functions"
+                },
+                {
+                    "docstring": "",
+                    "name": "SnapToGrid",
+                    "parent_name": "django.contrib.gis.db.models.functions"
+                },
+                {
+                    "docstring": "",
+                    "name": "SymDifference",
+                    "parent_name": "django.contrib.gis.db.models.functions"
+                },
+                {
+                    "docstring": "",
+                    "name": "Transform",
+                    "parent_name": "django.contrib.gis.db.models.functions"
+                },
+                {
+                    "docstring": "",
+                    "name": "Translate",
+                    "parent_name": "django.contrib.gis.db.models.functions"
+                },
+                {
+                    "docstring": "",
+                    "name": "Union",
+                    "parent_name": "django.contrib.gis.db.models.functions"
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\nThe SpatialProxy object allows for lazy-geometries and lazy-rasters. The proxy\nuses Python descriptors for instantiating and setting Geometry or Raster\nobjects corresponding to geographic model fields.\n\nThanks to Robert Coup for providing this functionality (see #4322).\n\"\"\"",
-            "namespace": "django.contrib.gis.db.models.proxy"
+            "namespace": "django.contrib.gis.db.models.proxy",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "SpatialProxy",
+                    "parent_name": "django.contrib.gis.db.models.proxy"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.contrib.gis.db.models.fields"
+            "namespace": "django.contrib.gis.db.models.fields",
+            "classes": [
+                {
+                    "docstring": "\"\"\"\n    The Base GIS Field.\n\n    It's used as a base class for GeometryField and RasterField. Defines\n    properties that are common to all GIS fields such as the characteristics\n    of the spatial reference system of the field.\n    \"\"\"",
+                    "name": "BaseSpatialField",
+                    "parent_name": "django.contrib.gis.db.models.fields"
+                },
+                {
+                    "docstring": "\"\"\"\n    The base Geometry field -- maps to the OpenGIS Specification Geometry type.\n    \"\"\"",
+                    "name": "GeometryField",
+                    "parent_name": "django.contrib.gis.db.models.fields"
+                },
+                {
+                    "docstring": "",
+                    "name": "PointField",
+                    "parent_name": "django.contrib.gis.db.models.fields"
+                },
+                {
+                    "docstring": "",
+                    "name": "LineStringField",
+                    "parent_name": "django.contrib.gis.db.models.fields"
+                },
+                {
+                    "docstring": "",
+                    "name": "PolygonField",
+                    "parent_name": "django.contrib.gis.db.models.fields"
+                },
+                {
+                    "docstring": "",
+                    "name": "MultiPointField",
+                    "parent_name": "django.contrib.gis.db.models.fields"
+                },
+                {
+                    "docstring": "",
+                    "name": "MultiLineStringField",
+                    "parent_name": "django.contrib.gis.db.models.fields"
+                },
+                {
+                    "docstring": "",
+                    "name": "MultiPolygonField",
+                    "parent_name": "django.contrib.gis.db.models.fields"
+                },
+                {
+                    "docstring": "",
+                    "name": "GeometryCollectionField",
+                    "parent_name": "django.contrib.gis.db.models.fields"
+                },
+                {
+                    "docstring": "\"Used as a return value from an extent aggregate\"",
+                    "name": "ExtentField",
+                    "parent_name": "django.contrib.gis.db.models.fields"
+                },
+                {
+                    "docstring": "\"\"\"\n    Raster field for GeoDjango -- evaluates into GDALRaster objects.\n    \"\"\"",
+                    "name": "RasterField",
+                    "parent_name": "django.contrib.gis.db.models.fields"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.contrib.gis.db.models.lookups"
+            "namespace": "django.contrib.gis.db.models.lookups",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "RasterBandTransform",
+                    "parent_name": "django.contrib.gis.db.models.lookups"
+                },
+                {
+                    "docstring": "",
+                    "name": "GISLookup",
+                    "parent_name": "django.contrib.gis.db.models.lookups"
+                },
+                {
+                    "docstring": "\"\"\"\n    The overlaps_left operator returns true if A's bounding box overlaps or is to the\n    left of B's bounding box.\n    \"\"\"",
+                    "name": "OverlapsLeftLookup",
+                    "parent_name": "django.contrib.gis.db.models.lookups"
+                },
+                {
+                    "docstring": "\"\"\"\n    The 'overlaps_right' operator returns true if A's bounding box overlaps or is to the\n    right of B's bounding box.\n    \"\"\"",
+                    "name": "OverlapsRightLookup",
+                    "parent_name": "django.contrib.gis.db.models.lookups"
+                },
+                {
+                    "docstring": "\"\"\"\n    The 'overlaps_below' operator returns true if A's bounding box overlaps or is below\n    B's bounding box.\n    \"\"\"",
+                    "name": "OverlapsBelowLookup",
+                    "parent_name": "django.contrib.gis.db.models.lookups"
+                },
+                {
+                    "docstring": "\"\"\"\n    The 'overlaps_above' operator returns true if A's bounding box overlaps or is above\n    B's bounding box.\n    \"\"\"",
+                    "name": "OverlapsAboveLookup",
+                    "parent_name": "django.contrib.gis.db.models.lookups"
+                },
+                {
+                    "docstring": "\"\"\"\n    The 'left' operator returns true if A's bounding box is strictly to the left\n    of B's bounding box.\n    \"\"\"",
+                    "name": "LeftLookup",
+                    "parent_name": "django.contrib.gis.db.models.lookups"
+                },
+                {
+                    "docstring": "\"\"\"\n    The 'right' operator returns true if A's bounding box is strictly to the right\n    of B's bounding box.\n    \"\"\"",
+                    "name": "RightLookup",
+                    "parent_name": "django.contrib.gis.db.models.lookups"
+                },
+                {
+                    "docstring": "\"\"\"\n    The 'strictly_below' operator returns true if A's bounding box is strictly below B's\n    bounding box.\n    \"\"\"",
+                    "name": "StrictlyBelowLookup",
+                    "parent_name": "django.contrib.gis.db.models.lookups"
+                },
+                {
+                    "docstring": "\"\"\"\n    The 'strictly_above' operator returns true if A's bounding box is strictly above B's\n    bounding box.\n    \"\"\"",
+                    "name": "StrictlyAboveLookup",
+                    "parent_name": "django.contrib.gis.db.models.lookups"
+                },
+                {
+                    "docstring": "\"\"\"\n    The \"~=\" operator is the \"same as\" operator. It tests actual geometric\n    equality of two features. So if A and B are the same feature,\n    vertex-by-vertex, the operator returns true.\n    \"\"\"",
+                    "name": "SameAsLookup",
+                    "parent_name": "django.contrib.gis.db.models.lookups"
+                },
+                {
+                    "docstring": "\"\"\"\n    The 'bbcontains' operator returns true if A's bounding box completely contains\n    by B's bounding box.\n    \"\"\"",
+                    "name": "BBContainsLookup",
+                    "parent_name": "django.contrib.gis.db.models.lookups"
+                },
+                {
+                    "docstring": "\"\"\"\n    The 'bboverlaps' operator returns true if A's bounding box overlaps B's bounding box.\n    \"\"\"",
+                    "name": "BBOverlapsLookup",
+                    "parent_name": "django.contrib.gis.db.models.lookups"
+                },
+                {
+                    "docstring": "\"\"\"\n    The 'contained' operator returns true if A's bounding box is completely contained\n    by B's bounding box.\n    \"\"\"",
+                    "name": "ContainedLookup",
+                    "parent_name": "django.contrib.gis.db.models.lookups"
+                },
+                {
+                    "docstring": "",
+                    "name": "ContainsLookup",
+                    "parent_name": "django.contrib.gis.db.models.lookups"
+                },
+                {
+                    "docstring": "",
+                    "name": "ContainsProperlyLookup",
+                    "parent_name": "django.contrib.gis.db.models.lookups"
+                },
+                {
+                    "docstring": "",
+                    "name": "CoveredByLookup",
+                    "parent_name": "django.contrib.gis.db.models.lookups"
+                },
+                {
+                    "docstring": "",
+                    "name": "CoversLookup",
+                    "parent_name": "django.contrib.gis.db.models.lookups"
+                },
+                {
+                    "docstring": "",
+                    "name": "CrossesLookup",
+                    "parent_name": "django.contrib.gis.db.models.lookups"
+                },
+                {
+                    "docstring": "",
+                    "name": "DisjointLookup",
+                    "parent_name": "django.contrib.gis.db.models.lookups"
+                },
+                {
+                    "docstring": "",
+                    "name": "EqualsLookup",
+                    "parent_name": "django.contrib.gis.db.models.lookups"
+                },
+                {
+                    "docstring": "",
+                    "name": "IntersectsLookup",
+                    "parent_name": "django.contrib.gis.db.models.lookups"
+                },
+                {
+                    "docstring": "",
+                    "name": "OverlapsLookup",
+                    "parent_name": "django.contrib.gis.db.models.lookups"
+                },
+                {
+                    "docstring": "",
+                    "name": "RelateLookup",
+                    "parent_name": "django.contrib.gis.db.models.lookups"
+                },
+                {
+                    "docstring": "",
+                    "name": "TouchesLookup",
+                    "parent_name": "django.contrib.gis.db.models.lookups"
+                },
+                {
+                    "docstring": "",
+                    "name": "WithinLookup",
+                    "parent_name": "django.contrib.gis.db.models.lookups"
+                },
+                {
+                    "docstring": "",
+                    "name": "DistanceLookupBase",
+                    "parent_name": "django.contrib.gis.db.models.lookups"
+                },
+                {
+                    "docstring": "",
+                    "name": "DWithinLookup",
+                    "parent_name": "django.contrib.gis.db.models.lookups"
+                },
+                {
+                    "docstring": "",
+                    "name": "DistanceLookupFromFunction",
+                    "parent_name": "django.contrib.gis.db.models.lookups"
+                },
+                {
+                    "docstring": "",
+                    "name": "DistanceGTLookup",
+                    "parent_name": "django.contrib.gis.db.models.lookups"
+                },
+                {
+                    "docstring": "",
+                    "name": "DistanceGTELookup",
+                    "parent_name": "django.contrib.gis.db.models.lookups"
+                },
+                {
+                    "docstring": "",
+                    "name": "DistanceLTLookup",
+                    "parent_name": "django.contrib.gis.db.models.lookups"
+                },
+                {
+                    "docstring": "",
+                    "name": "DistanceLTELookup",
+                    "parent_name": "django.contrib.gis.db.models.lookups"
+                }
+            ]
         }
     ],
     "subpackages": [

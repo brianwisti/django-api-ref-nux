@@ -1,4 +1,31 @@
 {
     "docstring": "",
-    "namespace": "django.templatetags.tz"
+    "namespace": "django.templatetags.tz",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "UnknownTimezoneException",
+            "parent_name": "django.templatetags.tz"
+        },
+        {
+            "docstring": "",
+            "name": "datetimeobject",
+            "parent_name": "django.templatetags.tz"
+        },
+        {
+            "docstring": "\"\"\"\n    Template node class used by ``localtime_tag``.\n    \"\"\"",
+            "name": "LocalTimeNode",
+            "parent_name": "django.templatetags.tz"
+        },
+        {
+            "docstring": "\"\"\"\n    Template node class used by ``timezone_tag``.\n    \"\"\"",
+            "name": "TimezoneNode",
+            "parent_name": "django.templatetags.tz"
+        },
+        {
+            "docstring": "\"\"\"\n    Template node class used by ``get_current_timezone_tag``.\n    \"\"\"",
+            "name": "GetCurrentTimezoneNode",
+            "parent_name": "django.templatetags.tz"
+        }
+    ]
 }

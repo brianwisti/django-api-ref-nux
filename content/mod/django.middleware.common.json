@@ -1,4 +1,16 @@
 {
     "docstring": "",
-    "namespace": "django.middleware.common"
+    "namespace": "django.middleware.common",
+    "classes": [
+        {
+            "docstring": "\"\"\"\n    \"Common\" middleware for taking care of some basic operations:\n\n        - Forbid access to User-Agents in settings.DISALLOWED_USER_AGENTS\n\n        - URL rewriting: Based on the APPEND_SLASH and PREPEND_WWW settings,\n          append missing slashes and/or prepends missing \"www.\"s.\n\n            - If APPEND_SLASH is set and the initial URL doesn't end with a\n              slash, and it is not found in urlpatterns, form a new URL by\n              appending a slash at the end. If this new URL is found in\n              urlpatterns, return an HTTP redirect to this new URL; otherwise\n              process the initial URL as usual.\n\n          This behavior can be customized by subclassing CommonMiddleware and\n          overriding the response_redirect_class attribute.\n    \"\"\"",
+            "name": "CommonMiddleware",
+            "parent_name": "django.middleware.common"
+        },
+        {
+            "docstring": "",
+            "name": "BrokenLinkEmailsMiddleware",
+            "parent_name": "django.middleware.common"
+        }
+    ]
 }

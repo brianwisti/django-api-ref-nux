@@ -1,4 +1,16 @@
 {
     "docstring": "",
-    "namespace": "django.contrib.gis.gdal.raster.band"
+    "namespace": "django.contrib.gis.gdal.raster.band",
+    "classes": [
+        {
+            "docstring": "\"\"\"\n    Wrap a GDAL raster band, needs to be obtained from a GDALRaster object.\n    \"\"\"",
+            "name": "GDALBand",
+            "parent_name": "django.contrib.gis.gdal.raster.band"
+        },
+        {
+            "docstring": "",
+            "name": "BandList",
+            "parent_name": "django.contrib.gis.gdal.raster.band"
+        }
+    ]
 }

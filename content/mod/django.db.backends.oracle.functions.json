@@ -1,4 +1,16 @@
 {
     "docstring": "",
-    "namespace": "django.db.backends.oracle.functions"
+    "namespace": "django.db.backends.oracle.functions",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "IntervalToSeconds",
+            "parent_name": "django.db.backends.oracle.functions"
+        },
+        {
+            "docstring": "",
+            "name": "SecondsToInterval",
+            "parent_name": "django.db.backends.oracle.functions"
+        }
+    ]
 }

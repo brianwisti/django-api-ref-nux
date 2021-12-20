@@ -4,23 +4,86 @@
     "modules": [
         {
             "docstring": "",
-            "namespace": "django.contrib.admindocs.middleware"
+            "namespace": "django.contrib.admindocs.middleware",
+            "classes": [
+                {
+                    "docstring": "\"\"\"\n    Add an X-View header to internal HEAD requests.\n    \"\"\"",
+                    "name": "XViewMiddleware",
+                    "parent_name": "django.contrib.admindocs.middleware"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.contrib.admindocs.views"
+            "namespace": "django.contrib.admindocs.views",
+            "classes": [
+                {
+                    "docstring": "\"\"\"\n    Base view for admindocs views.\n    \"\"\"",
+                    "name": "BaseAdminDocsView",
+                    "parent_name": "django.contrib.admindocs.views"
+                },
+                {
+                    "docstring": "",
+                    "name": "BookmarkletsView",
+                    "parent_name": "django.contrib.admindocs.views"
+                },
+                {
+                    "docstring": "",
+                    "name": "TemplateTagIndexView",
+                    "parent_name": "django.contrib.admindocs.views"
+                },
+                {
+                    "docstring": "",
+                    "name": "TemplateFilterIndexView",
+                    "parent_name": "django.contrib.admindocs.views"
+                },
+                {
+                    "docstring": "",
+                    "name": "ViewIndexView",
+                    "parent_name": "django.contrib.admindocs.views"
+                },
+                {
+                    "docstring": "",
+                    "name": "ViewDetailView",
+                    "parent_name": "django.contrib.admindocs.views"
+                },
+                {
+                    "docstring": "",
+                    "name": "ModelIndexView",
+                    "parent_name": "django.contrib.admindocs.views"
+                },
+                {
+                    "docstring": "",
+                    "name": "ModelDetailView",
+                    "parent_name": "django.contrib.admindocs.views"
+                },
+                {
+                    "docstring": "",
+                    "name": "TemplateDetailView",
+                    "parent_name": "django.contrib.admindocs.views"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.contrib.admindocs.apps"
+            "namespace": "django.contrib.admindocs.apps",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "AdminDocsConfig",
+                    "parent_name": "django.contrib.admindocs.apps"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.contrib.admindocs.urls"
+            "namespace": "django.contrib.admindocs.urls",
+            "classes": []
         },
         {
             "docstring": "\"Misc. utility functions/classes for admin documentation generator.\"",
-            "namespace": "django.contrib.admindocs.utils"
+            "namespace": "django.contrib.admindocs.utils",
+            "classes": []
         }
     ],
     "subpackages": []

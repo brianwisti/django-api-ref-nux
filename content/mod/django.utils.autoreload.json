@@ -1,4 +1,26 @@
 {
     "docstring": "",
-    "namespace": "django.utils.autoreload"
+    "namespace": "django.utils.autoreload",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "BaseReloader",
+            "parent_name": "django.utils.autoreload"
+        },
+        {
+            "docstring": "",
+            "name": "StatReloader",
+            "parent_name": "django.utils.autoreload"
+        },
+        {
+            "docstring": "",
+            "name": "WatchmanUnavailable",
+            "parent_name": "django.utils.autoreload"
+        },
+        {
+            "docstring": "",
+            "name": "WatchmanReloader",
+            "parent_name": "django.utils.autoreload"
+        }
+    ]
 }

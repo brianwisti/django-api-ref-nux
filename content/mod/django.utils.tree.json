@@ -1,4 +1,11 @@
 {
     "docstring": "\"\"\"\nA class for storing a tree graph. Primarily used for filter constructs in the\nORM.\n\"\"\"",
-    "namespace": "django.utils.tree"
+    "namespace": "django.utils.tree",
+    "classes": [
+        {
+            "docstring": "\"\"\"\n    A single internal node in the tree graph. A Node should be viewed as a\n    connection (the root) with the children being either leaf nodes or other\n    Node instances.\n    \"\"\"",
+            "name": "Node",
+            "parent_name": "django.utils.tree"
+        }
+    ]
 }

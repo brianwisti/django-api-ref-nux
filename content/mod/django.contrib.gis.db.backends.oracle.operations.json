@@ -1,4 +1,31 @@
 {
     "docstring": "\"\"\"\n This module contains the spatial lookup types, and the `get_geo_where_clause`\n routine for Oracle Spatial.\n\n Please note that WKT support is broken on the XE version, and thus\n this backend will not work on such platforms.  Specifically, XE lacks\n support for an internal JVM, and Java libraries are required to use\n the WKT constructors.\n\"\"\"",
-    "namespace": "django.contrib.gis.db.backends.oracle.operations"
+    "namespace": "django.contrib.gis.db.backends.oracle.operations",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "SDOOperator",
+            "parent_name": "django.contrib.gis.db.backends.oracle.operations"
+        },
+        {
+            "docstring": "",
+            "name": "SDODWithin",
+            "parent_name": "django.contrib.gis.db.backends.oracle.operations"
+        },
+        {
+            "docstring": "",
+            "name": "SDODisjoint",
+            "parent_name": "django.contrib.gis.db.backends.oracle.operations"
+        },
+        {
+            "docstring": "",
+            "name": "SDORelate",
+            "parent_name": "django.contrib.gis.db.backends.oracle.operations"
+        },
+        {
+            "docstring": "",
+            "name": "OracleOperations",
+            "parent_name": "django.contrib.gis.db.backends.oracle.operations"
+        }
+    ]
 }

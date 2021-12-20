@@ -1,4 +1,31 @@
 {
     "docstring": "",
-    "namespace": "django.urls.converters"
+    "namespace": "django.urls.converters",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "IntConverter",
+            "parent_name": "django.urls.converters"
+        },
+        {
+            "docstring": "",
+            "name": "StringConverter",
+            "parent_name": "django.urls.converters"
+        },
+        {
+            "docstring": "",
+            "name": "UUIDConverter",
+            "parent_name": "django.urls.converters"
+        },
+        {
+            "docstring": "",
+            "name": "SlugConverter",
+            "parent_name": "django.urls.converters"
+        },
+        {
+            "docstring": "",
+            "name": "PathConverter",
+            "parent_name": "django.urls.converters"
+        }
+    ]
 }

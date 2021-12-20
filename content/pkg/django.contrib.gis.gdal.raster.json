@@ -4,19 +4,51 @@
     "modules": [
         {
             "docstring": "",
-            "namespace": "django.contrib.gis.gdal.raster.base"
+            "namespace": "django.contrib.gis.gdal.raster.base",
+            "classes": [
+                {
+                    "docstring": "\"\"\"\n    Attributes that exist on both GDALRaster and GDALBand.\n    \"\"\"",
+                    "name": "GDALRasterBase",
+                    "parent_name": "django.contrib.gis.gdal.raster.base"
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\nGDAL - Constant definitions\n\"\"\"",
-            "namespace": "django.contrib.gis.gdal.raster.const"
+            "namespace": "django.contrib.gis.gdal.raster.const",
+            "classes": []
         },
         {
             "docstring": "",
-            "namespace": "django.contrib.gis.gdal.raster.source"
+            "namespace": "django.contrib.gis.gdal.raster.source",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "TransformPoint",
+                    "parent_name": "django.contrib.gis.gdal.raster.source"
+                },
+                {
+                    "docstring": "\"\"\"\n    Wrap a raster GDAL Data Source object.\n    \"\"\"",
+                    "name": "GDALRaster",
+                    "parent_name": "django.contrib.gis.gdal.raster.source"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.contrib.gis.gdal.raster.band"
+            "namespace": "django.contrib.gis.gdal.raster.band",
+            "classes": [
+                {
+                    "docstring": "\"\"\"\n    Wrap a GDAL raster band, needs to be obtained from a GDALRaster object.\n    \"\"\"",
+                    "name": "GDALBand",
+                    "parent_name": "django.contrib.gis.gdal.raster.band"
+                },
+                {
+                    "docstring": "",
+                    "name": "BandList",
+                    "parent_name": "django.contrib.gis.gdal.raster.band"
+                }
+            ]
         }
     ],
     "subpackages": []

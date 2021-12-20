@@ -4,7 +4,14 @@
     "modules": [
         {
             "docstring": "",
-            "namespace": "django.contrib.flatpages.templatetags.flatpages"
+            "namespace": "django.contrib.flatpages.templatetags.flatpages",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "FlatpageNode",
+                    "parent_name": "django.contrib.flatpages.templatetags.flatpages"
+                }
+            ]
         }
     ],
     "subpackages": []

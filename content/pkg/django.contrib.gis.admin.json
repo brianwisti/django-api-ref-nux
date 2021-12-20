@@ -4,11 +4,40 @@
     "modules": [
         {
             "docstring": "",
-            "namespace": "django.contrib.gis.admin.widgets"
+            "namespace": "django.contrib.gis.admin.widgets",
+            "classes": [
+                {
+                    "docstring": "\"\"\"\n    Render an OpenLayers map using the WKT of the geometry.\n    \"\"\"",
+                    "name": "OpenLayersWidget",
+                    "parent_name": "django.contrib.gis.admin.widgets"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.contrib.gis.admin.options"
+            "namespace": "django.contrib.gis.admin.options",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "GeoModelAdminMixin",
+                    "parent_name": "django.contrib.gis.admin.options"
+                },
+                {
+                    "docstring": "",
+                    "name": "GISModelAdmin",
+                    "parent_name": "django.contrib.gis.admin.options"
+                },
+                {
+                    "docstring": "\"\"\"\n    The administration options class for Geographic models. Map settings\n    may be overloaded from their defaults to create custom maps.\n    \"\"\"",
+                    "name": "GeoModelAdmin",
+                    "parent_name": "django.contrib.gis.admin.options"
+                },
+                {
+                    "docstring": "",
+                    "name": "OSMGeoAdmin",
+                    "parent_name": "django.contrib.gis.admin.options"
+                }
+            ]
         }
     ],
     "subpackages": []

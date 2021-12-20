@@ -4,19 +4,47 @@
     "modules": [
         {
             "docstring": "",
-            "namespace": "django.contrib.gis.db.backends.base.adapter"
+            "namespace": "django.contrib.gis.db.backends.base.adapter",
+            "classes": [
+                {
+                    "docstring": "\"\"\"\n    An adaptor for Geometries sent to the MySQL and Oracle database backends.\n    \"\"\"",
+                    "name": "WKTAdapter",
+                    "parent_name": "django.contrib.gis.db.backends.base.adapter"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.contrib.gis.db.backends.base.operations"
+            "namespace": "django.contrib.gis.db.backends.base.operations",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "BaseSpatialOperations",
+                    "parent_name": "django.contrib.gis.db.backends.base.operations"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.contrib.gis.db.backends.base.features"
+            "namespace": "django.contrib.gis.db.backends.base.features",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "BaseSpatialFeatures",
+                    "parent_name": "django.contrib.gis.db.backends.base.features"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.contrib.gis.db.backends.base.models"
+            "namespace": "django.contrib.gis.db.backends.base.models",
+            "classes": [
+                {
+                    "docstring": "\"\"\"\n    The SpatialRefSysMixin is a class used by the database-dependent\n    SpatialRefSys objects to reduce redundant code.\n    \"\"\"",
+                    "name": "SpatialRefSysMixin",
+                    "parent_name": "django.contrib.gis.db.backends.base.models"
+                }
+            ]
         }
     ],
     "subpackages": []

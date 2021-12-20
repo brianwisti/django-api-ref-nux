@@ -1,4 +1,31 @@
 {
     "docstring": "",
-    "namespace": "django.forms.utils"
+    "namespace": "django.forms.utils",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "RenderableMixin",
+            "parent_name": "django.forms.utils"
+        },
+        {
+            "docstring": "",
+            "name": "RenderableFormMixin",
+            "parent_name": "django.forms.utils"
+        },
+        {
+            "docstring": "",
+            "name": "RenderableErrorMixin",
+            "parent_name": "django.forms.utils"
+        },
+        {
+            "docstring": "\"\"\"\n    A collection of errors that knows how to display itself in various formats.\n\n    The dictionary keys are the field names, and the values are the errors.\n    \"\"\"",
+            "name": "ErrorDict",
+            "parent_name": "django.forms.utils"
+        },
+        {
+            "docstring": "\"\"\"\n    A collection of errors that knows how to display itself in various formats.\n    \"\"\"",
+            "name": "ErrorList",
+            "parent_name": "django.forms.utils"
+        }
+    ]
 }

@@ -1,4 +1,16 @@
 {
     "docstring": "",
-    "namespace": "django.core.management.commands.loaddata"
+    "namespace": "django.core.management.commands.loaddata",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "Command",
+            "parent_name": "django.core.management.commands.loaddata"
+        },
+        {
+            "docstring": "",
+            "name": "SingleZipReader",
+            "parent_name": "django.core.management.commands.loaddata"
+        }
+    ]
 }

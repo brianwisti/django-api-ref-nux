@@ -1,4 +1,16 @@
 {
     "docstring": "",
-    "namespace": "django.contrib.admin.tests"
+    "namespace": "django.contrib.admin.tests",
+    "classes": [
+        {
+            "docstring": "\"\"\"The admin's JavaScript should be compatible with CSP.\"\"\"",
+            "name": "CSPMiddleware",
+            "parent_name": "django.contrib.admin.tests"
+        },
+        {
+            "docstring": "",
+            "name": "AdminSeleniumTestCase",
+            "parent_name": "django.contrib.admin.tests"
+        }
+    ]
 }

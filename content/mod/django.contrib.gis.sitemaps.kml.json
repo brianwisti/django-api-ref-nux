@@ -1,4 +1,16 @@
 {
     "docstring": "",
-    "namespace": "django.contrib.gis.sitemaps.kml"
+    "namespace": "django.contrib.gis.sitemaps.kml",
+    "classes": [
+        {
+            "docstring": "\"\"\"\n    A minimal hook to produce KML sitemaps.\n    \"\"\"",
+            "name": "KMLSitemap",
+            "parent_name": "django.contrib.gis.sitemaps.kml"
+        },
+        {
+            "docstring": "",
+            "name": "KMZSitemap",
+            "parent_name": "django.contrib.gis.sitemaps.kml"
+        }
+    ]
 }

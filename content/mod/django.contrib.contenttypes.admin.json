@@ -1,4 +1,26 @@
 {
     "docstring": "",
-    "namespace": "django.contrib.contenttypes.admin"
+    "namespace": "django.contrib.contenttypes.admin",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "GenericInlineModelAdminChecks",
+            "parent_name": "django.contrib.contenttypes.admin"
+        },
+        {
+            "docstring": "",
+            "name": "GenericInlineModelAdmin",
+            "parent_name": "django.contrib.contenttypes.admin"
+        },
+        {
+            "docstring": "",
+            "name": "GenericStackedInline",
+            "parent_name": "django.contrib.contenttypes.admin"
+        },
+        {
+            "docstring": "",
+            "name": "GenericTabularInline",
+            "parent_name": "django.contrib.contenttypes.admin"
+        }
+    ]
 }

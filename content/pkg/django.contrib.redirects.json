@@ -4,19 +4,47 @@
     "modules": [
         {
             "docstring": "",
-            "namespace": "django.contrib.redirects.middleware"
+            "namespace": "django.contrib.redirects.middleware",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "RedirectFallbackMiddleware",
+                    "parent_name": "django.contrib.redirects.middleware"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.contrib.redirects.apps"
+            "namespace": "django.contrib.redirects.apps",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "RedirectsConfig",
+                    "parent_name": "django.contrib.redirects.apps"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.contrib.redirects.admin"
+            "namespace": "django.contrib.redirects.admin",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "RedirectAdmin",
+                    "parent_name": "django.contrib.redirects.admin"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.contrib.redirects.models"
+            "namespace": "django.contrib.redirects.models",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "Redirect",
+                    "parent_name": "django.contrib.redirects.models"
+                }
+            ]
         }
     ],
     "subpackages": [

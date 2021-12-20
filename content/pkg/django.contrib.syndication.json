@@ -4,11 +4,30 @@
     "modules": [
         {
             "docstring": "",
-            "namespace": "django.contrib.syndication.views"
+            "namespace": "django.contrib.syndication.views",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "FeedDoesNotExist",
+                    "parent_name": "django.contrib.syndication.views"
+                },
+                {
+                    "docstring": "",
+                    "name": "Feed",
+                    "parent_name": "django.contrib.syndication.views"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.contrib.syndication.apps"
+            "namespace": "django.contrib.syndication.apps",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "SyndicationConfig",
+                    "parent_name": "django.contrib.syndication.apps"
+                }
+            ]
         }
     ],
     "subpackages": []

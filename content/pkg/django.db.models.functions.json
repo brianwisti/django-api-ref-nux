@@ -4,27 +4,534 @@
     "modules": [
         {
             "docstring": "",
-            "namespace": "django.db.models.functions.text"
+            "namespace": "django.db.models.functions.text",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "MySQLSHA2Mixin",
+                    "parent_name": "django.db.models.functions.text"
+                },
+                {
+                    "docstring": "",
+                    "name": "OracleHashMixin",
+                    "parent_name": "django.db.models.functions.text"
+                },
+                {
+                    "docstring": "",
+                    "name": "PostgreSQLSHAMixin",
+                    "parent_name": "django.db.models.functions.text"
+                },
+                {
+                    "docstring": "",
+                    "name": "Chr",
+                    "parent_name": "django.db.models.functions.text"
+                },
+                {
+                    "docstring": "\"\"\"\n    Concatenate two arguments together. This is used by `Concat` because not\n    all backend databases support more than two arguments.\n    \"\"\"",
+                    "name": "ConcatPair",
+                    "parent_name": "django.db.models.functions.text"
+                },
+                {
+                    "docstring": "\"\"\"\n    Concatenate text fields together. Backends that result in an entire\n    null expression when any arguments are null will wrap each argument in\n    coalesce functions to ensure a non-null result.\n    \"\"\"",
+                    "name": "Concat",
+                    "parent_name": "django.db.models.functions.text"
+                },
+                {
+                    "docstring": "",
+                    "name": "Left",
+                    "parent_name": "django.db.models.functions.text"
+                },
+                {
+                    "docstring": "\"\"\"Return the number of characters in the expression.\"\"\"",
+                    "name": "Length",
+                    "parent_name": "django.db.models.functions.text"
+                },
+                {
+                    "docstring": "",
+                    "name": "Lower",
+                    "parent_name": "django.db.models.functions.text"
+                },
+                {
+                    "docstring": "",
+                    "name": "LPad",
+                    "parent_name": "django.db.models.functions.text"
+                },
+                {
+                    "docstring": "",
+                    "name": "LTrim",
+                    "parent_name": "django.db.models.functions.text"
+                },
+                {
+                    "docstring": "",
+                    "name": "MD5",
+                    "parent_name": "django.db.models.functions.text"
+                },
+                {
+                    "docstring": "",
+                    "name": "Ord",
+                    "parent_name": "django.db.models.functions.text"
+                },
+                {
+                    "docstring": "",
+                    "name": "Repeat",
+                    "parent_name": "django.db.models.functions.text"
+                },
+                {
+                    "docstring": "",
+                    "name": "Replace",
+                    "parent_name": "django.db.models.functions.text"
+                },
+                {
+                    "docstring": "",
+                    "name": "Reverse",
+                    "parent_name": "django.db.models.functions.text"
+                },
+                {
+                    "docstring": "",
+                    "name": "Right",
+                    "parent_name": "django.db.models.functions.text"
+                },
+                {
+                    "docstring": "",
+                    "name": "RPad",
+                    "parent_name": "django.db.models.functions.text"
+                },
+                {
+                    "docstring": "",
+                    "name": "RTrim",
+                    "parent_name": "django.db.models.functions.text"
+                },
+                {
+                    "docstring": "",
+                    "name": "SHA1",
+                    "parent_name": "django.db.models.functions.text"
+                },
+                {
+                    "docstring": "",
+                    "name": "SHA224",
+                    "parent_name": "django.db.models.functions.text"
+                },
+                {
+                    "docstring": "",
+                    "name": "SHA256",
+                    "parent_name": "django.db.models.functions.text"
+                },
+                {
+                    "docstring": "",
+                    "name": "SHA384",
+                    "parent_name": "django.db.models.functions.text"
+                },
+                {
+                    "docstring": "",
+                    "name": "SHA512",
+                    "parent_name": "django.db.models.functions.text"
+                },
+                {
+                    "docstring": "\"\"\"\n    Return a positive integer corresponding to the 1-indexed position of the\n    first occurrence of a substring inside another string, or 0 if the\n    substring is not found.\n    \"\"\"",
+                    "name": "StrIndex",
+                    "parent_name": "django.db.models.functions.text"
+                },
+                {
+                    "docstring": "",
+                    "name": "Substr",
+                    "parent_name": "django.db.models.functions.text"
+                },
+                {
+                    "docstring": "",
+                    "name": "Trim",
+                    "parent_name": "django.db.models.functions.text"
+                },
+                {
+                    "docstring": "",
+                    "name": "Upper",
+                    "parent_name": "django.db.models.functions.text"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.db.models.functions.window"
+            "namespace": "django.db.models.functions.window",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "CumeDist",
+                    "parent_name": "django.db.models.functions.window"
+                },
+                {
+                    "docstring": "",
+                    "name": "DenseRank",
+                    "parent_name": "django.db.models.functions.window"
+                },
+                {
+                    "docstring": "",
+                    "name": "FirstValue",
+                    "parent_name": "django.db.models.functions.window"
+                },
+                {
+                    "docstring": "",
+                    "name": "LagLeadFunction",
+                    "parent_name": "django.db.models.functions.window"
+                },
+                {
+                    "docstring": "",
+                    "name": "Lag",
+                    "parent_name": "django.db.models.functions.window"
+                },
+                {
+                    "docstring": "",
+                    "name": "LastValue",
+                    "parent_name": "django.db.models.functions.window"
+                },
+                {
+                    "docstring": "",
+                    "name": "Lead",
+                    "parent_name": "django.db.models.functions.window"
+                },
+                {
+                    "docstring": "",
+                    "name": "NthValue",
+                    "parent_name": "django.db.models.functions.window"
+                },
+                {
+                    "docstring": "",
+                    "name": "Ntile",
+                    "parent_name": "django.db.models.functions.window"
+                },
+                {
+                    "docstring": "",
+                    "name": "PercentRank",
+                    "parent_name": "django.db.models.functions.window"
+                },
+                {
+                    "docstring": "",
+                    "name": "Rank",
+                    "parent_name": "django.db.models.functions.window"
+                },
+                {
+                    "docstring": "",
+                    "name": "RowNumber",
+                    "parent_name": "django.db.models.functions.window"
+                }
+            ]
         },
         {
             "docstring": "\"\"\"Database functions that do comparisons or type conversions.\"\"\"",
-            "namespace": "django.db.models.functions.comparison"
+            "namespace": "django.db.models.functions.comparison",
+            "classes": [
+                {
+                    "docstring": "\"\"\"Coerce an expression to a new field type.\"\"\"",
+                    "name": "Cast",
+                    "parent_name": "django.db.models.functions.comparison"
+                },
+                {
+                    "docstring": "\"\"\"Return, from left to right, the first non-null expression.\"\"\"",
+                    "name": "Coalesce",
+                    "parent_name": "django.db.models.functions.comparison"
+                },
+                {
+                    "docstring": "",
+                    "name": "Collate",
+                    "parent_name": "django.db.models.functions.comparison"
+                },
+                {
+                    "docstring": "\"\"\"\n    Return the maximum expression.\n\n    If any expression is null the return value is database-specific:\n    On PostgreSQL, the maximum not-null expression is returned.\n    On MySQL, Oracle, and SQLite, if any expression is null, null is returned.\n    \"\"\"",
+                    "name": "Greatest",
+                    "parent_name": "django.db.models.functions.comparison"
+                },
+                {
+                    "docstring": "",
+                    "name": "JSONObject",
+                    "parent_name": "django.db.models.functions.comparison"
+                },
+                {
+                    "docstring": "\"\"\"\n    Return the minimum expression.\n\n    If any expression is null the return value is database-specific:\n    On PostgreSQL, return the minimum not-null expression.\n    On MySQL, Oracle, and SQLite, if any expression is null, return null.\n    \"\"\"",
+                    "name": "Least",
+                    "parent_name": "django.db.models.functions.comparison"
+                },
+                {
+                    "docstring": "",
+                    "name": "NullIf",
+                    "parent_name": "django.db.models.functions.comparison"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.db.models.functions.math"
+            "namespace": "django.db.models.functions.math",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "Abs",
+                    "parent_name": "django.db.models.functions.math"
+                },
+                {
+                    "docstring": "",
+                    "name": "ACos",
+                    "parent_name": "django.db.models.functions.math"
+                },
+                {
+                    "docstring": "",
+                    "name": "ASin",
+                    "parent_name": "django.db.models.functions.math"
+                },
+                {
+                    "docstring": "",
+                    "name": "ATan",
+                    "parent_name": "django.db.models.functions.math"
+                },
+                {
+                    "docstring": "",
+                    "name": "ATan2",
+                    "parent_name": "django.db.models.functions.math"
+                },
+                {
+                    "docstring": "",
+                    "name": "Ceil",
+                    "parent_name": "django.db.models.functions.math"
+                },
+                {
+                    "docstring": "",
+                    "name": "Cos",
+                    "parent_name": "django.db.models.functions.math"
+                },
+                {
+                    "docstring": "",
+                    "name": "Cot",
+                    "parent_name": "django.db.models.functions.math"
+                },
+                {
+                    "docstring": "",
+                    "name": "Degrees",
+                    "parent_name": "django.db.models.functions.math"
+                },
+                {
+                    "docstring": "",
+                    "name": "Exp",
+                    "parent_name": "django.db.models.functions.math"
+                },
+                {
+                    "docstring": "",
+                    "name": "Floor",
+                    "parent_name": "django.db.models.functions.math"
+                },
+                {
+                    "docstring": "",
+                    "name": "Ln",
+                    "parent_name": "django.db.models.functions.math"
+                },
+                {
+                    "docstring": "",
+                    "name": "Log",
+                    "parent_name": "django.db.models.functions.math"
+                },
+                {
+                    "docstring": "",
+                    "name": "Mod",
+                    "parent_name": "django.db.models.functions.math"
+                },
+                {
+                    "docstring": "",
+                    "name": "Pi",
+                    "parent_name": "django.db.models.functions.math"
+                },
+                {
+                    "docstring": "",
+                    "name": "Power",
+                    "parent_name": "django.db.models.functions.math"
+                },
+                {
+                    "docstring": "",
+                    "name": "Radians",
+                    "parent_name": "django.db.models.functions.math"
+                },
+                {
+                    "docstring": "",
+                    "name": "Random",
+                    "parent_name": "django.db.models.functions.math"
+                },
+                {
+                    "docstring": "",
+                    "name": "Round",
+                    "parent_name": "django.db.models.functions.math"
+                },
+                {
+                    "docstring": "",
+                    "name": "Sign",
+                    "parent_name": "django.db.models.functions.math"
+                },
+                {
+                    "docstring": "",
+                    "name": "Sin",
+                    "parent_name": "django.db.models.functions.math"
+                },
+                {
+                    "docstring": "",
+                    "name": "Sqrt",
+                    "parent_name": "django.db.models.functions.math"
+                },
+                {
+                    "docstring": "",
+                    "name": "Tan",
+                    "parent_name": "django.db.models.functions.math"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.db.models.functions.datetime"
+            "namespace": "django.db.models.functions.datetime",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "TimezoneMixin",
+                    "parent_name": "django.db.models.functions.datetime"
+                },
+                {
+                    "docstring": "",
+                    "name": "Extract",
+                    "parent_name": "django.db.models.functions.datetime"
+                },
+                {
+                    "docstring": "",
+                    "name": "ExtractYear",
+                    "parent_name": "django.db.models.functions.datetime"
+                },
+                {
+                    "docstring": "\"\"\"Return the ISO-8601 week-numbering year.\"\"\"",
+                    "name": "ExtractIsoYear",
+                    "parent_name": "django.db.models.functions.datetime"
+                },
+                {
+                    "docstring": "",
+                    "name": "ExtractMonth",
+                    "parent_name": "django.db.models.functions.datetime"
+                },
+                {
+                    "docstring": "",
+                    "name": "ExtractDay",
+                    "parent_name": "django.db.models.functions.datetime"
+                },
+                {
+                    "docstring": "\"\"\"\n    Return 1-52 or 53, based on ISO-8601, i.e., Monday is the first of the\n    week.\n    \"\"\"",
+                    "name": "ExtractWeek",
+                    "parent_name": "django.db.models.functions.datetime"
+                },
+                {
+                    "docstring": "\"\"\"\n    Return Sunday=1 through Saturday=7.\n\n    To replicate this in Python: (mydatetime.isoweekday() % 7) + 1\n    \"\"\"",
+                    "name": "ExtractWeekDay",
+                    "parent_name": "django.db.models.functions.datetime"
+                },
+                {
+                    "docstring": "\"\"\"Return Monday=1 through Sunday=7, based on ISO-8601.\"\"\"",
+                    "name": "ExtractIsoWeekDay",
+                    "parent_name": "django.db.models.functions.datetime"
+                },
+                {
+                    "docstring": "",
+                    "name": "ExtractQuarter",
+                    "parent_name": "django.db.models.functions.datetime"
+                },
+                {
+                    "docstring": "",
+                    "name": "ExtractHour",
+                    "parent_name": "django.db.models.functions.datetime"
+                },
+                {
+                    "docstring": "",
+                    "name": "ExtractMinute",
+                    "parent_name": "django.db.models.functions.datetime"
+                },
+                {
+                    "docstring": "",
+                    "name": "ExtractSecond",
+                    "parent_name": "django.db.models.functions.datetime"
+                },
+                {
+                    "docstring": "",
+                    "name": "Now",
+                    "parent_name": "django.db.models.functions.datetime"
+                },
+                {
+                    "docstring": "",
+                    "name": "TruncBase",
+                    "parent_name": "django.db.models.functions.datetime"
+                },
+                {
+                    "docstring": "",
+                    "name": "Trunc",
+                    "parent_name": "django.db.models.functions.datetime"
+                },
+                {
+                    "docstring": "",
+                    "name": "TruncYear",
+                    "parent_name": "django.db.models.functions.datetime"
+                },
+                {
+                    "docstring": "",
+                    "name": "TruncQuarter",
+                    "parent_name": "django.db.models.functions.datetime"
+                },
+                {
+                    "docstring": "",
+                    "name": "TruncMonth",
+                    "parent_name": "django.db.models.functions.datetime"
+                },
+                {
+                    "docstring": "\"\"\"Truncate to midnight on the Monday of the week.\"\"\"",
+                    "name": "TruncWeek",
+                    "parent_name": "django.db.models.functions.datetime"
+                },
+                {
+                    "docstring": "",
+                    "name": "TruncDay",
+                    "parent_name": "django.db.models.functions.datetime"
+                },
+                {
+                    "docstring": "",
+                    "name": "TruncDate",
+                    "parent_name": "django.db.models.functions.datetime"
+                },
+                {
+                    "docstring": "",
+                    "name": "TruncTime",
+                    "parent_name": "django.db.models.functions.datetime"
+                },
+                {
+                    "docstring": "",
+                    "name": "TruncHour",
+                    "parent_name": "django.db.models.functions.datetime"
+                },
+                {
+                    "docstring": "",
+                    "name": "TruncMinute",
+                    "parent_name": "django.db.models.functions.datetime"
+                },
+                {
+                    "docstring": "",
+                    "name": "TruncSecond",
+                    "parent_name": "django.db.models.functions.datetime"
+                }
+            ]
         },
         {
             "docstring": "",
-            "namespace": "django.db.models.functions.mixins"
+            "namespace": "django.db.models.functions.mixins",
+            "classes": [
+                {
+                    "docstring": "",
+                    "name": "FixDecimalInputMixin",
+                    "parent_name": "django.db.models.functions.mixins"
+                },
+                {
+                    "docstring": "",
+                    "name": "FixDurationInputMixin",
+                    "parent_name": "django.db.models.functions.mixins"
+                },
+                {
+                    "docstring": "",
+                    "name": "NumericOutputFieldMixin",
+                    "parent_name": "django.db.models.functions.mixins"
+                }
+            ]
         }
     ],
     "subpackages": []

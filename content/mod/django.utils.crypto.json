@@ -1,4 +1,11 @@
 {
     "docstring": "\"\"\"\nDjango's standard crypto functions and utilities.\n\"\"\"",
-    "namespace": "django.utils.crypto"
+    "namespace": "django.utils.crypto",
+    "classes": [
+        {
+            "docstring": "\"\"\"Algorithm is not supported by hashlib.\"\"\"",
+            "name": "InvalidAlgorithm",
+            "parent_name": "django.utils.crypto"
+        }
+    ]
 }

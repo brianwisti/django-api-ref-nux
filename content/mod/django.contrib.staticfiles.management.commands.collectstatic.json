@@ -1,4 +1,11 @@
 {
     "docstring": "",
-    "namespace": "django.contrib.staticfiles.management.commands.collectstatic"
+    "namespace": "django.contrib.staticfiles.management.commands.collectstatic",
+    "classes": [
+        {
+            "docstring": "\"\"\"\n    Copies or symlinks static files from different locations to the\n    settings.STATIC_ROOT.\n    \"\"\"",
+            "name": "Command",
+            "parent_name": "django.contrib.staticfiles.management.commands.collectstatic"
+        }
+    ]
 }

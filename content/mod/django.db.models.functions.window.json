@@ -1,4 +1,66 @@
 {
     "docstring": "",
-    "namespace": "django.db.models.functions.window"
+    "namespace": "django.db.models.functions.window",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "CumeDist",
+            "parent_name": "django.db.models.functions.window"
+        },
+        {
+            "docstring": "",
+            "name": "DenseRank",
+            "parent_name": "django.db.models.functions.window"
+        },
+        {
+            "docstring": "",
+            "name": "FirstValue",
+            "parent_name": "django.db.models.functions.window"
+        },
+        {
+            "docstring": "",
+            "name": "LagLeadFunction",
+            "parent_name": "django.db.models.functions.window"
+        },
+        {
+            "docstring": "",
+            "name": "Lag",
+            "parent_name": "django.db.models.functions.window"
+        },
+        {
+            "docstring": "",
+            "name": "LastValue",
+            "parent_name": "django.db.models.functions.window"
+        },
+        {
+            "docstring": "",
+            "name": "Lead",
+            "parent_name": "django.db.models.functions.window"
+        },
+        {
+            "docstring": "",
+            "name": "NthValue",
+            "parent_name": "django.db.models.functions.window"
+        },
+        {
+            "docstring": "",
+            "name": "Ntile",
+            "parent_name": "django.db.models.functions.window"
+        },
+        {
+            "docstring": "",
+            "name": "PercentRank",
+            "parent_name": "django.db.models.functions.window"
+        },
+        {
+            "docstring": "",
+            "name": "Rank",
+            "parent_name": "django.db.models.functions.window"
+        },
+        {
+            "docstring": "",
+            "name": "RowNumber",
+            "parent_name": "django.db.models.functions.window"
+        }
+    ]
 }

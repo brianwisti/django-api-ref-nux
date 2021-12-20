@@ -1,4 +1,31 @@
 {
     "docstring": "",
-    "namespace": "django.contrib.auth.backends"
+    "namespace": "django.contrib.auth.backends",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "BaseBackend",
+            "parent_name": "django.contrib.auth.backends"
+        },
+        {
+            "docstring": "\"\"\"\n    Authenticates against settings.AUTH_USER_MODEL.\n    \"\"\"",
+            "name": "ModelBackend",
+            "parent_name": "django.contrib.auth.backends"
+        },
+        {
+            "docstring": "",
+            "name": "AllowAllUsersModelBackend",
+            "parent_name": "django.contrib.auth.backends"
+        },
+        {
+            "docstring": "\"\"\"\n    This backend is to be used in conjunction with the ``RemoteUserMiddleware``\n    found in the middleware module of this package, and is used when the server\n    is handling authentication outside of Django.\n\n    By default, the ``authenticate`` method creates ``User`` objects for\n    usernames that don't already exist in the database.  Subclasses can disable\n    this behavior by setting the ``create_unknown_user`` attribute to\n    ``False``.\n    \"\"\"",
+            "name": "RemoteUserBackend",
+            "parent_name": "django.contrib.auth.backends"
+        },
+        {
+            "docstring": "",
+            "name": "AllowAllUsersRemoteUserBackend",
+            "parent_name": "django.contrib.auth.backends"
+        }
+    ]
 }

@@ -1,4 +1,11 @@
 {
     "docstring": "",
-    "namespace": "django.contrib.sites.managers"
+    "namespace": "django.contrib.sites.managers",
+    "classes": [
+        {
+            "docstring": "\"Use this to limit objects to those associated with the current site.\"",
+            "name": "CurrentSiteManager",
+            "parent_name": "django.contrib.sites.managers"
+        }
+    ]
 }

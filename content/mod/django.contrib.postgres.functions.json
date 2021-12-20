@@ -1,4 +1,16 @@
 {
     "docstring": "",
-    "namespace": "django.contrib.postgres.functions"
+    "namespace": "django.contrib.postgres.functions",
+    "classes": [
+        {
+            "docstring": "",
+            "name": "RandomUUID",
+            "parent_name": "django.contrib.postgres.functions"
+        },
+        {
+            "docstring": "",
+            "name": "TransactionNow",
+            "parent_name": "django.contrib.postgres.functions"
+        }
+    ]
 }
