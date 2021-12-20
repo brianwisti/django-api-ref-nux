@@ -23,7 +23,7 @@
                     "docstring": "\"\"\"\n        Initialize the MultiPartParser object.\n\n        :META:\n            The standard ``META`` dictionary in Django request objects.\n        :input_data:\n            The raw post data, as a file-like object.\n        :upload_handlers:\n            A list of UploadHandler instances that perform operations on the\n            uploaded data.\n        :encoding:\n            The encoding with which to treat the incoming data.\n        \"\"\"",
                     "name": "__init__",
                     "namespace": "django.http.multipartparser.MultiPartParser.__init__",
-                    "class_name": "",
+                    "class_name": "django.http.multipartparser.MultiPartParser",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -31,7 +31,7 @@
                     "docstring": "\"\"\"\n        Parse the POST data and break it into a FILES MultiValueDict and a POST\n        MultiValueDict.\n\n        Return a tuple containing the POST and FILES dictionary, respectively.\n        \"\"\"",
                     "name": "parse",
                     "namespace": "django.http.multipartparser.MultiPartParser.parse",
-                    "class_name": "",
+                    "class_name": "django.http.multipartparser.MultiPartParser",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -39,7 +39,7 @@
                     "docstring": "\"\"\"\n        Handle all the signaling that takes place when a file is complete.\n        \"\"\"",
                     "name": "handle_file_complete",
                     "namespace": "django.http.multipartparser.MultiPartParser.handle_file_complete",
-                    "class_name": "",
+                    "class_name": "django.http.multipartparser.MultiPartParser",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -47,7 +47,7 @@
                     "docstring": "\"\"\"\n        Sanitize the filename of an upload.\n\n        Remove all possible path separators, even though that might remove more\n        than actually required by the target system. Filenames that could\n        potentially cause problems (current/parent dir) are also discarded.\n\n        It should be noted that this function could still return a \"filepath\"\n        like \"C:some_file.txt\" which is handled later on by the storage layer.\n        So while this function does sanitize filenames to some extent, the\n        resulting filename should still be considered as untrusted user input.\n        \"\"\"",
                     "name": "sanitize_file_name",
                     "namespace": "django.http.multipartparser.MultiPartParser.sanitize_file_name",
-                    "class_name": "",
+                    "class_name": "django.http.multipartparser.MultiPartParser",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -55,7 +55,7 @@
                     "docstring": "",
                     "name": "_close_files",
                     "namespace": "django.http.multipartparser.MultiPartParser._close_files",
-                    "class_name": "",
+                    "class_name": "django.http.multipartparser.MultiPartParser",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -70,7 +70,7 @@
                     "docstring": "\"\"\"\n        Every LazyStream must have a producer when instantiated.\n\n        A producer is an iterable that returns a string each time it\n        is called.\n        \"\"\"",
                     "name": "__init__",
                     "namespace": "django.http.multipartparser.LazyStream.__init__",
-                    "class_name": "",
+                    "class_name": "django.http.multipartparser.LazyStream",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -78,7 +78,7 @@
                     "docstring": "",
                     "name": "tell",
                     "namespace": "django.http.multipartparser.LazyStream.tell",
-                    "class_name": "",
+                    "class_name": "django.http.multipartparser.LazyStream",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -86,7 +86,7 @@
                     "docstring": "",
                     "name": "read",
                     "namespace": "django.http.multipartparser.LazyStream.read",
-                    "class_name": "",
+                    "class_name": "django.http.multipartparser.LazyStream",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -94,7 +94,7 @@
                     "docstring": "\"\"\"\n        Used when the exact number of bytes to read is unimportant.\n\n        Return whatever chunk is conveniently returned from the iterator.\n        Useful to avoid unnecessary bookkeeping if performance is an issue.\n        \"\"\"",
                     "name": "__next__",
                     "namespace": "django.http.multipartparser.LazyStream.__next__",
-                    "class_name": "",
+                    "class_name": "django.http.multipartparser.LazyStream",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -102,7 +102,7 @@
                     "docstring": "\"\"\"\n        Used to invalidate/disable this lazy stream.\n\n        Replace the producer with an empty list. Any leftover bytes that have\n        already been read will still be reported upon read() and/or next().\n        \"\"\"",
                     "name": "close",
                     "namespace": "django.http.multipartparser.LazyStream.close",
-                    "class_name": "",
+                    "class_name": "django.http.multipartparser.LazyStream",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -110,7 +110,7 @@
                     "docstring": "",
                     "name": "__iter__",
                     "namespace": "django.http.multipartparser.LazyStream.__iter__",
-                    "class_name": "",
+                    "class_name": "django.http.multipartparser.LazyStream",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -118,7 +118,7 @@
                     "docstring": "\"\"\"\n        Place bytes back onto the front of the lazy stream.\n\n        Future calls to read() will return those bytes first. The\n        stream position and thus tell() will be rewound.\n        \"\"\"",
                     "name": "unget",
                     "namespace": "django.http.multipartparser.LazyStream.unget",
-                    "class_name": "",
+                    "class_name": "django.http.multipartparser.LazyStream",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -126,7 +126,7 @@
                     "docstring": "\"\"\"\n        Update the unget history as a sanity check to see if we've pushed\n        back the same number of bytes in one chunk. If we keep ungetting the\n        same number of bytes many times (here, 50), we're mostly likely in an\n        infinite loop of some sort. This is usually caused by a\n        maliciously-malformed MIME request.\n        \"\"\"",
                     "name": "_update_unget_history",
                     "namespace": "django.http.multipartparser.LazyStream._update_unget_history",
-                    "class_name": "",
+                    "class_name": "django.http.multipartparser.LazyStream",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -141,7 +141,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.http.multipartparser.ChunkIter.__init__",
-                    "class_name": "",
+                    "class_name": "django.http.multipartparser.ChunkIter",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -149,7 +149,7 @@
                     "docstring": "",
                     "name": "__next__",
                     "namespace": "django.http.multipartparser.ChunkIter.__next__",
-                    "class_name": "",
+                    "class_name": "django.http.multipartparser.ChunkIter",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -157,7 +157,7 @@
                     "docstring": "",
                     "name": "__iter__",
                     "namespace": "django.http.multipartparser.ChunkIter.__iter__",
-                    "class_name": "",
+                    "class_name": "django.http.multipartparser.ChunkIter",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -172,7 +172,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.http.multipartparser.InterBoundaryIter.__init__",
-                    "class_name": "",
+                    "class_name": "django.http.multipartparser.InterBoundaryIter",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -180,7 +180,7 @@
                     "docstring": "",
                     "name": "__iter__",
                     "namespace": "django.http.multipartparser.InterBoundaryIter.__iter__",
-                    "class_name": "",
+                    "class_name": "django.http.multipartparser.InterBoundaryIter",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -188,7 +188,7 @@
                     "docstring": "",
                     "name": "__next__",
                     "namespace": "django.http.multipartparser.InterBoundaryIter.__next__",
-                    "class_name": "",
+                    "class_name": "django.http.multipartparser.InterBoundaryIter",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -203,7 +203,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.http.multipartparser.BoundaryIter.__init__",
-                    "class_name": "",
+                    "class_name": "django.http.multipartparser.BoundaryIter",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -211,7 +211,7 @@
                     "docstring": "",
                     "name": "__iter__",
                     "namespace": "django.http.multipartparser.BoundaryIter.__iter__",
-                    "class_name": "",
+                    "class_name": "django.http.multipartparser.BoundaryIter",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -219,7 +219,7 @@
                     "docstring": "",
                     "name": "__next__",
                     "namespace": "django.http.multipartparser.BoundaryIter.__next__",
-                    "class_name": "",
+                    "class_name": "django.http.multipartparser.BoundaryIter",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -227,7 +227,7 @@
                     "docstring": "\"\"\"\n        Find a multipart boundary in data.\n\n        Should no boundary exist in the data, return None. Otherwise, return\n        a tuple containing the indices of the following:\n         * the end of current encapsulation\n         * the start of the next encapsulation\n        \"\"\"",
                     "name": "_find_boundary",
                     "namespace": "django.http.multipartparser.BoundaryIter._find_boundary",
-                    "class_name": "",
+                    "class_name": "django.http.multipartparser.BoundaryIter",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -242,7 +242,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.http.multipartparser.Parser.__init__",
-                    "class_name": "",
+                    "class_name": "django.http.multipartparser.Parser",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -250,7 +250,7 @@
                     "docstring": "",
                     "name": "__iter__",
                     "namespace": "django.http.multipartparser.Parser.__iter__",
-                    "class_name": "",
+                    "class_name": "django.http.multipartparser.Parser",
                     "module_name": "",
                     "package_name": ""
                 }

@@ -9,7 +9,7 @@
             "docstring": "\"\"\"\n        A token representing a string from the template.\n\n        token_type\n            A TokenType, either .TEXT, .VAR, .BLOCK, or .COMMENT.\n\n        contents\n            The token source string.\n\n        position\n            An optional tuple containing the start and end index of the token\n            in the template source. This is used for traceback information\n            when debug is on.\n\n        lineno\n            The line number the token appears on in the template source.\n            This is used for traceback information and gettext files.\n        \"\"\"",
             "name": "__init__",
             "namespace": "django.template.base.Token.__init__",
-            "class_name": "",
+            "class_name": "django.template.base.Token",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "",
             "name": "__repr__",
             "namespace": "django.template.base.Token.__repr__",
-            "class_name": "",
+            "class_name": "django.template.base.Token",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "",
             "name": "split_contents",
             "namespace": "django.template.base.Token.split_contents",
-            "class_name": "",
+            "class_name": "django.template.base.Token",
             "module_name": "",
             "package_name": ""
         }

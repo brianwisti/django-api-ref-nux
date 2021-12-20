@@ -29,7 +29,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.core.cache.backends.base.BaseCache.__init__",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.base.BaseCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -37,7 +37,7 @@
                     "docstring": "\"\"\"\n        Return the timeout value usable by this backend based upon the provided\n        timeout.\n        \"\"\"",
                     "name": "get_backend_timeout",
                     "namespace": "django.core.cache.backends.base.BaseCache.get_backend_timeout",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.base.BaseCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -45,7 +45,7 @@
                     "docstring": "\"\"\"\n        Construct the key used by all other methods. By default, use the\n        key_func to generate a key (which, by default, prepends the\n        `key_prefix' and 'version'). A different key function can be provided\n        at the time of cache construction; alternatively, you can subclass the\n        cache backend to provide custom key making behavior.\n        \"\"\"",
                     "name": "make_key",
                     "namespace": "django.core.cache.backends.base.BaseCache.make_key",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.base.BaseCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -53,7 +53,7 @@
                     "docstring": "\"\"\"\n        Warn about keys that would not be portable to the memcached\n        backend. This encourages (but does not force) writing backend-portable\n        cache code.\n        \"\"\"",
                     "name": "validate_key",
                     "namespace": "django.core.cache.backends.base.BaseCache.validate_key",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.base.BaseCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -61,7 +61,7 @@
                     "docstring": "\"\"\"Helper to make and validate keys.\"\"\"",
                     "name": "make_and_validate_key",
                     "namespace": "django.core.cache.backends.base.BaseCache.make_and_validate_key",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.base.BaseCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -69,7 +69,7 @@
                     "docstring": "\"\"\"\n        Set a value in the cache if the key does not already exist. If\n        timeout is given, use that timeout for the key; otherwise use the\n        default cache timeout.\n\n        Return True if the value was stored, False otherwise.\n        \"\"\"",
                     "name": "add",
                     "namespace": "django.core.cache.backends.base.BaseCache.add",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.base.BaseCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -77,7 +77,7 @@
                     "docstring": "",
                     "name": "aadd",
                     "namespace": "django.core.cache.backends.base.BaseCache.aadd",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.base.BaseCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -85,7 +85,7 @@
                     "docstring": "\"\"\"\n        Fetch a given key from the cache. If the key does not exist, return\n        default, which itself defaults to None.\n        \"\"\"",
                     "name": "get",
                     "namespace": "django.core.cache.backends.base.BaseCache.get",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.base.BaseCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -93,7 +93,7 @@
                     "docstring": "",
                     "name": "aget",
                     "namespace": "django.core.cache.backends.base.BaseCache.aget",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.base.BaseCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -101,7 +101,7 @@
                     "docstring": "\"\"\"\n        Set a value in the cache. If timeout is given, use that timeout for the\n        key; otherwise use the default cache timeout.\n        \"\"\"",
                     "name": "set",
                     "namespace": "django.core.cache.backends.base.BaseCache.set",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.base.BaseCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -109,7 +109,7 @@
                     "docstring": "",
                     "name": "aset",
                     "namespace": "django.core.cache.backends.base.BaseCache.aset",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.base.BaseCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -117,7 +117,7 @@
                     "docstring": "\"\"\"\n        Update the key's expiry time using timeout. Return True if successful\n        or False if the key does not exist.\n        \"\"\"",
                     "name": "touch",
                     "namespace": "django.core.cache.backends.base.BaseCache.touch",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.base.BaseCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -125,7 +125,7 @@
                     "docstring": "",
                     "name": "atouch",
                     "namespace": "django.core.cache.backends.base.BaseCache.atouch",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.base.BaseCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -133,7 +133,7 @@
                     "docstring": "\"\"\"\n        Delete a key from the cache and return whether it succeeded, failing\n        silently.\n        \"\"\"",
                     "name": "delete",
                     "namespace": "django.core.cache.backends.base.BaseCache.delete",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.base.BaseCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -141,7 +141,7 @@
                     "docstring": "",
                     "name": "adelete",
                     "namespace": "django.core.cache.backends.base.BaseCache.adelete",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.base.BaseCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -149,7 +149,7 @@
                     "docstring": "\"\"\"\n        Fetch a bunch of keys from the cache. For certain backends (memcached,\n        pgsql) this can be *much* faster when fetching multiple values.\n\n        Return a dict mapping each key in keys to its value. If the given\n        key is missing, it will be missing from the response dict.\n        \"\"\"",
                     "name": "get_many",
                     "namespace": "django.core.cache.backends.base.BaseCache.get_many",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.base.BaseCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -157,7 +157,7 @@
                     "docstring": "\"\"\"See get_many().\"\"\"",
                     "name": "aget_many",
                     "namespace": "django.core.cache.backends.base.BaseCache.aget_many",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.base.BaseCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -165,7 +165,7 @@
                     "docstring": "\"\"\"\n        Fetch a given key from the cache. If the key does not exist,\n        add the key and set it to the default value. The default value can\n        also be any callable. If timeout is given, use that timeout for the\n        key; otherwise use the default cache timeout.\n\n        Return the value of the key stored or retrieved.\n        \"\"\"",
                     "name": "get_or_set",
                     "namespace": "django.core.cache.backends.base.BaseCache.get_or_set",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.base.BaseCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -173,7 +173,7 @@
                     "docstring": "\"\"\"See get_or_set().\"\"\"",
                     "name": "aget_or_set",
                     "namespace": "django.core.cache.backends.base.BaseCache.aget_or_set",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.base.BaseCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -181,7 +181,7 @@
                     "docstring": "\"\"\"\n        Return True if the key is in the cache and has not expired.\n        \"\"\"",
                     "name": "has_key",
                     "namespace": "django.core.cache.backends.base.BaseCache.has_key",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.base.BaseCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -189,7 +189,7 @@
                     "docstring": "",
                     "name": "ahas_key",
                     "namespace": "django.core.cache.backends.base.BaseCache.ahas_key",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.base.BaseCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -197,7 +197,7 @@
                     "docstring": "\"\"\"\n        Add delta to value in the cache. If the key does not exist, raise a\n        ValueError exception.\n        \"\"\"",
                     "name": "incr",
                     "namespace": "django.core.cache.backends.base.BaseCache.incr",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.base.BaseCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -205,7 +205,7 @@
                     "docstring": "\"\"\"See incr().\"\"\"",
                     "name": "aincr",
                     "namespace": "django.core.cache.backends.base.BaseCache.aincr",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.base.BaseCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -213,7 +213,7 @@
                     "docstring": "\"\"\"\n        Subtract delta from value in the cache. If the key does not exist, raise\n        a ValueError exception.\n        \"\"\"",
                     "name": "decr",
                     "namespace": "django.core.cache.backends.base.BaseCache.decr",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.base.BaseCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -221,7 +221,7 @@
                     "docstring": "",
                     "name": "adecr",
                     "namespace": "django.core.cache.backends.base.BaseCache.adecr",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.base.BaseCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -229,7 +229,7 @@
                     "docstring": "\"\"\"\n        Return True if the key is in the cache and has not expired.\n        \"\"\"",
                     "name": "__contains__",
                     "namespace": "django.core.cache.backends.base.BaseCache.__contains__",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.base.BaseCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -237,7 +237,7 @@
                     "docstring": "\"\"\"\n        Set a bunch of values in the cache at once from a dict of key/value\n        pairs.  For certain backends (memcached), this is much more efficient\n        than calling set() multiple times.\n\n        If timeout is given, use that timeout for the key; otherwise use the\n        default cache timeout.\n\n        On backends that support it, return a list of keys that failed\n        insertion, or an empty list if all keys were inserted successfully.\n        \"\"\"",
                     "name": "set_many",
                     "namespace": "django.core.cache.backends.base.BaseCache.set_many",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.base.BaseCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -245,7 +245,7 @@
                     "docstring": "",
                     "name": "aset_many",
                     "namespace": "django.core.cache.backends.base.BaseCache.aset_many",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.base.BaseCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -253,7 +253,7 @@
                     "docstring": "\"\"\"\n        Delete a bunch of values in the cache at once. For certain backends\n        (memcached), this is much more efficient than calling delete() multiple\n        times.\n        \"\"\"",
                     "name": "delete_many",
                     "namespace": "django.core.cache.backends.base.BaseCache.delete_many",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.base.BaseCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -261,7 +261,7 @@
                     "docstring": "",
                     "name": "adelete_many",
                     "namespace": "django.core.cache.backends.base.BaseCache.adelete_many",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.base.BaseCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -269,7 +269,7 @@
                     "docstring": "\"\"\"Remove *all* values from the cache at once.\"\"\"",
                     "name": "clear",
                     "namespace": "django.core.cache.backends.base.BaseCache.clear",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.base.BaseCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -277,7 +277,7 @@
                     "docstring": "",
                     "name": "aclear",
                     "namespace": "django.core.cache.backends.base.BaseCache.aclear",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.base.BaseCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -285,7 +285,7 @@
                     "docstring": "\"\"\"\n        Add delta to the cache version for the supplied key. Return the new\n        version.\n        \"\"\"",
                     "name": "incr_version",
                     "namespace": "django.core.cache.backends.base.BaseCache.incr_version",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.base.BaseCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -293,7 +293,7 @@
                     "docstring": "\"\"\"See incr_version().\"\"\"",
                     "name": "aincr_version",
                     "namespace": "django.core.cache.backends.base.BaseCache.aincr_version",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.base.BaseCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -301,7 +301,7 @@
                     "docstring": "\"\"\"\n        Subtract delta from the cache version for the supplied key. Return the\n        new version.\n        \"\"\"",
                     "name": "decr_version",
                     "namespace": "django.core.cache.backends.base.BaseCache.decr_version",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.base.BaseCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -309,7 +309,7 @@
                     "docstring": "",
                     "name": "adecr_version",
                     "namespace": "django.core.cache.backends.base.BaseCache.adecr_version",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.base.BaseCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -317,7 +317,7 @@
                     "docstring": "\"\"\"Close the cache connection\"\"\"",
                     "name": "close",
                     "namespace": "django.core.cache.backends.base.BaseCache.close",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.base.BaseCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -325,7 +325,7 @@
                     "docstring": "",
                     "name": "aclose",
                     "namespace": "django.core.cache.backends.base.BaseCache.aclose",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.base.BaseCache",
                     "module_name": "",
                     "package_name": ""
                 }

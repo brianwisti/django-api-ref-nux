@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "get_context",
                     "namespace": "django.forms.utils.RenderableMixin.get_context",
-                    "class_name": "",
+                    "class_name": "django.forms.utils.RenderableMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "",
                     "name": "render",
                     "namespace": "django.forms.utils.RenderableMixin.render",
-                    "class_name": "",
+                    "class_name": "django.forms.utils.RenderableMixin",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -34,7 +34,7 @@
                     "docstring": "\"\"\"Render as <p> elements.\"\"\"",
                     "name": "as_p",
                     "namespace": "django.forms.utils.RenderableFormMixin.as_p",
-                    "class_name": "",
+                    "class_name": "django.forms.utils.RenderableFormMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -42,7 +42,7 @@
                     "docstring": "\"\"\"Render as <tr> elements excluding the surrounding <table> tag.\"\"\"",
                     "name": "as_table",
                     "namespace": "django.forms.utils.RenderableFormMixin.as_table",
-                    "class_name": "",
+                    "class_name": "django.forms.utils.RenderableFormMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -50,7 +50,7 @@
                     "docstring": "\"\"\"Render as <li> elements excluding the surrounding <ul> tag.\"\"\"",
                     "name": "as_ul",
                     "namespace": "django.forms.utils.RenderableFormMixin.as_ul",
-                    "class_name": "",
+                    "class_name": "django.forms.utils.RenderableFormMixin",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -65,7 +65,7 @@
                     "docstring": "",
                     "name": "as_json",
                     "namespace": "django.forms.utils.RenderableErrorMixin.as_json",
-                    "class_name": "",
+                    "class_name": "django.forms.utils.RenderableErrorMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -73,7 +73,7 @@
                     "docstring": "",
                     "name": "as_text",
                     "namespace": "django.forms.utils.RenderableErrorMixin.as_text",
-                    "class_name": "",
+                    "class_name": "django.forms.utils.RenderableErrorMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -81,7 +81,7 @@
                     "docstring": "",
                     "name": "as_ul",
                     "namespace": "django.forms.utils.RenderableErrorMixin.as_ul",
-                    "class_name": "",
+                    "class_name": "django.forms.utils.RenderableErrorMixin",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -96,7 +96,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.forms.utils.ErrorDict.__init__",
-                    "class_name": "",
+                    "class_name": "django.forms.utils.ErrorDict",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -104,7 +104,7 @@
                     "docstring": "",
                     "name": "as_data",
                     "namespace": "django.forms.utils.ErrorDict.as_data",
-                    "class_name": "",
+                    "class_name": "django.forms.utils.ErrorDict",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -112,7 +112,7 @@
                     "docstring": "",
                     "name": "get_json_data",
                     "namespace": "django.forms.utils.ErrorDict.get_json_data",
-                    "class_name": "",
+                    "class_name": "django.forms.utils.ErrorDict",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -120,7 +120,7 @@
                     "docstring": "",
                     "name": "get_context",
                     "namespace": "django.forms.utils.ErrorDict.get_context",
-                    "class_name": "",
+                    "class_name": "django.forms.utils.ErrorDict",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -135,7 +135,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.forms.utils.ErrorList.__init__",
-                    "class_name": "",
+                    "class_name": "django.forms.utils.ErrorList",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -143,7 +143,7 @@
                     "docstring": "",
                     "name": "as_data",
                     "namespace": "django.forms.utils.ErrorList.as_data",
-                    "class_name": "",
+                    "class_name": "django.forms.utils.ErrorList",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -151,7 +151,7 @@
                     "docstring": "",
                     "name": "copy",
                     "namespace": "django.forms.utils.ErrorList.copy",
-                    "class_name": "",
+                    "class_name": "django.forms.utils.ErrorList",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -159,7 +159,7 @@
                     "docstring": "",
                     "name": "get_json_data",
                     "namespace": "django.forms.utils.ErrorList.get_json_data",
-                    "class_name": "",
+                    "class_name": "django.forms.utils.ErrorList",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -167,7 +167,7 @@
                     "docstring": "",
                     "name": "get_context",
                     "namespace": "django.forms.utils.ErrorList.get_context",
-                    "class_name": "",
+                    "class_name": "django.forms.utils.ErrorList",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -175,7 +175,7 @@
                     "docstring": "",
                     "name": "__repr__",
                     "namespace": "django.forms.utils.ErrorList.__repr__",
-                    "class_name": "",
+                    "class_name": "django.forms.utils.ErrorList",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -183,7 +183,7 @@
                     "docstring": "",
                     "name": "__contains__",
                     "namespace": "django.forms.utils.ErrorList.__contains__",
-                    "class_name": "",
+                    "class_name": "django.forms.utils.ErrorList",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -191,7 +191,7 @@
                     "docstring": "",
                     "name": "__eq__",
                     "namespace": "django.forms.utils.ErrorList.__eq__",
-                    "class_name": "",
+                    "class_name": "django.forms.utils.ErrorList",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -199,7 +199,7 @@
                     "docstring": "",
                     "name": "__getitem__",
                     "namespace": "django.forms.utils.ErrorList.__getitem__",
-                    "class_name": "",
+                    "class_name": "django.forms.utils.ErrorList",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -207,7 +207,7 @@
                     "docstring": "",
                     "name": "__reduce_ex__",
                     "namespace": "django.forms.utils.ErrorList.__reduce_ex__",
-                    "class_name": "",
+                    "class_name": "django.forms.utils.ErrorList",
                     "module_name": "",
                     "package_name": ""
                 }

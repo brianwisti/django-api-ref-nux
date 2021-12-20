@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Safely decode an encoded text stream back into a list of messages.\n\n        If the encoded text stream contained an invalid hash or was in an\n        invalid format, return None.\n        \"\"\"",
     "name": "_decode",
     "namespace": "django.contrib.messages.storage.cookie.CookieStorage._decode",
-    "class_name": "",
+    "class_name": "django.contrib.messages.storage.cookie.CookieStorage",
     "module_name": "",
     "package_name": ""
 }

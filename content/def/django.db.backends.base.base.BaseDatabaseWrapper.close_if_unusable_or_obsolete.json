@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Close the current connection if unrecoverable errors have occurred\n        or if it outlived its maximum age.\n        \"\"\"",
     "name": "close_if_unusable_or_obsolete",
     "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.close_if_unusable_or_obsolete",
-    "class_name": "",
+    "class_name": "django.db.backends.base.base.BaseDatabaseWrapper",
     "module_name": "",
     "package_name": ""
 }

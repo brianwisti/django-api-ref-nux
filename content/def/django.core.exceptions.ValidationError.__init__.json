@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        The `message` argument can be a single error, a list of errors, or a\n        dictionary that maps field names to lists of errors. What we define as\n        an \"error\" can be either a simple string or an instance of\n        ValidationError with its message attribute set, and what we define as\n        list or dictionary can be an actual `list` or `dict` or an instance\n        of ValidationError with its `error_list` or `error_dict` attribute set.\n        \"\"\"",
     "name": "__init__",
     "namespace": "django.core.exceptions.ValidationError.__init__",
-    "class_name": "",
+    "class_name": "django.core.exceptions.ValidationError",
     "module_name": "",
     "package_name": ""
 }

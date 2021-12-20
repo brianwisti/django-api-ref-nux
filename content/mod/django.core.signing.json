@@ -23,7 +23,7 @@
                     "docstring": "",
                     "name": "dumps",
                     "namespace": "django.core.signing.JSONSerializer.dumps",
-                    "class_name": "",
+                    "class_name": "django.core.signing.JSONSerializer",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -31,7 +31,7 @@
                     "docstring": "",
                     "name": "loads",
                     "namespace": "django.core.signing.JSONSerializer.loads",
-                    "class_name": "",
+                    "class_name": "django.core.signing.JSONSerializer",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -46,7 +46,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.core.signing.Signer.__init__",
-                    "class_name": "",
+                    "class_name": "django.core.signing.Signer",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -54,7 +54,7 @@
                     "docstring": "",
                     "name": "signature",
                     "namespace": "django.core.signing.Signer.signature",
-                    "class_name": "",
+                    "class_name": "django.core.signing.Signer",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -62,7 +62,7 @@
                     "docstring": "",
                     "name": "sign",
                     "namespace": "django.core.signing.Signer.sign",
-                    "class_name": "",
+                    "class_name": "django.core.signing.Signer",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -70,7 +70,7 @@
                     "docstring": "",
                     "name": "unsign",
                     "namespace": "django.core.signing.Signer.unsign",
-                    "class_name": "",
+                    "class_name": "django.core.signing.Signer",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -78,7 +78,7 @@
                     "docstring": "\"\"\"\n        Return URL-safe, hmac signed base64 compressed JSON string.\n\n        If compress is True (not the default), check if compressing using zlib\n        can save some space. Prepend a '.' to signify compression. This is\n        included in the signature, to protect against zip bombs.\n\n        The serializer is expected to return a bytestring.\n        \"\"\"",
                     "name": "sign_object",
                     "namespace": "django.core.signing.Signer.sign_object",
-                    "class_name": "",
+                    "class_name": "django.core.signing.Signer",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -86,7 +86,7 @@
                     "docstring": "",
                     "name": "unsign_object",
                     "namespace": "django.core.signing.Signer.unsign_object",
-                    "class_name": "",
+                    "class_name": "django.core.signing.Signer",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -101,7 +101,7 @@
                     "docstring": "",
                     "name": "timestamp",
                     "namespace": "django.core.signing.TimestampSigner.timestamp",
-                    "class_name": "",
+                    "class_name": "django.core.signing.TimestampSigner",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -109,7 +109,7 @@
                     "docstring": "",
                     "name": "sign",
                     "namespace": "django.core.signing.TimestampSigner.sign",
-                    "class_name": "",
+                    "class_name": "django.core.signing.TimestampSigner",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -117,7 +117,7 @@
                     "docstring": "\"\"\"\n        Retrieve original value and check it wasn't signed more\n        than max_age seconds ago.\n        \"\"\"",
                     "name": "unsign",
                     "namespace": "django.core.signing.TimestampSigner.unsign",
-                    "class_name": "",
+                    "class_name": "django.core.signing.TimestampSigner",
                     "module_name": "",
                     "package_name": ""
                 }

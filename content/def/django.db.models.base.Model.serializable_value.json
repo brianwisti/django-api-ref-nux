@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return the value of the field name for this instance. If the field is\n        a foreign key, return the id value instead of the object. If there's\n        no Field object with this name on the model, return the model\n        attribute's value.\n\n        Used to serialize a field's value (in the serializer, or form output,\n        for example). Normally, you would just access the attribute directly\n        and not use this method.\n        \"\"\"",
     "name": "serializable_value",
     "namespace": "django.db.models.base.Model.serializable_value",
-    "class_name": "",
+    "class_name": "django.db.models.base.Model",
     "module_name": "",
     "package_name": ""
 }

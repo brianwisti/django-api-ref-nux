@@ -9,7 +9,7 @@
             "docstring": "",
             "name": "__init__",
             "namespace": "django.http.multipartparser.BoundaryIter.__init__",
-            "class_name": "",
+            "class_name": "django.http.multipartparser.BoundaryIter",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "",
             "name": "__iter__",
             "namespace": "django.http.multipartparser.BoundaryIter.__iter__",
-            "class_name": "",
+            "class_name": "django.http.multipartparser.BoundaryIter",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "",
             "name": "__next__",
             "namespace": "django.http.multipartparser.BoundaryIter.__next__",
-            "class_name": "",
+            "class_name": "django.http.multipartparser.BoundaryIter",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "\"\"\"\n        Find a multipart boundary in data.\n\n        Should no boundary exist in the data, return None. Otherwise, return\n        a tuple containing the indices of the following:\n         * the end of current encapsulation\n         * the start of the next encapsulation\n        \"\"\"",
             "name": "_find_boundary",
             "namespace": "django.http.multipartparser.BoundaryIter._find_boundary",
-            "class_name": "",
+            "class_name": "django.http.multipartparser.BoundaryIter",
             "module_name": "",
             "package_name": ""
         }

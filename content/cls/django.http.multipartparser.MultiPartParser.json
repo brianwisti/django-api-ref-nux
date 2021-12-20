@@ -9,7 +9,7 @@
             "docstring": "\"\"\"\n        Initialize the MultiPartParser object.\n\n        :META:\n            The standard ``META`` dictionary in Django request objects.\n        :input_data:\n            The raw post data, as a file-like object.\n        :upload_handlers:\n            A list of UploadHandler instances that perform operations on the\n            uploaded data.\n        :encoding:\n            The encoding with which to treat the incoming data.\n        \"\"\"",
             "name": "__init__",
             "namespace": "django.http.multipartparser.MultiPartParser.__init__",
-            "class_name": "",
+            "class_name": "django.http.multipartparser.MultiPartParser",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "\"\"\"\n        Parse the POST data and break it into a FILES MultiValueDict and a POST\n        MultiValueDict.\n\n        Return a tuple containing the POST and FILES dictionary, respectively.\n        \"\"\"",
             "name": "parse",
             "namespace": "django.http.multipartparser.MultiPartParser.parse",
-            "class_name": "",
+            "class_name": "django.http.multipartparser.MultiPartParser",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "\"\"\"\n        Handle all the signaling that takes place when a file is complete.\n        \"\"\"",
             "name": "handle_file_complete",
             "namespace": "django.http.multipartparser.MultiPartParser.handle_file_complete",
-            "class_name": "",
+            "class_name": "django.http.multipartparser.MultiPartParser",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "\"\"\"\n        Sanitize the filename of an upload.\n\n        Remove all possible path separators, even though that might remove more\n        than actually required by the target system. Filenames that could\n        potentially cause problems (current/parent dir) are also discarded.\n\n        It should be noted that this function could still return a \"filepath\"\n        like \"C:some_file.txt\" which is handled later on by the storage layer.\n        So while this function does sanitize filenames to some extent, the\n        resulting filename should still be considered as untrusted user input.\n        \"\"\"",
             "name": "sanitize_file_name",
             "namespace": "django.http.multipartparser.MultiPartParser.sanitize_file_name",
-            "class_name": "",
+            "class_name": "django.http.multipartparser.MultiPartParser",
             "module_name": "",
             "package_name": ""
         },
@@ -41,7 +41,7 @@
             "docstring": "",
             "name": "_close_files",
             "namespace": "django.http.multipartparser.MultiPartParser._close_files",
-            "class_name": "",
+            "class_name": "django.http.multipartparser.MultiPartParser",
             "module_name": "",
             "package_name": ""
         }

@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return a list of 2-tuples of the form (expr, (sql, params, is_ref)) for\n        the ORDER BY clause.\n\n        The order_by clause can alter the select clause (for example it can add\n        aliases to clauses that do not yet have one, or it can add totally new\n        select clauses).\n        \"\"\"",
     "name": "get_order_by",
     "namespace": "django.db.models.sql.compiler.SQLCompiler.get_order_by",
-    "class_name": "",
+    "class_name": "django.db.models.sql.compiler.SQLCompiler",
     "module_name": "",
     "package_name": ""
 }

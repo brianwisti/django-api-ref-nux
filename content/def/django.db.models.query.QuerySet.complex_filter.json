@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return a new QuerySet instance with filter_obj added to the filters.\n\n        filter_obj can be a Q object or a dictionary of keyword lookup\n        arguments.\n\n        This exists to support framework features such as 'limit_choices_to',\n        and usually it will be more natural to use other methods.\n        \"\"\"",
     "name": "complex_filter",
     "namespace": "django.db.models.query.QuerySet.complex_filter",
-    "class_name": "",
+    "class_name": "django.db.models.query.QuerySet",
     "module_name": "",
     "package_name": ""
 }

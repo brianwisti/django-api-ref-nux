@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Time zone offset in seconds (i.e. '-43200' to '43200'). The offset for\n        timezones west of UTC is always negative, and for those east of UTC is\n        always positive.\n\n        If timezone information is not available, return an empty string.\n        \"\"\"",
     "name": "Z",
     "namespace": "django.utils.dateformat.TimeFormat.Z",
-    "class_name": "",
+    "class_name": "django.utils.dateformat.TimeFormat",
     "module_name": "",
     "package_name": ""
 }

@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        This filter is to add safety in production environments (i.e. DEBUG\n        is False). If DEBUG is True then your site is not safe anyway.\n        This hook is provided as a convenience to easily activate or\n        deactivate the filter on a per request basis.\n        \"\"\"",
     "name": "is_active",
     "namespace": "django.views.debug.SafeExceptionReporterFilter.is_active",
-    "class_name": "",
+    "class_name": "django.views.debug.SafeExceptionReporterFilter",
     "module_name": "",
     "package_name": ""
 }

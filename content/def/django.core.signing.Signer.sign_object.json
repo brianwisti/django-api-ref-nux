@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return URL-safe, hmac signed base64 compressed JSON string.\n\n        If compress is True (not the default), check if compressing using zlib\n        can save some space. Prepend a '.' to signify compression. This is\n        included in the signature, to protect against zip bombs.\n\n        The serializer is expected to return a bytestring.\n        \"\"\"",
     "name": "sign_object",
     "namespace": "django.core.signing.Signer.sign_object",
-    "class_name": "",
+    "class_name": "django.core.signing.Signer",
     "module_name": "",
     "package_name": ""
 }

@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return the model matching the given app_label and model_name.\n\n        As a shortcut, app_label may be in the form <app_label>.<model_name>.\n\n        model_name is case-insensitive.\n\n        Raise LookupError if no application exists with this label, or no\n        model exists with this name in the application. Raise ValueError if\n        called with a single argument that doesn't contain exactly one dot.\n        \"\"\"",
     "name": "get_model",
     "namespace": "django.apps.registry.Apps.get_model",
-    "class_name": "",
+    "class_name": "django.apps.registry.Apps",
     "module_name": "",
     "package_name": ""
 }

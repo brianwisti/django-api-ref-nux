@@ -11,7 +11,7 @@
                     "docstring": "\"\"\"Retrieve the specified file from storage.\"\"\"",
                     "name": "open",
                     "namespace": "django.core.files.storage.Storage.open",
-                    "class_name": "",
+                    "class_name": "django.core.files.storage.Storage",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "\"\"\"\n        Save new content to the file specified by name. The content should be\n        a proper File object or any Python file-like object, ready to be read\n        from the beginning.\n        \"\"\"",
                     "name": "save",
                     "namespace": "django.core.files.storage.Storage.save",
-                    "class_name": "",
+                    "class_name": "django.core.files.storage.Storage",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -27,7 +27,7 @@
                     "docstring": "\"\"\"\n        Return a filename, based on the provided filename, that's suitable for\n        use in the target storage system.\n        \"\"\"",
                     "name": "get_valid_name",
                     "namespace": "django.core.files.storage.Storage.get_valid_name",
-                    "class_name": "",
+                    "class_name": "django.core.files.storage.Storage",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -35,7 +35,7 @@
                     "docstring": "\"\"\"\n        Return an alternative filename, by adding an underscore and a random 7\n        character alphanumeric string (before the file extension, if one\n        exists) to the filename.\n        \"\"\"",
                     "name": "get_alternative_name",
                     "namespace": "django.core.files.storage.Storage.get_alternative_name",
-                    "class_name": "",
+                    "class_name": "django.core.files.storage.Storage",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -43,7 +43,7 @@
                     "docstring": "\"\"\"\n        Return a filename that's free on the target storage system and\n        available for new content to be written to.\n        \"\"\"",
                     "name": "get_available_name",
                     "namespace": "django.core.files.storage.Storage.get_available_name",
-                    "class_name": "",
+                    "class_name": "django.core.files.storage.Storage",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -51,7 +51,7 @@
                     "docstring": "\"\"\"\n        Validate the filename by calling get_valid_name() and return a filename\n        to be passed to the save() method.\n        \"\"\"",
                     "name": "generate_filename",
                     "namespace": "django.core.files.storage.Storage.generate_filename",
-                    "class_name": "",
+                    "class_name": "django.core.files.storage.Storage",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -59,7 +59,7 @@
                     "docstring": "\"\"\"\n        Return a local filesystem path where the file can be retrieved using\n        Python's built-in open() function. Storage systems that can't be\n        accessed using open() should *not* implement this method.\n        \"\"\"",
                     "name": "path",
                     "namespace": "django.core.files.storage.Storage.path",
-                    "class_name": "",
+                    "class_name": "django.core.files.storage.Storage",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -67,7 +67,7 @@
                     "docstring": "\"\"\"\n        Delete the specified file from the storage system.\n        \"\"\"",
                     "name": "delete",
                     "namespace": "django.core.files.storage.Storage.delete",
-                    "class_name": "",
+                    "class_name": "django.core.files.storage.Storage",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -75,7 +75,7 @@
                     "docstring": "\"\"\"\n        Return True if a file referenced by the given name already exists in the\n        storage system, or False if the name is available for a new file.\n        \"\"\"",
                     "name": "exists",
                     "namespace": "django.core.files.storage.Storage.exists",
-                    "class_name": "",
+                    "class_name": "django.core.files.storage.Storage",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -83,7 +83,7 @@
                     "docstring": "\"\"\"\n        List the contents of the specified path. Return a 2-tuple of lists:\n        the first item being directories, the second item being files.\n        \"\"\"",
                     "name": "listdir",
                     "namespace": "django.core.files.storage.Storage.listdir",
-                    "class_name": "",
+                    "class_name": "django.core.files.storage.Storage",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -91,7 +91,7 @@
                     "docstring": "\"\"\"\n        Return the total size, in bytes, of the file specified by name.\n        \"\"\"",
                     "name": "size",
                     "namespace": "django.core.files.storage.Storage.size",
-                    "class_name": "",
+                    "class_name": "django.core.files.storage.Storage",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -99,7 +99,7 @@
                     "docstring": "\"\"\"\n        Return an absolute URL where the file's contents can be accessed\n        directly by a web browser.\n        \"\"\"",
                     "name": "url",
                     "namespace": "django.core.files.storage.Storage.url",
-                    "class_name": "",
+                    "class_name": "django.core.files.storage.Storage",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -107,7 +107,7 @@
                     "docstring": "\"\"\"\n        Return the last accessed time (as a datetime) of the file specified by\n        name. The datetime will be timezone-aware if USE_TZ=True.\n        \"\"\"",
                     "name": "get_accessed_time",
                     "namespace": "django.core.files.storage.Storage.get_accessed_time",
-                    "class_name": "",
+                    "class_name": "django.core.files.storage.Storage",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -115,7 +115,7 @@
                     "docstring": "\"\"\"\n        Return the creation time (as a datetime) of the file specified by name.\n        The datetime will be timezone-aware if USE_TZ=True.\n        \"\"\"",
                     "name": "get_created_time",
                     "namespace": "django.core.files.storage.Storage.get_created_time",
-                    "class_name": "",
+                    "class_name": "django.core.files.storage.Storage",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -123,7 +123,7 @@
                     "docstring": "\"\"\"\n        Return the last modified time (as a datetime) of the file specified by\n        name. The datetime will be timezone-aware if USE_TZ=True.\n        \"\"\"",
                     "name": "get_modified_time",
                     "namespace": "django.core.files.storage.Storage.get_modified_time",
-                    "class_name": "",
+                    "class_name": "django.core.files.storage.Storage",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -138,7 +138,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.core.files.storage.FileSystemStorage.__init__",
-                    "class_name": "",
+                    "class_name": "django.core.files.storage.FileSystemStorage",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -146,7 +146,7 @@
                     "docstring": "\"\"\"Reset setting based property values.\"\"\"",
                     "name": "_clear_cached_properties",
                     "namespace": "django.core.files.storage.FileSystemStorage._clear_cached_properties",
-                    "class_name": "",
+                    "class_name": "django.core.files.storage.FileSystemStorage",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -154,7 +154,7 @@
                     "docstring": "",
                     "name": "_value_or_setting",
                     "namespace": "django.core.files.storage.FileSystemStorage._value_or_setting",
-                    "class_name": "",
+                    "class_name": "django.core.files.storage.FileSystemStorage",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -162,7 +162,7 @@
                     "docstring": "",
                     "name": "base_location",
                     "namespace": "django.core.files.storage.FileSystemStorage.base_location",
-                    "class_name": "",
+                    "class_name": "django.core.files.storage.FileSystemStorage",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -170,7 +170,7 @@
                     "docstring": "",
                     "name": "location",
                     "namespace": "django.core.files.storage.FileSystemStorage.location",
-                    "class_name": "",
+                    "class_name": "django.core.files.storage.FileSystemStorage",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -178,7 +178,7 @@
                     "docstring": "",
                     "name": "base_url",
                     "namespace": "django.core.files.storage.FileSystemStorage.base_url",
-                    "class_name": "",
+                    "class_name": "django.core.files.storage.FileSystemStorage",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -186,7 +186,7 @@
                     "docstring": "",
                     "name": "file_permissions_mode",
                     "namespace": "django.core.files.storage.FileSystemStorage.file_permissions_mode",
-                    "class_name": "",
+                    "class_name": "django.core.files.storage.FileSystemStorage",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -194,7 +194,7 @@
                     "docstring": "",
                     "name": "directory_permissions_mode",
                     "namespace": "django.core.files.storage.FileSystemStorage.directory_permissions_mode",
-                    "class_name": "",
+                    "class_name": "django.core.files.storage.FileSystemStorage",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -202,7 +202,7 @@
                     "docstring": "",
                     "name": "_open",
                     "namespace": "django.core.files.storage.FileSystemStorage._open",
-                    "class_name": "",
+                    "class_name": "django.core.files.storage.FileSystemStorage",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -210,7 +210,7 @@
                     "docstring": "",
                     "name": "_save",
                     "namespace": "django.core.files.storage.FileSystemStorage._save",
-                    "class_name": "",
+                    "class_name": "django.core.files.storage.FileSystemStorage",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -218,7 +218,7 @@
                     "docstring": "",
                     "name": "delete",
                     "namespace": "django.core.files.storage.FileSystemStorage.delete",
-                    "class_name": "",
+                    "class_name": "django.core.files.storage.FileSystemStorage",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -226,7 +226,7 @@
                     "docstring": "",
                     "name": "exists",
                     "namespace": "django.core.files.storage.FileSystemStorage.exists",
-                    "class_name": "",
+                    "class_name": "django.core.files.storage.FileSystemStorage",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -234,7 +234,7 @@
                     "docstring": "",
                     "name": "listdir",
                     "namespace": "django.core.files.storage.FileSystemStorage.listdir",
-                    "class_name": "",
+                    "class_name": "django.core.files.storage.FileSystemStorage",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -242,7 +242,7 @@
                     "docstring": "",
                     "name": "path",
                     "namespace": "django.core.files.storage.FileSystemStorage.path",
-                    "class_name": "",
+                    "class_name": "django.core.files.storage.FileSystemStorage",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -250,7 +250,7 @@
                     "docstring": "",
                     "name": "size",
                     "namespace": "django.core.files.storage.FileSystemStorage.size",
-                    "class_name": "",
+                    "class_name": "django.core.files.storage.FileSystemStorage",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -258,7 +258,7 @@
                     "docstring": "",
                     "name": "url",
                     "namespace": "django.core.files.storage.FileSystemStorage.url",
-                    "class_name": "",
+                    "class_name": "django.core.files.storage.FileSystemStorage",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -266,7 +266,7 @@
                     "docstring": "\"\"\"\n        If timezone support is enabled, make an aware datetime object in UTC;\n        otherwise make a naive one in the local timezone.\n        \"\"\"",
                     "name": "_datetime_from_timestamp",
                     "namespace": "django.core.files.storage.FileSystemStorage._datetime_from_timestamp",
-                    "class_name": "",
+                    "class_name": "django.core.files.storage.FileSystemStorage",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -274,7 +274,7 @@
                     "docstring": "",
                     "name": "get_accessed_time",
                     "namespace": "django.core.files.storage.FileSystemStorage.get_accessed_time",
-                    "class_name": "",
+                    "class_name": "django.core.files.storage.FileSystemStorage",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -282,7 +282,7 @@
                     "docstring": "",
                     "name": "get_created_time",
                     "namespace": "django.core.files.storage.FileSystemStorage.get_created_time",
-                    "class_name": "",
+                    "class_name": "django.core.files.storage.FileSystemStorage",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -290,7 +290,7 @@
                     "docstring": "",
                     "name": "get_modified_time",
                     "namespace": "django.core.files.storage.FileSystemStorage.get_modified_time",
-                    "class_name": "",
+                    "class_name": "django.core.files.storage.FileSystemStorage",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -305,7 +305,7 @@
                     "docstring": "",
                     "name": "_setup",
                     "namespace": "django.core.files.storage.DefaultStorage._setup",
-                    "class_name": "",
+                    "class_name": "django.core.files.storage.DefaultStorage",
                     "module_name": "",
                     "package_name": ""
                 }

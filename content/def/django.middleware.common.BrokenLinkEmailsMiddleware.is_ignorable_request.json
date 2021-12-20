@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return True if the given request *shouldn't* notify the site managers\n        according to project settings or in situations outlined by the inline\n        comments.\n        \"\"\"",
     "name": "is_ignorable_request",
     "namespace": "django.middleware.common.BrokenLinkEmailsMiddleware.is_ignorable_request",
-    "class_name": "",
+    "class_name": "django.middleware.common.BrokenLinkEmailsMiddleware",
     "module_name": "",
     "package_name": ""
 }

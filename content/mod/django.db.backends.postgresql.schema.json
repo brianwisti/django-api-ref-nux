@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "quote_value",
                     "namespace": "django.db.backends.postgresql.schema.DatabaseSchemaEditor.quote_value",
-                    "class_name": "",
+                    "class_name": "django.db.backends.postgresql.schema.DatabaseSchemaEditor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "",
                     "name": "_field_indexes_sql",
                     "namespace": "django.db.backends.postgresql.schema.DatabaseSchemaEditor._field_indexes_sql",
-                    "class_name": "",
+                    "class_name": "django.db.backends.postgresql.schema.DatabaseSchemaEditor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -27,7 +27,7 @@
                     "docstring": "",
                     "name": "_field_data_type",
                     "namespace": "django.db.backends.postgresql.schema.DatabaseSchemaEditor._field_data_type",
-                    "class_name": "",
+                    "class_name": "django.db.backends.postgresql.schema.DatabaseSchemaEditor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -35,7 +35,7 @@
                     "docstring": "",
                     "name": "_field_base_data_types",
                     "namespace": "django.db.backends.postgresql.schema.DatabaseSchemaEditor._field_base_data_types",
-                    "class_name": "",
+                    "class_name": "django.db.backends.postgresql.schema.DatabaseSchemaEditor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -43,7 +43,7 @@
                     "docstring": "\"\"\"\n        Return the statement to create an index with varchar operator pattern\n        when the column type is 'varchar' or 'text', otherwise return None.\n        \"\"\"",
                     "name": "_create_like_index_sql",
                     "namespace": "django.db.backends.postgresql.schema.DatabaseSchemaEditor._create_like_index_sql",
-                    "class_name": "",
+                    "class_name": "django.db.backends.postgresql.schema.DatabaseSchemaEditor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -51,7 +51,7 @@
                     "docstring": "",
                     "name": "_alter_column_type_sql",
                     "namespace": "django.db.backends.postgresql.schema.DatabaseSchemaEditor._alter_column_type_sql",
-                    "class_name": "",
+                    "class_name": "django.db.backends.postgresql.schema.DatabaseSchemaEditor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -59,7 +59,7 @@
                     "docstring": "",
                     "name": "_alter_field",
                     "namespace": "django.db.backends.postgresql.schema.DatabaseSchemaEditor._alter_field",
-                    "class_name": "",
+                    "class_name": "django.db.backends.postgresql.schema.DatabaseSchemaEditor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -67,7 +67,7 @@
                     "docstring": "",
                     "name": "_index_columns",
                     "namespace": "django.db.backends.postgresql.schema.DatabaseSchemaEditor._index_columns",
-                    "class_name": "",
+                    "class_name": "django.db.backends.postgresql.schema.DatabaseSchemaEditor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -75,7 +75,7 @@
                     "docstring": "",
                     "name": "add_index",
                     "namespace": "django.db.backends.postgresql.schema.DatabaseSchemaEditor.add_index",
-                    "class_name": "",
+                    "class_name": "django.db.backends.postgresql.schema.DatabaseSchemaEditor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -83,7 +83,7 @@
                     "docstring": "",
                     "name": "remove_index",
                     "namespace": "django.db.backends.postgresql.schema.DatabaseSchemaEditor.remove_index",
-                    "class_name": "",
+                    "class_name": "django.db.backends.postgresql.schema.DatabaseSchemaEditor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -91,7 +91,7 @@
                     "docstring": "",
                     "name": "_delete_index_sql",
                     "namespace": "django.db.backends.postgresql.schema.DatabaseSchemaEditor._delete_index_sql",
-                    "class_name": "",
+                    "class_name": "django.db.backends.postgresql.schema.DatabaseSchemaEditor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -99,7 +99,7 @@
                     "docstring": "",
                     "name": "_create_index_sql",
                     "namespace": "django.db.backends.postgresql.schema.DatabaseSchemaEditor._create_index_sql",
-                    "class_name": "",
+                    "class_name": "django.db.backends.postgresql.schema.DatabaseSchemaEditor",
                     "module_name": "",
                     "package_name": ""
                 }

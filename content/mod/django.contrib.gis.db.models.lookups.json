@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "as_sql",
                     "namespace": "django.contrib.gis.db.models.lookups.RasterBandTransform.as_sql",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.models.lookups.RasterBandTransform",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -26,7 +26,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.contrib.gis.db.models.lookups.GISLookup.__init__",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.models.lookups.GISLookup",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -34,7 +34,7 @@
                     "docstring": "",
                     "name": "process_rhs_params",
                     "namespace": "django.contrib.gis.db.models.lookups.GISLookup.process_rhs_params",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.models.lookups.GISLookup",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -42,7 +42,7 @@
                     "docstring": "\"\"\"\n        Extract the lhs band index from the band transform class and the rhs\n        band index from the input tuple.\n        \"\"\"",
                     "name": "process_band_indices",
                     "namespace": "django.contrib.gis.db.models.lookups.GISLookup.process_band_indices",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.models.lookups.GISLookup",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -50,7 +50,7 @@
                     "docstring": "",
                     "name": "get_db_prep_lookup",
                     "namespace": "django.contrib.gis.db.models.lookups.GISLookup.get_db_prep_lookup",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.models.lookups.GISLookup",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -58,7 +58,7 @@
                     "docstring": "",
                     "name": "process_rhs",
                     "namespace": "django.contrib.gis.db.models.lookups.GISLookup.process_rhs",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.models.lookups.GISLookup",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -66,7 +66,7 @@
                     "docstring": "",
                     "name": "get_rhs_op",
                     "namespace": "django.contrib.gis.db.models.lookups.GISLookup.get_rhs_op",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.models.lookups.GISLookup",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -74,7 +74,7 @@
                     "docstring": "",
                     "name": "as_sql",
                     "namespace": "django.contrib.gis.db.models.lookups.GISLookup.as_sql",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.models.lookups.GISLookup",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -215,7 +215,7 @@
                     "docstring": "",
                     "name": "process_rhs",
                     "namespace": "django.contrib.gis.db.models.lookups.RelateLookup.process_rhs",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.models.lookups.RelateLookup",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -242,7 +242,7 @@
                     "docstring": "",
                     "name": "process_rhs_params",
                     "namespace": "django.contrib.gis.db.models.lookups.DistanceLookupBase.process_rhs_params",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.models.lookups.DistanceLookupBase",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -250,7 +250,7 @@
                     "docstring": "",
                     "name": "process_distance",
                     "namespace": "django.contrib.gis.db.models.lookups.DistanceLookupBase.process_distance",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.models.lookups.DistanceLookupBase",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -265,7 +265,7 @@
                     "docstring": "",
                     "name": "process_distance",
                     "namespace": "django.contrib.gis.db.models.lookups.DWithinLookup.process_distance",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.models.lookups.DWithinLookup",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -273,7 +273,7 @@
                     "docstring": "",
                     "name": "process_rhs",
                     "namespace": "django.contrib.gis.db.models.lookups.DWithinLookup.process_rhs",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.models.lookups.DWithinLookup",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -288,7 +288,7 @@
                     "docstring": "",
                     "name": "as_sql",
                     "namespace": "django.contrib.gis.db.models.lookups.DistanceLookupFromFunction.as_sql",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.models.lookups.DistanceLookupFromFunction",
                     "module_name": "",
                     "package_name": ""
                 }

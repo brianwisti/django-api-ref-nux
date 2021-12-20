@@ -9,7 +9,7 @@
             "docstring": "",
             "name": "_boolean_input",
             "namespace": "django.db.migrations.questioner.InteractiveMigrationQuestioner._boolean_input",
-            "class_name": "",
+            "class_name": "django.db.migrations.questioner.InteractiveMigrationQuestioner",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "",
             "name": "_choice_input",
             "namespace": "django.db.migrations.questioner.InteractiveMigrationQuestioner._choice_input",
-            "class_name": "",
+            "class_name": "django.db.migrations.questioner.InteractiveMigrationQuestioner",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "\"\"\"\n        Prompt for a default value.\n\n        The ``default`` argument allows providing a custom default value (as a\n        string) which will be shown to the user and used as the return value\n        if the user doesn't provide any other input.\n        \"\"\"",
             "name": "_ask_default",
             "namespace": "django.db.migrations.questioner.InteractiveMigrationQuestioner._ask_default",
-            "class_name": "",
+            "class_name": "django.db.migrations.questioner.InteractiveMigrationQuestioner",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "\"\"\"Adding a NOT NULL field to a model.\"\"\"",
             "name": "ask_not_null_addition",
             "namespace": "django.db.migrations.questioner.InteractiveMigrationQuestioner.ask_not_null_addition",
-            "class_name": "",
+            "class_name": "django.db.migrations.questioner.InteractiveMigrationQuestioner",
             "module_name": "",
             "package_name": ""
         },
@@ -41,7 +41,7 @@
             "docstring": "\"\"\"Changing a NULL field to NOT NULL.\"\"\"",
             "name": "ask_not_null_alteration",
             "namespace": "django.db.migrations.questioner.InteractiveMigrationQuestioner.ask_not_null_alteration",
-            "class_name": "",
+            "class_name": "django.db.migrations.questioner.InteractiveMigrationQuestioner",
             "module_name": "",
             "package_name": ""
         },
@@ -49,7 +49,7 @@
             "docstring": "\"\"\"Was this field really renamed?\"\"\"",
             "name": "ask_rename",
             "namespace": "django.db.migrations.questioner.InteractiveMigrationQuestioner.ask_rename",
-            "class_name": "",
+            "class_name": "django.db.migrations.questioner.InteractiveMigrationQuestioner",
             "module_name": "",
             "package_name": ""
         },
@@ -57,7 +57,7 @@
             "docstring": "\"\"\"Was this model really renamed?\"\"\"",
             "name": "ask_rename_model",
             "namespace": "django.db.migrations.questioner.InteractiveMigrationQuestioner.ask_rename_model",
-            "class_name": "",
+            "class_name": "django.db.migrations.questioner.InteractiveMigrationQuestioner",
             "module_name": "",
             "package_name": ""
         },
@@ -65,7 +65,7 @@
             "docstring": "",
             "name": "ask_merge",
             "namespace": "django.db.migrations.questioner.InteractiveMigrationQuestioner.ask_merge",
-            "class_name": "",
+            "class_name": "django.db.migrations.questioner.InteractiveMigrationQuestioner",
             "module_name": "",
             "package_name": ""
         },
@@ -73,7 +73,7 @@
             "docstring": "\"\"\"Adding an auto_now_add field to a model.\"\"\"",
             "name": "ask_auto_now_add_addition",
             "namespace": "django.db.migrations.questioner.InteractiveMigrationQuestioner.ask_auto_now_add_addition",
-            "class_name": "",
+            "class_name": "django.db.migrations.questioner.InteractiveMigrationQuestioner",
             "module_name": "",
             "package_name": ""
         }

@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.db.models.indexes.Index.__init__",
-                    "class_name": "",
+                    "class_name": "django.db.models.indexes.Index",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "",
                     "name": "contains_expressions",
                     "namespace": "django.db.models.indexes.Index.contains_expressions",
-                    "class_name": "",
+                    "class_name": "django.db.models.indexes.Index",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -27,7 +27,7 @@
                     "docstring": "",
                     "name": "_get_condition_sql",
                     "namespace": "django.db.models.indexes.Index._get_condition_sql",
-                    "class_name": "",
+                    "class_name": "django.db.models.indexes.Index",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -35,7 +35,7 @@
                     "docstring": "",
                     "name": "create_sql",
                     "namespace": "django.db.models.indexes.Index.create_sql",
-                    "class_name": "",
+                    "class_name": "django.db.models.indexes.Index",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -43,7 +43,7 @@
                     "docstring": "",
                     "name": "remove_sql",
                     "namespace": "django.db.models.indexes.Index.remove_sql",
-                    "class_name": "",
+                    "class_name": "django.db.models.indexes.Index",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -51,7 +51,7 @@
                     "docstring": "",
                     "name": "deconstruct",
                     "namespace": "django.db.models.indexes.Index.deconstruct",
-                    "class_name": "",
+                    "class_name": "django.db.models.indexes.Index",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -59,7 +59,7 @@
                     "docstring": "\"\"\"Create a copy of this Index.\"\"\"",
                     "name": "clone",
                     "namespace": "django.db.models.indexes.Index.clone",
-                    "class_name": "",
+                    "class_name": "django.db.models.indexes.Index",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -67,7 +67,7 @@
                     "docstring": "\"\"\"\n        Generate a unique name for the index.\n\n        The name is divided into 3 parts - table name (12 chars), field name\n        (8 chars) and unique hash + suffix (10 chars). Each part is made to\n        fit its size by truncating the excess length.\n        \"\"\"",
                     "name": "set_name_with_model",
                     "namespace": "django.db.models.indexes.Index.set_name_with_model",
-                    "class_name": "",
+                    "class_name": "django.db.models.indexes.Index",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -75,7 +75,7 @@
                     "docstring": "",
                     "name": "__repr__",
                     "namespace": "django.db.models.indexes.Index.__repr__",
-                    "class_name": "",
+                    "class_name": "django.db.models.indexes.Index",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -83,7 +83,7 @@
                     "docstring": "",
                     "name": "__eq__",
                     "namespace": "django.db.models.indexes.Index.__eq__",
-                    "class_name": "",
+                    "class_name": "django.db.models.indexes.Index",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -98,7 +98,7 @@
                     "docstring": "",
                     "name": "set_wrapper_classes",
                     "namespace": "django.db.models.indexes.IndexExpression.set_wrapper_classes",
-                    "class_name": "",
+                    "class_name": "django.db.models.indexes.IndexExpression",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -106,7 +106,7 @@
                     "docstring": "",
                     "name": "register_wrappers",
                     "namespace": "django.db.models.indexes.IndexExpression.register_wrappers",
-                    "class_name": "",
+                    "class_name": "django.db.models.indexes.IndexExpression",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -114,7 +114,7 @@
                     "docstring": "",
                     "name": "resolve_expression",
                     "namespace": "django.db.models.indexes.IndexExpression.resolve_expression",
-                    "class_name": "",
+                    "class_name": "django.db.models.indexes.IndexExpression",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -122,7 +122,7 @@
                     "docstring": "",
                     "name": "as_sqlite",
                     "namespace": "django.db.models.indexes.IndexExpression.as_sqlite",
-                    "class_name": "",
+                    "class_name": "django.db.models.indexes.IndexExpression",
                     "module_name": "",
                     "package_name": ""
                 }

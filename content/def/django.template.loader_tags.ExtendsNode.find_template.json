@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        This is a wrapper around engine.find_template(). A history is kept in\n        the render_context attribute between successive extends calls and\n        passed as the skip argument. This enables extends to work recursively\n        without extending the same template twice.\n        \"\"\"",
     "name": "find_template",
     "namespace": "django.template.loader_tags.ExtendsNode.find_template",
-    "class_name": "",
+    "class_name": "django.template.loader_tags.ExtendsNode",
     "module_name": "",
     "package_name": ""
 }

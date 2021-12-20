@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "formfield_for_dbfield",
                     "namespace": "django.contrib.gis.admin.options.GeoModelAdminMixin.formfield_for_dbfield",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.admin.options.GeoModelAdminMixin",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -32,7 +32,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.contrib.gis.admin.options.GeoModelAdmin.__init__",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.admin.options.GeoModelAdmin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -40,7 +40,7 @@
                     "docstring": "\"Injects OpenLayers JavaScript into the admin.\"",
                     "name": "media",
                     "namespace": "django.contrib.gis.admin.options.GeoModelAdmin.media",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.admin.options.GeoModelAdmin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -48,7 +48,7 @@
                     "docstring": "\"\"\"\n        Overloaded from ModelAdmin so that an OpenLayersWidget is used\n        for viewing/editing 2D GeometryFields (OpenLayers 2 does not support\n        3D editing).\n        \"\"\"",
                     "name": "formfield_for_dbfield",
                     "namespace": "django.contrib.gis.admin.options.GeoModelAdmin.formfield_for_dbfield",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.admin.options.GeoModelAdmin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -56,7 +56,7 @@
                     "docstring": "\"\"\"\n        Return a subclass of the OpenLayersWidget (or whatever was specified\n        in the `widget` attribute) using the settings from the attributes set\n        in this class.\n        \"\"\"",
                     "name": "get_map_widget",
                     "namespace": "django.contrib.gis.admin.options.GeoModelAdmin.get_map_widget",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.admin.options.GeoModelAdmin",
                     "module_name": "",
                     "package_name": ""
                 }

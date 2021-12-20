@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return the latest item's pubdate or updateddate. If no items\n        have either of these attributes this return the current UTC date/time.\n        \"\"\"",
     "name": "latest_post_date",
     "namespace": "django.utils.feedgenerator.SyndicationFeed.latest_post_date",
-    "class_name": "",
+    "class_name": "django.utils.feedgenerator.SyndicationFeed",
     "module_name": "",
     "package_name": ""
 }

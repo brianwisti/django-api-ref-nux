@@ -9,7 +9,7 @@
             "docstring": "\"\"\"\n        Load the settings module pointed to by the environment variable. This\n        is used the first time settings are needed, if the user hasn't\n        configured settings manually.\n        \"\"\"",
             "name": "_setup",
             "namespace": "django.conf.LazySettings._setup",
-            "class_name": "",
+            "class_name": "django.conf.LazySettings",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "",
             "name": "__repr__",
             "namespace": "django.conf.LazySettings.__repr__",
-            "class_name": "",
+            "class_name": "django.conf.LazySettings",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "\"\"\"Return the value of a setting and cache it in self.__dict__.\"\"\"",
             "name": "__getattr__",
             "namespace": "django.conf.LazySettings.__getattr__",
-            "class_name": "",
+            "class_name": "django.conf.LazySettings",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "\"\"\"\n        Set the value of setting. Clear all cached values if _wrapped changes\n        (@override_settings does this) or clear single values when set.\n        \"\"\"",
             "name": "__setattr__",
             "namespace": "django.conf.LazySettings.__setattr__",
-            "class_name": "",
+            "class_name": "django.conf.LazySettings",
             "module_name": "",
             "package_name": ""
         },
@@ -41,7 +41,7 @@
             "docstring": "\"\"\"Delete a setting and clear it from cache if needed.\"\"\"",
             "name": "__delattr__",
             "namespace": "django.conf.LazySettings.__delattr__",
-            "class_name": "",
+            "class_name": "django.conf.LazySettings",
             "module_name": "",
             "package_name": ""
         },
@@ -49,7 +49,7 @@
             "docstring": "\"\"\"\n        Called to manually configure the settings. The 'default_settings'\n        parameter sets where to retrieve any unspecified values from (its\n        argument must support attribute access (__getattr__)).\n        \"\"\"",
             "name": "configure",
             "namespace": "django.conf.LazySettings.configure",
-            "class_name": "",
+            "class_name": "django.conf.LazySettings",
             "module_name": "",
             "package_name": ""
         },
@@ -57,7 +57,7 @@
             "docstring": "\"\"\"\n        Add SCRIPT_NAME prefix to relative paths.\n\n        Useful when the app is being served at a subpath and manually prefixing\n        subpath to STATIC_URL and MEDIA_URL in settings is inconvenient.\n        \"\"\"",
             "name": "_add_script_prefix",
             "namespace": "django.conf.LazySettings._add_script_prefix",
-            "class_name": "",
+            "class_name": "django.conf.LazySettings",
             "module_name": "",
             "package_name": ""
         },
@@ -65,7 +65,7 @@
             "docstring": "\"\"\"Return True if the settings have already been configured.\"\"\"",
             "name": "configured",
             "namespace": "django.conf.LazySettings.configured",
-            "class_name": "",
+            "class_name": "django.conf.LazySettings",
             "module_name": "",
             "package_name": ""
         },
@@ -73,7 +73,7 @@
             "docstring": "",
             "name": "USE_L10N",
             "namespace": "django.conf.LazySettings.USE_L10N",
-            "class_name": "",
+            "class_name": "django.conf.LazySettings",
             "module_name": "",
             "package_name": ""
         },
@@ -81,7 +81,7 @@
             "docstring": "",
             "name": "_USE_L10N_INTERNAL",
             "namespace": "django.conf.LazySettings._USE_L10N_INTERNAL",
-            "class_name": "",
+            "class_name": "django.conf.LazySettings",
             "module_name": "",
             "package_name": ""
         }

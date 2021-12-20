@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Convert the value's type and run validation. Validation errors\n        from to_python() and validate() are propagated. Return the correct\n        value if no error is raised.\n        \"\"\"",
     "name": "clean",
     "namespace": "django.db.models.fields.Field.clean",
-    "class_name": "",
+    "class_name": "django.db.models.fields.Field",
     "module_name": "",
     "package_name": ""
 }

@@ -9,7 +9,7 @@
             "docstring": "\"\"\"Return the form class to use in this view.\"\"\"",
             "name": "get_form_class",
             "namespace": "django.views.generic.edit.ModelFormMixin.get_form_class",
-            "class_name": "",
+            "class_name": "django.views.generic.edit.ModelFormMixin",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "\"\"\"Return the keyword arguments for instantiating the form.\"\"\"",
             "name": "get_form_kwargs",
             "namespace": "django.views.generic.edit.ModelFormMixin.get_form_kwargs",
-            "class_name": "",
+            "class_name": "django.views.generic.edit.ModelFormMixin",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "\"\"\"Return the URL to redirect to after processing a valid form.\"\"\"",
             "name": "get_success_url",
             "namespace": "django.views.generic.edit.ModelFormMixin.get_success_url",
-            "class_name": "",
+            "class_name": "django.views.generic.edit.ModelFormMixin",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "\"\"\"If the form is valid, save the associated model.\"\"\"",
             "name": "form_valid",
             "namespace": "django.views.generic.edit.ModelFormMixin.form_valid",
-            "class_name": "",
+            "class_name": "django.views.generic.edit.ModelFormMixin",
             "module_name": "",
             "package_name": ""
         }

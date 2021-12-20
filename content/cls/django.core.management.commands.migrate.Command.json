@@ -9,7 +9,7 @@
             "docstring": "",
             "name": "add_arguments",
             "namespace": "django.core.management.commands.migrate.Command.add_arguments",
-            "class_name": "",
+            "class_name": "django.core.management.commands.migrate.Command",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "",
             "name": "handle",
             "namespace": "django.core.management.commands.migrate.Command.handle",
-            "class_name": "",
+            "class_name": "django.core.management.commands.migrate.Command",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "",
             "name": "migration_progress_callback",
             "namespace": "django.core.management.commands.migrate.Command.migration_progress_callback",
-            "class_name": "",
+            "class_name": "django.core.management.commands.migrate.Command",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "\"\"\"Run the old syncdb-style operation on a list of app_labels.\"\"\"",
             "name": "sync_apps",
             "namespace": "django.core.management.commands.migrate.Command.sync_apps",
-            "class_name": "",
+            "class_name": "django.core.management.commands.migrate.Command",
             "module_name": "",
             "package_name": ""
         },
@@ -41,7 +41,7 @@
             "docstring": "\"\"\"Return a string that describes a migration operation for --plan.\"\"\"",
             "name": "describe_operation",
             "namespace": "django.core.management.commands.migrate.Command.describe_operation",
-            "class_name": "",
+            "class_name": "django.core.management.commands.migrate.Command",
             "module_name": "",
             "package_name": ""
         }

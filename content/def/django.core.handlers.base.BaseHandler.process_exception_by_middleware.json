@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Pass the exception to the exception middleware. If no middleware\n        return a response for this exception, return None.\n        \"\"\"",
     "name": "process_exception_by_middleware",
     "namespace": "django.core.handlers.base.BaseHandler.process_exception_by_middleware",
-    "class_name": "",
+    "class_name": "django.core.handlers.base.BaseHandler",
     "module_name": "",
     "package_name": ""
 }

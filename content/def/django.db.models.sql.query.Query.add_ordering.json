@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Add items from the 'ordering' sequence to the query's \"order by\"\n        clause. These items are either field names (not column names) --\n        possibly with a direction prefix ('-' or '?') -- or OrderBy\n        expressions.\n\n        If 'ordering' is empty, clear all ordering from the query.\n        \"\"\"",
     "name": "add_ordering",
     "namespace": "django.db.models.sql.query.Query.add_ordering",
-    "class_name": "",
+    "class_name": "django.db.models.sql.query.Query",
     "module_name": "",
     "package_name": ""
 }

@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Create a clone of the tree. Must only be called on root nodes (nodes\n        with empty subtree_parents). Childs must be either (Constraint, lookup,\n        value) tuples, or objects supporting .clone().\n        \"\"\"",
     "name": "clone",
     "namespace": "django.db.models.sql.where.WhereNode.clone",
-    "class_name": "",
+    "class_name": "django.db.models.sql.where.WhereNode",
     "module_name": "",
     "package_name": ""
 }

@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Set up the select_related data structure so that we only select\n        certain related models (as opposed to all models, when\n        self.select_related=True).\n        \"\"\"",
     "name": "add_select_related",
     "namespace": "django.db.models.sql.query.Query.add_select_related",
-    "class_name": "",
+    "class_name": "django.db.models.sql.query.Query",
     "module_name": "",
     "package_name": ""
 }

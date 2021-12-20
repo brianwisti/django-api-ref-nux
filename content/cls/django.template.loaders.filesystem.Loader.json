@@ -9,7 +9,7 @@
             "docstring": "",
             "name": "__init__",
             "namespace": "django.template.loaders.filesystem.Loader.__init__",
-            "class_name": "",
+            "class_name": "django.template.loaders.filesystem.Loader",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "",
             "name": "get_dirs",
             "namespace": "django.template.loaders.filesystem.Loader.get_dirs",
-            "class_name": "",
+            "class_name": "django.template.loaders.filesystem.Loader",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "",
             "name": "get_contents",
             "namespace": "django.template.loaders.filesystem.Loader.get_contents",
-            "class_name": "",
+            "class_name": "django.template.loaders.filesystem.Loader",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "\"\"\"\n        Return an Origin object pointing to an absolute path in each directory\n        in template_dirs. For security reasons, if a path doesn't lie inside\n        one of the template_dirs it is excluded from the result set.\n        \"\"\"",
             "name": "get_template_sources",
             "namespace": "django.template.loaders.filesystem.Loader.get_template_sources",
-            "class_name": "",
+            "class_name": "django.template.loaders.filesystem.Loader",
             "module_name": "",
             "package_name": ""
         }

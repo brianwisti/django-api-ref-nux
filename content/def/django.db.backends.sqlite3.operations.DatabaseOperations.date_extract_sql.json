@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Support EXTRACT with a user-defined function django_date_extract()\n        that's registered in connect(). Use single quotes because this is a\n        string and could otherwise cause a collision with a field name.\n        \"\"\"",
     "name": "date_extract_sql",
     "namespace": "django.db.backends.sqlite3.operations.DatabaseOperations.date_extract_sql",
-    "class_name": "",
+    "class_name": "django.db.backends.sqlite3.operations.DatabaseOperations",
     "module_name": "",
     "package_name": ""
 }

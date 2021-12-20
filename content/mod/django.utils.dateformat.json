@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "format",
                     "namespace": "django.utils.dateformat.Formatter.format",
-                    "class_name": "",
+                    "class_name": "django.utils.dateformat.Formatter",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -26,7 +26,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.utils.dateformat.TimeFormat.__init__",
-                    "class_name": "",
+                    "class_name": "django.utils.dateformat.TimeFormat",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -34,7 +34,7 @@
                     "docstring": "",
                     "name": "_no_timezone_or_datetime_is_ambiguous_or_imaginary",
                     "namespace": "django.utils.dateformat.TimeFormat._no_timezone_or_datetime_is_ambiguous_or_imaginary",
-                    "class_name": "",
+                    "class_name": "django.utils.dateformat.TimeFormat",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -42,7 +42,7 @@
                     "docstring": "\"'a.m.' or 'p.m.'\"",
                     "name": "a",
                     "namespace": "django.utils.dateformat.TimeFormat.a",
-                    "class_name": "",
+                    "class_name": "django.utils.dateformat.TimeFormat",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -50,7 +50,7 @@
                     "docstring": "\"'AM' or 'PM'\"",
                     "name": "A",
                     "namespace": "django.utils.dateformat.TimeFormat.A",
-                    "class_name": "",
+                    "class_name": "django.utils.dateformat.TimeFormat",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -58,7 +58,7 @@
                     "docstring": "\"\"\"\n        Timezone name.\n\n        If timezone information is not available, return an empty string.\n        \"\"\"",
                     "name": "e",
                     "namespace": "django.utils.dateformat.TimeFormat.e",
-                    "class_name": "",
+                    "class_name": "django.utils.dateformat.TimeFormat",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -66,7 +66,7 @@
                     "docstring": "\"\"\"\n        Time, in 12-hour hours and minutes, with minutes left off if they're\n        zero.\n        Examples: '1', '1:30', '2:05', '2'\n        Proprietary extension.\n        \"\"\"",
                     "name": "f",
                     "namespace": "django.utils.dateformat.TimeFormat.f",
-                    "class_name": "",
+                    "class_name": "django.utils.dateformat.TimeFormat",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -74,7 +74,7 @@
                     "docstring": "\"Hour, 12-hour format without leading zeros; i.e. '1' to '12'\"",
                     "name": "g",
                     "namespace": "django.utils.dateformat.TimeFormat.g",
-                    "class_name": "",
+                    "class_name": "django.utils.dateformat.TimeFormat",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -82,7 +82,7 @@
                     "docstring": "\"Hour, 24-hour format without leading zeros; i.e. '0' to '23'\"",
                     "name": "G",
                     "namespace": "django.utils.dateformat.TimeFormat.G",
-                    "class_name": "",
+                    "class_name": "django.utils.dateformat.TimeFormat",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -90,7 +90,7 @@
                     "docstring": "\"Hour, 12-hour format; i.e. '01' to '12'\"",
                     "name": "h",
                     "namespace": "django.utils.dateformat.TimeFormat.h",
-                    "class_name": "",
+                    "class_name": "django.utils.dateformat.TimeFormat",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -98,7 +98,7 @@
                     "docstring": "\"Hour, 24-hour format; i.e. '00' to '23'\"",
                     "name": "H",
                     "namespace": "django.utils.dateformat.TimeFormat.H",
-                    "class_name": "",
+                    "class_name": "django.utils.dateformat.TimeFormat",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -106,7 +106,7 @@
                     "docstring": "\"Minutes; i.e. '00' to '59'\"",
                     "name": "i",
                     "namespace": "django.utils.dateformat.TimeFormat.i",
-                    "class_name": "",
+                    "class_name": "django.utils.dateformat.TimeFormat",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -114,7 +114,7 @@
                     "docstring": "\"\"\"\n        Difference to Greenwich time in hours; e.g. '+0200', '-0430'.\n\n        If timezone information is not available, return an empty string.\n        \"\"\"",
                     "name": "O",
                     "namespace": "django.utils.dateformat.TimeFormat.O",
-                    "class_name": "",
+                    "class_name": "django.utils.dateformat.TimeFormat",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -122,7 +122,7 @@
                     "docstring": "\"\"\"\n        Time, in 12-hour hours, minutes and 'a.m.'/'p.m.', with minutes left off\n        if they're zero and the strings 'midnight' and 'noon' if appropriate.\n        Examples: '1 a.m.', '1:30 p.m.', 'midnight', 'noon', '12:30 p.m.'\n        Proprietary extension.\n        \"\"\"",
                     "name": "P",
                     "namespace": "django.utils.dateformat.TimeFormat.P",
-                    "class_name": "",
+                    "class_name": "django.utils.dateformat.TimeFormat",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -130,7 +130,7 @@
                     "docstring": "\"Seconds; i.e. '00' to '59'\"",
                     "name": "s",
                     "namespace": "django.utils.dateformat.TimeFormat.s",
-                    "class_name": "",
+                    "class_name": "django.utils.dateformat.TimeFormat",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -138,7 +138,7 @@
                     "docstring": "\"\"\"\n        Time zone of this machine; e.g. 'EST' or 'MDT'.\n\n        If timezone information is not available, return an empty string.\n        \"\"\"",
                     "name": "T",
                     "namespace": "django.utils.dateformat.TimeFormat.T",
-                    "class_name": "",
+                    "class_name": "django.utils.dateformat.TimeFormat",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -146,7 +146,7 @@
                     "docstring": "\"Microseconds; i.e. '000000' to '999999'\"",
                     "name": "u",
                     "namespace": "django.utils.dateformat.TimeFormat.u",
-                    "class_name": "",
+                    "class_name": "django.utils.dateformat.TimeFormat",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -154,7 +154,7 @@
                     "docstring": "\"\"\"\n        Time zone offset in seconds (i.e. '-43200' to '43200'). The offset for\n        timezones west of UTC is always negative, and for those east of UTC is\n        always positive.\n\n        If timezone information is not available, return an empty string.\n        \"\"\"",
                     "name": "Z",
                     "namespace": "django.utils.dateformat.TimeFormat.Z",
-                    "class_name": "",
+                    "class_name": "django.utils.dateformat.TimeFormat",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -169,7 +169,7 @@
                     "docstring": "\"Month, textual, 3 letters, lowercase; e.g. 'jan'\"",
                     "name": "b",
                     "namespace": "django.utils.dateformat.DateFormat.b",
-                    "class_name": "",
+                    "class_name": "django.utils.dateformat.DateFormat",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -177,7 +177,7 @@
                     "docstring": "\"\"\"\n        ISO 8601 Format\n        Example : '2008-01-02T10:30:00.000123'\n        \"\"\"",
                     "name": "c",
                     "namespace": "django.utils.dateformat.DateFormat.c",
-                    "class_name": "",
+                    "class_name": "django.utils.dateformat.DateFormat",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -185,7 +185,7 @@
                     "docstring": "\"Day of the month, 2 digits with leading zeros; i.e. '01' to '31'\"",
                     "name": "d",
                     "namespace": "django.utils.dateformat.DateFormat.d",
-                    "class_name": "",
+                    "class_name": "django.utils.dateformat.DateFormat",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -193,7 +193,7 @@
                     "docstring": "\"Day of the week, textual, 3 letters; e.g. 'Fri'\"",
                     "name": "D",
                     "namespace": "django.utils.dateformat.DateFormat.D",
-                    "class_name": "",
+                    "class_name": "django.utils.dateformat.DateFormat",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -201,7 +201,7 @@
                     "docstring": "\"Alternative month names as required by some locales. Proprietary extension.\"",
                     "name": "E",
                     "namespace": "django.utils.dateformat.DateFormat.E",
-                    "class_name": "",
+                    "class_name": "django.utils.dateformat.DateFormat",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -209,7 +209,7 @@
                     "docstring": "\"Month, textual, long; e.g. 'January'\"",
                     "name": "F",
                     "namespace": "django.utils.dateformat.DateFormat.F",
-                    "class_name": "",
+                    "class_name": "django.utils.dateformat.DateFormat",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -217,7 +217,7 @@
                     "docstring": "\"'1' if daylight saving time, '0' otherwise.\"",
                     "name": "I",
                     "namespace": "django.utils.dateformat.DateFormat.I",
-                    "class_name": "",
+                    "class_name": "django.utils.dateformat.DateFormat",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -225,7 +225,7 @@
                     "docstring": "\"Day of the month without leading zeros; i.e. '1' to '31'\"",
                     "name": "j",
                     "namespace": "django.utils.dateformat.DateFormat.j",
-                    "class_name": "",
+                    "class_name": "django.utils.dateformat.DateFormat",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -233,7 +233,7 @@
                     "docstring": "\"Day of the week, textual, long; e.g. 'Friday'\"",
                     "name": "l",
                     "namespace": "django.utils.dateformat.DateFormat.l",
-                    "class_name": "",
+                    "class_name": "django.utils.dateformat.DateFormat",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -241,7 +241,7 @@
                     "docstring": "\"Boolean for whether it is a leap year; i.e. True or False\"",
                     "name": "L",
                     "namespace": "django.utils.dateformat.DateFormat.L",
-                    "class_name": "",
+                    "class_name": "django.utils.dateformat.DateFormat",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -249,7 +249,7 @@
                     "docstring": "\"Month; i.e. '01' to '12'\"",
                     "name": "m",
                     "namespace": "django.utils.dateformat.DateFormat.m",
-                    "class_name": "",
+                    "class_name": "django.utils.dateformat.DateFormat",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -257,7 +257,7 @@
                     "docstring": "\"Month, textual, 3 letters; e.g. 'Jan'\"",
                     "name": "M",
                     "namespace": "django.utils.dateformat.DateFormat.M",
-                    "class_name": "",
+                    "class_name": "django.utils.dateformat.DateFormat",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -265,7 +265,7 @@
                     "docstring": "\"Month without leading zeros; i.e. '1' to '12'\"",
                     "name": "n",
                     "namespace": "django.utils.dateformat.DateFormat.n",
-                    "class_name": "",
+                    "class_name": "django.utils.dateformat.DateFormat",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -273,7 +273,7 @@
                     "docstring": "\"Month abbreviation in Associated Press style. Proprietary extension.\"",
                     "name": "N",
                     "namespace": "django.utils.dateformat.DateFormat.N",
-                    "class_name": "",
+                    "class_name": "django.utils.dateformat.DateFormat",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -281,7 +281,7 @@
                     "docstring": "\"ISO 8601 year number matching the ISO week number (W)\"",
                     "name": "o",
                     "namespace": "django.utils.dateformat.DateFormat.o",
-                    "class_name": "",
+                    "class_name": "django.utils.dateformat.DateFormat",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -289,7 +289,7 @@
                     "docstring": "\"RFC 5322 formatted date; e.g. 'Thu, 21 Dec 2000 16:01:07 +0200'\"",
                     "name": "r",
                     "namespace": "django.utils.dateformat.DateFormat.r",
-                    "class_name": "",
+                    "class_name": "django.utils.dateformat.DateFormat",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -297,7 +297,7 @@
                     "docstring": "\"English ordinal suffix for the day of the month, 2 characters; i.e. 'st', 'nd', 'rd' or 'th'\"",
                     "name": "S",
                     "namespace": "django.utils.dateformat.DateFormat.S",
-                    "class_name": "",
+                    "class_name": "django.utils.dateformat.DateFormat",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -305,7 +305,7 @@
                     "docstring": "\"Number of days in the given month; i.e. '28' to '31'\"",
                     "name": "t",
                     "namespace": "django.utils.dateformat.DateFormat.t",
-                    "class_name": "",
+                    "class_name": "django.utils.dateformat.DateFormat",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -313,7 +313,7 @@
                     "docstring": "\"Seconds since the Unix epoch (January 1 1970 00:00:00 GMT)\"",
                     "name": "U",
                     "namespace": "django.utils.dateformat.DateFormat.U",
-                    "class_name": "",
+                    "class_name": "django.utils.dateformat.DateFormat",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -321,7 +321,7 @@
                     "docstring": "\"Day of the week, numeric, i.e. '0' (Sunday) to '6' (Saturday)\"",
                     "name": "w",
                     "namespace": "django.utils.dateformat.DateFormat.w",
-                    "class_name": "",
+                    "class_name": "django.utils.dateformat.DateFormat",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -329,7 +329,7 @@
                     "docstring": "\"ISO-8601 week number of year, weeks starting on Monday\"",
                     "name": "W",
                     "namespace": "django.utils.dateformat.DateFormat.W",
-                    "class_name": "",
+                    "class_name": "django.utils.dateformat.DateFormat",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -337,7 +337,7 @@
                     "docstring": "\"\"\"Year, 2 digits with leading zeros; e.g. '99'.\"\"\"",
                     "name": "y",
                     "namespace": "django.utils.dateformat.DateFormat.y",
-                    "class_name": "",
+                    "class_name": "django.utils.dateformat.DateFormat",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -345,7 +345,7 @@
                     "docstring": "\"\"\"Year, 4 digits with leading zeros; e.g. '1999'.\"\"\"",
                     "name": "Y",
                     "namespace": "django.utils.dateformat.DateFormat.Y",
-                    "class_name": "",
+                    "class_name": "django.utils.dateformat.DateFormat",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -353,7 +353,7 @@
                     "docstring": "\"\"\"Day of the year, i.e. 1 to 366.\"\"\"",
                     "name": "z",
                     "namespace": "django.utils.dateformat.DateFormat.z",
-                    "class_name": "",
+                    "class_name": "django.utils.dateformat.DateFormat",
                     "module_name": "",
                     "package_name": ""
                 }

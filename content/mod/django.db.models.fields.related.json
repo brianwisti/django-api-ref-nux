@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.db.models.fields.related.RelatedField.__init__",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.RelatedField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "",
                     "name": "related_model",
                     "namespace": "django.db.models.fields.related.RelatedField.related_model",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.RelatedField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -27,7 +27,7 @@
                     "docstring": "",
                     "name": "check",
                     "namespace": "django.db.models.fields.related.RelatedField.check",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.RelatedField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -35,7 +35,7 @@
                     "docstring": "",
                     "name": "_check_related_name_is_valid",
                     "namespace": "django.db.models.fields.related.RelatedField._check_related_name_is_valid",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.RelatedField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -43,7 +43,7 @@
                     "docstring": "",
                     "name": "_check_related_query_name_is_valid",
                     "namespace": "django.db.models.fields.related.RelatedField._check_related_query_name_is_valid",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.RelatedField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -51,7 +51,7 @@
                     "docstring": "",
                     "name": "_check_relation_model_exists",
                     "namespace": "django.db.models.fields.related.RelatedField._check_relation_model_exists",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.RelatedField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -59,7 +59,7 @@
                     "docstring": "",
                     "name": "_check_referencing_to_swapped_model",
                     "namespace": "django.db.models.fields.related.RelatedField._check_referencing_to_swapped_model",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.RelatedField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -67,7 +67,7 @@
                     "docstring": "\"\"\"Check accessor and reverse query name clashes.\"\"\"",
                     "name": "_check_clashes",
                     "namespace": "django.db.models.fields.related.RelatedField._check_clashes",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.RelatedField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -75,7 +75,7 @@
                     "docstring": "",
                     "name": "db_type",
                     "namespace": "django.db.models.fields.related.RelatedField.db_type",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.RelatedField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -83,7 +83,7 @@
                     "docstring": "",
                     "name": "contribute_to_class",
                     "namespace": "django.db.models.fields.related.RelatedField.contribute_to_class",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.RelatedField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -91,7 +91,7 @@
                     "docstring": "",
                     "name": "deconstruct",
                     "namespace": "django.db.models.fields.related.RelatedField.deconstruct",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.RelatedField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -99,7 +99,7 @@
                     "docstring": "\"\"\"\n        Return the keyword arguments that when supplied to\n        self.model.object.filter(), would select all instances related through\n        this field to the remote obj. This is used to build the querysets\n        returned by related descriptors. obj is an instance of\n        self.related_field.model.\n        \"\"\"",
                     "name": "get_forward_related_filter",
                     "namespace": "django.db.models.fields.related.RelatedField.get_forward_related_filter",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.RelatedField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -107,7 +107,7 @@
                     "docstring": "\"\"\"\n        Complement to get_forward_related_filter(). Return the keyword\n        arguments that when passed to self.related_field.model.object.filter()\n        select all instances of self.related_field.model related through\n        this field to obj. obj is an instance of self.model.\n        \"\"\"",
                     "name": "get_reverse_related_filter",
                     "namespace": "django.db.models.fields.related.RelatedField.get_reverse_related_filter",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.RelatedField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -115,7 +115,7 @@
                     "docstring": "\"\"\"\n        Get the setting that this is powered from for swapping, or None\n        if it's not swapped in / marked with swappable=False.\n        \"\"\"",
                     "name": "swappable_setting",
                     "namespace": "django.db.models.fields.related.RelatedField.swappable_setting",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.RelatedField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -123,7 +123,7 @@
                     "docstring": "",
                     "name": "set_attributes_from_rel",
                     "namespace": "django.db.models.fields.related.RelatedField.set_attributes_from_rel",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.RelatedField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -131,7 +131,7 @@
                     "docstring": "",
                     "name": "do_related_class",
                     "namespace": "django.db.models.fields.related.RelatedField.do_related_class",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.RelatedField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -139,7 +139,7 @@
                     "docstring": "\"\"\"\n        Return ``limit_choices_to`` for this model field.\n\n        If it is a callable, it will be invoked and the result will be\n        returned.\n        \"\"\"",
                     "name": "get_limit_choices_to",
                     "namespace": "django.db.models.fields.related.RelatedField.get_limit_choices_to",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.RelatedField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -147,7 +147,7 @@
                     "docstring": "\"\"\"\n        Pass ``limit_choices_to`` to the field being constructed.\n\n        Only passes it if there is a type that supports related fields.\n        This is a similar strategy used to pass the ``queryset`` to the field\n        being constructed.\n        \"\"\"",
                     "name": "formfield",
                     "namespace": "django.db.models.fields.related.RelatedField.formfield",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.RelatedField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -155,7 +155,7 @@
                     "docstring": "\"\"\"\n        Define the name that can be used to identify this related object in a\n        table-spanning query.\n        \"\"\"",
                     "name": "related_query_name",
                     "namespace": "django.db.models.fields.related.RelatedField.related_query_name",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.RelatedField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -163,7 +163,7 @@
                     "docstring": "\"\"\"\n        When filtering against this relation, return the field on the remote\n        model against which the filtering should happen.\n        \"\"\"",
                     "name": "target_field",
                     "namespace": "django.db.models.fields.related.RelatedField.target_field",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.RelatedField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -171,7 +171,7 @@
                     "docstring": "",
                     "name": "get_cache_name",
                     "namespace": "django.db.models.fields.related.RelatedField.get_cache_name",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.RelatedField",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -186,7 +186,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.db.models.fields.related.ForeignObject.__init__",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignObject",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -194,7 +194,7 @@
                     "docstring": "",
                     "name": "check",
                     "namespace": "django.db.models.fields.related.ForeignObject.check",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignObject",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -202,7 +202,7 @@
                     "docstring": "",
                     "name": "_check_to_fields_exist",
                     "namespace": "django.db.models.fields.related.ForeignObject._check_to_fields_exist",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignObject",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -210,7 +210,7 @@
                     "docstring": "",
                     "name": "_check_unique_target",
                     "namespace": "django.db.models.fields.related.ForeignObject._check_unique_target",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignObject",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -218,7 +218,7 @@
                     "docstring": "",
                     "name": "deconstruct",
                     "namespace": "django.db.models.fields.related.ForeignObject.deconstruct",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignObject",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -226,7 +226,7 @@
                     "docstring": "",
                     "name": "resolve_related_fields",
                     "namespace": "django.db.models.fields.related.ForeignObject.resolve_related_fields",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignObject",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -234,7 +234,7 @@
                     "docstring": "",
                     "name": "related_fields",
                     "namespace": "django.db.models.fields.related.ForeignObject.related_fields",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignObject",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -242,7 +242,7 @@
                     "docstring": "",
                     "name": "reverse_related_fields",
                     "namespace": "django.db.models.fields.related.ForeignObject.reverse_related_fields",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignObject",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -250,7 +250,7 @@
                     "docstring": "",
                     "name": "local_related_fields",
                     "namespace": "django.db.models.fields.related.ForeignObject.local_related_fields",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignObject",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -258,7 +258,7 @@
                     "docstring": "",
                     "name": "foreign_related_fields",
                     "namespace": "django.db.models.fields.related.ForeignObject.foreign_related_fields",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignObject",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -266,7 +266,7 @@
                     "docstring": "",
                     "name": "get_local_related_value",
                     "namespace": "django.db.models.fields.related.ForeignObject.get_local_related_value",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignObject",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -274,7 +274,7 @@
                     "docstring": "",
                     "name": "get_foreign_related_value",
                     "namespace": "django.db.models.fields.related.ForeignObject.get_foreign_related_value",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignObject",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -282,7 +282,7 @@
                     "docstring": "",
                     "name": "get_instance_value_for_fields",
                     "namespace": "django.db.models.fields.related.ForeignObject.get_instance_value_for_fields",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignObject",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -290,7 +290,7 @@
                     "docstring": "",
                     "name": "get_attname_column",
                     "namespace": "django.db.models.fields.related.ForeignObject.get_attname_column",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignObject",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -298,7 +298,7 @@
                     "docstring": "",
                     "name": "get_joining_columns",
                     "namespace": "django.db.models.fields.related.ForeignObject.get_joining_columns",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignObject",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -306,7 +306,7 @@
                     "docstring": "",
                     "name": "get_reverse_joining_columns",
                     "namespace": "django.db.models.fields.related.ForeignObject.get_reverse_joining_columns",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignObject",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -314,7 +314,7 @@
                     "docstring": "\"\"\"\n        Return an extra filter condition for related object fetching when\n        user does 'instance.fieldname', that is the extra filter is used in\n        the descriptor of the field.\n\n        The filter should be either a dict usable in .filter(**kwargs) call or\n        a Q-object. The condition will be ANDed together with the relation's\n        joining columns.\n\n        A parallel method is get_extra_restriction() which is used in\n        JOIN and subquery conditions.\n        \"\"\"",
                     "name": "get_extra_descriptor_filter",
                     "namespace": "django.db.models.fields.related.ForeignObject.get_extra_descriptor_filter",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignObject",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -322,7 +322,7 @@
                     "docstring": "\"\"\"\n        Return a pair condition used for joining and subquery pushdown. The\n        condition is something that responds to as_sql(compiler, connection)\n        method.\n\n        Note that currently referring both the 'alias' and 'related_alias'\n        will not work in some conditions, like subquery pushdown.\n\n        A parallel method is get_extra_descriptor_filter() which is used in\n        instance.fieldname related object fetching.\n        \"\"\"",
                     "name": "get_extra_restriction",
                     "namespace": "django.db.models.fields.related.ForeignObject.get_extra_restriction",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignObject",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -330,7 +330,7 @@
                     "docstring": "\"\"\"Get path from this field to the related model.\"\"\"",
                     "name": "get_path_info",
                     "namespace": "django.db.models.fields.related.ForeignObject.get_path_info",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignObject",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -338,7 +338,7 @@
                     "docstring": "\"\"\"Get path from the related model to this field's model.\"\"\"",
                     "name": "get_reverse_path_info",
                     "namespace": "django.db.models.fields.related.ForeignObject.get_reverse_path_info",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignObject",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -346,7 +346,7 @@
                     "docstring": "",
                     "name": "get_lookups",
                     "namespace": "django.db.models.fields.related.ForeignObject.get_lookups",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignObject",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -354,7 +354,7 @@
                     "docstring": "",
                     "name": "contribute_to_class",
                     "namespace": "django.db.models.fields.related.ForeignObject.contribute_to_class",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignObject",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -362,7 +362,7 @@
                     "docstring": "",
                     "name": "contribute_to_related_class",
                     "namespace": "django.db.models.fields.related.ForeignObject.contribute_to_related_class",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignObject",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -377,7 +377,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.db.models.fields.related.ForeignKey.__init__",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignKey",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -385,7 +385,7 @@
                     "docstring": "",
                     "name": "check",
                     "namespace": "django.db.models.fields.related.ForeignKey.check",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignKey",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -393,7 +393,7 @@
                     "docstring": "",
                     "name": "_check_on_delete",
                     "namespace": "django.db.models.fields.related.ForeignKey._check_on_delete",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignKey",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -401,7 +401,7 @@
                     "docstring": "",
                     "name": "_check_unique",
                     "namespace": "django.db.models.fields.related.ForeignKey._check_unique",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignKey",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -409,7 +409,7 @@
                     "docstring": "",
                     "name": "deconstruct",
                     "namespace": "django.db.models.fields.related.ForeignKey.deconstruct",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignKey",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -417,7 +417,7 @@
                     "docstring": "",
                     "name": "to_python",
                     "namespace": "django.db.models.fields.related.ForeignKey.to_python",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignKey",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -425,7 +425,7 @@
                     "docstring": "",
                     "name": "target_field",
                     "namespace": "django.db.models.fields.related.ForeignKey.target_field",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignKey",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -433,7 +433,7 @@
                     "docstring": "\"\"\"Get path from the related model to this field's model.\"\"\"",
                     "name": "get_reverse_path_info",
                     "namespace": "django.db.models.fields.related.ForeignKey.get_reverse_path_info",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignKey",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -441,7 +441,7 @@
                     "docstring": "",
                     "name": "validate",
                     "namespace": "django.db.models.fields.related.ForeignKey.validate",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignKey",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -449,7 +449,7 @@
                     "docstring": "",
                     "name": "resolve_related_fields",
                     "namespace": "django.db.models.fields.related.ForeignKey.resolve_related_fields",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignKey",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -457,7 +457,7 @@
                     "docstring": "",
                     "name": "get_attname",
                     "namespace": "django.db.models.fields.related.ForeignKey.get_attname",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignKey",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -465,7 +465,7 @@
                     "docstring": "",
                     "name": "get_attname_column",
                     "namespace": "django.db.models.fields.related.ForeignKey.get_attname_column",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignKey",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -473,7 +473,7 @@
                     "docstring": "\"\"\"Return the to_field if the default value is an object.\"\"\"",
                     "name": "get_default",
                     "namespace": "django.db.models.fields.related.ForeignKey.get_default",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignKey",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -481,7 +481,7 @@
                     "docstring": "",
                     "name": "get_db_prep_save",
                     "namespace": "django.db.models.fields.related.ForeignKey.get_db_prep_save",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignKey",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -489,7 +489,7 @@
                     "docstring": "",
                     "name": "get_db_prep_value",
                     "namespace": "django.db.models.fields.related.ForeignKey.get_db_prep_value",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignKey",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -497,7 +497,7 @@
                     "docstring": "",
                     "name": "get_prep_value",
                     "namespace": "django.db.models.fields.related.ForeignKey.get_prep_value",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignKey",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -505,7 +505,7 @@
                     "docstring": "",
                     "name": "contribute_to_related_class",
                     "namespace": "django.db.models.fields.related.ForeignKey.contribute_to_related_class",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignKey",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -513,7 +513,7 @@
                     "docstring": "",
                     "name": "formfield",
                     "namespace": "django.db.models.fields.related.ForeignKey.formfield",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignKey",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -521,7 +521,7 @@
                     "docstring": "",
                     "name": "db_check",
                     "namespace": "django.db.models.fields.related.ForeignKey.db_check",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignKey",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -529,7 +529,7 @@
                     "docstring": "",
                     "name": "db_type",
                     "namespace": "django.db.models.fields.related.ForeignKey.db_type",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignKey",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -537,7 +537,7 @@
                     "docstring": "",
                     "name": "db_parameters",
                     "namespace": "django.db.models.fields.related.ForeignKey.db_parameters",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignKey",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -545,7 +545,7 @@
                     "docstring": "",
                     "name": "convert_empty_strings",
                     "namespace": "django.db.models.fields.related.ForeignKey.convert_empty_strings",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignKey",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -553,7 +553,7 @@
                     "docstring": "",
                     "name": "get_db_converters",
                     "namespace": "django.db.models.fields.related.ForeignKey.get_db_converters",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignKey",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -561,7 +561,7 @@
                     "docstring": "",
                     "name": "get_col",
                     "namespace": "django.db.models.fields.related.ForeignKey.get_col",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ForeignKey",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -576,7 +576,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.db.models.fields.related.OneToOneField.__init__",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.OneToOneField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -584,7 +584,7 @@
                     "docstring": "",
                     "name": "deconstruct",
                     "namespace": "django.db.models.fields.related.OneToOneField.deconstruct",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.OneToOneField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -592,7 +592,7 @@
                     "docstring": "",
                     "name": "formfield",
                     "namespace": "django.db.models.fields.related.OneToOneField.formfield",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.OneToOneField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -600,7 +600,7 @@
                     "docstring": "",
                     "name": "save_form_data",
                     "namespace": "django.db.models.fields.related.OneToOneField.save_form_data",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.OneToOneField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -608,7 +608,7 @@
                     "docstring": "",
                     "name": "_check_unique",
                     "namespace": "django.db.models.fields.related.OneToOneField._check_unique",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.OneToOneField",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -623,7 +623,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.db.models.fields.related.ManyToManyField.__init__",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ManyToManyField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -631,7 +631,7 @@
                     "docstring": "",
                     "name": "check",
                     "namespace": "django.db.models.fields.related.ManyToManyField.check",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ManyToManyField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -639,7 +639,7 @@
                     "docstring": "",
                     "name": "_check_unique",
                     "namespace": "django.db.models.fields.related.ManyToManyField._check_unique",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ManyToManyField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -647,7 +647,7 @@
                     "docstring": "",
                     "name": "_check_ignored_options",
                     "namespace": "django.db.models.fields.related.ManyToManyField._check_ignored_options",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ManyToManyField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -655,7 +655,7 @@
                     "docstring": "",
                     "name": "_check_relationship_model",
                     "namespace": "django.db.models.fields.related.ManyToManyField._check_relationship_model",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ManyToManyField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -663,7 +663,7 @@
                     "docstring": "",
                     "name": "_check_table_uniqueness",
                     "namespace": "django.db.models.fields.related.ManyToManyField._check_table_uniqueness",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ManyToManyField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -671,7 +671,7 @@
                     "docstring": "",
                     "name": "deconstruct",
                     "namespace": "django.db.models.fields.related.ManyToManyField.deconstruct",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ManyToManyField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -679,7 +679,7 @@
                     "docstring": "\"\"\"Called by both direct and indirect m2m traversal.\"\"\"",
                     "name": "_get_path_info",
                     "namespace": "django.db.models.fields.related.ManyToManyField._get_path_info",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ManyToManyField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -687,7 +687,7 @@
                     "docstring": "",
                     "name": "get_path_info",
                     "namespace": "django.db.models.fields.related.ManyToManyField.get_path_info",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ManyToManyField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -695,7 +695,7 @@
                     "docstring": "",
                     "name": "get_reverse_path_info",
                     "namespace": "django.db.models.fields.related.ManyToManyField.get_reverse_path_info",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ManyToManyField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -703,7 +703,7 @@
                     "docstring": "\"\"\"\n        Function that can be curried to provide the m2m table name for this\n        relation.\n        \"\"\"",
                     "name": "_get_m2m_db_table",
                     "namespace": "django.db.models.fields.related.ManyToManyField._get_m2m_db_table",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ManyToManyField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -711,7 +711,7 @@
                     "docstring": "\"\"\"\n        Function that can be curried to provide the source accessor or DB\n        column name for the m2m table.\n        \"\"\"",
                     "name": "_get_m2m_attr",
                     "namespace": "django.db.models.fields.related.ManyToManyField._get_m2m_attr",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ManyToManyField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -719,7 +719,7 @@
                     "docstring": "\"\"\"\n        Function that can be curried to provide the related accessor or DB\n        column name for the m2m table.\n        \"\"\"",
                     "name": "_get_m2m_reverse_attr",
                     "namespace": "django.db.models.fields.related.ManyToManyField._get_m2m_reverse_attr",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ManyToManyField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -727,7 +727,7 @@
                     "docstring": "",
                     "name": "contribute_to_class",
                     "namespace": "django.db.models.fields.related.ManyToManyField.contribute_to_class",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ManyToManyField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -735,7 +735,7 @@
                     "docstring": "",
                     "name": "contribute_to_related_class",
                     "namespace": "django.db.models.fields.related.ManyToManyField.contribute_to_related_class",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ManyToManyField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -743,7 +743,7 @@
                     "docstring": "",
                     "name": "set_attributes_from_rel",
                     "namespace": "django.db.models.fields.related.ManyToManyField.set_attributes_from_rel",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ManyToManyField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -751,7 +751,7 @@
                     "docstring": "",
                     "name": "value_from_object",
                     "namespace": "django.db.models.fields.related.ManyToManyField.value_from_object",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ManyToManyField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -759,7 +759,7 @@
                     "docstring": "",
                     "name": "save_form_data",
                     "namespace": "django.db.models.fields.related.ManyToManyField.save_form_data",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ManyToManyField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -767,7 +767,7 @@
                     "docstring": "",
                     "name": "formfield",
                     "namespace": "django.db.models.fields.related.ManyToManyField.formfield",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ManyToManyField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -775,7 +775,7 @@
                     "docstring": "",
                     "name": "db_check",
                     "namespace": "django.db.models.fields.related.ManyToManyField.db_check",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ManyToManyField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -783,7 +783,7 @@
                     "docstring": "",
                     "name": "db_type",
                     "namespace": "django.db.models.fields.related.ManyToManyField.db_type",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ManyToManyField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -791,7 +791,7 @@
                     "docstring": "",
                     "name": "db_parameters",
                     "namespace": "django.db.models.fields.related.ManyToManyField.db_parameters",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related.ManyToManyField",
                     "module_name": "",
                     "package_name": ""
                 }

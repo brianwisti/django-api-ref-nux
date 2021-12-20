@@ -9,7 +9,7 @@
             "docstring": "\"\"\"\n        The initialization function may take an OGREnvelope structure, 4-element\n        tuple or list, or 4 individual arguments.\n        \"\"\"",
             "name": "__init__",
             "namespace": "django.contrib.gis.gdal.envelope.Envelope.__init__",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.envelope.Envelope",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "\"\"\"\n        Return True if the envelopes are equivalent; can compare against\n        other Envelopes and 4-tuples.\n        \"\"\"",
             "name": "__eq__",
             "namespace": "django.contrib.gis.gdal.envelope.Envelope.__eq__",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.envelope.Envelope",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "\"Return a string representation of the tuple.\"",
             "name": "__str__",
             "namespace": "django.contrib.gis.gdal.envelope.Envelope.__str__",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.envelope.Envelope",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "\"Initialize the C OGR Envelope structure from the given sequence.\"",
             "name": "_from_sequence",
             "namespace": "django.contrib.gis.gdal.envelope.Envelope._from_sequence",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.envelope.Envelope",
             "module_name": "",
             "package_name": ""
         },
@@ -41,7 +41,7 @@
             "docstring": "\"\"\"\n        Modify the envelope to expand to include the boundaries of\n        the passed-in 2-tuple (a point), 4-tuple (an extent) or\n        envelope.\n        \"\"\"",
             "name": "expand_to_include",
             "namespace": "django.contrib.gis.gdal.envelope.Envelope.expand_to_include",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.envelope.Envelope",
             "module_name": "",
             "package_name": ""
         },
@@ -49,7 +49,7 @@
             "docstring": "\"Return the value of the minimum X coordinate.\"",
             "name": "min_x",
             "namespace": "django.contrib.gis.gdal.envelope.Envelope.min_x",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.envelope.Envelope",
             "module_name": "",
             "package_name": ""
         },
@@ -57,7 +57,7 @@
             "docstring": "\"Return the value of the minimum Y coordinate.\"",
             "name": "min_y",
             "namespace": "django.contrib.gis.gdal.envelope.Envelope.min_y",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.envelope.Envelope",
             "module_name": "",
             "package_name": ""
         },
@@ -65,7 +65,7 @@
             "docstring": "\"Return the value of the maximum X coordinate.\"",
             "name": "max_x",
             "namespace": "django.contrib.gis.gdal.envelope.Envelope.max_x",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.envelope.Envelope",
             "module_name": "",
             "package_name": ""
         },
@@ -73,7 +73,7 @@
             "docstring": "\"Return the value of the maximum Y coordinate.\"",
             "name": "max_y",
             "namespace": "django.contrib.gis.gdal.envelope.Envelope.max_y",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.envelope.Envelope",
             "module_name": "",
             "package_name": ""
         },
@@ -81,7 +81,7 @@
             "docstring": "\"Return the upper-right coordinate.\"",
             "name": "ur",
             "namespace": "django.contrib.gis.gdal.envelope.Envelope.ur",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.envelope.Envelope",
             "module_name": "",
             "package_name": ""
         },
@@ -89,7 +89,7 @@
             "docstring": "\"Return the lower-left coordinate.\"",
             "name": "ll",
             "namespace": "django.contrib.gis.gdal.envelope.Envelope.ll",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.envelope.Envelope",
             "module_name": "",
             "package_name": ""
         },
@@ -97,7 +97,7 @@
             "docstring": "\"Return a tuple representing the envelope.\"",
             "name": "tuple",
             "namespace": "django.contrib.gis.gdal.envelope.Envelope.tuple",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.envelope.Envelope",
             "module_name": "",
             "package_name": ""
         },
@@ -105,7 +105,7 @@
             "docstring": "\"Return WKT representing a Polygon for this envelope.\"",
             "name": "wkt",
             "namespace": "django.contrib.gis.gdal.envelope.Envelope.wkt",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.envelope.Envelope",
             "module_name": "",
             "package_name": ""
         }

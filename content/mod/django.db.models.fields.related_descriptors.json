@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "__set__",
                     "namespace": "django.db.models.fields.related_descriptors.ForeignKeyDeferredAttribute.__set__",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related_descriptors.ForeignKeyDeferredAttribute",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -26,7 +26,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor.__init__",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -34,7 +34,7 @@
                     "docstring": "",
                     "name": "RelatedObjectDoesNotExist",
                     "namespace": "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor.RelatedObjectDoesNotExist",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -42,7 +42,7 @@
                     "docstring": "",
                     "name": "is_cached",
                     "namespace": "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor.is_cached",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -50,7 +50,7 @@
                     "docstring": "",
                     "name": "get_queryset",
                     "namespace": "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor.get_queryset",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -58,7 +58,7 @@
                     "docstring": "",
                     "name": "get_prefetch_queryset",
                     "namespace": "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor.get_prefetch_queryset",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -66,7 +66,7 @@
                     "docstring": "",
                     "name": "get_object",
                     "namespace": "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor.get_object",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -74,7 +74,7 @@
                     "docstring": "\"\"\"\n        Get the related instance through the forward relation.\n\n        With the example above, when getting ``child.parent``:\n\n        - ``self`` is the descriptor managing the ``parent`` attribute\n        - ``instance`` is the ``child`` instance\n        - ``cls`` is the ``Child`` class (we don't need it)\n        \"\"\"",
                     "name": "__get__",
                     "namespace": "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor.__get__",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -82,7 +82,7 @@
                     "docstring": "\"\"\"\n        Set the related instance through the forward relation.\n\n        With the example above, when setting ``child.parent = parent``:\n\n        - ``self`` is the descriptor managing the ``parent`` attribute\n        - ``instance`` is the ``child`` instance\n        - ``value`` is the ``parent`` instance on the right of the equal sign\n        \"\"\"",
                     "name": "__set__",
                     "namespace": "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor.__set__",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -90,7 +90,7 @@
                     "docstring": "\"\"\"\n        Pickling should return the instance attached by self.field on the\n        model, not a new copy of that descriptor. Use getattr() to retrieve\n        the instance directly from the model.\n        \"\"\"",
                     "name": "__reduce__",
                     "namespace": "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor.__reduce__",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -105,7 +105,7 @@
                     "docstring": "",
                     "name": "get_object",
                     "namespace": "django.db.models.fields.related_descriptors.ForwardOneToOneDescriptor.get_object",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related_descriptors.ForwardOneToOneDescriptor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -113,7 +113,7 @@
                     "docstring": "",
                     "name": "__set__",
                     "namespace": "django.db.models.fields.related_descriptors.ForwardOneToOneDescriptor.__set__",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related_descriptors.ForwardOneToOneDescriptor",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -128,7 +128,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor.__init__",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -136,7 +136,7 @@
                     "docstring": "",
                     "name": "RelatedObjectDoesNotExist",
                     "namespace": "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor.RelatedObjectDoesNotExist",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -144,7 +144,7 @@
                     "docstring": "",
                     "name": "is_cached",
                     "namespace": "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor.is_cached",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -152,7 +152,7 @@
                     "docstring": "",
                     "name": "get_queryset",
                     "namespace": "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor.get_queryset",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -160,7 +160,7 @@
                     "docstring": "",
                     "name": "get_prefetch_queryset",
                     "namespace": "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor.get_prefetch_queryset",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -168,7 +168,7 @@
                     "docstring": "\"\"\"\n        Get the related instance through the reverse relation.\n\n        With the example above, when getting ``place.restaurant``:\n\n        - ``self`` is the descriptor managing the ``restaurant`` attribute\n        - ``instance`` is the ``place`` instance\n        - ``cls`` is the ``Place`` class (unused)\n\n        Keep in mind that ``Restaurant`` holds the foreign key to ``Place``.\n        \"\"\"",
                     "name": "__get__",
                     "namespace": "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor.__get__",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -176,7 +176,7 @@
                     "docstring": "\"\"\"\n        Set the related instance through the reverse relation.\n\n        With the example above, when setting ``place.restaurant = restaurant``:\n\n        - ``self`` is the descriptor managing the ``restaurant`` attribute\n        - ``instance`` is the ``place`` instance\n        - ``value`` is the ``restaurant`` instance on the right of the equal sign\n\n        Keep in mind that ``Restaurant`` holds the foreign key to ``Place``.\n        \"\"\"",
                     "name": "__set__",
                     "namespace": "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor.__set__",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -184,7 +184,7 @@
                     "docstring": "",
                     "name": "__reduce__",
                     "namespace": "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor.__reduce__",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -199,7 +199,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.db.models.fields.related_descriptors.ReverseManyToOneDescriptor.__init__",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related_descriptors.ReverseManyToOneDescriptor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -207,7 +207,7 @@
                     "docstring": "",
                     "name": "related_manager_cls",
                     "namespace": "django.db.models.fields.related_descriptors.ReverseManyToOneDescriptor.related_manager_cls",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related_descriptors.ReverseManyToOneDescriptor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -215,7 +215,7 @@
                     "docstring": "\"\"\"\n        Get the related objects through the reverse relation.\n\n        With the example above, when getting ``parent.children``:\n\n        - ``self`` is the descriptor managing the ``children`` attribute\n        - ``instance`` is the ``parent`` instance\n        - ``cls`` is the ``Parent`` class (unused)\n        \"\"\"",
                     "name": "__get__",
                     "namespace": "django.db.models.fields.related_descriptors.ReverseManyToOneDescriptor.__get__",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related_descriptors.ReverseManyToOneDescriptor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -223,7 +223,7 @@
                     "docstring": "",
                     "name": "_get_set_deprecation_msg_params",
                     "namespace": "django.db.models.fields.related_descriptors.ReverseManyToOneDescriptor._get_set_deprecation_msg_params",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related_descriptors.ReverseManyToOneDescriptor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -231,7 +231,7 @@
                     "docstring": "",
                     "name": "__set__",
                     "namespace": "django.db.models.fields.related_descriptors.ReverseManyToOneDescriptor.__set__",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related_descriptors.ReverseManyToOneDescriptor",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -246,7 +246,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.db.models.fields.related_descriptors.ManyToManyDescriptor.__init__",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related_descriptors.ManyToManyDescriptor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -254,7 +254,7 @@
                     "docstring": "",
                     "name": "through",
                     "namespace": "django.db.models.fields.related_descriptors.ManyToManyDescriptor.through",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related_descriptors.ManyToManyDescriptor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -262,7 +262,7 @@
                     "docstring": "",
                     "name": "related_manager_cls",
                     "namespace": "django.db.models.fields.related_descriptors.ManyToManyDescriptor.related_manager_cls",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related_descriptors.ManyToManyDescriptor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -270,7 +270,7 @@
                     "docstring": "",
                     "name": "_get_set_deprecation_msg_params",
                     "namespace": "django.db.models.fields.related_descriptors.ManyToManyDescriptor._get_set_deprecation_msg_params",
-                    "class_name": "",
+                    "class_name": "django.db.models.fields.related_descriptors.ManyToManyDescriptor",
                     "module_name": "",
                     "package_name": ""
                 }

@@ -11,7 +11,7 @@
                     "docstring": "\"\"\"Return the initial data to use for forms on this view.\"\"\"",
                     "name": "get_initial",
                     "namespace": "django.views.generic.edit.FormMixin.get_initial",
-                    "class_name": "",
+                    "class_name": "django.views.generic.edit.FormMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "\"\"\"Return the prefix to use for forms.\"\"\"",
                     "name": "get_prefix",
                     "namespace": "django.views.generic.edit.FormMixin.get_prefix",
-                    "class_name": "",
+                    "class_name": "django.views.generic.edit.FormMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -27,7 +27,7 @@
                     "docstring": "\"\"\"Return the form class to use.\"\"\"",
                     "name": "get_form_class",
                     "namespace": "django.views.generic.edit.FormMixin.get_form_class",
-                    "class_name": "",
+                    "class_name": "django.views.generic.edit.FormMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -35,7 +35,7 @@
                     "docstring": "\"\"\"Return an instance of the form to be used in this view.\"\"\"",
                     "name": "get_form",
                     "namespace": "django.views.generic.edit.FormMixin.get_form",
-                    "class_name": "",
+                    "class_name": "django.views.generic.edit.FormMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -43,7 +43,7 @@
                     "docstring": "\"\"\"Return the keyword arguments for instantiating the form.\"\"\"",
                     "name": "get_form_kwargs",
                     "namespace": "django.views.generic.edit.FormMixin.get_form_kwargs",
-                    "class_name": "",
+                    "class_name": "django.views.generic.edit.FormMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -51,7 +51,7 @@
                     "docstring": "\"\"\"Return the URL to redirect to after processing a valid form.\"\"\"",
                     "name": "get_success_url",
                     "namespace": "django.views.generic.edit.FormMixin.get_success_url",
-                    "class_name": "",
+                    "class_name": "django.views.generic.edit.FormMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -59,7 +59,7 @@
                     "docstring": "\"\"\"If the form is valid, redirect to the supplied URL.\"\"\"",
                     "name": "form_valid",
                     "namespace": "django.views.generic.edit.FormMixin.form_valid",
-                    "class_name": "",
+                    "class_name": "django.views.generic.edit.FormMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -67,7 +67,7 @@
                     "docstring": "\"\"\"If the form is invalid, render the invalid form.\"\"\"",
                     "name": "form_invalid",
                     "namespace": "django.views.generic.edit.FormMixin.form_invalid",
-                    "class_name": "",
+                    "class_name": "django.views.generic.edit.FormMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -75,7 +75,7 @@
                     "docstring": "\"\"\"Insert the form into the context dict.\"\"\"",
                     "name": "get_context_data",
                     "namespace": "django.views.generic.edit.FormMixin.get_context_data",
-                    "class_name": "",
+                    "class_name": "django.views.generic.edit.FormMixin",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -90,7 +90,7 @@
                     "docstring": "\"\"\"Return the form class to use in this view.\"\"\"",
                     "name": "get_form_class",
                     "namespace": "django.views.generic.edit.ModelFormMixin.get_form_class",
-                    "class_name": "",
+                    "class_name": "django.views.generic.edit.ModelFormMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -98,7 +98,7 @@
                     "docstring": "\"\"\"Return the keyword arguments for instantiating the form.\"\"\"",
                     "name": "get_form_kwargs",
                     "namespace": "django.views.generic.edit.ModelFormMixin.get_form_kwargs",
-                    "class_name": "",
+                    "class_name": "django.views.generic.edit.ModelFormMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -106,7 +106,7 @@
                     "docstring": "\"\"\"Return the URL to redirect to after processing a valid form.\"\"\"",
                     "name": "get_success_url",
                     "namespace": "django.views.generic.edit.ModelFormMixin.get_success_url",
-                    "class_name": "",
+                    "class_name": "django.views.generic.edit.ModelFormMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -114,7 +114,7 @@
                     "docstring": "\"\"\"If the form is valid, save the associated model.\"\"\"",
                     "name": "form_valid",
                     "namespace": "django.views.generic.edit.ModelFormMixin.form_valid",
-                    "class_name": "",
+                    "class_name": "django.views.generic.edit.ModelFormMixin",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -129,7 +129,7 @@
                     "docstring": "\"\"\"Handle GET requests: instantiate a blank version of the form.\"\"\"",
                     "name": "get",
                     "namespace": "django.views.generic.edit.ProcessFormView.get",
-                    "class_name": "",
+                    "class_name": "django.views.generic.edit.ProcessFormView",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -137,7 +137,7 @@
                     "docstring": "\"\"\"\n        Handle POST requests: instantiate a form instance with the passed\n        POST variables and then check if it's valid.\n        \"\"\"",
                     "name": "post",
                     "namespace": "django.views.generic.edit.ProcessFormView.post",
-                    "class_name": "",
+                    "class_name": "django.views.generic.edit.ProcessFormView",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -145,7 +145,7 @@
                     "docstring": "",
                     "name": "put",
                     "namespace": "django.views.generic.edit.ProcessFormView.put",
-                    "class_name": "",
+                    "class_name": "django.views.generic.edit.ProcessFormView",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -172,7 +172,7 @@
                     "docstring": "",
                     "name": "get",
                     "namespace": "django.views.generic.edit.BaseCreateView.get",
-                    "class_name": "",
+                    "class_name": "django.views.generic.edit.BaseCreateView",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -180,7 +180,7 @@
                     "docstring": "",
                     "name": "post",
                     "namespace": "django.views.generic.edit.BaseCreateView.post",
-                    "class_name": "",
+                    "class_name": "django.views.generic.edit.BaseCreateView",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -201,7 +201,7 @@
                     "docstring": "",
                     "name": "get",
                     "namespace": "django.views.generic.edit.BaseUpdateView.get",
-                    "class_name": "",
+                    "class_name": "django.views.generic.edit.BaseUpdateView",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -209,7 +209,7 @@
                     "docstring": "",
                     "name": "post",
                     "namespace": "django.views.generic.edit.BaseUpdateView.post",
-                    "class_name": "",
+                    "class_name": "django.views.generic.edit.BaseUpdateView",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -230,7 +230,7 @@
                     "docstring": "\"\"\"\n        Call the delete() method on the fetched object and then redirect to the\n        success URL.\n        \"\"\"",
                     "name": "delete",
                     "namespace": "django.views.generic.edit.DeletionMixin.delete",
-                    "class_name": "",
+                    "class_name": "django.views.generic.edit.DeletionMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -238,7 +238,7 @@
                     "docstring": "",
                     "name": "post",
                     "namespace": "django.views.generic.edit.DeletionMixin.post",
-                    "class_name": "",
+                    "class_name": "django.views.generic.edit.DeletionMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -246,7 +246,7 @@
                     "docstring": "",
                     "name": "get_success_url",
                     "namespace": "django.views.generic.edit.DeletionMixin.get_success_url",
-                    "class_name": "",
+                    "class_name": "django.views.generic.edit.DeletionMixin",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -267,7 +267,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.views.generic.edit.BaseDeleteView.__init__",
-                    "class_name": "",
+                    "class_name": "django.views.generic.edit.BaseDeleteView",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -275,7 +275,7 @@
                     "docstring": "",
                     "name": "post",
                     "namespace": "django.views.generic.edit.BaseDeleteView.post",
-                    "class_name": "",
+                    "class_name": "django.views.generic.edit.BaseDeleteView",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -283,7 +283,7 @@
                     "docstring": "",
                     "name": "form_valid",
                     "namespace": "django.views.generic.edit.BaseDeleteView.form_valid",
-                    "class_name": "",
+                    "class_name": "django.views.generic.edit.BaseDeleteView",
                     "module_name": "",
                     "package_name": ""
                 }

@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Set a value in the cache if the key does not already exist. If\n        timeout is given, use that timeout for the key; otherwise use the\n        default cache timeout.\n\n        Return True if the value was stored, False otherwise.\n        \"\"\"",
     "name": "add",
     "namespace": "django.core.cache.backends.base.BaseCache.add",
-    "class_name": "",
+    "class_name": "django.core.cache.backends.base.BaseCache",
     "module_name": "",
     "package_name": ""
 }

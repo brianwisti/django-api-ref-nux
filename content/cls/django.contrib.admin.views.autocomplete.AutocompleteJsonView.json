@@ -9,7 +9,7 @@
             "docstring": "\"\"\"\n        Return a JsonResponse with search results as defined in\n        serialize_result(), by default:\n        {\n            results: [{id: \"123\" text: \"foo\"}],\n            pagination: {more: true}\n        }\n        \"\"\"",
             "name": "get",
             "namespace": "django.contrib.admin.views.autocomplete.AutocompleteJsonView.get",
-            "class_name": "",
+            "class_name": "django.contrib.admin.views.autocomplete.AutocompleteJsonView",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "\"\"\"\n        Convert the provided model object to a dictionary that is added to the\n        results list.\n        \"\"\"",
             "name": "serialize_result",
             "namespace": "django.contrib.admin.views.autocomplete.AutocompleteJsonView.serialize_result",
-            "class_name": "",
+            "class_name": "django.contrib.admin.views.autocomplete.AutocompleteJsonView",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "\"\"\"Use the ModelAdmin's paginator.\"\"\"",
             "name": "get_paginator",
             "namespace": "django.contrib.admin.views.autocomplete.AutocompleteJsonView.get_paginator",
-            "class_name": "",
+            "class_name": "django.contrib.admin.views.autocomplete.AutocompleteJsonView",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "\"\"\"Return queryset based on ModelAdmin.get_search_results().\"\"\"",
             "name": "get_queryset",
             "namespace": "django.contrib.admin.views.autocomplete.AutocompleteJsonView.get_queryset",
-            "class_name": "",
+            "class_name": "django.contrib.admin.views.autocomplete.AutocompleteJsonView",
             "module_name": "",
             "package_name": ""
         },
@@ -41,7 +41,7 @@
             "docstring": "\"\"\"\n        Validate request integrity, extract and return request parameters.\n\n        Since the subsequent view permission check requires the target model\n        admin, which is determined here, raise PermissionDenied if the\n        requested app, model or field are malformed.\n\n        Raise Http404 if the target model admin is not configured properly with\n        search_fields.\n        \"\"\"",
             "name": "process_request",
             "namespace": "django.contrib.admin.views.autocomplete.AutocompleteJsonView.process_request",
-            "class_name": "",
+            "class_name": "django.contrib.admin.views.autocomplete.AutocompleteJsonView",
             "module_name": "",
             "package_name": ""
         },
@@ -49,7 +49,7 @@
             "docstring": "\"\"\"Check if user has permission to access the related model.\"\"\"",
             "name": "has_perm",
             "namespace": "django.contrib.admin.views.autocomplete.AutocompleteJsonView.has_perm",
-            "class_name": "",
+            "class_name": "django.contrib.admin.views.autocomplete.AutocompleteJsonView",
             "module_name": "",
             "package_name": ""
         }

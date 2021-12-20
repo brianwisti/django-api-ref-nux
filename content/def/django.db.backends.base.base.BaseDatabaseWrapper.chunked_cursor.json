@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return a cursor that tries to avoid caching in the database (if\n        supported by the database), otherwise return a regular cursor.\n        \"\"\"",
     "name": "chunked_cursor",
     "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.chunked_cursor",
-    "class_name": "",
+    "class_name": "django.db.backends.base.base.BaseDatabaseWrapper",
     "module_name": "",
     "package_name": ""
 }

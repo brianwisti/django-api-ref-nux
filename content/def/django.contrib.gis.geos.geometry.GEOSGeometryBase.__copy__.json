@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return a clone because the copy of a GEOSGeometry may contain an\n        invalid pointer location if the original is garbage collected.\n        \"\"\"",
     "name": "__copy__",
     "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.__copy__",
-    "class_name": "",
+    "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
     "module_name": "",
     "package_name": ""
 }

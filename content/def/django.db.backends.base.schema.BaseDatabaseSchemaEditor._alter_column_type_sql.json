@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Hook to specialize column type alteration for different backends,\n        for cases when a creation type is different to an alteration type\n        (e.g. SERIAL in PostgreSQL, PostGIS fields).\n\n        Return a two-tuple of: an SQL fragment of (sql, params) to insert into\n        an ALTER TABLE statement and a list of extra (sql, params) tuples to\n        run once the field is altered.\n        \"\"\"",
     "name": "_alter_column_type_sql",
     "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor._alter_column_type_sql",
-    "class_name": "",
+    "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
     "module_name": "",
     "package_name": ""
 }

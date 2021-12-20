@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return a list of all many to many fields on the model and its parents.\n\n        Private API intended only to be used by Django itself; get_fields()\n        combined with filtering of field properties is the public API for\n        obtaining this list.\n        \"\"\"",
     "name": "many_to_many",
     "namespace": "django.db.models.options.Options.many_to_many",
-    "class_name": "",
+    "class_name": "django.db.models.options.Options",
     "module_name": "",
     "package_name": ""
 }

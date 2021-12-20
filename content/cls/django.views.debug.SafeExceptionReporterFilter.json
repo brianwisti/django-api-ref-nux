@@ -9,7 +9,7 @@
             "docstring": "\"\"\"\n        Cleanse an individual setting key/value of sensitive content. If the\n        value is a dictionary, recursively cleanse the keys in that dictionary.\n        \"\"\"",
             "name": "cleanse_setting",
             "namespace": "django.views.debug.SafeExceptionReporterFilter.cleanse_setting",
-            "class_name": "",
+            "class_name": "django.views.debug.SafeExceptionReporterFilter",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "\"\"\"\n        Return a dictionary of the settings module with values of sensitive\n        settings replaced with stars (*********).\n        \"\"\"",
             "name": "get_safe_settings",
             "namespace": "django.views.debug.SafeExceptionReporterFilter.get_safe_settings",
-            "class_name": "",
+            "class_name": "django.views.debug.SafeExceptionReporterFilter",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "\"\"\"\n        Return a dictionary of request.META with sensitive values redacted.\n        \"\"\"",
             "name": "get_safe_request_meta",
             "namespace": "django.views.debug.SafeExceptionReporterFilter.get_safe_request_meta",
-            "class_name": "",
+            "class_name": "django.views.debug.SafeExceptionReporterFilter",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "\"\"\"\n        This filter is to add safety in production environments (i.e. DEBUG\n        is False). If DEBUG is True then your site is not safe anyway.\n        This hook is provided as a convenience to easily activate or\n        deactivate the filter on a per request basis.\n        \"\"\"",
             "name": "is_active",
             "namespace": "django.views.debug.SafeExceptionReporterFilter.is_active",
-            "class_name": "",
+            "class_name": "django.views.debug.SafeExceptionReporterFilter",
             "module_name": "",
             "package_name": ""
         },
@@ -41,7 +41,7 @@
             "docstring": "\"\"\"\n        Replace the keys in a MultiValueDict marked as sensitive with stars.\n        This mitigates leaking sensitive POST parameters if something like\n        request.POST['nonexistent_key'] throws an exception (#21098).\n        \"\"\"",
             "name": "get_cleansed_multivaluedict",
             "namespace": "django.views.debug.SafeExceptionReporterFilter.get_cleansed_multivaluedict",
-            "class_name": "",
+            "class_name": "django.views.debug.SafeExceptionReporterFilter",
             "module_name": "",
             "package_name": ""
         },
@@ -49,7 +49,7 @@
             "docstring": "\"\"\"\n        Replace the values of POST parameters marked as sensitive with\n        stars (*********).\n        \"\"\"",
             "name": "get_post_parameters",
             "namespace": "django.views.debug.SafeExceptionReporterFilter.get_post_parameters",
-            "class_name": "",
+            "class_name": "django.views.debug.SafeExceptionReporterFilter",
             "module_name": "",
             "package_name": ""
         },
@@ -57,7 +57,7 @@
             "docstring": "",
             "name": "cleanse_special_types",
             "namespace": "django.views.debug.SafeExceptionReporterFilter.cleanse_special_types",
-            "class_name": "",
+            "class_name": "django.views.debug.SafeExceptionReporterFilter",
             "module_name": "",
             "package_name": ""
         },
@@ -65,7 +65,7 @@
             "docstring": "\"\"\"\n        Replace the values of variables marked as sensitive with\n        stars (*********).\n        \"\"\"",
             "name": "get_traceback_frame_variables",
             "namespace": "django.views.debug.SafeExceptionReporterFilter.get_traceback_frame_variables",
-            "class_name": "",
+            "class_name": "django.views.debug.SafeExceptionReporterFilter",
             "module_name": "",
             "package_name": ""
         }

@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return True if the QuerySet is ordered -- i.e. has an order_by()\n        clause or a default ordering on the model (or is empty).\n        \"\"\"",
     "name": "ordered",
     "namespace": "django.db.models.query.QuerySet.ordered",
-    "class_name": "",
+    "class_name": "django.db.models.query.QuerySet",
     "module_name": "",
     "package_name": ""
 }

@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Initialize on the given sequence -- may take lists, tuples, NumPy arrays\n        of X,Y pairs, or Point objects.  If Point objects are used, ownership is\n        _not_ transferred to the LineString object.\n\n        Examples:\n         ls = LineString((1, 1), (2, 2))\n         ls = LineString([(1, 1), (2, 2)])\n         ls = LineString(array([(1, 1), (2, 2)]))\n         ls = LineString(Point(1, 1), Point(2, 2))\n        \"\"\"",
     "name": "__init__",
     "namespace": "django.contrib.gis.geos.linestring.LineString.__init__",
-    "class_name": "",
+    "class_name": "django.contrib.gis.geos.linestring.LineString",
     "module_name": "",
     "package_name": ""
 }

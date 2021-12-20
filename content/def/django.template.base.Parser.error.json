@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return an exception annotated with the originating token. Since the\n        parser can be called recursively, check if a token is already set. This\n        ensures the innermost token is highlighted if an exception occurs,\n        e.g. a compile error within the body of an if statement.\n        \"\"\"",
     "name": "error",
     "namespace": "django.template.base.Parser.error",
-    "class_name": "",
+    "class_name": "django.template.base.Parser",
     "module_name": "",
     "package_name": ""
 }

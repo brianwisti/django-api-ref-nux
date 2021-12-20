@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return whether or not the provided table name is referenced by another\n        one. If `column_name` is specified, only references pointing to that\n        column are considered. If `ignore_self` is True, self-referential\n        constraints are ignored.\n        \"\"\"",
     "name": "_is_referenced_by_fk_constraint",
     "namespace": "django.db.backends.sqlite3.schema.DatabaseSchemaEditor._is_referenced_by_fk_constraint",
-    "class_name": "",
+    "class_name": "django.db.backends.sqlite3.schema.DatabaseSchemaEditor",
     "module_name": "",
     "package_name": ""
 }

@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "as_mysql",
                     "namespace": "django.db.models.functions.text.MySQLSHA2Mixin.as_mysql",
-                    "class_name": "",
+                    "class_name": "django.db.models.functions.text.MySQLSHA2Mixin",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -26,7 +26,7 @@
                     "docstring": "",
                     "name": "as_oracle",
                     "namespace": "django.db.models.functions.text.OracleHashMixin.as_oracle",
-                    "class_name": "",
+                    "class_name": "django.db.models.functions.text.OracleHashMixin",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -41,7 +41,7 @@
                     "docstring": "",
                     "name": "as_postgresql",
                     "namespace": "django.db.models.functions.text.PostgreSQLSHAMixin.as_postgresql",
-                    "class_name": "",
+                    "class_name": "django.db.models.functions.text.PostgreSQLSHAMixin",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -56,7 +56,7 @@
                     "docstring": "",
                     "name": "as_mysql",
                     "namespace": "django.db.models.functions.text.Chr.as_mysql",
-                    "class_name": "",
+                    "class_name": "django.db.models.functions.text.Chr",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -64,7 +64,7 @@
                     "docstring": "",
                     "name": "as_oracle",
                     "namespace": "django.db.models.functions.text.Chr.as_oracle",
-                    "class_name": "",
+                    "class_name": "django.db.models.functions.text.Chr",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -72,7 +72,7 @@
                     "docstring": "",
                     "name": "as_sqlite",
                     "namespace": "django.db.models.functions.text.Chr.as_sqlite",
-                    "class_name": "",
+                    "class_name": "django.db.models.functions.text.Chr",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -87,7 +87,7 @@
                     "docstring": "",
                     "name": "as_sqlite",
                     "namespace": "django.db.models.functions.text.ConcatPair.as_sqlite",
-                    "class_name": "",
+                    "class_name": "django.db.models.functions.text.ConcatPair",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -95,7 +95,7 @@
                     "docstring": "",
                     "name": "as_mysql",
                     "namespace": "django.db.models.functions.text.ConcatPair.as_mysql",
-                    "class_name": "",
+                    "class_name": "django.db.models.functions.text.ConcatPair",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -103,7 +103,7 @@
                     "docstring": "",
                     "name": "coalesce",
                     "namespace": "django.db.models.functions.text.ConcatPair.coalesce",
-                    "class_name": "",
+                    "class_name": "django.db.models.functions.text.ConcatPair",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -118,7 +118,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.db.models.functions.text.Concat.__init__",
-                    "class_name": "",
+                    "class_name": "django.db.models.functions.text.Concat",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -126,7 +126,7 @@
                     "docstring": "",
                     "name": "_paired",
                     "namespace": "django.db.models.functions.text.Concat._paired",
-                    "class_name": "",
+                    "class_name": "django.db.models.functions.text.Concat",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -141,7 +141,7 @@
                     "docstring": "\"\"\"\n        expression: the name of a field, or an expression returning a string\n        length: the number of characters to return from the start of the string\n        \"\"\"",
                     "name": "__init__",
                     "namespace": "django.db.models.functions.text.Left.__init__",
-                    "class_name": "",
+                    "class_name": "django.db.models.functions.text.Left",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -149,7 +149,7 @@
                     "docstring": "",
                     "name": "get_substr",
                     "namespace": "django.db.models.functions.text.Left.get_substr",
-                    "class_name": "",
+                    "class_name": "django.db.models.functions.text.Left",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -157,7 +157,7 @@
                     "docstring": "",
                     "name": "as_oracle",
                     "namespace": "django.db.models.functions.text.Left.as_oracle",
-                    "class_name": "",
+                    "class_name": "django.db.models.functions.text.Left",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -165,7 +165,7 @@
                     "docstring": "",
                     "name": "as_sqlite",
                     "namespace": "django.db.models.functions.text.Left.as_sqlite",
-                    "class_name": "",
+                    "class_name": "django.db.models.functions.text.Left",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -180,7 +180,7 @@
                     "docstring": "",
                     "name": "as_mysql",
                     "namespace": "django.db.models.functions.text.Length.as_mysql",
-                    "class_name": "",
+                    "class_name": "django.db.models.functions.text.Length",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -201,7 +201,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.db.models.functions.text.LPad.__init__",
-                    "class_name": "",
+                    "class_name": "django.db.models.functions.text.LPad",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -228,7 +228,7 @@
                     "docstring": "",
                     "name": "as_mysql",
                     "namespace": "django.db.models.functions.text.Ord.as_mysql",
-                    "class_name": "",
+                    "class_name": "django.db.models.functions.text.Ord",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -236,7 +236,7 @@
                     "docstring": "",
                     "name": "as_sqlite",
                     "namespace": "django.db.models.functions.text.Ord.as_sqlite",
-                    "class_name": "",
+                    "class_name": "django.db.models.functions.text.Ord",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -251,7 +251,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.db.models.functions.text.Repeat.__init__",
-                    "class_name": "",
+                    "class_name": "django.db.models.functions.text.Repeat",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -259,7 +259,7 @@
                     "docstring": "",
                     "name": "as_oracle",
                     "namespace": "django.db.models.functions.text.Repeat.as_oracle",
-                    "class_name": "",
+                    "class_name": "django.db.models.functions.text.Repeat",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -274,7 +274,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.db.models.functions.text.Replace.__init__",
-                    "class_name": "",
+                    "class_name": "django.db.models.functions.text.Replace",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -289,7 +289,7 @@
                     "docstring": "",
                     "name": "as_oracle",
                     "namespace": "django.db.models.functions.text.Reverse.as_oracle",
-                    "class_name": "",
+                    "class_name": "django.db.models.functions.text.Reverse",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -304,7 +304,7 @@
                     "docstring": "",
                     "name": "get_substr",
                     "namespace": "django.db.models.functions.text.Right.get_substr",
-                    "class_name": "",
+                    "class_name": "django.db.models.functions.text.Right",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -337,7 +337,7 @@
                     "docstring": "",
                     "name": "as_oracle",
                     "namespace": "django.db.models.functions.text.SHA224.as_oracle",
-                    "class_name": "",
+                    "class_name": "django.db.models.functions.text.SHA224",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -370,7 +370,7 @@
                     "docstring": "",
                     "name": "as_postgresql",
                     "namespace": "django.db.models.functions.text.StrIndex.as_postgresql",
-                    "class_name": "",
+                    "class_name": "django.db.models.functions.text.StrIndex",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -385,7 +385,7 @@
                     "docstring": "\"\"\"\n        expression: the name of a field, or an expression returning a string\n        pos: an integer > 0, or an expression returning an integer\n        length: an optional number of characters to return\n        \"\"\"",
                     "name": "__init__",
                     "namespace": "django.db.models.functions.text.Substr.__init__",
-                    "class_name": "",
+                    "class_name": "django.db.models.functions.text.Substr",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -393,7 +393,7 @@
                     "docstring": "",
                     "name": "as_sqlite",
                     "namespace": "django.db.models.functions.text.Substr.as_sqlite",
-                    "class_name": "",
+                    "class_name": "django.db.models.functions.text.Substr",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -401,7 +401,7 @@
                     "docstring": "",
                     "name": "as_oracle",
                     "namespace": "django.db.models.functions.text.Substr.as_oracle",
-                    "class_name": "",
+                    "class_name": "django.db.models.functions.text.Substr",
                     "module_name": "",
                     "package_name": ""
                 }

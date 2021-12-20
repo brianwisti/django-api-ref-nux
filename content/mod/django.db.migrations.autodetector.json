@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.db.migrations.autodetector.MigrationAutodetector.__init__",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "\"\"\"\n        Main entry point to produce a list of applicable changes.\n        Take a graph to base names on and an optional set of apps\n        to try and restrict to (restriction is not guaranteed)\n        \"\"\"",
                     "name": "changes",
                     "namespace": "django.db.migrations.autodetector.MigrationAutodetector.changes",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -27,7 +27,7 @@
                     "docstring": "\"\"\"\n        Recursive deconstruction for a field and its arguments.\n        Used for full comparison for rename/alter; sometimes a single-level\n        deconstruction will not compare correctly.\n        \"\"\"",
                     "name": "deep_deconstruct",
                     "namespace": "django.db.migrations.autodetector.MigrationAutodetector.deep_deconstruct",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -35,7 +35,7 @@
                     "docstring": "\"\"\"\n        Return a definition of the fields that ignores field names and\n        what related fields actually relate to. Used for detecting renames (as\n        the related fields change during renames).\n        \"\"\"",
                     "name": "only_relation_agnostic_fields",
                     "namespace": "django.db.migrations.autodetector.MigrationAutodetector.only_relation_agnostic_fields",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -43,7 +43,7 @@
                     "docstring": "\"\"\"\n        Return a dict of migration plans which will achieve the\n        change from from_state to to_state. The dict has app labels\n        as keys and a list of migrations as values.\n\n        The resulting migrations aren't specially named, but the names\n        do matter for dependencies inside the set.\n\n        convert_apps is the list of apps to convert to use migrations\n        (i.e. to make initial migrations for, in the usual case)\n\n        graph is an optional argument that, if provided, can help improve\n        dependency generation and avoid potential circular dependencies.\n        \"\"\"",
                     "name": "_detect_changes",
                     "namespace": "django.db.migrations.autodetector.MigrationAutodetector._detect_changes",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -51,7 +51,7 @@
                     "docstring": "\"\"\"\n        Prepare field lists and a list of the fields that used through models\n        in the old state so dependencies can be made from the through model\n        deletion to the field that uses it.\n        \"\"\"",
                     "name": "_prepare_field_lists",
                     "namespace": "django.db.migrations.autodetector.MigrationAutodetector._prepare_field_lists",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -59,7 +59,7 @@
                     "docstring": "\"\"\"Through model map generation.\"\"\"",
                     "name": "_generate_through_model_map",
                     "namespace": "django.db.migrations.autodetector.MigrationAutodetector._generate_through_model_map",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -67,7 +67,7 @@
                     "docstring": "\"\"\"\n        Return the resolved dependency and a boolean denoting whether or not\n        it was swappable.\n        \"\"\"",
                     "name": "_resolve_dependency",
                     "namespace": "django.db.migrations.autodetector.MigrationAutodetector._resolve_dependency",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -75,7 +75,7 @@
                     "docstring": "\"\"\"\n        Chop the lists of operations up into migrations with dependencies on\n        each other. Do this by going through an app's list of operations until\n        one is found that has an outgoing dependency that isn't in another\n        app's migration yet (hasn't been chopped off its list). Then chop off\n        the operations before it into a migration and move onto the next app.\n        If the loops completes without doing anything, there's a circular\n        dependency (which _should_ be impossible as the operations are\n        all split at this point so they can't depend and be depended on).\n        \"\"\"",
                     "name": "_build_migration_list",
                     "namespace": "django.db.migrations.autodetector.MigrationAutodetector._build_migration_list",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -83,7 +83,7 @@
                     "docstring": "\"\"\"\n        Reorder to make things possible. Reordering may be needed so FKs work\n        nicely inside the same app.\n        \"\"\"",
                     "name": "_sort_migrations",
                     "namespace": "django.db.migrations.autodetector.MigrationAutodetector._sort_migrations",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -91,7 +91,7 @@
                     "docstring": "",
                     "name": "_optimize_migrations",
                     "namespace": "django.db.migrations.autodetector.MigrationAutodetector._optimize_migrations",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -99,7 +99,7 @@
                     "docstring": "\"\"\"\n        Return True if the given operation depends on the given dependency,\n        False otherwise.\n        \"\"\"",
                     "name": "check_dependency",
                     "namespace": "django.db.migrations.autodetector.MigrationAutodetector.check_dependency",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -107,7 +107,7 @@
                     "docstring": "",
                     "name": "add_operation",
                     "namespace": "django.db.migrations.autodetector.MigrationAutodetector.add_operation",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -115,7 +115,7 @@
                     "docstring": "\"\"\"\n        Place potential swappable models first in lists of created models (only\n        real way to solve #22783).\n        \"\"\"",
                     "name": "swappable_first_key",
                     "namespace": "django.db.migrations.autodetector.MigrationAutodetector.swappable_first_key",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -123,7 +123,7 @@
                     "docstring": "\"\"\"\n        Find any renamed models, generate the operations for them, and remove\n        the old entry from the model lists. Must be run before other\n        model-level generation.\n        \"\"\"",
                     "name": "generate_renamed_models",
                     "namespace": "django.db.migrations.autodetector.MigrationAutodetector.generate_renamed_models",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -131,7 +131,7 @@
                     "docstring": "\"\"\"\n        Find all new models (both managed and unmanaged) and make create\n        operations for them as well as separate operations to create any\n        foreign key or M2M relationships (these are optimized later, if\n        possible).\n\n        Defer any model options that refer to collections of fields that might\n        be deferred (e.g. unique_together, index_together).\n        \"\"\"",
                     "name": "generate_created_models",
                     "namespace": "django.db.migrations.autodetector.MigrationAutodetector.generate_created_models",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -139,7 +139,7 @@
                     "docstring": "\"\"\"\n        Make CreateModel statements for proxy models. Use the same statements\n        as that way there's less code duplication, but for proxy models it's\n        safe to skip all the pointless field stuff and chuck out an operation.\n        \"\"\"",
                     "name": "generate_created_proxies",
                     "namespace": "django.db.migrations.autodetector.MigrationAutodetector.generate_created_proxies",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -147,7 +147,7 @@
                     "docstring": "\"\"\"\n        Find all deleted models (managed and unmanaged) and make delete\n        operations for them as well as separate operations to delete any\n        foreign key or M2M relationships (these are optimized later, if\n        possible).\n\n        Also bring forward removal of any model options that refer to\n        collections of fields - the inverse of generate_created_models().\n        \"\"\"",
                     "name": "generate_deleted_models",
                     "namespace": "django.db.migrations.autodetector.MigrationAutodetector.generate_deleted_models",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -155,7 +155,7 @@
                     "docstring": "\"\"\"Make DeleteModel options for proxy models.\"\"\"",
                     "name": "generate_deleted_proxies",
                     "namespace": "django.db.migrations.autodetector.MigrationAutodetector.generate_deleted_proxies",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -163,7 +163,7 @@
                     "docstring": "\"\"\"Work out renamed fields.\"\"\"",
                     "name": "generate_renamed_fields",
                     "namespace": "django.db.migrations.autodetector.MigrationAutodetector.generate_renamed_fields",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -171,7 +171,7 @@
                     "docstring": "\"\"\"Make AddField operations.\"\"\"",
                     "name": "generate_added_fields",
                     "namespace": "django.db.migrations.autodetector.MigrationAutodetector.generate_added_fields",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -179,7 +179,7 @@
                     "docstring": "",
                     "name": "_generate_added_field",
                     "namespace": "django.db.migrations.autodetector.MigrationAutodetector._generate_added_field",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -187,7 +187,7 @@
                     "docstring": "\"\"\"Make RemoveField operations.\"\"\"",
                     "name": "generate_removed_fields",
                     "namespace": "django.db.migrations.autodetector.MigrationAutodetector.generate_removed_fields",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -195,7 +195,7 @@
                     "docstring": "",
                     "name": "_generate_removed_field",
                     "namespace": "django.db.migrations.autodetector.MigrationAutodetector._generate_removed_field",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -203,7 +203,7 @@
                     "docstring": "\"\"\"\n        Make AlterField operations, or possibly RemovedField/AddField if alter\n        isn't possible.\n        \"\"\"",
                     "name": "generate_altered_fields",
                     "namespace": "django.db.migrations.autodetector.MigrationAutodetector.generate_altered_fields",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -211,7 +211,7 @@
                     "docstring": "",
                     "name": "create_altered_indexes",
                     "namespace": "django.db.migrations.autodetector.MigrationAutodetector.create_altered_indexes",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -219,7 +219,7 @@
                     "docstring": "",
                     "name": "generate_added_indexes",
                     "namespace": "django.db.migrations.autodetector.MigrationAutodetector.generate_added_indexes",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -227,7 +227,7 @@
                     "docstring": "",
                     "name": "generate_removed_indexes",
                     "namespace": "django.db.migrations.autodetector.MigrationAutodetector.generate_removed_indexes",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -235,7 +235,7 @@
                     "docstring": "",
                     "name": "create_altered_constraints",
                     "namespace": "django.db.migrations.autodetector.MigrationAutodetector.create_altered_constraints",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -243,7 +243,7 @@
                     "docstring": "",
                     "name": "generate_added_constraints",
                     "namespace": "django.db.migrations.autodetector.MigrationAutodetector.generate_added_constraints",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -251,7 +251,7 @@
                     "docstring": "",
                     "name": "generate_removed_constraints",
                     "namespace": "django.db.migrations.autodetector.MigrationAutodetector.generate_removed_constraints",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -259,7 +259,7 @@
                     "docstring": "",
                     "name": "_get_dependencies_for_foreign_key",
                     "namespace": "django.db.migrations.autodetector.MigrationAutodetector._get_dependencies_for_foreign_key",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -267,7 +267,7 @@
                     "docstring": "",
                     "name": "_get_altered_foo_together_operations",
                     "namespace": "django.db.migrations.autodetector.MigrationAutodetector._get_altered_foo_together_operations",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -275,7 +275,7 @@
                     "docstring": "",
                     "name": "_generate_removed_altered_foo_together",
                     "namespace": "django.db.migrations.autodetector.MigrationAutodetector._generate_removed_altered_foo_together",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -283,7 +283,7 @@
                     "docstring": "",
                     "name": "generate_removed_altered_unique_together",
                     "namespace": "django.db.migrations.autodetector.MigrationAutodetector.generate_removed_altered_unique_together",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -291,7 +291,7 @@
                     "docstring": "",
                     "name": "generate_removed_altered_index_together",
                     "namespace": "django.db.migrations.autodetector.MigrationAutodetector.generate_removed_altered_index_together",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -299,7 +299,7 @@
                     "docstring": "",
                     "name": "_generate_altered_foo_together",
                     "namespace": "django.db.migrations.autodetector.MigrationAutodetector._generate_altered_foo_together",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -307,7 +307,7 @@
                     "docstring": "",
                     "name": "generate_altered_unique_together",
                     "namespace": "django.db.migrations.autodetector.MigrationAutodetector.generate_altered_unique_together",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -315,7 +315,7 @@
                     "docstring": "",
                     "name": "generate_altered_index_together",
                     "namespace": "django.db.migrations.autodetector.MigrationAutodetector.generate_altered_index_together",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -323,7 +323,7 @@
                     "docstring": "",
                     "name": "generate_altered_db_table",
                     "namespace": "django.db.migrations.autodetector.MigrationAutodetector.generate_altered_db_table",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -331,7 +331,7 @@
                     "docstring": "\"\"\"\n        Work out if any non-schema-affecting options have changed and make an\n        operation to represent them in state changes (in case Python code in\n        migrations needs them).\n        \"\"\"",
                     "name": "generate_altered_options",
                     "namespace": "django.db.migrations.autodetector.MigrationAutodetector.generate_altered_options",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -339,7 +339,7 @@
                     "docstring": "",
                     "name": "generate_altered_order_with_respect_to",
                     "namespace": "django.db.migrations.autodetector.MigrationAutodetector.generate_altered_order_with_respect_to",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -347,7 +347,7 @@
                     "docstring": "",
                     "name": "generate_altered_managers",
                     "namespace": "django.db.migrations.autodetector.MigrationAutodetector.generate_altered_managers",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -355,7 +355,7 @@
                     "docstring": "\"\"\"\n        Take a result from changes() and a MigrationGraph, and fix the names\n        and dependencies of the changes so they extend the graph from the leaf\n        nodes for each app.\n        \"\"\"",
                     "name": "arrange_for_graph",
                     "namespace": "django.db.migrations.autodetector.MigrationAutodetector.arrange_for_graph",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -363,7 +363,7 @@
                     "docstring": "\"\"\"\n        Take changes from arrange_for_graph() and set of app labels, and return\n        a modified set of changes which trims out as many migrations that are\n        not in app_labels as possible. Note that some other migrations may\n        still be present as they may be required dependencies.\n        \"\"\"",
                     "name": "_trim_to_apps",
                     "namespace": "django.db.migrations.autodetector.MigrationAutodetector._trim_to_apps",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -371,7 +371,7 @@
                     "docstring": "\"\"\"\n        Given a migration name, try to extract a number from the beginning of\n        it. If no number is found, return None.\n        \"\"\"",
                     "name": "parse_number",
                     "namespace": "django.db.migrations.autodetector.MigrationAutodetector.parse_number",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
                     "module_name": "",
                     "package_name": ""
                 }

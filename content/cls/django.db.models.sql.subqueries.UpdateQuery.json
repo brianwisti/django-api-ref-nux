@@ -9,7 +9,7 @@
             "docstring": "",
             "name": "__init__",
             "namespace": "django.db.models.sql.subqueries.UpdateQuery.__init__",
-            "class_name": "",
+            "class_name": "django.db.models.sql.subqueries.UpdateQuery",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "\"\"\"\n        Run on initialization and at the end of chaining. Any attributes that\n        would normally be set in __init__() should go here instead.\n        \"\"\"",
             "name": "_setup_query",
             "namespace": "django.db.models.sql.subqueries.UpdateQuery._setup_query",
-            "class_name": "",
+            "class_name": "django.db.models.sql.subqueries.UpdateQuery",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "",
             "name": "clone",
             "namespace": "django.db.models.sql.subqueries.UpdateQuery.clone",
-            "class_name": "",
+            "class_name": "django.db.models.sql.subqueries.UpdateQuery",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "",
             "name": "update_batch",
             "namespace": "django.db.models.sql.subqueries.UpdateQuery.update_batch",
-            "class_name": "",
+            "class_name": "django.db.models.sql.subqueries.UpdateQuery",
             "module_name": "",
             "package_name": ""
         },
@@ -41,7 +41,7 @@
             "docstring": "\"\"\"\n        Convert a dictionary of field name to value mappings into an update\n        query. This is the entry point for the public update() method on\n        querysets.\n        \"\"\"",
             "name": "add_update_values",
             "namespace": "django.db.models.sql.subqueries.UpdateQuery.add_update_values",
-            "class_name": "",
+            "class_name": "django.db.models.sql.subqueries.UpdateQuery",
             "module_name": "",
             "package_name": ""
         },
@@ -49,7 +49,7 @@
             "docstring": "\"\"\"\n        Append a sequence of (field, model, value) triples to the internal list\n        that will be used to generate the UPDATE query. Might be more usefully\n        called add_update_targets() to hint at the extra information here.\n        \"\"\"",
             "name": "add_update_fields",
             "namespace": "django.db.models.sql.subqueries.UpdateQuery.add_update_fields",
-            "class_name": "",
+            "class_name": "django.db.models.sql.subqueries.UpdateQuery",
             "module_name": "",
             "package_name": ""
         },
@@ -57,7 +57,7 @@
             "docstring": "\"\"\"\n        Add (name, value) to an update query for an ancestor model.\n\n        Update are coalesced so that only one update query per ancestor is run.\n        \"\"\"",
             "name": "add_related_update",
             "namespace": "django.db.models.sql.subqueries.UpdateQuery.add_related_update",
-            "class_name": "",
+            "class_name": "django.db.models.sql.subqueries.UpdateQuery",
             "module_name": "",
             "package_name": ""
         },
@@ -65,7 +65,7 @@
             "docstring": "\"\"\"\n        Return a list of query objects: one for each update required to an\n        ancestor model. Each query will have the same filtering conditions as\n        the current query but will only update a single table.\n        \"\"\"",
             "name": "get_related_updates",
             "namespace": "django.db.models.sql.subqueries.UpdateQuery.get_related_updates",
-            "class_name": "",
+            "class_name": "django.db.models.sql.subqueries.UpdateQuery",
             "module_name": "",
             "package_name": ""
         }

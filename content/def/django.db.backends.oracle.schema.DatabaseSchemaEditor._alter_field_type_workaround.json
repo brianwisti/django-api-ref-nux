@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Oracle refuses to change from some type to other type.\n        What we need to do instead is:\n        - Add a nullable version of the desired field with a temporary name. If\n          the new column is an auto field, then the temporary column can't be\n          nullable.\n        - Update the table to transfer values from old to new\n        - Drop old column\n        - Rename the new column and possibly drop the nullable property\n        \"\"\"",
     "name": "_alter_field_type_workaround",
     "namespace": "django.db.backends.oracle.schema.DatabaseSchemaEditor._alter_field_type_workaround",
-    "class_name": "",
+    "class_name": "django.db.backends.oracle.schema.DatabaseSchemaEditor",
     "module_name": "",
     "package_name": ""
 }

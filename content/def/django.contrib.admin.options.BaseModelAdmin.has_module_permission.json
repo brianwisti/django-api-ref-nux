@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return True if the given request has any permission in the given\n        app label.\n\n        Can be overridden by the user in subclasses. In such case it should\n        return True if the given request has permission to view the module on\n        the admin index page and access the module's index page. Overriding it\n        does not restrict access to the add, change or delete views. Use\n        `ModelAdmin.has_(add|change|delete)_permission` for that.\n        \"\"\"",
     "name": "has_module_permission",
     "namespace": "django.contrib.admin.options.BaseModelAdmin.has_module_permission",
-    "class_name": "",
+    "class_name": "django.contrib.admin.options.BaseModelAdmin",
     "module_name": "",
     "package_name": ""
 }

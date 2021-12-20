@@ -9,7 +9,7 @@
             "docstring": "",
             "name": "setUpClass",
             "namespace": "django.test.testcases.SimpleTestCase.setUpClass",
-            "class_name": "",
+            "class_name": "django.test.testcases.SimpleTestCase",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "",
             "name": "_validate_databases",
             "namespace": "django.test.testcases.SimpleTestCase._validate_databases",
-            "class_name": "",
+            "class_name": "django.test.testcases.SimpleTestCase",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "",
             "name": "_add_databases_failures",
             "namespace": "django.test.testcases.SimpleTestCase._add_databases_failures",
-            "class_name": "",
+            "class_name": "django.test.testcases.SimpleTestCase",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "",
             "name": "_remove_databases_failures",
             "namespace": "django.test.testcases.SimpleTestCase._remove_databases_failures",
-            "class_name": "",
+            "class_name": "django.test.testcases.SimpleTestCase",
             "module_name": "",
             "package_name": ""
         },
@@ -41,7 +41,7 @@
             "docstring": "\"\"\"\n        Wrapper around default __call__ method to perform common Django test\n        set up. This means that user-defined Test Cases aren't required to\n        include a call to super().setUp().\n        \"\"\"",
             "name": "__call__",
             "namespace": "django.test.testcases.SimpleTestCase.__call__",
-            "class_name": "",
+            "class_name": "django.test.testcases.SimpleTestCase",
             "module_name": "",
             "package_name": ""
         },
@@ -49,7 +49,7 @@
             "docstring": "\"\"\"Perform the same as __call__(), without catching the exception.\"\"\"",
             "name": "debug",
             "namespace": "django.test.testcases.SimpleTestCase.debug",
-            "class_name": "",
+            "class_name": "django.test.testcases.SimpleTestCase",
             "module_name": "",
             "package_name": ""
         },
@@ -57,7 +57,7 @@
             "docstring": "\"\"\"\n        Perform the following in order: pre-setup, run test, post-teardown,\n        skipping pre/post hooks if test is set to be skipped.\n\n        If debug=True, reraise any errors in setup and use super().debug()\n        instead of __call__() to run the test.\n        \"\"\"",
             "name": "_setup_and_call",
             "namespace": "django.test.testcases.SimpleTestCase._setup_and_call",
-            "class_name": "",
+            "class_name": "django.test.testcases.SimpleTestCase",
             "module_name": "",
             "package_name": ""
         },
@@ -65,7 +65,7 @@
             "docstring": "\"\"\"\n        Perform pre-test setup:\n        * Create a test client.\n        * Clear the mail test outbox.\n        \"\"\"",
             "name": "_pre_setup",
             "namespace": "django.test.testcases.SimpleTestCase._pre_setup",
-            "class_name": "",
+            "class_name": "django.test.testcases.SimpleTestCase",
             "module_name": "",
             "package_name": ""
         },
@@ -73,7 +73,7 @@
             "docstring": "\"\"\"Perform post-test things.\"\"\"",
             "name": "_post_teardown",
             "namespace": "django.test.testcases.SimpleTestCase._post_teardown",
-            "class_name": "",
+            "class_name": "django.test.testcases.SimpleTestCase",
             "module_name": "",
             "package_name": ""
         },
@@ -81,7 +81,7 @@
             "docstring": "\"\"\"\n        A context manager that temporarily sets a setting and reverts to the\n        original value when exiting the context.\n        \"\"\"",
             "name": "settings",
             "namespace": "django.test.testcases.SimpleTestCase.settings",
-            "class_name": "",
+            "class_name": "django.test.testcases.SimpleTestCase",
             "module_name": "",
             "package_name": ""
         },
@@ -89,7 +89,7 @@
             "docstring": "\"\"\"\n        A context manager that temporarily applies changes a list setting and\n        reverts back to the original value when exiting the context.\n        \"\"\"",
             "name": "modify_settings",
             "namespace": "django.test.testcases.SimpleTestCase.modify_settings",
-            "class_name": "",
+            "class_name": "django.test.testcases.SimpleTestCase",
             "module_name": "",
             "package_name": ""
         },
@@ -97,7 +97,7 @@
             "docstring": "\"\"\"\n        Assert that a response redirected to a specific URL and that the\n        redirect URL can be loaded.\n\n        Won't work for external links since it uses the test client to do a\n        request (use fetch_redirect_response=False to check such links without\n        fetching them).\n        \"\"\"",
             "name": "assertRedirects",
             "namespace": "django.test.testcases.SimpleTestCase.assertRedirects",
-            "class_name": "",
+            "class_name": "django.test.testcases.SimpleTestCase",
             "module_name": "",
             "package_name": ""
         },
@@ -105,7 +105,7 @@
             "docstring": "\"\"\"\n        Assert that two URLs are the same, ignoring the order of query string\n        parameters except for parameters with the same name.\n\n        For example, /path/?x=1&y=2 is equal to /path/?y=2&x=1, but\n        /path/?a=1&a=2 isn't equal to /path/?a=2&a=1.\n        \"\"\"",
             "name": "assertURLEqual",
             "namespace": "django.test.testcases.SimpleTestCase.assertURLEqual",
-            "class_name": "",
+            "class_name": "django.test.testcases.SimpleTestCase",
             "module_name": "",
             "package_name": ""
         },
@@ -113,7 +113,7 @@
             "docstring": "",
             "name": "_assert_contains",
             "namespace": "django.test.testcases.SimpleTestCase._assert_contains",
-            "class_name": "",
+            "class_name": "django.test.testcases.SimpleTestCase",
             "module_name": "",
             "package_name": ""
         },
@@ -121,7 +121,7 @@
             "docstring": "\"\"\"\n        Assert that a response indicates that some content was retrieved\n        successfully, (i.e., the HTTP status code was as expected) and that\n        ``text`` occurs ``count`` times in the content of the response.\n        If ``count`` is None, the count doesn't matter - the assertion is true\n        if the text occurs at least once in the response.\n        \"\"\"",
             "name": "assertContains",
             "namespace": "django.test.testcases.SimpleTestCase.assertContains",
-            "class_name": "",
+            "class_name": "django.test.testcases.SimpleTestCase",
             "module_name": "",
             "package_name": ""
         },
@@ -129,7 +129,7 @@
             "docstring": "\"\"\"\n        Assert that a response indicates that some content was retrieved\n        successfully, (i.e., the HTTP status code was as expected) and that\n        ``text`` doesn't occur in the content of the response.\n        \"\"\"",
             "name": "assertNotContains",
             "namespace": "django.test.testcases.SimpleTestCase.assertNotContains",
-            "class_name": "",
+            "class_name": "django.test.testcases.SimpleTestCase",
             "module_name": "",
             "package_name": ""
         },
@@ -137,7 +137,7 @@
             "docstring": "\"\"\"\n        Assert that a form used to render the response has a specific field\n        error.\n        \"\"\"",
             "name": "assertFormError",
             "namespace": "django.test.testcases.SimpleTestCase.assertFormError",
-            "class_name": "",
+            "class_name": "django.test.testcases.SimpleTestCase",
             "module_name": "",
             "package_name": ""
         },
@@ -145,7 +145,7 @@
             "docstring": "\"\"\"\n        Assert that a formset used to render the response has a specific error.\n\n        For field errors, specify the ``form_index`` and the ``field``.\n        For non-field errors, specify the ``form_index`` and the ``field`` as\n        None.\n        For non-form errors, specify ``form_index`` as None and the ``field``\n        as None.\n        \"\"\"",
             "name": "assertFormsetError",
             "namespace": "django.test.testcases.SimpleTestCase.assertFormsetError",
-            "class_name": "",
+            "class_name": "django.test.testcases.SimpleTestCase",
             "module_name": "",
             "package_name": ""
         },
@@ -153,7 +153,7 @@
             "docstring": "",
             "name": "_assert_template_used",
             "namespace": "django.test.testcases.SimpleTestCase._assert_template_used",
-            "class_name": "",
+            "class_name": "django.test.testcases.SimpleTestCase",
             "module_name": "",
             "package_name": ""
         },
@@ -161,7 +161,7 @@
             "docstring": "\"\"\"\n        Assert that the template with the provided name was used in rendering\n        the response. Also usable as context manager.\n        \"\"\"",
             "name": "assertTemplateUsed",
             "namespace": "django.test.testcases.SimpleTestCase.assertTemplateUsed",
-            "class_name": "",
+            "class_name": "django.test.testcases.SimpleTestCase",
             "module_name": "",
             "package_name": ""
         },
@@ -169,7 +169,7 @@
             "docstring": "\"\"\"\n        Assert that the template with the provided name was NOT used in\n        rendering the response. Also usable as context manager.\n        \"\"\"",
             "name": "assertTemplateNotUsed",
             "namespace": "django.test.testcases.SimpleTestCase.assertTemplateNotUsed",
-            "class_name": "",
+            "class_name": "django.test.testcases.SimpleTestCase",
             "module_name": "",
             "package_name": ""
         },
@@ -177,7 +177,7 @@
             "docstring": "",
             "name": "_assert_raises_or_warns_cm",
             "namespace": "django.test.testcases.SimpleTestCase._assert_raises_or_warns_cm",
-            "class_name": "",
+            "class_name": "django.test.testcases.SimpleTestCase",
             "module_name": "",
             "package_name": ""
         },
@@ -185,7 +185,7 @@
             "docstring": "",
             "name": "_assertFooMessage",
             "namespace": "django.test.testcases.SimpleTestCase._assertFooMessage",
-            "class_name": "",
+            "class_name": "django.test.testcases.SimpleTestCase",
             "module_name": "",
             "package_name": ""
         },
@@ -193,7 +193,7 @@
             "docstring": "\"\"\"\n        Assert that expected_message is found in the message of a raised\n        exception.\n\n        Args:\n            expected_exception: Exception class expected to be raised.\n            expected_message: expected error message string value.\n            args: Function to be called and extra positional args.\n            kwargs: Extra kwargs.\n        \"\"\"",
             "name": "assertRaisesMessage",
             "namespace": "django.test.testcases.SimpleTestCase.assertRaisesMessage",
-            "class_name": "",
+            "class_name": "django.test.testcases.SimpleTestCase",
             "module_name": "",
             "package_name": ""
         },
@@ -201,7 +201,7 @@
             "docstring": "\"\"\"\n        Same as assertRaisesMessage but for assertWarns() instead of\n        assertRaises().\n        \"\"\"",
             "name": "assertWarnsMessage",
             "namespace": "django.test.testcases.SimpleTestCase.assertWarnsMessage",
-            "class_name": "",
+            "class_name": "django.test.testcases.SimpleTestCase",
             "module_name": "",
             "package_name": ""
         },
@@ -209,7 +209,7 @@
             "docstring": "\"\"\"\n            Assert no messages are logged on the logger, with at least the\n            given level.\n            \"\"\"",
             "name": "assertNoLogs",
             "namespace": "django.test.testcases.SimpleTestCase.assertNoLogs",
-            "class_name": "",
+            "class_name": "django.test.testcases.SimpleTestCase",
             "module_name": "",
             "package_name": ""
         },
@@ -217,7 +217,7 @@
             "docstring": "\"\"\"\n        Assert that a form field behaves correctly with various inputs.\n\n        Args:\n            fieldclass: the class of the field to be tested.\n            valid: a dictionary mapping valid inputs to their expected\n                    cleaned values.\n            invalid: a dictionary mapping invalid inputs to one or more\n                    raised error messages.\n            field_args: the args passed to instantiate the field\n            field_kwargs: the kwargs passed to instantiate the field\n            empty_value: the expected clean output for inputs in empty_values\n        \"\"\"",
             "name": "assertFieldOutput",
             "namespace": "django.test.testcases.SimpleTestCase.assertFieldOutput",
-            "class_name": "",
+            "class_name": "django.test.testcases.SimpleTestCase",
             "module_name": "",
             "package_name": ""
         },
@@ -225,7 +225,7 @@
             "docstring": "\"\"\"\n        Assert that two HTML snippets are semantically the same.\n        Whitespace in most cases is ignored, and attribute ordering is not\n        significant. The arguments must be valid HTML.\n        \"\"\"",
             "name": "assertHTMLEqual",
             "namespace": "django.test.testcases.SimpleTestCase.assertHTMLEqual",
-            "class_name": "",
+            "class_name": "django.test.testcases.SimpleTestCase",
             "module_name": "",
             "package_name": ""
         },
@@ -233,7 +233,7 @@
             "docstring": "\"\"\"Assert that two HTML snippets are not semantically equivalent.\"\"\"",
             "name": "assertHTMLNotEqual",
             "namespace": "django.test.testcases.SimpleTestCase.assertHTMLNotEqual",
-            "class_name": "",
+            "class_name": "django.test.testcases.SimpleTestCase",
             "module_name": "",
             "package_name": ""
         },
@@ -241,7 +241,7 @@
             "docstring": "",
             "name": "assertInHTML",
             "namespace": "django.test.testcases.SimpleTestCase.assertInHTML",
-            "class_name": "",
+            "class_name": "django.test.testcases.SimpleTestCase",
             "module_name": "",
             "package_name": ""
         },
@@ -249,7 +249,7 @@
             "docstring": "\"\"\"\n        Assert that the JSON fragments raw and expected_data are equal.\n        Usual JSON non-significant whitespace rules apply as the heavyweight\n        is delegated to the json library.\n        \"\"\"",
             "name": "assertJSONEqual",
             "namespace": "django.test.testcases.SimpleTestCase.assertJSONEqual",
-            "class_name": "",
+            "class_name": "django.test.testcases.SimpleTestCase",
             "module_name": "",
             "package_name": ""
         },
@@ -257,7 +257,7 @@
             "docstring": "\"\"\"\n        Assert that the JSON fragments raw and expected_data are not equal.\n        Usual JSON non-significant whitespace rules apply as the heavyweight\n        is delegated to the json library.\n        \"\"\"",
             "name": "assertJSONNotEqual",
             "namespace": "django.test.testcases.SimpleTestCase.assertJSONNotEqual",
-            "class_name": "",
+            "class_name": "django.test.testcases.SimpleTestCase",
             "module_name": "",
             "package_name": ""
         },
@@ -265,7 +265,7 @@
             "docstring": "\"\"\"\n        Assert that two XML snippets are semantically the same.\n        Whitespace in most cases is ignored and attribute ordering is not\n        significant. The arguments must be valid XML.\n        \"\"\"",
             "name": "assertXMLEqual",
             "namespace": "django.test.testcases.SimpleTestCase.assertXMLEqual",
-            "class_name": "",
+            "class_name": "django.test.testcases.SimpleTestCase",
             "module_name": "",
             "package_name": ""
         },
@@ -273,7 +273,7 @@
             "docstring": "\"\"\"\n        Assert that two XML snippets are not semantically equivalent.\n        Whitespace in most cases is ignored and attribute ordering is not\n        significant. The arguments must be valid XML.\n        \"\"\"",
             "name": "assertXMLNotEqual",
             "namespace": "django.test.testcases.SimpleTestCase.assertXMLNotEqual",
-            "class_name": "",
+            "class_name": "django.test.testcases.SimpleTestCase",
             "module_name": "",
             "package_name": ""
         }

@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.apps.registry.Apps.__init__",
-                    "class_name": "",
+                    "class_name": "django.apps.registry.Apps",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "\"\"\"\n        Load application configurations and models.\n\n        Import each application module and then each model module.\n\n        It is thread-safe and idempotent, but not reentrant.\n        \"\"\"",
                     "name": "populate",
                     "namespace": "django.apps.registry.Apps.populate",
-                    "class_name": "",
+                    "class_name": "django.apps.registry.Apps",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -27,7 +27,7 @@
                     "docstring": "\"\"\"Raise an exception if all apps haven't been imported yet.\"\"\"",
                     "name": "check_apps_ready",
                     "namespace": "django.apps.registry.Apps.check_apps_ready",
-                    "class_name": "",
+                    "class_name": "django.apps.registry.Apps",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -35,7 +35,7 @@
                     "docstring": "\"\"\"Raise an exception if all models haven't been imported yet.\"\"\"",
                     "name": "check_models_ready",
                     "namespace": "django.apps.registry.Apps.check_models_ready",
-                    "class_name": "",
+                    "class_name": "django.apps.registry.Apps",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -43,7 +43,7 @@
                     "docstring": "\"\"\"Import applications and return an iterable of app configs.\"\"\"",
                     "name": "get_app_configs",
                     "namespace": "django.apps.registry.Apps.get_app_configs",
-                    "class_name": "",
+                    "class_name": "django.apps.registry.Apps",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -51,7 +51,7 @@
                     "docstring": "\"\"\"\n        Import applications and returns an app config for the given label.\n\n        Raise LookupError if no application exists with this label.\n        \"\"\"",
                     "name": "get_app_config",
                     "namespace": "django.apps.registry.Apps.get_app_config",
-                    "class_name": "",
+                    "class_name": "django.apps.registry.Apps",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -59,7 +59,7 @@
                     "docstring": "\"\"\"\n        Return a list of all installed models.\n\n        By default, the following models aren't included:\n\n        - auto-created models for many-to-many relations without\n          an explicit intermediate table,\n        - models that have been swapped out.\n\n        Set the corresponding keyword argument to True to include such models.\n        \"\"\"",
                     "name": "get_models",
                     "namespace": "django.apps.registry.Apps.get_models",
-                    "class_name": "",
+                    "class_name": "django.apps.registry.Apps",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -67,7 +67,7 @@
                     "docstring": "\"\"\"\n        Return the model matching the given app_label and model_name.\n\n        As a shortcut, app_label may be in the form <app_label>.<model_name>.\n\n        model_name is case-insensitive.\n\n        Raise LookupError if no application exists with this label, or no\n        model exists with this name in the application. Raise ValueError if\n        called with a single argument that doesn't contain exactly one dot.\n        \"\"\"",
                     "name": "get_model",
                     "namespace": "django.apps.registry.Apps.get_model",
-                    "class_name": "",
+                    "class_name": "django.apps.registry.Apps",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -75,7 +75,7 @@
                     "docstring": "",
                     "name": "register_model",
                     "namespace": "django.apps.registry.Apps.register_model",
-                    "class_name": "",
+                    "class_name": "django.apps.registry.Apps",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -83,7 +83,7 @@
                     "docstring": "\"\"\"\n        Check whether an application with this name exists in the registry.\n\n        app_name is the full name of the app e.g. 'django.contrib.admin'.\n        \"\"\"",
                     "name": "is_installed",
                     "namespace": "django.apps.registry.Apps.is_installed",
-                    "class_name": "",
+                    "class_name": "django.apps.registry.Apps",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -91,7 +91,7 @@
                     "docstring": "\"\"\"\n        Look for an app config containing a given object.\n\n        object_name is the dotted Python path to the object.\n\n        Return the app config for the inner application in case of nesting.\n        Return None if the object isn't in any registered app config.\n        \"\"\"",
                     "name": "get_containing_app_config",
                     "namespace": "django.apps.registry.Apps.get_containing_app_config",
-                    "class_name": "",
+                    "class_name": "django.apps.registry.Apps",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -99,7 +99,7 @@
                     "docstring": "\"\"\"\n        Similar to get_model(), but doesn't require that an app exists with\n        the given app_label.\n\n        It's safe to call this method at import time, even while the registry\n        is being populated.\n        \"\"\"",
                     "name": "get_registered_model",
                     "namespace": "django.apps.registry.Apps.get_registered_model",
-                    "class_name": "",
+                    "class_name": "django.apps.registry.Apps",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -107,7 +107,7 @@
                     "docstring": "\"\"\"\n        For a given model string (e.g. \"auth.User\"), return the name of the\n        corresponding settings name if it refers to a swappable model. If the\n        referred model is not swappable, return None.\n\n        This method is decorated with lru_cache because it's performance\n        critical when it comes to migrations. Since the swappable settings don't\n        change after Django has loaded the settings, there is no reason to get\n        the respective settings attribute over and over again.\n        \"\"\"",
                     "name": "get_swappable_settings_name",
                     "namespace": "django.apps.registry.Apps.get_swappable_settings_name",
-                    "class_name": "",
+                    "class_name": "django.apps.registry.Apps",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -115,7 +115,7 @@
                     "docstring": "\"\"\"\n        Restrict the set of installed apps used by get_app_config[s].\n\n        available must be an iterable of application names.\n\n        set_available_apps() must be balanced with unset_available_apps().\n\n        Primarily used for performance optimization in TransactionTestCase.\n\n        This method is safe in the sense that it doesn't trigger any imports.\n        \"\"\"",
                     "name": "set_available_apps",
                     "namespace": "django.apps.registry.Apps.set_available_apps",
-                    "class_name": "",
+                    "class_name": "django.apps.registry.Apps",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -123,7 +123,7 @@
                     "docstring": "\"\"\"Cancel a previous call to set_available_apps().\"\"\"",
                     "name": "unset_available_apps",
                     "namespace": "django.apps.registry.Apps.unset_available_apps",
-                    "class_name": "",
+                    "class_name": "django.apps.registry.Apps",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -131,7 +131,7 @@
                     "docstring": "\"\"\"\n        Enable a different set of installed apps for get_app_config[s].\n\n        installed must be an iterable in the same format as INSTALLED_APPS.\n\n        set_installed_apps() must be balanced with unset_installed_apps(),\n        even if it exits with an exception.\n\n        Primarily used as a receiver of the setting_changed signal in tests.\n\n        This method may trigger new imports, which may add new models to the\n        registry of all imported models. They will stay in the registry even\n        after unset_installed_apps(). Since it isn't possible to replay\n        imports safely (e.g. that could lead to registering listeners twice),\n        models are registered when they're imported and never removed.\n        \"\"\"",
                     "name": "set_installed_apps",
                     "namespace": "django.apps.registry.Apps.set_installed_apps",
-                    "class_name": "",
+                    "class_name": "django.apps.registry.Apps",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -139,7 +139,7 @@
                     "docstring": "\"\"\"Cancel a previous call to set_installed_apps().\"\"\"",
                     "name": "unset_installed_apps",
                     "namespace": "django.apps.registry.Apps.unset_installed_apps",
-                    "class_name": "",
+                    "class_name": "django.apps.registry.Apps",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -147,7 +147,7 @@
                     "docstring": "\"\"\"\n        Clear all internal caches, for methods that alter the app registry.\n\n        This is mostly used in tests.\n        \"\"\"",
                     "name": "clear_cache",
                     "namespace": "django.apps.registry.Apps.clear_cache",
-                    "class_name": "",
+                    "class_name": "django.apps.registry.Apps",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -155,7 +155,7 @@
                     "docstring": "\"\"\"\n        Take a function and a number of (\"app_label\", \"modelname\") tuples, and\n        when all the corresponding models have been imported and registered,\n        call the function with the model classes as its arguments.\n\n        The function passed to this method must accept exactly n models as\n        arguments, where n=len(model_keys).\n        \"\"\"",
                     "name": "lazy_model_operation",
                     "namespace": "django.apps.registry.Apps.lazy_model_operation",
-                    "class_name": "",
+                    "class_name": "django.apps.registry.Apps",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -163,7 +163,7 @@
                     "docstring": "\"\"\"\n        Take a newly-prepared model and pass it to each function waiting for\n        it. This is called at the very end of Apps.register_model().\n        \"\"\"",
                     "name": "do_pending_operations",
                     "namespace": "django.apps.registry.Apps.do_pending_operations",
-                    "class_name": "",
+                    "class_name": "django.apps.registry.Apps",
                     "module_name": "",
                     "package_name": ""
                 }

@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return a dictionary of variables to put in the template context for\n        *every* page in the admin site.\n\n        For sites running on a subpath, use the SCRIPT_NAME value if site_url\n        hasn't been customized.\n        \"\"\"",
     "name": "each_context",
     "namespace": "django.contrib.admin.sites.AdminSite.each_context",
-    "class_name": "",
+    "class_name": "django.contrib.admin.sites.AdminSite",
     "module_name": "",
     "package_name": ""
 }

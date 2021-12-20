@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Create a new instance of this class when new Nodes (or subclasses) are\n        needed in the internal code in this class. Normally, it just shadows\n        __init__(). However, subclasses with an __init__ signature that aren't\n        an extension of Node.__init__ might need to implement this method to\n        allow a Node to create a new instance of them (if they have any extra\n        setting up to do).\n        \"\"\"",
     "name": "_new_instance",
     "namespace": "django.utils.tree.Node._new_instance",
-    "class_name": "",
+    "class_name": "django.utils.tree.Node",
     "module_name": "",
     "package_name": ""
 }

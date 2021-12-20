@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return a list of fields associated to the model. By default, include\n        forward and reverse fields, fields derived from inheritance, but not\n        hidden fields. The returned fields can be changed using the parameters:\n\n        - include_parents: include fields derived from inheritance\n        - include_hidden:  include fields that have a related_name that\n                           starts with a \"+\"\n        \"\"\"",
     "name": "get_fields",
     "namespace": "django.db.models.options.Options.get_fields",
-    "class_name": "",
+    "class_name": "django.db.models.options.Options",
     "module_name": "",
     "package_name": ""
 }

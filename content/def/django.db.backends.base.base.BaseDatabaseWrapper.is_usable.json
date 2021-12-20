@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Test if the database connection is usable.\n\n        This method may assume that self.connection is not None.\n\n        Actual implementations should take care not to raise exceptions\n        as that may prevent Django from recycling unusable connections.\n        \"\"\"",
     "name": "is_usable",
     "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.is_usable",
-    "class_name": "",
+    "class_name": "django.db.backends.base.base.BaseDatabaseWrapper",
     "module_name": "",
     "package_name": ""
 }

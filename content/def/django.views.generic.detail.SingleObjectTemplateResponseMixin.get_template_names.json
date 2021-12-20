@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return a list of template names to be used for the request. May not be\n        called if render_to_response() is overridden. Return the following list:\n\n        * the value of ``template_name`` on the view (if provided)\n        * the contents of the ``template_name_field`` field on the\n          object instance that the view is operating upon (if available)\n        * ``<app_label>/<model_name><template_name_suffix>.html``\n        \"\"\"",
     "name": "get_template_names",
     "namespace": "django.views.generic.detail.SingleObjectTemplateResponseMixin.get_template_names",
-    "class_name": "",
+    "class_name": "django.views.generic.detail.SingleObjectTemplateResponseMixin",
     "module_name": "",
     "package_name": ""
 }

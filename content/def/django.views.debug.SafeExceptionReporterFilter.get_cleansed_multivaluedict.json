@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Replace the keys in a MultiValueDict marked as sensitive with stars.\n        This mitigates leaking sensitive POST parameters if something like\n        request.POST['nonexistent_key'] throws an exception (#21098).\n        \"\"\"",
     "name": "get_cleansed_multivaluedict",
     "namespace": "django.views.debug.SafeExceptionReporterFilter.get_cleansed_multivaluedict",
-    "class_name": "",
+    "class_name": "django.views.debug.SafeExceptionReporterFilter",
     "module_name": "",
     "package_name": ""
 }

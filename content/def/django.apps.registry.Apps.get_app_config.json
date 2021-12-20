@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Import applications and returns an app config for the given label.\n\n        Raise LookupError if no application exists with this label.\n        \"\"\"",
     "name": "get_app_config",
     "namespace": "django.apps.registry.Apps.get_app_config",
-    "class_name": "",
+    "class_name": "django.apps.registry.Apps",
     "module_name": "",
     "package_name": ""
 }

@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Set the related instance through the forward relation.\n\n        With the example above, when setting ``child.parent = parent``:\n\n        - ``self`` is the descriptor managing the ``parent`` attribute\n        - ``instance`` is the ``child`` instance\n        - ``value`` is the ``parent`` instance on the right of the equal sign\n        \"\"\"",
     "name": "__set__",
     "namespace": "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor.__set__",
-    "class_name": "",
+    "class_name": "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor",
     "module_name": "",
     "package_name": ""
 }

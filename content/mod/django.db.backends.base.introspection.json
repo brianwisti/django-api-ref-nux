@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.db.backends.base.introspection.BaseDatabaseIntrospection.__init__",
-                    "class_name": "",
+                    "class_name": "django.db.backends.base.introspection.BaseDatabaseIntrospection",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "\"\"\"\n        Hook for a database backend to use the cursor description to\n        match a Django field type to a database column.\n\n        For Oracle, the column data_type on its own is insufficient to\n        distinguish between a FloatField and IntegerField, for example.\n        \"\"\"",
                     "name": "get_field_type",
                     "namespace": "django.db.backends.base.introspection.BaseDatabaseIntrospection.get_field_type",
-                    "class_name": "",
+                    "class_name": "django.db.backends.base.introspection.BaseDatabaseIntrospection",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -27,7 +27,7 @@
                     "docstring": "\"\"\"\n        Apply a conversion to the identifier for the purposes of comparison.\n\n        The default identifier converter is for case sensitive comparison.\n        \"\"\"",
                     "name": "identifier_converter",
                     "namespace": "django.db.backends.base.introspection.BaseDatabaseIntrospection.identifier_converter",
-                    "class_name": "",
+                    "class_name": "django.db.backends.base.introspection.BaseDatabaseIntrospection",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -35,7 +35,7 @@
                     "docstring": "\"\"\"\n        Return a list of names of all tables that exist in the database.\n        Sort the returned table list by Python's default sorting. Do NOT use\n        the database's ORDER BY here to avoid subtle differences in sorting\n        order between databases.\n        \"\"\"",
                     "name": "table_names",
                     "namespace": "django.db.backends.base.introspection.BaseDatabaseIntrospection.table_names",
-                    "class_name": "",
+                    "class_name": "django.db.backends.base.introspection.BaseDatabaseIntrospection",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -43,7 +43,7 @@
                     "docstring": "\"\"\"\n        Return an unsorted list of TableInfo named tuples of all tables and\n        views that exist in the database.\n        \"\"\"",
                     "name": "get_table_list",
                     "namespace": "django.db.backends.base.introspection.BaseDatabaseIntrospection.get_table_list",
-                    "class_name": "",
+                    "class_name": "django.db.backends.base.introspection.BaseDatabaseIntrospection",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -51,7 +51,7 @@
                     "docstring": "\"\"\"\n        Return a description of the table with the DB-API cursor.description\n        interface.\n        \"\"\"",
                     "name": "get_table_description",
                     "namespace": "django.db.backends.base.introspection.BaseDatabaseIntrospection.get_table_description",
-                    "class_name": "",
+                    "class_name": "django.db.backends.base.introspection.BaseDatabaseIntrospection",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -59,7 +59,7 @@
                     "docstring": "",
                     "name": "get_migratable_models",
                     "namespace": "django.db.backends.base.introspection.BaseDatabaseIntrospection.get_migratable_models",
-                    "class_name": "",
+                    "class_name": "django.db.backends.base.introspection.BaseDatabaseIntrospection",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -67,7 +67,7 @@
                     "docstring": "\"\"\"\n        Return a list of all table names that have associated Django models and\n        are in INSTALLED_APPS.\n\n        If only_existing is True, include only the tables in the database.\n        \"\"\"",
                     "name": "django_table_names",
                     "namespace": "django.db.backends.base.introspection.BaseDatabaseIntrospection.django_table_names",
-                    "class_name": "",
+                    "class_name": "django.db.backends.base.introspection.BaseDatabaseIntrospection",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -75,7 +75,7 @@
                     "docstring": "\"\"\"\n        Return a set of all models represented by the provided list of table\n        names.\n        \"\"\"",
                     "name": "installed_models",
                     "namespace": "django.db.backends.base.introspection.BaseDatabaseIntrospection.installed_models",
-                    "class_name": "",
+                    "class_name": "django.db.backends.base.introspection.BaseDatabaseIntrospection",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -83,7 +83,7 @@
                     "docstring": "\"\"\"\n        Return a list of information about all DB sequences for all models in\n        all apps.\n        \"\"\"",
                     "name": "sequence_list",
                     "namespace": "django.db.backends.base.introspection.BaseDatabaseIntrospection.sequence_list",
-                    "class_name": "",
+                    "class_name": "django.db.backends.base.introspection.BaseDatabaseIntrospection",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -91,7 +91,7 @@
                     "docstring": "\"\"\"\n        Return a list of introspected sequences for table_name. Each sequence\n        is a dict: {'table': <table_name>, 'column': <column_name>}. An optional\n        'name' key can be added if the backend supports named sequences.\n        \"\"\"",
                     "name": "get_sequences",
                     "namespace": "django.db.backends.base.introspection.BaseDatabaseIntrospection.get_sequences",
-                    "class_name": "",
+                    "class_name": "django.db.backends.base.introspection.BaseDatabaseIntrospection",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -99,7 +99,7 @@
                     "docstring": "\"\"\"\n        Return a dictionary of\n        {field_name: (field_name_other_table, other_table)} representing all\n        relationships to the given table.\n        \"\"\"",
                     "name": "get_relations",
                     "namespace": "django.db.backends.base.introspection.BaseDatabaseIntrospection.get_relations",
-                    "class_name": "",
+                    "class_name": "django.db.backends.base.introspection.BaseDatabaseIntrospection",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -107,7 +107,7 @@
                     "docstring": "\"\"\"\n        Backends can override this to return a list of:\n            (column_name, referenced_table_name, referenced_column_name)\n        for all key columns in given table.\n        \"\"\"",
                     "name": "get_key_columns",
                     "namespace": "django.db.backends.base.introspection.BaseDatabaseIntrospection.get_key_columns",
-                    "class_name": "",
+                    "class_name": "django.db.backends.base.introspection.BaseDatabaseIntrospection",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -115,7 +115,7 @@
                     "docstring": "\"\"\"\n        Return the name of the primary key column for the given table.\n        \"\"\"",
                     "name": "get_primary_key_column",
                     "namespace": "django.db.backends.base.introspection.BaseDatabaseIntrospection.get_primary_key_column",
-                    "class_name": "",
+                    "class_name": "django.db.backends.base.introspection.BaseDatabaseIntrospection",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -123,7 +123,7 @@
                     "docstring": "\"\"\"\n        Retrieve any constraints or keys (unique, pk, fk, check, index)\n        across one or more columns.\n\n        Return a dict mapping constraint names to their attributes,\n        where attributes is a dict with keys:\n         * columns: List of columns this covers\n         * primary_key: True if primary key, False otherwise\n         * unique: True if this is a unique constraint, False otherwise\n         * foreign_key: (table, column) of target, or None\n         * check: True if check constraint, False otherwise\n         * index: True if index, False otherwise.\n         * orders: The order (ASC/DESC) defined for the columns of indexes\n         * type: The type of the index (btree, hash, etc.)\n\n        Some backends may return special constraint names that don't exist\n        if they don't name constraints of a certain type (e.g. SQLite)\n        \"\"\"",
                     "name": "get_constraints",
                     "namespace": "django.db.backends.base.introspection.BaseDatabaseIntrospection.get_constraints",
-                    "class_name": "",
+                    "class_name": "django.db.backends.base.introspection.BaseDatabaseIntrospection",
                     "module_name": "",
                     "package_name": ""
                 }

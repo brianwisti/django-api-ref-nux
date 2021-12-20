@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Take changes from arrange_for_graph() and set of app labels, and return\n        a modified set of changes which trims out as many migrations that are\n        not in app_labels as possible. Note that some other migrations may\n        still be present as they may be required dependencies.\n        \"\"\"",
     "name": "_trim_to_apps",
     "namespace": "django.db.migrations.autodetector.MigrationAutodetector._trim_to_apps",
-    "class_name": "",
+    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
     "module_name": "",
     "package_name": ""
 }

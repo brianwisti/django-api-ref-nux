@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "get_connection_params",
                     "namespace": "django.db.backends.sqlite3.base.DatabaseWrapper.get_connection_params",
-                    "class_name": "",
+                    "class_name": "django.db.backends.sqlite3.base.DatabaseWrapper",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "",
                     "name": "get_new_connection",
                     "namespace": "django.db.backends.sqlite3.base.DatabaseWrapper.get_new_connection",
-                    "class_name": "",
+                    "class_name": "django.db.backends.sqlite3.base.DatabaseWrapper",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -27,7 +27,7 @@
                     "docstring": "",
                     "name": "init_connection_state",
                     "namespace": "django.db.backends.sqlite3.base.DatabaseWrapper.init_connection_state",
-                    "class_name": "",
+                    "class_name": "django.db.backends.sqlite3.base.DatabaseWrapper",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -35,7 +35,7 @@
                     "docstring": "",
                     "name": "create_cursor",
                     "namespace": "django.db.backends.sqlite3.base.DatabaseWrapper.create_cursor",
-                    "class_name": "",
+                    "class_name": "django.db.backends.sqlite3.base.DatabaseWrapper",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -43,7 +43,7 @@
                     "docstring": "",
                     "name": "close",
                     "namespace": "django.db.backends.sqlite3.base.DatabaseWrapper.close",
-                    "class_name": "",
+                    "class_name": "django.db.backends.sqlite3.base.DatabaseWrapper",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -51,7 +51,7 @@
                     "docstring": "",
                     "name": "_savepoint_allowed",
                     "namespace": "django.db.backends.sqlite3.base.DatabaseWrapper._savepoint_allowed",
-                    "class_name": "",
+                    "class_name": "django.db.backends.sqlite3.base.DatabaseWrapper",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -59,7 +59,7 @@
                     "docstring": "",
                     "name": "_set_autocommit",
                     "namespace": "django.db.backends.sqlite3.base.DatabaseWrapper._set_autocommit",
-                    "class_name": "",
+                    "class_name": "django.db.backends.sqlite3.base.DatabaseWrapper",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -67,7 +67,7 @@
                     "docstring": "",
                     "name": "disable_constraint_checking",
                     "namespace": "django.db.backends.sqlite3.base.DatabaseWrapper.disable_constraint_checking",
-                    "class_name": "",
+                    "class_name": "django.db.backends.sqlite3.base.DatabaseWrapper",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -75,7 +75,7 @@
                     "docstring": "",
                     "name": "enable_constraint_checking",
                     "namespace": "django.db.backends.sqlite3.base.DatabaseWrapper.enable_constraint_checking",
-                    "class_name": "",
+                    "class_name": "django.db.backends.sqlite3.base.DatabaseWrapper",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -83,7 +83,7 @@
                     "docstring": "\"\"\"\n        Check each table name in `table_names` for rows with invalid foreign\n        key references. This method is intended to be used in conjunction with\n        `disable_constraint_checking()` and `enable_constraint_checking()`, to\n        determine if rows with invalid references were entered while constraint\n        checks were off.\n        \"\"\"",
                     "name": "check_constraints",
                     "namespace": "django.db.backends.sqlite3.base.DatabaseWrapper.check_constraints",
-                    "class_name": "",
+                    "class_name": "django.db.backends.sqlite3.base.DatabaseWrapper",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -91,7 +91,7 @@
                     "docstring": "",
                     "name": "is_usable",
                     "namespace": "django.db.backends.sqlite3.base.DatabaseWrapper.is_usable",
-                    "class_name": "",
+                    "class_name": "django.db.backends.sqlite3.base.DatabaseWrapper",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -99,7 +99,7 @@
                     "docstring": "\"\"\"\n        Start a transaction explicitly in autocommit mode.\n\n        Staying in autocommit mode works around a bug of sqlite3 that breaks\n        savepoints when autocommit is disabled.\n        \"\"\"",
                     "name": "_start_transaction_under_autocommit",
                     "namespace": "django.db.backends.sqlite3.base.DatabaseWrapper._start_transaction_under_autocommit",
-                    "class_name": "",
+                    "class_name": "django.db.backends.sqlite3.base.DatabaseWrapper",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -107,7 +107,7 @@
                     "docstring": "",
                     "name": "is_in_memory_db",
                     "namespace": "django.db.backends.sqlite3.base.DatabaseWrapper.is_in_memory_db",
-                    "class_name": "",
+                    "class_name": "django.db.backends.sqlite3.base.DatabaseWrapper",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -122,7 +122,7 @@
                     "docstring": "",
                     "name": "execute",
                     "namespace": "django.db.backends.sqlite3.base.SQLiteCursorWrapper.execute",
-                    "class_name": "",
+                    "class_name": "django.db.backends.sqlite3.base.SQLiteCursorWrapper",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -130,7 +130,7 @@
                     "docstring": "",
                     "name": "executemany",
                     "namespace": "django.db.backends.sqlite3.base.SQLiteCursorWrapper.executemany",
-                    "class_name": "",
+                    "class_name": "django.db.backends.sqlite3.base.SQLiteCursorWrapper",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -138,7 +138,7 @@
                     "docstring": "",
                     "name": "convert_query",
                     "namespace": "django.db.backends.sqlite3.base.SQLiteCursorWrapper.convert_query",
-                    "class_name": "",
+                    "class_name": "django.db.backends.sqlite3.base.SQLiteCursorWrapper",
                     "module_name": "",
                     "package_name": ""
                 }

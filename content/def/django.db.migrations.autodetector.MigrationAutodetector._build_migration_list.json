@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Chop the lists of operations up into migrations with dependencies on\n        each other. Do this by going through an app's list of operations until\n        one is found that has an outgoing dependency that isn't in another\n        app's migration yet (hasn't been chopped off its list). Then chop off\n        the operations before it into a migration and move onto the next app.\n        If the loops completes without doing anything, there's a circular\n        dependency (which _should_ be impossible as the operations are\n        all split at this point so they can't depend and be depended on).\n        \"\"\"",
     "name": "_build_migration_list",
     "namespace": "django.db.migrations.autodetector.MigrationAutodetector._build_migration_list",
-    "class_name": "",
+    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
     "module_name": "",
     "package_name": ""
 }

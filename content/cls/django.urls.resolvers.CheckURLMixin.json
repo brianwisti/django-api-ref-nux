@@ -9,7 +9,7 @@
             "docstring": "\"\"\"\n        Format the URL pattern for display in warning messages.\n        \"\"\"",
             "name": "describe",
             "namespace": "django.urls.resolvers.CheckURLMixin.describe",
-            "class_name": "",
+            "class_name": "django.urls.resolvers.CheckURLMixin",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "\"\"\"\n        Check that the pattern does not begin with a forward slash.\n        \"\"\"",
             "name": "_check_pattern_startswith_slash",
             "namespace": "django.urls.resolvers.CheckURLMixin._check_pattern_startswith_slash",
-            "class_name": "",
+            "class_name": "django.urls.resolvers.CheckURLMixin",
             "module_name": "",
             "package_name": ""
         }

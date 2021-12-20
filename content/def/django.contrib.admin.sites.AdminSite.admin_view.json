@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Decorator to create an admin view attached to this ``AdminSite``. This\n        wraps the view and provides permission checking by calling\n        ``self.has_permission``.\n\n        You'll want to use this from within ``AdminSite.get_urls()``:\n\n            class MyAdminSite(AdminSite):\n\n                def get_urls(self):\n                    from django.urls import path\n\n                    urls = super().get_urls()\n                    urls += [\n                        path('my_view/', self.admin_view(some_view))\n                    ]\n                    return urls\n\n        By default, admin_views are marked non-cacheable using the\n        ``never_cache`` decorator. If the view can be safely cached, set\n        cacheable=True.\n        \"\"\"",
     "name": "admin_view",
     "namespace": "django.contrib.admin.sites.AdminSite.admin_view",
-    "class_name": "",
+    "class_name": "django.contrib.admin.sites.AdminSite",
     "module_name": "",
     "package_name": ""
 }

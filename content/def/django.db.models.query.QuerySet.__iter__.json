@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        The queryset iterator protocol uses three nested iterators in the\n        default case:\n            1. sql.compiler.execute_sql()\n               - Returns 100 rows at time (constants.GET_ITERATOR_CHUNK_SIZE)\n                 using cursor.fetchmany(). This part is responsible for\n                 doing some column masking, and returning the rows in chunks.\n            2. sql.compiler.results_iter()\n               - Returns one row at time. At this point the rows are still just\n                 tuples. In some cases the return values are converted to\n                 Python values at this location.\n            3. self.iterator()\n               - Responsible for turning the rows into model objects.\n        \"\"\"",
     "name": "__iter__",
     "namespace": "django.db.models.query.QuerySet.__iter__",
-    "class_name": "",
+    "class_name": "django.db.models.query.QuerySet",
     "module_name": "",
     "package_name": ""
 }

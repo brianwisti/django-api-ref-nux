@@ -9,7 +9,7 @@
             "docstring": "",
             "name": "__init__",
             "namespace": "django.db.migrations.graph.MigrationGraph.__init__",
-            "class_name": "",
+            "class_name": "django.db.migrations.graph.MigrationGraph",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "",
             "name": "add_node",
             "namespace": "django.db.migrations.graph.MigrationGraph.add_node",
-            "class_name": "",
+            "class_name": "django.db.migrations.graph.MigrationGraph",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "",
             "name": "add_dummy_node",
             "namespace": "django.db.migrations.graph.MigrationGraph.add_dummy_node",
-            "class_name": "",
+            "class_name": "django.db.migrations.graph.MigrationGraph",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "\"\"\"\n        This may create dummy nodes if they don't yet exist. If\n        `skip_validation=True`, validate_consistency() should be called\n        afterward.\n        \"\"\"",
             "name": "add_dependency",
             "namespace": "django.db.migrations.graph.MigrationGraph.add_dependency",
-            "class_name": "",
+            "class_name": "django.db.migrations.graph.MigrationGraph",
             "module_name": "",
             "package_name": ""
         },
@@ -41,7 +41,7 @@
             "docstring": "\"\"\"\n        Remove each of the `replaced` nodes (when they exist). Any\n        dependencies that were referencing them are changed to reference the\n        `replacement` node instead.\n        \"\"\"",
             "name": "remove_replaced_nodes",
             "namespace": "django.db.migrations.graph.MigrationGraph.remove_replaced_nodes",
-            "class_name": "",
+            "class_name": "django.db.migrations.graph.MigrationGraph",
             "module_name": "",
             "package_name": ""
         },
@@ -49,7 +49,7 @@
             "docstring": "\"\"\"\n        The inverse operation to `remove_replaced_nodes`. Almost. Remove the\n        replacement node `replacement` and remap its child nodes to `replaced`\n        - the list of nodes it would have replaced. Don't remap its parent\n        nodes as they are expected to be correct already.\n        \"\"\"",
             "name": "remove_replacement_node",
             "namespace": "django.db.migrations.graph.MigrationGraph.remove_replacement_node",
-            "class_name": "",
+            "class_name": "django.db.migrations.graph.MigrationGraph",
             "module_name": "",
             "package_name": ""
         },
@@ -57,7 +57,7 @@
             "docstring": "\"\"\"Ensure there are no dummy nodes remaining in the graph.\"\"\"",
             "name": "validate_consistency",
             "namespace": "django.db.migrations.graph.MigrationGraph.validate_consistency",
-            "class_name": "",
+            "class_name": "django.db.migrations.graph.MigrationGraph",
             "module_name": "",
             "package_name": ""
         },
@@ -65,7 +65,7 @@
             "docstring": "\"\"\"\n        Given a node, return a list of which previous nodes (dependencies) must\n        be applied, ending with the node itself. This is the list you would\n        follow if applying the migrations to a database.\n        \"\"\"",
             "name": "forwards_plan",
             "namespace": "django.db.migrations.graph.MigrationGraph.forwards_plan",
-            "class_name": "",
+            "class_name": "django.db.migrations.graph.MigrationGraph",
             "module_name": "",
             "package_name": ""
         },
@@ -73,7 +73,7 @@
             "docstring": "\"\"\"\n        Given a node, return a list of which dependent nodes (dependencies)\n        must be unapplied, ending with the node itself. This is the list you\n        would follow if removing the migrations from a database.\n        \"\"\"",
             "name": "backwards_plan",
             "namespace": "django.db.migrations.graph.MigrationGraph.backwards_plan",
-            "class_name": "",
+            "class_name": "django.db.migrations.graph.MigrationGraph",
             "module_name": "",
             "package_name": ""
         },
@@ -81,7 +81,7 @@
             "docstring": "\"\"\"Iterative depth-first search for finding dependencies.\"\"\"",
             "name": "iterative_dfs",
             "namespace": "django.db.migrations.graph.MigrationGraph.iterative_dfs",
-            "class_name": "",
+            "class_name": "django.db.migrations.graph.MigrationGraph",
             "module_name": "",
             "package_name": ""
         },
@@ -89,7 +89,7 @@
             "docstring": "\"\"\"\n        Return all root nodes - that is, nodes with no dependencies inside\n        their app. These are the starting point for an app.\n        \"\"\"",
             "name": "root_nodes",
             "namespace": "django.db.migrations.graph.MigrationGraph.root_nodes",
-            "class_name": "",
+            "class_name": "django.db.migrations.graph.MigrationGraph",
             "module_name": "",
             "package_name": ""
         },
@@ -97,7 +97,7 @@
             "docstring": "\"\"\"\n        Return all leaf nodes - that is, nodes with no dependents in their app.\n        These are the \"most current\" version of an app's schema.\n        Having more than one per app is technically an error, but one that\n        gets handled further up, in the interactive command - it's usually the\n        result of a VCS merge and needs some user input.\n        \"\"\"",
             "name": "leaf_nodes",
             "namespace": "django.db.migrations.graph.MigrationGraph.leaf_nodes",
-            "class_name": "",
+            "class_name": "django.db.migrations.graph.MigrationGraph",
             "module_name": "",
             "package_name": ""
         },
@@ -105,7 +105,7 @@
             "docstring": "",
             "name": "ensure_not_cyclic",
             "namespace": "django.db.migrations.graph.MigrationGraph.ensure_not_cyclic",
-            "class_name": "",
+            "class_name": "django.db.migrations.graph.MigrationGraph",
             "module_name": "",
             "package_name": ""
         },
@@ -113,7 +113,7 @@
             "docstring": "",
             "name": "__str__",
             "namespace": "django.db.migrations.graph.MigrationGraph.__str__",
-            "class_name": "",
+            "class_name": "django.db.migrations.graph.MigrationGraph",
             "module_name": "",
             "package_name": ""
         },
@@ -121,7 +121,7 @@
             "docstring": "",
             "name": "__repr__",
             "namespace": "django.db.migrations.graph.MigrationGraph.__repr__",
-            "class_name": "",
+            "class_name": "django.db.migrations.graph.MigrationGraph",
             "module_name": "",
             "package_name": ""
         },
@@ -129,7 +129,7 @@
             "docstring": "",
             "name": "_nodes_and_edges",
             "namespace": "django.db.migrations.graph.MigrationGraph._nodes_and_edges",
-            "class_name": "",
+            "class_name": "django.db.migrations.graph.MigrationGraph",
             "module_name": "",
             "package_name": ""
         },
@@ -137,7 +137,7 @@
             "docstring": "",
             "name": "_generate_plan",
             "namespace": "django.db.migrations.graph.MigrationGraph._generate_plan",
-            "class_name": "",
+            "class_name": "django.db.migrations.graph.MigrationGraph",
             "module_name": "",
             "package_name": ""
         },
@@ -145,7 +145,7 @@
             "docstring": "\"\"\"\n        Given a migration node or nodes, return a complete ProjectState for it.\n        If at_end is False, return the state before the migration has run.\n        If nodes is not provided, return the overall most current project state.\n        \"\"\"",
             "name": "make_state",
             "namespace": "django.db.migrations.graph.MigrationGraph.make_state",
-            "class_name": "",
+            "class_name": "django.db.migrations.graph.MigrationGraph",
             "module_name": "",
             "package_name": ""
         },
@@ -153,7 +153,7 @@
             "docstring": "",
             "name": "__contains__",
             "namespace": "django.db.migrations.graph.MigrationGraph.__contains__",
-            "class_name": "",
+            "class_name": "django.db.migrations.graph.MigrationGraph",
             "module_name": "",
             "package_name": ""
         }

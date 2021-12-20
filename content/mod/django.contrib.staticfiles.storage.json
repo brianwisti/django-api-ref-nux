@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.contrib.staticfiles.storage.StaticFilesStorage.__init__",
-                    "class_name": "",
+                    "class_name": "django.contrib.staticfiles.storage.StaticFilesStorage",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "",
                     "name": "path",
                     "namespace": "django.contrib.staticfiles.storage.StaticFilesStorage.path",
-                    "class_name": "",
+                    "class_name": "django.contrib.staticfiles.storage.StaticFilesStorage",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -34,7 +34,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.contrib.staticfiles.storage.HashedFilesMixin.__init__",
-                    "class_name": "",
+                    "class_name": "django.contrib.staticfiles.storage.HashedFilesMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -42,7 +42,7 @@
                     "docstring": "\"\"\"\n        Return a hash of the file with the given name and optional content.\n        \"\"\"",
                     "name": "file_hash",
                     "namespace": "django.contrib.staticfiles.storage.HashedFilesMixin.file_hash",
-                    "class_name": "",
+                    "class_name": "django.contrib.staticfiles.storage.HashedFilesMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -50,7 +50,7 @@
                     "docstring": "",
                     "name": "hashed_name",
                     "namespace": "django.contrib.staticfiles.storage.HashedFilesMixin.hashed_name",
-                    "class_name": "",
+                    "class_name": "django.contrib.staticfiles.storage.HashedFilesMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -58,7 +58,7 @@
                     "docstring": "\"\"\"\n        Return the non-hashed URL in DEBUG mode.\n        \"\"\"",
                     "name": "_url",
                     "namespace": "django.contrib.staticfiles.storage.HashedFilesMixin._url",
-                    "class_name": "",
+                    "class_name": "django.contrib.staticfiles.storage.HashedFilesMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -66,7 +66,7 @@
                     "docstring": "\"\"\"\n        Return the non-hashed URL in DEBUG mode.\n        \"\"\"",
                     "name": "url",
                     "namespace": "django.contrib.staticfiles.storage.HashedFilesMixin.url",
-                    "class_name": "",
+                    "class_name": "django.contrib.staticfiles.storage.HashedFilesMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -74,7 +74,7 @@
                     "docstring": "\"\"\"\n        Return the custom URL converter for the given file name.\n        \"\"\"",
                     "name": "url_converter",
                     "namespace": "django.contrib.staticfiles.storage.HashedFilesMixin.url_converter",
-                    "class_name": "",
+                    "class_name": "django.contrib.staticfiles.storage.HashedFilesMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -82,7 +82,7 @@
                     "docstring": "\"\"\"\n        Post process the given dictionary of files (called from collectstatic).\n\n        Processing is actually two separate operations:\n\n        1. renaming files to include a hash of their content for cache-busting,\n           and copying those files to the target storage.\n        2. adjusting files which contain references to other files so they\n           refer to the cache-busting filenames.\n\n        If either of these are performed on a file, then that file is considered\n        post-processed.\n        \"\"\"",
                     "name": "post_process",
                     "namespace": "django.contrib.staticfiles.storage.HashedFilesMixin.post_process",
-                    "class_name": "",
+                    "class_name": "django.contrib.staticfiles.storage.HashedFilesMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -90,7 +90,7 @@
                     "docstring": "",
                     "name": "_post_process",
                     "namespace": "django.contrib.staticfiles.storage.HashedFilesMixin._post_process",
-                    "class_name": "",
+                    "class_name": "django.contrib.staticfiles.storage.HashedFilesMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -98,7 +98,7 @@
                     "docstring": "",
                     "name": "clean_name",
                     "namespace": "django.contrib.staticfiles.storage.HashedFilesMixin.clean_name",
-                    "class_name": "",
+                    "class_name": "django.contrib.staticfiles.storage.HashedFilesMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -106,7 +106,7 @@
                     "docstring": "",
                     "name": "hash_key",
                     "namespace": "django.contrib.staticfiles.storage.HashedFilesMixin.hash_key",
-                    "class_name": "",
+                    "class_name": "django.contrib.staticfiles.storage.HashedFilesMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -114,7 +114,7 @@
                     "docstring": "",
                     "name": "_stored_name",
                     "namespace": "django.contrib.staticfiles.storage.HashedFilesMixin._stored_name",
-                    "class_name": "",
+                    "class_name": "django.contrib.staticfiles.storage.HashedFilesMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -122,7 +122,7 @@
                     "docstring": "",
                     "name": "stored_name",
                     "namespace": "django.contrib.staticfiles.storage.HashedFilesMixin.stored_name",
-                    "class_name": "",
+                    "class_name": "django.contrib.staticfiles.storage.HashedFilesMixin",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -137,7 +137,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.contrib.staticfiles.storage.ManifestFilesMixin.__init__",
-                    "class_name": "",
+                    "class_name": "django.contrib.staticfiles.storage.ManifestFilesMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -145,7 +145,7 @@
                     "docstring": "",
                     "name": "read_manifest",
                     "namespace": "django.contrib.staticfiles.storage.ManifestFilesMixin.read_manifest",
-                    "class_name": "",
+                    "class_name": "django.contrib.staticfiles.storage.ManifestFilesMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -153,7 +153,7 @@
                     "docstring": "",
                     "name": "load_manifest",
                     "namespace": "django.contrib.staticfiles.storage.ManifestFilesMixin.load_manifest",
-                    "class_name": "",
+                    "class_name": "django.contrib.staticfiles.storage.ManifestFilesMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -161,7 +161,7 @@
                     "docstring": "",
                     "name": "post_process",
                     "namespace": "django.contrib.staticfiles.storage.ManifestFilesMixin.post_process",
-                    "class_name": "",
+                    "class_name": "django.contrib.staticfiles.storage.ManifestFilesMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -169,7 +169,7 @@
                     "docstring": "",
                     "name": "save_manifest",
                     "namespace": "django.contrib.staticfiles.storage.ManifestFilesMixin.save_manifest",
-                    "class_name": "",
+                    "class_name": "django.contrib.staticfiles.storage.ManifestFilesMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -177,7 +177,7 @@
                     "docstring": "",
                     "name": "stored_name",
                     "namespace": "django.contrib.staticfiles.storage.ManifestFilesMixin.stored_name",
-                    "class_name": "",
+                    "class_name": "django.contrib.staticfiles.storage.ManifestFilesMixin",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -198,7 +198,7 @@
                     "docstring": "",
                     "name": "_setup",
                     "namespace": "django.contrib.staticfiles.storage.ConfiguredStorage._setup",
-                    "class_name": "",
+                    "class_name": "django.contrib.staticfiles.storage.ConfiguredStorage",
                     "module_name": "",
                     "package_name": ""
                 }

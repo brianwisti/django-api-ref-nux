@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return a list of all installed models.\n\n        By default, the following models aren't included:\n\n        - auto-created models for many-to-many relations without\n          an explicit intermediate table,\n        - models that have been swapped out.\n\n        Set the corresponding keyword argument to True to include such models.\n        \"\"\"",
     "name": "get_models",
     "namespace": "django.apps.registry.Apps.get_models",
-    "class_name": "",
+    "class_name": "django.apps.registry.Apps",
     "module_name": "",
     "package_name": ""
 }

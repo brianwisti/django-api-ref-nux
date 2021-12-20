@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Store all unread messages.\n\n        If the backend has yet to be iterated, store previously stored messages\n        again. Otherwise, only store messages added after the last iteration.\n        \"\"\"",
     "name": "update",
     "namespace": "django.contrib.messages.storage.base.BaseStorage.update",
-    "class_name": "",
+    "class_name": "django.contrib.messages.storage.base.BaseStorage",
     "module_name": "",
     "package_name": ""
 }

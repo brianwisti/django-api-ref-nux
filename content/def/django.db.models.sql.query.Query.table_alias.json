@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return a table alias for the given table_name and whether this is a\n        new alias or not.\n\n        If 'create' is true, a new alias is always created. Otherwise, the\n        most recently created alias for the table (if one exists) is reused.\n        \"\"\"",
     "name": "table_alias",
     "namespace": "django.db.models.sql.query.Query.table_alias",
-    "class_name": "",
+    "class_name": "django.db.models.sql.query.Query",
     "module_name": "",
     "package_name": ""
 }

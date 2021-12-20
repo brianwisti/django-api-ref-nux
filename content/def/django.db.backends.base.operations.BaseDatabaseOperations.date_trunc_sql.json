@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Given a lookup_type of 'year', 'month', or 'day', return the SQL that\n        truncates the given date or datetime field field_name to a date object\n        with only the given specificity.\n\n        If `tzname` is provided, the given value is truncated in a specific\n        timezone.\n        \"\"\"",
     "name": "date_trunc_sql",
     "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.date_trunc_sql",
-    "class_name": "",
+    "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
     "module_name": "",
     "package_name": ""
 }

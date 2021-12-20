@@ -9,7 +9,7 @@
             "docstring": "",
             "name": "get_field_type",
             "namespace": "django.contrib.gis.db.backends.postgis.introspection.PostGISIntrospection.get_field_type",
-            "class_name": "",
+            "class_name": "django.contrib.gis.db.backends.postgis.introspection.PostGISIntrospection",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "\"\"\"\n        The geometry type OID used by PostGIS does not indicate the particular\n        type of field that a geometry column is (e.g., whether it's a\n        PointField or a PolygonField).  Thus, this routine queries the PostGIS\n        metadata tables to determine the geometry type.\n        \"\"\"",
             "name": "get_geometry_type",
             "namespace": "django.contrib.gis.db.backends.postgis.introspection.PostGISIntrospection.get_geometry_type",
-            "class_name": "",
+            "class_name": "django.contrib.gis.db.backends.postgis.introspection.PostGISIntrospection",
             "module_name": "",
             "package_name": ""
         }

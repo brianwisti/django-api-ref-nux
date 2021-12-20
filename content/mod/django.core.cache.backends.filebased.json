@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.core.cache.backends.filebased.FileBasedCache.__init__",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.filebased.FileBasedCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "",
                     "name": "add",
                     "namespace": "django.core.cache.backends.filebased.FileBasedCache.add",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.filebased.FileBasedCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -27,7 +27,7 @@
                     "docstring": "",
                     "name": "get",
                     "namespace": "django.core.cache.backends.filebased.FileBasedCache.get",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.filebased.FileBasedCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -35,7 +35,7 @@
                     "docstring": "",
                     "name": "_write_content",
                     "namespace": "django.core.cache.backends.filebased.FileBasedCache._write_content",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.filebased.FileBasedCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -43,7 +43,7 @@
                     "docstring": "",
                     "name": "set",
                     "namespace": "django.core.cache.backends.filebased.FileBasedCache.set",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.filebased.FileBasedCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -51,7 +51,7 @@
                     "docstring": "",
                     "name": "touch",
                     "namespace": "django.core.cache.backends.filebased.FileBasedCache.touch",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.filebased.FileBasedCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -59,7 +59,7 @@
                     "docstring": "",
                     "name": "delete",
                     "namespace": "django.core.cache.backends.filebased.FileBasedCache.delete",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.filebased.FileBasedCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -67,7 +67,7 @@
                     "docstring": "",
                     "name": "_delete",
                     "namespace": "django.core.cache.backends.filebased.FileBasedCache._delete",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.filebased.FileBasedCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -75,7 +75,7 @@
                     "docstring": "",
                     "name": "has_key",
                     "namespace": "django.core.cache.backends.filebased.FileBasedCache.has_key",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.filebased.FileBasedCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -83,7 +83,7 @@
                     "docstring": "\"\"\"\n        Remove random cache entries if max_entries is reached at a ratio\n        of num_entries / cull_frequency. A value of 0 for CULL_FREQUENCY means\n        that the entire cache will be purged.\n        \"\"\"",
                     "name": "_cull",
                     "namespace": "django.core.cache.backends.filebased.FileBasedCache._cull",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.filebased.FileBasedCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -91,7 +91,7 @@
                     "docstring": "",
                     "name": "_createdir",
                     "namespace": "django.core.cache.backends.filebased.FileBasedCache._createdir",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.filebased.FileBasedCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -99,7 +99,7 @@
                     "docstring": "\"\"\"\n        Convert a key into a cache file path. Basically this is the\n        root cache path joined with the md5sum of the key and a suffix.\n        \"\"\"",
                     "name": "_key_to_file",
                     "namespace": "django.core.cache.backends.filebased.FileBasedCache._key_to_file",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.filebased.FileBasedCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -107,7 +107,7 @@
                     "docstring": "\"\"\"\n        Remove all the cache files.\n        \"\"\"",
                     "name": "clear",
                     "namespace": "django.core.cache.backends.filebased.FileBasedCache.clear",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.filebased.FileBasedCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -115,7 +115,7 @@
                     "docstring": "\"\"\"\n        Take an open cache file `f` and delete it if it's expired.\n        \"\"\"",
                     "name": "_is_expired",
                     "namespace": "django.core.cache.backends.filebased.FileBasedCache._is_expired",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.filebased.FileBasedCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -123,7 +123,7 @@
                     "docstring": "\"\"\"\n        Get a list of paths to all the cache files. These are all the files\n        in the root cache dir that end on the cache_suffix.\n        \"\"\"",
                     "name": "_list_cache_files",
                     "namespace": "django.core.cache.backends.filebased.FileBasedCache._list_cache_files",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.filebased.FileBasedCache",
                     "module_name": "",
                     "package_name": ""
                 }

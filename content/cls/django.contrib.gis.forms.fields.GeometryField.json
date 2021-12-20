@@ -9,7 +9,7 @@
             "docstring": "",
             "name": "__init__",
             "namespace": "django.contrib.gis.forms.fields.GeometryField.__init__",
-            "class_name": "",
+            "class_name": "django.contrib.gis.forms.fields.GeometryField",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "\"\"\"Transform the value to a Geometry object.\"\"\"",
             "name": "to_python",
             "namespace": "django.contrib.gis.forms.fields.GeometryField.to_python",
-            "class_name": "",
+            "class_name": "django.contrib.gis.forms.fields.GeometryField",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "\"\"\"\n        Validate that the input value can be converted to a Geometry object\n        and return it. Raise a ValidationError if the value cannot be\n        instantiated as a Geometry.\n        \"\"\"",
             "name": "clean",
             "namespace": "django.contrib.gis.forms.fields.GeometryField.clean",
-            "class_name": "",
+            "class_name": "django.contrib.gis.forms.fields.GeometryField",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "\"\"\" Compare geographic value of data with its initial value. \"\"\"",
             "name": "has_changed",
             "namespace": "django.contrib.gis.forms.fields.GeometryField.has_changed",
-            "class_name": "",
+            "class_name": "django.contrib.gis.forms.fields.GeometryField",
             "module_name": "",
             "package_name": ""
         }

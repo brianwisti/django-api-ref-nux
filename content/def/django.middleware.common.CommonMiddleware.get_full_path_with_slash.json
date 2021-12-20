@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return the full path of the request with a trailing slash appended.\n\n        Raise a RuntimeError if settings.DEBUG is True and request.method is\n        POST, PUT, or PATCH.\n        \"\"\"",
     "name": "get_full_path_with_slash",
     "namespace": "django.middleware.common.CommonMiddleware.get_full_path_with_slash",
-    "class_name": "",
+    "class_name": "django.middleware.common.CommonMiddleware",
     "module_name": "",
     "package_name": ""
 }

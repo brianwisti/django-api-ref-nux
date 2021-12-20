@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "__new__",
                     "namespace": "django.forms.forms.DeclarativeFieldsMetaclass.__new__",
-                    "class_name": "",
+                    "class_name": "django.forms.forms.DeclarativeFieldsMetaclass",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -26,7 +26,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.forms.forms.BaseForm.__init__",
-                    "class_name": "",
+                    "class_name": "django.forms.forms.BaseForm",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -34,7 +34,7 @@
                     "docstring": "\"\"\"\n        Rearrange the fields according to field_order.\n\n        field_order is a list of field names specifying the order. Append fields\n        not included in the list in the default order for backward compatibility\n        with subclasses not overriding field_order. If field_order is None,\n        keep all fields in the order defined in the class. Ignore unknown\n        fields in field_order to allow disabling fields in form subclasses\n        without redefining ordering.\n        \"\"\"",
                     "name": "order_fields",
                     "namespace": "django.forms.forms.BaseForm.order_fields",
-                    "class_name": "",
+                    "class_name": "django.forms.forms.BaseForm",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -42,7 +42,7 @@
                     "docstring": "",
                     "name": "__repr__",
                     "namespace": "django.forms.forms.BaseForm.__repr__",
-                    "class_name": "",
+                    "class_name": "django.forms.forms.BaseForm",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -50,7 +50,7 @@
                     "docstring": "\"\"\"Yield (name, bf) pairs, where bf is a BoundField object.\"\"\"",
                     "name": "_bound_items",
                     "namespace": "django.forms.forms.BaseForm._bound_items",
-                    "class_name": "",
+                    "class_name": "django.forms.forms.BaseForm",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -58,7 +58,7 @@
                     "docstring": "\"\"\"Yield the form's fields as BoundField objects.\"\"\"",
                     "name": "__iter__",
                     "namespace": "django.forms.forms.BaseForm.__iter__",
-                    "class_name": "",
+                    "class_name": "django.forms.forms.BaseForm",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -66,7 +66,7 @@
                     "docstring": "\"\"\"Return a BoundField with the given name.\"\"\"",
                     "name": "__getitem__",
                     "namespace": "django.forms.forms.BaseForm.__getitem__",
-                    "class_name": "",
+                    "class_name": "django.forms.forms.BaseForm",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -74,7 +74,7 @@
                     "docstring": "\"\"\"Return an ErrorDict for the data provided for the form.\"\"\"",
                     "name": "errors",
                     "namespace": "django.forms.forms.BaseForm.errors",
-                    "class_name": "",
+                    "class_name": "django.forms.forms.BaseForm",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -82,7 +82,7 @@
                     "docstring": "\"\"\"Return True if the form has no errors, or False otherwise.\"\"\"",
                     "name": "is_valid",
                     "namespace": "django.forms.forms.BaseForm.is_valid",
-                    "class_name": "",
+                    "class_name": "django.forms.forms.BaseForm",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -90,7 +90,7 @@
                     "docstring": "\"\"\"\n        Return the field name with a prefix appended, if this Form has a\n        prefix set.\n\n        Subclasses may wish to override.\n        \"\"\"",
                     "name": "add_prefix",
                     "namespace": "django.forms.forms.BaseForm.add_prefix",
-                    "class_name": "",
+                    "class_name": "django.forms.forms.BaseForm",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -98,7 +98,7 @@
                     "docstring": "\"\"\"Add an 'initial' prefix for checking dynamic initial values.\"\"\"",
                     "name": "add_initial_prefix",
                     "namespace": "django.forms.forms.BaseForm.add_initial_prefix",
-                    "class_name": "",
+                    "class_name": "django.forms.forms.BaseForm",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -106,7 +106,7 @@
                     "docstring": "",
                     "name": "_widget_data_value",
                     "namespace": "django.forms.forms.BaseForm._widget_data_value",
-                    "class_name": "",
+                    "class_name": "django.forms.forms.BaseForm",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -114,7 +114,7 @@
                     "docstring": "\"Output HTML. Used by as_table(), as_ul(), as_p().\"",
                     "name": "_html_output",
                     "namespace": "django.forms.forms.BaseForm._html_output",
-                    "class_name": "",
+                    "class_name": "django.forms.forms.BaseForm",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -122,7 +122,7 @@
                     "docstring": "",
                     "name": "get_context",
                     "namespace": "django.forms.forms.BaseForm.get_context",
-                    "class_name": "",
+                    "class_name": "django.forms.forms.BaseForm",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -130,7 +130,7 @@
                     "docstring": "\"\"\"\n        Return an ErrorList of errors that aren't associated with a particular\n        field -- i.e., from Form.clean(). Return an empty ErrorList if there\n        are none.\n        \"\"\"",
                     "name": "non_field_errors",
                     "namespace": "django.forms.forms.BaseForm.non_field_errors",
-                    "class_name": "",
+                    "class_name": "django.forms.forms.BaseForm",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -138,7 +138,7 @@
                     "docstring": "\"\"\"\n        Update the content of `self._errors`.\n\n        The `field` argument is the name of the field to which the errors\n        should be added. If it's None, treat the errors as NON_FIELD_ERRORS.\n\n        The `error` argument can be a single error, a list of errors, or a\n        dictionary that maps field names to lists of errors. An \"error\" can be\n        either a simple string or an instance of ValidationError with its\n        message attribute set and a \"list or dictionary\" can be an actual\n        `list` or `dict` or an instance of ValidationError with its\n        `error_list` or `error_dict` attribute set.\n\n        If `error` is a dictionary, the `field` argument *must* be None and\n        errors will be added to the fields that correspond to the keys of the\n        dictionary.\n        \"\"\"",
                     "name": "add_error",
                     "namespace": "django.forms.forms.BaseForm.add_error",
-                    "class_name": "",
+                    "class_name": "django.forms.forms.BaseForm",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -146,7 +146,7 @@
                     "docstring": "",
                     "name": "has_error",
                     "namespace": "django.forms.forms.BaseForm.has_error",
-                    "class_name": "",
+                    "class_name": "django.forms.forms.BaseForm",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -154,7 +154,7 @@
                     "docstring": "\"\"\"\n        Clean all of self.data and populate self._errors and self.cleaned_data.\n        \"\"\"",
                     "name": "full_clean",
                     "namespace": "django.forms.forms.BaseForm.full_clean",
-                    "class_name": "",
+                    "class_name": "django.forms.forms.BaseForm",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -162,7 +162,7 @@
                     "docstring": "",
                     "name": "_clean_fields",
                     "namespace": "django.forms.forms.BaseForm._clean_fields",
-                    "class_name": "",
+                    "class_name": "django.forms.forms.BaseForm",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -170,7 +170,7 @@
                     "docstring": "",
                     "name": "_clean_form",
                     "namespace": "django.forms.forms.BaseForm._clean_form",
-                    "class_name": "",
+                    "class_name": "django.forms.forms.BaseForm",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -178,7 +178,7 @@
                     "docstring": "\"\"\"\n        An internal hook for performing additional cleaning after form cleaning\n        is complete. Used for model validation in model forms.\n        \"\"\"",
                     "name": "_post_clean",
                     "namespace": "django.forms.forms.BaseForm._post_clean",
-                    "class_name": "",
+                    "class_name": "django.forms.forms.BaseForm",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -186,7 +186,7 @@
                     "docstring": "\"\"\"\n        Hook for doing any extra form-wide cleaning after Field.clean() has been\n        called on every field. Any ValidationError raised by this method will\n        not be associated with a particular field; it will have a special-case\n        association with the field named '__all__'.\n        \"\"\"",
                     "name": "clean",
                     "namespace": "django.forms.forms.BaseForm.clean",
-                    "class_name": "",
+                    "class_name": "django.forms.forms.BaseForm",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -194,7 +194,7 @@
                     "docstring": "\"\"\"Return True if data differs from initial.\"\"\"",
                     "name": "has_changed",
                     "namespace": "django.forms.forms.BaseForm.has_changed",
-                    "class_name": "",
+                    "class_name": "django.forms.forms.BaseForm",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -202,7 +202,7 @@
                     "docstring": "",
                     "name": "changed_data",
                     "namespace": "django.forms.forms.BaseForm.changed_data",
-                    "class_name": "",
+                    "class_name": "django.forms.forms.BaseForm",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -210,7 +210,7 @@
                     "docstring": "\"\"\"Return all media required to render the widgets on this form.\"\"\"",
                     "name": "media",
                     "namespace": "django.forms.forms.BaseForm.media",
-                    "class_name": "",
+                    "class_name": "django.forms.forms.BaseForm",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -218,7 +218,7 @@
                     "docstring": "\"\"\"\n        Return True if the form needs to be multipart-encoded, i.e. it has\n        FileInput, or False otherwise.\n        \"\"\"",
                     "name": "is_multipart",
                     "namespace": "django.forms.forms.BaseForm.is_multipart",
-                    "class_name": "",
+                    "class_name": "django.forms.forms.BaseForm",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -226,7 +226,7 @@
                     "docstring": "\"\"\"\n        Return a list of all the BoundField objects that are hidden fields.\n        Useful for manual form layout in templates.\n        \"\"\"",
                     "name": "hidden_fields",
                     "namespace": "django.forms.forms.BaseForm.hidden_fields",
-                    "class_name": "",
+                    "class_name": "django.forms.forms.BaseForm",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -234,7 +234,7 @@
                     "docstring": "\"\"\"\n        Return a list of BoundField objects that aren't hidden fields.\n        The opposite of the hidden_fields() method.\n        \"\"\"",
                     "name": "visible_fields",
                     "namespace": "django.forms.forms.BaseForm.visible_fields",
-                    "class_name": "",
+                    "class_name": "django.forms.forms.BaseForm",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -242,7 +242,7 @@
                     "docstring": "\"\"\"\n        Return initial data for field on form. Use initial data from the form\n        or the field, in that order. Evaluate callable values.\n        \"\"\"",
                     "name": "get_initial_for_field",
                     "namespace": "django.forms.forms.BaseForm.get_initial_for_field",
-                    "class_name": "",
+                    "class_name": "django.forms.forms.BaseForm",
                     "module_name": "",
                     "package_name": ""
                 }

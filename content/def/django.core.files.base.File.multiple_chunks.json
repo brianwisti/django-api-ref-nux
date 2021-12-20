@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return ``True`` if you can expect multiple chunks.\n\n        NB: If a particular file representation is in memory, subclasses should\n        always return ``False`` -- there's no good reason to read from memory in\n        chunks.\n        \"\"\"",
     "name": "multiple_chunks",
     "namespace": "django.core.files.base.File.multiple_chunks",
-    "class_name": "",
+    "class_name": "django.core.files.base.File",
     "module_name": "",
     "package_name": ""
 }

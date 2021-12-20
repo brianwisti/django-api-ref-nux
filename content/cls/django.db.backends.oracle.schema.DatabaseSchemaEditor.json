@@ -9,7 +9,7 @@
             "docstring": "",
             "name": "quote_value",
             "namespace": "django.db.backends.oracle.schema.DatabaseSchemaEditor.quote_value",
-            "class_name": "",
+            "class_name": "django.db.backends.oracle.schema.DatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "",
             "name": "remove_field",
             "namespace": "django.db.backends.oracle.schema.DatabaseSchemaEditor.remove_field",
-            "class_name": "",
+            "class_name": "django.db.backends.oracle.schema.DatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "",
             "name": "delete_model",
             "namespace": "django.db.backends.oracle.schema.DatabaseSchemaEditor.delete_model",
-            "class_name": "",
+            "class_name": "django.db.backends.oracle.schema.DatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "",
             "name": "alter_field",
             "namespace": "django.db.backends.oracle.schema.DatabaseSchemaEditor.alter_field",
-            "class_name": "",
+            "class_name": "django.db.backends.oracle.schema.DatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -41,7 +41,7 @@
             "docstring": "\"\"\"\n        Oracle refuses to change from some type to other type.\n        What we need to do instead is:\n        - Add a nullable version of the desired field with a temporary name. If\n          the new column is an auto field, then the temporary column can't be\n          nullable.\n        - Update the table to transfer values from old to new\n        - Drop old column\n        - Rename the new column and possibly drop the nullable property\n        \"\"\"",
             "name": "_alter_field_type_workaround",
             "namespace": "django.db.backends.oracle.schema.DatabaseSchemaEditor._alter_field_type_workaround",
-            "class_name": "",
+            "class_name": "django.db.backends.oracle.schema.DatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -49,7 +49,7 @@
             "docstring": "",
             "name": "_alter_column_type_sql",
             "namespace": "django.db.backends.oracle.schema.DatabaseSchemaEditor._alter_column_type_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.oracle.schema.DatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -57,7 +57,7 @@
             "docstring": "\"\"\"\n        Get the properly shortened and uppercased identifier as returned by\n        quote_name() but without the quotes.\n        \"\"\"",
             "name": "normalize_name",
             "namespace": "django.db.backends.oracle.schema.DatabaseSchemaEditor.normalize_name",
-            "class_name": "",
+            "class_name": "django.db.backends.oracle.schema.DatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -65,7 +65,7 @@
             "docstring": "\"\"\"Generate temporary names for workarounds that need temp columns.\"\"\"",
             "name": "_generate_temp_name",
             "namespace": "django.db.backends.oracle.schema.DatabaseSchemaEditor._generate_temp_name",
-            "class_name": "",
+            "class_name": "django.db.backends.oracle.schema.DatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -73,7 +73,7 @@
             "docstring": "",
             "name": "prepare_default",
             "namespace": "django.db.backends.oracle.schema.DatabaseSchemaEditor.prepare_default",
-            "class_name": "",
+            "class_name": "django.db.backends.oracle.schema.DatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -81,7 +81,7 @@
             "docstring": "",
             "name": "_field_should_be_indexed",
             "namespace": "django.db.backends.oracle.schema.DatabaseSchemaEditor._field_should_be_indexed",
-            "class_name": "",
+            "class_name": "django.db.backends.oracle.schema.DatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -89,7 +89,7 @@
             "docstring": "",
             "name": "_unique_should_be_added",
             "namespace": "django.db.backends.oracle.schema.DatabaseSchemaEditor._unique_should_be_added",
-            "class_name": "",
+            "class_name": "django.db.backends.oracle.schema.DatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -97,7 +97,7 @@
             "docstring": "",
             "name": "_is_identity_column",
             "namespace": "django.db.backends.oracle.schema.DatabaseSchemaEditor._is_identity_column",
-            "class_name": "",
+            "class_name": "django.db.backends.oracle.schema.DatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -105,7 +105,7 @@
             "docstring": "",
             "name": "_drop_identity",
             "namespace": "django.db.backends.oracle.schema.DatabaseSchemaEditor._drop_identity",
-            "class_name": "",
+            "class_name": "django.db.backends.oracle.schema.DatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -113,7 +113,7 @@
             "docstring": "",
             "name": "_get_default_collation",
             "namespace": "django.db.backends.oracle.schema.DatabaseSchemaEditor._get_default_collation",
-            "class_name": "",
+            "class_name": "django.db.backends.oracle.schema.DatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -121,7 +121,7 @@
             "docstring": "",
             "name": "_alter_column_collation_sql",
             "namespace": "django.db.backends.oracle.schema.DatabaseSchemaEditor._alter_column_collation_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.oracle.schema.DatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         }

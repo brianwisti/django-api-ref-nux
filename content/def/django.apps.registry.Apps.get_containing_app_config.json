@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Look for an app config containing a given object.\n\n        object_name is the dotted Python path to the object.\n\n        Return the app config for the inner application in case of nesting.\n        Return None if the object isn't in any registered app config.\n        \"\"\"",
     "name": "get_containing_app_config",
     "namespace": "django.apps.registry.Apps.get_containing_app_config",
-    "class_name": "",
+    "class_name": "django.apps.registry.Apps",
     "module_name": "",
     "package_name": ""
 }

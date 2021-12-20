@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Reload field values from the database.\n\n        By default, the reloading happens from the database this instance was\n        loaded from, or by the read router if this instance wasn't loaded from\n        any database. The using parameter will override the default.\n\n        Fields can be used to specify which fields to reload. The fields\n        should be an iterable of field attnames. If fields is None, then\n        all non-deferred fields are reloaded.\n\n        When accessing deferred fields of an instance, the deferred loading\n        of the field will call this method.\n        \"\"\"",
     "name": "refresh_from_db",
     "namespace": "django.db.models.base.Model.refresh_from_db",
-    "class_name": "",
+    "class_name": "django.db.models.base.Model",
     "module_name": "",
     "package_name": ""
 }

@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return the number of tables in this query with a non-zero reference\n        count. After execution, the reference counts are zeroed, so tables\n        added in compiler will not be seen by this method.\n        \"\"\"",
     "name": "count_active_tables",
     "namespace": "django.db.models.sql.query.Query.count_active_tables",
-    "class_name": "",
+    "class_name": "django.db.models.sql.query.Query",
     "module_name": "",
     "package_name": ""
 }

@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "add_arguments",
                     "namespace": "django.core.management.commands.loaddata.Command.add_arguments",
-                    "class_name": "",
+                    "class_name": "django.core.management.commands.loaddata.Command",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "",
                     "name": "handle",
                     "namespace": "django.core.management.commands.loaddata.Command.handle",
-                    "class_name": "",
+                    "class_name": "django.core.management.commands.loaddata.Command",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -27,7 +27,7 @@
                     "docstring": "\"\"\"A dict mapping format names to (open function, mode arg) tuples.\"\"\"",
                     "name": "compression_formats",
                     "namespace": "django.core.management.commands.loaddata.Command.compression_formats",
-                    "class_name": "",
+                    "class_name": "django.core.management.commands.loaddata.Command",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -35,7 +35,7 @@
                     "docstring": "\"\"\"Reset database sequences for the given connection and models.\"\"\"",
                     "name": "reset_sequences",
                     "namespace": "django.core.management.commands.loaddata.Command.reset_sequences",
-                    "class_name": "",
+                    "class_name": "django.core.management.commands.loaddata.Command",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -43,7 +43,7 @@
                     "docstring": "",
                     "name": "loaddata",
                     "namespace": "django.core.management.commands.loaddata.Command.loaddata",
-                    "class_name": "",
+                    "class_name": "django.core.management.commands.loaddata.Command",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -51,7 +51,7 @@
                     "docstring": "\"\"\"Save an object if permitted.\"\"\"",
                     "name": "save_obj",
                     "namespace": "django.core.management.commands.loaddata.Command.save_obj",
-                    "class_name": "",
+                    "class_name": "django.core.management.commands.loaddata.Command",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -59,7 +59,7 @@
                     "docstring": "\"\"\"Load fixtures files for a given label.\"\"\"",
                     "name": "load_label",
                     "namespace": "django.core.management.commands.loaddata.Command.load_label",
-                    "class_name": "",
+                    "class_name": "django.core.management.commands.loaddata.Command",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -67,7 +67,7 @@
                     "docstring": "",
                     "name": "get_fixture_name_and_dirs",
                     "namespace": "django.core.management.commands.loaddata.Command.get_fixture_name_and_dirs",
-                    "class_name": "",
+                    "class_name": "django.core.management.commands.loaddata.Command",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -75,7 +75,7 @@
                     "docstring": "",
                     "name": "get_targets",
                     "namespace": "django.core.management.commands.loaddata.Command.get_targets",
-                    "class_name": "",
+                    "class_name": "django.core.management.commands.loaddata.Command",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -83,7 +83,7 @@
                     "docstring": "",
                     "name": "find_fixture_files_in_dir",
                     "namespace": "django.core.management.commands.loaddata.Command.find_fixture_files_in_dir",
-                    "class_name": "",
+                    "class_name": "django.core.management.commands.loaddata.Command",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -91,7 +91,7 @@
                     "docstring": "\"\"\"Find fixture files for a given label.\"\"\"",
                     "name": "find_fixtures",
                     "namespace": "django.core.management.commands.loaddata.Command.find_fixtures",
-                    "class_name": "",
+                    "class_name": "django.core.management.commands.loaddata.Command",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -99,7 +99,7 @@
                     "docstring": "\"\"\"\n        Return a list of fixture directories.\n\n        The list contains the 'fixtures' subdirectory of each installed\n        application, if it exists, the directories in FIXTURE_DIRS, and the\n        current directory.\n        \"\"\"",
                     "name": "fixture_dirs",
                     "namespace": "django.core.management.commands.loaddata.Command.fixture_dirs",
-                    "class_name": "",
+                    "class_name": "django.core.management.commands.loaddata.Command",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -107,7 +107,7 @@
                     "docstring": "\"\"\"\n        Split fixture name in name, serialization format, compression format.\n        \"\"\"",
                     "name": "parse_name",
                     "namespace": "django.core.management.commands.loaddata.Command.parse_name",
-                    "class_name": "",
+                    "class_name": "django.core.management.commands.loaddata.Command",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -122,7 +122,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.core.management.commands.loaddata.SingleZipReader.__init__",
-                    "class_name": "",
+                    "class_name": "django.core.management.commands.loaddata.SingleZipReader",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -130,7 +130,7 @@
                     "docstring": "",
                     "name": "read",
                     "namespace": "django.core.management.commands.loaddata.SingleZipReader.read",
-                    "class_name": "",
+                    "class_name": "django.core.management.commands.loaddata.SingleZipReader",
                     "module_name": "",
                     "package_name": ""
                 }

@@ -9,7 +9,7 @@
             "docstring": "\"\"\"Create a GNUTranslations() using many locale directories\"\"\"",
             "name": "__init__",
             "namespace": "django.utils.translation.trans_real.DjangoTranslation.__init__",
-            "class_name": "",
+            "class_name": "django.utils.translation.trans_real.DjangoTranslation",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "",
             "name": "__repr__",
             "namespace": "django.utils.translation.trans_real.DjangoTranslation.__repr__",
-            "class_name": "",
+            "class_name": "django.utils.translation.trans_real.DjangoTranslation",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "\"\"\"\n        Return a mergeable gettext.GNUTranslations instance.\n\n        A convenience wrapper. By default gettext uses 'fallback=False'.\n        Using param `use_null_fallback` to avoid confusion with any other\n        references to 'fallback'.\n        \"\"\"",
             "name": "_new_gnu_trans",
             "namespace": "django.utils.translation.trans_real.DjangoTranslation._new_gnu_trans",
-            "class_name": "",
+            "class_name": "django.utils.translation.trans_real.DjangoTranslation",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "\"\"\"Create a base catalog using global django translations.\"\"\"",
             "name": "_init_translation_catalog",
             "namespace": "django.utils.translation.trans_real.DjangoTranslation._init_translation_catalog",
-            "class_name": "",
+            "class_name": "django.utils.translation.trans_real.DjangoTranslation",
             "module_name": "",
             "package_name": ""
         },
@@ -41,7 +41,7 @@
             "docstring": "\"\"\"Merge translations from each installed app.\"\"\"",
             "name": "_add_installed_apps_translations",
             "namespace": "django.utils.translation.trans_real.DjangoTranslation._add_installed_apps_translations",
-            "class_name": "",
+            "class_name": "django.utils.translation.trans_real.DjangoTranslation",
             "module_name": "",
             "package_name": ""
         },
@@ -49,7 +49,7 @@
             "docstring": "\"\"\"Merge translations defined in LOCALE_PATHS.\"\"\"",
             "name": "_add_local_translations",
             "namespace": "django.utils.translation.trans_real.DjangoTranslation._add_local_translations",
-            "class_name": "",
+            "class_name": "django.utils.translation.trans_real.DjangoTranslation",
             "module_name": "",
             "package_name": ""
         },
@@ -57,7 +57,7 @@
             "docstring": "\"\"\"Set the GNUTranslations() fallback with the default language.\"\"\"",
             "name": "_add_fallback",
             "namespace": "django.utils.translation.trans_real.DjangoTranslation._add_fallback",
-            "class_name": "",
+            "class_name": "django.utils.translation.trans_real.DjangoTranslation",
             "module_name": "",
             "package_name": ""
         },
@@ -65,7 +65,7 @@
             "docstring": "\"\"\"Merge another translation into this catalog.\"\"\"",
             "name": "merge",
             "namespace": "django.utils.translation.trans_real.DjangoTranslation.merge",
-            "class_name": "",
+            "class_name": "django.utils.translation.trans_real.DjangoTranslation",
             "module_name": "",
             "package_name": ""
         },
@@ -73,7 +73,7 @@
             "docstring": "\"\"\"Return the translation language.\"\"\"",
             "name": "language",
             "namespace": "django.utils.translation.trans_real.DjangoTranslation.language",
-            "class_name": "",
+            "class_name": "django.utils.translation.trans_real.DjangoTranslation",
             "module_name": "",
             "package_name": ""
         },
@@ -81,7 +81,7 @@
             "docstring": "\"\"\"Return the translation language name.\"\"\"",
             "name": "to_language",
             "namespace": "django.utils.translation.trans_real.DjangoTranslation.to_language",
-            "class_name": "",
+            "class_name": "django.utils.translation.trans_real.DjangoTranslation",
             "module_name": "",
             "package_name": ""
         },
@@ -89,7 +89,7 @@
             "docstring": "",
             "name": "ngettext",
             "namespace": "django.utils.translation.trans_real.DjangoTranslation.ngettext",
-            "class_name": "",
+            "class_name": "django.utils.translation.trans_real.DjangoTranslation",
             "module_name": "",
             "package_name": ""
         }

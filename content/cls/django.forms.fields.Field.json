@@ -9,7 +9,7 @@
             "docstring": "",
             "name": "__init__",
             "namespace": "django.forms.fields.Field.__init__",
-            "class_name": "",
+            "class_name": "django.forms.fields.Field",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "",
             "name": "prepare_value",
             "namespace": "django.forms.fields.Field.prepare_value",
-            "class_name": "",
+            "class_name": "django.forms.fields.Field",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "",
             "name": "to_python",
             "namespace": "django.forms.fields.Field.to_python",
-            "class_name": "",
+            "class_name": "django.forms.fields.Field",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "",
             "name": "validate",
             "namespace": "django.forms.fields.Field.validate",
-            "class_name": "",
+            "class_name": "django.forms.fields.Field",
             "module_name": "",
             "package_name": ""
         },
@@ -41,7 +41,7 @@
             "docstring": "",
             "name": "run_validators",
             "namespace": "django.forms.fields.Field.run_validators",
-            "class_name": "",
+            "class_name": "django.forms.fields.Field",
             "module_name": "",
             "package_name": ""
         },
@@ -49,7 +49,7 @@
             "docstring": "\"\"\"\n        Validate the given value and return its \"cleaned\" value as an\n        appropriate Python object. Raise ValidationError for any errors.\n        \"\"\"",
             "name": "clean",
             "namespace": "django.forms.fields.Field.clean",
-            "class_name": "",
+            "class_name": "django.forms.fields.Field",
             "module_name": "",
             "package_name": ""
         },
@@ -57,7 +57,7 @@
             "docstring": "\"\"\"\n        Return the value that should be shown for this field on render of a\n        bound form, given the submitted POST data for the field and the initial\n        data, if any.\n\n        For most fields, this will simply be data; FileFields need to handle it\n        a bit differently.\n        \"\"\"",
             "name": "bound_data",
             "namespace": "django.forms.fields.Field.bound_data",
-            "class_name": "",
+            "class_name": "django.forms.fields.Field",
             "module_name": "",
             "package_name": ""
         },
@@ -65,7 +65,7 @@
             "docstring": "\"\"\"\n        Given a Widget instance (*not* a Widget class), return a dictionary of\n        any HTML attributes that should be added to the Widget, based on this\n        Field.\n        \"\"\"",
             "name": "widget_attrs",
             "namespace": "django.forms.fields.Field.widget_attrs",
-            "class_name": "",
+            "class_name": "django.forms.fields.Field",
             "module_name": "",
             "package_name": ""
         },
@@ -73,7 +73,7 @@
             "docstring": "\"\"\"Return True if data differs from initial.\"\"\"",
             "name": "has_changed",
             "namespace": "django.forms.fields.Field.has_changed",
-            "class_name": "",
+            "class_name": "django.forms.fields.Field",
             "module_name": "",
             "package_name": ""
         },
@@ -81,7 +81,7 @@
             "docstring": "\"\"\"\n        Return a BoundField instance that will be used when accessing the form\n        field in a template.\n        \"\"\"",
             "name": "get_bound_field",
             "namespace": "django.forms.fields.Field.get_bound_field",
-            "class_name": "",
+            "class_name": "django.forms.fields.Field",
             "module_name": "",
             "package_name": ""
         },
@@ -89,7 +89,7 @@
             "docstring": "",
             "name": "__deepcopy__",
             "namespace": "django.forms.fields.Field.__deepcopy__",
-            "class_name": "",
+            "class_name": "django.forms.fields.Field",
             "module_name": "",
             "package_name": ""
         }

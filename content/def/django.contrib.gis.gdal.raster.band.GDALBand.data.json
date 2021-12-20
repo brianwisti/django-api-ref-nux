@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Read or writes pixel values for this band. Blocks of data can\n        be accessed by specifying the width, height and offset of the\n        desired block. The same specification can be used to update\n        parts of a raster by providing an array of values.\n\n        Allowed input data types are bytes, memoryview, list, tuple, and array.\n        \"\"\"",
     "name": "data",
     "namespace": "django.contrib.gis.gdal.raster.band.GDALBand.data",
-    "class_name": "",
+    "class_name": "django.contrib.gis.gdal.raster.band.GDALBand",
     "module_name": "",
     "package_name": ""
 }

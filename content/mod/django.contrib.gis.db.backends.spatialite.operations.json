@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "as_sql",
                     "namespace": "django.contrib.gis.db.backends.spatialite.operations.SpatialiteNullCheckOperator.as_sql",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.backends.spatialite.operations.SpatialiteNullCheckOperator",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -26,7 +26,7 @@
                     "docstring": "",
                     "name": "unsupported_functions",
                     "namespace": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations.unsupported_functions",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -34,7 +34,7 @@
                     "docstring": "\"\"\"Determine the version of the SpatiaLite library.\"\"\"",
                     "name": "spatial_version",
                     "namespace": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations.spatial_version",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -42,7 +42,7 @@
                     "docstring": "\"\"\"\n        Convert the polygon data received from SpatiaLite to min/max values.\n        \"\"\"",
                     "name": "convert_extent",
                     "namespace": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations.convert_extent",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -50,7 +50,7 @@
                     "docstring": "\"\"\"\n        Return None because geometry columns are added via the\n        `AddGeometryColumn` stored procedure on SpatiaLite.\n        \"\"\"",
                     "name": "geo_db_type",
                     "namespace": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations.geo_db_type",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -58,7 +58,7 @@
                     "docstring": "\"\"\"\n        Return the distance parameters for the given geometry field,\n        lookup value, and lookup type.\n        \"\"\"",
                     "name": "get_distance",
                     "namespace": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations.get_distance",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -66,7 +66,7 @@
                     "docstring": "\"\"\"\n        Helper routine for calling SpatiaLite functions and returning\n        their result.\n        Any error occurring in this method should be handled by the caller.\n        \"\"\"",
                     "name": "_get_spatialite_func",
                     "namespace": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations._get_spatialite_func",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -74,7 +74,7 @@
                     "docstring": "\"Return the version of GEOS used by SpatiaLite as a string.\"",
                     "name": "geos_version",
                     "namespace": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations.geos_version",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -82,7 +82,7 @@
                     "docstring": "\"\"\"Return the version of the PROJ library used by SpatiaLite.\"\"\"",
                     "name": "proj_version",
                     "namespace": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations.proj_version",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -90,7 +90,7 @@
                     "docstring": "\"\"\"Return the version of LWGEOM library used by SpatiaLite.\"\"\"",
                     "name": "lwgeom_version",
                     "namespace": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations.lwgeom_version",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -98,7 +98,7 @@
                     "docstring": "\"\"\"Return the version of RTTOPO library used by SpatiaLite.\"\"\"",
                     "name": "rttopo_version",
                     "namespace": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations.rttopo_version",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -106,7 +106,7 @@
                     "docstring": "\"\"\"\n        Return the version of the version-dependant geom library used by\n        SpatiaLite.\n        \"\"\"",
                     "name": "geom_lib_version",
                     "namespace": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations.geom_lib_version",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -114,7 +114,7 @@
                     "docstring": "\"Return the SpatiaLite library version as a string.\"",
                     "name": "spatialite_version",
                     "namespace": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations.spatialite_version",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -122,7 +122,7 @@
                     "docstring": "\"\"\"\n        Return the SpatiaLite version as a tuple (version string, major,\n        minor, subminor).\n        \"\"\"",
                     "name": "spatialite_version_tuple",
                     "namespace": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations.spatialite_version_tuple",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -130,7 +130,7 @@
                     "docstring": "\"\"\"\n        Return the spatial aggregate SQL template and function for the\n        given Aggregate instance.\n        \"\"\"",
                     "name": "spatial_aggregate_name",
                     "namespace": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations.spatial_aggregate_name",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -138,7 +138,7 @@
                     "docstring": "",
                     "name": "geometry_columns",
                     "namespace": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations.geometry_columns",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -146,7 +146,7 @@
                     "docstring": "",
                     "name": "spatial_ref_sys",
                     "namespace": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations.spatial_ref_sys",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -154,7 +154,7 @@
                     "docstring": "",
                     "name": "get_geometry_converter",
                     "namespace": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations.get_geometry_converter",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations",
                     "module_name": "",
                     "package_name": ""
                 }

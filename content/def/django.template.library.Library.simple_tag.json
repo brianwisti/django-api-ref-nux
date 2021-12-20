@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Register a callable as a compiled template tag. Example:\n\n        @register.simple_tag\n        def hello(*args, **kwargs):\n            return 'world'\n        \"\"\"",
     "name": "simple_tag",
     "namespace": "django.template.library.Library.simple_tag",
-    "class_name": "",
+    "class_name": "django.template.library.Library",
     "module_name": "",
     "package_name": ""
 }

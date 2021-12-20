@@ -11,7 +11,7 @@
                     "docstring": "\"\"\"Initialize Geometry on either WKT or an OGR pointer as input.\"\"\"",
                     "name": "__init__",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.__init__",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "",
                     "name": "__getstate__",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.__getstate__",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -27,7 +27,7 @@
                     "docstring": "",
                     "name": "__setstate__",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.__setstate__",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -35,7 +35,7 @@
                     "docstring": "",
                     "name": "_from_wkb",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry._from_wkb",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -43,7 +43,7 @@
                     "docstring": "",
                     "name": "_from_json",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry._from_json",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -51,7 +51,7 @@
                     "docstring": "\"Construct a Polygon from a bounding box (4-tuple).\"",
                     "name": "from_bbox",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.from_bbox",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -59,7 +59,7 @@
                     "docstring": "",
                     "name": "from_json",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.from_json",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -67,7 +67,7 @@
                     "docstring": "",
                     "name": "from_gml",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.from_gml",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -75,7 +75,7 @@
                     "docstring": "\"Return the union of the two geometries.\"",
                     "name": "__or__",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.__or__",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -83,7 +83,7 @@
                     "docstring": "\"Return the intersection of this Geometry and the other.\"",
                     "name": "__and__",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.__and__",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -91,7 +91,7 @@
                     "docstring": "\"Return the difference this Geometry and the other.\"",
                     "name": "__sub__",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.__sub__",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -99,7 +99,7 @@
                     "docstring": "\"Return the symmetric difference of this Geometry and the other.\"",
                     "name": "__xor__",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.__xor__",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -107,7 +107,7 @@
                     "docstring": "\"Is this Geometry equal to the other?\"",
                     "name": "__eq__",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.__eq__",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -115,7 +115,7 @@
                     "docstring": "\"WKT is used for the string representation.\"",
                     "name": "__str__",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.__str__",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -123,7 +123,7 @@
                     "docstring": "\"Return 0 for points, 1 for lines, and 2 for surfaces.\"",
                     "name": "dimension",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.dimension",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -131,7 +131,7 @@
                     "docstring": "\"Return the coordinate dimension of the Geometry.\"",
                     "name": "_get_coord_dim",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry._get_coord_dim",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -139,7 +139,7 @@
                     "docstring": "\"Set the coordinate dimension of this Geometry.\"",
                     "name": "_set_coord_dim",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry._set_coord_dim",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -147,7 +147,7 @@
                     "docstring": "\"Return the number of elements in this Geometry.\"",
                     "name": "geom_count",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.geom_count",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -155,7 +155,7 @@
                     "docstring": "\"Return the number of Points in this Geometry.\"",
                     "name": "point_count",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.point_count",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -163,7 +163,7 @@
                     "docstring": "\"Alias for `point_count` (same name method in GEOS API.)\"",
                     "name": "num_points",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.num_points",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -171,7 +171,7 @@
                     "docstring": "\"Alias for `point_count`.\"",
                     "name": "num_coords",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.num_coords",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -179,7 +179,7 @@
                     "docstring": "\"Return the Type for this Geometry.\"",
                     "name": "geom_type",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.geom_type",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -187,7 +187,7 @@
                     "docstring": "\"Return the Name of this Geometry.\"",
                     "name": "geom_name",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.geom_name",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -195,7 +195,7 @@
                     "docstring": "\"Return the area for a LinearRing, Polygon, or MultiPolygon; 0 otherwise.\"",
                     "name": "area",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.area",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -203,7 +203,7 @@
                     "docstring": "\"Return the envelope for this Geometry.\"",
                     "name": "envelope",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.envelope",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -211,7 +211,7 @@
                     "docstring": "",
                     "name": "empty",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.empty",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -219,7 +219,7 @@
                     "docstring": "\"Return the envelope as a 4-tuple, instead of as an Envelope object.\"",
                     "name": "extent",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.extent",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -227,7 +227,7 @@
                     "docstring": "\"Return the Spatial Reference for this Geometry.\"",
                     "name": "_get_srs",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry._get_srs",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -235,7 +235,7 @@
                     "docstring": "\"Set the SpatialReference for this geometry.\"",
                     "name": "_set_srs",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry._set_srs",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -243,7 +243,7 @@
                     "docstring": "",
                     "name": "_get_srid",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry._get_srid",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -251,7 +251,7 @@
                     "docstring": "",
                     "name": "_set_srid",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry._set_srid",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -259,7 +259,7 @@
                     "docstring": "",
                     "name": "_geos_ptr",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry._geos_ptr",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -267,7 +267,7 @@
                     "docstring": "\"Return a GEOSGeometry object from this OGRGeometry.\"",
                     "name": "geos",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.geos",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -275,7 +275,7 @@
                     "docstring": "\"Return the GML representation of the Geometry.\"",
                     "name": "gml",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.gml",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -283,7 +283,7 @@
                     "docstring": "\"Return the hexadecimal representation of the WKB (a string).\"",
                     "name": "hex",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.hex",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -291,7 +291,7 @@
                     "docstring": "\"\"\"\n        Return the GeoJSON representation of this Geometry.\n        \"\"\"",
                     "name": "json",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.json",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -299,7 +299,7 @@
                     "docstring": "\"Return the KML representation of the Geometry.\"",
                     "name": "kml",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.kml",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -307,7 +307,7 @@
                     "docstring": "\"Return the size of the WKB buffer.\"",
                     "name": "wkb_size",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.wkb_size",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -315,7 +315,7 @@
                     "docstring": "\"Return the WKB representation of the Geometry.\"",
                     "name": "wkb",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.wkb",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -323,7 +323,7 @@
                     "docstring": "\"Return the WKT representation of the Geometry.\"",
                     "name": "wkt",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.wkt",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -331,7 +331,7 @@
                     "docstring": "\"Return the EWKT representation of the Geometry.\"",
                     "name": "ewkt",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.ewkt",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -339,7 +339,7 @@
                     "docstring": "\"Clone this OGR Geometry.\"",
                     "name": "clone",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.clone",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -347,7 +347,7 @@
                     "docstring": "\"\"\"\n        If there are any rings within this geometry that have not been\n        closed, this routine will do so by adding the starting point at the\n        end.\n        \"\"\"",
                     "name": "close_rings",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.close_rings",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -355,7 +355,7 @@
                     "docstring": "\"\"\"\n        Transform this geometry to a different spatial reference system.\n        May take a CoordTransform object, a SpatialReference object, string\n        WKT or PROJ, and/or an integer SRID.  By default, return nothing\n        and transform the geometry in-place. However, if the `clone` keyword is\n        set, return a transformed clone of this geometry.\n        \"\"\"",
                     "name": "transform",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.transform",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -363,7 +363,7 @@
                     "docstring": "\"\"\"A generalized function for topology operations, takes a GDAL function and\n        the other geometry to perform the operation on.\"\"\"",
                     "name": "_topology",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry._topology",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -371,7 +371,7 @@
                     "docstring": "\"Return True if this geometry intersects with the other.\"",
                     "name": "intersects",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.intersects",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -379,7 +379,7 @@
                     "docstring": "\"Return True if this geometry is equivalent to the other.\"",
                     "name": "equals",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.equals",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -387,7 +387,7 @@
                     "docstring": "\"Return True if this geometry and the other are spatially disjoint.\"",
                     "name": "disjoint",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.disjoint",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -395,7 +395,7 @@
                     "docstring": "\"Return True if this geometry touches the other.\"",
                     "name": "touches",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.touches",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -403,7 +403,7 @@
                     "docstring": "\"Return True if this geometry crosses the other.\"",
                     "name": "crosses",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.crosses",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -411,7 +411,7 @@
                     "docstring": "\"Return True if this geometry is within the other.\"",
                     "name": "within",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.within",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -419,7 +419,7 @@
                     "docstring": "\"Return True if this geometry contains the other.\"",
                     "name": "contains",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.contains",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -427,7 +427,7 @@
                     "docstring": "\"Return True if this geometry overlaps the other.\"",
                     "name": "overlaps",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.overlaps",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -435,7 +435,7 @@
                     "docstring": "\"A helper routine for the OGR routines that generate geometries.\"",
                     "name": "_geomgen",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry._geomgen",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -443,7 +443,7 @@
                     "docstring": "\"Return the boundary of this geometry.\"",
                     "name": "boundary",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.boundary",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -451,7 +451,7 @@
                     "docstring": "\"\"\"\n        Return the smallest convex Polygon that contains all the points in\n        this Geometry.\n        \"\"\"",
                     "name": "convex_hull",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.convex_hull",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -459,7 +459,7 @@
                     "docstring": "\"\"\"\n        Return a new geometry consisting of the region which is the difference\n        of this geometry and the other.\n        \"\"\"",
                     "name": "difference",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.difference",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -467,7 +467,7 @@
                     "docstring": "\"\"\"\n        Return a new geometry consisting of the region of intersection of this\n        geometry and the other.\n        \"\"\"",
                     "name": "intersection",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.intersection",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -475,7 +475,7 @@
                     "docstring": "\"\"\"\n        Return a new geometry which is the symmetric difference of this\n        geometry and the other.\n        \"\"\"",
                     "name": "sym_difference",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.sym_difference",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -483,7 +483,7 @@
                     "docstring": "\"\"\"\n        Return a new geometry consisting of the region which is the union of\n        this geometry and the other.\n        \"\"\"",
                     "name": "union",
                     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.union",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -498,7 +498,7 @@
                     "docstring": "",
                     "name": "_geos_ptr",
                     "namespace": "django.contrib.gis.gdal.geometries.Point._geos_ptr",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.Point",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -506,7 +506,7 @@
                     "docstring": "",
                     "name": "_create_empty",
                     "namespace": "django.contrib.gis.gdal.geometries.Point._create_empty",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.Point",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -514,7 +514,7 @@
                     "docstring": "\"Return the X coordinate for this Point.\"",
                     "name": "x",
                     "namespace": "django.contrib.gis.gdal.geometries.Point.x",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.Point",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -522,7 +522,7 @@
                     "docstring": "\"Return the Y coordinate for this Point.\"",
                     "name": "y",
                     "namespace": "django.contrib.gis.gdal.geometries.Point.y",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.Point",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -530,7 +530,7 @@
                     "docstring": "\"Return the Z coordinate for this Point.\"",
                     "name": "z",
                     "namespace": "django.contrib.gis.gdal.geometries.Point.z",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.Point",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -538,7 +538,7 @@
                     "docstring": "\"Return the tuple of this point.\"",
                     "name": "tuple",
                     "namespace": "django.contrib.gis.gdal.geometries.Point.tuple",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.Point",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -553,7 +553,7 @@
                     "docstring": "\"Return the Point at the given index.\"",
                     "name": "__getitem__",
                     "namespace": "django.contrib.gis.gdal.geometries.LineString.__getitem__",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.LineString",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -561,7 +561,7 @@
                     "docstring": "\"Return the number of points in the LineString.\"",
                     "name": "__len__",
                     "namespace": "django.contrib.gis.gdal.geometries.LineString.__len__",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.LineString",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -569,7 +569,7 @@
                     "docstring": "\"Return the tuple representation of this LineString.\"",
                     "name": "tuple",
                     "namespace": "django.contrib.gis.gdal.geometries.LineString.tuple",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.LineString",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -577,7 +577,7 @@
                     "docstring": "\"\"\"\n        Internal routine that returns a sequence (list) corresponding with\n        the given function.\n        \"\"\"",
                     "name": "_listarr",
                     "namespace": "django.contrib.gis.gdal.geometries.LineString._listarr",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.LineString",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -585,7 +585,7 @@
                     "docstring": "\"Return the X coordinates in a list.\"",
                     "name": "x",
                     "namespace": "django.contrib.gis.gdal.geometries.LineString.x",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.LineString",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -593,7 +593,7 @@
                     "docstring": "\"Return the Y coordinates in a list.\"",
                     "name": "y",
                     "namespace": "django.contrib.gis.gdal.geometries.LineString.y",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.LineString",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -601,7 +601,7 @@
                     "docstring": "\"Return the Z coordinates in a list.\"",
                     "name": "z",
                     "namespace": "django.contrib.gis.gdal.geometries.LineString.z",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.LineString",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -622,7 +622,7 @@
                     "docstring": "\"Return the number of interior rings in this Polygon.\"",
                     "name": "__len__",
                     "namespace": "django.contrib.gis.gdal.geometries.Polygon.__len__",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.Polygon",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -630,7 +630,7 @@
                     "docstring": "\"Get the ring at the specified index.\"",
                     "name": "__getitem__",
                     "namespace": "django.contrib.gis.gdal.geometries.Polygon.__getitem__",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.Polygon",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -638,7 +638,7 @@
                     "docstring": "\"Return the shell of this Polygon.\"",
                     "name": "shell",
                     "namespace": "django.contrib.gis.gdal.geometries.Polygon.shell",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.Polygon",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -646,7 +646,7 @@
                     "docstring": "\"Return a tuple of LinearRing coordinate tuples.\"",
                     "name": "tuple",
                     "namespace": "django.contrib.gis.gdal.geometries.Polygon.tuple",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.Polygon",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -654,7 +654,7 @@
                     "docstring": "\"Return the number of Points in this Polygon.\"",
                     "name": "point_count",
                     "namespace": "django.contrib.gis.gdal.geometries.Polygon.point_count",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.Polygon",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -662,7 +662,7 @@
                     "docstring": "\"Return the centroid (a Point) of this Polygon.\"",
                     "name": "centroid",
                     "namespace": "django.contrib.gis.gdal.geometries.Polygon.centroid",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.Polygon",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -677,7 +677,7 @@
                     "docstring": "\"Get the Geometry at the specified index.\"",
                     "name": "__getitem__",
                     "namespace": "django.contrib.gis.gdal.geometries.GeometryCollection.__getitem__",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.GeometryCollection",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -685,7 +685,7 @@
                     "docstring": "\"Return the number of geometries in this Geometry Collection.\"",
                     "name": "__len__",
                     "namespace": "django.contrib.gis.gdal.geometries.GeometryCollection.__len__",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.GeometryCollection",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -693,7 +693,7 @@
                     "docstring": "\"Add the geometry to this Geometry Collection.\"",
                     "name": "add",
                     "namespace": "django.contrib.gis.gdal.geometries.GeometryCollection.add",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.GeometryCollection",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -701,7 +701,7 @@
                     "docstring": "\"Return the number of Points in this Geometry Collection.\"",
                     "name": "point_count",
                     "namespace": "django.contrib.gis.gdal.geometries.GeometryCollection.point_count",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.GeometryCollection",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -709,7 +709,7 @@
                     "docstring": "\"Return a tuple representation of this Geometry Collection.\"",
                     "name": "tuple",
                     "namespace": "django.contrib.gis.gdal.geometries.GeometryCollection.tuple",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geometries.GeometryCollection",
                     "module_name": "",
                     "package_name": ""
                 }

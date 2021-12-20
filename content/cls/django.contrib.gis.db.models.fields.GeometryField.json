@@ -9,7 +9,7 @@
             "docstring": "\"\"\"\n        The initialization function for geometry fields. In addition to the\n        parameters from BaseSpatialField, it takes the following as keyword\n        arguments:\n\n        dim:\n         The number of dimensions for this geometry.  Defaults to 2.\n\n        extent:\n         Customize the extent, in a 4-tuple of WGS 84 coordinates, for the\n         geometry field entry in the `USER_SDO_GEOM_METADATA` table.  Defaults\n         to (-180.0, -90.0, 180.0, 90.0).\n\n        tolerance:\n         Define the tolerance, in meters, to use for the geometry field\n         entry in the `USER_SDO_GEOM_METADATA` table.  Defaults to 0.05.\n        \"\"\"",
             "name": "__init__",
             "namespace": "django.contrib.gis.db.models.fields.GeometryField.__init__",
-            "class_name": "",
+            "class_name": "django.contrib.gis.db.models.fields.GeometryField",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "",
             "name": "deconstruct",
             "namespace": "django.contrib.gis.db.models.fields.GeometryField.deconstruct",
-            "class_name": "",
+            "class_name": "django.contrib.gis.db.models.fields.GeometryField",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "",
             "name": "contribute_to_class",
             "namespace": "django.contrib.gis.db.models.fields.GeometryField.contribute_to_class",
-            "class_name": "",
+            "class_name": "django.contrib.gis.db.models.fields.GeometryField",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "",
             "name": "formfield",
             "namespace": "django.contrib.gis.db.models.fields.GeometryField.formfield",
-            "class_name": "",
+            "class_name": "django.contrib.gis.db.models.fields.GeometryField",
             "module_name": "",
             "package_name": ""
         },
@@ -41,7 +41,7 @@
             "docstring": "\"\"\"\n        Return the selection format string, depending on the requirements\n        of the spatial backend. For example, Oracle and MySQL require custom\n        selection formats in order to retrieve geometries in OGC WKB.\n        \"\"\"",
             "name": "select_format",
             "namespace": "django.contrib.gis.db.models.fields.GeometryField.select_format",
-            "class_name": "",
+            "class_name": "django.contrib.gis.db.models.fields.GeometryField",
             "module_name": "",
             "package_name": ""
         }

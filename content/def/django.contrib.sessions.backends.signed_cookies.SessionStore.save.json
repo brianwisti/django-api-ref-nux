@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        To save, get the session key as a securely signed string and then set\n        the modified flag so that the cookie is set on the client for the\n        current request.\n        \"\"\"",
     "name": "save",
     "namespace": "django.contrib.sessions.backends.signed_cookies.SessionStore.save",
-    "class_name": "",
+    "class_name": "django.contrib.sessions.backends.signed_cookies.SessionStore",
     "module_name": "",
     "package_name": ""
 }

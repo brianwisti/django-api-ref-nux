@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.apps.config.AppConfig.__init__",
-                    "class_name": "",
+                    "class_name": "django.apps.config.AppConfig",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "",
                     "name": "__repr__",
                     "namespace": "django.apps.config.AppConfig.__repr__",
-                    "class_name": "",
+                    "class_name": "django.apps.config.AppConfig",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -27,7 +27,7 @@
                     "docstring": "",
                     "name": "default_auto_field",
                     "namespace": "django.apps.config.AppConfig.default_auto_field",
-                    "class_name": "",
+                    "class_name": "django.apps.config.AppConfig",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -35,7 +35,7 @@
                     "docstring": "",
                     "name": "_is_default_auto_field_overridden",
                     "namespace": "django.apps.config.AppConfig._is_default_auto_field_overridden",
-                    "class_name": "",
+                    "class_name": "django.apps.config.AppConfig",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -43,7 +43,7 @@
                     "docstring": "\"\"\"Attempt to determine app's filesystem path from its module.\"\"\"",
                     "name": "_path_from_module",
                     "namespace": "django.apps.config.AppConfig._path_from_module",
-                    "class_name": "",
+                    "class_name": "django.apps.config.AppConfig",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -51,7 +51,7 @@
                     "docstring": "\"\"\"\n        Factory that creates an app config from an entry in INSTALLED_APPS.\n        \"\"\"",
                     "name": "create",
                     "namespace": "django.apps.config.AppConfig.create",
-                    "class_name": "",
+                    "class_name": "django.apps.config.AppConfig",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -59,7 +59,7 @@
                     "docstring": "\"\"\"\n        Return the model with the given case-insensitive model_name.\n\n        Raise LookupError if no model exists with this name.\n        \"\"\"",
                     "name": "get_model",
                     "namespace": "django.apps.config.AppConfig.get_model",
-                    "class_name": "",
+                    "class_name": "django.apps.config.AppConfig",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -67,7 +67,7 @@
                     "docstring": "\"\"\"\n        Return an iterable of models.\n\n        By default, the following models aren't included:\n\n        - auto-created models for many-to-many relations without\n          an explicit intermediate table,\n        - models that have been swapped out.\n\n        Set the corresponding keyword argument to True to include such models.\n        Keyword arguments aren't documented; they're a private API.\n        \"\"\"",
                     "name": "get_models",
                     "namespace": "django.apps.config.AppConfig.get_models",
-                    "class_name": "",
+                    "class_name": "django.apps.config.AppConfig",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -75,7 +75,7 @@
                     "docstring": "",
                     "name": "import_models",
                     "namespace": "django.apps.config.AppConfig.import_models",
-                    "class_name": "",
+                    "class_name": "django.apps.config.AppConfig",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -83,7 +83,7 @@
                     "docstring": "\"\"\"\n        Override this method in subclasses to run code when Django starts.\n        \"\"\"",
                     "name": "ready",
                     "namespace": "django.apps.config.AppConfig.ready",
-                    "class_name": "",
+                    "class_name": "django.apps.config.AppConfig",
                     "module_name": "",
                     "package_name": ""
                 }

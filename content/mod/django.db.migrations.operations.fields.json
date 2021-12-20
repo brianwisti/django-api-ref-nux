@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.db.migrations.operations.fields.FieldOperation.__init__",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.operations.fields.FieldOperation",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "",
                     "name": "model_name_lower",
                     "namespace": "django.db.migrations.operations.fields.FieldOperation.model_name_lower",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.operations.fields.FieldOperation",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -27,7 +27,7 @@
                     "docstring": "",
                     "name": "name_lower",
                     "namespace": "django.db.migrations.operations.fields.FieldOperation.name_lower",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.operations.fields.FieldOperation",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -35,7 +35,7 @@
                     "docstring": "",
                     "name": "is_same_model_operation",
                     "namespace": "django.db.migrations.operations.fields.FieldOperation.is_same_model_operation",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.operations.fields.FieldOperation",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -43,7 +43,7 @@
                     "docstring": "",
                     "name": "is_same_field_operation",
                     "namespace": "django.db.migrations.operations.fields.FieldOperation.is_same_field_operation",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.operations.fields.FieldOperation",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -51,7 +51,7 @@
                     "docstring": "",
                     "name": "references_model",
                     "namespace": "django.db.migrations.operations.fields.FieldOperation.references_model",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.operations.fields.FieldOperation",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -59,7 +59,7 @@
                     "docstring": "",
                     "name": "references_field",
                     "namespace": "django.db.migrations.operations.fields.FieldOperation.references_field",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.operations.fields.FieldOperation",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -67,7 +67,7 @@
                     "docstring": "",
                     "name": "reduce",
                     "namespace": "django.db.migrations.operations.fields.FieldOperation.reduce",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.operations.fields.FieldOperation",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -82,7 +82,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.db.migrations.operations.fields.AddField.__init__",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.operations.fields.AddField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -90,7 +90,7 @@
                     "docstring": "",
                     "name": "deconstruct",
                     "namespace": "django.db.migrations.operations.fields.AddField.deconstruct",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.operations.fields.AddField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -98,7 +98,7 @@
                     "docstring": "",
                     "name": "state_forwards",
                     "namespace": "django.db.migrations.operations.fields.AddField.state_forwards",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.operations.fields.AddField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -106,7 +106,7 @@
                     "docstring": "",
                     "name": "database_forwards",
                     "namespace": "django.db.migrations.operations.fields.AddField.database_forwards",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.operations.fields.AddField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -114,7 +114,7 @@
                     "docstring": "",
                     "name": "database_backwards",
                     "namespace": "django.db.migrations.operations.fields.AddField.database_backwards",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.operations.fields.AddField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -122,7 +122,7 @@
                     "docstring": "",
                     "name": "describe",
                     "namespace": "django.db.migrations.operations.fields.AddField.describe",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.operations.fields.AddField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -130,7 +130,7 @@
                     "docstring": "",
                     "name": "migration_name_fragment",
                     "namespace": "django.db.migrations.operations.fields.AddField.migration_name_fragment",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.operations.fields.AddField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -138,7 +138,7 @@
                     "docstring": "",
                     "name": "reduce",
                     "namespace": "django.db.migrations.operations.fields.AddField.reduce",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.operations.fields.AddField",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -153,7 +153,7 @@
                     "docstring": "",
                     "name": "deconstruct",
                     "namespace": "django.db.migrations.operations.fields.RemoveField.deconstruct",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.operations.fields.RemoveField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -161,7 +161,7 @@
                     "docstring": "",
                     "name": "state_forwards",
                     "namespace": "django.db.migrations.operations.fields.RemoveField.state_forwards",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.operations.fields.RemoveField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -169,7 +169,7 @@
                     "docstring": "",
                     "name": "database_forwards",
                     "namespace": "django.db.migrations.operations.fields.RemoveField.database_forwards",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.operations.fields.RemoveField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -177,7 +177,7 @@
                     "docstring": "",
                     "name": "database_backwards",
                     "namespace": "django.db.migrations.operations.fields.RemoveField.database_backwards",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.operations.fields.RemoveField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -185,7 +185,7 @@
                     "docstring": "",
                     "name": "describe",
                     "namespace": "django.db.migrations.operations.fields.RemoveField.describe",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.operations.fields.RemoveField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -193,7 +193,7 @@
                     "docstring": "",
                     "name": "migration_name_fragment",
                     "namespace": "django.db.migrations.operations.fields.RemoveField.migration_name_fragment",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.operations.fields.RemoveField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -201,7 +201,7 @@
                     "docstring": "",
                     "name": "reduce",
                     "namespace": "django.db.migrations.operations.fields.RemoveField.reduce",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.operations.fields.RemoveField",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -216,7 +216,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.db.migrations.operations.fields.AlterField.__init__",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.operations.fields.AlterField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -224,7 +224,7 @@
                     "docstring": "",
                     "name": "deconstruct",
                     "namespace": "django.db.migrations.operations.fields.AlterField.deconstruct",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.operations.fields.AlterField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -232,7 +232,7 @@
                     "docstring": "",
                     "name": "state_forwards",
                     "namespace": "django.db.migrations.operations.fields.AlterField.state_forwards",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.operations.fields.AlterField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -240,7 +240,7 @@
                     "docstring": "",
                     "name": "database_forwards",
                     "namespace": "django.db.migrations.operations.fields.AlterField.database_forwards",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.operations.fields.AlterField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -248,7 +248,7 @@
                     "docstring": "",
                     "name": "database_backwards",
                     "namespace": "django.db.migrations.operations.fields.AlterField.database_backwards",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.operations.fields.AlterField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -256,7 +256,7 @@
                     "docstring": "",
                     "name": "describe",
                     "namespace": "django.db.migrations.operations.fields.AlterField.describe",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.operations.fields.AlterField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -264,7 +264,7 @@
                     "docstring": "",
                     "name": "migration_name_fragment",
                     "namespace": "django.db.migrations.operations.fields.AlterField.migration_name_fragment",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.operations.fields.AlterField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -272,7 +272,7 @@
                     "docstring": "",
                     "name": "reduce",
                     "namespace": "django.db.migrations.operations.fields.AlterField.reduce",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.operations.fields.AlterField",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -287,7 +287,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.db.migrations.operations.fields.RenameField.__init__",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.operations.fields.RenameField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -295,7 +295,7 @@
                     "docstring": "",
                     "name": "old_name_lower",
                     "namespace": "django.db.migrations.operations.fields.RenameField.old_name_lower",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.operations.fields.RenameField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -303,7 +303,7 @@
                     "docstring": "",
                     "name": "new_name_lower",
                     "namespace": "django.db.migrations.operations.fields.RenameField.new_name_lower",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.operations.fields.RenameField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -311,7 +311,7 @@
                     "docstring": "",
                     "name": "deconstruct",
                     "namespace": "django.db.migrations.operations.fields.RenameField.deconstruct",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.operations.fields.RenameField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -319,7 +319,7 @@
                     "docstring": "",
                     "name": "state_forwards",
                     "namespace": "django.db.migrations.operations.fields.RenameField.state_forwards",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.operations.fields.RenameField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -327,7 +327,7 @@
                     "docstring": "",
                     "name": "database_forwards",
                     "namespace": "django.db.migrations.operations.fields.RenameField.database_forwards",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.operations.fields.RenameField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -335,7 +335,7 @@
                     "docstring": "",
                     "name": "database_backwards",
                     "namespace": "django.db.migrations.operations.fields.RenameField.database_backwards",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.operations.fields.RenameField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -343,7 +343,7 @@
                     "docstring": "",
                     "name": "describe",
                     "namespace": "django.db.migrations.operations.fields.RenameField.describe",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.operations.fields.RenameField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -351,7 +351,7 @@
                     "docstring": "",
                     "name": "migration_name_fragment",
                     "namespace": "django.db.migrations.operations.fields.RenameField.migration_name_fragment",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.operations.fields.RenameField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -359,7 +359,7 @@
                     "docstring": "",
                     "name": "references_field",
                     "namespace": "django.db.migrations.operations.fields.RenameField.references_field",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.operations.fields.RenameField",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -367,7 +367,7 @@
                     "docstring": "",
                     "name": "reduce",
                     "namespace": "django.db.migrations.operations.fields.RenameField.reduce",
-                    "class_name": "",
+                    "class_name": "django.db.migrations.operations.fields.RenameField",
                     "module_name": "",
                     "package_name": ""
                 }

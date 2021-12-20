@@ -9,7 +9,7 @@
             "docstring": "",
             "name": "__init__",
             "namespace": "django.core.files.uploadhandler.FileUploadHandler.__init__",
-            "class_name": "",
+            "class_name": "django.core.files.uploadhandler.FileUploadHandler",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "\"\"\"\n        Handle the raw input from the client.\n\n        Parameters:\n\n            :input_data:\n                An object that supports reading via .read().\n            :META:\n                ``request.META``.\n            :content_length:\n                The (integer) value of the Content-Length header from the\n                client.\n            :boundary: The boundary from the Content-Type header. Be sure to\n                prepend two '--'.\n        \"\"\"",
             "name": "handle_raw_input",
             "namespace": "django.core.files.uploadhandler.FileUploadHandler.handle_raw_input",
-            "class_name": "",
+            "class_name": "django.core.files.uploadhandler.FileUploadHandler",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "\"\"\"\n        Signal that a new file has been started.\n\n        Warning: As with any data from the client, you should not trust\n        content_length (and sometimes won't even get it).\n        \"\"\"",
             "name": "new_file",
             "namespace": "django.core.files.uploadhandler.FileUploadHandler.new_file",
-            "class_name": "",
+            "class_name": "django.core.files.uploadhandler.FileUploadHandler",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "\"\"\"\n        Receive data from the streamed upload parser. ``start`` is the position\n        in the file of the chunk.\n        \"\"\"",
             "name": "receive_data_chunk",
             "namespace": "django.core.files.uploadhandler.FileUploadHandler.receive_data_chunk",
-            "class_name": "",
+            "class_name": "django.core.files.uploadhandler.FileUploadHandler",
             "module_name": "",
             "package_name": ""
         },
@@ -41,7 +41,7 @@
             "docstring": "\"\"\"\n        Signal that a file has completed. File size corresponds to the actual\n        size accumulated by all the chunks.\n\n        Subclasses should return a valid ``UploadedFile`` object.\n        \"\"\"",
             "name": "file_complete",
             "namespace": "django.core.files.uploadhandler.FileUploadHandler.file_complete",
-            "class_name": "",
+            "class_name": "django.core.files.uploadhandler.FileUploadHandler",
             "module_name": "",
             "package_name": ""
         },
@@ -49,7 +49,7 @@
             "docstring": "\"\"\"\n        Signal that the upload is complete. Subclasses should perform cleanup\n        that is necessary for this handler.\n        \"\"\"",
             "name": "upload_complete",
             "namespace": "django.core.files.uploadhandler.FileUploadHandler.upload_complete",
-            "class_name": "",
+            "class_name": "django.core.files.uploadhandler.FileUploadHandler",
             "module_name": "",
             "package_name": ""
         },
@@ -57,7 +57,7 @@
             "docstring": "\"\"\"\n        Signal that the upload was interrupted. Subclasses should perform\n        cleanup that is necessary for this handler.\n        \"\"\"",
             "name": "upload_interrupted",
             "namespace": "django.core.files.uploadhandler.FileUploadHandler.upload_interrupted",
-            "class_name": "",
+            "class_name": "django.core.files.uploadhandler.FileUploadHandler",
             "module_name": "",
             "package_name": ""
         }

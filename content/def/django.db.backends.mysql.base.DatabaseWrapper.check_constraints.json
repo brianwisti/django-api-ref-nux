@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Check each table name in `table_names` for rows with invalid foreign\n        key references. This method is intended to be used in conjunction with\n        `disable_constraint_checking()` and `enable_constraint_checking()`, to\n        determine if rows with invalid references were entered while constraint\n        checks were off.\n        \"\"\"",
     "name": "check_constraints",
     "namespace": "django.db.backends.mysql.base.DatabaseWrapper.check_constraints",
-    "class_name": "",
+    "class_name": "django.db.backends.mysql.base.DatabaseWrapper",
     "module_name": "",
     "package_name": ""
 }

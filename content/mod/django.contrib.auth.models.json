@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "get_by_natural_key",
                     "namespace": "django.contrib.auth.models.PermissionManager.get_by_natural_key",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.models.PermissionManager",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -26,7 +26,7 @@
                     "docstring": "",
                     "name": "__str__",
                     "namespace": "django.contrib.auth.models.Permission.__str__",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.models.Permission",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -34,7 +34,7 @@
                     "docstring": "",
                     "name": "natural_key",
                     "namespace": "django.contrib.auth.models.Permission.natural_key",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.models.Permission",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -49,7 +49,7 @@
                     "docstring": "",
                     "name": "get_by_natural_key",
                     "namespace": "django.contrib.auth.models.GroupManager.get_by_natural_key",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.models.GroupManager",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -64,7 +64,7 @@
                     "docstring": "",
                     "name": "__str__",
                     "namespace": "django.contrib.auth.models.Group.__str__",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.models.Group",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -72,7 +72,7 @@
                     "docstring": "",
                     "name": "natural_key",
                     "namespace": "django.contrib.auth.models.Group.natural_key",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.models.Group",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -87,7 +87,7 @@
                     "docstring": "\"\"\"\n        Create and save a user with the given username, email, and password.\n        \"\"\"",
                     "name": "_create_user",
                     "namespace": "django.contrib.auth.models.UserManager._create_user",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.models.UserManager",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -95,7 +95,7 @@
                     "docstring": "",
                     "name": "create_user",
                     "namespace": "django.contrib.auth.models.UserManager.create_user",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.models.UserManager",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -103,7 +103,7 @@
                     "docstring": "",
                     "name": "create_superuser",
                     "namespace": "django.contrib.auth.models.UserManager.create_superuser",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.models.UserManager",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -111,7 +111,7 @@
                     "docstring": "",
                     "name": "with_perm",
                     "namespace": "django.contrib.auth.models.UserManager.with_perm",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.models.UserManager",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -126,7 +126,7 @@
                     "docstring": "\"\"\"\n        Return a list of permission strings that this user has directly.\n        Query all available auth backends. If an object is passed in,\n        return only permissions matching this object.\n        \"\"\"",
                     "name": "get_user_permissions",
                     "namespace": "django.contrib.auth.models.PermissionsMixin.get_user_permissions",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.models.PermissionsMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -134,7 +134,7 @@
                     "docstring": "\"\"\"\n        Return a list of permission strings that this user has through their\n        groups. Query all available auth backends. If an object is passed in,\n        return only permissions matching this object.\n        \"\"\"",
                     "name": "get_group_permissions",
                     "namespace": "django.contrib.auth.models.PermissionsMixin.get_group_permissions",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.models.PermissionsMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -142,7 +142,7 @@
                     "docstring": "",
                     "name": "get_all_permissions",
                     "namespace": "django.contrib.auth.models.PermissionsMixin.get_all_permissions",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.models.PermissionsMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -150,7 +150,7 @@
                     "docstring": "\"\"\"\n        Return True if the user has the specified permission. Query all\n        available auth backends, but return immediately if any backend returns\n        True. Thus, a user who has permission from a single auth backend is\n        assumed to have permission in general. If an object is provided, check\n        permissions for that object.\n        \"\"\"",
                     "name": "has_perm",
                     "namespace": "django.contrib.auth.models.PermissionsMixin.has_perm",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.models.PermissionsMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -158,7 +158,7 @@
                     "docstring": "\"\"\"\n        Return True if the user has each of the specified permissions. If\n        object is passed, check if the user has all required perms for it.\n        \"\"\"",
                     "name": "has_perms",
                     "namespace": "django.contrib.auth.models.PermissionsMixin.has_perms",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.models.PermissionsMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -166,7 +166,7 @@
                     "docstring": "\"\"\"\n        Return True if the user has any permissions in the given app label.\n        Use similar logic as has_perm(), above.\n        \"\"\"",
                     "name": "has_module_perms",
                     "namespace": "django.contrib.auth.models.PermissionsMixin.has_module_perms",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.models.PermissionsMixin",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -181,7 +181,7 @@
                     "docstring": "",
                     "name": "clean",
                     "namespace": "django.contrib.auth.models.AbstractUser.clean",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.models.AbstractUser",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -189,7 +189,7 @@
                     "docstring": "\"\"\"\n        Return the first_name plus the last_name, with a space in between.\n        \"\"\"",
                     "name": "get_full_name",
                     "namespace": "django.contrib.auth.models.AbstractUser.get_full_name",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.models.AbstractUser",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -197,7 +197,7 @@
                     "docstring": "\"\"\"Return the short name for the user.\"\"\"",
                     "name": "get_short_name",
                     "namespace": "django.contrib.auth.models.AbstractUser.get_short_name",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.models.AbstractUser",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -205,7 +205,7 @@
                     "docstring": "\"\"\"Send an email to this user.\"\"\"",
                     "name": "email_user",
                     "namespace": "django.contrib.auth.models.AbstractUser.email_user",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.models.AbstractUser",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -226,7 +226,7 @@
                     "docstring": "",
                     "name": "__str__",
                     "namespace": "django.contrib.auth.models.AnonymousUser.__str__",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.models.AnonymousUser",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -234,7 +234,7 @@
                     "docstring": "",
                     "name": "__eq__",
                     "namespace": "django.contrib.auth.models.AnonymousUser.__eq__",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.models.AnonymousUser",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -242,7 +242,7 @@
                     "docstring": "",
                     "name": "__hash__",
                     "namespace": "django.contrib.auth.models.AnonymousUser.__hash__",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.models.AnonymousUser",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -250,7 +250,7 @@
                     "docstring": "",
                     "name": "__int__",
                     "namespace": "django.contrib.auth.models.AnonymousUser.__int__",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.models.AnonymousUser",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -258,7 +258,7 @@
                     "docstring": "",
                     "name": "save",
                     "namespace": "django.contrib.auth.models.AnonymousUser.save",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.models.AnonymousUser",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -266,7 +266,7 @@
                     "docstring": "",
                     "name": "delete",
                     "namespace": "django.contrib.auth.models.AnonymousUser.delete",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.models.AnonymousUser",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -274,7 +274,7 @@
                     "docstring": "",
                     "name": "set_password",
                     "namespace": "django.contrib.auth.models.AnonymousUser.set_password",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.models.AnonymousUser",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -282,7 +282,7 @@
                     "docstring": "",
                     "name": "check_password",
                     "namespace": "django.contrib.auth.models.AnonymousUser.check_password",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.models.AnonymousUser",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -290,7 +290,7 @@
                     "docstring": "",
                     "name": "groups",
                     "namespace": "django.contrib.auth.models.AnonymousUser.groups",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.models.AnonymousUser",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -298,7 +298,7 @@
                     "docstring": "",
                     "name": "user_permissions",
                     "namespace": "django.contrib.auth.models.AnonymousUser.user_permissions",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.models.AnonymousUser",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -306,7 +306,7 @@
                     "docstring": "",
                     "name": "get_user_permissions",
                     "namespace": "django.contrib.auth.models.AnonymousUser.get_user_permissions",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.models.AnonymousUser",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -314,7 +314,7 @@
                     "docstring": "",
                     "name": "get_group_permissions",
                     "namespace": "django.contrib.auth.models.AnonymousUser.get_group_permissions",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.models.AnonymousUser",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -322,7 +322,7 @@
                     "docstring": "",
                     "name": "get_all_permissions",
                     "namespace": "django.contrib.auth.models.AnonymousUser.get_all_permissions",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.models.AnonymousUser",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -330,7 +330,7 @@
                     "docstring": "",
                     "name": "has_perm",
                     "namespace": "django.contrib.auth.models.AnonymousUser.has_perm",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.models.AnonymousUser",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -338,7 +338,7 @@
                     "docstring": "",
                     "name": "has_perms",
                     "namespace": "django.contrib.auth.models.AnonymousUser.has_perms",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.models.AnonymousUser",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -346,7 +346,7 @@
                     "docstring": "",
                     "name": "has_module_perms",
                     "namespace": "django.contrib.auth.models.AnonymousUser.has_module_perms",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.models.AnonymousUser",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -354,7 +354,7 @@
                     "docstring": "",
                     "name": "is_anonymous",
                     "namespace": "django.contrib.auth.models.AnonymousUser.is_anonymous",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.models.AnonymousUser",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -362,7 +362,7 @@
                     "docstring": "",
                     "name": "is_authenticated",
                     "namespace": "django.contrib.auth.models.AnonymousUser.is_authenticated",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.models.AnonymousUser",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -370,7 +370,7 @@
                     "docstring": "",
                     "name": "get_username",
                     "namespace": "django.contrib.auth.models.AnonymousUser.get_username",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.models.AnonymousUser",
                     "module_name": "",
                     "package_name": ""
                 }

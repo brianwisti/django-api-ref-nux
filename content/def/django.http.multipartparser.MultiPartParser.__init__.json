@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Initialize the MultiPartParser object.\n\n        :META:\n            The standard ``META`` dictionary in Django request objects.\n        :input_data:\n            The raw post data, as a file-like object.\n        :upload_handlers:\n            A list of UploadHandler instances that perform operations on the\n            uploaded data.\n        :encoding:\n            The encoding with which to treat the incoming data.\n        \"\"\"",
     "name": "__init__",
     "namespace": "django.http.multipartparser.MultiPartParser.__init__",
-    "class_name": "",
+    "class_name": "django.http.multipartparser.MultiPartParser",
     "module_name": "",
     "package_name": ""
 }

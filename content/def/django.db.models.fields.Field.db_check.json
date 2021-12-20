@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return the database column check constraint for this field, for the\n        provided connection. Works the same way as db_type() for the case that\n        get_internal_type() does not map to a preexisting model field.\n        \"\"\"",
     "name": "db_check",
     "namespace": "django.db.models.fields.Field.db_check",
-    "class_name": "",
+    "class_name": "django.db.models.fields.Field",
     "module_name": "",
     "package_name": ""
 }

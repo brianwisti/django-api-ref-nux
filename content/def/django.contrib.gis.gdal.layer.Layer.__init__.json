@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Initialize on an OGR C pointer to the Layer and the `DataSource` object\n        that owns this layer.  The `DataSource` object is required so that a\n        reference to it is kept with this Layer.  This prevents garbage\n        collection of the `DataSource` while this Layer is still active.\n        \"\"\"",
     "name": "__init__",
     "namespace": "django.contrib.gis.gdal.layer.Layer.__init__",
-    "class_name": "",
+    "class_name": "django.contrib.gis.gdal.layer.Layer",
     "module_name": "",
     "package_name": ""
 }

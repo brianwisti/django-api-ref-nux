@@ -35,7 +35,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.core.paginator.Paginator.__init__",
-                    "class_name": "",
+                    "class_name": "django.core.paginator.Paginator",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -43,7 +43,7 @@
                     "docstring": "",
                     "name": "__iter__",
                     "namespace": "django.core.paginator.Paginator.__iter__",
-                    "class_name": "",
+                    "class_name": "django.core.paginator.Paginator",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -51,7 +51,7 @@
                     "docstring": "\"\"\"Validate the given 1-based page number.\"\"\"",
                     "name": "validate_number",
                     "namespace": "django.core.paginator.Paginator.validate_number",
-                    "class_name": "",
+                    "class_name": "django.core.paginator.Paginator",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -59,7 +59,7 @@
                     "docstring": "\"\"\"\n        Return a valid page, even if the page argument isn't a number or isn't\n        in range.\n        \"\"\"",
                     "name": "get_page",
                     "namespace": "django.core.paginator.Paginator.get_page",
-                    "class_name": "",
+                    "class_name": "django.core.paginator.Paginator",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -67,7 +67,7 @@
                     "docstring": "\"\"\"Return a Page object for the given 1-based page number.\"\"\"",
                     "name": "page",
                     "namespace": "django.core.paginator.Paginator.page",
-                    "class_name": "",
+                    "class_name": "django.core.paginator.Paginator",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -75,7 +75,7 @@
                     "docstring": "\"\"\"\n        Return an instance of a single page.\n\n        This hook can be used by subclasses to use an alternative to the\n        standard :cls:`Page` object.\n        \"\"\"",
                     "name": "_get_page",
                     "namespace": "django.core.paginator.Paginator._get_page",
-                    "class_name": "",
+                    "class_name": "django.core.paginator.Paginator",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -83,7 +83,7 @@
                     "docstring": "\"\"\"Return the total number of objects, across all pages.\"\"\"",
                     "name": "count",
                     "namespace": "django.core.paginator.Paginator.count",
-                    "class_name": "",
+                    "class_name": "django.core.paginator.Paginator",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -91,7 +91,7 @@
                     "docstring": "\"\"\"Return the total number of pages.\"\"\"",
                     "name": "num_pages",
                     "namespace": "django.core.paginator.Paginator.num_pages",
-                    "class_name": "",
+                    "class_name": "django.core.paginator.Paginator",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -99,7 +99,7 @@
                     "docstring": "\"\"\"\n        Return a 1-based range of pages for iterating through within\n        a template for loop.\n        \"\"\"",
                     "name": "page_range",
                     "namespace": "django.core.paginator.Paginator.page_range",
-                    "class_name": "",
+                    "class_name": "django.core.paginator.Paginator",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -107,7 +107,7 @@
                     "docstring": "\"\"\"\n        Warn if self.object_list is unordered (typically a QuerySet).\n        \"\"\"",
                     "name": "_check_object_list_is_ordered",
                     "namespace": "django.core.paginator.Paginator._check_object_list_is_ordered",
-                    "class_name": "",
+                    "class_name": "django.core.paginator.Paginator",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -115,7 +115,7 @@
                     "docstring": "\"\"\"\n        Return a 1-based range of pages with some values elided.\n\n        If the page range is larger than a given size, the whole range is not\n        provided and a compact form is returned instead, e.g. for a paginator\n        with 50 pages, if page 43 were the current page, the output, with the\n        default arguments, would be:\n\n            1, 2, \u2026, 40, 41, 42, 43, 44, 45, 46, \u2026, 49, 50.\n        \"\"\"",
                     "name": "get_elided_page_range",
                     "namespace": "django.core.paginator.Paginator.get_elided_page_range",
-                    "class_name": "",
+                    "class_name": "django.core.paginator.Paginator",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -130,7 +130,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.core.paginator.Page.__init__",
-                    "class_name": "",
+                    "class_name": "django.core.paginator.Page",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -138,7 +138,7 @@
                     "docstring": "",
                     "name": "__repr__",
                     "namespace": "django.core.paginator.Page.__repr__",
-                    "class_name": "",
+                    "class_name": "django.core.paginator.Page",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -146,7 +146,7 @@
                     "docstring": "",
                     "name": "__len__",
                     "namespace": "django.core.paginator.Page.__len__",
-                    "class_name": "",
+                    "class_name": "django.core.paginator.Page",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -154,7 +154,7 @@
                     "docstring": "",
                     "name": "__getitem__",
                     "namespace": "django.core.paginator.Page.__getitem__",
-                    "class_name": "",
+                    "class_name": "django.core.paginator.Page",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -162,7 +162,7 @@
                     "docstring": "",
                     "name": "has_next",
                     "namespace": "django.core.paginator.Page.has_next",
-                    "class_name": "",
+                    "class_name": "django.core.paginator.Page",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -170,7 +170,7 @@
                     "docstring": "",
                     "name": "has_previous",
                     "namespace": "django.core.paginator.Page.has_previous",
-                    "class_name": "",
+                    "class_name": "django.core.paginator.Page",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -178,7 +178,7 @@
                     "docstring": "",
                     "name": "has_other_pages",
                     "namespace": "django.core.paginator.Page.has_other_pages",
-                    "class_name": "",
+                    "class_name": "django.core.paginator.Page",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -186,7 +186,7 @@
                     "docstring": "",
                     "name": "next_page_number",
                     "namespace": "django.core.paginator.Page.next_page_number",
-                    "class_name": "",
+                    "class_name": "django.core.paginator.Page",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -194,7 +194,7 @@
                     "docstring": "",
                     "name": "previous_page_number",
                     "namespace": "django.core.paginator.Page.previous_page_number",
-                    "class_name": "",
+                    "class_name": "django.core.paginator.Page",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -202,7 +202,7 @@
                     "docstring": "\"\"\"\n        Return the 1-based index of the first object on this page,\n        relative to total objects in the paginator.\n        \"\"\"",
                     "name": "start_index",
                     "namespace": "django.core.paginator.Page.start_index",
-                    "class_name": "",
+                    "class_name": "django.core.paginator.Page",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -210,7 +210,7 @@
                     "docstring": "\"\"\"\n        Return the 1-based index of the last object on this page,\n        relative to total objects found (hits).\n        \"\"\"",
                     "name": "end_index",
                     "namespace": "django.core.paginator.Page.end_index",
-                    "class_name": "",
+                    "class_name": "django.core.paginator.Page",
                     "module_name": "",
                     "package_name": ""
                 }

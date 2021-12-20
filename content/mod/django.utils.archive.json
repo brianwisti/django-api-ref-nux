@@ -23,7 +23,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.utils.archive.Archive.__init__",
-                    "class_name": "",
+                    "class_name": "django.utils.archive.Archive",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -31,7 +31,7 @@
                     "docstring": "",
                     "name": "_archive_cls",
                     "namespace": "django.utils.archive.Archive._archive_cls",
-                    "class_name": "",
+                    "class_name": "django.utils.archive.Archive",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -39,7 +39,7 @@
                     "docstring": "",
                     "name": "__enter__",
                     "namespace": "django.utils.archive.Archive.__enter__",
-                    "class_name": "",
+                    "class_name": "django.utils.archive.Archive",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -47,7 +47,7 @@
                     "docstring": "",
                     "name": "__exit__",
                     "namespace": "django.utils.archive.Archive.__exit__",
-                    "class_name": "",
+                    "class_name": "django.utils.archive.Archive",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -55,7 +55,7 @@
                     "docstring": "",
                     "name": "extract",
                     "namespace": "django.utils.archive.Archive.extract",
-                    "class_name": "",
+                    "class_name": "django.utils.archive.Archive",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -63,7 +63,7 @@
                     "docstring": "",
                     "name": "list",
                     "namespace": "django.utils.archive.Archive.list",
-                    "class_name": "",
+                    "class_name": "django.utils.archive.Archive",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -71,7 +71,7 @@
                     "docstring": "",
                     "name": "close",
                     "namespace": "django.utils.archive.Archive.close",
-                    "class_name": "",
+                    "class_name": "django.utils.archive.Archive",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -86,7 +86,7 @@
                     "docstring": "\"\"\"\n        If the file in the archive has some permissions (this assumes a file\n        won't be writable/executable without being readable), apply those\n        permissions to the unarchived file.\n        \"\"\"",
                     "name": "_copy_permissions",
                     "namespace": "django.utils.archive.BaseArchive._copy_permissions",
-                    "class_name": "",
+                    "class_name": "django.utils.archive.BaseArchive",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -94,7 +94,7 @@
                     "docstring": "",
                     "name": "split_leading_dir",
                     "namespace": "django.utils.archive.BaseArchive.split_leading_dir",
-                    "class_name": "",
+                    "class_name": "django.utils.archive.BaseArchive",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -102,7 +102,7 @@
                     "docstring": "\"\"\"\n        Return True if all the paths have the same leading path name\n        (i.e., everything is in one subdirectory in an archive).\n        \"\"\"",
                     "name": "has_leading_dir",
                     "namespace": "django.utils.archive.BaseArchive.has_leading_dir",
-                    "class_name": "",
+                    "class_name": "django.utils.archive.BaseArchive",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -110,7 +110,7 @@
                     "docstring": "",
                     "name": "target_filename",
                     "namespace": "django.utils.archive.BaseArchive.target_filename",
-                    "class_name": "",
+                    "class_name": "django.utils.archive.BaseArchive",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -118,7 +118,7 @@
                     "docstring": "",
                     "name": "extract",
                     "namespace": "django.utils.archive.BaseArchive.extract",
-                    "class_name": "",
+                    "class_name": "django.utils.archive.BaseArchive",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -126,7 +126,7 @@
                     "docstring": "",
                     "name": "list",
                     "namespace": "django.utils.archive.BaseArchive.list",
-                    "class_name": "",
+                    "class_name": "django.utils.archive.BaseArchive",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -141,7 +141,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.utils.archive.TarArchive.__init__",
-                    "class_name": "",
+                    "class_name": "django.utils.archive.TarArchive",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -149,7 +149,7 @@
                     "docstring": "",
                     "name": "list",
                     "namespace": "django.utils.archive.TarArchive.list",
-                    "class_name": "",
+                    "class_name": "django.utils.archive.TarArchive",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -157,7 +157,7 @@
                     "docstring": "",
                     "name": "extract",
                     "namespace": "django.utils.archive.TarArchive.extract",
-                    "class_name": "",
+                    "class_name": "django.utils.archive.TarArchive",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -165,7 +165,7 @@
                     "docstring": "",
                     "name": "close",
                     "namespace": "django.utils.archive.TarArchive.close",
-                    "class_name": "",
+                    "class_name": "django.utils.archive.TarArchive",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -180,7 +180,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.utils.archive.ZipArchive.__init__",
-                    "class_name": "",
+                    "class_name": "django.utils.archive.ZipArchive",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -188,7 +188,7 @@
                     "docstring": "",
                     "name": "list",
                     "namespace": "django.utils.archive.ZipArchive.list",
-                    "class_name": "",
+                    "class_name": "django.utils.archive.ZipArchive",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -196,7 +196,7 @@
                     "docstring": "",
                     "name": "extract",
                     "namespace": "django.utils.archive.ZipArchive.extract",
-                    "class_name": "",
+                    "class_name": "django.utils.archive.ZipArchive",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -204,7 +204,7 @@
                     "docstring": "",
                     "name": "close",
                     "namespace": "django.utils.archive.ZipArchive.close",
-                    "class_name": "",
+                    "class_name": "django.utils.archive.ZipArchive",
                     "module_name": "",
                     "package_name": ""
                 }

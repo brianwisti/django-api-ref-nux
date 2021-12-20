@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Apply (if callable) or prepend (if a string) upload_to to the filename,\n        then delegate further processing of the name to the storage backend.\n        Until the storage layer, all file paths are expected to be Unix style\n        (with forward slashes).\n        \"\"\"",
     "name": "generate_filename",
     "namespace": "django.db.models.fields.files.FileField.generate_filename",
-    "class_name": "",
+    "class_name": "django.db.models.fields.files.FileField",
     "module_name": "",
     "package_name": ""
 }

@@ -11,7 +11,7 @@
                     "docstring": "\"\"\"\n        Initialize on the given sequence -- may take lists, tuples, NumPy arrays\n        of X,Y pairs, or Point objects.  If Point objects are used, ownership is\n        _not_ transferred to the LineString object.\n\n        Examples:\n         ls = LineString((1, 1), (2, 2))\n         ls = LineString([(1, 1), (2, 2)])\n         ls = LineString(array([(1, 1), (2, 2)]))\n         ls = LineString(Point(1, 1), Point(2, 2))\n        \"\"\"",
                     "name": "__init__",
                     "namespace": "django.contrib.gis.geos.linestring.LineString.__init__",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.geos.linestring.LineString",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "\"Allow iteration over this LineString.\"",
                     "name": "__iter__",
                     "namespace": "django.contrib.gis.geos.linestring.LineString.__iter__",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.geos.linestring.LineString",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -27,7 +27,7 @@
                     "docstring": "\"Return the number of points in this LineString.\"",
                     "name": "__len__",
                     "namespace": "django.contrib.gis.geos.linestring.LineString.__len__",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.geos.linestring.LineString",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -35,7 +35,7 @@
                     "docstring": "",
                     "name": "_get_single_external",
                     "namespace": "django.contrib.gis.geos.linestring.LineString._get_single_external",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.geos.linestring.LineString",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -43,7 +43,7 @@
                     "docstring": "",
                     "name": "_set_list",
                     "namespace": "django.contrib.gis.geos.linestring.LineString._set_list",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.geos.linestring.LineString",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -51,7 +51,7 @@
                     "docstring": "",
                     "name": "_set_single",
                     "namespace": "django.contrib.gis.geos.linestring.LineString._set_single",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.geos.linestring.LineString",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -59,7 +59,7 @@
                     "docstring": "",
                     "name": "_checkdim",
                     "namespace": "django.contrib.gis.geos.linestring.LineString._checkdim",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.geos.linestring.LineString",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -67,7 +67,7 @@
                     "docstring": "\"Return a tuple version of the geometry from the coordinate sequence.\"",
                     "name": "tuple",
                     "namespace": "django.contrib.gis.geos.linestring.LineString.tuple",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.geos.linestring.LineString",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -75,7 +75,7 @@
                     "docstring": "\"\"\"\n        Return a sequence (list) corresponding with the given function.\n        Return a numpy array if possible.\n        \"\"\"",
                     "name": "_listarr",
                     "namespace": "django.contrib.gis.geos.linestring.LineString._listarr",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.geos.linestring.LineString",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -83,7 +83,7 @@
                     "docstring": "\"Return a numpy array for the LineString.\"",
                     "name": "array",
                     "namespace": "django.contrib.gis.geos.linestring.LineString.array",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.geos.linestring.LineString",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -91,7 +91,7 @@
                     "docstring": "\"Return a list or numpy array of the X variable.\"",
                     "name": "x",
                     "namespace": "django.contrib.gis.geos.linestring.LineString.x",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.geos.linestring.LineString",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -99,7 +99,7 @@
                     "docstring": "\"Return a list or numpy array of the Y variable.\"",
                     "name": "y",
                     "namespace": "django.contrib.gis.geos.linestring.LineString.y",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.geos.linestring.LineString",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -107,7 +107,7 @@
                     "docstring": "\"Return a list or numpy array of the Z variable.\"",
                     "name": "z",
                     "namespace": "django.contrib.gis.geos.linestring.LineString.z",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.geos.linestring.LineString",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -122,7 +122,7 @@
                     "docstring": "",
                     "name": "is_counterclockwise",
                     "namespace": "django.contrib.gis.geos.linestring.LinearRing.is_counterclockwise",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.geos.linestring.LinearRing",
                     "module_name": "",
                     "package_name": ""
                 }

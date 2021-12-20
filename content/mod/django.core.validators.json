@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.core.validators.RegexValidator.__init__",
-                    "class_name": "",
+                    "class_name": "django.core.validators.RegexValidator",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "\"\"\"\n        Validate that the input contains (or does *not* contain, if\n        inverse_match is True) a match for the regular expression.\n        \"\"\"",
                     "name": "__call__",
                     "namespace": "django.core.validators.RegexValidator.__call__",
-                    "class_name": "",
+                    "class_name": "django.core.validators.RegexValidator",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -27,7 +27,7 @@
                     "docstring": "",
                     "name": "__eq__",
                     "namespace": "django.core.validators.RegexValidator.__eq__",
-                    "class_name": "",
+                    "class_name": "django.core.validators.RegexValidator",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -42,7 +42,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.core.validators.URLValidator.__init__",
-                    "class_name": "",
+                    "class_name": "django.core.validators.URLValidator",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -50,7 +50,7 @@
                     "docstring": "",
                     "name": "__call__",
                     "namespace": "django.core.validators.URLValidator.__call__",
-                    "class_name": "",
+                    "class_name": "django.core.validators.URLValidator",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -65,7 +65,7 @@
                     "docstring": "",
                     "name": "domain_whitelist",
                     "namespace": "django.core.validators.EmailValidator.domain_whitelist",
-                    "class_name": "",
+                    "class_name": "django.core.validators.EmailValidator",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -73,7 +73,7 @@
                     "docstring": "",
                     "name": "domain_whitelist",
                     "namespace": "django.core.validators.EmailValidator.domain_whitelist",
-                    "class_name": "",
+                    "class_name": "django.core.validators.EmailValidator",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -81,7 +81,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.core.validators.EmailValidator.__init__",
-                    "class_name": "",
+                    "class_name": "django.core.validators.EmailValidator",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -89,7 +89,7 @@
                     "docstring": "",
                     "name": "__call__",
                     "namespace": "django.core.validators.EmailValidator.__call__",
-                    "class_name": "",
+                    "class_name": "django.core.validators.EmailValidator",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -97,7 +97,7 @@
                     "docstring": "",
                     "name": "validate_domain_part",
                     "namespace": "django.core.validators.EmailValidator.validate_domain_part",
-                    "class_name": "",
+                    "class_name": "django.core.validators.EmailValidator",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -105,7 +105,7 @@
                     "docstring": "",
                     "name": "__eq__",
                     "namespace": "django.core.validators.EmailValidator.__eq__",
-                    "class_name": "",
+                    "class_name": "django.core.validators.EmailValidator",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -120,7 +120,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.core.validators.BaseValidator.__init__",
-                    "class_name": "",
+                    "class_name": "django.core.validators.BaseValidator",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -128,7 +128,7 @@
                     "docstring": "",
                     "name": "__call__",
                     "namespace": "django.core.validators.BaseValidator.__call__",
-                    "class_name": "",
+                    "class_name": "django.core.validators.BaseValidator",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -136,7 +136,7 @@
                     "docstring": "",
                     "name": "__eq__",
                     "namespace": "django.core.validators.BaseValidator.__eq__",
-                    "class_name": "",
+                    "class_name": "django.core.validators.BaseValidator",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -144,7 +144,7 @@
                     "docstring": "",
                     "name": "compare",
                     "namespace": "django.core.validators.BaseValidator.compare",
-                    "class_name": "",
+                    "class_name": "django.core.validators.BaseValidator",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -152,7 +152,7 @@
                     "docstring": "",
                     "name": "clean",
                     "namespace": "django.core.validators.BaseValidator.clean",
-                    "class_name": "",
+                    "class_name": "django.core.validators.BaseValidator",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -167,7 +167,7 @@
                     "docstring": "",
                     "name": "compare",
                     "namespace": "django.core.validators.MaxValueValidator.compare",
-                    "class_name": "",
+                    "class_name": "django.core.validators.MaxValueValidator",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -182,7 +182,7 @@
                     "docstring": "",
                     "name": "compare",
                     "namespace": "django.core.validators.MinValueValidator.compare",
-                    "class_name": "",
+                    "class_name": "django.core.validators.MinValueValidator",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -197,7 +197,7 @@
                     "docstring": "",
                     "name": "compare",
                     "namespace": "django.core.validators.MinLengthValidator.compare",
-                    "class_name": "",
+                    "class_name": "django.core.validators.MinLengthValidator",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -205,7 +205,7 @@
                     "docstring": "",
                     "name": "clean",
                     "namespace": "django.core.validators.MinLengthValidator.clean",
-                    "class_name": "",
+                    "class_name": "django.core.validators.MinLengthValidator",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -220,7 +220,7 @@
                     "docstring": "",
                     "name": "compare",
                     "namespace": "django.core.validators.MaxLengthValidator.compare",
-                    "class_name": "",
+                    "class_name": "django.core.validators.MaxLengthValidator",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -228,7 +228,7 @@
                     "docstring": "",
                     "name": "clean",
                     "namespace": "django.core.validators.MaxLengthValidator.clean",
-                    "class_name": "",
+                    "class_name": "django.core.validators.MaxLengthValidator",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -243,7 +243,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.core.validators.DecimalValidator.__init__",
-                    "class_name": "",
+                    "class_name": "django.core.validators.DecimalValidator",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -251,7 +251,7 @@
                     "docstring": "",
                     "name": "__call__",
                     "namespace": "django.core.validators.DecimalValidator.__call__",
-                    "class_name": "",
+                    "class_name": "django.core.validators.DecimalValidator",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -259,7 +259,7 @@
                     "docstring": "",
                     "name": "__eq__",
                     "namespace": "django.core.validators.DecimalValidator.__eq__",
-                    "class_name": "",
+                    "class_name": "django.core.validators.DecimalValidator",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -274,7 +274,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.core.validators.FileExtensionValidator.__init__",
-                    "class_name": "",
+                    "class_name": "django.core.validators.FileExtensionValidator",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -282,7 +282,7 @@
                     "docstring": "",
                     "name": "__call__",
                     "namespace": "django.core.validators.FileExtensionValidator.__call__",
-                    "class_name": "",
+                    "class_name": "django.core.validators.FileExtensionValidator",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -290,7 +290,7 @@
                     "docstring": "",
                     "name": "__eq__",
                     "namespace": "django.core.validators.FileExtensionValidator.__eq__",
-                    "class_name": "",
+                    "class_name": "django.core.validators.FileExtensionValidator",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -305,7 +305,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.core.validators.ProhibitNullCharactersValidator.__init__",
-                    "class_name": "",
+                    "class_name": "django.core.validators.ProhibitNullCharactersValidator",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -313,7 +313,7 @@
                     "docstring": "",
                     "name": "__call__",
                     "namespace": "django.core.validators.ProhibitNullCharactersValidator.__call__",
-                    "class_name": "",
+                    "class_name": "django.core.validators.ProhibitNullCharactersValidator",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -321,7 +321,7 @@
                     "docstring": "",
                     "name": "__eq__",
                     "namespace": "django.core.validators.ProhibitNullCharactersValidator.__eq__",
-                    "class_name": "",
+                    "class_name": "django.core.validators.ProhibitNullCharactersValidator",
                     "module_name": "",
                     "package_name": ""
                 }

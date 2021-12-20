@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Given a migration node or nodes, return a complete ProjectState for it.\n        If at_end is False, return the state before the migration has run.\n        If nodes is not provided, return the overall most current project state.\n        \"\"\"",
     "name": "make_state",
     "namespace": "django.db.migrations.graph.MigrationGraph.make_state",
-    "class_name": "",
+    "class_name": "django.db.migrations.graph.MigrationGraph",
     "module_name": "",
     "package_name": ""
 }

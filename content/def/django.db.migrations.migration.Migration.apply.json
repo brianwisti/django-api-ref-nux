@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Take a project_state representing all migrations prior to this one\n        and a schema_editor for a live database and apply the migration\n        in a forwards order.\n\n        Return the resulting project state for efficient reuse by following\n        Migrations.\n        \"\"\"",
     "name": "apply",
     "namespace": "django.db.migrations.migration.Migration.apply",
-    "class_name": "",
+    "class_name": "django.db.migrations.migration.Migration",
     "module_name": "",
     "package_name": ""
 }

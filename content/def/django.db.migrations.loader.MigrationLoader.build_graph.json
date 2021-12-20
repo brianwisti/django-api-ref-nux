@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Build a migration dependency graph using both the disk and database.\n        You'll need to rebuild the graph if you apply migrations. This isn't\n        usually a problem as generally migration stuff runs in a one-shot process.\n        \"\"\"",
     "name": "build_graph",
     "namespace": "django.db.migrations.loader.MigrationLoader.build_graph",
-    "class_name": "",
+    "class_name": "django.db.migrations.loader.MigrationLoader",
     "module_name": "",
     "package_name": ""
 }

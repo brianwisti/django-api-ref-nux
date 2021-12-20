@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return the SQL that will set the connection's time zone.\n\n        Return '' if the backend doesn't support time zones.\n        \"\"\"",
     "name": "set_time_zone_sql",
     "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.set_time_zone_sql",
-    "class_name": "",
+    "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
     "module_name": "",
     "package_name": ""
 }

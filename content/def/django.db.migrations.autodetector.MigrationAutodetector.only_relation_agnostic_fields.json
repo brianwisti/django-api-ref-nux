@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return a definition of the fields that ignores field names and\n        what related fields actually relate to. Used for detecting renames (as\n        the related fields change during renames).\n        \"\"\"",
     "name": "only_relation_agnostic_fields",
     "namespace": "django.db.migrations.autodetector.MigrationAutodetector.only_relation_agnostic_fields",
-    "class_name": "",
+    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
     "module_name": "",
     "package_name": ""
 }

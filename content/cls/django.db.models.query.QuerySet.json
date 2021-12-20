@@ -9,7 +9,7 @@
             "docstring": "",
             "name": "__init__",
             "namespace": "django.db.models.query.QuerySet.__init__",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "",
             "name": "query",
             "namespace": "django.db.models.query.QuerySet.query",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "",
             "name": "query",
             "namespace": "django.db.models.query.QuerySet.query",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "",
             "name": "as_manager",
             "namespace": "django.db.models.query.QuerySet.as_manager",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -41,7 +41,7 @@
             "docstring": "\"\"\"Don't populate the QuerySet's cache.\"\"\"",
             "name": "__deepcopy__",
             "namespace": "django.db.models.query.QuerySet.__deepcopy__",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -49,7 +49,7 @@
             "docstring": "",
             "name": "__getstate__",
             "namespace": "django.db.models.query.QuerySet.__getstate__",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -57,7 +57,7 @@
             "docstring": "",
             "name": "__setstate__",
             "namespace": "django.db.models.query.QuerySet.__setstate__",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -65,7 +65,7 @@
             "docstring": "",
             "name": "__repr__",
             "namespace": "django.db.models.query.QuerySet.__repr__",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -73,7 +73,7 @@
             "docstring": "",
             "name": "__len__",
             "namespace": "django.db.models.query.QuerySet.__len__",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -81,7 +81,7 @@
             "docstring": "\"\"\"\n        The queryset iterator protocol uses three nested iterators in the\n        default case:\n            1. sql.compiler.execute_sql()\n               - Returns 100 rows at time (constants.GET_ITERATOR_CHUNK_SIZE)\n                 using cursor.fetchmany(). This part is responsible for\n                 doing some column masking, and returning the rows in chunks.\n            2. sql.compiler.results_iter()\n               - Returns one row at time. At this point the rows are still just\n                 tuples. In some cases the return values are converted to\n                 Python values at this location.\n            3. self.iterator()\n               - Responsible for turning the rows into model objects.\n        \"\"\"",
             "name": "__iter__",
             "namespace": "django.db.models.query.QuerySet.__iter__",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -89,7 +89,7 @@
             "docstring": "",
             "name": "__bool__",
             "namespace": "django.db.models.query.QuerySet.__bool__",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -97,7 +97,7 @@
             "docstring": "\"\"\"Retrieve an item or slice from the set of results.\"\"\"",
             "name": "__getitem__",
             "namespace": "django.db.models.query.QuerySet.__getitem__",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -105,7 +105,7 @@
             "docstring": "",
             "name": "__class_getitem__",
             "namespace": "django.db.models.query.QuerySet.__class_getitem__",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -113,7 +113,7 @@
             "docstring": "",
             "name": "__and__",
             "namespace": "django.db.models.query.QuerySet.__and__",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -121,7 +121,7 @@
             "docstring": "",
             "name": "__or__",
             "namespace": "django.db.models.query.QuerySet.__or__",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -129,7 +129,7 @@
             "docstring": "",
             "name": "_iterator",
             "namespace": "django.db.models.query.QuerySet._iterator",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -137,7 +137,7 @@
             "docstring": "\"\"\"\n        An iterator over the results from applying this QuerySet to the\n        database.\n        \"\"\"",
             "name": "iterator",
             "namespace": "django.db.models.query.QuerySet.iterator",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -145,7 +145,7 @@
             "docstring": "\"\"\"\n        Return a dictionary containing the calculations (aggregation)\n        over the current queryset.\n\n        If args is present the expression is passed as a kwarg using\n        the Aggregate object's default alias.\n        \"\"\"",
             "name": "aggregate",
             "namespace": "django.db.models.query.QuerySet.aggregate",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -153,7 +153,7 @@
             "docstring": "\"\"\"\n        Perform a SELECT COUNT() and return the number of records as an\n        integer.\n\n        If the QuerySet is already fully cached, return the length of the\n        cached results set to avoid multiple SELECT COUNT(*) calls.\n        \"\"\"",
             "name": "count",
             "namespace": "django.db.models.query.QuerySet.count",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -161,7 +161,7 @@
             "docstring": "\"\"\"\n        Perform the query and return a single object matching the given\n        keyword arguments.\n        \"\"\"",
             "name": "get",
             "namespace": "django.db.models.query.QuerySet.get",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -169,7 +169,7 @@
             "docstring": "\"\"\"\n        Create a new object with the given kwargs, saving it to the database\n        and returning the created object.\n        \"\"\"",
             "name": "create",
             "namespace": "django.db.models.query.QuerySet.create",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -177,7 +177,7 @@
             "docstring": "",
             "name": "_prepare_for_bulk_create",
             "namespace": "django.db.models.query.QuerySet._prepare_for_bulk_create",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -185,7 +185,7 @@
             "docstring": "\"\"\"\n        Insert each of the instances into the database. Do *not* call\n        save() on each of the instances, do not send any pre/post_save\n        signals, and do not set the primary key attribute if it is an\n        autoincrement field (except if features.can_return_rows_from_bulk_insert=True).\n        Multi-table models are not supported.\n        \"\"\"",
             "name": "bulk_create",
             "namespace": "django.db.models.query.QuerySet.bulk_create",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -193,7 +193,7 @@
             "docstring": "\"\"\"\n        Update the given fields in each of the given objects in the database.\n        \"\"\"",
             "name": "bulk_update",
             "namespace": "django.db.models.query.QuerySet.bulk_update",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -201,7 +201,7 @@
             "docstring": "\"\"\"\n        Look up an object with the given kwargs, creating one if necessary.\n        Return a tuple of (object, created), where created is a boolean\n        specifying whether an object was created.\n        \"\"\"",
             "name": "get_or_create",
             "namespace": "django.db.models.query.QuerySet.get_or_create",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -209,7 +209,7 @@
             "docstring": "\"\"\"\n        Look up an object with the given kwargs, updating one with defaults\n        if it exists, otherwise create a new one.\n        Return a tuple (object, created), where created is a boolean\n        specifying whether an object was created.\n        \"\"\"",
             "name": "update_or_create",
             "namespace": "django.db.models.query.QuerySet.update_or_create",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -217,7 +217,7 @@
             "docstring": "\"\"\"\n        Prepare `params` for creating a model instance based on the given\n        kwargs; for use by get_or_create().\n        \"\"\"",
             "name": "_extract_model_params",
             "namespace": "django.db.models.query.QuerySet._extract_model_params",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -225,7 +225,7 @@
             "docstring": "\"\"\"\n        Return the earliest object according to fields (if given) or by the\n        model's Meta.get_latest_by.\n        \"\"\"",
             "name": "_earliest",
             "namespace": "django.db.models.query.QuerySet._earliest",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -233,7 +233,7 @@
             "docstring": "",
             "name": "earliest",
             "namespace": "django.db.models.query.QuerySet.earliest",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -241,7 +241,7 @@
             "docstring": "",
             "name": "latest",
             "namespace": "django.db.models.query.QuerySet.latest",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -249,7 +249,7 @@
             "docstring": "\"\"\"Return the first object of a query or None if no match is found.\"\"\"",
             "name": "first",
             "namespace": "django.db.models.query.QuerySet.first",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -257,7 +257,7 @@
             "docstring": "\"\"\"Return the last object of a query or None if no match is found.\"\"\"",
             "name": "last",
             "namespace": "django.db.models.query.QuerySet.last",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -265,7 +265,7 @@
             "docstring": "\"\"\"\n        Return a dictionary mapping each of the given IDs to the object with\n        that ID. If `id_list` isn't provided, evaluate the entire QuerySet.\n        \"\"\"",
             "name": "in_bulk",
             "namespace": "django.db.models.query.QuerySet.in_bulk",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -273,7 +273,7 @@
             "docstring": "\"\"\"Delete the records in the current QuerySet.\"\"\"",
             "name": "delete",
             "namespace": "django.db.models.query.QuerySet.delete",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -281,7 +281,7 @@
             "docstring": "\"\"\"\n        Delete objects found from the given queryset in single direct SQL\n        query. No signals are sent and there is no protection for cascades.\n        \"\"\"",
             "name": "_raw_delete",
             "namespace": "django.db.models.query.QuerySet._raw_delete",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -289,7 +289,7 @@
             "docstring": "\"\"\"\n        Update all elements in the current QuerySet, setting all the given\n        fields to the appropriate values.\n        \"\"\"",
             "name": "update",
             "namespace": "django.db.models.query.QuerySet.update",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -297,7 +297,7 @@
             "docstring": "\"\"\"\n        A version of update() that accepts field objects instead of field names.\n        Used primarily for model saving and not intended for use by general\n        code (it requires too much poking around at model internals to be\n        useful at that level).\n        \"\"\"",
             "name": "_update",
             "namespace": "django.db.models.query.QuerySet._update",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -305,7 +305,7 @@
             "docstring": "",
             "name": "exists",
             "namespace": "django.db.models.query.QuerySet.exists",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -313,7 +313,7 @@
             "docstring": "\"\"\"Return True if the queryset contains an object.\"\"\"",
             "name": "contains",
             "namespace": "django.db.models.query.QuerySet.contains",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -321,7 +321,7 @@
             "docstring": "",
             "name": "_prefetch_related_objects",
             "namespace": "django.db.models.query.QuerySet._prefetch_related_objects",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -329,7 +329,7 @@
             "docstring": "",
             "name": "explain",
             "namespace": "django.db.models.query.QuerySet.explain",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -337,7 +337,7 @@
             "docstring": "",
             "name": "raw",
             "namespace": "django.db.models.query.QuerySet.raw",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -345,7 +345,7 @@
             "docstring": "",
             "name": "_values",
             "namespace": "django.db.models.query.QuerySet._values",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -353,7 +353,7 @@
             "docstring": "",
             "name": "values",
             "namespace": "django.db.models.query.QuerySet.values",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -361,7 +361,7 @@
             "docstring": "",
             "name": "values_list",
             "namespace": "django.db.models.query.QuerySet.values_list",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -369,7 +369,7 @@
             "docstring": "\"\"\"\n        Return a list of date objects representing all available dates for\n        the given field_name, scoped to 'kind'.\n        \"\"\"",
             "name": "dates",
             "namespace": "django.db.models.query.QuerySet.dates",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -377,7 +377,7 @@
             "docstring": "\"\"\"\n        Return a list of datetime objects representing all available\n        datetimes for the given field_name, scoped to 'kind'.\n        \"\"\"",
             "name": "datetimes",
             "namespace": "django.db.models.query.QuerySet.datetimes",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -385,7 +385,7 @@
             "docstring": "\"\"\"Return an empty QuerySet.\"\"\"",
             "name": "none",
             "namespace": "django.db.models.query.QuerySet.none",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -393,7 +393,7 @@
             "docstring": "\"\"\"\n        Return a new QuerySet that is a copy of the current one. This allows a\n        QuerySet to proxy for a model manager in some cases.\n        \"\"\"",
             "name": "all",
             "namespace": "django.db.models.query.QuerySet.all",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -401,7 +401,7 @@
             "docstring": "\"\"\"\n        Return a new QuerySet instance with the args ANDed to the existing\n        set.\n        \"\"\"",
             "name": "filter",
             "namespace": "django.db.models.query.QuerySet.filter",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -409,7 +409,7 @@
             "docstring": "\"\"\"\n        Return a new QuerySet instance with NOT (args) ANDed to the existing\n        set.\n        \"\"\"",
             "name": "exclude",
             "namespace": "django.db.models.query.QuerySet.exclude",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -417,7 +417,7 @@
             "docstring": "",
             "name": "_filter_or_exclude",
             "namespace": "django.db.models.query.QuerySet._filter_or_exclude",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -425,7 +425,7 @@
             "docstring": "",
             "name": "_filter_or_exclude_inplace",
             "namespace": "django.db.models.query.QuerySet._filter_or_exclude_inplace",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -433,7 +433,7 @@
             "docstring": "\"\"\"\n        Return a new QuerySet instance with filter_obj added to the filters.\n\n        filter_obj can be a Q object or a dictionary of keyword lookup\n        arguments.\n\n        This exists to support framework features such as 'limit_choices_to',\n        and usually it will be more natural to use other methods.\n        \"\"\"",
             "name": "complex_filter",
             "namespace": "django.db.models.query.QuerySet.complex_filter",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -441,7 +441,7 @@
             "docstring": "",
             "name": "_combinator_query",
             "namespace": "django.db.models.query.QuerySet._combinator_query",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -449,7 +449,7 @@
             "docstring": "",
             "name": "union",
             "namespace": "django.db.models.query.QuerySet.union",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -457,7 +457,7 @@
             "docstring": "",
             "name": "intersection",
             "namespace": "django.db.models.query.QuerySet.intersection",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -465,7 +465,7 @@
             "docstring": "",
             "name": "difference",
             "namespace": "django.db.models.query.QuerySet.difference",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -473,7 +473,7 @@
             "docstring": "\"\"\"\n        Return a new QuerySet instance that will select objects with a\n        FOR UPDATE lock.\n        \"\"\"",
             "name": "select_for_update",
             "namespace": "django.db.models.query.QuerySet.select_for_update",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -481,7 +481,7 @@
             "docstring": "\"\"\"\n        Return a new QuerySet instance that will select related objects.\n\n        If fields are specified, they must be ForeignKey fields and only those\n        related objects are included in the selection.\n\n        If select_related(None) is called, clear the list.\n        \"\"\"",
             "name": "select_related",
             "namespace": "django.db.models.query.QuerySet.select_related",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -489,7 +489,7 @@
             "docstring": "\"\"\"\n        Return a new QuerySet instance that will prefetch the specified\n        Many-To-One and Many-To-Many related objects when the QuerySet is\n        evaluated.\n\n        When prefetch_related() is called more than once, append to the list of\n        prefetch lookups. If prefetch_related(None) is called, clear the list.\n        \"\"\"",
             "name": "prefetch_related",
             "namespace": "django.db.models.query.QuerySet.prefetch_related",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -497,7 +497,7 @@
             "docstring": "\"\"\"\n        Return a query set in which the returned objects have been annotated\n        with extra data or aggregations.\n        \"\"\"",
             "name": "annotate",
             "namespace": "django.db.models.query.QuerySet.annotate",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -505,7 +505,7 @@
             "docstring": "\"\"\"\n        Return a query set with added aliases for extra data or aggregations.\n        \"\"\"",
             "name": "alias",
             "namespace": "django.db.models.query.QuerySet.alias",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -513,7 +513,7 @@
             "docstring": "",
             "name": "_annotate",
             "namespace": "django.db.models.query.QuerySet._annotate",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -521,7 +521,7 @@
             "docstring": "\"\"\"Return a new QuerySet instance with the ordering changed.\"\"\"",
             "name": "order_by",
             "namespace": "django.db.models.query.QuerySet.order_by",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -529,7 +529,7 @@
             "docstring": "\"\"\"\n        Return a new QuerySet instance that will select only distinct results.\n        \"\"\"",
             "name": "distinct",
             "namespace": "django.db.models.query.QuerySet.distinct",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -537,7 +537,7 @@
             "docstring": "\"\"\"Add extra SQL fragments to the query.\"\"\"",
             "name": "extra",
             "namespace": "django.db.models.query.QuerySet.extra",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -545,7 +545,7 @@
             "docstring": "\"\"\"Reverse the ordering of the QuerySet.\"\"\"",
             "name": "reverse",
             "namespace": "django.db.models.query.QuerySet.reverse",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -553,7 +553,7 @@
             "docstring": "\"\"\"\n        Defer the loading of data for certain fields until they are accessed.\n        Add the set of deferred fields to any existing set of deferred fields.\n        The only exception to this is if None is passed in as the only\n        parameter, in which case removal all deferrals.\n        \"\"\"",
             "name": "defer",
             "namespace": "django.db.models.query.QuerySet.defer",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -561,7 +561,7 @@
             "docstring": "\"\"\"\n        Essentially, the opposite of defer(). Only the fields passed into this\n        method and that are not already specified as deferred are loaded\n        immediately when the queryset is evaluated.\n        \"\"\"",
             "name": "only",
             "namespace": "django.db.models.query.QuerySet.only",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -569,7 +569,7 @@
             "docstring": "\"\"\"Select which database this QuerySet should execute against.\"\"\"",
             "name": "using",
             "namespace": "django.db.models.query.QuerySet.using",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -577,7 +577,7 @@
             "docstring": "\"\"\"\n        Return True if the QuerySet is ordered -- i.e. has an order_by()\n        clause or a default ordering on the model (or is empty).\n        \"\"\"",
             "name": "ordered",
             "namespace": "django.db.models.query.QuerySet.ordered",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -585,7 +585,7 @@
             "docstring": "\"\"\"Return the database used if this query is executed now.\"\"\"",
             "name": "db",
             "namespace": "django.db.models.query.QuerySet.db",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -593,7 +593,7 @@
             "docstring": "\"\"\"\n        Insert a new record for the given model. This provides an interface to\n        the InsertQuery class and is how Model.save() is implemented.\n        \"\"\"",
             "name": "_insert",
             "namespace": "django.db.models.query.QuerySet._insert",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -601,7 +601,7 @@
             "docstring": "\"\"\"\n        Helper method for bulk_create() to insert objs one batch at a time.\n        \"\"\"",
             "name": "_batched_insert",
             "namespace": "django.db.models.query.QuerySet._batched_insert",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -609,7 +609,7 @@
             "docstring": "\"\"\"\n        Return a copy of the current QuerySet that's ready for another\n        operation.\n        \"\"\"",
             "name": "_chain",
             "namespace": "django.db.models.query.QuerySet._chain",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -617,7 +617,7 @@
             "docstring": "\"\"\"\n        Return a copy of the current QuerySet. A lightweight alternative\n        to deepcopy().\n        \"\"\"",
             "name": "_clone",
             "namespace": "django.db.models.query.QuerySet._clone",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -625,7 +625,7 @@
             "docstring": "",
             "name": "_fetch_all",
             "namespace": "django.db.models.query.QuerySet._fetch_all",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -633,7 +633,7 @@
             "docstring": "\"\"\"\n        Indicate that the next filter call and the one following that should\n        be treated as a single filter. This is only important when it comes to\n        determining when to reuse tables for many-to-many filters. Required so\n        that we can filter naturally on the results of related managers.\n\n        This doesn't return a clone of the current QuerySet (it returns\n        \"self\"). The method is only used internally and should be immediately\n        followed by a filter() that does create a clone.\n        \"\"\"",
             "name": "_next_is_sticky",
             "namespace": "django.db.models.query.QuerySet._next_is_sticky",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -641,7 +641,7 @@
             "docstring": "\"\"\"Check that two QuerySet classes may be merged.\"\"\"",
             "name": "_merge_sanity_check",
             "namespace": "django.db.models.query.QuerySet._merge_sanity_check",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -649,7 +649,7 @@
             "docstring": "\"\"\"\n        Keep track of all known related objects from either QuerySet instance.\n        \"\"\"",
             "name": "_merge_known_related_objects",
             "namespace": "django.db.models.query.QuerySet._merge_known_related_objects",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -657,7 +657,7 @@
             "docstring": "",
             "name": "resolve_expression",
             "namespace": "django.db.models.query.QuerySet.resolve_expression",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -665,7 +665,7 @@
             "docstring": "\"\"\"\n        Update hinting information for use by routers. Add new key/values or\n        overwrite existing key/values.\n        \"\"\"",
             "name": "_add_hints",
             "namespace": "django.db.models.query.QuerySet._add_hints",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -673,7 +673,7 @@
             "docstring": "\"\"\"\n        Check if this QuerySet has any filtering going on. This isn't\n        equivalent with checking if all objects are present in results, for\n        example, qs[1:]._has_filters() -> False.\n        \"\"\"",
             "name": "_has_filters",
             "namespace": "django.db.models.query.QuerySet._has_filters",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -681,7 +681,7 @@
             "docstring": "",
             "name": "_validate_values_are_expressions",
             "namespace": "django.db.models.query.QuerySet._validate_values_are_expressions",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -689,7 +689,7 @@
             "docstring": "",
             "name": "_not_support_combined_queries",
             "namespace": "django.db.models.query.QuerySet._not_support_combined_queries",
-            "class_name": "",
+            "class_name": "django.db.models.query.QuerySet",
             "module_name": "",
             "package_name": ""
         }

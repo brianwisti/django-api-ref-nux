@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        If the ModelAdmin specifies ordering, the queryset should respect that\n        ordering.  Otherwise don't specify the queryset, let the field decide\n        (return None in that case).\n        \"\"\"",
     "name": "get_field_queryset",
     "namespace": "django.contrib.admin.options.BaseModelAdmin.get_field_queryset",
-    "class_name": "",
+    "class_name": "django.contrib.admin.options.BaseModelAdmin",
     "module_name": "",
     "package_name": ""
 }

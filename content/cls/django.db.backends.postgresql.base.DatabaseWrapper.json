@@ -9,7 +9,7 @@
             "docstring": "",
             "name": "get_connection_params",
             "namespace": "django.db.backends.postgresql.base.DatabaseWrapper.get_connection_params",
-            "class_name": "",
+            "class_name": "django.db.backends.postgresql.base.DatabaseWrapper",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "",
             "name": "get_new_connection",
             "namespace": "django.db.backends.postgresql.base.DatabaseWrapper.get_new_connection",
-            "class_name": "",
+            "class_name": "django.db.backends.postgresql.base.DatabaseWrapper",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "",
             "name": "ensure_timezone",
             "namespace": "django.db.backends.postgresql.base.DatabaseWrapper.ensure_timezone",
-            "class_name": "",
+            "class_name": "django.db.backends.postgresql.base.DatabaseWrapper",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "",
             "name": "init_connection_state",
             "namespace": "django.db.backends.postgresql.base.DatabaseWrapper.init_connection_state",
-            "class_name": "",
+            "class_name": "django.db.backends.postgresql.base.DatabaseWrapper",
             "module_name": "",
             "package_name": ""
         },
@@ -41,7 +41,7 @@
             "docstring": "",
             "name": "create_cursor",
             "namespace": "django.db.backends.postgresql.base.DatabaseWrapper.create_cursor",
-            "class_name": "",
+            "class_name": "django.db.backends.postgresql.base.DatabaseWrapper",
             "module_name": "",
             "package_name": ""
         },
@@ -49,7 +49,7 @@
             "docstring": "",
             "name": "tzinfo_factory",
             "namespace": "django.db.backends.postgresql.base.DatabaseWrapper.tzinfo_factory",
-            "class_name": "",
+            "class_name": "django.db.backends.postgresql.base.DatabaseWrapper",
             "module_name": "",
             "package_name": ""
         },
@@ -57,7 +57,7 @@
             "docstring": "",
             "name": "chunked_cursor",
             "namespace": "django.db.backends.postgresql.base.DatabaseWrapper.chunked_cursor",
-            "class_name": "",
+            "class_name": "django.db.backends.postgresql.base.DatabaseWrapper",
             "module_name": "",
             "package_name": ""
         },
@@ -65,7 +65,7 @@
             "docstring": "",
             "name": "_set_autocommit",
             "namespace": "django.db.backends.postgresql.base.DatabaseWrapper._set_autocommit",
-            "class_name": "",
+            "class_name": "django.db.backends.postgresql.base.DatabaseWrapper",
             "module_name": "",
             "package_name": ""
         },
@@ -73,7 +73,7 @@
             "docstring": "\"\"\"\n        Check constraints by setting them to immediate. Return them to deferred\n        afterward.\n        \"\"\"",
             "name": "check_constraints",
             "namespace": "django.db.backends.postgresql.base.DatabaseWrapper.check_constraints",
-            "class_name": "",
+            "class_name": "django.db.backends.postgresql.base.DatabaseWrapper",
             "module_name": "",
             "package_name": ""
         },
@@ -81,7 +81,7 @@
             "docstring": "",
             "name": "is_usable",
             "namespace": "django.db.backends.postgresql.base.DatabaseWrapper.is_usable",
-            "class_name": "",
+            "class_name": "django.db.backends.postgresql.base.DatabaseWrapper",
             "module_name": "",
             "package_name": ""
         },
@@ -89,7 +89,7 @@
             "docstring": "",
             "name": "_nodb_cursor",
             "namespace": "django.db.backends.postgresql.base.DatabaseWrapper._nodb_cursor",
-            "class_name": "",
+            "class_name": "django.db.backends.postgresql.base.DatabaseWrapper",
             "module_name": "",
             "package_name": ""
         },
@@ -97,7 +97,7 @@
             "docstring": "",
             "name": "pg_version",
             "namespace": "django.db.backends.postgresql.base.DatabaseWrapper.pg_version",
-            "class_name": "",
+            "class_name": "django.db.backends.postgresql.base.DatabaseWrapper",
             "module_name": "",
             "package_name": ""
         },
@@ -105,7 +105,7 @@
             "docstring": "",
             "name": "make_debug_cursor",
             "namespace": "django.db.backends.postgresql.base.DatabaseWrapper.make_debug_cursor",
-            "class_name": "",
+            "class_name": "django.db.backends.postgresql.base.DatabaseWrapper",
             "module_name": "",
             "package_name": ""
         }

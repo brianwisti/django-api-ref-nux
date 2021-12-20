@@ -9,7 +9,7 @@
             "docstring": "",
             "name": "__init__",
             "namespace": "django.template.library.InclusionNode.__init__",
-            "class_name": "",
+            "class_name": "django.template.library.InclusionNode",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "\"\"\"\n        Render the specified template and context. Cache the template object\n        in render_context to avoid reparsing and loading when used in a for\n        loop.\n        \"\"\"",
             "name": "render",
             "namespace": "django.template.library.InclusionNode.render",
-            "class_name": "",
+            "class_name": "django.template.library.InclusionNode",
             "module_name": "",
             "package_name": ""
         }

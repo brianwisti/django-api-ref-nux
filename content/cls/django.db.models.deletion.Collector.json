@@ -9,7 +9,7 @@
             "docstring": "",
             "name": "__init__",
             "namespace": "django.db.models.deletion.Collector.__init__",
-            "class_name": "",
+            "class_name": "django.db.models.deletion.Collector",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "\"\"\"\n        Add 'objs' to the collection of objects to be deleted.  If the call is\n        the result of a cascade, 'source' should be the model that caused it,\n        and 'nullable' should be set to True if the relation can be null.\n\n        Return a list of all objects that were not already collected.\n        \"\"\"",
             "name": "add",
             "namespace": "django.db.models.deletion.Collector.add",
-            "class_name": "",
+            "class_name": "django.db.models.deletion.Collector",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "",
             "name": "add_dependency",
             "namespace": "django.db.models.deletion.Collector.add_dependency",
-            "class_name": "",
+            "class_name": "django.db.models.deletion.Collector",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "\"\"\"\n        Schedule a field update. 'objs' must be a homogeneous iterable\n        collection of model instances (e.g. a QuerySet).\n        \"\"\"",
             "name": "add_field_update",
             "namespace": "django.db.models.deletion.Collector.add_field_update",
-            "class_name": "",
+            "class_name": "django.db.models.deletion.Collector",
             "module_name": "",
             "package_name": ""
         },
@@ -41,7 +41,7 @@
             "docstring": "",
             "name": "add_restricted_objects",
             "namespace": "django.db.models.deletion.Collector.add_restricted_objects",
-            "class_name": "",
+            "class_name": "django.db.models.deletion.Collector",
             "module_name": "",
             "package_name": ""
         },
@@ -49,7 +49,7 @@
             "docstring": "",
             "name": "clear_restricted_objects_from_set",
             "namespace": "django.db.models.deletion.Collector.clear_restricted_objects_from_set",
-            "class_name": "",
+            "class_name": "django.db.models.deletion.Collector",
             "module_name": "",
             "package_name": ""
         },
@@ -57,7 +57,7 @@
             "docstring": "",
             "name": "clear_restricted_objects_from_queryset",
             "namespace": "django.db.models.deletion.Collector.clear_restricted_objects_from_queryset",
-            "class_name": "",
+            "class_name": "django.db.models.deletion.Collector",
             "module_name": "",
             "package_name": ""
         },
@@ -65,7 +65,7 @@
             "docstring": "",
             "name": "_has_signal_listeners",
             "namespace": "django.db.models.deletion.Collector._has_signal_listeners",
-            "class_name": "",
+            "class_name": "django.db.models.deletion.Collector",
             "module_name": "",
             "package_name": ""
         },
@@ -73,7 +73,7 @@
             "docstring": "\"\"\"\n        Determine if the objects in the given queryset-like or single object\n        can be fast-deleted. This can be done if there are no cascades, no\n        parents and no signal listeners for the object class.\n\n        The 'from_field' tells where we are coming from - we need this to\n        determine if the objects are in fact to be deleted. Allow also\n        skipping parent -> child -> parent chain preventing fast delete of\n        the child.\n        \"\"\"",
             "name": "can_fast_delete",
             "namespace": "django.db.models.deletion.Collector.can_fast_delete",
-            "class_name": "",
+            "class_name": "django.db.models.deletion.Collector",
             "module_name": "",
             "package_name": ""
         },
@@ -81,7 +81,7 @@
             "docstring": "\"\"\"\n        Return the objs in suitably sized batches for the used connection.\n        \"\"\"",
             "name": "get_del_batches",
             "namespace": "django.db.models.deletion.Collector.get_del_batches",
-            "class_name": "",
+            "class_name": "django.db.models.deletion.Collector",
             "module_name": "",
             "package_name": ""
         },
@@ -89,7 +89,7 @@
             "docstring": "\"\"\"\n        Add 'objs' to the collection of objects to be deleted as well as all\n        parent instances.  'objs' must be a homogeneous iterable collection of\n        model instances (e.g. a QuerySet).  If 'collect_related' is True,\n        related objects will be handled by their respective on_delete handler.\n\n        If the call is the result of a cascade, 'source' should be the model\n        that caused it and 'nullable' should be set to True, if the relation\n        can be null.\n\n        If 'reverse_dependency' is True, 'source' will be deleted before the\n        current model, rather than after. (Needed for cascading to parent\n        models, the one case in which the cascade follows the forwards\n        direction of an FK rather than the reverse direction.)\n\n        If 'keep_parents' is True, data of parent model's will be not deleted.\n\n        If 'fail_on_restricted' is False, error won't be raised even if it's\n        prohibited to delete such objects due to RESTRICT, that defers\n        restricted object checking in recursive calls where the top-level call\n        may need to collect more objects to determine whether restricted ones\n        can be deleted.\n        \"\"\"",
             "name": "collect",
             "namespace": "django.db.models.deletion.Collector.collect",
-            "class_name": "",
+            "class_name": "django.db.models.deletion.Collector",
             "module_name": "",
             "package_name": ""
         },
@@ -97,7 +97,7 @@
             "docstring": "\"\"\"\n        Get a QuerySet of the related model to objs via related fields.\n        \"\"\"",
             "name": "related_objects",
             "namespace": "django.db.models.deletion.Collector.related_objects",
-            "class_name": "",
+            "class_name": "django.db.models.deletion.Collector",
             "module_name": "",
             "package_name": ""
         },
@@ -105,7 +105,7 @@
             "docstring": "",
             "name": "instances_with_model",
             "namespace": "django.db.models.deletion.Collector.instances_with_model",
-            "class_name": "",
+            "class_name": "django.db.models.deletion.Collector",
             "module_name": "",
             "package_name": ""
         },
@@ -113,7 +113,7 @@
             "docstring": "",
             "name": "sort",
             "namespace": "django.db.models.deletion.Collector.sort",
-            "class_name": "",
+            "class_name": "django.db.models.deletion.Collector",
             "module_name": "",
             "package_name": ""
         },
@@ -121,7 +121,7 @@
             "docstring": "",
             "name": "delete",
             "namespace": "django.db.models.deletion.Collector.delete",
-            "class_name": "",
+            "class_name": "django.db.models.deletion.Collector",
             "module_name": "",
             "package_name": ""
         }

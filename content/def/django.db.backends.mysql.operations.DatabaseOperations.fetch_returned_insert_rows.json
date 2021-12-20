@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Given a cursor object that has just performed an INSERT...RETURNING\n        statement into a table, return the tuple of returned data.\n        \"\"\"",
     "name": "fetch_returned_insert_rows",
     "namespace": "django.db.backends.mysql.operations.DatabaseOperations.fetch_returned_insert_rows",
-    "class_name": "",
+    "class_name": "django.db.backends.mysql.operations.DatabaseOperations",
     "module_name": "",
     "package_name": ""
 }

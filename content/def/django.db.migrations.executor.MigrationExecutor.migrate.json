@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Migrate the database up to the given targets.\n\n        Django first needs to create all project states before a migration is\n        (un)applied and in a second step run all the database operations.\n        \"\"\"",
     "name": "migrate",
     "namespace": "django.db.migrations.executor.MigrationExecutor.migrate",
-    "class_name": "",
+    "class_name": "django.db.migrations.executor.MigrationExecutor",
     "module_name": "",
     "package_name": ""
 }

@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return the permissions of `user_obj` from `from_name`. `from_name` can\n        be either \"group\" or \"user\" to return permissions from\n        `_get_group_permissions` or `_get_user_permissions` respectively.\n        \"\"\"",
     "name": "_get_permissions",
     "namespace": "django.contrib.auth.backends.ModelBackend._get_permissions",
-    "class_name": "",
+    "class_name": "django.contrib.auth.backends.ModelBackend",
     "module_name": "",
     "package_name": ""
 }

@@ -9,7 +9,7 @@
             "docstring": "",
             "name": "get_context",
             "namespace": "django.forms.widgets.Select.get_context",
-            "class_name": "",
+            "class_name": "django.forms.widgets.Select",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "\"\"\"Return True if the choice's value is empty string or None.\"\"\"",
             "name": "_choice_has_empty_value",
             "namespace": "django.forms.widgets.Select._choice_has_empty_value",
-            "class_name": "",
+            "class_name": "django.forms.widgets.Select",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "\"\"\"\n        Don't render 'required' if the first <option> has a value, as that's\n        invalid HTML.\n        \"\"\"",
             "name": "use_required_attribute",
             "namespace": "django.forms.widgets.Select.use_required_attribute",
-            "class_name": "",
+            "class_name": "django.forms.widgets.Select",
             "module_name": "",
             "package_name": ""
         }

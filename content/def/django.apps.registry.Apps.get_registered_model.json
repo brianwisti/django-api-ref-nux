@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Similar to get_model(), but doesn't require that an app exists with\n        the given app_label.\n\n        It's safe to call this method at import time, even while the registry\n        is being populated.\n        \"\"\"",
     "name": "get_registered_model",
     "namespace": "django.apps.registry.Apps.get_registered_model",
-    "class_name": "",
+    "class_name": "django.apps.registry.Apps",
     "module_name": "",
     "package_name": ""
 }

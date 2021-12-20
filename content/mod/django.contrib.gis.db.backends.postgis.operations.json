@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.contrib.gis.db.backends.postgis.operations.PostGISOperator.__init__",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.backends.postgis.operations.PostGISOperator",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "",
                     "name": "as_sql",
                     "namespace": "django.contrib.gis.db.backends.postgis.operations.PostGISOperator.as_sql",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.backends.postgis.operations.PostGISOperator",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -27,7 +27,7 @@
                     "docstring": "",
                     "name": "check_raster",
                     "namespace": "django.contrib.gis.db.backends.postgis.operations.PostGISOperator.check_raster",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.backends.postgis.operations.PostGISOperator",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -42,7 +42,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.contrib.gis.db.backends.postgis.operations.ST_Polygon.__init__",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.backends.postgis.operations.ST_Polygon",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -50,7 +50,7 @@
                     "docstring": "",
                     "name": "output_field",
                     "namespace": "django.contrib.gis.db.backends.postgis.operations.ST_Polygon.output_field",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.backends.postgis.operations.ST_Polygon",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -65,7 +65,7 @@
                     "docstring": "",
                     "name": "function_names",
                     "namespace": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.function_names",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -73,7 +73,7 @@
                     "docstring": "\"\"\"Determine the version of the PostGIS library.\"\"\"",
                     "name": "spatial_version",
                     "namespace": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.spatial_version",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -81,7 +81,7 @@
                     "docstring": "\"\"\"\n        Return a 4-tuple extent for the `Extent` aggregate by converting\n        the bounding box text returned by PostGIS (`box` argument), for\n        example: \"BOX(-90.0 30.0, -85.0 40.0)\".\n        \"\"\"",
                     "name": "convert_extent",
                     "namespace": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.convert_extent",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -89,7 +89,7 @@
                     "docstring": "\"\"\"\n        Return a 6-tuple extent for the `Extent3D` aggregate by converting\n        the 3d bounding-box text returned by PostGIS (`box3d` argument), for\n        example: \"BOX3D(-90.0 30.0 1, -85.0 40.0 2)\".\n        \"\"\"",
                     "name": "convert_extent3d",
                     "namespace": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.convert_extent3d",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -97,7 +97,7 @@
                     "docstring": "\"\"\"\n        Return the database field type for the given spatial field.\n        \"\"\"",
                     "name": "geo_db_type",
                     "namespace": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.geo_db_type",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -105,7 +105,7 @@
                     "docstring": "\"\"\"\n        Retrieve the distance parameters for the given geometry field,\n        distance lookup value, and the distance lookup type.\n\n        This is the most complex implementation of the spatial backends due to\n        what is supported on geodetic geometry columns vs. what's available on\n        projected geometry columns.  In addition, it has to take into account\n        the geography column type.\n        \"\"\"",
                     "name": "get_distance",
                     "namespace": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.get_distance",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -113,7 +113,7 @@
                     "docstring": "\"\"\"\n        Provide a proper substitution value for Geometries or rasters that are\n        not in the SRID of the field. Specifically, this routine will\n        substitute in the ST_Transform() function call.\n        \"\"\"",
                     "name": "get_geom_placeholder",
                     "namespace": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.get_geom_placeholder",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -121,7 +121,7 @@
                     "docstring": "\"\"\"\n        Helper routine for calling PostGIS functions and returning their result.\n        \"\"\"",
                     "name": "_get_postgis_func",
                     "namespace": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations._get_postgis_func",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -129,7 +129,7 @@
                     "docstring": "\"Return the version of the GEOS library used with PostGIS.\"",
                     "name": "postgis_geos_version",
                     "namespace": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.postgis_geos_version",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -137,7 +137,7 @@
                     "docstring": "\"Return the version number of the PostGIS library used with PostgreSQL.\"",
                     "name": "postgis_lib_version",
                     "namespace": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.postgis_lib_version",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -145,7 +145,7 @@
                     "docstring": "\"\"\"Return the version of the PROJ library used with PostGIS.\"\"\"",
                     "name": "postgis_proj_version",
                     "namespace": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.postgis_proj_version",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -153,7 +153,7 @@
                     "docstring": "\"Return PostGIS version number and compile-time options.\"",
                     "name": "postgis_version",
                     "namespace": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.postgis_version",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -161,7 +161,7 @@
                     "docstring": "\"Return PostGIS version number and compile-time options.\"",
                     "name": "postgis_full_version",
                     "namespace": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.postgis_full_version",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -169,7 +169,7 @@
                     "docstring": "\"\"\"\n        Return the PostGIS version as a tuple (version string, major,\n        minor, subminor).\n        \"\"\"",
                     "name": "postgis_version_tuple",
                     "namespace": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.postgis_version_tuple",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -177,7 +177,7 @@
                     "docstring": "\"\"\"\n        Return the version of PROJ used by PostGIS as a tuple of the\n        major, minor, and subminor release numbers.\n        \"\"\"",
                     "name": "proj_version_tuple",
                     "namespace": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.proj_version_tuple",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -185,7 +185,7 @@
                     "docstring": "",
                     "name": "spatial_aggregate_name",
                     "namespace": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.spatial_aggregate_name",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -193,7 +193,7 @@
                     "docstring": "",
                     "name": "geometry_columns",
                     "namespace": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.geometry_columns",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -201,7 +201,7 @@
                     "docstring": "",
                     "name": "spatial_ref_sys",
                     "namespace": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.spatial_ref_sys",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -209,7 +209,7 @@
                     "docstring": "\"\"\"Convert a PostGIS HEX String into a dict readable by GDALRaster.\"\"\"",
                     "name": "parse_raster",
                     "namespace": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.parse_raster",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -217,7 +217,7 @@
                     "docstring": "",
                     "name": "distance_expr_for_lookup",
                     "namespace": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.distance_expr_for_lookup",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -225,7 +225,7 @@
                     "docstring": "",
                     "name": "_normalize_distance_lookup_arg",
                     "namespace": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations._normalize_distance_lookup_arg",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -233,7 +233,7 @@
                     "docstring": "",
                     "name": "get_geometry_converter",
                     "namespace": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.get_geometry_converter",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -241,7 +241,7 @@
                     "docstring": "",
                     "name": "get_area_att_for_field",
                     "namespace": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.get_area_att_for_field",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations",
                     "module_name": "",
                     "package_name": ""
                 }

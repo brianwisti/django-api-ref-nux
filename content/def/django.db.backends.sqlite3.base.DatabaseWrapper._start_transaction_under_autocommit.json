@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Start a transaction explicitly in autocommit mode.\n\n        Staying in autocommit mode works around a bug of sqlite3 that breaks\n        savepoints when autocommit is disabled.\n        \"\"\"",
     "name": "_start_transaction_under_autocommit",
     "namespace": "django.db.backends.sqlite3.base.DatabaseWrapper._start_transaction_under_autocommit",
-    "class_name": "",
+    "class_name": "django.db.backends.sqlite3.base.DatabaseWrapper",
     "module_name": "",
     "package_name": ""
 }

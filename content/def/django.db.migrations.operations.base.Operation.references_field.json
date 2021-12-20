@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return True if there is a chance this operation references the given\n        field name, with an app label for accuracy.\n\n        Used for optimization. If in doubt, return True.\n        \"\"\"",
     "name": "references_field",
     "namespace": "django.db.migrations.operations.base.Operation.references_field",
-    "class_name": "",
+    "class_name": "django.db.migrations.operations.base.Operation",
     "module_name": "",
     "package_name": ""
 }

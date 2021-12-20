@@ -9,7 +9,7 @@
             "docstring": "",
             "name": "__new__",
             "namespace": "django.db.migrations.operations.base.Operation.__new__",
-            "class_name": "",
+            "class_name": "django.db.migrations.operations.base.Operation",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "\"\"\"\n        Return a 3-tuple of class import path (or just name if it lives\n        under django.db.migrations), positional arguments, and keyword\n        arguments.\n        \"\"\"",
             "name": "deconstruct",
             "namespace": "django.db.migrations.operations.base.Operation.deconstruct",
-            "class_name": "",
+            "class_name": "django.db.migrations.operations.base.Operation",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "\"\"\"\n        Take the state from the previous migration, and mutate it\n        so that it matches what this migration would perform.\n        \"\"\"",
             "name": "state_forwards",
             "namespace": "django.db.migrations.operations.base.Operation.state_forwards",
-            "class_name": "",
+            "class_name": "django.db.migrations.operations.base.Operation",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "\"\"\"\n        Perform the mutation on the database schema in the normal\n        (forwards) direction.\n        \"\"\"",
             "name": "database_forwards",
             "namespace": "django.db.migrations.operations.base.Operation.database_forwards",
-            "class_name": "",
+            "class_name": "django.db.migrations.operations.base.Operation",
             "module_name": "",
             "package_name": ""
         },
@@ -41,7 +41,7 @@
             "docstring": "\"\"\"\n        Perform the mutation on the database schema in the reverse\n        direction - e.g. if this were CreateModel, it would in fact\n        drop the model's table.\n        \"\"\"",
             "name": "database_backwards",
             "namespace": "django.db.migrations.operations.base.Operation.database_backwards",
-            "class_name": "",
+            "class_name": "django.db.migrations.operations.base.Operation",
             "module_name": "",
             "package_name": ""
         },
@@ -49,7 +49,7 @@
             "docstring": "\"\"\"\n        Output a brief summary of what the action does.\n        \"\"\"",
             "name": "describe",
             "namespace": "django.db.migrations.operations.base.Operation.describe",
-            "class_name": "",
+            "class_name": "django.db.migrations.operations.base.Operation",
             "module_name": "",
             "package_name": ""
         },
@@ -57,7 +57,7 @@
             "docstring": "\"\"\"\n        A filename part suitable for automatically naming a migration\n        containing this operation, or None if not applicable.\n        \"\"\"",
             "name": "migration_name_fragment",
             "namespace": "django.db.migrations.operations.base.Operation.migration_name_fragment",
-            "class_name": "",
+            "class_name": "django.db.migrations.operations.base.Operation",
             "module_name": "",
             "package_name": ""
         },
@@ -65,7 +65,7 @@
             "docstring": "\"\"\"\n        Return True if there is a chance this operation references the given\n        model name (as a string), with an app label for accuracy.\n\n        Used for optimization. If in doubt, return True;\n        returning a false positive will merely make the optimizer a little\n        less efficient, while returning a false negative may result in an\n        unusable optimized migration.\n        \"\"\"",
             "name": "references_model",
             "namespace": "django.db.migrations.operations.base.Operation.references_model",
-            "class_name": "",
+            "class_name": "django.db.migrations.operations.base.Operation",
             "module_name": "",
             "package_name": ""
         },
@@ -73,7 +73,7 @@
             "docstring": "\"\"\"\n        Return True if there is a chance this operation references the given\n        field name, with an app label for accuracy.\n\n        Used for optimization. If in doubt, return True.\n        \"\"\"",
             "name": "references_field",
             "namespace": "django.db.migrations.operations.base.Operation.references_field",
-            "class_name": "",
+            "class_name": "django.db.migrations.operations.base.Operation",
             "module_name": "",
             "package_name": ""
         },
@@ -81,7 +81,7 @@
             "docstring": "\"\"\"\n        Return whether or not a model may be migrated.\n\n        This is a thin wrapper around router.allow_migrate_model() that\n        preemptively rejects any proxy, swapped out, or unmanaged model.\n        \"\"\"",
             "name": "allow_migrate_model",
             "namespace": "django.db.migrations.operations.base.Operation.allow_migrate_model",
-            "class_name": "",
+            "class_name": "django.db.migrations.operations.base.Operation",
             "module_name": "",
             "package_name": ""
         },
@@ -89,7 +89,7 @@
             "docstring": "\"\"\"\n        Return either a list of operations the actual operation should be\n        replaced with or a boolean that indicates whether or not the specified\n        operation can be optimized across.\n        \"\"\"",
             "name": "reduce",
             "namespace": "django.db.migrations.operations.base.Operation.reduce",
-            "class_name": "",
+            "class_name": "django.db.migrations.operations.base.Operation",
             "module_name": "",
             "package_name": ""
         },
@@ -97,7 +97,7 @@
             "docstring": "",
             "name": "__repr__",
             "namespace": "django.db.migrations.operations.base.Operation.__repr__",
-            "class_name": "",
+            "class_name": "django.db.migrations.operations.base.Operation",
             "module_name": "",
             "package_name": ""
         }

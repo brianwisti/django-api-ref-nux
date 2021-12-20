@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.test.client.RedirectCycleError.__init__",
-                    "class_name": "",
+                    "class_name": "django.test.client.RedirectCycleError",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -26,7 +26,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.test.client.FakePayload.__init__",
-                    "class_name": "",
+                    "class_name": "django.test.client.FakePayload",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -34,7 +34,7 @@
                     "docstring": "",
                     "name": "__len__",
                     "namespace": "django.test.client.FakePayload.__len__",
-                    "class_name": "",
+                    "class_name": "django.test.client.FakePayload",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -42,7 +42,7 @@
                     "docstring": "",
                     "name": "read",
                     "namespace": "django.test.client.FakePayload.read",
-                    "class_name": "",
+                    "class_name": "django.test.client.FakePayload",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -50,7 +50,7 @@
                     "docstring": "",
                     "name": "write",
                     "namespace": "django.test.client.FakePayload.write",
-                    "class_name": "",
+                    "class_name": "django.test.client.FakePayload",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -65,7 +65,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.test.client.ClientHandler.__init__",
-                    "class_name": "",
+                    "class_name": "django.test.client.ClientHandler",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -73,7 +73,7 @@
                     "docstring": "",
                     "name": "__call__",
                     "namespace": "django.test.client.ClientHandler.__call__",
-                    "class_name": "",
+                    "class_name": "django.test.client.ClientHandler",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -88,7 +88,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.test.client.AsyncClientHandler.__init__",
-                    "class_name": "",
+                    "class_name": "django.test.client.AsyncClientHandler",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -96,7 +96,7 @@
                     "docstring": "",
                     "name": "__call__",
                     "namespace": "django.test.client.AsyncClientHandler.__call__",
-                    "class_name": "",
+                    "class_name": "django.test.client.AsyncClientHandler",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -111,7 +111,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.test.client.RequestFactory.__init__",
-                    "class_name": "",
+                    "class_name": "django.test.client.RequestFactory",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -119,7 +119,7 @@
                     "docstring": "\"\"\"\n        The base environment for a request.\n        \"\"\"",
                     "name": "_base_environ",
                     "namespace": "django.test.client.RequestFactory._base_environ",
-                    "class_name": "",
+                    "class_name": "django.test.client.RequestFactory",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -127,7 +127,7 @@
                     "docstring": "\"Construct a generic request object.\"",
                     "name": "request",
                     "namespace": "django.test.client.RequestFactory.request",
-                    "class_name": "",
+                    "class_name": "django.test.client.RequestFactory",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -135,7 +135,7 @@
                     "docstring": "",
                     "name": "_encode_data",
                     "namespace": "django.test.client.RequestFactory._encode_data",
-                    "class_name": "",
+                    "class_name": "django.test.client.RequestFactory",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -143,7 +143,7 @@
                     "docstring": "\"\"\"\n        Return encoded JSON if data is a dict, list, or tuple and content_type\n        is application/json.\n        \"\"\"",
                     "name": "_encode_json",
                     "namespace": "django.test.client.RequestFactory._encode_json",
-                    "class_name": "",
+                    "class_name": "django.test.client.RequestFactory",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -151,7 +151,7 @@
                     "docstring": "",
                     "name": "_get_path",
                     "namespace": "django.test.client.RequestFactory._get_path",
-                    "class_name": "",
+                    "class_name": "django.test.client.RequestFactory",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -159,7 +159,7 @@
                     "docstring": "\"\"\"Construct a GET request.\"\"\"",
                     "name": "get",
                     "namespace": "django.test.client.RequestFactory.get",
-                    "class_name": "",
+                    "class_name": "django.test.client.RequestFactory",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -167,7 +167,7 @@
                     "docstring": "\"\"\"Construct a POST request.\"\"\"",
                     "name": "post",
                     "namespace": "django.test.client.RequestFactory.post",
-                    "class_name": "",
+                    "class_name": "django.test.client.RequestFactory",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -175,7 +175,7 @@
                     "docstring": "\"\"\"Construct a HEAD request.\"\"\"",
                     "name": "head",
                     "namespace": "django.test.client.RequestFactory.head",
-                    "class_name": "",
+                    "class_name": "django.test.client.RequestFactory",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -183,7 +183,7 @@
                     "docstring": "\"\"\"Construct a TRACE request.\"\"\"",
                     "name": "trace",
                     "namespace": "django.test.client.RequestFactory.trace",
-                    "class_name": "",
+                    "class_name": "django.test.client.RequestFactory",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -191,7 +191,7 @@
                     "docstring": "\"Construct an OPTIONS request.\"",
                     "name": "options",
                     "namespace": "django.test.client.RequestFactory.options",
-                    "class_name": "",
+                    "class_name": "django.test.client.RequestFactory",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -199,7 +199,7 @@
                     "docstring": "\"\"\"Construct a PUT request.\"\"\"",
                     "name": "put",
                     "namespace": "django.test.client.RequestFactory.put",
-                    "class_name": "",
+                    "class_name": "django.test.client.RequestFactory",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -207,7 +207,7 @@
                     "docstring": "\"\"\"Construct a PATCH request.\"\"\"",
                     "name": "patch",
                     "namespace": "django.test.client.RequestFactory.patch",
-                    "class_name": "",
+                    "class_name": "django.test.client.RequestFactory",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -215,7 +215,7 @@
                     "docstring": "\"\"\"Construct a DELETE request.\"\"\"",
                     "name": "delete",
                     "namespace": "django.test.client.RequestFactory.delete",
-                    "class_name": "",
+                    "class_name": "django.test.client.RequestFactory",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -223,7 +223,7 @@
                     "docstring": "\"\"\"Construct an arbitrary HTTP request.\"\"\"",
                     "name": "generic",
                     "namespace": "django.test.client.RequestFactory.generic",
-                    "class_name": "",
+                    "class_name": "django.test.client.RequestFactory",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -238,7 +238,7 @@
                     "docstring": "\"\"\"The base scope for a request.\"\"\"",
                     "name": "_base_scope",
                     "namespace": "django.test.client.AsyncRequestFactory._base_scope",
-                    "class_name": "",
+                    "class_name": "django.test.client.AsyncRequestFactory",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -246,7 +246,7 @@
                     "docstring": "\"\"\"Construct a generic request object.\"\"\"",
                     "name": "request",
                     "namespace": "django.test.client.AsyncRequestFactory.request",
-                    "class_name": "",
+                    "class_name": "django.test.client.AsyncRequestFactory",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -254,7 +254,7 @@
                     "docstring": "\"\"\"Construct an arbitrary HTTP request.\"\"\"",
                     "name": "generic",
                     "namespace": "django.test.client.AsyncRequestFactory.generic",
-                    "class_name": "",
+                    "class_name": "django.test.client.AsyncRequestFactory",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -269,7 +269,7 @@
                     "docstring": "\"\"\"Store exceptions when they are generated by a view.\"\"\"",
                     "name": "store_exc_info",
                     "namespace": "django.test.client.ClientMixin.store_exc_info",
-                    "class_name": "",
+                    "class_name": "django.test.client.ClientMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -277,7 +277,7 @@
                     "docstring": "\"\"\"\n        Look for a signaled exception, clear the current context exception\n        data, re-raise the signaled exception, and clear the signaled exception\n        from the local cache.\n        \"\"\"",
                     "name": "check_exception",
                     "namespace": "django.test.client.ClientMixin.check_exception",
-                    "class_name": "",
+                    "class_name": "django.test.client.ClientMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -285,7 +285,7 @@
                     "docstring": "\"\"\"Return the current session variables.\"\"\"",
                     "name": "session",
                     "namespace": "django.test.client.ClientMixin.session",
-                    "class_name": "",
+                    "class_name": "django.test.client.ClientMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -293,7 +293,7 @@
                     "docstring": "\"\"\"\n        Set the Factory to appear as if it has successfully logged into a site.\n\n        Return True if login is possible or False if the provided credentials\n        are incorrect.\n        \"\"\"",
                     "name": "login",
                     "namespace": "django.test.client.ClientMixin.login",
-                    "class_name": "",
+                    "class_name": "django.test.client.ClientMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -301,7 +301,7 @@
                     "docstring": "",
                     "name": "force_login",
                     "namespace": "django.test.client.ClientMixin.force_login",
-                    "class_name": "",
+                    "class_name": "django.test.client.ClientMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -309,7 +309,7 @@
                     "docstring": "",
                     "name": "_login",
                     "namespace": "django.test.client.ClientMixin._login",
-                    "class_name": "",
+                    "class_name": "django.test.client.ClientMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -317,7 +317,7 @@
                     "docstring": "\"\"\"Log out the user by removing the cookies and session object.\"\"\"",
                     "name": "logout",
                     "namespace": "django.test.client.ClientMixin.logout",
-                    "class_name": "",
+                    "class_name": "django.test.client.ClientMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -325,7 +325,7 @@
                     "docstring": "",
                     "name": "_parse_json",
                     "namespace": "django.test.client.ClientMixin._parse_json",
-                    "class_name": "",
+                    "class_name": "django.test.client.ClientMixin",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -340,7 +340,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.test.client.Client.__init__",
-                    "class_name": "",
+                    "class_name": "django.test.client.Client",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -348,7 +348,7 @@
                     "docstring": "\"\"\"\n        The master request method. Compose the environment dictionary and pass\n        to the handler, return the result of the handler. Assume defaults for\n        the query environment, which can be overridden using the arguments to\n        the request.\n        \"\"\"",
                     "name": "request",
                     "namespace": "django.test.client.Client.request",
-                    "class_name": "",
+                    "class_name": "django.test.client.Client",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -356,7 +356,7 @@
                     "docstring": "\"\"\"Request a response from the server using GET.\"\"\"",
                     "name": "get",
                     "namespace": "django.test.client.Client.get",
-                    "class_name": "",
+                    "class_name": "django.test.client.Client",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -364,7 +364,7 @@
                     "docstring": "\"\"\"Request a response from the server using POST.\"\"\"",
                     "name": "post",
                     "namespace": "django.test.client.Client.post",
-                    "class_name": "",
+                    "class_name": "django.test.client.Client",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -372,7 +372,7 @@
                     "docstring": "\"\"\"Request a response from the server using HEAD.\"\"\"",
                     "name": "head",
                     "namespace": "django.test.client.Client.head",
-                    "class_name": "",
+                    "class_name": "django.test.client.Client",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -380,7 +380,7 @@
                     "docstring": "\"\"\"Request a response from the server using OPTIONS.\"\"\"",
                     "name": "options",
                     "namespace": "django.test.client.Client.options",
-                    "class_name": "",
+                    "class_name": "django.test.client.Client",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -388,7 +388,7 @@
                     "docstring": "\"\"\"Send a resource to the server using PUT.\"\"\"",
                     "name": "put",
                     "namespace": "django.test.client.Client.put",
-                    "class_name": "",
+                    "class_name": "django.test.client.Client",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -396,7 +396,7 @@
                     "docstring": "\"\"\"Send a resource to the server using PATCH.\"\"\"",
                     "name": "patch",
                     "namespace": "django.test.client.Client.patch",
-                    "class_name": "",
+                    "class_name": "django.test.client.Client",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -404,7 +404,7 @@
                     "docstring": "\"\"\"Send a DELETE request to the server.\"\"\"",
                     "name": "delete",
                     "namespace": "django.test.client.Client.delete",
-                    "class_name": "",
+                    "class_name": "django.test.client.Client",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -412,7 +412,7 @@
                     "docstring": "\"\"\"Send a TRACE request to the server.\"\"\"",
                     "name": "trace",
                     "namespace": "django.test.client.Client.trace",
-                    "class_name": "",
+                    "class_name": "django.test.client.Client",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -420,7 +420,7 @@
                     "docstring": "\"\"\"\n        Follow any redirects by requesting responses from the server using GET.\n        \"\"\"",
                     "name": "_handle_redirects",
                     "namespace": "django.test.client.Client._handle_redirects",
-                    "class_name": "",
+                    "class_name": "django.test.client.Client",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -435,7 +435,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.test.client.AsyncClient.__init__",
-                    "class_name": "",
+                    "class_name": "django.test.client.AsyncClient",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -443,7 +443,7 @@
                     "docstring": "\"\"\"\n        The master request method. Compose the scope dictionary and pass to the\n        handler, return the result of the handler. Assume defaults for the\n        query environment, which can be overridden using the arguments to the\n        request.\n        \"\"\"",
                     "name": "request",
                     "namespace": "django.test.client.AsyncClient.request",
-                    "class_name": "",
+                    "class_name": "django.test.client.AsyncClient",
                     "module_name": "",
                     "package_name": ""
                 }

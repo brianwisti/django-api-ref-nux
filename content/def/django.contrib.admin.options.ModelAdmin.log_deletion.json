@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Log that an object will be deleted. Note that this method must be\n        called before the deletion.\n\n        The default implementation creates an admin LogEntry object.\n        \"\"\"",
     "name": "log_deletion",
     "namespace": "django.contrib.admin.options.ModelAdmin.log_deletion",
-    "class_name": "",
+    "class_name": "django.contrib.admin.options.ModelAdmin",
     "module_name": "",
     "package_name": ""
 }

@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Register a callable as an inclusion tag:\n\n        @register.inclusion_tag('results.html')\n        def show_results(poll):\n            choices = poll.choice_set.all()\n            return {'choices': choices}\n        \"\"\"",
     "name": "inclusion_tag",
     "namespace": "django.template.library.Library.inclusion_tag",
-    "class_name": "",
+    "class_name": "django.template.library.Library",
     "module_name": "",
     "package_name": ""
 }

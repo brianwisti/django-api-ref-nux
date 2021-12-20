@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Subtract delta from value in the cache. If the key does not exist, raise\n        a ValueError exception.\n        \"\"\"",
     "name": "decr",
     "namespace": "django.core.cache.backends.base.BaseCache.decr",
-    "class_name": "",
+    "class_name": "django.core.cache.backends.base.BaseCache",
     "module_name": "",
     "package_name": ""
 }

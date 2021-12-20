@@ -9,7 +9,7 @@
             "docstring": "\"\"\"\n        If the request method is HEAD and either the IP is internal or the\n        user is a logged-in staff member, return a response with an x-view\n        header indicating the view function. This is used to lookup the view\n        function for an arbitrary page.\n        \"\"\"",
             "name": "process_view",
             "namespace": "django.contrib.admindocs.middleware.XViewMiddleware.process_view",
-            "class_name": "",
+            "class_name": "django.contrib.admindocs.middleware.XViewMiddleware",
             "module_name": "",
             "package_name": ""
         }

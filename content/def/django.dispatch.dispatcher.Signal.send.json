@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Send signal from sender to all connected receivers.\n\n        If any receiver raises an error, the error propagates back through send,\n        terminating the dispatch loop. So it's possible that all receivers\n        won't be called if an error is raised.\n\n        Arguments:\n\n            sender\n                The sender of the signal. Either a specific object or None.\n\n            named\n                Named arguments which will be passed to receivers.\n\n        Return a list of tuple pairs [(receiver, response), ... ].\n        \"\"\"",
     "name": "send",
     "namespace": "django.dispatch.dispatcher.Signal.send",
-    "class_name": "",
+    "class_name": "django.dispatch.dispatcher.Signal",
     "module_name": "",
     "package_name": ""
 }

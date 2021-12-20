@@ -11,7 +11,7 @@
                     "docstring": "\"Figure out the correct OGR Type based upon the input.\"",
                     "name": "__init__",
                     "namespace": "django.contrib.gis.gdal.geomtype.OGRGeomType.__init__",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geomtype.OGRGeomType",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "\"Return the value of the name property.\"",
                     "name": "__str__",
                     "namespace": "django.contrib.gis.gdal.geomtype.OGRGeomType.__str__",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geomtype.OGRGeomType",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -27,7 +27,7 @@
                     "docstring": "\"\"\"\n        Do an equivalence test on the OGR type with the given\n        other OGRGeomType, the short-hand string, or the integer.\n        \"\"\"",
                     "name": "__eq__",
                     "namespace": "django.contrib.gis.gdal.geomtype.OGRGeomType.__eq__",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geomtype.OGRGeomType",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -35,7 +35,7 @@
                     "docstring": "\"Return a short-hand string form of the OGR Geometry type.\"",
                     "name": "name",
                     "namespace": "django.contrib.gis.gdal.geomtype.OGRGeomType.name",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geomtype.OGRGeomType",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -43,7 +43,7 @@
                     "docstring": "\"Return the Django GeometryField for this OGR Type.\"",
                     "name": "django",
                     "namespace": "django.contrib.gis.gdal.geomtype.OGRGeomType.django",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geomtype.OGRGeomType",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -51,7 +51,7 @@
                     "docstring": "\"\"\"\n        Transform Point, LineString, Polygon, and their 25D equivalents\n        to their Multi... counterpart.\n        \"\"\"",
                     "name": "to_multi",
                     "namespace": "django.contrib.gis.gdal.geomtype.OGRGeomType.to_multi",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.gdal.geomtype.OGRGeomType",
                     "module_name": "",
                     "package_name": ""
                 }

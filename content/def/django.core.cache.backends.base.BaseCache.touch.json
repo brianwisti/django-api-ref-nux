@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Update the key's expiry time using timeout. Return True if successful\n        or False if the key does not exist.\n        \"\"\"",
     "name": "touch",
     "namespace": "django.core.cache.backends.base.BaseCache.touch",
-    "class_name": "",
+    "class_name": "django.core.cache.backends.base.BaseCache",
     "module_name": "",
     "package_name": ""
 }

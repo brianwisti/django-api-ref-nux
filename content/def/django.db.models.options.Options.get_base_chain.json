@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return a list of parent classes leading to `model` (ordered from\n        closest to most distant ancestor). This has to handle the case where\n        `model` is a grandparent or even more distant relation.\n        \"\"\"",
     "name": "get_base_chain",
     "namespace": "django.db.models.options.Options.get_base_chain",
-    "class_name": "",
+    "class_name": "django.db.models.options.Options",
     "module_name": "",
     "package_name": ""
 }

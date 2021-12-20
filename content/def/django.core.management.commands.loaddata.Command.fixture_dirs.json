@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return a list of fixture directories.\n\n        The list contains the 'fixtures' subdirectory of each installed\n        application, if it exists, the directories in FIXTURE_DIRS, and the\n        current directory.\n        \"\"\"",
     "name": "fixture_dirs",
     "namespace": "django.core.management.commands.loaddata.Command.fixture_dirs",
-    "class_name": "",
+    "class_name": "django.core.management.commands.loaddata.Command",
     "module_name": "",
     "package_name": ""
 }

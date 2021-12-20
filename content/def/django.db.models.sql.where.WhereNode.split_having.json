@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return two possibly None nodes: one for those parts of self that\n        should be included in the WHERE clause and one for those parts of\n        self that must be included in the HAVING clause.\n        \"\"\"",
     "name": "split_having",
     "namespace": "django.db.models.sql.where.WhereNode.split_having",
-    "class_name": "",
+    "class_name": "django.db.models.sql.where.WhereNode",
     "module_name": "",
     "package_name": ""
 }

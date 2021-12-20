@@ -17,7 +17,7 @@
                     "docstring": "",
                     "name": "__call__",
                     "namespace": "django.contrib.syndication.views.Feed.__call__",
-                    "class_name": "",
+                    "class_name": "django.contrib.syndication.views.Feed",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -25,7 +25,7 @@
                     "docstring": "",
                     "name": "item_title",
                     "namespace": "django.contrib.syndication.views.Feed.item_title",
-                    "class_name": "",
+                    "class_name": "django.contrib.syndication.views.Feed",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -33,7 +33,7 @@
                     "docstring": "",
                     "name": "item_description",
                     "namespace": "django.contrib.syndication.views.Feed.item_description",
-                    "class_name": "",
+                    "class_name": "django.contrib.syndication.views.Feed",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -41,7 +41,7 @@
                     "docstring": "",
                     "name": "item_link",
                     "namespace": "django.contrib.syndication.views.Feed.item_link",
-                    "class_name": "",
+                    "class_name": "django.contrib.syndication.views.Feed",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -49,7 +49,7 @@
                     "docstring": "",
                     "name": "item_enclosures",
                     "namespace": "django.contrib.syndication.views.Feed.item_enclosures",
-                    "class_name": "",
+                    "class_name": "django.contrib.syndication.views.Feed",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -57,7 +57,7 @@
                     "docstring": "",
                     "name": "_get_dynamic_attr",
                     "namespace": "django.contrib.syndication.views.Feed._get_dynamic_attr",
-                    "class_name": "",
+                    "class_name": "django.contrib.syndication.views.Feed",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -65,7 +65,7 @@
                     "docstring": "\"\"\"\n        Return an extra keyword arguments dictionary that is used when\n        initializing the feed generator.\n        \"\"\"",
                     "name": "feed_extra_kwargs",
                     "namespace": "django.contrib.syndication.views.Feed.feed_extra_kwargs",
-                    "class_name": "",
+                    "class_name": "django.contrib.syndication.views.Feed",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -73,7 +73,7 @@
                     "docstring": "\"\"\"\n        Return an extra keyword arguments dictionary that is used with\n        the `add_item` call of the feed generator.\n        \"\"\"",
                     "name": "item_extra_kwargs",
                     "namespace": "django.contrib.syndication.views.Feed.item_extra_kwargs",
-                    "class_name": "",
+                    "class_name": "django.contrib.syndication.views.Feed",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -81,7 +81,7 @@
                     "docstring": "",
                     "name": "get_object",
                     "namespace": "django.contrib.syndication.views.Feed.get_object",
-                    "class_name": "",
+                    "class_name": "django.contrib.syndication.views.Feed",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -89,7 +89,7 @@
                     "docstring": "\"\"\"\n        Return a dictionary to use as extra context if either\n        ``self.description_template`` or ``self.item_template`` are used.\n\n        Default implementation preserves the old behavior\n        of using {'obj': item, 'site': current_site} as the context.\n        \"\"\"",
                     "name": "get_context_data",
                     "namespace": "django.contrib.syndication.views.Feed.get_context_data",
-                    "class_name": "",
+                    "class_name": "django.contrib.syndication.views.Feed",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -97,7 +97,7 @@
                     "docstring": "\"\"\"\n        Return a feedgenerator.DefaultFeed object, fully populated, for\n        this feed. Raise FeedDoesNotExist for invalid parameters.\n        \"\"\"",
                     "name": "get_feed",
                     "namespace": "django.contrib.syndication.views.Feed.get_feed",
-                    "class_name": "",
+                    "class_name": "django.contrib.syndication.views.Feed",
                     "module_name": "",
                     "package_name": ""
                 }

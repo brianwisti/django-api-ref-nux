@@ -11,7 +11,7 @@
                     "docstring": "\"\"\"\n        Return two possibly None nodes: one for those parts of self that\n        should be included in the WHERE clause and one for those parts of\n        self that must be included in the HAVING clause.\n        \"\"\"",
                     "name": "split_having",
                     "namespace": "django.db.models.sql.where.WhereNode.split_having",
-                    "class_name": "",
+                    "class_name": "django.db.models.sql.where.WhereNode",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "\"\"\"\n        Return the SQL version of the where clause and the value to be\n        substituted in. Return '', [] if this node matches everything,\n        None, [] if this node is empty, and raise EmptyResultSet if this\n        node can't match anything.\n        \"\"\"",
                     "name": "as_sql",
                     "namespace": "django.db.models.sql.where.WhereNode.as_sql",
-                    "class_name": "",
+                    "class_name": "django.db.models.sql.where.WhereNode",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -27,7 +27,7 @@
                     "docstring": "",
                     "name": "get_group_by_cols",
                     "namespace": "django.db.models.sql.where.WhereNode.get_group_by_cols",
-                    "class_name": "",
+                    "class_name": "django.db.models.sql.where.WhereNode",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -35,7 +35,7 @@
                     "docstring": "",
                     "name": "get_source_expressions",
                     "namespace": "django.db.models.sql.where.WhereNode.get_source_expressions",
-                    "class_name": "",
+                    "class_name": "django.db.models.sql.where.WhereNode",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -43,7 +43,7 @@
                     "docstring": "",
                     "name": "set_source_expressions",
                     "namespace": "django.db.models.sql.where.WhereNode.set_source_expressions",
-                    "class_name": "",
+                    "class_name": "django.db.models.sql.where.WhereNode",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -51,7 +51,7 @@
                     "docstring": "\"\"\"\n        Relabel the alias values of any children. 'change_map' is a dictionary\n        mapping old (current) alias values to the new values.\n        \"\"\"",
                     "name": "relabel_aliases",
                     "namespace": "django.db.models.sql.where.WhereNode.relabel_aliases",
-                    "class_name": "",
+                    "class_name": "django.db.models.sql.where.WhereNode",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -59,7 +59,7 @@
                     "docstring": "\"\"\"\n        Create a clone of the tree. Must only be called on root nodes (nodes\n        with empty subtree_parents). Childs must be either (Constraint, lookup,\n        value) tuples, or objects supporting .clone().\n        \"\"\"",
                     "name": "clone",
                     "namespace": "django.db.models.sql.where.WhereNode.clone",
-                    "class_name": "",
+                    "class_name": "django.db.models.sql.where.WhereNode",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -67,7 +67,7 @@
                     "docstring": "",
                     "name": "relabeled_clone",
                     "namespace": "django.db.models.sql.where.WhereNode.relabeled_clone",
-                    "class_name": "",
+                    "class_name": "django.db.models.sql.where.WhereNode",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -75,7 +75,7 @@
                     "docstring": "",
                     "name": "copy",
                     "namespace": "django.db.models.sql.where.WhereNode.copy",
-                    "class_name": "",
+                    "class_name": "django.db.models.sql.where.WhereNode",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -83,7 +83,7 @@
                     "docstring": "",
                     "name": "_contains_aggregate",
                     "namespace": "django.db.models.sql.where.WhereNode._contains_aggregate",
-                    "class_name": "",
+                    "class_name": "django.db.models.sql.where.WhereNode",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -91,7 +91,7 @@
                     "docstring": "",
                     "name": "contains_aggregate",
                     "namespace": "django.db.models.sql.where.WhereNode.contains_aggregate",
-                    "class_name": "",
+                    "class_name": "django.db.models.sql.where.WhereNode",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -99,7 +99,7 @@
                     "docstring": "",
                     "name": "_contains_over_clause",
                     "namespace": "django.db.models.sql.where.WhereNode._contains_over_clause",
-                    "class_name": "",
+                    "class_name": "django.db.models.sql.where.WhereNode",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -107,7 +107,7 @@
                     "docstring": "",
                     "name": "contains_over_clause",
                     "namespace": "django.db.models.sql.where.WhereNode.contains_over_clause",
-                    "class_name": "",
+                    "class_name": "django.db.models.sql.where.WhereNode",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -115,7 +115,7 @@
                     "docstring": "",
                     "name": "_resolve_leaf",
                     "namespace": "django.db.models.sql.where.WhereNode._resolve_leaf",
-                    "class_name": "",
+                    "class_name": "django.db.models.sql.where.WhereNode",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -123,7 +123,7 @@
                     "docstring": "",
                     "name": "_resolve_node",
                     "namespace": "django.db.models.sql.where.WhereNode._resolve_node",
-                    "class_name": "",
+                    "class_name": "django.db.models.sql.where.WhereNode",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -131,7 +131,7 @@
                     "docstring": "",
                     "name": "resolve_expression",
                     "namespace": "django.db.models.sql.where.WhereNode.resolve_expression",
-                    "class_name": "",
+                    "class_name": "django.db.models.sql.where.WhereNode",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -139,7 +139,7 @@
                     "docstring": "",
                     "name": "output_field",
                     "namespace": "django.db.models.sql.where.WhereNode.output_field",
-                    "class_name": "",
+                    "class_name": "django.db.models.sql.where.WhereNode",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -147,7 +147,7 @@
                     "docstring": "",
                     "name": "select_format",
                     "namespace": "django.db.models.sql.where.WhereNode.select_format",
-                    "class_name": "",
+                    "class_name": "django.db.models.sql.where.WhereNode",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -155,7 +155,7 @@
                     "docstring": "",
                     "name": "get_db_converters",
                     "namespace": "django.db.models.sql.where.WhereNode.get_db_converters",
-                    "class_name": "",
+                    "class_name": "django.db.models.sql.where.WhereNode",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -163,7 +163,7 @@
                     "docstring": "",
                     "name": "get_lookup",
                     "namespace": "django.db.models.sql.where.WhereNode.get_lookup",
-                    "class_name": "",
+                    "class_name": "django.db.models.sql.where.WhereNode",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -178,7 +178,7 @@
                     "docstring": "",
                     "name": "as_sql",
                     "namespace": "django.db.models.sql.where.NothingNode.as_sql",
-                    "class_name": "",
+                    "class_name": "django.db.models.sql.where.NothingNode",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -193,7 +193,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.db.models.sql.where.ExtraWhere.__init__",
-                    "class_name": "",
+                    "class_name": "django.db.models.sql.where.ExtraWhere",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -201,7 +201,7 @@
                     "docstring": "",
                     "name": "as_sql",
                     "namespace": "django.db.models.sql.where.ExtraWhere.as_sql",
-                    "class_name": "",
+                    "class_name": "django.db.models.sql.where.ExtraWhere",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -216,7 +216,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.db.models.sql.where.SubqueryConstraint.__init__",
-                    "class_name": "",
+                    "class_name": "django.db.models.sql.where.SubqueryConstraint",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -224,7 +224,7 @@
                     "docstring": "",
                     "name": "as_sql",
                     "namespace": "django.db.models.sql.where.SubqueryConstraint.as_sql",
-                    "class_name": "",
+                    "class_name": "django.db.models.sql.where.SubqueryConstraint",
                     "module_name": "",
                     "package_name": ""
                 }

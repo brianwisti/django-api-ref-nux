@@ -11,7 +11,7 @@
                     "docstring": "\"\"\"\n        Return the html representation of a string for interoperability.\n\n        This allows other template engines to understand Django's SafeData.\n        \"\"\"",
                     "name": "__html__",
                     "namespace": "django.utils.safestring.SafeData.__html__",
-                    "class_name": "",
+                    "class_name": "django.utils.safestring.SafeData",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -26,7 +26,7 @@
                     "docstring": "\"\"\"\n        Concatenating a safe string with another safe bytestring or\n        safe string is safe. Otherwise, the result is no longer safe.\n        \"\"\"",
                     "name": "__add__",
                     "namespace": "django.utils.safestring.SafeString.__add__",
-                    "class_name": "",
+                    "class_name": "django.utils.safestring.SafeString",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -34,7 +34,7 @@
                     "docstring": "",
                     "name": "__str__",
                     "namespace": "django.utils.safestring.SafeString.__str__",
-                    "class_name": "",
+                    "class_name": "django.utils.safestring.SafeString",
                     "module_name": "",
                     "package_name": ""
                 }

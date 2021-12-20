@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        If the file in the archive has some permissions (this assumes a file\n        won't be writable/executable without being readable), apply those\n        permissions to the unarchived file.\n        \"\"\"",
     "name": "_copy_permissions",
     "namespace": "django.utils.archive.BaseArchive._copy_permissions",
-    "class_name": "",
+    "class_name": "django.utils.archive.BaseArchive",
     "module_name": "",
     "package_name": ""
 }

@@ -11,7 +11,7 @@
                     "docstring": "\"\"\"\n        Get a year format string in strptime syntax to be used to parse the\n        year from url variables.\n        \"\"\"",
                     "name": "get_year_format",
                     "namespace": "django.views.generic.dates.YearMixin.get_year_format",
-                    "class_name": "",
+                    "class_name": "django.views.generic.dates.YearMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "\"\"\"Return the year for which this view should display data.\"\"\"",
                     "name": "get_year",
                     "namespace": "django.views.generic.dates.YearMixin.get_year",
-                    "class_name": "",
+                    "class_name": "django.views.generic.dates.YearMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -27,7 +27,7 @@
                     "docstring": "\"\"\"Get the next valid year.\"\"\"",
                     "name": "get_next_year",
                     "namespace": "django.views.generic.dates.YearMixin.get_next_year",
-                    "class_name": "",
+                    "class_name": "django.views.generic.dates.YearMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -35,7 +35,7 @@
                     "docstring": "\"\"\"Get the previous valid year.\"\"\"",
                     "name": "get_previous_year",
                     "namespace": "django.views.generic.dates.YearMixin.get_previous_year",
-                    "class_name": "",
+                    "class_name": "django.views.generic.dates.YearMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -43,7 +43,7 @@
                     "docstring": "\"\"\"\n        Return the start date of the next interval.\n\n        The interval is defined by start date <= item date < next start date.\n        \"\"\"",
                     "name": "_get_next_year",
                     "namespace": "django.views.generic.dates.YearMixin._get_next_year",
-                    "class_name": "",
+                    "class_name": "django.views.generic.dates.YearMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -51,7 +51,7 @@
                     "docstring": "\"\"\"Return the start date of the current interval.\"\"\"",
                     "name": "_get_current_year",
                     "namespace": "django.views.generic.dates.YearMixin._get_current_year",
-                    "class_name": "",
+                    "class_name": "django.views.generic.dates.YearMixin",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -66,7 +66,7 @@
                     "docstring": "\"\"\"\n        Get a month format string in strptime syntax to be used to parse the\n        month from url variables.\n        \"\"\"",
                     "name": "get_month_format",
                     "namespace": "django.views.generic.dates.MonthMixin.get_month_format",
-                    "class_name": "",
+                    "class_name": "django.views.generic.dates.MonthMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -74,7 +74,7 @@
                     "docstring": "\"\"\"Return the month for which this view should display data.\"\"\"",
                     "name": "get_month",
                     "namespace": "django.views.generic.dates.MonthMixin.get_month",
-                    "class_name": "",
+                    "class_name": "django.views.generic.dates.MonthMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -82,7 +82,7 @@
                     "docstring": "\"\"\"Get the next valid month.\"\"\"",
                     "name": "get_next_month",
                     "namespace": "django.views.generic.dates.MonthMixin.get_next_month",
-                    "class_name": "",
+                    "class_name": "django.views.generic.dates.MonthMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -90,7 +90,7 @@
                     "docstring": "\"\"\"Get the previous valid month.\"\"\"",
                     "name": "get_previous_month",
                     "namespace": "django.views.generic.dates.MonthMixin.get_previous_month",
-                    "class_name": "",
+                    "class_name": "django.views.generic.dates.MonthMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -98,7 +98,7 @@
                     "docstring": "\"\"\"\n        Return the start date of the next interval.\n\n        The interval is defined by start date <= item date < next start date.\n        \"\"\"",
                     "name": "_get_next_month",
                     "namespace": "django.views.generic.dates.MonthMixin._get_next_month",
-                    "class_name": "",
+                    "class_name": "django.views.generic.dates.MonthMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -106,7 +106,7 @@
                     "docstring": "\"\"\"Return the start date of the previous interval.\"\"\"",
                     "name": "_get_current_month",
                     "namespace": "django.views.generic.dates.MonthMixin._get_current_month",
-                    "class_name": "",
+                    "class_name": "django.views.generic.dates.MonthMixin",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -121,7 +121,7 @@
                     "docstring": "\"\"\"\n        Get a day format string in strptime syntax to be used to parse the day\n        from url variables.\n        \"\"\"",
                     "name": "get_day_format",
                     "namespace": "django.views.generic.dates.DayMixin.get_day_format",
-                    "class_name": "",
+                    "class_name": "django.views.generic.dates.DayMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -129,7 +129,7 @@
                     "docstring": "\"\"\"Return the day for which this view should display data.\"\"\"",
                     "name": "get_day",
                     "namespace": "django.views.generic.dates.DayMixin.get_day",
-                    "class_name": "",
+                    "class_name": "django.views.generic.dates.DayMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -137,7 +137,7 @@
                     "docstring": "\"\"\"Get the next valid day.\"\"\"",
                     "name": "get_next_day",
                     "namespace": "django.views.generic.dates.DayMixin.get_next_day",
-                    "class_name": "",
+                    "class_name": "django.views.generic.dates.DayMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -145,7 +145,7 @@
                     "docstring": "\"\"\"Get the previous valid day.\"\"\"",
                     "name": "get_previous_day",
                     "namespace": "django.views.generic.dates.DayMixin.get_previous_day",
-                    "class_name": "",
+                    "class_name": "django.views.generic.dates.DayMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -153,7 +153,7 @@
                     "docstring": "\"\"\"\n        Return the start date of the next interval.\n\n        The interval is defined by start date <= item date < next start date.\n        \"\"\"",
                     "name": "_get_next_day",
                     "namespace": "django.views.generic.dates.DayMixin._get_next_day",
-                    "class_name": "",
+                    "class_name": "django.views.generic.dates.DayMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -161,7 +161,7 @@
                     "docstring": "\"\"\"Return the start date of the current interval.\"\"\"",
                     "name": "_get_current_day",
                     "namespace": "django.views.generic.dates.DayMixin._get_current_day",
-                    "class_name": "",
+                    "class_name": "django.views.generic.dates.DayMixin",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -176,7 +176,7 @@
                     "docstring": "\"\"\"\n        Get a week format string in strptime syntax to be used to parse the\n        week from url variables.\n        \"\"\"",
                     "name": "get_week_format",
                     "namespace": "django.views.generic.dates.WeekMixin.get_week_format",
-                    "class_name": "",
+                    "class_name": "django.views.generic.dates.WeekMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -184,7 +184,7 @@
                     "docstring": "\"\"\"Return the week for which this view should display data.\"\"\"",
                     "name": "get_week",
                     "namespace": "django.views.generic.dates.WeekMixin.get_week",
-                    "class_name": "",
+                    "class_name": "django.views.generic.dates.WeekMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -192,7 +192,7 @@
                     "docstring": "\"\"\"Get the next valid week.\"\"\"",
                     "name": "get_next_week",
                     "namespace": "django.views.generic.dates.WeekMixin.get_next_week",
-                    "class_name": "",
+                    "class_name": "django.views.generic.dates.WeekMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -200,7 +200,7 @@
                     "docstring": "\"\"\"Get the previous valid week.\"\"\"",
                     "name": "get_previous_week",
                     "namespace": "django.views.generic.dates.WeekMixin.get_previous_week",
-                    "class_name": "",
+                    "class_name": "django.views.generic.dates.WeekMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -208,7 +208,7 @@
                     "docstring": "\"\"\"\n        Return the start date of the next interval.\n\n        The interval is defined by start date <= item date < next start date.\n        \"\"\"",
                     "name": "_get_next_week",
                     "namespace": "django.views.generic.dates.WeekMixin._get_next_week",
-                    "class_name": "",
+                    "class_name": "django.views.generic.dates.WeekMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -216,7 +216,7 @@
                     "docstring": "\"\"\"Return the start date of the current interval.\"\"\"",
                     "name": "_get_current_week",
                     "namespace": "django.views.generic.dates.WeekMixin._get_current_week",
-                    "class_name": "",
+                    "class_name": "django.views.generic.dates.WeekMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -224,7 +224,7 @@
                     "docstring": "\"\"\"\n        Return the weekday for a given date.\n\n        The first day according to the week format is 0 and the last day is 6.\n        \"\"\"",
                     "name": "_get_weekday",
                     "namespace": "django.views.generic.dates.WeekMixin._get_weekday",
-                    "class_name": "",
+                    "class_name": "django.views.generic.dates.WeekMixin",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -239,7 +239,7 @@
                     "docstring": "\"\"\"Get the name of the date field to be used to filter by.\"\"\"",
                     "name": "get_date_field",
                     "namespace": "django.views.generic.dates.DateMixin.get_date_field",
-                    "class_name": "",
+                    "class_name": "django.views.generic.dates.DateMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -247,7 +247,7 @@
                     "docstring": "\"\"\"\n        Return `True` if the view should be allowed to display objects from\n        the future.\n        \"\"\"",
                     "name": "get_allow_future",
                     "namespace": "django.views.generic.dates.DateMixin.get_allow_future",
-                    "class_name": "",
+                    "class_name": "django.views.generic.dates.DateMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -255,7 +255,7 @@
                     "docstring": "\"\"\"\n        Return `True` if the date field is a `DateTimeField` and `False`\n        if it's a `DateField`.\n        \"\"\"",
                     "name": "uses_datetime_field",
                     "namespace": "django.views.generic.dates.DateMixin.uses_datetime_field",
-                    "class_name": "",
+                    "class_name": "django.views.generic.dates.DateMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -263,7 +263,7 @@
                     "docstring": "\"\"\"\n        Convert a date into a datetime when the date field is a DateTimeField.\n\n        When time zone support is enabled, `date` is assumed to be in the\n        current time zone, so that displayed items are consistent with the URL.\n        \"\"\"",
                     "name": "_make_date_lookup_arg",
                     "namespace": "django.views.generic.dates.DateMixin._make_date_lookup_arg",
-                    "class_name": "",
+                    "class_name": "django.views.generic.dates.DateMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -271,7 +271,7 @@
                     "docstring": "\"\"\"\n        Get the lookup kwargs for filtering on a single date.\n\n        If the date field is a DateTimeField, we can't just filter on\n        date_field=date because that doesn't take the time into account.\n        \"\"\"",
                     "name": "_make_single_date_lookup",
                     "namespace": "django.views.generic.dates.DateMixin._make_single_date_lookup",
-                    "class_name": "",
+                    "class_name": "django.views.generic.dates.DateMixin",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -286,7 +286,7 @@
                     "docstring": "",
                     "name": "get",
                     "namespace": "django.views.generic.dates.BaseDateListView.get",
-                    "class_name": "",
+                    "class_name": "django.views.generic.dates.BaseDateListView",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -294,7 +294,7 @@
                     "docstring": "\"\"\"Obtain the list of dates and items.\"\"\"",
                     "name": "get_dated_items",
                     "namespace": "django.views.generic.dates.BaseDateListView.get_dated_items",
-                    "class_name": "",
+                    "class_name": "django.views.generic.dates.BaseDateListView",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -302,7 +302,7 @@
                     "docstring": "\"\"\"\n        Return the field or fields to use for ordering the queryset; use the\n        date field by default.\n        \"\"\"",
                     "name": "get_ordering",
                     "namespace": "django.views.generic.dates.BaseDateListView.get_ordering",
-                    "class_name": "",
+                    "class_name": "django.views.generic.dates.BaseDateListView",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -310,7 +310,7 @@
                     "docstring": "\"\"\"\n        Get a queryset properly filtered according to `allow_future` and any\n        extra lookup kwargs.\n        \"\"\"",
                     "name": "get_dated_queryset",
                     "namespace": "django.views.generic.dates.BaseDateListView.get_dated_queryset",
-                    "class_name": "",
+                    "class_name": "django.views.generic.dates.BaseDateListView",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -318,7 +318,7 @@
                     "docstring": "\"\"\"\n        Get the aggregation period for the list of dates: 'year', 'month', or\n        'day'.\n        \"\"\"",
                     "name": "get_date_list_period",
                     "namespace": "django.views.generic.dates.BaseDateListView.get_date_list_period",
-                    "class_name": "",
+                    "class_name": "django.views.generic.dates.BaseDateListView",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -326,7 +326,7 @@
                     "docstring": "\"\"\"\n        Get a date list by calling `queryset.dates/datetimes()`, checking\n        along the way for empty lists that aren't allowed.\n        \"\"\"",
                     "name": "get_date_list",
                     "namespace": "django.views.generic.dates.BaseDateListView.get_date_list",
-                    "class_name": "",
+                    "class_name": "django.views.generic.dates.BaseDateListView",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -341,7 +341,7 @@
                     "docstring": "\"\"\"Return (date_list, items, extra_context) for this request.\"\"\"",
                     "name": "get_dated_items",
                     "namespace": "django.views.generic.dates.BaseArchiveIndexView.get_dated_items",
-                    "class_name": "",
+                    "class_name": "django.views.generic.dates.BaseArchiveIndexView",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -362,7 +362,7 @@
                     "docstring": "\"\"\"Return (date_list, items, extra_context) for this request.\"\"\"",
                     "name": "get_dated_items",
                     "namespace": "django.views.generic.dates.BaseYearArchiveView.get_dated_items",
-                    "class_name": "",
+                    "class_name": "django.views.generic.dates.BaseYearArchiveView",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -370,7 +370,7 @@
                     "docstring": "\"\"\"\n        Return `True` if this view should contain the full list of objects in\n        the given year.\n        \"\"\"",
                     "name": "get_make_object_list",
                     "namespace": "django.views.generic.dates.BaseYearArchiveView.get_make_object_list",
-                    "class_name": "",
+                    "class_name": "django.views.generic.dates.BaseYearArchiveView",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -391,7 +391,7 @@
                     "docstring": "\"\"\"Return (date_list, items, extra_context) for this request.\"\"\"",
                     "name": "get_dated_items",
                     "namespace": "django.views.generic.dates.BaseMonthArchiveView.get_dated_items",
-                    "class_name": "",
+                    "class_name": "django.views.generic.dates.BaseMonthArchiveView",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -412,7 +412,7 @@
                     "docstring": "\"\"\"Return (date_list, items, extra_context) for this request.\"\"\"",
                     "name": "get_dated_items",
                     "namespace": "django.views.generic.dates.BaseWeekArchiveView.get_dated_items",
-                    "class_name": "",
+                    "class_name": "django.views.generic.dates.BaseWeekArchiveView",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -433,7 +433,7 @@
                     "docstring": "\"\"\"Return (date_list, items, extra_context) for this request.\"\"\"",
                     "name": "get_dated_items",
                     "namespace": "django.views.generic.dates.BaseDayArchiveView.get_dated_items",
-                    "class_name": "",
+                    "class_name": "django.views.generic.dates.BaseDayArchiveView",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -441,7 +441,7 @@
                     "docstring": "\"\"\"\n        Do the actual heavy lifting of getting the dated items; this accepts a\n        date object so that TodayArchiveView can be trivial.\n        \"\"\"",
                     "name": "_get_dated_items",
                     "namespace": "django.views.generic.dates.BaseDayArchiveView._get_dated_items",
-                    "class_name": "",
+                    "class_name": "django.views.generic.dates.BaseDayArchiveView",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -462,7 +462,7 @@
                     "docstring": "\"\"\"Return (date_list, items, extra_context) for this request.\"\"\"",
                     "name": "get_dated_items",
                     "namespace": "django.views.generic.dates.BaseTodayArchiveView.get_dated_items",
-                    "class_name": "",
+                    "class_name": "django.views.generic.dates.BaseTodayArchiveView",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -483,7 +483,7 @@
                     "docstring": "\"\"\"Get the object this request displays.\"\"\"",
                     "name": "get_object",
                     "namespace": "django.views.generic.dates.BaseDateDetailView.get_object",
-                    "class_name": "",
+                    "class_name": "django.views.generic.dates.BaseDateDetailView",
                     "module_name": "",
                     "package_name": ""
                 }

@@ -11,7 +11,7 @@
                     "docstring": "\"\"\"\n        Return the list of items for this view.\n\n        The return value must be an iterable and may be an instance of\n        `QuerySet` in which case `QuerySet` specific behavior will be enabled.\n        \"\"\"",
                     "name": "get_queryset",
                     "namespace": "django.views.generic.list.MultipleObjectMixin.get_queryset",
-                    "class_name": "",
+                    "class_name": "django.views.generic.list.MultipleObjectMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "\"\"\"Return the field or fields to use for ordering the queryset.\"\"\"",
                     "name": "get_ordering",
                     "namespace": "django.views.generic.list.MultipleObjectMixin.get_ordering",
-                    "class_name": "",
+                    "class_name": "django.views.generic.list.MultipleObjectMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -27,7 +27,7 @@
                     "docstring": "\"\"\"Paginate the queryset, if needed.\"\"\"",
                     "name": "paginate_queryset",
                     "namespace": "django.views.generic.list.MultipleObjectMixin.paginate_queryset",
-                    "class_name": "",
+                    "class_name": "django.views.generic.list.MultipleObjectMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -35,7 +35,7 @@
                     "docstring": "\"\"\"\n        Get the number of items to paginate by, or ``None`` for no pagination.\n        \"\"\"",
                     "name": "get_paginate_by",
                     "namespace": "django.views.generic.list.MultipleObjectMixin.get_paginate_by",
-                    "class_name": "",
+                    "class_name": "django.views.generic.list.MultipleObjectMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -43,7 +43,7 @@
                     "docstring": "\"\"\"Return an instance of the paginator for this view.\"\"\"",
                     "name": "get_paginator",
                     "namespace": "django.views.generic.list.MultipleObjectMixin.get_paginator",
-                    "class_name": "",
+                    "class_name": "django.views.generic.list.MultipleObjectMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -51,7 +51,7 @@
                     "docstring": "\"\"\"\n        Return the maximum number of orphans extend the last page by when\n        paginating.\n        \"\"\"",
                     "name": "get_paginate_orphans",
                     "namespace": "django.views.generic.list.MultipleObjectMixin.get_paginate_orphans",
-                    "class_name": "",
+                    "class_name": "django.views.generic.list.MultipleObjectMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -59,7 +59,7 @@
                     "docstring": "\"\"\"\n        Return ``True`` if the view should display empty lists and ``False``\n        if a 404 should be raised instead.\n        \"\"\"",
                     "name": "get_allow_empty",
                     "namespace": "django.views.generic.list.MultipleObjectMixin.get_allow_empty",
-                    "class_name": "",
+                    "class_name": "django.views.generic.list.MultipleObjectMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -67,7 +67,7 @@
                     "docstring": "\"\"\"Get the name of the item to be used in the context.\"\"\"",
                     "name": "get_context_object_name",
                     "namespace": "django.views.generic.list.MultipleObjectMixin.get_context_object_name",
-                    "class_name": "",
+                    "class_name": "django.views.generic.list.MultipleObjectMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -75,7 +75,7 @@
                     "docstring": "\"\"\"Get the context for this view.\"\"\"",
                     "name": "get_context_data",
                     "namespace": "django.views.generic.list.MultipleObjectMixin.get_context_data",
-                    "class_name": "",
+                    "class_name": "django.views.generic.list.MultipleObjectMixin",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -90,7 +90,7 @@
                     "docstring": "",
                     "name": "get",
                     "namespace": "django.views.generic.list.BaseListView.get",
-                    "class_name": "",
+                    "class_name": "django.views.generic.list.BaseListView",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -105,7 +105,7 @@
                     "docstring": "\"\"\"\n        Return a list of template names to be used for the request. Must return\n        a list. May not be called if render_to_response is overridden.\n        \"\"\"",
                     "name": "get_template_names",
                     "namespace": "django.views.generic.list.MultipleObjectTemplateResponseMixin.get_template_names",
-                    "class_name": "",
+                    "class_name": "django.views.generic.list.MultipleObjectTemplateResponseMixin",
                     "module_name": "",
                     "package_name": ""
                 }

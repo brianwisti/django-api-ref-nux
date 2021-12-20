@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return a dictionary containing contextual line information of where\n        the exception occurred in the template. The following information is\n        provided:\n\n        message\n            The message of the exception raised.\n\n        source_lines\n            The lines before, after, and including the line the exception\n            occurred on.\n\n        line\n            The line number the exception occurred on.\n\n        before, during, after\n            The line the exception occurred on split into three parts:\n            1. The content before the token that raised the error.\n            2. The token that raised the error.\n            3. The content after the token that raised the error.\n\n        total\n            The number of lines in source_lines.\n\n        top\n            The line number where source_lines starts.\n\n        bottom\n            The line number where source_lines ends.\n\n        start\n            The start position of the token in the template source.\n\n        end\n            The end position of the token in the template source.\n        \"\"\"",
     "name": "get_exception_info",
     "namespace": "django.template.base.Template.get_exception_info",
-    "class_name": "",
+    "class_name": "django.template.base.Template",
     "module_name": "",
     "package_name": ""
 }

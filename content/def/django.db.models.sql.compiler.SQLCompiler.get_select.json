@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return three values:\n        - a list of 3-tuples of (expression, (sql, params), alias)\n        - a klass_info structure,\n        - a dictionary of annotations\n\n        The (sql, params) is what the expression will produce, and alias is the\n        \"AS alias\" for the column (possibly None).\n\n        The klass_info structure contains the following information:\n        - The base model of the query.\n        - Which columns for that model are present in the query (by\n          position of the select clause).\n        - related_klass_infos: [f, klass_info] to descent into\n\n        The annotations is a dictionary of {'attname': column position} values.\n        \"\"\"",
     "name": "get_select",
     "namespace": "django.db.models.sql.compiler.SQLCompiler.get_select",
-    "class_name": "",
+    "class_name": "django.db.models.sql.compiler.SQLCompiler",
     "module_name": "",
     "package_name": ""
 }

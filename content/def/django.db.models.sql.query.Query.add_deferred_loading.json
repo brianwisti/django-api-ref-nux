@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Add the given list of model field names to the set of fields to\n        exclude from loading from the database when automatic column selection\n        is done. Add the new field names to any existing field names that\n        are deferred (or removed from any existing field names that are marked\n        as the only ones for immediate loading).\n        \"\"\"",
     "name": "add_deferred_loading",
     "namespace": "django.db.models.sql.query.Query.add_deferred_loading",
-    "class_name": "",
+    "class_name": "django.db.models.sql.query.Query",
     "module_name": "",
     "package_name": ""
 }

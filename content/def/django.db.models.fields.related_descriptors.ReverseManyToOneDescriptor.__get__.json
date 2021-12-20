@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Get the related objects through the reverse relation.\n\n        With the example above, when getting ``parent.children``:\n\n        - ``self`` is the descriptor managing the ``children`` attribute\n        - ``instance`` is the ``parent`` instance\n        - ``cls`` is the ``Parent`` class (unused)\n        \"\"\"",
     "name": "__get__",
     "namespace": "django.db.models.fields.related_descriptors.ReverseManyToOneDescriptor.__get__",
-    "class_name": "",
+    "class_name": "django.db.models.fields.related_descriptors.ReverseManyToOneDescriptor",
     "module_name": "",
     "package_name": ""
 }

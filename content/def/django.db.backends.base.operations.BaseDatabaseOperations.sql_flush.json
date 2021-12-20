@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return a list of SQL statements required to remove all data from\n        the given database tables (without actually removing the tables\n        themselves).\n\n        The `style` argument is a Style object as returned by either\n        color_style() or no_style() in django.core.management.color.\n\n        If `reset_sequences` is True, the list includes SQL statements required\n        to reset the sequences.\n\n        The `allow_cascade` argument determines whether truncation may cascade\n        to tables with foreign keys pointing the tables being truncated.\n        PostgreSQL requires a cascade even if these tables are empty.\n        \"\"\"",
     "name": "sql_flush",
     "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.sql_flush",
-    "class_name": "",
+    "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
     "module_name": "",
     "package_name": ""
 }

@@ -9,7 +9,7 @@
             "docstring": "",
             "name": "__init__",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor.__init__",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "",
             "name": "__enter__",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor.__enter__",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "",
             "name": "__exit__",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor.__exit__",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "\"\"\"Execute the given SQL statement, with optional parameters.\"\"\"",
             "name": "execute",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor.execute",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -41,7 +41,7 @@
             "docstring": "",
             "name": "quote_name",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor.quote_name",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -49,7 +49,7 @@
             "docstring": "\"\"\"Take a model and return its table definition.\"\"\"",
             "name": "table_sql",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor.table_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -57,7 +57,7 @@
             "docstring": "",
             "name": "_iter_column_sql",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor._iter_column_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -65,7 +65,7 @@
             "docstring": "\"\"\"\n        Return the column definition for a field. The field must already have\n        had set_attributes_from_name() called.\n        \"\"\"",
             "name": "column_sql",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor.column_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -73,7 +73,7 @@
             "docstring": "\"\"\"\n        Some backends don't accept default values for certain columns types\n        (i.e. MySQL longtext and longblob).\n        \"\"\"",
             "name": "skip_default",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor.skip_default",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -81,7 +81,7 @@
             "docstring": "\"\"\"\n        Some backends don't accept default values for certain columns types\n        (i.e. MySQL longtext and longblob) in the ALTER COLUMN statement.\n        \"\"\"",
             "name": "skip_default_on_alter",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor.skip_default_on_alter",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -89,7 +89,7 @@
             "docstring": "\"\"\"\n        Only used for backends which have requires_literal_defaults feature\n        \"\"\"",
             "name": "prepare_default",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor.prepare_default",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -97,7 +97,7 @@
             "docstring": "\"\"\"\n        Return the SQL to use in a DEFAULT clause. The resulting string should\n        contain a '%s' placeholder for a default value.\n        \"\"\"",
             "name": "_column_default_sql",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor._column_default_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -105,7 +105,7 @@
             "docstring": "",
             "name": "_effective_default",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor._effective_default",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -113,7 +113,7 @@
             "docstring": "\"\"\"Return a field's effective database default value.\"\"\"",
             "name": "effective_default",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor.effective_default",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -121,7 +121,7 @@
             "docstring": "\"\"\"\n        Return a quoted version of the value so it's safe to use in an SQL\n        string. This is not safe against injection from user code; it is\n        intended only for use in making SQL scripts or preparing default values\n        for particularly tricky backends (defaults are not user-defined, though,\n        so this is safe).\n        \"\"\"",
             "name": "quote_value",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor.quote_value",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -129,7 +129,7 @@
             "docstring": "\"\"\"\n        Create a table and any accompanying indexes or unique constraints for\n        the given `model`.\n        \"\"\"",
             "name": "create_model",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor.create_model",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -137,7 +137,7 @@
             "docstring": "\"\"\"Delete a model from the database.\"\"\"",
             "name": "delete_model",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor.delete_model",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -145,7 +145,7 @@
             "docstring": "\"\"\"Add an index on a model.\"\"\"",
             "name": "add_index",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor.add_index",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -153,7 +153,7 @@
             "docstring": "\"\"\"Remove an index from a model.\"\"\"",
             "name": "remove_index",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor.remove_index",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -161,7 +161,7 @@
             "docstring": "\"\"\"Add a constraint to a model.\"\"\"",
             "name": "add_constraint",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor.add_constraint",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -169,7 +169,7 @@
             "docstring": "\"\"\"Remove a constraint from a model.\"\"\"",
             "name": "remove_constraint",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor.remove_constraint",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -177,7 +177,7 @@
             "docstring": "\"\"\"\n        Deal with a model changing its unique_together. The input\n        unique_togethers must be doubly-nested, not the single-nested\n        [\"foo\", \"bar\"] format.\n        \"\"\"",
             "name": "alter_unique_together",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor.alter_unique_together",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -185,7 +185,7 @@
             "docstring": "\"\"\"\n        Deal with a model changing its index_together. The input\n        index_togethers must be doubly-nested, not the single-nested\n        [\"foo\", \"bar\"] format.\n        \"\"\"",
             "name": "alter_index_together",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor.alter_index_together",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -193,7 +193,7 @@
             "docstring": "",
             "name": "_delete_composed_index",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor._delete_composed_index",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -201,7 +201,7 @@
             "docstring": "\"\"\"Rename the table a model points to.\"\"\"",
             "name": "alter_db_table",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor.alter_db_table",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -209,7 +209,7 @@
             "docstring": "\"\"\"Move a model's table between tablespaces.\"\"\"",
             "name": "alter_db_tablespace",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor.alter_db_tablespace",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -217,7 +217,7 @@
             "docstring": "\"\"\"\n        Create a field on a model. Usually involves adding a column, but may\n        involve adding a table instead (for M2M fields).\n        \"\"\"",
             "name": "add_field",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor.add_field",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -225,7 +225,7 @@
             "docstring": "\"\"\"\n        Remove a field from a model. Usually involves deleting a column,\n        but for M2Ms may involve deleting a table.\n        \"\"\"",
             "name": "remove_field",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor.remove_field",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -233,7 +233,7 @@
             "docstring": "\"\"\"\n        Allow a field's type, uniqueness, nullability, default, column,\n        constraints, etc. to be modified.\n        `old_field` is required to compute the necessary changes.\n        If `strict` is True, raise errors if the old column does not match\n        `old_field` precisely.\n        \"\"\"",
             "name": "alter_field",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor.alter_field",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -241,7 +241,7 @@
             "docstring": "\"\"\"Perform a \"physical\" (non-ManyToMany) field update.\"\"\"",
             "name": "_alter_field",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor._alter_field",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -249,7 +249,7 @@
             "docstring": "\"\"\"\n        Hook to specialize column null alteration.\n\n        Return a (sql, params) fragment to set a column to null or non-null\n        as required by new_field, or None if no changes are required.\n        \"\"\"",
             "name": "_alter_column_null_sql",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor._alter_column_null_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -257,7 +257,7 @@
             "docstring": "\"\"\"\n        Hook to specialize column default alteration.\n\n        Return a (sql, params) fragment to add or drop (depending on the drop\n        argument) a default to new_field's column.\n        \"\"\"",
             "name": "_alter_column_default_sql",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor._alter_column_default_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -265,7 +265,7 @@
             "docstring": "\"\"\"\n        Hook to specialize column type alteration for different backends,\n        for cases when a creation type is different to an alteration type\n        (e.g. SERIAL in PostgreSQL, PostGIS fields).\n\n        Return a two-tuple of: an SQL fragment of (sql, params) to insert into\n        an ALTER TABLE statement and a list of extra (sql, params) tuples to\n        run once the field is altered.\n        \"\"\"",
             "name": "_alter_column_type_sql",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor._alter_column_type_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -273,7 +273,7 @@
             "docstring": "",
             "name": "_alter_column_collation_sql",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor._alter_column_collation_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -281,7 +281,7 @@
             "docstring": "\"\"\"Alter M2Ms to repoint their to= endpoints.\"\"\"",
             "name": "_alter_many_to_many",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor._alter_many_to_many",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -289,7 +289,7 @@
             "docstring": "\"\"\"\n        Generate a unique name for an index/unique constraint.\n\n        The name is divided into 3 parts: the table name, the column names,\n        and a unique digest and suffix.\n        \"\"\"",
             "name": "_create_index_name",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor._create_index_name",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -297,7 +297,7 @@
             "docstring": "",
             "name": "_get_index_tablespace_sql",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor._get_index_tablespace_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -305,7 +305,7 @@
             "docstring": "",
             "name": "_index_condition_sql",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor._index_condition_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -313,7 +313,7 @@
             "docstring": "",
             "name": "_index_include_sql",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor._index_include_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -321,7 +321,7 @@
             "docstring": "\"\"\"\n        Return the SQL statement to create the index for one or several fields\n        or expressions. `sql` can be specified if the syntax differs from the\n        standard (GIS indexes, ...).\n        \"\"\"",
             "name": "_create_index_sql",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor._create_index_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -329,7 +329,7 @@
             "docstring": "",
             "name": "_delete_index_sql",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor._delete_index_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -337,7 +337,7 @@
             "docstring": "",
             "name": "_index_columns",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor._index_columns",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -345,7 +345,7 @@
             "docstring": "\"\"\"\n        Return a list of all index SQL statements (field indexes,\n        index_together, Meta.indexes) for the specified model.\n        \"\"\"",
             "name": "_model_indexes_sql",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor._model_indexes_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -353,7 +353,7 @@
             "docstring": "\"\"\"\n        Return a list of all index SQL statements for the specified field.\n        \"\"\"",
             "name": "_field_indexes_sql",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor._field_indexes_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -361,7 +361,7 @@
             "docstring": "",
             "name": "_field_should_be_altered",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor._field_should_be_altered",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -369,7 +369,7 @@
             "docstring": "",
             "name": "_field_should_be_indexed",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor._field_should_be_indexed",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -377,7 +377,7 @@
             "docstring": "",
             "name": "_field_became_primary_key",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor._field_became_primary_key",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -385,7 +385,7 @@
             "docstring": "",
             "name": "_unique_should_be_added",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor._unique_should_be_added",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -393,7 +393,7 @@
             "docstring": "",
             "name": "_rename_field_sql",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor._rename_field_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -401,7 +401,7 @@
             "docstring": "",
             "name": "_create_fk_sql",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor._create_fk_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -409,7 +409,7 @@
             "docstring": "",
             "name": "_fk_constraint_name",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor._fk_constraint_name",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -417,7 +417,7 @@
             "docstring": "",
             "name": "_delete_fk_sql",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor._delete_fk_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -425,7 +425,7 @@
             "docstring": "",
             "name": "_deferrable_constraint_sql",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor._deferrable_constraint_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -433,7 +433,7 @@
             "docstring": "",
             "name": "_unique_sql",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor._unique_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -441,7 +441,7 @@
             "docstring": "",
             "name": "_create_unique_sql",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor._create_unique_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -449,7 +449,7 @@
             "docstring": "",
             "name": "_delete_unique_sql",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor._delete_unique_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -457,7 +457,7 @@
             "docstring": "",
             "name": "_check_sql",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor._check_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -465,7 +465,7 @@
             "docstring": "",
             "name": "_create_check_sql",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor._create_check_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -473,7 +473,7 @@
             "docstring": "",
             "name": "_delete_check_sql",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor._delete_check_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -481,7 +481,7 @@
             "docstring": "",
             "name": "_delete_constraint_sql",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor._delete_constraint_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -489,7 +489,7 @@
             "docstring": "\"\"\"Return all constraint names matching the columns and conditions.\"\"\"",
             "name": "_constraint_names",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor._constraint_names",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -497,7 +497,7 @@
             "docstring": "",
             "name": "_delete_primary_key",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor._delete_primary_key",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -505,7 +505,7 @@
             "docstring": "",
             "name": "_create_primary_key_sql",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor._create_primary_key_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -513,7 +513,7 @@
             "docstring": "",
             "name": "_delete_primary_key_sql",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor._delete_primary_key_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -521,7 +521,7 @@
             "docstring": "",
             "name": "_collate_sql",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor._collate_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         },
@@ -529,7 +529,7 @@
             "docstring": "",
             "name": "remove_procedure",
             "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor.remove_procedure",
-            "class_name": "",
+            "class_name": "django.db.backends.base.schema.BaseDatabaseSchemaEditor",
             "module_name": "",
             "package_name": ""
         }

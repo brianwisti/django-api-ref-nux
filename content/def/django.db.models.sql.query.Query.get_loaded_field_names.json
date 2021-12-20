@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        If any fields are marked to be deferred, return a dictionary mapping\n        models to a set of names in those fields that will be loaded. If a\n        model is not in the returned dictionary, none of its fields are\n        deferred.\n\n        If no fields are marked for deferral, return an empty dictionary.\n        \"\"\"",
     "name": "get_loaded_field_names",
     "namespace": "django.db.models.sql.query.Query.get_loaded_field_names",
-    "class_name": "",
+    "class_name": "django.db.models.sql.query.Query",
     "module_name": "",
     "package_name": ""
 }

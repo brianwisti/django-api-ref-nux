@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return the EWKB of this Geometry in hexadecimal form. This is an\n        extension of the WKB specification that includes SRID value that are\n        a part of this geometry.\n        \"\"\"",
     "name": "hexewkb",
     "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.hexewkb",
-    "class_name": "",
+    "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
     "module_name": "",
     "package_name": ""
 }

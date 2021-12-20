@@ -9,7 +9,7 @@
             "docstring": "",
             "name": "__init__",
             "namespace": "django.template.response.SimpleTemplateResponse.__init__",
-            "class_name": "",
+            "class_name": "django.template.response.SimpleTemplateResponse",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "\"\"\"\n        Raise an exception if trying to pickle an unrendered response. Pickle\n        only rendered data, not the data used to construct the response.\n        \"\"\"",
             "name": "__getstate__",
             "namespace": "django.template.response.SimpleTemplateResponse.__getstate__",
-            "class_name": "",
+            "class_name": "django.template.response.SimpleTemplateResponse",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "\"\"\"Accept a template object, path-to-template, or list of paths.\"\"\"",
             "name": "resolve_template",
             "namespace": "django.template.response.SimpleTemplateResponse.resolve_template",
-            "class_name": "",
+            "class_name": "django.template.response.SimpleTemplateResponse",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "",
             "name": "resolve_context",
             "namespace": "django.template.response.SimpleTemplateResponse.resolve_context",
-            "class_name": "",
+            "class_name": "django.template.response.SimpleTemplateResponse",
             "module_name": "",
             "package_name": ""
         },
@@ -41,7 +41,7 @@
             "docstring": "\"\"\"Return the freshly rendered content for the template and context\n        described by the TemplateResponse.\n\n        This *does not* set the final content of the response. To set the\n        response content, you must either call render(), or set the\n        content explicitly using the value of this property.\n        \"\"\"",
             "name": "rendered_content",
             "namespace": "django.template.response.SimpleTemplateResponse.rendered_content",
-            "class_name": "",
+            "class_name": "django.template.response.SimpleTemplateResponse",
             "module_name": "",
             "package_name": ""
         },
@@ -49,7 +49,7 @@
             "docstring": "\"\"\"Add a new post-rendering callback.\n\n        If the response has already been rendered,\n        invoke the callback immediately.\n        \"\"\"",
             "name": "add_post_render_callback",
             "namespace": "django.template.response.SimpleTemplateResponse.add_post_render_callback",
-            "class_name": "",
+            "class_name": "django.template.response.SimpleTemplateResponse",
             "module_name": "",
             "package_name": ""
         },
@@ -57,7 +57,7 @@
             "docstring": "\"\"\"Render (thereby finalizing) the content of the response.\n\n        If the content has already been rendered, this is a no-op.\n\n        Return the baked response instance.\n        \"\"\"",
             "name": "render",
             "namespace": "django.template.response.SimpleTemplateResponse.render",
-            "class_name": "",
+            "class_name": "django.template.response.SimpleTemplateResponse",
             "module_name": "",
             "package_name": ""
         },
@@ -65,7 +65,7 @@
             "docstring": "",
             "name": "is_rendered",
             "namespace": "django.template.response.SimpleTemplateResponse.is_rendered",
-            "class_name": "",
+            "class_name": "django.template.response.SimpleTemplateResponse",
             "module_name": "",
             "package_name": ""
         },
@@ -73,7 +73,7 @@
             "docstring": "",
             "name": "__iter__",
             "namespace": "django.template.response.SimpleTemplateResponse.__iter__",
-            "class_name": "",
+            "class_name": "django.template.response.SimpleTemplateResponse",
             "module_name": "",
             "package_name": ""
         },
@@ -81,7 +81,7 @@
             "docstring": "",
             "name": "content",
             "namespace": "django.template.response.SimpleTemplateResponse.content",
-            "class_name": "",
+            "class_name": "django.template.response.SimpleTemplateResponse",
             "module_name": "",
             "package_name": ""
         },
@@ -89,7 +89,7 @@
             "docstring": "\"\"\"Set the content for the response.\"\"\"",
             "name": "content",
             "namespace": "django.template.response.SimpleTemplateResponse.content",
-            "class_name": "",
+            "class_name": "django.template.response.SimpleTemplateResponse",
             "module_name": "",
             "package_name": ""
         }

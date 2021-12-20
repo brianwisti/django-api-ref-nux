@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Restrict the set of installed apps used by get_app_config[s].\n\n        available must be an iterable of application names.\n\n        set_available_apps() must be balanced with unset_available_apps().\n\n        Primarily used for performance optimization in TransactionTestCase.\n\n        This method is safe in the sense that it doesn't trigger any imports.\n        \"\"\"",
     "name": "set_available_apps",
     "namespace": "django.apps.registry.Apps.set_available_apps",
-    "class_name": "",
+    "class_name": "django.apps.registry.Apps",
     "module_name": "",
     "package_name": ""
 }

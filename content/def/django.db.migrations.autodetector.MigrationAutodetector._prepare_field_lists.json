@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Prepare field lists and a list of the fields that used through models\n        in the old state so dependencies can be made from the through model\n        deletion to the field that uses it.\n        \"\"\"",
     "name": "_prepare_field_lists",
     "namespace": "django.db.migrations.autodetector.MigrationAutodetector._prepare_field_lists",
-    "class_name": "",
+    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
     "module_name": "",
     "package_name": ""
 }

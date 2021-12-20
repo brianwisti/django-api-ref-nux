@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Trim joins from the start of the join path. The candidates for trim\n        are the PathInfos in names_with_path structure that are m2m joins.\n\n        Also set the select column so the start matches the join.\n\n        This method is meant to be used for generating the subquery joins &\n        cols in split_exclude().\n\n        Return a lookup usable for doing outerq.filter(lookup=self) and a\n        boolean indicating if the joins in the prefix contain a LEFT OUTER join.\n        _\"\"\"",
     "name": "trim_start",
     "namespace": "django.db.models.sql.query.Query.trim_start",
-    "class_name": "",
+    "class_name": "django.db.models.sql.query.Query",
     "module_name": "",
     "package_name": ""
 }

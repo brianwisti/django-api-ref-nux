@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.core.management.base.CommandError.__init__",
-                    "class_name": "",
+                    "class_name": "django.core.management.base.CommandError",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -32,7 +32,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.core.management.base.CommandParser.__init__",
-                    "class_name": "",
+                    "class_name": "django.core.management.base.CommandParser",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -40,7 +40,7 @@
                     "docstring": "",
                     "name": "parse_args",
                     "namespace": "django.core.management.base.CommandParser.parse_args",
-                    "class_name": "",
+                    "class_name": "django.core.management.base.CommandParser",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -48,7 +48,7 @@
                     "docstring": "",
                     "name": "error",
                     "namespace": "django.core.management.base.CommandParser.error",
-                    "class_name": "",
+                    "class_name": "django.core.management.base.CommandParser",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -63,7 +63,7 @@
                     "docstring": "",
                     "name": "_reordered_actions",
                     "namespace": "django.core.management.base.DjangoHelpFormatter._reordered_actions",
-                    "class_name": "",
+                    "class_name": "django.core.management.base.DjangoHelpFormatter",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -71,7 +71,7 @@
                     "docstring": "",
                     "name": "add_usage",
                     "namespace": "django.core.management.base.DjangoHelpFormatter.add_usage",
-                    "class_name": "",
+                    "class_name": "django.core.management.base.DjangoHelpFormatter",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -79,7 +79,7 @@
                     "docstring": "",
                     "name": "add_arguments",
                     "namespace": "django.core.management.base.DjangoHelpFormatter.add_arguments",
-                    "class_name": "",
+                    "class_name": "django.core.management.base.DjangoHelpFormatter",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -94,7 +94,7 @@
                     "docstring": "",
                     "name": "style_func",
                     "namespace": "django.core.management.base.OutputWrapper.style_func",
-                    "class_name": "",
+                    "class_name": "django.core.management.base.OutputWrapper",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -102,7 +102,7 @@
                     "docstring": "",
                     "name": "style_func",
                     "namespace": "django.core.management.base.OutputWrapper.style_func",
-                    "class_name": "",
+                    "class_name": "django.core.management.base.OutputWrapper",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -110,7 +110,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.core.management.base.OutputWrapper.__init__",
-                    "class_name": "",
+                    "class_name": "django.core.management.base.OutputWrapper",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -118,7 +118,7 @@
                     "docstring": "",
                     "name": "__getattr__",
                     "namespace": "django.core.management.base.OutputWrapper.__getattr__",
-                    "class_name": "",
+                    "class_name": "django.core.management.base.OutputWrapper",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -126,7 +126,7 @@
                     "docstring": "",
                     "name": "flush",
                     "namespace": "django.core.management.base.OutputWrapper.flush",
-                    "class_name": "",
+                    "class_name": "django.core.management.base.OutputWrapper",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -134,7 +134,7 @@
                     "docstring": "",
                     "name": "isatty",
                     "namespace": "django.core.management.base.OutputWrapper.isatty",
-                    "class_name": "",
+                    "class_name": "django.core.management.base.OutputWrapper",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -142,7 +142,7 @@
                     "docstring": "",
                     "name": "write",
                     "namespace": "django.core.management.base.OutputWrapper.write",
-                    "class_name": "",
+                    "class_name": "django.core.management.base.OutputWrapper",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -157,7 +157,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.core.management.base.BaseCommand.__init__",
-                    "class_name": "",
+                    "class_name": "django.core.management.base.BaseCommand",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -165,7 +165,7 @@
                     "docstring": "\"\"\"\n        Return the Django version, which should be correct for all built-in\n        Django commands. User-supplied commands can override this method to\n        return their own version.\n        \"\"\"",
                     "name": "get_version",
                     "namespace": "django.core.management.base.BaseCommand.get_version",
-                    "class_name": "",
+                    "class_name": "django.core.management.base.BaseCommand",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -173,7 +173,7 @@
                     "docstring": "\"\"\"\n        Create and return the ``ArgumentParser`` which will be used to\n        parse the arguments to this command.\n        \"\"\"",
                     "name": "create_parser",
                     "namespace": "django.core.management.base.BaseCommand.create_parser",
-                    "class_name": "",
+                    "class_name": "django.core.management.base.BaseCommand",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -181,7 +181,7 @@
                     "docstring": "\"\"\"\n        Entry point for subclassed commands to add custom arguments.\n        \"\"\"",
                     "name": "add_arguments",
                     "namespace": "django.core.management.base.BaseCommand.add_arguments",
-                    "class_name": "",
+                    "class_name": "django.core.management.base.BaseCommand",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -189,7 +189,7 @@
                     "docstring": "\"\"\"\n        Call the parser's add_argument() method, suppressing the help text\n        according to BaseCommand.suppressed_base_arguments.\n        \"\"\"",
                     "name": "add_base_argument",
                     "namespace": "django.core.management.base.BaseCommand.add_base_argument",
-                    "class_name": "",
+                    "class_name": "django.core.management.base.BaseCommand",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -197,7 +197,7 @@
                     "docstring": "\"\"\"\n        Print the help message for this command, derived from\n        ``self.usage()``.\n        \"\"\"",
                     "name": "print_help",
                     "namespace": "django.core.management.base.BaseCommand.print_help",
-                    "class_name": "",
+                    "class_name": "django.core.management.base.BaseCommand",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -205,7 +205,7 @@
                     "docstring": "\"\"\"\n        Set up any environment changes requested (e.g., Python path\n        and Django settings), then run this command. If the\n        command raises a ``CommandError``, intercept it and print it sensibly\n        to stderr. If the ``--traceback`` option is present or the raised\n        ``Exception`` is not ``CommandError``, raise it.\n        \"\"\"",
                     "name": "run_from_argv",
                     "namespace": "django.core.management.base.BaseCommand.run_from_argv",
-                    "class_name": "",
+                    "class_name": "django.core.management.base.BaseCommand",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -213,7 +213,7 @@
                     "docstring": "\"\"\"\n        Try to execute this command, performing system checks if needed (as\n        controlled by the ``requires_system_checks`` attribute, except if\n        force-skipped).\n        \"\"\"",
                     "name": "execute",
                     "namespace": "django.core.management.base.BaseCommand.execute",
-                    "class_name": "",
+                    "class_name": "django.core.management.base.BaseCommand",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -221,7 +221,7 @@
                     "docstring": "\"\"\"\n        Use the system check framework to validate entire Django project.\n        Raise CommandError for any serious message (error or critical errors).\n        If there are only light messages (like warnings), print them to stderr\n        and don't raise an exception.\n        \"\"\"",
                     "name": "check",
                     "namespace": "django.core.management.base.BaseCommand.check",
-                    "class_name": "",
+                    "class_name": "django.core.management.base.BaseCommand",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -229,7 +229,7 @@
                     "docstring": "\"\"\"\n        Print a warning if the set of migrations on disk don't match the\n        migrations in the database.\n        \"\"\"",
                     "name": "check_migrations",
                     "namespace": "django.core.management.base.BaseCommand.check_migrations",
-                    "class_name": "",
+                    "class_name": "django.core.management.base.BaseCommand",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -237,7 +237,7 @@
                     "docstring": "\"\"\"\n        The actual logic of the command. Subclasses must implement\n        this method.\n        \"\"\"",
                     "name": "handle",
                     "namespace": "django.core.management.base.BaseCommand.handle",
-                    "class_name": "",
+                    "class_name": "django.core.management.base.BaseCommand",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -252,7 +252,7 @@
                     "docstring": "",
                     "name": "add_arguments",
                     "namespace": "django.core.management.base.AppCommand.add_arguments",
-                    "class_name": "",
+                    "class_name": "django.core.management.base.AppCommand",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -260,7 +260,7 @@
                     "docstring": "",
                     "name": "handle",
                     "namespace": "django.core.management.base.AppCommand.handle",
-                    "class_name": "",
+                    "class_name": "django.core.management.base.AppCommand",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -268,7 +268,7 @@
                     "docstring": "\"\"\"\n        Perform the command's actions for app_config, an AppConfig instance\n        corresponding to an application label given on the command line.\n        \"\"\"",
                     "name": "handle_app_config",
                     "namespace": "django.core.management.base.AppCommand.handle_app_config",
-                    "class_name": "",
+                    "class_name": "django.core.management.base.AppCommand",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -283,7 +283,7 @@
                     "docstring": "",
                     "name": "add_arguments",
                     "namespace": "django.core.management.base.LabelCommand.add_arguments",
-                    "class_name": "",
+                    "class_name": "django.core.management.base.LabelCommand",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -291,7 +291,7 @@
                     "docstring": "",
                     "name": "handle",
                     "namespace": "django.core.management.base.LabelCommand.handle",
-                    "class_name": "",
+                    "class_name": "django.core.management.base.LabelCommand",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -299,7 +299,7 @@
                     "docstring": "\"\"\"\n        Perform the command's actions for ``label``, which will be the\n        string as given on the command line.\n        \"\"\"",
                     "name": "handle_label",
                     "namespace": "django.core.management.base.LabelCommand.handle_label",
-                    "class_name": "",
+                    "class_name": "django.core.management.base.LabelCommand",
                     "module_name": "",
                     "package_name": ""
                 }

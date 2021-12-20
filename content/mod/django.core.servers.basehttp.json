@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.core.servers.basehttp.WSGIServer.__init__",
-                    "class_name": "",
+                    "class_name": "django.core.servers.basehttp.WSGIServer",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "",
                     "name": "handle_error",
                     "namespace": "django.core.servers.basehttp.WSGIServer.handle_error",
-                    "class_name": "",
+                    "class_name": "django.core.servers.basehttp.WSGIServer",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -34,7 +34,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.core.servers.basehttp.ThreadedWSGIServer.__init__",
-                    "class_name": "",
+                    "class_name": "django.core.servers.basehttp.ThreadedWSGIServer",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -42,7 +42,7 @@
                     "docstring": "",
                     "name": "process_request_thread",
                     "namespace": "django.core.servers.basehttp.ThreadedWSGIServer.process_request_thread",
-                    "class_name": "",
+                    "class_name": "django.core.servers.basehttp.ThreadedWSGIServer",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -50,7 +50,7 @@
                     "docstring": "",
                     "name": "_close_connections",
                     "namespace": "django.core.servers.basehttp.ThreadedWSGIServer._close_connections",
-                    "class_name": "",
+                    "class_name": "django.core.servers.basehttp.ThreadedWSGIServer",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -58,7 +58,7 @@
                     "docstring": "",
                     "name": "close_request",
                     "namespace": "django.core.servers.basehttp.ThreadedWSGIServer.close_request",
-                    "class_name": "",
+                    "class_name": "django.core.servers.basehttp.ThreadedWSGIServer",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -73,7 +73,7 @@
                     "docstring": "\"\"\"\n        Use a LimitedStream so that unread request data will be ignored at\n        the end of the request. WSGIRequest uses a LimitedStream but it\n        shouldn't discard the data since the upstream servers usually do this.\n        This fix applies only for testserver/runserver.\n        \"\"\"",
                     "name": "__init__",
                     "namespace": "django.core.servers.basehttp.ServerHandler.__init__",
-                    "class_name": "",
+                    "class_name": "django.core.servers.basehttp.ServerHandler",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -81,7 +81,7 @@
                     "docstring": "",
                     "name": "cleanup_headers",
                     "namespace": "django.core.servers.basehttp.ServerHandler.cleanup_headers",
-                    "class_name": "",
+                    "class_name": "django.core.servers.basehttp.ServerHandler",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -89,7 +89,7 @@
                     "docstring": "",
                     "name": "close",
                     "namespace": "django.core.servers.basehttp.ServerHandler.close",
-                    "class_name": "",
+                    "class_name": "django.core.servers.basehttp.ServerHandler",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -104,7 +104,7 @@
                     "docstring": "",
                     "name": "address_string",
                     "namespace": "django.core.servers.basehttp.WSGIRequestHandler.address_string",
-                    "class_name": "",
+                    "class_name": "django.core.servers.basehttp.WSGIRequestHandler",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -112,7 +112,7 @@
                     "docstring": "",
                     "name": "log_message",
                     "namespace": "django.core.servers.basehttp.WSGIRequestHandler.log_message",
-                    "class_name": "",
+                    "class_name": "django.core.servers.basehttp.WSGIRequestHandler",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -120,7 +120,7 @@
                     "docstring": "",
                     "name": "get_environ",
                     "namespace": "django.core.servers.basehttp.WSGIRequestHandler.get_environ",
-                    "class_name": "",
+                    "class_name": "django.core.servers.basehttp.WSGIRequestHandler",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -128,7 +128,7 @@
                     "docstring": "",
                     "name": "handle",
                     "namespace": "django.core.servers.basehttp.WSGIRequestHandler.handle",
-                    "class_name": "",
+                    "class_name": "django.core.servers.basehttp.WSGIRequestHandler",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -136,7 +136,7 @@
                     "docstring": "\"\"\"Copy of WSGIRequestHandler.handle() but with different ServerHandler\"\"\"",
                     "name": "handle_one_request",
                     "namespace": "django.core.servers.basehttp.WSGIRequestHandler.handle_one_request",
-                    "class_name": "",
+                    "class_name": "django.core.servers.basehttp.WSGIRequestHandler",
                     "module_name": "",
                     "package_name": ""
                 }

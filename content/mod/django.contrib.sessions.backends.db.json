@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.contrib.sessions.backends.db.SessionStore.__init__",
-                    "class_name": "",
+                    "class_name": "django.contrib.sessions.backends.db.SessionStore",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "",
                     "name": "get_model_class",
                     "namespace": "django.contrib.sessions.backends.db.SessionStore.get_model_class",
-                    "class_name": "",
+                    "class_name": "django.contrib.sessions.backends.db.SessionStore",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -27,7 +27,7 @@
                     "docstring": "",
                     "name": "model",
                     "namespace": "django.contrib.sessions.backends.db.SessionStore.model",
-                    "class_name": "",
+                    "class_name": "django.contrib.sessions.backends.db.SessionStore",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -35,7 +35,7 @@
                     "docstring": "",
                     "name": "_get_session_from_db",
                     "namespace": "django.contrib.sessions.backends.db.SessionStore._get_session_from_db",
-                    "class_name": "",
+                    "class_name": "django.contrib.sessions.backends.db.SessionStore",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -43,7 +43,7 @@
                     "docstring": "",
                     "name": "load",
                     "namespace": "django.contrib.sessions.backends.db.SessionStore.load",
-                    "class_name": "",
+                    "class_name": "django.contrib.sessions.backends.db.SessionStore",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -51,7 +51,7 @@
                     "docstring": "",
                     "name": "exists",
                     "namespace": "django.contrib.sessions.backends.db.SessionStore.exists",
-                    "class_name": "",
+                    "class_name": "django.contrib.sessions.backends.db.SessionStore",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -59,7 +59,7 @@
                     "docstring": "",
                     "name": "create",
                     "namespace": "django.contrib.sessions.backends.db.SessionStore.create",
-                    "class_name": "",
+                    "class_name": "django.contrib.sessions.backends.db.SessionStore",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -67,7 +67,7 @@
                     "docstring": "\"\"\"\n        Return a new instance of the session model object, which represents the\n        current session state. Intended to be used for saving the session data\n        to the database.\n        \"\"\"",
                     "name": "create_model_instance",
                     "namespace": "django.contrib.sessions.backends.db.SessionStore.create_model_instance",
-                    "class_name": "",
+                    "class_name": "django.contrib.sessions.backends.db.SessionStore",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -75,7 +75,7 @@
                     "docstring": "\"\"\"\n        Save the current session data to the database. If 'must_create' is\n        True, raise a database error if the saving operation doesn't create a\n        new entry (as opposed to possibly updating an existing entry).\n        \"\"\"",
                     "name": "save",
                     "namespace": "django.contrib.sessions.backends.db.SessionStore.save",
-                    "class_name": "",
+                    "class_name": "django.contrib.sessions.backends.db.SessionStore",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -83,7 +83,7 @@
                     "docstring": "",
                     "name": "delete",
                     "namespace": "django.contrib.sessions.backends.db.SessionStore.delete",
-                    "class_name": "",
+                    "class_name": "django.contrib.sessions.backends.db.SessionStore",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -91,7 +91,7 @@
                     "docstring": "",
                     "name": "clear_expired",
                     "namespace": "django.contrib.sessions.backends.db.SessionStore.clear_expired",
-                    "class_name": "",
+                    "class_name": "django.contrib.sessions.backends.db.SessionStore",
                     "module_name": "",
                     "package_name": ""
                 }

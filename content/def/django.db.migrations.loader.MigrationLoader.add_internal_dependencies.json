@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Internal dependencies need to be added first to ensure `__first__`\n        dependencies find the correct root node.\n        \"\"\"",
     "name": "add_internal_dependencies",
     "namespace": "django.db.migrations.loader.MigrationLoader.add_internal_dependencies",
-    "class_name": "",
+    "class_name": "django.db.migrations.loader.MigrationLoader",
     "module_name": "",
     "package_name": ""
 }

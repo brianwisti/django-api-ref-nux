@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Update the unget history as a sanity check to see if we've pushed\n        back the same number of bytes in one chunk. If we keep ungetting the\n        same number of bytes many times (here, 50), we're mostly likely in an\n        infinite loop of some sort. This is usually caused by a\n        maliciously-malformed MIME request.\n        \"\"\"",
     "name": "_update_unget_history",
     "namespace": "django.http.multipartparser.LazyStream._update_unget_history",
-    "class_name": "",
+    "class_name": "django.http.multipartparser.LazyStream",
     "module_name": "",
     "package_name": ""
 }

@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return the EWKB representation of this Geometry as a Python buffer.\n        This is an extension of the WKB specification that includes any SRID\n        value that are a part of this geometry.\n        \"\"\"",
     "name": "ewkb",
     "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.ewkb",
-    "class_name": "",
+    "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
     "module_name": "",
     "package_name": ""
 }

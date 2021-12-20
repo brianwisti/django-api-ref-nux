@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Instead of generating a random string, generate a secure url-safe\n        base64-encoded string of data as our session key.\n        \"\"\"",
     "name": "_get_session_key",
     "namespace": "django.contrib.sessions.backends.signed_cookies.SessionStore._get_session_key",
-    "class_name": "",
+    "class_name": "django.contrib.sessions.backends.signed_cookies.SessionStore",
     "module_name": "",
     "package_name": ""
 }

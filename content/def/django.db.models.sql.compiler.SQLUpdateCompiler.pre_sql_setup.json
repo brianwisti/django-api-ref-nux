@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        If the update depends on results from other tables, munge the \"where\"\n        conditions to match the format required for (portable) SQL updates.\n\n        If multiple updates are required, pull out the id values to update at\n        this point so that they don't change as a result of the progressive\n        updates.\n        \"\"\"",
     "name": "pre_sql_setup",
     "namespace": "django.db.models.sql.compiler.SQLUpdateCompiler.pre_sql_setup",
-    "class_name": "",
+    "class_name": "django.db.models.sql.compiler.SQLUpdateCompiler",
     "module_name": "",
     "package_name": ""
 }

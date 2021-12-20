@@ -9,7 +9,7 @@
             "docstring": "\"\"\"\n        A LayerMapping object is initialized using the given Model (not an instance),\n        a DataSource (or string path to an OGR-supported data file), and a mapping\n        dictionary.  See the module level docstring for more details and keyword\n        argument usage.\n        \"\"\"",
             "name": "__init__",
             "namespace": "django.contrib.gis.utils.layermapping.LayerMapping.__init__",
-            "class_name": "",
+            "class_name": "django.contrib.gis.utils.layermapping.LayerMapping",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "\"Check the `fid_range` keyword.\"",
             "name": "check_fid_range",
             "namespace": "django.contrib.gis.utils.layermapping.LayerMapping.check_fid_range",
-            "class_name": "",
+            "class_name": "django.contrib.gis.utils.layermapping.LayerMapping",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "\"\"\"\n        Check the Layer metadata and ensure that it's compatible with the\n        mapping information and model. Unlike previous revisions, there is no\n        need to increment through each feature in the Layer.\n        \"\"\"",
             "name": "check_layer",
             "namespace": "django.contrib.gis.utils.layermapping.LayerMapping.check_layer",
-            "class_name": "",
+            "class_name": "django.contrib.gis.utils.layermapping.LayerMapping",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "\"Check the compatibility of the given spatial reference object.\"",
             "name": "check_srs",
             "namespace": "django.contrib.gis.utils.layermapping.LayerMapping.check_srs",
-            "class_name": "",
+            "class_name": "django.contrib.gis.utils.layermapping.LayerMapping",
             "module_name": "",
             "package_name": ""
         },
@@ -41,7 +41,7 @@
             "docstring": "\"Check the `unique` keyword parameter -- may be a sequence or string.\"",
             "name": "check_unique",
             "namespace": "django.contrib.gis.utils.layermapping.LayerMapping.check_unique",
-            "class_name": "",
+            "class_name": "django.contrib.gis.utils.layermapping.LayerMapping",
             "module_name": "",
             "package_name": ""
         },
@@ -49,7 +49,7 @@
             "docstring": "\"\"\"\n        Given an OGR Feature, return a dictionary of keyword arguments for\n        constructing the mapped model.\n        \"\"\"",
             "name": "feature_kwargs",
             "namespace": "django.contrib.gis.utils.layermapping.LayerMapping.feature_kwargs",
-            "class_name": "",
+            "class_name": "django.contrib.gis.utils.layermapping.LayerMapping",
             "module_name": "",
             "package_name": ""
         },
@@ -57,7 +57,7 @@
             "docstring": "\"\"\"\n        Given the feature keyword arguments (from `feature_kwargs`), construct\n        and return the uniqueness keyword arguments -- a subset of the feature\n        kwargs.\n        \"\"\"",
             "name": "unique_kwargs",
             "namespace": "django.contrib.gis.utils.layermapping.LayerMapping.unique_kwargs",
-            "class_name": "",
+            "class_name": "django.contrib.gis.utils.layermapping.LayerMapping",
             "module_name": "",
             "package_name": ""
         },
@@ -65,7 +65,7 @@
             "docstring": "\"\"\"\n        Verify if the OGR Field contents are acceptable to the model field. If\n        they are, return the verified value, otherwise raise an exception.\n        \"\"\"",
             "name": "verify_ogr_field",
             "namespace": "django.contrib.gis.utils.layermapping.LayerMapping.verify_ogr_field",
-            "class_name": "",
+            "class_name": "django.contrib.gis.utils.layermapping.LayerMapping",
             "module_name": "",
             "package_name": ""
         },
@@ -73,7 +73,7 @@
             "docstring": "\"\"\"\n        Given an OGR Feature, the related model and its dictionary mapping,\n        retrieve the related model for the ForeignKey mapping.\n        \"\"\"",
             "name": "verify_fk",
             "namespace": "django.contrib.gis.utils.layermapping.LayerMapping.verify_fk",
-            "class_name": "",
+            "class_name": "django.contrib.gis.utils.layermapping.LayerMapping",
             "module_name": "",
             "package_name": ""
         },
@@ -81,7 +81,7 @@
             "docstring": "\"\"\"\n        Verify the geometry -- construct and return a GeometryCollection\n        if necessary (for example if the model field is MultiPolygonField while\n        the mapped shapefile only contains Polygons).\n        \"\"\"",
             "name": "verify_geom",
             "namespace": "django.contrib.gis.utils.layermapping.LayerMapping.verify_geom",
-            "class_name": "",
+            "class_name": "django.contrib.gis.utils.layermapping.LayerMapping",
             "module_name": "",
             "package_name": ""
         },
@@ -89,7 +89,7 @@
             "docstring": "\"Return the coordinate transformation object.\"",
             "name": "coord_transform",
             "namespace": "django.contrib.gis.utils.layermapping.LayerMapping.coord_transform",
-            "class_name": "",
+            "class_name": "django.contrib.gis.utils.layermapping.LayerMapping",
             "module_name": "",
             "package_name": ""
         },
@@ -97,7 +97,7 @@
             "docstring": "\"Return the GeometryField instance associated with the geographic column.\"",
             "name": "geometry_field",
             "namespace": "django.contrib.gis.utils.layermapping.LayerMapping.geometry_field",
-            "class_name": "",
+            "class_name": "django.contrib.gis.utils.layermapping.LayerMapping",
             "module_name": "",
             "package_name": ""
         },
@@ -105,7 +105,7 @@
             "docstring": "\"\"\"\n        Given the OGRGeomType for a geometry and its associated GeometryField,\n        determine whether the geometry should be turned into a GeometryCollection.\n        \"\"\"",
             "name": "make_multi",
             "namespace": "django.contrib.gis.utils.layermapping.LayerMapping.make_multi",
-            "class_name": "",
+            "class_name": "django.contrib.gis.utils.layermapping.LayerMapping",
             "module_name": "",
             "package_name": ""
         },
@@ -113,7 +113,7 @@
             "docstring": "\"\"\"\n        Save the contents from the OGR DataSource Layer into the database\n        according to the mapping dictionary given at initialization.\n\n        Keyword Parameters:\n         verbose:\n           If set, information will be printed subsequent to each model save\n           executed on the database.\n\n         fid_range:\n           May be set with a slice or tuple of (begin, end) feature ID's to map\n           from the data source.  In other words, this keyword enables the user\n           to selectively import a subset range of features in the geographic\n           data source.\n\n         step:\n           If set with an integer, transactions will occur at every step\n           interval. For example, if step=1000, a commit would occur after\n           the 1,000th feature, the 2,000th feature etc.\n\n         progress:\n           When this keyword is set, status information will be printed giving\n           the number of features processed and successfully saved.  By default,\n           progress information will pe printed every 1000 features processed,\n           however, this default may be overridden by setting this keyword with an\n           integer for the desired interval.\n\n         stream:\n           Status information will be written to this file handle.  Defaults to\n           using `sys.stdout`, but any object with a `write` method is supported.\n\n         silent:\n           By default, non-fatal error notifications are printed to stdout, but\n           this keyword may be set to disable these notifications.\n\n         strict:\n           Execution of the model mapping will cease upon the first error\n           encountered.  The default behavior is to attempt to continue.\n        \"\"\"",
             "name": "save",
             "namespace": "django.contrib.gis.utils.layermapping.LayerMapping.save",
-            "class_name": "",
+            "class_name": "django.contrib.gis.utils.layermapping.LayerMapping",
             "module_name": "",
             "package_name": ""
         }

@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Oracle supports only EXISTS(...) or filters in the WHERE clause, others\n        must be compared with True.\n        \"\"\"",
     "name": "conditional_expression_supported_in_where_clause",
     "namespace": "django.db.backends.oracle.operations.DatabaseOperations.conditional_expression_supported_in_where_clause",
-    "class_name": "",
+    "class_name": "django.db.backends.oracle.operations.DatabaseOperations",
     "module_name": "",
     "package_name": ""
 }

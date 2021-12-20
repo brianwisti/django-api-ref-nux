@@ -9,7 +9,7 @@
             "docstring": "",
             "name": "__init__",
             "namespace": "django.db.models.fields.files.ImageField.__init__",
-            "class_name": "",
+            "class_name": "django.db.models.fields.files.ImageField",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "",
             "name": "check",
             "namespace": "django.db.models.fields.files.ImageField.check",
-            "class_name": "",
+            "class_name": "django.db.models.fields.files.ImageField",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "",
             "name": "_check_image_library_installed",
             "namespace": "django.db.models.fields.files.ImageField._check_image_library_installed",
-            "class_name": "",
+            "class_name": "django.db.models.fields.files.ImageField",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "",
             "name": "deconstruct",
             "namespace": "django.db.models.fields.files.ImageField.deconstruct",
-            "class_name": "",
+            "class_name": "django.db.models.fields.files.ImageField",
             "module_name": "",
             "package_name": ""
         },
@@ -41,7 +41,7 @@
             "docstring": "",
             "name": "contribute_to_class",
             "namespace": "django.db.models.fields.files.ImageField.contribute_to_class",
-            "class_name": "",
+            "class_name": "django.db.models.fields.files.ImageField",
             "module_name": "",
             "package_name": ""
         },
@@ -49,7 +49,7 @@
             "docstring": "\"\"\"\n        Update field's width and height fields, if defined.\n\n        This method is hooked up to model's post_init signal to update\n        dimensions after instantiating a model instance.  However, dimensions\n        won't be updated if the dimensions fields are already populated.  This\n        avoids unnecessary recalculation when loading an object from the\n        database.\n\n        Dimensions can be forced to update with force=True, which is how\n        ImageFileDescriptor.__set__ calls this method.\n        \"\"\"",
             "name": "update_dimension_fields",
             "namespace": "django.db.models.fields.files.ImageField.update_dimension_fields",
-            "class_name": "",
+            "class_name": "django.db.models.fields.files.ImageField",
             "module_name": "",
             "package_name": ""
         },
@@ -57,7 +57,7 @@
             "docstring": "",
             "name": "formfield",
             "namespace": "django.db.models.fields.files.ImageField.formfield",
-            "class_name": "",
+            "class_name": "django.db.models.fields.files.ImageField",
             "module_name": "",
             "package_name": ""
         }

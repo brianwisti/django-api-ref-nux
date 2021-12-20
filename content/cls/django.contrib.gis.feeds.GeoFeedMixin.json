@@ -9,7 +9,7 @@
             "docstring": "\"\"\"\n        In GeoRSS coordinate pairs are ordered by lat/lon and separated by\n        a single white space. Given a tuple of coordinates, return a string\n        GeoRSS representation.\n        \"\"\"",
             "name": "georss_coords",
             "namespace": "django.contrib.gis.feeds.GeoFeedMixin.georss_coords",
-            "class_name": "",
+            "class_name": "django.contrib.gis.feeds.GeoFeedMixin",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "\"\"\"\n        Adds a GeoRSS point with the given coords using the given handler.\n        Handles the differences between simple GeoRSS and the more popular\n        W3C Geo specification.\n        \"\"\"",
             "name": "add_georss_point",
             "namespace": "django.contrib.gis.feeds.GeoFeedMixin.add_georss_point",
-            "class_name": "",
+            "class_name": "django.contrib.gis.feeds.GeoFeedMixin",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "\"\"\"Add a GeoRSS XML element using the given item and handler.\"\"\"",
             "name": "add_georss_element",
             "namespace": "django.contrib.gis.feeds.GeoFeedMixin.add_georss_element",
-            "class_name": "",
+            "class_name": "django.contrib.gis.feeds.GeoFeedMixin",
             "module_name": "",
             "package_name": ""
         }

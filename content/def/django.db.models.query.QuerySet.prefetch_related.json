@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return a new QuerySet instance that will prefetch the specified\n        Many-To-One and Many-To-Many related objects when the QuerySet is\n        evaluated.\n\n        When prefetch_related() is called more than once, append to the list of\n        prefetch lookups. If prefetch_related(None) is called, clear the list.\n        \"\"\"",
     "name": "prefetch_related",
     "namespace": "django.db.models.query.QuerySet.prefetch_related",
-    "class_name": "",
+    "class_name": "django.db.models.query.QuerySet",
     "module_name": "",
     "package_name": ""
 }

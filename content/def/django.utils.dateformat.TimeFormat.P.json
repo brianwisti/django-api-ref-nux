@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Time, in 12-hour hours, minutes and 'a.m.'/'p.m.', with minutes left off\n        if they're zero and the strings 'midnight' and 'noon' if appropriate.\n        Examples: '1 a.m.', '1:30 p.m.', 'midnight', 'noon', '12:30 p.m.'\n        Proprietary extension.\n        \"\"\"",
     "name": "P",
     "namespace": "django.utils.dateformat.TimeFormat.P",
-    "class_name": "",
+    "class_name": "django.utils.dateformat.TimeFormat",
     "module_name": "",
     "package_name": ""
 }

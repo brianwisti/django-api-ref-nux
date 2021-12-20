@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return the object the view is displaying.\n\n        Require `self.queryset` and a `pk` or `slug` argument in the URLconf.\n        Subclasses can override this to return any object.\n        \"\"\"",
     "name": "get_object",
     "namespace": "django.views.generic.detail.SingleObjectMixin.get_object",
-    "class_name": "",
+    "class_name": "django.views.generic.detail.SingleObjectMixin",
     "module_name": "",
     "package_name": ""
 }

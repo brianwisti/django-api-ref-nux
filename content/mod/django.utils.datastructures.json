@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.utils.datastructures.OrderedSet.__init__",
-                    "class_name": "",
+                    "class_name": "django.utils.datastructures.OrderedSet",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "",
                     "name": "add",
                     "namespace": "django.utils.datastructures.OrderedSet.add",
-                    "class_name": "",
+                    "class_name": "django.utils.datastructures.OrderedSet",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -27,7 +27,7 @@
                     "docstring": "",
                     "name": "remove",
                     "namespace": "django.utils.datastructures.OrderedSet.remove",
-                    "class_name": "",
+                    "class_name": "django.utils.datastructures.OrderedSet",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -35,7 +35,7 @@
                     "docstring": "",
                     "name": "discard",
                     "namespace": "django.utils.datastructures.OrderedSet.discard",
-                    "class_name": "",
+                    "class_name": "django.utils.datastructures.OrderedSet",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -43,7 +43,7 @@
                     "docstring": "",
                     "name": "__iter__",
                     "namespace": "django.utils.datastructures.OrderedSet.__iter__",
-                    "class_name": "",
+                    "class_name": "django.utils.datastructures.OrderedSet",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -51,7 +51,7 @@
                     "docstring": "",
                     "name": "__reversed__",
                     "namespace": "django.utils.datastructures.OrderedSet.__reversed__",
-                    "class_name": "",
+                    "class_name": "django.utils.datastructures.OrderedSet",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -59,7 +59,7 @@
                     "docstring": "",
                     "name": "__contains__",
                     "namespace": "django.utils.datastructures.OrderedSet.__contains__",
-                    "class_name": "",
+                    "class_name": "django.utils.datastructures.OrderedSet",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -67,7 +67,7 @@
                     "docstring": "",
                     "name": "__bool__",
                     "namespace": "django.utils.datastructures.OrderedSet.__bool__",
-                    "class_name": "",
+                    "class_name": "django.utils.datastructures.OrderedSet",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -75,7 +75,7 @@
                     "docstring": "",
                     "name": "__len__",
                     "namespace": "django.utils.datastructures.OrderedSet.__len__",
-                    "class_name": "",
+                    "class_name": "django.utils.datastructures.OrderedSet",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -83,7 +83,7 @@
                     "docstring": "",
                     "name": "__repr__",
                     "namespace": "django.utils.datastructures.OrderedSet.__repr__",
-                    "class_name": "",
+                    "class_name": "django.utils.datastructures.OrderedSet",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -104,7 +104,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.utils.datastructures.MultiValueDict.__init__",
-                    "class_name": "",
+                    "class_name": "django.utils.datastructures.MultiValueDict",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -112,7 +112,7 @@
                     "docstring": "",
                     "name": "__repr__",
                     "namespace": "django.utils.datastructures.MultiValueDict.__repr__",
-                    "class_name": "",
+                    "class_name": "django.utils.datastructures.MultiValueDict",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -120,7 +120,7 @@
                     "docstring": "\"\"\"\n        Return the last data value for this key, or [] if it's an empty list;\n        raise KeyError if not found.\n        \"\"\"",
                     "name": "__getitem__",
                     "namespace": "django.utils.datastructures.MultiValueDict.__getitem__",
-                    "class_name": "",
+                    "class_name": "django.utils.datastructures.MultiValueDict",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -128,7 +128,7 @@
                     "docstring": "",
                     "name": "__setitem__",
                     "namespace": "django.utils.datastructures.MultiValueDict.__setitem__",
-                    "class_name": "",
+                    "class_name": "django.utils.datastructures.MultiValueDict",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -136,7 +136,7 @@
                     "docstring": "",
                     "name": "__copy__",
                     "namespace": "django.utils.datastructures.MultiValueDict.__copy__",
-                    "class_name": "",
+                    "class_name": "django.utils.datastructures.MultiValueDict",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -144,7 +144,7 @@
                     "docstring": "",
                     "name": "__deepcopy__",
                     "namespace": "django.utils.datastructures.MultiValueDict.__deepcopy__",
-                    "class_name": "",
+                    "class_name": "django.utils.datastructures.MultiValueDict",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -152,7 +152,7 @@
                     "docstring": "",
                     "name": "__getstate__",
                     "namespace": "django.utils.datastructures.MultiValueDict.__getstate__",
-                    "class_name": "",
+                    "class_name": "django.utils.datastructures.MultiValueDict",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -160,7 +160,7 @@
                     "docstring": "",
                     "name": "__setstate__",
                     "namespace": "django.utils.datastructures.MultiValueDict.__setstate__",
-                    "class_name": "",
+                    "class_name": "django.utils.datastructures.MultiValueDict",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -168,7 +168,7 @@
                     "docstring": "\"\"\"\n        Return the last data value for the passed key. If key doesn't exist\n        or value is an empty list, return `default`.\n        \"\"\"",
                     "name": "get",
                     "namespace": "django.utils.datastructures.MultiValueDict.get",
-                    "class_name": "",
+                    "class_name": "django.utils.datastructures.MultiValueDict",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -176,7 +176,7 @@
                     "docstring": "\"\"\"\n        Return a list of values for the key.\n\n        Used internally to manipulate values list. If force_list is True,\n        return a new copy of values.\n        \"\"\"",
                     "name": "_getlist",
                     "namespace": "django.utils.datastructures.MultiValueDict._getlist",
-                    "class_name": "",
+                    "class_name": "django.utils.datastructures.MultiValueDict",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -184,7 +184,7 @@
                     "docstring": "\"\"\"\n        Return the list of values for the key. If key doesn't exist, return a\n        default value.\n        \"\"\"",
                     "name": "getlist",
                     "namespace": "django.utils.datastructures.MultiValueDict.getlist",
-                    "class_name": "",
+                    "class_name": "django.utils.datastructures.MultiValueDict",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -192,7 +192,7 @@
                     "docstring": "",
                     "name": "setlist",
                     "namespace": "django.utils.datastructures.MultiValueDict.setlist",
-                    "class_name": "",
+                    "class_name": "django.utils.datastructures.MultiValueDict",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -200,7 +200,7 @@
                     "docstring": "",
                     "name": "setdefault",
                     "namespace": "django.utils.datastructures.MultiValueDict.setdefault",
-                    "class_name": "",
+                    "class_name": "django.utils.datastructures.MultiValueDict",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -208,7 +208,7 @@
                     "docstring": "",
                     "name": "setlistdefault",
                     "namespace": "django.utils.datastructures.MultiValueDict.setlistdefault",
-                    "class_name": "",
+                    "class_name": "django.utils.datastructures.MultiValueDict",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -216,7 +216,7 @@
                     "docstring": "\"\"\"Append an item to the internal list associated with key.\"\"\"",
                     "name": "appendlist",
                     "namespace": "django.utils.datastructures.MultiValueDict.appendlist",
-                    "class_name": "",
+                    "class_name": "django.utils.datastructures.MultiValueDict",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -224,7 +224,7 @@
                     "docstring": "\"\"\"\n        Yield (key, value) pairs, where value is the last item in the list\n        associated with the key.\n        \"\"\"",
                     "name": "items",
                     "namespace": "django.utils.datastructures.MultiValueDict.items",
-                    "class_name": "",
+                    "class_name": "django.utils.datastructures.MultiValueDict",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -232,7 +232,7 @@
                     "docstring": "\"\"\"Yield (key, list) pairs.\"\"\"",
                     "name": "lists",
                     "namespace": "django.utils.datastructures.MultiValueDict.lists",
-                    "class_name": "",
+                    "class_name": "django.utils.datastructures.MultiValueDict",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -240,7 +240,7 @@
                     "docstring": "\"\"\"Yield the last value on every key list.\"\"\"",
                     "name": "values",
                     "namespace": "django.utils.datastructures.MultiValueDict.values",
-                    "class_name": "",
+                    "class_name": "django.utils.datastructures.MultiValueDict",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -248,7 +248,7 @@
                     "docstring": "\"\"\"Return a shallow copy of this object.\"\"\"",
                     "name": "copy",
                     "namespace": "django.utils.datastructures.MultiValueDict.copy",
-                    "class_name": "",
+                    "class_name": "django.utils.datastructures.MultiValueDict",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -256,7 +256,7 @@
                     "docstring": "\"\"\"Extend rather than replace existing key lists.\"\"\"",
                     "name": "update",
                     "namespace": "django.utils.datastructures.MultiValueDict.update",
-                    "class_name": "",
+                    "class_name": "django.utils.datastructures.MultiValueDict",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -264,7 +264,7 @@
                     "docstring": "\"\"\"Return current object as a dict with singular values.\"\"\"",
                     "name": "dict",
                     "namespace": "django.utils.datastructures.MultiValueDict.dict",
-                    "class_name": "",
+                    "class_name": "django.utils.datastructures.MultiValueDict",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -279,7 +279,7 @@
                     "docstring": "",
                     "name": "__new__",
                     "namespace": "django.utils.datastructures.ImmutableList.__new__",
-                    "class_name": "",
+                    "class_name": "django.utils.datastructures.ImmutableList",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -287,7 +287,7 @@
                     "docstring": "",
                     "name": "complain",
                     "namespace": "django.utils.datastructures.ImmutableList.complain",
-                    "class_name": "",
+                    "class_name": "django.utils.datastructures.ImmutableList",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -302,7 +302,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.utils.datastructures.DictWrapper.__init__",
-                    "class_name": "",
+                    "class_name": "django.utils.datastructures.DictWrapper",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -310,7 +310,7 @@
                     "docstring": "\"\"\"\n        Retrieve the real value after stripping the prefix string (if\n        present). If the prefix is present, pass the value through self.func\n        before returning, otherwise return the raw value.\n        \"\"\"",
                     "name": "__getitem__",
                     "namespace": "django.utils.datastructures.DictWrapper.__getitem__",
-                    "class_name": "",
+                    "class_name": "django.utils.datastructures.DictWrapper",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -325,7 +325,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.utils.datastructures.CaseInsensitiveMapping.__init__",
-                    "class_name": "",
+                    "class_name": "django.utils.datastructures.CaseInsensitiveMapping",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -333,7 +333,7 @@
                     "docstring": "",
                     "name": "__getitem__",
                     "namespace": "django.utils.datastructures.CaseInsensitiveMapping.__getitem__",
-                    "class_name": "",
+                    "class_name": "django.utils.datastructures.CaseInsensitiveMapping",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -341,7 +341,7 @@
                     "docstring": "",
                     "name": "__len__",
                     "namespace": "django.utils.datastructures.CaseInsensitiveMapping.__len__",
-                    "class_name": "",
+                    "class_name": "django.utils.datastructures.CaseInsensitiveMapping",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -349,7 +349,7 @@
                     "docstring": "",
                     "name": "__eq__",
                     "namespace": "django.utils.datastructures.CaseInsensitiveMapping.__eq__",
-                    "class_name": "",
+                    "class_name": "django.utils.datastructures.CaseInsensitiveMapping",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -357,7 +357,7 @@
                     "docstring": "",
                     "name": "__iter__",
                     "namespace": "django.utils.datastructures.CaseInsensitiveMapping.__iter__",
-                    "class_name": "",
+                    "class_name": "django.utils.datastructures.CaseInsensitiveMapping",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -365,7 +365,7 @@
                     "docstring": "",
                     "name": "__repr__",
                     "namespace": "django.utils.datastructures.CaseInsensitiveMapping.__repr__",
-                    "class_name": "",
+                    "class_name": "django.utils.datastructures.CaseInsensitiveMapping",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -373,7 +373,7 @@
                     "docstring": "",
                     "name": "copy",
                     "namespace": "django.utils.datastructures.CaseInsensitiveMapping.copy",
-                    "class_name": "",
+                    "class_name": "django.utils.datastructures.CaseInsensitiveMapping",
                     "module_name": "",
                     "package_name": ""
                 }

@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return the keyword arguments that when supplied to\n        self.model.object.filter(), would select all instances related through\n        this field to the remote obj. This is used to build the querysets\n        returned by related descriptors. obj is an instance of\n        self.related_field.model.\n        \"\"\"",
     "name": "get_forward_related_filter",
     "namespace": "django.db.models.fields.related.RelatedField.get_forward_related_filter",
-    "class_name": "",
+    "class_name": "django.db.models.fields.related.RelatedField",
     "module_name": "",
     "package_name": ""
 }

@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "__get__",
                     "namespace": "django.db.backends.oracle.base._UninitializedOperatorsDescriptor.__get__",
-                    "class_name": "",
+                    "class_name": "django.db.backends.oracle.base._UninitializedOperatorsDescriptor",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -26,7 +26,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.db.backends.oracle.base.DatabaseWrapper.__init__",
-                    "class_name": "",
+                    "class_name": "django.db.backends.oracle.base.DatabaseWrapper",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -34,7 +34,7 @@
                     "docstring": "",
                     "name": "get_connection_params",
                     "namespace": "django.db.backends.oracle.base.DatabaseWrapper.get_connection_params",
-                    "class_name": "",
+                    "class_name": "django.db.backends.oracle.base.DatabaseWrapper",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -42,7 +42,7 @@
                     "docstring": "",
                     "name": "get_new_connection",
                     "namespace": "django.db.backends.oracle.base.DatabaseWrapper.get_new_connection",
-                    "class_name": "",
+                    "class_name": "django.db.backends.oracle.base.DatabaseWrapper",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -50,7 +50,7 @@
                     "docstring": "",
                     "name": "init_connection_state",
                     "namespace": "django.db.backends.oracle.base.DatabaseWrapper.init_connection_state",
-                    "class_name": "",
+                    "class_name": "django.db.backends.oracle.base.DatabaseWrapper",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -58,7 +58,7 @@
                     "docstring": "",
                     "name": "create_cursor",
                     "namespace": "django.db.backends.oracle.base.DatabaseWrapper.create_cursor",
-                    "class_name": "",
+                    "class_name": "django.db.backends.oracle.base.DatabaseWrapper",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -66,7 +66,7 @@
                     "docstring": "",
                     "name": "_commit",
                     "namespace": "django.db.backends.oracle.base.DatabaseWrapper._commit",
-                    "class_name": "",
+                    "class_name": "django.db.backends.oracle.base.DatabaseWrapper",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -74,7 +74,7 @@
                     "docstring": "",
                     "name": "_savepoint_commit",
                     "namespace": "django.db.backends.oracle.base.DatabaseWrapper._savepoint_commit",
-                    "class_name": "",
+                    "class_name": "django.db.backends.oracle.base.DatabaseWrapper",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -82,7 +82,7 @@
                     "docstring": "",
                     "name": "_set_autocommit",
                     "namespace": "django.db.backends.oracle.base.DatabaseWrapper._set_autocommit",
-                    "class_name": "",
+                    "class_name": "django.db.backends.oracle.base.DatabaseWrapper",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -90,7 +90,7 @@
                     "docstring": "\"\"\"\n        Check constraints by setting them to immediate. Return them to deferred\n        afterward.\n        \"\"\"",
                     "name": "check_constraints",
                     "namespace": "django.db.backends.oracle.base.DatabaseWrapper.check_constraints",
-                    "class_name": "",
+                    "class_name": "django.db.backends.oracle.base.DatabaseWrapper",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -98,7 +98,7 @@
                     "docstring": "",
                     "name": "is_usable",
                     "namespace": "django.db.backends.oracle.base.DatabaseWrapper.is_usable",
-                    "class_name": "",
+                    "class_name": "django.db.backends.oracle.base.DatabaseWrapper",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -106,7 +106,7 @@
                     "docstring": "",
                     "name": "cx_oracle_version",
                     "namespace": "django.db.backends.oracle.base.DatabaseWrapper.cx_oracle_version",
-                    "class_name": "",
+                    "class_name": "django.db.backends.oracle.base.DatabaseWrapper",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -114,7 +114,7 @@
                     "docstring": "",
                     "name": "oracle_version",
                     "namespace": "django.db.backends.oracle.base.DatabaseWrapper.oracle_version",
-                    "class_name": "",
+                    "class_name": "django.db.backends.oracle.base.DatabaseWrapper",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -129,7 +129,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.db.backends.oracle.base.OracleParam.__init__",
-                    "class_name": "",
+                    "class_name": "django.db.backends.oracle.base.OracleParam",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -144,7 +144,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.db.backends.oracle.base.VariableWrapper.__init__",
-                    "class_name": "",
+                    "class_name": "django.db.backends.oracle.base.VariableWrapper",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -152,7 +152,7 @@
                     "docstring": "",
                     "name": "bind_parameter",
                     "namespace": "django.db.backends.oracle.base.VariableWrapper.bind_parameter",
-                    "class_name": "",
+                    "class_name": "django.db.backends.oracle.base.VariableWrapper",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -160,7 +160,7 @@
                     "docstring": "",
                     "name": "__getattr__",
                     "namespace": "django.db.backends.oracle.base.VariableWrapper.__getattr__",
-                    "class_name": "",
+                    "class_name": "django.db.backends.oracle.base.VariableWrapper",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -168,7 +168,7 @@
                     "docstring": "",
                     "name": "__setattr__",
                     "namespace": "django.db.backends.oracle.base.VariableWrapper.__setattr__",
-                    "class_name": "",
+                    "class_name": "django.db.backends.oracle.base.VariableWrapper",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -183,7 +183,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor.__init__",
-                    "class_name": "",
+                    "class_name": "django.db.backends.oracle.base.FormatStylePlaceholderCursor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -191,7 +191,7 @@
                     "docstring": "",
                     "name": "_output_number_converter",
                     "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor._output_number_converter",
-                    "class_name": "",
+                    "class_name": "django.db.backends.oracle.base.FormatStylePlaceholderCursor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -199,7 +199,7 @@
                     "docstring": "",
                     "name": "_get_decimal_converter",
                     "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor._get_decimal_converter",
-                    "class_name": "",
+                    "class_name": "django.db.backends.oracle.base.FormatStylePlaceholderCursor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -207,7 +207,7 @@
                     "docstring": "\"\"\"\n        Called for each db column fetched from cursors. Return numbers as the\n        appropriate Python type.\n        \"\"\"",
                     "name": "_output_type_handler",
                     "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor._output_type_handler",
-                    "class_name": "",
+                    "class_name": "django.db.backends.oracle.base.FormatStylePlaceholderCursor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -215,7 +215,7 @@
                     "docstring": "",
                     "name": "_format_params",
                     "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor._format_params",
-                    "class_name": "",
+                    "class_name": "django.db.backends.oracle.base.FormatStylePlaceholderCursor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -223,7 +223,7 @@
                     "docstring": "",
                     "name": "_guess_input_sizes",
                     "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor._guess_input_sizes",
-                    "class_name": "",
+                    "class_name": "django.db.backends.oracle.base.FormatStylePlaceholderCursor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -231,7 +231,7 @@
                     "docstring": "",
                     "name": "_param_generator",
                     "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor._param_generator",
-                    "class_name": "",
+                    "class_name": "django.db.backends.oracle.base.FormatStylePlaceholderCursor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -239,7 +239,7 @@
                     "docstring": "",
                     "name": "_fix_for_params",
                     "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor._fix_for_params",
-                    "class_name": "",
+                    "class_name": "django.db.backends.oracle.base.FormatStylePlaceholderCursor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -247,7 +247,7 @@
                     "docstring": "",
                     "name": "execute",
                     "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor.execute",
-                    "class_name": "",
+                    "class_name": "django.db.backends.oracle.base.FormatStylePlaceholderCursor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -255,7 +255,7 @@
                     "docstring": "",
                     "name": "executemany",
                     "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor.executemany",
-                    "class_name": "",
+                    "class_name": "django.db.backends.oracle.base.FormatStylePlaceholderCursor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -263,7 +263,7 @@
                     "docstring": "",
                     "name": "close",
                     "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor.close",
-                    "class_name": "",
+                    "class_name": "django.db.backends.oracle.base.FormatStylePlaceholderCursor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -271,7 +271,7 @@
                     "docstring": "",
                     "name": "var",
                     "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor.var",
-                    "class_name": "",
+                    "class_name": "django.db.backends.oracle.base.FormatStylePlaceholderCursor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -279,7 +279,7 @@
                     "docstring": "",
                     "name": "arrayvar",
                     "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor.arrayvar",
-                    "class_name": "",
+                    "class_name": "django.db.backends.oracle.base.FormatStylePlaceholderCursor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -287,7 +287,7 @@
                     "docstring": "",
                     "name": "__getattr__",
                     "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor.__getattr__",
-                    "class_name": "",
+                    "class_name": "django.db.backends.oracle.base.FormatStylePlaceholderCursor",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -295,7 +295,7 @@
                     "docstring": "",
                     "name": "__iter__",
                     "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor.__iter__",
-                    "class_name": "",
+                    "class_name": "django.db.backends.oracle.base.FormatStylePlaceholderCursor",
                     "module_name": "",
                     "package_name": ""
                 }

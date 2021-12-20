@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Split a template string into tokens and annotates each token with its\n        start and end position in the source. This is slower than the default\n        lexer so only use it when debug is True.\n        \"\"\"",
     "name": "tokenize",
     "namespace": "django.template.base.DebugLexer.tokenize",
-    "class_name": "",
+    "class_name": "django.template.base.DebugLexer",
     "module_name": "",
     "package_name": ""
 }

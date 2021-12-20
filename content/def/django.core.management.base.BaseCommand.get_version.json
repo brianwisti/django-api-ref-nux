@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return the Django version, which should be correct for all built-in\n        Django commands. User-supplied commands can override this method to\n        return their own version.\n        \"\"\"",
     "name": "get_version",
     "namespace": "django.core.management.base.BaseCommand.get_version",
-    "class_name": "",
+    "class_name": "django.core.management.base.BaseCommand",
     "module_name": "",
     "package_name": ""
 }

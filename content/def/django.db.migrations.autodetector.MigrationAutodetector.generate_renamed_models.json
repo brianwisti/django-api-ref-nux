@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Find any renamed models, generate the operations for them, and remove\n        the old entry from the model lists. Must be run before other\n        model-level generation.\n        \"\"\"",
     "name": "generate_renamed_models",
     "namespace": "django.db.migrations.autodetector.MigrationAutodetector.generate_renamed_models",
-    "class_name": "",
+    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
     "module_name": "",
     "package_name": ""
 }

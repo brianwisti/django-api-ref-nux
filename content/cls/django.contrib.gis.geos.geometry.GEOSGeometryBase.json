@@ -9,7 +9,7 @@
             "docstring": "",
             "name": "__init__",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.__init__",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "\"Perform post-initialization setup.\"",
             "name": "_post_init",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase._post_init",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "\"\"\"\n        Return a clone because the copy of a GEOSGeometry may contain an\n        invalid pointer location if the original is garbage collected.\n        \"\"\"",
             "name": "__copy__",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.__copy__",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "\"\"\"\n        The `deepcopy` routine is used by the `Node` class of django.utils.tree;\n        thus, the protocol routine needs to be implemented to return correct\n        copies (clones) of these GEOS objects, which use C pointers.\n        \"\"\"",
             "name": "__deepcopy__",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.__deepcopy__",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -41,7 +41,7 @@
             "docstring": "\"EWKT is used for the string representation.\"",
             "name": "__str__",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.__str__",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -49,7 +49,7 @@
             "docstring": "\"Short-hand representation because WKT may be very large.\"",
             "name": "__repr__",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.__repr__",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -57,7 +57,7 @@
             "docstring": "",
             "name": "_to_pickle_wkb",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase._to_pickle_wkb",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -65,7 +65,7 @@
             "docstring": "",
             "name": "_from_pickle_wkb",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase._from_pickle_wkb",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -73,7 +73,7 @@
             "docstring": "",
             "name": "__getstate__",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.__getstate__",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -81,7 +81,7 @@
             "docstring": "",
             "name": "__setstate__",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.__setstate__",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -89,7 +89,7 @@
             "docstring": "",
             "name": "_from_wkb",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase._from_wkb",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -97,7 +97,7 @@
             "docstring": "",
             "name": "from_ewkt",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.from_ewkt",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -105,7 +105,7 @@
             "docstring": "",
             "name": "_from_wkt",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase._from_wkt",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -113,7 +113,7 @@
             "docstring": "",
             "name": "from_gml",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.from_gml",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -121,7 +121,7 @@
             "docstring": "\"\"\"\n        Equivalence testing, a Geometry may be compared with another Geometry\n        or an EWKT representation.\n        \"\"\"",
             "name": "__eq__",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.__eq__",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -129,7 +129,7 @@
             "docstring": "",
             "name": "__hash__",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.__hash__",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -137,7 +137,7 @@
             "docstring": "\"Return the union of this Geometry and the other.\"",
             "name": "__or__",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.__or__",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -145,7 +145,7 @@
             "docstring": "\"Return the intersection of this Geometry and the other.\"",
             "name": "__and__",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.__and__",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -153,7 +153,7 @@
             "docstring": "\"Return the difference this Geometry and the other.\"",
             "name": "__sub__",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.__sub__",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -161,7 +161,7 @@
             "docstring": "\"Return the symmetric difference of this Geometry and the other.\"",
             "name": "__xor__",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.__xor__",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -169,7 +169,7 @@
             "docstring": "\"Return a clone of the coordinate sequence for this Geometry.\"",
             "name": "coord_seq",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.coord_seq",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -177,7 +177,7 @@
             "docstring": "\"Return a string representing the Geometry type, e.g. 'Polygon'\"",
             "name": "geom_type",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.geom_type",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -185,7 +185,7 @@
             "docstring": "\"Return an integer representing the Geometry type.\"",
             "name": "geom_typeid",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.geom_typeid",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -193,7 +193,7 @@
             "docstring": "\"Return the number of geometries in the Geometry.\"",
             "name": "num_geom",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.num_geom",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -201,7 +201,7 @@
             "docstring": "\"Return the number of coordinates in the Geometry.\"",
             "name": "num_coords",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.num_coords",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -209,7 +209,7 @@
             "docstring": "\"Return the number points, or coordinates, in the Geometry.\"",
             "name": "num_points",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.num_points",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -217,7 +217,7 @@
             "docstring": "\"Return the dimension of this Geometry (0=point, 1=line, 2=surface).\"",
             "name": "dims",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.dims",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -225,7 +225,7 @@
             "docstring": "\"Convert this Geometry to normal form (or canonical form).\"",
             "name": "normalize",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.normalize",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -233,7 +233,7 @@
             "docstring": "\"\"\"\n        Return a boolean indicating whether the set of points in this Geometry\n        are empty.\n        \"\"\"",
             "name": "empty",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.empty",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -241,7 +241,7 @@
             "docstring": "\"Return whether the geometry has a 3D dimension.\"",
             "name": "hasz",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.hasz",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -249,7 +249,7 @@
             "docstring": "\"Return whether or not the geometry is a ring.\"",
             "name": "ring",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.ring",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -257,7 +257,7 @@
             "docstring": "\"Return false if the Geometry isn't simple.\"",
             "name": "simple",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.simple",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -265,7 +265,7 @@
             "docstring": "\"Test the validity of this Geometry.\"",
             "name": "valid",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.valid",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -273,7 +273,7 @@
             "docstring": "\"\"\"\n        Return a string containing the reason for any invalidity.\n        \"\"\"",
             "name": "valid_reason",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.valid_reason",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -281,7 +281,7 @@
             "docstring": "\"Return true if other.within(this) returns true.\"",
             "name": "contains",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.contains",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -289,7 +289,7 @@
             "docstring": "\"\"\"\n        Return True if the DE-9IM Intersection Matrix for the two geometries is\n        T*****FF*, *T****FF*, ***T**FF*, or ****T*FF*. If either geometry is\n        empty, return False.\n        \"\"\"",
             "name": "covers",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.covers",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -297,7 +297,7 @@
             "docstring": "\"\"\"\n        Return true if the DE-9IM intersection matrix for the two Geometries\n        is T*T****** (for a point and a curve,a point and an area or a line and\n        an area) 0******** (for two curves).\n        \"\"\"",
             "name": "crosses",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.crosses",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -305,7 +305,7 @@
             "docstring": "\"\"\"\n        Return true if the DE-9IM intersection matrix for the two Geometries\n        is FF*FF****.\n        \"\"\"",
             "name": "disjoint",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.disjoint",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -313,7 +313,7 @@
             "docstring": "\"\"\"\n        Return true if the DE-9IM intersection matrix for the two Geometries\n        is T*F**FFF*.\n        \"\"\"",
             "name": "equals",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.equals",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -321,7 +321,7 @@
             "docstring": "\"\"\"\n        Return true if the two Geometries are exactly equal, up to a\n        specified tolerance.\n        \"\"\"",
             "name": "equals_exact",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.equals_exact",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -329,7 +329,7 @@
             "docstring": "\"Return true if disjoint return false.\"",
             "name": "intersects",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.intersects",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -337,7 +337,7 @@
             "docstring": "\"\"\"\n        Return true if the DE-9IM intersection matrix for the two Geometries\n        is T*T***T** (for two points or two surfaces) 1*T***T** (for two curves).\n        \"\"\"",
             "name": "overlaps",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.overlaps",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -345,7 +345,7 @@
             "docstring": "\"\"\"\n        Return true if the elements in the DE-9IM intersection matrix for the\n        two Geometries match the elements in pattern.\n        \"\"\"",
             "name": "relate_pattern",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.relate_pattern",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -353,7 +353,7 @@
             "docstring": "\"\"\"\n        Return true if the DE-9IM intersection matrix for the two Geometries\n        is FT*******, F**T***** or F***T****.\n        \"\"\"",
             "name": "touches",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.touches",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -361,7 +361,7 @@
             "docstring": "\"\"\"\n        Return true if the DE-9IM intersection matrix for the two Geometries\n        is T*F**F***.\n        \"\"\"",
             "name": "within",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.within",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -369,7 +369,7 @@
             "docstring": "\"Get the SRID for the geometry. Return None if no SRID is set.\"",
             "name": "srid",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.srid",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -377,7 +377,7 @@
             "docstring": "\"Set the SRID for the geometry.\"",
             "name": "srid",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.srid",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -385,7 +385,7 @@
             "docstring": "\"\"\"\n        Return the EWKT (SRID + WKT) of the Geometry.\n        \"\"\"",
             "name": "ewkt",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.ewkt",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -393,7 +393,7 @@
             "docstring": "\"Return the WKT (Well-Known Text) representation of this Geometry.\"",
             "name": "wkt",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.wkt",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -401,7 +401,7 @@
             "docstring": "\"\"\"\n        Return the WKB of this Geometry in hexadecimal form. Please note\n        that the SRID is not included in this representation because it is not\n        a part of the OGC specification (use the `hexewkb` property instead).\n        \"\"\"",
             "name": "hex",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.hex",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -409,7 +409,7 @@
             "docstring": "\"\"\"\n        Return the EWKB of this Geometry in hexadecimal form. This is an\n        extension of the WKB specification that includes SRID value that are\n        a part of this geometry.\n        \"\"\"",
             "name": "hexewkb",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.hexewkb",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -417,7 +417,7 @@
             "docstring": "\"\"\"\n        Return GeoJSON representation of this Geometry.\n        \"\"\"",
             "name": "json",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.json",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -425,7 +425,7 @@
             "docstring": "\"\"\"\n        Return the WKB (Well-Known Binary) representation of this Geometry\n        as a Python buffer.  SRID and Z values are not included, use the\n        `ewkb` property instead.\n        \"\"\"",
             "name": "wkb",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.wkb",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -433,7 +433,7 @@
             "docstring": "\"\"\"\n        Return the EWKB representation of this Geometry as a Python buffer.\n        This is an extension of the WKB specification that includes any SRID\n        value that are a part of this geometry.\n        \"\"\"",
             "name": "ewkb",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.ewkb",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -441,7 +441,7 @@
             "docstring": "\"Return the KML representation of this Geometry.\"",
             "name": "kml",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.kml",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -449,7 +449,7 @@
             "docstring": "\"\"\"\n        Return a PreparedGeometry corresponding to this geometry -- it is\n        optimized for the contains, intersects, and covers operations.\n        \"\"\"",
             "name": "prepared",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.prepared",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -457,7 +457,7 @@
             "docstring": "",
             "name": "_ogr_ptr",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase._ogr_ptr",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -465,7 +465,7 @@
             "docstring": "\"Return the OGR Geometry for this Geometry.\"",
             "name": "ogr",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.ogr",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -473,7 +473,7 @@
             "docstring": "\"Return the OSR SpatialReference for SRID of this Geometry.\"",
             "name": "srs",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.srs",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -481,7 +481,7 @@
             "docstring": "\"Alias for `srs` property.\"",
             "name": "crs",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.crs",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -489,7 +489,7 @@
             "docstring": "\"\"\"\n        Requires GDAL. Transform the geometry according to the given\n        transformation object, which may be an integer SRID, and WKT or\n        PROJ string. By default, transform the geometry in-place and return\n        nothing. However if the `clone` keyword is set, don't modify the\n        geometry and return a transformed clone instead.\n        \"\"\"",
             "name": "transform",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.transform",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -497,7 +497,7 @@
             "docstring": "\"Return Geometry from the given pointer.\"",
             "name": "_topology",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase._topology",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -505,7 +505,7 @@
             "docstring": "\"Return the boundary as a newly allocated Geometry object.\"",
             "name": "boundary",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.boundary",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -513,7 +513,7 @@
             "docstring": "\"\"\"\n        Return a geometry that represents all points whose distance from this\n        Geometry is less than or equal to distance. Calculations are in the\n        Spatial Reference System of this Geometry. The optional third parameter sets\n        the number of segment used to approximate a quarter circle (defaults to 8).\n        (Text from PostGIS documentation at ch. 6.1.3)\n        \"\"\"",
             "name": "buffer",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.buffer",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -521,7 +521,7 @@
             "docstring": "\"\"\"\n        Same as buffer() but allows customizing the style of the buffer.\n\n        End cap style can be round (1), flat (2), or square (3).\n        Join style can be round (1), mitre (2), or bevel (3).\n        Mitre ratio limit only affects mitered join style.\n        \"\"\"",
             "name": "buffer_with_style",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.buffer_with_style",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -529,7 +529,7 @@
             "docstring": "\"\"\"\n        The centroid is equal to the centroid of the set of component Geometries\n        of highest dimension (since the lower-dimension geometries contribute zero\n        \"weight\" to the centroid).\n        \"\"\"",
             "name": "centroid",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.centroid",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -537,7 +537,7 @@
             "docstring": "\"\"\"\n        Return the smallest convex Polygon that contains all the points\n        in the Geometry.\n        \"\"\"",
             "name": "convex_hull",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.convex_hull",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -545,7 +545,7 @@
             "docstring": "\"\"\"\n        Return a Geometry representing the points making up this Geometry\n        that do not make up other.\n        \"\"\"",
             "name": "difference",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.difference",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -553,7 +553,7 @@
             "docstring": "\"Return the envelope for this geometry (a polygon).\"",
             "name": "envelope",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.envelope",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -561,7 +561,7 @@
             "docstring": "\"Return a Geometry representing the points shared by this Geometry and other.\"",
             "name": "intersection",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.intersection",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -569,7 +569,7 @@
             "docstring": "\"Compute an interior point of this Geometry.\"",
             "name": "point_on_surface",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.point_on_surface",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -577,7 +577,7 @@
             "docstring": "\"Return the DE-9IM intersection matrix for this Geometry and the other.\"",
             "name": "relate",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.relate",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -585,7 +585,7 @@
             "docstring": "\"\"\"\n        Return the Geometry, simplified using the Douglas-Peucker algorithm\n        to the specified tolerance (higher tolerance => less points).  If no\n        tolerance provided, defaults to 0.\n\n        By default, don't preserve topology - e.g. polygons can be split,\n        collapse to lines or disappear holes can be created or disappear, and\n        lines can cross. By specifying preserve_topology=True, the result will\n        have the same dimension and number of components as the input. This is\n        significantly slower.\n        \"\"\"",
             "name": "simplify",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.simplify",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -593,7 +593,7 @@
             "docstring": "\"\"\"\n        Return a set combining the points in this Geometry not in other,\n        and the points in other not in this Geometry.\n        \"\"\"",
             "name": "sym_difference",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.sym_difference",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -601,7 +601,7 @@
             "docstring": "\"Return the union of all the elements of this geometry.\"",
             "name": "unary_union",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.unary_union",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -609,7 +609,7 @@
             "docstring": "\"Return a Geometry representing all the points in this Geometry and other.\"",
             "name": "union",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.union",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -617,7 +617,7 @@
             "docstring": "\"Return the area of the Geometry.\"",
             "name": "area",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.area",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -625,7 +625,7 @@
             "docstring": "\"\"\"\n        Return the distance between the closest points on this Geometry\n        and the other. Units will be in those of the coordinate system of\n        the Geometry.\n        \"\"\"",
             "name": "distance",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.distance",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -633,7 +633,7 @@
             "docstring": "\"\"\"\n        Return the extent of this geometry as a 4-tuple, consisting of\n        (xmin, ymin, xmax, ymax).\n        \"\"\"",
             "name": "extent",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.extent",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -641,7 +641,7 @@
             "docstring": "\"\"\"\n        Return the length of this Geometry (e.g., 0 for point, or the\n        circumference of a Polygon).\n        \"\"\"",
             "name": "length",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.length",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         },
@@ -649,7 +649,7 @@
             "docstring": "\"Clone this Geometry.\"",
             "name": "clone",
             "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.clone",
-            "class_name": "",
+            "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
             "module_name": "",
             "package_name": ""
         }

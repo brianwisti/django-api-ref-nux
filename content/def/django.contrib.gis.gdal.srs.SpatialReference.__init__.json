@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Create a GDAL OSR Spatial Reference object from the given input.\n        The input may be string of OGC Well Known Text (WKT), an integer\n        EPSG code, a PROJ string, and/or a projection \"well known\" shorthand\n        string (one of 'WGS84', 'WGS72', 'NAD27', 'NAD83').\n        \"\"\"",
     "name": "__init__",
     "namespace": "django.contrib.gis.gdal.srs.SpatialReference.__init__",
-    "class_name": "",
+    "class_name": "django.contrib.gis.gdal.srs.SpatialReference",
     "module_name": "",
     "package_name": ""
 }

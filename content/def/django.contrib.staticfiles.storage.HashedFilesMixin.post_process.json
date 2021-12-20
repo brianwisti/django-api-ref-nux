@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Post process the given dictionary of files (called from collectstatic).\n\n        Processing is actually two separate operations:\n\n        1. renaming files to include a hash of their content for cache-busting,\n           and copying those files to the target storage.\n        2. adjusting files which contain references to other files so they\n           refer to the cache-busting filenames.\n\n        If either of these are performed on a file, then that file is considered\n        post-processed.\n        \"\"\"",
     "name": "post_process",
     "namespace": "django.contrib.staticfiles.storage.HashedFilesMixin.post_process",
-    "class_name": "",
+    "class_name": "django.contrib.staticfiles.storage.HashedFilesMixin",
     "module_name": "",
     "package_name": ""
 }

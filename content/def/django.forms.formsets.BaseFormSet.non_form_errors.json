@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return an ErrorList of errors that aren't associated with a particular\n        form -- i.e., from formset.clean(). Return an empty ErrorList if there\n        are none.\n        \"\"\"",
     "name": "non_form_errors",
     "namespace": "django.forms.formsets.BaseFormSet.non_form_errors",
-    "class_name": "",
+    "class_name": "django.forms.formsets.BaseFormSet",
     "module_name": "",
     "package_name": ""
 }

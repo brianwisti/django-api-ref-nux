@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Check if the field value can be fetched from a parent field already\n        loaded in the instance. This can be done if the to-be fetched\n        field is a primary key field.\n        \"\"\"",
     "name": "_check_parent_chain",
     "namespace": "django.db.models.query_utils.DeferredAttribute._check_parent_chain",
-    "class_name": "",
+    "class_name": "django.db.models.query_utils.DeferredAttribute",
     "module_name": "",
     "package_name": ""
 }

@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Take a function and a number of (\"app_label\", \"modelname\") tuples, and\n        when all the corresponding models have been imported and registered,\n        call the function with the model classes as its arguments.\n\n        The function passed to this method must accept exactly n models as\n        arguments, where n=len(model_keys).\n        \"\"\"",
     "name": "lazy_model_operation",
     "namespace": "django.apps.registry.Apps.lazy_model_operation",
-    "class_name": "",
+    "class_name": "django.apps.registry.Apps",
     "module_name": "",
     "package_name": ""
 }

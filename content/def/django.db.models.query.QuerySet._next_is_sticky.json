@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Indicate that the next filter call and the one following that should\n        be treated as a single filter. This is only important when it comes to\n        determining when to reuse tables for many-to-many filters. Required so\n        that we can filter naturally on the results of related managers.\n\n        This doesn't return a clone of the current QuerySet (it returns\n        \"self\"). The method is only used internally and should be immediately\n        followed by a filter() that does create a clone.\n        \"\"\"",
     "name": "_next_is_sticky",
     "namespace": "django.db.models.query.QuerySet._next_is_sticky",
-    "class_name": "",
+    "class_name": "django.db.models.query.QuerySet",
     "module_name": "",
     "package_name": ""
 }

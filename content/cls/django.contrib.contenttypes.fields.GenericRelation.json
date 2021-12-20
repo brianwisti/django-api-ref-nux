@@ -9,7 +9,7 @@
             "docstring": "",
             "name": "__init__",
             "namespace": "django.contrib.contenttypes.fields.GenericRelation.__init__",
-            "class_name": "",
+            "class_name": "django.contrib.contenttypes.fields.GenericRelation",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "",
             "name": "check",
             "namespace": "django.contrib.contenttypes.fields.GenericRelation.check",
-            "class_name": "",
+            "class_name": "django.contrib.contenttypes.fields.GenericRelation",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "\"\"\"\n        Return True if field is a GenericForeignKey whose content type and\n        object id fields correspond to the equivalent attributes on this\n        GenericRelation.\n        \"\"\"",
             "name": "_is_matching_generic_foreign_key",
             "namespace": "django.contrib.contenttypes.fields.GenericRelation._is_matching_generic_foreign_key",
-            "class_name": "",
+            "class_name": "django.contrib.contenttypes.fields.GenericRelation",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "",
             "name": "_check_generic_foreign_key_existence",
             "namespace": "django.contrib.contenttypes.fields.GenericRelation._check_generic_foreign_key_existence",
-            "class_name": "",
+            "class_name": "django.contrib.contenttypes.fields.GenericRelation",
             "module_name": "",
             "package_name": ""
         },
@@ -41,7 +41,7 @@
             "docstring": "",
             "name": "resolve_related_fields",
             "namespace": "django.contrib.contenttypes.fields.GenericRelation.resolve_related_fields",
-            "class_name": "",
+            "class_name": "django.contrib.contenttypes.fields.GenericRelation",
             "module_name": "",
             "package_name": ""
         },
@@ -49,7 +49,7 @@
             "docstring": "\"\"\"\n        Return the path that joins the current model through any parent models.\n        The idea is that if you have a GFK defined on a parent model then we\n        need to join the parent model first, then the child model.\n        \"\"\"",
             "name": "_get_path_info_with_parent",
             "namespace": "django.contrib.contenttypes.fields.GenericRelation._get_path_info_with_parent",
-            "class_name": "",
+            "class_name": "django.contrib.contenttypes.fields.GenericRelation",
             "module_name": "",
             "package_name": ""
         },
@@ -57,7 +57,7 @@
             "docstring": "",
             "name": "get_path_info",
             "namespace": "django.contrib.contenttypes.fields.GenericRelation.get_path_info",
-            "class_name": "",
+            "class_name": "django.contrib.contenttypes.fields.GenericRelation",
             "module_name": "",
             "package_name": ""
         },
@@ -65,7 +65,7 @@
             "docstring": "",
             "name": "get_reverse_path_info",
             "namespace": "django.contrib.contenttypes.fields.GenericRelation.get_reverse_path_info",
-            "class_name": "",
+            "class_name": "django.contrib.contenttypes.fields.GenericRelation",
             "module_name": "",
             "package_name": ""
         },
@@ -73,7 +73,7 @@
             "docstring": "",
             "name": "value_to_string",
             "namespace": "django.contrib.contenttypes.fields.GenericRelation.value_to_string",
-            "class_name": "",
+            "class_name": "django.contrib.contenttypes.fields.GenericRelation",
             "module_name": "",
             "package_name": ""
         },
@@ -81,7 +81,7 @@
             "docstring": "",
             "name": "contribute_to_class",
             "namespace": "django.contrib.contenttypes.fields.GenericRelation.contribute_to_class",
-            "class_name": "",
+            "class_name": "django.contrib.contenttypes.fields.GenericRelation",
             "module_name": "",
             "package_name": ""
         },
@@ -89,7 +89,7 @@
             "docstring": "",
             "name": "set_attributes_from_rel",
             "namespace": "django.contrib.contenttypes.fields.GenericRelation.set_attributes_from_rel",
-            "class_name": "",
+            "class_name": "django.contrib.contenttypes.fields.GenericRelation",
             "module_name": "",
             "package_name": ""
         },
@@ -97,7 +97,7 @@
             "docstring": "",
             "name": "get_internal_type",
             "namespace": "django.contrib.contenttypes.fields.GenericRelation.get_internal_type",
-            "class_name": "",
+            "class_name": "django.contrib.contenttypes.fields.GenericRelation",
             "module_name": "",
             "package_name": ""
         },
@@ -105,7 +105,7 @@
             "docstring": "\"\"\"\n        Return the content type associated with this field's model.\n        \"\"\"",
             "name": "get_content_type",
             "namespace": "django.contrib.contenttypes.fields.GenericRelation.get_content_type",
-            "class_name": "",
+            "class_name": "django.contrib.contenttypes.fields.GenericRelation",
             "module_name": "",
             "package_name": ""
         },
@@ -113,7 +113,7 @@
             "docstring": "",
             "name": "get_extra_restriction",
             "namespace": "django.contrib.contenttypes.fields.GenericRelation.get_extra_restriction",
-            "class_name": "",
+            "class_name": "django.contrib.contenttypes.fields.GenericRelation",
             "module_name": "",
             "package_name": ""
         },
@@ -121,7 +121,7 @@
             "docstring": "\"\"\"\n        Return all objects related to ``objs`` via this ``GenericRelation``.\n        \"\"\"",
             "name": "bulk_related_objects",
             "namespace": "django.contrib.contenttypes.fields.GenericRelation.bulk_related_objects",
-            "class_name": "",
+            "class_name": "django.contrib.contenttypes.fields.GenericRelation",
             "module_name": "",
             "package_name": ""
         }

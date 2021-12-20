@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Take a project_state representing all migrations prior to this one\n        and a schema_editor for a live database and apply the migration\n        in a reverse order.\n\n        The backwards migration process consists of two phases:\n\n        1. The intermediate states from right before the first until right\n           after the last operation inside this migration are preserved.\n        2. The operations are applied in reverse order using the states\n           recorded in step 1.\n        \"\"\"",
     "name": "unapply",
     "namespace": "django.db.migrations.migration.Migration.unapply",
-    "class_name": "",
+    "class_name": "django.db.migrations.migration.Migration",
     "module_name": "",
     "package_name": ""
 }

@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Signal that a file has completed. File size corresponds to the actual\n        size accumulated by all the chunks.\n\n        Subclasses should return a valid ``UploadedFile`` object.\n        \"\"\"",
     "name": "file_complete",
     "namespace": "django.core.files.uploadhandler.FileUploadHandler.file_complete",
-    "class_name": "",
+    "class_name": "django.core.files.uploadhandler.FileUploadHandler",
     "module_name": "",
     "package_name": ""
 }

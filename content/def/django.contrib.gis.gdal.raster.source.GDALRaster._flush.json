@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Flush all data from memory into the source file if it exists.\n        The data that needs flushing are geotransforms, coordinate systems,\n        nodata_values and pixel values. This function will be called\n        automatically wherever it is needed.\n        \"\"\"",
     "name": "_flush",
     "namespace": "django.contrib.gis.gdal.raster.source.GDALRaster._flush",
-    "class_name": "",
+    "class_name": "django.contrib.gis.gdal.raster.source.GDALRaster",
     "module_name": "",
     "package_name": ""
 }

@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Perform the following in order: pre-setup, run test, post-teardown,\n        skipping pre/post hooks if test is set to be skipped.\n\n        If debug=True, reraise any errors in setup and use super().debug()\n        instead of __call__() to run the test.\n        \"\"\"",
     "name": "_setup_and_call",
     "namespace": "django.test.testcases.SimpleTestCase._setup_and_call",
-    "class_name": "",
+    "class_name": "django.test.testcases.SimpleTestCase",
     "module_name": "",
     "package_name": ""
 }

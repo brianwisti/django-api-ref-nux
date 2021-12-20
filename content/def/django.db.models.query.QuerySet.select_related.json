@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return a new QuerySet instance that will select related objects.\n\n        If fields are specified, they must be ForeignKey fields and only those\n        related objects are included in the selection.\n\n        If select_related(None) is called, clear the list.\n        \"\"\"",
     "name": "select_related",
     "namespace": "django.db.models.query.QuerySet.select_related",
-    "class_name": "",
+    "class_name": "django.db.models.query.QuerySet",
     "module_name": "",
     "package_name": ""
 }

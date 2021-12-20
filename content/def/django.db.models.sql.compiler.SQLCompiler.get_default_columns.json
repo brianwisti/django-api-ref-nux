@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Compute the default columns for selecting every field in the base\n        model. Will sometimes be called to pull in related models (e.g. via\n        select_related), in which case \"opts\" and \"start_alias\" will be given\n        to provide a starting point for the traversal.\n\n        Return a list of strings, quoted appropriately for use in SQL\n        directly, as well as a set of aliases used in the select statement (if\n        'as_pairs' is True, return a list of (alias, col_name) pairs instead\n        of strings as the first component and None as the second component).\n        \"\"\"",
     "name": "get_default_columns",
     "namespace": "django.db.models.sql.compiler.SQLCompiler.get_default_columns",
-    "class_name": "",
+    "class_name": "django.db.models.sql.compiler.SQLCompiler",
     "module_name": "",
     "package_name": ""
 }

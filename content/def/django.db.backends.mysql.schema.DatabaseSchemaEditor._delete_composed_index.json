@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        MySQL can remove an implicit FK index on a field when that field is\n        covered by another index like a unique_together. \"covered\" here means\n        that the more complex index starts like the simpler one.\n        http://bugs.mysql.com/bug.php?id=37910 / Django ticket #24757\n        We check here before removing the [unique|index]_together if we have to\n        recreate a FK index.\n        \"\"\"",
     "name": "_delete_composed_index",
     "namespace": "django.db.backends.mysql.schema.DatabaseSchemaEditor._delete_composed_index",
-    "class_name": "",
+    "class_name": "django.db.backends.mysql.schema.DatabaseSchemaEditor",
     "module_name": "",
     "package_name": ""
 }

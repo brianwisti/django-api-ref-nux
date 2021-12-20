@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Set a custom expiration for the session. ``value`` can be an integer,\n        a Python ``datetime`` or ``timedelta`` object or ``None``.\n\n        If ``value`` is an integer, the session will expire after that many\n        seconds of inactivity. If set to ``0`` then the session will expire on\n        browser close.\n\n        If ``value`` is a ``datetime`` or ``timedelta`` object, the session\n        will expire at that specific future time.\n\n        If ``value`` is ``None``, the session uses the global session expiry\n        policy.\n        \"\"\"",
     "name": "set_expiry",
     "namespace": "django.contrib.sessions.backends.base.SessionBase.set_expiry",
-    "class_name": "",
+    "class_name": "django.contrib.sessions.backends.base.SessionBase",
     "module_name": "",
     "package_name": ""
 }

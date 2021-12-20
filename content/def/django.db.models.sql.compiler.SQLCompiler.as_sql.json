@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Create the SQL for this query. Return the SQL string and list of\n        parameters.\n\n        If 'with_limits' is False, any limit/offset information is not included\n        in the query.\n        \"\"\"",
     "name": "as_sql",
     "namespace": "django.db.models.sql.compiler.SQLCompiler.as_sql",
-    "class_name": "",
+    "class_name": "django.db.models.sql.compiler.SQLCompiler",
     "module_name": "",
     "package_name": ""
 }

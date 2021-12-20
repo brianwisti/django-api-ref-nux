@@ -9,7 +9,7 @@
             "docstring": "",
             "name": "__init__",
             "namespace": "django.db.models.query.RawQuerySet.__init__",
-            "class_name": "",
+            "class_name": "django.db.models.query.RawQuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "\"\"\"Resolve the init field names and value positions.\"\"\"",
             "name": "resolve_model_init_order",
             "namespace": "django.db.models.query.RawQuerySet.resolve_model_init_order",
-            "class_name": "",
+            "class_name": "django.db.models.query.RawQuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "\"\"\"Same as QuerySet.prefetch_related()\"\"\"",
             "name": "prefetch_related",
             "namespace": "django.db.models.query.RawQuerySet.prefetch_related",
-            "class_name": "",
+            "class_name": "django.db.models.query.RawQuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "",
             "name": "_prefetch_related_objects",
             "namespace": "django.db.models.query.RawQuerySet._prefetch_related_objects",
-            "class_name": "",
+            "class_name": "django.db.models.query.RawQuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -41,7 +41,7 @@
             "docstring": "\"\"\"Same as QuerySet._clone()\"\"\"",
             "name": "_clone",
             "namespace": "django.db.models.query.RawQuerySet._clone",
-            "class_name": "",
+            "class_name": "django.db.models.query.RawQuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -49,7 +49,7 @@
             "docstring": "",
             "name": "_fetch_all",
             "namespace": "django.db.models.query.RawQuerySet._fetch_all",
-            "class_name": "",
+            "class_name": "django.db.models.query.RawQuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -57,7 +57,7 @@
             "docstring": "",
             "name": "__len__",
             "namespace": "django.db.models.query.RawQuerySet.__len__",
-            "class_name": "",
+            "class_name": "django.db.models.query.RawQuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -65,7 +65,7 @@
             "docstring": "",
             "name": "__bool__",
             "namespace": "django.db.models.query.RawQuerySet.__bool__",
-            "class_name": "",
+            "class_name": "django.db.models.query.RawQuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -73,7 +73,7 @@
             "docstring": "",
             "name": "__iter__",
             "namespace": "django.db.models.query.RawQuerySet.__iter__",
-            "class_name": "",
+            "class_name": "django.db.models.query.RawQuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -81,7 +81,7 @@
             "docstring": "",
             "name": "iterator",
             "namespace": "django.db.models.query.RawQuerySet.iterator",
-            "class_name": "",
+            "class_name": "django.db.models.query.RawQuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -89,7 +89,7 @@
             "docstring": "",
             "name": "__repr__",
             "namespace": "django.db.models.query.RawQuerySet.__repr__",
-            "class_name": "",
+            "class_name": "django.db.models.query.RawQuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -97,7 +97,7 @@
             "docstring": "",
             "name": "__getitem__",
             "namespace": "django.db.models.query.RawQuerySet.__getitem__",
-            "class_name": "",
+            "class_name": "django.db.models.query.RawQuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -105,7 +105,7 @@
             "docstring": "\"\"\"Return the database used if this query is executed now.\"\"\"",
             "name": "db",
             "namespace": "django.db.models.query.RawQuerySet.db",
-            "class_name": "",
+            "class_name": "django.db.models.query.RawQuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -113,7 +113,7 @@
             "docstring": "\"\"\"Select the database this RawQuerySet should execute against.\"\"\"",
             "name": "using",
             "namespace": "django.db.models.query.RawQuerySet.using",
-            "class_name": "",
+            "class_name": "django.db.models.query.RawQuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -121,7 +121,7 @@
             "docstring": "\"\"\"\n        A list of model field names in the order they'll appear in the\n        query results.\n        \"\"\"",
             "name": "columns",
             "namespace": "django.db.models.query.RawQuerySet.columns",
-            "class_name": "",
+            "class_name": "django.db.models.query.RawQuerySet",
             "module_name": "",
             "package_name": ""
         },
@@ -129,7 +129,7 @@
             "docstring": "\"\"\"A dict mapping column names to model field names.\"\"\"",
             "name": "model_fields",
             "namespace": "django.db.models.query.RawQuerySet.model_fields",
-            "class_name": "",
+            "class_name": "django.db.models.query.RawQuerySet",
             "module_name": "",
             "package_name": ""
         }

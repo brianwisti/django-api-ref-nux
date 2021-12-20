@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Pickling should return the model._meta.fields instance of the field,\n        not a new copy of that field. So, use the app registry to load the\n        model and then the field back.\n        \"\"\"",
     "name": "__reduce__",
     "namespace": "django.db.models.fields.Field.__reduce__",
-    "class_name": "",
+    "class_name": "django.db.models.fields.Field",
     "module_name": "",
     "package_name": ""
 }

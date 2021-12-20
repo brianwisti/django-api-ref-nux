@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Given a cursor object that has just performed an INSERT...RETURNING\n        statement into a table, return the newly created data.\n        \"\"\"",
     "name": "fetch_returned_insert_columns",
     "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.fetch_returned_insert_columns",
-    "class_name": "",
+    "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
     "module_name": "",
     "package_name": ""
 }

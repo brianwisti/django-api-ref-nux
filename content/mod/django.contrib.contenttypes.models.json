@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.contrib.contenttypes.models.ContentTypeManager.__init__",
-                    "class_name": "",
+                    "class_name": "django.contrib.contenttypes.models.ContentTypeManager",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "",
                     "name": "get_by_natural_key",
                     "namespace": "django.contrib.contenttypes.models.ContentTypeManager.get_by_natural_key",
-                    "class_name": "",
+                    "class_name": "django.contrib.contenttypes.models.ContentTypeManager",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -27,7 +27,7 @@
                     "docstring": "",
                     "name": "_get_opts",
                     "namespace": "django.contrib.contenttypes.models.ContentTypeManager._get_opts",
-                    "class_name": "",
+                    "class_name": "django.contrib.contenttypes.models.ContentTypeManager",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -35,7 +35,7 @@
                     "docstring": "",
                     "name": "_get_from_cache",
                     "namespace": "django.contrib.contenttypes.models.ContentTypeManager._get_from_cache",
-                    "class_name": "",
+                    "class_name": "django.contrib.contenttypes.models.ContentTypeManager",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -43,7 +43,7 @@
                     "docstring": "\"\"\"\n        Return the ContentType object for a given model, creating the\n        ContentType if necessary. Lookups are cached so that subsequent lookups\n        for the same model don't hit the database.\n        \"\"\"",
                     "name": "get_for_model",
                     "namespace": "django.contrib.contenttypes.models.ContentTypeManager.get_for_model",
-                    "class_name": "",
+                    "class_name": "django.contrib.contenttypes.models.ContentTypeManager",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -51,7 +51,7 @@
                     "docstring": "\"\"\"\n        Given *models, return a dictionary mapping {model: content_type}.\n        \"\"\"",
                     "name": "get_for_models",
                     "namespace": "django.contrib.contenttypes.models.ContentTypeManager.get_for_models",
-                    "class_name": "",
+                    "class_name": "django.contrib.contenttypes.models.ContentTypeManager",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -59,7 +59,7 @@
                     "docstring": "\"\"\"\n        Lookup a ContentType by ID. Use the same shared cache as get_for_model\n        (though ContentTypes are not created on-the-fly by get_by_id).\n        \"\"\"",
                     "name": "get_for_id",
                     "namespace": "django.contrib.contenttypes.models.ContentTypeManager.get_for_id",
-                    "class_name": "",
+                    "class_name": "django.contrib.contenttypes.models.ContentTypeManager",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -67,7 +67,7 @@
                     "docstring": "\"\"\"\n        Clear out the content-type cache.\n        \"\"\"",
                     "name": "clear_cache",
                     "namespace": "django.contrib.contenttypes.models.ContentTypeManager.clear_cache",
-                    "class_name": "",
+                    "class_name": "django.contrib.contenttypes.models.ContentTypeManager",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -75,7 +75,7 @@
                     "docstring": "\"\"\"Insert a ContentType into the cache.\"\"\"",
                     "name": "_add_to_cache",
                     "namespace": "django.contrib.contenttypes.models.ContentTypeManager._add_to_cache",
-                    "class_name": "",
+                    "class_name": "django.contrib.contenttypes.models.ContentTypeManager",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -90,7 +90,7 @@
                     "docstring": "",
                     "name": "__str__",
                     "namespace": "django.contrib.contenttypes.models.ContentType.__str__",
-                    "class_name": "",
+                    "class_name": "django.contrib.contenttypes.models.ContentType",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -98,7 +98,7 @@
                     "docstring": "",
                     "name": "name",
                     "namespace": "django.contrib.contenttypes.models.ContentType.name",
-                    "class_name": "",
+                    "class_name": "django.contrib.contenttypes.models.ContentType",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -106,7 +106,7 @@
                     "docstring": "",
                     "name": "app_labeled_name",
                     "namespace": "django.contrib.contenttypes.models.ContentType.app_labeled_name",
-                    "class_name": "",
+                    "class_name": "django.contrib.contenttypes.models.ContentType",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -114,7 +114,7 @@
                     "docstring": "\"\"\"Return the model class for this type of content.\"\"\"",
                     "name": "model_class",
                     "namespace": "django.contrib.contenttypes.models.ContentType.model_class",
-                    "class_name": "",
+                    "class_name": "django.contrib.contenttypes.models.ContentType",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -122,7 +122,7 @@
                     "docstring": "\"\"\"\n        Return an object of this type for the keyword arguments given.\n        Basically, this is a proxy around this object_type's get_object() model\n        method. The ObjectNotExist exception, if thrown, will not be caught,\n        so code that calls this method should catch it.\n        \"\"\"",
                     "name": "get_object_for_this_type",
                     "namespace": "django.contrib.contenttypes.models.ContentType.get_object_for_this_type",
-                    "class_name": "",
+                    "class_name": "django.contrib.contenttypes.models.ContentType",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -130,7 +130,7 @@
                     "docstring": "\"\"\"\n        Return all objects of this type for the keyword arguments given.\n        \"\"\"",
                     "name": "get_all_objects_for_this_type",
                     "namespace": "django.contrib.contenttypes.models.ContentType.get_all_objects_for_this_type",
-                    "class_name": "",
+                    "class_name": "django.contrib.contenttypes.models.ContentType",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -138,7 +138,7 @@
                     "docstring": "",
                     "name": "natural_key",
                     "namespace": "django.contrib.contenttypes.models.ContentType.natural_key",
-                    "class_name": "",
+                    "class_name": "django.contrib.contenttypes.models.ContentType",
                     "module_name": "",
                     "package_name": ""
                 }

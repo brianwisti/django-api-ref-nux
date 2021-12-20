@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Parse and compile the template source into a nodelist. If debug\n        is True and an exception occurs during parsing, the exception is\n        annotated with contextual line information where it occurred in the\n        template source.\n        \"\"\"",
     "name": "compile_nodelist",
     "namespace": "django.template.base.Template.compile_nodelist",
-    "class_name": "",
+    "class_name": "django.template.base.Template",
     "module_name": "",
     "package_name": ""
 }

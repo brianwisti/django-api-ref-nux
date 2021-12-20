@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Clear the list of fields to select (but not extra_select columns).\n        Some queryset types completely replace any existing list of select\n        columns.\n        \"\"\"",
     "name": "clear_select_fields",
     "namespace": "django.db.models.sql.query.Query.clear_select_fields",
-    "class_name": "",
+    "class_name": "django.db.models.sql.query.Query",
     "module_name": "",
     "package_name": ""
 }

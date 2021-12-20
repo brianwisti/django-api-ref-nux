@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Has this model been swapped out for another? If so, return the model\n        name of the replacement; otherwise, return None.\n\n        For historical reasons, model name lookups using get_model() are\n        case insensitive, so we make sure we are case insensitive here.\n        \"\"\"",
     "name": "swapped",
     "namespace": "django.db.models.options.Options.swapped",
-    "class_name": "",
+    "class_name": "django.db.models.options.Options",
     "module_name": "",
     "package_name": ""
 }

@@ -9,7 +9,7 @@
             "docstring": "\"\"\"\n        Validate that the input can be converted to a time. Return a Python\n        datetime.time object.\n        \"\"\"",
             "name": "to_python",
             "namespace": "django.forms.fields.TimeField.to_python",
-            "class_name": "",
+            "class_name": "django.forms.fields.TimeField",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "",
             "name": "strptime",
             "namespace": "django.forms.fields.TimeField.strptime",
-            "class_name": "",
+            "class_name": "django.forms.fields.TimeField",
             "module_name": "",
             "package_name": ""
         }

@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return all leaf nodes - that is, nodes with no dependents in their app.\n        These are the \"most current\" version of an app's schema.\n        Having more than one per app is technically an error, but one that\n        gets handled further up, in the interactive command - it's usually the\n        result of a VCS merge and needs some user input.\n        \"\"\"",
     "name": "leaf_nodes",
     "namespace": "django.db.migrations.graph.MigrationGraph.leaf_nodes",
-    "class_name": "",
+    "class_name": "django.db.migrations.graph.MigrationGraph",
     "module_name": "",
     "package_name": ""
 }

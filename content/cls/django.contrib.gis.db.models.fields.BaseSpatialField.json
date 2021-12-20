@@ -9,7 +9,7 @@
             "docstring": "\"\"\"\n        The initialization function for base spatial fields. Takes the following\n        as keyword arguments:\n\n        srid:\n         The spatial reference system identifier, an OGC standard.\n         Defaults to 4326 (WGS84).\n\n        spatial_index:\n         Indicates whether to create a spatial index.  Defaults to True.\n         Set this instead of 'db_index' for geographic fields since index\n         creation is different for geometry columns.\n        \"\"\"",
             "name": "__init__",
             "namespace": "django.contrib.gis.db.models.fields.BaseSpatialField.__init__",
-            "class_name": "",
+            "class_name": "django.contrib.gis.db.models.fields.BaseSpatialField",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "",
             "name": "deconstruct",
             "namespace": "django.contrib.gis.db.models.fields.BaseSpatialField.deconstruct",
-            "class_name": "",
+            "class_name": "django.contrib.gis.db.models.fields.BaseSpatialField",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "",
             "name": "db_type",
             "namespace": "django.contrib.gis.db.models.fields.BaseSpatialField.db_type",
-            "class_name": "",
+            "class_name": "django.contrib.gis.db.models.fields.BaseSpatialField",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "",
             "name": "spheroid",
             "namespace": "django.contrib.gis.db.models.fields.BaseSpatialField.spheroid",
-            "class_name": "",
+            "class_name": "django.contrib.gis.db.models.fields.BaseSpatialField",
             "module_name": "",
             "package_name": ""
         },
@@ -41,7 +41,7 @@
             "docstring": "",
             "name": "units",
             "namespace": "django.contrib.gis.db.models.fields.BaseSpatialField.units",
-            "class_name": "",
+            "class_name": "django.contrib.gis.db.models.fields.BaseSpatialField",
             "module_name": "",
             "package_name": ""
         },
@@ -49,7 +49,7 @@
             "docstring": "",
             "name": "units_name",
             "namespace": "django.contrib.gis.db.models.fields.BaseSpatialField.units_name",
-            "class_name": "",
+            "class_name": "django.contrib.gis.db.models.fields.BaseSpatialField",
             "module_name": "",
             "package_name": ""
         },
@@ -57,7 +57,7 @@
             "docstring": "\"\"\"\n        Return true if this field's SRID corresponds with a coordinate\n        system that uses non-projected units (e.g., latitude/longitude).\n        \"\"\"",
             "name": "geodetic",
             "namespace": "django.contrib.gis.db.models.fields.BaseSpatialField.geodetic",
-            "class_name": "",
+            "class_name": "django.contrib.gis.db.models.fields.BaseSpatialField",
             "module_name": "",
             "package_name": ""
         },
@@ -65,7 +65,7 @@
             "docstring": "\"\"\"\n        Return the placeholder for the spatial column for the\n        given value.\n        \"\"\"",
             "name": "get_placeholder",
             "namespace": "django.contrib.gis.db.models.fields.BaseSpatialField.get_placeholder",
-            "class_name": "",
+            "class_name": "django.contrib.gis.db.models.fields.BaseSpatialField",
             "module_name": "",
             "package_name": ""
         },
@@ -73,7 +73,7 @@
             "docstring": "\"\"\"\n        Return the default SRID for the given geometry or raster, taking into\n        account the SRID set for the field. For example, if the input geometry\n        or raster doesn't have an SRID, then the SRID of the field will be\n        returned.\n        \"\"\"",
             "name": "get_srid",
             "namespace": "django.contrib.gis.db.models.fields.BaseSpatialField.get_srid",
-            "class_name": "",
+            "class_name": "django.contrib.gis.db.models.fields.BaseSpatialField",
             "module_name": "",
             "package_name": ""
         },
@@ -81,7 +81,7 @@
             "docstring": "",
             "name": "get_db_prep_value",
             "namespace": "django.contrib.gis.db.models.fields.BaseSpatialField.get_db_prep_value",
-            "class_name": "",
+            "class_name": "django.contrib.gis.db.models.fields.BaseSpatialField",
             "module_name": "",
             "package_name": ""
         },
@@ -89,7 +89,7 @@
             "docstring": "\"\"\"\n        Return a GDALRaster if conversion is successful, otherwise return None.\n        \"\"\"",
             "name": "get_raster_prep_value",
             "namespace": "django.contrib.gis.db.models.fields.BaseSpatialField.get_raster_prep_value",
-            "class_name": "",
+            "class_name": "django.contrib.gis.db.models.fields.BaseSpatialField",
             "module_name": "",
             "package_name": ""
         },
@@ -97,7 +97,7 @@
             "docstring": "",
             "name": "get_prep_value",
             "namespace": "django.contrib.gis.db.models.fields.BaseSpatialField.get_prep_value",
-            "class_name": "",
+            "class_name": "django.contrib.gis.db.models.fields.BaseSpatialField",
             "module_name": "",
             "package_name": ""
         }

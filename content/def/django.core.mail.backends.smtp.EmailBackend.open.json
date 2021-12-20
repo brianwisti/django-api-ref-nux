@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Ensure an open connection to the email server. Return whether or not a\n        new connection was required (True or False) or None if an exception\n        passed silently.\n        \"\"\"",
     "name": "open",
     "namespace": "django.core.mail.backends.smtp.EmailBackend.open",
-    "class_name": "",
+    "class_name": "django.core.mail.backends.smtp.EmailBackend",
     "module_name": "",
     "package_name": ""
 }

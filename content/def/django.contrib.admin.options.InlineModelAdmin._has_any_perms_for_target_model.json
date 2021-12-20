@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        This method is called only when the ModelAdmin's model is for an\n        ManyToManyField's implicit through model (if self.opts.auto_created).\n        Return True if the user has any of the given permissions ('add',\n        'change', etc.) for the model that points to the through model.\n        \"\"\"",
     "name": "_has_any_perms_for_target_model",
     "namespace": "django.contrib.admin.options.InlineModelAdmin._has_any_perms_for_target_model",
-    "class_name": "",
+    "class_name": "django.contrib.admin.options.InlineModelAdmin",
     "module_name": "",
     "package_name": ""
 }

@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "log_action",
                     "namespace": "django.contrib.admin.models.LogEntryManager.log_action",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.models.LogEntryManager",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -26,7 +26,7 @@
                     "docstring": "",
                     "name": "__repr__",
                     "namespace": "django.contrib.admin.models.LogEntry.__repr__",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.models.LogEntry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -34,7 +34,7 @@
                     "docstring": "",
                     "name": "__str__",
                     "namespace": "django.contrib.admin.models.LogEntry.__str__",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.models.LogEntry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -42,7 +42,7 @@
                     "docstring": "",
                     "name": "is_addition",
                     "namespace": "django.contrib.admin.models.LogEntry.is_addition",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.models.LogEntry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -50,7 +50,7 @@
                     "docstring": "",
                     "name": "is_change",
                     "namespace": "django.contrib.admin.models.LogEntry.is_change",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.models.LogEntry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -58,7 +58,7 @@
                     "docstring": "",
                     "name": "is_deletion",
                     "namespace": "django.contrib.admin.models.LogEntry.is_deletion",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.models.LogEntry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -66,7 +66,7 @@
                     "docstring": "\"\"\"\n        If self.change_message is a JSON structure, interpret it as a change\n        string, properly translated.\n        \"\"\"",
                     "name": "get_change_message",
                     "namespace": "django.contrib.admin.models.LogEntry.get_change_message",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.models.LogEntry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -74,7 +74,7 @@
                     "docstring": "\"\"\"Return the edited object represented by this log entry.\"\"\"",
                     "name": "get_edited_object",
                     "namespace": "django.contrib.admin.models.LogEntry.get_edited_object",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.models.LogEntry",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -82,7 +82,7 @@
                     "docstring": "\"\"\"\n        Return the admin URL to edit the object represented by this log entry.\n        \"\"\"",
                     "name": "get_admin_url",
                     "namespace": "django.contrib.admin.models.LogEntry.get_admin_url",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.models.LogEntry",
                     "module_name": "",
                     "package_name": ""
                 }

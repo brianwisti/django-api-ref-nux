@@ -23,7 +23,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.contrib.admin.sites.AdminSite.__init__",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.sites.AdminSite",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -31,7 +31,7 @@
                     "docstring": "",
                     "name": "__repr__",
                     "namespace": "django.contrib.admin.sites.AdminSite.__repr__",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.sites.AdminSite",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -39,7 +39,7 @@
                     "docstring": "\"\"\"\n        Run the system checks on all ModelAdmins, except if they aren't\n        customized at all.\n        \"\"\"",
                     "name": "check",
                     "namespace": "django.contrib.admin.sites.AdminSite.check",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.sites.AdminSite",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -47,7 +47,7 @@
                     "docstring": "\"\"\"\n        Register the given model(s) with the given admin class.\n\n        The model(s) should be Model classes, not instances.\n\n        If an admin class isn't given, use ModelAdmin (the default admin\n        options). If keyword arguments are given -- e.g., list_display --\n        apply them as options to the admin class.\n\n        If a model is already registered, raise AlreadyRegistered.\n\n        If a model is abstract, raise ImproperlyConfigured.\n        \"\"\"",
                     "name": "register",
                     "namespace": "django.contrib.admin.sites.AdminSite.register",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.sites.AdminSite",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -55,7 +55,7 @@
                     "docstring": "\"\"\"\n        Unregister the given model(s).\n\n        If a model isn't already registered, raise NotRegistered.\n        \"\"\"",
                     "name": "unregister",
                     "namespace": "django.contrib.admin.sites.AdminSite.unregister",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.sites.AdminSite",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -63,7 +63,7 @@
                     "docstring": "\"\"\"\n        Check if a model class is registered with this `AdminSite`.\n        \"\"\"",
                     "name": "is_registered",
                     "namespace": "django.contrib.admin.sites.AdminSite.is_registered",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.sites.AdminSite",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -71,7 +71,7 @@
                     "docstring": "\"\"\"\n        Register an action to be available globally.\n        \"\"\"",
                     "name": "add_action",
                     "namespace": "django.contrib.admin.sites.AdminSite.add_action",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.sites.AdminSite",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -79,7 +79,7 @@
                     "docstring": "\"\"\"\n        Disable a globally-registered action. Raise KeyError for invalid names.\n        \"\"\"",
                     "name": "disable_action",
                     "namespace": "django.contrib.admin.sites.AdminSite.disable_action",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.sites.AdminSite",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -87,7 +87,7 @@
                     "docstring": "\"\"\"\n        Explicitly get a registered global action whether it's enabled or\n        not. Raise KeyError for invalid names.\n        \"\"\"",
                     "name": "get_action",
                     "namespace": "django.contrib.admin.sites.AdminSite.get_action",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.sites.AdminSite",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -95,7 +95,7 @@
                     "docstring": "\"\"\"\n        Get all the enabled actions as an iterable of (name, func).\n        \"\"\"",
                     "name": "actions",
                     "namespace": "django.contrib.admin.sites.AdminSite.actions",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.sites.AdminSite",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -103,7 +103,7 @@
                     "docstring": "\"\"\"\n        Return True if the given HttpRequest has permission to view\n        *at least one* page in the admin site.\n        \"\"\"",
                     "name": "has_permission",
                     "namespace": "django.contrib.admin.sites.AdminSite.has_permission",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.sites.AdminSite",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -111,7 +111,7 @@
                     "docstring": "\"\"\"\n        Decorator to create an admin view attached to this ``AdminSite``. This\n        wraps the view and provides permission checking by calling\n        ``self.has_permission``.\n\n        You'll want to use this from within ``AdminSite.get_urls()``:\n\n            class MyAdminSite(AdminSite):\n\n                def get_urls(self):\n                    from django.urls import path\n\n                    urls = super().get_urls()\n                    urls += [\n                        path('my_view/', self.admin_view(some_view))\n                    ]\n                    return urls\n\n        By default, admin_views are marked non-cacheable using the\n        ``never_cache`` decorator. If the view can be safely cached, set\n        cacheable=True.\n        \"\"\"",
                     "name": "admin_view",
                     "namespace": "django.contrib.admin.sites.AdminSite.admin_view",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.sites.AdminSite",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -119,7 +119,7 @@
                     "docstring": "",
                     "name": "get_urls",
                     "namespace": "django.contrib.admin.sites.AdminSite.get_urls",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.sites.AdminSite",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -127,7 +127,7 @@
                     "docstring": "",
                     "name": "urls",
                     "namespace": "django.contrib.admin.sites.AdminSite.urls",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.sites.AdminSite",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -135,7 +135,7 @@
                     "docstring": "\"\"\"\n        Return a dictionary of variables to put in the template context for\n        *every* page in the admin site.\n\n        For sites running on a subpath, use the SCRIPT_NAME value if site_url\n        hasn't been customized.\n        \"\"\"",
                     "name": "each_context",
                     "namespace": "django.contrib.admin.sites.AdminSite.each_context",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.sites.AdminSite",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -143,7 +143,7 @@
                     "docstring": "\"\"\"\n        Handle the \"change password\" task -- both form display and validation.\n        \"\"\"",
                     "name": "password_change",
                     "namespace": "django.contrib.admin.sites.AdminSite.password_change",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.sites.AdminSite",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -151,7 +151,7 @@
                     "docstring": "\"\"\"\n        Display the \"success\" page after a password change.\n        \"\"\"",
                     "name": "password_change_done",
                     "namespace": "django.contrib.admin.sites.AdminSite.password_change_done",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.sites.AdminSite",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -159,7 +159,7 @@
                     "docstring": "\"\"\"\n        Display the i18n JavaScript that the Django admin requires.\n\n        `extra_context` is unused but present for consistency with the other\n        admin views.\n        \"\"\"",
                     "name": "i18n_javascript",
                     "namespace": "django.contrib.admin.sites.AdminSite.i18n_javascript",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.sites.AdminSite",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -167,7 +167,7 @@
                     "docstring": "\"\"\"\n        Log out the user for the given HttpRequest.\n\n        This should *not* assume the user is already logged in.\n        \"\"\"",
                     "name": "logout",
                     "namespace": "django.contrib.admin.sites.AdminSite.logout",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.sites.AdminSite",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -175,7 +175,7 @@
                     "docstring": "\"\"\"\n        Display the login form for the given HttpRequest.\n        \"\"\"",
                     "name": "login",
                     "namespace": "django.contrib.admin.sites.AdminSite.login",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.sites.AdminSite",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -183,7 +183,7 @@
                     "docstring": "",
                     "name": "autocomplete_view",
                     "namespace": "django.contrib.admin.sites.AdminSite.autocomplete_view",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.sites.AdminSite",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -191,7 +191,7 @@
                     "docstring": "",
                     "name": "catch_all_view",
                     "namespace": "django.contrib.admin.sites.AdminSite.catch_all_view",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.sites.AdminSite",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -199,7 +199,7 @@
                     "docstring": "\"\"\"\n        Build the app dictionary. The optional `label` parameter filters models\n        of a specific app.\n        \"\"\"",
                     "name": "_build_app_dict",
                     "namespace": "django.contrib.admin.sites.AdminSite._build_app_dict",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.sites.AdminSite",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -207,7 +207,7 @@
                     "docstring": "\"\"\"\n        Return a sorted list of all the installed apps that have been\n        registered in this site.\n        \"\"\"",
                     "name": "get_app_list",
                     "namespace": "django.contrib.admin.sites.AdminSite.get_app_list",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.sites.AdminSite",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -215,7 +215,7 @@
                     "docstring": "\"\"\"\n        Display the main admin index page, which lists all of the installed\n        apps that have been registered in this site.\n        \"\"\"",
                     "name": "index",
                     "namespace": "django.contrib.admin.sites.AdminSite.index",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.sites.AdminSite",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -223,7 +223,7 @@
                     "docstring": "",
                     "name": "app_index",
                     "namespace": "django.contrib.admin.sites.AdminSite.app_index",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.sites.AdminSite",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -238,7 +238,7 @@
                     "docstring": "",
                     "name": "_setup",
                     "namespace": "django.contrib.admin.sites.DefaultAdminSite._setup",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.sites.DefaultAdminSite",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -246,7 +246,7 @@
                     "docstring": "",
                     "name": "__repr__",
                     "namespace": "django.contrib.admin.sites.DefaultAdminSite.__repr__",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.sites.DefaultAdminSite",
                     "module_name": "",
                     "package_name": ""
                 }

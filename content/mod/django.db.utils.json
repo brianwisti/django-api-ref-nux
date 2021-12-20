@@ -65,7 +65,7 @@
                     "docstring": "\"\"\"\n        wrapper is a database wrapper.\n\n        It must have a Database attribute defining PEP-249 exceptions.\n        \"\"\"",
                     "name": "__init__",
                     "namespace": "django.db.utils.DatabaseErrorWrapper.__init__",
-                    "class_name": "",
+                    "class_name": "django.db.utils.DatabaseErrorWrapper",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -73,7 +73,7 @@
                     "docstring": "",
                     "name": "__enter__",
                     "namespace": "django.db.utils.DatabaseErrorWrapper.__enter__",
-                    "class_name": "",
+                    "class_name": "django.db.utils.DatabaseErrorWrapper",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -81,7 +81,7 @@
                     "docstring": "",
                     "name": "__exit__",
                     "namespace": "django.db.utils.DatabaseErrorWrapper.__exit__",
-                    "class_name": "",
+                    "class_name": "django.db.utils.DatabaseErrorWrapper",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -89,7 +89,7 @@
                     "docstring": "",
                     "name": "__call__",
                     "namespace": "django.db.utils.DatabaseErrorWrapper.__call__",
-                    "class_name": "",
+                    "class_name": "django.db.utils.DatabaseErrorWrapper",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -104,7 +104,7 @@
                     "docstring": "",
                     "name": "configure_settings",
                     "namespace": "django.db.utils.ConnectionHandler.configure_settings",
-                    "class_name": "",
+                    "class_name": "django.db.utils.ConnectionHandler",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -112,7 +112,7 @@
                     "docstring": "",
                     "name": "databases",
                     "namespace": "django.db.utils.ConnectionHandler.databases",
-                    "class_name": "",
+                    "class_name": "django.db.utils.ConnectionHandler",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -120,7 +120,7 @@
                     "docstring": "\"\"\"\n        Put the defaults into the settings dictionary for a given connection\n        where no settings is provided.\n        \"\"\"",
                     "name": "ensure_defaults",
                     "namespace": "django.db.utils.ConnectionHandler.ensure_defaults",
-                    "class_name": "",
+                    "class_name": "django.db.utils.ConnectionHandler",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -128,7 +128,7 @@
                     "docstring": "\"\"\"\n        Make sure the test settings are available in the 'TEST' sub-dictionary.\n        \"\"\"",
                     "name": "prepare_test_settings",
                     "namespace": "django.db.utils.ConnectionHandler.prepare_test_settings",
-                    "class_name": "",
+                    "class_name": "django.db.utils.ConnectionHandler",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -136,7 +136,7 @@
                     "docstring": "",
                     "name": "create_connection",
                     "namespace": "django.db.utils.ConnectionHandler.create_connection",
-                    "class_name": "",
+                    "class_name": "django.db.utils.ConnectionHandler",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -144,7 +144,7 @@
                     "docstring": "",
                     "name": "close_all",
                     "namespace": "django.db.utils.ConnectionHandler.close_all",
-                    "class_name": "",
+                    "class_name": "django.db.utils.ConnectionHandler",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -159,7 +159,7 @@
                     "docstring": "\"\"\"\n        If routers is not specified, default to settings.DATABASE_ROUTERS.\n        \"\"\"",
                     "name": "__init__",
                     "namespace": "django.db.utils.ConnectionRouter.__init__",
-                    "class_name": "",
+                    "class_name": "django.db.utils.ConnectionRouter",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -167,7 +167,7 @@
                     "docstring": "",
                     "name": "routers",
                     "namespace": "django.db.utils.ConnectionRouter.routers",
-                    "class_name": "",
+                    "class_name": "django.db.utils.ConnectionRouter",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -175,7 +175,7 @@
                     "docstring": "",
                     "name": "_router_func",
                     "namespace": "django.db.utils.ConnectionRouter._router_func",
-                    "class_name": "",
+                    "class_name": "django.db.utils.ConnectionRouter",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -183,7 +183,7 @@
                     "docstring": "",
                     "name": "allow_relation",
                     "namespace": "django.db.utils.ConnectionRouter.allow_relation",
-                    "class_name": "",
+                    "class_name": "django.db.utils.ConnectionRouter",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -191,7 +191,7 @@
                     "docstring": "",
                     "name": "allow_migrate",
                     "namespace": "django.db.utils.ConnectionRouter.allow_migrate",
-                    "class_name": "",
+                    "class_name": "django.db.utils.ConnectionRouter",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -199,7 +199,7 @@
                     "docstring": "",
                     "name": "allow_migrate_model",
                     "namespace": "django.db.utils.ConnectionRouter.allow_migrate_model",
-                    "class_name": "",
+                    "class_name": "django.db.utils.ConnectionRouter",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -207,7 +207,7 @@
                     "docstring": "\"\"\"Return app models allowed to be migrated on provided db.\"\"\"",
                     "name": "get_migratable_models",
                     "namespace": "django.db.utils.ConnectionRouter.get_migratable_models",
-                    "class_name": "",
+                    "class_name": "django.db.utils.ConnectionRouter",
                     "module_name": "",
                     "package_name": ""
                 }

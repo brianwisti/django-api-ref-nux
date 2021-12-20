@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        The username passed as ``remote_user`` is considered trusted. Return\n        the ``User`` object with the given username. Create a new ``User``\n        object if ``create_unknown_user`` is ``True``.\n\n        Return None if ``create_unknown_user`` is ``False`` and a ``User``\n        object with the given username is not found in the database.\n        \"\"\"",
     "name": "authenticate",
     "namespace": "django.contrib.auth.backends.RemoteUserBackend.authenticate",
-    "class_name": "",
+    "class_name": "django.contrib.auth.backends.RemoteUserBackend",
     "module_name": "",
     "package_name": ""
 }

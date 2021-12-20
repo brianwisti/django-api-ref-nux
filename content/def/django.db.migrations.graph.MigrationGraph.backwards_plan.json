@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Given a node, return a list of which dependent nodes (dependencies)\n        must be unapplied, ending with the node itself. This is the list you\n        would follow if removing the migrations from a database.\n        \"\"\"",
     "name": "backwards_plan",
     "namespace": "django.db.migrations.graph.MigrationGraph.backwards_plan",
-    "class_name": "",
+    "class_name": "django.db.migrations.graph.MigrationGraph",
     "module_name": "",
     "package_name": ""
 }

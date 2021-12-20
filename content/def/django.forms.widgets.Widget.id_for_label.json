@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return the HTML ID attribute of this Widget for use by a <label>,\n        given the ID of the field. Return None if no ID is available.\n\n        This hook is necessary because some widgets have multiple HTML\n        elements and, thus, multiple IDs. In that case, this method should\n        return an ID value that corresponds to the first ID in the widget's\n        tags.\n        \"\"\"",
     "name": "id_for_label",
     "namespace": "django.forms.widgets.Widget.id_for_label",
-    "class_name": "",
+    "class_name": "django.forms.widgets.Widget",
     "module_name": "",
     "package_name": ""
 }

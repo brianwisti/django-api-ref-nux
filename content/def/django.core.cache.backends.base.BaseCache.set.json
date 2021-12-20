@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Set a value in the cache. If timeout is given, use that timeout for the\n        key; otherwise use the default cache timeout.\n        \"\"\"",
     "name": "set",
     "namespace": "django.core.cache.backends.base.BaseCache.set",
-    "class_name": "",
+    "class_name": "django.core.cache.backends.base.BaseCache",
     "module_name": "",
     "package_name": ""
 }

@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Check if the given field should be treated as nullable.\n\n        Some backends treat '' as null and Django treats such fields as\n        nullable for those backends. In such situations field.null can be\n        False even if we should treat the field as nullable.\n        \"\"\"",
     "name": "is_nullable",
     "namespace": "django.db.models.sql.query.Query.is_nullable",
-    "class_name": "",
+    "class_name": "django.db.models.sql.query.Query",
     "module_name": "",
     "package_name": ""
 }

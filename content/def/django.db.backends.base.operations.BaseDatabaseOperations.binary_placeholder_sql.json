@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Some backends require special syntax to insert binary content (MySQL\n        for example uses '_binary %s').\n        \"\"\"",
     "name": "binary_placeholder_sql",
     "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.binary_placeholder_sql",
-    "class_name": "",
+    "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
     "module_name": "",
     "package_name": ""
 }

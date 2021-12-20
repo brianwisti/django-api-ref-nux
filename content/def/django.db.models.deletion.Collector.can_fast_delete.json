@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Determine if the objects in the given queryset-like or single object\n        can be fast-deleted. This can be done if there are no cascades, no\n        parents and no signal listeners for the object class.\n\n        The 'from_field' tells where we are coming from - we need this to\n        determine if the objects are in fact to be deleted. Allow also\n        skipping parent -> child -> parent chain preventing fast delete of\n        the child.\n        \"\"\"",
     "name": "can_fast_delete",
     "namespace": "django.db.models.deletion.Collector.can_fast_delete",
-    "class_name": "",
+    "class_name": "django.db.models.deletion.Collector",
     "module_name": "",
     "package_name": ""
 }

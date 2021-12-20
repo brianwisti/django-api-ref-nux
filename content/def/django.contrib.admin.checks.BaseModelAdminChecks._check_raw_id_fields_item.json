@@ -2,7 +2,7 @@
     "docstring": "\"\"\" Check an item of `raw_id_fields`, i.e. check that field named\n        `field_name` exists in model `model` and is a ForeignKey or a\n        ManyToManyField. \"\"\"",
     "name": "_check_raw_id_fields_item",
     "namespace": "django.contrib.admin.checks.BaseModelAdminChecks._check_raw_id_fields_item",
-    "class_name": "",
+    "class_name": "django.contrib.admin.checks.BaseModelAdminChecks",
     "module_name": "",
     "package_name": ""
 }

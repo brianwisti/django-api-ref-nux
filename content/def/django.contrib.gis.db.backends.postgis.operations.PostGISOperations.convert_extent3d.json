@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return a 6-tuple extent for the `Extent3D` aggregate by converting\n        the 3d bounding-box text returned by PostGIS (`box3d` argument), for\n        example: \"BOX3D(-90.0 30.0 1, -85.0 40.0 2)\".\n        \"\"\"",
     "name": "convert_extent3d",
     "namespace": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.convert_extent3d",
-    "class_name": "",
+    "class_name": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations",
     "module_name": "",
     "package_name": ""
 }

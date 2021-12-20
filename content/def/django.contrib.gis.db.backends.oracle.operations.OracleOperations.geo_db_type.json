@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return the geometry database type for Oracle. Unlike other spatial\n        backends, no stored procedure is necessary and it's the same for all\n        geometry types.\n        \"\"\"",
     "name": "geo_db_type",
     "namespace": "django.contrib.gis.db.backends.oracle.operations.OracleOperations.geo_db_type",
-    "class_name": "",
+    "class_name": "django.contrib.gis.db.backends.oracle.operations.OracleOperations",
     "module_name": "",
     "package_name": ""
 }

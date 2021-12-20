@@ -11,7 +11,7 @@
                     "docstring": "\"\"\"\n        Populate the initial data using __setitem__ to ensure values are\n        correctly encoded.\n        \"\"\"",
                     "name": "__init__",
                     "namespace": "django.http.response.ResponseHeaders.__init__",
-                    "class_name": "",
+                    "class_name": "django.http.response.ResponseHeaders",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "\"\"\"\n        Convert headers key/value to ascii/latin-1 native strings.\n        `charset` must be 'ascii' or 'latin-1'. If `mime_encode` is True and\n        `value` can't be represented in the given charset, apply MIME-encoding.\n        \"\"\"",
                     "name": "_convert_to_charset",
                     "namespace": "django.http.response.ResponseHeaders._convert_to_charset",
-                    "class_name": "",
+                    "class_name": "django.http.response.ResponseHeaders",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -27,7 +27,7 @@
                     "docstring": "",
                     "name": "__delitem__",
                     "namespace": "django.http.response.ResponseHeaders.__delitem__",
-                    "class_name": "",
+                    "class_name": "django.http.response.ResponseHeaders",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -35,7 +35,7 @@
                     "docstring": "",
                     "name": "__setitem__",
                     "namespace": "django.http.response.ResponseHeaders.__setitem__",
-                    "class_name": "",
+                    "class_name": "django.http.response.ResponseHeaders",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -43,7 +43,7 @@
                     "docstring": "",
                     "name": "pop",
                     "namespace": "django.http.response.ResponseHeaders.pop",
-                    "class_name": "",
+                    "class_name": "django.http.response.ResponseHeaders",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -51,7 +51,7 @@
                     "docstring": "",
                     "name": "setdefault",
                     "namespace": "django.http.response.ResponseHeaders.setdefault",
-                    "class_name": "",
+                    "class_name": "django.http.response.ResponseHeaders",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -72,7 +72,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.http.response.HttpResponseBase.__init__",
-                    "class_name": "",
+                    "class_name": "django.http.response.HttpResponseBase",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -80,7 +80,7 @@
                     "docstring": "",
                     "name": "reason_phrase",
                     "namespace": "django.http.response.HttpResponseBase.reason_phrase",
-                    "class_name": "",
+                    "class_name": "django.http.response.HttpResponseBase",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -88,7 +88,7 @@
                     "docstring": "",
                     "name": "reason_phrase",
                     "namespace": "django.http.response.HttpResponseBase.reason_phrase",
-                    "class_name": "",
+                    "class_name": "django.http.response.HttpResponseBase",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -96,7 +96,7 @@
                     "docstring": "",
                     "name": "charset",
                     "namespace": "django.http.response.HttpResponseBase.charset",
-                    "class_name": "",
+                    "class_name": "django.http.response.HttpResponseBase",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -104,7 +104,7 @@
                     "docstring": "",
                     "name": "charset",
                     "namespace": "django.http.response.HttpResponseBase.charset",
-                    "class_name": "",
+                    "class_name": "django.http.response.HttpResponseBase",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -112,7 +112,7 @@
                     "docstring": "\"\"\"HTTP headers as a bytestring.\"\"\"",
                     "name": "serialize_headers",
                     "namespace": "django.http.response.HttpResponseBase.serialize_headers",
-                    "class_name": "",
+                    "class_name": "django.http.response.HttpResponseBase",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -120,7 +120,7 @@
                     "docstring": "",
                     "name": "_content_type_for_repr",
                     "namespace": "django.http.response.HttpResponseBase._content_type_for_repr",
-                    "class_name": "",
+                    "class_name": "django.http.response.HttpResponseBase",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -128,7 +128,7 @@
                     "docstring": "",
                     "name": "__setitem__",
                     "namespace": "django.http.response.HttpResponseBase.__setitem__",
-                    "class_name": "",
+                    "class_name": "django.http.response.HttpResponseBase",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -136,7 +136,7 @@
                     "docstring": "",
                     "name": "__delitem__",
                     "namespace": "django.http.response.HttpResponseBase.__delitem__",
-                    "class_name": "",
+                    "class_name": "django.http.response.HttpResponseBase",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -144,7 +144,7 @@
                     "docstring": "",
                     "name": "__getitem__",
                     "namespace": "django.http.response.HttpResponseBase.__getitem__",
-                    "class_name": "",
+                    "class_name": "django.http.response.HttpResponseBase",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -152,7 +152,7 @@
                     "docstring": "\"\"\"Case-insensitive check for a header.\"\"\"",
                     "name": "has_header",
                     "namespace": "django.http.response.HttpResponseBase.has_header",
-                    "class_name": "",
+                    "class_name": "django.http.response.HttpResponseBase",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -160,7 +160,7 @@
                     "docstring": "",
                     "name": "items",
                     "namespace": "django.http.response.HttpResponseBase.items",
-                    "class_name": "",
+                    "class_name": "django.http.response.HttpResponseBase",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -168,7 +168,7 @@
                     "docstring": "",
                     "name": "get",
                     "namespace": "django.http.response.HttpResponseBase.get",
-                    "class_name": "",
+                    "class_name": "django.http.response.HttpResponseBase",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -176,7 +176,7 @@
                     "docstring": "\"\"\"\n        Set a cookie.\n\n        ``expires`` can be:\n        - a string in the correct format,\n        - a naive ``datetime.datetime`` object in UTC,\n        - an aware ``datetime.datetime`` object in any time zone.\n        If it is a ``datetime.datetime`` object then calculate ``max_age``.\n        \"\"\"",
                     "name": "set_cookie",
                     "namespace": "django.http.response.HttpResponseBase.set_cookie",
-                    "class_name": "",
+                    "class_name": "django.http.response.HttpResponseBase",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -184,7 +184,7 @@
                     "docstring": "\"\"\"Set a header unless it has already been set.\"\"\"",
                     "name": "setdefault",
                     "namespace": "django.http.response.HttpResponseBase.setdefault",
-                    "class_name": "",
+                    "class_name": "django.http.response.HttpResponseBase",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -192,7 +192,7 @@
                     "docstring": "",
                     "name": "set_signed_cookie",
                     "namespace": "django.http.response.HttpResponseBase.set_signed_cookie",
-                    "class_name": "",
+                    "class_name": "django.http.response.HttpResponseBase",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -200,7 +200,7 @@
                     "docstring": "",
                     "name": "delete_cookie",
                     "namespace": "django.http.response.HttpResponseBase.delete_cookie",
-                    "class_name": "",
+                    "class_name": "django.http.response.HttpResponseBase",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -208,7 +208,7 @@
                     "docstring": "\"\"\"Turn a value into a bytestring encoded in the output charset.\"\"\"",
                     "name": "make_bytes",
                     "namespace": "django.http.response.HttpResponseBase.make_bytes",
-                    "class_name": "",
+                    "class_name": "django.http.response.HttpResponseBase",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -216,7 +216,7 @@
                     "docstring": "",
                     "name": "close",
                     "namespace": "django.http.response.HttpResponseBase.close",
-                    "class_name": "",
+                    "class_name": "django.http.response.HttpResponseBase",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -224,7 +224,7 @@
                     "docstring": "",
                     "name": "write",
                     "namespace": "django.http.response.HttpResponseBase.write",
-                    "class_name": "",
+                    "class_name": "django.http.response.HttpResponseBase",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -232,7 +232,7 @@
                     "docstring": "",
                     "name": "flush",
                     "namespace": "django.http.response.HttpResponseBase.flush",
-                    "class_name": "",
+                    "class_name": "django.http.response.HttpResponseBase",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -240,7 +240,7 @@
                     "docstring": "",
                     "name": "tell",
                     "namespace": "django.http.response.HttpResponseBase.tell",
-                    "class_name": "",
+                    "class_name": "django.http.response.HttpResponseBase",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -248,7 +248,7 @@
                     "docstring": "",
                     "name": "readable",
                     "namespace": "django.http.response.HttpResponseBase.readable",
-                    "class_name": "",
+                    "class_name": "django.http.response.HttpResponseBase",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -256,7 +256,7 @@
                     "docstring": "",
                     "name": "seekable",
                     "namespace": "django.http.response.HttpResponseBase.seekable",
-                    "class_name": "",
+                    "class_name": "django.http.response.HttpResponseBase",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -264,7 +264,7 @@
                     "docstring": "",
                     "name": "writable",
                     "namespace": "django.http.response.HttpResponseBase.writable",
-                    "class_name": "",
+                    "class_name": "django.http.response.HttpResponseBase",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -272,7 +272,7 @@
                     "docstring": "",
                     "name": "writelines",
                     "namespace": "django.http.response.HttpResponseBase.writelines",
-                    "class_name": "",
+                    "class_name": "django.http.response.HttpResponseBase",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -287,7 +287,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.http.response.HttpResponse.__init__",
-                    "class_name": "",
+                    "class_name": "django.http.response.HttpResponse",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -295,7 +295,7 @@
                     "docstring": "",
                     "name": "__repr__",
                     "namespace": "django.http.response.HttpResponse.__repr__",
-                    "class_name": "",
+                    "class_name": "django.http.response.HttpResponse",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -303,7 +303,7 @@
                     "docstring": "\"\"\"Full HTTP message, including headers, as a bytestring.\"\"\"",
                     "name": "serialize",
                     "namespace": "django.http.response.HttpResponse.serialize",
-                    "class_name": "",
+                    "class_name": "django.http.response.HttpResponse",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -311,7 +311,7 @@
                     "docstring": "",
                     "name": "content",
                     "namespace": "django.http.response.HttpResponse.content",
-                    "class_name": "",
+                    "class_name": "django.http.response.HttpResponse",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -319,7 +319,7 @@
                     "docstring": "",
                     "name": "content",
                     "namespace": "django.http.response.HttpResponse.content",
-                    "class_name": "",
+                    "class_name": "django.http.response.HttpResponse",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -327,7 +327,7 @@
                     "docstring": "",
                     "name": "__iter__",
                     "namespace": "django.http.response.HttpResponse.__iter__",
-                    "class_name": "",
+                    "class_name": "django.http.response.HttpResponse",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -335,7 +335,7 @@
                     "docstring": "",
                     "name": "write",
                     "namespace": "django.http.response.HttpResponse.write",
-                    "class_name": "",
+                    "class_name": "django.http.response.HttpResponse",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -343,7 +343,7 @@
                     "docstring": "",
                     "name": "tell",
                     "namespace": "django.http.response.HttpResponse.tell",
-                    "class_name": "",
+                    "class_name": "django.http.response.HttpResponse",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -351,7 +351,7 @@
                     "docstring": "",
                     "name": "getvalue",
                     "namespace": "django.http.response.HttpResponse.getvalue",
-                    "class_name": "",
+                    "class_name": "django.http.response.HttpResponse",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -359,7 +359,7 @@
                     "docstring": "",
                     "name": "writable",
                     "namespace": "django.http.response.HttpResponse.writable",
-                    "class_name": "",
+                    "class_name": "django.http.response.HttpResponse",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -367,7 +367,7 @@
                     "docstring": "",
                     "name": "writelines",
                     "namespace": "django.http.response.HttpResponse.writelines",
-                    "class_name": "",
+                    "class_name": "django.http.response.HttpResponse",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -382,7 +382,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.http.response.StreamingHttpResponse.__init__",
-                    "class_name": "",
+                    "class_name": "django.http.response.StreamingHttpResponse",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -390,7 +390,7 @@
                     "docstring": "",
                     "name": "__repr__",
                     "namespace": "django.http.response.StreamingHttpResponse.__repr__",
-                    "class_name": "",
+                    "class_name": "django.http.response.StreamingHttpResponse",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -398,7 +398,7 @@
                     "docstring": "",
                     "name": "content",
                     "namespace": "django.http.response.StreamingHttpResponse.content",
-                    "class_name": "",
+                    "class_name": "django.http.response.StreamingHttpResponse",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -406,7 +406,7 @@
                     "docstring": "",
                     "name": "streaming_content",
                     "namespace": "django.http.response.StreamingHttpResponse.streaming_content",
-                    "class_name": "",
+                    "class_name": "django.http.response.StreamingHttpResponse",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -414,7 +414,7 @@
                     "docstring": "",
                     "name": "streaming_content",
                     "namespace": "django.http.response.StreamingHttpResponse.streaming_content",
-                    "class_name": "",
+                    "class_name": "django.http.response.StreamingHttpResponse",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -422,7 +422,7 @@
                     "docstring": "",
                     "name": "_set_streaming_content",
                     "namespace": "django.http.response.StreamingHttpResponse._set_streaming_content",
-                    "class_name": "",
+                    "class_name": "django.http.response.StreamingHttpResponse",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -430,7 +430,7 @@
                     "docstring": "",
                     "name": "__iter__",
                     "namespace": "django.http.response.StreamingHttpResponse.__iter__",
-                    "class_name": "",
+                    "class_name": "django.http.response.StreamingHttpResponse",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -438,7 +438,7 @@
                     "docstring": "",
                     "name": "getvalue",
                     "namespace": "django.http.response.StreamingHttpResponse.getvalue",
-                    "class_name": "",
+                    "class_name": "django.http.response.StreamingHttpResponse",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -453,7 +453,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.http.response.FileResponse.__init__",
-                    "class_name": "",
+                    "class_name": "django.http.response.FileResponse",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -461,7 +461,7 @@
                     "docstring": "",
                     "name": "_set_streaming_content",
                     "namespace": "django.http.response.FileResponse._set_streaming_content",
-                    "class_name": "",
+                    "class_name": "django.http.response.FileResponse",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -469,7 +469,7 @@
                     "docstring": "\"\"\"\n        Set some common response headers (Content-Length, Content-Type, and\n        Content-Disposition) based on the `filelike` response content.\n        \"\"\"",
                     "name": "set_headers",
                     "namespace": "django.http.response.FileResponse.set_headers",
-                    "class_name": "",
+                    "class_name": "django.http.response.FileResponse",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -484,7 +484,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.http.response.HttpResponseRedirectBase.__init__",
-                    "class_name": "",
+                    "class_name": "django.http.response.HttpResponseRedirectBase",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -492,7 +492,7 @@
                     "docstring": "",
                     "name": "__repr__",
                     "namespace": "django.http.response.HttpResponseRedirectBase.__repr__",
-                    "class_name": "",
+                    "class_name": "django.http.response.HttpResponseRedirectBase",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -519,7 +519,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.http.response.HttpResponseNotModified.__init__",
-                    "class_name": "",
+                    "class_name": "django.http.response.HttpResponseNotModified",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -527,7 +527,7 @@
                     "docstring": "",
                     "name": "content",
                     "namespace": "django.http.response.HttpResponseNotModified.content",
-                    "class_name": "",
+                    "class_name": "django.http.response.HttpResponseNotModified",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -560,7 +560,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.http.response.HttpResponseNotAllowed.__init__",
-                    "class_name": "",
+                    "class_name": "django.http.response.HttpResponseNotAllowed",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -568,7 +568,7 @@
                     "docstring": "",
                     "name": "__repr__",
                     "namespace": "django.http.response.HttpResponseNotAllowed.__repr__",
-                    "class_name": "",
+                    "class_name": "django.http.response.HttpResponseNotAllowed",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -601,7 +601,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.http.response.JsonResponse.__init__",
-                    "class_name": "",
+                    "class_name": "django.http.response.JsonResponse",
                     "module_name": "",
                     "package_name": ""
                 }

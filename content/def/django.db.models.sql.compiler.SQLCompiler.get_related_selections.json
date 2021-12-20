@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Fill in the information needed for a select_related query. The current\n        depth is measured as the number of connections away from the root model\n        (for example, cur_depth=1 means we are looking at models with direct\n        connections to the root model).\n        \"\"\"",
     "name": "get_related_selections",
     "namespace": "django.db.models.sql.compiler.SQLCompiler.get_related_selections",
-    "class_name": "",
+    "class_name": "django.db.models.sql.compiler.SQLCompiler",
     "module_name": "",
     "package_name": ""
 }

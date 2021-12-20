@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return the field on the current model which points to the given\n        \"ancestor\". This is possible an indirect link (a pointer to a parent\n        model, which points, eventually, to the ancestor). Used when\n        constructing table joins for model inheritance.\n\n        Return None if the model isn't an ancestor of this one.\n        \"\"\"",
     "name": "get_ancestor_link",
     "namespace": "django.db.models.options.Options.get_ancestor_link",
-    "class_name": "",
+    "class_name": "django.db.models.options.Options",
     "module_name": "",
     "package_name": ""
 }

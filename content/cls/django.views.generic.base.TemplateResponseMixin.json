@@ -9,7 +9,7 @@
             "docstring": "\"\"\"\n        Return a response, using the `response_class` for this view, with a\n        template rendered with the given context.\n\n        Pass response_kwargs to the constructor of the response class.\n        \"\"\"",
             "name": "render_to_response",
             "namespace": "django.views.generic.base.TemplateResponseMixin.render_to_response",
-            "class_name": "",
+            "class_name": "django.views.generic.base.TemplateResponseMixin",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "\"\"\"\n        Return a list of template names to be used for the request. Must return\n        a list. May not be called if render_to_response() is overridden.\n        \"\"\"",
             "name": "get_template_names",
             "namespace": "django.views.generic.base.TemplateResponseMixin.get_template_names",
-            "class_name": "",
+            "class_name": "django.views.generic.base.TemplateResponseMixin",
             "module_name": "",
             "package_name": ""
         }

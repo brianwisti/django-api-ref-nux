@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return a tuple that uniquely identifies a test database.\n\n        This takes into account the special cases of \":memory:\" and \"\" for\n        SQLite since the databases will be distinct despite having the same\n        TEST NAME. See https://www.sqlite.org/inmemorydb.html\n        \"\"\"",
     "name": "test_db_signature",
     "namespace": "django.db.backends.sqlite3.creation.DatabaseCreation.test_db_signature",
-    "class_name": "",
+    "class_name": "django.db.backends.sqlite3.creation.DatabaseCreation",
     "module_name": "",
     "package_name": ""
 }

@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Take a list of 2-tuples of the form (migration instance, False) and\n        apply them in the order they occur in the full_plan.\n        \"\"\"",
     "name": "_migrate_all_forwards",
     "namespace": "django.db.migrations.executor.MigrationExecutor._migrate_all_forwards",
-    "class_name": "",
+    "class_name": "django.db.migrations.executor.MigrationExecutor",
     "module_name": "",
     "package_name": ""
 }

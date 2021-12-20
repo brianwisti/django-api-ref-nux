@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Memcached deals with long (> 30 days) timeouts in a special\n        way. Call this function to obtain a safe value for your timeout.\n        \"\"\"",
     "name": "get_backend_timeout",
     "namespace": "django.core.cache.backends.memcached.BaseMemcachedCache.get_backend_timeout",
-    "class_name": "",
+    "class_name": "django.core.cache.backends.memcached.BaseMemcachedCache",
     "module_name": "",
     "package_name": ""
 }

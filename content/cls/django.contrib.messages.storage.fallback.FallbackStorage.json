@@ -9,7 +9,7 @@
             "docstring": "",
             "name": "__init__",
             "namespace": "django.contrib.messages.storage.fallback.FallbackStorage.__init__",
-            "class_name": "",
+            "class_name": "django.contrib.messages.storage.fallback.FallbackStorage",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "\"\"\"\n        Get a single list of messages from all storage backends.\n        \"\"\"",
             "name": "_get",
             "namespace": "django.contrib.messages.storage.fallback.FallbackStorage._get",
-            "class_name": "",
+            "class_name": "django.contrib.messages.storage.fallback.FallbackStorage",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "\"\"\"\n        Store the messages and return any unstored messages after trying all\n        backends.\n\n        For each storage backend, any messages not stored are passed on to the\n        next backend.\n        \"\"\"",
             "name": "_store",
             "namespace": "django.contrib.messages.storage.fallback.FallbackStorage._store",
-            "class_name": "",
+            "class_name": "django.contrib.messages.storage.fallback.FallbackStorage",
             "module_name": "",
             "package_name": ""
         }

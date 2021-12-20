@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Use a LimitedStream so that unread request data will be ignored at\n        the end of the request. WSGIRequest uses a LimitedStream but it\n        shouldn't discard the data since the upstream servers usually do this.\n        This fix applies only for testserver/runserver.\n        \"\"\"",
     "name": "__init__",
     "namespace": "django.core.servers.basehttp.ServerHandler.__init__",
-    "class_name": "",
+    "class_name": "django.core.servers.basehttp.ServerHandler",
     "module_name": "",
     "package_name": ""
 }

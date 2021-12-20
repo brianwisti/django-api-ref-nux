@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.core.handlers.asgi.ASGIRequest.__init__",
-                    "class_name": "",
+                    "class_name": "django.core.handlers.asgi.ASGIRequest",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "",
                     "name": "GET",
                     "namespace": "django.core.handlers.asgi.ASGIRequest.GET",
-                    "class_name": "",
+                    "class_name": "django.core.handlers.asgi.ASGIRequest",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -27,7 +27,7 @@
                     "docstring": "",
                     "name": "_get_scheme",
                     "namespace": "django.core.handlers.asgi.ASGIRequest._get_scheme",
-                    "class_name": "",
+                    "class_name": "django.core.handlers.asgi.ASGIRequest",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -35,7 +35,7 @@
                     "docstring": "",
                     "name": "_get_post",
                     "namespace": "django.core.handlers.asgi.ASGIRequest._get_post",
-                    "class_name": "",
+                    "class_name": "django.core.handlers.asgi.ASGIRequest",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -43,7 +43,7 @@
                     "docstring": "",
                     "name": "_set_post",
                     "namespace": "django.core.handlers.asgi.ASGIRequest._set_post",
-                    "class_name": "",
+                    "class_name": "django.core.handlers.asgi.ASGIRequest",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -51,7 +51,7 @@
                     "docstring": "",
                     "name": "_get_files",
                     "namespace": "django.core.handlers.asgi.ASGIRequest._get_files",
-                    "class_name": "",
+                    "class_name": "django.core.handlers.asgi.ASGIRequest",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -59,7 +59,7 @@
                     "docstring": "",
                     "name": "COOKIES",
                     "namespace": "django.core.handlers.asgi.ASGIRequest.COOKIES",
-                    "class_name": "",
+                    "class_name": "django.core.handlers.asgi.ASGIRequest",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -74,7 +74,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.core.handlers.asgi.ASGIHandler.__init__",
-                    "class_name": "",
+                    "class_name": "django.core.handlers.asgi.ASGIHandler",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -82,7 +82,7 @@
                     "docstring": "\"\"\"\n        Async entrypoint - parses the request and hands off to get_response.\n        \"\"\"",
                     "name": "__call__",
                     "namespace": "django.core.handlers.asgi.ASGIHandler.__call__",
-                    "class_name": "",
+                    "class_name": "django.core.handlers.asgi.ASGIHandler",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -90,7 +90,7 @@
                     "docstring": "\"\"\"\n        Handles the ASGI request. Called via the __call__ method.\n        \"\"\"",
                     "name": "handle",
                     "namespace": "django.core.handlers.asgi.ASGIHandler.handle",
-                    "class_name": "",
+                    "class_name": "django.core.handlers.asgi.ASGIHandler",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -98,7 +98,7 @@
                     "docstring": "\"\"\"Reads an HTTP body from an ASGI connection.\"\"\"",
                     "name": "read_body",
                     "namespace": "django.core.handlers.asgi.ASGIHandler.read_body",
-                    "class_name": "",
+                    "class_name": "django.core.handlers.asgi.ASGIHandler",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -106,7 +106,7 @@
                     "docstring": "\"\"\"\n        Create the Request object and returns either (request, None) or\n        (None, response) if there is an error response.\n        \"\"\"",
                     "name": "create_request",
                     "namespace": "django.core.handlers.asgi.ASGIHandler.create_request",
-                    "class_name": "",
+                    "class_name": "django.core.handlers.asgi.ASGIHandler",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -114,7 +114,7 @@
                     "docstring": "\"\"\"Last-chance handler for exceptions.\"\"\"",
                     "name": "handle_uncaught_exception",
                     "namespace": "django.core.handlers.asgi.ASGIHandler.handle_uncaught_exception",
-                    "class_name": "",
+                    "class_name": "django.core.handlers.asgi.ASGIHandler",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -122,7 +122,7 @@
                     "docstring": "\"\"\"Encode and send a response out over ASGI.\"\"\"",
                     "name": "send_response",
                     "namespace": "django.core.handlers.asgi.ASGIHandler.send_response",
-                    "class_name": "",
+                    "class_name": "django.core.handlers.asgi.ASGIHandler",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -130,7 +130,7 @@
                     "docstring": "\"\"\"\n        Chunks some data up so it can be sent in reasonable size messages.\n        Yields (chunk, last_chunk) tuples.\n        \"\"\"",
                     "name": "chunk_bytes",
                     "namespace": "django.core.handlers.asgi.ASGIHandler.chunk_bytes",
-                    "class_name": "",
+                    "class_name": "django.core.handlers.asgi.ASGIHandler",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -138,7 +138,7 @@
                     "docstring": "\"\"\"\n        Return the script prefix to use from either the scope or a setting.\n        \"\"\"",
                     "name": "get_script_prefix",
                     "namespace": "django.core.handlers.asgi.ASGIHandler.get_script_prefix",
-                    "class_name": "",
+                    "class_name": "django.core.handlers.asgi.ASGIHandler",
                     "module_name": "",
                     "package_name": ""
                 }

@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Use the system check framework to validate entire Django project.\n        Raise CommandError for any serious message (error or critical errors).\n        If there are only light messages (like warnings), print them to stderr\n        and don't raise an exception.\n        \"\"\"",
     "name": "check",
     "namespace": "django.core.management.base.BaseCommand.check",
-    "class_name": "",
+    "class_name": "django.core.management.base.BaseCommand",
     "module_name": "",
     "package_name": ""
 }

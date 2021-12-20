@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Output completion suggestions for BASH.\n\n        The output of this function is passed to BASH's `COMREPLY` variable and\n        treated as completion suggestions. `COMREPLY` expects a space\n        separated string as the result.\n\n        The `COMP_WORDS` and `COMP_CWORD` BASH environment variables are used\n        to get information about the cli input. Please refer to the BASH\n        man-page for more information about this variables.\n\n        Subcommand options are saved as pairs. A pair consists of\n        the long option string (e.g. '--exclude') and a boolean\n        value indicating if the option requires arguments. When printing to\n        stdout, an equal sign is appended to options which require arguments.\n\n        Note: If debugging this function, it is recommended to write the debug\n        output in a separate file. Otherwise the debug output will be treated\n        and formatted as potential completion suggestions.\n        \"\"\"",
     "name": "autocomplete",
     "namespace": "django.core.management.ManagementUtility.autocomplete",
-    "class_name": "",
+    "class_name": "django.core.management.ManagementUtility",
     "module_name": "",
     "package_name": ""
 }

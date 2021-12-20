@@ -11,7 +11,7 @@
                     "docstring": "\"\"\"\n        Override this method to override the login_url attribute.\n        \"\"\"",
                     "name": "get_login_url",
                     "namespace": "django.contrib.auth.mixins.AccessMixin.get_login_url",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.mixins.AccessMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "\"\"\"\n        Override this method to override the permission_denied_message attribute.\n        \"\"\"",
                     "name": "get_permission_denied_message",
                     "namespace": "django.contrib.auth.mixins.AccessMixin.get_permission_denied_message",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.mixins.AccessMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -27,7 +27,7 @@
                     "docstring": "\"\"\"\n        Override this method to override the redirect_field_name attribute.\n        \"\"\"",
                     "name": "get_redirect_field_name",
                     "namespace": "django.contrib.auth.mixins.AccessMixin.get_redirect_field_name",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.mixins.AccessMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -35,7 +35,7 @@
                     "docstring": "",
                     "name": "handle_no_permission",
                     "namespace": "django.contrib.auth.mixins.AccessMixin.handle_no_permission",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.mixins.AccessMixin",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -50,7 +50,7 @@
                     "docstring": "",
                     "name": "dispatch",
                     "namespace": "django.contrib.auth.mixins.LoginRequiredMixin.dispatch",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.mixins.LoginRequiredMixin",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -65,7 +65,7 @@
                     "docstring": "\"\"\"\n        Override this method to override the permission_required attribute.\n        Must return an iterable.\n        \"\"\"",
                     "name": "get_permission_required",
                     "namespace": "django.contrib.auth.mixins.PermissionRequiredMixin.get_permission_required",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.mixins.PermissionRequiredMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -73,7 +73,7 @@
                     "docstring": "\"\"\"\n        Override this method to customize the way permissions are checked.\n        \"\"\"",
                     "name": "has_permission",
                     "namespace": "django.contrib.auth.mixins.PermissionRequiredMixin.has_permission",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.mixins.PermissionRequiredMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -81,7 +81,7 @@
                     "docstring": "",
                     "name": "dispatch",
                     "namespace": "django.contrib.auth.mixins.PermissionRequiredMixin.dispatch",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.mixins.PermissionRequiredMixin",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -96,7 +96,7 @@
                     "docstring": "",
                     "name": "test_func",
                     "namespace": "django.contrib.auth.mixins.UserPassesTestMixin.test_func",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.mixins.UserPassesTestMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -104,7 +104,7 @@
                     "docstring": "\"\"\"\n        Override this method to use a different test_func method.\n        \"\"\"",
                     "name": "get_test_func",
                     "namespace": "django.contrib.auth.mixins.UserPassesTestMixin.get_test_func",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.mixins.UserPassesTestMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -112,7 +112,7 @@
                     "docstring": "",
                     "name": "dispatch",
                     "namespace": "django.contrib.auth.mixins.UserPassesTestMixin.dispatch",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.mixins.UserPassesTestMixin",
                     "module_name": "",
                     "package_name": ""
                 }

@@ -9,7 +9,7 @@
             "docstring": "\"\"\"\n        Return the object the view is displaying.\n\n        Require `self.queryset` and a `pk` or `slug` argument in the URLconf.\n        Subclasses can override this to return any object.\n        \"\"\"",
             "name": "get_object",
             "namespace": "django.views.generic.detail.SingleObjectMixin.get_object",
-            "class_name": "",
+            "class_name": "django.views.generic.detail.SingleObjectMixin",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "\"\"\"\n        Return the `QuerySet` that will be used to look up the object.\n\n        This method is called by the default implementation of get_object() and\n        may not be called if get_object() is overridden.\n        \"\"\"",
             "name": "get_queryset",
             "namespace": "django.views.generic.detail.SingleObjectMixin.get_queryset",
-            "class_name": "",
+            "class_name": "django.views.generic.detail.SingleObjectMixin",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "\"\"\"Get the name of a slug field to be used to look up by slug.\"\"\"",
             "name": "get_slug_field",
             "namespace": "django.views.generic.detail.SingleObjectMixin.get_slug_field",
-            "class_name": "",
+            "class_name": "django.views.generic.detail.SingleObjectMixin",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "\"\"\"Get the name to use for the object.\"\"\"",
             "name": "get_context_object_name",
             "namespace": "django.views.generic.detail.SingleObjectMixin.get_context_object_name",
-            "class_name": "",
+            "class_name": "django.views.generic.detail.SingleObjectMixin",
             "module_name": "",
             "package_name": ""
         },
@@ -41,7 +41,7 @@
             "docstring": "\"\"\"Insert the single object into the context dict.\"\"\"",
             "name": "get_context_data",
             "namespace": "django.views.generic.detail.SingleObjectMixin.get_context_data",
-            "class_name": "",
+            "class_name": "django.views.generic.detail.SingleObjectMixin",
             "module_name": "",
             "package_name": ""
         }

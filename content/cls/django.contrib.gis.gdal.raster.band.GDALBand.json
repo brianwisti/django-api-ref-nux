@@ -9,7 +9,7 @@
             "docstring": "",
             "name": "__init__",
             "namespace": "django.contrib.gis.gdal.raster.band.GDALBand.__init__",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.raster.band.GDALBand",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "\"\"\"\n        Call the flush method on the Band's parent raster and force a refresh\n        of the statistics attribute when requested the next time.\n        \"\"\"",
             "name": "_flush",
             "namespace": "django.contrib.gis.gdal.raster.band.GDALBand._flush",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.raster.band.GDALBand",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "\"\"\"\n        Return the description string of the band.\n        \"\"\"",
             "name": "description",
             "namespace": "django.contrib.gis.gdal.raster.band.GDALBand.description",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.raster.band.GDALBand",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "\"\"\"\n        Width (X axis) in pixels of the band.\n        \"\"\"",
             "name": "width",
             "namespace": "django.contrib.gis.gdal.raster.band.GDALBand.width",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.raster.band.GDALBand",
             "module_name": "",
             "package_name": ""
         },
@@ -41,7 +41,7 @@
             "docstring": "\"\"\"\n        Height (Y axis) in pixels of the band.\n        \"\"\"",
             "name": "height",
             "namespace": "django.contrib.gis.gdal.raster.band.GDALBand.height",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.raster.band.GDALBand",
             "module_name": "",
             "package_name": ""
         },
@@ -49,7 +49,7 @@
             "docstring": "\"\"\"\n        Return the total number of pixels in this band.\n        \"\"\"",
             "name": "pixel_count",
             "namespace": "django.contrib.gis.gdal.raster.band.GDALBand.pixel_count",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.raster.band.GDALBand",
             "module_name": "",
             "package_name": ""
         },
@@ -57,7 +57,7 @@
             "docstring": "\"\"\"\n        Compute statistics on the pixel values of this band.\n\n        The return value is a tuple with the following structure:\n        (minimum, maximum, mean, standard deviation).\n\n        If approximate=True, the statistics may be computed based on overviews\n        or a subset of image tiles.\n\n        If refresh=True, the statistics will be computed from the data directly,\n        and the cache will be updated where applicable.\n\n        For empty bands (where all pixel values are nodata), all statistics\n        values are returned as None.\n\n        For raster formats using Persistent Auxiliary Metadata (PAM) services,\n        the statistics might be cached in an auxiliary file.\n        \"\"\"",
             "name": "statistics",
             "namespace": "django.contrib.gis.gdal.raster.band.GDALBand.statistics",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.raster.band.GDALBand",
             "module_name": "",
             "package_name": ""
         },
@@ -65,7 +65,7 @@
             "docstring": "\"\"\"\n        Return the minimum pixel value for this band.\n        \"\"\"",
             "name": "min",
             "namespace": "django.contrib.gis.gdal.raster.band.GDALBand.min",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.raster.band.GDALBand",
             "module_name": "",
             "package_name": ""
         },
@@ -73,7 +73,7 @@
             "docstring": "\"\"\"\n        Return the maximum pixel value for this band.\n        \"\"\"",
             "name": "max",
             "namespace": "django.contrib.gis.gdal.raster.band.GDALBand.max",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.raster.band.GDALBand",
             "module_name": "",
             "package_name": ""
         },
@@ -81,7 +81,7 @@
             "docstring": "\"\"\"\n        Return the mean of all pixel values of this band.\n        \"\"\"",
             "name": "mean",
             "namespace": "django.contrib.gis.gdal.raster.band.GDALBand.mean",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.raster.band.GDALBand",
             "module_name": "",
             "package_name": ""
         },
@@ -89,7 +89,7 @@
             "docstring": "\"\"\"\n        Return the standard deviation of all pixel values of this band.\n        \"\"\"",
             "name": "std",
             "namespace": "django.contrib.gis.gdal.raster.band.GDALBand.std",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.raster.band.GDALBand",
             "module_name": "",
             "package_name": ""
         },
@@ -97,7 +97,7 @@
             "docstring": "\"\"\"\n        Return the nodata value for this band, or None if it isn't set.\n        \"\"\"",
             "name": "nodata_value",
             "namespace": "django.contrib.gis.gdal.raster.band.GDALBand.nodata_value",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.raster.band.GDALBand",
             "module_name": "",
             "package_name": ""
         },
@@ -105,7 +105,7 @@
             "docstring": "\"\"\"\n        Set the nodata value for this band.\n        \"\"\"",
             "name": "nodata_value",
             "namespace": "django.contrib.gis.gdal.raster.band.GDALBand.nodata_value",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.raster.band.GDALBand",
             "module_name": "",
             "package_name": ""
         },
@@ -113,7 +113,7 @@
             "docstring": "\"\"\"\n        Return the GDAL Pixel Datatype for this band.\n        \"\"\"",
             "name": "datatype",
             "namespace": "django.contrib.gis.gdal.raster.band.GDALBand.datatype",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.raster.band.GDALBand",
             "module_name": "",
             "package_name": ""
         },
@@ -121,7 +121,7 @@
             "docstring": "\"\"\"Return the GDAL color interpretation for this band.\"\"\"",
             "name": "color_interp",
             "namespace": "django.contrib.gis.gdal.raster.band.GDALBand.color_interp",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.raster.band.GDALBand",
             "module_name": "",
             "package_name": ""
         },
@@ -129,7 +129,7 @@
             "docstring": "\"\"\"\n        Read or writes pixel values for this band. Blocks of data can\n        be accessed by specifying the width, height and offset of the\n        desired block. The same specification can be used to update\n        parts of a raster by providing an array of values.\n\n        Allowed input data types are bytes, memoryview, list, tuple, and array.\n        \"\"\"",
             "name": "data",
             "namespace": "django.contrib.gis.gdal.raster.band.GDALBand.data",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.raster.band.GDALBand",
             "module_name": "",
             "package_name": ""
         }

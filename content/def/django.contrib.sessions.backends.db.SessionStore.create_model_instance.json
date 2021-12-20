@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return a new instance of the session model object, which represents the\n        current session state. Intended to be used for saving the session data\n        to the database.\n        \"\"\"",
     "name": "create_model_instance",
     "namespace": "django.contrib.sessions.backends.db.SessionStore.create_model_instance",
-    "class_name": "",
+    "class_name": "django.contrib.sessions.backends.db.SessionStore",
     "module_name": "",
     "package_name": ""
 }

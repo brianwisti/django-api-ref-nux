@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Get the given field's value off the given obj. pre_save() is used for\n        things like auto_now on DateTimeField. Skip it if this is a raw query.\n        \"\"\"",
     "name": "pre_save_val",
     "namespace": "django.db.models.sql.compiler.SQLInsertCompiler.pre_save_val",
-    "class_name": "",
+    "class_name": "django.db.models.sql.compiler.SQLInsertCompiler",
     "module_name": "",
     "package_name": ""
 }

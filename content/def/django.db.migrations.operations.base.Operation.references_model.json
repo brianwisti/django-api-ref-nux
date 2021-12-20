@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return True if there is a chance this operation references the given\n        model name (as a string), with an app label for accuracy.\n\n        Used for optimization. If in doubt, return True;\n        returning a false positive will merely make the optimizer a little\n        less efficient, while returning a false negative may result in an\n        unusable optimized migration.\n        \"\"\"",
     "name": "references_model",
     "namespace": "django.db.migrations.operations.base.Operation.references_model",
-    "class_name": "",
+    "class_name": "django.db.migrations.operations.base.Operation",
     "module_name": "",
     "package_name": ""
 }

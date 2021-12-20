@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Load the data from the key itself instead of fetching from some\n        external data store. Opposite of _get_session_key(), raise BadSignature\n        if signature fails.\n        \"\"\"",
     "name": "load",
     "namespace": "django.contrib.sessions.backends.signed_cookies.SessionStore.load",
-    "class_name": "",
+    "class_name": "django.contrib.sessions.backends.signed_cookies.SessionStore",
     "module_name": "",
     "package_name": ""
 }

@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Set the encoding used for GET/POST accesses. If the GET or POST\n        dictionary has already been created, remove and recreate it on the\n        next access (so that it is decoded correctly).\n        \"\"\"",
     "name": "encoding",
     "namespace": "django.http.request.HttpRequest.encoding",
-    "class_name": "",
+    "class_name": "django.http.request.HttpRequest",
     "module_name": "",
     "package_name": ""
 }

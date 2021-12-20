@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Transform a value to something compatible with the backend driver.\n\n        This method only depends on the type of the value. It's designed for\n        cases where the target type isn't known, such as .raw() SQL queries.\n        As a consequence it may not work perfectly in all circumstances.\n        \"\"\"",
     "name": "adapt_unknown_value",
     "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.adapt_unknown_value",
-    "class_name": "",
+    "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
     "module_name": "",
     "package_name": ""
 }

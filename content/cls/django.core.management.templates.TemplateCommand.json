@@ -9,7 +9,7 @@
             "docstring": "",
             "name": "add_arguments",
             "namespace": "django.core.management.templates.TemplateCommand.add_arguments",
-            "class_name": "",
+            "class_name": "django.core.management.templates.TemplateCommand",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "",
             "name": "handle",
             "namespace": "django.core.management.templates.TemplateCommand.handle",
-            "class_name": "",
+            "class_name": "django.core.management.templates.TemplateCommand",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "\"\"\"\n        Determine where the app or project templates are.\n        Use django.__path__[0] as the default because the Django install\n        directory isn't known.\n        \"\"\"",
             "name": "handle_template",
             "namespace": "django.core.management.templates.TemplateCommand.handle_template",
-            "class_name": "",
+            "class_name": "django.core.management.templates.TemplateCommand",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "",
             "name": "validate_name",
             "namespace": "django.core.management.templates.TemplateCommand.validate_name",
-            "class_name": "",
+            "class_name": "django.core.management.templates.TemplateCommand",
             "module_name": "",
             "package_name": ""
         },
@@ -41,7 +41,7 @@
             "docstring": "\"\"\"\n        Download the given URL and return the file name.\n        \"\"\"",
             "name": "download",
             "namespace": "django.core.management.templates.TemplateCommand.download",
-            "class_name": "",
+            "class_name": "django.core.management.templates.TemplateCommand",
             "module_name": "",
             "package_name": ""
         },
@@ -49,7 +49,7 @@
             "docstring": "\"\"\"\n        Like os.path.splitext, but takes off .tar, too\n        \"\"\"",
             "name": "splitext",
             "namespace": "django.core.management.templates.TemplateCommand.splitext",
-            "class_name": "",
+            "class_name": "django.core.management.templates.TemplateCommand",
             "module_name": "",
             "package_name": ""
         },
@@ -57,7 +57,7 @@
             "docstring": "\"\"\"\n        Extract the given file to a temporary directory and return\n        the path of the directory with the extracted content.\n        \"\"\"",
             "name": "extract",
             "namespace": "django.core.management.templates.TemplateCommand.extract",
-            "class_name": "",
+            "class_name": "django.core.management.templates.TemplateCommand",
             "module_name": "",
             "package_name": ""
         },
@@ -65,7 +65,7 @@
             "docstring": "\"\"\"Return True if the name looks like a URL.\"\"\"",
             "name": "is_url",
             "namespace": "django.core.management.templates.TemplateCommand.is_url",
-            "class_name": "",
+            "class_name": "django.core.management.templates.TemplateCommand",
             "module_name": "",
             "package_name": ""
         },
@@ -73,7 +73,7 @@
             "docstring": "\"\"\"\n        Make sure that the file is writeable.\n        Useful if our source is read-only.\n        \"\"\"",
             "name": "make_writeable",
             "namespace": "django.core.management.templates.TemplateCommand.make_writeable",
-            "class_name": "",
+            "class_name": "django.core.management.templates.TemplateCommand",
             "module_name": "",
             "package_name": ""
         }

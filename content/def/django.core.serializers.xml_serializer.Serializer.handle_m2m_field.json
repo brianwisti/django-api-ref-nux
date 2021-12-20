@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Handle a ManyToManyField. Related objects are only serialized as\n        references to the object's PK (i.e. the related *data* is not dumped,\n        just the relation).\n        \"\"\"",
     "name": "handle_m2m_field",
     "namespace": "django.core.serializers.xml_serializer.Serializer.handle_m2m_field",
-    "class_name": "",
+    "class_name": "django.core.serializers.xml_serializer.Serializer",
     "module_name": "",
     "package_name": ""
 }

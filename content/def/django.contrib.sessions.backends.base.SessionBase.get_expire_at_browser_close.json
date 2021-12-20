@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return ``True`` if the session is set to expire when the browser\n        closes, and ``False`` if there's an expiry date. Use\n        ``get_expiry_date()`` or ``get_expiry_age()`` to find the actual expiry\n        date/age, if there is one.\n        \"\"\"",
     "name": "get_expire_at_browser_close",
     "namespace": "django.contrib.sessions.backends.base.SessionBase.get_expire_at_browser_close",
-    "class_name": "",
+    "class_name": "django.contrib.sessions.backends.base.SessionBase",
     "module_name": "",
     "package_name": ""
 }

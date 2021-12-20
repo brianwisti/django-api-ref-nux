@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Perform resolution of a real variable (i.e. not a literal) against the\n        given context.\n\n        As indicated by the method's name, this method is an implementation\n        detail and shouldn't be called by external code. Use Variable.resolve()\n        instead.\n        \"\"\"",
     "name": "_resolve_lookup",
     "namespace": "django.template.base.Variable._resolve_lookup",
-    "class_name": "",
+    "class_name": "django.template.base.Variable",
     "module_name": "",
     "package_name": ""
 }

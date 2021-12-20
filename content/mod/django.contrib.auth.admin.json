@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "formfield_for_manytomany",
                     "namespace": "django.contrib.auth.admin.GroupAdmin.formfield_for_manytomany",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.admin.GroupAdmin",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -26,7 +26,7 @@
                     "docstring": "",
                     "name": "get_fieldsets",
                     "namespace": "django.contrib.auth.admin.UserAdmin.get_fieldsets",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.admin.UserAdmin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -34,7 +34,7 @@
                     "docstring": "\"\"\"\n        Use special form during user creation\n        \"\"\"",
                     "name": "get_form",
                     "namespace": "django.contrib.auth.admin.UserAdmin.get_form",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.admin.UserAdmin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -42,7 +42,7 @@
                     "docstring": "",
                     "name": "get_urls",
                     "namespace": "django.contrib.auth.admin.UserAdmin.get_urls",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.admin.UserAdmin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -50,7 +50,7 @@
                     "docstring": "",
                     "name": "lookup_allowed",
                     "namespace": "django.contrib.auth.admin.UserAdmin.lookup_allowed",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.admin.UserAdmin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -58,7 +58,7 @@
                     "docstring": "",
                     "name": "add_view",
                     "namespace": "django.contrib.auth.admin.UserAdmin.add_view",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.admin.UserAdmin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -66,7 +66,7 @@
                     "docstring": "",
                     "name": "_add_view",
                     "namespace": "django.contrib.auth.admin.UserAdmin._add_view",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.admin.UserAdmin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -74,7 +74,7 @@
                     "docstring": "",
                     "name": "user_change_password",
                     "namespace": "django.contrib.auth.admin.UserAdmin.user_change_password",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.admin.UserAdmin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -82,7 +82,7 @@
                     "docstring": "\"\"\"\n        Determine the HttpResponse for the add_view stage. It mostly defers to\n        its superclass implementation but is customized because the User model\n        has a slightly different workflow.\n        \"\"\"",
                     "name": "response_add",
                     "namespace": "django.contrib.auth.admin.UserAdmin.response_add",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.admin.UserAdmin",
                     "module_name": "",
                     "package_name": ""
                 }

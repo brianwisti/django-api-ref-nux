@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Remove random cache entries if max_entries is reached at a ratio\n        of num_entries / cull_frequency. A value of 0 for CULL_FREQUENCY means\n        that the entire cache will be purged.\n        \"\"\"",
     "name": "_cull",
     "namespace": "django.core.cache.backends.filebased.FileBasedCache._cull",
-    "class_name": "",
+    "class_name": "django.core.cache.backends.filebased.FileBasedCache",
     "module_name": "",
     "package_name": ""
 }

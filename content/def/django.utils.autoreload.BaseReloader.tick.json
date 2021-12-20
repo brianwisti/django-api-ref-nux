@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        This generator is called in a loop from run_loop. It's important that\n        the method takes care of pausing or otherwise waiting for a period of\n        time. This split between run_loop() and tick() is to improve the\n        testability of the reloader implementations by decoupling the work they\n        do from the loop.\n        \"\"\"",
     "name": "tick",
     "namespace": "django.utils.autoreload.BaseReloader.tick",
-    "class_name": "",
+    "class_name": "django.utils.autoreload.BaseReloader",
     "module_name": "",
     "package_name": ""
 }

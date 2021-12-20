@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "max_name_length",
                     "namespace": "django.contrib.postgres.indexes.PostgresIndex.max_name_length",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.indexes.PostgresIndex",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "",
                     "name": "create_sql",
                     "namespace": "django.contrib.postgres.indexes.PostgresIndex.create_sql",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.indexes.PostgresIndex",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -27,7 +27,7 @@
                     "docstring": "",
                     "name": "check_supported",
                     "namespace": "django.contrib.postgres.indexes.PostgresIndex.check_supported",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.indexes.PostgresIndex",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -35,7 +35,7 @@
                     "docstring": "",
                     "name": "get_with_params",
                     "namespace": "django.contrib.postgres.indexes.PostgresIndex.get_with_params",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.indexes.PostgresIndex",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -50,7 +50,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.contrib.postgres.indexes.BloomIndex.__init__",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.indexes.BloomIndex",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -58,7 +58,7 @@
                     "docstring": "",
                     "name": "deconstruct",
                     "namespace": "django.contrib.postgres.indexes.BloomIndex.deconstruct",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.indexes.BloomIndex",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -66,7 +66,7 @@
                     "docstring": "",
                     "name": "get_with_params",
                     "namespace": "django.contrib.postgres.indexes.BloomIndex.get_with_params",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.indexes.BloomIndex",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -81,7 +81,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.contrib.postgres.indexes.BrinIndex.__init__",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.indexes.BrinIndex",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -89,7 +89,7 @@
                     "docstring": "",
                     "name": "deconstruct",
                     "namespace": "django.contrib.postgres.indexes.BrinIndex.deconstruct",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.indexes.BrinIndex",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -97,7 +97,7 @@
                     "docstring": "",
                     "name": "get_with_params",
                     "namespace": "django.contrib.postgres.indexes.BrinIndex.get_with_params",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.indexes.BrinIndex",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -112,7 +112,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.contrib.postgres.indexes.BTreeIndex.__init__",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.indexes.BTreeIndex",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -120,7 +120,7 @@
                     "docstring": "",
                     "name": "deconstruct",
                     "namespace": "django.contrib.postgres.indexes.BTreeIndex.deconstruct",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.indexes.BTreeIndex",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -128,7 +128,7 @@
                     "docstring": "",
                     "name": "get_with_params",
                     "namespace": "django.contrib.postgres.indexes.BTreeIndex.get_with_params",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.indexes.BTreeIndex",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -143,7 +143,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.contrib.postgres.indexes.GinIndex.__init__",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.indexes.GinIndex",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -151,7 +151,7 @@
                     "docstring": "",
                     "name": "deconstruct",
                     "namespace": "django.contrib.postgres.indexes.GinIndex.deconstruct",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.indexes.GinIndex",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -159,7 +159,7 @@
                     "docstring": "",
                     "name": "get_with_params",
                     "namespace": "django.contrib.postgres.indexes.GinIndex.get_with_params",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.indexes.GinIndex",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -174,7 +174,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.contrib.postgres.indexes.GistIndex.__init__",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.indexes.GistIndex",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -182,7 +182,7 @@
                     "docstring": "",
                     "name": "deconstruct",
                     "namespace": "django.contrib.postgres.indexes.GistIndex.deconstruct",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.indexes.GistIndex",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -190,7 +190,7 @@
                     "docstring": "",
                     "name": "get_with_params",
                     "namespace": "django.contrib.postgres.indexes.GistIndex.get_with_params",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.indexes.GistIndex",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -198,7 +198,7 @@
                     "docstring": "",
                     "name": "check_supported",
                     "namespace": "django.contrib.postgres.indexes.GistIndex.check_supported",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.indexes.GistIndex",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -213,7 +213,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.contrib.postgres.indexes.HashIndex.__init__",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.indexes.HashIndex",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -221,7 +221,7 @@
                     "docstring": "",
                     "name": "deconstruct",
                     "namespace": "django.contrib.postgres.indexes.HashIndex.deconstruct",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.indexes.HashIndex",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -229,7 +229,7 @@
                     "docstring": "",
                     "name": "get_with_params",
                     "namespace": "django.contrib.postgres.indexes.HashIndex.get_with_params",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.indexes.HashIndex",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -244,7 +244,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.contrib.postgres.indexes.SpGistIndex.__init__",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.indexes.SpGistIndex",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -252,7 +252,7 @@
                     "docstring": "",
                     "name": "deconstruct",
                     "namespace": "django.contrib.postgres.indexes.SpGistIndex.deconstruct",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.indexes.SpGistIndex",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -260,7 +260,7 @@
                     "docstring": "",
                     "name": "get_with_params",
                     "namespace": "django.contrib.postgres.indexes.SpGistIndex.get_with_params",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.indexes.SpGistIndex",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -275,7 +275,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.contrib.postgres.indexes.OpClass.__init__",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.indexes.OpClass",
                     "module_name": "",
                     "package_name": ""
                 }

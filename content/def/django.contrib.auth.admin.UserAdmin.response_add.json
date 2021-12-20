@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Determine the HttpResponse for the add_view stage. It mostly defers to\n        its superclass implementation but is customized because the User model\n        has a slightly different workflow.\n        \"\"\"",
     "name": "response_add",
     "namespace": "django.contrib.auth.admin.UserAdmin.response_add",
-    "class_name": "",
+    "class_name": "django.contrib.auth.admin.UserAdmin",
     "module_name": "",
     "package_name": ""
 }

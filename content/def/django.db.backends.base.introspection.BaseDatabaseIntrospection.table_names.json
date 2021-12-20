@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return a list of names of all tables that exist in the database.\n        Sort the returned table list by Python's default sorting. Do NOT use\n        the database's ORDER BY here to avoid subtle differences in sorting\n        order between databases.\n        \"\"\"",
     "name": "table_names",
     "namespace": "django.db.backends.base.introspection.BaseDatabaseIntrospection.table_names",
-    "class_name": "",
+    "class_name": "django.db.backends.base.introspection.BaseDatabaseIntrospection",
     "module_name": "",
     "package_name": ""
 }

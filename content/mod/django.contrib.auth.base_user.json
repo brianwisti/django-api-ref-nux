@@ -11,7 +11,7 @@
                     "docstring": "\"\"\"\n        Normalize the email address by lowercasing the domain part of it.\n        \"\"\"",
                     "name": "normalize_email",
                     "namespace": "django.contrib.auth.base_user.BaseUserManager.normalize_email",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.base_user.BaseUserManager",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "\"\"\"\n        Generate a random password with the given length and given\n        allowed_chars. The default value of allowed_chars does not have \"I\" or\n        \"O\" or letters and digits that look similar -- just to avoid confusion.\n        \"\"\"",
                     "name": "make_random_password",
                     "namespace": "django.contrib.auth.base_user.BaseUserManager.make_random_password",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.base_user.BaseUserManager",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -27,7 +27,7 @@
                     "docstring": "",
                     "name": "get_by_natural_key",
                     "namespace": "django.contrib.auth.base_user.BaseUserManager.get_by_natural_key",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.base_user.BaseUserManager",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -42,7 +42,7 @@
                     "docstring": "",
                     "name": "__str__",
                     "namespace": "django.contrib.auth.base_user.AbstractBaseUser.__str__",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.base_user.AbstractBaseUser",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -50,7 +50,7 @@
                     "docstring": "",
                     "name": "save",
                     "namespace": "django.contrib.auth.base_user.AbstractBaseUser.save",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.base_user.AbstractBaseUser",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -58,7 +58,7 @@
                     "docstring": "\"\"\"Return the username for this User.\"\"\"",
                     "name": "get_username",
                     "namespace": "django.contrib.auth.base_user.AbstractBaseUser.get_username",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.base_user.AbstractBaseUser",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -66,7 +66,7 @@
                     "docstring": "",
                     "name": "clean",
                     "namespace": "django.contrib.auth.base_user.AbstractBaseUser.clean",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.base_user.AbstractBaseUser",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -74,7 +74,7 @@
                     "docstring": "",
                     "name": "natural_key",
                     "namespace": "django.contrib.auth.base_user.AbstractBaseUser.natural_key",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.base_user.AbstractBaseUser",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -82,7 +82,7 @@
                     "docstring": "\"\"\"\n        Always return False. This is a way of comparing User objects to\n        anonymous users.\n        \"\"\"",
                     "name": "is_anonymous",
                     "namespace": "django.contrib.auth.base_user.AbstractBaseUser.is_anonymous",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.base_user.AbstractBaseUser",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -90,7 +90,7 @@
                     "docstring": "\"\"\"\n        Always return True. This is a way to tell if the user has been\n        authenticated in templates.\n        \"\"\"",
                     "name": "is_authenticated",
                     "namespace": "django.contrib.auth.base_user.AbstractBaseUser.is_authenticated",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.base_user.AbstractBaseUser",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -98,7 +98,7 @@
                     "docstring": "",
                     "name": "set_password",
                     "namespace": "django.contrib.auth.base_user.AbstractBaseUser.set_password",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.base_user.AbstractBaseUser",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -106,7 +106,7 @@
                     "docstring": "\"\"\"\n        Return a boolean of whether the raw_password was correct. Handles\n        hashing formats behind the scenes.\n        \"\"\"",
                     "name": "check_password",
                     "namespace": "django.contrib.auth.base_user.AbstractBaseUser.check_password",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.base_user.AbstractBaseUser",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -114,7 +114,7 @@
                     "docstring": "",
                     "name": "set_unusable_password",
                     "namespace": "django.contrib.auth.base_user.AbstractBaseUser.set_unusable_password",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.base_user.AbstractBaseUser",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -122,7 +122,7 @@
                     "docstring": "\"\"\"\n        Return False if set_unusable_password() has been called for this user.\n        \"\"\"",
                     "name": "has_usable_password",
                     "namespace": "django.contrib.auth.base_user.AbstractBaseUser.has_usable_password",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.base_user.AbstractBaseUser",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -130,7 +130,7 @@
                     "docstring": "\"\"\"\n        Return an HMAC of the password field.\n        \"\"\"",
                     "name": "get_session_auth_hash",
                     "namespace": "django.contrib.auth.base_user.AbstractBaseUser.get_session_auth_hash",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.base_user.AbstractBaseUser",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -138,7 +138,7 @@
                     "docstring": "",
                     "name": "get_email_field_name",
                     "namespace": "django.contrib.auth.base_user.AbstractBaseUser.get_email_field_name",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.base_user.AbstractBaseUser",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -146,7 +146,7 @@
                     "docstring": "",
                     "name": "normalize_username",
                     "namespace": "django.contrib.auth.base_user.AbstractBaseUser.normalize_username",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.base_user.AbstractBaseUser",
                     "module_name": "",
                     "package_name": ""
                 }

@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Hook for doing any extra form-wide cleaning after Field.clean() has been\n        called on every field. Any ValidationError raised by this method will\n        not be associated with a particular field; it will have a special-case\n        association with the field named '__all__'.\n        \"\"\"",
     "name": "clean",
     "namespace": "django.forms.forms.BaseForm.clean",
-    "class_name": "",
+    "class_name": "django.forms.forms.BaseForm",
     "module_name": "",
     "package_name": ""
 }

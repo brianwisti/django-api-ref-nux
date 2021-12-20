@@ -9,7 +9,7 @@
             "docstring": "",
             "name": "__init__",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.__init__",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "\"\"\"\n        Return any SQL needed to support auto-incrementing primary keys, or\n        None if no SQL is necessary.\n\n        This SQL is executed when a table is created.\n        \"\"\"",
             "name": "autoinc_sql",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.autoinc_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "\"\"\"\n        Return the maximum allowed batch size for the backend. The fields\n        are the fields going to be inserted in the batch, the objs contains\n        all the objects to be inserted.\n        \"\"\"",
             "name": "bulk_batch_size",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.bulk_batch_size",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "\"\"\"\n        Return an SQL query that retrieves the first cache key greater than the\n        n smallest.\n\n        This is used by the 'db' cache backend to determine where to start\n        culling.\n        \"\"\"",
             "name": "cache_key_culling_sql",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.cache_key_culling_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -41,7 +41,7 @@
             "docstring": "\"\"\"\n        Given a field instance, return the SQL that casts the result of a union\n        to that type. The resulting string should contain a '%s' placeholder\n        for the expression being cast.\n        \"\"\"",
             "name": "unification_cast_sql",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.unification_cast_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -49,7 +49,7 @@
             "docstring": "\"\"\"\n        Given a lookup_type of 'year', 'month', or 'day', return the SQL that\n        extracts a value from the given date field field_name.\n        \"\"\"",
             "name": "date_extract_sql",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.date_extract_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -57,7 +57,7 @@
             "docstring": "\"\"\"\n        Given a lookup_type of 'year', 'month', or 'day', return the SQL that\n        truncates the given date or datetime field field_name to a date object\n        with only the given specificity.\n\n        If `tzname` is provided, the given value is truncated in a specific\n        timezone.\n        \"\"\"",
             "name": "date_trunc_sql",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.date_trunc_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -65,7 +65,7 @@
             "docstring": "\"\"\"\n        Return the SQL to cast a datetime value to date value.\n        \"\"\"",
             "name": "datetime_cast_date_sql",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.datetime_cast_date_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -73,7 +73,7 @@
             "docstring": "\"\"\"\n        Return the SQL to cast a datetime value to time value.\n        \"\"\"",
             "name": "datetime_cast_time_sql",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.datetime_cast_time_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -81,7 +81,7 @@
             "docstring": "\"\"\"\n        Given a lookup_type of 'year', 'month', 'day', 'hour', 'minute', or\n        'second', return the SQL that extracts a value from the given\n        datetime field field_name.\n        \"\"\"",
             "name": "datetime_extract_sql",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.datetime_extract_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -89,7 +89,7 @@
             "docstring": "\"\"\"\n        Given a lookup_type of 'year', 'month', 'day', 'hour', 'minute', or\n        'second', return the SQL that truncates the given datetime field\n        field_name to a datetime object with only the given specificity.\n        \"\"\"",
             "name": "datetime_trunc_sql",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.datetime_trunc_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -97,7 +97,7 @@
             "docstring": "\"\"\"\n        Given a lookup_type of 'hour', 'minute' or 'second', return the SQL\n        that truncates the given time or datetime field field_name to a time\n        object with only the given specificity.\n\n        If `tzname` is provided, the given value is truncated in a specific\n        timezone.\n        \"\"\"",
             "name": "time_trunc_sql",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.time_trunc_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -105,7 +105,7 @@
             "docstring": "\"\"\"\n        Given a lookup_type of 'hour', 'minute', or 'second', return the SQL\n        that extracts a value from the given time field field_name.\n        \"\"\"",
             "name": "time_extract_sql",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.time_extract_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -113,7 +113,7 @@
             "docstring": "\"\"\"\n        Return the SQL to make a constraint \"initially deferred\" during a\n        CREATE TABLE statement.\n        \"\"\"",
             "name": "deferrable_sql",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.deferrable_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -121,7 +121,7 @@
             "docstring": "\"\"\"\n        Return an SQL DISTINCT clause which removes duplicate rows from the\n        result set. If any fields are given, only check the given fields for\n        duplicates.\n        \"\"\"",
             "name": "distinct_sql",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.distinct_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -129,7 +129,7 @@
             "docstring": "\"\"\"\n        Given a cursor object that has just performed an INSERT...RETURNING\n        statement into a table, return the newly created data.\n        \"\"\"",
             "name": "fetch_returned_insert_columns",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.fetch_returned_insert_columns",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -137,7 +137,7 @@
             "docstring": "\"\"\"\n        Given a column type (e.g. 'BLOB', 'VARCHAR') and an internal type\n        (e.g. 'GenericIPAddressField'), return the SQL to cast it before using\n        it in a WHERE statement. The resulting string should contain a '%s'\n        placeholder for the column being searched against.\n        \"\"\"",
             "name": "field_cast_sql",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.field_cast_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -145,7 +145,7 @@
             "docstring": "\"\"\"\n        Return a list used in the \"ORDER BY\" clause to force no ordering at\n        all. Return an empty list to include nothing in the ordering.\n        \"\"\"",
             "name": "force_no_ordering",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.force_no_ordering",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -153,7 +153,7 @@
             "docstring": "\"\"\"\n        Return the FOR UPDATE SQL clause to lock rows for an update operation.\n        \"\"\"",
             "name": "for_update_sql",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.for_update_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -161,7 +161,7 @@
             "docstring": "",
             "name": "_get_limit_offset_params",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations._get_limit_offset_params",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -169,7 +169,7 @@
             "docstring": "\"\"\"Return LIMIT/OFFSET SQL clause.\"\"\"",
             "name": "limit_offset_sql",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.limit_offset_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -177,7 +177,7 @@
             "docstring": "\"\"\"\n        Return a string of the query last executed by the given cursor, with\n        placeholders replaced with actual values.\n\n        `sql` is the raw query containing placeholders and `params` is the\n        sequence of parameters. These are used by default, but this method\n        exists for database backends to provide a better implementation\n        according to their own quoting schemes.\n        \"\"\"",
             "name": "last_executed_query",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.last_executed_query",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -185,7 +185,7 @@
             "docstring": "\"\"\"\n        Given a cursor object that has just performed an INSERT statement into\n        a table that has an auto-incrementing ID, return the newly created ID.\n\n        `pk_name` is the name of the primary-key column.\n        \"\"\"",
             "name": "last_insert_id",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.last_insert_id",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -193,7 +193,7 @@
             "docstring": "\"\"\"\n        Return the string to use in a query when performing lookups\n        (\"contains\", \"like\", etc.). It should contain a '%s' placeholder for\n        the column being searched against.\n        \"\"\"",
             "name": "lookup_cast",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.lookup_cast",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -201,7 +201,7 @@
             "docstring": "\"\"\"\n        Return the maximum number of items that can be passed in a single 'IN'\n        list condition, or None if the backend does not impose a limit.\n        \"\"\"",
             "name": "max_in_list_size",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.max_in_list_size",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -209,7 +209,7 @@
             "docstring": "\"\"\"\n        Return the maximum length of table and column names, or None if there\n        is no limit.\n        \"\"\"",
             "name": "max_name_length",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.max_name_length",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -217,7 +217,7 @@
             "docstring": "\"\"\"\n        Return the value to use for the LIMIT when we are wanting \"LIMIT\n        infinity\". Return None if the limit clause can be omitted in this case.\n        \"\"\"",
             "name": "no_limit_value",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.no_limit_value",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -225,7 +225,7 @@
             "docstring": "\"\"\"\n        Return the value to use during an INSERT statement to specify that\n        the field should use its default value.\n        \"\"\"",
             "name": "pk_default_value",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.pk_default_value",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -233,7 +233,7 @@
             "docstring": "\"\"\"\n        Take an SQL script that may contain multiple lines and return a list\n        of statements to feed to successive cursor.execute() calls.\n\n        Since few databases are able to process raw SQL scripts in a single\n        cursor.execute() call and PEP 249 doesn't talk about this use case,\n        the default implementation is conservative.\n        \"\"\"",
             "name": "prepare_sql_script",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.prepare_sql_script",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -241,7 +241,7 @@
             "docstring": "\"\"\"\n        Return the value of a CLOB column, for backends that return a locator\n        object that requires additional processing.\n        \"\"\"",
             "name": "process_clob",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.process_clob",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -249,7 +249,7 @@
             "docstring": "\"\"\"\n        For backends that support returning columns as part of an insert query,\n        return the SQL and params to append to the INSERT query. The returned\n        fragment should contain a format string to hold the appropriate column.\n        \"\"\"",
             "name": "return_insert_columns",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.return_insert_columns",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -257,7 +257,7 @@
             "docstring": "\"\"\"\n        Return the SQLCompiler class corresponding to the given name,\n        in the namespace corresponding to the `compiler_module` attribute\n        on this backend.\n        \"\"\"",
             "name": "compiler",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.compiler",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -265,7 +265,7 @@
             "docstring": "\"\"\"\n        Return a quoted version of the given table, index, or column name. Do\n        not quote the given name if it's already been quoted.\n        \"\"\"",
             "name": "quote_name",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.quote_name",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -273,7 +273,7 @@
             "docstring": "\"\"\"\n        Return the string to use in a query when performing regular expression\n        lookups (using \"regex\" or \"iregex\"). It should contain a '%s'\n        placeholder for the column being searched against.\n\n        If the feature is not supported (or part of it is not supported), raise\n        NotImplementedError.\n        \"\"\"",
             "name": "regex_lookup",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.regex_lookup",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -281,7 +281,7 @@
             "docstring": "\"\"\"\n        Return the SQL for starting a new savepoint. Only required if the\n        \"uses_savepoints\" feature is True. The \"sid\" parameter is a string\n        for the savepoint id.\n        \"\"\"",
             "name": "savepoint_create_sql",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.savepoint_create_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -289,7 +289,7 @@
             "docstring": "\"\"\"\n        Return the SQL for committing the given savepoint.\n        \"\"\"",
             "name": "savepoint_commit_sql",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.savepoint_commit_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -297,7 +297,7 @@
             "docstring": "\"\"\"\n        Return the SQL for rolling back the given savepoint.\n        \"\"\"",
             "name": "savepoint_rollback_sql",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.savepoint_rollback_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -305,7 +305,7 @@
             "docstring": "\"\"\"\n        Return the SQL that will set the connection's time zone.\n\n        Return '' if the backend doesn't support time zones.\n        \"\"\"",
             "name": "set_time_zone_sql",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.set_time_zone_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -313,7 +313,7 @@
             "docstring": "\"\"\"\n        Return a list of SQL statements required to remove all data from\n        the given database tables (without actually removing the tables\n        themselves).\n\n        The `style` argument is a Style object as returned by either\n        color_style() or no_style() in django.core.management.color.\n\n        If `reset_sequences` is True, the list includes SQL statements required\n        to reset the sequences.\n\n        The `allow_cascade` argument determines whether truncation may cascade\n        to tables with foreign keys pointing the tables being truncated.\n        PostgreSQL requires a cascade even if these tables are empty.\n        \"\"\"",
             "name": "sql_flush",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.sql_flush",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -321,7 +321,7 @@
             "docstring": "\"\"\"Execute a list of SQL statements to flush the database.\"\"\"",
             "name": "execute_sql_flush",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.execute_sql_flush",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -329,7 +329,7 @@
             "docstring": "\"\"\"\n        Return a list of the SQL statements required to reset sequences\n        passed in `sequences`.\n\n        The `style` argument is a Style object as returned by either\n        color_style() or no_style() in django.core.management.color.\n        \"\"\"",
             "name": "sequence_reset_by_name_sql",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.sequence_reset_by_name_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -337,7 +337,7 @@
             "docstring": "\"\"\"\n        Return a list of the SQL statements required to reset sequences for\n        the given models.\n\n        The `style` argument is a Style object as returned by either\n        color_style() or no_style() in django.core.management.color.\n        \"\"\"",
             "name": "sequence_reset_sql",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.sequence_reset_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -345,7 +345,7 @@
             "docstring": "\"\"\"Return the SQL statement required to start a transaction.\"\"\"",
             "name": "start_transaction_sql",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.start_transaction_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -353,7 +353,7 @@
             "docstring": "\"\"\"Return the SQL statement required to end a transaction.\"\"\"",
             "name": "end_transaction_sql",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.end_transaction_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -361,7 +361,7 @@
             "docstring": "\"\"\"\n        Return the SQL that will be used in a query to define the tablespace.\n\n        Return '' if the backend doesn't support tablespaces.\n\n        If `inline` is True, append the SQL to a row; otherwise append it to\n        the entire CREATE TABLE or CREATE INDEX statement.\n        \"\"\"",
             "name": "tablespace_sql",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.tablespace_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -369,7 +369,7 @@
             "docstring": "\"\"\"Prepare a value for use in a LIKE query.\"\"\"",
             "name": "prep_for_like_query",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.prep_for_like_query",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -377,7 +377,7 @@
             "docstring": "\"\"\"\n        Certain backends do not accept some values for \"serial\" fields\n        (for example zero in MySQL). Raise a ValueError if the value is\n        invalid, otherwise return the validated value.\n        \"\"\"",
             "name": "validate_autopk_value",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.validate_autopk_value",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -385,7 +385,7 @@
             "docstring": "\"\"\"\n        Transform a value to something compatible with the backend driver.\n\n        This method only depends on the type of the value. It's designed for\n        cases where the target type isn't known, such as .raw() SQL queries.\n        As a consequence it may not work perfectly in all circumstances.\n        \"\"\"",
             "name": "adapt_unknown_value",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.adapt_unknown_value",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -393,7 +393,7 @@
             "docstring": "\"\"\"\n        Transform a date value to an object compatible with what is expected\n        by the backend driver for date columns.\n        \"\"\"",
             "name": "adapt_datefield_value",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.adapt_datefield_value",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -401,7 +401,7 @@
             "docstring": "\"\"\"\n        Transform a datetime value to an object compatible with what is expected\n        by the backend driver for datetime columns.\n        \"\"\"",
             "name": "adapt_datetimefield_value",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.adapt_datetimefield_value",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -409,7 +409,7 @@
             "docstring": "\"\"\"\n        Transform a time value to an object compatible with what is expected\n        by the backend driver for time columns.\n        \"\"\"",
             "name": "adapt_timefield_value",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.adapt_timefield_value",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -417,7 +417,7 @@
             "docstring": "\"\"\"\n        Transform a decimal.Decimal value to an object compatible with what is\n        expected by the backend driver for decimal (numeric) columns.\n        \"\"\"",
             "name": "adapt_decimalfield_value",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.adapt_decimalfield_value",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -425,7 +425,7 @@
             "docstring": "\"\"\"\n        Transform a string representation of an IP address into the expected\n        type for the backend driver.\n        \"\"\"",
             "name": "adapt_ipaddressfield_value",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.adapt_ipaddressfield_value",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -433,7 +433,7 @@
             "docstring": "\"\"\"\n        Return a two-elements list with the lower and upper bound to be used\n        with a BETWEEN operator to query a DateField value using a year\n        lookup.\n\n        `value` is an int, containing the looked-up year.\n        If `iso_year` is True, return bounds for ISO-8601 week-numbering years.\n        \"\"\"",
             "name": "year_lookup_bounds_for_date_field",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.year_lookup_bounds_for_date_field",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -441,7 +441,7 @@
             "docstring": "\"\"\"\n        Return a two-elements list with the lower and upper bound to be used\n        with a BETWEEN operator to query a DateTimeField value using a year\n        lookup.\n\n        `value` is an int, containing the looked-up year.\n        If `iso_year` is True, return bounds for ISO-8601 week-numbering years.\n        \"\"\"",
             "name": "year_lookup_bounds_for_datetime_field",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.year_lookup_bounds_for_datetime_field",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -449,7 +449,7 @@
             "docstring": "\"\"\"\n        Return a list of functions needed to convert field data.\n\n        Some field types on some backends do not provide data in the correct\n        format, this is the hook for converter functions.\n        \"\"\"",
             "name": "get_db_converters",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.get_db_converters",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -457,7 +457,7 @@
             "docstring": "",
             "name": "convert_durationfield_value",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.convert_durationfield_value",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -465,7 +465,7 @@
             "docstring": "\"\"\"\n        Check that the backend supports the provided expression.\n\n        This is used on specific backends to rule out known expressions\n        that have problematic or nonexistent implementations. If the\n        expression has a known problem, the backend should raise\n        NotSupportedError.\n        \"\"\"",
             "name": "check_expression_support",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.check_expression_support",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -473,7 +473,7 @@
             "docstring": "\"\"\"\n        Return True, if the conditional expression is supported in the WHERE\n        clause.\n        \"\"\"",
             "name": "conditional_expression_supported_in_where_clause",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.conditional_expression_supported_in_where_clause",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -481,7 +481,7 @@
             "docstring": "\"\"\"\n        Combine a list of subexpressions into a single expression, using\n        the provided connecting operator. This is required because operators\n        can vary between backends (e.g., Oracle with %% and &) and between\n        subexpression types (e.g., date expressions).\n        \"\"\"",
             "name": "combine_expression",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.combine_expression",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -489,7 +489,7 @@
             "docstring": "",
             "name": "combine_duration_expression",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.combine_duration_expression",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -497,7 +497,7 @@
             "docstring": "\"\"\"\n        Some backends require special syntax to insert binary content (MySQL\n        for example uses '_binary %s').\n        \"\"\"",
             "name": "binary_placeholder_sql",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.binary_placeholder_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -505,7 +505,7 @@
             "docstring": "\"\"\"\n        Allow modification of insert parameters. Needed for Oracle Spatial\n        backend due to #10888.\n        \"\"\"",
             "name": "modify_insert_params",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.modify_insert_params",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -513,7 +513,7 @@
             "docstring": "\"\"\"\n        Given an integer field internal type (e.g. 'PositiveIntegerField'),\n        return a tuple of the (min_value, max_value) form representing the\n        range of the column type bound to the field.\n        \"\"\"",
             "name": "integer_field_range",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.integer_field_range",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -521,7 +521,7 @@
             "docstring": "",
             "name": "subtract_temporals",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.subtract_temporals",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -529,7 +529,7 @@
             "docstring": "",
             "name": "window_frame_start",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.window_frame_start",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -537,7 +537,7 @@
             "docstring": "",
             "name": "window_frame_end",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.window_frame_end",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -545,7 +545,7 @@
             "docstring": "\"\"\"\n        Return SQL for start and end points in an OVER clause window frame.\n        \"\"\"",
             "name": "window_frame_rows_start_end",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.window_frame_rows_start_end",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -553,7 +553,7 @@
             "docstring": "",
             "name": "window_frame_range_start_end",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.window_frame_range_start_end",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -561,7 +561,7 @@
             "docstring": "",
             "name": "explain_query_prefix",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.explain_query_prefix",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -569,7 +569,7 @@
             "docstring": "",
             "name": "insert_statement",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.insert_statement",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         },
@@ -577,7 +577,7 @@
             "docstring": "",
             "name": "ignore_conflicts_suffix_sql",
             "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.ignore_conflicts_suffix_sql",
-            "class_name": "",
+            "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
             "module_name": "",
             "package_name": ""
         }

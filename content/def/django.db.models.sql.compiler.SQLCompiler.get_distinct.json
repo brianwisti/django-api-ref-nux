@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return a quoted list of fields to use in DISTINCT ON part of the query.\n\n        This method can alter the tables in the query, and thus it must be\n        called before get_from_clause().\n        \"\"\"",
     "name": "get_distinct",
     "namespace": "django.db.models.sql.compiler.SQLCompiler.get_distinct",
-    "class_name": "",
+    "class_name": "django.db.models.sql.compiler.SQLCompiler",
     "module_name": "",
     "package_name": ""
 }

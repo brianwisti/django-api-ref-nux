@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.core.mail.backends.smtp.EmailBackend.__init__",
-                    "class_name": "",
+                    "class_name": "django.core.mail.backends.smtp.EmailBackend",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "",
                     "name": "connection_class",
                     "namespace": "django.core.mail.backends.smtp.EmailBackend.connection_class",
-                    "class_name": "",
+                    "class_name": "django.core.mail.backends.smtp.EmailBackend",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -27,7 +27,7 @@
                     "docstring": "\"\"\"\n        Ensure an open connection to the email server. Return whether or not a\n        new connection was required (True or False) or None if an exception\n        passed silently.\n        \"\"\"",
                     "name": "open",
                     "namespace": "django.core.mail.backends.smtp.EmailBackend.open",
-                    "class_name": "",
+                    "class_name": "django.core.mail.backends.smtp.EmailBackend",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -35,7 +35,7 @@
                     "docstring": "\"\"\"Close the connection to the email server.\"\"\"",
                     "name": "close",
                     "namespace": "django.core.mail.backends.smtp.EmailBackend.close",
-                    "class_name": "",
+                    "class_name": "django.core.mail.backends.smtp.EmailBackend",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -43,7 +43,7 @@
                     "docstring": "\"\"\"\n        Send one or more EmailMessage objects and return the number of email\n        messages sent.\n        \"\"\"",
                     "name": "send_messages",
                     "namespace": "django.core.mail.backends.smtp.EmailBackend.send_messages",
-                    "class_name": "",
+                    "class_name": "django.core.mail.backends.smtp.EmailBackend",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -51,7 +51,7 @@
                     "docstring": "\"\"\"A helper method that does the actual sending.\"\"\"",
                     "name": "_send",
                     "namespace": "django.core.mail.backends.smtp.EmailBackend._send",
-                    "class_name": "",
+                    "class_name": "django.core.mail.backends.smtp.EmailBackend",
                     "module_name": "",
                     "package_name": ""
                 }

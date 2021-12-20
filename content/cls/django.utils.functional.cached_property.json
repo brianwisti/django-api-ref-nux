@@ -9,7 +9,7 @@
             "docstring": "",
             "name": "func",
             "namespace": "django.utils.functional.cached_property.func",
-            "class_name": "",
+            "class_name": "django.utils.functional.cached_property",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "",
             "name": "__init__",
             "namespace": "django.utils.functional.cached_property.__init__",
-            "class_name": "",
+            "class_name": "django.utils.functional.cached_property",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "",
             "name": "__set_name__",
             "namespace": "django.utils.functional.cached_property.__set_name__",
-            "class_name": "",
+            "class_name": "django.utils.functional.cached_property",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "\"\"\"\n        Call the function and put the return value in instance.__dict__ so that\n        subsequent attribute access on the instance returns the cached value\n        instead of calling cached_property.__get__().\n        \"\"\"",
             "name": "__get__",
             "namespace": "django.utils.functional.cached_property.__get__",
-            "class_name": "",
+            "class_name": "django.utils.functional.cached_property",
             "module_name": "",
             "package_name": ""
         }

@@ -9,7 +9,7 @@
             "docstring": "\"\"\"\n        Check for denied User-Agents and rewrite the URL based on\n        settings.APPEND_SLASH and settings.PREPEND_WWW\n        \"\"\"",
             "name": "process_request",
             "namespace": "django.middleware.common.CommonMiddleware.process_request",
-            "class_name": "",
+            "class_name": "django.middleware.common.CommonMiddleware",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "\"\"\"\n        Return True if settings.APPEND_SLASH is True and appending a slash to\n        the request path turns an invalid path into a valid one.\n        \"\"\"",
             "name": "should_redirect_with_slash",
             "namespace": "django.middleware.common.CommonMiddleware.should_redirect_with_slash",
-            "class_name": "",
+            "class_name": "django.middleware.common.CommonMiddleware",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "\"\"\"\n        Return the full path of the request with a trailing slash appended.\n\n        Raise a RuntimeError if settings.DEBUG is True and request.method is\n        POST, PUT, or PATCH.\n        \"\"\"",
             "name": "get_full_path_with_slash",
             "namespace": "django.middleware.common.CommonMiddleware.get_full_path_with_slash",
-            "class_name": "",
+            "class_name": "django.middleware.common.CommonMiddleware",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "\"\"\"\n        When the status code of the response is 404, it may redirect to a path\n        with an appended slash if should_redirect_with_slash() returns True.\n        \"\"\"",
             "name": "process_response",
             "namespace": "django.middleware.common.CommonMiddleware.process_response",
-            "class_name": "",
+            "class_name": "django.middleware.common.CommonMiddleware",
             "module_name": "",
             "package_name": ""
         }

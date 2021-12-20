@@ -9,7 +9,7 @@
             "docstring": "\"\"\"\n        Load the data from the key itself instead of fetching from some\n        external data store. Opposite of _get_session_key(), raise BadSignature\n        if signature fails.\n        \"\"\"",
             "name": "load",
             "namespace": "django.contrib.sessions.backends.signed_cookies.SessionStore.load",
-            "class_name": "",
+            "class_name": "django.contrib.sessions.backends.signed_cookies.SessionStore",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "\"\"\"\n        To create a new key, set the modified flag so that the cookie is set\n        on the client for the current request.\n        \"\"\"",
             "name": "create",
             "namespace": "django.contrib.sessions.backends.signed_cookies.SessionStore.create",
-            "class_name": "",
+            "class_name": "django.contrib.sessions.backends.signed_cookies.SessionStore",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "\"\"\"\n        To save, get the session key as a securely signed string and then set\n        the modified flag so that the cookie is set on the client for the\n        current request.\n        \"\"\"",
             "name": "save",
             "namespace": "django.contrib.sessions.backends.signed_cookies.SessionStore.save",
-            "class_name": "",
+            "class_name": "django.contrib.sessions.backends.signed_cookies.SessionStore",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "\"\"\"\n        This method makes sense when you're talking to a shared resource, but\n        it doesn't matter when you're storing the information in the client's\n        cookie.\n        \"\"\"",
             "name": "exists",
             "namespace": "django.contrib.sessions.backends.signed_cookies.SessionStore.exists",
-            "class_name": "",
+            "class_name": "django.contrib.sessions.backends.signed_cookies.SessionStore",
             "module_name": "",
             "package_name": ""
         },
@@ -41,7 +41,7 @@
             "docstring": "\"\"\"\n        To delete, clear the session key and the underlying data structure\n        and set the modified flag so that the cookie is set on the client for\n        the current request.\n        \"\"\"",
             "name": "delete",
             "namespace": "django.contrib.sessions.backends.signed_cookies.SessionStore.delete",
-            "class_name": "",
+            "class_name": "django.contrib.sessions.backends.signed_cookies.SessionStore",
             "module_name": "",
             "package_name": ""
         },
@@ -49,7 +49,7 @@
             "docstring": "\"\"\"\n        Keep the same data but with a new key. Call save() and it will\n        automatically save a cookie with a new key at the end of the request.\n        \"\"\"",
             "name": "cycle_key",
             "namespace": "django.contrib.sessions.backends.signed_cookies.SessionStore.cycle_key",
-            "class_name": "",
+            "class_name": "django.contrib.sessions.backends.signed_cookies.SessionStore",
             "module_name": "",
             "package_name": ""
         },
@@ -57,7 +57,7 @@
             "docstring": "\"\"\"\n        Instead of generating a random string, generate a secure url-safe\n        base64-encoded string of data as our session key.\n        \"\"\"",
             "name": "_get_session_key",
             "namespace": "django.contrib.sessions.backends.signed_cookies.SessionStore._get_session_key",
-            "class_name": "",
+            "class_name": "django.contrib.sessions.backends.signed_cookies.SessionStore",
             "module_name": "",
             "package_name": ""
         },
@@ -65,7 +65,7 @@
             "docstring": "",
             "name": "clear_expired",
             "namespace": "django.contrib.sessions.backends.signed_cookies.SessionStore.clear_expired",
-            "class_name": "",
+            "class_name": "django.contrib.sessions.backends.signed_cookies.SessionStore",
             "module_name": "",
             "package_name": ""
         }

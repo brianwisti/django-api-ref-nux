@@ -9,7 +9,7 @@
             "docstring": "\"\"\"\n        Serialize a queryset.\n        \"\"\"",
             "name": "serialize",
             "namespace": "django.core.serializers.base.Serializer.serialize",
-            "class_name": "",
+            "class_name": "django.core.serializers.base.Serializer",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "\"\"\"\n        Called when serializing of the queryset starts.\n        \"\"\"",
             "name": "start_serialization",
             "namespace": "django.core.serializers.base.Serializer.start_serialization",
-            "class_name": "",
+            "class_name": "django.core.serializers.base.Serializer",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "\"\"\"\n        Called when serializing of the queryset ends.\n        \"\"\"",
             "name": "end_serialization",
             "namespace": "django.core.serializers.base.Serializer.end_serialization",
-            "class_name": "",
+            "class_name": "django.core.serializers.base.Serializer",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "\"\"\"\n        Called when serializing of an object starts.\n        \"\"\"",
             "name": "start_object",
             "namespace": "django.core.serializers.base.Serializer.start_object",
-            "class_name": "",
+            "class_name": "django.core.serializers.base.Serializer",
             "module_name": "",
             "package_name": ""
         },
@@ -41,7 +41,7 @@
             "docstring": "\"\"\"\n        Called when serializing of an object ends.\n        \"\"\"",
             "name": "end_object",
             "namespace": "django.core.serializers.base.Serializer.end_object",
-            "class_name": "",
+            "class_name": "django.core.serializers.base.Serializer",
             "module_name": "",
             "package_name": ""
         },
@@ -49,7 +49,7 @@
             "docstring": "\"\"\"\n        Called to handle each individual (non-relational) field on an object.\n        \"\"\"",
             "name": "handle_field",
             "namespace": "django.core.serializers.base.Serializer.handle_field",
-            "class_name": "",
+            "class_name": "django.core.serializers.base.Serializer",
             "module_name": "",
             "package_name": ""
         },
@@ -57,7 +57,7 @@
             "docstring": "\"\"\"\n        Called to handle a ForeignKey field.\n        \"\"\"",
             "name": "handle_fk_field",
             "namespace": "django.core.serializers.base.Serializer.handle_fk_field",
-            "class_name": "",
+            "class_name": "django.core.serializers.base.Serializer",
             "module_name": "",
             "package_name": ""
         },
@@ -65,7 +65,7 @@
             "docstring": "\"\"\"\n        Called to handle a ManyToManyField.\n        \"\"\"",
             "name": "handle_m2m_field",
             "namespace": "django.core.serializers.base.Serializer.handle_m2m_field",
-            "class_name": "",
+            "class_name": "django.core.serializers.base.Serializer",
             "module_name": "",
             "package_name": ""
         },
@@ -73,7 +73,7 @@
             "docstring": "\"\"\"\n        Return the fully serialized queryset (or None if the output stream is\n        not seekable).\n        \"\"\"",
             "name": "getvalue",
             "namespace": "django.core.serializers.base.Serializer.getvalue",
-            "class_name": "",
+            "class_name": "django.core.serializers.base.Serializer",
             "module_name": "",
             "package_name": ""
         }

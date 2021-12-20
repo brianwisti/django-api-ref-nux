@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Find all new models (both managed and unmanaged) and make create\n        operations for them as well as separate operations to create any\n        foreign key or M2M relationships (these are optimized later, if\n        possible).\n\n        Defer any model options that refer to collections of fields that might\n        be deferred (e.g. unique_together, index_together).\n        \"\"\"",
     "name": "generate_created_models",
     "namespace": "django.db.migrations.autodetector.MigrationAutodetector.generate_created_models",
-    "class_name": "",
+    "class_name": "django.db.migrations.autodetector.MigrationAutodetector",
     "module_name": "",
     "package_name": ""
 }

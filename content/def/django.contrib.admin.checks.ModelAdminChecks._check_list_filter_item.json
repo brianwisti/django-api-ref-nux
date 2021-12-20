@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Check one item of `list_filter`, i.e. check if it is one of three options:\n        1. 'field' -- a basic field filter, possibly w/ relationships (e.g.\n           'field__rel')\n        2. ('field', SomeFieldListFilter) - a field-based list filter class\n        3. SomeListFilter - a non-field list filter class\n        \"\"\"",
     "name": "_check_list_filter_item",
     "namespace": "django.contrib.admin.checks.ModelAdminChecks._check_list_filter_item",
-    "class_name": "",
+    "class_name": "django.contrib.admin.checks.ModelAdminChecks",
     "module_name": "",
     "package_name": ""
 }

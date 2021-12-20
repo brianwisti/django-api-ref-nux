@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.db.models.options.Options.__init__",
-                    "class_name": "",
+                    "class_name": "django.db.models.options.Options",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "",
                     "name": "label",
                     "namespace": "django.db.models.options.Options.label",
-                    "class_name": "",
+                    "class_name": "django.db.models.options.Options",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -27,7 +27,7 @@
                     "docstring": "",
                     "name": "label_lower",
                     "namespace": "django.db.models.options.Options.label_lower",
-                    "class_name": "",
+                    "class_name": "django.db.models.options.Options",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -35,7 +35,7 @@
                     "docstring": "",
                     "name": "app_config",
                     "namespace": "django.db.models.options.Options.app_config",
-                    "class_name": "",
+                    "class_name": "django.db.models.options.Options",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -43,7 +43,7 @@
                     "docstring": "",
                     "name": "installed",
                     "namespace": "django.db.models.options.Options.installed",
-                    "class_name": "",
+                    "class_name": "django.db.models.options.Options",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -51,7 +51,7 @@
                     "docstring": "",
                     "name": "contribute_to_class",
                     "namespace": "django.db.models.options.Options.contribute_to_class",
-                    "class_name": "",
+                    "class_name": "django.db.models.options.Options",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -59,7 +59,7 @@
                     "docstring": "\"\"\"App label/class name interpolation for object names.\"\"\"",
                     "name": "_format_names_with_class",
                     "namespace": "django.db.models.options.Options._format_names_with_class",
-                    "class_name": "",
+                    "class_name": "django.db.models.options.Options",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -67,7 +67,7 @@
                     "docstring": "",
                     "name": "_get_default_pk_class",
                     "namespace": "django.db.models.options.Options._get_default_pk_class",
-                    "class_name": "",
+                    "class_name": "django.db.models.options.Options",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -75,7 +75,7 @@
                     "docstring": "",
                     "name": "_prepare",
                     "namespace": "django.db.models.options.Options._prepare",
-                    "class_name": "",
+                    "class_name": "django.db.models.options.Options",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -83,7 +83,7 @@
                     "docstring": "",
                     "name": "add_manager",
                     "namespace": "django.db.models.options.Options.add_manager",
-                    "class_name": "",
+                    "class_name": "django.db.models.options.Options",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -91,7 +91,7 @@
                     "docstring": "",
                     "name": "add_field",
                     "namespace": "django.db.models.options.Options.add_field",
-                    "class_name": "",
+                    "class_name": "django.db.models.options.Options",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -99,7 +99,7 @@
                     "docstring": "",
                     "name": "setup_pk",
                     "namespace": "django.db.models.options.Options.setup_pk",
-                    "class_name": "",
+                    "class_name": "django.db.models.options.Options",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -107,7 +107,7 @@
                     "docstring": "\"\"\"\n        Do the internal setup so that the current model is a proxy for\n        \"target\".\n        \"\"\"",
                     "name": "setup_proxy",
                     "namespace": "django.db.models.options.Options.setup_proxy",
-                    "class_name": "",
+                    "class_name": "django.db.models.options.Options",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -115,7 +115,7 @@
                     "docstring": "",
                     "name": "__repr__",
                     "namespace": "django.db.models.options.Options.__repr__",
-                    "class_name": "",
+                    "class_name": "django.db.models.options.Options",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -123,7 +123,7 @@
                     "docstring": "",
                     "name": "__str__",
                     "namespace": "django.db.models.options.Options.__str__",
-                    "class_name": "",
+                    "class_name": "django.db.models.options.Options",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -131,7 +131,7 @@
                     "docstring": "\"\"\"\n        Return True if the model can/should be migrated on the `connection`.\n        `connection` can be either a real connection or a connection alias.\n        \"\"\"",
                     "name": "can_migrate",
                     "namespace": "django.db.models.options.Options.can_migrate",
-                    "class_name": "",
+                    "class_name": "django.db.models.options.Options",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -139,7 +139,7 @@
                     "docstring": "\"\"\"Return the untranslated verbose name.\"\"\"",
                     "name": "verbose_name_raw",
                     "namespace": "django.db.models.options.Options.verbose_name_raw",
-                    "class_name": "",
+                    "class_name": "django.db.models.options.Options",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -147,7 +147,7 @@
                     "docstring": "\"\"\"\n        Has this model been swapped out for another? If so, return the model\n        name of the replacement; otherwise, return None.\n\n        For historical reasons, model name lookups using get_model() are\n        case insensitive, so we make sure we are case insensitive here.\n        \"\"\"",
                     "name": "swapped",
                     "namespace": "django.db.models.options.Options.swapped",
-                    "class_name": "",
+                    "class_name": "django.db.models.options.Options",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -155,7 +155,7 @@
                     "docstring": "",
                     "name": "managers",
                     "namespace": "django.db.models.options.Options.managers",
-                    "class_name": "",
+                    "class_name": "django.db.models.options.Options",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -163,7 +163,7 @@
                     "docstring": "",
                     "name": "managers_map",
                     "namespace": "django.db.models.options.Options.managers_map",
-                    "class_name": "",
+                    "class_name": "django.db.models.options.Options",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -171,7 +171,7 @@
                     "docstring": "",
                     "name": "base_manager",
                     "namespace": "django.db.models.options.Options.base_manager",
-                    "class_name": "",
+                    "class_name": "django.db.models.options.Options",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -179,7 +179,7 @@
                     "docstring": "",
                     "name": "default_manager",
                     "namespace": "django.db.models.options.Options.default_manager",
-                    "class_name": "",
+                    "class_name": "django.db.models.options.Options",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -187,7 +187,7 @@
                     "docstring": "\"\"\"\n        Return a list of all forward fields on the model and its parents,\n        excluding ManyToManyFields.\n\n        Private API intended only to be used by Django itself; get_fields()\n        combined with filtering of field properties is the public API for\n        obtaining this field list.\n        \"\"\"",
                     "name": "fields",
                     "namespace": "django.db.models.options.Options.fields",
-                    "class_name": "",
+                    "class_name": "django.db.models.options.Options",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -195,7 +195,7 @@
                     "docstring": "\"\"\"\n        Return a list of all concrete fields on the model and its parents.\n\n        Private API intended only to be used by Django itself; get_fields()\n        combined with filtering of field properties is the public API for\n        obtaining this field list.\n        \"\"\"",
                     "name": "concrete_fields",
                     "namespace": "django.db.models.options.Options.concrete_fields",
-                    "class_name": "",
+                    "class_name": "django.db.models.options.Options",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -203,7 +203,7 @@
                     "docstring": "\"\"\"\n        Return a list of all concrete fields on the model.\n\n        Private API intended only to be used by Django itself; get_fields()\n        combined with filtering of field properties is the public API for\n        obtaining this field list.\n        \"\"\"",
                     "name": "local_concrete_fields",
                     "namespace": "django.db.models.options.Options.local_concrete_fields",
-                    "class_name": "",
+                    "class_name": "django.db.models.options.Options",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -211,7 +211,7 @@
                     "docstring": "\"\"\"\n        Return a list of all many to many fields on the model and its parents.\n\n        Private API intended only to be used by Django itself; get_fields()\n        combined with filtering of field properties is the public API for\n        obtaining this list.\n        \"\"\"",
                     "name": "many_to_many",
                     "namespace": "django.db.models.options.Options.many_to_many",
-                    "class_name": "",
+                    "class_name": "django.db.models.options.Options",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -219,7 +219,7 @@
                     "docstring": "\"\"\"\n        Return all related objects pointing to the current model. The related\n        objects can come from a one-to-one, one-to-many, or many-to-many field\n        relation type.\n\n        Private API intended only to be used by Django itself; get_fields()\n        combined with filtering of field properties is the public API for\n        obtaining this field list.\n        \"\"\"",
                     "name": "related_objects",
                     "namespace": "django.db.models.options.Options.related_objects",
-                    "class_name": "",
+                    "class_name": "django.db.models.options.Options",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -227,7 +227,7 @@
                     "docstring": "",
                     "name": "_forward_fields_map",
                     "namespace": "django.db.models.options.Options._forward_fields_map",
-                    "class_name": "",
+                    "class_name": "django.db.models.options.Options",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -235,7 +235,7 @@
                     "docstring": "",
                     "name": "fields_map",
                     "namespace": "django.db.models.options.Options.fields_map",
-                    "class_name": "",
+                    "class_name": "django.db.models.options.Options",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -243,7 +243,7 @@
                     "docstring": "\"\"\"\n        Return a field instance given the name of a forward or reverse field.\n        \"\"\"",
                     "name": "get_field",
                     "namespace": "django.db.models.options.Options.get_field",
-                    "class_name": "",
+                    "class_name": "django.db.models.options.Options",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -251,7 +251,7 @@
                     "docstring": "\"\"\"\n        Return a list of parent classes leading to `model` (ordered from\n        closest to most distant ancestor). This has to handle the case where\n        `model` is a grandparent or even more distant relation.\n        \"\"\"",
                     "name": "get_base_chain",
                     "namespace": "django.db.models.options.Options.get_base_chain",
-                    "class_name": "",
+                    "class_name": "django.db.models.options.Options",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -259,7 +259,7 @@
                     "docstring": "\"\"\"\n        Return all the ancestors of this model as a list ordered by MRO.\n        Useful for determining if something is an ancestor, regardless of lineage.\n        \"\"\"",
                     "name": "get_parent_list",
                     "namespace": "django.db.models.options.Options.get_parent_list",
-                    "class_name": "",
+                    "class_name": "django.db.models.options.Options",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -267,7 +267,7 @@
                     "docstring": "\"\"\"\n        Return the field on the current model which points to the given\n        \"ancestor\". This is possible an indirect link (a pointer to a parent\n        model, which points, eventually, to the ancestor). Used when\n        constructing table joins for model inheritance.\n\n        Return None if the model isn't an ancestor of this one.\n        \"\"\"",
                     "name": "get_ancestor_link",
                     "namespace": "django.db.models.options.Options.get_ancestor_link",
-                    "class_name": "",
+                    "class_name": "django.db.models.options.Options",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -275,7 +275,7 @@
                     "docstring": "\"\"\"\n        Return a list of PathInfos containing the path from the current\n        model to the parent model, or an empty list if parent is not a\n        parent of the current model.\n        \"\"\"",
                     "name": "get_path_to_parent",
                     "namespace": "django.db.models.options.Options.get_path_to_parent",
-                    "class_name": "",
+                    "class_name": "django.db.models.options.Options",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -283,7 +283,7 @@
                     "docstring": "\"\"\"\n        Return a list of PathInfos containing the path from the parent\n        model to the current model, or an empty list if parent is not a\n        parent of the current model.\n        \"\"\"",
                     "name": "get_path_from_parent",
                     "namespace": "django.db.models.options.Options.get_path_from_parent",
-                    "class_name": "",
+                    "class_name": "django.db.models.options.Options",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -291,7 +291,7 @@
                     "docstring": "\"\"\"\n        This method is used by each model to find its reverse objects. As this\n        method is very expensive and is accessed frequently (it looks up every\n        field in a model, in every app), it is computed on first access and then\n        is set as a property on every model.\n        \"\"\"",
                     "name": "_populate_directed_relation_graph",
                     "namespace": "django.db.models.options.Options._populate_directed_relation_graph",
-                    "class_name": "",
+                    "class_name": "django.db.models.options.Options",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -299,7 +299,7 @@
                     "docstring": "",
                     "name": "_relation_tree",
                     "namespace": "django.db.models.options.Options._relation_tree",
-                    "class_name": "",
+                    "class_name": "django.db.models.options.Options",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -307,7 +307,7 @@
                     "docstring": "",
                     "name": "_expire_cache",
                     "namespace": "django.db.models.options.Options._expire_cache",
-                    "class_name": "",
+                    "class_name": "django.db.models.options.Options",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -315,7 +315,7 @@
                     "docstring": "\"\"\"\n        Return a list of fields associated to the model. By default, include\n        forward and reverse fields, fields derived from inheritance, but not\n        hidden fields. The returned fields can be changed using the parameters:\n\n        - include_parents: include fields derived from inheritance\n        - include_hidden:  include fields that have a related_name that\n                           starts with a \"+\"\n        \"\"\"",
                     "name": "get_fields",
                     "namespace": "django.db.models.options.Options.get_fields",
-                    "class_name": "",
+                    "class_name": "django.db.models.options.Options",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -323,7 +323,7 @@
                     "docstring": "\"\"\"\n        Internal helper function to return fields of the model.\n        * If forward=True, then fields defined on this model are returned.\n        * If reverse=True, then relations pointing to this model are returned.\n        * If include_hidden=True, then fields with is_hidden=True are returned.\n        * The include_parents argument toggles if fields from parent models\n          should be included. It has three values: True, False, and\n          PROXY_PARENTS. When set to PROXY_PARENTS, the call will return all\n          fields defined for the current model or any of its parents in the\n          parent chain to the model's concrete model.\n        \"\"\"",
                     "name": "_get_fields",
                     "namespace": "django.db.models.options.Options._get_fields",
-                    "class_name": "",
+                    "class_name": "django.db.models.options.Options",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -331,7 +331,7 @@
                     "docstring": "\"\"\"\n        Return a list of total unique constraints. Useful for determining set\n        of fields guaranteed to be unique for all rows.\n        \"\"\"",
                     "name": "total_unique_constraints",
                     "namespace": "django.db.models.options.Options.total_unique_constraints",
-                    "class_name": "",
+                    "class_name": "django.db.models.options.Options",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -339,7 +339,7 @@
                     "docstring": "\"\"\"Return a set of the names of the properties defined on the model.\"\"\"",
                     "name": "_property_names",
                     "namespace": "django.db.models.options.Options._property_names",
-                    "class_name": "",
+                    "class_name": "django.db.models.options.Options",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -347,7 +347,7 @@
                     "docstring": "\"\"\"\n        Private API intended only to be used by Django itself.\n        Fields to be returned after a database insert.\n        \"\"\"",
                     "name": "db_returning_fields",
                     "namespace": "django.db.models.options.Options.db_returning_fields",
-                    "class_name": "",
+                    "class_name": "django.db.models.options.Options",
                     "module_name": "",
                     "package_name": ""
                 }

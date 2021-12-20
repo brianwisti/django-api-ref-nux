@@ -9,7 +9,7 @@
             "docstring": "",
             "name": "__init__",
             "namespace": "django.test.client.Client.__init__",
-            "class_name": "",
+            "class_name": "django.test.client.Client",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "\"\"\"\n        The master request method. Compose the environment dictionary and pass\n        to the handler, return the result of the handler. Assume defaults for\n        the query environment, which can be overridden using the arguments to\n        the request.\n        \"\"\"",
             "name": "request",
             "namespace": "django.test.client.Client.request",
-            "class_name": "",
+            "class_name": "django.test.client.Client",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "\"\"\"Request a response from the server using GET.\"\"\"",
             "name": "get",
             "namespace": "django.test.client.Client.get",
-            "class_name": "",
+            "class_name": "django.test.client.Client",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "\"\"\"Request a response from the server using POST.\"\"\"",
             "name": "post",
             "namespace": "django.test.client.Client.post",
-            "class_name": "",
+            "class_name": "django.test.client.Client",
             "module_name": "",
             "package_name": ""
         },
@@ -41,7 +41,7 @@
             "docstring": "\"\"\"Request a response from the server using HEAD.\"\"\"",
             "name": "head",
             "namespace": "django.test.client.Client.head",
-            "class_name": "",
+            "class_name": "django.test.client.Client",
             "module_name": "",
             "package_name": ""
         },
@@ -49,7 +49,7 @@
             "docstring": "\"\"\"Request a response from the server using OPTIONS.\"\"\"",
             "name": "options",
             "namespace": "django.test.client.Client.options",
-            "class_name": "",
+            "class_name": "django.test.client.Client",
             "module_name": "",
             "package_name": ""
         },
@@ -57,7 +57,7 @@
             "docstring": "\"\"\"Send a resource to the server using PUT.\"\"\"",
             "name": "put",
             "namespace": "django.test.client.Client.put",
-            "class_name": "",
+            "class_name": "django.test.client.Client",
             "module_name": "",
             "package_name": ""
         },
@@ -65,7 +65,7 @@
             "docstring": "\"\"\"Send a resource to the server using PATCH.\"\"\"",
             "name": "patch",
             "namespace": "django.test.client.Client.patch",
-            "class_name": "",
+            "class_name": "django.test.client.Client",
             "module_name": "",
             "package_name": ""
         },
@@ -73,7 +73,7 @@
             "docstring": "\"\"\"Send a DELETE request to the server.\"\"\"",
             "name": "delete",
             "namespace": "django.test.client.Client.delete",
-            "class_name": "",
+            "class_name": "django.test.client.Client",
             "module_name": "",
             "package_name": ""
         },
@@ -81,7 +81,7 @@
             "docstring": "\"\"\"Send a TRACE request to the server.\"\"\"",
             "name": "trace",
             "namespace": "django.test.client.Client.trace",
-            "class_name": "",
+            "class_name": "django.test.client.Client",
             "module_name": "",
             "package_name": ""
         },
@@ -89,7 +89,7 @@
             "docstring": "\"\"\"\n        Follow any redirects by requesting responses from the server using GET.\n        \"\"\"",
             "name": "_handle_redirects",
             "namespace": "django.test.client.Client._handle_redirects",
-            "class_name": "",
+            "class_name": "django.test.client.Client",
             "module_name": "",
             "package_name": ""
         }

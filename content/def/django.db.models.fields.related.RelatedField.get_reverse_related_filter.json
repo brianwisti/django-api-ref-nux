@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Complement to get_forward_related_filter(). Return the keyword\n        arguments that when passed to self.related_field.model.object.filter()\n        select all instances of self.related_field.model related through\n        this field to obj. obj is an instance of self.model.\n        \"\"\"",
     "name": "get_reverse_related_filter",
     "namespace": "django.db.models.fields.related.RelatedField.get_reverse_related_filter",
-    "class_name": "",
+    "class_name": "django.db.models.fields.related.RelatedField",
     "module_name": "",
     "package_name": ""
 }

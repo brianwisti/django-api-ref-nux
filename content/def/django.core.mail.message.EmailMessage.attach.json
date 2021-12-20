@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Attach a file with the given filename and content. The filename can\n        be omitted and the mimetype is guessed, if not provided.\n\n        If the first parameter is a MIMEBase subclass, insert it directly\n        into the resulting message attachments.\n\n        For a text/* mimetype (guessed or specified), when a bytes object is\n        specified as content, decode it as UTF-8. If that fails, set the\n        mimetype to DEFAULT_ATTACHMENT_MIME_TYPE and don't decode the content.\n        \"\"\"",
     "name": "attach",
     "namespace": "django.core.mail.message.EmailMessage.attach",
-    "class_name": "",
+    "class_name": "django.core.mail.message.EmailMessage",
     "module_name": "",
     "package_name": ""
 }

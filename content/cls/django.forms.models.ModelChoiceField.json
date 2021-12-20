@@ -9,7 +9,7 @@
             "docstring": "",
             "name": "__init__",
             "namespace": "django.forms.models.ModelChoiceField.__init__",
-            "class_name": "",
+            "class_name": "django.forms.models.ModelChoiceField",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "\"\"\"\n        Return ``limit_choices_to`` for this form field.\n\n        If it is a callable, invoke it and return the result.\n        \"\"\"",
             "name": "get_limit_choices_to",
             "namespace": "django.forms.models.ModelChoiceField.get_limit_choices_to",
-            "class_name": "",
+            "class_name": "django.forms.models.ModelChoiceField",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "",
             "name": "__deepcopy__",
             "namespace": "django.forms.models.ModelChoiceField.__deepcopy__",
-            "class_name": "",
+            "class_name": "django.forms.models.ModelChoiceField",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "",
             "name": "_get_queryset",
             "namespace": "django.forms.models.ModelChoiceField._get_queryset",
-            "class_name": "",
+            "class_name": "django.forms.models.ModelChoiceField",
             "module_name": "",
             "package_name": ""
         },
@@ -41,7 +41,7 @@
             "docstring": "",
             "name": "_set_queryset",
             "namespace": "django.forms.models.ModelChoiceField._set_queryset",
-            "class_name": "",
+            "class_name": "django.forms.models.ModelChoiceField",
             "module_name": "",
             "package_name": ""
         },
@@ -49,7 +49,7 @@
             "docstring": "\"\"\"\n        Convert objects into strings and generate the labels for the choices\n        presented by this object. Subclasses can override this method to\n        customize the display of the choices.\n        \"\"\"",
             "name": "label_from_instance",
             "namespace": "django.forms.models.ModelChoiceField.label_from_instance",
-            "class_name": "",
+            "class_name": "django.forms.models.ModelChoiceField",
             "module_name": "",
             "package_name": ""
         },
@@ -57,7 +57,7 @@
             "docstring": "",
             "name": "_get_choices",
             "namespace": "django.forms.models.ModelChoiceField._get_choices",
-            "class_name": "",
+            "class_name": "django.forms.models.ModelChoiceField",
             "module_name": "",
             "package_name": ""
         },
@@ -65,7 +65,7 @@
             "docstring": "",
             "name": "prepare_value",
             "namespace": "django.forms.models.ModelChoiceField.prepare_value",
-            "class_name": "",
+            "class_name": "django.forms.models.ModelChoiceField",
             "module_name": "",
             "package_name": ""
         },
@@ -73,7 +73,7 @@
             "docstring": "",
             "name": "to_python",
             "namespace": "django.forms.models.ModelChoiceField.to_python",
-            "class_name": "",
+            "class_name": "django.forms.models.ModelChoiceField",
             "module_name": "",
             "package_name": ""
         },
@@ -81,7 +81,7 @@
             "docstring": "",
             "name": "validate",
             "namespace": "django.forms.models.ModelChoiceField.validate",
-            "class_name": "",
+            "class_name": "django.forms.models.ModelChoiceField",
             "module_name": "",
             "package_name": ""
         },
@@ -89,7 +89,7 @@
             "docstring": "",
             "name": "has_changed",
             "namespace": "django.forms.models.ModelChoiceField.has_changed",
-            "class_name": "",
+            "class_name": "django.forms.models.ModelChoiceField",
             "module_name": "",
             "package_name": ""
         }

@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return the WKB (Well-Known Binary) representation of this Geometry\n        as a Python buffer.  SRID and Z values are not included, use the\n        `ewkb` property instead.\n        \"\"\"",
     "name": "wkb",
     "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.wkb",
-    "class_name": "",
+    "class_name": "django.contrib.gis.geos.geometry.GEOSGeometryBase",
     "module_name": "",
     "package_name": ""
 }

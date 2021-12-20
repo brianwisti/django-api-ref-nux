@@ -9,7 +9,7 @@
             "docstring": "\"\"\"\n        Initialize a single email message (which can be sent to multiple\n        recipients).\n        \"\"\"",
             "name": "__init__",
             "namespace": "django.core.mail.message.EmailMessage.__init__",
-            "class_name": "",
+            "class_name": "django.core.mail.message.EmailMessage",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "",
             "name": "get_connection",
             "namespace": "django.core.mail.message.EmailMessage.get_connection",
-            "class_name": "",
+            "class_name": "django.core.mail.message.EmailMessage",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "",
             "name": "message",
             "namespace": "django.core.mail.message.EmailMessage.message",
-            "class_name": "",
+            "class_name": "django.core.mail.message.EmailMessage",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "\"\"\"\n        Return a list of all recipients of the email (includes direct\n        addressees as well as Cc and Bcc entries).\n        \"\"\"",
             "name": "recipients",
             "namespace": "django.core.mail.message.EmailMessage.recipients",
-            "class_name": "",
+            "class_name": "django.core.mail.message.EmailMessage",
             "module_name": "",
             "package_name": ""
         },
@@ -41,7 +41,7 @@
             "docstring": "\"\"\"Send the email message.\"\"\"",
             "name": "send",
             "namespace": "django.core.mail.message.EmailMessage.send",
-            "class_name": "",
+            "class_name": "django.core.mail.message.EmailMessage",
             "module_name": "",
             "package_name": ""
         },
@@ -49,7 +49,7 @@
             "docstring": "\"\"\"\n        Attach a file with the given filename and content. The filename can\n        be omitted and the mimetype is guessed, if not provided.\n\n        If the first parameter is a MIMEBase subclass, insert it directly\n        into the resulting message attachments.\n\n        For a text/* mimetype (guessed or specified), when a bytes object is\n        specified as content, decode it as UTF-8. If that fails, set the\n        mimetype to DEFAULT_ATTACHMENT_MIME_TYPE and don't decode the content.\n        \"\"\"",
             "name": "attach",
             "namespace": "django.core.mail.message.EmailMessage.attach",
-            "class_name": "",
+            "class_name": "django.core.mail.message.EmailMessage",
             "module_name": "",
             "package_name": ""
         },
@@ -57,7 +57,7 @@
             "docstring": "\"\"\"\n        Attach a file from the filesystem.\n\n        Set the mimetype to DEFAULT_ATTACHMENT_MIME_TYPE if it isn't specified\n        and cannot be guessed.\n\n        For a text/* mimetype (guessed or specified), decode the file's content\n        as UTF-8. If that fails, set the mimetype to\n        DEFAULT_ATTACHMENT_MIME_TYPE and don't decode the content.\n        \"\"\"",
             "name": "attach_file",
             "namespace": "django.core.mail.message.EmailMessage.attach_file",
-            "class_name": "",
+            "class_name": "django.core.mail.message.EmailMessage",
             "module_name": "",
             "package_name": ""
         },
@@ -65,7 +65,7 @@
             "docstring": "",
             "name": "_create_message",
             "namespace": "django.core.mail.message.EmailMessage._create_message",
-            "class_name": "",
+            "class_name": "django.core.mail.message.EmailMessage",
             "module_name": "",
             "package_name": ""
         },
@@ -73,7 +73,7 @@
             "docstring": "",
             "name": "_create_attachments",
             "namespace": "django.core.mail.message.EmailMessage._create_attachments",
-            "class_name": "",
+            "class_name": "django.core.mail.message.EmailMessage",
             "module_name": "",
             "package_name": ""
         },
@@ -81,7 +81,7 @@
             "docstring": "\"\"\"\n        Convert the content, mimetype pair into a MIME attachment object.\n\n        If the mimetype is message/rfc822, content may be an\n        email.Message or EmailMessage object, as well as a str.\n        \"\"\"",
             "name": "_create_mime_attachment",
             "namespace": "django.core.mail.message.EmailMessage._create_mime_attachment",
-            "class_name": "",
+            "class_name": "django.core.mail.message.EmailMessage",
             "module_name": "",
             "package_name": ""
         },
@@ -89,7 +89,7 @@
             "docstring": "\"\"\"\n        Convert the filename, content, mimetype triple into a MIME attachment\n        object.\n        \"\"\"",
             "name": "_create_attachment",
             "namespace": "django.core.mail.message.EmailMessage._create_attachment",
-            "class_name": "",
+            "class_name": "django.core.mail.message.EmailMessage",
             "module_name": "",
             "package_name": ""
         },
@@ -97,7 +97,7 @@
             "docstring": "\"\"\"\n        Set msg's header, either from self.extra_headers, if present, or from\n        the values argument.\n        \"\"\"",
             "name": "_set_list_header_if_not_empty",
             "namespace": "django.core.mail.message.EmailMessage._set_list_header_if_not_empty",
-            "class_name": "",
+            "class_name": "django.core.mail.message.EmailMessage",
             "module_name": "",
             "package_name": ""
         }

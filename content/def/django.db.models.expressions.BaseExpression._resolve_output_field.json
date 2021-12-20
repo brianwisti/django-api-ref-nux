@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Attempt to infer the output type of the expression. If the output\n        fields of all source fields match then, simply infer the same type\n        here. This isn't always correct, but it makes sense most of the time.\n\n        Consider the difference between `2 + 2` and `2 / 3`. Inferring\n        the type here is a convenience for the common case. The user should\n        supply their own output_field with more complex computations.\n\n        If a source's output field resolves to None, exclude it from this check.\n        If all sources are None, then an error is raised higher up the stack in\n        the output_field property.\n        \"\"\"",
     "name": "_resolve_output_field",
     "namespace": "django.db.models.expressions.BaseExpression._resolve_output_field",
-    "class_name": "",
+    "class_name": "django.db.models.expressions.BaseExpression",
     "module_name": "",
     "package_name": ""
 }

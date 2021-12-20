@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return a dictionary of {field_name: (field_name_other_table, other_table)}\n        representing all relationships to the given table.\n        \"\"\"",
     "name": "get_relations",
     "namespace": "django.db.backends.sqlite3.introspection.DatabaseIntrospection.get_relations",
-    "class_name": "",
+    "class_name": "django.db.backends.sqlite3.introspection.DatabaseIntrospection",
     "module_name": "",
     "package_name": ""
 }

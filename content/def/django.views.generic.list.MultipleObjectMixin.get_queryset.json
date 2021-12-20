@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return the list of items for this view.\n\n        The return value must be an iterable and may be an instance of\n        `QuerySet` in which case `QuerySet` specific behavior will be enabled.\n        \"\"\"",
     "name": "get_queryset",
     "namespace": "django.views.generic.list.MultipleObjectMixin.get_queryset",
-    "class_name": "",
+    "class_name": "django.views.generic.list.MultipleObjectMixin",
     "module_name": "",
     "package_name": ""
 }

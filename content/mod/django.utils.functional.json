@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "func",
                     "namespace": "django.utils.functional.cached_property.func",
-                    "class_name": "",
+                    "class_name": "django.utils.functional.cached_property",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.utils.functional.cached_property.__init__",
-                    "class_name": "",
+                    "class_name": "django.utils.functional.cached_property",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -27,7 +27,7 @@
                     "docstring": "",
                     "name": "__set_name__",
                     "namespace": "django.utils.functional.cached_property.__set_name__",
-                    "class_name": "",
+                    "class_name": "django.utils.functional.cached_property",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -35,7 +35,7 @@
                     "docstring": "\"\"\"\n        Call the function and put the return value in instance.__dict__ so that\n        subsequent attribute access on the instance returns the cached value\n        instead of calling cached_property.__get__().\n        \"\"\"",
                     "name": "__get__",
                     "namespace": "django.utils.functional.cached_property.__get__",
-                    "class_name": "",
+                    "class_name": "django.utils.functional.cached_property",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -50,7 +50,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.utils.functional.classproperty.__init__",
-                    "class_name": "",
+                    "class_name": "django.utils.functional.classproperty",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -58,7 +58,7 @@
                     "docstring": "",
                     "name": "__get__",
                     "namespace": "django.utils.functional.classproperty.__get__",
-                    "class_name": "",
+                    "class_name": "django.utils.functional.classproperty",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -66,7 +66,7 @@
                     "docstring": "",
                     "name": "getter",
                     "namespace": "django.utils.functional.classproperty.getter",
-                    "class_name": "",
+                    "class_name": "django.utils.functional.classproperty",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -87,7 +87,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.utils.functional.LazyObject.__init__",
-                    "class_name": "",
+                    "class_name": "django.utils.functional.LazyObject",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -95,7 +95,7 @@
                     "docstring": "",
                     "name": "__setattr__",
                     "namespace": "django.utils.functional.LazyObject.__setattr__",
-                    "class_name": "",
+                    "class_name": "django.utils.functional.LazyObject",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -103,7 +103,7 @@
                     "docstring": "",
                     "name": "__delattr__",
                     "namespace": "django.utils.functional.LazyObject.__delattr__",
-                    "class_name": "",
+                    "class_name": "django.utils.functional.LazyObject",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -111,7 +111,7 @@
                     "docstring": "\"\"\"\n        Must be implemented by subclasses to initialize the wrapped object.\n        \"\"\"",
                     "name": "_setup",
                     "namespace": "django.utils.functional.LazyObject._setup",
-                    "class_name": "",
+                    "class_name": "django.utils.functional.LazyObject",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -119,7 +119,7 @@
                     "docstring": "",
                     "name": "__reduce__",
                     "namespace": "django.utils.functional.LazyObject.__reduce__",
-                    "class_name": "",
+                    "class_name": "django.utils.functional.LazyObject",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -127,7 +127,7 @@
                     "docstring": "",
                     "name": "__copy__",
                     "namespace": "django.utils.functional.LazyObject.__copy__",
-                    "class_name": "",
+                    "class_name": "django.utils.functional.LazyObject",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -135,7 +135,7 @@
                     "docstring": "",
                     "name": "__deepcopy__",
                     "namespace": "django.utils.functional.LazyObject.__deepcopy__",
-                    "class_name": "",
+                    "class_name": "django.utils.functional.LazyObject",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -150,7 +150,7 @@
                     "docstring": "\"\"\"\n        Pass in a callable that returns the object to be wrapped.\n\n        If copies are made of the resulting SimpleLazyObject, which can happen\n        in various circumstances within Django, then you must ensure that the\n        callable can be safely run more than once and will return the same\n        value.\n        \"\"\"",
                     "name": "__init__",
                     "namespace": "django.utils.functional.SimpleLazyObject.__init__",
-                    "class_name": "",
+                    "class_name": "django.utils.functional.SimpleLazyObject",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -158,7 +158,7 @@
                     "docstring": "",
                     "name": "_setup",
                     "namespace": "django.utils.functional.SimpleLazyObject._setup",
-                    "class_name": "",
+                    "class_name": "django.utils.functional.SimpleLazyObject",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -166,7 +166,7 @@
                     "docstring": "",
                     "name": "__repr__",
                     "namespace": "django.utils.functional.SimpleLazyObject.__repr__",
-                    "class_name": "",
+                    "class_name": "django.utils.functional.SimpleLazyObject",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -174,7 +174,7 @@
                     "docstring": "",
                     "name": "__copy__",
                     "namespace": "django.utils.functional.SimpleLazyObject.__copy__",
-                    "class_name": "",
+                    "class_name": "django.utils.functional.SimpleLazyObject",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -182,7 +182,7 @@
                     "docstring": "",
                     "name": "__deepcopy__",
                     "namespace": "django.utils.functional.SimpleLazyObject.__deepcopy__",
-                    "class_name": "",
+                    "class_name": "django.utils.functional.SimpleLazyObject",
                     "module_name": "",
                     "package_name": ""
                 }

@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "check",
                     "namespace": "django.contrib.admin.checks.BaseModelAdminChecks.check",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.BaseModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "\"\"\"\n        Check that `autocomplete_fields` is a list or tuple of model fields.\n        \"\"\"",
                     "name": "_check_autocomplete_fields",
                     "namespace": "django.contrib.admin.checks.BaseModelAdminChecks._check_autocomplete_fields",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.BaseModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -27,7 +27,7 @@
                     "docstring": "\"\"\"\n        Check that an item in `autocomplete_fields` is a ForeignKey or a\n        ManyToManyField and that the item has a related ModelAdmin with\n        search_fields defined.\n        \"\"\"",
                     "name": "_check_autocomplete_fields_item",
                     "namespace": "django.contrib.admin.checks.BaseModelAdminChecks._check_autocomplete_fields_item",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.BaseModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -35,7 +35,7 @@
                     "docstring": "\"\"\" Check that `raw_id_fields` only contains field names that are listed\n        on the model. \"\"\"",
                     "name": "_check_raw_id_fields",
                     "namespace": "django.contrib.admin.checks.BaseModelAdminChecks._check_raw_id_fields",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.BaseModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -43,7 +43,7 @@
                     "docstring": "\"\"\" Check an item of `raw_id_fields`, i.e. check that field named\n        `field_name` exists in model `model` and is a ForeignKey or a\n        ManyToManyField. \"\"\"",
                     "name": "_check_raw_id_fields_item",
                     "namespace": "django.contrib.admin.checks.BaseModelAdminChecks._check_raw_id_fields_item",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.BaseModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -51,7 +51,7 @@
                     "docstring": "\"\"\" Check that `fields` only refer to existing fields, doesn't contain\n        duplicates. Check if at most one of `fields` and `fieldsets` is defined.\n        \"\"\"",
                     "name": "_check_fields",
                     "namespace": "django.contrib.admin.checks.BaseModelAdminChecks._check_fields",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.BaseModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -59,7 +59,7 @@
                     "docstring": "\"\"\" Check that fieldsets is properly formatted and doesn't contain\n        duplicates. \"\"\"",
                     "name": "_check_fieldsets",
                     "namespace": "django.contrib.admin.checks.BaseModelAdminChecks._check_fieldsets",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.BaseModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -67,7 +67,7 @@
                     "docstring": "\"\"\" Check an item of `fieldsets`, i.e. check that this is a pair of a\n        set name and a dictionary containing \"fields\" key. \"\"\"",
                     "name": "_check_fieldsets_item",
                     "namespace": "django.contrib.admin.checks.BaseModelAdminChecks._check_fieldsets_item",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.BaseModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -75,7 +75,7 @@
                     "docstring": "\"\"\" `fields` should be an item of `fields` or an item of\n        fieldset[1]['fields'] for any `fieldset` in `fieldsets`. It should be a\n        field name or a tuple of field names. \"\"\"",
                     "name": "_check_field_spec",
                     "namespace": "django.contrib.admin.checks.BaseModelAdminChecks._check_field_spec",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.BaseModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -83,7 +83,7 @@
                     "docstring": "",
                     "name": "_check_field_spec_item",
                     "namespace": "django.contrib.admin.checks.BaseModelAdminChecks._check_field_spec_item",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.BaseModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -91,7 +91,7 @@
                     "docstring": "\"\"\" Check that exclude is a sequence without duplicates. \"\"\"",
                     "name": "_check_exclude",
                     "namespace": "django.contrib.admin.checks.BaseModelAdminChecks._check_exclude",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.BaseModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -99,7 +99,7 @@
                     "docstring": "\"\"\" Check that form subclasses BaseModelForm. \"\"\"",
                     "name": "_check_form",
                     "namespace": "django.contrib.admin.checks.BaseModelAdminChecks._check_form",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.BaseModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -107,7 +107,7 @@
                     "docstring": "\"\"\" Check that filter_vertical is a sequence of field names. \"\"\"",
                     "name": "_check_filter_vertical",
                     "namespace": "django.contrib.admin.checks.BaseModelAdminChecks._check_filter_vertical",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.BaseModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -115,7 +115,7 @@
                     "docstring": "\"\"\" Check that filter_horizontal is a sequence of field names. \"\"\"",
                     "name": "_check_filter_horizontal",
                     "namespace": "django.contrib.admin.checks.BaseModelAdminChecks._check_filter_horizontal",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.BaseModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -123,7 +123,7 @@
                     "docstring": "\"\"\" Check one item of `filter_vertical` or `filter_horizontal`, i.e.\n        check that given field exists and is a ManyToManyField. \"\"\"",
                     "name": "_check_filter_item",
                     "namespace": "django.contrib.admin.checks.BaseModelAdminChecks._check_filter_item",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.BaseModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -131,7 +131,7 @@
                     "docstring": "\"\"\" Check that `radio_fields` is a dictionary. \"\"\"",
                     "name": "_check_radio_fields",
                     "namespace": "django.contrib.admin.checks.BaseModelAdminChecks._check_radio_fields",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.BaseModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -139,7 +139,7 @@
                     "docstring": "\"\"\" Check that a key of `radio_fields` dictionary is name of existing\n        field and that the field is a ForeignKey or has `choices` defined. \"\"\"",
                     "name": "_check_radio_fields_key",
                     "namespace": "django.contrib.admin.checks.BaseModelAdminChecks._check_radio_fields_key",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.BaseModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -147,7 +147,7 @@
                     "docstring": "\"\"\" Check type of a value of `radio_fields` dictionary. \"\"\"",
                     "name": "_check_radio_fields_value",
                     "namespace": "django.contrib.admin.checks.BaseModelAdminChecks._check_radio_fields_value",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.BaseModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -155,7 +155,7 @@
                     "docstring": "",
                     "name": "_check_view_on_site_url",
                     "namespace": "django.contrib.admin.checks.BaseModelAdminChecks._check_view_on_site_url",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.BaseModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -163,7 +163,7 @@
                     "docstring": "\"\"\" Check that `prepopulated_fields` is a dictionary containing allowed\n        field types. \"\"\"",
                     "name": "_check_prepopulated_fields",
                     "namespace": "django.contrib.admin.checks.BaseModelAdminChecks._check_prepopulated_fields",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.BaseModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -171,7 +171,7 @@
                     "docstring": "\"\"\" Check a key of `prepopulated_fields` dictionary, i.e. check that it\n        is a name of existing field and the field is one of the allowed types.\n        \"\"\"",
                     "name": "_check_prepopulated_fields_key",
                     "namespace": "django.contrib.admin.checks.BaseModelAdminChecks._check_prepopulated_fields_key",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.BaseModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -179,7 +179,7 @@
                     "docstring": "\"\"\" Check a value of `prepopulated_fields` dictionary, i.e. it's an\n        iterable of existing fields. \"\"\"",
                     "name": "_check_prepopulated_fields_value",
                     "namespace": "django.contrib.admin.checks.BaseModelAdminChecks._check_prepopulated_fields_value",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.BaseModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -187,7 +187,7 @@
                     "docstring": "\"\"\" For `prepopulated_fields` equal to {\"slug\": (\"title\",)},\n        `field_name` is \"title\". \"\"\"",
                     "name": "_check_prepopulated_fields_value_item",
                     "namespace": "django.contrib.admin.checks.BaseModelAdminChecks._check_prepopulated_fields_value_item",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.BaseModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -195,7 +195,7 @@
                     "docstring": "\"\"\" Check that ordering refers to existing fields or is random. \"\"\"",
                     "name": "_check_ordering",
                     "namespace": "django.contrib.admin.checks.BaseModelAdminChecks._check_ordering",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.BaseModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -203,7 +203,7 @@
                     "docstring": "\"\"\" Check that `ordering` refers to existing fields. \"\"\"",
                     "name": "_check_ordering_item",
                     "namespace": "django.contrib.admin.checks.BaseModelAdminChecks._check_ordering_item",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.BaseModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -211,7 +211,7 @@
                     "docstring": "\"\"\" Check that readonly_fields refers to proper attribute or field. \"\"\"",
                     "name": "_check_readonly_fields",
                     "namespace": "django.contrib.admin.checks.BaseModelAdminChecks._check_readonly_fields",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.BaseModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -219,7 +219,7 @@
                     "docstring": "",
                     "name": "_check_readonly_fields_item",
                     "namespace": "django.contrib.admin.checks.BaseModelAdminChecks._check_readonly_fields_item",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.BaseModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -234,7 +234,7 @@
                     "docstring": "",
                     "name": "check",
                     "namespace": "django.contrib.admin.checks.ModelAdminChecks.check",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.ModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -242,7 +242,7 @@
                     "docstring": "\"\"\" Check save_as is a boolean. \"\"\"",
                     "name": "_check_save_as",
                     "namespace": "django.contrib.admin.checks.ModelAdminChecks._check_save_as",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.ModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -250,7 +250,7 @@
                     "docstring": "\"\"\" Check save_on_top is a boolean. \"\"\"",
                     "name": "_check_save_on_top",
                     "namespace": "django.contrib.admin.checks.ModelAdminChecks._check_save_on_top",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.ModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -258,7 +258,7 @@
                     "docstring": "\"\"\" Check all inline model admin classes. \"\"\"",
                     "name": "_check_inlines",
                     "namespace": "django.contrib.admin.checks.ModelAdminChecks._check_inlines",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.ModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -266,7 +266,7 @@
                     "docstring": "\"\"\" Check one inline model admin. \"\"\"",
                     "name": "_check_inlines_item",
                     "namespace": "django.contrib.admin.checks.ModelAdminChecks._check_inlines_item",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.ModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -274,7 +274,7 @@
                     "docstring": "\"\"\" Check that list_display only contains fields or usable attributes.\n        \"\"\"",
                     "name": "_check_list_display",
                     "namespace": "django.contrib.admin.checks.ModelAdminChecks._check_list_display",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.ModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -282,7 +282,7 @@
                     "docstring": "",
                     "name": "_check_list_display_item",
                     "namespace": "django.contrib.admin.checks.ModelAdminChecks._check_list_display_item",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.ModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -290,7 +290,7 @@
                     "docstring": "\"\"\" Check that list_display_links is a unique subset of list_display.\n        \"\"\"",
                     "name": "_check_list_display_links",
                     "namespace": "django.contrib.admin.checks.ModelAdminChecks._check_list_display_links",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.ModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -298,7 +298,7 @@
                     "docstring": "",
                     "name": "_check_list_display_links_item",
                     "namespace": "django.contrib.admin.checks.ModelAdminChecks._check_list_display_links_item",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.ModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -306,7 +306,7 @@
                     "docstring": "",
                     "name": "_check_list_filter",
                     "namespace": "django.contrib.admin.checks.ModelAdminChecks._check_list_filter",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.ModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -314,7 +314,7 @@
                     "docstring": "\"\"\"\n        Check one item of `list_filter`, i.e. check if it is one of three options:\n        1. 'field' -- a basic field filter, possibly w/ relationships (e.g.\n           'field__rel')\n        2. ('field', SomeFieldListFilter) - a field-based list filter class\n        3. SomeListFilter - a non-field list filter class\n        \"\"\"",
                     "name": "_check_list_filter_item",
                     "namespace": "django.contrib.admin.checks.ModelAdminChecks._check_list_filter_item",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.ModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -322,7 +322,7 @@
                     "docstring": "\"\"\" Check that list_select_related is a boolean, a list or a tuple. \"\"\"",
                     "name": "_check_list_select_related",
                     "namespace": "django.contrib.admin.checks.ModelAdminChecks._check_list_select_related",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.ModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -330,7 +330,7 @@
                     "docstring": "\"\"\" Check that list_per_page is an integer. \"\"\"",
                     "name": "_check_list_per_page",
                     "namespace": "django.contrib.admin.checks.ModelAdminChecks._check_list_per_page",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.ModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -338,7 +338,7 @@
                     "docstring": "\"\"\" Check that list_max_show_all is an integer. \"\"\"",
                     "name": "_check_list_max_show_all",
                     "namespace": "django.contrib.admin.checks.ModelAdminChecks._check_list_max_show_all",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.ModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -346,7 +346,7 @@
                     "docstring": "\"\"\" Check that list_editable is a sequence of editable fields from\n        list_display without first element. \"\"\"",
                     "name": "_check_list_editable",
                     "namespace": "django.contrib.admin.checks.ModelAdminChecks._check_list_editable",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.ModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -354,7 +354,7 @@
                     "docstring": "",
                     "name": "_check_list_editable_item",
                     "namespace": "django.contrib.admin.checks.ModelAdminChecks._check_list_editable_item",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.ModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -362,7 +362,7 @@
                     "docstring": "\"\"\" Check search_fields is a sequence. \"\"\"",
                     "name": "_check_search_fields",
                     "namespace": "django.contrib.admin.checks.ModelAdminChecks._check_search_fields",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.ModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -370,7 +370,7 @@
                     "docstring": "\"\"\" Check that date_hierarchy refers to DateField or DateTimeField. \"\"\"",
                     "name": "_check_date_hierarchy",
                     "namespace": "django.contrib.admin.checks.ModelAdminChecks._check_date_hierarchy",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.ModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -378,7 +378,7 @@
                     "docstring": "\"\"\"\n        Actions with an allowed_permission attribute require the ModelAdmin to\n        implement a has_<perm>_permission() method for each permission.\n        \"\"\"",
                     "name": "_check_action_permission_methods",
                     "namespace": "django.contrib.admin.checks.ModelAdminChecks._check_action_permission_methods",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.ModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -386,7 +386,7 @@
                     "docstring": "\"\"\"Check that every action has a unique __name__.\"\"\"",
                     "name": "_check_actions_uniqueness",
                     "namespace": "django.contrib.admin.checks.ModelAdminChecks._check_actions_uniqueness",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.ModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -401,7 +401,7 @@
                     "docstring": "",
                     "name": "check",
                     "namespace": "django.contrib.admin.checks.InlineModelAdminChecks.check",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.InlineModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -409,7 +409,7 @@
                     "docstring": "",
                     "name": "_check_exclude_of_parent_model",
                     "namespace": "django.contrib.admin.checks.InlineModelAdminChecks._check_exclude_of_parent_model",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.InlineModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -417,7 +417,7 @@
                     "docstring": "",
                     "name": "_check_relation",
                     "namespace": "django.contrib.admin.checks.InlineModelAdminChecks._check_relation",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.InlineModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -425,7 +425,7 @@
                     "docstring": "\"\"\" Check that extra is an integer. \"\"\"",
                     "name": "_check_extra",
                     "namespace": "django.contrib.admin.checks.InlineModelAdminChecks._check_extra",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.InlineModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -433,7 +433,7 @@
                     "docstring": "\"\"\" Check that max_num is an integer. \"\"\"",
                     "name": "_check_max_num",
                     "namespace": "django.contrib.admin.checks.InlineModelAdminChecks._check_max_num",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.InlineModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -441,7 +441,7 @@
                     "docstring": "\"\"\" Check that min_num is an integer. \"\"\"",
                     "name": "_check_min_num",
                     "namespace": "django.contrib.admin.checks.InlineModelAdminChecks._check_min_num",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.InlineModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -449,7 +449,7 @@
                     "docstring": "\"\"\" Check formset is a subclass of BaseModelFormSet. \"\"\"",
                     "name": "_check_formset",
                     "namespace": "django.contrib.admin.checks.InlineModelAdminChecks._check_formset",
-                    "class_name": "",
+                    "class_name": "django.contrib.admin.checks.InlineModelAdminChecks",
                     "module_name": "",
                     "package_name": ""
                 }

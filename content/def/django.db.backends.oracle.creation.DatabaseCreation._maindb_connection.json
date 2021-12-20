@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        This is analogous to other backends' `_nodb_connection` property,\n        which allows access to an \"administrative\" connection which can\n        be used to manage the test databases.\n        For Oracle, the only connection that can be used for that purpose\n        is the main (non-test) connection.\n        \"\"\"",
     "name": "_maindb_connection",
     "namespace": "django.db.backends.oracle.creation.DatabaseCreation._maindb_connection",
-    "class_name": "",
+    "class_name": "django.db.backends.oracle.creation.DatabaseCreation",
     "module_name": "",
     "package_name": ""
 }

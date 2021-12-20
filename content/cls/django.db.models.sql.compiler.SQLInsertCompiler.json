@@ -9,7 +9,7 @@
             "docstring": "\"\"\"\n        Take a field and a value intended to be saved on that field, and\n        return placeholder SQL and accompanying params. Check for raw values,\n        expressions, and fields with get_placeholder() defined in that order.\n\n        When field is None, consider the value raw and use it as the\n        placeholder, with no corresponding parameters returned.\n        \"\"\"",
             "name": "field_as_sql",
             "namespace": "django.db.models.sql.compiler.SQLInsertCompiler.field_as_sql",
-            "class_name": "",
+            "class_name": "django.db.models.sql.compiler.SQLInsertCompiler",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "\"\"\"\n        Prepare a value to be used in a query by resolving it if it is an\n        expression and otherwise calling the field's get_db_prep_save().\n        \"\"\"",
             "name": "prepare_value",
             "namespace": "django.db.models.sql.compiler.SQLInsertCompiler.prepare_value",
-            "class_name": "",
+            "class_name": "django.db.models.sql.compiler.SQLInsertCompiler",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "\"\"\"\n        Get the given field's value off the given obj. pre_save() is used for\n        things like auto_now on DateTimeField. Skip it if this is a raw query.\n        \"\"\"",
             "name": "pre_save_val",
             "namespace": "django.db.models.sql.compiler.SQLInsertCompiler.pre_save_val",
-            "class_name": "",
+            "class_name": "django.db.models.sql.compiler.SQLInsertCompiler",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "\"\"\"\n        Take a sequence of N fields and a sequence of M rows of values, and\n        generate placeholder SQL and parameters for each field and value.\n        Return a pair containing:\n         * a sequence of M rows of N SQL placeholder strings, and\n         * a sequence of M rows of corresponding parameter values.\n\n        Each placeholder string may contain any number of '%s' interpolation\n        strings, and each parameter row will contain exactly as many params\n        as the total number of '%s's in the corresponding placeholder row.\n        \"\"\"",
             "name": "assemble_as_sql",
             "namespace": "django.db.models.sql.compiler.SQLInsertCompiler.assemble_as_sql",
-            "class_name": "",
+            "class_name": "django.db.models.sql.compiler.SQLInsertCompiler",
             "module_name": "",
             "package_name": ""
         },
@@ -41,7 +41,7 @@
             "docstring": "",
             "name": "as_sql",
             "namespace": "django.db.models.sql.compiler.SQLInsertCompiler.as_sql",
-            "class_name": "",
+            "class_name": "django.db.models.sql.compiler.SQLInsertCompiler",
             "module_name": "",
             "package_name": ""
         },
@@ -49,7 +49,7 @@
             "docstring": "",
             "name": "execute_sql",
             "namespace": "django.db.models.sql.compiler.SQLInsertCompiler.execute_sql",
-            "class_name": "",
+            "class_name": "django.db.models.sql.compiler.SQLInsertCompiler",
             "module_name": "",
             "package_name": ""
         }

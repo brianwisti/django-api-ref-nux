@@ -2,7 +2,7 @@
     "docstring": "\"\"\"Get session the expiry date (as a datetime object).\n\n        Optionally, this function accepts `modification` and `expiry` keyword\n        arguments specifying the modification and expiry of the session.\n        \"\"\"",
     "name": "get_expiry_date",
     "namespace": "django.contrib.sessions.backends.base.SessionBase.get_expiry_date",
-    "class_name": "",
+    "class_name": "django.contrib.sessions.backends.base.SessionBase",
     "module_name": "",
     "package_name": ""
 }

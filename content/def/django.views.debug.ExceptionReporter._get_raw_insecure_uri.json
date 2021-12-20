@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return an absolute URI from variables available in this request. Skip\n        allowed hosts protection, so may return insecure URI.\n        \"\"\"",
     "name": "_get_raw_insecure_uri",
     "namespace": "django.views.debug.ExceptionReporter._get_raw_insecure_uri",
-    "class_name": "",
+    "class_name": "django.views.debug.ExceptionReporter",
     "module_name": "",
     "package_name": ""
 }

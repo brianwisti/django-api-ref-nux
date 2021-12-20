@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Get the related instance through the reverse relation.\n\n        With the example above, when getting ``place.restaurant``:\n\n        - ``self`` is the descriptor managing the ``restaurant`` attribute\n        - ``instance`` is the ``place`` instance\n        - ``cls`` is the ``Place`` class (unused)\n\n        Keep in mind that ``Restaurant`` holds the foreign key to ``Place``.\n        \"\"\"",
     "name": "__get__",
     "namespace": "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor.__get__",
-    "class_name": "",
+    "class_name": "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor",
     "module_name": "",
     "package_name": ""
 }

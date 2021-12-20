@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Internal helper function to return fields of the model.\n        * If forward=True, then fields defined on this model are returned.\n        * If reverse=True, then relations pointing to this model are returned.\n        * If include_hidden=True, then fields with is_hidden=True are returned.\n        * The include_parents argument toggles if fields from parent models\n          should be included. It has three values: True, False, and\n          PROXY_PARENTS. When set to PROXY_PARENTS, the call will return all\n          fields defined for the current model or any of its parents in the\n          parent chain to the model's concrete model.\n        \"\"\"",
     "name": "_get_fields",
     "namespace": "django.db.models.options.Options._get_fields",
-    "class_name": "",
+    "class_name": "django.db.models.options.Options",
     "module_name": "",
     "package_name": ""
 }

@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return the statement to create an index with varchar operator pattern\n        when the column type is 'varchar' or 'text', otherwise return None.\n        \"\"\"",
     "name": "_create_like_index_sql",
     "namespace": "django.db.backends.postgresql.schema.DatabaseSchemaEditor._create_like_index_sql",
-    "class_name": "",
+    "class_name": "django.db.backends.postgresql.schema.DatabaseSchemaEditor",
     "module_name": "",
     "package_name": ""
 }

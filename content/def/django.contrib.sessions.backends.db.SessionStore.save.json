@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Save the current session data to the database. If 'must_create' is\n        True, raise a database error if the saving operation doesn't create a\n        new entry (as opposed to possibly updating an existing entry).\n        \"\"\"",
     "name": "save",
     "namespace": "django.contrib.sessions.backends.db.SessionStore.save",
-    "class_name": "",
+    "class_name": "django.contrib.sessions.backends.db.SessionStore",
     "module_name": "",
     "package_name": ""
 }

@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.forms.formsets.ManagementForm.__init__",
-                    "class_name": "",
+                    "class_name": "django.forms.formsets.ManagementForm",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "",
                     "name": "clean",
                     "namespace": "django.forms.formsets.ManagementForm.clean",
-                    "class_name": "",
+                    "class_name": "django.forms.formsets.ManagementForm",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -34,7 +34,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.forms.formsets.BaseFormSet.__init__",
-                    "class_name": "",
+                    "class_name": "django.forms.formsets.BaseFormSet",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -42,7 +42,7 @@
                     "docstring": "\"\"\"Yield the forms in the order they should be rendered.\"\"\"",
                     "name": "__iter__",
                     "namespace": "django.forms.formsets.BaseFormSet.__iter__",
-                    "class_name": "",
+                    "class_name": "django.forms.formsets.BaseFormSet",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -50,7 +50,7 @@
                     "docstring": "\"\"\"Return the form at the given index, based on the rendering order.\"\"\"",
                     "name": "__getitem__",
                     "namespace": "django.forms.formsets.BaseFormSet.__getitem__",
-                    "class_name": "",
+                    "class_name": "django.forms.formsets.BaseFormSet",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -58,7 +58,7 @@
                     "docstring": "",
                     "name": "__len__",
                     "namespace": "django.forms.formsets.BaseFormSet.__len__",
-                    "class_name": "",
+                    "class_name": "django.forms.formsets.BaseFormSet",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -66,7 +66,7 @@
                     "docstring": "\"\"\"\n        Return True since all formsets have a management form which is not\n        included in the length.\n        \"\"\"",
                     "name": "__bool__",
                     "namespace": "django.forms.formsets.BaseFormSet.__bool__",
-                    "class_name": "",
+                    "class_name": "django.forms.formsets.BaseFormSet",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -74,7 +74,7 @@
                     "docstring": "\"\"\"Return the ManagementForm instance for this FormSet.\"\"\"",
                     "name": "management_form",
                     "namespace": "django.forms.formsets.BaseFormSet.management_form",
-                    "class_name": "",
+                    "class_name": "django.forms.formsets.BaseFormSet",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -82,7 +82,7 @@
                     "docstring": "\"\"\"Return the total number of forms in this FormSet.\"\"\"",
                     "name": "total_form_count",
                     "namespace": "django.forms.formsets.BaseFormSet.total_form_count",
-                    "class_name": "",
+                    "class_name": "django.forms.formsets.BaseFormSet",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -90,7 +90,7 @@
                     "docstring": "\"\"\"Return the number of forms that are required in this FormSet.\"\"\"",
                     "name": "initial_form_count",
                     "namespace": "django.forms.formsets.BaseFormSet.initial_form_count",
-                    "class_name": "",
+                    "class_name": "django.forms.formsets.BaseFormSet",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -98,7 +98,7 @@
                     "docstring": "\"\"\"Instantiate forms at first property access.\"\"\"",
                     "name": "forms",
                     "namespace": "django.forms.formsets.BaseFormSet.forms",
-                    "class_name": "",
+                    "class_name": "django.forms.formsets.BaseFormSet",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -106,7 +106,7 @@
                     "docstring": "\"\"\"\n        Return additional keyword arguments for each individual formset form.\n\n        index will be None if the form being constructed is a new empty\n        form.\n        \"\"\"",
                     "name": "get_form_kwargs",
                     "namespace": "django.forms.formsets.BaseFormSet.get_form_kwargs",
-                    "class_name": "",
+                    "class_name": "django.forms.formsets.BaseFormSet",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -114,7 +114,7 @@
                     "docstring": "\"\"\"Instantiate and return the i-th form instance in a formset.\"\"\"",
                     "name": "_construct_form",
                     "namespace": "django.forms.formsets.BaseFormSet._construct_form",
-                    "class_name": "",
+                    "class_name": "django.forms.formsets.BaseFormSet",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -122,7 +122,7 @@
                     "docstring": "\"\"\"Return a list of all the initial forms in this formset.\"\"\"",
                     "name": "initial_forms",
                     "namespace": "django.forms.formsets.BaseFormSet.initial_forms",
-                    "class_name": "",
+                    "class_name": "django.forms.formsets.BaseFormSet",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -130,7 +130,7 @@
                     "docstring": "\"\"\"Return a list of all the extra forms in this formset.\"\"\"",
                     "name": "extra_forms",
                     "namespace": "django.forms.formsets.BaseFormSet.extra_forms",
-                    "class_name": "",
+                    "class_name": "django.forms.formsets.BaseFormSet",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -138,7 +138,7 @@
                     "docstring": "",
                     "name": "empty_form",
                     "namespace": "django.forms.formsets.BaseFormSet.empty_form",
-                    "class_name": "",
+                    "class_name": "django.forms.formsets.BaseFormSet",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -146,7 +146,7 @@
                     "docstring": "\"\"\"\n        Return a list of form.cleaned_data dicts for every form in self.forms.\n        \"\"\"",
                     "name": "cleaned_data",
                     "namespace": "django.forms.formsets.BaseFormSet.cleaned_data",
-                    "class_name": "",
+                    "class_name": "django.forms.formsets.BaseFormSet",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -154,7 +154,7 @@
                     "docstring": "\"\"\"Return a list of forms that have been marked for deletion.\"\"\"",
                     "name": "deleted_forms",
                     "namespace": "django.forms.formsets.BaseFormSet.deleted_forms",
-                    "class_name": "",
+                    "class_name": "django.forms.formsets.BaseFormSet",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -162,7 +162,7 @@
                     "docstring": "\"\"\"\n        Return a list of form in the order specified by the incoming data.\n        Raise an AttributeError if ordering is not allowed.\n        \"\"\"",
                     "name": "ordered_forms",
                     "namespace": "django.forms.formsets.BaseFormSet.ordered_forms",
-                    "class_name": "",
+                    "class_name": "django.forms.formsets.BaseFormSet",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -170,7 +170,7 @@
                     "docstring": "",
                     "name": "get_default_prefix",
                     "namespace": "django.forms.formsets.BaseFormSet.get_default_prefix",
-                    "class_name": "",
+                    "class_name": "django.forms.formsets.BaseFormSet",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -178,7 +178,7 @@
                     "docstring": "",
                     "name": "get_deletion_widget",
                     "namespace": "django.forms.formsets.BaseFormSet.get_deletion_widget",
-                    "class_name": "",
+                    "class_name": "django.forms.formsets.BaseFormSet",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -186,7 +186,7 @@
                     "docstring": "",
                     "name": "get_ordering_widget",
                     "namespace": "django.forms.formsets.BaseFormSet.get_ordering_widget",
-                    "class_name": "",
+                    "class_name": "django.forms.formsets.BaseFormSet",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -194,7 +194,7 @@
                     "docstring": "\"\"\"\n        Return an ErrorList of errors that aren't associated with a particular\n        form -- i.e., from formset.clean(). Return an empty ErrorList if there\n        are none.\n        \"\"\"",
                     "name": "non_form_errors",
                     "namespace": "django.forms.formsets.BaseFormSet.non_form_errors",
-                    "class_name": "",
+                    "class_name": "django.forms.formsets.BaseFormSet",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -202,7 +202,7 @@
                     "docstring": "\"\"\"Return a list of form.errors for every form in self.forms.\"\"\"",
                     "name": "errors",
                     "namespace": "django.forms.formsets.BaseFormSet.errors",
-                    "class_name": "",
+                    "class_name": "django.forms.formsets.BaseFormSet",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -210,7 +210,7 @@
                     "docstring": "\"\"\"Return the number of errors across all forms in the formset.\"\"\"",
                     "name": "total_error_count",
                     "namespace": "django.forms.formsets.BaseFormSet.total_error_count",
-                    "class_name": "",
+                    "class_name": "django.forms.formsets.BaseFormSet",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -218,7 +218,7 @@
                     "docstring": "\"\"\"Return whether or not the form was marked for deletion.\"\"\"",
                     "name": "_should_delete_form",
                     "namespace": "django.forms.formsets.BaseFormSet._should_delete_form",
-                    "class_name": "",
+                    "class_name": "django.forms.formsets.BaseFormSet",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -226,7 +226,7 @@
                     "docstring": "\"\"\"Return True if every form in self.forms is valid.\"\"\"",
                     "name": "is_valid",
                     "namespace": "django.forms.formsets.BaseFormSet.is_valid",
-                    "class_name": "",
+                    "class_name": "django.forms.formsets.BaseFormSet",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -234,7 +234,7 @@
                     "docstring": "\"\"\"\n        Clean all of self.data and populate self._errors and\n        self._non_form_errors.\n        \"\"\"",
                     "name": "full_clean",
                     "namespace": "django.forms.formsets.BaseFormSet.full_clean",
-                    "class_name": "",
+                    "class_name": "django.forms.formsets.BaseFormSet",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -242,7 +242,7 @@
                     "docstring": "\"\"\"\n        Hook for doing any extra formset-wide cleaning after Form.clean() has\n        been called on every form. Any ValidationError raised by this method\n        will not be associated with a particular form; it will be accessible\n        via formset.non_form_errors()\n        \"\"\"",
                     "name": "clean",
                     "namespace": "django.forms.formsets.BaseFormSet.clean",
-                    "class_name": "",
+                    "class_name": "django.forms.formsets.BaseFormSet",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -250,7 +250,7 @@
                     "docstring": "\"\"\"Return True if data in any form differs from initial.\"\"\"",
                     "name": "has_changed",
                     "namespace": "django.forms.formsets.BaseFormSet.has_changed",
-                    "class_name": "",
+                    "class_name": "django.forms.formsets.BaseFormSet",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -258,7 +258,7 @@
                     "docstring": "\"\"\"A hook for adding extra fields on to each form instance.\"\"\"",
                     "name": "add_fields",
                     "namespace": "django.forms.formsets.BaseFormSet.add_fields",
-                    "class_name": "",
+                    "class_name": "django.forms.formsets.BaseFormSet",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -266,7 +266,7 @@
                     "docstring": "",
                     "name": "add_prefix",
                     "namespace": "django.forms.formsets.BaseFormSet.add_prefix",
-                    "class_name": "",
+                    "class_name": "django.forms.formsets.BaseFormSet",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -274,7 +274,7 @@
                     "docstring": "\"\"\"\n        Return True if the formset needs to be multipart, i.e. it\n        has FileInput, or False otherwise.\n        \"\"\"",
                     "name": "is_multipart",
                     "namespace": "django.forms.formsets.BaseFormSet.is_multipart",
-                    "class_name": "",
+                    "class_name": "django.forms.formsets.BaseFormSet",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -282,7 +282,7 @@
                     "docstring": "",
                     "name": "media",
                     "namespace": "django.forms.formsets.BaseFormSet.media",
-                    "class_name": "",
+                    "class_name": "django.forms.formsets.BaseFormSet",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -290,7 +290,7 @@
                     "docstring": "",
                     "name": "get_context",
                     "namespace": "django.forms.formsets.BaseFormSet.get_context",
-                    "class_name": "",
+                    "class_name": "django.forms.formsets.BaseFormSet",
                     "module_name": "",
                     "package_name": ""
                 }

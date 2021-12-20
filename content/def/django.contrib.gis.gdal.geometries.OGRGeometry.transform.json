@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Transform this geometry to a different spatial reference system.\n        May take a CoordTransform object, a SpatialReference object, string\n        WKT or PROJ, and/or an integer SRID.  By default, return nothing\n        and transform the geometry in-place. However, if the `clone` keyword is\n        set, return a transformed clone of this geometry.\n        \"\"\"",
     "name": "transform",
     "namespace": "django.contrib.gis.gdal.geometries.OGRGeometry.transform",
-    "class_name": "",
+    "class_name": "django.contrib.gis.gdal.geometries.OGRGeometry",
     "module_name": "",
     "package_name": ""
 }

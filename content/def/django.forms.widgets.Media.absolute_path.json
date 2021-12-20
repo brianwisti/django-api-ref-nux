@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Given a relative or absolute path to a static asset, return an absolute\n        path. An absolute path will be returned unchanged while a relative path\n        will be passed to django.templatetags.static.static().\n        \"\"\"",
     "name": "absolute_path",
     "namespace": "django.forms.widgets.Media.absolute_path",
-    "class_name": "",
+    "class_name": "django.forms.widgets.Media",
     "module_name": "",
     "package_name": ""
 }

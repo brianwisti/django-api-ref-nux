@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return a 1-based range of pages with some values elided.\n\n        If the page range is larger than a given size, the whole range is not\n        provided and a compact form is returned instead, e.g. for a paginator\n        with 50 pages, if page 43 were the current page, the output, with the\n        default arguments, would be:\n\n            1, 2, \u2026, 40, 41, 42, 43, 44, 45, 46, \u2026, 49, 50.\n        \"\"\"",
     "name": "get_elided_page_range",
     "namespace": "django.core.paginator.Paginator.get_elided_page_range",
-    "class_name": "",
+    "class_name": "django.core.paginator.Paginator",
     "module_name": "",
     "package_name": ""
 }

@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Add an item to the feed. All args are expected to be strings except\n        pubdate and updateddate, which are datetime.datetime objects, and\n        enclosures, which is an iterable of instances of the Enclosure class.\n        \"\"\"",
     "name": "add_item",
     "namespace": "django.utils.feedgenerator.SyndicationFeed.add_item",
-    "class_name": "",
+    "class_name": "django.utils.feedgenerator.SyndicationFeed",
     "module_name": "",
     "package_name": ""
 }

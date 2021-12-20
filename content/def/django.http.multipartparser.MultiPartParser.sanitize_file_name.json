@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Sanitize the filename of an upload.\n\n        Remove all possible path separators, even though that might remove more\n        than actually required by the target system. Filenames that could\n        potentially cause problems (current/parent dir) are also discarded.\n\n        It should be noted that this function could still return a \"filepath\"\n        like \"C:some_file.txt\" which is handled later on by the storage layer.\n        So while this function does sanitize filenames to some extent, the\n        resulting filename should still be considered as untrusted user input.\n        \"\"\"",
     "name": "sanitize_file_name",
     "namespace": "django.http.multipartparser.MultiPartParser.sanitize_file_name",
-    "class_name": "",
+    "class_name": "django.http.multipartparser.MultiPartParser",
     "module_name": "",
     "package_name": ""
 }

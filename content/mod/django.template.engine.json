@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.template.engine.Engine.__init__",
-                    "class_name": "",
+                    "class_name": "django.template.engine.Engine",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "",
                     "name": "__repr__",
                     "namespace": "django.template.engine.Engine.__repr__",
-                    "class_name": "",
+                    "class_name": "django.template.engine.Engine",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -27,7 +27,7 @@
                     "docstring": "\"\"\"\n        Return the first DjangoTemplates backend that's configured, or raise\n        ImproperlyConfigured if none are configured.\n\n        This is required for preserving historical APIs that rely on a\n        globally available, implicitly configured engine such as:\n\n        >>> from django.template import Context, Template\n        >>> template = Template(\"Hello {{ name }}!\")\n        >>> context = Context({'name': \"world\"})\n        >>> template.render(context)\n        'Hello world!'\n        \"\"\"",
                     "name": "get_default",
                     "namespace": "django.template.engine.Engine.get_default",
-                    "class_name": "",
+                    "class_name": "django.template.engine.Engine",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -35,7 +35,7 @@
                     "docstring": "",
                     "name": "template_context_processors",
                     "namespace": "django.template.engine.Engine.template_context_processors",
-                    "class_name": "",
+                    "class_name": "django.template.engine.Engine",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -43,7 +43,7 @@
                     "docstring": "",
                     "name": "get_template_builtins",
                     "namespace": "django.template.engine.Engine.get_template_builtins",
-                    "class_name": "",
+                    "class_name": "django.template.engine.Engine",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -51,7 +51,7 @@
                     "docstring": "",
                     "name": "get_template_libraries",
                     "namespace": "django.template.engine.Engine.get_template_libraries",
-                    "class_name": "",
+                    "class_name": "django.template.engine.Engine",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -59,7 +59,7 @@
                     "docstring": "",
                     "name": "template_loaders",
                     "namespace": "django.template.engine.Engine.template_loaders",
-                    "class_name": "",
+                    "class_name": "django.template.engine.Engine",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -67,7 +67,7 @@
                     "docstring": "",
                     "name": "get_template_loaders",
                     "namespace": "django.template.engine.Engine.get_template_loaders",
-                    "class_name": "",
+                    "class_name": "django.template.engine.Engine",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -75,7 +75,7 @@
                     "docstring": "",
                     "name": "find_template_loader",
                     "namespace": "django.template.engine.Engine.find_template_loader",
-                    "class_name": "",
+                    "class_name": "django.template.engine.Engine",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -83,7 +83,7 @@
                     "docstring": "",
                     "name": "find_template",
                     "namespace": "django.template.engine.Engine.find_template",
-                    "class_name": "",
+                    "class_name": "django.template.engine.Engine",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -91,7 +91,7 @@
                     "docstring": "\"\"\"\n        Return a compiled Template object for the given template code,\n        handling template inheritance recursively.\n        \"\"\"",
                     "name": "from_string",
                     "namespace": "django.template.engine.Engine.from_string",
-                    "class_name": "",
+                    "class_name": "django.template.engine.Engine",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -99,7 +99,7 @@
                     "docstring": "\"\"\"\n        Return a compiled Template object for the given template name,\n        handling template inheritance recursively.\n        \"\"\"",
                     "name": "get_template",
                     "namespace": "django.template.engine.Engine.get_template",
-                    "class_name": "",
+                    "class_name": "django.template.engine.Engine",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -107,7 +107,7 @@
                     "docstring": "\"\"\"\n        Render the template specified by template_name with the given context.\n        For use in Django's test suite.\n        \"\"\"",
                     "name": "render_to_string",
                     "namespace": "django.template.engine.Engine.render_to_string",
-                    "class_name": "",
+                    "class_name": "django.template.engine.Engine",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -115,7 +115,7 @@
                     "docstring": "\"\"\"\n        Given a list of template names, return the first that can be loaded.\n        \"\"\"",
                     "name": "select_template",
                     "namespace": "django.template.engine.Engine.select_template",
-                    "class_name": "",
+                    "class_name": "django.template.engine.Engine",
                     "module_name": "",
                     "package_name": ""
                 }

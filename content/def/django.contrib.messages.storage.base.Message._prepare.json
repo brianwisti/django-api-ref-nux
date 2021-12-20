@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Prepare the message for serialization by forcing the ``message``\n        and ``extra_tags`` to str in case they are lazy translations.\n        \"\"\"",
     "name": "_prepare",
     "namespace": "django.contrib.messages.storage.base.Message._prepare",
-    "class_name": "",
+    "class_name": "django.contrib.messages.storage.base.Message",
     "module_name": "",
     "package_name": ""
 }

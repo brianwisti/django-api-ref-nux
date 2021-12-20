@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return True if the user has the specified permission. Query all\n        available auth backends, but return immediately if any backend returns\n        True. Thus, a user who has permission from a single auth backend is\n        assumed to have permission in general. If an object is provided, check\n        permissions for that object.\n        \"\"\"",
     "name": "has_perm",
     "namespace": "django.contrib.auth.models.PermissionsMixin.has_perm",
-    "class_name": "",
+    "class_name": "django.contrib.auth.models.PermissionsMixin",
     "module_name": "",
     "package_name": ""
 }

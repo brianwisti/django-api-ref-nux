@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Verify the geometry -- construct and return a GeometryCollection\n        if necessary (for example if the model field is MultiPolygonField while\n        the mapped shapefile only contains Polygons).\n        \"\"\"",
     "name": "verify_geom",
     "namespace": "django.contrib.gis.utils.layermapping.LayerMapping.verify_geom",
-    "class_name": "",
+    "class_name": "django.contrib.gis.utils.layermapping.LayerMapping",
     "module_name": "",
     "package_name": ""
 }

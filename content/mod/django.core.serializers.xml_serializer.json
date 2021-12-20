@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "indent",
                     "namespace": "django.core.serializers.xml_serializer.Serializer.indent",
-                    "class_name": "",
+                    "class_name": "django.core.serializers.xml_serializer.Serializer",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "\"\"\"\n        Start serialization -- open the XML document and the root element.\n        \"\"\"",
                     "name": "start_serialization",
                     "namespace": "django.core.serializers.xml_serializer.Serializer.start_serialization",
-                    "class_name": "",
+                    "class_name": "django.core.serializers.xml_serializer.Serializer",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -27,7 +27,7 @@
                     "docstring": "\"\"\"\n        End serialization -- end the document.\n        \"\"\"",
                     "name": "end_serialization",
                     "namespace": "django.core.serializers.xml_serializer.Serializer.end_serialization",
-                    "class_name": "",
+                    "class_name": "django.core.serializers.xml_serializer.Serializer",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -35,7 +35,7 @@
                     "docstring": "\"\"\"\n        Called as each object is handled.\n        \"\"\"",
                     "name": "start_object",
                     "namespace": "django.core.serializers.xml_serializer.Serializer.start_object",
-                    "class_name": "",
+                    "class_name": "django.core.serializers.xml_serializer.Serializer",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -43,7 +43,7 @@
                     "docstring": "\"\"\"\n        Called after handling all fields for an object.\n        \"\"\"",
                     "name": "end_object",
                     "namespace": "django.core.serializers.xml_serializer.Serializer.end_object",
-                    "class_name": "",
+                    "class_name": "django.core.serializers.xml_serializer.Serializer",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -51,7 +51,7 @@
                     "docstring": "\"\"\"\n        Handle each field on an object (except for ForeignKeys and\n        ManyToManyFields).\n        \"\"\"",
                     "name": "handle_field",
                     "namespace": "django.core.serializers.xml_serializer.Serializer.handle_field",
-                    "class_name": "",
+                    "class_name": "django.core.serializers.xml_serializer.Serializer",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -59,7 +59,7 @@
                     "docstring": "\"\"\"\n        Handle a ForeignKey (they need to be treated slightly\n        differently from regular fields).\n        \"\"\"",
                     "name": "handle_fk_field",
                     "namespace": "django.core.serializers.xml_serializer.Serializer.handle_fk_field",
-                    "class_name": "",
+                    "class_name": "django.core.serializers.xml_serializer.Serializer",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -67,7 +67,7 @@
                     "docstring": "\"\"\"\n        Handle a ManyToManyField. Related objects are only serialized as\n        references to the object's PK (i.e. the related *data* is not dumped,\n        just the relation).\n        \"\"\"",
                     "name": "handle_m2m_field",
                     "namespace": "django.core.serializers.xml_serializer.Serializer.handle_m2m_field",
-                    "class_name": "",
+                    "class_name": "django.core.serializers.xml_serializer.Serializer",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -75,7 +75,7 @@
                     "docstring": "\"\"\"Output the <field> element for relational fields.\"\"\"",
                     "name": "_start_relational_field",
                     "namespace": "django.core.serializers.xml_serializer.Serializer._start_relational_field",
-                    "class_name": "",
+                    "class_name": "django.core.serializers.xml_serializer.Serializer",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -90,7 +90,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.core.serializers.xml_serializer.Deserializer.__init__",
-                    "class_name": "",
+                    "class_name": "django.core.serializers.xml_serializer.Deserializer",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -98,7 +98,7 @@
                     "docstring": "\"\"\"Create a hardened XML parser (no custom/external entities).\"\"\"",
                     "name": "_make_parser",
                     "namespace": "django.core.serializers.xml_serializer.Deserializer._make_parser",
-                    "class_name": "",
+                    "class_name": "django.core.serializers.xml_serializer.Deserializer",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -106,7 +106,7 @@
                     "docstring": "",
                     "name": "__next__",
                     "namespace": "django.core.serializers.xml_serializer.Deserializer.__next__",
-                    "class_name": "",
+                    "class_name": "django.core.serializers.xml_serializer.Deserializer",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -114,7 +114,7 @@
                     "docstring": "\"\"\"Convert an <object> node to a DeserializedObject.\"\"\"",
                     "name": "_handle_object",
                     "namespace": "django.core.serializers.xml_serializer.Deserializer._handle_object",
-                    "class_name": "",
+                    "class_name": "django.core.serializers.xml_serializer.Deserializer",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -122,7 +122,7 @@
                     "docstring": "\"\"\"\n        Handle a <field> node for a ForeignKey\n        \"\"\"",
                     "name": "_handle_fk_field_node",
                     "namespace": "django.core.serializers.xml_serializer.Deserializer._handle_fk_field_node",
-                    "class_name": "",
+                    "class_name": "django.core.serializers.xml_serializer.Deserializer",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -130,7 +130,7 @@
                     "docstring": "\"\"\"\n        Handle a <field> node for a ManyToManyField.\n        \"\"\"",
                     "name": "_handle_m2m_field_node",
                     "namespace": "django.core.serializers.xml_serializer.Deserializer._handle_m2m_field_node",
-                    "class_name": "",
+                    "class_name": "django.core.serializers.xml_serializer.Deserializer",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -138,7 +138,7 @@
                     "docstring": "\"\"\"\n        Look up a model from a <object model=...> or a <field rel=... to=...>\n        node.\n        \"\"\"",
                     "name": "_get_model_from_node",
                     "namespace": "django.core.serializers.xml_serializer.Deserializer._get_model_from_node",
-                    "class_name": "",
+                    "class_name": "django.core.serializers.xml_serializer.Deserializer",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -153,7 +153,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.core.serializers.xml_serializer.DefusedExpatParser.__init__",
-                    "class_name": "",
+                    "class_name": "django.core.serializers.xml_serializer.DefusedExpatParser",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -161,7 +161,7 @@
                     "docstring": "",
                     "name": "start_doctype_decl",
                     "namespace": "django.core.serializers.xml_serializer.DefusedExpatParser.start_doctype_decl",
-                    "class_name": "",
+                    "class_name": "django.core.serializers.xml_serializer.DefusedExpatParser",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -169,7 +169,7 @@
                     "docstring": "",
                     "name": "entity_decl",
                     "namespace": "django.core.serializers.xml_serializer.DefusedExpatParser.entity_decl",
-                    "class_name": "",
+                    "class_name": "django.core.serializers.xml_serializer.DefusedExpatParser",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -177,7 +177,7 @@
                     "docstring": "",
                     "name": "unparsed_entity_decl",
                     "namespace": "django.core.serializers.xml_serializer.DefusedExpatParser.unparsed_entity_decl",
-                    "class_name": "",
+                    "class_name": "django.core.serializers.xml_serializer.DefusedExpatParser",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -185,7 +185,7 @@
                     "docstring": "",
                     "name": "external_entity_ref_handler",
                     "namespace": "django.core.serializers.xml_serializer.DefusedExpatParser.external_entity_ref_handler",
-                    "class_name": "",
+                    "class_name": "django.core.serializers.xml_serializer.DefusedExpatParser",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -193,7 +193,7 @@
                     "docstring": "",
                     "name": "reset",
                     "namespace": "django.core.serializers.xml_serializer.DefusedExpatParser.reset",
-                    "class_name": "",
+                    "class_name": "django.core.serializers.xml_serializer.DefusedExpatParser",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -208,7 +208,7 @@
                     "docstring": "",
                     "name": "__repr__",
                     "namespace": "django.core.serializers.xml_serializer.DefusedXmlException.__repr__",
-                    "class_name": "",
+                    "class_name": "django.core.serializers.xml_serializer.DefusedXmlException",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -223,7 +223,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.core.serializers.xml_serializer.DTDForbidden.__init__",
-                    "class_name": "",
+                    "class_name": "django.core.serializers.xml_serializer.DTDForbidden",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -231,7 +231,7 @@
                     "docstring": "",
                     "name": "__str__",
                     "namespace": "django.core.serializers.xml_serializer.DTDForbidden.__str__",
-                    "class_name": "",
+                    "class_name": "django.core.serializers.xml_serializer.DTDForbidden",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -246,7 +246,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.core.serializers.xml_serializer.EntitiesForbidden.__init__",
-                    "class_name": "",
+                    "class_name": "django.core.serializers.xml_serializer.EntitiesForbidden",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -254,7 +254,7 @@
                     "docstring": "",
                     "name": "__str__",
                     "namespace": "django.core.serializers.xml_serializer.EntitiesForbidden.__str__",
-                    "class_name": "",
+                    "class_name": "django.core.serializers.xml_serializer.EntitiesForbidden",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -269,7 +269,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.core.serializers.xml_serializer.ExternalReferenceForbidden.__init__",
-                    "class_name": "",
+                    "class_name": "django.core.serializers.xml_serializer.ExternalReferenceForbidden",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -277,7 +277,7 @@
                     "docstring": "",
                     "name": "__str__",
                     "namespace": "django.core.serializers.xml_serializer.ExternalReferenceForbidden.__str__",
-                    "class_name": "",
+                    "class_name": "django.core.serializers.xml_serializer.ExternalReferenceForbidden",
                     "module_name": "",
                     "package_name": ""
                 }

@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Take a sequence of N fields and a sequence of M rows of values, and\n        generate placeholder SQL and parameters for each field and value.\n        Return a pair containing:\n         * a sequence of M rows of N SQL placeholder strings, and\n         * a sequence of M rows of corresponding parameter values.\n\n        Each placeholder string may contain any number of '%s' interpolation\n        strings, and each parameter row will contain exactly as many params\n        as the total number of '%s's in the corresponding placeholder row.\n        \"\"\"",
     "name": "assemble_as_sql",
     "namespace": "django.db.models.sql.compiler.SQLInsertCompiler.assemble_as_sql",
-    "class_name": "",
+    "class_name": "django.db.models.sql.compiler.SQLInsertCompiler",
     "module_name": "",
     "package_name": ""
 }

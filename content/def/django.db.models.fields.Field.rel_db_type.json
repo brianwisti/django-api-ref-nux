@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return the data type that a related field pointing to this field should\n        use. For example, this method is called by ForeignKey and OneToOneField\n        to determine its data type.\n        \"\"\"",
     "name": "rel_db_type",
     "namespace": "django.db.models.fields.Field.rel_db_type",
-    "class_name": "",
+    "class_name": "django.db.models.fields.Field",
     "module_name": "",
     "package_name": ""
 }

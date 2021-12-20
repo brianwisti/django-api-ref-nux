@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Get a date list by calling `queryset.dates/datetimes()`, checking\n        along the way for empty lists that aren't allowed.\n        \"\"\"",
     "name": "get_date_list",
     "namespace": "django.views.generic.dates.BaseDateListView.get_date_list",
-    "class_name": "",
+    "class_name": "django.views.generic.dates.BaseDateListView",
     "module_name": "",
     "package_name": ""
 }

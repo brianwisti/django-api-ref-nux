@@ -11,7 +11,7 @@
                     "docstring": "\"\"\"\n        In GeoRSS coordinate pairs are ordered by lat/lon and separated by\n        a single white space. Given a tuple of coordinates, return a string\n        GeoRSS representation.\n        \"\"\"",
                     "name": "georss_coords",
                     "namespace": "django.contrib.gis.feeds.GeoFeedMixin.georss_coords",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.feeds.GeoFeedMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "\"\"\"\n        Adds a GeoRSS point with the given coords using the given handler.\n        Handles the differences between simple GeoRSS and the more popular\n        W3C Geo specification.\n        \"\"\"",
                     "name": "add_georss_point",
                     "namespace": "django.contrib.gis.feeds.GeoFeedMixin.add_georss_point",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.feeds.GeoFeedMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -27,7 +27,7 @@
                     "docstring": "\"\"\"Add a GeoRSS XML element using the given item and handler.\"\"\"",
                     "name": "add_georss_element",
                     "namespace": "django.contrib.gis.feeds.GeoFeedMixin.add_georss_element",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.feeds.GeoFeedMixin",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -42,7 +42,7 @@
                     "docstring": "",
                     "name": "rss_attributes",
                     "namespace": "django.contrib.gis.feeds.GeoRSSFeed.rss_attributes",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.feeds.GeoRSSFeed",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -50,7 +50,7 @@
                     "docstring": "",
                     "name": "add_item_elements",
                     "namespace": "django.contrib.gis.feeds.GeoRSSFeed.add_item_elements",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.feeds.GeoRSSFeed",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -58,7 +58,7 @@
                     "docstring": "",
                     "name": "add_root_elements",
                     "namespace": "django.contrib.gis.feeds.GeoRSSFeed.add_root_elements",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.feeds.GeoRSSFeed",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -73,7 +73,7 @@
                     "docstring": "",
                     "name": "root_attributes",
                     "namespace": "django.contrib.gis.feeds.GeoAtom1Feed.root_attributes",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.feeds.GeoAtom1Feed",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -81,7 +81,7 @@
                     "docstring": "",
                     "name": "add_item_elements",
                     "namespace": "django.contrib.gis.feeds.GeoAtom1Feed.add_item_elements",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.feeds.GeoAtom1Feed",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -89,7 +89,7 @@
                     "docstring": "",
                     "name": "add_root_elements",
                     "namespace": "django.contrib.gis.feeds.GeoAtom1Feed.add_root_elements",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.feeds.GeoAtom1Feed",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -104,7 +104,7 @@
                     "docstring": "",
                     "name": "rss_attributes",
                     "namespace": "django.contrib.gis.feeds.W3CGeoFeed.rss_attributes",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.feeds.W3CGeoFeed",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -112,7 +112,7 @@
                     "docstring": "",
                     "name": "add_item_elements",
                     "namespace": "django.contrib.gis.feeds.W3CGeoFeed.add_item_elements",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.feeds.W3CGeoFeed",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -120,7 +120,7 @@
                     "docstring": "",
                     "name": "add_root_elements",
                     "namespace": "django.contrib.gis.feeds.W3CGeoFeed.add_root_elements",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.feeds.W3CGeoFeed",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -135,7 +135,7 @@
                     "docstring": "",
                     "name": "feed_extra_kwargs",
                     "namespace": "django.contrib.gis.feeds.Feed.feed_extra_kwargs",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.feeds.Feed",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -143,7 +143,7 @@
                     "docstring": "",
                     "name": "item_extra_kwargs",
                     "namespace": "django.contrib.gis.feeds.Feed.item_extra_kwargs",
-                    "class_name": "",
+                    "class_name": "django.contrib.gis.feeds.Feed",
                     "module_name": "",
                     "package_name": ""
                 }

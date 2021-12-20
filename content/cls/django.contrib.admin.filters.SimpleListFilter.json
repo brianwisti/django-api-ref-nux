@@ -9,7 +9,7 @@
             "docstring": "",
             "name": "__init__",
             "namespace": "django.contrib.admin.filters.SimpleListFilter.__init__",
-            "class_name": "",
+            "class_name": "django.contrib.admin.filters.SimpleListFilter",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "",
             "name": "has_output",
             "namespace": "django.contrib.admin.filters.SimpleListFilter.has_output",
-            "class_name": "",
+            "class_name": "django.contrib.admin.filters.SimpleListFilter",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "\"\"\"\n        Return the value (in string format) provided in the request's\n        query string for this filter, if any, or None if the value wasn't\n        provided.\n        \"\"\"",
             "name": "value",
             "namespace": "django.contrib.admin.filters.SimpleListFilter.value",
-            "class_name": "",
+            "class_name": "django.contrib.admin.filters.SimpleListFilter",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "\"\"\"\n        Must be overridden to return a list of tuples (value, verbose value)\n        \"\"\"",
             "name": "lookups",
             "namespace": "django.contrib.admin.filters.SimpleListFilter.lookups",
-            "class_name": "",
+            "class_name": "django.contrib.admin.filters.SimpleListFilter",
             "module_name": "",
             "package_name": ""
         },
@@ -41,7 +41,7 @@
             "docstring": "",
             "name": "expected_parameters",
             "namespace": "django.contrib.admin.filters.SimpleListFilter.expected_parameters",
-            "class_name": "",
+            "class_name": "django.contrib.admin.filters.SimpleListFilter",
             "module_name": "",
             "package_name": ""
         },
@@ -49,7 +49,7 @@
             "docstring": "",
             "name": "choices",
             "namespace": "django.contrib.admin.filters.SimpleListFilter.choices",
-            "class_name": "",
+            "class_name": "django.contrib.admin.filters.SimpleListFilter",
             "module_name": "",
             "package_name": ""
         }

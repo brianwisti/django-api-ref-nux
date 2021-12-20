@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return an encoded string of all query string arguments.\n\n        `safe` specifies characters which don't require quoting, for example::\n\n            >>> q = QueryDict(mutable=True)\n            >>> q['next'] = '/a&b/'\n            >>> q.urlencode()\n            'next=%2Fa%26b%2F'\n            >>> q.urlencode(safe='/')\n            'next=/a%26b/'\n        \"\"\"",
     "name": "urlencode",
     "namespace": "django.http.request.QueryDict.urlencode",
-    "class_name": "",
+    "class_name": "django.http.request.QueryDict",
     "module_name": "",
     "package_name": ""
 }

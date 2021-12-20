@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Execute the specified update. Return the number of rows affected by\n        the primary update query. The \"primary update query\" is the first\n        non-empty query that is executed. Row counts for any subsequent,\n        related queries are not available.\n        \"\"\"",
     "name": "execute_sql",
     "namespace": "django.db.models.sql.compiler.SQLUpdateCompiler.execute_sql",
-    "class_name": "",
+    "class_name": "django.db.models.sql.compiler.SQLUpdateCompiler",
     "module_name": "",
     "package_name": ""
 }

@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Set the related instance through the reverse relation.\n\n        With the example above, when setting ``place.restaurant = restaurant``:\n\n        - ``self`` is the descriptor managing the ``restaurant`` attribute\n        - ``instance`` is the ``place`` instance\n        - ``value`` is the ``restaurant`` instance on the right of the equal sign\n\n        Keep in mind that ``Restaurant`` holds the foreign key to ``Place``.\n        \"\"\"",
     "name": "__set__",
     "namespace": "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor.__set__",
-    "class_name": "",
+    "class_name": "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor",
     "module_name": "",
     "package_name": ""
 }

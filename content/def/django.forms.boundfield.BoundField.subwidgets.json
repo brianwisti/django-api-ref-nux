@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Most widgets yield a single subwidget, but others like RadioSelect and\n        CheckboxSelectMultiple produce one subwidget for each choice.\n\n        This property is cached so that only one database query occurs when\n        rendering ModelChoiceFields.\n        \"\"\"",
     "name": "subwidgets",
     "namespace": "django.forms.boundfield.BoundField.subwidgets",
-    "class_name": "",
+    "class_name": "django.forms.boundfield.BoundField",
     "module_name": "",
     "package_name": ""
 }

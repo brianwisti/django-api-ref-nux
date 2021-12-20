@@ -9,7 +9,7 @@
             "docstring": "",
             "name": "__init__",
             "namespace": "django.forms.fields.DecimalField.__init__",
-            "class_name": "",
+            "class_name": "django.forms.fields.DecimalField",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "\"\"\"\n        Validate that the input is a decimal number. Return a Decimal\n        instance or None for empty values. Ensure that there are no more\n        than max_digits in the number and no more than decimal_places digits\n        after the decimal point.\n        \"\"\"",
             "name": "to_python",
             "namespace": "django.forms.fields.DecimalField.to_python",
-            "class_name": "",
+            "class_name": "django.forms.fields.DecimalField",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "",
             "name": "validate",
             "namespace": "django.forms.fields.DecimalField.validate",
-            "class_name": "",
+            "class_name": "django.forms.fields.DecimalField",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "",
             "name": "widget_attrs",
             "namespace": "django.forms.fields.DecimalField.widget_attrs",
-            "class_name": "",
+            "class_name": "django.forms.fields.DecimalField",
             "module_name": "",
             "package_name": ""
         }

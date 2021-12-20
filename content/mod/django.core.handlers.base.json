@@ -11,7 +11,7 @@
                     "docstring": "\"\"\"\n        Populate middleware lists from settings.MIDDLEWARE.\n\n        Must be called after the environment is fixed (see __call__ in subclasses).\n        \"\"\"",
                     "name": "load_middleware",
                     "namespace": "django.core.handlers.base.BaseHandler.load_middleware",
-                    "class_name": "",
+                    "class_name": "django.core.handlers.base.BaseHandler",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "\"\"\"\n        Adapt a method to be in the correct \"mode\":\n        - If is_async is False:\n          - Synchronous methods are left alone\n          - Asynchronous methods are wrapped with async_to_sync\n        - If is_async is True:\n          - Synchronous methods are wrapped with sync_to_async()\n          - Asynchronous methods are left alone\n        \"\"\"",
                     "name": "adapt_method_mode",
                     "namespace": "django.core.handlers.base.BaseHandler.adapt_method_mode",
-                    "class_name": "",
+                    "class_name": "django.core.handlers.base.BaseHandler",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -27,7 +27,7 @@
                     "docstring": "\"\"\"Return an HttpResponse object for the given HttpRequest.\"\"\"",
                     "name": "get_response",
                     "namespace": "django.core.handlers.base.BaseHandler.get_response",
-                    "class_name": "",
+                    "class_name": "django.core.handlers.base.BaseHandler",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -35,7 +35,7 @@
                     "docstring": "\"\"\"\n        Asynchronous version of get_response.\n\n        Funneling everything, including WSGI, into a single async\n        get_response() is too slow. Avoid the context switch by using\n        a separate async response path.\n        \"\"\"",
                     "name": "get_response_async",
                     "namespace": "django.core.handlers.base.BaseHandler.get_response_async",
-                    "class_name": "",
+                    "class_name": "django.core.handlers.base.BaseHandler",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -43,7 +43,7 @@
                     "docstring": "\"\"\"\n        Resolve and call the view, then apply view, exception, and\n        template_response middleware. This method is everything that happens\n        inside the request/response middleware.\n        \"\"\"",
                     "name": "_get_response",
                     "namespace": "django.core.handlers.base.BaseHandler._get_response",
-                    "class_name": "",
+                    "class_name": "django.core.handlers.base.BaseHandler",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -51,7 +51,7 @@
                     "docstring": "\"\"\"\n        Resolve and call the view, then apply view, exception, and\n        template_response middleware. This method is everything that happens\n        inside the request/response middleware.\n        \"\"\"",
                     "name": "_get_response_async",
                     "namespace": "django.core.handlers.base.BaseHandler._get_response_async",
-                    "class_name": "",
+                    "class_name": "django.core.handlers.base.BaseHandler",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -59,7 +59,7 @@
                     "docstring": "\"\"\"\n        Retrieve/set the urlconf for the request. Return the view resolved,\n        with its args and kwargs.\n        \"\"\"",
                     "name": "resolve_request",
                     "namespace": "django.core.handlers.base.BaseHandler.resolve_request",
-                    "class_name": "",
+                    "class_name": "django.core.handlers.base.BaseHandler",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -67,7 +67,7 @@
                     "docstring": "\"\"\"\n        Raise an error if the view returned None or an uncalled coroutine.\n        \"\"\"",
                     "name": "check_response",
                     "namespace": "django.core.handlers.base.BaseHandler.check_response",
-                    "class_name": "",
+                    "class_name": "django.core.handlers.base.BaseHandler",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -75,7 +75,7 @@
                     "docstring": "",
                     "name": "make_view_atomic",
                     "namespace": "django.core.handlers.base.BaseHandler.make_view_atomic",
-                    "class_name": "",
+                    "class_name": "django.core.handlers.base.BaseHandler",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -83,7 +83,7 @@
                     "docstring": "\"\"\"\n        Pass the exception to the exception middleware. If no middleware\n        return a response for this exception, return None.\n        \"\"\"",
                     "name": "process_exception_by_middleware",
                     "namespace": "django.core.handlers.base.BaseHandler.process_exception_by_middleware",
-                    "class_name": "",
+                    "class_name": "django.core.handlers.base.BaseHandler",
                     "module_name": "",
                     "package_name": ""
                 }

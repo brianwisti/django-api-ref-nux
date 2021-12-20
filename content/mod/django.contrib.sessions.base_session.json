@@ -11,7 +11,7 @@
                     "docstring": "\"\"\"\n        Return the given session dictionary serialized and encoded as a string.\n        \"\"\"",
                     "name": "encode",
                     "namespace": "django.contrib.sessions.base_session.BaseSessionManager.encode",
-                    "class_name": "",
+                    "class_name": "django.contrib.sessions.base_session.BaseSessionManager",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "",
                     "name": "save",
                     "namespace": "django.contrib.sessions.base_session.BaseSessionManager.save",
-                    "class_name": "",
+                    "class_name": "django.contrib.sessions.base_session.BaseSessionManager",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -34,7 +34,7 @@
                     "docstring": "",
                     "name": "__str__",
                     "namespace": "django.contrib.sessions.base_session.AbstractBaseSession.__str__",
-                    "class_name": "",
+                    "class_name": "django.contrib.sessions.base_session.AbstractBaseSession",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -42,7 +42,7 @@
                     "docstring": "",
                     "name": "get_session_store_class",
                     "namespace": "django.contrib.sessions.base_session.AbstractBaseSession.get_session_store_class",
-                    "class_name": "",
+                    "class_name": "django.contrib.sessions.base_session.AbstractBaseSession",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -50,7 +50,7 @@
                     "docstring": "",
                     "name": "get_decoded",
                     "namespace": "django.contrib.sessions.base_session.AbstractBaseSession.get_decoded",
-                    "class_name": "",
+                    "class_name": "django.contrib.sessions.base_session.AbstractBaseSession",
                     "module_name": "",
                     "package_name": ""
                 }

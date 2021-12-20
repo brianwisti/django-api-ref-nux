@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return the current Site based on the SITE_ID in the project's settings.\n        If SITE_ID isn't defined, return the site with domain matching\n        request.get_host(). The ``Site`` object is cached the first time it's\n        retrieved from the database.\n        \"\"\"",
     "name": "get_current",
     "namespace": "django.contrib.sites.models.SiteManager.get_current",
-    "class_name": "",
+    "class_name": "django.contrib.sites.models.SiteManager",
     "module_name": "",
     "package_name": ""
 }

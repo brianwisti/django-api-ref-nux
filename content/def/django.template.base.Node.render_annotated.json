@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Render the node. If debug is True and an exception occurs during\n        rendering, the exception is annotated with contextual line information\n        where it occurred in the template. For internal usage this method is\n        preferred over using the render method directly.\n        \"\"\"",
     "name": "render_annotated",
     "namespace": "django.template.base.Node.render_annotated",
-    "class_name": "",
+    "class_name": "django.template.base.Node",
     "module_name": "",
     "package_name": ""
 }

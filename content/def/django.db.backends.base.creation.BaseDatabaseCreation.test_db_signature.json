@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return a tuple with elements of self.connection.settings_dict (a\n        DATABASES setting value) that uniquely identify a database\n        accordingly to the RDBMS particularities.\n        \"\"\"",
     "name": "test_db_signature",
     "namespace": "django.db.backends.base.creation.BaseDatabaseCreation.test_db_signature",
-    "class_name": "",
+    "class_name": "django.db.backends.base.creation.BaseDatabaseCreation",
     "module_name": "",
     "package_name": ""
 }

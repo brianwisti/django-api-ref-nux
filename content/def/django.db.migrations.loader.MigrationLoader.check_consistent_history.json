@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Raise InconsistentMigrationHistory if any applied migrations have\n        unapplied dependencies.\n        \"\"\"",
     "name": "check_consistent_history",
     "namespace": "django.db.migrations.loader.MigrationLoader.check_consistent_history",
-    "class_name": "",
+    "class_name": "django.db.migrations.loader.MigrationLoader",
     "module_name": "",
     "package_name": ""
 }

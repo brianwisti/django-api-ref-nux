@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Hook for a database backend to use the cursor description to\n        match a Django field type to a database column.\n\n        For Oracle, the column data_type on its own is insufficient to\n        distinguish between a FloatField and IntegerField, for example.\n        \"\"\"",
     "name": "get_field_type",
     "namespace": "django.db.backends.base.introspection.BaseDatabaseIntrospection.get_field_type",
-    "class_name": "",
+    "class_name": "django.db.backends.base.introspection.BaseDatabaseIntrospection",
     "module_name": "",
     "package_name": ""
 }

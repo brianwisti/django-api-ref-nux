@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "date_extract_sql",
                     "namespace": "django.db.backends.mysql.operations.DatabaseOperations.date_extract_sql",
-                    "class_name": "",
+                    "class_name": "django.db.backends.mysql.operations.DatabaseOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "",
                     "name": "date_trunc_sql",
                     "namespace": "django.db.backends.mysql.operations.DatabaseOperations.date_trunc_sql",
-                    "class_name": "",
+                    "class_name": "django.db.backends.mysql.operations.DatabaseOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -27,7 +27,7 @@
                     "docstring": "",
                     "name": "_prepare_tzname_delta",
                     "namespace": "django.db.backends.mysql.operations.DatabaseOperations._prepare_tzname_delta",
-                    "class_name": "",
+                    "class_name": "django.db.backends.mysql.operations.DatabaseOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -35,7 +35,7 @@
                     "docstring": "",
                     "name": "_convert_field_to_tz",
                     "namespace": "django.db.backends.mysql.operations.DatabaseOperations._convert_field_to_tz",
-                    "class_name": "",
+                    "class_name": "django.db.backends.mysql.operations.DatabaseOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -43,7 +43,7 @@
                     "docstring": "",
                     "name": "datetime_cast_date_sql",
                     "namespace": "django.db.backends.mysql.operations.DatabaseOperations.datetime_cast_date_sql",
-                    "class_name": "",
+                    "class_name": "django.db.backends.mysql.operations.DatabaseOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -51,7 +51,7 @@
                     "docstring": "",
                     "name": "datetime_cast_time_sql",
                     "namespace": "django.db.backends.mysql.operations.DatabaseOperations.datetime_cast_time_sql",
-                    "class_name": "",
+                    "class_name": "django.db.backends.mysql.operations.DatabaseOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -59,7 +59,7 @@
                     "docstring": "",
                     "name": "datetime_extract_sql",
                     "namespace": "django.db.backends.mysql.operations.DatabaseOperations.datetime_extract_sql",
-                    "class_name": "",
+                    "class_name": "django.db.backends.mysql.operations.DatabaseOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -67,7 +67,7 @@
                     "docstring": "",
                     "name": "datetime_trunc_sql",
                     "namespace": "django.db.backends.mysql.operations.DatabaseOperations.datetime_trunc_sql",
-                    "class_name": "",
+                    "class_name": "django.db.backends.mysql.operations.DatabaseOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -75,7 +75,7 @@
                     "docstring": "",
                     "name": "time_trunc_sql",
                     "namespace": "django.db.backends.mysql.operations.DatabaseOperations.time_trunc_sql",
-                    "class_name": "",
+                    "class_name": "django.db.backends.mysql.operations.DatabaseOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -83,7 +83,7 @@
                     "docstring": "\"\"\"\n        Given a cursor object that has just performed an INSERT...RETURNING\n        statement into a table, return the tuple of returned data.\n        \"\"\"",
                     "name": "fetch_returned_insert_rows",
                     "namespace": "django.db.backends.mysql.operations.DatabaseOperations.fetch_returned_insert_rows",
-                    "class_name": "",
+                    "class_name": "django.db.backends.mysql.operations.DatabaseOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -91,7 +91,7 @@
                     "docstring": "",
                     "name": "format_for_duration_arithmetic",
                     "namespace": "django.db.backends.mysql.operations.DatabaseOperations.format_for_duration_arithmetic",
-                    "class_name": "",
+                    "class_name": "django.db.backends.mysql.operations.DatabaseOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -99,7 +99,7 @@
                     "docstring": "\"\"\"\n        \"ORDER BY NULL\" prevents MySQL from implicitly ordering by grouped\n        columns. If no ordering would otherwise be applied, we don't want any\n        implicit sorting going on.\n        \"\"\"",
                     "name": "force_no_ordering",
                     "namespace": "django.db.backends.mysql.operations.DatabaseOperations.force_no_ordering",
-                    "class_name": "",
+                    "class_name": "django.db.backends.mysql.operations.DatabaseOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -107,7 +107,7 @@
                     "docstring": "",
                     "name": "adapt_decimalfield_value",
                     "namespace": "django.db.backends.mysql.operations.DatabaseOperations.adapt_decimalfield_value",
-                    "class_name": "",
+                    "class_name": "django.db.backends.mysql.operations.DatabaseOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -115,7 +115,7 @@
                     "docstring": "",
                     "name": "last_executed_query",
                     "namespace": "django.db.backends.mysql.operations.DatabaseOperations.last_executed_query",
-                    "class_name": "",
+                    "class_name": "django.db.backends.mysql.operations.DatabaseOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -123,7 +123,7 @@
                     "docstring": "",
                     "name": "no_limit_value",
                     "namespace": "django.db.backends.mysql.operations.DatabaseOperations.no_limit_value",
-                    "class_name": "",
+                    "class_name": "django.db.backends.mysql.operations.DatabaseOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -131,7 +131,7 @@
                     "docstring": "",
                     "name": "quote_name",
                     "namespace": "django.db.backends.mysql.operations.DatabaseOperations.quote_name",
-                    "class_name": "",
+                    "class_name": "django.db.backends.mysql.operations.DatabaseOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -139,7 +139,7 @@
                     "docstring": "",
                     "name": "return_insert_columns",
                     "namespace": "django.db.backends.mysql.operations.DatabaseOperations.return_insert_columns",
-                    "class_name": "",
+                    "class_name": "django.db.backends.mysql.operations.DatabaseOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -147,7 +147,7 @@
                     "docstring": "",
                     "name": "sql_flush",
                     "namespace": "django.db.backends.mysql.operations.DatabaseOperations.sql_flush",
-                    "class_name": "",
+                    "class_name": "django.db.backends.mysql.operations.DatabaseOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -155,7 +155,7 @@
                     "docstring": "",
                     "name": "sequence_reset_by_name_sql",
                     "namespace": "django.db.backends.mysql.operations.DatabaseOperations.sequence_reset_by_name_sql",
-                    "class_name": "",
+                    "class_name": "django.db.backends.mysql.operations.DatabaseOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -163,7 +163,7 @@
                     "docstring": "",
                     "name": "validate_autopk_value",
                     "namespace": "django.db.backends.mysql.operations.DatabaseOperations.validate_autopk_value",
-                    "class_name": "",
+                    "class_name": "django.db.backends.mysql.operations.DatabaseOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -171,7 +171,7 @@
                     "docstring": "",
                     "name": "adapt_datetimefield_value",
                     "namespace": "django.db.backends.mysql.operations.DatabaseOperations.adapt_datetimefield_value",
-                    "class_name": "",
+                    "class_name": "django.db.backends.mysql.operations.DatabaseOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -179,7 +179,7 @@
                     "docstring": "",
                     "name": "adapt_timefield_value",
                     "namespace": "django.db.backends.mysql.operations.DatabaseOperations.adapt_timefield_value",
-                    "class_name": "",
+                    "class_name": "django.db.backends.mysql.operations.DatabaseOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -187,7 +187,7 @@
                     "docstring": "",
                     "name": "max_name_length",
                     "namespace": "django.db.backends.mysql.operations.DatabaseOperations.max_name_length",
-                    "class_name": "",
+                    "class_name": "django.db.backends.mysql.operations.DatabaseOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -195,7 +195,7 @@
                     "docstring": "",
                     "name": "pk_default_value",
                     "namespace": "django.db.backends.mysql.operations.DatabaseOperations.pk_default_value",
-                    "class_name": "",
+                    "class_name": "django.db.backends.mysql.operations.DatabaseOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -203,7 +203,7 @@
                     "docstring": "",
                     "name": "bulk_insert_sql",
                     "namespace": "django.db.backends.mysql.operations.DatabaseOperations.bulk_insert_sql",
-                    "class_name": "",
+                    "class_name": "django.db.backends.mysql.operations.DatabaseOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -211,7 +211,7 @@
                     "docstring": "",
                     "name": "combine_expression",
                     "namespace": "django.db.backends.mysql.operations.DatabaseOperations.combine_expression",
-                    "class_name": "",
+                    "class_name": "django.db.backends.mysql.operations.DatabaseOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -219,7 +219,7 @@
                     "docstring": "",
                     "name": "get_db_converters",
                     "namespace": "django.db.backends.mysql.operations.DatabaseOperations.get_db_converters",
-                    "class_name": "",
+                    "class_name": "django.db.backends.mysql.operations.DatabaseOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -227,7 +227,7 @@
                     "docstring": "",
                     "name": "convert_booleanfield_value",
                     "namespace": "django.db.backends.mysql.operations.DatabaseOperations.convert_booleanfield_value",
-                    "class_name": "",
+                    "class_name": "django.db.backends.mysql.operations.DatabaseOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -235,7 +235,7 @@
                     "docstring": "",
                     "name": "convert_datetimefield_value",
                     "namespace": "django.db.backends.mysql.operations.DatabaseOperations.convert_datetimefield_value",
-                    "class_name": "",
+                    "class_name": "django.db.backends.mysql.operations.DatabaseOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -243,7 +243,7 @@
                     "docstring": "",
                     "name": "convert_uuidfield_value",
                     "namespace": "django.db.backends.mysql.operations.DatabaseOperations.convert_uuidfield_value",
-                    "class_name": "",
+                    "class_name": "django.db.backends.mysql.operations.DatabaseOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -251,7 +251,7 @@
                     "docstring": "",
                     "name": "binary_placeholder_sql",
                     "namespace": "django.db.backends.mysql.operations.DatabaseOperations.binary_placeholder_sql",
-                    "class_name": "",
+                    "class_name": "django.db.backends.mysql.operations.DatabaseOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -259,7 +259,7 @@
                     "docstring": "",
                     "name": "subtract_temporals",
                     "namespace": "django.db.backends.mysql.operations.DatabaseOperations.subtract_temporals",
-                    "class_name": "",
+                    "class_name": "django.db.backends.mysql.operations.DatabaseOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -267,7 +267,7 @@
                     "docstring": "",
                     "name": "explain_query_prefix",
                     "namespace": "django.db.backends.mysql.operations.DatabaseOperations.explain_query_prefix",
-                    "class_name": "",
+                    "class_name": "django.db.backends.mysql.operations.DatabaseOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -275,7 +275,7 @@
                     "docstring": "",
                     "name": "regex_lookup",
                     "namespace": "django.db.backends.mysql.operations.DatabaseOperations.regex_lookup",
-                    "class_name": "",
+                    "class_name": "django.db.backends.mysql.operations.DatabaseOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -283,7 +283,7 @@
                     "docstring": "",
                     "name": "insert_statement",
                     "namespace": "django.db.backends.mysql.operations.DatabaseOperations.insert_statement",
-                    "class_name": "",
+                    "class_name": "django.db.backends.mysql.operations.DatabaseOperations",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -291,7 +291,7 @@
                     "docstring": "",
                     "name": "lookup_cast",
                     "namespace": "django.db.backends.mysql.operations.DatabaseOperations.lookup_cast",
-                    "class_name": "",
+                    "class_name": "django.db.backends.mysql.operations.DatabaseOperations",
                     "module_name": "",
                     "package_name": ""
                 }

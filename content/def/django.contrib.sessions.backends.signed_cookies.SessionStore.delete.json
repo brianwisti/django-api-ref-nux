@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        To delete, clear the session key and the underlying data structure\n        and set the modified flag so that the cookie is set on the client for\n        the current request.\n        \"\"\"",
     "name": "delete",
     "namespace": "django.contrib.sessions.backends.signed_cookies.SessionStore.delete",
-    "class_name": "",
+    "class_name": "django.contrib.sessions.backends.signed_cookies.SessionStore",
     "module_name": "",
     "package_name": ""
 }

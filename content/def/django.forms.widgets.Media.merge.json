@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Merge lists while trying to keep the relative order of the elements.\n        Warn if the lists have the same elements in a different relative order.\n\n        For static assets it can be important to have them included in the DOM\n        in a certain order. In JavaScript you may not be able to reference a\n        global or in CSS you might want to override a style.\n        \"\"\"",
     "name": "merge",
     "namespace": "django.forms.widgets.Media.merge",
-    "class_name": "",
+    "class_name": "django.forms.widgets.Media",
     "module_name": "",
     "package_name": ""
 }

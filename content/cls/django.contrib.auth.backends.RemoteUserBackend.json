@@ -9,7 +9,7 @@
             "docstring": "\"\"\"\n        The username passed as ``remote_user`` is considered trusted. Return\n        the ``User`` object with the given username. Create a new ``User``\n        object if ``create_unknown_user`` is ``True``.\n\n        Return None if ``create_unknown_user`` is ``False`` and a ``User``\n        object with the given username is not found in the database.\n        \"\"\"",
             "name": "authenticate",
             "namespace": "django.contrib.auth.backends.RemoteUserBackend.authenticate",
-            "class_name": "",
+            "class_name": "django.contrib.auth.backends.RemoteUserBackend",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "\"\"\"\n        Perform any cleaning on the \"username\" prior to using it to get or\n        create the user object.  Return the cleaned username.\n\n        By default, return the username unchanged.\n        \"\"\"",
             "name": "clean_username",
             "namespace": "django.contrib.auth.backends.RemoteUserBackend.clean_username",
-            "class_name": "",
+            "class_name": "django.contrib.auth.backends.RemoteUserBackend",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "\"\"\"\n        Configure a user after creation and return the updated user.\n\n        By default, return the user unmodified.\n        \"\"\"",
             "name": "configure_user",
             "namespace": "django.contrib.auth.backends.RemoteUserBackend.configure_user",
-            "class_name": "",
+            "class_name": "django.contrib.auth.backends.RemoteUserBackend",
             "module_name": "",
             "package_name": ""
         }

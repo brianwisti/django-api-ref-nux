@@ -2,7 +2,7 @@
     "docstring": "\"\"\"Get the number of seconds until the session expires.\n\n        Optionally, this function accepts `modification` and `expiry` keyword\n        arguments specifying the modification and expiry of the session.\n        \"\"\"",
     "name": "get_expiry_age",
     "namespace": "django.contrib.sessions.backends.base.SessionBase.get_expiry_age",
-    "class_name": "",
+    "class_name": "django.contrib.sessions.backends.base.SessionBase",
     "module_name": "",
     "package_name": ""
 }

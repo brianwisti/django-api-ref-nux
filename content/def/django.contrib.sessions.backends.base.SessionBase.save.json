@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Save the session data. If 'must_create' is True, create a new session\n        object (or raise CreateError). Otherwise, only update an existing\n        object and don't create one (raise UpdateError if needed).\n        \"\"\"",
     "name": "save",
     "namespace": "django.contrib.sessions.backends.base.SessionBase.save",
-    "class_name": "",
+    "class_name": "django.contrib.sessions.backends.base.SessionBase",
     "module_name": "",
     "package_name": ""
 }

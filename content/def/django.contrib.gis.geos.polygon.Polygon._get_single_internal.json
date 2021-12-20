@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return the ring at the specified index. The first index, 0, will\n        always return the exterior ring.  Indices > 0 will return the\n        interior ring at the given index (e.g., poly[1] and poly[2] would\n        return the first and second interior ring, respectively).\n\n        CAREFUL: Internal/External are not the same as Interior/Exterior!\n        Return a pointer from the existing geometries for use internally by the\n        object's methods. _get_single_external() returns a clone of the same\n        geometry for use by external code.\n        \"\"\"",
     "name": "_get_single_internal",
     "namespace": "django.contrib.gis.geos.polygon.Polygon._get_single_internal",
-    "class_name": "",
+    "class_name": "django.contrib.gis.geos.polygon.Polygon",
     "module_name": "",
     "package_name": ""
 }

@@ -2,7 +2,7 @@
     "docstring": "\"\"\"Return the freshly rendered content for the template and context\n        described by the TemplateResponse.\n\n        This *does not* set the final content of the response. To set the\n        response content, you must either call render(), or set the\n        content explicitly using the value of this property.\n        \"\"\"",
     "name": "rendered_content",
     "namespace": "django.template.response.SimpleTemplateResponse.rendered_content",
-    "class_name": "",
+    "class_name": "django.template.response.SimpleTemplateResponse",
     "module_name": "",
     "package_name": ""
 }

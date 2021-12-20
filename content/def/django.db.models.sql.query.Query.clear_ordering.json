@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Remove any ordering settings if the current query allows it without\n        side effects, set 'force' to True to clear the ordering regardless.\n        If 'clear_default' is True, there will be no ordering in the resulting\n        query (not even the model's default).\n        \"\"\"",
     "name": "clear_ordering",
     "namespace": "django.db.models.sql.query.Query.clear_ordering",
-    "class_name": "",
+    "class_name": "django.db.models.sql.query.Query",
     "module_name": "",
     "package_name": ""
 }

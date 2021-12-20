@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Change the aliases in change_map (which maps old-alias -> new-alias),\n        relabelling any references to them in select columns and the where\n        clause.\n        \"\"\"",
     "name": "change_aliases",
     "namespace": "django.db.models.sql.query.Query.change_aliases",
-    "class_name": "",
+    "class_name": "django.db.models.sql.query.Query",
     "module_name": "",
     "package_name": ""
 }

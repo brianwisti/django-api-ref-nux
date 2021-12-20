@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.core.files.uploadedfile.UploadedFile.__init__",
-                    "class_name": "",
+                    "class_name": "django.core.files.uploadedfile.UploadedFile",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "",
                     "name": "__repr__",
                     "namespace": "django.core.files.uploadedfile.UploadedFile.__repr__",
-                    "class_name": "",
+                    "class_name": "django.core.files.uploadedfile.UploadedFile",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -27,7 +27,7 @@
                     "docstring": "",
                     "name": "_get_name",
                     "namespace": "django.core.files.uploadedfile.UploadedFile._get_name",
-                    "class_name": "",
+                    "class_name": "django.core.files.uploadedfile.UploadedFile",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -35,7 +35,7 @@
                     "docstring": "",
                     "name": "_set_name",
                     "namespace": "django.core.files.uploadedfile.UploadedFile._set_name",
-                    "class_name": "",
+                    "class_name": "django.core.files.uploadedfile.UploadedFile",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -50,7 +50,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.core.files.uploadedfile.TemporaryUploadedFile.__init__",
-                    "class_name": "",
+                    "class_name": "django.core.files.uploadedfile.TemporaryUploadedFile",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -58,7 +58,7 @@
                     "docstring": "\"\"\"Return the full path of this file.\"\"\"",
                     "name": "temporary_file_path",
                     "namespace": "django.core.files.uploadedfile.TemporaryUploadedFile.temporary_file_path",
-                    "class_name": "",
+                    "class_name": "django.core.files.uploadedfile.TemporaryUploadedFile",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -66,7 +66,7 @@
                     "docstring": "",
                     "name": "close",
                     "namespace": "django.core.files.uploadedfile.TemporaryUploadedFile.close",
-                    "class_name": "",
+                    "class_name": "django.core.files.uploadedfile.TemporaryUploadedFile",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -81,7 +81,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.core.files.uploadedfile.InMemoryUploadedFile.__init__",
-                    "class_name": "",
+                    "class_name": "django.core.files.uploadedfile.InMemoryUploadedFile",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -89,7 +89,7 @@
                     "docstring": "",
                     "name": "open",
                     "namespace": "django.core.files.uploadedfile.InMemoryUploadedFile.open",
-                    "class_name": "",
+                    "class_name": "django.core.files.uploadedfile.InMemoryUploadedFile",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -97,7 +97,7 @@
                     "docstring": "",
                     "name": "chunks",
                     "namespace": "django.core.files.uploadedfile.InMemoryUploadedFile.chunks",
-                    "class_name": "",
+                    "class_name": "django.core.files.uploadedfile.InMemoryUploadedFile",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -105,7 +105,7 @@
                     "docstring": "",
                     "name": "multiple_chunks",
                     "namespace": "django.core.files.uploadedfile.InMemoryUploadedFile.multiple_chunks",
-                    "class_name": "",
+                    "class_name": "django.core.files.uploadedfile.InMemoryUploadedFile",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -120,7 +120,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.core.files.uploadedfile.SimpleUploadedFile.__init__",
-                    "class_name": "",
+                    "class_name": "django.core.files.uploadedfile.SimpleUploadedFile",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -128,7 +128,7 @@
                     "docstring": "\"\"\"\n        Create a SimpleUploadedFile object from a dictionary with keys:\n           - filename\n           - content-type\n           - content\n        \"\"\"",
                     "name": "from_dict",
                     "namespace": "django.core.files.uploadedfile.SimpleUploadedFile.from_dict",
-                    "class_name": "",
+                    "class_name": "django.core.files.uploadedfile.SimpleUploadedFile",
                     "module_name": "",
                     "package_name": ""
                 }

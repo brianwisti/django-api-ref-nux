@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Transform a date value to an object compatible with what is expected\n        by the backend driver for date columns.\n        The default implementation transforms the date to text, but that is not\n        necessary for Oracle.\n        \"\"\"",
     "name": "adapt_datefield_value",
     "namespace": "django.db.backends.oracle.operations.DatabaseOperations.adapt_datefield_value",
-    "class_name": "",
+    "class_name": "django.db.backends.oracle.operations.DatabaseOperations",
     "module_name": "",
     "package_name": ""
 }

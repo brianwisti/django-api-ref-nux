@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.template.loader_tags.BlockContext.__init__",
-                    "class_name": "",
+                    "class_name": "django.template.loader_tags.BlockContext",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "",
                     "name": "__repr__",
                     "namespace": "django.template.loader_tags.BlockContext.__repr__",
-                    "class_name": "",
+                    "class_name": "django.template.loader_tags.BlockContext",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -27,7 +27,7 @@
                     "docstring": "",
                     "name": "add_blocks",
                     "namespace": "django.template.loader_tags.BlockContext.add_blocks",
-                    "class_name": "",
+                    "class_name": "django.template.loader_tags.BlockContext",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -35,7 +35,7 @@
                     "docstring": "",
                     "name": "pop",
                     "namespace": "django.template.loader_tags.BlockContext.pop",
-                    "class_name": "",
+                    "class_name": "django.template.loader_tags.BlockContext",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -43,7 +43,7 @@
                     "docstring": "",
                     "name": "push",
                     "namespace": "django.template.loader_tags.BlockContext.push",
-                    "class_name": "",
+                    "class_name": "django.template.loader_tags.BlockContext",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -51,7 +51,7 @@
                     "docstring": "",
                     "name": "get_block",
                     "namespace": "django.template.loader_tags.BlockContext.get_block",
-                    "class_name": "",
+                    "class_name": "django.template.loader_tags.BlockContext",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -66,7 +66,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.template.loader_tags.BlockNode.__init__",
-                    "class_name": "",
+                    "class_name": "django.template.loader_tags.BlockNode",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -74,7 +74,7 @@
                     "docstring": "",
                     "name": "__repr__",
                     "namespace": "django.template.loader_tags.BlockNode.__repr__",
-                    "class_name": "",
+                    "class_name": "django.template.loader_tags.BlockNode",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -82,7 +82,7 @@
                     "docstring": "",
                     "name": "render",
                     "namespace": "django.template.loader_tags.BlockNode.render",
-                    "class_name": "",
+                    "class_name": "django.template.loader_tags.BlockNode",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -90,7 +90,7 @@
                     "docstring": "",
                     "name": "super",
                     "namespace": "django.template.loader_tags.BlockNode.super",
-                    "class_name": "",
+                    "class_name": "django.template.loader_tags.BlockNode",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -105,7 +105,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.template.loader_tags.ExtendsNode.__init__",
-                    "class_name": "",
+                    "class_name": "django.template.loader_tags.ExtendsNode",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -113,7 +113,7 @@
                     "docstring": "",
                     "name": "__repr__",
                     "namespace": "django.template.loader_tags.ExtendsNode.__repr__",
-                    "class_name": "",
+                    "class_name": "django.template.loader_tags.ExtendsNode",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -121,7 +121,7 @@
                     "docstring": "\"\"\"\n        This is a wrapper around engine.find_template(). A history is kept in\n        the render_context attribute between successive extends calls and\n        passed as the skip argument. This enables extends to work recursively\n        without extending the same template twice.\n        \"\"\"",
                     "name": "find_template",
                     "namespace": "django.template.loader_tags.ExtendsNode.find_template",
-                    "class_name": "",
+                    "class_name": "django.template.loader_tags.ExtendsNode",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -129,7 +129,7 @@
                     "docstring": "",
                     "name": "get_parent",
                     "namespace": "django.template.loader_tags.ExtendsNode.get_parent",
-                    "class_name": "",
+                    "class_name": "django.template.loader_tags.ExtendsNode",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -137,7 +137,7 @@
                     "docstring": "",
                     "name": "render",
                     "namespace": "django.template.loader_tags.ExtendsNode.render",
-                    "class_name": "",
+                    "class_name": "django.template.loader_tags.ExtendsNode",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -152,7 +152,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.template.loader_tags.IncludeNode.__init__",
-                    "class_name": "",
+                    "class_name": "django.template.loader_tags.IncludeNode",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -160,7 +160,7 @@
                     "docstring": "",
                     "name": "__repr__",
                     "namespace": "django.template.loader_tags.IncludeNode.__repr__",
-                    "class_name": "",
+                    "class_name": "django.template.loader_tags.IncludeNode",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -168,7 +168,7 @@
                     "docstring": "\"\"\"\n        Render the specified template and context. Cache the template object\n        in render_context to avoid reparsing and loading when used in a for\n        loop.\n        \"\"\"",
                     "name": "render",
                     "namespace": "django.template.loader_tags.IncludeNode.render",
-                    "class_name": "",
+                    "class_name": "django.template.loader_tags.IncludeNode",
                     "module_name": "",
                     "package_name": ""
                 }

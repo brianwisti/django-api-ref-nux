@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.core.cache.backends.memcached.BaseMemcachedCache.__init__",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.memcached.BaseMemcachedCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "",
                     "name": "client_servers",
                     "namespace": "django.core.cache.backends.memcached.BaseMemcachedCache.client_servers",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.memcached.BaseMemcachedCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -27,7 +27,7 @@
                     "docstring": "\"\"\"\n        Implement transparent thread-safe access to a memcached client.\n        \"\"\"",
                     "name": "_cache",
                     "namespace": "django.core.cache.backends.memcached.BaseMemcachedCache._cache",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.memcached.BaseMemcachedCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -35,7 +35,7 @@
                     "docstring": "\"\"\"\n        Memcached deals with long (> 30 days) timeouts in a special\n        way. Call this function to obtain a safe value for your timeout.\n        \"\"\"",
                     "name": "get_backend_timeout",
                     "namespace": "django.core.cache.backends.memcached.BaseMemcachedCache.get_backend_timeout",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.memcached.BaseMemcachedCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -43,7 +43,7 @@
                     "docstring": "",
                     "name": "add",
                     "namespace": "django.core.cache.backends.memcached.BaseMemcachedCache.add",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.memcached.BaseMemcachedCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -51,7 +51,7 @@
                     "docstring": "",
                     "name": "get",
                     "namespace": "django.core.cache.backends.memcached.BaseMemcachedCache.get",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.memcached.BaseMemcachedCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -59,7 +59,7 @@
                     "docstring": "",
                     "name": "set",
                     "namespace": "django.core.cache.backends.memcached.BaseMemcachedCache.set",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.memcached.BaseMemcachedCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -67,7 +67,7 @@
                     "docstring": "",
                     "name": "touch",
                     "namespace": "django.core.cache.backends.memcached.BaseMemcachedCache.touch",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.memcached.BaseMemcachedCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -75,7 +75,7 @@
                     "docstring": "",
                     "name": "delete",
                     "namespace": "django.core.cache.backends.memcached.BaseMemcachedCache.delete",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.memcached.BaseMemcachedCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -83,7 +83,7 @@
                     "docstring": "",
                     "name": "get_many",
                     "namespace": "django.core.cache.backends.memcached.BaseMemcachedCache.get_many",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.memcached.BaseMemcachedCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -91,7 +91,7 @@
                     "docstring": "",
                     "name": "close",
                     "namespace": "django.core.cache.backends.memcached.BaseMemcachedCache.close",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.memcached.BaseMemcachedCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -99,7 +99,7 @@
                     "docstring": "",
                     "name": "incr",
                     "namespace": "django.core.cache.backends.memcached.BaseMemcachedCache.incr",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.memcached.BaseMemcachedCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -107,7 +107,7 @@
                     "docstring": "",
                     "name": "set_many",
                     "namespace": "django.core.cache.backends.memcached.BaseMemcachedCache.set_many",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.memcached.BaseMemcachedCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -115,7 +115,7 @@
                     "docstring": "",
                     "name": "delete_many",
                     "namespace": "django.core.cache.backends.memcached.BaseMemcachedCache.delete_many",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.memcached.BaseMemcachedCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -123,7 +123,7 @@
                     "docstring": "",
                     "name": "clear",
                     "namespace": "django.core.cache.backends.memcached.BaseMemcachedCache.clear",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.memcached.BaseMemcachedCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -131,7 +131,7 @@
                     "docstring": "",
                     "name": "validate_key",
                     "namespace": "django.core.cache.backends.memcached.BaseMemcachedCache.validate_key",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.memcached.BaseMemcachedCache",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -146,7 +146,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.core.cache.backends.memcached.MemcachedCache.__init__",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.memcached.MemcachedCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -154,7 +154,7 @@
                     "docstring": "",
                     "name": "get",
                     "namespace": "django.core.cache.backends.memcached.MemcachedCache.get",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.memcached.MemcachedCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -162,7 +162,7 @@
                     "docstring": "",
                     "name": "delete",
                     "namespace": "django.core.cache.backends.memcached.MemcachedCache.delete",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.memcached.MemcachedCache",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -177,7 +177,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.core.cache.backends.memcached.PyLibMCCache.__init__",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.memcached.PyLibMCCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -185,7 +185,7 @@
                     "docstring": "",
                     "name": "client_servers",
                     "namespace": "django.core.cache.backends.memcached.PyLibMCCache.client_servers",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.memcached.PyLibMCCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -193,7 +193,7 @@
                     "docstring": "",
                     "name": "touch",
                     "namespace": "django.core.cache.backends.memcached.PyLibMCCache.touch",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.memcached.PyLibMCCache",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -201,7 +201,7 @@
                     "docstring": "",
                     "name": "close",
                     "namespace": "django.core.cache.backends.memcached.PyLibMCCache.close",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.memcached.PyLibMCCache",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -216,7 +216,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.core.cache.backends.memcached.PyMemcacheCache.__init__",
-                    "class_name": "",
+                    "class_name": "django.core.cache.backends.memcached.PyMemcacheCache",
                     "module_name": "",
                     "package_name": ""
                 }

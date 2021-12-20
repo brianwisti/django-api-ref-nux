@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.contrib.messages.storage.base.Message.__init__",
-                    "class_name": "",
+                    "class_name": "django.contrib.messages.storage.base.Message",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "\"\"\"\n        Prepare the message for serialization by forcing the ``message``\n        and ``extra_tags`` to str in case they are lazy translations.\n        \"\"\"",
                     "name": "_prepare",
                     "namespace": "django.contrib.messages.storage.base.Message._prepare",
-                    "class_name": "",
+                    "class_name": "django.contrib.messages.storage.base.Message",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -27,7 +27,7 @@
                     "docstring": "",
                     "name": "__eq__",
                     "namespace": "django.contrib.messages.storage.base.Message.__eq__",
-                    "class_name": "",
+                    "class_name": "django.contrib.messages.storage.base.Message",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -35,7 +35,7 @@
                     "docstring": "",
                     "name": "__str__",
                     "namespace": "django.contrib.messages.storage.base.Message.__str__",
-                    "class_name": "",
+                    "class_name": "django.contrib.messages.storage.base.Message",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -43,7 +43,7 @@
                     "docstring": "",
                     "name": "tags",
                     "namespace": "django.contrib.messages.storage.base.Message.tags",
-                    "class_name": "",
+                    "class_name": "django.contrib.messages.storage.base.Message",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -51,7 +51,7 @@
                     "docstring": "",
                     "name": "level_tag",
                     "namespace": "django.contrib.messages.storage.base.Message.level_tag",
-                    "class_name": "",
+                    "class_name": "django.contrib.messages.storage.base.Message",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -66,7 +66,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.contrib.messages.storage.base.BaseStorage.__init__",
-                    "class_name": "",
+                    "class_name": "django.contrib.messages.storage.base.BaseStorage",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -74,7 +74,7 @@
                     "docstring": "",
                     "name": "__len__",
                     "namespace": "django.contrib.messages.storage.base.BaseStorage.__len__",
-                    "class_name": "",
+                    "class_name": "django.contrib.messages.storage.base.BaseStorage",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -82,7 +82,7 @@
                     "docstring": "",
                     "name": "__iter__",
                     "namespace": "django.contrib.messages.storage.base.BaseStorage.__iter__",
-                    "class_name": "",
+                    "class_name": "django.contrib.messages.storage.base.BaseStorage",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -90,7 +90,7 @@
                     "docstring": "",
                     "name": "__contains__",
                     "namespace": "django.contrib.messages.storage.base.BaseStorage.__contains__",
-                    "class_name": "",
+                    "class_name": "django.contrib.messages.storage.base.BaseStorage",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -98,7 +98,7 @@
                     "docstring": "",
                     "name": "__repr__",
                     "namespace": "django.contrib.messages.storage.base.BaseStorage.__repr__",
-                    "class_name": "",
+                    "class_name": "django.contrib.messages.storage.base.BaseStorage",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -106,7 +106,7 @@
                     "docstring": "\"\"\"\n        Return a list of loaded messages, retrieving them first if they have\n        not been loaded yet.\n        \"\"\"",
                     "name": "_loaded_messages",
                     "namespace": "django.contrib.messages.storage.base.BaseStorage._loaded_messages",
-                    "class_name": "",
+                    "class_name": "django.contrib.messages.storage.base.BaseStorage",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -114,7 +114,7 @@
                     "docstring": "\"\"\"\n        Retrieve a list of stored messages. Return a tuple of the messages\n        and a flag indicating whether or not all the messages originally\n        intended to be stored in this storage were, in fact, stored and\n        retrieved; e.g., ``(messages, all_retrieved)``.\n\n        **This method must be implemented by a subclass.**\n\n        If it is possible to tell if the backend was not used (as opposed to\n        just containing no messages) then ``None`` should be returned in\n        place of ``messages``.\n        \"\"\"",
                     "name": "_get",
                     "namespace": "django.contrib.messages.storage.base.BaseStorage._get",
-                    "class_name": "",
+                    "class_name": "django.contrib.messages.storage.base.BaseStorage",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -122,7 +122,7 @@
                     "docstring": "\"\"\"\n        Store a list of messages and return a list of any messages which could\n        not be stored.\n\n        One type of object must be able to be stored, ``Message``.\n\n        **This method must be implemented by a subclass.**\n        \"\"\"",
                     "name": "_store",
                     "namespace": "django.contrib.messages.storage.base.BaseStorage._store",
-                    "class_name": "",
+                    "class_name": "django.contrib.messages.storage.base.BaseStorage",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -130,7 +130,7 @@
                     "docstring": "\"\"\"\n        Prepare a list of messages for storage.\n        \"\"\"",
                     "name": "_prepare_messages",
                     "namespace": "django.contrib.messages.storage.base.BaseStorage._prepare_messages",
-                    "class_name": "",
+                    "class_name": "django.contrib.messages.storage.base.BaseStorage",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -138,7 +138,7 @@
                     "docstring": "\"\"\"\n        Store all unread messages.\n\n        If the backend has yet to be iterated, store previously stored messages\n        again. Otherwise, only store messages added after the last iteration.\n        \"\"\"",
                     "name": "update",
                     "namespace": "django.contrib.messages.storage.base.BaseStorage.update",
-                    "class_name": "",
+                    "class_name": "django.contrib.messages.storage.base.BaseStorage",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -146,7 +146,7 @@
                     "docstring": "\"\"\"\n        Queue a message to be stored.\n\n        The message is only queued if it contained something and its level is\n        not less than the recording level (``self.level``).\n        \"\"\"",
                     "name": "add",
                     "namespace": "django.contrib.messages.storage.base.BaseStorage.add",
-                    "class_name": "",
+                    "class_name": "django.contrib.messages.storage.base.BaseStorage",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -154,7 +154,7 @@
                     "docstring": "\"\"\"\n        Return the minimum recorded level.\n\n        The default level is the ``MESSAGE_LEVEL`` setting. If this is\n        not found, the ``INFO`` level is used.\n        \"\"\"",
                     "name": "_get_level",
                     "namespace": "django.contrib.messages.storage.base.BaseStorage._get_level",
-                    "class_name": "",
+                    "class_name": "django.contrib.messages.storage.base.BaseStorage",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -162,7 +162,7 @@
                     "docstring": "\"\"\"\n        Set a custom minimum recorded level.\n\n        If set to ``None``, the default level will be used (see the\n        ``_get_level`` method).\n        \"\"\"",
                     "name": "_set_level",
                     "namespace": "django.contrib.messages.storage.base.BaseStorage._set_level",
-                    "class_name": "",
+                    "class_name": "django.contrib.messages.storage.base.BaseStorage",
                     "module_name": "",
                     "package_name": ""
                 }

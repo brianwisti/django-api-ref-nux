@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Check that an item in `autocomplete_fields` is a ForeignKey or a\n        ManyToManyField and that the item has a related ModelAdmin with\n        search_fields defined.\n        \"\"\"",
     "name": "_check_autocomplete_fields_item",
     "namespace": "django.contrib.admin.checks.BaseModelAdminChecks._check_autocomplete_fields_item",
-    "class_name": "",
+    "class_name": "django.contrib.admin.checks.BaseModelAdminChecks",
     "module_name": "",
     "package_name": ""
 }

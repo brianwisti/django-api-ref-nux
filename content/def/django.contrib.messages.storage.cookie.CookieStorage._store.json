@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Store the messages to a cookie and return a list of any messages which\n        could not be stored.\n\n        If the encoded data is larger than ``max_cookie_size``, remove\n        messages until the data fits (these are the messages which are\n        returned), and add the not_finished sentinel value to indicate as much.\n        \"\"\"",
     "name": "_store",
     "namespace": "django.contrib.messages.storage.cookie.CookieStorage._store",
-    "class_name": "",
+    "class_name": "django.contrib.messages.storage.cookie.CookieStorage",
     "module_name": "",
     "package_name": ""
 }

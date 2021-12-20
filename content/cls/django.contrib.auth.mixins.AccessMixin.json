@@ -9,7 +9,7 @@
             "docstring": "\"\"\"\n        Override this method to override the login_url attribute.\n        \"\"\"",
             "name": "get_login_url",
             "namespace": "django.contrib.auth.mixins.AccessMixin.get_login_url",
-            "class_name": "",
+            "class_name": "django.contrib.auth.mixins.AccessMixin",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "\"\"\"\n        Override this method to override the permission_denied_message attribute.\n        \"\"\"",
             "name": "get_permission_denied_message",
             "namespace": "django.contrib.auth.mixins.AccessMixin.get_permission_denied_message",
-            "class_name": "",
+            "class_name": "django.contrib.auth.mixins.AccessMixin",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "\"\"\"\n        Override this method to override the redirect_field_name attribute.\n        \"\"\"",
             "name": "get_redirect_field_name",
             "namespace": "django.contrib.auth.mixins.AccessMixin.get_redirect_field_name",
-            "class_name": "",
+            "class_name": "django.contrib.auth.mixins.AccessMixin",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "",
             "name": "handle_no_permission",
             "namespace": "django.contrib.auth.mixins.AccessMixin.handle_no_permission",
-            "class_name": "",
+            "class_name": "django.contrib.auth.mixins.AccessMixin",
             "module_name": "",
             "package_name": ""
         }

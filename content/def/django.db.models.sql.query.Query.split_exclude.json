@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        When doing an exclude against any kind of N-to-many relation, we need\n        to use a subquery. This method constructs the nested query, given the\n        original exclude filter (filter_expr) and the portion up to the first\n        N-to-many relation field.\n\n        For example, if the origin filter is ~Q(child__name='foo'), filter_expr\n        is ('child__name', 'foo') and can_reuse is a set of joins usable for\n        filters in the original query.\n\n        We will turn this into equivalent of:\n            WHERE NOT EXISTS(\n                SELECT 1\n                FROM child\n                WHERE name = 'foo' AND child.parent_id = parent.id\n                LIMIT 1\n            )\n        \"\"\"",
     "name": "split_exclude",
     "namespace": "django.db.models.sql.query.Query.split_exclude",
-    "class_name": "",
+    "class_name": "django.db.models.sql.query.Query",
     "module_name": "",
     "package_name": ""
 }

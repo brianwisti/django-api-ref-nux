@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "process_request",
                     "namespace": "django.contrib.auth.middleware.AuthenticationMiddleware.process_request",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.middleware.AuthenticationMiddleware",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -26,7 +26,7 @@
                     "docstring": "",
                     "name": "process_request",
                     "namespace": "django.contrib.auth.middleware.RemoteUserMiddleware.process_request",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.middleware.RemoteUserMiddleware",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -34,7 +34,7 @@
                     "docstring": "\"\"\"\n        Allow the backend to clean the username, if the backend defines a\n        clean_username method.\n        \"\"\"",
                     "name": "clean_username",
                     "namespace": "django.contrib.auth.middleware.RemoteUserMiddleware.clean_username",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.middleware.RemoteUserMiddleware",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -42,7 +42,7 @@
                     "docstring": "\"\"\"\n        Remove the current authenticated user in the request which is invalid\n        but only if the user is authenticated via the RemoteUserBackend.\n        \"\"\"",
                     "name": "_remove_invalid_user",
                     "namespace": "django.contrib.auth.middleware.RemoteUserMiddleware._remove_invalid_user",
-                    "class_name": "",
+                    "class_name": "django.contrib.auth.middleware.RemoteUserMiddleware",
                     "module_name": "",
                     "package_name": ""
                 }

@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return a list of (column_name, referenced_table_name, referenced_column_name)\n        for all key columns in the given table.\n        \"\"\"",
     "name": "get_key_columns",
     "namespace": "django.db.backends.mysql.introspection.DatabaseIntrospection.get_key_columns",
-    "class_name": "",
+    "class_name": "django.db.backends.mysql.introspection.DatabaseIntrospection",
     "module_name": "",
     "package_name": ""
 }

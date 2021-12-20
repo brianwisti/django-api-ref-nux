@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return the minimum recorded level.\n\n        The default level is the ``MESSAGE_LEVEL`` setting. If this is\n        not found, the ``INFO`` level is used.\n        \"\"\"",
     "name": "_get_level",
     "namespace": "django.contrib.messages.storage.base.BaseStorage._get_level",
-    "class_name": "",
+    "class_name": "django.contrib.messages.storage.base.BaseStorage",
     "module_name": "",
     "package_name": ""
 }

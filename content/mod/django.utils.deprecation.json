@@ -23,7 +23,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.utils.deprecation.warn_about_renamed_method.__init__",
-                    "class_name": "",
+                    "class_name": "django.utils.deprecation.warn_about_renamed_method",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -31,7 +31,7 @@
                     "docstring": "",
                     "name": "__call__",
                     "namespace": "django.utils.deprecation.warn_about_renamed_method.__call__",
-                    "class_name": "",
+                    "class_name": "django.utils.deprecation.warn_about_renamed_method",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -46,7 +46,7 @@
                     "docstring": "",
                     "name": "__new__",
                     "namespace": "django.utils.deprecation.RenameMethodsBase.__new__",
-                    "class_name": "",
+                    "class_name": "django.utils.deprecation.RenameMethodsBase",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -61,7 +61,7 @@
                     "docstring": "",
                     "name": "__instancecheck__",
                     "namespace": "django.utils.deprecation.DeprecationInstanceCheck.__instancecheck__",
-                    "class_name": "",
+                    "class_name": "django.utils.deprecation.DeprecationInstanceCheck",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -76,7 +76,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.utils.deprecation.MiddlewareMixin.__init__",
-                    "class_name": "",
+                    "class_name": "django.utils.deprecation.MiddlewareMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -84,7 +84,7 @@
                     "docstring": "",
                     "name": "__repr__",
                     "namespace": "django.utils.deprecation.MiddlewareMixin.__repr__",
-                    "class_name": "",
+                    "class_name": "django.utils.deprecation.MiddlewareMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -92,7 +92,7 @@
                     "docstring": "\"\"\"\n        If get_response is a coroutine function, turns us into async mode so\n        a thread is not consumed during a whole request.\n        \"\"\"",
                     "name": "_async_check",
                     "namespace": "django.utils.deprecation.MiddlewareMixin._async_check",
-                    "class_name": "",
+                    "class_name": "django.utils.deprecation.MiddlewareMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -100,7 +100,7 @@
                     "docstring": "",
                     "name": "__call__",
                     "namespace": "django.utils.deprecation.MiddlewareMixin.__call__",
-                    "class_name": "",
+                    "class_name": "django.utils.deprecation.MiddlewareMixin",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -108,7 +108,7 @@
                     "docstring": "\"\"\"\n        Async version of __call__ that is swapped in when an async request\n        is running.\n        \"\"\"",
                     "name": "__acall__",
                     "namespace": "django.utils.deprecation.MiddlewareMixin.__acall__",
-                    "class_name": "",
+                    "class_name": "django.utils.deprecation.MiddlewareMixin",
                     "module_name": "",
                     "package_name": ""
                 }

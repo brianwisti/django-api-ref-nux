@@ -9,7 +9,7 @@
             "docstring": "\"\"\"\n        Initialize on an OGR C pointer to the Layer and the `DataSource` object\n        that owns this layer.  The `DataSource` object is required so that a\n        reference to it is kept with this Layer.  This prevents garbage\n        collection of the `DataSource` while this Layer is still active.\n        \"\"\"",
             "name": "__init__",
             "namespace": "django.contrib.gis.gdal.layer.Layer.__init__",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.layer.Layer",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "\"Get the Feature at the specified index.\"",
             "name": "__getitem__",
             "namespace": "django.contrib.gis.gdal.layer.Layer.__getitem__",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.layer.Layer",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "\"Iterate over each Feature in the Layer.\"",
             "name": "__iter__",
             "namespace": "django.contrib.gis.gdal.layer.Layer.__iter__",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.layer.Layer",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "\"The length is the number of features.\"",
             "name": "__len__",
             "namespace": "django.contrib.gis.gdal.layer.Layer.__len__",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.layer.Layer",
             "module_name": "",
             "package_name": ""
         },
@@ -41,7 +41,7 @@
             "docstring": "\"The string name of the layer.\"",
             "name": "__str__",
             "namespace": "django.contrib.gis.gdal.layer.Layer.__str__",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.layer.Layer",
             "module_name": "",
             "package_name": ""
         },
@@ -49,7 +49,7 @@
             "docstring": "\"\"\"\n        Helper routine for __getitem__ that constructs a Feature from the given\n        Feature ID.  If the OGR Layer does not support random-access reading,\n        then each feature of the layer will be incremented through until the\n        a Feature is found matching the given feature ID.\n        \"\"\"",
             "name": "_make_feature",
             "namespace": "django.contrib.gis.gdal.layer.Layer._make_feature",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.layer.Layer",
             "module_name": "",
             "package_name": ""
         },
@@ -57,7 +57,7 @@
             "docstring": "\"Return the extent (an Envelope) of this layer.\"",
             "name": "extent",
             "namespace": "django.contrib.gis.gdal.layer.Layer.extent",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.layer.Layer",
             "module_name": "",
             "package_name": ""
         },
@@ -65,7 +65,7 @@
             "docstring": "\"Return the name of this layer in the Data Source.\"",
             "name": "name",
             "namespace": "django.contrib.gis.gdal.layer.Layer.name",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.layer.Layer",
             "module_name": "",
             "package_name": ""
         },
@@ -73,7 +73,7 @@
             "docstring": "\"Return the number of features in the Layer.\"",
             "name": "num_feat",
             "namespace": "django.contrib.gis.gdal.layer.Layer.num_feat",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.layer.Layer",
             "module_name": "",
             "package_name": ""
         },
@@ -81,7 +81,7 @@
             "docstring": "\"Return the number of fields in the Layer.\"",
             "name": "num_fields",
             "namespace": "django.contrib.gis.gdal.layer.Layer.num_fields",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.layer.Layer",
             "module_name": "",
             "package_name": ""
         },
@@ -89,7 +89,7 @@
             "docstring": "\"Return the geometry type (OGRGeomType) of the Layer.\"",
             "name": "geom_type",
             "namespace": "django.contrib.gis.gdal.layer.Layer.geom_type",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.layer.Layer",
             "module_name": "",
             "package_name": ""
         },
@@ -97,7 +97,7 @@
             "docstring": "\"Return the Spatial Reference used in this Layer.\"",
             "name": "srs",
             "namespace": "django.contrib.gis.gdal.layer.Layer.srs",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.layer.Layer",
             "module_name": "",
             "package_name": ""
         },
@@ -105,7 +105,7 @@
             "docstring": "\"\"\"\n        Return a list of string names corresponding to each of the Fields\n        available in this Layer.\n        \"\"\"",
             "name": "fields",
             "namespace": "django.contrib.gis.gdal.layer.Layer.fields",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.layer.Layer",
             "module_name": "",
             "package_name": ""
         },
@@ -113,7 +113,7 @@
             "docstring": "\"\"\"\n        Return a list of the types of fields in this Layer.  For example,\n        return the list [OFTInteger, OFTReal, OFTString] for an OGR layer that\n        has an integer, a floating-point, and string fields.\n        \"\"\"",
             "name": "field_types",
             "namespace": "django.contrib.gis.gdal.layer.Layer.field_types",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.layer.Layer",
             "module_name": "",
             "package_name": ""
         },
@@ -121,7 +121,7 @@
             "docstring": "\"Return a list of the maximum field widths for the features.\"",
             "name": "field_widths",
             "namespace": "django.contrib.gis.gdal.layer.Layer.field_widths",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.layer.Layer",
             "module_name": "",
             "package_name": ""
         },
@@ -129,7 +129,7 @@
             "docstring": "\"Return the field precisions for the features.\"",
             "name": "field_precisions",
             "namespace": "django.contrib.gis.gdal.layer.Layer.field_precisions",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.layer.Layer",
             "module_name": "",
             "package_name": ""
         },
@@ -137,7 +137,7 @@
             "docstring": "",
             "name": "_get_spatial_filter",
             "namespace": "django.contrib.gis.gdal.layer.Layer._get_spatial_filter",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.layer.Layer",
             "module_name": "",
             "package_name": ""
         },
@@ -145,7 +145,7 @@
             "docstring": "",
             "name": "_set_spatial_filter",
             "namespace": "django.contrib.gis.gdal.layer.Layer._set_spatial_filter",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.layer.Layer",
             "module_name": "",
             "package_name": ""
         },
@@ -153,7 +153,7 @@
             "docstring": "\"\"\"\n        Return a list containing the given field name for every Feature\n        in the Layer.\n        \"\"\"",
             "name": "get_fields",
             "namespace": "django.contrib.gis.gdal.layer.Layer.get_fields",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.layer.Layer",
             "module_name": "",
             "package_name": ""
         },
@@ -161,7 +161,7 @@
             "docstring": "\"\"\"\n        Return a list containing the OGRGeometry for every Feature in\n        the Layer.\n        \"\"\"",
             "name": "get_geoms",
             "namespace": "django.contrib.gis.gdal.layer.Layer.get_geoms",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.layer.Layer",
             "module_name": "",
             "package_name": ""
         },
@@ -169,7 +169,7 @@
             "docstring": "\"\"\"\n        Return a bool indicating whether the this Layer supports the given\n        capability (a string).  Valid capability strings include:\n          'RandomRead', 'SequentialWrite', 'RandomWrite', 'FastSpatialFilter',\n          'FastFeatureCount', 'FastGetExtent', 'CreateField', 'Transactions',\n          'DeleteFeature', and 'FastSetNextByIndex'.\n        \"\"\"",
             "name": "test_capability",
             "namespace": "django.contrib.gis.gdal.layer.Layer.test_capability",
-            "class_name": "",
+            "class_name": "django.contrib.gis.gdal.layer.Layer",
             "module_name": "",
             "package_name": ""
         }

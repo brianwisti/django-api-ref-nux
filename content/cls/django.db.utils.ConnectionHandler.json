@@ -9,7 +9,7 @@
             "docstring": "",
             "name": "configure_settings",
             "namespace": "django.db.utils.ConnectionHandler.configure_settings",
-            "class_name": "",
+            "class_name": "django.db.utils.ConnectionHandler",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "",
             "name": "databases",
             "namespace": "django.db.utils.ConnectionHandler.databases",
-            "class_name": "",
+            "class_name": "django.db.utils.ConnectionHandler",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "\"\"\"\n        Put the defaults into the settings dictionary for a given connection\n        where no settings is provided.\n        \"\"\"",
             "name": "ensure_defaults",
             "namespace": "django.db.utils.ConnectionHandler.ensure_defaults",
-            "class_name": "",
+            "class_name": "django.db.utils.ConnectionHandler",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "\"\"\"\n        Make sure the test settings are available in the 'TEST' sub-dictionary.\n        \"\"\"",
             "name": "prepare_test_settings",
             "namespace": "django.db.utils.ConnectionHandler.prepare_test_settings",
-            "class_name": "",
+            "class_name": "django.db.utils.ConnectionHandler",
             "module_name": "",
             "package_name": ""
         },
@@ -41,7 +41,7 @@
             "docstring": "",
             "name": "create_connection",
             "namespace": "django.db.utils.ConnectionHandler.create_connection",
-            "class_name": "",
+            "class_name": "django.db.utils.ConnectionHandler",
             "module_name": "",
             "package_name": ""
         },
@@ -49,7 +49,7 @@
             "docstring": "",
             "name": "close_all",
             "namespace": "django.db.utils.ConnectionHandler.close_all",
-            "class_name": "",
+            "class_name": "django.db.utils.ConnectionHandler",
             "module_name": "",
             "package_name": ""
         }

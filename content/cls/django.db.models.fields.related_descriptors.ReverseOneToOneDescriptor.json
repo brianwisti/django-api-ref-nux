@@ -9,7 +9,7 @@
             "docstring": "",
             "name": "__init__",
             "namespace": "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor.__init__",
-            "class_name": "",
+            "class_name": "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "",
             "name": "RelatedObjectDoesNotExist",
             "namespace": "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor.RelatedObjectDoesNotExist",
-            "class_name": "",
+            "class_name": "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "",
             "name": "is_cached",
             "namespace": "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor.is_cached",
-            "class_name": "",
+            "class_name": "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "",
             "name": "get_queryset",
             "namespace": "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor.get_queryset",
-            "class_name": "",
+            "class_name": "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor",
             "module_name": "",
             "package_name": ""
         },
@@ -41,7 +41,7 @@
             "docstring": "",
             "name": "get_prefetch_queryset",
             "namespace": "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor.get_prefetch_queryset",
-            "class_name": "",
+            "class_name": "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor",
             "module_name": "",
             "package_name": ""
         },
@@ -49,7 +49,7 @@
             "docstring": "\"\"\"\n        Get the related instance through the reverse relation.\n\n        With the example above, when getting ``place.restaurant``:\n\n        - ``self`` is the descriptor managing the ``restaurant`` attribute\n        - ``instance`` is the ``place`` instance\n        - ``cls`` is the ``Place`` class (unused)\n\n        Keep in mind that ``Restaurant`` holds the foreign key to ``Place``.\n        \"\"\"",
             "name": "__get__",
             "namespace": "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor.__get__",
-            "class_name": "",
+            "class_name": "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor",
             "module_name": "",
             "package_name": ""
         },
@@ -57,7 +57,7 @@
             "docstring": "\"\"\"\n        Set the related instance through the reverse relation.\n\n        With the example above, when setting ``place.restaurant = restaurant``:\n\n        - ``self`` is the descriptor managing the ``restaurant`` attribute\n        - ``instance`` is the ``place`` instance\n        - ``value`` is the ``restaurant`` instance on the right of the equal sign\n\n        Keep in mind that ``Restaurant`` holds the foreign key to ``Place``.\n        \"\"\"",
             "name": "__set__",
             "namespace": "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor.__set__",
-            "class_name": "",
+            "class_name": "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor",
             "module_name": "",
             "package_name": ""
         },
@@ -65,7 +65,7 @@
             "docstring": "",
             "name": "__reduce__",
             "namespace": "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor.__reduce__",
-            "class_name": "",
+            "class_name": "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor",
             "module_name": "",
             "package_name": ""
         }

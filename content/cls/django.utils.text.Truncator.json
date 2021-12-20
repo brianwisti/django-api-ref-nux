@@ -9,7 +9,7 @@
             "docstring": "",
             "name": "__init__",
             "namespace": "django.utils.text.Truncator.__init__",
-            "class_name": "",
+            "class_name": "django.utils.text.Truncator",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "",
             "name": "add_truncation_text",
             "namespace": "django.utils.text.Truncator.add_truncation_text",
-            "class_name": "",
+            "class_name": "django.utils.text.Truncator",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "\"\"\"\n        Return the text truncated to be no longer than the specified number\n        of characters.\n\n        `truncate` specifies what should be used to notify that the string has\n        been truncated, defaulting to a translatable string of an ellipsis.\n        \"\"\"",
             "name": "chars",
             "namespace": "django.utils.text.Truncator.chars",
-            "class_name": "",
+            "class_name": "django.utils.text.Truncator",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "\"\"\"Truncate a string after a certain number of chars.\"\"\"",
             "name": "_text_chars",
             "namespace": "django.utils.text.Truncator._text_chars",
-            "class_name": "",
+            "class_name": "django.utils.text.Truncator",
             "module_name": "",
             "package_name": ""
         },
@@ -41,7 +41,7 @@
             "docstring": "\"\"\"\n        Truncate a string after a certain number of words. `truncate` specifies\n        what should be used to notify that the string has been truncated,\n        defaulting to ellipsis.\n        \"\"\"",
             "name": "words",
             "namespace": "django.utils.text.Truncator.words",
-            "class_name": "",
+            "class_name": "django.utils.text.Truncator",
             "module_name": "",
             "package_name": ""
         },
@@ -49,7 +49,7 @@
             "docstring": "\"\"\"\n        Truncate a string after a certain number of words.\n\n        Strip newlines in the string.\n        \"\"\"",
             "name": "_text_words",
             "namespace": "django.utils.text.Truncator._text_words",
-            "class_name": "",
+            "class_name": "django.utils.text.Truncator",
             "module_name": "",
             "package_name": ""
         },
@@ -57,7 +57,7 @@
             "docstring": "\"\"\"\n        Truncate HTML to a certain number of chars (not counting tags and\n        comments), or, if words is True, then to a certain number of words.\n        Close opened tags if they were correctly closed in the given HTML.\n\n        Preserve newlines in the HTML.\n        \"\"\"",
             "name": "_truncate_html",
             "namespace": "django.utils.text.Truncator._truncate_html",
-            "class_name": "",
+            "class_name": "django.utils.text.Truncator",
             "module_name": "",
             "package_name": ""
         }

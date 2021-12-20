@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return the table alias (the name might be ambiguous, the alias will\n        not be) and column name for ordering by the given 'name' parameter.\n        The 'name' is of the form 'field1__field2__...__fieldN'.\n        \"\"\"",
     "name": "find_ordering_name",
     "namespace": "django.db.models.sql.compiler.SQLCompiler.find_ordering_name",
-    "class_name": "",
+    "class_name": "django.db.models.sql.compiler.SQLCompiler",
     "module_name": "",
     "package_name": ""
 }

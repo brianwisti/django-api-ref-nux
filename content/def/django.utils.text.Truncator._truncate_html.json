@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Truncate HTML to a certain number of chars (not counting tags and\n        comments), or, if words is True, then to a certain number of words.\n        Close opened tags if they were correctly closed in the given HTML.\n\n        Preserve newlines in the HTML.\n        \"\"\"",
     "name": "_truncate_html",
     "namespace": "django.utils.text.Truncator._truncate_html",
-    "class_name": "",
+    "class_name": "django.utils.text.Truncator",
     "module_name": "",
     "package_name": ""
 }

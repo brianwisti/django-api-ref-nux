@@ -9,7 +9,7 @@
             "docstring": "",
             "name": "__init__",
             "namespace": "django.template.loaders.cached.Loader.__init__",
-            "class_name": "",
+            "class_name": "django.template.loaders.cached.Loader",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "",
             "name": "get_dirs",
             "namespace": "django.template.loaders.cached.Loader.get_dirs",
-            "class_name": "",
+            "class_name": "django.template.loaders.cached.Loader",
             "module_name": "",
             "package_name": ""
         },
@@ -25,7 +25,7 @@
             "docstring": "",
             "name": "get_contents",
             "namespace": "django.template.loaders.cached.Loader.get_contents",
-            "class_name": "",
+            "class_name": "django.template.loaders.cached.Loader",
             "module_name": "",
             "package_name": ""
         },
@@ -33,7 +33,7 @@
             "docstring": "\"\"\"\n        Perform the caching that gives this loader its name. Often many of the\n        templates attempted will be missing, so memory use is of concern here.\n        To keep it in check, caching behavior is a little complicated when a\n        template is not found. See ticket #26306 for more details.\n\n        With template debugging disabled, cache the TemplateDoesNotExist class\n        for every missing template and raise a new instance of it after\n        fetching it from the cache.\n\n        With template debugging enabled, a unique TemplateDoesNotExist object\n        is cached for each missing template to preserve debug data. When\n        raising an exception, Python sets __traceback__, __context__, and\n        __cause__ attributes on it. Those attributes can contain references to\n        all sorts of objects up the call chain and caching them creates a\n        memory leak. Thus, unraised copies of the exceptions are cached and\n        copies of those copies are raised after they're fetched from the cache.\n        \"\"\"",
             "name": "get_template",
             "namespace": "django.template.loaders.cached.Loader.get_template",
-            "class_name": "",
+            "class_name": "django.template.loaders.cached.Loader",
             "module_name": "",
             "package_name": ""
         },
@@ -41,7 +41,7 @@
             "docstring": "",
             "name": "get_template_sources",
             "namespace": "django.template.loaders.cached.Loader.get_template_sources",
-            "class_name": "",
+            "class_name": "django.template.loaders.cached.Loader",
             "module_name": "",
             "package_name": ""
         },
@@ -49,7 +49,7 @@
             "docstring": "\"\"\"\n        Generate a cache key for the template name and skip.\n\n        If skip is provided, only origins that match template_name are included\n        in the cache key. This ensures each template is only parsed and cached\n        once if contained in different extend chains like:\n\n            x -> a -> a\n            y -> a -> a\n            z -> a -> a\n        \"\"\"",
             "name": "cache_key",
             "namespace": "django.template.loaders.cached.Loader.cache_key",
-            "class_name": "",
+            "class_name": "django.template.loaders.cached.Loader",
             "module_name": "",
             "package_name": ""
         },
@@ -57,7 +57,7 @@
             "docstring": "",
             "name": "generate_hash",
             "namespace": "django.template.loaders.cached.Loader.generate_hash",
-            "class_name": "",
+            "class_name": "django.template.loaders.cached.Loader",
             "module_name": "",
             "package_name": ""
         },
@@ -65,7 +65,7 @@
             "docstring": "\"Empty the template cache.\"",
             "name": "reset",
             "namespace": "django.template.loaders.cached.Loader.reset",
-            "class_name": "",
+            "class_name": "django.template.loaders.cached.Loader",
             "module_name": "",
             "package_name": ""
         }

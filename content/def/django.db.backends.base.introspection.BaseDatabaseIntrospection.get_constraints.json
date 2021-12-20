@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Retrieve any constraints or keys (unique, pk, fk, check, index)\n        across one or more columns.\n\n        Return a dict mapping constraint names to their attributes,\n        where attributes is a dict with keys:\n         * columns: List of columns this covers\n         * primary_key: True if primary key, False otherwise\n         * unique: True if this is a unique constraint, False otherwise\n         * foreign_key: (table, column) of target, or None\n         * check: True if check constraint, False otherwise\n         * index: True if index, False otherwise.\n         * orders: The order (ASC/DESC) defined for the columns of indexes\n         * type: The type of the index (btree, hash, etc.)\n\n        Some backends may return special constraint names that don't exist\n        if they don't name constraints of a certain type (e.g. SQLite)\n        \"\"\"",
     "name": "get_constraints",
     "namespace": "django.db.backends.base.introspection.BaseDatabaseIntrospection.get_constraints",
-    "class_name": "",
+    "class_name": "django.db.backends.base.introspection.BaseDatabaseIntrospection",
     "module_name": "",
     "package_name": ""
 }

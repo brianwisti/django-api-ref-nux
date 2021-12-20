@@ -23,7 +23,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.http.request.HttpRequest.__init__",
-                    "class_name": "",
+                    "class_name": "django.http.request.HttpRequest",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -31,7 +31,7 @@
                     "docstring": "",
                     "name": "__repr__",
                     "namespace": "django.http.request.HttpRequest.__repr__",
-                    "class_name": "",
+                    "class_name": "django.http.request.HttpRequest",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -39,7 +39,7 @@
                     "docstring": "",
                     "name": "headers",
                     "namespace": "django.http.request.HttpRequest.headers",
-                    "class_name": "",
+                    "class_name": "django.http.request.HttpRequest",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -47,7 +47,7 @@
                     "docstring": "\"\"\"Return a list of MediaType instances.\"\"\"",
                     "name": "accepted_types",
                     "namespace": "django.http.request.HttpRequest.accepted_types",
-                    "class_name": "",
+                    "class_name": "django.http.request.HttpRequest",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -55,7 +55,7 @@
                     "docstring": "",
                     "name": "accepts",
                     "namespace": "django.http.request.HttpRequest.accepts",
-                    "class_name": "",
+                    "class_name": "django.http.request.HttpRequest",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -63,7 +63,7 @@
                     "docstring": "\"\"\"Set content_type, content_params, and encoding.\"\"\"",
                     "name": "_set_content_type_params",
                     "namespace": "django.http.request.HttpRequest._set_content_type_params",
-                    "class_name": "",
+                    "class_name": "django.http.request.HttpRequest",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -71,7 +71,7 @@
                     "docstring": "\"\"\"\n        Return the HTTP host using the environment or request headers. Skip\n        allowed hosts protection, so may return an insecure host.\n        \"\"\"",
                     "name": "_get_raw_host",
                     "namespace": "django.http.request.HttpRequest._get_raw_host",
-                    "class_name": "",
+                    "class_name": "django.http.request.HttpRequest",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -79,7 +79,7 @@
                     "docstring": "\"\"\"Return the HTTP host using the environment or request headers.\"\"\"",
                     "name": "get_host",
                     "namespace": "django.http.request.HttpRequest.get_host",
-                    "class_name": "",
+                    "class_name": "django.http.request.HttpRequest",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -87,7 +87,7 @@
                     "docstring": "\"\"\"Return the port number for the request as a string.\"\"\"",
                     "name": "get_port",
                     "namespace": "django.http.request.HttpRequest.get_port",
-                    "class_name": "",
+                    "class_name": "django.http.request.HttpRequest",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -95,7 +95,7 @@
                     "docstring": "",
                     "name": "get_full_path",
                     "namespace": "django.http.request.HttpRequest.get_full_path",
-                    "class_name": "",
+                    "class_name": "django.http.request.HttpRequest",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -103,7 +103,7 @@
                     "docstring": "",
                     "name": "get_full_path_info",
                     "namespace": "django.http.request.HttpRequest.get_full_path_info",
-                    "class_name": "",
+                    "class_name": "django.http.request.HttpRequest",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -111,7 +111,7 @@
                     "docstring": "",
                     "name": "_get_full_path",
                     "namespace": "django.http.request.HttpRequest._get_full_path",
-                    "class_name": "",
+                    "class_name": "django.http.request.HttpRequest",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -119,7 +119,7 @@
                     "docstring": "\"\"\"\n        Attempt to return a signed cookie. If the signature fails or the\n        cookie has expired, raise an exception, unless the `default` argument\n        is provided,  in which case return that value.\n        \"\"\"",
                     "name": "get_signed_cookie",
                     "namespace": "django.http.request.HttpRequest.get_signed_cookie",
-                    "class_name": "",
+                    "class_name": "django.http.request.HttpRequest",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -127,7 +127,7 @@
                     "docstring": "\"\"\"\n        Build an absolute URI from the location and the variables available in\n        this request. If no ``location`` is specified, build the absolute URI\n        using request.get_full_path(). If the location is absolute, convert it\n        to an RFC 3987 compliant URI and return it. If location is relative or\n        is scheme-relative (i.e., ``//example.com/``), urljoin() it to a base\n        URL constructed from the request variables.\n        \"\"\"",
                     "name": "build_absolute_uri",
                     "namespace": "django.http.request.HttpRequest.build_absolute_uri",
-                    "class_name": "",
+                    "class_name": "django.http.request.HttpRequest",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -135,7 +135,7 @@
                     "docstring": "",
                     "name": "_current_scheme_host",
                     "namespace": "django.http.request.HttpRequest._current_scheme_host",
-                    "class_name": "",
+                    "class_name": "django.http.request.HttpRequest",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -143,7 +143,7 @@
                     "docstring": "\"\"\"\n        Hook for subclasses like WSGIRequest to implement. Return 'http' by\n        default.\n        \"\"\"",
                     "name": "_get_scheme",
                     "namespace": "django.http.request.HttpRequest._get_scheme",
-                    "class_name": "",
+                    "class_name": "django.http.request.HttpRequest",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -151,7 +151,7 @@
                     "docstring": "",
                     "name": "scheme",
                     "namespace": "django.http.request.HttpRequest.scheme",
-                    "class_name": "",
+                    "class_name": "django.http.request.HttpRequest",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -159,7 +159,7 @@
                     "docstring": "",
                     "name": "is_secure",
                     "namespace": "django.http.request.HttpRequest.is_secure",
-                    "class_name": "",
+                    "class_name": "django.http.request.HttpRequest",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -167,7 +167,7 @@
                     "docstring": "",
                     "name": "encoding",
                     "namespace": "django.http.request.HttpRequest.encoding",
-                    "class_name": "",
+                    "class_name": "django.http.request.HttpRequest",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -175,7 +175,7 @@
                     "docstring": "\"\"\"\n        Set the encoding used for GET/POST accesses. If the GET or POST\n        dictionary has already been created, remove and recreate it on the\n        next access (so that it is decoded correctly).\n        \"\"\"",
                     "name": "encoding",
                     "namespace": "django.http.request.HttpRequest.encoding",
-                    "class_name": "",
+                    "class_name": "django.http.request.HttpRequest",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -183,7 +183,7 @@
                     "docstring": "",
                     "name": "_initialize_handlers",
                     "namespace": "django.http.request.HttpRequest._initialize_handlers",
-                    "class_name": "",
+                    "class_name": "django.http.request.HttpRequest",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -191,7 +191,7 @@
                     "docstring": "",
                     "name": "upload_handlers",
                     "namespace": "django.http.request.HttpRequest.upload_handlers",
-                    "class_name": "",
+                    "class_name": "django.http.request.HttpRequest",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -199,7 +199,7 @@
                     "docstring": "",
                     "name": "upload_handlers",
                     "namespace": "django.http.request.HttpRequest.upload_handlers",
-                    "class_name": "",
+                    "class_name": "django.http.request.HttpRequest",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -207,7 +207,7 @@
                     "docstring": "\"\"\"Return a tuple of (POST QueryDict, FILES MultiValueDict).\"\"\"",
                     "name": "parse_file_upload",
                     "namespace": "django.http.request.HttpRequest.parse_file_upload",
-                    "class_name": "",
+                    "class_name": "django.http.request.HttpRequest",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -215,7 +215,7 @@
                     "docstring": "",
                     "name": "body",
                     "namespace": "django.http.request.HttpRequest.body",
-                    "class_name": "",
+                    "class_name": "django.http.request.HttpRequest",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -223,7 +223,7 @@
                     "docstring": "",
                     "name": "_mark_post_parse_error",
                     "namespace": "django.http.request.HttpRequest._mark_post_parse_error",
-                    "class_name": "",
+                    "class_name": "django.http.request.HttpRequest",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -231,7 +231,7 @@
                     "docstring": "\"\"\"Populate self._post and self._files if the content-type is a form type\"\"\"",
                     "name": "_load_post_and_files",
                     "namespace": "django.http.request.HttpRequest._load_post_and_files",
-                    "class_name": "",
+                    "class_name": "django.http.request.HttpRequest",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -239,7 +239,7 @@
                     "docstring": "",
                     "name": "close",
                     "namespace": "django.http.request.HttpRequest.close",
-                    "class_name": "",
+                    "class_name": "django.http.request.HttpRequest",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -247,7 +247,7 @@
                     "docstring": "",
                     "name": "read",
                     "namespace": "django.http.request.HttpRequest.read",
-                    "class_name": "",
+                    "class_name": "django.http.request.HttpRequest",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -255,7 +255,7 @@
                     "docstring": "",
                     "name": "readline",
                     "namespace": "django.http.request.HttpRequest.readline",
-                    "class_name": "",
+                    "class_name": "django.http.request.HttpRequest",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -263,7 +263,7 @@
                     "docstring": "",
                     "name": "__iter__",
                     "namespace": "django.http.request.HttpRequest.__iter__",
-                    "class_name": "",
+                    "class_name": "django.http.request.HttpRequest",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -271,7 +271,7 @@
                     "docstring": "",
                     "name": "readlines",
                     "namespace": "django.http.request.HttpRequest.readlines",
-                    "class_name": "",
+                    "class_name": "django.http.request.HttpRequest",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -286,7 +286,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.http.request.HttpHeaders.__init__",
-                    "class_name": "",
+                    "class_name": "django.http.request.HttpHeaders",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -294,7 +294,7 @@
                     "docstring": "\"\"\"Allow header lookup using underscores in place of hyphens.\"\"\"",
                     "name": "__getitem__",
                     "namespace": "django.http.request.HttpHeaders.__getitem__",
-                    "class_name": "",
+                    "class_name": "django.http.request.HttpHeaders",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -302,7 +302,7 @@
                     "docstring": "",
                     "name": "parse_header_name",
                     "namespace": "django.http.request.HttpHeaders.parse_header_name",
-                    "class_name": "",
+                    "class_name": "django.http.request.HttpHeaders",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -317,7 +317,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.http.request.QueryDict.__init__",
-                    "class_name": "",
+                    "class_name": "django.http.request.QueryDict",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -325,7 +325,7 @@
                     "docstring": "\"\"\"\n        Return a new QueryDict with keys (may be repeated) from an iterable and\n        values from value.\n        \"\"\"",
                     "name": "fromkeys",
                     "namespace": "django.http.request.QueryDict.fromkeys",
-                    "class_name": "",
+                    "class_name": "django.http.request.QueryDict",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -333,7 +333,7 @@
                     "docstring": "",
                     "name": "encoding",
                     "namespace": "django.http.request.QueryDict.encoding",
-                    "class_name": "",
+                    "class_name": "django.http.request.QueryDict",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -341,7 +341,7 @@
                     "docstring": "",
                     "name": "encoding",
                     "namespace": "django.http.request.QueryDict.encoding",
-                    "class_name": "",
+                    "class_name": "django.http.request.QueryDict",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -349,7 +349,7 @@
                     "docstring": "",
                     "name": "_assert_mutable",
                     "namespace": "django.http.request.QueryDict._assert_mutable",
-                    "class_name": "",
+                    "class_name": "django.http.request.QueryDict",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -357,7 +357,7 @@
                     "docstring": "",
                     "name": "__setitem__",
                     "namespace": "django.http.request.QueryDict.__setitem__",
-                    "class_name": "",
+                    "class_name": "django.http.request.QueryDict",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -365,7 +365,7 @@
                     "docstring": "",
                     "name": "__delitem__",
                     "namespace": "django.http.request.QueryDict.__delitem__",
-                    "class_name": "",
+                    "class_name": "django.http.request.QueryDict",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -373,7 +373,7 @@
                     "docstring": "",
                     "name": "__copy__",
                     "namespace": "django.http.request.QueryDict.__copy__",
-                    "class_name": "",
+                    "class_name": "django.http.request.QueryDict",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -381,7 +381,7 @@
                     "docstring": "",
                     "name": "__deepcopy__",
                     "namespace": "django.http.request.QueryDict.__deepcopy__",
-                    "class_name": "",
+                    "class_name": "django.http.request.QueryDict",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -389,7 +389,7 @@
                     "docstring": "",
                     "name": "setlist",
                     "namespace": "django.http.request.QueryDict.setlist",
-                    "class_name": "",
+                    "class_name": "django.http.request.QueryDict",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -397,7 +397,7 @@
                     "docstring": "",
                     "name": "setlistdefault",
                     "namespace": "django.http.request.QueryDict.setlistdefault",
-                    "class_name": "",
+                    "class_name": "django.http.request.QueryDict",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -405,7 +405,7 @@
                     "docstring": "",
                     "name": "appendlist",
                     "namespace": "django.http.request.QueryDict.appendlist",
-                    "class_name": "",
+                    "class_name": "django.http.request.QueryDict",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -413,7 +413,7 @@
                     "docstring": "",
                     "name": "pop",
                     "namespace": "django.http.request.QueryDict.pop",
-                    "class_name": "",
+                    "class_name": "django.http.request.QueryDict",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -421,7 +421,7 @@
                     "docstring": "",
                     "name": "popitem",
                     "namespace": "django.http.request.QueryDict.popitem",
-                    "class_name": "",
+                    "class_name": "django.http.request.QueryDict",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -429,7 +429,7 @@
                     "docstring": "",
                     "name": "clear",
                     "namespace": "django.http.request.QueryDict.clear",
-                    "class_name": "",
+                    "class_name": "django.http.request.QueryDict",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -437,7 +437,7 @@
                     "docstring": "",
                     "name": "setdefault",
                     "namespace": "django.http.request.QueryDict.setdefault",
-                    "class_name": "",
+                    "class_name": "django.http.request.QueryDict",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -445,7 +445,7 @@
                     "docstring": "\"\"\"Return a mutable copy of this object.\"\"\"",
                     "name": "copy",
                     "namespace": "django.http.request.QueryDict.copy",
-                    "class_name": "",
+                    "class_name": "django.http.request.QueryDict",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -453,7 +453,7 @@
                     "docstring": "\"\"\"\n        Return an encoded string of all query string arguments.\n\n        `safe` specifies characters which don't require quoting, for example::\n\n            >>> q = QueryDict(mutable=True)\n            >>> q['next'] = '/a&b/'\n            >>> q.urlencode()\n            'next=%2Fa%26b%2F'\n            >>> q.urlencode(safe='/')\n            'next=/a%26b/'\n        \"\"\"",
                     "name": "urlencode",
                     "namespace": "django.http.request.QueryDict.urlencode",
-                    "class_name": "",
+                    "class_name": "django.http.request.QueryDict",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -468,7 +468,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.http.request.MediaType.__init__",
-                    "class_name": "",
+                    "class_name": "django.http.request.MediaType",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -476,7 +476,7 @@
                     "docstring": "",
                     "name": "__str__",
                     "namespace": "django.http.request.MediaType.__str__",
-                    "class_name": "",
+                    "class_name": "django.http.request.MediaType",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -484,7 +484,7 @@
                     "docstring": "",
                     "name": "__repr__",
                     "namespace": "django.http.request.MediaType.__repr__",
-                    "class_name": "",
+                    "class_name": "django.http.request.MediaType",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -492,7 +492,7 @@
                     "docstring": "",
                     "name": "is_all_types",
                     "namespace": "django.http.request.MediaType.is_all_types",
-                    "class_name": "",
+                    "class_name": "django.http.request.MediaType",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -500,7 +500,7 @@
                     "docstring": "",
                     "name": "match",
                     "namespace": "django.http.request.MediaType.match",
-                    "class_name": "",
+                    "class_name": "django.http.request.MediaType",
                     "module_name": "",
                     "package_name": ""
                 }

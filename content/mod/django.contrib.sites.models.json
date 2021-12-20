@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "_get_site_by_id",
                     "namespace": "django.contrib.sites.models.SiteManager._get_site_by_id",
-                    "class_name": "",
+                    "class_name": "django.contrib.sites.models.SiteManager",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "",
                     "name": "_get_site_by_request",
                     "namespace": "django.contrib.sites.models.SiteManager._get_site_by_request",
-                    "class_name": "",
+                    "class_name": "django.contrib.sites.models.SiteManager",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -27,7 +27,7 @@
                     "docstring": "\"\"\"\n        Return the current Site based on the SITE_ID in the project's settings.\n        If SITE_ID isn't defined, return the site with domain matching\n        request.get_host(). The ``Site`` object is cached the first time it's\n        retrieved from the database.\n        \"\"\"",
                     "name": "get_current",
                     "namespace": "django.contrib.sites.models.SiteManager.get_current",
-                    "class_name": "",
+                    "class_name": "django.contrib.sites.models.SiteManager",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -35,7 +35,7 @@
                     "docstring": "\"\"\"Clear the ``Site`` object cache.\"\"\"",
                     "name": "clear_cache",
                     "namespace": "django.contrib.sites.models.SiteManager.clear_cache",
-                    "class_name": "",
+                    "class_name": "django.contrib.sites.models.SiteManager",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -43,7 +43,7 @@
                     "docstring": "",
                     "name": "get_by_natural_key",
                     "namespace": "django.contrib.sites.models.SiteManager.get_by_natural_key",
-                    "class_name": "",
+                    "class_name": "django.contrib.sites.models.SiteManager",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -58,7 +58,7 @@
                     "docstring": "",
                     "name": "__str__",
                     "namespace": "django.contrib.sites.models.Site.__str__",
-                    "class_name": "",
+                    "class_name": "django.contrib.sites.models.Site",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -66,7 +66,7 @@
                     "docstring": "",
                     "name": "natural_key",
                     "namespace": "django.contrib.sites.models.Site.natural_key",
-                    "class_name": "",
+                    "class_name": "django.contrib.sites.models.Site",
                     "module_name": "",
                     "package_name": ""
                 }

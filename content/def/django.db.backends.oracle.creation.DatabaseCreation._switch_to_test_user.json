@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Switch to the user that's used for creating the test database.\n\n        Oracle doesn't have the concept of separate databases under the same\n        user, so a separate user is used; see _create_test_db(). The main user\n        is also needed for cleanup when testing is completed, so save its\n        credentials in the SAVED_USER/SAVED_PASSWORD key in the settings dict.\n        \"\"\"",
     "name": "_switch_to_test_user",
     "namespace": "django.db.backends.oracle.creation.DatabaseCreation._switch_to_test_user",
-    "class_name": "",
+    "class_name": "django.db.backends.oracle.creation.DatabaseCreation",
     "module_name": "",
     "package_name": ""
 }

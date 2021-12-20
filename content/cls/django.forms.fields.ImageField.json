@@ -9,7 +9,7 @@
             "docstring": "\"\"\"\n        Check that the file-upload field data contains a valid image (GIF, JPG,\n        PNG, etc. -- whatever Pillow supports).\n        \"\"\"",
             "name": "to_python",
             "namespace": "django.forms.fields.ImageField.to_python",
-            "class_name": "",
+            "class_name": "django.forms.fields.ImageField",
             "module_name": "",
             "package_name": ""
         },
@@ -17,7 +17,7 @@
             "docstring": "",
             "name": "widget_attrs",
             "namespace": "django.forms.fields.ImageField.widget_attrs",
-            "class_name": "",
+            "class_name": "django.forms.fields.ImageField",
             "module_name": "",
             "package_name": ""
         }

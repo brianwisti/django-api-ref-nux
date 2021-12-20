@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return a bool indicating whether the this Layer supports the given\n        capability (a string).  Valid capability strings include:\n          'RandomRead', 'SequentialWrite', 'RandomWrite', 'FastSpatialFilter',\n          'FastFeatureCount', 'FastGetExtent', 'CreateField', 'Transactions',\n          'DeleteFeature', and 'FastSetNextByIndex'.\n        \"\"\"",
     "name": "test_capability",
     "namespace": "django.contrib.gis.gdal.layer.Layer.test_capability",
-    "class_name": "",
+    "class_name": "django.contrib.gis.gdal.layer.Layer",
     "module_name": "",
     "package_name": ""
 }

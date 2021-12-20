@@ -11,7 +11,7 @@
                     "docstring": "",
                     "name": "process_rhs",
                     "namespace": "django.contrib.postgres.search.SearchVectorExact.process_rhs",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.search.SearchVectorExact",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -19,7 +19,7 @@
                     "docstring": "",
                     "name": "as_sql",
                     "namespace": "django.contrib.postgres.search.SearchVectorExact.as_sql",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.search.SearchVectorExact",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -34,7 +34,7 @@
                     "docstring": "",
                     "name": "db_type",
                     "namespace": "django.contrib.postgres.search.SearchVectorField.db_type",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.search.SearchVectorField",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -49,7 +49,7 @@
                     "docstring": "",
                     "name": "db_type",
                     "namespace": "django.contrib.postgres.search.SearchQueryField.db_type",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.search.SearchQueryField",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -64,7 +64,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.contrib.postgres.search.SearchConfig.__init__",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.search.SearchConfig",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -72,7 +72,7 @@
                     "docstring": "",
                     "name": "from_parameter",
                     "namespace": "django.contrib.postgres.search.SearchConfig.from_parameter",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.search.SearchConfig",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -80,7 +80,7 @@
                     "docstring": "",
                     "name": "get_source_expressions",
                     "namespace": "django.contrib.postgres.search.SearchConfig.get_source_expressions",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.search.SearchConfig",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -88,7 +88,7 @@
                     "docstring": "",
                     "name": "set_source_expressions",
                     "namespace": "django.contrib.postgres.search.SearchConfig.set_source_expressions",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.search.SearchConfig",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -96,7 +96,7 @@
                     "docstring": "",
                     "name": "as_sql",
                     "namespace": "django.contrib.postgres.search.SearchConfig.as_sql",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.search.SearchConfig",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -111,7 +111,7 @@
                     "docstring": "",
                     "name": "_combine",
                     "namespace": "django.contrib.postgres.search.SearchVectorCombinable._combine",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.search.SearchVectorCombinable",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -126,7 +126,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.contrib.postgres.search.SearchVector.__init__",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.search.SearchVector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -134,7 +134,7 @@
                     "docstring": "",
                     "name": "resolve_expression",
                     "namespace": "django.contrib.postgres.search.SearchVector.resolve_expression",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.search.SearchVector",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -142,7 +142,7 @@
                     "docstring": "",
                     "name": "as_sql",
                     "namespace": "django.contrib.postgres.search.SearchVector.as_sql",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.search.SearchVector",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -157,7 +157,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.contrib.postgres.search.CombinedSearchVector.__init__",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.search.CombinedSearchVector",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -172,7 +172,7 @@
                     "docstring": "",
                     "name": "_combine",
                     "namespace": "django.contrib.postgres.search.SearchQueryCombinable._combine",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.search.SearchQueryCombinable",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -180,7 +180,7 @@
                     "docstring": "",
                     "name": "__or__",
                     "namespace": "django.contrib.postgres.search.SearchQueryCombinable.__or__",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.search.SearchQueryCombinable",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -188,7 +188,7 @@
                     "docstring": "",
                     "name": "__ror__",
                     "namespace": "django.contrib.postgres.search.SearchQueryCombinable.__ror__",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.search.SearchQueryCombinable",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -196,7 +196,7 @@
                     "docstring": "",
                     "name": "__and__",
                     "namespace": "django.contrib.postgres.search.SearchQueryCombinable.__and__",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.search.SearchQueryCombinable",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -204,7 +204,7 @@
                     "docstring": "",
                     "name": "__rand__",
                     "namespace": "django.contrib.postgres.search.SearchQueryCombinable.__rand__",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.search.SearchQueryCombinable",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -219,7 +219,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.contrib.postgres.search.SearchQuery.__init__",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.search.SearchQuery",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -227,7 +227,7 @@
                     "docstring": "",
                     "name": "as_sql",
                     "namespace": "django.contrib.postgres.search.SearchQuery.as_sql",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.search.SearchQuery",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -235,7 +235,7 @@
                     "docstring": "",
                     "name": "__invert__",
                     "namespace": "django.contrib.postgres.search.SearchQuery.__invert__",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.search.SearchQuery",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -243,7 +243,7 @@
                     "docstring": "",
                     "name": "__str__",
                     "namespace": "django.contrib.postgres.search.SearchQuery.__str__",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.search.SearchQuery",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -258,7 +258,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.contrib.postgres.search.CombinedSearchQuery.__init__",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.search.CombinedSearchQuery",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -266,7 +266,7 @@
                     "docstring": "",
                     "name": "__str__",
                     "namespace": "django.contrib.postgres.search.CombinedSearchQuery.__str__",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.search.CombinedSearchQuery",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -281,7 +281,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.contrib.postgres.search.SearchRank.__init__",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.search.SearchRank",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -296,7 +296,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.contrib.postgres.search.SearchHeadline.__init__",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.search.SearchHeadline",
                     "module_name": "",
                     "package_name": ""
                 },
@@ -304,7 +304,7 @@
                     "docstring": "",
                     "name": "as_sql",
                     "namespace": "django.contrib.postgres.search.SearchHeadline.as_sql",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.search.SearchHeadline",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -319,7 +319,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.contrib.postgres.search.TrigramBase.__init__",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.search.TrigramBase",
                     "module_name": "",
                     "package_name": ""
                 }
@@ -334,7 +334,7 @@
                     "docstring": "",
                     "name": "__init__",
                     "namespace": "django.contrib.postgres.search.TrigramWordBase.__init__",
-                    "class_name": "",
+                    "class_name": "django.contrib.postgres.search.TrigramWordBase",
                     "module_name": "",
                     "package_name": ""
                 }

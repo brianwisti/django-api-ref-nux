@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Validate that the connection isn't accessed by another thread than the\n        one which originally created it, unless the connection was explicitly\n        authorized to be shared between threads (via the `inc_thread_sharing()`\n        method). Raise an exception if the validation fails.\n        \"\"\"",
     "name": "validate_thread_sharing",
     "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.validate_thread_sharing",
-    "class_name": "",
+    "class_name": "django.db.backends.base.base.BaseDatabaseWrapper",
     "module_name": "",
     "package_name": ""
 }

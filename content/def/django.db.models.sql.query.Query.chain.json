@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return a copy of the current Query that's ready for another operation.\n        The klass argument changes the type of the Query, e.g. UpdateQuery.\n        \"\"\"",
     "name": "chain",
     "namespace": "django.db.models.sql.query.Query.chain",
-    "class_name": "",
+    "class_name": "django.db.models.sql.query.Query",
     "module_name": "",
     "package_name": ""
 }

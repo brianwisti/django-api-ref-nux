@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Backends can implement as needed to temporarily disable foreign key\n        constraint checking. Should return True if the constraints were\n        disabled and will need to be reenabled.\n        \"\"\"",
     "name": "disable_constraint_checking",
     "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.disable_constraint_checking",
-    "class_name": "",
+    "class_name": "django.db.backends.base.base.BaseDatabaseWrapper",
     "module_name": "",
     "package_name": ""
 }

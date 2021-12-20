@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Return the value to use for the LIMIT when we are wanting \"LIMIT\n        infinity\". Return None if the limit clause can be omitted in this case.\n        \"\"\"",
     "name": "no_limit_value",
     "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.no_limit_value",
-    "class_name": "",
+    "class_name": "django.db.backends.base.operations.BaseDatabaseOperations",
     "module_name": "",
     "package_name": ""
 }

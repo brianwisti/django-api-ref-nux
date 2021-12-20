@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Check if the given value appears to have been provided as a \"fixed\"\n        time value, and include a warning in the returned list if it does. The\n        value argument must be a date object or aware/naive datetime object. If\n        now is provided, it must be a naive datetime object.\n        \"\"\"",
     "name": "_check_if_value_fixed",
     "namespace": "django.db.models.fields.DateTimeCheckMixin._check_if_value_fixed",
-    "class_name": "",
+    "class_name": "django.db.models.fields.DateTimeCheckMixin",
     "module_name": "",
     "package_name": ""
 }

@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Filter sequence of receivers to get resolved, live receivers.\n\n        This checks for weak references and resolves them, then returning only\n        live receivers.\n        \"\"\"",
     "name": "_live_receivers",
     "namespace": "django.dispatch.dispatcher.Signal._live_receivers",
-    "class_name": "",
+    "class_name": "django.dispatch.dispatcher.Signal",
     "module_name": "",
     "package_name": ""
 }

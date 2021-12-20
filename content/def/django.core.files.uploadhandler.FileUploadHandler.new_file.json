@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Signal that a new file has been started.\n\n        Warning: As with any data from the client, you should not trust\n        content_length (and sometimes won't even get it).\n        \"\"\"",
     "name": "new_file",
     "namespace": "django.core.files.uploadhandler.FileUploadHandler.new_file",
-    "class_name": "",
+    "class_name": "django.core.files.uploadhandler.FileUploadHandler",
     "module_name": "",
     "package_name": ""
 }

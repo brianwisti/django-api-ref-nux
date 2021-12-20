@@ -2,7 +2,7 @@
     "docstring": "\"\"\"\n        Validate that the input value can be converted to a Geometry object\n        and return it. Raise a ValidationError if the value cannot be\n        instantiated as a Geometry.\n        \"\"\"",
     "name": "clean",
     "namespace": "django.contrib.gis.forms.fields.GeometryField.clean",
-    "class_name": "",
+    "class_name": "django.contrib.gis.forms.fields.GeometryField",
     "module_name": "",
     "package_name": ""
 }
