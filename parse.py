@@ -7,7 +7,7 @@ from typing import List, Generator, Optional
 import parso
 import typer
 from pydantic import BaseModel, Field, PrivateAttr, validator
-from rich import print
+from rich import inspect, print
 from rich.logging import RichHandler
 from rich.pretty import pprint
 
@@ -32,12 +32,44 @@ def find_in_sys_path(file_path: Path) -> Path:
     raise ValueError(f"{file_path} not found in sys.path!")
 
 
+def find_node_docstring(node) -> str:
+    docstring = node.get_doc_node()
+
+    if not docstring:
+        return EMPTY_STRING
+
+    if isinstance(docstring, parso.python.tree.Leaf):
+        return docstring.value
+
+    return str(docstring)
+
+
+class ClassDef(BaseModel):
+    """A Python class definition."""
+
+    docstring: str = EMPTY_STRING
+    name: str
+    parent_name: str
+    _parsed: parso.python.tree.Class = PrivateAttr()
+
+    @classmethod
+    def from_parsed_class(cls, parent_name: str, parsed_class: parso.python.tree.Class) -> "ClassDef":
+        docstring = find_node_docstring(parsed_class)
+        name = parsed_class.name.value
+        return cls(
+            docstring=docstring,
+            name=name,
+            parent_name=parent_name,
+            _parsed=parsed_class
+        )
+
 class Module(BaseModel):
     """A Python file with some names defined."""
 
     path: Path
     docstring: str = EMPTY_STRING
     namespace: str
+    classes: List[ClassDef] = Field(default_factory=list)
     _parsed: parso.python.tree.Module = PrivateAttr()
 
     def __init__(self, **data):
@@ -45,6 +77,7 @@ class Module(BaseModel):
         source = self.path.read_text()
         self._parsed = parso.parse(source).get_root_node()
         self.docstring = self._find_docstring()
+        self._load_classdefs()
         log.debug("Loaded module %s", self.namespace)
 
     def __repr__(self) -> str:
@@ -55,17 +88,11 @@ class Module(BaseModel):
         """Use the module namespace for stringification"""
         return self.namespace
 
-    def _find_docstring(self) -> str:
-        """Return the module's plain text docstring if available."""
-        docstring = self._parsed.get_doc_node()
 
-        if not docstring:
-            return EMPTY_STRING
-
-        if isinstance(docstring, parso.python.tree.Leaf):
-            return docstring.value
-
-        return str(docstring)
+    def add_class_def(self, parsed_class: parso.python.tree.Class):
+        class_def = ClassDef.from_parsed_class(self.namespace, parsed_class)
+        log.info("MODULE %s classdef: %s", self, class_def)
+        self.classes.append(class_def)
 
     @validator("path")
     def path_is_file(cls, path):
@@ -78,6 +105,14 @@ class Module(BaseModel):
             exclude={"path"},
             indent=4,
         )
+
+    def _load_classdefs(self):
+        for parsed_class in self._parsed.iter_classdefs():
+            self.add_class_def(parsed_class)
+
+    def _find_docstring(self) -> str:
+        """Return the module's plain text docstring if available."""
+        return find_node_docstring(self._parsed)
 
 
 class Package(BaseModel):
