@@ -5,62 +5,686 @@
         {
             "docstring": "\"\"\"\n    Abstract base class for password hashers\n\n    When creating your own hasher, you need to override algorithm,\n    verify(), encode() and safe_summary().\n\n    PasswordHasher objects are immutable.\n    \"\"\"",
             "name": "BasePasswordHasher",
-            "namespace": "django.contrib.auth.hashers.BasePasswordHasher"
+            "namespace": "django.contrib.auth.hashers.BasePasswordHasher",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "_load_library",
+                    "namespace": "django.contrib.auth.hashers.BasePasswordHasher._load_library",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Generate a cryptographically secure nonce salt in ASCII with an entropy\n        of at least `salt_entropy` bits.\n        \"\"\"",
+                    "name": "salt",
+                    "namespace": "django.contrib.auth.hashers.BasePasswordHasher.salt",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Check if the given password is correct.\"\"\"",
+                    "name": "verify",
+                    "namespace": "django.contrib.auth.hashers.BasePasswordHasher.verify",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_check_encode_args",
+                    "namespace": "django.contrib.auth.hashers.BasePasswordHasher._check_encode_args",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Create an encoded database value.\n\n        The result is normally formatted as \"algorithm$salt$hash\" and\n        must be fewer than 128 characters.\n        \"\"\"",
+                    "name": "encode",
+                    "namespace": "django.contrib.auth.hashers.BasePasswordHasher.encode",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return a decoded database value.\n\n        The result is a dictionary and should contain `algorithm`, `hash`, and\n        `salt`. Extra keys can be algorithm specific like `iterations` or\n        `work_factor`.\n        \"\"\"",
+                    "name": "decode",
+                    "namespace": "django.contrib.auth.hashers.BasePasswordHasher.decode",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return a summary of safe values.\n\n        The result is a dictionary and will be used where the password field\n        must be displayed to construct a safe representation of the password.\n        \"\"\"",
+                    "name": "safe_summary",
+                    "namespace": "django.contrib.auth.hashers.BasePasswordHasher.safe_summary",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "must_update",
+                    "namespace": "django.contrib.auth.hashers.BasePasswordHasher.must_update",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Bridge the runtime gap between the work factor supplied in `encoded`\n        and the work factor suggested by this hasher.\n\n        Taking PBKDF2 as an example, if `encoded` contains 20000 iterations and\n        `self.iterations` is 30000, this method should run password through\n        another 10000 iterations of PBKDF2. Similar approaches should exist\n        for any hasher that has a work factor. If not, this method should be\n        defined as a no-op to silence the warning.\n        \"\"\"",
+                    "name": "harden_runtime",
+                    "namespace": "django.contrib.auth.hashers.BasePasswordHasher.harden_runtime",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Secure password hashing using the PBKDF2 algorithm (recommended)\n\n    Configured to use PBKDF2 + HMAC + SHA256.\n    The result is a 64 byte binary string.  Iterations may be changed\n    safely but you must rename the algorithm if you change SHA256.\n    \"\"\"",
             "name": "PBKDF2PasswordHasher",
-            "namespace": "django.contrib.auth.hashers.PBKDF2PasswordHasher"
+            "namespace": "django.contrib.auth.hashers.PBKDF2PasswordHasher",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "encode",
+                    "namespace": "django.contrib.auth.hashers.PBKDF2PasswordHasher.encode",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "decode",
+                    "namespace": "django.contrib.auth.hashers.PBKDF2PasswordHasher.decode",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "verify",
+                    "namespace": "django.contrib.auth.hashers.PBKDF2PasswordHasher.verify",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "safe_summary",
+                    "namespace": "django.contrib.auth.hashers.PBKDF2PasswordHasher.safe_summary",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "must_update",
+                    "namespace": "django.contrib.auth.hashers.PBKDF2PasswordHasher.must_update",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "harden_runtime",
+                    "namespace": "django.contrib.auth.hashers.PBKDF2PasswordHasher.harden_runtime",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Alternate PBKDF2 hasher which uses SHA1, the default PRF\n    recommended by PKCS #5. This is compatible with other\n    implementations of PBKDF2, such as openssl's\n    PKCS5_PBKDF2_HMAC_SHA1().\n    \"\"\"",
             "name": "PBKDF2SHA1PasswordHasher",
-            "namespace": "django.contrib.auth.hashers.PBKDF2SHA1PasswordHasher"
+            "namespace": "django.contrib.auth.hashers.PBKDF2SHA1PasswordHasher",
+            "methods": []
         },
         {
             "docstring": "\"\"\"\n    Secure password hashing using the argon2 algorithm.\n\n    This is the winner of the Password Hashing Competition 2013-2015\n    (https://password-hashing.net). It requires the argon2-cffi library which\n    depends on native C code and might cause portability issues.\n    \"\"\"",
             "name": "Argon2PasswordHasher",
-            "namespace": "django.contrib.auth.hashers.Argon2PasswordHasher"
+            "namespace": "django.contrib.auth.hashers.Argon2PasswordHasher",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "encode",
+                    "namespace": "django.contrib.auth.hashers.Argon2PasswordHasher.encode",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "decode",
+                    "namespace": "django.contrib.auth.hashers.Argon2PasswordHasher.decode",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "verify",
+                    "namespace": "django.contrib.auth.hashers.Argon2PasswordHasher.verify",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "safe_summary",
+                    "namespace": "django.contrib.auth.hashers.Argon2PasswordHasher.safe_summary",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "must_update",
+                    "namespace": "django.contrib.auth.hashers.Argon2PasswordHasher.must_update",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "harden_runtime",
+                    "namespace": "django.contrib.auth.hashers.Argon2PasswordHasher.harden_runtime",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "params",
+                    "namespace": "django.contrib.auth.hashers.Argon2PasswordHasher.params",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Secure password hashing using the bcrypt algorithm (recommended)\n\n    This is considered by many to be the most secure algorithm but you\n    must first install the bcrypt library.  Please be warned that\n    this library depends on native C code and might cause portability\n    issues.\n    \"\"\"",
             "name": "BCryptSHA256PasswordHasher",
-            "namespace": "django.contrib.auth.hashers.BCryptSHA256PasswordHasher"
+            "namespace": "django.contrib.auth.hashers.BCryptSHA256PasswordHasher",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "salt",
+                    "namespace": "django.contrib.auth.hashers.BCryptSHA256PasswordHasher.salt",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "encode",
+                    "namespace": "django.contrib.auth.hashers.BCryptSHA256PasswordHasher.encode",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "decode",
+                    "namespace": "django.contrib.auth.hashers.BCryptSHA256PasswordHasher.decode",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "verify",
+                    "namespace": "django.contrib.auth.hashers.BCryptSHA256PasswordHasher.verify",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "safe_summary",
+                    "namespace": "django.contrib.auth.hashers.BCryptSHA256PasswordHasher.safe_summary",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "must_update",
+                    "namespace": "django.contrib.auth.hashers.BCryptSHA256PasswordHasher.must_update",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "harden_runtime",
+                    "namespace": "django.contrib.auth.hashers.BCryptSHA256PasswordHasher.harden_runtime",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Secure password hashing using the bcrypt algorithm\n\n    This is considered by many to be the most secure algorithm but you\n    must first install the bcrypt library.  Please be warned that\n    this library depends on native C code and might cause portability\n    issues.\n\n    This hasher does not first hash the password which means it is subject to\n    bcrypt's 72 bytes password truncation. Most use cases should prefer the\n    BCryptSHA256PasswordHasher.\n    \"\"\"",
             "name": "BCryptPasswordHasher",
-            "namespace": "django.contrib.auth.hashers.BCryptPasswordHasher"
+            "namespace": "django.contrib.auth.hashers.BCryptPasswordHasher",
+            "methods": []
         },
         {
             "docstring": "\"\"\"\n    Secure password hashing using the Scrypt algorithm.\n    \"\"\"",
             "name": "ScryptPasswordHasher",
-            "namespace": "django.contrib.auth.hashers.ScryptPasswordHasher"
+            "namespace": "django.contrib.auth.hashers.ScryptPasswordHasher",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "encode",
+                    "namespace": "django.contrib.auth.hashers.ScryptPasswordHasher.encode",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "decode",
+                    "namespace": "django.contrib.auth.hashers.ScryptPasswordHasher.decode",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "verify",
+                    "namespace": "django.contrib.auth.hashers.ScryptPasswordHasher.verify",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "safe_summary",
+                    "namespace": "django.contrib.auth.hashers.ScryptPasswordHasher.safe_summary",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "must_update",
+                    "namespace": "django.contrib.auth.hashers.ScryptPasswordHasher.must_update",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "harden_runtime",
+                    "namespace": "django.contrib.auth.hashers.ScryptPasswordHasher.harden_runtime",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    The SHA1 password hashing algorithm (not recommended)\n    \"\"\"",
             "name": "SHA1PasswordHasher",
-            "namespace": "django.contrib.auth.hashers.SHA1PasswordHasher"
+            "namespace": "django.contrib.auth.hashers.SHA1PasswordHasher",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "encode",
+                    "namespace": "django.contrib.auth.hashers.SHA1PasswordHasher.encode",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "decode",
+                    "namespace": "django.contrib.auth.hashers.SHA1PasswordHasher.decode",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "verify",
+                    "namespace": "django.contrib.auth.hashers.SHA1PasswordHasher.verify",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "safe_summary",
+                    "namespace": "django.contrib.auth.hashers.SHA1PasswordHasher.safe_summary",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "must_update",
+                    "namespace": "django.contrib.auth.hashers.SHA1PasswordHasher.must_update",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "harden_runtime",
+                    "namespace": "django.contrib.auth.hashers.SHA1PasswordHasher.harden_runtime",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    The Salted MD5 password hashing algorithm (not recommended)\n    \"\"\"",
             "name": "MD5PasswordHasher",
-            "namespace": "django.contrib.auth.hashers.MD5PasswordHasher"
+            "namespace": "django.contrib.auth.hashers.MD5PasswordHasher",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "encode",
+                    "namespace": "django.contrib.auth.hashers.MD5PasswordHasher.encode",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "decode",
+                    "namespace": "django.contrib.auth.hashers.MD5PasswordHasher.decode",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "verify",
+                    "namespace": "django.contrib.auth.hashers.MD5PasswordHasher.verify",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "safe_summary",
+                    "namespace": "django.contrib.auth.hashers.MD5PasswordHasher.safe_summary",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "must_update",
+                    "namespace": "django.contrib.auth.hashers.MD5PasswordHasher.must_update",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "harden_runtime",
+                    "namespace": "django.contrib.auth.hashers.MD5PasswordHasher.harden_runtime",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Very insecure algorithm that you should *never* use; store SHA1 hashes\n    with an empty salt.\n\n    This class is implemented because Django used to accept such password\n    hashes. Some older Django installs still have these values lingering\n    around so we need to handle and upgrade them properly.\n    \"\"\"",
             "name": "UnsaltedSHA1PasswordHasher",
-            "namespace": "django.contrib.auth.hashers.UnsaltedSHA1PasswordHasher"
+            "namespace": "django.contrib.auth.hashers.UnsaltedSHA1PasswordHasher",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "salt",
+                    "namespace": "django.contrib.auth.hashers.UnsaltedSHA1PasswordHasher.salt",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "encode",
+                    "namespace": "django.contrib.auth.hashers.UnsaltedSHA1PasswordHasher.encode",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "decode",
+                    "namespace": "django.contrib.auth.hashers.UnsaltedSHA1PasswordHasher.decode",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "verify",
+                    "namespace": "django.contrib.auth.hashers.UnsaltedSHA1PasswordHasher.verify",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "safe_summary",
+                    "namespace": "django.contrib.auth.hashers.UnsaltedSHA1PasswordHasher.safe_summary",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "harden_runtime",
+                    "namespace": "django.contrib.auth.hashers.UnsaltedSHA1PasswordHasher.harden_runtime",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Incredibly insecure algorithm that you should *never* use; stores unsalted\n    MD5 hashes without the algorithm prefix, also accepts MD5 hashes with an\n    empty salt.\n\n    This class is implemented because Django used to store passwords this way\n    and to accept such password hashes. Some older Django installs still have\n    these values lingering around so we need to handle and upgrade them\n    properly.\n    \"\"\"",
             "name": "UnsaltedMD5PasswordHasher",
-            "namespace": "django.contrib.auth.hashers.UnsaltedMD5PasswordHasher"
+            "namespace": "django.contrib.auth.hashers.UnsaltedMD5PasswordHasher",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "salt",
+                    "namespace": "django.contrib.auth.hashers.UnsaltedMD5PasswordHasher.salt",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "encode",
+                    "namespace": "django.contrib.auth.hashers.UnsaltedMD5PasswordHasher.encode",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "decode",
+                    "namespace": "django.contrib.auth.hashers.UnsaltedMD5PasswordHasher.decode",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "verify",
+                    "namespace": "django.contrib.auth.hashers.UnsaltedMD5PasswordHasher.verify",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "safe_summary",
+                    "namespace": "django.contrib.auth.hashers.UnsaltedMD5PasswordHasher.safe_summary",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "harden_runtime",
+                    "namespace": "django.contrib.auth.hashers.UnsaltedMD5PasswordHasher.harden_runtime",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Password hashing using UNIX crypt (not recommended)\n\n    The crypt module is not supported on all platforms.\n    \"\"\"",
             "name": "CryptPasswordHasher",
-            "namespace": "django.contrib.auth.hashers.CryptPasswordHasher"
+            "namespace": "django.contrib.auth.hashers.CryptPasswordHasher",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "salt",
+                    "namespace": "django.contrib.auth.hashers.CryptPasswordHasher.salt",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "encode",
+                    "namespace": "django.contrib.auth.hashers.CryptPasswordHasher.encode",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "decode",
+                    "namespace": "django.contrib.auth.hashers.CryptPasswordHasher.decode",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "verify",
+                    "namespace": "django.contrib.auth.hashers.CryptPasswordHasher.verify",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "safe_summary",
+                    "namespace": "django.contrib.auth.hashers.CryptPasswordHasher.safe_summary",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "harden_runtime",
+                    "namespace": "django.contrib.auth.hashers.CryptPasswordHasher.harden_runtime",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Return True if this password wasn't generated by\n    User.set_unusable_password(), i.e. make_password(None).\n    \"\"\"",
+            "name": "is_password_usable",
+            "namespace": "django.contrib.auth.hashers.is_password_usable",
+            "class_name": "",
+            "module_name": "django.contrib.auth.hashers",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return a boolean of whether the raw password matches the three\n    part encoded digest.\n\n    If setter is specified, it'll be called when you need to\n    regenerate the password.\n    \"\"\"",
+            "name": "check_password",
+            "namespace": "django.contrib.auth.hashers.check_password",
+            "class_name": "",
+            "module_name": "django.contrib.auth.hashers",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Turn a plain-text password into a hash for database storage\n\n    Same as encode() but generate a new random salt. If password is None then\n    return a concatenation of UNUSABLE_PASSWORD_PREFIX and a random string,\n    which disallows logins. Additional random string reduces chances of gaining\n    access to staff or superuser accounts. See ticket #20079 for more info.\n    \"\"\"",
+            "name": "make_password",
+            "namespace": "django.contrib.auth.hashers.make_password",
+            "class_name": "",
+            "module_name": "django.contrib.auth.hashers",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_hashers",
+            "namespace": "django.contrib.auth.hashers.get_hashers",
+            "class_name": "",
+            "module_name": "django.contrib.auth.hashers",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_hashers_by_algorithm",
+            "namespace": "django.contrib.auth.hashers.get_hashers_by_algorithm",
+            "class_name": "",
+            "module_name": "django.contrib.auth.hashers",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "reset_hashers",
+            "namespace": "django.contrib.auth.hashers.reset_hashers",
+            "class_name": "",
+            "module_name": "django.contrib.auth.hashers",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return an instance of a loaded password hasher.\n\n    If algorithm is 'default', return the default hasher. Lazily import hashers\n    specified in the project's settings file if needed.\n    \"\"\"",
+            "name": "get_hasher",
+            "namespace": "django.contrib.auth.hashers.get_hasher",
+            "class_name": "",
+            "module_name": "django.contrib.auth.hashers",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return an instance of a loaded password hasher.\n\n    Identify hasher algorithm by examining encoded hash, and call\n    get_hasher() to return hasher. Raise ValueError if\n    algorithm cannot be identified, or if hasher is not loaded.\n    \"\"\"",
+            "name": "identify_hasher",
+            "namespace": "django.contrib.auth.hashers.identify_hasher",
+            "class_name": "",
+            "module_name": "django.contrib.auth.hashers",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return the given hash, with only the first ``show`` number shown. The\n    rest are masked with ``char`` for security reasons.\n    \"\"\"",
+            "name": "mask_hash",
+            "namespace": "django.contrib.auth.hashers.mask_hash",
+            "class_name": "",
+            "module_name": "django.contrib.auth.hashers",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "must_update_salt",
+            "namespace": "django.contrib.auth.hashers.must_update_salt",
+            "class_name": "",
+            "module_name": "django.contrib.auth.hashers",
+            "package_name": ""
         }
     ],
     "package_name": "django.contrib.auth"

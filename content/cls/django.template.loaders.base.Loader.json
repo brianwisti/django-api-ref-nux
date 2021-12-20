@@ -3,5 +3,39 @@
     "name": "Loader",
     "namespace": "django.template.loaders.base.Loader",
     "module_name": "django.template.loaders.base",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.template.loaders.base.Loader.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Call self.get_template_sources() and return a Template object for\n        the first template matching template_name. If skip is provided, ignore\n        template origins in skip. This is used to avoid recursion during\n        template extending.\n        \"\"\"",
+            "name": "get_template",
+            "namespace": "django.template.loaders.base.Loader.get_template",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        An iterator that yields possible matching template paths for a\n        template name.\n        \"\"\"",
+            "name": "get_template_sources",
+            "namespace": "django.template.loaders.base.Loader.get_template_sources",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Reset any state maintained by the loader instance (e.g. cached\n        templates or cached loader modules).\n        \"\"\"",
+            "name": "reset",
+            "namespace": "django.template.loaders.base.Loader.reset",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

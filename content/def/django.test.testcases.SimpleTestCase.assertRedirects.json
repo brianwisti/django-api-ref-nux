@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Assert that a response redirected to a specific URL and that the\n        redirect URL can be loaded.\n\n        Won't work for external links since it uses the test client to do a\n        request (use fetch_redirect_response=False to check such links without\n        fetching them).\n        \"\"\"",
+    "name": "assertRedirects",
+    "namespace": "django.test.testcases.SimpleTestCase.assertRedirects",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Hook for doing any extra model-wide validation after clean() has been\n        called on every field by self.clean_fields. Any ValidationError raised\n        by this method will not be associated with a particular field; it will\n        have a special-case association with the field defined by NON_FIELD_ERRORS.\n        \"\"\"",
+    "name": "clean",
+    "namespace": "django.db.models.base.Model.clean",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

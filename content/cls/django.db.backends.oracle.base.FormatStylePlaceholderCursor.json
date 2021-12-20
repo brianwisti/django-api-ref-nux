@@ -3,5 +3,127 @@
     "name": "FormatStylePlaceholderCursor",
     "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor",
     "module_name": "django.db.backends.oracle.base",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_output_number_converter",
+            "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor._output_number_converter",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_get_decimal_converter",
+            "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor._get_decimal_converter",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Called for each db column fetched from cursors. Return numbers as the\n        appropriate Python type.\n        \"\"\"",
+            "name": "_output_type_handler",
+            "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor._output_type_handler",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_format_params",
+            "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor._format_params",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_guess_input_sizes",
+            "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor._guess_input_sizes",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_param_generator",
+            "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor._param_generator",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_fix_for_params",
+            "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor._fix_for_params",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "execute",
+            "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor.execute",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "executemany",
+            "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor.executemany",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "close",
+            "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor.close",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "var",
+            "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor.var",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "arrayvar",
+            "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor.arrayvar",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__getattr__",
+            "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor.__getattr__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__iter__",
+            "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor.__iter__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

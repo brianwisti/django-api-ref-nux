@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Ensure a deterministic order across all database backends. Search for a\n        single field or unique together set of fields providing a total\n        ordering. If these are missing, augment the ordering with a descendant\n        primary key.\n        \"\"\"",
+    "name": "_get_deterministic_ordering",
+    "namespace": "django.contrib.admin.views.main.ChangeList._get_deterministic_ordering",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

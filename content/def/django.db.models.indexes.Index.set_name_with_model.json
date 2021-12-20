@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Generate a unique name for the index.\n\n        The name is divided into 3 parts - table name (12 chars), field name\n        (8 chars) and unique hash + suffix (10 chars). Each part is made to\n        fit its size by truncating the excess length.\n        \"\"\"",
+    "name": "set_name_with_model",
+    "namespace": "django.db.models.indexes.Index.set_name_with_model",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

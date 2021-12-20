@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Reject users with is_active=False. Custom user models that don't have\n        that attribute are allowed.\n        \"\"\"",
+    "name": "user_can_authenticate",
+    "namespace": "django.contrib.auth.backends.ModelBackend.user_can_authenticate",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

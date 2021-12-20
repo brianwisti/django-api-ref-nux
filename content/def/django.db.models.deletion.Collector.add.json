@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Add 'objs' to the collection of objects to be deleted.  If the call is\n        the result of a cascade, 'source' should be the model that caused it,\n        and 'nullable' should be set to True if the relation can be null.\n\n        Return a list of all objects that were not already collected.\n        \"\"\"",
+    "name": "add",
+    "namespace": "django.db.models.deletion.Collector.add",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

@@ -2,11 +2,38 @@
     "name": "django.core.servers",
     "docstring": "",
     "package_name": "django.core",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.core.servers.basehttp",
             "docstring": "\"\"\"\nHTTP server that implements the Python WSGI protocol (PEP 333, rev 1.21).\n\nBased on wsgiref.simple_server which is part of the standard library since 2.5.\n\nThis is a simple server for use in testing or debugging Django apps. It hasn't\nbeen reviewed for security issues. DON'T USE IT FOR PRODUCTION USE!\n\"\"\"",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Load and return the WSGI application as configured by the user in\n    ``settings.WSGI_APPLICATION``. With the default ``startproject`` layout,\n    this will be the ``application`` object in ``projectname/wsgi.py``.\n\n    This function, and the ``WSGI_APPLICATION`` setting itself, are only useful\n    for Django's internal server (runserver); external WSGI servers should just\n    be configured to point to the correct application object directly.\n\n    If settings.WSGI_APPLICATION is not set (is ``None``), return\n    whatever ``django.core.wsgi.get_wsgi_application`` returns.\n    \"\"\"",
+                    "name": "get_internal_wsgi_application",
+                    "namespace": "django.core.servers.basehttp.get_internal_wsgi_application",
+                    "class_name": "",
+                    "module_name": "django.core.servers.basehttp",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "is_broken_pipe_error",
+                    "namespace": "django.core.servers.basehttp.is_broken_pipe_error",
+                    "class_name": "",
+                    "module_name": "django.core.servers.basehttp",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "run",
+                    "namespace": "django.core.servers.basehttp.run",
+                    "class_name": "",
+                    "module_name": "django.core.servers.basehttp",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.core.servers"
         }
     ],

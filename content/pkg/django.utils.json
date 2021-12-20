@@ -2,216 +2,2007 @@
     "name": "django.utils",
     "docstring": "",
     "package_name": "django",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.utils._os",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Join one or more path components to the base path component intelligently.\n    Return a normalized, absolute version of the final path.\n\n    Raise ValueError if the final path isn't located inside of the base path\n    component.\n    \"\"\"",
+                    "name": "safe_join",
+                    "namespace": "django.utils._os.safe_join",
+                    "class_name": "",
+                    "module_name": "django.utils._os",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return whether or not creating symlinks are supported in the host platform\n    and/or if they are allowed to be created (e.g. on Windows it requires admin\n    permissions).\n    \"\"\"",
+                    "name": "symlinks_supported",
+                    "namespace": "django.utils._os.symlinks_supported",
+                    "class_name": "",
+                    "module_name": "django.utils._os",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Convert value to a pathlib.Path instance, if not already a Path.\"\"\"",
+                    "name": "to_path",
+                    "namespace": "django.utils._os.to_path",
+                    "class_name": "",
+                    "module_name": "django.utils._os",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.utils"
         },
         {
             "namespace": "django.utils.termcolors",
             "docstring": "\"\"\"\ntermcolors.py\n\"\"\"",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Return your text, enclosed in ANSI graphics codes.\n\n    Depends on the keyword arguments 'fg' and 'bg', and the contents of\n    the opts tuple/list.\n\n    Return the RESET code if no parameters are given.\n\n    Valid colors:\n        'black', 'red', 'green', 'yellow', 'blue', 'magenta', 'cyan', 'white'\n\n    Valid options:\n        'bold'\n        'underscore'\n        'blink'\n        'reverse'\n        'conceal'\n        'noreset' - string will not be auto-terminated with the RESET code\n\n    Examples:\n        colorize('hello', fg='red', bg='blue', opts=('blink',))\n        colorize()\n        colorize('goodbye', opts=('underscore',))\n        print(colorize('first line', fg='red', opts=('noreset',)))\n        print('this should be red too')\n        print(colorize('and so should this'))\n        print('this should not be red')\n    \"\"\"",
+                    "name": "colorize",
+                    "namespace": "django.utils.termcolors.colorize",
+                    "class_name": "",
+                    "module_name": "django.utils.termcolors",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return a function with default parameters for colorize()\n\n    Example:\n        bold_red = make_style(opts=('bold',), fg='red')\n        print(bold_red('hello'))\n        KEYWORD = make_style(fg='yellow')\n        COMMENT = make_style(fg='blue', opts=('bold',))\n    \"\"\"",
+                    "name": "make_style",
+                    "namespace": "django.utils.termcolors.make_style",
+                    "class_name": "",
+                    "module_name": "django.utils.termcolors",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Parse a DJANGO_COLORS environment variable to produce the system palette\n\n    The general form of a palette definition is:\n\n        \"palette;role=fg;role=fg/bg;role=fg,option,option;role=fg/bg,option,option\"\n\n    where:\n        palette is a named palette; one of 'light', 'dark', or 'nocolor'.\n        role is a named style used by Django\n        fg is a foreground color.\n        bg is a background color.\n        option is a display options.\n\n    Specifying a named palette is the same as manually specifying the individual\n    definitions for each role. Any individual definitions following the palette\n    definition will augment the base palette definition.\n\n    Valid roles:\n        'error', 'success', 'warning', 'notice', 'sql_field', 'sql_coltype',\n        'sql_keyword', 'sql_table', 'http_info', 'http_success',\n        'http_redirect', 'http_not_modified', 'http_bad_request',\n        'http_not_found', 'http_server_error', 'migrate_heading',\n        'migrate_label'\n\n    Valid colors:\n        'black', 'red', 'green', 'yellow', 'blue', 'magenta', 'cyan', 'white'\n\n    Valid options:\n        'bold', 'underscore', 'blink', 'reverse', 'conceal', 'noreset'\n    \"\"\"",
+                    "name": "parse_color_setting",
+                    "namespace": "django.utils.termcolors.parse_color_setting",
+                    "class_name": "",
+                    "module_name": "django.utils.termcolors",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.utils"
         },
         {
             "namespace": "django.utils.topological_sort",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Variation of Kahn's algorithm (1962) that returns sets.\n\n    Take a dependency graph as a dictionary of node => dependencies.\n\n    Yield sets of items in topological order, where the first set contains\n    all nodes without dependencies, and each following set contains all\n    nodes that may depend on the nodes only in the previously yielded sets.\n    \"\"\"",
+                    "name": "topological_sort_as_sets",
+                    "namespace": "django.utils.topological_sort.topological_sort_as_sets",
+                    "class_name": "",
+                    "module_name": "django.utils.topological_sort",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "stable_topological_sort",
+                    "namespace": "django.utils.topological_sort.stable_topological_sort",
+                    "class_name": "",
+                    "module_name": "django.utils.topological_sort",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.utils"
         },
         {
             "namespace": "django.utils.tree",
             "docstring": "\"\"\"\nA class for storing a tree graph. Primarily used for filter constructs in the\nORM.\n\"\"\"",
+            "functions": [],
             "package_name": "django.utils"
         },
         {
             "namespace": "django.utils.hashable",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Attempt to make value hashable or raise a TypeError if it fails.\n\n    The returned value should generate the same hash for equal values.\n    \"\"\"",
+                    "name": "make_hashable",
+                    "namespace": "django.utils.hashable.make_hashable",
+                    "class_name": "",
+                    "module_name": "django.utils.hashable",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.utils"
         },
         {
             "namespace": "django.utils.version",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"Return a PEP 440-compliant version number from VERSION.\"\"\"",
+                    "name": "get_version",
+                    "namespace": "django.utils.version.get_version",
+                    "class_name": "",
+                    "module_name": "django.utils.version",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return main version (X.Y[.Z]) from VERSION.\"\"\"",
+                    "name": "get_main_version",
+                    "namespace": "django.utils.version.get_main_version",
+                    "class_name": "",
+                    "module_name": "django.utils.version",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return a tuple of the django version. If version argument is non-empty,\n    check for correctness of the tuple provided.\n    \"\"\"",
+                    "name": "get_complete_version",
+                    "namespace": "django.utils.version.get_complete_version",
+                    "class_name": "",
+                    "module_name": "django.utils.version",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_docs_version",
+                    "namespace": "django.utils.version.get_docs_version",
+                    "class_name": "",
+                    "module_name": "django.utils.version",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return a numeric identifier of the latest git changeset.\n\n    The result is the UTC timestamp of the changeset in YYYYMMDDHHMMSS format.\n    This value isn't guaranteed to be unique, but collisions are very unlikely,\n    so it's sufficient for generating the development version numbers.\n    \"\"\"",
+                    "name": "get_git_changeset",
+                    "namespace": "django.utils.version.get_git_changeset",
+                    "class_name": "",
+                    "module_name": "django.utils.version",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return a tuple of version numbers (e.g. (1, 2, 3)) from the version\n    string (e.g. '1.2.3').\n    \"\"\"",
+                    "name": "get_version_tuple",
+                    "namespace": "django.utils.version.get_version_tuple",
+                    "class_name": "",
+                    "module_name": "django.utils.version",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.utils"
         },
         {
             "namespace": "django.utils.encoding",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Return a string representing 's'. Treat bytestrings using the 'encoding'\n    codec.\n\n    If strings_only is True, don't convert (some) non-string-like objects.\n    \"\"\"",
+                    "name": "smart_str",
+                    "namespace": "django.utils.encoding.smart_str",
+                    "class_name": "",
+                    "module_name": "django.utils.encoding",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Determine if the object instance is of a protected type.\n\n    Objects of protected types are preserved as-is when passed to\n    force_str(strings_only=True).\n    \"\"\"",
+                    "name": "is_protected_type",
+                    "namespace": "django.utils.encoding.is_protected_type",
+                    "class_name": "",
+                    "module_name": "django.utils.encoding",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Similar to smart_str(), except that lazy instances are resolved to\n    strings, rather than kept as lazy objects.\n\n    If strings_only is True, don't convert (some) non-string-like objects.\n    \"\"\"",
+                    "name": "force_str",
+                    "namespace": "django.utils.encoding.force_str",
+                    "class_name": "",
+                    "module_name": "django.utils.encoding",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return a bytestring version of 's', encoded as specified in 'encoding'.\n\n    If strings_only is True, don't convert (some) non-string-like objects.\n    \"\"\"",
+                    "name": "smart_bytes",
+                    "namespace": "django.utils.encoding.smart_bytes",
+                    "class_name": "",
+                    "module_name": "django.utils.encoding",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Similar to smart_bytes, except that lazy instances are resolved to\n    strings, rather than kept as lazy objects.\n\n    If strings_only is True, don't convert (some) non-string-like objects.\n    \"\"\"",
+                    "name": "force_bytes",
+                    "namespace": "django.utils.encoding.force_bytes",
+                    "class_name": "",
+                    "module_name": "django.utils.encoding",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Convert an Internationalized Resource Identifier (IRI) portion to a URI\n    portion that is suitable for inclusion in a URL.\n\n    This is the algorithm from section 3.1 of RFC 3987, slightly simplified\n    since the input is assumed to be a string rather than an arbitrary byte\n    stream.\n\n    Take an IRI (string or UTF-8 bytes, e.g. '/I \u2665 Django/' or\n    b'/I \\xe2\\x99\\xa5 Django/') and return a string containing the encoded\n    result with ASCII chars only (e.g. '/I%20%E2%99%A5%20Django/').\n    \"\"\"",
+                    "name": "iri_to_uri",
+                    "namespace": "django.utils.encoding.iri_to_uri",
+                    "class_name": "",
+                    "module_name": "django.utils.encoding",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Convert a Uniform Resource Identifier(URI) into an Internationalized\n    Resource Identifier(IRI).\n\n    This is the algorithm from section 3.2 of RFC 3987, excluding step 4.\n\n    Take an URI in ASCII bytes (e.g. '/I%20%E2%99%A5%20Django/') and return\n    a string containing the encoded result (e.g. '/I%20\u2665%20Django/').\n    \"\"\"",
+                    "name": "uri_to_iri",
+                    "namespace": "django.utils.encoding.uri_to_iri",
+                    "class_name": "",
+                    "module_name": "django.utils.encoding",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Escape the unsafe characters from the path portion of a Uniform Resource\n    Identifier (URI).\n    \"\"\"",
+                    "name": "escape_uri_path",
+                    "namespace": "django.utils.encoding.escape_uri_path",
+                    "class_name": "",
+                    "module_name": "django.utils.encoding",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return the Punycode of the given domain if it's non-ASCII.\"\"\"",
+                    "name": "punycode",
+                    "namespace": "django.utils.encoding.punycode",
+                    "class_name": "",
+                    "module_name": "django.utils.encoding",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    As per section 3.2 of RFC 3987, step three of converting a URI into an IRI,\n    repercent-encode any octet produced that is not part of a strictly legal\n    UTF-8 octet sequence.\n    \"\"\"",
+                    "name": "repercent_broken_unicode",
+                    "namespace": "django.utils.encoding.repercent_broken_unicode",
+                    "class_name": "",
+                    "module_name": "django.utils.encoding",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Convert a file system path to a URI portion that is suitable for\n    inclusion in a URL.\n\n    Encode certain chars that would normally be recognized as special chars\n    for URIs. Do not encode the ' character, as it is a valid character\n    within URIs. See the encodeURIComponent() JavaScript function for details.\n    \"\"\"",
+                    "name": "filepath_to_uri",
+                    "namespace": "django.utils.encoding.filepath_to_uri",
+                    "class_name": "",
+                    "module_name": "django.utils.encoding",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    The encoding of the default system locale. Fallback to 'ascii' if the\n    #encoding is unsupported by Python or could not be determined. See tickets\n    #10335 and #5846.\n    \"\"\"",
+                    "name": "get_system_encoding",
+                    "namespace": "django.utils.encoding.get_system_encoding",
+                    "class_name": "",
+                    "module_name": "django.utils.encoding",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.utils"
         },
         {
             "namespace": "django.utils.jslex",
             "docstring": "\"\"\"JsLex: a lexer for JavaScript\"\"\"",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Create a regex from a space-separated list of literal `choices`.\n\n    If provided, `prefix` and `suffix` will be attached to each choice\n    individually.\n    \"\"\"",
+                    "name": "literals",
+                    "namespace": "django.utils.jslex.literals",
+                    "class_name": "",
+                    "module_name": "django.utils.jslex",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Convert the JavaScript source `js` into something resembling C for\n    xgettext.\n\n    What actually happens is that all the regex literals are replaced with\n    \"REGEX\".\n    \"\"\"",
+                    "name": "prepare_js_for_gettext",
+                    "namespace": "django.utils.jslex.prepare_js_for_gettext",
+                    "class_name": "",
+                    "module_name": "django.utils.jslex",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.utils"
         },
         {
             "namespace": "django.utils.log",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "configure_logging",
+                    "namespace": "django.utils.log.configure_logging",
+                    "class_name": "",
+                    "module_name": "django.utils.log",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Log errors based on HttpResponse status.\n\n    Log 5xx responses as errors and 4xx responses as warnings (unless a level\n    is given as a keyword argument). The HttpResponse status_code and the\n    request are passed to the logger's extra parameter.\n    \"\"\"",
+                    "name": "log_response",
+                    "namespace": "django.utils.log.log_response",
+                    "class_name": "",
+                    "module_name": "django.utils.log",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.utils"
         },
         {
             "namespace": "django.utils.deprecation",
             "docstring": "",
+            "functions": [],
             "package_name": "django.utils"
         },
         {
             "namespace": "django.utils.timesince",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Take two datetime objects and return the time between d and now as a nicely\n    formatted string, e.g. \"10 minutes\". If d occurs after now, return\n    \"0 minutes\".\n\n    Units used are years, months, weeks, days, hours, and minutes.\n    Seconds and microseconds are ignored. Up to `depth` adjacent units will be\n    displayed.  For example, \"2 weeks, 3 days\" and \"1 year, 3 months\" are\n    possible outputs, but \"2 weeks, 3 hours\" and \"1 year, 5 days\" are not.\n\n    `time_strings` is an optional dict of strings to replace the default\n    TIME_STRINGS dict.\n\n    `depth` is an optional integer to control the number of adjacent time\n    units returned.\n\n    Adapted from\n    https://web.archive.org/web/20060617175230/http://blog.natbat.co.uk/archive/2003/Jun/14/time_since\n    \"\"\"",
+                    "name": "timesince",
+                    "namespace": "django.utils.timesince.timesince",
+                    "class_name": "",
+                    "module_name": "django.utils.timesince",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Like timesince, but return a string measuring the time until the given time.\n    \"\"\"",
+                    "name": "timeuntil",
+                    "namespace": "django.utils.timesince.timeuntil",
+                    "class_name": "",
+                    "module_name": "django.utils.timesince",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.utils"
         },
         {
             "namespace": "django.utils.numberformat",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Get a number (as a number or string), and return it as a string,\n    using formats defined as arguments:\n\n    * decimal_sep: Decimal separator symbol (for example \".\")\n    * decimal_pos: Number of decimal positions\n    * grouping: Number of digits in every group limited by thousand separator.\n        For non-uniform digit grouping, it can be a sequence with the number\n        of digit group sizes following the format used by the Python locale\n        module in locale.localeconv() LC_NUMERIC grouping (e.g. (3, 2, 0)).\n    * thousand_sep: Thousand separator symbol (for example \",\")\n    \"\"\"",
+                    "name": "format",
+                    "namespace": "django.utils.numberformat.format",
+                    "class_name": "",
+                    "module_name": "django.utils.numberformat",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.utils"
         },
         {
             "namespace": "django.utils.asyncio",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Decorator to mark functions as async-unsafe. Someone trying to access\n    the function while in an async context will get an error message.\n    \"\"\"",
+                    "name": "async_unsafe",
+                    "namespace": "django.utils.asyncio.async_unsafe",
+                    "class_name": "",
+                    "module_name": "django.utils.asyncio",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.utils"
         },
         {
             "namespace": "django.utils.html",
             "docstring": "\"\"\"HTML utilities suitable for global use.\"\"\"",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Return the given text with ampersands, quotes and angle brackets encoded\n    for use in HTML.\n\n    Always escape input, even if it's already escaped and marked as such.\n    This may result in double-escaping. If this is a concern, use\n    conditional_escape() instead.\n    \"\"\"",
+                    "name": "escape",
+                    "namespace": "django.utils.html.escape",
+                    "class_name": "",
+                    "module_name": "django.utils.html",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Hex encode characters for use in JavaScript strings.\"\"\"",
+                    "name": "escapejs",
+                    "namespace": "django.utils.html.escapejs",
+                    "class_name": "",
+                    "module_name": "django.utils.html",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Escape all the HTML/XML special characters with their unicode escapes, so\n    value is safe to be output anywhere except for inside a tag attribute. Wrap\n    the escaped JSON in a script tag.\n    \"\"\"",
+                    "name": "json_script",
+                    "namespace": "django.utils.html.json_script",
+                    "class_name": "",
+                    "module_name": "django.utils.html",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Similar to escape(), except that it doesn't operate on pre-escaped strings.\n\n    This function relies on the __html__ convention used both by Django's\n    SafeData class and by third-party libraries like markupsafe.\n    \"\"\"",
+                    "name": "conditional_escape",
+                    "namespace": "django.utils.html.conditional_escape",
+                    "class_name": "",
+                    "module_name": "django.utils.html",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Similar to str.format, but pass all arguments through conditional_escape(),\n    and call mark_safe() on the result. This function should be used instead\n    of str.format or % interpolation to build up small HTML fragments.\n    \"\"\"",
+                    "name": "format_html",
+                    "namespace": "django.utils.html.format_html",
+                    "class_name": "",
+                    "module_name": "django.utils.html",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    A wrapper of format_html, for the common case of a group of arguments that\n    need to be formatted using the same format string, and then joined using\n    'sep'. 'sep' is also passed through conditional_escape.\n\n    'args_generator' should be an iterator that returns the sequence of 'args'\n    that will be passed to format_html.\n\n    Example:\n\n      format_html_join('\\n', \"<li>{} {}</li>\", ((u.first_name, u.last_name)\n                                                  for u in users))\n    \"\"\"",
+                    "name": "format_html_join",
+                    "namespace": "django.utils.html.format_html_join",
+                    "class_name": "",
+                    "module_name": "django.utils.html",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Convert newlines into <p> and <br>s.\"\"\"",
+                    "name": "linebreaks",
+                    "namespace": "django.utils.html.linebreaks",
+                    "class_name": "",
+                    "module_name": "django.utils.html",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Internal tag stripping utility used by strip_tags.\n    \"\"\"",
+                    "name": "_strip_once",
+                    "namespace": "django.utils.html._strip_once",
+                    "class_name": "",
+                    "module_name": "django.utils.html",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return the given HTML with all tags stripped.\"\"\"",
+                    "name": "strip_tags",
+                    "namespace": "django.utils.html.strip_tags",
+                    "class_name": "",
+                    "module_name": "django.utils.html",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return the given HTML with spaces between tags removed.\"\"\"",
+                    "name": "strip_spaces_between_tags",
+                    "namespace": "django.utils.html.strip_spaces_between_tags",
+                    "class_name": "",
+                    "module_name": "django.utils.html",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Quote a URL if it isn't already quoted.\"\"\"",
+                    "name": "smart_urlquote",
+                    "namespace": "django.utils.html.smart_urlquote",
+                    "class_name": "",
+                    "module_name": "django.utils.html",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Convert any URLs in text into clickable links.\n\n    Works on http://, https://, www. links, and also on links ending in one of\n    the original seven gTLDs (.com, .edu, .gov, .int, .mil, .net, and .org).\n    Links can have trailing punctuation (periods, commas, close-parens) and\n    leading punctuation (opening parens) and it'll still do the right thing.\n\n    If trim_url_limit is not None, truncate the URLs in the link text longer\n    than this limit to trim_url_limit - 1 characters and append an ellipsis.\n\n    If nofollow is True, give the links a rel=\"nofollow\" attribute.\n\n    If autoescape is True, autoescape the link text and URLs.\n    \"\"\"",
+                    "name": "urlize",
+                    "namespace": "django.utils.html.urlize",
+                    "class_name": "",
+                    "module_name": "django.utils.html",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Avoid text wrapping in the middle of a phrase by adding non-breaking\n    spaces where there previously were normal spaces.\n    \"\"\"",
+                    "name": "avoid_wrapping",
+                    "namespace": "django.utils.html.avoid_wrapping",
+                    "class_name": "",
+                    "module_name": "django.utils.html",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    A decorator that defines the __html__ method. This helps non-Django\n    templates to detect classes whose __str__ methods return SafeString.\n    \"\"\"",
+                    "name": "html_safe",
+                    "namespace": "django.utils.html.html_safe",
+                    "class_name": "",
+                    "module_name": "django.utils.html",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.utils"
         },
         {
             "namespace": "django.utils.duration",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "_get_duration_components",
+                    "namespace": "django.utils.duration._get_duration_components",
+                    "class_name": "",
+                    "module_name": "django.utils.duration",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Version of str(timedelta) which is not English specific.\"\"\"",
+                    "name": "duration_string",
+                    "namespace": "django.utils.duration.duration_string",
+                    "class_name": "",
+                    "module_name": "django.utils.duration",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "duration_iso_string",
+                    "namespace": "django.utils.duration.duration_iso_string",
+                    "class_name": "",
+                    "module_name": "django.utils.duration",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "duration_microseconds",
+                    "namespace": "django.utils.duration.duration_microseconds",
+                    "class_name": "",
+                    "module_name": "django.utils.duration",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.utils"
         },
         {
             "namespace": "django.utils.cache",
             "docstring": "\"\"\"\nThis module contains helper functions for controlling caching. It does so by\nmanaging the \"Vary\" header of responses. It includes functions to patch the\nheader of response objects directly and decorators that change functions to do\nthat header-patching themselves.\n\nFor information on the Vary header, see:\n\n    https://tools.ietf.org/html/rfc7231#section-7.1.4\n\nEssentially, the \"Vary\" HTTP header defines which headers a cache should take\ninto account when building its cache key. Requests with the same path but\ndifferent header content for headers named in \"Vary\" need to get different\ncache keys to prevent delivery of wrong content.\n\nAn example: i18n middleware would need to distinguish caches by the\n\"Accept-language\" header.\n\"\"\"",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Patch the Cache-Control header by adding all keyword arguments to it.\n    The transformation is as follows:\n\n    * All keyword parameter names are turned to lowercase, and underscores\n      are converted to hyphens.\n    * If the value of a parameter is True (exactly True, not just a\n      true value), only the parameter name is added to the header.\n    * All other parameters are added with their value, after applying\n      str() to it.\n    \"\"\"",
+                    "name": "patch_cache_control",
+                    "namespace": "django.utils.cache.patch_cache_control",
+                    "class_name": "",
+                    "module_name": "django.utils.cache",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return the max-age from the response Cache-Control header as an integer,\n    or None if it wasn't found or wasn't an integer.\n    \"\"\"",
+                    "name": "get_max_age",
+                    "namespace": "django.utils.cache.get_max_age",
+                    "class_name": "",
+                    "module_name": "django.utils.cache",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "set_response_etag",
+                    "namespace": "django.utils.cache.set_response_etag",
+                    "class_name": "",
+                    "module_name": "django.utils.cache",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_precondition_failed",
+                    "namespace": "django.utils.cache._precondition_failed",
+                    "class_name": "",
+                    "module_name": "django.utils.cache",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_not_modified",
+                    "namespace": "django.utils.cache._not_modified",
+                    "class_name": "",
+                    "module_name": "django.utils.cache",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_conditional_response",
+                    "namespace": "django.utils.cache.get_conditional_response",
+                    "class_name": "",
+                    "module_name": "django.utils.cache",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Test the If-Match comparison as defined in section 3.1 of RFC 7232.\n    \"\"\"",
+                    "name": "_if_match_passes",
+                    "namespace": "django.utils.cache._if_match_passes",
+                    "class_name": "",
+                    "module_name": "django.utils.cache",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Test the If-Unmodified-Since comparison as defined in section 3.4 of\n    RFC 7232.\n    \"\"\"",
+                    "name": "_if_unmodified_since_passes",
+                    "namespace": "django.utils.cache._if_unmodified_since_passes",
+                    "class_name": "",
+                    "module_name": "django.utils.cache",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Test the If-None-Match comparison as defined in section 3.2 of RFC 7232.\n    \"\"\"",
+                    "name": "_if_none_match_passes",
+                    "namespace": "django.utils.cache._if_none_match_passes",
+                    "class_name": "",
+                    "module_name": "django.utils.cache",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Test the If-Modified-Since comparison as defined in section 3.3 of RFC 7232.\n    \"\"\"",
+                    "name": "_if_modified_since_passes",
+                    "namespace": "django.utils.cache._if_modified_since_passes",
+                    "class_name": "",
+                    "module_name": "django.utils.cache",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Add HTTP caching headers to the given HttpResponse: Expires and\n    Cache-Control.\n\n    Each header is only added if it isn't already set.\n\n    cache_timeout is in seconds. The CACHE_MIDDLEWARE_SECONDS setting is used\n    by default.\n    \"\"\"",
+                    "name": "patch_response_headers",
+                    "namespace": "django.utils.cache.patch_response_headers",
+                    "class_name": "",
+                    "module_name": "django.utils.cache",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Add headers to a response to indicate that a page should never be cached.\n    \"\"\"",
+                    "name": "add_never_cache_headers",
+                    "namespace": "django.utils.cache.add_never_cache_headers",
+                    "class_name": "",
+                    "module_name": "django.utils.cache",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Add (or update) the \"Vary\" header in the given HttpResponse object.\n    newheaders is a list of header names that should be in \"Vary\". If headers\n    contains an asterisk, then \"Vary\" header will consist of a single asterisk\n    '*'. Otherwise, existing headers in \"Vary\" aren't removed.\n    \"\"\"",
+                    "name": "patch_vary_headers",
+                    "namespace": "django.utils.cache.patch_vary_headers",
+                    "class_name": "",
+                    "module_name": "django.utils.cache",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Check to see if the response has a given header name in its Vary header.\n    \"\"\"",
+                    "name": "has_vary_header",
+                    "namespace": "django.utils.cache.has_vary_header",
+                    "class_name": "",
+                    "module_name": "django.utils.cache",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"If necessary, add the current locale or time zone to the cache key.\"\"\"",
+                    "name": "_i18n_cache_key_suffix",
+                    "namespace": "django.utils.cache._i18n_cache_key_suffix",
+                    "class_name": "",
+                    "module_name": "django.utils.cache",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return a cache key from the headers given in the header list.\"\"\"",
+                    "name": "_generate_cache_key",
+                    "namespace": "django.utils.cache._generate_cache_key",
+                    "class_name": "",
+                    "module_name": "django.utils.cache",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return a cache key for the header cache.\"\"\"",
+                    "name": "_generate_cache_header_key",
+                    "namespace": "django.utils.cache._generate_cache_header_key",
+                    "class_name": "",
+                    "module_name": "django.utils.cache",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return a cache key based on the request URL and query. It can be used\n    in the request phase because it pulls the list of headers to take into\n    account from the global URL registry and uses those to build a cache key\n    to check against.\n\n    If there isn't a headerlist stored, return None, indicating that the page\n    needs to be rebuilt.\n    \"\"\"",
+                    "name": "get_cache_key",
+                    "namespace": "django.utils.cache.get_cache_key",
+                    "class_name": "",
+                    "module_name": "django.utils.cache",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Learn what headers to take into account for some request URL from the\n    response object. Store those headers in a global URL registry so that\n    later access to that URL will know what headers to take into account\n    without building the response object itself. The headers are named in the\n    Vary header of the response, but we want to prevent response generation.\n\n    The list of headers to use for cache key generation is stored in the same\n    cache as the pages themselves. If the cache ages some data out of the\n    cache, this just means that we have to build the response once to get at\n    the Vary header and so at the list of headers to use for the cache key.\n    \"\"\"",
+                    "name": "learn_cache_key",
+                    "namespace": "django.utils.cache.learn_cache_key",
+                    "class_name": "",
+                    "module_name": "django.utils.cache",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_to_tuple",
+                    "namespace": "django.utils.cache._to_tuple",
+                    "class_name": "",
+                    "module_name": "django.utils.cache",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.utils"
         },
         {
             "namespace": "django.utils.deconstruct",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Class decorator that allows the decorated class to be serialized\n    by the migrations subsystem.\n\n    The `path` kwarg specifies the import path.\n    \"\"\"",
+                    "name": "deconstructible",
+                    "namespace": "django.utils.deconstruct.deconstructible",
+                    "class_name": "",
+                    "module_name": "django.utils.deconstruct",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.utils"
         },
         {
             "namespace": "django.utils.datetime_safe",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"Generate a safe date from a datetime.date object.\"",
+                    "name": "new_date",
+                    "namespace": "django.utils.datetime_safe.new_date",
+                    "class_name": "",
+                    "module_name": "django.utils.datetime_safe",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Generate a safe datetime from a datetime.date or datetime.datetime object.\n    \"\"\"",
+                    "name": "new_datetime",
+                    "namespace": "django.utils.datetime_safe.new_datetime",
+                    "class_name": "",
+                    "module_name": "django.utils.datetime_safe",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_findall",
+                    "namespace": "django.utils.datetime_safe._findall",
+                    "class_name": "",
+                    "module_name": "django.utils.datetime_safe",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "strftime",
+                    "namespace": "django.utils.datetime_safe.strftime",
+                    "class_name": "",
+                    "module_name": "django.utils.datetime_safe",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.utils"
         },
         {
             "namespace": "django.utils.connection",
             "docstring": "",
+            "functions": [],
             "package_name": "django.utils"
         },
         {
             "namespace": "django.utils.inspect",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "_get_func_parameters",
+                    "namespace": "django.utils.inspect._get_func_parameters",
+                    "class_name": "",
+                    "module_name": "django.utils.inspect",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_get_callable_parameters",
+                    "namespace": "django.utils.inspect._get_callable_parameters",
+                    "class_name": "",
+                    "module_name": "django.utils.inspect",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_func_args",
+                    "namespace": "django.utils.inspect.get_func_args",
+                    "class_name": "",
+                    "module_name": "django.utils.inspect",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return a list of (argument name, default value) tuples. If the argument\n    does not have a default value, omit it in the tuple. Arguments such as\n    *args and **kwargs are also included.\n    \"\"\"",
+                    "name": "get_func_full_args",
+                    "namespace": "django.utils.inspect.get_func_full_args",
+                    "class_name": "",
+                    "module_name": "django.utils.inspect",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return True if function 'func' accepts keyword arguments **kwargs.\"\"\"",
+                    "name": "func_accepts_kwargs",
+                    "namespace": "django.utils.inspect.func_accepts_kwargs",
+                    "class_name": "",
+                    "module_name": "django.utils.inspect",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return True if function 'func' accepts positional arguments *args.\n    \"\"\"",
+                    "name": "func_accepts_var_args",
+                    "namespace": "django.utils.inspect.func_accepts_var_args",
+                    "class_name": "",
+                    "module_name": "django.utils.inspect",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return True if a method only accepts 'self'.\"\"\"",
+                    "name": "method_has_no_args",
+                    "namespace": "django.utils.inspect.method_has_no_args",
+                    "class_name": "",
+                    "module_name": "django.utils.inspect",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "func_supports_parameter",
+                    "namespace": "django.utils.inspect.func_supports_parameter",
+                    "class_name": "",
+                    "module_name": "django.utils.inspect",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.utils"
         },
         {
             "namespace": "django.utils.functional",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Turn any callable into a lazy evaluated callable. result classes or types\n    is required -- at least one is needed so that the automatic forcing of\n    the lazy evaluation code is triggered. Results are not memoized; the\n    function is evaluated on every access.\n    \"\"\"",
+                    "name": "lazy",
+                    "namespace": "django.utils.functional.lazy",
+                    "class_name": "",
+                    "module_name": "django.utils.functional",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_lazy_proxy_unpickle",
+                    "namespace": "django.utils.functional._lazy_proxy_unpickle",
+                    "class_name": "",
+                    "module_name": "django.utils.functional",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Shortcut for the common case of a lazy callable that returns str.\n    \"\"\"",
+                    "name": "lazystr",
+                    "namespace": "django.utils.functional.lazystr",
+                    "class_name": "",
+                    "module_name": "django.utils.functional",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    A decorator that allows a function to be called with one or more lazy\n    arguments. If none of the args are lazy, the function is evaluated\n    immediately, otherwise a __proxy__ is returned that will evaluate the\n    function when needed.\n    \"\"\"",
+                    "name": "keep_lazy",
+                    "namespace": "django.utils.functional.keep_lazy",
+                    "class_name": "",
+                    "module_name": "django.utils.functional",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    A decorator for functions that accept lazy arguments and return text.\n    \"\"\"",
+                    "name": "keep_lazy_text",
+                    "namespace": "django.utils.functional.keep_lazy_text",
+                    "class_name": "",
+                    "module_name": "django.utils.functional",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "new_method_proxy",
+                    "namespace": "django.utils.functional.new_method_proxy",
+                    "class_name": "",
+                    "module_name": "django.utils.functional",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Used to unpickle lazy objects. Just return its argument, which will be the\n    wrapped object.\n    \"\"\"",
+                    "name": "unpickle_lazyobject",
+                    "namespace": "django.utils.functional.unpickle_lazyobject",
+                    "class_name": "",
+                    "module_name": "django.utils.functional",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Split the values into two sets, based on the return value of the function\n    (True/False). e.g.:\n\n        >>> partition(lambda x: x > 3, range(5))\n        [0, 1, 2, 3], [4]\n    \"\"\"",
+                    "name": "partition",
+                    "namespace": "django.utils.functional.partition",
+                    "class_name": "",
+                    "module_name": "django.utils.functional",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.utils"
         },
         {
             "namespace": "django.utils.crypto",
             "docstring": "\"\"\"\nDjango's standard crypto functions and utilities.\n\"\"\"",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Return the HMAC of 'value', using a key generated from key_salt and a\n    secret (which defaults to settings.SECRET_KEY). Default algorithm is SHA1,\n    but any algorithm name supported by hashlib can be passed.\n\n    A different key_salt should be passed in for every application of HMAC.\n    \"\"\"",
+                    "name": "salted_hmac",
+                    "namespace": "django.utils.crypto.salted_hmac",
+                    "class_name": "",
+                    "module_name": "django.utils.crypto",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return a securely generated random string.\n\n    The bit length of the returned value can be calculated with the formula:\n        log_2(len(allowed_chars)^length)\n\n    For example, with default `allowed_chars` (26+26+10), this gives:\n      * length: 12, bit length =~ 71 bits\n      * length: 22, bit length =~ 131 bits\n    \"\"\"",
+                    "name": "get_random_string",
+                    "namespace": "django.utils.crypto.get_random_string",
+                    "class_name": "",
+                    "module_name": "django.utils.crypto",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return True if the two strings are equal, False otherwise.\"\"\"",
+                    "name": "constant_time_compare",
+                    "namespace": "django.utils.crypto.constant_time_compare",
+                    "class_name": "",
+                    "module_name": "django.utils.crypto",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return the hash of password using pbkdf2.\"\"\"",
+                    "name": "pbkdf2",
+                    "namespace": "django.utils.crypto.pbkdf2",
+                    "class_name": "",
+                    "module_name": "django.utils.crypto",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.utils"
         },
         {
             "namespace": "django.utils.lorem_ipsum",
             "docstring": "\"\"\"\nUtility functions for generating \"lorem ipsum\" Latin text.\n\"\"\"",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Return a randomly generated sentence of lorem ipsum text.\n\n    The first word is capitalized, and the sentence ends in either a period or\n    question mark. Commas are added at random.\n    \"\"\"",
+                    "name": "sentence",
+                    "namespace": "django.utils.lorem_ipsum.sentence",
+                    "class_name": "",
+                    "module_name": "django.utils.lorem_ipsum",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return a randomly generated paragraph of lorem ipsum text.\n\n    The paragraph consists of between 1 and 4 sentences, inclusive.\n    \"\"\"",
+                    "name": "paragraph",
+                    "namespace": "django.utils.lorem_ipsum.paragraph",
+                    "class_name": "",
+                    "module_name": "django.utils.lorem_ipsum",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return a list of paragraphs as returned by paragraph().\n\n    If `common` is True, then the first paragraph will be the standard\n    'lorem ipsum' paragraph. Otherwise, the first paragraph will be random\n    Latin text. Either way, subsequent paragraphs will be random Latin text.\n    \"\"\"",
+                    "name": "paragraphs",
+                    "namespace": "django.utils.lorem_ipsum.paragraphs",
+                    "class_name": "",
+                    "module_name": "django.utils.lorem_ipsum",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return a string of `count` lorem ipsum words separated by a single space.\n\n    If `common` is True, then the first 19 words will be the standard\n    'lorem ipsum' words. Otherwise, all words will be selected randomly.\n    \"\"\"",
+                    "name": "words",
+                    "namespace": "django.utils.lorem_ipsum.words",
+                    "class_name": "",
+                    "module_name": "django.utils.lorem_ipsum",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.utils"
         },
         {
             "namespace": "django.utils.regex_helper",
             "docstring": "\"\"\"\nFunctions for reversing a regular expression (used in reverse URL resolving).\nUsed internally by Django and not intended for external use.\n\nThis is not, and is not intended to be, a complete reg-exp decompiler. It\nshould be good enough for a large class of URLS, however.\n\"\"\"",
+            "functions": [
+                {
+                    "docstring": "r\"\"\"\n    Given a reg-exp pattern, normalize it to an iterable of forms that\n    suffice for reverse matching. This does the following:\n\n    (1) For any repeating sections, keeps the minimum number of occurrences\n        permitted (this means zero for optional groups).\n    (2) If an optional group includes parameters, include one occurrence of\n        that group (along with the zero occurrence case from step (1)).\n    (3) Select the first (essentially an arbitrary) element from any character\n        class. Select an arbitrary character for any unordered class (e.g. '.'\n        or '\\w') in the pattern.\n    (4) Ignore look-ahead and look-behind assertions.\n    (5) Raise an error on any disjunctive ('|') constructs.\n\n    Django's URLs for forward resolving are either all positional arguments or\n    all keyword arguments. That is assumed here, as well. Although reverse\n    resolving can be done using positional args when keyword args are\n    specified, the two cannot be mixed in the same reverse() call.\n    \"\"\"",
+                    "name": "normalize",
+                    "namespace": "django.utils.regex_helper.normalize",
+                    "class_name": "",
+                    "module_name": "django.utils.regex_helper",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "r\"\"\"\n    An iterator that yields the next character from \"pattern_iter\", respecting\n    escape sequences. An escaped character is replaced by a representative of\n    its class (e.g. \\w -> \"x\"). If the escaped character is one that is\n    skipped, it is not returned (the next character is returned instead).\n\n    Yield the next character, along with a boolean indicating whether it is a\n    raw (unescaped) character or not.\n    \"\"\"",
+                    "name": "next_char",
+                    "namespace": "django.utils.regex_helper.next_char",
+                    "class_name": "",
+                    "module_name": "django.utils.regex_helper",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    The iterator is currently inside a capturing group. Walk to the close of\n    this group, skipping over any nested groups and handling escaped\n    parentheses correctly.\n    \"\"\"",
+                    "name": "walk_to_end",
+                    "namespace": "django.utils.regex_helper.walk_to_end",
+                    "class_name": "",
+                    "module_name": "django.utils.regex_helper",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Parse a quantifier from the input, where \"ch\" is the first character in the\n    quantifier.\n\n    Return the minimum number of occurrences permitted by the quantifier and\n    either None or the next character from the input_iter if the next character\n    is not part of the quantifier.\n    \"\"\"",
+                    "name": "get_quantifier",
+                    "namespace": "django.utils.regex_helper.get_quantifier",
+                    "class_name": "",
+                    "module_name": "django.utils.regex_helper",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return True if the \"source\" contains an instance of \"inst\". False,\n    otherwise.\n    \"\"\"",
+                    "name": "contains",
+                    "namespace": "django.utils.regex_helper.contains",
+                    "class_name": "",
+                    "module_name": "django.utils.regex_helper",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Turn the given source sequence into a list of reg-exp possibilities and\n    their arguments. Return a list of strings and a list of argument lists.\n    Each of the two lists will be of the same length.\n    \"\"\"",
+                    "name": "flatten_result",
+                    "namespace": "django.utils.regex_helper.flatten_result",
+                    "class_name": "",
+                    "module_name": "django.utils.regex_helper",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Lazily compile a regex with flags.\"\"\"",
+                    "name": "_lazy_re_compile",
+                    "namespace": "django.utils.regex_helper._lazy_re_compile",
+                    "class_name": "",
+                    "module_name": "django.utils.regex_helper",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.utils"
         },
         {
             "namespace": "django.utils.http",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    A version of Python's urllib.parse.urlencode() function that can operate on\n    MultiValueDict and non-string values.\n    \"\"\"",
+                    "name": "urlencode",
+                    "namespace": "django.utils.http.urlencode",
+                    "class_name": "",
+                    "module_name": "django.utils.http",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Format the time to match the RFC1123 date format as specified by HTTP\n    RFC7231 section 7.1.1.1.\n\n    `epoch_seconds` is a floating point number expressed in seconds since the\n    epoch, in UTC - such as that outputted by time.time(). If set to None, it\n    defaults to the current time.\n\n    Output a string in the format 'Wdy, DD Mon YYYY HH:MM:SS GMT'.\n    \"\"\"",
+                    "name": "http_date",
+                    "namespace": "django.utils.http.http_date",
+                    "class_name": "",
+                    "module_name": "django.utils.http",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Parse a date format as specified by HTTP RFC7231 section 7.1.1.1.\n\n    The three formats allowed by the RFC are accepted, even if only the first\n    one is still in widespread use.\n\n    Return an integer expressed in seconds since the epoch, in UTC.\n    \"\"\"",
+                    "name": "parse_http_date",
+                    "namespace": "django.utils.http.parse_http_date",
+                    "class_name": "",
+                    "module_name": "django.utils.http",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Same as parse_http_date, but return None if the input is invalid.\n    \"\"\"",
+                    "name": "parse_http_date_safe",
+                    "namespace": "django.utils.http.parse_http_date_safe",
+                    "class_name": "",
+                    "module_name": "django.utils.http",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Convert a base 36 string to an int. Raise ValueError if the input won't fit\n    into an int.\n    \"\"\"",
+                    "name": "base36_to_int",
+                    "namespace": "django.utils.http.base36_to_int",
+                    "class_name": "",
+                    "module_name": "django.utils.http",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Convert an integer to a base36 string.\"\"\"",
+                    "name": "int_to_base36",
+                    "namespace": "django.utils.http.int_to_base36",
+                    "class_name": "",
+                    "module_name": "django.utils.http",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Encode a bytestring to a base64 string for use in URLs. Strip any trailing\n    equal signs.\n    \"\"\"",
+                    "name": "urlsafe_base64_encode",
+                    "namespace": "django.utils.http.urlsafe_base64_encode",
+                    "class_name": "",
+                    "module_name": "django.utils.http",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Decode a base64 encoded string. Add back any trailing equal signs that\n    might have been stripped.\n    \"\"\"",
+                    "name": "urlsafe_base64_decode",
+                    "namespace": "django.utils.http.urlsafe_base64_decode",
+                    "class_name": "",
+                    "module_name": "django.utils.http",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Parse a string of ETags given in an If-None-Match or If-Match header as\n    defined by RFC 7232. Return a list of quoted ETags, or ['*'] if all ETags\n    should be matched.\n    \"\"\"",
+                    "name": "parse_etags",
+                    "namespace": "django.utils.http.parse_etags",
+                    "class_name": "",
+                    "module_name": "django.utils.http",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    If the provided string is already a quoted ETag, return it. Otherwise, wrap\n    the string in quotes, making it a strong ETag.\n    \"\"\"",
+                    "name": "quote_etag",
+                    "namespace": "django.utils.http.quote_etag",
+                    "class_name": "",
+                    "module_name": "django.utils.http",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return ``True`` if the host is either an exact match or a match\n    to the wildcard pattern.\n\n    Any pattern beginning with a period matches a domain and all of its\n    subdomains. (e.g. ``.example.com`` matches ``example.com`` and\n    ``foo.example.com``). Anything else is an exact string match.\n    \"\"\"",
+                    "name": "is_same_domain",
+                    "namespace": "django.utils.http.is_same_domain",
+                    "class_name": "",
+                    "module_name": "django.utils.http",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return ``True`` if the url uses an allowed host and a safe scheme.\n\n    Always return ``False`` on an empty url.\n\n    If ``require_https`` is ``True``, only 'https' will be considered a valid\n    scheme, as opposed to 'http' and 'https' with the default, ``False``.\n\n    Note: \"True\" doesn't entail that a URL is \"safe\". It may still be e.g.\n    quoted incorrectly. Ensure to also use django.utils.encoding.iri_to_uri()\n    on the path component of untrusted URLs.\n    \"\"\"",
+                    "name": "url_has_allowed_host_and_scheme",
+                    "namespace": "django.utils.http.url_has_allowed_host_and_scheme",
+                    "class_name": "",
+                    "module_name": "django.utils.http",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Parse a URL into 6 components:\n    <scheme>://<netloc>/<path>;<params>?<query>#<fragment>\n    Return a 6-tuple: (scheme, netloc, path, params, query, fragment).\n    Note that we don't break the components up in smaller bits\n    (e.g. netloc is a single string) and we don't expand % escapes.\"\"\"",
+                    "name": "_urlparse",
+                    "namespace": "django.utils.http._urlparse",
+                    "class_name": "",
+                    "module_name": "django.utils.http",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Parse a URL into 5 components:\n    <scheme>://<netloc>/<path>?<query>#<fragment>\n    Return a 5-tuple: (scheme, netloc, path, query, fragment).\n    Note that we don't break the components up in smaller bits\n    (e.g. netloc is a single string) and we don't expand % escapes.\"\"\"",
+                    "name": "_urlsplit",
+                    "namespace": "django.utils.http._urlsplit",
+                    "class_name": "",
+                    "module_name": "django.utils.http",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_url_has_allowed_host_and_scheme",
+                    "namespace": "django.utils.http._url_has_allowed_host_and_scheme",
+                    "class_name": "",
+                    "module_name": "django.utils.http",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    If redirecting to an absolute path (two leading slashes), a slash must be\n    escaped to prevent browsers from handling the path as schemaless and\n    redirecting to another host.\n    \"\"\"",
+                    "name": "escape_leading_slashes",
+                    "namespace": "django.utils.http.escape_leading_slashes",
+                    "class_name": "",
+                    "module_name": "django.utils.http",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.utils"
         },
         {
             "namespace": "django.utils.formats",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"Clear any cached formats.\n\n    This method is provided primarily for testing purposes,\n    so that the effects of cached formats can be removed.\n    \"\"\"",
+                    "name": "reset_format_cache",
+                    "namespace": "django.utils.formats.reset_format_cache",
+                    "class_name": "",
+                    "module_name": "django.utils.formats",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Find format modules.\"\"\"",
+                    "name": "iter_format_modules",
+                    "namespace": "django.utils.formats.iter_format_modules",
+                    "class_name": "",
+                    "module_name": "django.utils.formats",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return a list of the format modules found.\"\"\"",
+                    "name": "get_format_modules",
+                    "namespace": "django.utils.formats.get_format_modules",
+                    "class_name": "",
+                    "module_name": "django.utils.formats",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    For a specific format type, return the format for the current\n    language (locale). Default to the format in the settings.\n    format_type is the name of the format, e.g. 'DATE_FORMAT'.\n\n    If use_l10n is provided and is not None, it forces the value to\n    be localized (or not), overriding the value of settings.USE_L10N.\n    \"\"\"",
+                    "name": "get_format",
+                    "namespace": "django.utils.formats.get_format",
+                    "class_name": "",
+                    "module_name": "django.utils.formats",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Format a datetime.date or datetime.datetime object using a\n    localizable format.\n\n    If use_l10n is provided and is not None, that will force the value to\n    be localized (or not), overriding the value of settings.USE_L10N.\n    \"\"\"",
+                    "name": "date_format",
+                    "namespace": "django.utils.formats.date_format",
+                    "class_name": "",
+                    "module_name": "django.utils.formats",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Format a datetime.time object using a localizable format.\n\n    If use_l10n is provided and is not None, it forces the value to\n    be localized (or not), overriding the value of settings.USE_L10N.\n    \"\"\"",
+                    "name": "time_format",
+                    "namespace": "django.utils.formats.time_format",
+                    "class_name": "",
+                    "module_name": "django.utils.formats",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Format a numeric value using localization settings.\n\n    If use_l10n is provided and is not None, it forces the value to\n    be localized (or not), overriding the value of settings.USE_L10N.\n    \"\"\"",
+                    "name": "number_format",
+                    "namespace": "django.utils.formats.number_format",
+                    "class_name": "",
+                    "module_name": "django.utils.formats",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Check if value is a localizable type (date, number...) and return it\n    formatted as a string using current locale format.\n\n    If use_l10n is provided and is not None, it forces the value to\n    be localized (or not), overriding the value of settings.USE_L10N.\n    \"\"\"",
+                    "name": "localize",
+                    "namespace": "django.utils.formats.localize",
+                    "class_name": "",
+                    "module_name": "django.utils.formats",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Check if an input value is a localizable type and return it\n    formatted with the appropriate formatting string of the current locale.\n    \"\"\"",
+                    "name": "localize_input",
+                    "namespace": "django.utils.formats.localize_input",
+                    "class_name": "",
+                    "module_name": "django.utils.formats",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Ensure that certain specifiers are correctly padded with leading zeros.\n\n    For years < 1000 specifiers %C, %F, %G, and %Y don't work as expected for\n    strftime provided by glibc on Linux as they don't pad the year or century\n    with leading zeros. Support for specifying the padding explicitly is\n    available, however, which can be used to fix this issue.\n\n    FreeBSD, macOS, and Windows do not support explicitly specifying the\n    padding, but return four digit years (with leading zeros) as expected.\n\n    This function checks whether the %Y produces a correctly padded string and,\n    if not, makes the following substitutions:\n\n    - %C \u2192 %02C\n    - %F \u2192 %010F\n    - %G \u2192 %04G\n    - %Y \u2192 %04Y\n\n    See https://bugs.python.org/issue13305 for more details.\n    \"\"\"",
+                    "name": "sanitize_strftime_format",
+                    "namespace": "django.utils.formats.sanitize_strftime_format",
+                    "class_name": "",
+                    "module_name": "django.utils.formats",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Sanitize a value according to the current decimal and\n    thousand separator setting. Used with form field input.\n    \"\"\"",
+                    "name": "sanitize_separators",
+                    "namespace": "django.utils.formats.sanitize_separators",
+                    "class_name": "",
+                    "module_name": "django.utils.formats",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.utils"
         },
         {
             "namespace": "django.utils.baseconv",
             "docstring": "\"\"\"\nConvert numbers from base 10 integers to base X strings and back again.\n\nSample usage::\n\n  >>> base20 = BaseConverter('0123456789abcdefghij')\n  >>> base20.encode(1234)\n  '31e'\n  >>> base20.decode('31e')\n  1234\n  >>> base20.encode(-1234)\n  '-31e'\n  >>> base20.decode('-31e')\n  -1234\n  >>> base11 = BaseConverter('0123456789-', sign='$')\n  >>> base11.encode(-1234)\n  '$-22'\n  >>> base11.decode('$-22')\n  -1234\n\n\"\"\"",
+            "functions": [],
             "package_name": "django.utils"
         },
         {
             "namespace": "django.utils.text",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"Capitalize the first letter of a string.\"\"\"",
+                    "name": "capfirst",
+                    "namespace": "django.utils.text.capfirst",
+                    "class_name": "",
+                    "module_name": "django.utils.text",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    A word-wrap function that preserves existing line breaks. Expects that\n    existing line breaks are posix newlines.\n\n    Preserve all white space except added line breaks consume the space on\n    which they break the line.\n\n    Don't wrap long words, thus the output text may have lines longer than\n    ``width``.\n    \"\"\"",
+                    "name": "wrap",
+                    "namespace": "django.utils.text.wrap",
+                    "class_name": "",
+                    "module_name": "django.utils.text",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return the given string converted to a string that can be used for a clean\n    filename. Remove leading and trailing spaces; convert other spaces to\n    underscores; and remove anything that is not an alphanumeric, dash,\n    underscore, or dot.\n    >>> get_valid_filename(\"john's portrait in 2004.jpg\")\n    'johns_portrait_in_2004.jpg'\n    \"\"\"",
+                    "name": "get_valid_filename",
+                    "namespace": "django.utils.text.get_valid_filename",
+                    "class_name": "",
+                    "module_name": "django.utils.text",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    >>> get_text_list(['a', 'b', 'c', 'd'])\n    'a, b, c or d'\n    >>> get_text_list(['a', 'b', 'c'], 'and')\n    'a, b and c'\n    >>> get_text_list(['a', 'b'], 'and')\n    'a and b'\n    >>> get_text_list(['a'])\n    'a'\n    >>> get_text_list([])\n    ''\n    \"\"\"",
+                    "name": "get_text_list",
+                    "namespace": "django.utils.text.get_text_list",
+                    "class_name": "",
+                    "module_name": "django.utils.text",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Normalize CRLF and CR newlines to just LF.\"\"\"",
+                    "name": "normalize_newlines",
+                    "namespace": "django.utils.text.normalize_newlines",
+                    "class_name": "",
+                    "module_name": "django.utils.text",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Convert a phone number with letters into its numeric equivalent.\"\"\"",
+                    "name": "phone2numeric",
+                    "namespace": "django.utils.text.phone2numeric",
+                    "class_name": "",
+                    "module_name": "django.utils.text",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "compress_string",
+                    "namespace": "django.utils.text.compress_string",
+                    "class_name": "",
+                    "module_name": "django.utils.text",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "compress_sequence",
+                    "namespace": "django.utils.text.compress_sequence",
+                    "class_name": "",
+                    "module_name": "django.utils.text",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "r\"\"\"\n    Generator that splits a string by spaces, leaving quoted phrases together.\n    Supports both single and double quotes, and supports escaping quotes with\n    backslashes. In the output, strings will keep their initial and trailing\n    quote marks and escaped quotes will remain escaped (the results can then\n    be further processed with unescape_string_literal()).\n\n    >>> list(smart_split(r'This is \"a person\\'s\" test.'))\n    ['This', 'is', '\"a person\\\\\\'s\"', 'test.']\n    >>> list(smart_split(r\"Another 'person\\'s' test.\"))\n    ['Another', \"'person\\\\'s'\", 'test.']\n    >>> list(smart_split(r'A \"\\\"funky\\\" style\" test.'))\n    ['A', '\"\\\\\"funky\\\\\" style\"', 'test.']\n    \"\"\"",
+                    "name": "smart_split",
+                    "namespace": "django.utils.text.smart_split",
+                    "class_name": "",
+                    "module_name": "django.utils.text",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_replace_entity",
+                    "namespace": "django.utils.text._replace_entity",
+                    "class_name": "",
+                    "module_name": "django.utils.text",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "r\"\"\"\n    Convert quoted string literals to unquoted strings with escaped quotes and\n    backslashes unquoted::\n\n        >>> unescape_string_literal('\"abc\"')\n        'abc'\n        >>> unescape_string_literal(\"'abc'\")\n        'abc'\n        >>> unescape_string_literal('\"a \\\"bc\\\"\"')\n        'a \"bc\"'\n        >>> unescape_string_literal(\"'\\'ab\\' c'\")\n        \"'ab' c\"\n    \"\"\"",
+                    "name": "unescape_string_literal",
+                    "namespace": "django.utils.text.unescape_string_literal",
+                    "class_name": "",
+                    "module_name": "django.utils.text",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Convert to ASCII if 'allow_unicode' is False. Convert spaces or repeated\n    dashes to single dashes. Remove characters that aren't alphanumerics,\n    underscores, or hyphens. Convert to lowercase. Also strip leading and\n    trailing whitespace, dashes, and underscores.\n    \"\"\"",
+                    "name": "slugify",
+                    "namespace": "django.utils.text.slugify",
+                    "class_name": "",
+                    "module_name": "django.utils.text",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Split CamelCase and convert to lowercase. Strip surrounding whitespace.\n    \"\"\"",
+                    "name": "camel_case_to_spaces",
+                    "namespace": "django.utils.text.camel_case_to_spaces",
+                    "class_name": "",
+                    "module_name": "django.utils.text",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Apply str.format() on 'format_string' where format_string, args,\n    and/or kwargs might be lazy.\n    \"\"\"",
+                    "name": "_format_lazy",
+                    "namespace": "django.utils.text._format_lazy",
+                    "class_name": "",
+                    "module_name": "django.utils.text",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.utils"
         },
         {
             "namespace": "django.utils.archive",
             "docstring": "\"\"\"\nBased on \"python-archive\" -- https://pypi.org/project/python-archive/\n\nCopyright (c) 2010 Gary Wilson Jr. <gary.wilson@gmail.com> and contributors.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n\"\"\"",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Unpack the tar or zip file at the specified path to the directory\n    specified by to_path.\n    \"\"\"",
+                    "name": "extract",
+                    "namespace": "django.utils.archive.extract",
+                    "class_name": "",
+                    "module_name": "django.utils.archive",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.utils"
         },
         {
             "namespace": "django.utils.safestring",
             "docstring": "\"\"\"\nFunctions for working with \"safe strings\": strings that can be displayed safely\nwithout further escaping in HTML. Marking something as a \"safe string\" means\nthat the producer of the string has already turned characters that should not\nbe interpreted by the HTML engine (e.g. '<') into the appropriate entities.\n\"\"\"",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "_safety_decorator",
+                    "namespace": "django.utils.safestring._safety_decorator",
+                    "class_name": "",
+                    "module_name": "django.utils.safestring",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Explicitly mark a string as safe for (HTML) output purposes. The returned\n    object can be used everywhere a string is appropriate.\n\n    If used on a method as a decorator, mark the returned data as safe.\n\n    Can be called multiple times on a single string.\n    \"\"\"",
+                    "name": "mark_safe",
+                    "namespace": "django.utils.safestring.mark_safe",
+                    "class_name": "",
+                    "module_name": "django.utils.safestring",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.utils"
         },
         {
             "namespace": "django.utils.dates",
             "docstring": "\"Commonly-used date structures\"",
+            "functions": [],
             "package_name": "django.utils"
         },
         {
             "namespace": "django.utils.feedgenerator",
             "docstring": "\"\"\"\nSyndication feed generation library -- used for generating RSS, etc.\n\nSample usage:\n\n>>> from django.utils import feedgenerator\n>>> feed = feedgenerator.Rss201rev2Feed(\n...     title=\"Poynter E-Media Tidbits\",\n...     link=\"http://www.poynter.org/column.asp?id=31\",\n...     description=\"A group blog by the sharpest minds in online media/journalism/publishing.\",\n...     language=\"en\",\n... )\n>>> feed.add_item(\n...     title=\"Hello\",\n...     link=\"http://www.holovaty.com/test/\",\n...     description=\"Testing.\"\n... )\n>>> with open('test.rss', 'w') as fp:\n...     feed.write(fp, 'utf-8')\n\nFor definitions of the different versions of RSS, see:\nhttps://web.archive.org/web/20110718035220/http://diveintomark.org/archives/2004/02/04/incompatible-rss\n\"\"\"",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "rfc2822_date",
+                    "namespace": "django.utils.feedgenerator.rfc2822_date",
+                    "class_name": "",
+                    "module_name": "django.utils.feedgenerator",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "rfc3339_date",
+                    "namespace": "django.utils.feedgenerator.rfc3339_date",
+                    "class_name": "",
+                    "module_name": "django.utils.feedgenerator",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Create a TagURI.\n\n    See https://web.archive.org/web/20110514113830/http://diveintomark.org/archives/2004/05/28/howto-atom-id\n    \"\"\"",
+                    "name": "get_tag_uri",
+                    "namespace": "django.utils.feedgenerator.get_tag_uri",
+                    "class_name": "",
+                    "module_name": "django.utils.feedgenerator",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.utils"
         },
         {
             "namespace": "django.utils.autoreload",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"Return True if the given module is nested under Django.\"\"\"",
+                    "name": "is_django_module",
+                    "namespace": "django.utils.autoreload.is_django_module",
+                    "class_name": "",
+                    "module_name": "django.utils.autoreload",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return True if the given file path is nested under Django.\"\"\"",
+                    "name": "is_django_path",
+                    "namespace": "django.utils.autoreload.is_django_path",
+                    "class_name": "",
+                    "module_name": "django.utils.autoreload",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check_errors",
+                    "namespace": "django.utils.autoreload.check_errors",
+                    "class_name": "",
+                    "module_name": "django.utils.autoreload",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "raise_last_exception",
+                    "namespace": "django.utils.autoreload.raise_last_exception",
+                    "class_name": "",
+                    "module_name": "django.utils.autoreload",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Ensure that echo mode is enabled. Some tools such as PDB disable\n    it which causes usability issues after reload.\n    \"\"\"",
+                    "name": "ensure_echo_on",
+                    "namespace": "django.utils.autoreload.ensure_echo_on",
+                    "class_name": "",
+                    "module_name": "django.utils.autoreload",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "iter_all_python_module_files",
+                    "namespace": "django.utils.autoreload.iter_all_python_module_files",
+                    "class_name": "",
+                    "module_name": "django.utils.autoreload",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Iterate through all modules needed to be watched.\"\"\"",
+                    "name": "iter_modules_and_files",
+                    "namespace": "django.utils.autoreload.iter_modules_and_files",
+                    "class_name": "",
+                    "module_name": "django.utils.autoreload",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return a tuple of common roots that are shared between the given paths.\n    File system watchers operate on directories and aren't cheap to create.\n    Try to find the minimum set of directories to watch that encompass all of\n    the files that need to be watched.\n    \"\"\"",
+                    "name": "common_roots",
+                    "namespace": "django.utils.autoreload.common_roots",
+                    "class_name": "",
+                    "module_name": "django.utils.autoreload",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Yield absolute directories from sys.path, ignoring entries that don't\n    exist.\n    \"\"\"",
+                    "name": "sys_path_directories",
+                    "namespace": "django.utils.autoreload.sys_path_directories",
+                    "class_name": "",
+                    "module_name": "django.utils.autoreload",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return the executable. This contains a workaround for Windows if the\n    executable is reported to not have the .exe extension which can cause bugs\n    on reloading.\n    \"\"\"",
+                    "name": "get_child_arguments",
+                    "namespace": "django.utils.autoreload.get_child_arguments",
+                    "class_name": "",
+                    "module_name": "django.utils.autoreload",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "trigger_reload",
+                    "namespace": "django.utils.autoreload.trigger_reload",
+                    "class_name": "",
+                    "module_name": "django.utils.autoreload",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "restart_with_reloader",
+                    "namespace": "django.utils.autoreload.restart_with_reloader",
+                    "class_name": "",
+                    "module_name": "django.utils.autoreload",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return the most suitable reloader for this environment.\"\"\"",
+                    "name": "get_reloader",
+                    "namespace": "django.utils.autoreload.get_reloader",
+                    "class_name": "",
+                    "module_name": "django.utils.autoreload",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "start_django",
+                    "namespace": "django.utils.autoreload.start_django",
+                    "class_name": "",
+                    "module_name": "django.utils.autoreload",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "run_with_reloader",
+                    "namespace": "django.utils.autoreload.run_with_reloader",
+                    "class_name": "",
+                    "module_name": "django.utils.autoreload",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.utils"
         },
         {
             "namespace": "django.utils.datastructures",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "_destruct_iterable_mapping_values",
+                    "namespace": "django.utils.datastructures._destruct_iterable_mapping_values",
+                    "class_name": "",
+                    "module_name": "django.utils.datastructures",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.utils"
         },
         {
             "namespace": "django.utils.dateformat",
             "docstring": "\"\"\"\nPHP date() style date formatting\nSee http://www.php.net/date for format strings\n\nUsage:\n>>> import datetime\n>>> d = datetime.datetime.now()\n>>> df = DateFormat(d)\n>>> print(df.format('jS F Y H:i'))\n7th October 2003 11:39\n>>>\n\"\"\"",
+            "functions": [
+                {
+                    "docstring": "\"Convenience function\"",
+                    "name": "format",
+                    "namespace": "django.utils.dateformat.format",
+                    "class_name": "",
+                    "module_name": "django.utils.dateformat",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Convenience function\"",
+                    "name": "time_format",
+                    "namespace": "django.utils.dateformat.time_format",
+                    "class_name": "",
+                    "module_name": "django.utils.dateformat",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.utils"
         },
         {
             "namespace": "django.utils.timezone",
             "docstring": "\"\"\"\nTimezone-related classes and functions.\n\"\"\"",
+            "functions": [
+                {
+                    "docstring": "\"\"\"Return a tzinfo instance with a fixed offset from UTC.\"\"\"",
+                    "name": "get_fixed_timezone",
+                    "namespace": "django.utils.timezone.get_fixed_timezone",
+                    "class_name": "",
+                    "module_name": "django.utils.timezone",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return the default time zone as a tzinfo instance.\n\n    This is the time zone defined by settings.TIME_ZONE.\n    \"\"\"",
+                    "name": "get_default_timezone",
+                    "namespace": "django.utils.timezone.get_default_timezone",
+                    "class_name": "",
+                    "module_name": "django.utils.timezone",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return the name of the default time zone.\"\"\"",
+                    "name": "get_default_timezone_name",
+                    "namespace": "django.utils.timezone.get_default_timezone_name",
+                    "class_name": "",
+                    "module_name": "django.utils.timezone",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return the currently active time zone as a tzinfo instance.\"\"\"",
+                    "name": "get_current_timezone",
+                    "namespace": "django.utils.timezone.get_current_timezone",
+                    "class_name": "",
+                    "module_name": "django.utils.timezone",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return the name of the currently active time zone.\"\"\"",
+                    "name": "get_current_timezone_name",
+                    "namespace": "django.utils.timezone.get_current_timezone_name",
+                    "class_name": "",
+                    "module_name": "django.utils.timezone",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return the offset for fixed offset timezones, or the name of timezone if\n    not set.\n    \"\"\"",
+                    "name": "_get_timezone_name",
+                    "namespace": "django.utils.timezone._get_timezone_name",
+                    "class_name": "",
+                    "module_name": "django.utils.timezone",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Set the time zone for the current thread.\n\n    The ``timezone`` argument must be an instance of a tzinfo subclass or a\n    time zone name.\n    \"\"\"",
+                    "name": "activate",
+                    "namespace": "django.utils.timezone.activate",
+                    "class_name": "",
+                    "module_name": "django.utils.timezone",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Unset the time zone for the current thread.\n\n    Django will then use the time zone defined by settings.TIME_ZONE.\n    \"\"\"",
+                    "name": "deactivate",
+                    "namespace": "django.utils.timezone.deactivate",
+                    "class_name": "",
+                    "module_name": "django.utils.timezone",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Check if value is a datetime and converts it to local time if necessary.\n\n    If use_tz is provided and is not None, that will force the value to\n    be converted (or not), overriding the value of settings.USE_TZ.\n\n    This function is designed for use by the template engine.\n    \"\"\"",
+                    "name": "template_localtime",
+                    "namespace": "django.utils.timezone.template_localtime",
+                    "class_name": "",
+                    "module_name": "django.utils.timezone",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Convert an aware datetime.datetime to local time.\n\n    Only aware datetimes are allowed. When value is omitted, it defaults to\n    now().\n\n    Local time is defined by the current time zone, unless another time zone\n    is specified.\n    \"\"\"",
+                    "name": "localtime",
+                    "namespace": "django.utils.timezone.localtime",
+                    "class_name": "",
+                    "module_name": "django.utils.timezone",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Convert an aware datetime to local time and return the value's date.\n\n    Only aware datetimes are allowed. When value is omitted, it defaults to\n    now().\n\n    Local time is defined by the current time zone, unless another time zone is\n    specified.\n    \"\"\"",
+                    "name": "localdate",
+                    "namespace": "django.utils.timezone.localdate",
+                    "class_name": "",
+                    "module_name": "django.utils.timezone",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return an aware or naive datetime.datetime, depending on settings.USE_TZ.\n    \"\"\"",
+                    "name": "now",
+                    "namespace": "django.utils.timezone.now",
+                    "class_name": "",
+                    "module_name": "django.utils.timezone",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Determine if a given datetime.datetime is aware.\n\n    The concept is defined in Python's docs:\n    https://docs.python.org/library/datetime.html#datetime.tzinfo\n\n    Assuming value.tzinfo is either None or a proper datetime.tzinfo,\n    value.utcoffset() implements the appropriate logic.\n    \"\"\"",
+                    "name": "is_aware",
+                    "namespace": "django.utils.timezone.is_aware",
+                    "class_name": "",
+                    "module_name": "django.utils.timezone",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Determine if a given datetime.datetime is naive.\n\n    The concept is defined in Python's docs:\n    https://docs.python.org/library/datetime.html#datetime.tzinfo\n\n    Assuming value.tzinfo is either None or a proper datetime.tzinfo,\n    value.utcoffset() implements the appropriate logic.\n    \"\"\"",
+                    "name": "is_naive",
+                    "namespace": "django.utils.timezone.is_naive",
+                    "class_name": "",
+                    "module_name": "django.utils.timezone",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Make a naive datetime.datetime in a given time zone aware.\"\"\"",
+                    "name": "make_aware",
+                    "namespace": "django.utils.timezone.make_aware",
+                    "class_name": "",
+                    "module_name": "django.utils.timezone",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Make an aware datetime.datetime naive in a given time zone.\"\"\"",
+                    "name": "make_naive",
+                    "namespace": "django.utils.timezone.make_naive",
+                    "class_name": "",
+                    "module_name": "django.utils.timezone",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Detects whether or not pytz has been imported without importing pytz.\n\n    Copied from pytz_deprecation_shim with thanks to Paul Ganssle.\n    \"\"\"",
+                    "name": "_pytz_imported",
+                    "namespace": "django.utils.timezone._pytz_imported",
+                    "class_name": "",
+                    "module_name": "django.utils.timezone",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Checks if a zone is a pytz zone.\"\"\"",
+                    "name": "_is_pytz_zone",
+                    "namespace": "django.utils.timezone._is_pytz_zone",
+                    "class_name": "",
+                    "module_name": "django.utils.timezone",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_datetime_ambiguous_or_imaginary",
+                    "namespace": "django.utils.timezone._datetime_ambiguous_or_imaginary",
+                    "class_name": "",
+                    "module_name": "django.utils.timezone",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.utils"
         },
         {
             "namespace": "django.utils.ipv6",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Clean an IPv6 address string.\n\n    Raise ValidationError if the address is invalid.\n\n    Replace the longest continuous zero-sequence with \"::\", remove leading\n    zeroes, and make sure all hextets are lowercase.\n\n    Args:\n        ip_str: A valid IPv6 address.\n        unpack_ipv4: if an IPv4-mapped address is found,\n        return the plain IPv4 address (default=False).\n        error_message: An error message used in the ValidationError.\n\n    Return a compressed IPv6 address or the same value.\n    \"\"\"",
+                    "name": "clean_ipv6_address",
+                    "namespace": "django.utils.ipv6.clean_ipv6_address",
+                    "class_name": "",
+                    "module_name": "django.utils.ipv6",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return whether or not the `ip_str` string is a valid IPv6 address.\n    \"\"\"",
+                    "name": "is_valid_ipv6_address",
+                    "namespace": "django.utils.ipv6.is_valid_ipv6_address",
+                    "class_name": "",
+                    "module_name": "django.utils.ipv6",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.utils"
         },
         {
             "namespace": "django.utils.module_loading",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "cached_import",
+                    "namespace": "django.utils.module_loading.cached_import",
+                    "class_name": "",
+                    "module_name": "django.utils.module_loading",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Import a dotted module path and return the attribute/class designated by the\n    last name in the path. Raise ImportError if the import failed.\n    \"\"\"",
+                    "name": "import_string",
+                    "namespace": "django.utils.module_loading.import_string",
+                    "class_name": "",
+                    "module_name": "django.utils.module_loading",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Auto-discover INSTALLED_APPS modules and fail silently when\n    not present. This forces an import on them to register any admin bits they\n    may want.\n\n    You may provide a register_to keyword parameter as a way to access a\n    registry. This register_to object must have a _registry instance variable\n    to access it.\n    \"\"\"",
+                    "name": "autodiscover_modules",
+                    "namespace": "django.utils.module_loading.autodiscover_modules",
+                    "class_name": "",
+                    "module_name": "django.utils.module_loading",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"See if 'module' is in 'package'.\"\"\"",
+                    "name": "module_has_submodule",
+                    "namespace": "django.utils.module_loading.module_has_submodule",
+                    "class_name": "",
+                    "module_name": "django.utils.module_loading",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Find the name of the directory that contains a module, if possible.\n\n    Raise ValueError otherwise, e.g. for namespace packages that are split\n    over several directories.\n    \"\"\"",
+                    "name": "module_dir",
+                    "namespace": "django.utils.module_loading.module_dir",
+                    "class_name": "",
+                    "module_name": "django.utils.module_loading",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.utils"
         },
         {
             "namespace": "django.utils.dateparse",
             "docstring": "\"\"\"Functions to parse datetime objects.\"\"\"",
+            "functions": [
+                {
+                    "docstring": "\"\"\"Parse a string and return a datetime.date.\n\n    Raise ValueError if the input is well formatted but not a valid date.\n    Return None if the input isn't well formatted.\n    \"\"\"",
+                    "name": "parse_date",
+                    "namespace": "django.utils.dateparse.parse_date",
+                    "class_name": "",
+                    "module_name": "django.utils.dateparse",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Parse a string and return a datetime.time.\n\n    This function doesn't support time zone offsets.\n\n    Raise ValueError if the input is well formatted but not a valid time.\n    Return None if the input isn't well formatted, in particular if it\n    contains an offset.\n    \"\"\"",
+                    "name": "parse_time",
+                    "namespace": "django.utils.dateparse.parse_time",
+                    "class_name": "",
+                    "module_name": "django.utils.dateparse",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Parse a string and return a datetime.datetime.\n\n    This function supports time zone offsets. When the input contains one,\n    the output uses a timezone with a fixed offset from UTC.\n\n    Raise ValueError if the input is well formatted but not a valid datetime.\n    Return None if the input isn't well formatted.\n    \"\"\"",
+                    "name": "parse_datetime",
+                    "namespace": "django.utils.dateparse.parse_datetime",
+                    "class_name": "",
+                    "module_name": "django.utils.dateparse",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Parse a duration string and return a datetime.timedelta.\n\n    The preferred format for durations in Django is '%d %H:%M:%S.%f'.\n\n    Also supports ISO 8601 representation and PostgreSQL's day-time interval\n    format.\n    \"\"\"",
+                    "name": "parse_duration",
+                    "namespace": "django.utils.dateparse.parse_duration",
+                    "class_name": "",
+                    "module_name": "django.utils.dateparse",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.utils"
         },
         {
             "namespace": "django.utils.itercompat",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"An implementation independent way of checking for iterables\"",
+                    "name": "is_iterable",
+                    "namespace": "django.utils.itercompat.is_iterable",
+                    "class_name": "",
+                    "module_name": "django.utils.itercompat",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.utils"
         },
         {
             "namespace": "django.utils.xmlutils",
             "docstring": "\"\"\"\nUtilities for XML generation/parsing.\n\"\"\"",
+            "functions": [],
             "package_name": "django.utils"
         },
         {
             "namespace": "django.utils.decorators",
             "docstring": "\"Functions that help with dynamically creating decorators for views.\"",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "_update_method_wrapper",
+                    "namespace": "django.utils.decorators._update_method_wrapper",
+                    "class_name": "",
+                    "module_name": "django.utils.decorators",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Decorate `method` with one or more function decorators. `decorators` can be\n    a single decorator or an iterable of decorators.\n    \"\"\"",
+                    "name": "_multi_decorate",
+                    "namespace": "django.utils.decorators._multi_decorate",
+                    "class_name": "",
+                    "module_name": "django.utils.decorators",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Convert a function decorator into a method decorator\n    \"\"\"",
+                    "name": "method_decorator",
+                    "namespace": "django.utils.decorators.method_decorator",
+                    "class_name": "",
+                    "module_name": "django.utils.decorators",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Like decorator_from_middleware, but return a function\n    that accepts the arguments to be passed to the middleware_class.\n    Use like::\n\n         cache_page = decorator_from_middleware_with_args(CacheMiddleware)\n         # ...\n\n         @cache_page(3600)\n         def my_view(request):\n             # ...\n    \"\"\"",
+                    "name": "decorator_from_middleware_with_args",
+                    "namespace": "django.utils.decorators.decorator_from_middleware_with_args",
+                    "class_name": "",
+                    "module_name": "django.utils.decorators",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Given a middleware class (not an instance), return a view decorator. This\n    lets you use middleware functionality on a per-view basis. The middleware\n    is created with no params passed.\n    \"\"\"",
+                    "name": "decorator_from_middleware",
+                    "namespace": "django.utils.decorators.decorator_from_middleware",
+                    "class_name": "",
+                    "module_name": "django.utils.decorators",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "make_middleware_decorator",
+                    "namespace": "django.utils.decorators.make_middleware_decorator",
+                    "class_name": "",
+                    "module_name": "django.utils.decorators",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Mark a middleware factory as returning a hybrid middleware supporting both\n    types of request.\n    \"\"\"",
+                    "name": "sync_and_async_middleware",
+                    "namespace": "django.utils.decorators.sync_and_async_middleware",
+                    "class_name": "",
+                    "module_name": "django.utils.decorators",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Mark a middleware factory as returning a sync middleware.\n    This is the default.\n    \"\"\"",
+                    "name": "sync_only_middleware",
+                    "namespace": "django.utils.decorators.sync_only_middleware",
+                    "class_name": "",
+                    "module_name": "django.utils.decorators",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Mark a middleware factory as returning an async middleware.\"\"\"",
+                    "name": "async_only_middleware",
+                    "namespace": "django.utils.decorators.async_only_middleware",
+                    "class_name": "",
+                    "module_name": "django.utils.decorators",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.utils"
         }
     ],
@@ -219,7 +2010,201 @@
         {
             "name": "django.utils.translation",
             "docstring": "\"\"\"\nInternationalization support.\n\"\"\"",
-            "package_name": "django.utils"
+            "package_name": "django.utils",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "gettext_noop",
+                    "namespace": "django.utils.translation.gettext_noop",
+                    "class_name": "",
+                    "module_name": "django.utils.translation",
+                    "package_name": "django.utils.translation"
+                },
+                {
+                    "docstring": "",
+                    "name": "gettext",
+                    "namespace": "django.utils.translation.gettext",
+                    "class_name": "",
+                    "module_name": "django.utils.translation",
+                    "package_name": "django.utils.translation"
+                },
+                {
+                    "docstring": "",
+                    "name": "ngettext",
+                    "namespace": "django.utils.translation.ngettext",
+                    "class_name": "",
+                    "module_name": "django.utils.translation",
+                    "package_name": "django.utils.translation"
+                },
+                {
+                    "docstring": "",
+                    "name": "pgettext",
+                    "namespace": "django.utils.translation.pgettext",
+                    "class_name": "",
+                    "module_name": "django.utils.translation",
+                    "package_name": "django.utils.translation"
+                },
+                {
+                    "docstring": "",
+                    "name": "npgettext",
+                    "namespace": "django.utils.translation.npgettext",
+                    "class_name": "",
+                    "module_name": "django.utils.translation",
+                    "package_name": "django.utils.translation"
+                },
+                {
+                    "docstring": "",
+                    "name": "lazy_number",
+                    "namespace": "django.utils.translation.lazy_number",
+                    "class_name": "",
+                    "module_name": "django.utils.translation",
+                    "package_name": "django.utils.translation"
+                },
+                {
+                    "docstring": "",
+                    "name": "_lazy_number_unpickle",
+                    "namespace": "django.utils.translation._lazy_number_unpickle",
+                    "class_name": "",
+                    "module_name": "django.utils.translation",
+                    "package_name": "django.utils.translation"
+                },
+                {
+                    "docstring": "",
+                    "name": "ngettext_lazy",
+                    "namespace": "django.utils.translation.ngettext_lazy",
+                    "class_name": "",
+                    "module_name": "django.utils.translation",
+                    "package_name": "django.utils.translation"
+                },
+                {
+                    "docstring": "",
+                    "name": "npgettext_lazy",
+                    "namespace": "django.utils.translation.npgettext_lazy",
+                    "class_name": "",
+                    "module_name": "django.utils.translation",
+                    "package_name": "django.utils.translation"
+                },
+                {
+                    "docstring": "",
+                    "name": "activate",
+                    "namespace": "django.utils.translation.activate",
+                    "class_name": "",
+                    "module_name": "django.utils.translation",
+                    "package_name": "django.utils.translation"
+                },
+                {
+                    "docstring": "",
+                    "name": "deactivate",
+                    "namespace": "django.utils.translation.deactivate",
+                    "class_name": "",
+                    "module_name": "django.utils.translation",
+                    "package_name": "django.utils.translation"
+                },
+                {
+                    "docstring": "",
+                    "name": "get_language",
+                    "namespace": "django.utils.translation.get_language",
+                    "class_name": "",
+                    "module_name": "django.utils.translation",
+                    "package_name": "django.utils.translation"
+                },
+                {
+                    "docstring": "",
+                    "name": "get_language_bidi",
+                    "namespace": "django.utils.translation.get_language_bidi",
+                    "class_name": "",
+                    "module_name": "django.utils.translation",
+                    "package_name": "django.utils.translation"
+                },
+                {
+                    "docstring": "",
+                    "name": "check_for_language",
+                    "namespace": "django.utils.translation.check_for_language",
+                    "class_name": "",
+                    "module_name": "django.utils.translation",
+                    "package_name": "django.utils.translation"
+                },
+                {
+                    "docstring": "\"\"\"Turn a locale name (en_US) into a language name (en-us).\"\"\"",
+                    "name": "to_language",
+                    "namespace": "django.utils.translation.to_language",
+                    "class_name": "",
+                    "module_name": "django.utils.translation",
+                    "package_name": "django.utils.translation"
+                },
+                {
+                    "docstring": "\"\"\"Turn a language name (en-us) into a locale name (en_US).\"\"\"",
+                    "name": "to_locale",
+                    "namespace": "django.utils.translation.to_locale",
+                    "class_name": "",
+                    "module_name": "django.utils.translation",
+                    "package_name": "django.utils.translation"
+                },
+                {
+                    "docstring": "",
+                    "name": "get_language_from_request",
+                    "namespace": "django.utils.translation.get_language_from_request",
+                    "class_name": "",
+                    "module_name": "django.utils.translation",
+                    "package_name": "django.utils.translation"
+                },
+                {
+                    "docstring": "",
+                    "name": "get_language_from_path",
+                    "namespace": "django.utils.translation.get_language_from_path",
+                    "class_name": "",
+                    "module_name": "django.utils.translation",
+                    "package_name": "django.utils.translation"
+                },
+                {
+                    "docstring": "",
+                    "name": "get_supported_language_variant",
+                    "namespace": "django.utils.translation.get_supported_language_variant",
+                    "class_name": "",
+                    "module_name": "django.utils.translation",
+                    "package_name": "django.utils.translation"
+                },
+                {
+                    "docstring": "",
+                    "name": "templatize",
+                    "namespace": "django.utils.translation.templatize",
+                    "class_name": "",
+                    "module_name": "django.utils.translation",
+                    "package_name": "django.utils.translation"
+                },
+                {
+                    "docstring": "",
+                    "name": "deactivate_all",
+                    "namespace": "django.utils.translation.deactivate_all",
+                    "class_name": "",
+                    "module_name": "django.utils.translation",
+                    "package_name": "django.utils.translation"
+                },
+                {
+                    "docstring": "",
+                    "name": "get_language_info",
+                    "namespace": "django.utils.translation.get_language_info",
+                    "class_name": "",
+                    "module_name": "django.utils.translation",
+                    "package_name": "django.utils.translation"
+                },
+                {
+                    "docstring": "",
+                    "name": "trim_whitespace",
+                    "namespace": "django.utils.translation.trim_whitespace",
+                    "class_name": "",
+                    "module_name": "django.utils.translation",
+                    "package_name": "django.utils.translation"
+                },
+                {
+                    "docstring": "",
+                    "name": "round_away_from_one",
+                    "namespace": "django.utils.translation.round_away_from_one",
+                    "class_name": "",
+                    "module_name": "django.utils.translation",
+                    "package_name": "django.utils.translation"
+                }
+            ]
         }
     ]
 }

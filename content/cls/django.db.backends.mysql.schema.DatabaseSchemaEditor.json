@@ -3,5 +3,119 @@
     "name": "DatabaseSchemaEditor",
     "namespace": "django.db.backends.mysql.schema.DatabaseSchemaEditor",
     "module_name": "django.db.backends.mysql.schema",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "sql_delete_check",
+            "namespace": "django.db.backends.mysql.schema.DatabaseSchemaEditor.sql_delete_check",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "sql_rename_column",
+            "namespace": "django.db.backends.mysql.schema.DatabaseSchemaEditor.sql_rename_column",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "quote_value",
+            "namespace": "django.db.backends.mysql.schema.DatabaseSchemaEditor.quote_value",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_is_limited_data_type",
+            "namespace": "django.db.backends.mysql.schema.DatabaseSchemaEditor._is_limited_data_type",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "skip_default",
+            "namespace": "django.db.backends.mysql.schema.DatabaseSchemaEditor.skip_default",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "skip_default_on_alter",
+            "namespace": "django.db.backends.mysql.schema.DatabaseSchemaEditor.skip_default_on_alter",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_supports_limited_data_type_defaults",
+            "namespace": "django.db.backends.mysql.schema.DatabaseSchemaEditor._supports_limited_data_type_defaults",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_column_default_sql",
+            "namespace": "django.db.backends.mysql.schema.DatabaseSchemaEditor._column_default_sql",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "add_field",
+            "namespace": "django.db.backends.mysql.schema.DatabaseSchemaEditor.add_field",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_field_should_be_indexed",
+            "namespace": "django.db.backends.mysql.schema.DatabaseSchemaEditor._field_should_be_indexed",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        MySQL can remove an implicit FK index on a field when that field is\n        covered by another index like a unique_together. \"covered\" here means\n        that the more complex index starts like the simpler one.\n        http://bugs.mysql.com/bug.php?id=37910 / Django ticket #24757\n        We check here before removing the [unique|index]_together if we have to\n        recreate a FK index.\n        \"\"\"",
+            "name": "_delete_composed_index",
+            "namespace": "django.db.backends.mysql.schema.DatabaseSchemaEditor._delete_composed_index",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Keep the null property of the old field. If it has changed, it will be\n        handled separately.\n        \"\"\"",
+            "name": "_set_field_new_type_null_status",
+            "namespace": "django.db.backends.mysql.schema.DatabaseSchemaEditor._set_field_new_type_null_status",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_alter_column_type_sql",
+            "namespace": "django.db.backends.mysql.schema.DatabaseSchemaEditor._alter_column_type_sql",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_rename_field_sql",
+            "namespace": "django.db.backends.mysql.schema.DatabaseSchemaEditor._rename_field_sql",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Update the content of `self._errors`.\n\n        The `field` argument is the name of the field to which the errors\n        should be added. If it's None, treat the errors as NON_FIELD_ERRORS.\n\n        The `error` argument can be a single error, a list of errors, or a\n        dictionary that maps field names to lists of errors. An \"error\" can be\n        either a simple string or an instance of ValidationError with its\n        message attribute set and a \"list or dictionary\" can be an actual\n        `list` or `dict` or an instance of ValidationError with its\n        `error_list` or `error_dict` attribute set.\n\n        If `error` is a dictionary, the `field` argument *must* be None and\n        errors will be added to the fields that correspond to the keys of the\n        dictionary.\n        \"\"\"",
+    "name": "add_error",
+    "namespace": "django.forms.forms.BaseForm.add_error",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

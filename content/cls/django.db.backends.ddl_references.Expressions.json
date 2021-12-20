@@ -3,5 +3,39 @@
     "name": "Expressions",
     "namespace": "django.db.backends.ddl_references.Expressions",
     "module_name": "django.db.backends.ddl_references",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.db.backends.ddl_references.Expressions.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "rename_table_references",
+            "namespace": "django.db.backends.ddl_references.Expressions.rename_table_references",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "rename_column_references",
+            "namespace": "django.db.backends.ddl_references.Expressions.rename_column_references",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__str__",
+            "namespace": "django.db.backends.ddl_references.Expressions.__str__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

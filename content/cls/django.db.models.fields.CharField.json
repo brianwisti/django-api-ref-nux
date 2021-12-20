@@ -3,5 +3,87 @@
     "name": "CharField",
     "namespace": "django.db.models.fields.CharField",
     "module_name": "django.db.models.fields",
-    "package_name": "django.db.models.fields"
+    "package_name": "django.db.models.fields",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.db.models.fields.CharField.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "check",
+            "namespace": "django.db.models.fields.CharField.check",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_check_max_length_attribute",
+            "namespace": "django.db.models.fields.CharField._check_max_length_attribute",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_check_db_collation",
+            "namespace": "django.db.models.fields.CharField._check_db_collation",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "cast_db_type",
+            "namespace": "django.db.models.fields.CharField.cast_db_type",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_internal_type",
+            "namespace": "django.db.models.fields.CharField.get_internal_type",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "to_python",
+            "namespace": "django.db.models.fields.CharField.to_python",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_prep_value",
+            "namespace": "django.db.models.fields.CharField.get_prep_value",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "formfield",
+            "namespace": "django.db.models.fields.CharField.formfield",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "deconstruct",
+            "namespace": "django.db.models.fields.CharField.deconstruct",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

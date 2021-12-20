@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Split the values into two sets, based on the return value of the function\n    (True/False). e.g.:\n\n        >>> partition(lambda x: x > 3, range(5))\n        [0, 1, 2, 3], [4]\n    \"\"\"",
+    "name": "partition",
+    "namespace": "django.utils.functional.partition",
+    "class_name": "",
+    "module_name": "django.utils.functional",
+    "package_name": ""
+}

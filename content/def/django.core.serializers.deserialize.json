@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Deserialize a stream or a string. Return an iterator that yields ``(obj,\n    m2m_relation_dict)``, where ``obj`` is an instantiated -- but *unsaved* --\n    object, and ``m2m_relation_dict`` is a dictionary of ``{m2m_field_name :\n    list_of_related_objects}``.\n    \"\"\"",
+    "name": "deserialize",
+    "namespace": "django.core.serializers.deserialize",
+    "class_name": "",
+    "module_name": "django.core.serializers",
+    "package_name": "django.core.serializers"
+}

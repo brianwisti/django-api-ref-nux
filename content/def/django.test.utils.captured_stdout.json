@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"Capture the output of sys.stdout:\n\n       with captured_stdout() as stdout:\n           print(\"hello\")\n       self.assertEqual(stdout.getvalue(), \"hello\\n\")\n    \"\"\"",
+    "name": "captured_stdout",
+    "namespace": "django.test.utils.captured_stdout",
+    "class_name": "",
+    "module_name": "django.test.utils",
+    "package_name": ""
+}

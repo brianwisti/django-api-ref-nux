@@ -5,7 +5,187 @@
         {
             "docstring": "\"\"\"\n    Temporarily set the time zone for the current thread.\n\n    This is a context manager that uses django.utils.timezone.activate()\n    to set the timezone on entry and restores the previously active timezone\n    on exit.\n\n    The ``timezone`` argument must be an instance of a ``tzinfo`` subclass, a\n    time zone name, or ``None``. If it is ``None``, Django enables the default\n    time zone.\n    \"\"\"",
             "name": "override",
-            "namespace": "django.utils.timezone.override"
+            "namespace": "django.utils.timezone.override",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.utils.timezone.override.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__enter__",
+                    "namespace": "django.utils.timezone.override.__enter__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__exit__",
+                    "namespace": "django.utils.timezone.override.__exit__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\"Return a tzinfo instance with a fixed offset from UTC.\"\"\"",
+            "name": "get_fixed_timezone",
+            "namespace": "django.utils.timezone.get_fixed_timezone",
+            "class_name": "",
+            "module_name": "django.utils.timezone",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return the default time zone as a tzinfo instance.\n\n    This is the time zone defined by settings.TIME_ZONE.\n    \"\"\"",
+            "name": "get_default_timezone",
+            "namespace": "django.utils.timezone.get_default_timezone",
+            "class_name": "",
+            "module_name": "django.utils.timezone",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return the name of the default time zone.\"\"\"",
+            "name": "get_default_timezone_name",
+            "namespace": "django.utils.timezone.get_default_timezone_name",
+            "class_name": "",
+            "module_name": "django.utils.timezone",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return the currently active time zone as a tzinfo instance.\"\"\"",
+            "name": "get_current_timezone",
+            "namespace": "django.utils.timezone.get_current_timezone",
+            "class_name": "",
+            "module_name": "django.utils.timezone",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return the name of the currently active time zone.\"\"\"",
+            "name": "get_current_timezone_name",
+            "namespace": "django.utils.timezone.get_current_timezone_name",
+            "class_name": "",
+            "module_name": "django.utils.timezone",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return the offset for fixed offset timezones, or the name of timezone if\n    not set.\n    \"\"\"",
+            "name": "_get_timezone_name",
+            "namespace": "django.utils.timezone._get_timezone_name",
+            "class_name": "",
+            "module_name": "django.utils.timezone",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Set the time zone for the current thread.\n\n    The ``timezone`` argument must be an instance of a tzinfo subclass or a\n    time zone name.\n    \"\"\"",
+            "name": "activate",
+            "namespace": "django.utils.timezone.activate",
+            "class_name": "",
+            "module_name": "django.utils.timezone",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Unset the time zone for the current thread.\n\n    Django will then use the time zone defined by settings.TIME_ZONE.\n    \"\"\"",
+            "name": "deactivate",
+            "namespace": "django.utils.timezone.deactivate",
+            "class_name": "",
+            "module_name": "django.utils.timezone",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Check if value is a datetime and converts it to local time if necessary.\n\n    If use_tz is provided and is not None, that will force the value to\n    be converted (or not), overriding the value of settings.USE_TZ.\n\n    This function is designed for use by the template engine.\n    \"\"\"",
+            "name": "template_localtime",
+            "namespace": "django.utils.timezone.template_localtime",
+            "class_name": "",
+            "module_name": "django.utils.timezone",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Convert an aware datetime.datetime to local time.\n\n    Only aware datetimes are allowed. When value is omitted, it defaults to\n    now().\n\n    Local time is defined by the current time zone, unless another time zone\n    is specified.\n    \"\"\"",
+            "name": "localtime",
+            "namespace": "django.utils.timezone.localtime",
+            "class_name": "",
+            "module_name": "django.utils.timezone",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Convert an aware datetime to local time and return the value's date.\n\n    Only aware datetimes are allowed. When value is omitted, it defaults to\n    now().\n\n    Local time is defined by the current time zone, unless another time zone is\n    specified.\n    \"\"\"",
+            "name": "localdate",
+            "namespace": "django.utils.timezone.localdate",
+            "class_name": "",
+            "module_name": "django.utils.timezone",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return an aware or naive datetime.datetime, depending on settings.USE_TZ.\n    \"\"\"",
+            "name": "now",
+            "namespace": "django.utils.timezone.now",
+            "class_name": "",
+            "module_name": "django.utils.timezone",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Determine if a given datetime.datetime is aware.\n\n    The concept is defined in Python's docs:\n    https://docs.python.org/library/datetime.html#datetime.tzinfo\n\n    Assuming value.tzinfo is either None or a proper datetime.tzinfo,\n    value.utcoffset() implements the appropriate logic.\n    \"\"\"",
+            "name": "is_aware",
+            "namespace": "django.utils.timezone.is_aware",
+            "class_name": "",
+            "module_name": "django.utils.timezone",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Determine if a given datetime.datetime is naive.\n\n    The concept is defined in Python's docs:\n    https://docs.python.org/library/datetime.html#datetime.tzinfo\n\n    Assuming value.tzinfo is either None or a proper datetime.tzinfo,\n    value.utcoffset() implements the appropriate logic.\n    \"\"\"",
+            "name": "is_naive",
+            "namespace": "django.utils.timezone.is_naive",
+            "class_name": "",
+            "module_name": "django.utils.timezone",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Make a naive datetime.datetime in a given time zone aware.\"\"\"",
+            "name": "make_aware",
+            "namespace": "django.utils.timezone.make_aware",
+            "class_name": "",
+            "module_name": "django.utils.timezone",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Make an aware datetime.datetime naive in a given time zone.\"\"\"",
+            "name": "make_naive",
+            "namespace": "django.utils.timezone.make_naive",
+            "class_name": "",
+            "module_name": "django.utils.timezone",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Detects whether or not pytz has been imported without importing pytz.\n\n    Copied from pytz_deprecation_shim with thanks to Paul Ganssle.\n    \"\"\"",
+            "name": "_pytz_imported",
+            "namespace": "django.utils.timezone._pytz_imported",
+            "class_name": "",
+            "module_name": "django.utils.timezone",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Checks if a zone is a pytz zone.\"\"\"",
+            "name": "_is_pytz_zone",
+            "namespace": "django.utils.timezone._is_pytz_zone",
+            "class_name": "",
+            "module_name": "django.utils.timezone",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_datetime_ambiguous_or_imaginary",
+            "namespace": "django.utils.timezone._datetime_ambiguous_or_imaginary",
+            "class_name": "",
+            "module_name": "django.utils.timezone",
+            "package_name": ""
         }
     ],
     "package_name": "django.utils"

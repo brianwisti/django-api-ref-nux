@@ -5,72 +5,613 @@
         {
             "docstring": "",
             "name": "TokenType",
-            "namespace": "django.template.base.TokenType"
+            "namespace": "django.template.base.TokenType",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "VariableDoesNotExist",
-            "namespace": "django.template.base.VariableDoesNotExist"
+            "namespace": "django.template.base.VariableDoesNotExist",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.template.base.VariableDoesNotExist.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__str__",
+                    "namespace": "django.template.base.VariableDoesNotExist.__str__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Origin",
-            "namespace": "django.template.base.Origin"
+            "namespace": "django.template.base.Origin",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.template.base.Origin.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__str__",
+                    "namespace": "django.template.base.Origin.__str__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.template.base.Origin.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__eq__",
+                    "namespace": "django.template.base.Origin.__eq__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "loader_name",
+                    "namespace": "django.template.base.Origin.loader_name",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Template",
-            "namespace": "django.template.base.Template"
+            "namespace": "django.template.base.Template",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.template.base.Template.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__iter__",
+                    "namespace": "django.template.base.Template.__iter__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.template.base.Template.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_render",
+                    "namespace": "django.template.base.Template._render",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Display stage -- can be called many times\"",
+                    "name": "render",
+                    "namespace": "django.template.base.Template.render",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Parse and compile the template source into a nodelist. If debug\n        is True and an exception occurs during parsing, the exception is\n        annotated with contextual line information where it occurred in the\n        template source.\n        \"\"\"",
+                    "name": "compile_nodelist",
+                    "namespace": "django.template.base.Template.compile_nodelist",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return a dictionary containing contextual line information of where\n        the exception occurred in the template. The following information is\n        provided:\n\n        message\n            The message of the exception raised.\n\n        source_lines\n            The lines before, after, and including the line the exception\n            occurred on.\n\n        line\n            The line number the exception occurred on.\n\n        before, during, after\n            The line the exception occurred on split into three parts:\n            1. The content before the token that raised the error.\n            2. The token that raised the error.\n            3. The content after the token that raised the error.\n\n        total\n            The number of lines in source_lines.\n\n        top\n            The line number where source_lines starts.\n\n        bottom\n            The line number where source_lines ends.\n\n        start\n            The start position of the token in the template source.\n\n        end\n            The end position of the token in the template source.\n        \"\"\"",
+                    "name": "get_exception_info",
+                    "namespace": "django.template.base.Template.get_exception_info",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Token",
-            "namespace": "django.template.base.Token"
+            "namespace": "django.template.base.Token",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        A token representing a string from the template.\n\n        token_type\n            A TokenType, either .TEXT, .VAR, .BLOCK, or .COMMENT.\n\n        contents\n            The token source string.\n\n        position\n            An optional tuple containing the start and end index of the token\n            in the template source. This is used for traceback information\n            when debug is on.\n\n        lineno\n            The line number the token appears on in the template source.\n            This is used for traceback information and gettext files.\n        \"\"\"",
+                    "name": "__init__",
+                    "namespace": "django.template.base.Token.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.template.base.Token.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "split_contents",
+                    "namespace": "django.template.base.Token.split_contents",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Lexer",
-            "namespace": "django.template.base.Lexer"
+            "namespace": "django.template.base.Lexer",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.template.base.Lexer.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.template.base.Lexer.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return a list of tokens from a given template_string.\n        \"\"\"",
+                    "name": "tokenize",
+                    "namespace": "django.template.base.Lexer.tokenize",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Convert the given token string into a new Token object and return it.\n        If in_tag is True, we are processing something that matched a tag,\n        otherwise it should be treated as a literal string.\n        \"\"\"",
+                    "name": "create_token",
+                    "namespace": "django.template.base.Lexer.create_token",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "DebugLexer",
-            "namespace": "django.template.base.DebugLexer"
+            "namespace": "django.template.base.DebugLexer",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "_tag_re_split_positions",
+                    "namespace": "django.template.base.DebugLexer._tag_re_split_positions",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_tag_re_split",
+                    "namespace": "django.template.base.DebugLexer._tag_re_split",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Split a template string into tokens and annotates each token with its\n        start and end position in the source. This is slower than the default\n        lexer so only use it when debug is True.\n        \"\"\"",
+                    "name": "tokenize",
+                    "namespace": "django.template.base.DebugLexer.tokenize",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Parser",
-            "namespace": "django.template.base.Parser"
+            "namespace": "django.template.base.Parser",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.template.base.Parser.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.template.base.Parser.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Iterate through the parser tokens and compiles each one into a node.\n\n        If parse_until is provided, parsing will stop once one of the\n        specified tokens has been reached. This is formatted as a list of\n        tokens, e.g. ['elif', 'else', 'endif']. If no matching token is\n        reached, raise an exception with the unclosed block tag details.\n        \"\"\"",
+                    "name": "parse",
+                    "namespace": "django.template.base.Parser.parse",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "skip_past",
+                    "namespace": "django.template.base.Parser.skip_past",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "extend_nodelist",
+                    "namespace": "django.template.base.Parser.extend_nodelist",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return an exception annotated with the originating token. Since the\n        parser can be called recursively, check if a token is already set. This\n        ensures the innermost token is highlighted if an exception occurs,\n        e.g. a compile error within the body of an if statement.\n        \"\"\"",
+                    "name": "error",
+                    "namespace": "django.template.base.Parser.error",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "invalid_block_tag",
+                    "namespace": "django.template.base.Parser.invalid_block_tag",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "unclosed_block_tag",
+                    "namespace": "django.template.base.Parser.unclosed_block_tag",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "next_token",
+                    "namespace": "django.template.base.Parser.next_token",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "prepend_token",
+                    "namespace": "django.template.base.Parser.prepend_token",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "delete_first_token",
+                    "namespace": "django.template.base.Parser.delete_first_token",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "add_library",
+                    "namespace": "django.template.base.Parser.add_library",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Convenient wrapper for FilterExpression\n        \"\"\"",
+                    "name": "compile_filter",
+                    "namespace": "django.template.base.Parser.compile_filter",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "find_filter",
+                    "namespace": "django.template.base.Parser.find_filter",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Parse a variable token and its optional filters (all as a single string),\n    and return a list of tuples of the filter name and arguments.\n    Sample::\n\n        >>> token = 'variable|default:\"Default value\"|date:\"Y-m-d\"'\n        >>> p = Parser('')\n        >>> fe = FilterExpression(token, p)\n        >>> len(fe.filters)\n        2\n        >>> fe.var\n        <Variable: 'variable'>\n    \"\"\"",
             "name": "FilterExpression",
-            "namespace": "django.template.base.FilterExpression"
+            "namespace": "django.template.base.FilterExpression",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.template.base.FilterExpression.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "resolve",
+                    "namespace": "django.template.base.FilterExpression.resolve",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "args_check",
+                    "namespace": "django.template.base.FilterExpression.args_check",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__str__",
+                    "namespace": "django.template.base.FilterExpression.__str__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.template.base.FilterExpression.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    A template variable, resolvable against a given context. The variable may\n    be a hard-coded string (if it begins and ends with single or double quote\n    marks)::\n\n        >>> c = {'article': {'section':'News'}}\n        >>> Variable('article.section').resolve(c)\n        'News'\n        >>> Variable('article').resolve(c)\n        {'section': 'News'}\n        >>> class AClass: pass\n        >>> c = AClass()\n        >>> c.article = AClass()\n        >>> c.article.section = 'News'\n\n    (The example assumes VARIABLE_ATTRIBUTE_SEPARATOR is '.')\n    \"\"\"",
             "name": "Variable",
-            "namespace": "django.template.base.Variable"
+            "namespace": "django.template.base.Variable",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.template.base.Variable.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Resolve this variable against a given context.\"\"\"",
+                    "name": "resolve",
+                    "namespace": "django.template.base.Variable.resolve",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.template.base.Variable.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__str__",
+                    "namespace": "django.template.base.Variable.__str__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Perform resolution of a real variable (i.e. not a literal) against the\n        given context.\n\n        As indicated by the method's name, this method is an implementation\n        detail and shouldn't be called by external code. Use Variable.resolve()\n        instead.\n        \"\"\"",
+                    "name": "_resolve_lookup",
+                    "namespace": "django.template.base.Variable._resolve_lookup",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Node",
-            "namespace": "django.template.base.Node"
+            "namespace": "django.template.base.Node",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        Return the node rendered as a string.\n        \"\"\"",
+                    "name": "render",
+                    "namespace": "django.template.base.Node.render",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Render the node. If debug is True and an exception occurs during\n        rendering, the exception is annotated with contextual line information\n        where it occurred in the template. For internal usage this method is\n        preferred over using the render method directly.\n        \"\"\"",
+                    "name": "render_annotated",
+                    "namespace": "django.template.base.Node.render_annotated",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__iter__",
+                    "namespace": "django.template.base.Node.__iter__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return a list of all nodes (within this node and its nodelist)\n        of the given type\n        \"\"\"",
+                    "name": "get_nodes_by_type",
+                    "namespace": "django.template.base.Node.get_nodes_by_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "NodeList",
-            "namespace": "django.template.base.NodeList"
+            "namespace": "django.template.base.NodeList",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "render",
+                    "namespace": "django.template.base.NodeList.render",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Return a list of all nodes of the given type\"",
+                    "name": "get_nodes_by_type",
+                    "namespace": "django.template.base.NodeList.get_nodes_by_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "TextNode",
-            "namespace": "django.template.base.TextNode"
+            "namespace": "django.template.base.TextNode",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.template.base.TextNode.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.template.base.TextNode.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "render",
+                    "namespace": "django.template.base.TextNode.render",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the given value.\n\n        The default implementation of this method handles exceptions raised\n        during rendering, which is not necessary for text nodes.\n        \"\"\"",
+                    "name": "render_annotated",
+                    "namespace": "django.template.base.TextNode.render_annotated",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "VariableNode",
-            "namespace": "django.template.base.VariableNode"
+            "namespace": "django.template.base.VariableNode",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.template.base.VariableNode.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.template.base.VariableNode.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "render",
+                    "namespace": "django.template.base.VariableNode.render",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "",
+            "name": "linebreak_iter",
+            "namespace": "django.template.base.linebreak_iter",
+            "class_name": "",
+            "module_name": "django.template.base",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Convert any value to a string to become part of a rendered template. This\n    means escaping, if required, and conversion to a string. If value is a\n    string, it's expected to already be translated.\n    \"\"\"",
+            "name": "render_value_in_context",
+            "namespace": "django.template.base.render_value_in_context",
+            "class_name": "",
+            "module_name": "django.template.base",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Parse token keyword arguments and return a dictionary of the arguments\n    retrieved from the ``bits`` token list.\n\n    `bits` is a list containing the remainder of the token (split by spaces)\n    that is to be checked for arguments. Valid arguments are removed from this\n    list.\n\n    `support_legacy` - if True, the legacy format ``1 as foo`` is accepted.\n    Otherwise, only the standard ``foo=1`` format is allowed.\n\n    There is no requirement for all remaining token ``bits`` to be keyword\n    arguments, so return the dictionary as soon as an invalid argument format\n    is reached.\n    \"\"\"",
+            "name": "token_kwargs",
+            "namespace": "django.template.base.token_kwargs",
+            "class_name": "",
+            "module_name": "django.template.base",
+            "package_name": ""
         }
     ],
     "package_name": "django.template"

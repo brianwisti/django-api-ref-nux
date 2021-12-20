@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Enable a given time zone just for this block.\n\n    The ``timezone`` argument must be an instance of a ``tzinfo`` subclass, a\n    time zone name, or ``None``. If it is ``None``, the default time zone is\n    used within the block.\n\n    Sample usage::\n\n        {% timezone \"Europe/Paris\" %}\n            It is {{ now }} in Paris.\n        {% endtimezone %}\n    \"\"\"",
+    "name": "timezone_tag",
+    "namespace": "django.templatetags.tz.timezone_tag",
+    "class_name": "",
+    "module_name": "django.templatetags.tz",
+    "package_name": ""
+}

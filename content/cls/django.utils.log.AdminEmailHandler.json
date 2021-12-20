@@ -3,5 +3,47 @@
     "name": "AdminEmailHandler",
     "namespace": "django.utils.log.AdminEmailHandler",
     "module_name": "django.utils.log",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.utils.log.AdminEmailHandler.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "emit",
+            "namespace": "django.utils.log.AdminEmailHandler.emit",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "send_mail",
+            "namespace": "django.utils.log.AdminEmailHandler.send_mail",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "connection",
+            "namespace": "django.utils.log.AdminEmailHandler.connection",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Escape CR and LF characters.\n        \"\"\"",
+            "name": "format_subject",
+            "namespace": "django.utils.log.AdminEmailHandler.format_subject",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

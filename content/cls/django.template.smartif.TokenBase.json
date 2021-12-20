@@ -3,5 +3,39 @@
     "name": "TokenBase",
     "namespace": "django.template.smartif.TokenBase",
     "module_name": "django.template.smartif",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "nud",
+            "namespace": "django.template.smartif.TokenBase.nud",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "led",
+            "namespace": "django.template.smartif.TokenBase.led",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return what to display in error messages for this node\n        \"\"\"",
+            "name": "display",
+            "namespace": "django.template.smartif.TokenBase.display",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__repr__",
+            "namespace": "django.template.smartif.TokenBase.__repr__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

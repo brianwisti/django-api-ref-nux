@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Decorator to make a view only accept particular request methods.  Usage::\n\n        @require_http_methods([\"GET\", \"POST\"])\n        def my_view(request):\n            # I can assume now that only GET or POST requests make it this far\n            # ...\n\n    Note that request methods should be in uppercase.\n    \"\"\"",
+    "name": "require_http_methods",
+    "namespace": "django.views.decorators.http.require_http_methods",
+    "class_name": "",
+    "module_name": "django.views.decorators.http",
+    "package_name": ""
+}

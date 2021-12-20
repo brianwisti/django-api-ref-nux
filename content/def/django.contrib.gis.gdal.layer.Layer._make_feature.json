@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Helper routine for __getitem__ that constructs a Feature from the given\n        Feature ID.  If the OGR Layer does not support random-access reading,\n        then each feature of the layer will be incremented through until the\n        a Feature is found matching the given feature ID.\n        \"\"\"",
+    "name": "_make_feature",
+    "namespace": "django.contrib.gis.gdal.layer.Layer._make_feature",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

@@ -3,5 +3,95 @@
     "name": "JSONField",
     "namespace": "django.db.models.fields.json.JSONField",
     "module_name": "django.db.models.fields.json",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.db.models.fields.json.JSONField.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "check",
+            "namespace": "django.db.models.fields.json.JSONField.check",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_check_supported",
+            "namespace": "django.db.models.fields.json.JSONField._check_supported",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "deconstruct",
+            "namespace": "django.db.models.fields.json.JSONField.deconstruct",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "from_db_value",
+            "namespace": "django.db.models.fields.json.JSONField.from_db_value",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_internal_type",
+            "namespace": "django.db.models.fields.json.JSONField.get_internal_type",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_prep_value",
+            "namespace": "django.db.models.fields.json.JSONField.get_prep_value",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_transform",
+            "namespace": "django.db.models.fields.json.JSONField.get_transform",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "validate",
+            "namespace": "django.db.models.fields.json.JSONField.validate",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "value_to_string",
+            "namespace": "django.db.models.fields.json.JSONField.value_to_string",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "formfield",
+            "namespace": "django.db.models.fields.json.JSONField.formfield",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

@@ -2,51 +2,102 @@
     "name": "django.contrib.gis.db.backends.postgis",
     "docstring": "",
     "package_name": "django.contrib.gis.db.backends",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.contrib.gis.db.backends.postgis.models",
             "docstring": "\"\"\"\n The GeometryColumns and SpatialRefSys models for the PostGIS backend.\n\"\"\"",
+            "functions": [],
             "package_name": "django.contrib.gis.db.backends.postgis"
         },
         {
             "namespace": "django.contrib.gis.db.backends.postgis.adapter",
             "docstring": "\"\"\"\n This object provides quoting for GEOS geometries into PostgreSQL/PostGIS.\n\"\"\"",
+            "functions": [],
             "package_name": "django.contrib.gis.db.backends.postgis"
         },
         {
             "namespace": "django.contrib.gis.db.backends.postgis.pgraster",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Pack data into hex string with little endian format.\n    \"\"\"",
+                    "name": "pack",
+                    "namespace": "django.contrib.gis.db.backends.postgis.pgraster.pack",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.db.backends.postgis.pgraster",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Unpack little endian hexlified binary string into a list.\n    \"\"\"",
+                    "name": "unpack",
+                    "namespace": "django.contrib.gis.db.backends.postgis.pgraster.unpack",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.db.backends.postgis.pgraster",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Split a string into two parts at the input index.\n    \"\"\"",
+                    "name": "chunk",
+                    "namespace": "django.contrib.gis.db.backends.postgis.pgraster.chunk",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.db.backends.postgis.pgraster",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Convert a PostGIS HEX String into a dictionary.\n    \"\"\"",
+                    "name": "from_pgraster",
+                    "namespace": "django.contrib.gis.db.backends.postgis.pgraster.from_pgraster",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.db.backends.postgis.pgraster",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Convert a GDALRaster into PostGIS Raster format.\n    \"\"\"",
+                    "name": "to_pgraster",
+                    "namespace": "django.contrib.gis.db.backends.postgis.pgraster.to_pgraster",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.db.backends.postgis.pgraster",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.gis.db.backends.postgis"
         },
         {
             "namespace": "django.contrib.gis.db.backends.postgis.features",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.gis.db.backends.postgis"
         },
         {
             "namespace": "django.contrib.gis.db.backends.postgis.operations",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.gis.db.backends.postgis"
         },
         {
             "namespace": "django.contrib.gis.db.backends.postgis.introspection",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.gis.db.backends.postgis"
         },
         {
             "namespace": "django.contrib.gis.db.backends.postgis.base",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.gis.db.backends.postgis"
         },
         {
             "namespace": "django.contrib.gis.db.backends.postgis.const",
             "docstring": "\"\"\"\nPostGIS to GDAL conversion constant definitions\n\"\"\"",
+            "functions": [],
             "package_name": "django.contrib.gis.db.backends.postgis"
         },
         {
             "namespace": "django.contrib.gis.db.backends.postgis.schema",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.gis.db.backends.postgis"
         }
     ],

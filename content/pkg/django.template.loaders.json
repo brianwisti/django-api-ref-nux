@@ -2,31 +2,37 @@
     "name": "django.template.loaders",
     "docstring": "",
     "package_name": "django.template",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.template.loaders.filesystem",
             "docstring": "\"\"\"\nWrapper for loading templates from the filesystem.\n\"\"\"",
+            "functions": [],
             "package_name": "django.template.loaders"
         },
         {
             "namespace": "django.template.loaders.cached",
             "docstring": "\"\"\"\nWrapper class that takes a list of template loaders as an argument and attempts\nto load templates from them in order, caching the result.\n\"\"\"",
+            "functions": [],
             "package_name": "django.template.loaders"
         },
         {
             "namespace": "django.template.loaders.app_directories",
             "docstring": "\"\"\"\nWrapper for loading templates from \"templates\" directories in INSTALLED_APPS\npackages.\n\"\"\"",
+            "functions": [],
             "package_name": "django.template.loaders"
         },
         {
             "namespace": "django.template.loaders.base",
             "docstring": "",
+            "functions": [],
             "package_name": "django.template.loaders"
         },
         {
             "namespace": "django.template.loaders.locmem",
             "docstring": "\"\"\"\nWrapper for loading templates from a plain Python dict.\n\"\"\"",
+            "functions": [],
             "package_name": "django.template.loaders"
         }
     ],

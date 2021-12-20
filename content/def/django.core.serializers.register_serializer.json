@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"Register a new serializer.\n\n    ``serializer_module`` should be the fully qualified module name\n    for the serializer.\n\n    If ``serializers`` is provided, the registration will be added\n    to the provided dictionary.\n\n    If ``serializers`` is not provided, the registration will be made\n    directly into the global register of serializers. Adding serializers\n    directly is not a thread-safe operation.\n    \"\"\"",
+    "name": "register_serializer",
+    "namespace": "django.core.serializers.register_serializer",
+    "class_name": "",
+    "module_name": "django.core.serializers",
+    "package_name": "django.core.serializers"
+}

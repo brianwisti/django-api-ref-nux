@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Return the default SRID for the given geometry or raster, taking into\n        account the SRID set for the field. For example, if the input geometry\n        or raster doesn't have an SRID, then the SRID of the field will be\n        returned.\n        \"\"\"",
+    "name": "get_srid",
+    "namespace": "django.contrib.gis.db.models.fields.BaseSpatialField.get_srid",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

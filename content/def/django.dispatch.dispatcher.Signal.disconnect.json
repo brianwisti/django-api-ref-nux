@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Disconnect receiver from sender for signal.\n\n        If weak references are used, disconnect need not be called. The receiver\n        will be removed from dispatch automatically.\n\n        Arguments:\n\n            receiver\n                The registered receiver to disconnect. May be none if\n                dispatch_uid is specified.\n\n            sender\n                The registered sender to disconnect\n\n            dispatch_uid\n                the unique identifier of the receiver to disconnect\n        \"\"\"",
+    "name": "disconnect",
+    "namespace": "django.dispatch.dispatcher.Signal.disconnect",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

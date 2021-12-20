@@ -3,5 +3,31 @@
     "name": "MultipleChoiceField",
     "namespace": "django.forms.fields.MultipleChoiceField",
     "module_name": "django.forms.fields",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "to_python",
+            "namespace": "django.forms.fields.MultipleChoiceField.to_python",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Validate that the input is a list or tuple.\"\"\"",
+            "name": "validate",
+            "namespace": "django.forms.fields.MultipleChoiceField.validate",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "has_changed",
+            "namespace": "django.forms.fields.MultipleChoiceField.has_changed",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

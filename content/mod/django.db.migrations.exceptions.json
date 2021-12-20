@@ -5,48 +5,83 @@
         {
             "docstring": "\"\"\"More than one migration matches a name prefix.\"\"\"",
             "name": "AmbiguityError",
-            "namespace": "django.db.migrations.exceptions.AmbiguityError"
+            "namespace": "django.db.migrations.exceptions.AmbiguityError",
+            "methods": []
         },
         {
             "docstring": "\"\"\"There's a bad migration (unreadable/bad format/etc.).\"\"\"",
             "name": "BadMigrationError",
-            "namespace": "django.db.migrations.exceptions.BadMigrationError"
+            "namespace": "django.db.migrations.exceptions.BadMigrationError",
+            "methods": []
         },
         {
             "docstring": "\"\"\"There's an impossible-to-resolve circular dependency.\"\"\"",
             "name": "CircularDependencyError",
-            "namespace": "django.db.migrations.exceptions.CircularDependencyError"
+            "namespace": "django.db.migrations.exceptions.CircularDependencyError",
+            "methods": []
         },
         {
             "docstring": "\"\"\"An applied migration has some of its dependencies not applied.\"\"\"",
             "name": "InconsistentMigrationHistory",
-            "namespace": "django.db.migrations.exceptions.InconsistentMigrationHistory"
+            "namespace": "django.db.migrations.exceptions.InconsistentMigrationHistory",
+            "methods": []
         },
         {
             "docstring": "\"\"\"A model's base classes can't be resolved.\"\"\"",
             "name": "InvalidBasesError",
-            "namespace": "django.db.migrations.exceptions.InvalidBasesError"
+            "namespace": "django.db.migrations.exceptions.InvalidBasesError",
+            "methods": []
         },
         {
             "docstring": "\"\"\"An irreversible migration is about to be reversed.\"\"\"",
             "name": "IrreversibleError",
-            "namespace": "django.db.migrations.exceptions.IrreversibleError"
+            "namespace": "django.db.migrations.exceptions.IrreversibleError",
+            "methods": []
         },
         {
             "docstring": "\"\"\"An attempt on a node is made that is not available in the graph.\"\"\"",
             "name": "NodeNotFoundError",
-            "namespace": "django.db.migrations.exceptions.NodeNotFoundError"
+            "namespace": "django.db.migrations.exceptions.NodeNotFoundError",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.migrations.exceptions.NodeNotFoundError.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__str__",
+                    "namespace": "django.db.migrations.exceptions.NodeNotFoundError.__str__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.db.migrations.exceptions.NodeNotFoundError.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "MigrationSchemaMissing",
-            "namespace": "django.db.migrations.exceptions.MigrationSchemaMissing"
+            "namespace": "django.db.migrations.exceptions.MigrationSchemaMissing",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "InvalidMigrationPlan",
-            "namespace": "django.db.migrations.exceptions.InvalidMigrationPlan"
+            "namespace": "django.db.migrations.exceptions.InvalidMigrationPlan",
+            "methods": []
         }
     ],
+    "functions": [],
     "package_name": "django.db.migrations"
 }

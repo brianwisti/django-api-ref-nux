@@ -5,8 +5,19 @@
         {
             "docstring": "\"\"\"\n    A proxy for the _order database field that is used when\n    Meta.order_with_respect_to is specified.\n    \"\"\"",
             "name": "OrderWrt",
-            "namespace": "django.db.models.fields.proxy.OrderWrt"
+            "namespace": "django.db.models.fields.proxy.OrderWrt",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.fields.proxy.OrderWrt.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.db.models.fields"
 }

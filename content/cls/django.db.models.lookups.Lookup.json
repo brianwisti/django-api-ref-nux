@@ -3,5 +3,167 @@
     "name": "Lookup",
     "namespace": "django.db.models.lookups.Lookup",
     "module_name": "django.db.models.lookups",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.db.models.lookups.Lookup.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "apply_bilateral_transforms",
+            "namespace": "django.db.models.lookups.Lookup.apply_bilateral_transforms",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__repr__",
+            "namespace": "django.db.models.lookups.Lookup.__repr__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "batch_process_rhs",
+            "namespace": "django.db.models.lookups.Lookup.batch_process_rhs",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_source_expressions",
+            "namespace": "django.db.models.lookups.Lookup.get_source_expressions",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "set_source_expressions",
+            "namespace": "django.db.models.lookups.Lookup.set_source_expressions",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_prep_lookup",
+            "namespace": "django.db.models.lookups.Lookup.get_prep_lookup",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_prep_lhs",
+            "namespace": "django.db.models.lookups.Lookup.get_prep_lhs",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_db_prep_lookup",
+            "namespace": "django.db.models.lookups.Lookup.get_db_prep_lookup",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "process_lhs",
+            "namespace": "django.db.models.lookups.Lookup.process_lhs",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "process_rhs",
+            "namespace": "django.db.models.lookups.Lookup.process_rhs",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "rhs_is_direct_value",
+            "namespace": "django.db.models.lookups.Lookup.rhs_is_direct_value",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_group_by_cols",
+            "namespace": "django.db.models.lookups.Lookup.get_group_by_cols",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "as_oracle",
+            "namespace": "django.db.models.lookups.Lookup.as_oracle",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "output_field",
+            "namespace": "django.db.models.lookups.Lookup.output_field",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "identity",
+            "namespace": "django.db.models.lookups.Lookup.identity",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__eq__",
+            "namespace": "django.db.models.lookups.Lookup.__eq__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__hash__",
+            "namespace": "django.db.models.lookups.Lookup.__hash__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "resolve_expression",
+            "namespace": "django.db.models.lookups.Lookup.resolve_expression",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "select_format",
+            "namespace": "django.db.models.lookups.Lookup.select_format",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

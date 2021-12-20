@@ -5,8 +5,27 @@
         {
             "docstring": "",
             "name": "FlatPage",
-            "namespace": "django.contrib.flatpages.models.FlatPage"
+            "namespace": "django.contrib.flatpages.models.FlatPage",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__str__",
+                    "namespace": "django.contrib.flatpages.models.FlatPage.__str__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_absolute_url",
+                    "namespace": "django.contrib.flatpages.models.FlatPage.get_absolute_url",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.flatpages"
 }

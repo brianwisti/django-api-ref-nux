@@ -2,5 +2,63 @@
     "namespace": "django.contrib.admindocs.utils",
     "docstring": "\"Misc. utility functions/classes for admin documentation generator.\"",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "",
+            "name": "get_view_name",
+            "namespace": "django.contrib.admindocs.utils.get_view_name",
+            "class_name": "",
+            "module_name": "django.contrib.admindocs.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Parse out the parts of a docstring.  Return (title, body, metadata).\n    \"\"\"",
+            "name": "parse_docstring",
+            "namespace": "django.contrib.admindocs.utils.parse_docstring",
+            "class_name": "",
+            "module_name": "django.contrib.admindocs.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Convert the string from reST to an XHTML fragment.\n    \"\"\"",
+            "name": "parse_rst",
+            "namespace": "django.contrib.admindocs.utils.parse_rst",
+            "class_name": "",
+            "module_name": "django.contrib.admindocs.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "create_reference_role",
+            "namespace": "django.contrib.admindocs.utils.create_reference_role",
+            "class_name": "",
+            "module_name": "django.contrib.admindocs.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "default_reference_role",
+            "namespace": "django.contrib.admindocs.utils.default_reference_role",
+            "class_name": "",
+            "module_name": "django.contrib.admindocs.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "r\"\"\"\n    Find named groups in `pattern` and replace them with the group name. E.g.,\n    1. ^(?P<a>\\w+)/b/(\\w+)$ ==> ^<a>/b/(\\w+)$\n    2. ^(?P<a>\\w+)/b/(?P<c>\\w+)/$ ==> ^<a>/b/<c>/$\n    3. ^(?P<a>\\w+)/b/(\\w+) ==> ^<a>/b/(\\w+)\n    4. ^(?P<a>\\w+)/b/(?P<c>\\w+) ==> ^<a>/b/<c>\n    \"\"\"",
+            "name": "replace_named_groups",
+            "namespace": "django.contrib.admindocs.utils.replace_named_groups",
+            "class_name": "",
+            "module_name": "django.contrib.admindocs.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "r\"\"\"\n    Find unnamed groups in `pattern` and replace them with '<var>'. E.g.,\n    1. ^(?P<a>\\w+)/b/(\\w+)$ ==> ^(?P<a>\\w+)/b/<var>$\n    2. ^(?P<a>\\w+)/b/((x|y)\\w+)$ ==> ^(?P<a>\\w+)/b/<var>$\n    3. ^(?P<a>\\w+)/b/(\\w+) ==> ^(?P<a>\\w+)/b/<var>\n    4. ^(?P<a>\\w+)/b/((x|y)\\w+) ==> ^(?P<a>\\w+)/b/<var>\n    \"\"\"",
+            "name": "replace_unnamed_groups",
+            "namespace": "django.contrib.admindocs.utils.replace_unnamed_groups",
+            "class_name": "",
+            "module_name": "django.contrib.admindocs.utils",
+            "package_name": ""
+        }
+    ],
     "package_name": "django.contrib.admindocs"
 }

@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Encode multipart POST data from a dictionary of form values.\n\n    The key will be used as the form data name; the value will be transmitted\n    as content. If the value is a file, the contents of the file will be sent\n    as an application/octet-stream; otherwise, str(value) will be sent.\n    \"\"\"",
+    "name": "encode_multipart",
+    "namespace": "django.test.client.encode_multipart",
+    "class_name": "",
+    "module_name": "django.test.client",
+    "package_name": ""
+}

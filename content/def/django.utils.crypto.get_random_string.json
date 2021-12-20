@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Return a securely generated random string.\n\n    The bit length of the returned value can be calculated with the formula:\n        log_2(len(allowed_chars)^length)\n\n    For example, with default `allowed_chars` (26+26+10), this gives:\n      * length: 12, bit length =~ 71 bits\n      * length: 22, bit length =~ 131 bits\n    \"\"\"",
+    "name": "get_random_string",
+    "namespace": "django.utils.crypto.get_random_string",
+    "class_name": "",
+    "module_name": "django.utils.crypto",
+    "package_name": ""
+}

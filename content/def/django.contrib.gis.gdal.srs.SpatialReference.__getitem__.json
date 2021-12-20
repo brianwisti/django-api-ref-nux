@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Return the value of the given string attribute node, None if the node\n        doesn't exist.  Can also take a tuple as a parameter, (target, child),\n        where child is the index of the attribute in the WKT.  For example:\n\n        >>> wkt = 'GEOGCS[\"WGS 84\", DATUM[\"WGS_1984, ... AUTHORITY[\"EPSG\",\"4326\"]]'\n        >>> srs = SpatialReference(wkt) # could also use 'WGS84', or 4326\n        >>> print(srs['GEOGCS'])\n        WGS 84\n        >>> print(srs['DATUM'])\n        WGS_1984\n        >>> print(srs['AUTHORITY'])\n        EPSG\n        >>> print(srs['AUTHORITY', 1]) # The authority value\n        4326\n        >>> print(srs['TOWGS84', 4]) # the fourth value in this wkt\n        0\n        >>> print(srs['UNIT|AUTHORITY']) # For the units authority, have to use the pipe symbole.\n        EPSG\n        >>> print(srs['UNIT|AUTHORITY', 1]) # The authority value for the units\n        9122\n        \"\"\"",
+    "name": "__getitem__",
+    "namespace": "django.contrib.gis.gdal.srs.SpatialReference.__getitem__",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

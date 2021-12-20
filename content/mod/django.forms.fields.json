@@ -5,168 +5,993 @@
         {
             "docstring": "",
             "name": "Field",
-            "namespace": "django.forms.fields.Field"
+            "namespace": "django.forms.fields.Field",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.forms.fields.Field.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "prepare_value",
+                    "namespace": "django.forms.fields.Field.prepare_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "to_python",
+                    "namespace": "django.forms.fields.Field.to_python",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "validate",
+                    "namespace": "django.forms.fields.Field.validate",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "run_validators",
+                    "namespace": "django.forms.fields.Field.run_validators",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Validate the given value and return its \"cleaned\" value as an\n        appropriate Python object. Raise ValidationError for any errors.\n        \"\"\"",
+                    "name": "clean",
+                    "namespace": "django.forms.fields.Field.clean",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the value that should be shown for this field on render of a\n        bound form, given the submitted POST data for the field and the initial\n        data, if any.\n\n        For most fields, this will simply be data; FileFields need to handle it\n        a bit differently.\n        \"\"\"",
+                    "name": "bound_data",
+                    "namespace": "django.forms.fields.Field.bound_data",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Given a Widget instance (*not* a Widget class), return a dictionary of\n        any HTML attributes that should be added to the Widget, based on this\n        Field.\n        \"\"\"",
+                    "name": "widget_attrs",
+                    "namespace": "django.forms.fields.Field.widget_attrs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return True if data differs from initial.\"\"\"",
+                    "name": "has_changed",
+                    "namespace": "django.forms.fields.Field.has_changed",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return a BoundField instance that will be used when accessing the form\n        field in a template.\n        \"\"\"",
+                    "name": "get_bound_field",
+                    "namespace": "django.forms.fields.Field.get_bound_field",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__deepcopy__",
+                    "namespace": "django.forms.fields.Field.__deepcopy__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "CharField",
-            "namespace": "django.forms.fields.CharField"
+            "namespace": "django.forms.fields.CharField",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.forms.fields.CharField.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return a string.\"\"\"",
+                    "name": "to_python",
+                    "namespace": "django.forms.fields.CharField.to_python",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "widget_attrs",
+                    "namespace": "django.forms.fields.CharField.widget_attrs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "IntegerField",
-            "namespace": "django.forms.fields.IntegerField"
+            "namespace": "django.forms.fields.IntegerField",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.forms.fields.IntegerField.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Validate that int() can be called on the input. Return the result\n        of int() or None for empty values.\n        \"\"\"",
+                    "name": "to_python",
+                    "namespace": "django.forms.fields.IntegerField.to_python",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "widget_attrs",
+                    "namespace": "django.forms.fields.IntegerField.widget_attrs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "FloatField",
-            "namespace": "django.forms.fields.FloatField"
+            "namespace": "django.forms.fields.FloatField",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        Validate that float() can be called on the input. Return the result\n        of float() or None for empty values.\n        \"\"\"",
+                    "name": "to_python",
+                    "namespace": "django.forms.fields.FloatField.to_python",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "validate",
+                    "namespace": "django.forms.fields.FloatField.validate",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "widget_attrs",
+                    "namespace": "django.forms.fields.FloatField.widget_attrs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "DecimalField",
-            "namespace": "django.forms.fields.DecimalField"
+            "namespace": "django.forms.fields.DecimalField",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.forms.fields.DecimalField.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Validate that the input is a decimal number. Return a Decimal\n        instance or None for empty values. Ensure that there are no more\n        than max_digits in the number and no more than decimal_places digits\n        after the decimal point.\n        \"\"\"",
+                    "name": "to_python",
+                    "namespace": "django.forms.fields.DecimalField.to_python",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "validate",
+                    "namespace": "django.forms.fields.DecimalField.validate",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "widget_attrs",
+                    "namespace": "django.forms.fields.DecimalField.widget_attrs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "BaseTemporalField",
-            "namespace": "django.forms.fields.BaseTemporalField"
+            "namespace": "django.forms.fields.BaseTemporalField",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.forms.fields.BaseTemporalField.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "to_python",
+                    "namespace": "django.forms.fields.BaseTemporalField.to_python",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "strptime",
+                    "namespace": "django.forms.fields.BaseTemporalField.strptime",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "DateField",
-            "namespace": "django.forms.fields.DateField"
+            "namespace": "django.forms.fields.DateField",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        Validate that the input can be converted to a date. Return a Python\n        datetime.date object.\n        \"\"\"",
+                    "name": "to_python",
+                    "namespace": "django.forms.fields.DateField.to_python",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "strptime",
+                    "namespace": "django.forms.fields.DateField.strptime",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "TimeField",
-            "namespace": "django.forms.fields.TimeField"
+            "namespace": "django.forms.fields.TimeField",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        Validate that the input can be converted to a time. Return a Python\n        datetime.time object.\n        \"\"\"",
+                    "name": "to_python",
+                    "namespace": "django.forms.fields.TimeField.to_python",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "strptime",
+                    "namespace": "django.forms.fields.TimeField.strptime",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "DateTimeFormatsIterator",
-            "namespace": "django.forms.fields.DateTimeFormatsIterator"
+            "namespace": "django.forms.fields.DateTimeFormatsIterator",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__iter__",
+                    "namespace": "django.forms.fields.DateTimeFormatsIterator.__iter__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "DateTimeField",
-            "namespace": "django.forms.fields.DateTimeField"
+            "namespace": "django.forms.fields.DateTimeField",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "prepare_value",
+                    "namespace": "django.forms.fields.DateTimeField.prepare_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Validate that the input can be converted to a datetime. Return a\n        Python datetime.datetime object.\n        \"\"\"",
+                    "name": "to_python",
+                    "namespace": "django.forms.fields.DateTimeField.to_python",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "strptime",
+                    "namespace": "django.forms.fields.DateTimeField.strptime",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "DurationField",
-            "namespace": "django.forms.fields.DurationField"
+            "namespace": "django.forms.fields.DurationField",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "prepare_value",
+                    "namespace": "django.forms.fields.DurationField.prepare_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "to_python",
+                    "namespace": "django.forms.fields.DurationField.to_python",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "RegexField",
-            "namespace": "django.forms.fields.RegexField"
+            "namespace": "django.forms.fields.RegexField",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        regex can be either a string or a compiled regular expression object.\n        \"\"\"",
+                    "name": "__init__",
+                    "namespace": "django.forms.fields.RegexField.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_get_regex",
+                    "namespace": "django.forms.fields.RegexField._get_regex",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_set_regex",
+                    "namespace": "django.forms.fields.RegexField._set_regex",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "EmailField",
-            "namespace": "django.forms.fields.EmailField"
+            "namespace": "django.forms.fields.EmailField",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.forms.fields.EmailField.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "FileField",
-            "namespace": "django.forms.fields.FileField"
+            "namespace": "django.forms.fields.FileField",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.forms.fields.FileField.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "to_python",
+                    "namespace": "django.forms.fields.FileField.to_python",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "clean",
+                    "namespace": "django.forms.fields.FileField.clean",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "bound_data",
+                    "namespace": "django.forms.fields.FileField.bound_data",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "has_changed",
+                    "namespace": "django.forms.fields.FileField.has_changed",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "ImageField",
-            "namespace": "django.forms.fields.ImageField"
+            "namespace": "django.forms.fields.ImageField",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        Check that the file-upload field data contains a valid image (GIF, JPG,\n        PNG, etc. -- whatever Pillow supports).\n        \"\"\"",
+                    "name": "to_python",
+                    "namespace": "django.forms.fields.ImageField.to_python",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "widget_attrs",
+                    "namespace": "django.forms.fields.ImageField.widget_attrs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "URLField",
-            "namespace": "django.forms.fields.URLField"
+            "namespace": "django.forms.fields.URLField",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.forms.fields.URLField.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "to_python",
+                    "namespace": "django.forms.fields.URLField.to_python",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "BooleanField",
-            "namespace": "django.forms.fields.BooleanField"
+            "namespace": "django.forms.fields.BooleanField",
+            "methods": [
+                {
+                    "docstring": "\"\"\"Return a Python boolean object.\"\"\"",
+                    "name": "to_python",
+                    "namespace": "django.forms.fields.BooleanField.to_python",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "validate",
+                    "namespace": "django.forms.fields.BooleanField.validate",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "has_changed",
+                    "namespace": "django.forms.fields.BooleanField.has_changed",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    A field whose valid values are None, True, and False. Clean invalid values\n    to None.\n    \"\"\"",
             "name": "NullBooleanField",
-            "namespace": "django.forms.fields.NullBooleanField"
+            "namespace": "django.forms.fields.NullBooleanField",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        Explicitly check for the string 'True' and 'False', which is what a\n        hidden field will submit for True and False, for 'true' and 'false',\n        which are likely to be returned by JavaScript serializations of forms,\n        and for '1' and '0', which is what a RadioField will submit. Unlike\n        the Booleanfield, this field must check for True because it doesn't\n        use the bool() function.\n        \"\"\"",
+                    "name": "to_python",
+                    "namespace": "django.forms.fields.NullBooleanField.to_python",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "validate",
+                    "namespace": "django.forms.fields.NullBooleanField.validate",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "CallableChoiceIterator",
-            "namespace": "django.forms.fields.CallableChoiceIterator"
+            "namespace": "django.forms.fields.CallableChoiceIterator",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.forms.fields.CallableChoiceIterator.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__iter__",
+                    "namespace": "django.forms.fields.CallableChoiceIterator.__iter__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "ChoiceField",
-            "namespace": "django.forms.fields.ChoiceField"
+            "namespace": "django.forms.fields.ChoiceField",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.forms.fields.ChoiceField.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__deepcopy__",
+                    "namespace": "django.forms.fields.ChoiceField.__deepcopy__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_get_choices",
+                    "namespace": "django.forms.fields.ChoiceField._get_choices",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_set_choices",
+                    "namespace": "django.forms.fields.ChoiceField._set_choices",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return a string.\"\"\"",
+                    "name": "to_python",
+                    "namespace": "django.forms.fields.ChoiceField.to_python",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Validate that the input is in self.choices.\"\"\"",
+                    "name": "validate",
+                    "namespace": "django.forms.fields.ChoiceField.validate",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Check to see if the provided value is a valid choice.\"\"\"",
+                    "name": "valid_value",
+                    "namespace": "django.forms.fields.ChoiceField.valid_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "TypedChoiceField",
-            "namespace": "django.forms.fields.TypedChoiceField"
+            "namespace": "django.forms.fields.TypedChoiceField",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.forms.fields.TypedChoiceField.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Validate that the value can be coerced to the right type (if not empty).\n        \"\"\"",
+                    "name": "_coerce",
+                    "namespace": "django.forms.fields.TypedChoiceField._coerce",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "clean",
+                    "namespace": "django.forms.fields.TypedChoiceField.clean",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "MultipleChoiceField",
-            "namespace": "django.forms.fields.MultipleChoiceField"
+            "namespace": "django.forms.fields.MultipleChoiceField",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "to_python",
+                    "namespace": "django.forms.fields.MultipleChoiceField.to_python",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Validate that the input is a list or tuple.\"\"\"",
+                    "name": "validate",
+                    "namespace": "django.forms.fields.MultipleChoiceField.validate",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "has_changed",
+                    "namespace": "django.forms.fields.MultipleChoiceField.has_changed",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "TypedMultipleChoiceField",
-            "namespace": "django.forms.fields.TypedMultipleChoiceField"
+            "namespace": "django.forms.fields.TypedMultipleChoiceField",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.forms.fields.TypedMultipleChoiceField.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Validate that the values are in self.choices and can be coerced to the\n        right type.\n        \"\"\"",
+                    "name": "_coerce",
+                    "namespace": "django.forms.fields.TypedMultipleChoiceField._coerce",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "clean",
+                    "namespace": "django.forms.fields.TypedMultipleChoiceField.clean",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "validate",
+                    "namespace": "django.forms.fields.TypedMultipleChoiceField.validate",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    A Field whose clean() method calls multiple Field clean() methods.\n    \"\"\"",
             "name": "ComboField",
-            "namespace": "django.forms.fields.ComboField"
+            "namespace": "django.forms.fields.ComboField",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.forms.fields.ComboField.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Validate the given value against all of self.fields, which is a\n        list of Field instances.\n        \"\"\"",
+                    "name": "clean",
+                    "namespace": "django.forms.fields.ComboField.clean",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Aggregate the logic of multiple Fields.\n\n    Its clean() method takes a \"decompressed\" list of values, which are then\n    cleaned into a single value according to self.fields. Each value in\n    this list is cleaned by the corresponding field -- the first value is\n    cleaned by the first field, the second value is cleaned by the second\n    field, etc. Once all fields are cleaned, the list of clean values is\n    \"compressed\" into a single value.\n\n    Subclasses should not have to implement clean(). Instead, they must\n    implement compress(), which takes a list of valid values and returns a\n    \"compressed\" version of those values -- a single value.\n\n    You'll probably want to use this with MultiWidget.\n    \"\"\"",
             "name": "MultiValueField",
-            "namespace": "django.forms.fields.MultiValueField"
+            "namespace": "django.forms.fields.MultiValueField",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.forms.fields.MultiValueField.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__deepcopy__",
+                    "namespace": "django.forms.fields.MultiValueField.__deepcopy__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "validate",
+                    "namespace": "django.forms.fields.MultiValueField.validate",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Validate every value in the given list. A value is validated against\n        the corresponding Field in self.fields.\n\n        For example, if this MultiValueField was instantiated with\n        fields=(DateField(), TimeField()), clean() would call\n        DateField.clean(value[0]) and TimeField.clean(value[1]).\n        \"\"\"",
+                    "name": "clean",
+                    "namespace": "django.forms.fields.MultiValueField.clean",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return a single value for the given list of values. The values can be\n        assumed to be valid.\n\n        For example, if this MultiValueField was instantiated with\n        fields=(DateField(), TimeField()), this might return a datetime\n        object created by combining the date and time in data_list.\n        \"\"\"",
+                    "name": "compress",
+                    "namespace": "django.forms.fields.MultiValueField.compress",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "has_changed",
+                    "namespace": "django.forms.fields.MultiValueField.has_changed",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "FilePathField",
-            "namespace": "django.forms.fields.FilePathField"
+            "namespace": "django.forms.fields.FilePathField",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.forms.fields.FilePathField.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "SplitDateTimeField",
-            "namespace": "django.forms.fields.SplitDateTimeField"
+            "namespace": "django.forms.fields.SplitDateTimeField",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.forms.fields.SplitDateTimeField.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "compress",
+                    "namespace": "django.forms.fields.SplitDateTimeField.compress",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "GenericIPAddressField",
-            "namespace": "django.forms.fields.GenericIPAddressField"
+            "namespace": "django.forms.fields.GenericIPAddressField",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.forms.fields.GenericIPAddressField.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "to_python",
+                    "namespace": "django.forms.fields.GenericIPAddressField.to_python",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "SlugField",
-            "namespace": "django.forms.fields.SlugField"
+            "namespace": "django.forms.fields.SlugField",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.forms.fields.SlugField.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "UUIDField",
-            "namespace": "django.forms.fields.UUIDField"
+            "namespace": "django.forms.fields.UUIDField",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "prepare_value",
+                    "namespace": "django.forms.fields.UUIDField.prepare_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "to_python",
+                    "namespace": "django.forms.fields.UUIDField.to_python",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "InvalidJSONInput",
-            "namespace": "django.forms.fields.InvalidJSONInput"
+            "namespace": "django.forms.fields.InvalidJSONInput",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "JSONString",
-            "namespace": "django.forms.fields.JSONString"
+            "namespace": "django.forms.fields.JSONString",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "JSONField",
-            "namespace": "django.forms.fields.JSONField"
+            "namespace": "django.forms.fields.JSONField",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.forms.fields.JSONField.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "to_python",
+                    "namespace": "django.forms.fields.JSONField.to_python",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "bound_data",
+                    "namespace": "django.forms.fields.JSONField.bound_data",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "prepare_value",
+                    "namespace": "django.forms.fields.JSONField.prepare_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "has_changed",
+                    "namespace": "django.forms.fields.JSONField.has_changed",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.forms"
 }

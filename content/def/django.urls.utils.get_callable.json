@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Return a callable corresponding to lookup_view.\n    * If lookup_view is already a callable, return it.\n    * If lookup_view is a string import path that can be resolved to a callable,\n      import that callable and return it, otherwise raise an exception\n      (ImportError or ViewDoesNotExist).\n    \"\"\"",
+    "name": "get_callable",
+    "namespace": "django.urls.utils.get_callable",
+    "class_name": "",
+    "module_name": "django.urls.utils",
+    "package_name": ""
+}

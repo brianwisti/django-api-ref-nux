@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Handle the raw input from the client.\n\n        Parameters:\n\n            :input_data:\n                An object that supports reading via .read().\n            :META:\n                ``request.META``.\n            :content_length:\n                The (integer) value of the Content-Length header from the\n                client.\n            :boundary: The boundary from the Content-Type header. Be sure to\n                prepend two '--'.\n        \"\"\"",
+    "name": "handle_raw_input",
+    "namespace": "django.core.files.uploadhandler.FileUploadHandler.handle_raw_input",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

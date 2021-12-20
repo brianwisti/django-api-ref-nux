@@ -3,5 +3,71 @@
     "name": "RunPython",
     "namespace": "django.db.migrations.operations.special.RunPython",
     "module_name": "django.db.migrations.operations.special",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.db.migrations.operations.special.RunPython.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "deconstruct",
+            "namespace": "django.db.migrations.operations.special.RunPython.deconstruct",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "reversible",
+            "namespace": "django.db.migrations.operations.special.RunPython.reversible",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "state_forwards",
+            "namespace": "django.db.migrations.operations.special.RunPython.state_forwards",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "database_forwards",
+            "namespace": "django.db.migrations.operations.special.RunPython.database_forwards",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "database_backwards",
+            "namespace": "django.db.migrations.operations.special.RunPython.database_backwards",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "describe",
+            "namespace": "django.db.migrations.operations.special.RunPython.describe",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "noop",
+            "namespace": "django.db.migrations.operations.special.RunPython.noop",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

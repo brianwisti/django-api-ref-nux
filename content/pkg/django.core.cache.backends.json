@@ -2,41 +2,74 @@
     "name": "django.core.cache.backends",
     "docstring": "",
     "package_name": "django.core.cache",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.core.cache.backends.memcached",
             "docstring": "\"Memcached cache backend\"",
+            "functions": [],
             "package_name": "django.core.cache.backends"
         },
         {
             "namespace": "django.core.cache.backends.db",
             "docstring": "\"Database cache backend.\"",
+            "functions": [],
             "package_name": "django.core.cache.backends"
         },
         {
             "namespace": "django.core.cache.backends.filebased",
             "docstring": "\"File-based cache backend\"",
+            "functions": [],
             "package_name": "django.core.cache.backends"
         },
         {
             "namespace": "django.core.cache.backends.redis",
             "docstring": "\"\"\"Redis cache backend.\"\"\"",
+            "functions": [],
             "package_name": "django.core.cache.backends"
         },
         {
             "namespace": "django.core.cache.backends.dummy",
             "docstring": "\"Dummy cache backend\"",
+            "functions": [],
             "package_name": "django.core.cache.backends"
         },
         {
             "namespace": "django.core.cache.backends.base",
             "docstring": "\"Base Cache class.\"",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Default function to generate keys.\n\n    Construct the key used by all other methods. By default, prepend\n    the `key_prefix`. KEY_FUNCTION can be used to specify an alternate\n    function with custom key making behavior.\n    \"\"\"",
+                    "name": "default_key_func",
+                    "namespace": "django.core.cache.backends.base.default_key_func",
+                    "class_name": "",
+                    "module_name": "django.core.cache.backends.base",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Function to decide which key function to use.\n\n    Default to ``default_key_func``.\n    \"\"\"",
+                    "name": "get_key_func",
+                    "namespace": "django.core.cache.backends.base.get_key_func",
+                    "class_name": "",
+                    "module_name": "django.core.cache.backends.base",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "memcache_key_warnings",
+                    "namespace": "django.core.cache.backends.base.memcache_key_warnings",
+                    "class_name": "",
+                    "module_name": "django.core.cache.backends.base",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.core.cache.backends"
         },
         {
             "namespace": "django.core.cache.backends.locmem",
             "docstring": "\"Thread-safe in-memory cache backend.\"",
+            "functions": [],
             "package_name": "django.core.cache.backends"
         }
     ],

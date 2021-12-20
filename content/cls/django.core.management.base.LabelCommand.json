@@ -3,5 +3,31 @@
     "name": "LabelCommand",
     "namespace": "django.core.management.base.LabelCommand",
     "module_name": "django.core.management.base",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "add_arguments",
+            "namespace": "django.core.management.base.LabelCommand.add_arguments",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "handle",
+            "namespace": "django.core.management.base.LabelCommand.handle",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Perform the command's actions for ``label``, which will be the\n        string as given on the command line.\n        \"\"\"",
+            "name": "handle_label",
+            "namespace": "django.core.management.base.LabelCommand.handle_label",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

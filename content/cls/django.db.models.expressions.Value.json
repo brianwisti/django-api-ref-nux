@@ -3,5 +3,63 @@
     "name": "Value",
     "namespace": "django.db.models.expressions.Value",
     "module_name": "django.db.models.expressions",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "\"\"\"\n        Arguments:\n         * value: the value this expression represents. The value will be\n           added into the sql parameter list and properly quoted.\n\n         * output_field: an instance of the model field type that this\n           expression will return, such as IntegerField() or CharField().\n        \"\"\"",
+            "name": "__init__",
+            "namespace": "django.db.models.expressions.Value.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__repr__",
+            "namespace": "django.db.models.expressions.Value.__repr__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "as_sql",
+            "namespace": "django.db.models.expressions.Value.as_sql",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "resolve_expression",
+            "namespace": "django.db.models.expressions.Value.resolve_expression",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_group_by_cols",
+            "namespace": "django.db.models.expressions.Value.get_group_by_cols",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_resolve_output_field",
+            "namespace": "django.db.models.expressions.Value._resolve_output_field",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "empty_result_set_value",
+            "namespace": "django.db.models.expressions.Value.empty_result_set_value",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

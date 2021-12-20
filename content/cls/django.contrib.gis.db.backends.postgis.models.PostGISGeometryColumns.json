@@ -3,5 +3,31 @@
     "name": "PostGISGeometryColumns",
     "namespace": "django.contrib.gis.db.backends.postgis.models.PostGISGeometryColumns",
     "module_name": "django.contrib.gis.db.backends.postgis.models",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__str__",
+            "namespace": "django.contrib.gis.db.backends.postgis.models.PostGISGeometryColumns.__str__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return the name of the metadata column used to store the feature table\n        name.\n        \"\"\"",
+            "name": "table_name_col",
+            "namespace": "django.contrib.gis.db.backends.postgis.models.PostGISGeometryColumns.table_name_col",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return the name of the metadata column used to store the feature\n        geometry column.\n        \"\"\"",
+            "name": "geom_col_name",
+            "namespace": "django.contrib.gis.db.backends.postgis.models.PostGISGeometryColumns.geom_col_name",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

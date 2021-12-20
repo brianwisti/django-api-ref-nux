@@ -3,5 +3,63 @@
     "name": "LiveServerTestCase",
     "namespace": "django.test.testcases.LiveServerTestCase",
     "module_name": "django.test.testcases",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "live_server_url",
+            "namespace": "django.test.testcases.LiveServerTestCase.live_server_url",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "allowed_host",
+            "namespace": "django.test.testcases.LiveServerTestCase.allowed_host",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_make_connections_override",
+            "namespace": "django.test.testcases.LiveServerTestCase._make_connections_override",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "setUpClass",
+            "namespace": "django.test.testcases.LiveServerTestCase.setUpClass",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_create_server_thread",
+            "namespace": "django.test.testcases.LiveServerTestCase._create_server_thread",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_tearDownClassInternal",
+            "namespace": "django.test.testcases.LiveServerTestCase._tearDownClassInternal",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "tearDownClass",
+            "namespace": "django.test.testcases.LiveServerTestCase.tearDownClass",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

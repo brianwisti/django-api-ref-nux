@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Cycle among the given strings each time this tag is encountered.\n\n    Within a loop, cycles among the given strings each time through\n    the loop::\n\n        {% for o in some_list %}\n            <tr class=\"{% cycle 'row1' 'row2' %}\">\n                ...\n            </tr>\n        {% endfor %}\n\n    Outside of a loop, give the values a unique name the first time you call\n    it, then use that name each successive time through::\n\n            <tr class=\"{% cycle 'row1' 'row2' 'row3' as rowcolors %}\">...</tr>\n            <tr class=\"{% cycle rowcolors %}\">...</tr>\n            <tr class=\"{% cycle rowcolors %}\">...</tr>\n\n    You can use any number of values, separated by spaces. Commas can also\n    be used to separate values; if a comma is used, the cycle values are\n    interpreted as literal strings.\n\n    The optional flag \"silent\" can be used to prevent the cycle declaration\n    from returning any value::\n\n        {% for o in some_list %}\n            {% cycle 'row1' 'row2' as rowcolors silent %}\n            <tr class=\"{{ rowcolors }}\">{% include \"subtemplate.html \" %}</tr>\n        {% endfor %}\n    \"\"\"",
+    "name": "cycle",
+    "namespace": "django.template.defaulttags.cycle",
+    "class_name": "",
+    "module_name": "django.template.defaulttags",
+    "package_name": ""
+}

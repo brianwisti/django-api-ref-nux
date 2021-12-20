@@ -2,5 +2,95 @@
     "namespace": "django.utils.formats",
     "docstring": "",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "\"\"\"Clear any cached formats.\n\n    This method is provided primarily for testing purposes,\n    so that the effects of cached formats can be removed.\n    \"\"\"",
+            "name": "reset_format_cache",
+            "namespace": "django.utils.formats.reset_format_cache",
+            "class_name": "",
+            "module_name": "django.utils.formats",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Find format modules.\"\"\"",
+            "name": "iter_format_modules",
+            "namespace": "django.utils.formats.iter_format_modules",
+            "class_name": "",
+            "module_name": "django.utils.formats",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return a list of the format modules found.\"\"\"",
+            "name": "get_format_modules",
+            "namespace": "django.utils.formats.get_format_modules",
+            "class_name": "",
+            "module_name": "django.utils.formats",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    For a specific format type, return the format for the current\n    language (locale). Default to the format in the settings.\n    format_type is the name of the format, e.g. 'DATE_FORMAT'.\n\n    If use_l10n is provided and is not None, it forces the value to\n    be localized (or not), overriding the value of settings.USE_L10N.\n    \"\"\"",
+            "name": "get_format",
+            "namespace": "django.utils.formats.get_format",
+            "class_name": "",
+            "module_name": "django.utils.formats",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Format a datetime.date or datetime.datetime object using a\n    localizable format.\n\n    If use_l10n is provided and is not None, that will force the value to\n    be localized (or not), overriding the value of settings.USE_L10N.\n    \"\"\"",
+            "name": "date_format",
+            "namespace": "django.utils.formats.date_format",
+            "class_name": "",
+            "module_name": "django.utils.formats",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Format a datetime.time object using a localizable format.\n\n    If use_l10n is provided and is not None, it forces the value to\n    be localized (or not), overriding the value of settings.USE_L10N.\n    \"\"\"",
+            "name": "time_format",
+            "namespace": "django.utils.formats.time_format",
+            "class_name": "",
+            "module_name": "django.utils.formats",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Format a numeric value using localization settings.\n\n    If use_l10n is provided and is not None, it forces the value to\n    be localized (or not), overriding the value of settings.USE_L10N.\n    \"\"\"",
+            "name": "number_format",
+            "namespace": "django.utils.formats.number_format",
+            "class_name": "",
+            "module_name": "django.utils.formats",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Check if value is a localizable type (date, number...) and return it\n    formatted as a string using current locale format.\n\n    If use_l10n is provided and is not None, it forces the value to\n    be localized (or not), overriding the value of settings.USE_L10N.\n    \"\"\"",
+            "name": "localize",
+            "namespace": "django.utils.formats.localize",
+            "class_name": "",
+            "module_name": "django.utils.formats",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Check if an input value is a localizable type and return it\n    formatted with the appropriate formatting string of the current locale.\n    \"\"\"",
+            "name": "localize_input",
+            "namespace": "django.utils.formats.localize_input",
+            "class_name": "",
+            "module_name": "django.utils.formats",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Ensure that certain specifiers are correctly padded with leading zeros.\n\n    For years < 1000 specifiers %C, %F, %G, and %Y don't work as expected for\n    strftime provided by glibc on Linux as they don't pad the year or century\n    with leading zeros. Support for specifying the padding explicitly is\n    available, however, which can be used to fix this issue.\n\n    FreeBSD, macOS, and Windows do not support explicitly specifying the\n    padding, but return four digit years (with leading zeros) as expected.\n\n    This function checks whether the %Y produces a correctly padded string and,\n    if not, makes the following substitutions:\n\n    - %C \u2192 %02C\n    - %F \u2192 %010F\n    - %G \u2192 %04G\n    - %Y \u2192 %04Y\n\n    See https://bugs.python.org/issue13305 for more details.\n    \"\"\"",
+            "name": "sanitize_strftime_format",
+            "namespace": "django.utils.formats.sanitize_strftime_format",
+            "class_name": "",
+            "module_name": "django.utils.formats",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Sanitize a value according to the current decimal and\n    thousand separator setting. Used with form field input.\n    \"\"\"",
+            "name": "sanitize_separators",
+            "namespace": "django.utils.formats.sanitize_separators",
+            "class_name": "",
+            "module_name": "django.utils.formats",
+            "package_name": ""
+        }
+    ],
     "package_name": "django.utils"
 }

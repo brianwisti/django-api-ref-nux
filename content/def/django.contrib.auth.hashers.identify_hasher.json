@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Return an instance of a loaded password hasher.\n\n    Identify hasher algorithm by examining encoded hash, and call\n    get_hasher() to return hasher. Raise ValueError if\n    algorithm cannot be identified, or if hasher is not loaded.\n    \"\"\"",
+    "name": "identify_hasher",
+    "namespace": "django.contrib.auth.hashers.identify_hasher",
+    "class_name": "",
+    "module_name": "django.contrib.auth.hashers",
+    "package_name": ""
+}

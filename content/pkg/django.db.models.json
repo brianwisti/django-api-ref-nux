@@ -2,81 +2,344 @@
     "name": "django.db.models",
     "docstring": "",
     "package_name": "django.db",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.db.models.options",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    option_together can be either a tuple of tuples, or a single\n    tuple of two strings. Normalize it to a tuple of tuples, so that\n    calling code can uniformly expect that.\n    \"\"\"",
+                    "name": "normalize_together",
+                    "namespace": "django.db.models.options.normalize_together",
+                    "class_name": "",
+                    "module_name": "django.db.models.options",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "make_immutable_fields_list",
+                    "namespace": "django.db.models.options.make_immutable_fields_list",
+                    "class_name": "",
+                    "module_name": "django.db.models.options",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.db.models"
         },
         {
             "namespace": "django.db.models.signals",
             "docstring": "",
+            "functions": [],
             "package_name": "django.db.models"
         },
         {
             "namespace": "django.db.models.enums",
             "docstring": "",
+            "functions": [],
             "package_name": "django.db.models"
         },
         {
             "namespace": "django.db.models.query",
             "docstring": "\"\"\"\nThe main QuerySet implementation. This provides the public API for the ORM.\n\"\"\"",
+            "functions": [
+                {
+                    "docstring": "\"\"\"Normalize lookups into Prefetch objects.\"\"\"",
+                    "name": "normalize_prefetch_lookups",
+                    "namespace": "django.db.models.query.normalize_prefetch_lookups",
+                    "class_name": "",
+                    "module_name": "django.db.models.query",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Populate prefetched object caches for a list of model instances based on\n    the lookups/Prefetch instances given.\n    \"\"\"",
+                    "name": "prefetch_related_objects",
+                    "namespace": "django.db.models.query.prefetch_related_objects",
+                    "class_name": "",
+                    "module_name": "django.db.models.query",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    For the attribute 'through_attr' on the given instance, find\n    an object that has a get_prefetch_queryset().\n    Return a 4 tuple containing:\n    (the object with get_prefetch_queryset (or None),\n     the descriptor object representing this relationship (or None),\n     a boolean that is False if the attribute was not found at all,\n     a function that takes an instance and returns a boolean that is True if\n     the attribute has already been fetched for that instance)\n    \"\"\"",
+                    "name": "get_prefetcher",
+                    "namespace": "django.db.models.query.get_prefetcher",
+                    "class_name": "",
+                    "module_name": "django.db.models.query",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Helper function for prefetch_related_objects().\n\n    Run prefetches on all instances using the prefetcher object,\n    assigning results to relevant caches in instance.\n\n    Return the prefetched objects along with any additional prefetches that\n    must be done due to prefetch_related lookups found from default managers.\n    \"\"\"",
+                    "name": "prefetch_one_level",
+                    "namespace": "django.db.models.query.prefetch_one_level",
+                    "class_name": "",
+                    "module_name": "django.db.models.query",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_related_populators",
+                    "namespace": "django.db.models.query.get_related_populators",
+                    "class_name": "",
+                    "module_name": "django.db.models.query",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.db.models"
         },
         {
             "namespace": "django.db.models.constants",
             "docstring": "\"\"\"\nConstants used across the ORM in general.\n\"\"\"",
+            "functions": [],
             "package_name": "django.db.models"
         },
         {
             "namespace": "django.db.models.expressions",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "_resolve_combined_type",
+                    "namespace": "django.db.models.expressions._resolve_combined_type",
+                    "class_name": "",
+                    "module_name": "django.db.models.expressions",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.db.models"
         },
         {
             "namespace": "django.db.models.lookups",
             "docstring": "",
+            "functions": [],
             "package_name": "django.db.models"
         },
         {
             "namespace": "django.db.models.indexes",
             "docstring": "",
+            "functions": [],
             "package_name": "django.db.models"
         },
         {
             "namespace": "django.db.models.utils",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Take a model or a string of the form \"app_label.ModelName\" and return a\n    corresponding (\"app_label\", \"modelname\") tuple. If a tuple is passed in,\n    assume it's a valid model tuple already and return it unchanged.\n    \"\"\"",
+                    "name": "make_model_tuple",
+                    "namespace": "django.db.models.utils.make_model_tuple",
+                    "class_name": "",
+                    "module_name": "django.db.models.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Generate key/value pairs for the given mapping where the values are\n    evaluated if they're callable.\n    \"\"\"",
+                    "name": "resolve_callables",
+                    "namespace": "django.db.models.utils.resolve_callables",
+                    "class_name": "",
+                    "module_name": "django.db.models.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "unpickle_named_row",
+                    "namespace": "django.db.models.utils.unpickle_named_row",
+                    "class_name": "",
+                    "module_name": "django.db.models.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "create_namedtuple_class",
+                    "namespace": "django.db.models.utils.create_namedtuple_class",
+                    "class_name": "",
+                    "module_name": "django.db.models.utils",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.db.models"
         },
         {
             "namespace": "django.db.models.aggregates",
             "docstring": "\"\"\"\nClasses to represent the definitions of aggregate functions.\n\"\"\"",
+            "functions": [],
             "package_name": "django.db.models"
         },
         {
             "namespace": "django.db.models.deletion",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "CASCADE",
+                    "namespace": "django.db.models.deletion.CASCADE",
+                    "class_name": "",
+                    "module_name": "django.db.models.deletion",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "PROTECT",
+                    "namespace": "django.db.models.deletion.PROTECT",
+                    "class_name": "",
+                    "module_name": "django.db.models.deletion",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "RESTRICT",
+                    "namespace": "django.db.models.deletion.RESTRICT",
+                    "class_name": "",
+                    "module_name": "django.db.models.deletion",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "SET",
+                    "namespace": "django.db.models.deletion.SET",
+                    "class_name": "",
+                    "module_name": "django.db.models.deletion",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "SET_NULL",
+                    "namespace": "django.db.models.deletion.SET_NULL",
+                    "class_name": "",
+                    "module_name": "django.db.models.deletion",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "SET_DEFAULT",
+                    "namespace": "django.db.models.deletion.SET_DEFAULT",
+                    "class_name": "",
+                    "module_name": "django.db.models.deletion",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "DO_NOTHING",
+                    "namespace": "django.db.models.deletion.DO_NOTHING",
+                    "class_name": "",
+                    "module_name": "django.db.models.deletion",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_candidate_relations_to_delete",
+                    "namespace": "django.db.models.deletion.get_candidate_relations_to_delete",
+                    "class_name": "",
+                    "module_name": "django.db.models.deletion",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.db.models"
         },
         {
             "namespace": "django.db.models.constraints",
             "docstring": "",
+            "functions": [],
             "package_name": "django.db.models"
         },
         {
             "namespace": "django.db.models.manager",
             "docstring": "",
+            "functions": [],
             "package_name": "django.db.models"
         },
         {
             "namespace": "django.db.models.query_utils",
             "docstring": "\"\"\"\nVarious data structures used in query construction.\n\nFactored out from django.db.models.query to avoid making the main module very\nlarge and/or so that they can be used by other modules without getting into\ncircular import difficulties.\n\"\"\"",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "subclasses",
+                    "namespace": "django.db.models.query_utils.subclasses",
+                    "class_name": "",
+                    "module_name": "django.db.models.query_utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return True if this field should be used to descend deeper for\n    select_related() purposes. Used by both the query construction code\n    (sql.query.fill_related_selections()) and the model instance creation code\n    (query.get_klass_info()).\n\n    Arguments:\n     * field - the field to be checked\n     * restricted - a boolean field, indicating if the field list has been\n       manually restricted using a requested clause)\n     * requested - The select_related() dictionary.\n     * load_fields - the set of fields to be loaded on this model\n     * reverse - boolean, True if we are checking a reverse select related\n    \"\"\"",
+                    "name": "select_related_descend",
+                    "namespace": "django.db.models.query_utils.select_related_descend",
+                    "class_name": "",
+                    "module_name": "django.db.models.query_utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Check if the lookup_parts contains references to the given annotations set.\n    Because the LOOKUP_SEP is contained in the default annotation names, check\n    each prefix of the lookup_parts for a match.\n    \"\"\"",
+                    "name": "refs_expression",
+                    "namespace": "django.db.models.query_utils.refs_expression",
+                    "class_name": "",
+                    "module_name": "django.db.models.query_utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Check that self.model is compatible with target_opts. Compatibility\n    is OK if:\n      1) model and opts match (where proxy inheritance is removed)\n      2) model is parent of opts' model or the other way around\n    \"\"\"",
+                    "name": "check_rel_lookup_compatibility",
+                    "namespace": "django.db.models.query_utils.check_rel_lookup_compatibility",
+                    "class_name": "",
+                    "module_name": "django.db.models.query_utils",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.db.models"
         },
         {
             "namespace": "django.db.models.base",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Create exception subclass. Used by ModelBase below.\n\n    The exception is created in a way that allows it to be pickled, assuming\n    that the returned exception class will be added as an attribute to the\n    'attached_to' class.\n    \"\"\"",
+                    "name": "subclass_exception",
+                    "namespace": "django.db.models.base.subclass_exception",
+                    "class_name": "",
+                    "module_name": "django.db.models.base",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_has_contribute_to_class",
+                    "namespace": "django.db.models.base._has_contribute_to_class",
+                    "class_name": "",
+                    "module_name": "django.db.models.base",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "method_set_order",
+                    "namespace": "django.db.models.base.method_set_order",
+                    "class_name": "",
+                    "module_name": "django.db.models.base",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "method_get_order",
+                    "namespace": "django.db.models.base.method_get_order",
+                    "class_name": "",
+                    "module_name": "django.db.models.base",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "make_foreign_order_accessors",
+                    "namespace": "django.db.models.base.make_foreign_order_accessors",
+                    "class_name": "",
+                    "module_name": "django.db.models.base",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Used to unpickle Model subclasses with deferred fields.\"\"\"",
+                    "name": "model_unpickle",
+                    "namespace": "django.db.models.base.model_unpickle",
+                    "class_name": "",
+                    "module_name": "django.db.models.base",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.db.models"
         }
     ],
@@ -84,17 +347,61 @@
         {
             "name": "django.db.models.functions",
             "docstring": "",
-            "package_name": "django.db.models"
+            "package_name": "django.db.models",
+            "functions": []
         },
         {
             "name": "django.db.models.fields",
             "docstring": "",
-            "package_name": "django.db.models"
+            "package_name": "django.db.models",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "_load_field",
+                    "namespace": "django.db.models.fields._load_field",
+                    "class_name": "",
+                    "module_name": "django.db.models.fields",
+                    "package_name": "django.db.models.fields"
+                },
+                {
+                    "docstring": "",
+                    "name": "_empty",
+                    "namespace": "django.db.models.fields._empty",
+                    "class_name": "",
+                    "module_name": "django.db.models.fields",
+                    "package_name": "django.db.models.fields"
+                },
+                {
+                    "docstring": "",
+                    "name": "return_None",
+                    "namespace": "django.db.models.fields.return_None",
+                    "class_name": "",
+                    "module_name": "django.db.models.fields",
+                    "package_name": "django.db.models.fields"
+                },
+                {
+                    "docstring": "",
+                    "name": "_to_naive",
+                    "namespace": "django.db.models.fields._to_naive",
+                    "class_name": "",
+                    "module_name": "django.db.models.fields",
+                    "package_name": "django.db.models.fields"
+                },
+                {
+                    "docstring": "",
+                    "name": "_get_naive_now",
+                    "namespace": "django.db.models.fields._get_naive_now",
+                    "class_name": "",
+                    "module_name": "django.db.models.fields",
+                    "package_name": "django.db.models.fields"
+                }
+            ]
         },
         {
             "name": "django.db.models.sql",
             "docstring": "",
-            "package_name": "django.db.models"
+            "package_name": "django.db.models",
+            "functions": []
         }
     ]
 }

@@ -5,8 +5,27 @@
         {
             "docstring": "\"\"\"\n    Template tag that allows its template to be overridden per model, per app,\n    or globally.\n    \"\"\"",
             "name": "InclusionAdminNode",
-            "namespace": "django.contrib.admin.templatetags.base.InclusionAdminNode"
+            "namespace": "django.contrib.admin.templatetags.base.InclusionAdminNode",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.admin.templatetags.base.InclusionAdminNode.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "render",
+                    "namespace": "django.contrib.admin.templatetags.base.InclusionAdminNode.render",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.admin.templatetags"
 }

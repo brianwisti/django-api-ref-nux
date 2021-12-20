@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Recursive deconstruction for a field and its arguments.\n        Used for full comparison for rename/alter; sometimes a single-level\n        deconstruction will not compare correctly.\n        \"\"\"",
+    "name": "deep_deconstruct",
+    "namespace": "django.db.migrations.autodetector.MigrationAutodetector.deep_deconstruct",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

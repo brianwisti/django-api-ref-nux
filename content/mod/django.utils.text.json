@@ -5,12 +5,194 @@
         {
             "docstring": "\"\"\"\n    An object used to truncate text, either by characters or words.\n    \"\"\"",
             "name": "Truncator",
-            "namespace": "django.utils.text.Truncator"
+            "namespace": "django.utils.text.Truncator",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.utils.text.Truncator.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "add_truncation_text",
+                    "namespace": "django.utils.text.Truncator.add_truncation_text",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the text truncated to be no longer than the specified number\n        of characters.\n\n        `truncate` specifies what should be used to notify that the string has\n        been truncated, defaulting to a translatable string of an ellipsis.\n        \"\"\"",
+                    "name": "chars",
+                    "namespace": "django.utils.text.Truncator.chars",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Truncate a string after a certain number of chars.\"\"\"",
+                    "name": "_text_chars",
+                    "namespace": "django.utils.text.Truncator._text_chars",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Truncate a string after a certain number of words. `truncate` specifies\n        what should be used to notify that the string has been truncated,\n        defaulting to ellipsis.\n        \"\"\"",
+                    "name": "words",
+                    "namespace": "django.utils.text.Truncator.words",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Truncate a string after a certain number of words.\n\n        Strip newlines in the string.\n        \"\"\"",
+                    "name": "_text_words",
+                    "namespace": "django.utils.text.Truncator._text_words",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Truncate HTML to a certain number of chars (not counting tags and\n        comments), or, if words is True, then to a certain number of words.\n        Close opened tags if they were correctly closed in the given HTML.\n\n        Preserve newlines in the HTML.\n        \"\"\"",
+                    "name": "_truncate_html",
+                    "namespace": "django.utils.text.Truncator._truncate_html",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "StreamingBuffer",
-            "namespace": "django.utils.text.StreamingBuffer"
+            "namespace": "django.utils.text.StreamingBuffer",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "read",
+                    "namespace": "django.utils.text.StreamingBuffer.read",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\"Capitalize the first letter of a string.\"\"\"",
+            "name": "capfirst",
+            "namespace": "django.utils.text.capfirst",
+            "class_name": "",
+            "module_name": "django.utils.text",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    A word-wrap function that preserves existing line breaks. Expects that\n    existing line breaks are posix newlines.\n\n    Preserve all white space except added line breaks consume the space on\n    which they break the line.\n\n    Don't wrap long words, thus the output text may have lines longer than\n    ``width``.\n    \"\"\"",
+            "name": "wrap",
+            "namespace": "django.utils.text.wrap",
+            "class_name": "",
+            "module_name": "django.utils.text",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return the given string converted to a string that can be used for a clean\n    filename. Remove leading and trailing spaces; convert other spaces to\n    underscores; and remove anything that is not an alphanumeric, dash,\n    underscore, or dot.\n    >>> get_valid_filename(\"john's portrait in 2004.jpg\")\n    'johns_portrait_in_2004.jpg'\n    \"\"\"",
+            "name": "get_valid_filename",
+            "namespace": "django.utils.text.get_valid_filename",
+            "class_name": "",
+            "module_name": "django.utils.text",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    >>> get_text_list(['a', 'b', 'c', 'd'])\n    'a, b, c or d'\n    >>> get_text_list(['a', 'b', 'c'], 'and')\n    'a, b and c'\n    >>> get_text_list(['a', 'b'], 'and')\n    'a and b'\n    >>> get_text_list(['a'])\n    'a'\n    >>> get_text_list([])\n    ''\n    \"\"\"",
+            "name": "get_text_list",
+            "namespace": "django.utils.text.get_text_list",
+            "class_name": "",
+            "module_name": "django.utils.text",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Normalize CRLF and CR newlines to just LF.\"\"\"",
+            "name": "normalize_newlines",
+            "namespace": "django.utils.text.normalize_newlines",
+            "class_name": "",
+            "module_name": "django.utils.text",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Convert a phone number with letters into its numeric equivalent.\"\"\"",
+            "name": "phone2numeric",
+            "namespace": "django.utils.text.phone2numeric",
+            "class_name": "",
+            "module_name": "django.utils.text",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "compress_string",
+            "namespace": "django.utils.text.compress_string",
+            "class_name": "",
+            "module_name": "django.utils.text",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "compress_sequence",
+            "namespace": "django.utils.text.compress_sequence",
+            "class_name": "",
+            "module_name": "django.utils.text",
+            "package_name": ""
+        },
+        {
+            "docstring": "r\"\"\"\n    Generator that splits a string by spaces, leaving quoted phrases together.\n    Supports both single and double quotes, and supports escaping quotes with\n    backslashes. In the output, strings will keep their initial and trailing\n    quote marks and escaped quotes will remain escaped (the results can then\n    be further processed with unescape_string_literal()).\n\n    >>> list(smart_split(r'This is \"a person\\'s\" test.'))\n    ['This', 'is', '\"a person\\\\\\'s\"', 'test.']\n    >>> list(smart_split(r\"Another 'person\\'s' test.\"))\n    ['Another', \"'person\\\\'s'\", 'test.']\n    >>> list(smart_split(r'A \"\\\"funky\\\" style\" test.'))\n    ['A', '\"\\\\\"funky\\\\\" style\"', 'test.']\n    \"\"\"",
+            "name": "smart_split",
+            "namespace": "django.utils.text.smart_split",
+            "class_name": "",
+            "module_name": "django.utils.text",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_replace_entity",
+            "namespace": "django.utils.text._replace_entity",
+            "class_name": "",
+            "module_name": "django.utils.text",
+            "package_name": ""
+        },
+        {
+            "docstring": "r\"\"\"\n    Convert quoted string literals to unquoted strings with escaped quotes and\n    backslashes unquoted::\n\n        >>> unescape_string_literal('\"abc\"')\n        'abc'\n        >>> unescape_string_literal(\"'abc'\")\n        'abc'\n        >>> unescape_string_literal('\"a \\\"bc\\\"\"')\n        'a \"bc\"'\n        >>> unescape_string_literal(\"'\\'ab\\' c'\")\n        \"'ab' c\"\n    \"\"\"",
+            "name": "unescape_string_literal",
+            "namespace": "django.utils.text.unescape_string_literal",
+            "class_name": "",
+            "module_name": "django.utils.text",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Convert to ASCII if 'allow_unicode' is False. Convert spaces or repeated\n    dashes to single dashes. Remove characters that aren't alphanumerics,\n    underscores, or hyphens. Convert to lowercase. Also strip leading and\n    trailing whitespace, dashes, and underscores.\n    \"\"\"",
+            "name": "slugify",
+            "namespace": "django.utils.text.slugify",
+            "class_name": "",
+            "module_name": "django.utils.text",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Split CamelCase and convert to lowercase. Strip surrounding whitespace.\n    \"\"\"",
+            "name": "camel_case_to_spaces",
+            "namespace": "django.utils.text.camel_case_to_spaces",
+            "class_name": "",
+            "module_name": "django.utils.text",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Apply str.format() on 'format_string' where format_string, args,\n    and/or kwargs might be lazy.\n    \"\"\"",
+            "name": "_format_lazy",
+            "namespace": "django.utils.text._format_lazy",
+            "class_name": "",
+            "module_name": "django.utils.text",
+            "package_name": ""
         }
     ],
     "package_name": "django.utils"

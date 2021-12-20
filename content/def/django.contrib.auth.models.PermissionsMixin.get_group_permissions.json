@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Return a list of permission strings that this user has through their\n        groups. Query all available auth backends. If an object is passed in,\n        return only permissions matching this object.\n        \"\"\"",
+    "name": "get_group_permissions",
+    "namespace": "django.contrib.auth.models.PermissionsMixin.get_group_permissions",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

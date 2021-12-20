@@ -2,5 +2,87 @@
     "namespace": "django.urls.base",
     "docstring": "",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "",
+            "name": "resolve",
+            "namespace": "django.urls.base.resolve",
+            "class_name": "",
+            "module_name": "django.urls.base",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "reverse",
+            "namespace": "django.urls.base.reverse",
+            "class_name": "",
+            "module_name": "django.urls.base",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "clear_url_caches",
+            "namespace": "django.urls.base.clear_url_caches",
+            "class_name": "",
+            "module_name": "django.urls.base",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Set the script prefix for the current thread.\n    \"\"\"",
+            "name": "set_script_prefix",
+            "namespace": "django.urls.base.set_script_prefix",
+            "class_name": "",
+            "module_name": "django.urls.base",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return the currently active script prefix. Useful for client code that\n    wishes to construct their own URLs manually (although accessing the request\n    instance is normally going to be a lot cleaner).\n    \"\"\"",
+            "name": "get_script_prefix",
+            "namespace": "django.urls.base.get_script_prefix",
+            "class_name": "",
+            "module_name": "django.urls.base",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Unset the script prefix for the current thread.\n    \"\"\"",
+            "name": "clear_script_prefix",
+            "namespace": "django.urls.base.clear_script_prefix",
+            "class_name": "",
+            "module_name": "django.urls.base",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Set the URLconf for the current thread (overriding the default one in\n    settings). If urlconf_name is None, revert back to the default.\n    \"\"\"",
+            "name": "set_urlconf",
+            "namespace": "django.urls.base.set_urlconf",
+            "class_name": "",
+            "module_name": "django.urls.base",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return the root URLconf to use for the current thread if it has been\n    changed from the default one.\n    \"\"\"",
+            "name": "get_urlconf",
+            "namespace": "django.urls.base.get_urlconf",
+            "class_name": "",
+            "module_name": "django.urls.base",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return the ResolverMatch if the given path resolves against the default URL\n    resolver, False otherwise. This is a convenience method to make working\n    with \"is this a match?\" cases easier, avoiding try...except blocks.\n    \"\"\"",
+            "name": "is_valid_path",
+            "namespace": "django.urls.base.is_valid_path",
+            "class_name": "",
+            "module_name": "django.urls.base",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Given a URL (absolute or relative), try to get its translated version in\n    the `lang_code` language (either by i18n_patterns or by translated regex).\n    Return the original URL if no translated version is found.\n    \"\"\"",
+            "name": "translate_url",
+            "namespace": "django.urls.base.translate_url",
+            "class_name": "",
+            "module_name": "django.urls.base",
+            "package_name": ""
+        }
+    ],
     "package_name": "django.urls"
 }

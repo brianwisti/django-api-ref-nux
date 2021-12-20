@@ -2,19 +2,57 @@
     "name": "django.core.cache",
     "docstring": "\"\"\"\nCaching framework.\n\nThis package defines set of cache backends that all conform to a simple API.\nIn a nutshell, a cache is a set of values -- which can be any object that\nmay be pickled -- identified by string keys.  For the complete API, see\nthe abstract BaseCache class in django.core.cache.backends.base.\n\nClient code should use the `cache` variable defined here to access the default\ncache backend and look up non-default cache backends in the `caches` dict-like\nobject.\n\nSee docs/topics/cache.txt for information on the public API.\n\"\"\"",
     "package_name": "django.core",
+    "functions": [
+        {
+            "docstring": "",
+            "name": "close_caches",
+            "namespace": "django.core.cache.close_caches",
+            "class_name": "",
+            "module_name": "django.core.cache",
+            "package_name": "django.core.cache"
+        }
+    ],
     "classes": [
         {
             "docstring": "",
             "name": "CacheHandler",
             "namespace": "django.core.cache.CacheHandler",
             "module_name": "django.core.cache",
-            "package_name": "django.core.cache"
+            "package_name": "django.core.cache",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "create_connection",
+                    "namespace": "django.core.cache.CacheHandler.create_connection",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "all",
+                    "namespace": "django.core.cache.CacheHandler.all",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
     "modules": [
         {
             "namespace": "django.core.cache.utils",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "make_template_fragment_key",
+                    "namespace": "django.core.cache.utils.make_template_fragment_key",
+                    "class_name": "",
+                    "module_name": "django.core.cache.utils",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.core.cache"
         }
     ],
@@ -22,7 +60,8 @@
         {
             "name": "django.core.cache.backends",
             "docstring": "",
-            "package_name": "django.core.cache"
+            "package_name": "django.core.cache",
+            "functions": []
         }
     ]
 }

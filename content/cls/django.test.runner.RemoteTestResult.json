@@ -3,5 +3,167 @@
     "name": "RemoteTestResult",
     "namespace": "django.test.runner.RemoteTestResult",
     "module_name": "django.test.runner",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.test.runner.RemoteTestResult.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__getstate__",
+            "namespace": "django.test.runner.RemoteTestResult.__getstate__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "test_index",
+            "namespace": "django.test.runner.RemoteTestResult.test_index",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Confirm that obj can be pickled and unpickled as multiprocessing will\n        need to pickle the exception in the child process and unpickle it in\n        the parent process. Let the exception rise, if not.\n        \"\"\"",
+            "name": "_confirm_picklable",
+            "namespace": "django.test.runner.RemoteTestResult._confirm_picklable",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_print_unpicklable_subtest",
+            "namespace": "django.test.runner.RemoteTestResult._print_unpicklable_subtest",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "check_picklable",
+            "namespace": "django.test.runner.RemoteTestResult.check_picklable",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "check_subtest_picklable",
+            "namespace": "django.test.runner.RemoteTestResult.check_subtest_picklable",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "startTestRun",
+            "namespace": "django.test.runner.RemoteTestResult.startTestRun",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "stopTestRun",
+            "namespace": "django.test.runner.RemoteTestResult.stopTestRun",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "startTest",
+            "namespace": "django.test.runner.RemoteTestResult.startTest",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "stopTest",
+            "namespace": "django.test.runner.RemoteTestResult.stopTest",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "addError",
+            "namespace": "django.test.runner.RemoteTestResult.addError",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "addFailure",
+            "namespace": "django.test.runner.RemoteTestResult.addFailure",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "addSubTest",
+            "namespace": "django.test.runner.RemoteTestResult.addSubTest",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "addSuccess",
+            "namespace": "django.test.runner.RemoteTestResult.addSuccess",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "addSkip",
+            "namespace": "django.test.runner.RemoteTestResult.addSkip",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "addExpectedFailure",
+            "namespace": "django.test.runner.RemoteTestResult.addExpectedFailure",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "addUnexpectedSuccess",
+            "namespace": "django.test.runner.RemoteTestResult.addUnexpectedSuccess",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Tells whether or not this result was a success.\"\"\"",
+            "name": "wasSuccessful",
+            "namespace": "django.test.runner.RemoteTestResult.wasSuccessful",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_exc_info_to_string",
+            "namespace": "django.test.runner.RemoteTestResult._exc_info_to_string",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

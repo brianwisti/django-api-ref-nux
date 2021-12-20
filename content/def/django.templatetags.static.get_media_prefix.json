@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Populate a template variable with the media prefix,\n    ``settings.MEDIA_URL``.\n\n    Usage::\n\n        {% get_media_prefix [as varname] %}\n\n    Examples::\n\n        {% get_media_prefix %}\n        {% get_media_prefix as media_prefix %}\n    \"\"\"",
+    "name": "get_media_prefix",
+    "namespace": "django.templatetags.static.get_media_prefix",
+    "class_name": "",
+    "module_name": "django.templatetags.static",
+    "package_name": ""
+}

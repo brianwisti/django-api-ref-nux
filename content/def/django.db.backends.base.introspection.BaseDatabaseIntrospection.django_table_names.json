@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Return a list of all table names that have associated Django models and\n        are in INSTALLED_APPS.\n\n        If only_existing is True, include only the tables in the database.\n        \"\"\"",
+    "name": "django_table_names",
+    "namespace": "django.db.backends.base.introspection.BaseDatabaseIntrospection.django_table_names",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

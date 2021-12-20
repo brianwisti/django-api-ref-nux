@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Split an SQL identifier into a two element tuple of (namespace, name).\n\n    The identifier could be a table, column, or sequence name might be prefixed\n    by a namespace.\n    \"\"\"",
+    "name": "split_identifier",
+    "namespace": "django.db.backends.utils.split_identifier",
+    "class_name": "",
+    "module_name": "django.db.backends.utils",
+    "package_name": ""
+}

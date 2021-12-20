@@ -3,5 +3,87 @@
     "name": "BinaryField",
     "namespace": "django.db.models.fields.BinaryField",
     "module_name": "django.db.models.fields",
-    "package_name": "django.db.models.fields"
+    "package_name": "django.db.models.fields",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.db.models.fields.BinaryField.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "check",
+            "namespace": "django.db.models.fields.BinaryField.check",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_check_str_default_value",
+            "namespace": "django.db.models.fields.BinaryField._check_str_default_value",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "deconstruct",
+            "namespace": "django.db.models.fields.BinaryField.deconstruct",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_internal_type",
+            "namespace": "django.db.models.fields.BinaryField.get_internal_type",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_placeholder",
+            "namespace": "django.db.models.fields.BinaryField.get_placeholder",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_default",
+            "namespace": "django.db.models.fields.BinaryField.get_default",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_db_prep_value",
+            "namespace": "django.db.models.fields.BinaryField.get_db_prep_value",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Binary data is serialized as base64\"\"\"",
+            "name": "value_to_string",
+            "namespace": "django.db.models.fields.BinaryField.value_to_string",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "to_python",
+            "namespace": "django.db.models.fields.BinaryField.to_python",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

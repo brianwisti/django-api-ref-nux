@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Assert that a response indicates that some content was retrieved\n        successfully, (i.e., the HTTP status code was as expected) and that\n        ``text`` occurs ``count`` times in the content of the response.\n        If ``count`` is None, the count doesn't matter - the assertion is true\n        if the text occurs at least once in the response.\n        \"\"\"",
+    "name": "assertContains",
+    "namespace": "django.test.testcases.SimpleTestCase.assertContains",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    For a specific format type, return the format for the current\n    language (locale). Default to the format in the settings.\n    format_type is the name of the format, e.g. 'DATE_FORMAT'.\n\n    If use_l10n is provided and is not None, it forces the value to\n    be localized (or not), overriding the value of settings.USE_L10N.\n    \"\"\"",
+    "name": "get_format",
+    "namespace": "django.utils.formats.get_format",
+    "class_name": "",
+    "module_name": "django.utils.formats",
+    "package_name": ""
+}

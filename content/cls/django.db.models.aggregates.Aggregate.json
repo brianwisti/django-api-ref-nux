@@ -3,5 +3,79 @@
     "name": "Aggregate",
     "namespace": "django.db.models.aggregates.Aggregate",
     "module_name": "django.db.models.aggregates",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.db.models.aggregates.Aggregate.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_source_fields",
+            "namespace": "django.db.models.aggregates.Aggregate.get_source_fields",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_source_expressions",
+            "namespace": "django.db.models.aggregates.Aggregate.get_source_expressions",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "set_source_expressions",
+            "namespace": "django.db.models.aggregates.Aggregate.set_source_expressions",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "resolve_expression",
+            "namespace": "django.db.models.aggregates.Aggregate.resolve_expression",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "default_alias",
+            "namespace": "django.db.models.aggregates.Aggregate.default_alias",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_group_by_cols",
+            "namespace": "django.db.models.aggregates.Aggregate.get_group_by_cols",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "as_sql",
+            "namespace": "django.db.models.aggregates.Aggregate.as_sql",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_get_repr_options",
+            "namespace": "django.db.models.aggregates.Aggregate._get_repr_options",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

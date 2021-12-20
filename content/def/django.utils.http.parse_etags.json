@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Parse a string of ETags given in an If-None-Match or If-Match header as\n    defined by RFC 7232. Return a list of quoted ETags, or ['*'] if all ETags\n    should be matched.\n    \"\"\"",
+    "name": "parse_etags",
+    "namespace": "django.utils.http.parse_etags",
+    "class_name": "",
+    "module_name": "django.utils.http",
+    "package_name": ""
+}

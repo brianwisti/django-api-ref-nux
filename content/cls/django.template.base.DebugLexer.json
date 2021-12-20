@@ -3,5 +3,31 @@
     "name": "DebugLexer",
     "namespace": "django.template.base.DebugLexer",
     "module_name": "django.template.base",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "_tag_re_split_positions",
+            "namespace": "django.template.base.DebugLexer._tag_re_split_positions",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_tag_re_split",
+            "namespace": "django.template.base.DebugLexer._tag_re_split",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Split a template string into tokens and annotates each token with its\n        start and end position in the source. This is slower than the default\n        lexer so only use it when debug is True.\n        \"\"\"",
+            "name": "tokenize",
+            "namespace": "django.template.base.DebugLexer.tokenize",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

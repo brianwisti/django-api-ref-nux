@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Return an SQL query that retrieves the first cache key greater than the\n        n smallest.\n\n        This is used by the 'db' cache backend to determine where to start\n        culling.\n        \"\"\"",
+    "name": "cache_key_culling_sql",
+    "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.cache_key_culling_sql",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

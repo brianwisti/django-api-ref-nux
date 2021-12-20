@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Get the Field object at the specified index, which may be either\n        an integer or the Field's string label.  Note that the Field object\n        is not the field's _value_ -- use the `get` method instead to\n        retrieve the value (e.g. an integer) instead of a Field instance.\n        \"\"\"",
+    "name": "__getitem__",
+    "namespace": "django.contrib.gis.gdal.feature.Feature.__getitem__",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

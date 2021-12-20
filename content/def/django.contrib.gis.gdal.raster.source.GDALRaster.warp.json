@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Return a warped GDALRaster with the given input characteristics.\n\n        The input is expected to be a dictionary containing the parameters\n        of the target raster. Allowed values are width, height, SRID, origin,\n        scale, skew, datatype, driver, and name (filename).\n\n        By default, the warp functions keeps all parameters equal to the values\n        of the original source raster. For the name of the target raster, the\n        name of the source raster will be used and appended with\n        _copy. + source_driver_name.\n\n        In addition, the resampling algorithm can be specified with the \"resampling\"\n        input parameter. The default is NearestNeighbor. For a list of all options\n        consult the GDAL_RESAMPLE_ALGORITHMS constant.\n        \"\"\"",
+    "name": "warp",
+    "namespace": "django.contrib.gis.gdal.raster.source.GDALRaster.warp",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

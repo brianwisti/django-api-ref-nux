@@ -5,137 +5,1697 @@
         {
             "docstring": "\"\"\"\n    Some expressions with output_field=DecimalField() must be cast to\n    numeric to be properly filtered.\n    \"\"\"",
             "name": "SQLiteNumericMixin",
-            "namespace": "django.db.models.expressions.SQLiteNumericMixin"
+            "namespace": "django.db.models.expressions.SQLiteNumericMixin",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "as_sqlite",
+                    "namespace": "django.db.models.expressions.SQLiteNumericMixin.as_sqlite",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Provide the ability to combine one or two objects with\n    some connector. For example F('foo') + F('bar').\n    \"\"\"",
             "name": "Combinable",
-            "namespace": "django.db.models.expressions.Combinable"
+            "namespace": "django.db.models.expressions.Combinable",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "_combine",
+                    "namespace": "django.db.models.expressions.Combinable._combine",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__neg__",
+                    "namespace": "django.db.models.expressions.Combinable.__neg__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__add__",
+                    "namespace": "django.db.models.expressions.Combinable.__add__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__sub__",
+                    "namespace": "django.db.models.expressions.Combinable.__sub__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__mul__",
+                    "namespace": "django.db.models.expressions.Combinable.__mul__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__truediv__",
+                    "namespace": "django.db.models.expressions.Combinable.__truediv__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__mod__",
+                    "namespace": "django.db.models.expressions.Combinable.__mod__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__pow__",
+                    "namespace": "django.db.models.expressions.Combinable.__pow__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__and__",
+                    "namespace": "django.db.models.expressions.Combinable.__and__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "bitand",
+                    "namespace": "django.db.models.expressions.Combinable.bitand",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "bitleftshift",
+                    "namespace": "django.db.models.expressions.Combinable.bitleftshift",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "bitrightshift",
+                    "namespace": "django.db.models.expressions.Combinable.bitrightshift",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "bitxor",
+                    "namespace": "django.db.models.expressions.Combinable.bitxor",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__or__",
+                    "namespace": "django.db.models.expressions.Combinable.__or__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "bitor",
+                    "namespace": "django.db.models.expressions.Combinable.bitor",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__radd__",
+                    "namespace": "django.db.models.expressions.Combinable.__radd__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__rsub__",
+                    "namespace": "django.db.models.expressions.Combinable.__rsub__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__rmul__",
+                    "namespace": "django.db.models.expressions.Combinable.__rmul__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__rtruediv__",
+                    "namespace": "django.db.models.expressions.Combinable.__rtruediv__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__rmod__",
+                    "namespace": "django.db.models.expressions.Combinable.__rmod__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__rpow__",
+                    "namespace": "django.db.models.expressions.Combinable.__rpow__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__rand__",
+                    "namespace": "django.db.models.expressions.Combinable.__rand__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__ror__",
+                    "namespace": "django.db.models.expressions.Combinable.__ror__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"Base class for all query expressions.\"\"\"",
             "name": "BaseExpression",
-            "namespace": "django.db.models.expressions.BaseExpression"
+            "namespace": "django.db.models.expressions.BaseExpression",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.expressions.BaseExpression.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__getstate__",
+                    "namespace": "django.db.models.expressions.BaseExpression.__getstate__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_db_converters",
+                    "namespace": "django.db.models.expressions.BaseExpression.get_db_converters",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_source_expressions",
+                    "namespace": "django.db.models.expressions.BaseExpression.get_source_expressions",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "set_source_expressions",
+                    "namespace": "django.db.models.expressions.BaseExpression.set_source_expressions",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_parse_expressions",
+                    "namespace": "django.db.models.expressions.BaseExpression._parse_expressions",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Responsible for returning a (sql, [params]) tuple to be included\n        in the current query.\n\n        Different backends can provide their own implementation, by\n        providing an `as_{vendor}` method and patching the Expression:\n\n        ```\n        def override_as_sql(self, compiler, connection):\n            # custom logic\n            return super().as_sql(compiler, connection)\n        setattr(Expression, 'as_' + connection.vendor, override_as_sql)\n        ```\n\n        Arguments:\n         * compiler: the query compiler responsible for generating the query.\n           Must have a compile method, returning a (sql, [params]) tuple.\n           Calling compiler(value) will return a quoted `value`.\n\n         * connection: the database connection used for the current query.\n\n        Return: (sql, params)\n          Where `sql` is a string containing ordered sql parameters to be\n          replaced with the elements of the list `params`.\n        \"\"\"",
+                    "name": "as_sql",
+                    "namespace": "django.db.models.expressions.BaseExpression.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "contains_aggregate",
+                    "namespace": "django.db.models.expressions.BaseExpression.contains_aggregate",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "contains_over_clause",
+                    "namespace": "django.db.models.expressions.BaseExpression.contains_over_clause",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "contains_column_references",
+                    "namespace": "django.db.models.expressions.BaseExpression.contains_column_references",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Provide the chance to do any preprocessing or validation before being\n        added to the query.\n\n        Arguments:\n         * query: the backend query implementation\n         * allow_joins: boolean allowing or denying use of joins\n           in this query\n         * reuse: a set of reusable joins for multijoins\n         * summarize: a terminal aggregate clause\n         * for_save: whether this expression about to be used in a save or update\n\n        Return: an Expression to be added to the query.\n        \"\"\"",
+                    "name": "resolve_expression",
+                    "namespace": "django.db.models.expressions.BaseExpression.resolve_expression",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "conditional",
+                    "namespace": "django.db.models.expressions.BaseExpression.conditional",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "field",
+                    "namespace": "django.db.models.expressions.BaseExpression.field",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return the output type of this expressions.\"\"\"",
+                    "name": "output_field",
+                    "namespace": "django.db.models.expressions.BaseExpression.output_field",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the output field of this expression, or None if\n        _resolve_output_field() didn't return an output type.\n        \"\"\"",
+                    "name": "_output_field_or_none",
+                    "namespace": "django.db.models.expressions.BaseExpression._output_field_or_none",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Attempt to infer the output type of the expression. If the output\n        fields of all source fields match then, simply infer the same type\n        here. This isn't always correct, but it makes sense most of the time.\n\n        Consider the difference between `2 + 2` and `2 / 3`. Inferring\n        the type here is a convenience for the common case. The user should\n        supply their own output_field with more complex computations.\n\n        If a source's output field resolves to None, exclude it from this check.\n        If all sources are None, then an error is raised higher up the stack in\n        the output_field property.\n        \"\"\"",
+                    "name": "_resolve_output_field",
+                    "namespace": "django.db.models.expressions.BaseExpression._resolve_output_field",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_convert_value_noop",
+                    "namespace": "django.db.models.expressions.BaseExpression._convert_value_noop",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Expressions provide their own converters because users have the option\n        of manually specifying the output_field which may be a different type\n        from the one the database returns.\n        \"\"\"",
+                    "name": "convert_value",
+                    "namespace": "django.db.models.expressions.BaseExpression.convert_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_lookup",
+                    "namespace": "django.db.models.expressions.BaseExpression.get_lookup",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_transform",
+                    "namespace": "django.db.models.expressions.BaseExpression.get_transform",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "relabeled_clone",
+                    "namespace": "django.db.models.expressions.BaseExpression.relabeled_clone",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "copy",
+                    "namespace": "django.db.models.expressions.BaseExpression.copy",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_group_by_cols",
+                    "namespace": "django.db.models.expressions.BaseExpression.get_group_by_cols",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return the underlying field types used by this aggregate.\"\"\"",
+                    "name": "get_source_fields",
+                    "namespace": "django.db.models.expressions.BaseExpression.get_source_fields",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "asc",
+                    "namespace": "django.db.models.expressions.BaseExpression.asc",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "desc",
+                    "namespace": "django.db.models.expressions.BaseExpression.desc",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "reverse_ordering",
+                    "namespace": "django.db.models.expressions.BaseExpression.reverse_ordering",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Recursively yield this expression and all subexpressions, in\n        depth-first order.\n        \"\"\"",
+                    "name": "flatten",
+                    "namespace": "django.db.models.expressions.BaseExpression.flatten",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Custom format for select clauses. For example, EXISTS expressions need\n        to be wrapped in CASE WHEN on Oracle.\n        \"\"\"",
+                    "name": "select_format",
+                    "namespace": "django.db.models.expressions.BaseExpression.select_format",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"An expression that can be combined with other expressions.\"\"\"",
             "name": "Expression",
-            "namespace": "django.db.models.expressions.Expression"
+            "namespace": "django.db.models.expressions.Expression",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "identity",
+                    "namespace": "django.db.models.expressions.Expression.identity",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__eq__",
+                    "namespace": "django.db.models.expressions.Expression.__eq__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__hash__",
+                    "namespace": "django.db.models.expressions.Expression.__hash__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "CombinedExpression",
-            "namespace": "django.db.models.expressions.CombinedExpression"
+            "namespace": "django.db.models.expressions.CombinedExpression",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.expressions.CombinedExpression.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.db.models.expressions.CombinedExpression.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__str__",
+                    "namespace": "django.db.models.expressions.CombinedExpression.__str__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_source_expressions",
+                    "namespace": "django.db.models.expressions.CombinedExpression.get_source_expressions",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "set_source_expressions",
+                    "namespace": "django.db.models.expressions.CombinedExpression.set_source_expressions",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_resolve_output_field",
+                    "namespace": "django.db.models.expressions.CombinedExpression._resolve_output_field",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.db.models.expressions.CombinedExpression.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "resolve_expression",
+                    "namespace": "django.db.models.expressions.CombinedExpression.resolve_expression",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "DurationExpression",
-            "namespace": "django.db.models.expressions.DurationExpression"
+            "namespace": "django.db.models.expressions.DurationExpression",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "compile",
+                    "namespace": "django.db.models.expressions.DurationExpression.compile",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.db.models.expressions.DurationExpression.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sqlite",
+                    "namespace": "django.db.models.expressions.DurationExpression.as_sqlite",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "TemporalSubtraction",
-            "namespace": "django.db.models.expressions.TemporalSubtraction"
+            "namespace": "django.db.models.expressions.TemporalSubtraction",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.expressions.TemporalSubtraction.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.db.models.expressions.TemporalSubtraction.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"An object capable of resolving references to existing query objects.\"\"\"",
             "name": "F",
-            "namespace": "django.db.models.expressions.F"
+            "namespace": "django.db.models.expressions.F",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        Arguments:\n         * name: the name of the field this expression references\n        \"\"\"",
+                    "name": "__init__",
+                    "namespace": "django.db.models.expressions.F.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.db.models.expressions.F.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "resolve_expression",
+                    "namespace": "django.db.models.expressions.F.resolve_expression",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "asc",
+                    "namespace": "django.db.models.expressions.F.asc",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "desc",
+                    "namespace": "django.db.models.expressions.F.desc",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__eq__",
+                    "namespace": "django.db.models.expressions.F.__eq__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__hash__",
+                    "namespace": "django.db.models.expressions.F.__hash__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    An object that contains a reference to an outer query.\n\n    In this case, the reference to the outer query has been resolved because\n    the inner query has been used as a subquery.\n    \"\"\"",
             "name": "ResolvedOuterRef",
-            "namespace": "django.db.models.expressions.ResolvedOuterRef"
+            "namespace": "django.db.models.expressions.ResolvedOuterRef",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.db.models.expressions.ResolvedOuterRef.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "resolve_expression",
+                    "namespace": "django.db.models.expressions.ResolvedOuterRef.resolve_expression",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "relabeled_clone",
+                    "namespace": "django.db.models.expressions.ResolvedOuterRef.relabeled_clone",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_group_by_cols",
+                    "namespace": "django.db.models.expressions.ResolvedOuterRef.get_group_by_cols",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "OuterRef",
-            "namespace": "django.db.models.expressions.OuterRef"
+            "namespace": "django.db.models.expressions.OuterRef",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "resolve_expression",
+                    "namespace": "django.db.models.expressions.OuterRef.resolve_expression",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "relabeled_clone",
+                    "namespace": "django.db.models.expressions.OuterRef.relabeled_clone",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"An SQL function call.\"\"\"",
             "name": "Func",
-            "namespace": "django.db.models.expressions.Func"
+            "namespace": "django.db.models.expressions.Func",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.expressions.Func.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.db.models.expressions.Func.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return a dict of extra __init__() options to include in the repr.\"\"\"",
+                    "name": "_get_repr_options",
+                    "namespace": "django.db.models.expressions.Func._get_repr_options",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_source_expressions",
+                    "namespace": "django.db.models.expressions.Func.get_source_expressions",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "set_source_expressions",
+                    "namespace": "django.db.models.expressions.Func.set_source_expressions",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "resolve_expression",
+                    "namespace": "django.db.models.expressions.Func.resolve_expression",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.db.models.expressions.Func.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "copy",
+                    "namespace": "django.db.models.expressions.Func.copy",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"Represent a wrapped value as a node within an expression.\"\"\"",
             "name": "Value",
-            "namespace": "django.db.models.expressions.Value"
+            "namespace": "django.db.models.expressions.Value",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        Arguments:\n         * value: the value this expression represents. The value will be\n           added into the sql parameter list and properly quoted.\n\n         * output_field: an instance of the model field type that this\n           expression will return, such as IntegerField() or CharField().\n        \"\"\"",
+                    "name": "__init__",
+                    "namespace": "django.db.models.expressions.Value.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.db.models.expressions.Value.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.db.models.expressions.Value.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "resolve_expression",
+                    "namespace": "django.db.models.expressions.Value.resolve_expression",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_group_by_cols",
+                    "namespace": "django.db.models.expressions.Value.get_group_by_cols",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_resolve_output_field",
+                    "namespace": "django.db.models.expressions.Value._resolve_output_field",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "empty_result_set_value",
+                    "namespace": "django.db.models.expressions.Value.empty_result_set_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "RawSQL",
-            "namespace": "django.db.models.expressions.RawSQL"
+            "namespace": "django.db.models.expressions.RawSQL",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.expressions.RawSQL.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.db.models.expressions.RawSQL.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.db.models.expressions.RawSQL.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_group_by_cols",
+                    "namespace": "django.db.models.expressions.RawSQL.get_group_by_cols",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "resolve_expression",
+                    "namespace": "django.db.models.expressions.RawSQL.resolve_expression",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Star",
-            "namespace": "django.db.models.expressions.Star"
+            "namespace": "django.db.models.expressions.Star",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.db.models.expressions.Star.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.db.models.expressions.Star.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Col",
-            "namespace": "django.db.models.expressions.Col"
+            "namespace": "django.db.models.expressions.Col",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.expressions.Col.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.db.models.expressions.Col.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.db.models.expressions.Col.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "relabeled_clone",
+                    "namespace": "django.db.models.expressions.Col.relabeled_clone",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_group_by_cols",
+                    "namespace": "django.db.models.expressions.Col.get_group_by_cols",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_db_converters",
+                    "namespace": "django.db.models.expressions.Col.get_db_converters",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Reference to column alias of the query. For example, Ref('sum_cost') in\n    qs.annotate(sum_cost=Sum('cost')) query.\n    \"\"\"",
             "name": "Ref",
-            "namespace": "django.db.models.expressions.Ref"
+            "namespace": "django.db.models.expressions.Ref",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.expressions.Ref.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.db.models.expressions.Ref.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_source_expressions",
+                    "namespace": "django.db.models.expressions.Ref.get_source_expressions",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "set_source_expressions",
+                    "namespace": "django.db.models.expressions.Ref.set_source_expressions",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "resolve_expression",
+                    "namespace": "django.db.models.expressions.Ref.resolve_expression",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "relabeled_clone",
+                    "namespace": "django.db.models.expressions.Ref.relabeled_clone",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.db.models.expressions.Ref.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_group_by_cols",
+                    "namespace": "django.db.models.expressions.Ref.get_group_by_cols",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    An expression containing multiple expressions. Can be used to provide a\n    list of expressions as an argument to another expression, like an\n    ordering clause.\n    \"\"\"",
             "name": "ExpressionList",
-            "namespace": "django.db.models.expressions.ExpressionList"
+            "namespace": "django.db.models.expressions.ExpressionList",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.expressions.ExpressionList.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__str__",
+                    "namespace": "django.db.models.expressions.ExpressionList.__str__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sqlite",
+                    "namespace": "django.db.models.expressions.ExpressionList.as_sqlite",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    An expression that can wrap another expression so that it can provide\n    extra context to the inner expression, such as the output_field.\n    \"\"\"",
             "name": "ExpressionWrapper",
-            "namespace": "django.db.models.expressions.ExpressionWrapper"
+            "namespace": "django.db.models.expressions.ExpressionWrapper",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.expressions.ExpressionWrapper.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "set_source_expressions",
+                    "namespace": "django.db.models.expressions.ExpressionWrapper.set_source_expressions",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_source_expressions",
+                    "namespace": "django.db.models.expressions.ExpressionWrapper.get_source_expressions",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_group_by_cols",
+                    "namespace": "django.db.models.expressions.ExpressionWrapper.get_group_by_cols",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.db.models.expressions.ExpressionWrapper.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.db.models.expressions.ExpressionWrapper.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "When",
-            "namespace": "django.db.models.expressions.When"
+            "namespace": "django.db.models.expressions.When",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.expressions.When.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__str__",
+                    "namespace": "django.db.models.expressions.When.__str__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.db.models.expressions.When.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_source_expressions",
+                    "namespace": "django.db.models.expressions.When.get_source_expressions",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "set_source_expressions",
+                    "namespace": "django.db.models.expressions.When.set_source_expressions",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_source_fields",
+                    "namespace": "django.db.models.expressions.When.get_source_fields",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "resolve_expression",
+                    "namespace": "django.db.models.expressions.When.resolve_expression",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.db.models.expressions.When.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_group_by_cols",
+                    "namespace": "django.db.models.expressions.When.get_group_by_cols",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    An SQL searched CASE expression:\n\n        CASE\n            WHEN n > 0\n                THEN 'positive'\n            WHEN n < 0\n                THEN 'negative'\n            ELSE 'zero'\n        END\n    \"\"\"",
             "name": "Case",
-            "namespace": "django.db.models.expressions.Case"
+            "namespace": "django.db.models.expressions.Case",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.expressions.Case.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__str__",
+                    "namespace": "django.db.models.expressions.Case.__str__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.db.models.expressions.Case.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_source_expressions",
+                    "namespace": "django.db.models.expressions.Case.get_source_expressions",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "set_source_expressions",
+                    "namespace": "django.db.models.expressions.Case.set_source_expressions",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "resolve_expression",
+                    "namespace": "django.db.models.expressions.Case.resolve_expression",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "copy",
+                    "namespace": "django.db.models.expressions.Case.copy",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.db.models.expressions.Case.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_group_by_cols",
+                    "namespace": "django.db.models.expressions.Case.get_group_by_cols",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    An explicit subquery. It may contain OuterRef() references to the outer\n    query which will be resolved when it is applied to that query.\n    \"\"\"",
             "name": "Subquery",
-            "namespace": "django.db.models.expressions.Subquery"
+            "namespace": "django.db.models.expressions.Subquery",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.expressions.Subquery.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_source_expressions",
+                    "namespace": "django.db.models.expressions.Subquery.get_source_expressions",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "set_source_expressions",
+                    "namespace": "django.db.models.expressions.Subquery.set_source_expressions",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_resolve_output_field",
+                    "namespace": "django.db.models.expressions.Subquery._resolve_output_field",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "copy",
+                    "namespace": "django.db.models.expressions.Subquery.copy",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "external_aliases",
+                    "namespace": "django.db.models.expressions.Subquery.external_aliases",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_external_cols",
+                    "namespace": "django.db.models.expressions.Subquery.get_external_cols",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.db.models.expressions.Subquery.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_group_by_cols",
+                    "namespace": "django.db.models.expressions.Subquery.get_group_by_cols",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Exists",
-            "namespace": "django.db.models.expressions.Exists"
+            "namespace": "django.db.models.expressions.Exists",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.expressions.Exists.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__invert__",
+                    "namespace": "django.db.models.expressions.Exists.__invert__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.db.models.expressions.Exists.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "select_format",
+                    "namespace": "django.db.models.expressions.Exists.select_format",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "OrderBy",
-            "namespace": "django.db.models.expressions.OrderBy"
+            "namespace": "django.db.models.expressions.OrderBy",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.expressions.OrderBy.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.db.models.expressions.OrderBy.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "set_source_expressions",
+                    "namespace": "django.db.models.expressions.OrderBy.set_source_expressions",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_source_expressions",
+                    "namespace": "django.db.models.expressions.OrderBy.get_source_expressions",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.db.models.expressions.OrderBy.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_oracle",
+                    "namespace": "django.db.models.expressions.OrderBy.as_oracle",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_group_by_cols",
+                    "namespace": "django.db.models.expressions.OrderBy.get_group_by_cols",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "reverse_ordering",
+                    "namespace": "django.db.models.expressions.OrderBy.reverse_ordering",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "asc",
+                    "namespace": "django.db.models.expressions.OrderBy.asc",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "desc",
+                    "namespace": "django.db.models.expressions.OrderBy.desc",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Window",
-            "namespace": "django.db.models.expressions.Window"
+            "namespace": "django.db.models.expressions.Window",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.expressions.Window.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_resolve_output_field",
+                    "namespace": "django.db.models.expressions.Window._resolve_output_field",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_source_expressions",
+                    "namespace": "django.db.models.expressions.Window.get_source_expressions",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "set_source_expressions",
+                    "namespace": "django.db.models.expressions.Window.set_source_expressions",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.db.models.expressions.Window.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sqlite",
+                    "namespace": "django.db.models.expressions.Window.as_sqlite",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__str__",
+                    "namespace": "django.db.models.expressions.Window.__str__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.db.models.expressions.Window.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_group_by_cols",
+                    "namespace": "django.db.models.expressions.Window.get_group_by_cols",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Model the frame clause in window expressions. There are two types of frame\n    clauses which are subclasses, however, all processing and validation (by no\n    means intended to be complete) is done here. Thus, providing an end for a\n    frame is optional (the default is UNBOUNDED FOLLOWING, which is the last\n    row in the frame).\n    \"\"\"",
             "name": "WindowFrame",
-            "namespace": "django.db.models.expressions.WindowFrame"
+            "namespace": "django.db.models.expressions.WindowFrame",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.expressions.WindowFrame.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "set_source_expressions",
+                    "namespace": "django.db.models.expressions.WindowFrame.set_source_expressions",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_source_expressions",
+                    "namespace": "django.db.models.expressions.WindowFrame.get_source_expressions",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.db.models.expressions.WindowFrame.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.db.models.expressions.WindowFrame.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_group_by_cols",
+                    "namespace": "django.db.models.expressions.WindowFrame.get_group_by_cols",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__str__",
+                    "namespace": "django.db.models.expressions.WindowFrame.__str__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "window_frame_start_end",
+                    "namespace": "django.db.models.expressions.WindowFrame.window_frame_start_end",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "RowRange",
-            "namespace": "django.db.models.expressions.RowRange"
+            "namespace": "django.db.models.expressions.RowRange",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "window_frame_start_end",
+                    "namespace": "django.db.models.expressions.RowRange.window_frame_start_end",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "ValueRange",
-            "namespace": "django.db.models.expressions.ValueRange"
+            "namespace": "django.db.models.expressions.ValueRange",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "window_frame_start_end",
+                    "namespace": "django.db.models.expressions.ValueRange.window_frame_start_end",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "",
+            "name": "_resolve_combined_type",
+            "namespace": "django.db.models.expressions._resolve_combined_type",
+            "class_name": "",
+            "module_name": "django.db.models.expressions",
+            "package_name": ""
         }
     ],
     "package_name": "django.db.models"

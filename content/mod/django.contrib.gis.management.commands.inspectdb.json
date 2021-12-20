@@ -5,8 +5,19 @@
         {
             "docstring": "",
             "name": "Command",
-            "namespace": "django.contrib.gis.management.commands.inspectdb.Command"
+            "namespace": "django.contrib.gis.management.commands.inspectdb.Command",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_field_type",
+                    "namespace": "django.contrib.gis.management.commands.inspectdb.Command.get_field_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.gis.management.commands"
 }

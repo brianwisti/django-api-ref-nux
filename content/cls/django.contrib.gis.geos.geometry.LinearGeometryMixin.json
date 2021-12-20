@@ -3,5 +3,55 @@
     "name": "LinearGeometryMixin",
     "namespace": "django.contrib.gis.geos.geometry.LinearGeometryMixin",
     "module_name": "django.contrib.gis.geos.geometry",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "interpolate",
+            "namespace": "django.contrib.gis.geos.geometry.LinearGeometryMixin.interpolate",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "interpolate_normalized",
+            "namespace": "django.contrib.gis.geos.geometry.LinearGeometryMixin.interpolate_normalized",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "project",
+            "namespace": "django.contrib.gis.geos.geometry.LinearGeometryMixin.project",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "project_normalized",
+            "namespace": "django.contrib.gis.geos.geometry.LinearGeometryMixin.project_normalized",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return the line merge of this Geometry.\n        \"\"\"",
+            "name": "merged",
+            "namespace": "django.contrib.gis.geos.geometry.LinearGeometryMixin.merged",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return whether or not this Geometry is closed.\n        \"\"\"",
+            "name": "closed",
+            "namespace": "django.contrib.gis.geos.geometry.LinearGeometryMixin.closed",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

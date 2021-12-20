@@ -5,38 +5,213 @@
         {
             "docstring": "\"\"\"Coerce an expression to a new field type.\"\"\"",
             "name": "Cast",
-            "namespace": "django.db.models.functions.comparison.Cast"
+            "namespace": "django.db.models.functions.comparison.Cast",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.functions.comparison.Cast.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.db.models.functions.comparison.Cast.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sqlite",
+                    "namespace": "django.db.models.functions.comparison.Cast.as_sqlite",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_mysql",
+                    "namespace": "django.db.models.functions.comparison.Cast.as_mysql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_postgresql",
+                    "namespace": "django.db.models.functions.comparison.Cast.as_postgresql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_oracle",
+                    "namespace": "django.db.models.functions.comparison.Cast.as_oracle",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"Return, from left to right, the first non-null expression.\"\"\"",
             "name": "Coalesce",
-            "namespace": "django.db.models.functions.comparison.Coalesce"
+            "namespace": "django.db.models.functions.comparison.Coalesce",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.functions.comparison.Coalesce.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "empty_result_set_value",
+                    "namespace": "django.db.models.functions.comparison.Coalesce.empty_result_set_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_oracle",
+                    "namespace": "django.db.models.functions.comparison.Coalesce.as_oracle",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Collate",
-            "namespace": "django.db.models.functions.comparison.Collate"
+            "namespace": "django.db.models.functions.comparison.Collate",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.functions.comparison.Collate.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.db.models.functions.comparison.Collate.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Return the maximum expression.\n\n    If any expression is null the return value is database-specific:\n    On PostgreSQL, the maximum not-null expression is returned.\n    On MySQL, Oracle, and SQLite, if any expression is null, null is returned.\n    \"\"\"",
             "name": "Greatest",
-            "namespace": "django.db.models.functions.comparison.Greatest"
+            "namespace": "django.db.models.functions.comparison.Greatest",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.functions.comparison.Greatest.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Use the MAX function on SQLite.\"\"\"",
+                    "name": "as_sqlite",
+                    "namespace": "django.db.models.functions.comparison.Greatest.as_sqlite",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "JSONObject",
-            "namespace": "django.db.models.functions.comparison.JSONObject"
+            "namespace": "django.db.models.functions.comparison.JSONObject",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.functions.comparison.JSONObject.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.db.models.functions.comparison.JSONObject.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_postgresql",
+                    "namespace": "django.db.models.functions.comparison.JSONObject.as_postgresql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_oracle",
+                    "namespace": "django.db.models.functions.comparison.JSONObject.as_oracle",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Return the minimum expression.\n\n    If any expression is null the return value is database-specific:\n    On PostgreSQL, return the minimum not-null expression.\n    On MySQL, Oracle, and SQLite, if any expression is null, return null.\n    \"\"\"",
             "name": "Least",
-            "namespace": "django.db.models.functions.comparison.Least"
+            "namespace": "django.db.models.functions.comparison.Least",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.functions.comparison.Least.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Use the MIN function on SQLite.\"\"\"",
+                    "name": "as_sqlite",
+                    "namespace": "django.db.models.functions.comparison.Least.as_sqlite",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "NullIf",
-            "namespace": "django.db.models.functions.comparison.NullIf"
+            "namespace": "django.db.models.functions.comparison.NullIf",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "as_oracle",
+                    "namespace": "django.db.models.functions.comparison.NullIf.as_oracle",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.db.models.functions"
 }

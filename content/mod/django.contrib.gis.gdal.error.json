@@ -5,12 +5,24 @@
         {
             "docstring": "",
             "name": "GDALException",
-            "namespace": "django.contrib.gis.gdal.error.GDALException"
+            "namespace": "django.contrib.gis.gdal.error.GDALException",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "SRSException",
-            "namespace": "django.contrib.gis.gdal.error.SRSException"
+            "namespace": "django.contrib.gis.gdal.error.SRSException",
+            "methods": []
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Check the given CPL/OGRERR and raise an exception where appropriate.\n    \"\"\"",
+            "name": "check_err",
+            "namespace": "django.contrib.gis.gdal.error.check_err",
+            "class_name": "",
+            "module_name": "django.contrib.gis.gdal.error",
+            "package_name": ""
         }
     ],
     "package_name": "django.contrib.gis.gdal"

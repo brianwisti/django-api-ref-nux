@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Look up an object with the given kwargs, updating one with defaults\n        if it exists, otherwise create a new one.\n        Return a tuple (object, created), where created is a boolean\n        specifying whether an object was created.\n        \"\"\"",
+    "name": "update_or_create",
+    "namespace": "django.db.models.query.QuerySet.update_or_create",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

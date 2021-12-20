@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Take a block of raw text that will be passed through str.splitlines() to\n    get universal newlines treatment.\n\n    Return the resulting block of text with normalized `\\n` EOL sequences ready\n    to be written to disk using current platform's native EOLs.\n    \"\"\"",
+    "name": "normalize_eols",
+    "namespace": "django.core.management.commands.makemessages.normalize_eols",
+    "class_name": "",
+    "module_name": "django.core.management.commands.makemessages",
+    "package_name": ""
+}

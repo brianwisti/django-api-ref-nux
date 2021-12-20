@@ -5,13 +5,16 @@
         {
             "docstring": "\"For GEOS unary predicate functions.\"",
             "name": "UnaryPredicate",
-            "namespace": "django.contrib.gis.geos.prototypes.predicates.UnaryPredicate"
+            "namespace": "django.contrib.gis.geos.prototypes.predicates.UnaryPredicate",
+            "methods": []
         },
         {
             "docstring": "\"For GEOS binary predicate functions.\"",
             "name": "BinaryPredicate",
-            "namespace": "django.contrib.gis.geos.prototypes.predicates.BinaryPredicate"
+            "namespace": "django.contrib.gis.geos.prototypes.predicates.BinaryPredicate",
+            "methods": []
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.gis.geos.prototypes"
 }

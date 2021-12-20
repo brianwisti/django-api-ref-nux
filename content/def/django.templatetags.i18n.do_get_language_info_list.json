@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Store a list of language information dictionaries for the given language\n    codes in a context variable. The language codes can be specified either as\n    a list of strings or a settings.LANGUAGES style list (or any sequence of\n    sequences whose first items are language codes).\n\n    Usage::\n\n        {% get_language_info_list for LANGUAGES as langs %}\n        {% for l in langs %}\n          {{ l.code }}\n          {{ l.name }}\n          {{ l.name_translated }}\n          {{ l.name_local }}\n          {{ l.bidi|yesno:\"bi-directional,uni-directional\" }}\n        {% endfor %}\n    \"\"\"",
+    "name": "do_get_language_info_list",
+    "namespace": "django.templatetags.i18n.do_get_language_info_list",
+    "class_name": "",
+    "module_name": "django.templatetags.i18n",
+    "package_name": ""
+}

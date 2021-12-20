@@ -5,8 +5,51 @@
         {
             "docstring": "\"\"\"\n    Wrap a GDAL/OGR Data Source Driver.\n    For more information, see the C API documentation:\n    https://gdal.org/api/vector_c_api.html\n    https://gdal.org/api/raster_c_api.html\n    \"\"\"",
             "name": "Driver",
-            "namespace": "django.contrib.gis.gdal.driver.Driver"
+            "namespace": "django.contrib.gis.gdal.driver.Driver",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        Initialize an GDAL/OGR driver on either a string or integer input.\n        \"\"\"",
+                    "name": "__init__",
+                    "namespace": "django.contrib.gis.gdal.driver.Driver.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__str__",
+                    "namespace": "django.contrib.gis.gdal.driver.Driver.__str__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Attempt to register all the data source drivers.\n        \"\"\"",
+                    "name": "ensure_registered",
+                    "namespace": "django.contrib.gis.gdal.driver.Driver.ensure_registered",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the number of GDAL/OGR data source drivers registered.\n        \"\"\"",
+                    "name": "driver_count",
+                    "namespace": "django.contrib.gis.gdal.driver.Driver.driver_count",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return description/name string for this driver.\n        \"\"\"",
+                    "name": "name",
+                    "namespace": "django.contrib.gis.gdal.driver.Driver.name",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.gis.gdal"
 }

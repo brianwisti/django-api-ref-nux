@@ -5,23 +5,167 @@
         {
             "docstring": "\"\"\"\n    Used by join construction code to indicate the point at which a\n    multi-valued join was attempted (if the caller wants to treat that\n    exceptionally).\n    \"\"\"",
             "name": "MultiJoin",
-            "namespace": "django.db.models.sql.datastructures.MultiJoin"
+            "namespace": "django.db.models.sql.datastructures.MultiJoin",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.sql.datastructures.MultiJoin.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Empty",
-            "namespace": "django.db.models.sql.datastructures.Empty"
+            "namespace": "django.db.models.sql.datastructures.Empty",
+            "methods": []
         },
         {
             "docstring": "\"\"\"\n    Used by sql.Query and sql.SQLCompiler to generate JOIN clauses into the\n    FROM entry. For example, the SQL generated could be\n        LEFT OUTER JOIN \"sometable\" T1 ON (\"othertable\".\"sometable_id\" = \"sometable\".\"id\")\n\n    This class is primarily used in Query.alias_map. All entries in alias_map\n    must be Join compatible by providing the following attributes and methods:\n        - table_name (string)\n        - table_alias (possible alias for the table, can be None)\n        - join_type (can be None for those entries that aren't joined from\n          anything)\n        - parent_alias (which table is this join's parent, can be None similarly\n          to join_type)\n        - as_sql()\n        - relabeled_clone()\n    \"\"\"",
             "name": "Join",
-            "namespace": "django.db.models.sql.datastructures.Join"
+            "namespace": "django.db.models.sql.datastructures.Join",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.sql.datastructures.Join.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Generate the full\n           LEFT OUTER JOIN sometable ON sometable.somecol = othertable.othercol, params\n        clause for this join.\n        \"\"\"",
+                    "name": "as_sql",
+                    "namespace": "django.db.models.sql.datastructures.Join.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "relabeled_clone",
+                    "namespace": "django.db.models.sql.datastructures.Join.relabeled_clone",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "identity",
+                    "namespace": "django.db.models.sql.datastructures.Join.identity",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__eq__",
+                    "namespace": "django.db.models.sql.datastructures.Join.__eq__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__hash__",
+                    "namespace": "django.db.models.sql.datastructures.Join.__hash__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "equals",
+                    "namespace": "django.db.models.sql.datastructures.Join.equals",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "demote",
+                    "namespace": "django.db.models.sql.datastructures.Join.demote",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "promote",
+                    "namespace": "django.db.models.sql.datastructures.Join.promote",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    The BaseTable class is used for base table references in FROM clause. For\n    example, the SQL \"foo\" in\n        SELECT * FROM \"foo\" WHERE somecond\n    could be generated by this class.\n    \"\"\"",
             "name": "BaseTable",
-            "namespace": "django.db.models.sql.datastructures.BaseTable"
+            "namespace": "django.db.models.sql.datastructures.BaseTable",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.sql.datastructures.BaseTable.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.db.models.sql.datastructures.BaseTable.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "relabeled_clone",
+                    "namespace": "django.db.models.sql.datastructures.BaseTable.relabeled_clone",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "identity",
+                    "namespace": "django.db.models.sql.datastructures.BaseTable.identity",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__eq__",
+                    "namespace": "django.db.models.sql.datastructures.BaseTable.__eq__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__hash__",
+                    "namespace": "django.db.models.sql.datastructures.BaseTable.__hash__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "equals",
+                    "namespace": "django.db.models.sql.datastructures.BaseTable.equals",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.db.models.sql"
 }

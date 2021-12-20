@@ -3,5 +3,47 @@
     "name": "SearchQueryCombinable",
     "namespace": "django.contrib.postgres.search.SearchQueryCombinable",
     "module_name": "django.contrib.postgres.search",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "_combine",
+            "namespace": "django.contrib.postgres.search.SearchQueryCombinable._combine",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__or__",
+            "namespace": "django.contrib.postgres.search.SearchQueryCombinable.__or__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__ror__",
+            "namespace": "django.contrib.postgres.search.SearchQueryCombinable.__ror__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__and__",
+            "namespace": "django.contrib.postgres.search.SearchQueryCombinable.__and__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__rand__",
+            "namespace": "django.contrib.postgres.search.SearchQueryCombinable.__rand__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

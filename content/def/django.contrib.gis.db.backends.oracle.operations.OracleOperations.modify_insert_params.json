@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"Drop out insert parameters for NULL placeholder. Needed for Oracle Spatial\n        backend due to #10888.\n        \"\"\"",
+    "name": "modify_insert_params",
+    "namespace": "django.contrib.gis.db.backends.oracle.operations.OracleOperations.modify_insert_params",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

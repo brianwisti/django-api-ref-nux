@@ -5,53 +5,82 @@
         {
             "docstring": "",
             "name": "DataContains",
-            "namespace": "django.contrib.postgres.lookups.DataContains"
+            "namespace": "django.contrib.postgres.lookups.DataContains",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "ContainedBy",
-            "namespace": "django.contrib.postgres.lookups.ContainedBy"
+            "namespace": "django.contrib.postgres.lookups.ContainedBy",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "Overlap",
-            "namespace": "django.contrib.postgres.lookups.Overlap"
+            "namespace": "django.contrib.postgres.lookups.Overlap",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "HasKey",
-            "namespace": "django.contrib.postgres.lookups.HasKey"
+            "namespace": "django.contrib.postgres.lookups.HasKey",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "HasKeys",
-            "namespace": "django.contrib.postgres.lookups.HasKeys"
+            "namespace": "django.contrib.postgres.lookups.HasKeys",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_prep_lookup",
+                    "namespace": "django.contrib.postgres.lookups.HasKeys.get_prep_lookup",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "HasAnyKeys",
-            "namespace": "django.contrib.postgres.lookups.HasAnyKeys"
+            "namespace": "django.contrib.postgres.lookups.HasAnyKeys",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "Unaccent",
-            "namespace": "django.contrib.postgres.lookups.Unaccent"
+            "namespace": "django.contrib.postgres.lookups.Unaccent",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "SearchLookup",
-            "namespace": "django.contrib.postgres.lookups.SearchLookup"
+            "namespace": "django.contrib.postgres.lookups.SearchLookup",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "process_lhs",
+                    "namespace": "django.contrib.postgres.lookups.SearchLookup.process_lhs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "TrigramSimilar",
-            "namespace": "django.contrib.postgres.lookups.TrigramSimilar"
+            "namespace": "django.contrib.postgres.lookups.TrigramSimilar",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "TrigramWordSimilar",
-            "namespace": "django.contrib.postgres.lookups.TrigramWordSimilar"
+            "namespace": "django.contrib.postgres.lookups.TrigramWordSimilar",
+            "methods": []
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.postgres"
 }

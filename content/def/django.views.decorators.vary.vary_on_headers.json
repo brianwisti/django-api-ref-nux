@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    A view decorator that adds the specified headers to the Vary header of the\n    response. Usage:\n\n       @vary_on_headers('Cookie', 'Accept-language')\n       def index(request):\n           ...\n\n    Note that the header names are not case-sensitive.\n    \"\"\"",
+    "name": "vary_on_headers",
+    "namespace": "django.views.decorators.vary.vary_on_headers",
+    "class_name": "",
+    "module_name": "django.views.decorators.vary",
+    "package_name": ""
+}

@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Return a function with default parameters for colorize()\n\n    Example:\n        bold_red = make_style(opts=('bold',), fg='red')\n        print(bold_red('hello'))\n        KEYWORD = make_style(fg='yellow')\n        COMMENT = make_style(fg='blue', opts=('bold',))\n    \"\"\"",
+    "name": "make_style",
+    "namespace": "django.utils.termcolors.make_style",
+    "class_name": "",
+    "module_name": "django.utils.termcolors",
+    "package_name": ""
+}

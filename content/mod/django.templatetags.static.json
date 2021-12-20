@@ -5,12 +5,138 @@
         {
             "docstring": "",
             "name": "PrefixNode",
-            "namespace": "django.templatetags.static.PrefixNode"
+            "namespace": "django.templatetags.static.PrefixNode",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.templatetags.static.PrefixNode.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.templatetags.static.PrefixNode.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Class method to parse prefix node and return a Node.\n        \"\"\"",
+                    "name": "handle_token",
+                    "namespace": "django.templatetags.static.PrefixNode.handle_token",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "handle_simple",
+                    "namespace": "django.templatetags.static.PrefixNode.handle_simple",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "render",
+                    "namespace": "django.templatetags.static.PrefixNode.render",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "StaticNode",
-            "namespace": "django.templatetags.static.StaticNode"
+            "namespace": "django.templatetags.static.StaticNode",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.templatetags.static.StaticNode.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.templatetags.static.StaticNode.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "url",
+                    "namespace": "django.templatetags.static.StaticNode.url",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "render",
+                    "namespace": "django.templatetags.static.StaticNode.render",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "handle_simple",
+                    "namespace": "django.templatetags.static.StaticNode.handle_simple",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Class method to parse prefix node and return a Node.\n        \"\"\"",
+                    "name": "handle_token",
+                    "namespace": "django.templatetags.static.StaticNode.handle_token",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Populate a template variable with the static prefix,\n    ``settings.STATIC_URL``.\n\n    Usage::\n\n        {% get_static_prefix [as varname] %}\n\n    Examples::\n\n        {% get_static_prefix %}\n        {% get_static_prefix as static_prefix %}\n    \"\"\"",
+            "name": "get_static_prefix",
+            "namespace": "django.templatetags.static.get_static_prefix",
+            "class_name": "",
+            "module_name": "django.templatetags.static",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Populate a template variable with the media prefix,\n    ``settings.MEDIA_URL``.\n\n    Usage::\n\n        {% get_media_prefix [as varname] %}\n\n    Examples::\n\n        {% get_media_prefix %}\n        {% get_media_prefix as media_prefix %}\n    \"\"\"",
+            "name": "get_media_prefix",
+            "namespace": "django.templatetags.static.get_media_prefix",
+            "class_name": "",
+            "module_name": "django.templatetags.static",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Join the given path with the STATIC_URL setting.\n\n    Usage::\n\n        {% static path [as varname] %}\n\n    Examples::\n\n        {% static \"myapp/css/base.css\" %}\n        {% static variable_with_path %}\n        {% static \"myapp/css/base.css\" as admin_base_css %}\n        {% static variable_with_path as varname %}\n    \"\"\"",
+            "name": "do_static",
+            "namespace": "django.templatetags.static.do_static",
+            "class_name": "",
+            "module_name": "django.templatetags.static",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Given a relative path to a static asset, return the absolute path to the\n    asset.\n    \"\"\"",
+            "name": "static",
+            "namespace": "django.templatetags.static.static",
+            "class_name": "",
+            "module_name": "django.templatetags.static",
+            "package_name": ""
         }
     ],
     "package_name": "django.templatetags"

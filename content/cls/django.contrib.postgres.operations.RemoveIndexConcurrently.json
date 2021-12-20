@@ -3,5 +3,31 @@
     "name": "RemoveIndexConcurrently",
     "namespace": "django.contrib.postgres.operations.RemoveIndexConcurrently",
     "module_name": "django.contrib.postgres.operations",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "describe",
+            "namespace": "django.contrib.postgres.operations.RemoveIndexConcurrently.describe",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "database_forwards",
+            "namespace": "django.contrib.postgres.operations.RemoveIndexConcurrently.database_forwards",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "database_backwards",
+            "namespace": "django.contrib.postgres.operations.RemoveIndexConcurrently.database_backwards",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

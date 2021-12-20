@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Oracle requires that polygon rings are in proper orientation. This\n        affects spatial operations and an invalid orientation may cause\n        failures. Correct orientations are:\n         * Outer ring - counter clockwise\n         * Inner ring(s) - clockwise\n        \"\"\"",
+    "name": "__init__",
+    "namespace": "django.contrib.gis.db.backends.oracle.adapter.OracleSpatialAdapter.__init__",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

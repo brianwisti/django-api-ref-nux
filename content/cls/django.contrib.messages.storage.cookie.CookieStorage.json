@@ -3,5 +3,55 @@
     "name": "CookieStorage",
     "namespace": "django.contrib.messages.storage.cookie.CookieStorage",
     "module_name": "django.contrib.messages.storage.cookie",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.contrib.messages.storage.cookie.CookieStorage.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Retrieve a list of messages from the messages cookie. If the\n        not_finished sentinel value is found at the end of the message list,\n        remove it and return a result indicating that not all messages were\n        retrieved by this storage.\n        \"\"\"",
+            "name": "_get",
+            "namespace": "django.contrib.messages.storage.cookie.CookieStorage._get",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Either set the cookie with the encoded data if there is any data to\n        store, or delete the cookie.\n        \"\"\"",
+            "name": "_update_cookie",
+            "namespace": "django.contrib.messages.storage.cookie.CookieStorage._update_cookie",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Store the messages to a cookie and return a list of any messages which\n        could not be stored.\n\n        If the encoded data is larger than ``max_cookie_size``, remove\n        messages until the data fits (these are the messages which are\n        returned), and add the not_finished sentinel value to indicate as much.\n        \"\"\"",
+            "name": "_store",
+            "namespace": "django.contrib.messages.storage.cookie.CookieStorage._store",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return an encoded version of the messages list which can be stored as\n        plain text.\n\n        Since the data will be retrieved from the client-side, the encoded data\n        also contains a hash to ensure that the data was not tampered with.\n        \"\"\"",
+            "name": "_encode",
+            "namespace": "django.contrib.messages.storage.cookie.CookieStorage._encode",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Safely decode an encoded text stream back into a list of messages.\n\n        If the encoded text stream contained an invalid hash or was in an\n        invalid format, return None.\n        \"\"\"",
+            "name": "_decode",
+            "namespace": "django.contrib.messages.storage.cookie.CookieStorage._decode",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

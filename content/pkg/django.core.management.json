@@ -2,39 +2,268 @@
     "name": "django.core.management",
     "docstring": "",
     "package_name": "django.core",
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Given a path to a management directory, return a list of all the command\n    names that are available.\n    \"\"\"",
+            "name": "find_commands",
+            "namespace": "django.core.management.find_commands",
+            "class_name": "",
+            "module_name": "django.core.management",
+            "package_name": "django.core.management"
+        },
+        {
+            "docstring": "\"\"\"\n    Given a command name and an application name, return the Command\n    class instance. Allow all errors raised by the import process\n    (ImportError, AttributeError) to propagate.\n    \"\"\"",
+            "name": "load_command_class",
+            "namespace": "django.core.management.load_command_class",
+            "class_name": "",
+            "module_name": "django.core.management",
+            "package_name": "django.core.management"
+        },
+        {
+            "docstring": "\"\"\"\n    Return a dictionary mapping command names to their callback applications.\n\n    Look for a management.commands package in django.core, and in each\n    installed application -- if a commands package exists, register all\n    commands in that package.\n\n    Core commands are always included. If a settings module has been\n    specified, also include user-defined commands.\n\n    The dictionary is in the format {command_name: app_name}. Key-value\n    pairs from this dictionary can then be used in calls to\n    load_command_class(app_name, command_name)\n\n    If a specific version of a command must be loaded (e.g., with the\n    startapp command), the instantiated module can be placed in the\n    dictionary in place of the application name.\n\n    The dictionary is cached on the first call and reused on subsequent\n    calls.\n    \"\"\"",
+            "name": "get_commands",
+            "namespace": "django.core.management.get_commands",
+            "class_name": "",
+            "module_name": "django.core.management",
+            "package_name": "django.core.management"
+        },
+        {
+            "docstring": "\"\"\"\n    Call the given command, with the given options and args/kwargs.\n\n    This is the primary API you should use for calling specific commands.\n\n    `command_name` may be a string or a command object. Using a string is\n    preferred unless the command object is required for further processing or\n    testing.\n\n    Some examples:\n        call_command('migrate')\n        call_command('shell', plain=True)\n        call_command('sqlmigrate', 'myapp')\n\n        from django.core.management.commands import flush\n        cmd = flush.Command()\n        call_command(cmd, verbosity=0, interactive=False)\n        # Do something with cmd ...\n    \"\"\"",
+            "name": "call_command",
+            "namespace": "django.core.management.call_command",
+            "class_name": "",
+            "module_name": "django.core.management",
+            "package_name": "django.core.management"
+        },
+        {
+            "docstring": "\"\"\"Run a ManagementUtility.\"\"\"",
+            "name": "execute_from_command_line",
+            "namespace": "django.core.management.execute_from_command_line",
+            "class_name": "",
+            "module_name": "django.core.management",
+            "package_name": "django.core.management"
+        }
+    ],
     "classes": [
         {
             "docstring": "\"\"\"\n    Encapsulate the logic of the django-admin and manage.py utilities.\n    \"\"\"",
             "name": "ManagementUtility",
             "namespace": "django.core.management.ManagementUtility",
             "module_name": "django.core.management",
-            "package_name": "django.core.management"
+            "package_name": "django.core.management",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.core.management.ManagementUtility.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return the script's main help text, as a string.\"\"\"",
+                    "name": "main_help_text",
+                    "namespace": "django.core.management.ManagementUtility.main_help_text",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Try to fetch the given subcommand, printing a message with the\n        appropriate command called from the command line (usually\n        \"django-admin\" or \"manage.py\") if it can't be found.\n        \"\"\"",
+                    "name": "fetch_command",
+                    "namespace": "django.core.management.ManagementUtility.fetch_command",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Output completion suggestions for BASH.\n\n        The output of this function is passed to BASH's `COMREPLY` variable and\n        treated as completion suggestions. `COMREPLY` expects a space\n        separated string as the result.\n\n        The `COMP_WORDS` and `COMP_CWORD` BASH environment variables are used\n        to get information about the cli input. Please refer to the BASH\n        man-page for more information about this variables.\n\n        Subcommand options are saved as pairs. A pair consists of\n        the long option string (e.g. '--exclude') and a boolean\n        value indicating if the option requires arguments. When printing to\n        stdout, an equal sign is appended to options which require arguments.\n\n        Note: If debugging this function, it is recommended to write the debug\n        output in a separate file. Otherwise the debug output will be treated\n        and formatted as potential completion suggestions.\n        \"\"\"",
+                    "name": "autocomplete",
+                    "namespace": "django.core.management.ManagementUtility.autocomplete",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Given the command-line arguments, figure out which subcommand is being\n        run, create a parser appropriate to that command, and run it.\n        \"\"\"",
+                    "name": "execute",
+                    "namespace": "django.core.management.ManagementUtility.execute",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
     "modules": [
         {
             "namespace": "django.core.management.color",
             "docstring": "\"\"\"\nSets up the terminal color scheme.\n\"\"\"",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Return True if the running system's terminal supports color,\n    and False otherwise.\n    \"\"\"",
+                    "name": "supports_color",
+                    "namespace": "django.core.management.color.supports_color",
+                    "class_name": "",
+                    "module_name": "django.core.management.color",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Create a Style object from the given config_string.\n\n    If config_string is empty django.utils.termcolors.DEFAULT_PALETTE is used.\n    \"\"\"",
+                    "name": "make_style",
+                    "namespace": "django.core.management.color.make_style",
+                    "class_name": "",
+                    "module_name": "django.core.management.color",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return a Style object with no color scheme.\n    \"\"\"",
+                    "name": "no_style",
+                    "namespace": "django.core.management.color.no_style",
+                    "class_name": "",
+                    "module_name": "django.core.management.color",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return a Style object from the Django color scheme.\n    \"\"\"",
+                    "name": "color_style",
+                    "namespace": "django.core.management.color.color_style",
+                    "class_name": "",
+                    "module_name": "django.core.management.color",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.core.management"
         },
         {
             "namespace": "django.core.management.templates",
             "docstring": "",
+            "functions": [],
             "package_name": "django.core.management"
         },
         {
             "namespace": "django.core.management.utils",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Friendly wrapper around Popen.\n\n    Return stdout output, stderr output, and OS status code.\n    \"\"\"",
+                    "name": "popen_wrapper",
+                    "namespace": "django.core.management.utils.popen_wrapper",
+                    "class_name": "",
+                    "module_name": "django.core.management.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Organize multiple extensions that are separated with commas or passed by\n    using --extension/-e multiple times.\n\n    For example: running 'django-admin makemessages -e js,txt -e xhtml -a'\n    would result in an extension list: ['.js', '.txt', '.xhtml']\n\n    >>> handle_extensions(['.html', 'html,js,py,py,py,.py', 'py,.py'])\n    {'.html', '.js', '.py'}\n    >>> handle_extensions(['.html, txt,.tpl'])\n    {'.html', '.tpl', '.txt'}\n    \"\"\"",
+                    "name": "handle_extensions",
+                    "namespace": "django.core.management.utils.handle_extensions",
+                    "class_name": "",
+                    "module_name": "django.core.management.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "find_command",
+                    "namespace": "django.core.management.utils.find_command",
+                    "class_name": "",
+                    "module_name": "django.core.management.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return a 50 character random string usable as a SECRET_KEY setting value.\n    \"\"\"",
+                    "name": "get_random_secret_key",
+                    "namespace": "django.core.management.utils.get_random_secret_key",
+                    "class_name": "",
+                    "module_name": "django.core.management.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Parse a list of \"app_label.ModelName\" or \"app_label\" strings into actual\n    objects and return a two-element tuple:\n        (set of model classes, set of app_configs).\n    Raise a CommandError if some specified models or apps don't exist.\n    \"\"\"",
+                    "name": "parse_apps_and_model_labels",
+                    "namespace": "django.core.management.utils.parse_apps_and_model_labels",
+                    "class_name": "",
+                    "module_name": "django.core.management.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return the value of a command line option (which should include leading\n    dashes, e.g. '--testrunner') from an argument list. Return None if the\n    option wasn't passed or if the argument list couldn't be parsed.\n    \"\"\"",
+                    "name": "get_command_line_option",
+                    "namespace": "django.core.management.utils.get_command_line_option",
+                    "class_name": "",
+                    "module_name": "django.core.management.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Normalize an iterable of glob style patterns based on OS.\"\"\"",
+                    "name": "normalize_path_patterns",
+                    "namespace": "django.core.management.utils.normalize_path_patterns",
+                    "class_name": "",
+                    "module_name": "django.core.management.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Check if the given path should be ignored or not based on matching\n    one of the glob style `ignore_patterns`.\n    \"\"\"",
+                    "name": "is_ignored_path",
+                    "namespace": "django.core.management.utils.is_ignored_path",
+                    "class_name": "",
+                    "module_name": "django.core.management.utils",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.core.management"
         },
         {
             "namespace": "django.core.management.sql",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Return a list of the SQL statements used to flush the database.\n    \"\"\"",
+                    "name": "sql_flush",
+                    "namespace": "django.core.management.sql.sql_flush",
+                    "class_name": "",
+                    "module_name": "django.core.management.sql",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "emit_pre_migrate_signal",
+                    "namespace": "django.core.management.sql.emit_pre_migrate_signal",
+                    "class_name": "",
+                    "module_name": "django.core.management.sql",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "emit_post_migrate_signal",
+                    "namespace": "django.core.management.sql.emit_post_migrate_signal",
+                    "class_name": "",
+                    "module_name": "django.core.management.sql",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.core.management"
         },
         {
             "namespace": "django.core.management.base",
             "docstring": "\"\"\"\nBase classes for writing management commands (named commands which can\nbe executed through ``django-admin`` or ``manage.py``).\n\"\"\"",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Include any default options that all commands should accept here\n    so that ManagementUtility can handle them before searching for\n    user commands.\n    \"\"\"",
+                    "name": "handle_default_options",
+                    "namespace": "django.core.management.base.handle_default_options",
+                    "class_name": "",
+                    "module_name": "django.core.management.base",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Decorator that forces a command to run with translations deactivated.\"\"\"",
+                    "name": "no_translations",
+                    "namespace": "django.core.management.base.no_translations",
+                    "class_name": "",
+                    "module_name": "django.core.management.base",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.core.management"
         }
     ],
@@ -42,7 +271,8 @@
         {
             "name": "django.core.management.commands",
             "docstring": "",
-            "package_name": "django.core.management"
+            "package_name": "django.core.management",
+            "functions": []
         }
     ]
 }

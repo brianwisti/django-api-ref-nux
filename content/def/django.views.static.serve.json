@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Serve static files below a given point in the directory structure.\n\n    To use, put a URL pattern such as::\n\n        from django.views.static import serve\n\n        path('<path:path>', serve, {'document_root': '/path/to/my/files/'})\n\n    in your URLconf. You must provide the ``document_root`` param. You may\n    also set ``show_indexes`` to ``True`` if you'd like to serve a basic index\n    of the directory.  This index view will use the template hardcoded below,\n    but if you'd like to override it, you can create a template called\n    ``static/directory_index.html``.\n    \"\"\"",
+    "name": "serve",
+    "namespace": "django.views.static.serve",
+    "class_name": "",
+    "module_name": "django.views.static",
+    "package_name": ""
+}

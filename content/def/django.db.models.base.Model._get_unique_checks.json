@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Return a list of checks to perform. Since validate_unique() could be\n        called from a ModelForm, some fields may have been excluded; we can't\n        perform a unique check on a model that is missing fields involved\n        in that check. Fields that did not validate should also be excluded,\n        but they need to be passed in via the exclude argument.\n        \"\"\"",
+    "name": "_get_unique_checks",
+    "namespace": "django.db.models.base.Model._get_unique_checks",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

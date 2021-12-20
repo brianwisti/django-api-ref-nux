@@ -5,23 +5,101 @@
         {
             "docstring": "",
             "name": "GeometryCollection",
-            "namespace": "django.contrib.gis.geos.collections.GeometryCollection"
+            "namespace": "django.contrib.gis.geos.collections.GeometryCollection",
+            "methods": [
+                {
+                    "docstring": "\"Initialize a Geometry Collection from a sequence of Geometry objects.\"",
+                    "name": "__init__",
+                    "namespace": "django.contrib.gis.geos.collections.GeometryCollection.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Iterate over each Geometry in the Collection.\"",
+                    "name": "__iter__",
+                    "namespace": "django.contrib.gis.geos.collections.GeometryCollection.__iter__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Return the number of geometries in this Collection.\"",
+                    "name": "__len__",
+                    "namespace": "django.contrib.gis.geos.collections.GeometryCollection.__len__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_create_collection",
+                    "namespace": "django.contrib.gis.geos.collections.GeometryCollection._create_collection",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_get_single_internal",
+                    "namespace": "django.contrib.gis.geos.collections.GeometryCollection._get_single_internal",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Return the Geometry from this Collection at the given index (0-based).\"",
+                    "name": "_get_single_external",
+                    "namespace": "django.contrib.gis.geos.collections.GeometryCollection._get_single_external",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Create a new collection, and destroy the contents of the previous pointer.\"",
+                    "name": "_set_list",
+                    "namespace": "django.contrib.gis.geos.collections.GeometryCollection._set_list",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Return the KML for this Geometry Collection.\"",
+                    "name": "kml",
+                    "namespace": "django.contrib.gis.geos.collections.GeometryCollection.kml",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Return a tuple of all the coordinates in this Geometry Collection\"",
+                    "name": "tuple",
+                    "namespace": "django.contrib.gis.geos.collections.GeometryCollection.tuple",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "MultiPoint",
-            "namespace": "django.contrib.gis.geos.collections.MultiPoint"
+            "namespace": "django.contrib.gis.geos.collections.MultiPoint",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "MultiLineString",
-            "namespace": "django.contrib.gis.geos.collections.MultiLineString"
+            "namespace": "django.contrib.gis.geos.collections.MultiLineString",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "MultiPolygon",
-            "namespace": "django.contrib.gis.geos.collections.MultiPolygon"
+            "namespace": "django.contrib.gis.geos.collections.MultiPolygon",
+            "methods": []
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.gis.geos"
 }

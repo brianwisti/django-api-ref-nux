@@ -2,38 +2,200 @@
     "name": "django.contrib.sitemaps",
     "docstring": "",
     "package_name": "django.contrib",
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Alert Google that the sitemap for the current site has been updated.\n    If sitemap_url is provided, it should be an absolute path to the sitemap\n    for this site -- e.g., '/sitemap.xml'. If sitemap_url is not provided, this\n    function will attempt to deduce it by using urls.reverse().\n    \"\"\"",
+            "name": "ping_google",
+            "namespace": "django.contrib.sitemaps.ping_google",
+            "class_name": "",
+            "module_name": "django.contrib.sitemaps",
+            "package_name": "django.contrib.sitemaps"
+        },
+        {
+            "docstring": "",
+            "name": "_get_sitemap_full_url",
+            "namespace": "django.contrib.sitemaps._get_sitemap_full_url",
+            "class_name": "",
+            "module_name": "django.contrib.sitemaps",
+            "package_name": "django.contrib.sitemaps"
+        }
+    ],
     "classes": [
         {
             "docstring": "",
             "name": "SitemapNotFound",
             "namespace": "django.contrib.sitemaps.SitemapNotFound",
             "module_name": "django.contrib.sitemaps",
-            "package_name": "django.contrib.sitemaps"
+            "package_name": "django.contrib.sitemaps",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "Sitemap",
             "namespace": "django.contrib.sitemaps.Sitemap",
             "module_name": "django.contrib.sitemaps",
-            "package_name": "django.contrib.sitemaps"
+            "package_name": "django.contrib.sitemaps",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "_get",
+                    "namespace": "django.contrib.sitemaps.Sitemap._get",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_languages",
+                    "namespace": "django.contrib.sitemaps.Sitemap._languages",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_items",
+                    "namespace": "django.contrib.sitemaps.Sitemap._items",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_location",
+                    "namespace": "django.contrib.sitemaps.Sitemap._location",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "paginator",
+                    "namespace": "django.contrib.sitemaps.Sitemap.paginator",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "items",
+                    "namespace": "django.contrib.sitemaps.Sitemap.items",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "location",
+                    "namespace": "django.contrib.sitemaps.Sitemap.location",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_protocol",
+                    "namespace": "django.contrib.sitemaps.Sitemap.get_protocol",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_domain",
+                    "namespace": "django.contrib.sitemaps.Sitemap.get_domain",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_urls",
+                    "namespace": "django.contrib.sitemaps.Sitemap.get_urls",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_urls",
+                    "namespace": "django.contrib.sitemaps.Sitemap._urls",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "GenericSitemap",
             "namespace": "django.contrib.sitemaps.GenericSitemap",
             "module_name": "django.contrib.sitemaps",
-            "package_name": "django.contrib.sitemaps"
+            "package_name": "django.contrib.sitemaps",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.sitemaps.GenericSitemap.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "items",
+                    "namespace": "django.contrib.sitemaps.GenericSitemap.items",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "lastmod",
+                    "namespace": "django.contrib.sitemaps.GenericSitemap.lastmod",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
     "modules": [
         {
             "namespace": "django.contrib.sitemaps.apps",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.sitemaps"
         },
         {
             "namespace": "django.contrib.sitemaps.views",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "x_robots_tag",
+                    "namespace": "django.contrib.sitemaps.views.x_robots_tag",
+                    "class_name": "",
+                    "module_name": "django.contrib.sitemaps.views",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "index",
+                    "namespace": "django.contrib.sitemaps.views.index",
+                    "class_name": "",
+                    "module_name": "django.contrib.sitemaps.views",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "sitemap",
+                    "namespace": "django.contrib.sitemaps.views.sitemap",
+                    "class_name": "",
+                    "module_name": "django.contrib.sitemaps.views",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.sitemaps"
         }
     ],
@@ -41,7 +203,8 @@
         {
             "name": "django.contrib.sitemaps.management",
             "docstring": "",
-            "package_name": "django.contrib.sitemaps"
+            "package_name": "django.contrib.sitemaps",
+            "functions": []
         }
     ]
 }

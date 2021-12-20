@@ -3,5 +3,63 @@
     "name": "GISLookup",
     "namespace": "django.contrib.gis.db.models.lookups.GISLookup",
     "module_name": "django.contrib.gis.db.models.lookups",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.contrib.gis.db.models.lookups.GISLookup.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "process_rhs_params",
+            "namespace": "django.contrib.gis.db.models.lookups.GISLookup.process_rhs_params",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Extract the lhs band index from the band transform class and the rhs\n        band index from the input tuple.\n        \"\"\"",
+            "name": "process_band_indices",
+            "namespace": "django.contrib.gis.db.models.lookups.GISLookup.process_band_indices",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_db_prep_lookup",
+            "namespace": "django.contrib.gis.db.models.lookups.GISLookup.get_db_prep_lookup",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "process_rhs",
+            "namespace": "django.contrib.gis.db.models.lookups.GISLookup.process_rhs",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_rhs_op",
+            "namespace": "django.contrib.gis.db.models.lookups.GISLookup.get_rhs_op",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "as_sql",
+            "namespace": "django.contrib.gis.db.models.lookups.GISLookup.as_sql",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

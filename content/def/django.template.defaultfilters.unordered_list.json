@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Recursively take a self-nested list and return an HTML unordered list --\n    WITHOUT opening and closing <ul> tags.\n\n    Assume the list is in the proper format. For example, if ``var`` contains:\n    ``['States', ['Kansas', ['Lawrence', 'Topeka'], 'Illinois']]``, then\n    ``{{ var|unordered_list }}`` returns::\n\n        <li>States\n        <ul>\n                <li>Kansas\n                <ul>\n                        <li>Lawrence</li>\n                        <li>Topeka</li>\n                </ul>\n                </li>\n                <li>Illinois</li>\n        </ul>\n        </li>\n    \"\"\"",
+    "name": "unordered_list",
+    "namespace": "django.template.defaultfilters.unordered_list",
+    "class_name": "",
+    "module_name": "django.template.defaultfilters",
+    "package_name": ""
+}

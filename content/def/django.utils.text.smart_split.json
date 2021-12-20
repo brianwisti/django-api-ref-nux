@@ -1,0 +1,8 @@
+{
+    "docstring": "r\"\"\"\n    Generator that splits a string by spaces, leaving quoted phrases together.\n    Supports both single and double quotes, and supports escaping quotes with\n    backslashes. In the output, strings will keep their initial and trailing\n    quote marks and escaped quotes will remain escaped (the results can then\n    be further processed with unescape_string_literal()).\n\n    >>> list(smart_split(r'This is \"a person\\'s\" test.'))\n    ['This', 'is', '\"a person\\\\\\'s\"', 'test.']\n    >>> list(smart_split(r\"Another 'person\\'s' test.\"))\n    ['Another', \"'person\\\\'s'\", 'test.']\n    >>> list(smart_split(r'A \"\\\"funky\\\" style\" test.'))\n    ['A', '\"\\\\\"funky\\\\\" style\"', 'test.']\n    \"\"\"",
+    "name": "smart_split",
+    "namespace": "django.utils.text.smart_split",
+    "class_name": "",
+    "module_name": "django.utils.text",
+    "package_name": ""
+}

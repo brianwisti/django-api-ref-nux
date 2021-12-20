@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Attempt to return a signed cookie. If the signature fails or the\n        cookie has expired, raise an exception, unless the `default` argument\n        is provided,  in which case return that value.\n        \"\"\"",
+    "name": "get_signed_cookie",
+    "namespace": "django.http.request.HttpRequest.get_signed_cookie",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

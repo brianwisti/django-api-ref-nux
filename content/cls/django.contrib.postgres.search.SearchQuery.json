@@ -3,5 +3,39 @@
     "name": "SearchQuery",
     "namespace": "django.contrib.postgres.search.SearchQuery",
     "module_name": "django.contrib.postgres.search",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.contrib.postgres.search.SearchQuery.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "as_sql",
+            "namespace": "django.contrib.postgres.search.SearchQuery.as_sql",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__invert__",
+            "namespace": "django.contrib.postgres.search.SearchQuery.__invert__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__str__",
+            "namespace": "django.contrib.postgres.search.SearchQuery.__str__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

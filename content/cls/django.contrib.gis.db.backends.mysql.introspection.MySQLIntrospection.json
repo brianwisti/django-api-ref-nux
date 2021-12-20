@@ -3,5 +3,23 @@
     "name": "MySQLIntrospection",
     "namespace": "django.contrib.gis.db.backends.mysql.introspection.MySQLIntrospection",
     "module_name": "django.contrib.gis.db.backends.mysql.introspection",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "get_geometry_type",
+            "namespace": "django.contrib.gis.db.backends.mysql.introspection.MySQLIntrospection.get_geometry_type",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "supports_spatial_index",
+            "namespace": "django.contrib.gis.db.backends.mysql.introspection.MySQLIntrospection.supports_spatial_index",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

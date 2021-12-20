@@ -3,5 +3,287 @@
     "name": "SpatialReference",
     "namespace": "django.contrib.gis.gdal.srs.SpatialReference",
     "module_name": "django.contrib.gis.gdal.srs",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "\"\"\"\n        Create a GDAL OSR Spatial Reference object from the given input.\n        The input may be string of OGC Well Known Text (WKT), an integer\n        EPSG code, a PROJ string, and/or a projection \"well known\" shorthand\n        string (one of 'WGS84', 'WGS72', 'NAD27', 'NAD83').\n        \"\"\"",
+            "name": "__init__",
+            "namespace": "django.contrib.gis.gdal.srs.SpatialReference.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return the value of the given string attribute node, None if the node\n        doesn't exist.  Can also take a tuple as a parameter, (target, child),\n        where child is the index of the attribute in the WKT.  For example:\n\n        >>> wkt = 'GEOGCS[\"WGS 84\", DATUM[\"WGS_1984, ... AUTHORITY[\"EPSG\",\"4326\"]]'\n        >>> srs = SpatialReference(wkt) # could also use 'WGS84', or 4326\n        >>> print(srs['GEOGCS'])\n        WGS 84\n        >>> print(srs['DATUM'])\n        WGS_1984\n        >>> print(srs['AUTHORITY'])\n        EPSG\n        >>> print(srs['AUTHORITY', 1]) # The authority value\n        4326\n        >>> print(srs['TOWGS84', 4]) # the fourth value in this wkt\n        0\n        >>> print(srs['UNIT|AUTHORITY']) # For the units authority, have to use the pipe symbole.\n        EPSG\n        >>> print(srs['UNIT|AUTHORITY', 1]) # The authority value for the units\n        9122\n        \"\"\"",
+            "name": "__getitem__",
+            "namespace": "django.contrib.gis.gdal.srs.SpatialReference.__getitem__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Use 'pretty' WKT.\"",
+            "name": "__str__",
+            "namespace": "django.contrib.gis.gdal.srs.SpatialReference.__str__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        The attribute value for the given target node (e.g. 'PROJCS'). The index\n        keyword specifies an index of the child node to return.\n        \"\"\"",
+            "name": "attr_value",
+            "namespace": "django.contrib.gis.gdal.srs.SpatialReference.attr_value",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Return the authority name for the given string target node.\"",
+            "name": "auth_name",
+            "namespace": "django.contrib.gis.gdal.srs.SpatialReference.auth_name",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Return the authority code for the given string target node.\"",
+            "name": "auth_code",
+            "namespace": "django.contrib.gis.gdal.srs.SpatialReference.auth_code",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Return a clone of this SpatialReference object.\"",
+            "name": "clone",
+            "namespace": "django.contrib.gis.gdal.srs.SpatialReference.clone",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Morph this SpatialReference from ESRI's format to EPSG.\"",
+            "name": "from_esri",
+            "namespace": "django.contrib.gis.gdal.srs.SpatialReference.from_esri",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        This method inspects the WKT of this SpatialReference, and will\n        add EPSG authority nodes where an EPSG identifier is applicable.\n        \"\"\"",
+            "name": "identify_epsg",
+            "namespace": "django.contrib.gis.gdal.srs.SpatialReference.identify_epsg",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Morph this SpatialReference to ESRI's format.\"",
+            "name": "to_esri",
+            "namespace": "django.contrib.gis.gdal.srs.SpatialReference.to_esri",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Check to see if the given spatial reference is valid.\"",
+            "name": "validate",
+            "namespace": "django.contrib.gis.gdal.srs.SpatialReference.validate",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Return the name of this Spatial Reference.\"",
+            "name": "name",
+            "namespace": "django.contrib.gis.gdal.srs.SpatialReference.name",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Return the SRID of top-level authority, or None if undefined.\"",
+            "name": "srid",
+            "namespace": "django.contrib.gis.gdal.srs.SpatialReference.srid",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Return the name of the linear units.\"",
+            "name": "linear_name",
+            "namespace": "django.contrib.gis.gdal.srs.SpatialReference.linear_name",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Return the value of the linear units.\"",
+            "name": "linear_units",
+            "namespace": "django.contrib.gis.gdal.srs.SpatialReference.linear_units",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Return the name of the angular units.\"",
+            "name": "angular_name",
+            "namespace": "django.contrib.gis.gdal.srs.SpatialReference.angular_name",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Return the value of the angular units.\"",
+            "name": "angular_units",
+            "namespace": "django.contrib.gis.gdal.srs.SpatialReference.angular_units",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return a 2-tuple of the units value and the units name. Automatically\n        determine whether to return the linear or angular units.\n        \"\"\"",
+            "name": "units",
+            "namespace": "django.contrib.gis.gdal.srs.SpatialReference.units",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return a tuple of the ellipsoid parameters:\n         (semimajor axis, semiminor axis, and inverse flattening)\n        \"\"\"",
+            "name": "ellipsoid",
+            "namespace": "django.contrib.gis.gdal.srs.SpatialReference.ellipsoid",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Return the Semi Major Axis for this Spatial Reference.\"",
+            "name": "semi_major",
+            "namespace": "django.contrib.gis.gdal.srs.SpatialReference.semi_major",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Return the Semi Minor Axis for this Spatial Reference.\"",
+            "name": "semi_minor",
+            "namespace": "django.contrib.gis.gdal.srs.SpatialReference.semi_minor",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Return the Inverse Flattening for this Spatial Reference.\"",
+            "name": "inverse_flattening",
+            "namespace": "django.contrib.gis.gdal.srs.SpatialReference.inverse_flattening",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return True if this SpatialReference is geographic\n         (root node is GEOGCS).\n        \"\"\"",
+            "name": "geographic",
+            "namespace": "django.contrib.gis.gdal.srs.SpatialReference.geographic",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Return True if this SpatialReference is local (root node is LOCAL_CS).\"",
+            "name": "local",
+            "namespace": "django.contrib.gis.gdal.srs.SpatialReference.local",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return True if this SpatialReference is a projected coordinate system\n         (root node is PROJCS).\n        \"\"\"",
+            "name": "projected",
+            "namespace": "django.contrib.gis.gdal.srs.SpatialReference.projected",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Import the Spatial Reference from the EPSG code (an integer).\"",
+            "name": "import_epsg",
+            "namespace": "django.contrib.gis.gdal.srs.SpatialReference.import_epsg",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Import the Spatial Reference from a PROJ string.\"\"\"",
+            "name": "import_proj",
+            "namespace": "django.contrib.gis.gdal.srs.SpatialReference.import_proj",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Import the Spatial Reference from the given user input string.\"",
+            "name": "import_user_input",
+            "namespace": "django.contrib.gis.gdal.srs.SpatialReference.import_user_input",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Import the Spatial Reference from OGC WKT (string)\"",
+            "name": "import_wkt",
+            "namespace": "django.contrib.gis.gdal.srs.SpatialReference.import_wkt",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Import the Spatial Reference from an XML string.\"",
+            "name": "import_xml",
+            "namespace": "django.contrib.gis.gdal.srs.SpatialReference.import_xml",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Return the WKT representation of this Spatial Reference.\"",
+            "name": "wkt",
+            "namespace": "django.contrib.gis.gdal.srs.SpatialReference.wkt",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Return the 'pretty' representation of the WKT.\"",
+            "name": "pretty_wkt",
+            "namespace": "django.contrib.gis.gdal.srs.SpatialReference.pretty_wkt",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return the PROJ representation for this Spatial Reference.\"\"\"",
+            "name": "proj",
+            "namespace": "django.contrib.gis.gdal.srs.SpatialReference.proj",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Alias for proj().\"",
+            "name": "proj4",
+            "namespace": "django.contrib.gis.gdal.srs.SpatialReference.proj4",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Return the XML representation of this Spatial Reference.\"",
+            "name": "xml",
+            "namespace": "django.contrib.gis.gdal.srs.SpatialReference.xml",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

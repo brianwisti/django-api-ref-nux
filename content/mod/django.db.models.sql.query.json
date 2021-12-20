@@ -5,17 +5,889 @@
         {
             "docstring": "\"\"\"A single raw SQL query.\"\"\"",
             "name": "RawQuery",
-            "namespace": "django.db.models.sql.query.RawQuery"
+            "namespace": "django.db.models.sql.query.RawQuery",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.sql.query.RawQuery.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "chain",
+                    "namespace": "django.db.models.sql.query.RawQuery.chain",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "clone",
+                    "namespace": "django.db.models.sql.query.RawQuery.clone",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_columns",
+                    "namespace": "django.db.models.sql.query.RawQuery.get_columns",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__iter__",
+                    "namespace": "django.db.models.sql.query.RawQuery.__iter__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.db.models.sql.query.RawQuery.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "params_type",
+                    "namespace": "django.db.models.sql.query.RawQuery.params_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__str__",
+                    "namespace": "django.db.models.sql.query.RawQuery.__str__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_execute_query",
+                    "namespace": "django.db.models.sql.query.RawQuery._execute_query",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"A single SQL query.\"\"\"",
             "name": "Query",
-            "namespace": "django.db.models.sql.query.Query"
+            "namespace": "django.db.models.sql.query.Query",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.sql.query.Query.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "output_field",
+                    "namespace": "django.db.models.sql.query.Query.output_field",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "has_select_fields",
+                    "namespace": "django.db.models.sql.query.Query.has_select_fields",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "base_table",
+                    "namespace": "django.db.models.sql.query.Query.base_table",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the query as a string of SQL with the parameter values\n        substituted in (use sql_with_params() to see the unsubstituted string).\n\n        Parameter values won't necessarily be quoted correctly, since that is\n        done by the database interface at execution time.\n        \"\"\"",
+                    "name": "__str__",
+                    "namespace": "django.db.models.sql.query.Query.__str__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the query as an SQL string and the parameters that will be\n        substituted into the query.\n        \"\"\"",
+                    "name": "sql_with_params",
+                    "namespace": "django.db.models.sql.query.Query.sql_with_params",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Limit the amount of work when a Query is deepcopied.\"\"\"",
+                    "name": "__deepcopy__",
+                    "namespace": "django.db.models.sql.query.Query.__deepcopy__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_compiler",
+                    "namespace": "django.db.models.sql.query.Query.get_compiler",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the Options instance (the model._meta) from which to start\n        processing. Normally, this is self.model._meta, but it can be changed\n        by subclasses.\n        \"\"\"",
+                    "name": "get_meta",
+                    "namespace": "django.db.models.sql.query.Query.get_meta",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return a copy of the current Query. A lightweight alternative to\n        to deepcopy().\n        \"\"\"",
+                    "name": "clone",
+                    "namespace": "django.db.models.sql.query.Query.clone",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return a copy of the current Query that's ready for another operation.\n        The klass argument changes the type of the Query, e.g. UpdateQuery.\n        \"\"\"",
+                    "name": "chain",
+                    "namespace": "django.db.models.sql.query.Query.chain",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "relabeled_clone",
+                    "namespace": "django.db.models.sql.query.Query.relabeled_clone",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_get_col",
+                    "namespace": "django.db.models.sql.query.Query._get_col",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "rewrite_cols",
+                    "namespace": "django.db.models.sql.query.Query.rewrite_cols",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the dictionary with the values of the existing aggregations.\n        \"\"\"",
+                    "name": "get_aggregation",
+                    "namespace": "django.db.models.sql.query.Query.get_aggregation",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Perform a COUNT() query using the current filter constraints.\n        \"\"\"",
+                    "name": "get_count",
+                    "namespace": "django.db.models.sql.query.Query.get_count",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "has_filters",
+                    "namespace": "django.db.models.sql.query.Query.has_filters",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "exists",
+                    "namespace": "django.db.models.sql.query.Query.exists",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "has_results",
+                    "namespace": "django.db.models.sql.query.Query.has_results",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "explain",
+                    "namespace": "django.db.models.sql.query.Query.explain",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Merge the 'rhs' query into the current one (with any 'rhs' effects\n        being applied *after* (that is, \"to the right of\") anything in the\n        current query. 'rhs' is not modified during a call to this function.\n\n        The 'connector' parameter describes how to connect filters from the\n        'rhs' query.\n        \"\"\"",
+                    "name": "combine",
+                    "namespace": "django.db.models.sql.query.Query.combine",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Convert the self.deferred_loading data structure to an alternate data\n        structure, describing the field that *will* be loaded. This is used to\n        compute the columns to select from the database and also by the\n        QuerySet class to work out which fields are being initialized on each\n        model. Models that have all their fields included aren't mentioned in\n        the result, only those that have field restrictions in place.\n\n        The \"target\" parameter is the instance that is populated (in place).\n        The \"callback\" is a function that is called whenever a (model, field)\n        pair need to be added to \"target\". It accepts three parameters:\n        \"target\", and the model and list of fields being added for that model.\n        \"\"\"",
+                    "name": "deferred_to_data",
+                    "namespace": "django.db.models.sql.query.Query.deferred_to_data",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return a table alias for the given table_name and whether this is a\n        new alias or not.\n\n        If 'create' is true, a new alias is always created. Otherwise, the\n        most recently created alias for the table (if one exists) is reused.\n        \"\"\"",
+                    "name": "table_alias",
+                    "namespace": "django.db.models.sql.query.Query.table_alias",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Increases the reference count for this alias.\"\"\"",
+                    "name": "ref_alias",
+                    "namespace": "django.db.models.sql.query.Query.ref_alias",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Decreases the reference count for this alias.\"\"\"",
+                    "name": "unref_alias",
+                    "namespace": "django.db.models.sql.query.Query.unref_alias",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Promote recursively the join type of given aliases and its children to\n        an outer join. If 'unconditional' is False, only promote the join if\n        it is nullable or the parent join is an outer join.\n\n        The children promotion is done to avoid join chains that contain a LOUTER\n        b INNER c. So, if we have currently a INNER b INNER c and a->b is promoted,\n        then we must also promote b->c automatically, or otherwise the promotion\n        of a->b doesn't actually change anything in the query results.\n        \"\"\"",
+                    "name": "promote_joins",
+                    "namespace": "django.db.models.sql.query.Query.promote_joins",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Change join type from LOUTER to INNER for all joins in aliases.\n\n        Similarly to promote_joins(), this method must ensure no join chains\n        containing first an outer, then an inner join are generated. If we\n        are demoting b->c join in chain a LOUTER b LOUTER c then we must\n        demote a->b automatically, or otherwise the demotion of b->c doesn't\n        actually change anything in the query results. .\n        \"\"\"",
+                    "name": "demote_joins",
+                    "namespace": "django.db.models.sql.query.Query.demote_joins",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Reset reference counts for aliases so that they match the value passed\n        in `to_counts`.\n        \"\"\"",
+                    "name": "reset_refcounts",
+                    "namespace": "django.db.models.sql.query.Query.reset_refcounts",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Change the aliases in change_map (which maps old-alias -> new-alias),\n        relabelling any references to them in select columns and the where\n        clause.\n        \"\"\"",
+                    "name": "change_aliases",
+                    "namespace": "django.db.models.sql.query.Query.change_aliases",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Change the alias prefix to the next letter in the alphabet in a way\n        that the outer query's aliases and this query's aliases will not\n        conflict. Even tables that previously had no alias will get an alias\n        after this call.\n        \"\"\"",
+                    "name": "bump_prefix",
+                    "namespace": "django.db.models.sql.query.Query.bump_prefix",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the first alias for this query, after increasing its reference\n        count.\n        \"\"\"",
+                    "name": "get_initial_alias",
+                    "namespace": "django.db.models.sql.query.Query.get_initial_alias",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the number of tables in this query with a non-zero reference\n        count. After execution, the reference counts are zeroed, so tables\n        added in compiler will not be seen by this method.\n        \"\"\"",
+                    "name": "count_active_tables",
+                    "namespace": "django.db.models.sql.query.Query.count_active_tables",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return an alias for the 'join', either reusing an existing alias for\n        that join or creating a new one. 'join' is either a\n        sql.datastructures.BaseTable or Join.\n\n        The 'reuse' parameter can be either None which means all joins are\n        reusable, or it can be a set containing the aliases that can be reused.\n\n        A join is always created as LOUTER if the lhs alias is LOUTER to make\n        sure chains like t1 LOUTER t2 INNER t3 aren't generated. All new\n        joins are created as LOUTER if the join is nullable.\n        \"\"\"",
+                    "name": "join",
+                    "namespace": "django.db.models.sql.query.Query.join",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Make sure the given 'model' is joined in the query. If 'model' isn't\n        a parent of 'opts' or if it is None this method is a no-op.\n\n        The 'alias' is the root alias for starting the join, 'seen' is a dict\n        of model -> alias of existing joins. It must also contain a mapping\n        of None -> some alias. This will be returned in the no-op case.\n        \"\"\"",
+                    "name": "join_parent_model",
+                    "namespace": "django.db.models.sql.query.Query.join_parent_model",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Add a single annotation expression to the Query.\"\"\"",
+                    "name": "add_annotation",
+                    "namespace": "django.db.models.sql.query.Query.add_annotation",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "resolve_expression",
+                    "namespace": "django.db.models.sql.query.Query.resolve_expression",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_external_cols",
+                    "namespace": "django.db.models.sql.query.Query.get_external_cols",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.db.models.sql.query.Query.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "resolve_lookup_value",
+                    "namespace": "django.db.models.sql.query.Query.resolve_lookup_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Solve the lookup type from the lookup (e.g.: 'foobar__id__icontains').\n        \"\"\"",
+                    "name": "solve_lookup_type",
+                    "namespace": "django.db.models.sql.query.Query.solve_lookup_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Check whether the object passed while querying is of the correct type.\n        If not, raise a ValueError specifying the wrong object.\n        \"\"\"",
+                    "name": "check_query_object_type",
+                    "namespace": "django.db.models.sql.query.Query.check_query_object_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Check the type of object passed to query relations.\"\"\"",
+                    "name": "check_related_objects",
+                    "namespace": "django.db.models.sql.query.Query.check_related_objects",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Raise an error if expression cannot be used in a WHERE clause.\"\"\"",
+                    "name": "check_filterable",
+                    "namespace": "django.db.models.sql.query.Query.check_filterable",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Try to extract transforms and lookup from given lhs.\n\n        The lhs value is something that works like SQLExpression.\n        The rhs value is what the lookup is going to compare against.\n        The lookups is a list of names to extract using get_lookup()\n        and get_transform().\n        \"\"\"",
+                    "name": "build_lookup",
+                    "namespace": "django.db.models.sql.query.Query.build_lookup",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Helper method for build_lookup(). Try to fetch and initialize\n        a transform for name parameter from lhs.\n        \"\"\"",
+                    "name": "try_transform",
+                    "namespace": "django.db.models.sql.query.Query.try_transform",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Build a WhereNode for a single filter clause but don't add it\n        to this Query. Query.add_q() will then add this filter to the where\n        Node.\n\n        The 'branch_negated' tells us if the current branch contains any\n        negations. This will be used to determine if subqueries are needed.\n\n        The 'current_negated' is used to determine if the current filter is\n        negated or not and this will be used to determine if IS NULL filtering\n        is needed.\n\n        The difference between current_negated and branch_negated is that\n        branch_negated is set on first negation, but current_negated is\n        flipped for each negation.\n\n        Note that add_filter will not do any negating itself, that is done\n        upper in the code by add_q().\n\n        The 'can_reuse' is a set of reusable joins for multijoins.\n\n        The method will create a filter clause that can be added to the current\n        query. However, if the filter isn't added to the query then the caller\n        is responsible for unreffing the joins used.\n        \"\"\"",
+                    "name": "build_filter",
+                    "namespace": "django.db.models.sql.query.Query.build_filter",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "add_filter",
+                    "namespace": "django.db.models.sql.query.Query.add_filter",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        A preprocessor for the internal _add_q(). Responsible for doing final\n        join promotion.\n        \"\"\"",
+                    "name": "add_q",
+                    "namespace": "django.db.models.sql.query.Query.add_q",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "build_where",
+                    "namespace": "django.db.models.sql.query.Query.build_where",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "clear_where",
+                    "namespace": "django.db.models.sql.query.Query.clear_where",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Add a Q-object to the current filter.\"\"\"",
+                    "name": "_add_q",
+                    "namespace": "django.db.models.sql.query.Query._add_q",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Add a FilteredRelation object to the current filter.\"\"\"",
+                    "name": "build_filtered_relation_q",
+                    "namespace": "django.db.models.sql.query.Query.build_filtered_relation_q",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "add_filtered_relation",
+                    "namespace": "django.db.models.sql.query.Query.add_filtered_relation",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Walk the list of names and turns them into PathInfo tuples. A single\n        name in 'names' can generate multiple PathInfos (m2m, for example).\n\n        'names' is the path of names to travel, 'opts' is the model Options we\n        start the name resolving from, 'allow_many' is as for setup_joins().\n        If fail_on_missing is set to True, then a name that can't be resolved\n        will generate a FieldError.\n\n        Return a list of PathInfo tuples. In addition return the final field\n        (the last used join field) and target (which is a field guaranteed to\n        contain the same value as the final field). Finally, return those names\n        that weren't found (which are likely transforms and the final lookup).\n        \"\"\"",
+                    "name": "names_to_path",
+                    "namespace": "django.db.models.sql.query.Query.names_to_path",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Compute the necessary table joins for the passage through the fields\n        given in 'names'. 'opts' is the Options class for the current model\n        (which gives the table we are starting from), 'alias' is the alias for\n        the table to start the joining from.\n\n        The 'can_reuse' defines the reverse foreign key joins we can reuse. It\n        can be None in which case all joins are reusable or a set of aliases\n        that can be reused. Note that non-reverse foreign keys are always\n        reusable when using setup_joins().\n\n        If 'allow_many' is False, then any reverse foreign key seen will\n        generate a MultiJoin exception.\n\n        Return the final field involved in the joins, the target field (used\n        for any 'where' constraint), the final 'opts' value, the joins, the\n        field path traveled to generate the joins, and a transform function\n        that takes a field and alias and is equivalent to `field.get_col(alias)`\n        in the simple case but wraps field transforms if they were included in\n        names.\n\n        The target field is the field containing the concrete value. Final\n        field can be something different, for example foreign key pointing to\n        that value. Final field is needed for example in some value\n        conversions (convert 'obj' in fk__id=obj to pk val using the foreign\n        key field for example).\n        \"\"\"",
+                    "name": "setup_joins",
+                    "namespace": "django.db.models.sql.query.Query.setup_joins",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        The 'target' parameter is the final field being joined to, 'joins'\n        is the full list of join aliases. The 'path' contain the PathInfos\n        used to create the joins.\n\n        Return the final target field and table alias and the new active\n        joins.\n\n        Always trim any direct join if the target column is already in the\n        previous table. Can't trim reverse joins as it's unknown if there's\n        anything on the other side of the join.\n        \"\"\"",
+                    "name": "trim_joins",
+                    "namespace": "django.db.models.sql.query.Query.trim_joins",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_gen_cols",
+                    "namespace": "django.db.models.sql.query.Query._gen_cols",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_gen_col_aliases",
+                    "namespace": "django.db.models.sql.query.Query._gen_col_aliases",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "resolve_ref",
+                    "namespace": "django.db.models.sql.query.Query.resolve_ref",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        When doing an exclude against any kind of N-to-many relation, we need\n        to use a subquery. This method constructs the nested query, given the\n        original exclude filter (filter_expr) and the portion up to the first\n        N-to-many relation field.\n\n        For example, if the origin filter is ~Q(child__name='foo'), filter_expr\n        is ('child__name', 'foo') and can_reuse is a set of joins usable for\n        filters in the original query.\n\n        We will turn this into equivalent of:\n            WHERE NOT EXISTS(\n                SELECT 1\n                FROM child\n                WHERE name = 'foo' AND child.parent_id = parent.id\n                LIMIT 1\n            )\n        \"\"\"",
+                    "name": "split_exclude",
+                    "namespace": "django.db.models.sql.query.Query.split_exclude",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "set_empty",
+                    "namespace": "django.db.models.sql.query.Query.set_empty",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "is_empty",
+                    "namespace": "django.db.models.sql.query.Query.is_empty",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Adjust the limits on the rows retrieved. Use low/high to set these,\n        as it makes it more Pythonic to read and write. When the SQL query is\n        created, convert them to the appropriate offset and limit values.\n\n        Apply any limits passed in here to the existing constraints. Add low\n        to the current low value and clamp both to any existing high value.\n        \"\"\"",
+                    "name": "set_limits",
+                    "namespace": "django.db.models.sql.query.Query.set_limits",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Clear any existing limits.\"\"\"",
+                    "name": "clear_limits",
+                    "namespace": "django.db.models.sql.query.Query.clear_limits",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "is_sliced",
+                    "namespace": "django.db.models.sql.query.Query.is_sliced",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "has_limit_one",
+                    "namespace": "django.db.models.sql.query.Query.has_limit_one",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return True if adding filters to this instance is still possible.\n\n        Typically, this means no limits or offsets have been put on the results.\n        \"\"\"",
+                    "name": "can_filter",
+                    "namespace": "django.db.models.sql.query.Query.can_filter",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Remove all fields from SELECT clause.\"\"\"",
+                    "name": "clear_select_clause",
+                    "namespace": "django.db.models.sql.query.Query.clear_select_clause",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Clear the list of fields to select (but not extra_select columns).\n        Some queryset types completely replace any existing list of select\n        columns.\n        \"\"\"",
+                    "name": "clear_select_fields",
+                    "namespace": "django.db.models.sql.query.Query.clear_select_fields",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "add_select_col",
+                    "namespace": "django.db.models.sql.query.Query.add_select_col",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "set_select",
+                    "namespace": "django.db.models.sql.query.Query.set_select",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Add and resolve the given fields to the query's \"distinct on\" clause.\n        \"\"\"",
+                    "name": "add_distinct_fields",
+                    "namespace": "django.db.models.sql.query.Query.add_distinct_fields",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Add the given (model) fields to the select set. Add the field names in\n        the order specified.\n        \"\"\"",
+                    "name": "add_fields",
+                    "namespace": "django.db.models.sql.query.Query.add_fields",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Add items from the 'ordering' sequence to the query's \"order by\"\n        clause. These items are either field names (not column names) --\n        possibly with a direction prefix ('-' or '?') -- or OrderBy\n        expressions.\n\n        If 'ordering' is empty, clear all ordering from the query.\n        \"\"\"",
+                    "name": "add_ordering",
+                    "namespace": "django.db.models.sql.query.Query.add_ordering",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Remove any ordering settings if the current query allows it without\n        side effects, set 'force' to True to clear the ordering regardless.\n        If 'clear_default' is True, there will be no ordering in the resulting\n        query (not even the model's default).\n        \"\"\"",
+                    "name": "clear_ordering",
+                    "namespace": "django.db.models.sql.query.Query.clear_ordering",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Expand the GROUP BY clause required by the query.\n\n        This will usually be the set of all non-aggregate fields in the\n        return data. If the database backend supports grouping by the\n        primary key, and the query would be equivalent, the optimization\n        will be made automatically.\n        \"\"\"",
+                    "name": "set_group_by",
+                    "namespace": "django.db.models.sql.query.Query.set_group_by",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Set up the select_related data structure so that we only select\n        certain related models (as opposed to all models, when\n        self.select_related=True).\n        \"\"\"",
+                    "name": "add_select_related",
+                    "namespace": "django.db.models.sql.query.Query.add_select_related",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Add data to the various extra_* attributes for user-created additions\n        to the query.\n        \"\"\"",
+                    "name": "add_extra",
+                    "namespace": "django.db.models.sql.query.Query.add_extra",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Remove any fields from the deferred loading set.\"\"\"",
+                    "name": "clear_deferred_loading",
+                    "namespace": "django.db.models.sql.query.Query.clear_deferred_loading",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Add the given list of model field names to the set of fields to\n        exclude from loading from the database when automatic column selection\n        is done. Add the new field names to any existing field names that\n        are deferred (or removed from any existing field names that are marked\n        as the only ones for immediate loading).\n        \"\"\"",
+                    "name": "add_deferred_loading",
+                    "namespace": "django.db.models.sql.query.Query.add_deferred_loading",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Add the given list of model field names to the set of fields to\n        retrieve when the SQL is executed (\"immediate loading\" fields). The\n        field names replace any existing immediate loading field names. If\n        there are field names already specified for deferred loading, remove\n        those names from the new field_names before storing the new names\n        for immediate loading. (That is, immediate loading overrides any\n        existing immediate values, but respects existing deferrals.)\n        \"\"\"",
+                    "name": "add_immediate_loading",
+                    "namespace": "django.db.models.sql.query.Query.add_immediate_loading",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        If any fields are marked to be deferred, return a dictionary mapping\n        models to a set of names in those fields that will be loaded. If a\n        model is not in the returned dictionary, none of its fields are\n        deferred.\n\n        If no fields are marked for deferral, return an empty dictionary.\n        \"\"\"",
+                    "name": "get_loaded_field_names",
+                    "namespace": "django.db.models.sql.query.Query.get_loaded_field_names",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Callback used by get_deferred_field_names().\"\"\"",
+                    "name": "get_loaded_field_names_cb",
+                    "namespace": "django.db.models.sql.query.Query.get_loaded_field_names_cb",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Set the mask of annotations that will be returned by the SELECT.\"\"\"",
+                    "name": "set_annotation_mask",
+                    "namespace": "django.db.models.sql.query.Query.set_annotation_mask",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "append_annotation_mask",
+                    "namespace": "django.db.models.sql.query.Query.append_annotation_mask",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Set the mask of extra select items that will be returned by SELECT.\n        Don't remove them from the Query since they might be used later.\n        \"\"\"",
+                    "name": "set_extra_mask",
+                    "namespace": "django.db.models.sql.query.Query.set_extra_mask",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "set_values",
+                    "namespace": "django.db.models.sql.query.Query.set_values",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the dictionary of aggregate columns that are not masked and\n        should be used in the SELECT clause. Cache this result for performance.\n        \"\"\"",
+                    "name": "annotation_select",
+                    "namespace": "django.db.models.sql.query.Query.annotation_select",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "extra_select",
+                    "namespace": "django.db.models.sql.query.Query.extra_select",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Trim joins from the start of the join path. The candidates for trim\n        are the PathInfos in names_with_path structure that are m2m joins.\n\n        Also set the select column so the start matches the join.\n\n        This method is meant to be used for generating the subquery joins &\n        cols in split_exclude().\n\n        Return a lookup usable for doing outerq.filter(lookup=self) and a\n        boolean indicating if the joins in the prefix contain a LEFT OUTER join.\n        _\"\"\"",
+                    "name": "trim_start",
+                    "namespace": "django.db.models.sql.query.Query.trim_start",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Check if the given field should be treated as nullable.\n\n        Some backends treat '' as null and Django treats such fields as\n        nullable for those backends. In such situations field.null can be\n        False even if we should treat the field as nullable.\n        \"\"\"",
+                    "name": "is_nullable",
+                    "namespace": "django.db.models.sql.query.Query.is_nullable",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    A class to abstract away join promotion problems for complex filter\n    conditions.\n    \"\"\"",
             "name": "JoinPromoter",
-            "namespace": "django.db.models.sql.query.JoinPromoter"
+            "namespace": "django.db.models.sql.query.JoinPromoter",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.sql.query.JoinPromoter.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Add single vote per item to self.votes. Parameter can be any\n        iterable.\n        \"\"\"",
+                    "name": "add_votes",
+                    "namespace": "django.db.models.sql.query.JoinPromoter.add_votes",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Change join types so that the generated query is as efficient as\n        possible, but still correct. So, change as many joins as possible\n        to INNER, but don't make OUTER joins INNER if that could remove\n        results from the query.\n        \"\"\"",
+                    "name": "update_join_types",
+                    "namespace": "django.db.models.sql.query.JoinPromoter.update_join_types",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "",
+            "name": "get_field_names_from_opts",
+            "namespace": "django.db.models.sql.query.get_field_names_from_opts",
+            "class_name": "",
+            "module_name": "django.db.models.sql.query",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_children_from_q",
+            "namespace": "django.db.models.sql.query.get_children_from_q",
+            "class_name": "",
+            "module_name": "django.db.models.sql.query",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return the field name and direction for an order specification. For\n    example, '-foo' is returned as ('foo', 'DESC').\n\n    The 'default' param is used to indicate which way no prefix (or a '+'\n    prefix) should sort. The '-' prefix always sorts the opposite way.\n    \"\"\"",
+            "name": "get_order_dir",
+            "namespace": "django.db.models.sql.query.get_order_dir",
+            "class_name": "",
+            "module_name": "django.db.models.sql.query",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Add \"value\" to the set of values for \"key\", whether or not \"key\" already\n    exists.\n    \"\"\"",
+            "name": "add_to_dict",
+            "namespace": "django.db.models.sql.query.add_to_dict",
+            "class_name": "",
+            "module_name": "django.db.models.sql.query",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Check if the given field is reverse-o2o. The field is expected to be some\n    sort of relation field or related object.\n    \"\"\"",
+            "name": "is_reverse_o2o",
+            "namespace": "django.db.models.sql.query.is_reverse_o2o",
+            "class_name": "",
+            "module_name": "django.db.models.sql.query",
+            "package_name": ""
         }
     ],
     "package_name": "django.db.models.sql"

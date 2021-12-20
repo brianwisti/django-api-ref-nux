@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Updating a user's password logs out all sessions for the user.\n\n    Take the current request and the updated user object from which the new\n    session hash will be derived and update the session hash appropriately to\n    prevent a password change from logging out the session from which the\n    password was changed.\n    \"\"\"",
+    "name": "update_session_auth_hash",
+    "namespace": "django.contrib.auth.update_session_auth_hash",
+    "class_name": "",
+    "module_name": "django.contrib.auth",
+    "package_name": "django.contrib.auth"
+}

@@ -2,5 +2,31 @@
     "namespace": "django.contrib.auth.decorators",
     "docstring": "",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Decorator for views that checks that the user passes the given test,\n    redirecting to the log-in page if necessary. The test should be a callable\n    that takes the user object and returns True if the user passes.\n    \"\"\"",
+            "name": "user_passes_test",
+            "namespace": "django.contrib.auth.decorators.user_passes_test",
+            "class_name": "",
+            "module_name": "django.contrib.auth.decorators",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Decorator for views that checks that the user is logged in, redirecting\n    to the log-in page if necessary.\n    \"\"\"",
+            "name": "login_required",
+            "namespace": "django.contrib.auth.decorators.login_required",
+            "class_name": "",
+            "module_name": "django.contrib.auth.decorators",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Decorator for views that checks whether a user has a particular permission\n    enabled, redirecting to the log-in page if necessary.\n    If the raise_exception parameter is given the PermissionDenied exception\n    is raised.\n    \"\"\"",
+            "name": "permission_required",
+            "namespace": "django.contrib.auth.decorators.permission_required",
+            "class_name": "",
+            "module_name": "django.contrib.auth.decorators",
+            "package_name": ""
+        }
+    ],
     "package_name": "django.contrib.auth"
 }

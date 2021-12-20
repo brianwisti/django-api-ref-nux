@@ -5,22 +5,223 @@
         {
             "docstring": "",
             "name": "Element",
-            "namespace": "django.test.html.Element"
+            "namespace": "django.test.html.Element",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.test.html.Element.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "append",
+                    "namespace": "django.test.html.Element.append",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "finalize",
+                    "namespace": "django.test.html.Element.finalize",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__eq__",
+                    "namespace": "django.test.html.Element.__eq__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__hash__",
+                    "namespace": "django.test.html.Element.__hash__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_count",
+                    "namespace": "django.test.html.Element._count",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__contains__",
+                    "namespace": "django.test.html.Element.__contains__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "count",
+                    "namespace": "django.test.html.Element.count",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__getitem__",
+                    "namespace": "django.test.html.Element.__getitem__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__str__",
+                    "namespace": "django.test.html.Element.__str__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.test.html.Element.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "RootElement",
-            "namespace": "django.test.html.RootElement"
+            "namespace": "django.test.html.RootElement",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.test.html.RootElement.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__str__",
+                    "namespace": "django.test.html.RootElement.__str__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "HTMLParseError",
-            "namespace": "django.test.html.HTMLParseError"
+            "namespace": "django.test.html.HTMLParseError",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "Parser",
-            "namespace": "django.test.html.Parser"
+            "namespace": "django.test.html.Parser",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.test.html.Parser.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "error",
+                    "namespace": "django.test.html.Parser.error",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "format_position",
+                    "namespace": "django.test.html.Parser.format_position",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "current",
+                    "namespace": "django.test.html.Parser.current",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "handle_startendtag",
+                    "namespace": "django.test.html.Parser.handle_startendtag",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "handle_starttag",
+                    "namespace": "django.test.html.Parser.handle_starttag",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "handle_endtag",
+                    "namespace": "django.test.html.Parser.handle_endtag",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "handle_data",
+                    "namespace": "django.test.html.Parser.handle_data",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "",
+            "name": "normalize_whitespace",
+            "namespace": "django.test.html.normalize_whitespace",
+            "class_name": "",
+            "module_name": "django.test.html",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "normalize_attributes",
+            "namespace": "django.test.html.normalize_attributes",
+            "class_name": "",
+            "module_name": "django.test.html",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Take a string that contains HTML and turn it into a Python object structure\n    that can be easily compared against other HTML on semantic equivalence.\n    Syntactical differences like which quotation is used on arguments will be\n    ignored.\n    \"\"\"",
+            "name": "parse_html",
+            "namespace": "django.test.html.parse_html",
+            "class_name": "",
+            "module_name": "django.test.html",
+            "package_name": ""
         }
     ],
     "package_name": "django.test"

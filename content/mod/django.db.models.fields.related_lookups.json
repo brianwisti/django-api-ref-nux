@@ -5,47 +5,141 @@
         {
             "docstring": "",
             "name": "MultiColSource",
-            "namespace": "django.db.models.fields.related_lookups.MultiColSource"
+            "namespace": "django.db.models.fields.related_lookups.MultiColSource",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.fields.related_lookups.MultiColSource.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.db.models.fields.related_lookups.MultiColSource.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "relabeled_clone",
+                    "namespace": "django.db.models.fields.related_lookups.MultiColSource.relabeled_clone",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_lookup",
+                    "namespace": "django.db.models.fields.related_lookups.MultiColSource.get_lookup",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "resolve_expression",
+                    "namespace": "django.db.models.fields.related_lookups.MultiColSource.resolve_expression",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "RelatedIn",
-            "namespace": "django.db.models.fields.related_lookups.RelatedIn"
+            "namespace": "django.db.models.fields.related_lookups.RelatedIn",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_prep_lookup",
+                    "namespace": "django.db.models.fields.related_lookups.RelatedIn.get_prep_lookup",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.db.models.fields.related_lookups.RelatedIn.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "RelatedLookupMixin",
-            "namespace": "django.db.models.fields.related_lookups.RelatedLookupMixin"
+            "namespace": "django.db.models.fields.related_lookups.RelatedLookupMixin",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_prep_lookup",
+                    "namespace": "django.db.models.fields.related_lookups.RelatedLookupMixin.get_prep_lookup",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.db.models.fields.related_lookups.RelatedLookupMixin.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "RelatedExact",
-            "namespace": "django.db.models.fields.related_lookups.RelatedExact"
+            "namespace": "django.db.models.fields.related_lookups.RelatedExact",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "RelatedLessThan",
-            "namespace": "django.db.models.fields.related_lookups.RelatedLessThan"
+            "namespace": "django.db.models.fields.related_lookups.RelatedLessThan",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "RelatedGreaterThan",
-            "namespace": "django.db.models.fields.related_lookups.RelatedGreaterThan"
+            "namespace": "django.db.models.fields.related_lookups.RelatedGreaterThan",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "RelatedGreaterThanOrEqual",
-            "namespace": "django.db.models.fields.related_lookups.RelatedGreaterThanOrEqual"
+            "namespace": "django.db.models.fields.related_lookups.RelatedGreaterThanOrEqual",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "RelatedLessThanOrEqual",
-            "namespace": "django.db.models.fields.related_lookups.RelatedLessThanOrEqual"
+            "namespace": "django.db.models.fields.related_lookups.RelatedLessThanOrEqual",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "RelatedIsNull",
-            "namespace": "django.db.models.fields.related_lookups.RelatedIsNull"
+            "namespace": "django.db.models.fields.related_lookups.RelatedIsNull",
+            "methods": []
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "",
+            "name": "get_normalized_value",
+            "namespace": "django.db.models.fields.related_lookups.get_normalized_value",
+            "class_name": "",
+            "module_name": "django.db.models.fields.related_lookups",
+            "package_name": ""
         }
     ],
     "package_name": "django.db.models.fields"

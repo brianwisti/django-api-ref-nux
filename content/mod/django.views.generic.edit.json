@@ -5,68 +5,297 @@
         {
             "docstring": "\"\"\"Provide a way to show and handle a form in a request.\"\"\"",
             "name": "FormMixin",
-            "namespace": "django.views.generic.edit.FormMixin"
+            "namespace": "django.views.generic.edit.FormMixin",
+            "methods": [
+                {
+                    "docstring": "\"\"\"Return the initial data to use for forms on this view.\"\"\"",
+                    "name": "get_initial",
+                    "namespace": "django.views.generic.edit.FormMixin.get_initial",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return the prefix to use for forms.\"\"\"",
+                    "name": "get_prefix",
+                    "namespace": "django.views.generic.edit.FormMixin.get_prefix",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return the form class to use.\"\"\"",
+                    "name": "get_form_class",
+                    "namespace": "django.views.generic.edit.FormMixin.get_form_class",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return an instance of the form to be used in this view.\"\"\"",
+                    "name": "get_form",
+                    "namespace": "django.views.generic.edit.FormMixin.get_form",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return the keyword arguments for instantiating the form.\"\"\"",
+                    "name": "get_form_kwargs",
+                    "namespace": "django.views.generic.edit.FormMixin.get_form_kwargs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return the URL to redirect to after processing a valid form.\"\"\"",
+                    "name": "get_success_url",
+                    "namespace": "django.views.generic.edit.FormMixin.get_success_url",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"If the form is valid, redirect to the supplied URL.\"\"\"",
+                    "name": "form_valid",
+                    "namespace": "django.views.generic.edit.FormMixin.form_valid",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"If the form is invalid, render the invalid form.\"\"\"",
+                    "name": "form_invalid",
+                    "namespace": "django.views.generic.edit.FormMixin.form_invalid",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Insert the form into the context dict.\"\"\"",
+                    "name": "get_context_data",
+                    "namespace": "django.views.generic.edit.FormMixin.get_context_data",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"Provide a way to show and handle a ModelForm in a request.\"\"\"",
             "name": "ModelFormMixin",
-            "namespace": "django.views.generic.edit.ModelFormMixin"
+            "namespace": "django.views.generic.edit.ModelFormMixin",
+            "methods": [
+                {
+                    "docstring": "\"\"\"Return the form class to use in this view.\"\"\"",
+                    "name": "get_form_class",
+                    "namespace": "django.views.generic.edit.ModelFormMixin.get_form_class",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return the keyword arguments for instantiating the form.\"\"\"",
+                    "name": "get_form_kwargs",
+                    "namespace": "django.views.generic.edit.ModelFormMixin.get_form_kwargs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return the URL to redirect to after processing a valid form.\"\"\"",
+                    "name": "get_success_url",
+                    "namespace": "django.views.generic.edit.ModelFormMixin.get_success_url",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"If the form is valid, save the associated model.\"\"\"",
+                    "name": "form_valid",
+                    "namespace": "django.views.generic.edit.ModelFormMixin.form_valid",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"Render a form on GET and processes it on POST.\"\"\"",
             "name": "ProcessFormView",
-            "namespace": "django.views.generic.edit.ProcessFormView"
+            "namespace": "django.views.generic.edit.ProcessFormView",
+            "methods": [
+                {
+                    "docstring": "\"\"\"Handle GET requests: instantiate a blank version of the form.\"\"\"",
+                    "name": "get",
+                    "namespace": "django.views.generic.edit.ProcessFormView.get",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Handle POST requests: instantiate a form instance with the passed\n        POST variables and then check if it's valid.\n        \"\"\"",
+                    "name": "post",
+                    "namespace": "django.views.generic.edit.ProcessFormView.post",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "put",
+                    "namespace": "django.views.generic.edit.ProcessFormView.put",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"A base view for displaying a form.\"\"\"",
             "name": "BaseFormView",
-            "namespace": "django.views.generic.edit.BaseFormView"
+            "namespace": "django.views.generic.edit.BaseFormView",
+            "methods": []
         },
         {
             "docstring": "\"\"\"A view for displaying a form and rendering a template response.\"\"\"",
             "name": "FormView",
-            "namespace": "django.views.generic.edit.FormView"
+            "namespace": "django.views.generic.edit.FormView",
+            "methods": []
         },
         {
             "docstring": "\"\"\"\n    Base view for creating a new object instance.\n\n    Using this base class requires subclassing to provide a response mixin.\n    \"\"\"",
             "name": "BaseCreateView",
-            "namespace": "django.views.generic.edit.BaseCreateView"
+            "namespace": "django.views.generic.edit.BaseCreateView",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get",
+                    "namespace": "django.views.generic.edit.BaseCreateView.get",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "post",
+                    "namespace": "django.views.generic.edit.BaseCreateView.post",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    View for creating a new object, with a response rendered by a template.\n    \"\"\"",
             "name": "CreateView",
-            "namespace": "django.views.generic.edit.CreateView"
+            "namespace": "django.views.generic.edit.CreateView",
+            "methods": []
         },
         {
             "docstring": "\"\"\"\n    Base view for updating an existing object.\n\n    Using this base class requires subclassing to provide a response mixin.\n    \"\"\"",
             "name": "BaseUpdateView",
-            "namespace": "django.views.generic.edit.BaseUpdateView"
+            "namespace": "django.views.generic.edit.BaseUpdateView",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get",
+                    "namespace": "django.views.generic.edit.BaseUpdateView.get",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "post",
+                    "namespace": "django.views.generic.edit.BaseUpdateView.post",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"View for updating an object, with a response rendered by a template.\"\"\"",
             "name": "UpdateView",
-            "namespace": "django.views.generic.edit.UpdateView"
+            "namespace": "django.views.generic.edit.UpdateView",
+            "methods": []
         },
         {
             "docstring": "\"\"\"Provide the ability to delete objects.\"\"\"",
             "name": "DeletionMixin",
-            "namespace": "django.views.generic.edit.DeletionMixin"
+            "namespace": "django.views.generic.edit.DeletionMixin",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        Call the delete() method on the fetched object and then redirect to the\n        success URL.\n        \"\"\"",
+                    "name": "delete",
+                    "namespace": "django.views.generic.edit.DeletionMixin.delete",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "post",
+                    "namespace": "django.views.generic.edit.DeletionMixin.post",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_success_url",
+                    "namespace": "django.views.generic.edit.DeletionMixin.get_success_url",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "DeleteViewCustomDeleteWarning",
-            "namespace": "django.views.generic.edit.DeleteViewCustomDeleteWarning"
+            "namespace": "django.views.generic.edit.DeleteViewCustomDeleteWarning",
+            "methods": []
         },
         {
             "docstring": "\"\"\"\n    Base view for deleting an object.\n\n    Using this base class requires subclassing to provide a response mixin.\n    \"\"\"",
             "name": "BaseDeleteView",
-            "namespace": "django.views.generic.edit.BaseDeleteView"
+            "namespace": "django.views.generic.edit.BaseDeleteView",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.views.generic.edit.BaseDeleteView.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "post",
+                    "namespace": "django.views.generic.edit.BaseDeleteView.post",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "form_valid",
+                    "namespace": "django.views.generic.edit.BaseDeleteView.form_valid",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    View for deleting an object retrieved with self.get_object(), with a\n    response rendered by a template.\n    \"\"\"",
             "name": "DeleteView",
-            "namespace": "django.views.generic.edit.DeleteView"
+            "namespace": "django.views.generic.edit.DeleteView",
+            "methods": []
         }
     ],
+    "functions": [],
     "package_name": "django.views.generic"
 }

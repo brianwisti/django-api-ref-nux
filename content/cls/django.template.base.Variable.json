@@ -3,5 +3,47 @@
     "name": "Variable",
     "namespace": "django.template.base.Variable",
     "module_name": "django.template.base",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.template.base.Variable.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Resolve this variable against a given context.\"\"\"",
+            "name": "resolve",
+            "namespace": "django.template.base.Variable.resolve",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__repr__",
+            "namespace": "django.template.base.Variable.__repr__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__str__",
+            "namespace": "django.template.base.Variable.__str__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Perform resolution of a real variable (i.e. not a literal) against the\n        given context.\n\n        As indicated by the method's name, this method is an implementation\n        detail and shouldn't be called by external code. Use Variable.resolve()\n        instead.\n        \"\"\"",
+            "name": "_resolve_lookup",
+            "namespace": "django.template.base.Variable._resolve_lookup",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

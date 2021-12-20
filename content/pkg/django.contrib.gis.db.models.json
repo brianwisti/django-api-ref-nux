@@ -2,31 +2,46 @@
     "name": "django.contrib.gis.db.models",
     "docstring": "",
     "package_name": "django.contrib.gis.db",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.contrib.gis.db.models.functions",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.gis.db.models"
         },
         {
             "namespace": "django.contrib.gis.db.models.fields",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Return the units, unit name, and spheroid WKT associated with the\n    given SRID from the `spatial_ref_sys` (or equivalent) spatial database\n    table for the given database connection.  These results are cached.\n    \"\"\"",
+                    "name": "get_srid_info",
+                    "namespace": "django.contrib.gis.db.models.fields.get_srid_info",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.db.models.fields",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.gis.db.models"
         },
         {
             "namespace": "django.contrib.gis.db.models.proxy",
             "docstring": "\"\"\"\nThe SpatialProxy object allows for lazy-geometries and lazy-rasters. The proxy\nuses Python descriptors for instantiating and setting Geometry or Raster\nobjects corresponding to geographic model fields.\n\nThanks to Robert Coup for providing this functionality (see #4322).\n\"\"\"",
+            "functions": [],
             "package_name": "django.contrib.gis.db.models"
         },
         {
             "namespace": "django.contrib.gis.db.models.lookups",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.gis.db.models"
         },
         {
             "namespace": "django.contrib.gis.db.models.aggregates",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.gis.db.models"
         }
     ],
@@ -34,7 +49,8 @@
         {
             "name": "django.contrib.gis.db.models.sql",
             "docstring": "",
-            "package_name": "django.contrib.gis.db.models"
+            "package_name": "django.contrib.gis.db.models",
+            "functions": []
         }
     ]
 }

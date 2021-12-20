@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    A view decorator that adds \"Cookie\" to the Vary header of a response. This\n    indicates that a page's contents depends on cookies. Usage:\n\n        @vary_on_cookie\n        def index(request):\n            ...\n    \"\"\"",
+    "name": "vary_on_cookie",
+    "namespace": "django.views.decorators.vary.vary_on_cookie",
+    "class_name": "",
+    "module_name": "django.views.decorators.vary",
+    "package_name": ""
+}

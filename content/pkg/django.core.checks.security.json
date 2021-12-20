@@ -2,21 +2,228 @@
     "name": "django.core.checks.security",
     "docstring": "",
     "package_name": "django.core.checks",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.core.checks.security.sessions",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "add_session_cookie_message",
+                    "namespace": "django.core.checks.security.sessions.add_session_cookie_message",
+                    "class_name": "",
+                    "module_name": "django.core.checks.security.sessions",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "add_httponly_message",
+                    "namespace": "django.core.checks.security.sessions.add_httponly_message",
+                    "class_name": "",
+                    "module_name": "django.core.checks.security.sessions",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check_session_cookie_secure",
+                    "namespace": "django.core.checks.security.sessions.check_session_cookie_secure",
+                    "class_name": "",
+                    "module_name": "django.core.checks.security.sessions",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check_session_cookie_httponly",
+                    "namespace": "django.core.checks.security.sessions.check_session_cookie_httponly",
+                    "class_name": "",
+                    "module_name": "django.core.checks.security.sessions",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_session_middleware",
+                    "namespace": "django.core.checks.security.sessions._session_middleware",
+                    "class_name": "",
+                    "module_name": "django.core.checks.security.sessions",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_session_app",
+                    "namespace": "django.core.checks.security.sessions._session_app",
+                    "class_name": "",
+                    "module_name": "django.core.checks.security.sessions",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.core.checks.security"
         },
         {
             "namespace": "django.core.checks.security.csrf",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "_csrf_middleware",
+                    "namespace": "django.core.checks.security.csrf._csrf_middleware",
+                    "class_name": "",
+                    "module_name": "django.core.checks.security.csrf",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check_csrf_middleware",
+                    "namespace": "django.core.checks.security.csrf.check_csrf_middleware",
+                    "class_name": "",
+                    "module_name": "django.core.checks.security.csrf",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check_csrf_cookie_secure",
+                    "namespace": "django.core.checks.security.csrf.check_csrf_cookie_secure",
+                    "class_name": "",
+                    "module_name": "django.core.checks.security.csrf",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check_csrf_failure_view",
+                    "namespace": "django.core.checks.security.csrf.check_csrf_failure_view",
+                    "class_name": "",
+                    "module_name": "django.core.checks.security.csrf",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.core.checks.security"
         },
         {
             "namespace": "django.core.checks.security.base",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "_security_middleware",
+                    "namespace": "django.core.checks.security.base._security_middleware",
+                    "class_name": "",
+                    "module_name": "django.core.checks.security.base",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_xframe_middleware",
+                    "namespace": "django.core.checks.security.base._xframe_middleware",
+                    "class_name": "",
+                    "module_name": "django.core.checks.security.base",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check_security_middleware",
+                    "namespace": "django.core.checks.security.base.check_security_middleware",
+                    "class_name": "",
+                    "module_name": "django.core.checks.security.base",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check_xframe_options_middleware",
+                    "namespace": "django.core.checks.security.base.check_xframe_options_middleware",
+                    "class_name": "",
+                    "module_name": "django.core.checks.security.base",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check_sts",
+                    "namespace": "django.core.checks.security.base.check_sts",
+                    "class_name": "",
+                    "module_name": "django.core.checks.security.base",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check_sts_include_subdomains",
+                    "namespace": "django.core.checks.security.base.check_sts_include_subdomains",
+                    "class_name": "",
+                    "module_name": "django.core.checks.security.base",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check_sts_preload",
+                    "namespace": "django.core.checks.security.base.check_sts_preload",
+                    "class_name": "",
+                    "module_name": "django.core.checks.security.base",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check_content_type_nosniff",
+                    "namespace": "django.core.checks.security.base.check_content_type_nosniff",
+                    "class_name": "",
+                    "module_name": "django.core.checks.security.base",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check_ssl_redirect",
+                    "namespace": "django.core.checks.security.base.check_ssl_redirect",
+                    "class_name": "",
+                    "module_name": "django.core.checks.security.base",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check_secret_key",
+                    "namespace": "django.core.checks.security.base.check_secret_key",
+                    "class_name": "",
+                    "module_name": "django.core.checks.security.base",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check_debug",
+                    "namespace": "django.core.checks.security.base.check_debug",
+                    "class_name": "",
+                    "module_name": "django.core.checks.security.base",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check_xframe_deny",
+                    "namespace": "django.core.checks.security.base.check_xframe_deny",
+                    "class_name": "",
+                    "module_name": "django.core.checks.security.base",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check_allowed_hosts",
+                    "namespace": "django.core.checks.security.base.check_allowed_hosts",
+                    "class_name": "",
+                    "module_name": "django.core.checks.security.base",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check_referrer_policy",
+                    "namespace": "django.core.checks.security.base.check_referrer_policy",
+                    "class_name": "",
+                    "module_name": "django.core.checks.security.base",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check_cross_origin_opener_policy",
+                    "namespace": "django.core.checks.security.base.check_cross_origin_opener_policy",
+                    "class_name": "",
+                    "module_name": "django.core.checks.security.base",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.core.checks.security"
         }
     ],

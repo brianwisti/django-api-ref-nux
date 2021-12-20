@@ -3,5 +3,79 @@
     "name": "GenericIPAddressField",
     "namespace": "django.db.models.fields.GenericIPAddressField",
     "module_name": "django.db.models.fields",
-    "package_name": "django.db.models.fields"
+    "package_name": "django.db.models.fields",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.db.models.fields.GenericIPAddressField.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "check",
+            "namespace": "django.db.models.fields.GenericIPAddressField.check",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_check_blank_and_null_values",
+            "namespace": "django.db.models.fields.GenericIPAddressField._check_blank_and_null_values",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "deconstruct",
+            "namespace": "django.db.models.fields.GenericIPAddressField.deconstruct",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_internal_type",
+            "namespace": "django.db.models.fields.GenericIPAddressField.get_internal_type",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "to_python",
+            "namespace": "django.db.models.fields.GenericIPAddressField.to_python",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_db_prep_value",
+            "namespace": "django.db.models.fields.GenericIPAddressField.get_db_prep_value",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_prep_value",
+            "namespace": "django.db.models.fields.GenericIPAddressField.get_prep_value",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "formfield",
+            "namespace": "django.db.models.fields.GenericIPAddressField.formfield",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

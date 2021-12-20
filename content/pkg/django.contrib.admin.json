@@ -2,76 +2,378 @@
     "name": "django.contrib.admin",
     "docstring": "",
     "package_name": "django.contrib",
+    "functions": [
+        {
+            "docstring": "",
+            "name": "autodiscover",
+            "namespace": "django.contrib.admin.autodiscover",
+            "class_name": "",
+            "module_name": "django.contrib.admin",
+            "package_name": "django.contrib.admin"
+        }
+    ],
     "classes": [],
     "modules": [
         {
             "namespace": "django.contrib.admin.options",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "get_content_type_for_model",
+                    "namespace": "django.contrib.admin.options.get_content_type_for_model",
+                    "class_name": "",
+                    "module_name": "django.contrib.admin.options",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_ul_class",
+                    "namespace": "django.contrib.admin.options.get_ul_class",
+                    "class_name": "",
+                    "module_name": "django.contrib.admin.options",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.admin"
         },
         {
             "namespace": "django.contrib.admin.models",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.admin"
         },
         {
             "namespace": "django.contrib.admin.checks",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    issubclass() variant that doesn't raise an exception if cls isn't a\n    class.\n    \"\"\"",
+                    "name": "_issubclass",
+                    "namespace": "django.contrib.admin.checks._issubclass",
+                    "class_name": "",
+                    "module_name": "django.contrib.admin.checks",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return whether or not a dotted class path (or a subclass of that class) is\n    found in a list of candidate paths.\n    \"\"\"",
+                    "name": "_contains_subclass",
+                    "namespace": "django.contrib.admin.checks._contains_subclass",
+                    "class_name": "",
+                    "module_name": "django.contrib.admin.checks",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check_admin_app",
+                    "namespace": "django.contrib.admin.checks.check_admin_app",
+                    "class_name": "",
+                    "module_name": "django.contrib.admin.checks",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Check that the admin's dependencies are correctly installed.\n    \"\"\"",
+                    "name": "check_dependencies",
+                    "namespace": "django.contrib.admin.checks.check_dependencies",
+                    "class_name": "",
+                    "module_name": "django.contrib.admin.checks",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "must_be",
+                    "namespace": "django.contrib.admin.checks.must_be",
+                    "class_name": "",
+                    "module_name": "django.contrib.admin.checks",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "must_inherit_from",
+                    "namespace": "django.contrib.admin.checks.must_inherit_from",
+                    "class_name": "",
+                    "module_name": "django.contrib.admin.checks",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "refer_to_missing_field",
+                    "namespace": "django.contrib.admin.checks.refer_to_missing_field",
+                    "class_name": "",
+                    "module_name": "django.contrib.admin.checks",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.admin"
         },
         {
             "namespace": "django.contrib.admin.actions",
             "docstring": "\"\"\"\nBuilt-in, globally-available admin actions.\n\"\"\"",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Default action which deletes the selected objects.\n\n    This action first displays a confirmation page which shows all the\n    deletable objects, or, if the user has no permission one of the related\n    childs (foreignkeys), a \"permission denied\" message.\n\n    Next, it deletes all selected objects and redirects back to the change list.\n    \"\"\"",
+                    "name": "delete_selected",
+                    "namespace": "django.contrib.admin.actions.delete_selected",
+                    "class_name": "",
+                    "module_name": "django.contrib.admin.actions",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.admin"
         },
         {
             "namespace": "django.contrib.admin.apps",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.admin"
         },
         {
             "namespace": "django.contrib.admin.widgets",
             "docstring": "\"\"\"\nForm Widget classes specific to the Django admin site.\n\"\"\"",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Convert the type of lookups specified in a ForeignKey limit_choices_to\n    attribute to a dictionary of query parameters\n    \"\"\"",
+                    "name": "url_params_from_lookup_dict",
+                    "namespace": "django.contrib.admin.widgets.url_params_from_lookup_dict",
+                    "class_name": "",
+                    "module_name": "django.contrib.admin.widgets",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.admin"
         },
         {
             "namespace": "django.contrib.admin.forms",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.admin"
         },
         {
             "namespace": "django.contrib.admin.utils",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Return True if the given lookup path spawns duplicates.\n    \"\"\"",
+                    "name": "lookup_spawns_duplicates",
+                    "namespace": "django.contrib.admin.utils.lookup_spawns_duplicates",
+                    "class_name": "",
+                    "module_name": "django.contrib.admin.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return a lookup value prepared to be used in queryset filtering.\n    \"\"\"",
+                    "name": "prepare_lookup_value",
+                    "namespace": "django.contrib.admin.utils.prepare_lookup_value",
+                    "class_name": "",
+                    "module_name": "django.contrib.admin.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Ensure that primary key values do not confuse the admin URLs by escaping\n    any '/', '_' and ':' and similarly problematic characters.\n    Similar to urllib.parse.quote(), except that the quoting is slightly\n    different so that it doesn't get automatically unquoted by the web browser.\n    \"\"\"",
+                    "name": "quote",
+                    "namespace": "django.contrib.admin.utils.quote",
+                    "class_name": "",
+                    "module_name": "django.contrib.admin.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Undo the effects of quote().\"\"\"",
+                    "name": "unquote",
+                    "namespace": "django.contrib.admin.utils.unquote",
+                    "class_name": "",
+                    "module_name": "django.contrib.admin.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return a list which is a single level of flattening of the original list.\n    \"\"\"",
+                    "name": "flatten",
+                    "namespace": "django.contrib.admin.utils.flatten",
+                    "class_name": "",
+                    "module_name": "django.contrib.admin.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return a list of field names from an admin fieldsets structure.\"\"\"",
+                    "name": "flatten_fieldsets",
+                    "namespace": "django.contrib.admin.utils.flatten_fieldsets",
+                    "class_name": "",
+                    "module_name": "django.contrib.admin.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Find all objects related to ``objs`` that should also be deleted. ``objs``\n    must be a homogeneous iterable of objects (e.g. a QuerySet).\n\n    Return a nested list of strings suitable for display in the\n    template with the ``unordered_list`` filter.\n    \"\"\"",
+                    "name": "get_deleted_objects",
+                    "namespace": "django.contrib.admin.utils.get_deleted_objects",
+                    "class_name": "",
+                    "module_name": "django.contrib.admin.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return a `dict` with keys 'verbose_name' and 'verbose_name_plural',\n    typically for use with string formatting.\n\n    `obj` may be a `Model` instance, `Model` subclass, or `QuerySet` instance.\n    \"\"\"",
+                    "name": "model_format_dict",
+                    "namespace": "django.contrib.admin.utils.model_format_dict",
+                    "class_name": "",
+                    "module_name": "django.contrib.admin.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return the appropriate `verbose_name` or `verbose_name_plural` value for\n    `obj` depending on the count `n`.\n\n    `obj` may be a `Model` instance, `Model` subclass, or `QuerySet` instance.\n    If `obj` is a `QuerySet` instance, `n` is optional and the length of the\n    `QuerySet` is used.\n    \"\"\"",
+                    "name": "model_ngettext",
+                    "namespace": "django.contrib.admin.utils.model_ngettext",
+                    "class_name": "",
+                    "module_name": "django.contrib.admin.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "lookup_field",
+                    "namespace": "django.contrib.admin.utils.lookup_field",
+                    "class_name": "",
+                    "module_name": "django.contrib.admin.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    For historical reasons, the admin app relies on GenericForeignKeys as being\n    \"not found\" by get_field(). This could likely be cleaned up.\n\n    Reverse relations should also be excluded as these aren't attributes of the\n    model (rather something like `foo_set`).\n    \"\"\"",
+                    "name": "_get_non_gfk_field",
+                    "namespace": "django.contrib.admin.utils._get_non_gfk_field",
+                    "class_name": "",
+                    "module_name": "django.contrib.admin.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return a sensible label for a field name. The name can be a callable,\n    property (but not created with @property decorator), or the name of an\n    object's attribute, as well as a model field. If return_attr is True, also\n    return the resolved attribute (which could be a callable). This will be\n    None if (and only if) the name refers to a field.\n    \"\"\"",
+                    "name": "label_for_field",
+                    "namespace": "django.contrib.admin.utils.label_for_field",
+                    "class_name": "",
+                    "module_name": "django.contrib.admin.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "help_text_for_field",
+                    "namespace": "django.contrib.admin.utils.help_text_for_field",
+                    "class_name": "",
+                    "module_name": "django.contrib.admin.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "display_for_field",
+                    "namespace": "django.contrib.admin.utils.display_for_field",
+                    "class_name": "",
+                    "module_name": "django.contrib.admin.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "display_for_value",
+                    "namespace": "django.contrib.admin.utils.display_for_value",
+                    "class_name": "",
+                    "module_name": "django.contrib.admin.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_model_from_relation",
+                    "namespace": "django.contrib.admin.utils.get_model_from_relation",
+                    "class_name": "",
+                    "module_name": "django.contrib.admin.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\" Create a reversed field path.\n\n    E.g. Given (Order, \"user__groups\"),\n    return (Group, \"user__order\").\n\n    Final field must be a related model, not a data field.\n    \"\"\"",
+                    "name": "reverse_field_path",
+                    "namespace": "django.contrib.admin.utils.reverse_field_path",
+                    "class_name": "",
+                    "module_name": "django.contrib.admin.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\" Return list of Fields given path relative to model.\n\n    e.g. (ModelX, \"user__groups__name\") -> [\n        <django.db.models.fields.related.ForeignKey object at 0x...>,\n        <django.db.models.fields.related.ManyToManyField object at 0x...>,\n        <django.db.models.fields.CharField object at 0x...>,\n    ]\n    \"\"\"",
+                    "name": "get_fields_from_path",
+                    "namespace": "django.contrib.admin.utils.get_fields_from_path",
+                    "class_name": "",
+                    "module_name": "django.contrib.admin.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Construct a JSON structure describing changes from a changed object.\n    Translations are deactivated so that strings are stored untranslated.\n    Translation happens later on LogEntry access.\n    \"\"\"",
+                    "name": "construct_change_message",
+                    "namespace": "django.contrib.admin.utils.construct_change_message",
+                    "class_name": "",
+                    "module_name": "django.contrib.admin.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_get_changed_field_labels_from_form",
+                    "namespace": "django.contrib.admin.utils._get_changed_field_labels_from_form",
+                    "class_name": "",
+                    "module_name": "django.contrib.admin.utils",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.admin"
         },
         {
             "namespace": "django.contrib.admin.sites",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.admin"
         },
         {
             "namespace": "django.contrib.admin.exceptions",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.admin"
         },
         {
             "namespace": "django.contrib.admin.tests",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.admin"
         },
         {
             "namespace": "django.contrib.admin.helpers",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.admin"
         },
         {
             "namespace": "django.contrib.admin.filters",
             "docstring": "\"\"\"\nThis encapsulates the logic for displaying filters in the Django admin.\nFilters are specified in models with the \"list_filter\" option.\n\nEach filter subclass knows how to display a filter for a field that passes a\ncertain test -- e.g. being a DateField or ForeignKey.\n\"\"\"",
+            "functions": [],
             "package_name": "django.contrib.admin"
         },
         {
             "namespace": "django.contrib.admin.decorators",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Conveniently add attributes to an action function::\n\n        @admin.action(\n            permissions=['publish'],\n            description='Mark selected stories as published',\n        )\n        def make_published(self, request, queryset):\n            queryset.update(status='p')\n\n    This is equivalent to setting some attributes (with the original, longer\n    names) on the function directly::\n\n        def make_published(self, request, queryset):\n            queryset.update(status='p')\n        make_published.allowed_permissions = ['publish']\n        make_published.short_description = 'Mark selected stories as published'\n    \"\"\"",
+                    "name": "action",
+                    "namespace": "django.contrib.admin.decorators.action",
+                    "class_name": "",
+                    "module_name": "django.contrib.admin.decorators",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Conveniently add attributes to a display function::\n\n        @admin.display(\n            boolean=True,\n            ordering='-publish_date',\n            description='Is Published?',\n        )\n        def is_published(self, obj):\n            return obj.publish_date is not None\n\n    This is equivalent to setting some attributes (with the original, longer\n    names) on the function directly::\n\n        def is_published(self, obj):\n            return obj.publish_date is not None\n        is_published.boolean = True\n        is_published.admin_order_field = '-publish_date'\n        is_published.short_description = 'Is Published?'\n    \"\"\"",
+                    "name": "display",
+                    "namespace": "django.contrib.admin.decorators.display",
+                    "class_name": "",
+                    "module_name": "django.contrib.admin.decorators",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Register the given model(s) classes and wrapped ModelAdmin class with\n    admin site:\n\n    @register(Author)\n    class AuthorAdmin(admin.ModelAdmin):\n        pass\n\n    The `site` kwarg is an admin site to use instead of the default admin site.\n    \"\"\"",
+                    "name": "register",
+                    "namespace": "django.contrib.admin.decorators.register",
+                    "class_name": "",
+                    "module_name": "django.contrib.admin.decorators",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.admin"
         }
     ],
@@ -79,17 +381,20 @@
         {
             "name": "django.contrib.admin.templatetags",
             "docstring": "",
-            "package_name": "django.contrib.admin"
+            "package_name": "django.contrib.admin",
+            "functions": []
         },
         {
             "name": "django.contrib.admin.migrations",
             "docstring": "",
-            "package_name": "django.contrib.admin"
+            "package_name": "django.contrib.admin",
+            "functions": []
         },
         {
             "name": "django.contrib.admin.views",
             "docstring": "",
-            "package_name": "django.contrib.admin"
+            "package_name": "django.contrib.admin",
+            "functions": []
         }
     ]
 }

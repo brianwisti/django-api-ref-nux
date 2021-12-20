@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Return a 4-tuple extent for the `Extent` aggregate by converting\n        the bounding box text returned by PostGIS (`box` argument), for\n        example: \"BOX(-90.0 30.0, -85.0 40.0)\".\n        \"\"\"",
+    "name": "convert_extent",
+    "namespace": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.convert_extent",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

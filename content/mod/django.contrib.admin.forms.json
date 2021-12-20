@@ -5,13 +5,25 @@
         {
             "docstring": "\"\"\"\n    A custom authentication form used in the admin app.\n    \"\"\"",
             "name": "AdminAuthenticationForm",
-            "namespace": "django.contrib.admin.forms.AdminAuthenticationForm"
+            "namespace": "django.contrib.admin.forms.AdminAuthenticationForm",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "confirm_login_allowed",
+                    "namespace": "django.contrib.admin.forms.AdminAuthenticationForm.confirm_login_allowed",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "AdminPasswordChangeForm",
-            "namespace": "django.contrib.admin.forms.AdminPasswordChangeForm"
+            "namespace": "django.contrib.admin.forms.AdminPasswordChangeForm",
+            "methods": []
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.admin"
 }

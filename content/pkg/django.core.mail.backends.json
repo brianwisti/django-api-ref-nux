@@ -2,36 +2,43 @@
     "name": "django.core.mail.backends",
     "docstring": "",
     "package_name": "django.core.mail",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.core.mail.backends.console",
             "docstring": "\"\"\"\nEmail backend that writes messages to console instead of sending them.\n\"\"\"",
+            "functions": [],
             "package_name": "django.core.mail.backends"
         },
         {
             "namespace": "django.core.mail.backends.filebased",
             "docstring": "\"\"\"Email backend that writes messages to a file.\"\"\"",
+            "functions": [],
             "package_name": "django.core.mail.backends"
         },
         {
             "namespace": "django.core.mail.backends.smtp",
             "docstring": "\"\"\"SMTP email backend class.\"\"\"",
+            "functions": [],
             "package_name": "django.core.mail.backends"
         },
         {
             "namespace": "django.core.mail.backends.dummy",
             "docstring": "\"\"\"\nDummy email backend that does nothing.\n\"\"\"",
+            "functions": [],
             "package_name": "django.core.mail.backends"
         },
         {
             "namespace": "django.core.mail.backends.base",
             "docstring": "\"\"\"Base email backend class.\"\"\"",
+            "functions": [],
             "package_name": "django.core.mail.backends"
         },
         {
             "namespace": "django.core.mail.backends.locmem",
             "docstring": "\"\"\"\nBackend for test environment.\n\"\"\"",
+            "functions": [],
             "package_name": "django.core.mail.backends"
         }
     ],

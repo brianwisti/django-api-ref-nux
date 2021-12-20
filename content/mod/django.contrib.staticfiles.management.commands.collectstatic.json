@@ -5,8 +5,107 @@
         {
             "docstring": "\"\"\"\n    Copies or symlinks static files from different locations to the\n    settings.STATIC_ROOT.\n    \"\"\"",
             "name": "Command",
-            "namespace": "django.contrib.staticfiles.management.commands.collectstatic.Command"
+            "namespace": "django.contrib.staticfiles.management.commands.collectstatic.Command",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.staticfiles.management.commands.collectstatic.Command.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "local",
+                    "namespace": "django.contrib.staticfiles.management.commands.collectstatic.Command.local",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "add_arguments",
+                    "namespace": "django.contrib.staticfiles.management.commands.collectstatic.Command.add_arguments",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Set instance variables based on an options dict\n        \"\"\"",
+                    "name": "set_options",
+                    "namespace": "django.contrib.staticfiles.management.commands.collectstatic.Command.set_options",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Perform the bulk of the work of collectstatic.\n\n        Split off from handle() to facilitate testing.\n        \"\"\"",
+                    "name": "collect",
+                    "namespace": "django.contrib.staticfiles.management.commands.collectstatic.Command.collect",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "handle",
+                    "namespace": "django.contrib.staticfiles.management.commands.collectstatic.Command.handle",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Small log helper\n        \"\"\"",
+                    "name": "log",
+                    "namespace": "django.contrib.staticfiles.management.commands.collectstatic.Command.log",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "is_local_storage",
+                    "namespace": "django.contrib.staticfiles.management.commands.collectstatic.Command.is_local_storage",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Delete the given relative path using the destination storage backend.\n        \"\"\"",
+                    "name": "clear_dir",
+                    "namespace": "django.contrib.staticfiles.management.commands.collectstatic.Command.clear_dir",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Check if the target file should be deleted if it already exists.\n        \"\"\"",
+                    "name": "delete_file",
+                    "namespace": "django.contrib.staticfiles.management.commands.collectstatic.Command.delete_file",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Attempt to link ``path``\n        \"\"\"",
+                    "name": "link_file",
+                    "namespace": "django.contrib.staticfiles.management.commands.collectstatic.Command.link_file",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Attempt to copy ``path`` with storage\n        \"\"\"",
+                    "name": "copy_file",
+                    "namespace": "django.contrib.staticfiles.management.commands.collectstatic.Command.copy_file",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.staticfiles.management.commands"
 }

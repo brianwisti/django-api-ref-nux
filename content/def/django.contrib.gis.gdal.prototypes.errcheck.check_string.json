@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Check the string output returned from the given function, and free\n    the string pointer allocated by OGR.  The `str_result` keyword\n    may be used when the result is the string pointer, otherwise\n    the OGR error code is assumed.  The `offset` keyword may be used\n    to extract the string pointer passed in by-reference at the given\n    slice offset in the function arguments.\n    \"\"\"",
+    "name": "check_string",
+    "namespace": "django.contrib.gis.gdal.prototypes.errcheck.check_string",
+    "class_name": "",
+    "module_name": "django.contrib.gis.gdal.prototypes.errcheck",
+    "package_name": ""
+}

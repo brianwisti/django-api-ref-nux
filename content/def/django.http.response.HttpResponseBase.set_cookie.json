@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Set a cookie.\n\n        ``expires`` can be:\n        - a string in the correct format,\n        - a naive ``datetime.datetime`` object in UTC,\n        - an aware ``datetime.datetime`` object in any time zone.\n        If it is a ``datetime.datetime`` object then calculate ``max_age``.\n        \"\"\"",
+    "name": "set_cookie",
+    "namespace": "django.http.response.HttpResponseBase.set_cookie",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

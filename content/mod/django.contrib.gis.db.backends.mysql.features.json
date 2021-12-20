@@ -5,8 +5,35 @@
         {
             "docstring": "",
             "name": "DatabaseFeatures",
-            "namespace": "django.contrib.gis.db.backends.mysql.features.DatabaseFeatures"
+            "namespace": "django.contrib.gis.db.backends.mysql.features.DatabaseFeatures",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "empty_intersection_returns_none",
+                    "namespace": "django.contrib.gis.db.backends.mysql.features.DatabaseFeatures.empty_intersection_returns_none",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "supports_geometry_field_unique_index",
+                    "namespace": "django.contrib.gis.db.backends.mysql.features.DatabaseFeatures.supports_geometry_field_unique_index",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "django_test_skips",
+                    "namespace": "django.contrib.gis.db.backends.mysql.features.DatabaseFeatures.django_test_skips",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.gis.db.backends.mysql"
 }

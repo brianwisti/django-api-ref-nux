@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\" Create a reversed field path.\n\n    E.g. Given (Order, \"user__groups\"),\n    return (Group, \"user__order\").\n\n    Final field must be a related model, not a data field.\n    \"\"\"",
+    "name": "reverse_field_path",
+    "namespace": "django.contrib.admin.utils.reverse_field_path",
+    "class_name": "",
+    "module_name": "django.contrib.admin.utils",
+    "package_name": ""
+}

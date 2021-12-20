@@ -3,5 +3,47 @@
     "name": "HasKeyLookup",
     "namespace": "django.db.models.fields.json.HasKeyLookup",
     "module_name": "django.db.models.fields.json",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "as_sql",
+            "namespace": "django.db.models.fields.json.HasKeyLookup.as_sql",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "as_mysql",
+            "namespace": "django.db.models.fields.json.HasKeyLookup.as_mysql",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "as_oracle",
+            "namespace": "django.db.models.fields.json.HasKeyLookup.as_oracle",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "as_postgresql",
+            "namespace": "django.db.models.fields.json.HasKeyLookup.as_postgresql",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "as_sqlite",
+            "namespace": "django.db.models.fields.json.HasKeyLookup.as_sqlite",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

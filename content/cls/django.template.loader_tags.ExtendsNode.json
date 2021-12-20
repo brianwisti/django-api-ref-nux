@@ -3,5 +3,47 @@
     "name": "ExtendsNode",
     "namespace": "django.template.loader_tags.ExtendsNode",
     "module_name": "django.template.loader_tags",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.template.loader_tags.ExtendsNode.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__repr__",
+            "namespace": "django.template.loader_tags.ExtendsNode.__repr__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        This is a wrapper around engine.find_template(). A history is kept in\n        the render_context attribute between successive extends calls and\n        passed as the skip argument. This enables extends to work recursively\n        without extending the same template twice.\n        \"\"\"",
+            "name": "find_template",
+            "namespace": "django.template.loader_tags.ExtendsNode.find_template",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_parent",
+            "namespace": "django.template.loader_tags.ExtendsNode.get_parent",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "render",
+            "namespace": "django.template.loader_tags.ExtendsNode.render",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Return the language code that's listed in supported languages, possibly\n    selecting a more generic variant. Raise LookupError if nothing is found.\n\n    If `strict` is False (the default), look for a country-specific variant\n    when neither the language code nor its generic variant is found.\n\n    lru_cache should have a maxsize to prevent from memory exhaustion attacks,\n    as the provided language codes are taken from the HTTP request. See also\n    <https://www.djangoproject.com/weblog/2007/oct/26/security-fix/>.\n    \"\"\"",
+    "name": "get_supported_language_variant",
+    "namespace": "django.utils.translation.trans_real.get_supported_language_variant",
+    "class_name": "",
+    "module_name": "django.utils.translation.trans_real",
+    "package_name": ""
+}

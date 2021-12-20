@@ -2,5 +2,127 @@
     "namespace": "django.core.checks.security.base",
     "docstring": "",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "",
+            "name": "_security_middleware",
+            "namespace": "django.core.checks.security.base._security_middleware",
+            "class_name": "",
+            "module_name": "django.core.checks.security.base",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_xframe_middleware",
+            "namespace": "django.core.checks.security.base._xframe_middleware",
+            "class_name": "",
+            "module_name": "django.core.checks.security.base",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "check_security_middleware",
+            "namespace": "django.core.checks.security.base.check_security_middleware",
+            "class_name": "",
+            "module_name": "django.core.checks.security.base",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "check_xframe_options_middleware",
+            "namespace": "django.core.checks.security.base.check_xframe_options_middleware",
+            "class_name": "",
+            "module_name": "django.core.checks.security.base",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "check_sts",
+            "namespace": "django.core.checks.security.base.check_sts",
+            "class_name": "",
+            "module_name": "django.core.checks.security.base",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "check_sts_include_subdomains",
+            "namespace": "django.core.checks.security.base.check_sts_include_subdomains",
+            "class_name": "",
+            "module_name": "django.core.checks.security.base",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "check_sts_preload",
+            "namespace": "django.core.checks.security.base.check_sts_preload",
+            "class_name": "",
+            "module_name": "django.core.checks.security.base",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "check_content_type_nosniff",
+            "namespace": "django.core.checks.security.base.check_content_type_nosniff",
+            "class_name": "",
+            "module_name": "django.core.checks.security.base",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "check_ssl_redirect",
+            "namespace": "django.core.checks.security.base.check_ssl_redirect",
+            "class_name": "",
+            "module_name": "django.core.checks.security.base",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "check_secret_key",
+            "namespace": "django.core.checks.security.base.check_secret_key",
+            "class_name": "",
+            "module_name": "django.core.checks.security.base",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "check_debug",
+            "namespace": "django.core.checks.security.base.check_debug",
+            "class_name": "",
+            "module_name": "django.core.checks.security.base",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "check_xframe_deny",
+            "namespace": "django.core.checks.security.base.check_xframe_deny",
+            "class_name": "",
+            "module_name": "django.core.checks.security.base",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "check_allowed_hosts",
+            "namespace": "django.core.checks.security.base.check_allowed_hosts",
+            "class_name": "",
+            "module_name": "django.core.checks.security.base",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "check_referrer_policy",
+            "namespace": "django.core.checks.security.base.check_referrer_policy",
+            "class_name": "",
+            "module_name": "django.core.checks.security.base",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "check_cross_origin_opener_policy",
+            "namespace": "django.core.checks.security.base.check_cross_origin_opener_policy",
+            "class_name": "",
+            "module_name": "django.core.checks.security.base",
+            "package_name": ""
+        }
+    ],
     "package_name": "django.core.checks.security"
 }

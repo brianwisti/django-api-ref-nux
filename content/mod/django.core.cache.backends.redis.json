@@ -5,18 +5,273 @@
         {
             "docstring": "",
             "name": "RedisSerializer",
-            "namespace": "django.core.cache.backends.redis.RedisSerializer"
+            "namespace": "django.core.cache.backends.redis.RedisSerializer",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "dumps",
+                    "namespace": "django.core.cache.backends.redis.RedisSerializer.dumps",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "loads",
+                    "namespace": "django.core.cache.backends.redis.RedisSerializer.loads",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "RedisCacheClient",
-            "namespace": "django.core.cache.backends.redis.RedisCacheClient"
+            "namespace": "django.core.cache.backends.redis.RedisCacheClient",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.core.cache.backends.redis.RedisCacheClient.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_get_connection_pool_index",
+                    "namespace": "django.core.cache.backends.redis.RedisCacheClient._get_connection_pool_index",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_get_connection_pool",
+                    "namespace": "django.core.cache.backends.redis.RedisCacheClient._get_connection_pool",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_client",
+                    "namespace": "django.core.cache.backends.redis.RedisCacheClient.get_client",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "add",
+                    "namespace": "django.core.cache.backends.redis.RedisCacheClient.add",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get",
+                    "namespace": "django.core.cache.backends.redis.RedisCacheClient.get",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "set",
+                    "namespace": "django.core.cache.backends.redis.RedisCacheClient.set",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "touch",
+                    "namespace": "django.core.cache.backends.redis.RedisCacheClient.touch",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "delete",
+                    "namespace": "django.core.cache.backends.redis.RedisCacheClient.delete",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_many",
+                    "namespace": "django.core.cache.backends.redis.RedisCacheClient.get_many",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "has_key",
+                    "namespace": "django.core.cache.backends.redis.RedisCacheClient.has_key",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "incr",
+                    "namespace": "django.core.cache.backends.redis.RedisCacheClient.incr",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "set_many",
+                    "namespace": "django.core.cache.backends.redis.RedisCacheClient.set_many",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "delete_many",
+                    "namespace": "django.core.cache.backends.redis.RedisCacheClient.delete_many",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "clear",
+                    "namespace": "django.core.cache.backends.redis.RedisCacheClient.clear",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "RedisCache",
-            "namespace": "django.core.cache.backends.redis.RedisCache"
+            "namespace": "django.core.cache.backends.redis.RedisCache",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.core.cache.backends.redis.RedisCache.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_cache",
+                    "namespace": "django.core.cache.backends.redis.RedisCache._cache",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_backend_timeout",
+                    "namespace": "django.core.cache.backends.redis.RedisCache.get_backend_timeout",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "add",
+                    "namespace": "django.core.cache.backends.redis.RedisCache.add",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get",
+                    "namespace": "django.core.cache.backends.redis.RedisCache.get",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "set",
+                    "namespace": "django.core.cache.backends.redis.RedisCache.set",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "touch",
+                    "namespace": "django.core.cache.backends.redis.RedisCache.touch",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "delete",
+                    "namespace": "django.core.cache.backends.redis.RedisCache.delete",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_many",
+                    "namespace": "django.core.cache.backends.redis.RedisCache.get_many",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "has_key",
+                    "namespace": "django.core.cache.backends.redis.RedisCache.has_key",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "incr",
+                    "namespace": "django.core.cache.backends.redis.RedisCache.incr",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "set_many",
+                    "namespace": "django.core.cache.backends.redis.RedisCache.set_many",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "delete_many",
+                    "namespace": "django.core.cache.backends.redis.RedisCache.delete_many",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "clear",
+                    "namespace": "django.core.cache.backends.redis.RedisCache.clear",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.core.cache.backends"
 }

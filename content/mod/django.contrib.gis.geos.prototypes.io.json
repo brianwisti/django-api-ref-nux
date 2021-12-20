@@ -5,72 +5,301 @@
         {
             "docstring": "",
             "name": "WKTReader_st",
-            "namespace": "django.contrib.gis.geos.prototypes.io.WKTReader_st"
+            "namespace": "django.contrib.gis.geos.prototypes.io.WKTReader_st",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "WKTWriter_st",
-            "namespace": "django.contrib.gis.geos.prototypes.io.WKTWriter_st"
+            "namespace": "django.contrib.gis.geos.prototypes.io.WKTWriter_st",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "WKBReader_st",
-            "namespace": "django.contrib.gis.geos.prototypes.io.WKBReader_st"
+            "namespace": "django.contrib.gis.geos.prototypes.io.WKBReader_st",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "WKBWriter_st",
-            "namespace": "django.contrib.gis.geos.prototypes.io.WKBWriter_st"
+            "namespace": "django.contrib.gis.geos.prototypes.io.WKBWriter_st",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "WKBReadFunc",
-            "namespace": "django.contrib.gis.geos.prototypes.io.WKBReadFunc"
+            "namespace": "django.contrib.gis.geos.prototypes.io.WKBReadFunc",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "WKBWriteFunc",
-            "namespace": "django.contrib.gis.geos.prototypes.io.WKBWriteFunc"
+            "namespace": "django.contrib.gis.geos.prototypes.io.WKBWriteFunc",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "WKBWriterGet",
-            "namespace": "django.contrib.gis.geos.prototypes.io.WKBWriterGet"
+            "namespace": "django.contrib.gis.geos.prototypes.io.WKBWriterGet",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "WKBWriterSet",
-            "namespace": "django.contrib.gis.geos.prototypes.io.WKBWriterSet"
+            "namespace": "django.contrib.gis.geos.prototypes.io.WKBWriterSet",
+            "methods": []
         },
         {
             "docstring": "\"Base class for GEOS I/O objects.\"",
             "name": "IOBase",
-            "namespace": "django.contrib.gis.geos.prototypes.io.IOBase"
+            "namespace": "django.contrib.gis.geos.prototypes.io.IOBase",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.gis.geos.prototypes.io.IOBase.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "_WKTReader",
-            "namespace": "django.contrib.gis.geos.prototypes.io._WKTReader"
+            "namespace": "django.contrib.gis.geos.prototypes.io._WKTReader",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "read",
+                    "namespace": "django.contrib.gis.geos.prototypes.io._WKTReader.read",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "_WKBReader",
-            "namespace": "django.contrib.gis.geos.prototypes.io._WKBReader"
+            "namespace": "django.contrib.gis.geos.prototypes.io._WKBReader",
+            "methods": [
+                {
+                    "docstring": "\"Return a _pointer_ to C GEOS Geometry object from the given WKB.\"",
+                    "name": "read",
+                    "namespace": "django.contrib.gis.geos.prototypes.io._WKBReader.read",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "WKTWriter",
-            "namespace": "django.contrib.gis.geos.prototypes.io.WKTWriter"
+            "namespace": "django.contrib.gis.geos.prototypes.io.WKTWriter",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.gis.geos.prototypes.io.WKTWriter.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Return the WKT representation of the given geometry.\"",
+                    "name": "write",
+                    "namespace": "django.contrib.gis.geos.prototypes.io.WKTWriter.write",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "outdim",
+                    "namespace": "django.contrib.gis.geos.prototypes.io.WKTWriter.outdim",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "outdim",
+                    "namespace": "django.contrib.gis.geos.prototypes.io.WKTWriter.outdim",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "trim",
+                    "namespace": "django.contrib.gis.geos.prototypes.io.WKTWriter.trim",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "trim",
+                    "namespace": "django.contrib.gis.geos.prototypes.io.WKTWriter.trim",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "precision",
+                    "namespace": "django.contrib.gis.geos.prototypes.io.WKTWriter.precision",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "precision",
+                    "namespace": "django.contrib.gis.geos.prototypes.io.WKTWriter.precision",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "WKBWriter",
-            "namespace": "django.contrib.gis.geos.prototypes.io.WKBWriter"
+            "namespace": "django.contrib.gis.geos.prototypes.io.WKBWriter",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.gis.geos.prototypes.io.WKBWriter.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_handle_empty_point",
+                    "namespace": "django.contrib.gis.geos.prototypes.io.WKBWriter._handle_empty_point",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Return the WKB representation of the given geometry.\"",
+                    "name": "write",
+                    "namespace": "django.contrib.gis.geos.prototypes.io.WKBWriter.write",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Return the HEXEWKB representation of the given geometry.\"",
+                    "name": "write_hex",
+                    "namespace": "django.contrib.gis.geos.prototypes.io.WKBWriter.write_hex",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_get_byteorder",
+                    "namespace": "django.contrib.gis.geos.prototypes.io.WKBWriter._get_byteorder",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_set_byteorder",
+                    "namespace": "django.contrib.gis.geos.prototypes.io.WKBWriter._set_byteorder",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "outdim",
+                    "namespace": "django.contrib.gis.geos.prototypes.io.WKBWriter.outdim",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "outdim",
+                    "namespace": "django.contrib.gis.geos.prototypes.io.WKBWriter.outdim",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "srid",
+                    "namespace": "django.contrib.gis.geos.prototypes.io.WKBWriter.srid",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "srid",
+                    "namespace": "django.contrib.gis.geos.prototypes.io.WKBWriter.srid",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "ThreadLocalIO",
-            "namespace": "django.contrib.gis.geos.prototypes.io.ThreadLocalIO"
+            "namespace": "django.contrib.gis.geos.prototypes.io.ThreadLocalIO",
+            "methods": []
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "",
+            "name": "wkt_r",
+            "namespace": "django.contrib.gis.geos.prototypes.io.wkt_r",
+            "class_name": "",
+            "module_name": "django.contrib.gis.geos.prototypes.io",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "wkt_w",
+            "namespace": "django.contrib.gis.geos.prototypes.io.wkt_w",
+            "class_name": "",
+            "module_name": "django.contrib.gis.geos.prototypes.io",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "wkb_r",
+            "namespace": "django.contrib.gis.geos.prototypes.io.wkb_r",
+            "class_name": "",
+            "module_name": "django.contrib.gis.geos.prototypes.io",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "wkb_w",
+            "namespace": "django.contrib.gis.geos.prototypes.io.wkb_w",
+            "class_name": "",
+            "module_name": "django.contrib.gis.geos.prototypes.io",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "ewkb_w",
+            "namespace": "django.contrib.gis.geos.prototypes.io.ewkb_w",
+            "class_name": "",
+            "module_name": "django.contrib.gis.geos.prototypes.io",
+            "package_name": ""
         }
     ],
     "package_name": "django.contrib.gis.geos.prototypes"

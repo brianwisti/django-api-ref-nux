@@ -2,41 +2,92 @@
     "name": "django.contrib.gis",
     "docstring": "",
     "package_name": "django.contrib",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.contrib.gis.measure",
             "docstring": "\"\"\"\nDistance and Area objects to allow for sensible and convenient calculation\nand conversions.\n\nAuthors: Robert Coup, Justin Bronn, Riccardo Di Virgilio\n\nInspired by GeoPy (https://github.com/geopy/geopy)\nand Geoff Biggs' PhD work on dimensioned units for robotics.\n\"\"\"",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "pretty_name",
+                    "namespace": "django.contrib.gis.measure.pretty_name",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.measure",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.gis"
         },
         {
             "namespace": "django.contrib.gis.shortcuts",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"Return compressed KMZ from the given KML string.\"",
+                    "name": "compress_kml",
+                    "namespace": "django.contrib.gis.shortcuts.compress_kml",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.shortcuts",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Render the response as KML (using the correct MIME type).\"",
+                    "name": "render_to_kml",
+                    "namespace": "django.contrib.gis.shortcuts.render_to_kml",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.shortcuts",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Compress the KML content and return as KMZ (using the correct\n    MIME type).\n    \"\"\"",
+                    "name": "render_to_kmz",
+                    "namespace": "django.contrib.gis.shortcuts.render_to_kmz",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.shortcuts",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.gis"
         },
         {
             "namespace": "django.contrib.gis.feeds",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.gis"
         },
         {
             "namespace": "django.contrib.gis.apps",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.gis"
         },
         {
             "namespace": "django.contrib.gis.geometry",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.gis"
         },
         {
             "namespace": "django.contrib.gis.ptr",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.gis"
         },
         {
             "namespace": "django.contrib.gis.views",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"Provided for backwards compatibility.\"\"\"",
+                    "name": "feed",
+                    "namespace": "django.contrib.gis.views.feed",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.views",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.gis"
         }
     ],
@@ -44,52 +95,62 @@
         {
             "name": "django.contrib.gis.geos",
             "docstring": "\"\"\"\nThe GeoDjango GEOS module.  Please consult the GeoDjango documentation\nfor more details: https://docs.djangoproject.com/en/dev/ref/contrib/gis/geos/\n\"\"\"",
-            "package_name": "django.contrib.gis"
+            "package_name": "django.contrib.gis",
+            "functions": []
         },
         {
             "name": "django.contrib.gis.forms",
             "docstring": "",
-            "package_name": "django.contrib.gis"
+            "package_name": "django.contrib.gis",
+            "functions": []
         },
         {
             "name": "django.contrib.gis.gdal",
             "docstring": "\"\"\"\n This module houses ctypes interfaces for GDAL objects.  The following GDAL\n objects are supported:\n\n CoordTransform: Used for coordinate transformations from one spatial\n  reference system to another.\n\n Driver: Wraps an OGR data source driver.\n\n DataSource: Wrapper for the OGR data source object, supports\n  OGR-supported data sources.\n\n Envelope: A ctypes structure for bounding boxes (GDAL library\n  not required).\n\n OGRGeometry: Object for accessing OGR Geometry functionality.\n\n OGRGeomType: A class for representing the different OGR Geometry\n  types (GDAL library not required).\n\n SpatialReference: Represents OSR Spatial Reference objects.\n\n The GDAL library will be imported from the system path using the default\n library name for the current OS. The default library path may be overridden\n by setting `GDAL_LIBRARY_PATH` in your settings with the path to the GDAL C\n library on your system.\n\"\"\"",
-            "package_name": "django.contrib.gis"
+            "package_name": "django.contrib.gis",
+            "functions": []
         },
         {
             "name": "django.contrib.gis.admin",
             "docstring": "",
-            "package_name": "django.contrib.gis"
+            "package_name": "django.contrib.gis",
+            "functions": []
         },
         {
             "name": "django.contrib.gis.management",
             "docstring": "",
-            "package_name": "django.contrib.gis"
+            "package_name": "django.contrib.gis",
+            "functions": []
         },
         {
             "name": "django.contrib.gis.utils",
             "docstring": "\"\"\"\n This module contains useful utilities for GeoDjango.\n\"\"\"",
-            "package_name": "django.contrib.gis"
+            "package_name": "django.contrib.gis",
+            "functions": []
         },
         {
             "name": "django.contrib.gis.serializers",
             "docstring": "",
-            "package_name": "django.contrib.gis"
+            "package_name": "django.contrib.gis",
+            "functions": []
         },
         {
             "name": "django.contrib.gis.sitemaps",
             "docstring": "",
-            "package_name": "django.contrib.gis"
+            "package_name": "django.contrib.gis",
+            "functions": []
         },
         {
             "name": "django.contrib.gis.db",
             "docstring": "",
-            "package_name": "django.contrib.gis"
+            "package_name": "django.contrib.gis",
+            "functions": []
         },
         {
             "name": "django.contrib.gis.geoip2",
             "docstring": "\"\"\"\nThis module houses the GeoIP2 object, a wrapper for the MaxMind GeoIP2(R)\nPython API (https://geoip2.readthedocs.io/). This is an alternative to the\nPython GeoIP2 interface provided by MaxMind.\n\nGeoIP(R) is a registered trademark of MaxMind, Inc.\n\nFor IP-based geolocation, this module requires the GeoLite2 Country and City\ndatasets, in binary format (CSV will not work!). The datasets may be\ndownloaded from MaxMind at http://dev.maxmind.com/geoip/geoip2/geolite2/.\nGrab GeoLite2-Country.mmdb.gz and GeoLite2-City.mmdb.gz, and unzip them in the\ndirectory corresponding to settings.GEOIP_PATH.\n\"\"\"",
-            "package_name": "django.contrib.gis"
+            "package_name": "django.contrib.gis",
+            "functions": []
         }
     ]
 }

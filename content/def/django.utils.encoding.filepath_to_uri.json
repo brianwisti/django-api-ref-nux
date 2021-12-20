@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"Convert a file system path to a URI portion that is suitable for\n    inclusion in a URL.\n\n    Encode certain chars that would normally be recognized as special chars\n    for URIs. Do not encode the ' character, as it is a valid character\n    within URIs. See the encodeURIComponent() JavaScript function for details.\n    \"\"\"",
+    "name": "filepath_to_uri",
+    "namespace": "django.utils.encoding.filepath_to_uri",
+    "class_name": "",
+    "module_name": "django.utils.encoding",
+    "package_name": ""
+}

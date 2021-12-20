@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Given a token (assumed to be a string of CSRF_ALLOWED_CHARS, of length\n    CSRF_TOKEN_LENGTH, and that its first half is a mask), use it to decrypt\n    the second half to produce the original secret.\n    \"\"\"",
+    "name": "_unmask_cipher_token",
+    "namespace": "django.middleware.csrf._unmask_cipher_token",
+    "class_name": "",
+    "module_name": "django.middleware.csrf",
+    "package_name": ""
+}

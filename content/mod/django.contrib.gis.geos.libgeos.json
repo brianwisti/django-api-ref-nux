@@ -5,27 +5,99 @@
         {
             "docstring": "",
             "name": "GEOSGeom_t",
-            "namespace": "django.contrib.gis.geos.libgeos.GEOSGeom_t"
+            "namespace": "django.contrib.gis.geos.libgeos.GEOSGeom_t",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "GEOSPrepGeom_t",
-            "namespace": "django.contrib.gis.geos.libgeos.GEOSPrepGeom_t"
+            "namespace": "django.contrib.gis.geos.libgeos.GEOSPrepGeom_t",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "GEOSCoordSeq_t",
-            "namespace": "django.contrib.gis.geos.libgeos.GEOSCoordSeq_t"
+            "namespace": "django.contrib.gis.geos.libgeos.GEOSCoordSeq_t",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "GEOSContextHandle_t",
-            "namespace": "django.contrib.gis.geos.libgeos.GEOSContextHandle_t"
+            "namespace": "django.contrib.gis.geos.libgeos.GEOSContextHandle_t",
+            "methods": []
         },
         {
             "docstring": "\"\"\"\n    Lazy loading of GEOS functions.\n    \"\"\"",
             "name": "GEOSFuncFactory",
-            "namespace": "django.contrib.gis.geos.libgeos.GEOSFuncFactory"
+            "namespace": "django.contrib.gis.geos.libgeos.GEOSFuncFactory",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.gis.geos.libgeos.GEOSFuncFactory.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__call__",
+                    "namespace": "django.contrib.gis.geos.libgeos.GEOSFuncFactory.__call__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "func",
+                    "namespace": "django.contrib.gis.geos.libgeos.GEOSFuncFactory.func",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "",
+            "name": "load_geos",
+            "namespace": "django.contrib.gis.geos.libgeos.load_geos",
+            "class_name": "",
+            "module_name": "django.contrib.gis.geos.libgeos",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "notice_h",
+            "namespace": "django.contrib.gis.geos.libgeos.notice_h",
+            "class_name": "",
+            "module_name": "django.contrib.gis.geos.libgeos",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "error_h",
+            "namespace": "django.contrib.gis.geos.libgeos.error_h",
+            "class_name": "",
+            "module_name": "django.contrib.gis.geos.libgeos",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return the string version of the GEOS library.\"\"\"",
+            "name": "geos_version",
+            "namespace": "django.contrib.gis.geos.libgeos.geos_version",
+            "class_name": "",
+            "module_name": "django.contrib.gis.geos.libgeos",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return the GEOS version as a tuple (major, minor, subminor).\"\"\"",
+            "name": "geos_version_tuple",
+            "namespace": "django.contrib.gis.geos.libgeos.geos_version_tuple",
+            "class_name": "",
+            "module_name": "django.contrib.gis.geos.libgeos",
+            "package_name": ""
         }
     ],
     "package_name": "django.contrib.gis.geos"

@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"Parse a URL into 5 components:\n    <scheme>://<netloc>/<path>?<query>#<fragment>\n    Return a 5-tuple: (scheme, netloc, path, query, fragment).\n    Note that we don't break the components up in smaller bits\n    (e.g. netloc is a single string) and we don't expand % escapes.\"\"\"",
+    "name": "_urlsplit",
+    "namespace": "django.utils.http._urlsplit",
+    "class_name": "",
+    "module_name": "django.utils.http",
+    "package_name": ""
+}

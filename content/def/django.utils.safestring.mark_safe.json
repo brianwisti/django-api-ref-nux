@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Explicitly mark a string as safe for (HTML) output purposes. The returned\n    object can be used everywhere a string is appropriate.\n\n    If used on a method as a decorator, mark the returned data as safe.\n\n    Can be called multiple times on a single string.\n    \"\"\"",
+    "name": "mark_safe",
+    "namespace": "django.utils.safestring.mark_safe",
+    "class_name": "",
+    "module_name": "django.utils.safestring",
+    "package_name": ""
+}

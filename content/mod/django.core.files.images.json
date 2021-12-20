@@ -5,7 +5,43 @@
         {
             "docstring": "\"\"\"\n    A mixin for use alongside django.core.files.base.File, which provides\n    additional features for dealing with images.\n    \"\"\"",
             "name": "ImageFile",
-            "namespace": "django.core.files.images.ImageFile"
+            "namespace": "django.core.files.images.ImageFile",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "width",
+                    "namespace": "django.core.files.images.ImageFile.width",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "height",
+                    "namespace": "django.core.files.images.ImageFile.height",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_get_image_dimensions",
+                    "namespace": "django.core.files.images.ImageFile._get_image_dimensions",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Return the (width, height) of an image, given an open file or a path.  Set\n    'close' to True to close the file at the end if it is initially in an open\n    state.\n    \"\"\"",
+            "name": "get_image_dimensions",
+            "namespace": "django.core.files.images.get_image_dimensions",
+            "class_name": "",
+            "module_name": "django.core.files.images",
+            "package_name": ""
         }
     ],
     "package_name": "django.core.files"

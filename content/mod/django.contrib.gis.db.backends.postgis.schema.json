@@ -5,8 +5,43 @@
         {
             "docstring": "",
             "name": "PostGISSchemaEditor",
-            "namespace": "django.contrib.gis.db.backends.postgis.schema.PostGISSchemaEditor"
+            "namespace": "django.contrib.gis.db.backends.postgis.schema.PostGISSchemaEditor",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "geo_quote_name",
+                    "namespace": "django.contrib.gis.db.backends.postgis.schema.PostGISSchemaEditor.geo_quote_name",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_field_should_be_indexed",
+                    "namespace": "django.contrib.gis.db.backends.postgis.schema.PostGISSchemaEditor._field_should_be_indexed",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_create_index_sql",
+                    "namespace": "django.contrib.gis.db.backends.postgis.schema.PostGISSchemaEditor._create_index_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Special case when dimension changed.\n        \"\"\"",
+                    "name": "_alter_column_type_sql",
+                    "namespace": "django.contrib.gis.db.backends.postgis.schema.PostGISSchemaEditor._alter_column_type_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.gis.db.backends.postgis"
 }

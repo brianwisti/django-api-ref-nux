@@ -5,42 +5,492 @@
         {
             "docstring": "",
             "name": "ResolverMatch",
-            "namespace": "django.urls.resolvers.ResolverMatch"
+            "namespace": "django.urls.resolvers.ResolverMatch",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.urls.resolvers.ResolverMatch.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__getitem__",
+                    "namespace": "django.urls.resolvers.ResolverMatch.__getitem__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.urls.resolvers.ResolverMatch.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__reduce_ex__",
+                    "namespace": "django.urls.resolvers.ResolverMatch.__reduce_ex__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "LocaleRegexDescriptor",
-            "namespace": "django.urls.resolvers.LocaleRegexDescriptor"
+            "namespace": "django.urls.resolvers.LocaleRegexDescriptor",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.urls.resolvers.LocaleRegexDescriptor.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return a compiled regular expression based on the active language.\n        \"\"\"",
+                    "name": "__get__",
+                    "namespace": "django.urls.resolvers.LocaleRegexDescriptor.__get__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "CheckURLMixin",
-            "namespace": "django.urls.resolvers.CheckURLMixin"
+            "namespace": "django.urls.resolvers.CheckURLMixin",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        Format the URL pattern for display in warning messages.\n        \"\"\"",
+                    "name": "describe",
+                    "namespace": "django.urls.resolvers.CheckURLMixin.describe",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Check that the pattern does not begin with a forward slash.\n        \"\"\"",
+                    "name": "_check_pattern_startswith_slash",
+                    "namespace": "django.urls.resolvers.CheckURLMixin._check_pattern_startswith_slash",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "RegexPattern",
-            "namespace": "django.urls.resolvers.RegexPattern"
+            "namespace": "django.urls.resolvers.RegexPattern",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.urls.resolvers.RegexPattern.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "match",
+                    "namespace": "django.urls.resolvers.RegexPattern.match",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check",
+                    "namespace": "django.urls.resolvers.RegexPattern.check",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_check_include_trailing_dollar",
+                    "namespace": "django.urls.resolvers.RegexPattern._check_include_trailing_dollar",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Compile and return the given regular expression.\"\"\"",
+                    "name": "_compile",
+                    "namespace": "django.urls.resolvers.RegexPattern._compile",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__str__",
+                    "namespace": "django.urls.resolvers.RegexPattern.__str__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "RoutePattern",
-            "namespace": "django.urls.resolvers.RoutePattern"
+            "namespace": "django.urls.resolvers.RoutePattern",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.urls.resolvers.RoutePattern.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "match",
+                    "namespace": "django.urls.resolvers.RoutePattern.match",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check",
+                    "namespace": "django.urls.resolvers.RoutePattern.check",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_compile",
+                    "namespace": "django.urls.resolvers.RoutePattern._compile",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__str__",
+                    "namespace": "django.urls.resolvers.RoutePattern.__str__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "LocalePrefixPattern",
-            "namespace": "django.urls.resolvers.LocalePrefixPattern"
+            "namespace": "django.urls.resolvers.LocalePrefixPattern",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.urls.resolvers.LocalePrefixPattern.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "regex",
+                    "namespace": "django.urls.resolvers.LocalePrefixPattern.regex",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "language_prefix",
+                    "namespace": "django.urls.resolvers.LocalePrefixPattern.language_prefix",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "match",
+                    "namespace": "django.urls.resolvers.LocalePrefixPattern.match",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check",
+                    "namespace": "django.urls.resolvers.LocalePrefixPattern.check",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "describe",
+                    "namespace": "django.urls.resolvers.LocalePrefixPattern.describe",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__str__",
+                    "namespace": "django.urls.resolvers.LocalePrefixPattern.__str__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "URLPattern",
-            "namespace": "django.urls.resolvers.URLPattern"
+            "namespace": "django.urls.resolvers.URLPattern",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.urls.resolvers.URLPattern.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.urls.resolvers.URLPattern.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check",
+                    "namespace": "django.urls.resolvers.URLPattern.check",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Check that the pattern name does not contain a colon.\n        \"\"\"",
+                    "name": "_check_pattern_name",
+                    "namespace": "django.urls.resolvers.URLPattern._check_pattern_name",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_check_callback",
+                    "namespace": "django.urls.resolvers.URLPattern._check_callback",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "resolve",
+                    "namespace": "django.urls.resolvers.URLPattern.resolve",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        A string that identifies the view (e.g. 'path.to.view_function' or\n        'path.to.ClassBasedView').\n        \"\"\"",
+                    "name": "lookup_str",
+                    "namespace": "django.urls.resolvers.URLPattern.lookup_str",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "URLResolver",
-            "namespace": "django.urls.resolvers.URLResolver"
+            "namespace": "django.urls.resolvers.URLResolver",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.urls.resolvers.URLResolver.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.urls.resolvers.URLResolver.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check",
+                    "namespace": "django.urls.resolvers.URLResolver.check",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_check_custom_error_handlers",
+                    "namespace": "django.urls.resolvers.URLResolver._check_custom_error_handlers",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_populate",
+                    "namespace": "django.urls.resolvers.URLResolver._populate",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "reverse_dict",
+                    "namespace": "django.urls.resolvers.URLResolver.reverse_dict",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "namespace_dict",
+                    "namespace": "django.urls.resolvers.URLResolver.namespace_dict",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "app_dict",
+                    "namespace": "django.urls.resolvers.URLResolver.app_dict",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_extend_tried",
+                    "namespace": "django.urls.resolvers.URLResolver._extend_tried",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Join two routes, without the starting ^ in the second route.\"\"\"",
+                    "name": "_join_route",
+                    "namespace": "django.urls.resolvers.URLResolver._join_route",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_is_callback",
+                    "namespace": "django.urls.resolvers.URLResolver._is_callback",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "resolve",
+                    "namespace": "django.urls.resolvers.URLResolver.resolve",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "urlconf_module",
+                    "namespace": "django.urls.resolvers.URLResolver.urlconf_module",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "url_patterns",
+                    "namespace": "django.urls.resolvers.URLResolver.url_patterns",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "resolve_error_handler",
+                    "namespace": "django.urls.resolvers.URLResolver.resolve_error_handler",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "reverse",
+                    "namespace": "django.urls.resolvers.URLResolver.reverse",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_reverse_with_prefix",
+                    "namespace": "django.urls.resolvers.URLResolver._reverse_with_prefix",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "",
+            "name": "get_resolver",
+            "namespace": "django.urls.resolvers.get_resolver",
+            "class_name": "",
+            "module_name": "django.urls.resolvers",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_get_cached_resolver",
+            "namespace": "django.urls.resolvers._get_cached_resolver",
+            "class_name": "",
+            "module_name": "django.urls.resolvers",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_ns_resolver",
+            "namespace": "django.urls.resolvers.get_ns_resolver",
+            "class_name": "",
+            "module_name": "django.urls.resolvers",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Convert a path pattern into a regular expression. Return the regular\n    expression and a dictionary mapping the capture names to the converters.\n    For example, 'foo/<int:pk>' returns '^foo\\\\/(?P<pk>[0-9]+)'\n    and {'pk': <django.urls.converters.IntConverter>}.\n    \"\"\"",
+            "name": "_route_to_regex",
+            "namespace": "django.urls.resolvers._route_to_regex",
+            "class_name": "",
+            "module_name": "django.urls.resolvers",
+            "package_name": ""
         }
     ],
     "package_name": "django.urls"

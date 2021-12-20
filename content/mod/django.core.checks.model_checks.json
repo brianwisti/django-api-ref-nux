@@ -2,5 +2,31 @@
     "namespace": "django.core.checks.model_checks",
     "docstring": "",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "",
+            "name": "check_all_models",
+            "namespace": "django.core.checks.model_checks.check_all_models",
+            "class_name": "",
+            "module_name": "django.core.checks.model_checks",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Ensure all lazy (i.e. string) model references have been resolved.\n\n    Lazy references are used in various places throughout Django, primarily in\n    related fields and model signals. Identify those common cases and provide\n    more helpful error messages for them.\n\n    The ignore parameter is used by StateApps to exclude swappable models from\n    this check.\n    \"\"\"",
+            "name": "_check_lazy_references",
+            "namespace": "django.core.checks.model_checks._check_lazy_references",
+            "class_name": "",
+            "module_name": "django.core.checks.model_checks",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "check_lazy_references",
+            "namespace": "django.core.checks.model_checks.check_lazy_references",
+            "class_name": "",
+            "module_name": "django.core.checks.model_checks",
+            "package_name": ""
+        }
+    ],
     "package_name": "django.core.checks"
 }

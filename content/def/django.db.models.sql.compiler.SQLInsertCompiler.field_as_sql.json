@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Take a field and a value intended to be saved on that field, and\n        return placeholder SQL and accompanying params. Check for raw values,\n        expressions, and fields with get_placeholder() defined in that order.\n\n        When field is None, consider the value raw and use it as the\n        placeholder, with no corresponding parameters returned.\n        \"\"\"",
+    "name": "field_as_sql",
+    "namespace": "django.db.models.sql.compiler.SQLInsertCompiler.field_as_sql",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

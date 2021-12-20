@@ -3,5 +3,23 @@
     "name": "LocaleRegexDescriptor",
     "namespace": "django.urls.resolvers.LocaleRegexDescriptor",
     "module_name": "django.urls.resolvers",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.urls.resolvers.LocaleRegexDescriptor.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return a compiled regular expression based on the active language.\n        \"\"\"",
+            "name": "__get__",
+            "namespace": "django.urls.resolvers.LocaleRegexDescriptor.__get__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

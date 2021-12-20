@@ -2,36 +2,271 @@
     "name": "django.contrib.gis.gdal.prototypes",
     "docstring": "",
     "package_name": "django.contrib.gis.gdal",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.contrib.gis.gdal.prototypes.srs",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Create a function prototype for the OSR routines that take\n    the OSRSpatialReference object and return a double value.\n    \"\"\"",
+                    "name": "srs_double",
+                    "namespace": "django.contrib.gis.gdal.prototypes.srs.srs_double",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.gdal.prototypes.srs",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Create a ctypes function prototype for OSR units functions, e.g.,\n    OSRGetAngularUnits, OSRGetLinearUnits.\n    \"\"\"",
+                    "name": "units_func",
+                    "namespace": "django.contrib.gis.gdal.prototypes.srs.units_func",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.gdal.prototypes.srs",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.gis.gdal.prototypes"
         },
         {
             "namespace": "django.contrib.gis.gdal.prototypes.generation",
             "docstring": "\"\"\"\n This module contains functions that generate ctypes prototypes for the\n GDAL routines.\n\"\"\"",
+            "functions": [
+                {
+                    "docstring": "\"\"\"Generate a ctypes function that returns a boolean value.\"\"\"",
+                    "name": "bool_output",
+                    "namespace": "django.contrib.gis.gdal.prototypes.generation.bool_output",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.gdal.prototypes.generation",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Generate a ctypes function that returns a double value.\"",
+                    "name": "double_output",
+                    "namespace": "django.contrib.gis.gdal.prototypes.generation.double_output",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.gdal.prototypes.generation",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Generate a function that returns a Geometry either by reference\n    or directly (if the return_geom keyword is set to True).\n    \"\"\"",
+                    "name": "geom_output",
+                    "namespace": "django.contrib.gis.gdal.prototypes.generation.geom_output",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.gdal.prototypes.generation",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Generate a ctypes function that returns an integer value.\"",
+                    "name": "int_output",
+                    "namespace": "django.contrib.gis.gdal.prototypes.generation.int_output",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.gdal.prototypes.generation",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Generate a ctypes function that returns a 64-bit integer value.\"",
+                    "name": "int64_output",
+                    "namespace": "django.contrib.gis.gdal.prototypes.generation.int64_output",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.gdal.prototypes.generation",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Generate a ctypes prototype for the given function with\n    the given C arguments that returns a pointer to an OGR\n    Spatial Reference System.\n    \"\"\"",
+                    "name": "srs_output",
+                    "namespace": "django.contrib.gis.gdal.prototypes.generation.srs_output",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.gdal.prototypes.generation",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "const_string_output",
+                    "namespace": "django.contrib.gis.gdal.prototypes.generation.const_string_output",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.gdal.prototypes.generation",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Generate a ctypes prototype for the given function with the\n    given argument types that returns a string from a GDAL pointer.\n    The `const` flag indicates whether the allocated pointer should\n    be freed via the GDAL library routine VSIFree -- but only applies\n    only when `str_result` is True.\n    \"\"\"",
+                    "name": "string_output",
+                    "namespace": "django.contrib.gis.gdal.prototypes.generation.string_output",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.gdal.prototypes.generation",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    For functions that don't only return an error code that needs to\n    be examined.\n    \"\"\"",
+                    "name": "void_output",
+                    "namespace": "django.contrib.gis.gdal.prototypes.generation.void_output",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.gdal.prototypes.generation",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"For functions that return c_void_p.\"",
+                    "name": "voidptr_output",
+                    "namespace": "django.contrib.gis.gdal.prototypes.generation.voidptr_output",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.gdal.prototypes.generation",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"For functions that return a c_char_p array.\"\"\"",
+                    "name": "chararray_output",
+                    "namespace": "django.contrib.gis.gdal.prototypes.generation.chararray_output",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.gdal.prototypes.generation",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.gis.gdal.prototypes"
         },
         {
             "namespace": "django.contrib.gis.gdal.prototypes.geom",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"For getting OGREnvelopes.\"",
+                    "name": "env_func",
+                    "namespace": "django.contrib.gis.gdal.prototypes.geom.env_func",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.gdal.prototypes.geom",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"For accessing point information.\"",
+                    "name": "pnt_func",
+                    "namespace": "django.contrib.gis.gdal.prototypes.geom.pnt_func",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.gdal.prototypes.geom",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "topology_func",
+                    "namespace": "django.contrib.gis.gdal.prototypes.geom.topology_func",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.gdal.prototypes.geom",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.gis.gdal.prototypes"
         },
         {
             "namespace": "django.contrib.gis.gdal.prototypes.ds",
             "docstring": "\"\"\"\n This module houses the ctypes function prototypes for OGR DataSource\n related data structures. OGR_Dr_*, OGR_DS_*, OGR_L_*, OGR_F_*,\n OGR_Fld_* routines are relevant here.\n\"\"\"",
+            "functions": [],
             "package_name": "django.contrib.gis.gdal.prototypes"
         },
         {
             "namespace": "django.contrib.gis.gdal.prototypes.raster",
             "docstring": "\"\"\"\nThis module houses the ctypes function prototypes for GDAL DataSource (raster)\nrelated data structures.\n\"\"\"",
+            "functions": [],
             "package_name": "django.contrib.gis.gdal.prototypes"
         },
         {
             "namespace": "django.contrib.gis.gdal.prototypes.errcheck",
             "docstring": "\"\"\"\n This module houses the error-checking routines used by the GDAL\n ctypes prototypes.\n\"\"\"",
+            "functions": [
+                {
+                    "docstring": "\"Return the pointer argument's by-reference value.\"",
+                    "name": "arg_byref",
+                    "namespace": "django.contrib.gis.gdal.prototypes.errcheck.arg_byref",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.gdal.prototypes.errcheck",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Return the pointer argument passed in by-reference.\"",
+                    "name": "ptr_byref",
+                    "namespace": "django.contrib.gis.gdal.prototypes.errcheck.ptr_byref",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.gdal.prototypes.errcheck",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Similar functionality to `check_string`, but does not free the pointer.\n    \"\"\"",
+                    "name": "check_const_string",
+                    "namespace": "django.contrib.gis.gdal.prototypes.errcheck.check_const_string",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.gdal.prototypes.errcheck",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Check the string output returned from the given function, and free\n    the string pointer allocated by OGR.  The `str_result` keyword\n    may be used when the result is the string pointer, otherwise\n    the OGR error code is assumed.  The `offset` keyword may be used\n    to extract the string pointer passed in by-reference at the given\n    slice offset in the function arguments.\n    \"\"\"",
+                    "name": "check_string",
+                    "namespace": "django.contrib.gis.gdal.prototypes.errcheck.check_string",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.gdal.prototypes.errcheck",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Check a function that returns an OGR Envelope by reference.\"",
+                    "name": "check_envelope",
+                    "namespace": "django.contrib.gis.gdal.prototypes.errcheck.check_envelope",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.gdal.prototypes.errcheck",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Check a function that returns a geometry.\"",
+                    "name": "check_geom",
+                    "namespace": "django.contrib.gis.gdal.prototypes.errcheck.check_geom",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.gdal.prototypes.errcheck",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Check the geometry at the given offset in the C parameter list.\"",
+                    "name": "check_geom_offset",
+                    "namespace": "django.contrib.gis.gdal.prototypes.errcheck.check_geom_offset",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.gdal.prototypes.errcheck",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check_srs",
+                    "namespace": "django.contrib.gis.gdal.prototypes.errcheck.check_srs",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.gdal.prototypes.errcheck",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    The error code is returned in the last argument, by reference.\n    Check its value with `check_err` before returning the result.\n    \"\"\"",
+                    "name": "check_arg_errcode",
+                    "namespace": "django.contrib.gis.gdal.prototypes.errcheck.check_arg_errcode",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.gdal.prototypes.errcheck",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Check the error code returned (c_int).\n    \"\"\"",
+                    "name": "check_errcode",
+                    "namespace": "django.contrib.gis.gdal.prototypes.errcheck.check_errcode",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.gdal.prototypes.errcheck",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Make sure the result pointer is valid.\"",
+                    "name": "check_pointer",
+                    "namespace": "django.contrib.gis.gdal.prototypes.errcheck.check_pointer",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.gdal.prototypes.errcheck",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    This is for the OSRGet[Angular|Linear]Units functions, which\n    require that the returned string pointer not be freed.  This\n    returns both the double and string values.\n    \"\"\"",
+                    "name": "check_str_arg",
+                    "namespace": "django.contrib.gis.gdal.prototypes.errcheck.check_str_arg",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.gdal.prototypes.errcheck",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.gis.gdal.prototypes"
         }
     ],

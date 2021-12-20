@@ -5,198 +5,562 @@
         {
             "docstring": "",
             "name": "GeoFuncMixin",
-            "namespace": "django.contrib.gis.db.models.functions.GeoFuncMixin"
+            "namespace": "django.contrib.gis.db.models.functions.GeoFuncMixin",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.gis.db.models.functions.GeoFuncMixin.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "name",
+                    "namespace": "django.contrib.gis.db.models.functions.GeoFuncMixin.name",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "geo_field",
+                    "namespace": "django.contrib.gis.db.models.functions.GeoFuncMixin.geo_field",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.contrib.gis.db.models.functions.GeoFuncMixin.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "resolve_expression",
+                    "namespace": "django.contrib.gis.db.models.functions.GeoFuncMixin.resolve_expression",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_handle_param",
+                    "namespace": "django.contrib.gis.db.models.functions.GeoFuncMixin._handle_param",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "GeoFunc",
-            "namespace": "django.contrib.gis.db.models.functions.GeoFunc"
+            "namespace": "django.contrib.gis.db.models.functions.GeoFunc",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "GeomOutputGeoFunc",
-            "namespace": "django.contrib.gis.db.models.functions.GeomOutputGeoFunc"
+            "namespace": "django.contrib.gis.db.models.functions.GeomOutputGeoFunc",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "output_field",
+                    "namespace": "django.contrib.gis.db.models.functions.GeomOutputGeoFunc.output_field",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    By default, Decimal values are converted to str by the SQLite backend, which\n    is not acceptable by the GIS functions expecting numeric values.\n    \"\"\"",
             "name": "SQLiteDecimalToFloatMixin",
-            "namespace": "django.contrib.gis.db.models.functions.SQLiteDecimalToFloatMixin"
+            "namespace": "django.contrib.gis.db.models.functions.SQLiteDecimalToFloatMixin",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "as_sqlite",
+                    "namespace": "django.contrib.gis.db.models.functions.SQLiteDecimalToFloatMixin.as_sqlite",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "OracleToleranceMixin",
-            "namespace": "django.contrib.gis.db.models.functions.OracleToleranceMixin"
+            "namespace": "django.contrib.gis.db.models.functions.OracleToleranceMixin",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "as_oracle",
+                    "namespace": "django.contrib.gis.db.models.functions.OracleToleranceMixin.as_oracle",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Area",
-            "namespace": "django.contrib.gis.db.models.functions.Area"
+            "namespace": "django.contrib.gis.db.models.functions.Area",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "output_field",
+                    "namespace": "django.contrib.gis.db.models.functions.Area.output_field",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.contrib.gis.db.models.functions.Area.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sqlite",
+                    "namespace": "django.contrib.gis.db.models.functions.Area.as_sqlite",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Azimuth",
-            "namespace": "django.contrib.gis.db.models.functions.Azimuth"
+            "namespace": "django.contrib.gis.db.models.functions.Azimuth",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "AsGeoJSON",
-            "namespace": "django.contrib.gis.db.models.functions.AsGeoJSON"
+            "namespace": "django.contrib.gis.db.models.functions.AsGeoJSON",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.gis.db.models.functions.AsGeoJSON.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_oracle",
+                    "namespace": "django.contrib.gis.db.models.functions.AsGeoJSON.as_oracle",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "AsGML",
-            "namespace": "django.contrib.gis.db.models.functions.AsGML"
+            "namespace": "django.contrib.gis.db.models.functions.AsGML",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.gis.db.models.functions.AsGML.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_oracle",
+                    "namespace": "django.contrib.gis.db.models.functions.AsGML.as_oracle",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "AsKML",
-            "namespace": "django.contrib.gis.db.models.functions.AsKML"
+            "namespace": "django.contrib.gis.db.models.functions.AsKML",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.gis.db.models.functions.AsKML.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "AsSVG",
-            "namespace": "django.contrib.gis.db.models.functions.AsSVG"
+            "namespace": "django.contrib.gis.db.models.functions.AsSVG",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.gis.db.models.functions.AsSVG.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "AsWKB",
-            "namespace": "django.contrib.gis.db.models.functions.AsWKB"
+            "namespace": "django.contrib.gis.db.models.functions.AsWKB",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "AsWKT",
-            "namespace": "django.contrib.gis.db.models.functions.AsWKT"
+            "namespace": "django.contrib.gis.db.models.functions.AsWKT",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "BoundingCircle",
-            "namespace": "django.contrib.gis.db.models.functions.BoundingCircle"
+            "namespace": "django.contrib.gis.db.models.functions.BoundingCircle",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.gis.db.models.functions.BoundingCircle.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_oracle",
+                    "namespace": "django.contrib.gis.db.models.functions.BoundingCircle.as_oracle",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Centroid",
-            "namespace": "django.contrib.gis.db.models.functions.Centroid"
+            "namespace": "django.contrib.gis.db.models.functions.Centroid",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "Difference",
-            "namespace": "django.contrib.gis.db.models.functions.Difference"
+            "namespace": "django.contrib.gis.db.models.functions.Difference",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "DistanceResultMixin",
-            "namespace": "django.contrib.gis.db.models.functions.DistanceResultMixin"
+            "namespace": "django.contrib.gis.db.models.functions.DistanceResultMixin",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "output_field",
+                    "namespace": "django.contrib.gis.db.models.functions.DistanceResultMixin.output_field",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "source_is_geography",
+                    "namespace": "django.contrib.gis.db.models.functions.DistanceResultMixin.source_is_geography",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Distance",
-            "namespace": "django.contrib.gis.db.models.functions.Distance"
+            "namespace": "django.contrib.gis.db.models.functions.Distance",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.gis.db.models.functions.Distance.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_postgresql",
+                    "namespace": "django.contrib.gis.db.models.functions.Distance.as_postgresql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sqlite",
+                    "namespace": "django.contrib.gis.db.models.functions.Distance.as_sqlite",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Envelope",
-            "namespace": "django.contrib.gis.db.models.functions.Envelope"
+            "namespace": "django.contrib.gis.db.models.functions.Envelope",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "ForcePolygonCW",
-            "namespace": "django.contrib.gis.db.models.functions.ForcePolygonCW"
+            "namespace": "django.contrib.gis.db.models.functions.ForcePolygonCW",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "GeoHash",
-            "namespace": "django.contrib.gis.db.models.functions.GeoHash"
+            "namespace": "django.contrib.gis.db.models.functions.GeoHash",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.gis.db.models.functions.GeoHash.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_mysql",
+                    "namespace": "django.contrib.gis.db.models.functions.GeoHash.as_mysql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "GeometryDistance",
-            "namespace": "django.contrib.gis.db.models.functions.GeometryDistance"
+            "namespace": "django.contrib.gis.db.models.functions.GeometryDistance",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "Intersection",
-            "namespace": "django.contrib.gis.db.models.functions.Intersection"
+            "namespace": "django.contrib.gis.db.models.functions.Intersection",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "IsValid",
-            "namespace": "django.contrib.gis.db.models.functions.IsValid"
+            "namespace": "django.contrib.gis.db.models.functions.IsValid",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "as_oracle",
+                    "namespace": "django.contrib.gis.db.models.functions.IsValid.as_oracle",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Length",
-            "namespace": "django.contrib.gis.db.models.functions.Length"
+            "namespace": "django.contrib.gis.db.models.functions.Length",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.gis.db.models.functions.Length.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.contrib.gis.db.models.functions.Length.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_postgresql",
+                    "namespace": "django.contrib.gis.db.models.functions.Length.as_postgresql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sqlite",
+                    "namespace": "django.contrib.gis.db.models.functions.Length.as_sqlite",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "LineLocatePoint",
-            "namespace": "django.contrib.gis.db.models.functions.LineLocatePoint"
+            "namespace": "django.contrib.gis.db.models.functions.LineLocatePoint",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "MakeValid",
-            "namespace": "django.contrib.gis.db.models.functions.MakeValid"
+            "namespace": "django.contrib.gis.db.models.functions.MakeValid",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "MemSize",
-            "namespace": "django.contrib.gis.db.models.functions.MemSize"
+            "namespace": "django.contrib.gis.db.models.functions.MemSize",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "NumGeometries",
-            "namespace": "django.contrib.gis.db.models.functions.NumGeometries"
+            "namespace": "django.contrib.gis.db.models.functions.NumGeometries",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "NumPoints",
-            "namespace": "django.contrib.gis.db.models.functions.NumPoints"
+            "namespace": "django.contrib.gis.db.models.functions.NumPoints",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "Perimeter",
-            "namespace": "django.contrib.gis.db.models.functions.Perimeter"
+            "namespace": "django.contrib.gis.db.models.functions.Perimeter",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "as_postgresql",
+                    "namespace": "django.contrib.gis.db.models.functions.Perimeter.as_postgresql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sqlite",
+                    "namespace": "django.contrib.gis.db.models.functions.Perimeter.as_sqlite",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "PointOnSurface",
-            "namespace": "django.contrib.gis.db.models.functions.PointOnSurface"
+            "namespace": "django.contrib.gis.db.models.functions.PointOnSurface",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "Reverse",
-            "namespace": "django.contrib.gis.db.models.functions.Reverse"
+            "namespace": "django.contrib.gis.db.models.functions.Reverse",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "Scale",
-            "namespace": "django.contrib.gis.db.models.functions.Scale"
+            "namespace": "django.contrib.gis.db.models.functions.Scale",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.gis.db.models.functions.Scale.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "SnapToGrid",
-            "namespace": "django.contrib.gis.db.models.functions.SnapToGrid"
+            "namespace": "django.contrib.gis.db.models.functions.SnapToGrid",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.gis.db.models.functions.SnapToGrid.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "SymDifference",
-            "namespace": "django.contrib.gis.db.models.functions.SymDifference"
+            "namespace": "django.contrib.gis.db.models.functions.SymDifference",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "Transform",
-            "namespace": "django.contrib.gis.db.models.functions.Transform"
+            "namespace": "django.contrib.gis.db.models.functions.Transform",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.gis.db.models.functions.Transform.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Translate",
-            "namespace": "django.contrib.gis.db.models.functions.Translate"
+            "namespace": "django.contrib.gis.db.models.functions.Translate",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "as_sqlite",
+                    "namespace": "django.contrib.gis.db.models.functions.Translate.as_sqlite",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Union",
-            "namespace": "django.contrib.gis.db.models.functions.Union"
+            "namespace": "django.contrib.gis.db.models.functions.Union",
+            "methods": []
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.gis.db.models"
 }

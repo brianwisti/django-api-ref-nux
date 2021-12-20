@@ -5,23 +5,136 @@
         {
             "docstring": "\"\"\"\n    An abstract uploaded file (``TemporaryUploadedFile`` and\n    ``InMemoryUploadedFile`` are the built-in concrete subclasses).\n\n    An ``UploadedFile`` object behaves somewhat like a file object and\n    represents some file data that the user submitted with a form.\n    \"\"\"",
             "name": "UploadedFile",
-            "namespace": "django.core.files.uploadedfile.UploadedFile"
+            "namespace": "django.core.files.uploadedfile.UploadedFile",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.core.files.uploadedfile.UploadedFile.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.core.files.uploadedfile.UploadedFile.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_get_name",
+                    "namespace": "django.core.files.uploadedfile.UploadedFile._get_name",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_set_name",
+                    "namespace": "django.core.files.uploadedfile.UploadedFile._set_name",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    A file uploaded to a temporary location (i.e. stream-to-disk).\n    \"\"\"",
             "name": "TemporaryUploadedFile",
-            "namespace": "django.core.files.uploadedfile.TemporaryUploadedFile"
+            "namespace": "django.core.files.uploadedfile.TemporaryUploadedFile",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.core.files.uploadedfile.TemporaryUploadedFile.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return the full path of this file.\"\"\"",
+                    "name": "temporary_file_path",
+                    "namespace": "django.core.files.uploadedfile.TemporaryUploadedFile.temporary_file_path",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "close",
+                    "namespace": "django.core.files.uploadedfile.TemporaryUploadedFile.close",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    A file uploaded into memory (i.e. stream-to-memory).\n    \"\"\"",
             "name": "InMemoryUploadedFile",
-            "namespace": "django.core.files.uploadedfile.InMemoryUploadedFile"
+            "namespace": "django.core.files.uploadedfile.InMemoryUploadedFile",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.core.files.uploadedfile.InMemoryUploadedFile.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "open",
+                    "namespace": "django.core.files.uploadedfile.InMemoryUploadedFile.open",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "chunks",
+                    "namespace": "django.core.files.uploadedfile.InMemoryUploadedFile.chunks",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "multiple_chunks",
+                    "namespace": "django.core.files.uploadedfile.InMemoryUploadedFile.multiple_chunks",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    A simple representation of a file, which just has content, size, and a name.\n    \"\"\"",
             "name": "SimpleUploadedFile",
-            "namespace": "django.core.files.uploadedfile.SimpleUploadedFile"
+            "namespace": "django.core.files.uploadedfile.SimpleUploadedFile",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.core.files.uploadedfile.SimpleUploadedFile.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Create a SimpleUploadedFile object from a dictionary with keys:\n           - filename\n           - content-type\n           - content\n        \"\"\"",
+                    "name": "from_dict",
+                    "namespace": "django.core.files.uploadedfile.SimpleUploadedFile.from_dict",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.core.files"
 }

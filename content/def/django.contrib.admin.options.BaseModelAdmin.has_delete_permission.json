@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Return True if the given request has permission to change the given\n        Django model instance, the default implementation doesn't examine the\n        `obj` parameter.\n\n        Can be overridden by the user in subclasses. In such case it should\n        return True if the given request has permission to delete the `obj`\n        model instance. If `obj` is None, this should return True if the given\n        request has permission to delete *any* object of the given type.\n        \"\"\"",
+    "name": "has_delete_permission",
+    "namespace": "django.contrib.admin.options.BaseModelAdmin.has_delete_permission",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

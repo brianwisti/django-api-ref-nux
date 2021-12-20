@@ -3,5 +3,39 @@
     "name": "UserManager",
     "namespace": "django.contrib.auth.models.UserManager",
     "module_name": "django.contrib.auth.models",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "\"\"\"\n        Create and save a user with the given username, email, and password.\n        \"\"\"",
+            "name": "_create_user",
+            "namespace": "django.contrib.auth.models.UserManager._create_user",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "create_user",
+            "namespace": "django.contrib.auth.models.UserManager.create_user",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "create_superuser",
+            "namespace": "django.contrib.auth.models.UserManager.create_superuser",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "with_perm",
+            "namespace": "django.contrib.auth.models.UserManager.with_perm",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

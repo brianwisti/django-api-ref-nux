@@ -3,5 +3,183 @@
     "name": "ManyToManyField",
     "namespace": "django.db.models.fields.related.ManyToManyField",
     "module_name": "django.db.models.fields.related",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.db.models.fields.related.ManyToManyField.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "check",
+            "namespace": "django.db.models.fields.related.ManyToManyField.check",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_check_unique",
+            "namespace": "django.db.models.fields.related.ManyToManyField._check_unique",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_check_ignored_options",
+            "namespace": "django.db.models.fields.related.ManyToManyField._check_ignored_options",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_check_relationship_model",
+            "namespace": "django.db.models.fields.related.ManyToManyField._check_relationship_model",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_check_table_uniqueness",
+            "namespace": "django.db.models.fields.related.ManyToManyField._check_table_uniqueness",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "deconstruct",
+            "namespace": "django.db.models.fields.related.ManyToManyField.deconstruct",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Called by both direct and indirect m2m traversal.\"\"\"",
+            "name": "_get_path_info",
+            "namespace": "django.db.models.fields.related.ManyToManyField._get_path_info",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_path_info",
+            "namespace": "django.db.models.fields.related.ManyToManyField.get_path_info",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_reverse_path_info",
+            "namespace": "django.db.models.fields.related.ManyToManyField.get_reverse_path_info",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Function that can be curried to provide the m2m table name for this\n        relation.\n        \"\"\"",
+            "name": "_get_m2m_db_table",
+            "namespace": "django.db.models.fields.related.ManyToManyField._get_m2m_db_table",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Function that can be curried to provide the source accessor or DB\n        column name for the m2m table.\n        \"\"\"",
+            "name": "_get_m2m_attr",
+            "namespace": "django.db.models.fields.related.ManyToManyField._get_m2m_attr",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Function that can be curried to provide the related accessor or DB\n        column name for the m2m table.\n        \"\"\"",
+            "name": "_get_m2m_reverse_attr",
+            "namespace": "django.db.models.fields.related.ManyToManyField._get_m2m_reverse_attr",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "contribute_to_class",
+            "namespace": "django.db.models.fields.related.ManyToManyField.contribute_to_class",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "contribute_to_related_class",
+            "namespace": "django.db.models.fields.related.ManyToManyField.contribute_to_related_class",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "set_attributes_from_rel",
+            "namespace": "django.db.models.fields.related.ManyToManyField.set_attributes_from_rel",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "value_from_object",
+            "namespace": "django.db.models.fields.related.ManyToManyField.value_from_object",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "save_form_data",
+            "namespace": "django.db.models.fields.related.ManyToManyField.save_form_data",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "formfield",
+            "namespace": "django.db.models.fields.related.ManyToManyField.formfield",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "db_check",
+            "namespace": "django.db.models.fields.related.ManyToManyField.db_check",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "db_type",
+            "namespace": "django.db.models.fields.related.ManyToManyField.db_type",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "db_parameters",
+            "namespace": "django.db.models.fields.related.ManyToManyField.db_parameters",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

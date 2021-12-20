@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Internal low-level utility to mark a transaction as \"needs rollback\" when\n    an exception is raised while not enforcing the enclosed block to be in a\n    transaction. This is needed by Model.save() and friends to avoid starting a\n    transaction when in autocommit mode and a single query is executed.\n\n    It's equivalent to:\n\n        connection = get_connection(using)\n        if connection.get_autocommit():\n            yield\n        else:\n            with transaction.atomic(using=using, savepoint=False):\n                yield\n\n    but it uses low-level utilities to avoid performance overhead.\n    \"\"\"",
+    "name": "mark_for_rollback_on_error",
+    "namespace": "django.db.transaction.mark_for_rollback_on_error",
+    "class_name": "",
+    "module_name": "django.db.transaction",
+    "package_name": ""
+}

@@ -3,5 +3,31 @@
     "name": "BrokenLinkEmailsMiddleware",
     "namespace": "django.middleware.common.BrokenLinkEmailsMiddleware",
     "module_name": "django.middleware.common",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "\"\"\"Send broken link emails for relevant 404 NOT FOUND responses.\"\"\"",
+            "name": "process_response",
+            "namespace": "django.middleware.common.BrokenLinkEmailsMiddleware.process_response",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return True if the referring URL is the same domain as the current\n        request.\n        \"\"\"",
+            "name": "is_internal_request",
+            "namespace": "django.middleware.common.BrokenLinkEmailsMiddleware.is_internal_request",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return True if the given request *shouldn't* notify the site managers\n        according to project settings or in situations outlined by the inline\n        comments.\n        \"\"\"",
+            "name": "is_ignorable_request",
+            "namespace": "django.middleware.common.BrokenLinkEmailsMiddleware.is_ignorable_request",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

@@ -2,5 +2,23 @@
     "namespace": "django.utils.translation.reloader",
     "docstring": "",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "\"\"\"Register file watchers for .mo files in potential locale paths.\"\"\"",
+            "name": "watch_for_translation_changes",
+            "namespace": "django.utils.translation.reloader.watch_for_translation_changes",
+            "class_name": "",
+            "module_name": "django.utils.translation.reloader",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Clear the internal translations cache if a .mo file is modified.\"\"\"",
+            "name": "translation_file_changed",
+            "namespace": "django.utils.translation.reloader.translation_file_changed",
+            "class_name": "",
+            "module_name": "django.utils.translation.reloader",
+            "package_name": ""
+        }
+    ],
     "package_name": "django.utils.translation"
 }

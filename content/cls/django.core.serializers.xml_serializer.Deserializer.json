@@ -3,5 +3,63 @@
     "name": "Deserializer",
     "namespace": "django.core.serializers.xml_serializer.Deserializer",
     "module_name": "django.core.serializers.xml_serializer",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.core.serializers.xml_serializer.Deserializer.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Create a hardened XML parser (no custom/external entities).\"\"\"",
+            "name": "_make_parser",
+            "namespace": "django.core.serializers.xml_serializer.Deserializer._make_parser",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__next__",
+            "namespace": "django.core.serializers.xml_serializer.Deserializer.__next__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Convert an <object> node to a DeserializedObject.\"\"\"",
+            "name": "_handle_object",
+            "namespace": "django.core.serializers.xml_serializer.Deserializer._handle_object",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Handle a <field> node for a ForeignKey\n        \"\"\"",
+            "name": "_handle_fk_field_node",
+            "namespace": "django.core.serializers.xml_serializer.Deserializer._handle_fk_field_node",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Handle a <field> node for a ManyToManyField.\n        \"\"\"",
+            "name": "_handle_m2m_field_node",
+            "namespace": "django.core.serializers.xml_serializer.Deserializer._handle_m2m_field_node",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Look up a model from a <object model=...> or a <field rel=... to=...>\n        node.\n        \"\"\"",
+            "name": "_get_model_from_node",
+            "namespace": "django.core.serializers.xml_serializer.Deserializer._get_model_from_node",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

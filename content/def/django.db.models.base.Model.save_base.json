@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Handle the parts of saving which should be done only once per save,\n        yet need to be done in raw saves, too. This includes some sanity\n        checks and signal sending.\n\n        The 'raw' argument is telling save_base not to save any parent\n        models and not to do any changes to the values before save. This\n        is used by fixture loading.\n        \"\"\"",
+    "name": "save_base",
+    "namespace": "django.db.models.base.Model.save_base",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

@@ -3,5 +3,79 @@
     "name": "Serializer",
     "namespace": "django.core.serializers.xml_serializer.Serializer",
     "module_name": "django.core.serializers.xml_serializer",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "indent",
+            "namespace": "django.core.serializers.xml_serializer.Serializer.indent",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Start serialization -- open the XML document and the root element.\n        \"\"\"",
+            "name": "start_serialization",
+            "namespace": "django.core.serializers.xml_serializer.Serializer.start_serialization",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        End serialization -- end the document.\n        \"\"\"",
+            "name": "end_serialization",
+            "namespace": "django.core.serializers.xml_serializer.Serializer.end_serialization",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Called as each object is handled.\n        \"\"\"",
+            "name": "start_object",
+            "namespace": "django.core.serializers.xml_serializer.Serializer.start_object",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Called after handling all fields for an object.\n        \"\"\"",
+            "name": "end_object",
+            "namespace": "django.core.serializers.xml_serializer.Serializer.end_object",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Handle each field on an object (except for ForeignKeys and\n        ManyToManyFields).\n        \"\"\"",
+            "name": "handle_field",
+            "namespace": "django.core.serializers.xml_serializer.Serializer.handle_field",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Handle a ForeignKey (they need to be treated slightly\n        differently from regular fields).\n        \"\"\"",
+            "name": "handle_fk_field",
+            "namespace": "django.core.serializers.xml_serializer.Serializer.handle_fk_field",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Handle a ManyToManyField. Related objects are only serialized as\n        references to the object's PK (i.e. the related *data* is not dumped,\n        just the relation).\n        \"\"\"",
+            "name": "handle_m2m_field",
+            "namespace": "django.core.serializers.xml_serializer.Serializer.handle_m2m_field",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Output the <field> element for relational fields.\"\"\"",
+            "name": "_start_relational_field",
+            "namespace": "django.core.serializers.xml_serializer.Serializer._start_relational_field",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

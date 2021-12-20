@@ -3,5 +3,47 @@
     "name": "ListFilter",
     "namespace": "django.contrib.admin.filters.ListFilter",
     "module_name": "django.contrib.admin.filters",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.contrib.admin.filters.ListFilter.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return True if some choices would be output for this filter.\n        \"\"\"",
+            "name": "has_output",
+            "namespace": "django.contrib.admin.filters.ListFilter.has_output",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return choices ready to be output in the template.\n\n        `changelist` is the ChangeList to be displayed.\n        \"\"\"",
+            "name": "choices",
+            "namespace": "django.contrib.admin.filters.ListFilter.choices",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return the filtered queryset.\n        \"\"\"",
+            "name": "queryset",
+            "namespace": "django.contrib.admin.filters.ListFilter.queryset",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return the list of parameter names that are expected from the\n        request's query string and that will be used by this filter.\n        \"\"\"",
+            "name": "expected_parameters",
+            "namespace": "django.contrib.admin.filters.ListFilter.expected_parameters",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

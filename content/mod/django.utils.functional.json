@@ -5,27 +5,254 @@
         {
             "docstring": "\"\"\"\n    Decorator that converts a method with a single self argument into a\n    property cached on the instance.\n\n    A cached property can be made out of an existing method:\n    (e.g. ``url = cached_property(get_absolute_url)``).\n    The optional ``name`` argument is obsolete as of Python 3.6 and will be\n    deprecated in Django 4.0 (#30127).\n    \"\"\"",
             "name": "cached_property",
-            "namespace": "django.utils.functional.cached_property"
+            "namespace": "django.utils.functional.cached_property",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "func",
+                    "namespace": "django.utils.functional.cached_property.func",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.utils.functional.cached_property.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__set_name__",
+                    "namespace": "django.utils.functional.cached_property.__set_name__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Call the function and put the return value in instance.__dict__ so that\n        subsequent attribute access on the instance returns the cached value\n        instead of calling cached_property.__get__().\n        \"\"\"",
+                    "name": "__get__",
+                    "namespace": "django.utils.functional.cached_property.__get__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Decorator that converts a method with a single cls argument into a property\n    that can be accessed directly from the class.\n    \"\"\"",
             "name": "classproperty",
-            "namespace": "django.utils.functional.classproperty"
+            "namespace": "django.utils.functional.classproperty",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.utils.functional.classproperty.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__get__",
+                    "namespace": "django.utils.functional.classproperty.__get__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "getter",
+                    "namespace": "django.utils.functional.classproperty.getter",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Base class for the proxy class created in the closure of the lazy function.\n    It's used to recognize promises in code.\n    \"\"\"",
             "name": "Promise",
-            "namespace": "django.utils.functional.Promise"
+            "namespace": "django.utils.functional.Promise",
+            "methods": []
         },
         {
             "docstring": "\"\"\"\n    A wrapper for another class that can be used to delay instantiation of the\n    wrapped class.\n\n    By subclassing, you have the opportunity to intercept and alter the\n    instantiation. If you don't need to do that, use SimpleLazyObject.\n    \"\"\"",
             "name": "LazyObject",
-            "namespace": "django.utils.functional.LazyObject"
+            "namespace": "django.utils.functional.LazyObject",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.utils.functional.LazyObject.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__setattr__",
+                    "namespace": "django.utils.functional.LazyObject.__setattr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__delattr__",
+                    "namespace": "django.utils.functional.LazyObject.__delattr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Must be implemented by subclasses to initialize the wrapped object.\n        \"\"\"",
+                    "name": "_setup",
+                    "namespace": "django.utils.functional.LazyObject._setup",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__reduce__",
+                    "namespace": "django.utils.functional.LazyObject.__reduce__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__copy__",
+                    "namespace": "django.utils.functional.LazyObject.__copy__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__deepcopy__",
+                    "namespace": "django.utils.functional.LazyObject.__deepcopy__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    A lazy object initialized from any function.\n\n    Designed for compound objects of unknown type. For builtins or objects of\n    known type, use django.utils.functional.lazy.\n    \"\"\"",
             "name": "SimpleLazyObject",
-            "namespace": "django.utils.functional.SimpleLazyObject"
+            "namespace": "django.utils.functional.SimpleLazyObject",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        Pass in a callable that returns the object to be wrapped.\n\n        If copies are made of the resulting SimpleLazyObject, which can happen\n        in various circumstances within Django, then you must ensure that the\n        callable can be safely run more than once and will return the same\n        value.\n        \"\"\"",
+                    "name": "__init__",
+                    "namespace": "django.utils.functional.SimpleLazyObject.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_setup",
+                    "namespace": "django.utils.functional.SimpleLazyObject._setup",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.utils.functional.SimpleLazyObject.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__copy__",
+                    "namespace": "django.utils.functional.SimpleLazyObject.__copy__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__deepcopy__",
+                    "namespace": "django.utils.functional.SimpleLazyObject.__deepcopy__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Turn any callable into a lazy evaluated callable. result classes or types\n    is required -- at least one is needed so that the automatic forcing of\n    the lazy evaluation code is triggered. Results are not memoized; the\n    function is evaluated on every access.\n    \"\"\"",
+            "name": "lazy",
+            "namespace": "django.utils.functional.lazy",
+            "class_name": "",
+            "module_name": "django.utils.functional",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_lazy_proxy_unpickle",
+            "namespace": "django.utils.functional._lazy_proxy_unpickle",
+            "class_name": "",
+            "module_name": "django.utils.functional",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Shortcut for the common case of a lazy callable that returns str.\n    \"\"\"",
+            "name": "lazystr",
+            "namespace": "django.utils.functional.lazystr",
+            "class_name": "",
+            "module_name": "django.utils.functional",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    A decorator that allows a function to be called with one or more lazy\n    arguments. If none of the args are lazy, the function is evaluated\n    immediately, otherwise a __proxy__ is returned that will evaluate the\n    function when needed.\n    \"\"\"",
+            "name": "keep_lazy",
+            "namespace": "django.utils.functional.keep_lazy",
+            "class_name": "",
+            "module_name": "django.utils.functional",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    A decorator for functions that accept lazy arguments and return text.\n    \"\"\"",
+            "name": "keep_lazy_text",
+            "namespace": "django.utils.functional.keep_lazy_text",
+            "class_name": "",
+            "module_name": "django.utils.functional",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "new_method_proxy",
+            "namespace": "django.utils.functional.new_method_proxy",
+            "class_name": "",
+            "module_name": "django.utils.functional",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Used to unpickle lazy objects. Just return its argument, which will be the\n    wrapped object.\n    \"\"\"",
+            "name": "unpickle_lazyobject",
+            "namespace": "django.utils.functional.unpickle_lazyobject",
+            "class_name": "",
+            "module_name": "django.utils.functional",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Split the values into two sets, based on the return value of the function\n    (True/False). e.g.:\n\n        >>> partition(lambda x: x > 3, range(5))\n        [0, 1, 2, 3], [4]\n    \"\"\"",
+            "name": "partition",
+            "namespace": "django.utils.functional.partition",
+            "class_name": "",
+            "module_name": "django.utils.functional",
+            "package_name": ""
         }
     ],
     "package_name": "django.utils"

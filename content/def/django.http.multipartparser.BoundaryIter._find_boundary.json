@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Find a multipart boundary in data.\n\n        Should no boundary exist in the data, return None. Otherwise, return\n        a tuple containing the indices of the following:\n         * the end of current encapsulation\n         * the start of the next encapsulation\n        \"\"\"",
+    "name": "_find_boundary",
+    "namespace": "django.http.multipartparser.BoundaryIter._find_boundary",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

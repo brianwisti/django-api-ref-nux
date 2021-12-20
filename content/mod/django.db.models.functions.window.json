@@ -5,63 +5,119 @@
         {
             "docstring": "",
             "name": "CumeDist",
-            "namespace": "django.db.models.functions.window.CumeDist"
+            "namespace": "django.db.models.functions.window.CumeDist",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "DenseRank",
-            "namespace": "django.db.models.functions.window.DenseRank"
+            "namespace": "django.db.models.functions.window.DenseRank",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "FirstValue",
-            "namespace": "django.db.models.functions.window.FirstValue"
+            "namespace": "django.db.models.functions.window.FirstValue",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "LagLeadFunction",
-            "namespace": "django.db.models.functions.window.LagLeadFunction"
+            "namespace": "django.db.models.functions.window.LagLeadFunction",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.functions.window.LagLeadFunction.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_resolve_output_field",
+                    "namespace": "django.db.models.functions.window.LagLeadFunction._resolve_output_field",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Lag",
-            "namespace": "django.db.models.functions.window.Lag"
+            "namespace": "django.db.models.functions.window.Lag",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "LastValue",
-            "namespace": "django.db.models.functions.window.LastValue"
+            "namespace": "django.db.models.functions.window.LastValue",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "Lead",
-            "namespace": "django.db.models.functions.window.Lead"
+            "namespace": "django.db.models.functions.window.Lead",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "NthValue",
-            "namespace": "django.db.models.functions.window.NthValue"
+            "namespace": "django.db.models.functions.window.NthValue",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.functions.window.NthValue.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_resolve_output_field",
+                    "namespace": "django.db.models.functions.window.NthValue._resolve_output_field",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Ntile",
-            "namespace": "django.db.models.functions.window.Ntile"
+            "namespace": "django.db.models.functions.window.Ntile",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.functions.window.Ntile.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "PercentRank",
-            "namespace": "django.db.models.functions.window.PercentRank"
+            "namespace": "django.db.models.functions.window.PercentRank",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "Rank",
-            "namespace": "django.db.models.functions.window.Rank"
+            "namespace": "django.db.models.functions.window.Rank",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "RowNumber",
-            "namespace": "django.db.models.functions.window.RowNumber"
+            "namespace": "django.db.models.functions.window.RowNumber",
+            "methods": []
         }
     ],
+    "functions": [],
     "package_name": "django.db.models.functions"
 }

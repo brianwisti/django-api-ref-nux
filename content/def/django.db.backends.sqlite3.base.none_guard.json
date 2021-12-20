@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Decorator that returns None if any of the arguments to the decorated\n    function are None. Many SQL functions return NULL if any of their arguments\n    are NULL. This decorator simplifies the implementation of this for the\n    custom functions registered below.\n    \"\"\"",
+    "name": "none_guard",
+    "namespace": "django.db.backends.sqlite3.base.none_guard",
+    "class_name": "",
+    "module_name": "django.db.backends.sqlite3.base",
+    "package_name": ""
+}

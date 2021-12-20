@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Construct the key used by all other methods. By default, use the\n        key_func to generate a key (which, by default, prepends the\n        `key_prefix' and 'version'). A different key function can be provided\n        at the time of cache construction; alternatively, you can subclass the\n        cache backend to provide custom key making behavior.\n        \"\"\"",
+    "name": "make_key",
+    "namespace": "django.core.cache.backends.base.BaseCache.make_key",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

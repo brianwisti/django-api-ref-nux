@@ -3,5 +3,23 @@
     "name": "BigIntegerField",
     "namespace": "django.db.models.fields.BigIntegerField",
     "module_name": "django.db.models.fields",
-    "package_name": "django.db.models.fields"
+    "package_name": "django.db.models.fields",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "get_internal_type",
+            "namespace": "django.db.models.fields.BigIntegerField.get_internal_type",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "formfield",
+            "namespace": "django.db.models.fields.BigIntegerField.formfield",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

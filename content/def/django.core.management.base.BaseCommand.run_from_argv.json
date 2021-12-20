@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Set up any environment changes requested (e.g., Python path\n        and Django settings), then run this command. If the\n        command raises a ``CommandError``, intercept it and print it sensibly\n        to stderr. If the ``--traceback`` option is present or the raised\n        ``Exception`` is not ``CommandError``, raise it.\n        \"\"\"",
+    "name": "run_from_argv",
+    "namespace": "django.core.management.base.BaseCommand.run_from_argv",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

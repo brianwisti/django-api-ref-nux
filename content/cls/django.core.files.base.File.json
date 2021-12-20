@@ -3,5 +3,111 @@
     "name": "File",
     "namespace": "django.core.files.base.File",
     "module_name": "django.core.files.base",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.core.files.base.File.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__str__",
+            "namespace": "django.core.files.base.File.__str__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__repr__",
+            "namespace": "django.core.files.base.File.__repr__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__bool__",
+            "namespace": "django.core.files.base.File.__bool__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__len__",
+            "namespace": "django.core.files.base.File.__len__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "size",
+            "namespace": "django.core.files.base.File.size",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Read the file and yield chunks of ``chunk_size`` bytes (defaults to\n        ``File.DEFAULT_CHUNK_SIZE``).\n        \"\"\"",
+            "name": "chunks",
+            "namespace": "django.core.files.base.File.chunks",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return ``True`` if you can expect multiple chunks.\n\n        NB: If a particular file representation is in memory, subclasses should\n        always return ``False`` -- there's no good reason to read from memory in\n        chunks.\n        \"\"\"",
+            "name": "multiple_chunks",
+            "namespace": "django.core.files.base.File.multiple_chunks",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__iter__",
+            "namespace": "django.core.files.base.File.__iter__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__enter__",
+            "namespace": "django.core.files.base.File.__enter__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__exit__",
+            "namespace": "django.core.files.base.File.__exit__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "open",
+            "namespace": "django.core.files.base.File.open",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "close",
+            "namespace": "django.core.files.base.File.close",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

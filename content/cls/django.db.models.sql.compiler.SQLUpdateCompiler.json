@@ -3,5 +3,31 @@
     "name": "SQLUpdateCompiler",
     "namespace": "django.db.models.sql.compiler.SQLUpdateCompiler",
     "module_name": "django.db.models.sql.compiler",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "\"\"\"\n        Create the SQL for this query. Return the SQL string and list of\n        parameters.\n        \"\"\"",
+            "name": "as_sql",
+            "namespace": "django.db.models.sql.compiler.SQLUpdateCompiler.as_sql",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Execute the specified update. Return the number of rows affected by\n        the primary update query. The \"primary update query\" is the first\n        non-empty query that is executed. Row counts for any subsequent,\n        related queries are not available.\n        \"\"\"",
+            "name": "execute_sql",
+            "namespace": "django.db.models.sql.compiler.SQLUpdateCompiler.execute_sql",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        If the update depends on results from other tables, munge the \"where\"\n        conditions to match the format required for (portable) SQL updates.\n\n        If multiple updates are required, pull out the id values to update at\n        this point so that they don't change as a result of the progressive\n        updates.\n        \"\"\"",
+            "name": "pre_sql_setup",
+            "namespace": "django.db.models.sql.compiler.SQLUpdateCompiler.pre_sql_setup",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

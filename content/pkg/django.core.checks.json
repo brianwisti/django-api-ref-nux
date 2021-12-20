@@ -2,56 +2,251 @@
     "name": "django.core.checks",
     "docstring": "",
     "package_name": "django.core",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.core.checks.files",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "check_setting_file_upload_temp_dir",
+                    "namespace": "django.core.checks.files.check_setting_file_upload_temp_dir",
+                    "class_name": "",
+                    "module_name": "django.core.checks.files",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.core.checks"
         },
         {
             "namespace": "django.core.checks.caches",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "check_default_cache_is_configured",
+                    "namespace": "django.core.checks.caches.check_default_cache_is_configured",
+                    "class_name": "",
+                    "module_name": "django.core.checks.caches",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check_cache_location_not_exposed",
+                    "namespace": "django.core.checks.caches.check_cache_location_not_exposed",
+                    "class_name": "",
+                    "module_name": "django.core.checks.caches",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check_file_based_cache_is_absolute",
+                    "namespace": "django.core.checks.caches.check_file_based_cache_is_absolute",
+                    "class_name": "",
+                    "module_name": "django.core.checks.caches",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.core.checks"
         },
         {
             "namespace": "django.core.checks.registry",
             "docstring": "",
+            "functions": [],
             "package_name": "django.core.checks"
         },
         {
             "namespace": "django.core.checks.model_checks",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "check_all_models",
+                    "namespace": "django.core.checks.model_checks.check_all_models",
+                    "class_name": "",
+                    "module_name": "django.core.checks.model_checks",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Ensure all lazy (i.e. string) model references have been resolved.\n\n    Lazy references are used in various places throughout Django, primarily in\n    related fields and model signals. Identify those common cases and provide\n    more helpful error messages for them.\n\n    The ignore parameter is used by StateApps to exclude swappable models from\n    this check.\n    \"\"\"",
+                    "name": "_check_lazy_references",
+                    "namespace": "django.core.checks.model_checks._check_lazy_references",
+                    "class_name": "",
+                    "module_name": "django.core.checks.model_checks",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check_lazy_references",
+                    "namespace": "django.core.checks.model_checks.check_lazy_references",
+                    "class_name": "",
+                    "module_name": "django.core.checks.model_checks",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.core.checks"
         },
         {
             "namespace": "django.core.checks.database",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "check_database_backends",
+                    "namespace": "django.core.checks.database.check_database_backends",
+                    "class_name": "",
+                    "module_name": "django.core.checks.database",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.core.checks"
         },
         {
             "namespace": "django.core.checks.templates",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "check_setting_app_dirs_loaders",
+                    "namespace": "django.core.checks.templates.check_setting_app_dirs_loaders",
+                    "class_name": "",
+                    "module_name": "django.core.checks.templates",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check_string_if_invalid_is_string",
+                    "namespace": "django.core.checks.templates.check_string_if_invalid_is_string",
+                    "class_name": "",
+                    "module_name": "django.core.checks.templates",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.core.checks"
         },
         {
             "namespace": "django.core.checks.translation",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"Error if LANGUAGE_CODE setting is invalid.\"\"\"",
+                    "name": "check_setting_language_code",
+                    "namespace": "django.core.checks.translation.check_setting_language_code",
+                    "class_name": "",
+                    "module_name": "django.core.checks.translation",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Error if LANGUAGES setting is invalid.\"\"\"",
+                    "name": "check_setting_languages",
+                    "namespace": "django.core.checks.translation.check_setting_languages",
+                    "class_name": "",
+                    "module_name": "django.core.checks.translation",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Error if LANGUAGES_BIDI setting is invalid.\"\"\"",
+                    "name": "check_setting_languages_bidi",
+                    "namespace": "django.core.checks.translation.check_setting_languages_bidi",
+                    "class_name": "",
+                    "module_name": "django.core.checks.translation",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Error if language settings are not consistent with each other.\"\"\"",
+                    "name": "check_language_settings_consistent",
+                    "namespace": "django.core.checks.translation.check_language_settings_consistent",
+                    "class_name": "",
+                    "module_name": "django.core.checks.translation",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.core.checks"
         },
         {
             "namespace": "django.core.checks.async_checks",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "check_async_unsafe",
+                    "namespace": "django.core.checks.async_checks.check_async_unsafe",
+                    "class_name": "",
+                    "module_name": "django.core.checks.async_checks",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.core.checks"
         },
         {
             "namespace": "django.core.checks.messages",
             "docstring": "",
+            "functions": [],
             "package_name": "django.core.checks"
         },
         {
             "namespace": "django.core.checks.urls",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "check_url_config",
+                    "namespace": "django.core.checks.urls.check_url_config",
+                    "class_name": "",
+                    "module_name": "django.core.checks.urls",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Recursively check the resolver.\n    \"\"\"",
+                    "name": "check_resolver",
+                    "namespace": "django.core.checks.urls.check_resolver",
+                    "class_name": "",
+                    "module_name": "django.core.checks.urls",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Warn if URL namespaces used in applications aren't unique.\n    \"\"\"",
+                    "name": "check_url_namespaces_unique",
+                    "namespace": "django.core.checks.urls.check_url_namespaces_unique",
+                    "class_name": "",
+                    "module_name": "django.core.checks.urls",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Recursively load all namespaces from URL patterns.\n    \"\"\"",
+                    "name": "_load_all_namespaces",
+                    "namespace": "django.core.checks.urls._load_all_namespaces",
+                    "class_name": "",
+                    "module_name": "django.core.checks.urls",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return a list containing a warning that the pattern is invalid.\n\n    describe_pattern() cannot be used here, because we cannot rely on the\n    urlpattern having regex or name attributes.\n    \"\"\"",
+                    "name": "get_warning_for_invalid_pattern",
+                    "namespace": "django.core.checks.urls.get_warning_for_invalid_pattern",
+                    "class_name": "",
+                    "module_name": "django.core.checks.urls",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check_url_settings",
+                    "namespace": "django.core.checks.urls.check_url_settings",
+                    "class_name": "",
+                    "module_name": "django.core.checks.urls",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "E006",
+                    "namespace": "django.core.checks.urls.E006",
+                    "class_name": "",
+                    "module_name": "django.core.checks.urls",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.core.checks"
         }
     ],
@@ -59,12 +254,14 @@
         {
             "name": "django.core.checks.compatibility",
             "docstring": "",
-            "package_name": "django.core.checks"
+            "package_name": "django.core.checks",
+            "functions": []
         },
         {
             "name": "django.core.checks.security",
             "docstring": "",
-            "package_name": "django.core.checks"
+            "package_name": "django.core.checks",
+            "functions": []
         }
     ]
 }

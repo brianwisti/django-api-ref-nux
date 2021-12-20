@@ -2,11 +2,13 @@
     "name": "django.contrib.gis.db.backends",
     "docstring": "",
     "package_name": "django.contrib.gis.db",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.contrib.gis.db.backends.utils",
             "docstring": "\"\"\"\nA collection of utility routines and classes used by the spatial\nbackends.\n\"\"\"",
+            "functions": [],
             "package_name": "django.contrib.gis.db.backends"
         }
     ],
@@ -14,27 +16,32 @@
         {
             "name": "django.contrib.gis.db.backends.oracle",
             "docstring": "",
-            "package_name": "django.contrib.gis.db.backends"
+            "package_name": "django.contrib.gis.db.backends",
+            "functions": []
         },
         {
             "name": "django.contrib.gis.db.backends.postgis",
             "docstring": "",
-            "package_name": "django.contrib.gis.db.backends"
+            "package_name": "django.contrib.gis.db.backends",
+            "functions": []
         },
         {
             "name": "django.contrib.gis.db.backends.mysql",
             "docstring": "",
-            "package_name": "django.contrib.gis.db.backends"
+            "package_name": "django.contrib.gis.db.backends",
+            "functions": []
         },
         {
             "name": "django.contrib.gis.db.backends.spatialite",
             "docstring": "",
-            "package_name": "django.contrib.gis.db.backends"
+            "package_name": "django.contrib.gis.db.backends",
+            "functions": []
         },
         {
             "name": "django.contrib.gis.db.backends.base",
             "docstring": "",
-            "package_name": "django.contrib.gis.db.backends"
+            "package_name": "django.contrib.gis.db.backends",
+            "functions": []
         }
     ]
 }

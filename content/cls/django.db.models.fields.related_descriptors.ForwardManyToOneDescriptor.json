@@ -3,5 +3,79 @@
     "name": "ForwardManyToOneDescriptor",
     "namespace": "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor",
     "module_name": "django.db.models.fields.related_descriptors",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "RelatedObjectDoesNotExist",
+            "namespace": "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor.RelatedObjectDoesNotExist",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "is_cached",
+            "namespace": "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor.is_cached",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_queryset",
+            "namespace": "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor.get_queryset",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_prefetch_queryset",
+            "namespace": "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor.get_prefetch_queryset",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_object",
+            "namespace": "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor.get_object",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Get the related instance through the forward relation.\n\n        With the example above, when getting ``child.parent``:\n\n        - ``self`` is the descriptor managing the ``parent`` attribute\n        - ``instance`` is the ``child`` instance\n        - ``cls`` is the ``Child`` class (we don't need it)\n        \"\"\"",
+            "name": "__get__",
+            "namespace": "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor.__get__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Set the related instance through the forward relation.\n\n        With the example above, when setting ``child.parent = parent``:\n\n        - ``self`` is the descriptor managing the ``parent`` attribute\n        - ``instance`` is the ``child`` instance\n        - ``value`` is the ``parent`` instance on the right of the equal sign\n        \"\"\"",
+            "name": "__set__",
+            "namespace": "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor.__set__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Pickling should return the instance attached by self.field on the\n        model, not a new copy of that descriptor. Use getattr() to retrieve\n        the instance directly from the model.\n        \"\"\"",
+            "name": "__reduce__",
+            "namespace": "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor.__reduce__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

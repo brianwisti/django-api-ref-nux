@@ -2,5 +2,23 @@
     "namespace": "django.contrib.gis.geos.factory",
     "docstring": "",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Given a string file name, returns a GEOSGeometry. The file may contain WKB,\n    WKT, or HEX.\n    \"\"\"",
+            "name": "fromfile",
+            "namespace": "django.contrib.gis.geos.factory.fromfile",
+            "class_name": "",
+            "module_name": "django.contrib.gis.geos.factory",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Given a string value, return a GEOSGeometry object.\"",
+            "name": "fromstr",
+            "namespace": "django.contrib.gis.geos.factory.fromstr",
+            "class_name": "",
+            "module_name": "django.contrib.gis.geos.factory",
+            "package_name": ""
+        }
+    ],
     "package_name": "django.contrib.gis.geos"
 }

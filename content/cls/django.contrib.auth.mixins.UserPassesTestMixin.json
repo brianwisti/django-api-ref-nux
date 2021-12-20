@@ -3,5 +3,31 @@
     "name": "UserPassesTestMixin",
     "namespace": "django.contrib.auth.mixins.UserPassesTestMixin",
     "module_name": "django.contrib.auth.mixins",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "test_func",
+            "namespace": "django.contrib.auth.mixins.UserPassesTestMixin.test_func",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Override this method to use a different test_func method.\n        \"\"\"",
+            "name": "get_test_func",
+            "namespace": "django.contrib.auth.mixins.UserPassesTestMixin.get_test_func",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "dispatch",
+            "namespace": "django.contrib.auth.mixins.UserPassesTestMixin.dispatch",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

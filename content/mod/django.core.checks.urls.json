@@ -2,5 +2,63 @@
     "namespace": "django.core.checks.urls",
     "docstring": "",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "",
+            "name": "check_url_config",
+            "namespace": "django.core.checks.urls.check_url_config",
+            "class_name": "",
+            "module_name": "django.core.checks.urls",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Recursively check the resolver.\n    \"\"\"",
+            "name": "check_resolver",
+            "namespace": "django.core.checks.urls.check_resolver",
+            "class_name": "",
+            "module_name": "django.core.checks.urls",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Warn if URL namespaces used in applications aren't unique.\n    \"\"\"",
+            "name": "check_url_namespaces_unique",
+            "namespace": "django.core.checks.urls.check_url_namespaces_unique",
+            "class_name": "",
+            "module_name": "django.core.checks.urls",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Recursively load all namespaces from URL patterns.\n    \"\"\"",
+            "name": "_load_all_namespaces",
+            "namespace": "django.core.checks.urls._load_all_namespaces",
+            "class_name": "",
+            "module_name": "django.core.checks.urls",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return a list containing a warning that the pattern is invalid.\n\n    describe_pattern() cannot be used here, because we cannot rely on the\n    urlpattern having regex or name attributes.\n    \"\"\"",
+            "name": "get_warning_for_invalid_pattern",
+            "namespace": "django.core.checks.urls.get_warning_for_invalid_pattern",
+            "class_name": "",
+            "module_name": "django.core.checks.urls",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "check_url_settings",
+            "namespace": "django.core.checks.urls.check_url_settings",
+            "class_name": "",
+            "module_name": "django.core.checks.urls",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "E006",
+            "namespace": "django.core.checks.urls.E006",
+            "class_name": "",
+            "module_name": "django.core.checks.urls",
+            "package_name": ""
+        }
+    ],
     "package_name": "django.core.checks"
 }

@@ -5,7 +5,42 @@
         {
             "docstring": "\"\"\"Algorithm is not supported by hashlib.\"\"\"",
             "name": "InvalidAlgorithm",
-            "namespace": "django.utils.crypto.InvalidAlgorithm"
+            "namespace": "django.utils.crypto.InvalidAlgorithm",
+            "methods": []
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Return the HMAC of 'value', using a key generated from key_salt and a\n    secret (which defaults to settings.SECRET_KEY). Default algorithm is SHA1,\n    but any algorithm name supported by hashlib can be passed.\n\n    A different key_salt should be passed in for every application of HMAC.\n    \"\"\"",
+            "name": "salted_hmac",
+            "namespace": "django.utils.crypto.salted_hmac",
+            "class_name": "",
+            "module_name": "django.utils.crypto",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return a securely generated random string.\n\n    The bit length of the returned value can be calculated with the formula:\n        log_2(len(allowed_chars)^length)\n\n    For example, with default `allowed_chars` (26+26+10), this gives:\n      * length: 12, bit length =~ 71 bits\n      * length: 22, bit length =~ 131 bits\n    \"\"\"",
+            "name": "get_random_string",
+            "namespace": "django.utils.crypto.get_random_string",
+            "class_name": "",
+            "module_name": "django.utils.crypto",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return True if the two strings are equal, False otherwise.\"\"\"",
+            "name": "constant_time_compare",
+            "namespace": "django.utils.crypto.constant_time_compare",
+            "class_name": "",
+            "module_name": "django.utils.crypto",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return the hash of password using pbkdf2.\"\"\"",
+            "name": "pbkdf2",
+            "namespace": "django.utils.crypto.pbkdf2",
+            "class_name": "",
+            "module_name": "django.utils.crypto",
+            "package_name": ""
         }
     ],
     "package_name": "django.utils"

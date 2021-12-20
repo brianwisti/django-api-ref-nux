@@ -3,5 +3,79 @@
     "name": "ValidationError",
     "namespace": "django.core.exceptions.ValidationError",
     "module_name": "django.core.exceptions",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "\"\"\"\n        The `message` argument can be a single error, a list of errors, or a\n        dictionary that maps field names to lists of errors. What we define as\n        an \"error\" can be either a simple string or an instance of\n        ValidationError with its message attribute set, and what we define as\n        list or dictionary can be an actual `list` or `dict` or an instance\n        of ValidationError with its `error_list` or `error_dict` attribute set.\n        \"\"\"",
+            "name": "__init__",
+            "namespace": "django.core.exceptions.ValidationError.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "message_dict",
+            "namespace": "django.core.exceptions.ValidationError.message_dict",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "messages",
+            "namespace": "django.core.exceptions.ValidationError.messages",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "update_error_dict",
+            "namespace": "django.core.exceptions.ValidationError.update_error_dict",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__iter__",
+            "namespace": "django.core.exceptions.ValidationError.__iter__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__str__",
+            "namespace": "django.core.exceptions.ValidationError.__str__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__repr__",
+            "namespace": "django.core.exceptions.ValidationError.__repr__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__eq__",
+            "namespace": "django.core.exceptions.ValidationError.__eq__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__hash__",
+            "namespace": "django.core.exceptions.ValidationError.__hash__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

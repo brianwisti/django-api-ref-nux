@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Filter the contents of the block through variable filters.\n\n    Filters can also be piped through each other, and they can have\n    arguments -- just like in variable syntax.\n\n    Sample usage::\n\n        {% filter force_escape|lower %}\n            This text will be HTML-escaped, and will appear in lowercase.\n        {% endfilter %}\n\n    Note that the ``escape`` and ``safe`` filters are not acceptable arguments.\n    Instead, use the ``autoescape`` tag to manage autoescaping for blocks of\n    template code.\n    \"\"\"",
+    "name": "do_filter",
+    "namespace": "django.template.defaulttags.do_filter",
+    "class_name": "",
+    "module_name": "django.template.defaulttags",
+    "package_name": ""
+}

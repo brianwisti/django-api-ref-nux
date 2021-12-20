@@ -3,5 +3,23 @@
     "name": "CheckURLMixin",
     "namespace": "django.urls.resolvers.CheckURLMixin",
     "module_name": "django.urls.resolvers",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "\"\"\"\n        Format the URL pattern for display in warning messages.\n        \"\"\"",
+            "name": "describe",
+            "namespace": "django.urls.resolvers.CheckURLMixin.describe",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Check that the pattern does not begin with a forward slash.\n        \"\"\"",
+            "name": "_check_pattern_startswith_slash",
+            "namespace": "django.urls.resolvers.CheckURLMixin._check_pattern_startswith_slash",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

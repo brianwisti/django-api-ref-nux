@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Parse the lang_string, which is the body of an HTTP Accept-Language\n    header, and return a tuple of (lang, q-value), ordered by 'q' values.\n\n    Return an empty tuple if there are any format errors in lang_string.\n    \"\"\"",
+    "name": "parse_accept_lang_header",
+    "namespace": "django.utils.translation.trans_real.parse_accept_lang_header",
+    "class_name": "",
+    "module_name": "django.utils.translation.trans_real",
+    "package_name": ""
+}

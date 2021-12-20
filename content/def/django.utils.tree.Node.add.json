@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Combine this tree and the data represented by data using the\n        connector conn_type. The combine is done by squashing the node other\n        away if possible.\n\n        This tree (self) will never be pushed to a child node of the\n        combined tree, nor will the connector or negated properties change.\n\n        Return a node which can be used in place of data regardless if the\n        node other got squashed or not.\n        \"\"\"",
+    "name": "add",
+    "namespace": "django.utils.tree.Node.add",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

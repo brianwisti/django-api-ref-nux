@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Convert a Uniform Resource Identifier(URI) into an Internationalized\n    Resource Identifier(IRI).\n\n    This is the algorithm from section 3.2 of RFC 3987, excluding step 4.\n\n    Take an URI in ASCII bytes (e.g. '/I%20%E2%99%A5%20Django/') and return\n    a string containing the encoded result (e.g. '/I%20\u2665%20Django/').\n    \"\"\"",
+    "name": "uri_to_iri",
+    "namespace": "django.utils.encoding.uri_to_iri",
+    "class_name": "",
+    "module_name": "django.utils.encoding",
+    "package_name": ""
+}

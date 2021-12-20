@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Store the current language layout in the context.\n\n    Usage::\n\n        {% get_current_language_bidi as bidi %}\n\n    This fetches the currently active language's layout and puts its value into\n    the ``bidi`` context variable. True indicates right-to-left layout,\n    otherwise left-to-right.\n    \"\"\"",
+    "name": "do_get_current_language_bidi",
+    "namespace": "django.templatetags.i18n.do_get_current_language_bidi",
+    "class_name": "",
+    "module_name": "django.templatetags.i18n",
+    "package_name": ""
+}

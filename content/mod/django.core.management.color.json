@@ -5,7 +5,42 @@
         {
             "docstring": "",
             "name": "Style",
-            "namespace": "django.core.management.color.Style"
+            "namespace": "django.core.management.color.Style",
+            "methods": []
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Return True if the running system's terminal supports color,\n    and False otherwise.\n    \"\"\"",
+            "name": "supports_color",
+            "namespace": "django.core.management.color.supports_color",
+            "class_name": "",
+            "module_name": "django.core.management.color",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Create a Style object from the given config_string.\n\n    If config_string is empty django.utils.termcolors.DEFAULT_PALETTE is used.\n    \"\"\"",
+            "name": "make_style",
+            "namespace": "django.core.management.color.make_style",
+            "class_name": "",
+            "module_name": "django.core.management.color",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return a Style object with no color scheme.\n    \"\"\"",
+            "name": "no_style",
+            "namespace": "django.core.management.color.no_style",
+            "class_name": "",
+            "module_name": "django.core.management.color",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return a Style object from the Django color scheme.\n    \"\"\"",
+            "name": "color_style",
+            "namespace": "django.core.management.color.color_style",
+            "class_name": "",
+            "module_name": "django.core.management.color",
+            "package_name": ""
         }
     ],
     "package_name": "django.core.management"

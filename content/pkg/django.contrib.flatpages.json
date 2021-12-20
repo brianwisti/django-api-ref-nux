@@ -2,46 +2,72 @@
     "name": "django.contrib.flatpages",
     "docstring": "",
     "package_name": "django.contrib",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.contrib.flatpages.models",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.flatpages"
         },
         {
             "namespace": "django.contrib.flatpages.apps",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.flatpages"
         },
         {
             "namespace": "django.contrib.flatpages.forms",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.flatpages"
         },
         {
             "namespace": "django.contrib.flatpages.admin",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.flatpages"
         },
         {
             "namespace": "django.contrib.flatpages.urls",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.flatpages"
         },
         {
             "namespace": "django.contrib.flatpages.sitemaps",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.flatpages"
         },
         {
             "namespace": "django.contrib.flatpages.middleware",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.flatpages"
         },
         {
             "namespace": "django.contrib.flatpages.views",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Public interface to the flat page view.\n\n    Models: `flatpages.flatpages`\n    Templates: Uses the template defined by the ``template_name`` field,\n        or :template:`flatpages/default.html` if template_name is not defined.\n    Context:\n        flatpage\n            `flatpages.flatpages` object\n    \"\"\"",
+                    "name": "flatpage",
+                    "namespace": "django.contrib.flatpages.views.flatpage",
+                    "class_name": "",
+                    "module_name": "django.contrib.flatpages.views",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Internal interface to the flat page view.\n    \"\"\"",
+                    "name": "render_flatpage",
+                    "namespace": "django.contrib.flatpages.views.render_flatpage",
+                    "class_name": "",
+                    "module_name": "django.contrib.flatpages.views",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.flatpages"
         }
     ],
@@ -49,12 +75,14 @@
         {
             "name": "django.contrib.flatpages.templatetags",
             "docstring": "",
-            "package_name": "django.contrib.flatpages"
+            "package_name": "django.contrib.flatpages",
+            "functions": []
         },
         {
             "name": "django.contrib.flatpages.migrations",
             "docstring": "",
-            "package_name": "django.contrib.flatpages"
+            "package_name": "django.contrib.flatpages",
+            "functions": []
         }
     ]
 }

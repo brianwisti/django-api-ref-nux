@@ -3,5 +3,103 @@
     "name": "Node",
     "namespace": "django.utils.tree.Node",
     "module_name": "django.utils.tree",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "\"\"\"Construct a new Node. If no connector is given, use the default.\"\"\"",
+            "name": "__init__",
+            "namespace": "django.utils.tree.Node.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Create a new instance of this class when new Nodes (or subclasses) are\n        needed in the internal code in this class. Normally, it just shadows\n        __init__(). However, subclasses with an __init__ signature that aren't\n        an extension of Node.__init__ might need to implement this method to\n        allow a Node to create a new instance of them (if they have any extra\n        setting up to do).\n        \"\"\"",
+            "name": "_new_instance",
+            "namespace": "django.utils.tree.Node._new_instance",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__str__",
+            "namespace": "django.utils.tree.Node.__str__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__repr__",
+            "namespace": "django.utils.tree.Node.__repr__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__deepcopy__",
+            "namespace": "django.utils.tree.Node.__deepcopy__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return the number of children this node has.\"\"\"",
+            "name": "__len__",
+            "namespace": "django.utils.tree.Node.__len__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return whether or not this node has children.\"\"\"",
+            "name": "__bool__",
+            "namespace": "django.utils.tree.Node.__bool__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return True if 'other' is a direct child of this instance.\"\"\"",
+            "name": "__contains__",
+            "namespace": "django.utils.tree.Node.__contains__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__eq__",
+            "namespace": "django.utils.tree.Node.__eq__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__hash__",
+            "namespace": "django.utils.tree.Node.__hash__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Combine this tree and the data represented by data using the\n        connector conn_type. The combine is done by squashing the node other\n        away if possible.\n\n        This tree (self) will never be pushed to a child node of the\n        combined tree, nor will the connector or negated properties change.\n\n        Return a node which can be used in place of data regardless if the\n        node other got squashed or not.\n        \"\"\"",
+            "name": "add",
+            "namespace": "django.utils.tree.Node.add",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Negate the sense of the root connector.\"\"\"",
+            "name": "negate",
+            "namespace": "django.utils.tree.Node.negate",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

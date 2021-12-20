@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Return a tuple of common roots that are shared between the given paths.\n    File system watchers operate on directories and aren't cheap to create.\n    Try to find the minimum set of directories to watch that encompass all of\n    the files that need to be watched.\n    \"\"\"",
+    "name": "common_roots",
+    "namespace": "django.utils.autoreload.common_roots",
+    "class_name": "",
+    "module_name": "django.utils.autoreload",
+    "package_name": ""
+}

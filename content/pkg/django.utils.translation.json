@@ -2,48 +2,583 @@
     "name": "django.utils.translation",
     "docstring": "\"\"\"\nInternationalization support.\n\"\"\"",
     "package_name": "django.utils",
+    "functions": [
+        {
+            "docstring": "",
+            "name": "gettext_noop",
+            "namespace": "django.utils.translation.gettext_noop",
+            "class_name": "",
+            "module_name": "django.utils.translation",
+            "package_name": "django.utils.translation"
+        },
+        {
+            "docstring": "",
+            "name": "gettext",
+            "namespace": "django.utils.translation.gettext",
+            "class_name": "",
+            "module_name": "django.utils.translation",
+            "package_name": "django.utils.translation"
+        },
+        {
+            "docstring": "",
+            "name": "ngettext",
+            "namespace": "django.utils.translation.ngettext",
+            "class_name": "",
+            "module_name": "django.utils.translation",
+            "package_name": "django.utils.translation"
+        },
+        {
+            "docstring": "",
+            "name": "pgettext",
+            "namespace": "django.utils.translation.pgettext",
+            "class_name": "",
+            "module_name": "django.utils.translation",
+            "package_name": "django.utils.translation"
+        },
+        {
+            "docstring": "",
+            "name": "npgettext",
+            "namespace": "django.utils.translation.npgettext",
+            "class_name": "",
+            "module_name": "django.utils.translation",
+            "package_name": "django.utils.translation"
+        },
+        {
+            "docstring": "",
+            "name": "lazy_number",
+            "namespace": "django.utils.translation.lazy_number",
+            "class_name": "",
+            "module_name": "django.utils.translation",
+            "package_name": "django.utils.translation"
+        },
+        {
+            "docstring": "",
+            "name": "_lazy_number_unpickle",
+            "namespace": "django.utils.translation._lazy_number_unpickle",
+            "class_name": "",
+            "module_name": "django.utils.translation",
+            "package_name": "django.utils.translation"
+        },
+        {
+            "docstring": "",
+            "name": "ngettext_lazy",
+            "namespace": "django.utils.translation.ngettext_lazy",
+            "class_name": "",
+            "module_name": "django.utils.translation",
+            "package_name": "django.utils.translation"
+        },
+        {
+            "docstring": "",
+            "name": "npgettext_lazy",
+            "namespace": "django.utils.translation.npgettext_lazy",
+            "class_name": "",
+            "module_name": "django.utils.translation",
+            "package_name": "django.utils.translation"
+        },
+        {
+            "docstring": "",
+            "name": "activate",
+            "namespace": "django.utils.translation.activate",
+            "class_name": "",
+            "module_name": "django.utils.translation",
+            "package_name": "django.utils.translation"
+        },
+        {
+            "docstring": "",
+            "name": "deactivate",
+            "namespace": "django.utils.translation.deactivate",
+            "class_name": "",
+            "module_name": "django.utils.translation",
+            "package_name": "django.utils.translation"
+        },
+        {
+            "docstring": "",
+            "name": "get_language",
+            "namespace": "django.utils.translation.get_language",
+            "class_name": "",
+            "module_name": "django.utils.translation",
+            "package_name": "django.utils.translation"
+        },
+        {
+            "docstring": "",
+            "name": "get_language_bidi",
+            "namespace": "django.utils.translation.get_language_bidi",
+            "class_name": "",
+            "module_name": "django.utils.translation",
+            "package_name": "django.utils.translation"
+        },
+        {
+            "docstring": "",
+            "name": "check_for_language",
+            "namespace": "django.utils.translation.check_for_language",
+            "class_name": "",
+            "module_name": "django.utils.translation",
+            "package_name": "django.utils.translation"
+        },
+        {
+            "docstring": "\"\"\"Turn a locale name (en_US) into a language name (en-us).\"\"\"",
+            "name": "to_language",
+            "namespace": "django.utils.translation.to_language",
+            "class_name": "",
+            "module_name": "django.utils.translation",
+            "package_name": "django.utils.translation"
+        },
+        {
+            "docstring": "\"\"\"Turn a language name (en-us) into a locale name (en_US).\"\"\"",
+            "name": "to_locale",
+            "namespace": "django.utils.translation.to_locale",
+            "class_name": "",
+            "module_name": "django.utils.translation",
+            "package_name": "django.utils.translation"
+        },
+        {
+            "docstring": "",
+            "name": "get_language_from_request",
+            "namespace": "django.utils.translation.get_language_from_request",
+            "class_name": "",
+            "module_name": "django.utils.translation",
+            "package_name": "django.utils.translation"
+        },
+        {
+            "docstring": "",
+            "name": "get_language_from_path",
+            "namespace": "django.utils.translation.get_language_from_path",
+            "class_name": "",
+            "module_name": "django.utils.translation",
+            "package_name": "django.utils.translation"
+        },
+        {
+            "docstring": "",
+            "name": "get_supported_language_variant",
+            "namespace": "django.utils.translation.get_supported_language_variant",
+            "class_name": "",
+            "module_name": "django.utils.translation",
+            "package_name": "django.utils.translation"
+        },
+        {
+            "docstring": "",
+            "name": "templatize",
+            "namespace": "django.utils.translation.templatize",
+            "class_name": "",
+            "module_name": "django.utils.translation",
+            "package_name": "django.utils.translation"
+        },
+        {
+            "docstring": "",
+            "name": "deactivate_all",
+            "namespace": "django.utils.translation.deactivate_all",
+            "class_name": "",
+            "module_name": "django.utils.translation",
+            "package_name": "django.utils.translation"
+        },
+        {
+            "docstring": "",
+            "name": "get_language_info",
+            "namespace": "django.utils.translation.get_language_info",
+            "class_name": "",
+            "module_name": "django.utils.translation",
+            "package_name": "django.utils.translation"
+        },
+        {
+            "docstring": "",
+            "name": "trim_whitespace",
+            "namespace": "django.utils.translation.trim_whitespace",
+            "class_name": "",
+            "module_name": "django.utils.translation",
+            "package_name": "django.utils.translation"
+        },
+        {
+            "docstring": "",
+            "name": "round_away_from_one",
+            "namespace": "django.utils.translation.round_away_from_one",
+            "class_name": "",
+            "module_name": "django.utils.translation",
+            "package_name": "django.utils.translation"
+        }
+    ],
     "classes": [
         {
             "docstring": "",
             "name": "TranslatorCommentWarning",
             "namespace": "django.utils.translation.TranslatorCommentWarning",
             "module_name": "django.utils.translation",
-            "package_name": "django.utils.translation"
+            "package_name": "django.utils.translation",
+            "methods": []
         },
         {
             "docstring": "\"\"\"\n    The purpose of this class is to store the actual translation function upon\n    receiving the first call to that function. After this is done, changes to\n    USE_I18N will have no effect to which function is served upon request. If\n    your tests rely on changing USE_I18N, you can delete all the functions\n    from _trans.__dict__.\n\n    Note that storing the function with setattr will have a noticeable\n    performance effect, as access to the function goes the normal path,\n    instead of using __getattr__.\n    \"\"\"",
             "name": "Trans",
             "namespace": "django.utils.translation.Trans",
             "module_name": "django.utils.translation",
-            "package_name": "django.utils.translation"
+            "package_name": "django.utils.translation",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__getattr__",
+                    "namespace": "django.utils.translation.Trans.__getattr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "override",
             "namespace": "django.utils.translation.override",
             "module_name": "django.utils.translation",
-            "package_name": "django.utils.translation"
+            "package_name": "django.utils.translation",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.utils.translation.override.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__enter__",
+                    "namespace": "django.utils.translation.override.__enter__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__exit__",
+                    "namespace": "django.utils.translation.override.__exit__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
     "modules": [
         {
             "namespace": "django.utils.translation.trans_real",
             "docstring": "\"\"\"Translation helper functions.\"\"\"",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Reset global state when LANGUAGES setting has been changed, as some\n    languages should no longer be accepted.\n    \"\"\"",
+                    "name": "reset_cache",
+                    "namespace": "django.utils.translation.trans_real.reset_cache",
+                    "class_name": "",
+                    "module_name": "django.utils.translation.trans_real",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return a translation object in the default 'django' domain.\n    \"\"\"",
+                    "name": "translation",
+                    "namespace": "django.utils.translation.trans_real.translation",
+                    "class_name": "",
+                    "module_name": "django.utils.translation.trans_real",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Fetch the translation object for a given language and install it as the\n    current translation object for the current thread.\n    \"\"\"",
+                    "name": "activate",
+                    "namespace": "django.utils.translation.trans_real.activate",
+                    "class_name": "",
+                    "module_name": "django.utils.translation.trans_real",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Uninstall the active translation object so that further _() calls resolve\n    to the default translation object.\n    \"\"\"",
+                    "name": "deactivate",
+                    "namespace": "django.utils.translation.trans_real.deactivate",
+                    "class_name": "",
+                    "module_name": "django.utils.translation.trans_real",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Make the active translation object a NullTranslations() instance. This is\n    useful when we want delayed translations to appear as the original string\n    for some reason.\n    \"\"\"",
+                    "name": "deactivate_all",
+                    "namespace": "django.utils.translation.trans_real.deactivate_all",
+                    "class_name": "",
+                    "module_name": "django.utils.translation.trans_real",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return the currently selected language.\"\"\"",
+                    "name": "get_language",
+                    "namespace": "django.utils.translation.trans_real.get_language",
+                    "class_name": "",
+                    "module_name": "django.utils.translation.trans_real",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return selected language's BiDi layout.\n\n    * False = left-to-right layout\n    * True = right-to-left layout\n    \"\"\"",
+                    "name": "get_language_bidi",
+                    "namespace": "django.utils.translation.trans_real.get_language_bidi",
+                    "class_name": "",
+                    "module_name": "django.utils.translation.trans_real",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return the current active catalog for further processing.\n    This can be used if you need to modify the catalog or want to access the\n    whole message catalog instead of just translating one string.\n    \"\"\"",
+                    "name": "catalog",
+                    "namespace": "django.utils.translation.trans_real.catalog",
+                    "class_name": "",
+                    "module_name": "django.utils.translation.trans_real",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Translate the 'message' string. It uses the current thread to find the\n    translation object to use. If no current translation is activated, the\n    message will be run through the default translation object.\n    \"\"\"",
+                    "name": "gettext",
+                    "namespace": "django.utils.translation.trans_real.gettext",
+                    "class_name": "",
+                    "module_name": "django.utils.translation.trans_real",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "pgettext",
+                    "namespace": "django.utils.translation.trans_real.pgettext",
+                    "class_name": "",
+                    "module_name": "django.utils.translation.trans_real",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Mark strings for translation but don't translate them now. This can be\n    used to store strings in global variables that should stay in the base\n    language (because they might be used externally) and will be translated\n    later.\n    \"\"\"",
+                    "name": "gettext_noop",
+                    "namespace": "django.utils.translation.trans_real.gettext_noop",
+                    "class_name": "",
+                    "module_name": "django.utils.translation.trans_real",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "do_ntranslate",
+                    "namespace": "django.utils.translation.trans_real.do_ntranslate",
+                    "class_name": "",
+                    "module_name": "django.utils.translation.trans_real",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return a string of the translation of either the singular or plural,\n    based on the number.\n    \"\"\"",
+                    "name": "ngettext",
+                    "namespace": "django.utils.translation.trans_real.ngettext",
+                    "class_name": "",
+                    "module_name": "django.utils.translation.trans_real",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "npgettext",
+                    "namespace": "django.utils.translation.trans_real.npgettext",
+                    "class_name": "",
+                    "module_name": "django.utils.translation.trans_real",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return a list of paths to user-provides languages files.\n    \"\"\"",
+                    "name": "all_locale_paths",
+                    "namespace": "django.utils.translation.trans_real.all_locale_paths",
+                    "class_name": "",
+                    "module_name": "django.utils.translation.trans_real",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Check whether there is a global language file for the given language\n    code. This is used to decide whether a user-provided language is\n    available.\n\n    lru_cache should have a maxsize to prevent from memory exhaustion attacks,\n    as the provided language codes are taken from the HTTP request. See also\n    <https://www.djangoproject.com/weblog/2007/oct/26/security-fix/>.\n    \"\"\"",
+                    "name": "check_for_language",
+                    "namespace": "django.utils.translation.trans_real.check_for_language",
+                    "class_name": "",
+                    "module_name": "django.utils.translation.trans_real",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Cache of settings.LANGUAGES in a dictionary for easy lookups by key.\n    \"\"\"",
+                    "name": "get_languages",
+                    "namespace": "django.utils.translation.trans_real.get_languages",
+                    "class_name": "",
+                    "module_name": "django.utils.translation.trans_real",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return the language code that's listed in supported languages, possibly\n    selecting a more generic variant. Raise LookupError if nothing is found.\n\n    If `strict` is False (the default), look for a country-specific variant\n    when neither the language code nor its generic variant is found.\n\n    lru_cache should have a maxsize to prevent from memory exhaustion attacks,\n    as the provided language codes are taken from the HTTP request. See also\n    <https://www.djangoproject.com/weblog/2007/oct/26/security-fix/>.\n    \"\"\"",
+                    "name": "get_supported_language_variant",
+                    "namespace": "django.utils.translation.trans_real.get_supported_language_variant",
+                    "class_name": "",
+                    "module_name": "django.utils.translation.trans_real",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return the language code if there's a valid language code found in `path`.\n\n    If `strict` is False (the default), look for a country-specific variant\n    when neither the language code nor its generic variant is found.\n    \"\"\"",
+                    "name": "get_language_from_path",
+                    "namespace": "django.utils.translation.trans_real.get_language_from_path",
+                    "class_name": "",
+                    "module_name": "django.utils.translation.trans_real",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Analyze the request to find what language the user wants the system to\n    show. Only languages listed in settings.LANGUAGES are taken into account.\n    If the user requests a sublanguage where we have a main language, we send\n    out the main language.\n\n    If check_path is True, the URL path prefix will be checked for a language\n    code, otherwise this is skipped for backwards compatibility.\n    \"\"\"",
+                    "name": "get_language_from_request",
+                    "namespace": "django.utils.translation.trans_real.get_language_from_request",
+                    "class_name": "",
+                    "module_name": "django.utils.translation.trans_real",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Parse the lang_string, which is the body of an HTTP Accept-Language\n    header, and return a tuple of (lang, q-value), ordered by 'q' values.\n\n    Return an empty tuple if there are any format errors in lang_string.\n    \"\"\"",
+                    "name": "parse_accept_lang_header",
+                    "namespace": "django.utils.translation.trans_real.parse_accept_lang_header",
+                    "class_name": "",
+                    "module_name": "django.utils.translation.trans_real",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.utils.translation"
         },
         {
             "namespace": "django.utils.translation.reloader",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"Register file watchers for .mo files in potential locale paths.\"\"\"",
+                    "name": "watch_for_translation_changes",
+                    "namespace": "django.utils.translation.reloader.watch_for_translation_changes",
+                    "class_name": "",
+                    "module_name": "django.utils.translation.reloader",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Clear the internal translations cache if a .mo file is modified.\"\"\"",
+                    "name": "translation_file_changed",
+                    "namespace": "django.utils.translation.reloader.translation_file_changed",
+                    "class_name": "",
+                    "module_name": "django.utils.translation.reloader",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.utils.translation"
         },
         {
             "namespace": "django.utils.translation.trans_null",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "gettext",
+                    "namespace": "django.utils.translation.trans_null.gettext",
+                    "class_name": "",
+                    "module_name": "django.utils.translation.trans_null",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "ngettext",
+                    "namespace": "django.utils.translation.trans_null.ngettext",
+                    "class_name": "",
+                    "module_name": "django.utils.translation.trans_null",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "pgettext",
+                    "namespace": "django.utils.translation.trans_null.pgettext",
+                    "class_name": "",
+                    "module_name": "django.utils.translation.trans_null",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "npgettext",
+                    "namespace": "django.utils.translation.trans_null.npgettext",
+                    "class_name": "",
+                    "module_name": "django.utils.translation.trans_null",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "activate",
+                    "namespace": "django.utils.translation.trans_null.activate",
+                    "class_name": "",
+                    "module_name": "django.utils.translation.trans_null",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "deactivate",
+                    "namespace": "django.utils.translation.trans_null.deactivate",
+                    "class_name": "",
+                    "module_name": "django.utils.translation.trans_null",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_language",
+                    "namespace": "django.utils.translation.trans_null.get_language",
+                    "class_name": "",
+                    "module_name": "django.utils.translation.trans_null",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_language_bidi",
+                    "namespace": "django.utils.translation.trans_null.get_language_bidi",
+                    "class_name": "",
+                    "module_name": "django.utils.translation.trans_null",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check_for_language",
+                    "namespace": "django.utils.translation.trans_null.check_for_language",
+                    "class_name": "",
+                    "module_name": "django.utils.translation.trans_null",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_language_from_request",
+                    "namespace": "django.utils.translation.trans_null.get_language_from_request",
+                    "class_name": "",
+                    "module_name": "django.utils.translation.trans_null",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_language_from_path",
+                    "namespace": "django.utils.translation.trans_null.get_language_from_path",
+                    "class_name": "",
+                    "module_name": "django.utils.translation.trans_null",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_supported_language_variant",
+                    "namespace": "django.utils.translation.trans_null.get_supported_language_variant",
+                    "class_name": "",
+                    "module_name": "django.utils.translation.trans_null",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.utils.translation"
         },
         {
             "namespace": "django.utils.translation.template",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Change every non-whitespace character to the given char.\n    Used in the templatize function.\n    \"\"\"",
+                    "name": "blankout",
+                    "namespace": "django.utils.translation.template.blankout",
+                    "class_name": "",
+                    "module_name": "django.utils.translation.template",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Turn a Django template into something that is understood by xgettext. It\n    does so by translating the Django translation tags into standard gettext\n    function invocations.\n    \"\"\"",
+                    "name": "templatize",
+                    "namespace": "django.utils.translation.template.templatize",
+                    "class_name": "",
+                    "module_name": "django.utils.translation.template",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.utils.translation"
         }
     ],

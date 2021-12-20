@@ -2,16 +2,45 @@
     "name": "django.conf.urls",
     "docstring": "",
     "package_name": "django.conf",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.conf.urls.static",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Return a URL pattern for serving files in debug mode.\n\n    from django.conf import settings\n    from django.conf.urls.static import static\n\n    urlpatterns = [\n        # ... the rest of your URLconf goes here ...\n    ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)\n    \"\"\"",
+                    "name": "static",
+                    "namespace": "django.conf.urls.static.static",
+                    "class_name": "",
+                    "module_name": "django.conf.urls.static",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.conf.urls"
         },
         {
             "namespace": "django.conf.urls.i18n",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Add the language code prefix to every URL pattern within this function.\n    This may only be used in the root URLconf, not in an included URLconf.\n    \"\"\"",
+                    "name": "i18n_patterns",
+                    "namespace": "django.conf.urls.i18n.i18n_patterns",
+                    "class_name": "",
+                    "module_name": "django.conf.urls.i18n",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return a tuple of two booleans: (\n        `True` if i18n_patterns() (LocalePrefixPattern) is used in the URLconf,\n        `True` if the default language should be prefixed\n    )\n    \"\"\"",
+                    "name": "is_language_prefix_patterns_used",
+                    "namespace": "django.conf.urls.i18n.is_language_prefix_patterns_used",
+                    "class_name": "",
+                    "module_name": "django.conf.urls.i18n",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.conf.urls"
         }
     ],

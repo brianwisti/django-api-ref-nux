@@ -5,13 +5,50 @@
         {
             "docstring": "",
             "name": "TemplateStrings",
-            "namespace": "django.template.backends.dummy.TemplateStrings"
+            "namespace": "django.template.backends.dummy.TemplateStrings",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.template.backends.dummy.TemplateStrings.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "from_string",
+                    "namespace": "django.template.backends.dummy.TemplateStrings.from_string",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_template",
+                    "namespace": "django.template.backends.dummy.TemplateStrings.get_template",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Template",
-            "namespace": "django.template.backends.dummy.Template"
+            "namespace": "django.template.backends.dummy.Template",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "render",
+                    "namespace": "django.template.backends.dummy.Template.render",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.template.backends"
 }

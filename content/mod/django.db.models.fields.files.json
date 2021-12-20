@@ -5,33 +5,366 @@
         {
             "docstring": "",
             "name": "FieldFile",
-            "namespace": "django.db.models.fields.files.FieldFile"
+            "namespace": "django.db.models.fields.files.FieldFile",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.fields.files.FieldFile.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__eq__",
+                    "namespace": "django.db.models.fields.files.FieldFile.__eq__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__hash__",
+                    "namespace": "django.db.models.fields.files.FieldFile.__hash__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_require_file",
+                    "namespace": "django.db.models.fields.files.FieldFile._require_file",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_get_file",
+                    "namespace": "django.db.models.fields.files.FieldFile._get_file",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_set_file",
+                    "namespace": "django.db.models.fields.files.FieldFile._set_file",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_del_file",
+                    "namespace": "django.db.models.fields.files.FieldFile._del_file",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "path",
+                    "namespace": "django.db.models.fields.files.FieldFile.path",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "url",
+                    "namespace": "django.db.models.fields.files.FieldFile.url",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "size",
+                    "namespace": "django.db.models.fields.files.FieldFile.size",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "open",
+                    "namespace": "django.db.models.fields.files.FieldFile.open",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "save",
+                    "namespace": "django.db.models.fields.files.FieldFile.save",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "delete",
+                    "namespace": "django.db.models.fields.files.FieldFile.delete",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "closed",
+                    "namespace": "django.db.models.fields.files.FieldFile.closed",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "close",
+                    "namespace": "django.db.models.fields.files.FieldFile.close",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__getstate__",
+                    "namespace": "django.db.models.fields.files.FieldFile.__getstate__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__setstate__",
+                    "namespace": "django.db.models.fields.files.FieldFile.__setstate__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    The descriptor for the file attribute on the model instance. Return a\n    FieldFile when accessed so you can write code like::\n\n        >>> from myapp.models import MyModel\n        >>> instance = MyModel.objects.get(pk=1)\n        >>> instance.file.size\n\n    Assign a file object on assignment so you can do::\n\n        >>> with open('/path/to/hello.world') as f:\n        ...     instance.file = File(f)\n    \"\"\"",
             "name": "FileDescriptor",
-            "namespace": "django.db.models.fields.files.FileDescriptor"
+            "namespace": "django.db.models.fields.files.FileDescriptor",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__get__",
+                    "namespace": "django.db.models.fields.files.FileDescriptor.__get__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__set__",
+                    "namespace": "django.db.models.fields.files.FileDescriptor.__set__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "FileField",
-            "namespace": "django.db.models.fields.files.FileField"
+            "namespace": "django.db.models.fields.files.FileField",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.fields.files.FileField.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check",
+                    "namespace": "django.db.models.fields.files.FileField.check",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_check_primary_key",
+                    "namespace": "django.db.models.fields.files.FileField._check_primary_key",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_check_upload_to",
+                    "namespace": "django.db.models.fields.files.FileField._check_upload_to",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "deconstruct",
+                    "namespace": "django.db.models.fields.files.FileField.deconstruct",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_internal_type",
+                    "namespace": "django.db.models.fields.files.FileField.get_internal_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_prep_value",
+                    "namespace": "django.db.models.fields.files.FileField.get_prep_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "pre_save",
+                    "namespace": "django.db.models.fields.files.FileField.pre_save",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "contribute_to_class",
+                    "namespace": "django.db.models.fields.files.FileField.contribute_to_class",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Apply (if callable) or prepend (if a string) upload_to to the filename,\n        then delegate further processing of the name to the storage backend.\n        Until the storage layer, all file paths are expected to be Unix style\n        (with forward slashes).\n        \"\"\"",
+                    "name": "generate_filename",
+                    "namespace": "django.db.models.fields.files.FileField.generate_filename",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "save_form_data",
+                    "namespace": "django.db.models.fields.files.FileField.save_form_data",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "formfield",
+                    "namespace": "django.db.models.fields.files.FileField.formfield",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Just like the FileDescriptor, but for ImageFields. The only difference is\n    assigning the width/height to the width_field/height_field, if appropriate.\n    \"\"\"",
             "name": "ImageFileDescriptor",
-            "namespace": "django.db.models.fields.files.ImageFileDescriptor"
+            "namespace": "django.db.models.fields.files.ImageFileDescriptor",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__set__",
+                    "namespace": "django.db.models.fields.files.ImageFileDescriptor.__set__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "ImageFieldFile",
-            "namespace": "django.db.models.fields.files.ImageFieldFile"
+            "namespace": "django.db.models.fields.files.ImageFieldFile",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "delete",
+                    "namespace": "django.db.models.fields.files.ImageFieldFile.delete",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "ImageField",
-            "namespace": "django.db.models.fields.files.ImageField"
+            "namespace": "django.db.models.fields.files.ImageField",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.fields.files.ImageField.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check",
+                    "namespace": "django.db.models.fields.files.ImageField.check",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_check_image_library_installed",
+                    "namespace": "django.db.models.fields.files.ImageField._check_image_library_installed",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "deconstruct",
+                    "namespace": "django.db.models.fields.files.ImageField.deconstruct",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "contribute_to_class",
+                    "namespace": "django.db.models.fields.files.ImageField.contribute_to_class",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Update field's width and height fields, if defined.\n\n        This method is hooked up to model's post_init signal to update\n        dimensions after instantiating a model instance.  However, dimensions\n        won't be updated if the dimensions fields are already populated.  This\n        avoids unnecessary recalculation when loading an object from the\n        database.\n\n        Dimensions can be forced to update with force=True, which is how\n        ImageFileDescriptor.__set__ calls this method.\n        \"\"\"",
+                    "name": "update_dimension_fields",
+                    "namespace": "django.db.models.fields.files.ImageField.update_dimension_fields",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "formfield",
+                    "namespace": "django.db.models.fields.files.ImageField.formfield",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.db.models.fields"
 }

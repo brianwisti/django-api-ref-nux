@@ -3,5 +3,23 @@
     "name": "NullBooleanField",
     "namespace": "django.forms.fields.NullBooleanField",
     "module_name": "django.forms.fields",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "\"\"\"\n        Explicitly check for the string 'True' and 'False', which is what a\n        hidden field will submit for True and False, for 'true' and 'false',\n        which are likely to be returned by JavaScript serializations of forms,\n        and for '1' and '0', which is what a RadioField will submit. Unlike\n        the Booleanfield, this field must check for True because it doesn't\n        use the bool() function.\n        \"\"\"",
+            "name": "to_python",
+            "namespace": "django.forms.fields.NullBooleanField.to_python",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "validate",
+            "namespace": "django.forms.fields.NullBooleanField.validate",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

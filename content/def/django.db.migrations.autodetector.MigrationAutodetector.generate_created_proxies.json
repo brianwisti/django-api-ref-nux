@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Make CreateModel statements for proxy models. Use the same statements\n        as that way there's less code duplication, but for proxy models it's\n        safe to skip all the pointless field stuff and chuck out an operation.\n        \"\"\"",
+    "name": "generate_created_proxies",
+    "namespace": "django.db.migrations.autodetector.MigrationAutodetector.generate_created_proxies",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

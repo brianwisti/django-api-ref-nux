@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Iterate through the parser tokens and compiles each one into a node.\n\n        If parse_until is provided, parsing will stop once one of the\n        specified tokens has been reached. This is formatted as a list of\n        tokens, e.g. ['elif', 'else', 'endif']. If no matching token is\n        reached, raise an exception with the unclosed block tag details.\n        \"\"\"",
+    "name": "parse",
+    "namespace": "django.template.base.Parser.parse",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

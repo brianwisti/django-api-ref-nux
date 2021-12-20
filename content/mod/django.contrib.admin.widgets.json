@@ -5,97 +5,436 @@
         {
             "docstring": "\"\"\"\n    A SelectMultiple with a JavaScript filter interface.\n\n    Note that the resulting JavaScript assumes that the jsi18n\n    catalog has been loaded in the page\n    \"\"\"",
             "name": "FilteredSelectMultiple",
-            "namespace": "django.contrib.admin.widgets.FilteredSelectMultiple"
+            "namespace": "django.contrib.admin.widgets.FilteredSelectMultiple",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.admin.widgets.FilteredSelectMultiple.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_context",
+                    "namespace": "django.contrib.admin.widgets.FilteredSelectMultiple.get_context",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "AdminDateWidget",
-            "namespace": "django.contrib.admin.widgets.AdminDateWidget"
+            "namespace": "django.contrib.admin.widgets.AdminDateWidget",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.admin.widgets.AdminDateWidget.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "AdminTimeWidget",
-            "namespace": "django.contrib.admin.widgets.AdminTimeWidget"
+            "namespace": "django.contrib.admin.widgets.AdminTimeWidget",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.admin.widgets.AdminTimeWidget.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    A SplitDateTime Widget that has some admin-specific styling.\n    \"\"\"",
             "name": "AdminSplitDateTime",
-            "namespace": "django.contrib.admin.widgets.AdminSplitDateTime"
+            "namespace": "django.contrib.admin.widgets.AdminSplitDateTime",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.admin.widgets.AdminSplitDateTime.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_context",
+                    "namespace": "django.contrib.admin.widgets.AdminSplitDateTime.get_context",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "AdminRadioSelect",
-            "namespace": "django.contrib.admin.widgets.AdminRadioSelect"
+            "namespace": "django.contrib.admin.widgets.AdminRadioSelect",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "AdminFileWidget",
-            "namespace": "django.contrib.admin.widgets.AdminFileWidget"
+            "namespace": "django.contrib.admin.widgets.AdminFileWidget",
+            "methods": []
         },
         {
             "docstring": "\"\"\"\n    A Widget for displaying ForeignKeys in the \"raw_id\" interface rather than\n    in a <select> box.\n    \"\"\"",
             "name": "ForeignKeyRawIdWidget",
-            "namespace": "django.contrib.admin.widgets.ForeignKeyRawIdWidget"
+            "namespace": "django.contrib.admin.widgets.ForeignKeyRawIdWidget",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.admin.widgets.ForeignKeyRawIdWidget.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_context",
+                    "namespace": "django.contrib.admin.widgets.ForeignKeyRawIdWidget.get_context",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "base_url_parameters",
+                    "namespace": "django.contrib.admin.widgets.ForeignKeyRawIdWidget.base_url_parameters",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "url_parameters",
+                    "namespace": "django.contrib.admin.widgets.ForeignKeyRawIdWidget.url_parameters",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "label_and_url_for_value",
+                    "namespace": "django.contrib.admin.widgets.ForeignKeyRawIdWidget.label_and_url_for_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    A Widget for displaying ManyToMany ids in the \"raw_id\" interface rather than\n    in a <select multiple> box.\n    \"\"\"",
             "name": "ManyToManyRawIdWidget",
-            "namespace": "django.contrib.admin.widgets.ManyToManyRawIdWidget"
+            "namespace": "django.contrib.admin.widgets.ManyToManyRawIdWidget",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_context",
+                    "namespace": "django.contrib.admin.widgets.ManyToManyRawIdWidget.get_context",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "url_parameters",
+                    "namespace": "django.contrib.admin.widgets.ManyToManyRawIdWidget.url_parameters",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "label_and_url_for_value",
+                    "namespace": "django.contrib.admin.widgets.ManyToManyRawIdWidget.label_and_url_for_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "value_from_datadict",
+                    "namespace": "django.contrib.admin.widgets.ManyToManyRawIdWidget.value_from_datadict",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "format_value",
+                    "namespace": "django.contrib.admin.widgets.ManyToManyRawIdWidget.format_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    This class is a wrapper to a given widget to add the add icon for the\n    admin interface.\n    \"\"\"",
             "name": "RelatedFieldWidgetWrapper",
-            "namespace": "django.contrib.admin.widgets.RelatedFieldWidgetWrapper"
+            "namespace": "django.contrib.admin.widgets.RelatedFieldWidgetWrapper",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.admin.widgets.RelatedFieldWidgetWrapper.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__deepcopy__",
+                    "namespace": "django.contrib.admin.widgets.RelatedFieldWidgetWrapper.__deepcopy__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "is_hidden",
+                    "namespace": "django.contrib.admin.widgets.RelatedFieldWidgetWrapper.is_hidden",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "media",
+                    "namespace": "django.contrib.admin.widgets.RelatedFieldWidgetWrapper.media",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_related_url",
+                    "namespace": "django.contrib.admin.widgets.RelatedFieldWidgetWrapper.get_related_url",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_context",
+                    "namespace": "django.contrib.admin.widgets.RelatedFieldWidgetWrapper.get_context",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "value_from_datadict",
+                    "namespace": "django.contrib.admin.widgets.RelatedFieldWidgetWrapper.value_from_datadict",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "value_omitted_from_data",
+                    "namespace": "django.contrib.admin.widgets.RelatedFieldWidgetWrapper.value_omitted_from_data",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "id_for_label",
+                    "namespace": "django.contrib.admin.widgets.RelatedFieldWidgetWrapper.id_for_label",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "AdminTextareaWidget",
-            "namespace": "django.contrib.admin.widgets.AdminTextareaWidget"
+            "namespace": "django.contrib.admin.widgets.AdminTextareaWidget",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.admin.widgets.AdminTextareaWidget.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "AdminTextInputWidget",
-            "namespace": "django.contrib.admin.widgets.AdminTextInputWidget"
+            "namespace": "django.contrib.admin.widgets.AdminTextInputWidget",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.admin.widgets.AdminTextInputWidget.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "AdminEmailInputWidget",
-            "namespace": "django.contrib.admin.widgets.AdminEmailInputWidget"
+            "namespace": "django.contrib.admin.widgets.AdminEmailInputWidget",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.admin.widgets.AdminEmailInputWidget.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "AdminURLFieldWidget",
-            "namespace": "django.contrib.admin.widgets.AdminURLFieldWidget"
+            "namespace": "django.contrib.admin.widgets.AdminURLFieldWidget",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.admin.widgets.AdminURLFieldWidget.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_context",
+                    "namespace": "django.contrib.admin.widgets.AdminURLFieldWidget.get_context",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "AdminIntegerFieldWidget",
-            "namespace": "django.contrib.admin.widgets.AdminIntegerFieldWidget"
+            "namespace": "django.contrib.admin.widgets.AdminIntegerFieldWidget",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.admin.widgets.AdminIntegerFieldWidget.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "AdminBigIntegerFieldWidget",
-            "namespace": "django.contrib.admin.widgets.AdminBigIntegerFieldWidget"
+            "namespace": "django.contrib.admin.widgets.AdminBigIntegerFieldWidget",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "AdminUUIDInputWidget",
-            "namespace": "django.contrib.admin.widgets.AdminUUIDInputWidget"
+            "namespace": "django.contrib.admin.widgets.AdminUUIDInputWidget",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.admin.widgets.AdminUUIDInputWidget.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Select widget mixin that loads options from AutocompleteJsonView via AJAX.\n\n    Renders the necessary data attributes for select2 and adds the static form\n    media.\n    \"\"\"",
             "name": "AutocompleteMixin",
-            "namespace": "django.contrib.admin.widgets.AutocompleteMixin"
+            "namespace": "django.contrib.admin.widgets.AutocompleteMixin",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.admin.widgets.AutocompleteMixin.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_url",
+                    "namespace": "django.contrib.admin.widgets.AutocompleteMixin.get_url",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Set select2's AJAX attributes.\n\n        Attributes can be set using the html5 data attribute.\n        Nested attributes require a double dash as per\n        https://select2.org/configuration/data-attributes#nested-subkey-options\n        \"\"\"",
+                    "name": "build_attrs",
+                    "namespace": "django.contrib.admin.widgets.AutocompleteMixin.build_attrs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return selected options based on the ModelChoiceIterator.\"\"\"",
+                    "name": "optgroups",
+                    "namespace": "django.contrib.admin.widgets.AutocompleteMixin.optgroups",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "media",
+                    "namespace": "django.contrib.admin.widgets.AutocompleteMixin.media",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "AutocompleteSelect",
-            "namespace": "django.contrib.admin.widgets.AutocompleteSelect"
+            "namespace": "django.contrib.admin.widgets.AutocompleteSelect",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "AutocompleteSelectMultiple",
-            "namespace": "django.contrib.admin.widgets.AutocompleteSelectMultiple"
+            "namespace": "django.contrib.admin.widgets.AutocompleteSelectMultiple",
+            "methods": []
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Convert the type of lookups specified in a ForeignKey limit_choices_to\n    attribute to a dictionary of query parameters\n    \"\"\"",
+            "name": "url_params_from_lookup_dict",
+            "namespace": "django.contrib.admin.widgets.url_params_from_lookup_dict",
+            "class_name": "",
+            "module_name": "django.contrib.admin.widgets",
+            "package_name": ""
         }
     ],
     "package_name": "django.contrib.admin"

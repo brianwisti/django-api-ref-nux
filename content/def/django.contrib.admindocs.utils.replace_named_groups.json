@@ -1,0 +1,8 @@
+{
+    "docstring": "r\"\"\"\n    Find named groups in `pattern` and replace them with the group name. E.g.,\n    1. ^(?P<a>\\w+)/b/(\\w+)$ ==> ^<a>/b/(\\w+)$\n    2. ^(?P<a>\\w+)/b/(?P<c>\\w+)/$ ==> ^<a>/b/<c>/$\n    3. ^(?P<a>\\w+)/b/(\\w+) ==> ^<a>/b/(\\w+)\n    4. ^(?P<a>\\w+)/b/(?P<c>\\w+) ==> ^<a>/b/<c>\n    \"\"\"",
+    "name": "replace_named_groups",
+    "namespace": "django.contrib.admindocs.utils.replace_named_groups",
+    "class_name": "",
+    "module_name": "django.contrib.admindocs.utils",
+    "package_name": ""
+}

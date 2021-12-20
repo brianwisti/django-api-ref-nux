@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"Capture the input to sys.stdin:\n\n       with captured_stdin() as stdin:\n           stdin.write('hello\\n')\n           stdin.seek(0)\n           # call test code that consumes from sys.stdin\n           captured = input()\n       self.assertEqual(captured, \"hello\")\n    \"\"\"",
+    "name": "captured_stdin",
+    "namespace": "django.test.utils.captured_stdin",
+    "class_name": "",
+    "module_name": "django.test.utils",
+    "package_name": ""
+}

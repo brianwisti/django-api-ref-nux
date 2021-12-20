@@ -2,51 +2,196 @@
     "name": "django.core.files",
     "docstring": "",
     "package_name": "django.core",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.core.files.locks",
             "docstring": "\"\"\"\nPortable file locking utilities.\n\nBased partially on an example by Jonathan Feignberg in the Python\nCookbook [1] (licensed under the Python Software License) and a ctypes port by\nAnatoly Techtonik for Roundup [2] (license [3]).\n\n[1] http://aspn.activestate.com/ASPN/Cookbook/Python/Recipe/65203\n[2] https://sourceforge.net/p/roundup/code/ci/default/tree/roundup/backends/portalocker.py\n[3] https://sourceforge.net/p/roundup/code/ci/default/tree/COPYING.txt\n\nExample Usage::\n\n    >>> from django.core.files import locks\n    >>> with open('./file', 'wb') as f:\n    ...     locks.lock(f, locks.LOCK_EX)\n    ...     f.write('Django')\n\"\"\"",
+            "functions": [
+                {
+                    "docstring": "\"\"\"Get a filedescriptor from something which could be a file or an fd.\"\"\"",
+                    "name": "_fd",
+                    "namespace": "django.core.files.locks._fd",
+                    "class_name": "",
+                    "module_name": "django.core.files.locks",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "lock",
+                    "namespace": "django.core.files.locks.lock",
+                    "class_name": "",
+                    "module_name": "django.core.files.locks",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "unlock",
+                    "namespace": "django.core.files.locks.unlock",
+                    "class_name": "",
+                    "module_name": "django.core.files.locks",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "lock",
+                    "namespace": "django.core.files.locks.lock",
+                    "class_name": "",
+                    "module_name": "django.core.files.locks",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "unlock",
+                    "namespace": "django.core.files.locks.unlock",
+                    "class_name": "",
+                    "module_name": "django.core.files.locks",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "lock",
+                    "namespace": "django.core.files.locks.lock",
+                    "class_name": "",
+                    "module_name": "django.core.files.locks",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "unlock",
+                    "namespace": "django.core.files.locks.unlock",
+                    "class_name": "",
+                    "module_name": "django.core.files.locks",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.core.files"
         },
         {
             "namespace": "django.core.files.uploadhandler",
             "docstring": "\"\"\"\nBase file upload handler classes, and the built-in concrete subclasses\n\"\"\"",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Given a path to a handler, return an instance of that handler.\n\n    E.g.::\n        >>> from django.http import HttpRequest\n        >>> request = HttpRequest()\n        >>> load_handler('django.core.files.uploadhandler.TemporaryFileUploadHandler', request)\n        <TemporaryFileUploadHandler object at 0x...>\n    \"\"\"",
+                    "name": "load_handler",
+                    "namespace": "django.core.files.uploadhandler.load_handler",
+                    "class_name": "",
+                    "module_name": "django.core.files.uploadhandler",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.core.files"
         },
         {
             "namespace": "django.core.files.utils",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "validate_file_name",
+                    "namespace": "django.core.files.utils.validate_file_name",
+                    "class_name": "",
+                    "module_name": "django.core.files.utils",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.core.files"
         },
         {
             "namespace": "django.core.files.uploadedfile",
             "docstring": "\"\"\"\nClasses representing uploaded files.\n\"\"\"",
+            "functions": [],
             "package_name": "django.core.files"
         },
         {
             "namespace": "django.core.files.temp",
             "docstring": "\"\"\"\nThe temp module provides a NamedTemporaryFile that can be reopened in the same\nprocess on any platform. Most platforms use the standard Python\ntempfile.NamedTemporaryFile class, but Windows users are given a custom class.\n\nThis is needed because the Python implementation of NamedTemporaryFile uses the\nO_TEMPORARY flag under Windows, which prevents the file from being reopened\nif the same flag is not provided [1][2]. Note that this does not address the\nmore general issue of opening a file for writing and reading in multiple\nprocesses in a manner that works across platforms.\n\nThe custom version of NamedTemporaryFile doesn't support the same keyword\narguments available in tempfile.NamedTemporaryFile.\n\n1: https://mail.python.org/pipermail/python-list/2005-December/336957.html\n2: https://bugs.python.org/issue14243\n\"\"\"",
+            "functions": [],
             "package_name": "django.core.files"
         },
         {
             "namespace": "django.core.files.storage",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "get_storage_class",
+                    "namespace": "django.core.files.storage.get_storage_class",
+                    "class_name": "",
+                    "module_name": "django.core.files.storage",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.core.files"
         },
         {
             "namespace": "django.core.files.images",
             "docstring": "\"\"\"\nUtility functions for handling images.\n\nRequires Pillow as you might imagine.\n\"\"\"",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Return the (width, height) of an image, given an open file or a path.  Set\n    'close' to True to close the file at the end if it is initially in an open\n    state.\n    \"\"\"",
+                    "name": "get_image_dimensions",
+                    "namespace": "django.core.files.images.get_image_dimensions",
+                    "class_name": "",
+                    "module_name": "django.core.files.images",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.core.files"
         },
         {
             "namespace": "django.core.files.move",
             "docstring": "\"\"\"\nMove a file in the safest way possible::\n\n    >>> from django.core.files.move import file_move_safe\n    >>> file_move_safe(\"/tmp/old_file\", \"/tmp/new_file\")\n\"\"\"",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "_samefile",
+                    "namespace": "django.core.files.move._samefile",
+                    "class_name": "",
+                    "module_name": "django.core.files.move",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Move a file from one location to another in the safest way possible.\n\n    First, try ``os.rename``, which is simple but will break across filesystems.\n    If that fails, stream manually from one file to another in pure Python.\n\n    If the destination file exists and ``allow_overwrite`` is ``False``, raise\n    ``FileExistsError``.\n    \"\"\"",
+                    "name": "file_move_safe",
+                    "namespace": "django.core.files.move.file_move_safe",
+                    "class_name": "",
+                    "module_name": "django.core.files.move",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.core.files"
         },
         {
             "namespace": "django.core.files.base",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"Return True if line (a text or bytestring) ends with '\\r'.\"\"\"",
+                    "name": "endswith_cr",
+                    "namespace": "django.core.files.base.endswith_cr",
+                    "class_name": "",
+                    "module_name": "django.core.files.base",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return True if line (a text or bytestring) ends with '\\n'.\"\"\"",
+                    "name": "endswith_lf",
+                    "namespace": "django.core.files.base.endswith_lf",
+                    "class_name": "",
+                    "module_name": "django.core.files.base",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return True if line (a text or bytestring) equals '\\n'.\"\"\"",
+                    "name": "equals_lf",
+                    "namespace": "django.core.files.base.equals_lf",
+                    "class_name": "",
+                    "module_name": "django.core.files.base",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.core.files"
         }
     ],

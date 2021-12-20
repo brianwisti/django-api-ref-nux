@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Return the units, unit name, and spheroid WKT associated with the\n    given SRID from the `spatial_ref_sys` (or equivalent) spatial database\n    table for the given database connection.  These results are cached.\n    \"\"\"",
+    "name": "get_srid_info",
+    "namespace": "django.contrib.gis.db.models.fields.get_srid_info",
+    "class_name": "",
+    "module_name": "django.contrib.gis.db.models.fields",
+    "package_name": ""
+}

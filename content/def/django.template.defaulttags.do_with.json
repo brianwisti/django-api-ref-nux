@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Add one or more values to the context (inside of this block) for caching\n    and easy access.\n\n    For example::\n\n        {% with total=person.some_sql_method %}\n            {{ total }} object{{ total|pluralize }}\n        {% endwith %}\n\n    Multiple values can be added to the context::\n\n        {% with foo=1 bar=2 %}\n            ...\n        {% endwith %}\n\n    The legacy format of ``{% with person.some_sql_method as total %}`` is\n    still accepted.\n    \"\"\"",
+    "name": "do_with",
+    "namespace": "django.template.defaulttags.do_with",
+    "class_name": "",
+    "module_name": "django.template.defaulttags",
+    "package_name": ""
+}

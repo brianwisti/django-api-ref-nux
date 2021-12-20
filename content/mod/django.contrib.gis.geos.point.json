@@ -5,8 +5,163 @@
         {
             "docstring": "",
             "name": "Point",
-            "namespace": "django.contrib.gis.geos.point.Point"
+            "namespace": "django.contrib.gis.geos.point.Point",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        The Point object may be initialized with either a tuple, or individual\n        parameters.\n\n        For example:\n        >>> p = Point((5, 23))  # 2D point, passed in as a tuple\n        >>> p = Point(5, 23, 8)  # 3D point, passed in with individual parameters\n        \"\"\"",
+                    "name": "__init__",
+                    "namespace": "django.contrib.gis.geos.point.Point.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_to_pickle_wkb",
+                    "namespace": "django.contrib.gis.geos.point.Point._to_pickle_wkb",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_from_pickle_wkb",
+                    "namespace": "django.contrib.gis.geos.point.Point._from_pickle_wkb",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_ogr_ptr",
+                    "namespace": "django.contrib.gis.geos.point.Point._ogr_ptr",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_create_empty",
+                    "namespace": "django.contrib.gis.geos.point.Point._create_empty",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Create a coordinate sequence, set X, Y, [Z], and create point\n        \"\"\"",
+                    "name": "_create_point",
+                    "namespace": "django.contrib.gis.geos.point.Point._create_point",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_set_list",
+                    "namespace": "django.contrib.gis.geos.point.Point._set_list",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_set_single",
+                    "namespace": "django.contrib.gis.geos.point.Point._set_single",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Iterate over coordinates of this Point.\"",
+                    "name": "__iter__",
+                    "namespace": "django.contrib.gis.geos.point.Point.__iter__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Return the number of dimensions for this Point (either 0, 2 or 3).\"",
+                    "name": "__len__",
+                    "namespace": "django.contrib.gis.geos.point.Point.__len__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_get_single_external",
+                    "namespace": "django.contrib.gis.geos.point.Point._get_single_external",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Return the X component of the Point.\"",
+                    "name": "x",
+                    "namespace": "django.contrib.gis.geos.point.Point.x",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Set the X component of the Point.\"",
+                    "name": "x",
+                    "namespace": "django.contrib.gis.geos.point.Point.x",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Return the Y component of the Point.\"",
+                    "name": "y",
+                    "namespace": "django.contrib.gis.geos.point.Point.y",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Set the Y component of the Point.\"",
+                    "name": "y",
+                    "namespace": "django.contrib.gis.geos.point.Point.y",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Return the Z component of the Point.\"",
+                    "name": "z",
+                    "namespace": "django.contrib.gis.geos.point.Point.z",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Set the Z component of the Point.\"",
+                    "name": "z",
+                    "namespace": "django.contrib.gis.geos.point.Point.z",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Return a tuple of the point.\"",
+                    "name": "tuple",
+                    "namespace": "django.contrib.gis.geos.point.Point.tuple",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Set the coordinates of the point with the given tuple.\"",
+                    "name": "tuple",
+                    "namespace": "django.contrib.gis.geos.point.Point.tuple",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.gis.geos"
 }

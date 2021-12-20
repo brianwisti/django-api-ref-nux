@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Remove expired sessions from the session store.\n\n        If this operation isn't possible on a given backend, it should raise\n        NotImplementedError. If it isn't necessary, because the backend has\n        a built-in expiration mechanism, it should be a no-op.\n        \"\"\"",
+    "name": "clear_expired",
+    "namespace": "django.contrib.sessions.backends.base.SessionBase.clear_expired",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

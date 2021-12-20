@@ -5,28 +5,61 @@
         {
             "docstring": "",
             "name": "SQLCompiler",
-            "namespace": "django.db.backends.mysql.compiler.SQLCompiler"
+            "namespace": "django.db.backends.mysql.compiler.SQLCompiler",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "as_subquery_condition",
+                    "namespace": "django.db.backends.mysql.compiler.SQLCompiler.as_subquery_condition",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "SQLInsertCompiler",
-            "namespace": "django.db.backends.mysql.compiler.SQLInsertCompiler"
+            "namespace": "django.db.backends.mysql.compiler.SQLInsertCompiler",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "SQLDeleteCompiler",
-            "namespace": "django.db.backends.mysql.compiler.SQLDeleteCompiler"
+            "namespace": "django.db.backends.mysql.compiler.SQLDeleteCompiler",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.db.backends.mysql.compiler.SQLDeleteCompiler.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "SQLUpdateCompiler",
-            "namespace": "django.db.backends.mysql.compiler.SQLUpdateCompiler"
+            "namespace": "django.db.backends.mysql.compiler.SQLUpdateCompiler",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.db.backends.mysql.compiler.SQLUpdateCompiler.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "SQLAggregateCompiler",
-            "namespace": "django.db.backends.mysql.compiler.SQLAggregateCompiler"
+            "namespace": "django.db.backends.mysql.compiler.SQLAggregateCompiler",
+            "methods": []
         }
     ],
+    "functions": [],
     "package_name": "django.db.backends.mysql"
 }

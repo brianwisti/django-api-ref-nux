@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Return an extra filter condition for related object fetching when\n        user does 'instance.fieldname', that is the extra filter is used in\n        the descriptor of the field.\n\n        The filter should be either a dict usable in .filter(**kwargs) call or\n        a Q-object. The condition will be ANDed together with the relation's\n        joining columns.\n\n        A parallel method is get_extra_restriction() which is used in\n        JOIN and subquery conditions.\n        \"\"\"",
+    "name": "get_extra_descriptor_filter",
+    "namespace": "django.db.models.fields.related.ForeignObject.get_extra_descriptor_filter",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

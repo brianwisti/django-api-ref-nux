@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Helper method for get_order_by() and get_distinct().\n\n        get_ordering() and get_distinct() must produce same target columns on\n        same input, as the prefixes of get_ordering() and get_distinct() must\n        match. Executing SQL where this is not true is an error.\n        \"\"\"",
+    "name": "_setup_joins",
+    "namespace": "django.db.models.sql.compiler.SQLCompiler._setup_joins",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

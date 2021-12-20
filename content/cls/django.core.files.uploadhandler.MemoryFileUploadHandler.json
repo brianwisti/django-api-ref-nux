@@ -3,5 +3,39 @@
     "name": "MemoryFileUploadHandler",
     "namespace": "django.core.files.uploadhandler.MemoryFileUploadHandler",
     "module_name": "django.core.files.uploadhandler",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "\"\"\"\n        Use the content_length to signal whether or not this handler should be\n        used.\n        \"\"\"",
+            "name": "handle_raw_input",
+            "namespace": "django.core.files.uploadhandler.MemoryFileUploadHandler.handle_raw_input",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "new_file",
+            "namespace": "django.core.files.uploadhandler.MemoryFileUploadHandler.new_file",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Add the data to the BytesIO file.\"\"\"",
+            "name": "receive_data_chunk",
+            "namespace": "django.core.files.uploadhandler.MemoryFileUploadHandler.receive_data_chunk",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return a file object if this handler is activated.\"\"\"",
+            "name": "file_complete",
+            "namespace": "django.core.files.uploadhandler.MemoryFileUploadHandler.file_complete",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

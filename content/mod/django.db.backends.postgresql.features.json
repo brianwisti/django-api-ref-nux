@@ -5,8 +5,43 @@
         {
             "docstring": "",
             "name": "DatabaseFeatures",
-            "namespace": "django.db.backends.postgresql.features.DatabaseFeatures"
+            "namespace": "django.db.backends.postgresql.features.DatabaseFeatures",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "introspected_field_types",
+                    "namespace": "django.db.backends.postgresql.features.DatabaseFeatures.introspected_field_types",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "is_postgresql_11",
+                    "namespace": "django.db.backends.postgresql.features.DatabaseFeatures.is_postgresql_11",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "is_postgresql_12",
+                    "namespace": "django.db.backends.postgresql.features.DatabaseFeatures.is_postgresql_12",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "is_postgresql_13",
+                    "namespace": "django.db.backends.postgresql.features.DatabaseFeatures.is_postgresql_13",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.db.backends.postgresql"
 }

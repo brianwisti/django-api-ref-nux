@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Join one or more path components to the base path component intelligently.\n    Return a normalized, absolute version of the final path.\n\n    Raise ValueError if the final path isn't located inside of the base path\n    component.\n    \"\"\"",
+    "name": "safe_join",
+    "namespace": "django.utils._os.safe_join",
+    "class_name": "",
+    "module_name": "django.utils._os",
+    "package_name": ""
+}

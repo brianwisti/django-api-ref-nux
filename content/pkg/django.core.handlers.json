@@ -2,26 +2,106 @@
     "name": "django.core.handlers",
     "docstring": "",
     "package_name": "django.core",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.core.handlers.exception",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Wrap the given get_response callable in exception-to-response conversion.\n\n    All exceptions will be converted. All known 4xx exceptions (Http404,\n    PermissionDenied, MultiPartParserError, SuspiciousOperation) will be\n    converted to the appropriate response, and all other exceptions will be\n    converted to 500 responses.\n\n    This decorator is automatically applied to all middleware to ensure that\n    no middleware leaks an exception and that the next middleware in the stack\n    can rely on getting a response instead of an exception.\n    \"\"\"",
+                    "name": "convert_exception_to_response",
+                    "namespace": "django.core.handlers.exception.convert_exception_to_response",
+                    "class_name": "",
+                    "module_name": "django.core.handlers.exception",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "response_for_exception",
+                    "namespace": "django.core.handlers.exception.response_for_exception",
+                    "class_name": "",
+                    "module_name": "django.core.handlers.exception",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_exception_response",
+                    "namespace": "django.core.handlers.exception.get_exception_response",
+                    "class_name": "",
+                    "module_name": "django.core.handlers.exception",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Processing for any otherwise uncaught exceptions (those that will\n    generate HTTP 500 responses).\n    \"\"\"",
+                    "name": "handle_uncaught_exception",
+                    "namespace": "django.core.handlers.exception.handle_uncaught_exception",
+                    "class_name": "",
+                    "module_name": "django.core.handlers.exception",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.core.handlers"
         },
         {
             "namespace": "django.core.handlers.asgi",
             "docstring": "",
+            "functions": [],
             "package_name": "django.core.handlers"
         },
         {
             "namespace": "django.core.handlers.base",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"Reset the URLconf after each request is finished.\"\"\"",
+                    "name": "reset_urlconf",
+                    "namespace": "django.core.handlers.base.reset_urlconf",
+                    "class_name": "",
+                    "module_name": "django.core.handlers.base",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.core.handlers"
         },
         {
             "namespace": "django.core.handlers.wsgi",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"Return the HTTP request's PATH_INFO as a string.\"\"\"",
+                    "name": "get_path_info",
+                    "namespace": "django.core.handlers.wsgi.get_path_info",
+                    "class_name": "",
+                    "module_name": "django.core.handlers.wsgi",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return the equivalent of the HTTP request's SCRIPT_NAME environment\n    variable. If Apache mod_rewrite is used, return what would have been\n    the script name prior to any rewriting (so it's the script name as seen\n    from the client's perspective), unless the FORCE_SCRIPT_NAME setting is\n    set (to anything).\n    \"\"\"",
+                    "name": "get_script_name",
+                    "namespace": "django.core.handlers.wsgi.get_script_name",
+                    "class_name": "",
+                    "module_name": "django.core.handlers.wsgi",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Get a value from the WSGI environ dictionary as bytes.\n\n    key and default should be strings.\n    \"\"\"",
+                    "name": "get_bytes_from_wsgi",
+                    "namespace": "django.core.handlers.wsgi.get_bytes_from_wsgi",
+                    "class_name": "",
+                    "module_name": "django.core.handlers.wsgi",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Get a value from the WSGI environ dictionary as str.\n\n    key and default should be str objects.\n    \"\"\"",
+                    "name": "get_str_from_wsgi",
+                    "namespace": "django.core.handlers.wsgi.get_str_from_wsgi",
+                    "class_name": "",
+                    "module_name": "django.core.handlers.wsgi",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.core.handlers"
         }
     ],

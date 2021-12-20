@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Hook to generate new PK values on save. This method is called when\n        saving instances with no primary key value set. If this method returns\n        something else than None, then the returned value is used when saving\n        the new instance.\n        \"\"\"",
+    "name": "get_pk_value_on_save",
+    "namespace": "django.db.models.fields.Field.get_pk_value_on_save",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

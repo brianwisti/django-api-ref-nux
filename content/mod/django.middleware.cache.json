@@ -5,18 +5,73 @@
         {
             "docstring": "\"\"\"\n    Response-phase cache middleware that updates the cache if the response is\n    cacheable.\n\n    Must be used as part of the two-part update/fetch cache middleware.\n    UpdateCacheMiddleware must be the first piece of middleware in MIDDLEWARE\n    so that it'll get called last during the response phase.\n    \"\"\"",
             "name": "UpdateCacheMiddleware",
-            "namespace": "django.middleware.cache.UpdateCacheMiddleware"
+            "namespace": "django.middleware.cache.UpdateCacheMiddleware",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.middleware.cache.UpdateCacheMiddleware.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_should_update_cache",
+                    "namespace": "django.middleware.cache.UpdateCacheMiddleware._should_update_cache",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Set the cache, if needed.\"\"\"",
+                    "name": "process_response",
+                    "namespace": "django.middleware.cache.UpdateCacheMiddleware.process_response",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Request-phase cache middleware that fetches a page from the cache.\n\n    Must be used as part of the two-part update/fetch cache middleware.\n    FetchFromCacheMiddleware must be the last piece of middleware in MIDDLEWARE\n    so that it'll get called last during the request phase.\n    \"\"\"",
             "name": "FetchFromCacheMiddleware",
-            "namespace": "django.middleware.cache.FetchFromCacheMiddleware"
+            "namespace": "django.middleware.cache.FetchFromCacheMiddleware",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.middleware.cache.FetchFromCacheMiddleware.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Check whether the page is already cached and return the cached\n        version if available.\n        \"\"\"",
+                    "name": "process_request",
+                    "namespace": "django.middleware.cache.FetchFromCacheMiddleware.process_request",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Cache middleware that provides basic behavior for many simple sites.\n\n    Also used as the hook point for the cache decorator, which is generated\n    using the decorator-from-middleware utility.\n    \"\"\"",
             "name": "CacheMiddleware",
-            "namespace": "django.middleware.cache.CacheMiddleware"
+            "namespace": "django.middleware.cache.CacheMiddleware",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.middleware.cache.CacheMiddleware.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.middleware"
 }

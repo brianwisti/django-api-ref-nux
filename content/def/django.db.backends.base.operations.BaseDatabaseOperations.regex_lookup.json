@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Return the string to use in a query when performing regular expression\n        lookups (using \"regex\" or \"iregex\"). It should contain a '%s'\n        placeholder for the column being searched against.\n\n        If the feature is not supported (or part of it is not supported), raise\n        NotImplementedError.\n        \"\"\"",
+    "name": "regex_lookup",
+    "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.regex_lookup",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

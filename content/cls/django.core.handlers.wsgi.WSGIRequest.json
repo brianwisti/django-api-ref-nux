@@ -3,5 +3,63 @@
     "name": "WSGIRequest",
     "namespace": "django.core.handlers.wsgi.WSGIRequest",
     "module_name": "django.core.handlers.wsgi",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.core.handlers.wsgi.WSGIRequest.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_get_scheme",
+            "namespace": "django.core.handlers.wsgi.WSGIRequest._get_scheme",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "GET",
+            "namespace": "django.core.handlers.wsgi.WSGIRequest.GET",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_get_post",
+            "namespace": "django.core.handlers.wsgi.WSGIRequest._get_post",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_set_post",
+            "namespace": "django.core.handlers.wsgi.WSGIRequest._set_post",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "COOKIES",
+            "namespace": "django.core.handlers.wsgi.WSGIRequest.COOKIES",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "FILES",
+            "namespace": "django.core.handlers.wsgi.WSGIRequest.FILES",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

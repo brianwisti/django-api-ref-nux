@@ -5,18 +5,343 @@
         {
             "docstring": "\"\"\"\n    Used internally as a consistent exception type to catch from save (see the\n    docstring for SessionBase.save() for details).\n    \"\"\"",
             "name": "CreateError",
-            "namespace": "django.contrib.sessions.backends.base.CreateError"
+            "namespace": "django.contrib.sessions.backends.base.CreateError",
+            "methods": []
         },
         {
             "docstring": "\"\"\"\n    Occurs if Django tries to update a session that was deleted.\n    \"\"\"",
             "name": "UpdateError",
-            "namespace": "django.contrib.sessions.backends.base.UpdateError"
+            "namespace": "django.contrib.sessions.backends.base.UpdateError",
+            "methods": []
         },
         {
             "docstring": "\"\"\"\n    Base class for all Session classes.\n    \"\"\"",
             "name": "SessionBase",
-            "namespace": "django.contrib.sessions.backends.base.SessionBase"
+            "namespace": "django.contrib.sessions.backends.base.SessionBase",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.sessions.backends.base.SessionBase.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__contains__",
+                    "namespace": "django.contrib.sessions.backends.base.SessionBase.__contains__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__getitem__",
+                    "namespace": "django.contrib.sessions.backends.base.SessionBase.__getitem__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__setitem__",
+                    "namespace": "django.contrib.sessions.backends.base.SessionBase.__setitem__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__delitem__",
+                    "namespace": "django.contrib.sessions.backends.base.SessionBase.__delitem__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "key_salt",
+                    "namespace": "django.contrib.sessions.backends.base.SessionBase.key_salt",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get",
+                    "namespace": "django.contrib.sessions.backends.base.SessionBase.get",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "pop",
+                    "namespace": "django.contrib.sessions.backends.base.SessionBase.pop",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "setdefault",
+                    "namespace": "django.contrib.sessions.backends.base.SessionBase.setdefault",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "set_test_cookie",
+                    "namespace": "django.contrib.sessions.backends.base.SessionBase.set_test_cookie",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "test_cookie_worked",
+                    "namespace": "django.contrib.sessions.backends.base.SessionBase.test_cookie_worked",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "delete_test_cookie",
+                    "namespace": "django.contrib.sessions.backends.base.SessionBase.delete_test_cookie",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Return the given session dictionary serialized and encoded as a string.\"",
+                    "name": "encode",
+                    "namespace": "django.contrib.sessions.backends.base.SessionBase.encode",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "decode",
+                    "namespace": "django.contrib.sessions.backends.base.SessionBase.decode",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "update",
+                    "namespace": "django.contrib.sessions.backends.base.SessionBase.update",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "has_key",
+                    "namespace": "django.contrib.sessions.backends.base.SessionBase.has_key",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "keys",
+                    "namespace": "django.contrib.sessions.backends.base.SessionBase.keys",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "values",
+                    "namespace": "django.contrib.sessions.backends.base.SessionBase.values",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "items",
+                    "namespace": "django.contrib.sessions.backends.base.SessionBase.items",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "clear",
+                    "namespace": "django.contrib.sessions.backends.base.SessionBase.clear",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Return True when there is no session_key and the session is empty.\"",
+                    "name": "is_empty",
+                    "namespace": "django.contrib.sessions.backends.base.SessionBase.is_empty",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Return session key that isn't being used.\"",
+                    "name": "_get_new_session_key",
+                    "namespace": "django.contrib.sessions.backends.base.SessionBase._get_new_session_key",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_get_or_create_session_key",
+                    "namespace": "django.contrib.sessions.backends.base.SessionBase._get_or_create_session_key",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Key must be truthy and at least 8 characters long. 8 characters is an\n        arbitrary lower bound for some minimal key security.\n        \"\"\"",
+                    "name": "_validate_session_key",
+                    "namespace": "django.contrib.sessions.backends.base.SessionBase._validate_session_key",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_get_session_key",
+                    "namespace": "django.contrib.sessions.backends.base.SessionBase._get_session_key",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Validate session key on assignment. Invalid values will set to None.\n        \"\"\"",
+                    "name": "_set_session_key",
+                    "namespace": "django.contrib.sessions.backends.base.SessionBase._set_session_key",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Lazily load session from storage (unless \"no_load\" is True, when only\n        an empty dict is stored) and store it in the current instance.\n        \"\"\"",
+                    "name": "_get_session",
+                    "namespace": "django.contrib.sessions.backends.base.SessionBase._get_session",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_session_cookie_age",
+                    "namespace": "django.contrib.sessions.backends.base.SessionBase.get_session_cookie_age",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Get the number of seconds until the session expires.\n\n        Optionally, this function accepts `modification` and `expiry` keyword\n        arguments specifying the modification and expiry of the session.\n        \"\"\"",
+                    "name": "get_expiry_age",
+                    "namespace": "django.contrib.sessions.backends.base.SessionBase.get_expiry_age",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Get session the expiry date (as a datetime object).\n\n        Optionally, this function accepts `modification` and `expiry` keyword\n        arguments specifying the modification and expiry of the session.\n        \"\"\"",
+                    "name": "get_expiry_date",
+                    "namespace": "django.contrib.sessions.backends.base.SessionBase.get_expiry_date",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Set a custom expiration for the session. ``value`` can be an integer,\n        a Python ``datetime`` or ``timedelta`` object or ``None``.\n\n        If ``value`` is an integer, the session will expire after that many\n        seconds of inactivity. If set to ``0`` then the session will expire on\n        browser close.\n\n        If ``value`` is a ``datetime`` or ``timedelta`` object, the session\n        will expire at that specific future time.\n\n        If ``value`` is ``None``, the session uses the global session expiry\n        policy.\n        \"\"\"",
+                    "name": "set_expiry",
+                    "namespace": "django.contrib.sessions.backends.base.SessionBase.set_expiry",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return ``True`` if the session is set to expire when the browser\n        closes, and ``False`` if there's an expiry date. Use\n        ``get_expiry_date()`` or ``get_expiry_age()`` to find the actual expiry\n        date/age, if there is one.\n        \"\"\"",
+                    "name": "get_expire_at_browser_close",
+                    "namespace": "django.contrib.sessions.backends.base.SessionBase.get_expire_at_browser_close",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Remove the current session data from the database and regenerate the\n        key.\n        \"\"\"",
+                    "name": "flush",
+                    "namespace": "django.contrib.sessions.backends.base.SessionBase.flush",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Create a new session key, while retaining the current session data.\n        \"\"\"",
+                    "name": "cycle_key",
+                    "namespace": "django.contrib.sessions.backends.base.SessionBase.cycle_key",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return True if the given session_key already exists.\n        \"\"\"",
+                    "name": "exists",
+                    "namespace": "django.contrib.sessions.backends.base.SessionBase.exists",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Create a new session instance. Guaranteed to create a new object with\n        a unique key and will have saved the result once (with empty data)\n        before the method returns.\n        \"\"\"",
+                    "name": "create",
+                    "namespace": "django.contrib.sessions.backends.base.SessionBase.create",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Save the session data. If 'must_create' is True, create a new session\n        object (or raise CreateError). Otherwise, only update an existing\n        object and don't create one (raise UpdateError if needed).\n        \"\"\"",
+                    "name": "save",
+                    "namespace": "django.contrib.sessions.backends.base.SessionBase.save",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Delete the session data under this key. If the key is None, use the\n        current session key value.\n        \"\"\"",
+                    "name": "delete",
+                    "namespace": "django.contrib.sessions.backends.base.SessionBase.delete",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Load the session data and return a dictionary.\n        \"\"\"",
+                    "name": "load",
+                    "namespace": "django.contrib.sessions.backends.base.SessionBase.load",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Remove expired sessions from the session store.\n\n        If this operation isn't possible on a given backend, it should raise\n        NotImplementedError. If it isn't necessary, because the backend has\n        a built-in expiration mechanism, it should be a no-op.\n        \"\"\"",
+                    "name": "clear_expired",
+                    "namespace": "django.contrib.sessions.backends.base.SessionBase.clear_expired",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.sessions.backends"
 }

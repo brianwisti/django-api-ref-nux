@@ -5,52 +5,297 @@
         {
             "docstring": "",
             "name": "SuccessURLAllowedHostsMixin",
-            "namespace": "django.contrib.auth.views.SuccessURLAllowedHostsMixin"
+            "namespace": "django.contrib.auth.views.SuccessURLAllowedHostsMixin",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_success_url_allowed_hosts",
+                    "namespace": "django.contrib.auth.views.SuccessURLAllowedHostsMixin.get_success_url_allowed_hosts",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Display the login form and handle the login action.\n    \"\"\"",
             "name": "LoginView",
-            "namespace": "django.contrib.auth.views.LoginView"
+            "namespace": "django.contrib.auth.views.LoginView",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "dispatch",
+                    "namespace": "django.contrib.auth.views.LoginView.dispatch",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_success_url",
+                    "namespace": "django.contrib.auth.views.LoginView.get_success_url",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return the user-originating redirect URL if it's safe.\"\"\"",
+                    "name": "get_redirect_url",
+                    "namespace": "django.contrib.auth.views.LoginView.get_redirect_url",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return the default redirect URL.\"\"\"",
+                    "name": "get_default_redirect_url",
+                    "namespace": "django.contrib.auth.views.LoginView.get_default_redirect_url",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_form_class",
+                    "namespace": "django.contrib.auth.views.LoginView.get_form_class",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_form_kwargs",
+                    "namespace": "django.contrib.auth.views.LoginView.get_form_kwargs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Security check complete. Log the user in.\"\"\"",
+                    "name": "form_valid",
+                    "namespace": "django.contrib.auth.views.LoginView.form_valid",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_context_data",
+                    "namespace": "django.contrib.auth.views.LoginView.get_context_data",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Log out the user and display the 'You are logged out' message.\n    \"\"\"",
             "name": "LogoutView",
-            "namespace": "django.contrib.auth.views.LogoutView"
+            "namespace": "django.contrib.auth.views.LogoutView",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "dispatch",
+                    "namespace": "django.contrib.auth.views.LogoutView.dispatch",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Logout may be done via POST.\"\"\"",
+                    "name": "post",
+                    "namespace": "django.contrib.auth.views.LogoutView.post",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_next_page",
+                    "namespace": "django.contrib.auth.views.LogoutView.get_next_page",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_context_data",
+                    "namespace": "django.contrib.auth.views.LogoutView.get_context_data",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "PasswordContextMixin",
-            "namespace": "django.contrib.auth.views.PasswordContextMixin"
+            "namespace": "django.contrib.auth.views.PasswordContextMixin",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_context_data",
+                    "namespace": "django.contrib.auth.views.PasswordContextMixin.get_context_data",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "PasswordResetView",
-            "namespace": "django.contrib.auth.views.PasswordResetView"
+            "namespace": "django.contrib.auth.views.PasswordResetView",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "dispatch",
+                    "namespace": "django.contrib.auth.views.PasswordResetView.dispatch",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "form_valid",
+                    "namespace": "django.contrib.auth.views.PasswordResetView.form_valid",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "PasswordResetDoneView",
-            "namespace": "django.contrib.auth.views.PasswordResetDoneView"
+            "namespace": "django.contrib.auth.views.PasswordResetDoneView",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "PasswordResetConfirmView",
-            "namespace": "django.contrib.auth.views.PasswordResetConfirmView"
+            "namespace": "django.contrib.auth.views.PasswordResetConfirmView",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "dispatch",
+                    "namespace": "django.contrib.auth.views.PasswordResetConfirmView.dispatch",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_user",
+                    "namespace": "django.contrib.auth.views.PasswordResetConfirmView.get_user",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_form_kwargs",
+                    "namespace": "django.contrib.auth.views.PasswordResetConfirmView.get_form_kwargs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "form_valid",
+                    "namespace": "django.contrib.auth.views.PasswordResetConfirmView.form_valid",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_context_data",
+                    "namespace": "django.contrib.auth.views.PasswordResetConfirmView.get_context_data",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "PasswordResetCompleteView",
-            "namespace": "django.contrib.auth.views.PasswordResetCompleteView"
+            "namespace": "django.contrib.auth.views.PasswordResetCompleteView",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_context_data",
+                    "namespace": "django.contrib.auth.views.PasswordResetCompleteView.get_context_data",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "PasswordChangeView",
-            "namespace": "django.contrib.auth.views.PasswordChangeView"
+            "namespace": "django.contrib.auth.views.PasswordChangeView",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "dispatch",
+                    "namespace": "django.contrib.auth.views.PasswordChangeView.dispatch",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_form_kwargs",
+                    "namespace": "django.contrib.auth.views.PasswordChangeView.get_form_kwargs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "form_valid",
+                    "namespace": "django.contrib.auth.views.PasswordChangeView.form_valid",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "PasswordChangeDoneView",
-            "namespace": "django.contrib.auth.views.PasswordChangeDoneView"
+            "namespace": "django.contrib.auth.views.PasswordChangeDoneView",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "dispatch",
+                    "namespace": "django.contrib.auth.views.PasswordChangeDoneView.dispatch",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Log out the user if they are logged in. Then redirect to the login page.\n    \"\"\"",
+            "name": "logout_then_login",
+            "namespace": "django.contrib.auth.views.logout_then_login",
+            "class_name": "",
+            "module_name": "django.contrib.auth.views",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Redirect the user to the login page, passing the given 'next' page.\n    \"\"\"",
+            "name": "redirect_to_login",
+            "namespace": "django.contrib.auth.views.redirect_to_login",
+            "class_name": "",
+            "module_name": "django.contrib.auth.views",
+            "package_name": ""
         }
     ],
     "package_name": "django.contrib.auth"

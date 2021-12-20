@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Return URL-safe, hmac signed base64 compressed JSON string. If key is\n    None, use settings.SECRET_KEY instead. The hmac algorithm is the default\n    Signer algorithm.\n\n    If compress is True (not the default), check if compressing using zlib can\n    save some space. Prepend a '.' to signify compression. This is included\n    in the signature, to protect against zip bombs.\n\n    Salt can be used to namespace the hash, so that a signed string is\n    only valid for a given namespace. Leaving this at the default\n    value or re-using a salt value across different parts of your\n    application without good cause is a security risk.\n\n    The serializer is expected to return a bytestring.\n    \"\"\"",
+    "name": "dumps",
+    "namespace": "django.core.signing.dumps",
+    "class_name": "",
+    "module_name": "django.core.signing",
+    "package_name": ""
+}

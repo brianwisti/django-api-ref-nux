@@ -3,5 +3,143 @@
     "name": "TimeFormat",
     "namespace": "django.utils.dateformat.TimeFormat",
     "module_name": "django.utils.dateformat",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.utils.dateformat.TimeFormat.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_no_timezone_or_datetime_is_ambiguous_or_imaginary",
+            "namespace": "django.utils.dateformat.TimeFormat._no_timezone_or_datetime_is_ambiguous_or_imaginary",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"'a.m.' or 'p.m.'\"",
+            "name": "a",
+            "namespace": "django.utils.dateformat.TimeFormat.a",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"'AM' or 'PM'\"",
+            "name": "A",
+            "namespace": "django.utils.dateformat.TimeFormat.A",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Timezone name.\n\n        If timezone information is not available, return an empty string.\n        \"\"\"",
+            "name": "e",
+            "namespace": "django.utils.dateformat.TimeFormat.e",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Time, in 12-hour hours and minutes, with minutes left off if they're\n        zero.\n        Examples: '1', '1:30', '2:05', '2'\n        Proprietary extension.\n        \"\"\"",
+            "name": "f",
+            "namespace": "django.utils.dateformat.TimeFormat.f",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Hour, 12-hour format without leading zeros; i.e. '1' to '12'\"",
+            "name": "g",
+            "namespace": "django.utils.dateformat.TimeFormat.g",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Hour, 24-hour format without leading zeros; i.e. '0' to '23'\"",
+            "name": "G",
+            "namespace": "django.utils.dateformat.TimeFormat.G",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Hour, 12-hour format; i.e. '01' to '12'\"",
+            "name": "h",
+            "namespace": "django.utils.dateformat.TimeFormat.h",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Hour, 24-hour format; i.e. '00' to '23'\"",
+            "name": "H",
+            "namespace": "django.utils.dateformat.TimeFormat.H",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Minutes; i.e. '00' to '59'\"",
+            "name": "i",
+            "namespace": "django.utils.dateformat.TimeFormat.i",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Difference to Greenwich time in hours; e.g. '+0200', '-0430'.\n\n        If timezone information is not available, return an empty string.\n        \"\"\"",
+            "name": "O",
+            "namespace": "django.utils.dateformat.TimeFormat.O",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Time, in 12-hour hours, minutes and 'a.m.'/'p.m.', with minutes left off\n        if they're zero and the strings 'midnight' and 'noon' if appropriate.\n        Examples: '1 a.m.', '1:30 p.m.', 'midnight', 'noon', '12:30 p.m.'\n        Proprietary extension.\n        \"\"\"",
+            "name": "P",
+            "namespace": "django.utils.dateformat.TimeFormat.P",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Seconds; i.e. '00' to '59'\"",
+            "name": "s",
+            "namespace": "django.utils.dateformat.TimeFormat.s",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Time zone of this machine; e.g. 'EST' or 'MDT'.\n\n        If timezone information is not available, return an empty string.\n        \"\"\"",
+            "name": "T",
+            "namespace": "django.utils.dateformat.TimeFormat.T",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Microseconds; i.e. '000000' to '999999'\"",
+            "name": "u",
+            "namespace": "django.utils.dateformat.TimeFormat.u",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Time zone offset in seconds (i.e. '-43200' to '43200'). The offset for\n        timezones west of UTC is always negative, and for those east of UTC is\n        always positive.\n\n        If timezone information is not available, return an empty string.\n        \"\"\"",
+            "name": "Z",
+            "namespace": "django.utils.dateformat.TimeFormat.Z",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

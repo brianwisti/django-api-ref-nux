@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Call the given command, with the given options and args/kwargs.\n\n    This is the primary API you should use for calling specific commands.\n\n    `command_name` may be a string or a command object. Using a string is\n    preferred unless the command object is required for further processing or\n    testing.\n\n    Some examples:\n        call_command('migrate')\n        call_command('shell', plain=True)\n        call_command('sqlmigrate', 'myapp')\n\n        from django.core.management.commands import flush\n        cmd = flush.Command()\n        call_command(cmd, verbosity=0, interactive=False)\n        # Do something with cmd ...\n    \"\"\"",
+    "name": "call_command",
+    "namespace": "django.core.management.call_command",
+    "class_name": "",
+    "module_name": "django.core.management",
+    "package_name": "django.core.management"
+}

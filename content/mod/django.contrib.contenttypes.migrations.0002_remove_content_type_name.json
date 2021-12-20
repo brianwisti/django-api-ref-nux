@@ -5,7 +5,18 @@
         {
             "docstring": "",
             "name": "Migration",
-            "namespace": "django.contrib.contenttypes.migrations.0002_remove_content_type_name.Migration"
+            "namespace": "django.contrib.contenttypes.migrations.0002_remove_content_type_name.Migration",
+            "methods": []
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "",
+            "name": "add_legacy_name",
+            "namespace": "django.contrib.contenttypes.migrations.0002_remove_content_type_name.add_legacy_name",
+            "class_name": "",
+            "module_name": "django.contrib.contenttypes.migrations.0002_remove_content_type_name",
+            "package_name": ""
         }
     ],
     "package_name": "django.contrib.contenttypes.migrations"

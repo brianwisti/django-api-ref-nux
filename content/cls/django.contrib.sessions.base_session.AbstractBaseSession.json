@@ -3,5 +3,31 @@
     "name": "AbstractBaseSession",
     "namespace": "django.contrib.sessions.base_session.AbstractBaseSession",
     "module_name": "django.contrib.sessions.base_session",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__str__",
+            "namespace": "django.contrib.sessions.base_session.AbstractBaseSession.__str__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_session_store_class",
+            "namespace": "django.contrib.sessions.base_session.AbstractBaseSession.get_session_store_class",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_decoded",
+            "namespace": "django.contrib.sessions.base_session.AbstractBaseSession.get_decoded",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

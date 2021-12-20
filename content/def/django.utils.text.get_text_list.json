@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    >>> get_text_list(['a', 'b', 'c', 'd'])\n    'a, b, c or d'\n    >>> get_text_list(['a', 'b', 'c'], 'and')\n    'a, b and c'\n    >>> get_text_list(['a', 'b'], 'and')\n    'a and b'\n    >>> get_text_list(['a'])\n    'a'\n    >>> get_text_list([])\n    ''\n    \"\"\"",
+    "name": "get_text_list",
+    "namespace": "django.utils.text.get_text_list",
+    "class_name": "",
+    "module_name": "django.utils.text",
+    "package_name": ""
+}

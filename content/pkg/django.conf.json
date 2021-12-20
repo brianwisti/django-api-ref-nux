@@ -2,40 +2,235 @@
     "name": "django.conf",
     "docstring": "\"\"\"\nSettings and configuration for Django.\n\nRead values from the module specified by the DJANGO_SETTINGS_MODULE environment\nvariable, and then from django.conf.global_settings; see the global_settings.py\nfor a list of all possible variables.\n\"\"\"",
     "package_name": "django",
+    "functions": [],
     "classes": [
         {
             "docstring": "\"\"\"\n    String subclass which references a current settings value. It's treated as\n    the value in memory but serializes to a settings.NAME attribute reference.\n    \"\"\"",
             "name": "SettingsReference",
             "namespace": "django.conf.SettingsReference",
             "module_name": "django.conf",
-            "package_name": "django.conf"
+            "package_name": "django.conf",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__new__",
+                    "namespace": "django.conf.SettingsReference.__new__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.conf.SettingsReference.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    A lazy proxy for either global Django settings or a custom settings object.\n    The user can manually configure settings prior to using them. Otherwise,\n    Django uses the settings module pointed to by DJANGO_SETTINGS_MODULE.\n    \"\"\"",
             "name": "LazySettings",
             "namespace": "django.conf.LazySettings",
             "module_name": "django.conf",
-            "package_name": "django.conf"
+            "package_name": "django.conf",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        Load the settings module pointed to by the environment variable. This\n        is used the first time settings are needed, if the user hasn't\n        configured settings manually.\n        \"\"\"",
+                    "name": "_setup",
+                    "namespace": "django.conf.LazySettings._setup",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.conf.LazySettings.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return the value of a setting and cache it in self.__dict__.\"\"\"",
+                    "name": "__getattr__",
+                    "namespace": "django.conf.LazySettings.__getattr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Set the value of setting. Clear all cached values if _wrapped changes\n        (@override_settings does this) or clear single values when set.\n        \"\"\"",
+                    "name": "__setattr__",
+                    "namespace": "django.conf.LazySettings.__setattr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Delete a setting and clear it from cache if needed.\"\"\"",
+                    "name": "__delattr__",
+                    "namespace": "django.conf.LazySettings.__delattr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Called to manually configure the settings. The 'default_settings'\n        parameter sets where to retrieve any unspecified values from (its\n        argument must support attribute access (__getattr__)).\n        \"\"\"",
+                    "name": "configure",
+                    "namespace": "django.conf.LazySettings.configure",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Add SCRIPT_NAME prefix to relative paths.\n\n        Useful when the app is being served at a subpath and manually prefixing\n        subpath to STATIC_URL and MEDIA_URL in settings is inconvenient.\n        \"\"\"",
+                    "name": "_add_script_prefix",
+                    "namespace": "django.conf.LazySettings._add_script_prefix",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return True if the settings have already been configured.\"\"\"",
+                    "name": "configured",
+                    "namespace": "django.conf.LazySettings.configured",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "USE_L10N",
+                    "namespace": "django.conf.LazySettings.USE_L10N",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_USE_L10N_INTERNAL",
+                    "namespace": "django.conf.LazySettings._USE_L10N_INTERNAL",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Settings",
             "namespace": "django.conf.Settings",
             "module_name": "django.conf",
-            "package_name": "django.conf"
+            "package_name": "django.conf",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.conf.Settings.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "is_overridden",
+                    "namespace": "django.conf.Settings.is_overridden",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.conf.Settings.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"Holder for user configured settings.\"\"\"",
             "name": "UserSettingsHolder",
             "namespace": "django.conf.UserSettingsHolder",
             "module_name": "django.conf",
-            "package_name": "django.conf"
+            "package_name": "django.conf",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        Requests for configuration variables not in this class are satisfied\n        from the module specified in default_settings (if possible).\n        \"\"\"",
+                    "name": "__init__",
+                    "namespace": "django.conf.UserSettingsHolder.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__getattr__",
+                    "namespace": "django.conf.UserSettingsHolder.__getattr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__setattr__",
+                    "namespace": "django.conf.UserSettingsHolder.__setattr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__delattr__",
+                    "namespace": "django.conf.UserSettingsHolder.__delattr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__dir__",
+                    "namespace": "django.conf.UserSettingsHolder.__dir__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "is_overridden",
+                    "namespace": "django.conf.UserSettingsHolder.is_overridden",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.conf.UserSettingsHolder.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
     "modules": [
         {
             "namespace": "django.conf.global_settings",
             "docstring": "\"\"\"\nDefault Django settings. Override these with settings in the module pointed to\nby the DJANGO_SETTINGS_MODULE environment variable.\n\"\"\"",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "gettext_noop",
+                    "namespace": "django.conf.global_settings.gettext_noop",
+                    "class_name": "",
+                    "module_name": "django.conf.global_settings",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.conf"
         }
     ],
@@ -43,12 +238,14 @@
         {
             "name": "django.conf.locale",
             "docstring": "\"\"\"\nLANG_INFO is a dictionary structure to provide meta information about languages.\n\nAbout name_local: capitalize it as if your language name was appearing\ninside a sentence in your language.\nThe 'fallback' key can be used to specify a special fallback logic which doesn't\nfollow the traditional 'fr-ca' -> 'fr' fallback logic.\n\"\"\"",
-            "package_name": "django.conf"
+            "package_name": "django.conf",
+            "functions": []
         },
         {
             "name": "django.conf.urls",
             "docstring": "",
-            "package_name": "django.conf"
+            "package_name": "django.conf",
+            "functions": []
         }
     ]
 }

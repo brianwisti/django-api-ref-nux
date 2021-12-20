@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Decorator to mark functions as async-unsafe. Someone trying to access\n    the function while in an async context will get an error message.\n    \"\"\"",
+    "name": "async_unsafe",
+    "namespace": "django.utils.asyncio.async_unsafe",
+    "class_name": "",
+    "module_name": "django.utils.asyncio",
+    "package_name": ""
+}

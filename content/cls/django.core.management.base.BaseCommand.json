@@ -3,5 +3,95 @@
     "name": "BaseCommand",
     "namespace": "django.core.management.base.BaseCommand",
     "module_name": "django.core.management.base",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.core.management.base.BaseCommand.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return the Django version, which should be correct for all built-in\n        Django commands. User-supplied commands can override this method to\n        return their own version.\n        \"\"\"",
+            "name": "get_version",
+            "namespace": "django.core.management.base.BaseCommand.get_version",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Create and return the ``ArgumentParser`` which will be used to\n        parse the arguments to this command.\n        \"\"\"",
+            "name": "create_parser",
+            "namespace": "django.core.management.base.BaseCommand.create_parser",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Entry point for subclassed commands to add custom arguments.\n        \"\"\"",
+            "name": "add_arguments",
+            "namespace": "django.core.management.base.BaseCommand.add_arguments",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Call the parser's add_argument() method, suppressing the help text\n        according to BaseCommand.suppressed_base_arguments.\n        \"\"\"",
+            "name": "add_base_argument",
+            "namespace": "django.core.management.base.BaseCommand.add_base_argument",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Print the help message for this command, derived from\n        ``self.usage()``.\n        \"\"\"",
+            "name": "print_help",
+            "namespace": "django.core.management.base.BaseCommand.print_help",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Set up any environment changes requested (e.g., Python path\n        and Django settings), then run this command. If the\n        command raises a ``CommandError``, intercept it and print it sensibly\n        to stderr. If the ``--traceback`` option is present or the raised\n        ``Exception`` is not ``CommandError``, raise it.\n        \"\"\"",
+            "name": "run_from_argv",
+            "namespace": "django.core.management.base.BaseCommand.run_from_argv",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Try to execute this command, performing system checks if needed (as\n        controlled by the ``requires_system_checks`` attribute, except if\n        force-skipped).\n        \"\"\"",
+            "name": "execute",
+            "namespace": "django.core.management.base.BaseCommand.execute",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Use the system check framework to validate entire Django project.\n        Raise CommandError for any serious message (error or critical errors).\n        If there are only light messages (like warnings), print them to stderr\n        and don't raise an exception.\n        \"\"\"",
+            "name": "check",
+            "namespace": "django.core.management.base.BaseCommand.check",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Print a warning if the set of migrations on disk don't match the\n        migrations in the database.\n        \"\"\"",
+            "name": "check_migrations",
+            "namespace": "django.core.management.base.BaseCommand.check_migrations",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        The actual logic of the command. Subclasses must implement\n        this method.\n        \"\"\"",
+            "name": "handle",
+            "namespace": "django.core.management.base.BaseCommand.handle",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

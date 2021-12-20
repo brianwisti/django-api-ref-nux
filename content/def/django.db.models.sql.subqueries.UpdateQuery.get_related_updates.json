@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Return a list of query objects: one for each update required to an\n        ancestor model. Each query will have the same filtering conditions as\n        the current query but will only update a single table.\n        \"\"\"",
+    "name": "get_related_updates",
+    "namespace": "django.db.models.sql.subqueries.UpdateQuery.get_related_updates",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

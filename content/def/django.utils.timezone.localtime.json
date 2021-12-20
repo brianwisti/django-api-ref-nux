@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Convert an aware datetime.datetime to local time.\n\n    Only aware datetimes are allowed. When value is omitted, it defaults to\n    now().\n\n    Local time is defined by the current time zone, unless another time zone\n    is specified.\n    \"\"\"",
+    "name": "localtime",
+    "namespace": "django.utils.timezone.localtime",
+    "class_name": "",
+    "module_name": "django.utils.timezone",
+    "package_name": ""
+}

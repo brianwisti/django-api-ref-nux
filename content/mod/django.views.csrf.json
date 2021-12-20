@@ -2,5 +2,15 @@
     "namespace": "django.views.csrf",
     "docstring": "",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Default view used when request fails CSRF protection\n    \"\"\"",
+            "name": "csrf_failure",
+            "namespace": "django.views.csrf.csrf_failure",
+            "class_name": "",
+            "module_name": "django.views.csrf",
+            "package_name": ""
+        }
+    ],
     "package_name": "django.views"
 }

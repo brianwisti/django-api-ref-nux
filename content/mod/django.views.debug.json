@@ -5,22 +5,263 @@
         {
             "docstring": "",
             "name": "ExceptionCycleWarning",
-            "namespace": "django.views.debug.ExceptionCycleWarning"
+            "namespace": "django.views.debug.ExceptionCycleWarning",
+            "methods": []
         },
         {
             "docstring": "\"\"\"\n    Object to wrap callable appearing in settings.\n    * Not to call in the debug page (#21345).\n    * Not to break the debug page if the callable forbidding to set attributes\n      (#23070).\n    \"\"\"",
             "name": "CallableSettingWrapper",
-            "namespace": "django.views.debug.CallableSettingWrapper"
+            "namespace": "django.views.debug.CallableSettingWrapper",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.views.debug.CallableSettingWrapper.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.views.debug.CallableSettingWrapper.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Use annotations made by the sensitive_post_parameters and\n    sensitive_variables decorators to filter out sensitive information.\n    \"\"\"",
             "name": "SafeExceptionReporterFilter",
-            "namespace": "django.views.debug.SafeExceptionReporterFilter"
+            "namespace": "django.views.debug.SafeExceptionReporterFilter",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        Cleanse an individual setting key/value of sensitive content. If the\n        value is a dictionary, recursively cleanse the keys in that dictionary.\n        \"\"\"",
+                    "name": "cleanse_setting",
+                    "namespace": "django.views.debug.SafeExceptionReporterFilter.cleanse_setting",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return a dictionary of the settings module with values of sensitive\n        settings replaced with stars (*********).\n        \"\"\"",
+                    "name": "get_safe_settings",
+                    "namespace": "django.views.debug.SafeExceptionReporterFilter.get_safe_settings",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return a dictionary of request.META with sensitive values redacted.\n        \"\"\"",
+                    "name": "get_safe_request_meta",
+                    "namespace": "django.views.debug.SafeExceptionReporterFilter.get_safe_request_meta",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        This filter is to add safety in production environments (i.e. DEBUG\n        is False). If DEBUG is True then your site is not safe anyway.\n        This hook is provided as a convenience to easily activate or\n        deactivate the filter on a per request basis.\n        \"\"\"",
+                    "name": "is_active",
+                    "namespace": "django.views.debug.SafeExceptionReporterFilter.is_active",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Replace the keys in a MultiValueDict marked as sensitive with stars.\n        This mitigates leaking sensitive POST parameters if something like\n        request.POST['nonexistent_key'] throws an exception (#21098).\n        \"\"\"",
+                    "name": "get_cleansed_multivaluedict",
+                    "namespace": "django.views.debug.SafeExceptionReporterFilter.get_cleansed_multivaluedict",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Replace the values of POST parameters marked as sensitive with\n        stars (*********).\n        \"\"\"",
+                    "name": "get_post_parameters",
+                    "namespace": "django.views.debug.SafeExceptionReporterFilter.get_post_parameters",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "cleanse_special_types",
+                    "namespace": "django.views.debug.SafeExceptionReporterFilter.cleanse_special_types",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Replace the values of variables marked as sensitive with\n        stars (*********).\n        \"\"\"",
+                    "name": "get_traceback_frame_variables",
+                    "namespace": "django.views.debug.SafeExceptionReporterFilter.get_traceback_frame_variables",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"Organize and coordinate reporting on exceptions.\"\"\"",
             "name": "ExceptionReporter",
-            "namespace": "django.views.debug.ExceptionReporter"
+            "namespace": "django.views.debug.ExceptionReporter",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "html_template_path",
+                    "namespace": "django.views.debug.ExceptionReporter.html_template_path",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "text_template_path",
+                    "namespace": "django.views.debug.ExceptionReporter.text_template_path",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.views.debug.ExceptionReporter.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return an absolute URI from variables available in this request. Skip\n        allowed hosts protection, so may return insecure URI.\n        \"\"\"",
+                    "name": "_get_raw_insecure_uri",
+                    "namespace": "django.views.debug.ExceptionReporter._get_raw_insecure_uri",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return a dictionary containing traceback information.\"\"\"",
+                    "name": "get_traceback_data",
+                    "namespace": "django.views.debug.ExceptionReporter.get_traceback_data",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return HTML version of debug 500 HTTP error page.\"\"\"",
+                    "name": "get_traceback_html",
+                    "namespace": "django.views.debug.ExceptionReporter.get_traceback_html",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return plain text version of debug 500 HTTP error page.\"\"\"",
+                    "name": "get_traceback_text",
+                    "namespace": "django.views.debug.ExceptionReporter.get_traceback_text",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_get_source",
+                    "namespace": "django.views.debug.ExceptionReporter._get_source",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return context_lines before and after lineno from file.\n        Return (pre_context_lineno, pre_context, context_line, post_context).\n        \"\"\"",
+                    "name": "_get_lines_from_file",
+                    "namespace": "django.views.debug.ExceptionReporter._get_lines_from_file",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_get_explicit_or_implicit_cause",
+                    "namespace": "django.views.debug.ExceptionReporter._get_explicit_or_implicit_cause",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_traceback_frames",
+                    "namespace": "django.views.debug.ExceptionReporter.get_traceback_frames",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_exception_traceback_frames",
+                    "namespace": "django.views.debug.ExceptionReporter.get_exception_traceback_frames",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Return a path to a builtin template.\n\n    Avoid calling this function at the module level or in a class-definition\n    because __file__ may not exist, e.g. in frozen environments.\n    \"\"\"",
+            "name": "builtin_template_path",
+            "namespace": "django.views.debug.builtin_template_path",
+            "class_name": "",
+            "module_name": "django.views.debug",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Create a technical server error response. The last three arguments are\n    the values returned from sys.exc_info() and friends.\n    \"\"\"",
+            "name": "technical_500_response",
+            "namespace": "django.views.debug.technical_500_response",
+            "class_name": "",
+            "module_name": "django.views.debug",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_default_exception_reporter_filter",
+            "namespace": "django.views.debug.get_default_exception_reporter_filter",
+            "class_name": "",
+            "module_name": "django.views.debug",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_exception_reporter_filter",
+            "namespace": "django.views.debug.get_exception_reporter_filter",
+            "class_name": "",
+            "module_name": "django.views.debug",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_exception_reporter_class",
+            "namespace": "django.views.debug.get_exception_reporter_class",
+            "class_name": "",
+            "module_name": "django.views.debug",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Create a technical 404 error response. `exception` is the Http404.\"\"\"",
+            "name": "technical_404_response",
+            "namespace": "django.views.debug.technical_404_response",
+            "class_name": "",
+            "module_name": "django.views.debug",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Create an empty URLconf 404 error response.\"\"\"",
+            "name": "default_urlconf",
+            "namespace": "django.views.debug.default_urlconf",
+            "class_name": "",
+            "module_name": "django.views.debug",
+            "package_name": ""
         }
     ],
     "package_name": "django.views"

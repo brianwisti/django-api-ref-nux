@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Display the date, formatted according to the given string.\n\n    Use the same format as PHP's ``date()`` function; see https://php.net/date\n    for all the possible values.\n\n    Sample usage::\n\n        It is {% now \"jS F Y H:i\" %}\n    \"\"\"",
+    "name": "now",
+    "namespace": "django.template.defaulttags.now",
+    "class_name": "",
+    "module_name": "django.template.defaulttags",
+    "package_name": ""
+}

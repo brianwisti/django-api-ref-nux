@@ -5,23 +5,119 @@
         {
             "docstring": "\"\"\"A metaclass for creating a enum choices.\"\"\"",
             "name": "ChoicesMeta",
-            "namespace": "django.db.models.enums.ChoicesMeta"
+            "namespace": "django.db.models.enums.ChoicesMeta",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__new__",
+                    "namespace": "django.db.models.enums.ChoicesMeta.__new__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__contains__",
+                    "namespace": "django.db.models.enums.ChoicesMeta.__contains__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "names",
+                    "namespace": "django.db.models.enums.ChoicesMeta.names",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "choices",
+                    "namespace": "django.db.models.enums.ChoicesMeta.choices",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "labels",
+                    "namespace": "django.db.models.enums.ChoicesMeta.labels",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "values",
+                    "namespace": "django.db.models.enums.ChoicesMeta.values",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"Class for creating enumerated choices.\"\"\"",
             "name": "Choices",
-            "namespace": "django.db.models.enums.Choices"
+            "namespace": "django.db.models.enums.Choices",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "label",
+                    "namespace": "django.db.models.enums.Choices.label",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "do_not_call_in_templates",
+                    "namespace": "django.db.models.enums.Choices.do_not_call_in_templates",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Use value when cast to str, so that Choices set as model instance\n        attributes are rendered as expected in templates and similar contexts.\n        \"\"\"",
+                    "name": "__str__",
+                    "namespace": "django.db.models.enums.Choices.__str__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.db.models.enums.Choices.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"Class for creating enumerated integer choices.\"\"\"",
             "name": "IntegerChoices",
-            "namespace": "django.db.models.enums.IntegerChoices"
+            "namespace": "django.db.models.enums.IntegerChoices",
+            "methods": []
         },
         {
             "docstring": "\"\"\"Class for creating enumerated string choices.\"\"\"",
             "name": "TextChoices",
-            "namespace": "django.db.models.enums.TextChoices"
+            "namespace": "django.db.models.enums.TextChoices",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "_generate_next_value_",
+                    "namespace": "django.db.models.enums.TextChoices._generate_next_value_",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.db.models"
 }

@@ -3,5 +3,47 @@
     "name": "MiddlewareMixin",
     "namespace": "django.utils.deprecation.MiddlewareMixin",
     "module_name": "django.utils.deprecation",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.utils.deprecation.MiddlewareMixin.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__repr__",
+            "namespace": "django.utils.deprecation.MiddlewareMixin.__repr__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        If get_response is a coroutine function, turns us into async mode so\n        a thread is not consumed during a whole request.\n        \"\"\"",
+            "name": "_async_check",
+            "namespace": "django.utils.deprecation.MiddlewareMixin._async_check",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__call__",
+            "namespace": "django.utils.deprecation.MiddlewareMixin.__call__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Async version of __call__ that is swapped in when an async request\n        is running.\n        \"\"\"",
+            "name": "__acall__",
+            "namespace": "django.utils.deprecation.MiddlewareMixin.__acall__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

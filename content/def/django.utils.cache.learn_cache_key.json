@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Learn what headers to take into account for some request URL from the\n    response object. Store those headers in a global URL registry so that\n    later access to that URL will know what headers to take into account\n    without building the response object itself. The headers are named in the\n    Vary header of the response, but we want to prevent response generation.\n\n    The list of headers to use for cache key generation is stored in the same\n    cache as the pages themselves. If the cache ages some data out of the\n    cache, this just means that we have to build the response once to get at\n    the Vary header and so at the list of headers to use for the cache key.\n    \"\"\"",
+    "name": "learn_cache_key",
+    "namespace": "django.utils.cache.learn_cache_key",
+    "class_name": "",
+    "module_name": "django.utils.cache",
+    "package_name": ""
+}

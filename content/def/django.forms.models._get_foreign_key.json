@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Find and return the ForeignKey from model to parent if there is one\n    (return None if can_fail is True and no such field exists). If fk_name is\n    provided, assume it is the name of the ForeignKey field. Unless can_fail is\n    True, raise an exception if there isn't a ForeignKey from model to\n    parent_model.\n    \"\"\"",
+    "name": "_get_foreign_key",
+    "namespace": "django.forms.models._get_foreign_key",
+    "class_name": "",
+    "module_name": "django.forms.models",
+    "package_name": ""
+}

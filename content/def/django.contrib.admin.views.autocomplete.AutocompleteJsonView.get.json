@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Return a JsonResponse with search results as defined in\n        serialize_result(), by default:\n        {\n            results: [{id: \"123\" text: \"foo\"}],\n            pagination: {more: true}\n        }\n        \"\"\"",
+    "name": "get",
+    "namespace": "django.contrib.admin.views.autocomplete.AutocompleteJsonView.get",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

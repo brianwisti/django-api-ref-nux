@@ -2,5 +2,55 @@
     "namespace": "django.shortcuts",
     "docstring": "\"\"\"\nThis module collects helper functions and classes that \"span\" multiple levels\nof MVC. In other words, these functions/classes introduce controlled coupling\nfor convenience's sake.\n\"\"\"",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Return an HttpResponse whose content is filled with the result of calling\n    django.template.loader.render_to_string() with the passed arguments.\n    \"\"\"",
+            "name": "render",
+            "namespace": "django.shortcuts.render",
+            "class_name": "",
+            "module_name": "django.shortcuts",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return an HttpResponseRedirect to the appropriate URL for the arguments\n    passed.\n\n    The arguments could be:\n\n        * A model: the model's `get_absolute_url()` function will be called.\n\n        * A view name, possibly with arguments: `urls.reverse()` will be used\n          to reverse-resolve the name.\n\n        * A URL, which will be used as-is for the redirect location.\n\n    Issues a temporary redirect by default; pass permanent=True to issue a\n    permanent redirect.\n    \"\"\"",
+            "name": "redirect",
+            "namespace": "django.shortcuts.redirect",
+            "class_name": "",
+            "module_name": "django.shortcuts",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return a QuerySet or a Manager.\n    Duck typing in action: any class with a `get()` method (for\n    get_object_or_404) or a `filter()` method (for get_list_or_404) might do\n    the job.\n    \"\"\"",
+            "name": "_get_queryset",
+            "namespace": "django.shortcuts._get_queryset",
+            "class_name": "",
+            "module_name": "django.shortcuts",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Use get() to return an object, or raise an Http404 exception if the object\n    does not exist.\n\n    klass may be a Model, Manager, or QuerySet object. All other passed\n    arguments and keyword arguments are used in the get() query.\n\n    Like with QuerySet.get(), MultipleObjectsReturned is raised if more than\n    one object is found.\n    \"\"\"",
+            "name": "get_object_or_404",
+            "namespace": "django.shortcuts.get_object_or_404",
+            "class_name": "",
+            "module_name": "django.shortcuts",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Use filter() to return a list of objects, or raise an Http404 exception if\n    the list is empty.\n\n    klass may be a Model, Manager, or QuerySet object. All other passed\n    arguments and keyword arguments are used in the filter() query.\n    \"\"\"",
+            "name": "get_list_or_404",
+            "namespace": "django.shortcuts.get_list_or_404",
+            "class_name": "",
+            "module_name": "django.shortcuts",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return a URL appropriate for the arguments passed.\n\n    The arguments could be:\n\n        * A model: the model's `get_absolute_url()` function will be called.\n\n        * A view name, possibly with arguments: `urls.reverse()` will be used\n          to reverse-resolve the name.\n\n        * A URL, which will be returned as-is.\n    \"\"\"",
+            "name": "resolve_url",
+            "namespace": "django.shortcuts.resolve_url",
+            "class_name": "",
+            "module_name": "django.shortcuts",
+            "package_name": ""
+        }
+    ],
     "package_name": "django"
 }

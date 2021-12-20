@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Reorder an iterable of tests, grouping by the given TestCase classes.\n\n    This function also removes any duplicates and reorders so that tests of the\n    same type are consecutive.\n\n    The result is returned as an iterator. `classes` is a sequence of types.\n    Tests that are instances of `classes[0]` are grouped first, followed by\n    instances of `classes[1]`, etc. Tests that are not instances of any of the\n    classes are grouped last.\n\n    If `reverse` is True, the tests within each `classes` group are reversed,\n    but without reversing the order of `classes` itself.\n\n    The `shuffler` argument is an optional instance of this module's `Shuffler`\n    class. If provided, tests will be shuffled within each `classes` group, but\n    keeping tests with other tests of their TestCase class. Reversing is\n    applied after shuffling to allow reversing the same random order.\n    \"\"\"",
+    "name": "reorder_tests",
+    "namespace": "django.test.runner.reorder_tests",
+    "class_name": "",
+    "module_name": "django.test.runner",
+    "package_name": ""
+}

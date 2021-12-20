@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Log the message at the given logging level (the default is INFO).\n\n        If a logger isn't set, the message is instead printed to the console,\n        respecting the configured verbosity. A verbosity of 0 prints no output,\n        a verbosity of 1 prints INFO and above, and a verbosity of 2 or higher\n        prints all levels.\n        \"\"\"",
+    "name": "log",
+    "namespace": "django.test.runner.DiscoverRunner.log",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

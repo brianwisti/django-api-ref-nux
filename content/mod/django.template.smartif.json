@@ -5,22 +5,176 @@
         {
             "docstring": "\"\"\"\n    Base class for operators and literals, mainly for debugging and for throwing\n    syntax errors.\n    \"\"\"",
             "name": "TokenBase",
-            "namespace": "django.template.smartif.TokenBase"
+            "namespace": "django.template.smartif.TokenBase",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "nud",
+                    "namespace": "django.template.smartif.TokenBase.nud",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "led",
+                    "namespace": "django.template.smartif.TokenBase.led",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return what to display in error messages for this node\n        \"\"\"",
+                    "name": "display",
+                    "namespace": "django.template.smartif.TokenBase.display",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.template.smartif.TokenBase.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    A basic self-resolvable object similar to a Django template variable.\n    \"\"\"",
             "name": "Literal",
-            "namespace": "django.template.smartif.Literal"
+            "namespace": "django.template.smartif.Literal",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.template.smartif.Literal.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "display",
+                    "namespace": "django.template.smartif.Literal.display",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "nud",
+                    "namespace": "django.template.smartif.Literal.nud",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "eval",
+                    "namespace": "django.template.smartif.Literal.eval",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.template.smartif.Literal.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "EndToken",
-            "namespace": "django.template.smartif.EndToken"
+            "namespace": "django.template.smartif.EndToken",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "nud",
+                    "namespace": "django.template.smartif.EndToken.nud",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "IfParser",
-            "namespace": "django.template.smartif.IfParser"
+            "namespace": "django.template.smartif.IfParser",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.template.smartif.IfParser.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "translate_token",
+                    "namespace": "django.template.smartif.IfParser.translate_token",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "next_token",
+                    "namespace": "django.template.smartif.IfParser.next_token",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "parse",
+                    "namespace": "django.template.smartif.IfParser.parse",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "expression",
+                    "namespace": "django.template.smartif.IfParser.expression",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "create_var",
+                    "namespace": "django.template.smartif.IfParser.create_var",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Create an infix operator, given a binding power and a function that\n    evaluates the node.\n    \"\"\"",
+            "name": "infix",
+            "namespace": "django.template.smartif.infix",
+            "class_name": "",
+            "module_name": "django.template.smartif",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Create a prefix operator, given a binding power and a function that\n    evaluates the node.\n    \"\"\"",
+            "name": "prefix",
+            "namespace": "django.template.smartif.prefix",
+            "class_name": "",
+            "module_name": "django.template.smartif",
+            "package_name": ""
         }
     ],
     "package_name": "django.template"

@@ -5,18 +5,201 @@
         {
             "docstring": "\"\"\"\n    Take two lists of operations - ones that will be used for the database,\n    and ones that will be used for the state change. This allows operations\n    that don't support state change to have it applied, or have operations\n    that affect the state or not the database, or so on.\n    \"\"\"",
             "name": "SeparateDatabaseAndState",
-            "namespace": "django.db.migrations.operations.special.SeparateDatabaseAndState"
+            "namespace": "django.db.migrations.operations.special.SeparateDatabaseAndState",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.migrations.operations.special.SeparateDatabaseAndState.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "deconstruct",
+                    "namespace": "django.db.migrations.operations.special.SeparateDatabaseAndState.deconstruct",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "state_forwards",
+                    "namespace": "django.db.migrations.operations.special.SeparateDatabaseAndState.state_forwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "database_forwards",
+                    "namespace": "django.db.migrations.operations.special.SeparateDatabaseAndState.database_forwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "database_backwards",
+                    "namespace": "django.db.migrations.operations.special.SeparateDatabaseAndState.database_backwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "describe",
+                    "namespace": "django.db.migrations.operations.special.SeparateDatabaseAndState.describe",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Run some raw SQL. A reverse SQL statement may be provided.\n\n    Also accept a list of operations that represent the state change effected\n    by this SQL change, in case it's custom column/table creation/deletion.\n    \"\"\"",
             "name": "RunSQL",
-            "namespace": "django.db.migrations.operations.special.RunSQL"
+            "namespace": "django.db.migrations.operations.special.RunSQL",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.migrations.operations.special.RunSQL.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "deconstruct",
+                    "namespace": "django.db.migrations.operations.special.RunSQL.deconstruct",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "reversible",
+                    "namespace": "django.db.migrations.operations.special.RunSQL.reversible",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "state_forwards",
+                    "namespace": "django.db.migrations.operations.special.RunSQL.state_forwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "database_forwards",
+                    "namespace": "django.db.migrations.operations.special.RunSQL.database_forwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "database_backwards",
+                    "namespace": "django.db.migrations.operations.special.RunSQL.database_backwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "describe",
+                    "namespace": "django.db.migrations.operations.special.RunSQL.describe",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_run_sql",
+                    "namespace": "django.db.migrations.operations.special.RunSQL._run_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Run Python code in a context suitable for doing versioned ORM operations.\n    \"\"\"",
             "name": "RunPython",
-            "namespace": "django.db.migrations.operations.special.RunPython"
+            "namespace": "django.db.migrations.operations.special.RunPython",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.migrations.operations.special.RunPython.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "deconstruct",
+                    "namespace": "django.db.migrations.operations.special.RunPython.deconstruct",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "reversible",
+                    "namespace": "django.db.migrations.operations.special.RunPython.reversible",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "state_forwards",
+                    "namespace": "django.db.migrations.operations.special.RunPython.state_forwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "database_forwards",
+                    "namespace": "django.db.migrations.operations.special.RunPython.database_forwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "database_backwards",
+                    "namespace": "django.db.migrations.operations.special.RunPython.database_backwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "describe",
+                    "namespace": "django.db.migrations.operations.special.RunPython.describe",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "noop",
+                    "namespace": "django.db.migrations.operations.special.RunPython.noop",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.db.migrations.operations"
 }

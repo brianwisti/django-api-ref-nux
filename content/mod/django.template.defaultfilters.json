@@ -2,5 +2,479 @@
     "namespace": "django.template.defaultfilters",
     "docstring": "\"\"\"Default variable filters.\"\"\"",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Decorator for filters which should only receive strings. The object\n    passed as the first positional argument will be converted to a string.\n    \"\"\"",
+            "name": "stringfilter",
+            "namespace": "django.template.defaultfilters.stringfilter",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Add slashes before quotes. Useful for escaping strings in CSV, for\n    example. Less useful for escaping JavaScript; use the ``escapejs``\n    filter instead.\n    \"\"\"",
+            "name": "addslashes",
+            "namespace": "django.template.defaultfilters.addslashes",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Capitalize the first character of the value.\"\"\"",
+            "name": "capfirst",
+            "namespace": "django.template.defaultfilters.capfirst",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Hex encode characters for use in JavaScript strings.\"\"\"",
+            "name": "escapejs_filter",
+            "namespace": "django.template.defaultfilters.escapejs_filter",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Output value JSON-encoded, wrapped in a <script type=\"application/json\">\n    tag.\n    \"\"\"",
+            "name": "json_script",
+            "namespace": "django.template.defaultfilters.json_script",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Display a float to a specified number of decimal places.\n\n    If called without an argument, display the floating point number with one\n    decimal place -- but only if there's a decimal place to be displayed:\n\n    * num1 = 34.23234\n    * num2 = 34.00000\n    * num3 = 34.26000\n    * {{ num1|floatformat }} displays \"34.2\"\n    * {{ num2|floatformat }} displays \"34\"\n    * {{ num3|floatformat }} displays \"34.3\"\n\n    If arg is positive, always display exactly arg number of decimal places:\n\n    * {{ num1|floatformat:3 }} displays \"34.232\"\n    * {{ num2|floatformat:3 }} displays \"34.000\"\n    * {{ num3|floatformat:3 }} displays \"34.260\"\n\n    If arg is negative, display arg number of decimal places -- but only if\n    there are places to be displayed:\n\n    * {{ num1|floatformat:\"-3\" }} displays \"34.232\"\n    * {{ num2|floatformat:\"-3\" }} displays \"34\"\n    * {{ num3|floatformat:\"-3\" }} displays \"34.260\"\n\n    If arg has the 'g' suffix, force the result to be grouped by the\n    THOUSAND_SEPARATOR for the active locale. When the active locale is\n    en (English):\n\n    * {{ 6666.6666|floatformat:\"2g\" }} displays \"6,666.67\"\n    * {{ 10000|floatformat:\"g\" }} displays \"10,000\"\n\n    If arg has the 'u' suffix, force the result to be unlocalized. When the\n    active locale is pl (Polish):\n\n    * {{ 66666.6666|floatformat:\"2\" }} displays \"66666,67\"\n    * {{ 66666.6666|floatformat:\"2u\" }} displays \"66666.67\"\n\n    If the input float is infinity or NaN, display the string representation\n    of that value.\n    \"\"\"",
+            "name": "floatformat",
+            "namespace": "django.template.defaultfilters.floatformat",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Escape an IRI value for use in a URL.\"\"\"",
+            "name": "iriencode",
+            "namespace": "django.template.defaultfilters.iriencode",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Display text with line numbers.\"\"\"",
+            "name": "linenumbers",
+            "namespace": "django.template.defaultfilters.linenumbers",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Convert a string into all lowercase.\"\"\"",
+            "name": "lower",
+            "namespace": "django.template.defaultfilters.lower",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return the value turned into a list.\n\n    For an integer, it's a list of digits.\n    For a string, it's a list of characters.\n    \"\"\"",
+            "name": "make_list",
+            "namespace": "django.template.defaultfilters.make_list",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Convert to ASCII. Convert spaces to hyphens. Remove characters that aren't\n    alphanumerics, underscores, or hyphens. Convert to lowercase. Also strip\n    leading and trailing whitespace.\n    \"\"\"",
+            "name": "slugify",
+            "namespace": "django.template.defaultfilters.slugify",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Format the variable according to the arg, a string formatting specifier.\n\n    This specifier uses Python string formatting syntax, with the exception\n    that the leading \"%\" is dropped.\n\n    See https://docs.python.org/library/stdtypes.html#printf-style-string-formatting\n    for documentation of Python string formatting.\n    \"\"\"",
+            "name": "stringformat",
+            "namespace": "django.template.defaultfilters.stringformat",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Convert a string into titlecase.\"\"\"",
+            "name": "title",
+            "namespace": "django.template.defaultfilters.title",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Truncate a string after `arg` number of characters.\"\"\"",
+            "name": "truncatechars",
+            "namespace": "django.template.defaultfilters.truncatechars",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Truncate HTML after `arg` number of chars.\n    Preserve newlines in the HTML.\n    \"\"\"",
+            "name": "truncatechars_html",
+            "namespace": "django.template.defaultfilters.truncatechars_html",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Truncate a string after `arg` number of words.\n    Remove newlines within the string.\n    \"\"\"",
+            "name": "truncatewords",
+            "namespace": "django.template.defaultfilters.truncatewords",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Truncate HTML after `arg` number of words.\n    Preserve newlines in the HTML.\n    \"\"\"",
+            "name": "truncatewords_html",
+            "namespace": "django.template.defaultfilters.truncatewords_html",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Convert a string into all uppercase.\"\"\"",
+            "name": "upper",
+            "namespace": "django.template.defaultfilters.upper",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Escape a value for use in a URL.\n\n    The ``safe`` parameter determines the characters which should not be\n    escaped by Python's quote() function. If not provided, use the default safe\n    characters (but an empty string can be provided when *all* characters\n    should be escaped).\n    \"\"\"",
+            "name": "urlencode",
+            "namespace": "django.template.defaultfilters.urlencode",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Convert URLs in plain text into clickable links.\"\"\"",
+            "name": "urlize",
+            "namespace": "django.template.defaultfilters.urlize",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Convert URLs into clickable links, truncating URLs to the given character\n    limit, and adding 'rel=nofollow' attribute to discourage spamming.\n\n    Argument: Length to truncate URLs to.\n    \"\"\"",
+            "name": "urlizetrunc",
+            "namespace": "django.template.defaultfilters.urlizetrunc",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return the number of words.\"\"\"",
+            "name": "wordcount",
+            "namespace": "django.template.defaultfilters.wordcount",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Wrap words at `arg` line length.\"\"\"",
+            "name": "wordwrap",
+            "namespace": "django.template.defaultfilters.wordwrap",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Left-align the value in a field of a given width.\"\"\"",
+            "name": "ljust",
+            "namespace": "django.template.defaultfilters.ljust",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Right-align the value in a field of a given width.\"\"\"",
+            "name": "rjust",
+            "namespace": "django.template.defaultfilters.rjust",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Center the value in a field of a given width.\"\"\"",
+            "name": "center",
+            "namespace": "django.template.defaultfilters.center",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Remove all values of arg from the given string.\"\"\"",
+            "name": "cut",
+            "namespace": "django.template.defaultfilters.cut",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Mark the value as a string that should be auto-escaped.\"\"\"",
+            "name": "escape_filter",
+            "namespace": "django.template.defaultfilters.escape_filter",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Escape a string's HTML. Return a new string containing the escaped\n    characters (as opposed to \"escape\", which marks the content for later\n    possible escaping).\n    \"\"\"",
+            "name": "force_escape",
+            "namespace": "django.template.defaultfilters.force_escape",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Replace line breaks in plain text with appropriate HTML; a single\n    newline becomes an HTML line break (``<br>``) and a new line\n    followed by a blank line becomes a paragraph break (``</p>``).\n    \"\"\"",
+            "name": "linebreaks_filter",
+            "namespace": "django.template.defaultfilters.linebreaks_filter",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Convert all newlines in a piece of plain text to HTML line breaks\n    (``<br>``).\n    \"\"\"",
+            "name": "linebreaksbr",
+            "namespace": "django.template.defaultfilters.linebreaksbr",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Mark the value as a string that should not be auto-escaped.\"\"\"",
+            "name": "safe",
+            "namespace": "django.template.defaultfilters.safe",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    A \"safe\" filter for sequences. Mark each element in the sequence,\n    individually, as safe, after converting them to strings. Return a list\n    with the results.\n    \"\"\"",
+            "name": "safeseq",
+            "namespace": "django.template.defaultfilters.safeseq",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Strip all [X]HTML tags.\"\"\"",
+            "name": "striptags",
+            "namespace": "django.template.defaultfilters.striptags",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    When arg is convertible to float, behave like operator.itemgetter(arg)\n    Otherwise, behave like Variable(arg).resolve\n\n    >>> _property_resolver(1)('abc')\n    'b'\n    >>> _property_resolver('1')('abc')\n    Traceback (most recent call last):\n    ...\n    TypeError: string indices must be integers\n    >>> class Foo:\n    ...     a = 42\n    ...     b = 3.14\n    ...     c = 'Hey!'\n    >>> _property_resolver('b')(Foo())\n    3.14\n    \"\"\"",
+            "name": "_property_resolver",
+            "namespace": "django.template.defaultfilters._property_resolver",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Given a list of dicts, return that list sorted by the property given in\n    the argument.\n    \"\"\"",
+            "name": "dictsort",
+            "namespace": "django.template.defaultfilters.dictsort",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Given a list of dicts, return that list sorted in reverse order by the\n    property given in the argument.\n    \"\"\"",
+            "name": "dictsortreversed",
+            "namespace": "django.template.defaultfilters.dictsortreversed",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return the first item in a list.\"\"\"",
+            "name": "first",
+            "namespace": "django.template.defaultfilters.first",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Join a list with a string, like Python's ``str.join(list)``.\"\"\"",
+            "name": "join",
+            "namespace": "django.template.defaultfilters.join",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return the last item in a list.\"\"\"",
+            "name": "last",
+            "namespace": "django.template.defaultfilters.last",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return the length of the value - useful for lists.\"\"\"",
+            "name": "length",
+            "namespace": "django.template.defaultfilters.length",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return a boolean of whether the value's length is the argument.\"\"\"",
+            "name": "length_is",
+            "namespace": "django.template.defaultfilters.length_is",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return a random item from the list.\"\"\"",
+            "name": "random",
+            "namespace": "django.template.defaultfilters.random",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return a slice of the list using the same syntax as Python's list slicing.\n    \"\"\"",
+            "name": "slice_filter",
+            "namespace": "django.template.defaultfilters.slice_filter",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Recursively take a self-nested list and return an HTML unordered list --\n    WITHOUT opening and closing <ul> tags.\n\n    Assume the list is in the proper format. For example, if ``var`` contains:\n    ``['States', ['Kansas', ['Lawrence', 'Topeka'], 'Illinois']]``, then\n    ``{{ var|unordered_list }}`` returns::\n\n        <li>States\n        <ul>\n                <li>Kansas\n                <ul>\n                        <li>Lawrence</li>\n                        <li>Topeka</li>\n                </ul>\n                </li>\n                <li>Illinois</li>\n        </ul>\n        </li>\n    \"\"\"",
+            "name": "unordered_list",
+            "namespace": "django.template.defaultfilters.unordered_list",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Add the arg to the value.\"\"\"",
+            "name": "add",
+            "namespace": "django.template.defaultfilters.add",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Given a whole number, return the requested digit of it, where 1 is the\n    right-most digit, 2 is the second-right-most digit, etc. Return the\n    original value for invalid input (if input or argument is not an integer,\n    or if argument is less than 1). Otherwise, output is always an integer.\n    \"\"\"",
+            "name": "get_digit",
+            "namespace": "django.template.defaultfilters.get_digit",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Format a date according to the given format.\"\"\"",
+            "name": "date",
+            "namespace": "django.template.defaultfilters.date",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Format a time according to the given format.\"\"\"",
+            "name": "time",
+            "namespace": "django.template.defaultfilters.time",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Format a date as the time since that date (i.e. \"4 days, 6 hours\").\"\"\"",
+            "name": "timesince_filter",
+            "namespace": "django.template.defaultfilters.timesince_filter",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Format a date as the time until that date (i.e. \"4 days, 6 hours\").\"\"\"",
+            "name": "timeuntil_filter",
+            "namespace": "django.template.defaultfilters.timeuntil_filter",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"If value is unavailable, use given default.\"\"\"",
+            "name": "default",
+            "namespace": "django.template.defaultfilters.default",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"If value is None, use given default.\"\"\"",
+            "name": "default_if_none",
+            "namespace": "django.template.defaultfilters.default_if_none",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return True if the value is divisible by the argument.\"\"\"",
+            "name": "divisibleby",
+            "namespace": "django.template.defaultfilters.divisibleby",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Given a string mapping values for true, false, and (optionally) None,\n    return one of those strings according to the value:\n\n    ==========  ======================  ==================================\n    Value       Argument                Outputs\n    ==========  ======================  ==================================\n    ``True``    ``\"yeah,no,maybe\"``     ``yeah``\n    ``False``   ``\"yeah,no,maybe\"``     ``no``\n    ``None``    ``\"yeah,no,maybe\"``     ``maybe``\n    ``None``    ``\"yeah,no\"``           ``\"no\"`` (converts None to False\n                                        if no mapping for None is given.\n    ==========  ======================  ==================================\n    \"\"\"",
+            "name": "yesno",
+            "namespace": "django.template.defaultfilters.yesno",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Format the value like a 'human-readable' file size (i.e. 13 KB, 4.1 MB,\n    102 bytes, etc.).\n    \"\"\"",
+            "name": "filesizeformat",
+            "namespace": "django.template.defaultfilters.filesizeformat",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return a plural suffix if the value is not 1, '1', or an object of\n    length 1. By default, use 's' as the suffix:\n\n    * If value is 0, vote{{ value|pluralize }} display \"votes\".\n    * If value is 1, vote{{ value|pluralize }} display \"vote\".\n    * If value is 2, vote{{ value|pluralize }} display \"votes\".\n\n    If an argument is provided, use that string instead:\n\n    * If value is 0, class{{ value|pluralize:\"es\" }} display \"classes\".\n    * If value is 1, class{{ value|pluralize:\"es\" }} display \"class\".\n    * If value is 2, class{{ value|pluralize:\"es\" }} display \"classes\".\n\n    If the provided argument contains a comma, use the text before the comma\n    for the singular case and the text after the comma for the plural case:\n\n    * If value is 0, cand{{ value|pluralize:\"y,ies\" }} display \"candies\".\n    * If value is 1, cand{{ value|pluralize:\"y,ies\" }} display \"candy\".\n    * If value is 2, cand{{ value|pluralize:\"y,ies\" }} display \"candies\".\n    \"\"\"",
+            "name": "pluralize",
+            "namespace": "django.template.defaultfilters.pluralize",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Take a phone number and converts it in to its numerical equivalent.\"\"\"",
+            "name": "phone2numeric_filter",
+            "namespace": "django.template.defaultfilters.phone2numeric_filter",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"A wrapper around pprint.pprint -- for debugging, really.\"\"\"",
+            "name": "pprint",
+            "namespace": "django.template.defaultfilters.pprint",
+            "class_name": "",
+            "module_name": "django.template.defaultfilters",
+            "package_name": ""
+        }
+    ],
     "package_name": "django.template"
 }

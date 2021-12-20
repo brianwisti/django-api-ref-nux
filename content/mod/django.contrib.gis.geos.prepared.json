@@ -5,8 +5,91 @@
         {
             "docstring": "\"\"\"\n    A geometry that is prepared for performing certain operations.\n    At the moment this includes the contains covers, and intersects\n    operations.\n    \"\"\"",
             "name": "PreparedGeometry",
-            "namespace": "django.contrib.gis.geos.prepared.PreparedGeometry"
+            "namespace": "django.contrib.gis.geos.prepared.PreparedGeometry",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.gis.geos.prepared.PreparedGeometry.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "contains",
+                    "namespace": "django.contrib.gis.geos.prepared.PreparedGeometry.contains",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "contains_properly",
+                    "namespace": "django.contrib.gis.geos.prepared.PreparedGeometry.contains_properly",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "covers",
+                    "namespace": "django.contrib.gis.geos.prepared.PreparedGeometry.covers",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "intersects",
+                    "namespace": "django.contrib.gis.geos.prepared.PreparedGeometry.intersects",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "crosses",
+                    "namespace": "django.contrib.gis.geos.prepared.PreparedGeometry.crosses",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "disjoint",
+                    "namespace": "django.contrib.gis.geos.prepared.PreparedGeometry.disjoint",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "overlaps",
+                    "namespace": "django.contrib.gis.geos.prepared.PreparedGeometry.overlaps",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "touches",
+                    "namespace": "django.contrib.gis.geos.prepared.PreparedGeometry.touches",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "within",
+                    "namespace": "django.contrib.gis.geos.prepared.PreparedGeometry.within",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.gis.geos"
 }

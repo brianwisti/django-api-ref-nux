@@ -3,5 +3,23 @@
     "name": "ConditionalGetMiddleware",
     "namespace": "django.middleware.http.ConditionalGetMiddleware",
     "module_name": "django.middleware.http",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "process_response",
+            "namespace": "django.middleware.http.ConditionalGetMiddleware.process_response",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return True if an ETag header should be added to response.\"\"\"",
+            "name": "needs_etag",
+            "namespace": "django.middleware.http.ConditionalGetMiddleware.needs_etag",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

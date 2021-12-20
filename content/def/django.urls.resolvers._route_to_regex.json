@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Convert a path pattern into a regular expression. Return the regular\n    expression and a dictionary mapping the capture names to the converters.\n    For example, 'foo/<int:pk>' returns '^foo\\\\/(?P<pk>[0-9]+)'\n    and {'pk': <django.urls.converters.IntConverter>}.\n    \"\"\"",
+    "name": "_route_to_regex",
+    "namespace": "django.urls.resolvers._route_to_regex",
+    "class_name": "",
+    "module_name": "django.urls.resolvers",
+    "package_name": ""
+}

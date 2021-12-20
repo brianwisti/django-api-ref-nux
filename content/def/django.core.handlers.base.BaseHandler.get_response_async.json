@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Asynchronous version of get_response.\n\n        Funneling everything, including WSGI, into a single async\n        get_response() is too slow. Avoid the context switch by using\n        a separate async response path.\n        \"\"\"",
+    "name": "get_response_async",
+    "namespace": "django.core.handlers.base.BaseHandler.get_response_async",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

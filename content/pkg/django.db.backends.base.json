@@ -2,46 +2,89 @@
     "name": "django.db.backends.base",
     "docstring": "",
     "package_name": "django.db.backends",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.db.backends.base.creation",
             "docstring": "",
+            "functions": [],
             "package_name": "django.db.backends.base"
         },
         {
             "namespace": "django.db.backends.base.client",
             "docstring": "",
+            "functions": [],
             "package_name": "django.db.backends.base"
         },
         {
             "namespace": "django.db.backends.base.features",
             "docstring": "",
+            "functions": [],
             "package_name": "django.db.backends.base"
         },
         {
             "namespace": "django.db.backends.base.operations",
             "docstring": "",
+            "functions": [],
             "package_name": "django.db.backends.base"
         },
         {
             "namespace": "django.db.backends.base.introspection",
             "docstring": "",
+            "functions": [],
             "package_name": "django.db.backends.base"
         },
         {
             "namespace": "django.db.backends.base.base",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "timezone_constructor",
+                    "namespace": "django.db.backends.base.base.timezone_constructor",
+                    "class_name": "",
+                    "module_name": "django.db.backends.base.base",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.db.backends.base"
         },
         {
             "namespace": "django.db.backends.base.schema",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    When altering the given field, must constraints on its model from the given\n    relation be temporarily dropped?\n    \"\"\"",
+                    "name": "_is_relevant_relation",
+                    "namespace": "django.db.backends.base.schema._is_relevant_relation",
+                    "class_name": "",
+                    "module_name": "django.db.backends.base.schema",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_all_related_fields",
+                    "namespace": "django.db.backends.base.schema._all_related_fields",
+                    "class_name": "",
+                    "module_name": "django.db.backends.base.schema",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_related_non_m2m_objects",
+                    "namespace": "django.db.backends.base.schema._related_non_m2m_objects",
+                    "class_name": "",
+                    "module_name": "django.db.backends.base.schema",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.db.backends.base"
         },
         {
             "namespace": "django.db.backends.base.validation",
             "docstring": "",
+            "functions": [],
             "package_name": "django.db.backends.base"
         }
     ],

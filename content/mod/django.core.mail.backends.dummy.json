@@ -5,8 +5,19 @@
         {
             "docstring": "",
             "name": "EmailBackend",
-            "namespace": "django.core.mail.backends.dummy.EmailBackend"
+            "namespace": "django.core.mail.backends.dummy.EmailBackend",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "send_messages",
+                    "namespace": "django.core.mail.backends.dummy.EmailBackend.send_messages",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.core.mail.backends"
 }

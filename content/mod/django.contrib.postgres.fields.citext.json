@@ -5,23 +5,45 @@
         {
             "docstring": "",
             "name": "CIText",
-            "namespace": "django.contrib.postgres.fields.citext.CIText"
+            "namespace": "django.contrib.postgres.fields.citext.CIText",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_internal_type",
+                    "namespace": "django.contrib.postgres.fields.citext.CIText.get_internal_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "db_type",
+                    "namespace": "django.contrib.postgres.fields.citext.CIText.db_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "CICharField",
-            "namespace": "django.contrib.postgres.fields.citext.CICharField"
+            "namespace": "django.contrib.postgres.fields.citext.CICharField",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "CIEmailField",
-            "namespace": "django.contrib.postgres.fields.citext.CIEmailField"
+            "namespace": "django.contrib.postgres.fields.citext.CIEmailField",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "CITextField",
-            "namespace": "django.contrib.postgres.fields.citext.CITextField"
+            "namespace": "django.contrib.postgres.fields.citext.CITextField",
+            "methods": []
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.postgres.fields"
 }

@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Retrieve a list of messages from the messages cookie. If the\n        not_finished sentinel value is found at the end of the message list,\n        remove it and return a result indicating that not all messages were\n        retrieved by this storage.\n        \"\"\"",
+    "name": "_get",
+    "namespace": "django.contrib.messages.storage.cookie.CookieStorage._get",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

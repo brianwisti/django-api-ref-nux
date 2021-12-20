@@ -2,5 +2,167 @@
     "namespace": "django.utils.cache",
     "docstring": "\"\"\"\nThis module contains helper functions for controlling caching. It does so by\nmanaging the \"Vary\" header of responses. It includes functions to patch the\nheader of response objects directly and decorators that change functions to do\nthat header-patching themselves.\n\nFor information on the Vary header, see:\n\n    https://tools.ietf.org/html/rfc7231#section-7.1.4\n\nEssentially, the \"Vary\" HTTP header defines which headers a cache should take\ninto account when building its cache key. Requests with the same path but\ndifferent header content for headers named in \"Vary\" need to get different\ncache keys to prevent delivery of wrong content.\n\nAn example: i18n middleware would need to distinguish caches by the\n\"Accept-language\" header.\n\"\"\"",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Patch the Cache-Control header by adding all keyword arguments to it.\n    The transformation is as follows:\n\n    * All keyword parameter names are turned to lowercase, and underscores\n      are converted to hyphens.\n    * If the value of a parameter is True (exactly True, not just a\n      true value), only the parameter name is added to the header.\n    * All other parameters are added with their value, after applying\n      str() to it.\n    \"\"\"",
+            "name": "patch_cache_control",
+            "namespace": "django.utils.cache.patch_cache_control",
+            "class_name": "",
+            "module_name": "django.utils.cache",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return the max-age from the response Cache-Control header as an integer,\n    or None if it wasn't found or wasn't an integer.\n    \"\"\"",
+            "name": "get_max_age",
+            "namespace": "django.utils.cache.get_max_age",
+            "class_name": "",
+            "module_name": "django.utils.cache",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "set_response_etag",
+            "namespace": "django.utils.cache.set_response_etag",
+            "class_name": "",
+            "module_name": "django.utils.cache",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_precondition_failed",
+            "namespace": "django.utils.cache._precondition_failed",
+            "class_name": "",
+            "module_name": "django.utils.cache",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_not_modified",
+            "namespace": "django.utils.cache._not_modified",
+            "class_name": "",
+            "module_name": "django.utils.cache",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_conditional_response",
+            "namespace": "django.utils.cache.get_conditional_response",
+            "class_name": "",
+            "module_name": "django.utils.cache",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Test the If-Match comparison as defined in section 3.1 of RFC 7232.\n    \"\"\"",
+            "name": "_if_match_passes",
+            "namespace": "django.utils.cache._if_match_passes",
+            "class_name": "",
+            "module_name": "django.utils.cache",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Test the If-Unmodified-Since comparison as defined in section 3.4 of\n    RFC 7232.\n    \"\"\"",
+            "name": "_if_unmodified_since_passes",
+            "namespace": "django.utils.cache._if_unmodified_since_passes",
+            "class_name": "",
+            "module_name": "django.utils.cache",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Test the If-None-Match comparison as defined in section 3.2 of RFC 7232.\n    \"\"\"",
+            "name": "_if_none_match_passes",
+            "namespace": "django.utils.cache._if_none_match_passes",
+            "class_name": "",
+            "module_name": "django.utils.cache",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Test the If-Modified-Since comparison as defined in section 3.3 of RFC 7232.\n    \"\"\"",
+            "name": "_if_modified_since_passes",
+            "namespace": "django.utils.cache._if_modified_since_passes",
+            "class_name": "",
+            "module_name": "django.utils.cache",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Add HTTP caching headers to the given HttpResponse: Expires and\n    Cache-Control.\n\n    Each header is only added if it isn't already set.\n\n    cache_timeout is in seconds. The CACHE_MIDDLEWARE_SECONDS setting is used\n    by default.\n    \"\"\"",
+            "name": "patch_response_headers",
+            "namespace": "django.utils.cache.patch_response_headers",
+            "class_name": "",
+            "module_name": "django.utils.cache",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Add headers to a response to indicate that a page should never be cached.\n    \"\"\"",
+            "name": "add_never_cache_headers",
+            "namespace": "django.utils.cache.add_never_cache_headers",
+            "class_name": "",
+            "module_name": "django.utils.cache",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Add (or update) the \"Vary\" header in the given HttpResponse object.\n    newheaders is a list of header names that should be in \"Vary\". If headers\n    contains an asterisk, then \"Vary\" header will consist of a single asterisk\n    '*'. Otherwise, existing headers in \"Vary\" aren't removed.\n    \"\"\"",
+            "name": "patch_vary_headers",
+            "namespace": "django.utils.cache.patch_vary_headers",
+            "class_name": "",
+            "module_name": "django.utils.cache",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Check to see if the response has a given header name in its Vary header.\n    \"\"\"",
+            "name": "has_vary_header",
+            "namespace": "django.utils.cache.has_vary_header",
+            "class_name": "",
+            "module_name": "django.utils.cache",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"If necessary, add the current locale or time zone to the cache key.\"\"\"",
+            "name": "_i18n_cache_key_suffix",
+            "namespace": "django.utils.cache._i18n_cache_key_suffix",
+            "class_name": "",
+            "module_name": "django.utils.cache",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return a cache key from the headers given in the header list.\"\"\"",
+            "name": "_generate_cache_key",
+            "namespace": "django.utils.cache._generate_cache_key",
+            "class_name": "",
+            "module_name": "django.utils.cache",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return a cache key for the header cache.\"\"\"",
+            "name": "_generate_cache_header_key",
+            "namespace": "django.utils.cache._generate_cache_header_key",
+            "class_name": "",
+            "module_name": "django.utils.cache",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return a cache key based on the request URL and query. It can be used\n    in the request phase because it pulls the list of headers to take into\n    account from the global URL registry and uses those to build a cache key\n    to check against.\n\n    If there isn't a headerlist stored, return None, indicating that the page\n    needs to be rebuilt.\n    \"\"\"",
+            "name": "get_cache_key",
+            "namespace": "django.utils.cache.get_cache_key",
+            "class_name": "",
+            "module_name": "django.utils.cache",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Learn what headers to take into account for some request URL from the\n    response object. Store those headers in a global URL registry so that\n    later access to that URL will know what headers to take into account\n    without building the response object itself. The headers are named in the\n    Vary header of the response, but we want to prevent response generation.\n\n    The list of headers to use for cache key generation is stored in the same\n    cache as the pages themselves. If the cache ages some data out of the\n    cache, this just means that we have to build the response once to get at\n    the Vary header and so at the list of headers to use for the cache key.\n    \"\"\"",
+            "name": "learn_cache_key",
+            "namespace": "django.utils.cache.learn_cache_key",
+            "class_name": "",
+            "module_name": "django.utils.cache",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_to_tuple",
+            "namespace": "django.utils.cache._to_tuple",
+            "class_name": "",
+            "module_name": "django.utils.cache",
+            "package_name": ""
+        }
+    ],
     "package_name": "django.utils"
 }

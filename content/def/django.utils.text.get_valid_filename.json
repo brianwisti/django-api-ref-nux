@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Return the given string converted to a string that can be used for a clean\n    filename. Remove leading and trailing spaces; convert other spaces to\n    underscores; and remove anything that is not an alphanumeric, dash,\n    underscore, or dot.\n    >>> get_valid_filename(\"john's portrait in 2004.jpg\")\n    'johns_portrait_in_2004.jpg'\n    \"\"\"",
+    "name": "get_valid_filename",
+    "namespace": "django.utils.text.get_valid_filename",
+    "class_name": "",
+    "module_name": "django.utils.text",
+    "package_name": ""
+}

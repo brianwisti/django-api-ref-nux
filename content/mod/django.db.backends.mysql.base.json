@@ -5,13 +5,194 @@
         {
             "docstring": "\"\"\"\n    A thin wrapper around MySQLdb's normal cursor class that catches particular\n    exception instances and reraises them with the correct types.\n\n    Implemented as a wrapper, rather than a subclass, so that it isn't stuck\n    to the particular underlying representation returned by Connection.cursor().\n    \"\"\"",
             "name": "CursorWrapper",
-            "namespace": "django.db.backends.mysql.base.CursorWrapper"
+            "namespace": "django.db.backends.mysql.base.CursorWrapper",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.backends.mysql.base.CursorWrapper.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "execute",
+                    "namespace": "django.db.backends.mysql.base.CursorWrapper.execute",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "executemany",
+                    "namespace": "django.db.backends.mysql.base.CursorWrapper.executemany",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__getattr__",
+                    "namespace": "django.db.backends.mysql.base.CursorWrapper.__getattr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__iter__",
+                    "namespace": "django.db.backends.mysql.base.CursorWrapper.__iter__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "DatabaseWrapper",
-            "namespace": "django.db.backends.mysql.base.DatabaseWrapper"
+            "namespace": "django.db.backends.mysql.base.DatabaseWrapper",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_connection_params",
+                    "namespace": "django.db.backends.mysql.base.DatabaseWrapper.get_connection_params",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_new_connection",
+                    "namespace": "django.db.backends.mysql.base.DatabaseWrapper.get_new_connection",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "init_connection_state",
+                    "namespace": "django.db.backends.mysql.base.DatabaseWrapper.init_connection_state",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "create_cursor",
+                    "namespace": "django.db.backends.mysql.base.DatabaseWrapper.create_cursor",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_rollback",
+                    "namespace": "django.db.backends.mysql.base.DatabaseWrapper._rollback",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_set_autocommit",
+                    "namespace": "django.db.backends.mysql.base.DatabaseWrapper._set_autocommit",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Disable foreign key checks, primarily for use in adding rows with\n        forward references. Always return True to indicate constraint checks\n        need to be re-enabled.\n        \"\"\"",
+                    "name": "disable_constraint_checking",
+                    "namespace": "django.db.backends.mysql.base.DatabaseWrapper.disable_constraint_checking",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Re-enable foreign key checks after they have been disabled.\n        \"\"\"",
+                    "name": "enable_constraint_checking",
+                    "namespace": "django.db.backends.mysql.base.DatabaseWrapper.enable_constraint_checking",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Check each table name in `table_names` for rows with invalid foreign\n        key references. This method is intended to be used in conjunction with\n        `disable_constraint_checking()` and `enable_constraint_checking()`, to\n        determine if rows with invalid references were entered while constraint\n        checks were off.\n        \"\"\"",
+                    "name": "check_constraints",
+                    "namespace": "django.db.backends.mysql.base.DatabaseWrapper.check_constraints",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "is_usable",
+                    "namespace": "django.db.backends.mysql.base.DatabaseWrapper.is_usable",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "display_name",
+                    "namespace": "django.db.backends.mysql.base.DatabaseWrapper.display_name",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "data_type_check_constraints",
+                    "namespace": "django.db.backends.mysql.base.DatabaseWrapper.data_type_check_constraints",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "mysql_server_data",
+                    "namespace": "django.db.backends.mysql.base.DatabaseWrapper.mysql_server_data",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "mysql_server_info",
+                    "namespace": "django.db.backends.mysql.base.DatabaseWrapper.mysql_server_info",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "mysql_version",
+                    "namespace": "django.db.backends.mysql.base.DatabaseWrapper.mysql_version",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "mysql_is_mariadb",
+                    "namespace": "django.db.backends.mysql.base.DatabaseWrapper.mysql_is_mariadb",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "sql_mode",
+                    "namespace": "django.db.backends.mysql.base.DatabaseWrapper.sql_mode",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.db.backends.mysql"
 }

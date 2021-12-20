@@ -5,17 +5,78 @@
         {
             "docstring": "",
             "name": "_OFFSET",
-            "namespace": "django.core.files.locks._OFFSET"
+            "namespace": "django.core.files.locks._OFFSET",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "_OFFSET_UNION",
-            "namespace": "django.core.files.locks._OFFSET_UNION"
+            "namespace": "django.core.files.locks._OFFSET_UNION",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "OVERLAPPED",
-            "namespace": "django.core.files.locks.OVERLAPPED"
+            "namespace": "django.core.files.locks.OVERLAPPED",
+            "methods": []
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\"Get a filedescriptor from something which could be a file or an fd.\"\"\"",
+            "name": "_fd",
+            "namespace": "django.core.files.locks._fd",
+            "class_name": "",
+            "module_name": "django.core.files.locks",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "lock",
+            "namespace": "django.core.files.locks.lock",
+            "class_name": "",
+            "module_name": "django.core.files.locks",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "unlock",
+            "namespace": "django.core.files.locks.unlock",
+            "class_name": "",
+            "module_name": "django.core.files.locks",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "lock",
+            "namespace": "django.core.files.locks.lock",
+            "class_name": "",
+            "module_name": "django.core.files.locks",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "unlock",
+            "namespace": "django.core.files.locks.unlock",
+            "class_name": "",
+            "module_name": "django.core.files.locks",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "lock",
+            "namespace": "django.core.files.locks.lock",
+            "class_name": "",
+            "module_name": "django.core.files.locks",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "unlock",
+            "namespace": "django.core.files.locks.unlock",
+            "class_name": "",
+            "module_name": "django.core.files.locks",
+            "package_name": ""
         }
     ],
     "package_name": "django.core.files"

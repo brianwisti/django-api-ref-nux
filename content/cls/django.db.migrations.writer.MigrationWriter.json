@@ -3,5 +3,71 @@
     "name": "MigrationWriter",
     "namespace": "django.db.migrations.writer.MigrationWriter",
     "module_name": "django.db.migrations.writer",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.db.migrations.writer.MigrationWriter.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return a string of the file contents.\"\"\"",
+            "name": "as_string",
+            "namespace": "django.db.migrations.writer.MigrationWriter.as_string",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "basedir",
+            "namespace": "django.db.migrations.writer.MigrationWriter.basedir",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "filename",
+            "namespace": "django.db.migrations.writer.MigrationWriter.filename",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "path",
+            "namespace": "django.db.migrations.writer.MigrationWriter.path",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "serialize",
+            "namespace": "django.db.migrations.writer.MigrationWriter.serialize",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "register_serializer",
+            "namespace": "django.db.migrations.writer.MigrationWriter.register_serializer",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "unregister_serializer",
+            "namespace": "django.db.migrations.writer.MigrationWriter.unregister_serializer",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

@@ -5,8 +5,131 @@
         {
             "docstring": "",
             "name": "DatabaseSchemaEditor",
-            "namespace": "django.db.backends.sqlite3.schema.DatabaseSchemaEditor"
+            "namespace": "django.db.backends.sqlite3.schema.DatabaseSchemaEditor",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__enter__",
+                    "namespace": "django.db.backends.sqlite3.schema.DatabaseSchemaEditor.__enter__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__exit__",
+                    "namespace": "django.db.backends.sqlite3.schema.DatabaseSchemaEditor.__exit__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "quote_value",
+                    "namespace": "django.db.backends.sqlite3.schema.DatabaseSchemaEditor.quote_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return whether or not the provided table name is referenced by another\n        one. If `column_name` is specified, only references pointing to that\n        column are considered. If `ignore_self` is True, self-referential\n        constraints are ignored.\n        \"\"\"",
+                    "name": "_is_referenced_by_fk_constraint",
+                    "namespace": "django.db.backends.sqlite3.schema.DatabaseSchemaEditor._is_referenced_by_fk_constraint",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "alter_db_table",
+                    "namespace": "django.db.backends.sqlite3.schema.DatabaseSchemaEditor.alter_db_table",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "alter_field",
+                    "namespace": "django.db.backends.sqlite3.schema.DatabaseSchemaEditor.alter_field",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Shortcut to transform a model from old_model into new_model\n\n        This follows the correct procedure to perform non-rename or column\n        addition operations based on SQLite's documentation\n\n        https://www.sqlite.org/lang_altertable.html#caution\n\n        The essential steps are:\n          1. Create a table with the updated definition called \"new__app_model\"\n          2. Copy the data from the existing \"app_model\" table to the new table\n          3. Drop the \"app_model\" table\n          4. Rename the \"new__app_model\" table to \"app_model\"\n          5. Restore any index of the previous \"app_model\" table.\n        \"\"\"",
+                    "name": "_remake_table",
+                    "namespace": "django.db.backends.sqlite3.schema.DatabaseSchemaEditor._remake_table",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "delete_model",
+                    "namespace": "django.db.backends.sqlite3.schema.DatabaseSchemaEditor.delete_model",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Create a field on a model. Usually involves adding a column, but may\n        involve adding a table instead (for M2M fields).\n        \"\"\"",
+                    "name": "add_field",
+                    "namespace": "django.db.backends.sqlite3.schema.DatabaseSchemaEditor.add_field",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Remove a field from a model. Usually involves deleting a column,\n        but for M2Ms may involve deleting a table.\n        \"\"\"",
+                    "name": "remove_field",
+                    "namespace": "django.db.backends.sqlite3.schema.DatabaseSchemaEditor.remove_field",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Perform a \"physical\" (non-ManyToMany) field update.\"\"\"",
+                    "name": "_alter_field",
+                    "namespace": "django.db.backends.sqlite3.schema.DatabaseSchemaEditor._alter_field",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Alter M2Ms to repoint their to= endpoints.\"\"\"",
+                    "name": "_alter_many_to_many",
+                    "namespace": "django.db.backends.sqlite3.schema.DatabaseSchemaEditor._alter_many_to_many",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "add_constraint",
+                    "namespace": "django.db.backends.sqlite3.schema.DatabaseSchemaEditor.add_constraint",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "remove_constraint",
+                    "namespace": "django.db.backends.sqlite3.schema.DatabaseSchemaEditor.remove_constraint",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_collate_sql",
+                    "namespace": "django.db.backends.sqlite3.schema.DatabaseSchemaEditor._collate_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.db.backends.sqlite3"
 }

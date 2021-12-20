@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Return an iterable of models.\n\n        By default, the following models aren't included:\n\n        - auto-created models for many-to-many relations without\n          an explicit intermediate table,\n        - models that have been swapped out.\n\n        Set the corresponding keyword argument to True to include such models.\n        Keyword arguments aren't documented; they're a private API.\n        \"\"\"",
+    "name": "get_models",
+    "namespace": "django.apps.config.AppConfig.get_models",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Take a ProjectState and return a new one with the migration's\n        operations applied to it. Preserve the original object state by\n        default and return a mutated state from a copy.\n        \"\"\"",
+    "name": "mutate_state",
+    "namespace": "django.db.migrations.migration.Migration.mutate_state",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

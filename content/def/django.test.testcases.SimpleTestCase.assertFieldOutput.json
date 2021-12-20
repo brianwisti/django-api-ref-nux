@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Assert that a form field behaves correctly with various inputs.\n\n        Args:\n            fieldclass: the class of the field to be tested.\n            valid: a dictionary mapping valid inputs to their expected\n                    cleaned values.\n            invalid: a dictionary mapping invalid inputs to one or more\n                    raised error messages.\n            field_args: the args passed to instantiate the field\n            field_kwargs: the kwargs passed to instantiate the field\n            empty_value: the expected clean output for inputs in empty_values\n        \"\"\"",
+    "name": "assertFieldOutput",
+    "namespace": "django.test.testcases.SimpleTestCase.assertFieldOutput",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

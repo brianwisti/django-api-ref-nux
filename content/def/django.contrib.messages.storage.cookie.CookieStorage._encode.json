@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Return an encoded version of the messages list which can be stored as\n        plain text.\n\n        Since the data will be retrieved from the client-side, the encoded data\n        also contains a hash to ensure that the data was not tampered with.\n        \"\"\"",
+    "name": "_encode",
+    "namespace": "django.contrib.messages.storage.cookie.CookieStorage._encode",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

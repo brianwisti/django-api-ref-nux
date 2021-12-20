@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Return any SQL needed to support auto-incrementing primary keys, or\n        None if no SQL is necessary.\n\n        This SQL is executed when a table is created.\n        \"\"\"",
+    "name": "autoinc_sql",
+    "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.autoinc_sql",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

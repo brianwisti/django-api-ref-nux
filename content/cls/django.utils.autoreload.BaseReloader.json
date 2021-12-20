@@ -3,5 +3,95 @@
     "name": "BaseReloader",
     "namespace": "django.utils.autoreload.BaseReloader",
     "module_name": "django.utils.autoreload",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.utils.autoreload.BaseReloader.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "watch_dir",
+            "namespace": "django.utils.autoreload.BaseReloader.watch_dir",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Yield all files that need to be watched, including module files and\n        files within globs.\n        \"\"\"",
+            "name": "watched_files",
+            "namespace": "django.utils.autoreload.BaseReloader.watched_files",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Wait until Django reports that the apps have been loaded. If the given\n        thread has terminated before the apps are ready, then a SyntaxError or\n        other non-recoverable error has been raised. In that case, stop waiting\n        for the apps_ready event and continue processing.\n\n        Return True if the thread is alive and the ready event has been\n        triggered, or False if the thread is terminated while waiting for the\n        event.\n        \"\"\"",
+            "name": "wait_for_apps_ready",
+            "namespace": "django.utils.autoreload.BaseReloader.wait_for_apps_ready",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "run",
+            "namespace": "django.utils.autoreload.BaseReloader.run",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "run_loop",
+            "namespace": "django.utils.autoreload.BaseReloader.run_loop",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        This generator is called in a loop from run_loop. It's important that\n        the method takes care of pausing or otherwise waiting for a period of\n        time. This split between run_loop() and tick() is to improve the\n        testability of the reloader implementations by decoupling the work they\n        do from the loop.\n        \"\"\"",
+            "name": "tick",
+            "namespace": "django.utils.autoreload.BaseReloader.tick",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "check_availability",
+            "namespace": "django.utils.autoreload.BaseReloader.check_availability",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "notify_file_changed",
+            "namespace": "django.utils.autoreload.BaseReloader.notify_file_changed",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "should_stop",
+            "namespace": "django.utils.autoreload.BaseReloader.should_stop",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "stop",
+            "namespace": "django.utils.autoreload.BaseReloader.stop",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

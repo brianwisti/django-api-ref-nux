@@ -3,5 +3,39 @@
     "name": "Serializer",
     "namespace": "django.core.serializers.jsonl.Serializer",
     "module_name": "django.core.serializers.jsonl",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "_init_options",
+            "namespace": "django.core.serializers.jsonl.Serializer._init_options",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "start_serialization",
+            "namespace": "django.core.serializers.jsonl.Serializer.start_serialization",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "end_object",
+            "namespace": "django.core.serializers.jsonl.Serializer.end_object",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "getvalue",
+            "namespace": "django.core.serializers.jsonl.Serializer.getvalue",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Take a model or a string of the form \"app_label.ModelName\" and return a\n    corresponding (\"app_label\", \"modelname\") tuple. If a tuple is passed in,\n    assume it's a valid model tuple already and return it unchanged.\n    \"\"\"",
+    "name": "make_model_tuple",
+    "namespace": "django.db.models.utils.make_model_tuple",
+    "class_name": "",
+    "module_name": "django.db.models.utils",
+    "package_name": ""
+}

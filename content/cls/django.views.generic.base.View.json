@@ -3,5 +3,63 @@
     "name": "View",
     "namespace": "django.views.generic.base.View",
     "module_name": "django.views.generic.base",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "\"\"\"\n        Constructor. Called in the URLconf; can contain helpful extra\n        keyword arguments, and other things.\n        \"\"\"",
+            "name": "__init__",
+            "namespace": "django.views.generic.base.View.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Main entry point for a request-response process.\"\"\"",
+            "name": "as_view",
+            "namespace": "django.views.generic.base.View.as_view",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Initialize attributes shared by all view methods.\"\"\"",
+            "name": "setup",
+            "namespace": "django.views.generic.base.View.setup",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "dispatch",
+            "namespace": "django.views.generic.base.View.dispatch",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "http_method_not_allowed",
+            "namespace": "django.views.generic.base.View.http_method_not_allowed",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Handle responding to requests for the OPTIONS HTTP verb.\"\"\"",
+            "name": "options",
+            "namespace": "django.views.generic.base.View.options",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_allowed_methods",
+            "namespace": "django.views.generic.base.View._allowed_methods",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

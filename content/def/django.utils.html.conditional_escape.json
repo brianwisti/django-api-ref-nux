@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Similar to escape(), except that it doesn't operate on pre-escaped strings.\n\n    This function relies on the __html__ convention used both by Django's\n    SafeData class and by third-party libraries like markupsafe.\n    \"\"\"",
+    "name": "conditional_escape",
+    "namespace": "django.utils.html.conditional_escape",
+    "class_name": "",
+    "module_name": "django.utils.html",
+    "package_name": ""
+}

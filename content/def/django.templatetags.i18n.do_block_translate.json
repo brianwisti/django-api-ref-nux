@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Translate a block of text with parameters.\n\n    Usage::\n\n        {% blocktranslate with bar=foo|filter boo=baz|filter %}\n        This is {{ bar }} and {{ boo }}.\n        {% endblocktranslate %}\n\n    Additionally, this supports pluralization::\n\n        {% blocktranslate count count=var|length %}\n        There is {{ count }} object.\n        {% plural %}\n        There are {{ count }} objects.\n        {% endblocktranslate %}\n\n    This is much like ngettext, only in template syntax.\n\n    The \"var as value\" legacy format is still supported::\n\n        {% blocktranslate with foo|filter as bar and baz|filter as boo %}\n        {% blocktranslate count var|length as count %}\n\n    The translated string can be stored in a variable using `asvar`::\n\n        {% blocktranslate with bar=foo|filter boo=baz|filter asvar var %}\n        This is {{ bar }} and {{ boo }}.\n        {% endblocktranslate %}\n        {{ var }}\n\n    Contextual translations are supported::\n\n        {% blocktranslate with bar=foo|filter context \"greeting\" %}\n            This is {{ bar }}.\n        {% endblocktranslate %}\n\n    This is equivalent to calling pgettext/npgettext instead of\n    (u)gettext/(u)ngettext.\n    \"\"\"",
+    "name": "do_block_translate",
+    "namespace": "django.templatetags.i18n.do_block_translate",
+    "class_name": "",
+    "module_name": "django.templatetags.i18n",
+    "package_name": ""
+}

@@ -3,5 +3,95 @@
     "name": "MigrationExecutor",
     "namespace": "django.db.migrations.executor.MigrationExecutor",
     "module_name": "django.db.migrations.executor",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.db.migrations.executor.MigrationExecutor.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Given a set of targets, return a list of (Migration instance, backwards?).\n        \"\"\"",
+            "name": "migration_plan",
+            "namespace": "django.db.migrations.executor.MigrationExecutor.migration_plan",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Create a project state including all the applications without\n        migrations and applied migrations if with_applied_migrations=True.\n        \"\"\"",
+            "name": "_create_project_state",
+            "namespace": "django.db.migrations.executor.MigrationExecutor._create_project_state",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Migrate the database up to the given targets.\n\n        Django first needs to create all project states before a migration is\n        (un)applied and in a second step run all the database operations.\n        \"\"\"",
+            "name": "migrate",
+            "namespace": "django.db.migrations.executor.MigrationExecutor.migrate",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Take a list of 2-tuples of the form (migration instance, False) and\n        apply them in the order they occur in the full_plan.\n        \"\"\"",
+            "name": "_migrate_all_forwards",
+            "namespace": "django.db.migrations.executor.MigrationExecutor._migrate_all_forwards",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Take a list of 2-tuples of the form (migration instance, True) and\n        unapply them in reverse order they occur in the full_plan.\n\n        Since unapplying a migration requires the project state prior to that\n        migration, Django will compute the migration states before each of them\n        in a first run over the plan and then unapply them in a second run over\n        the plan.\n        \"\"\"",
+            "name": "_migrate_all_backwards",
+            "namespace": "django.db.migrations.executor.MigrationExecutor._migrate_all_backwards",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Run a migration forwards.\"\"\"",
+            "name": "apply_migration",
+            "namespace": "django.db.migrations.executor.MigrationExecutor.apply_migration",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "record_migration",
+            "namespace": "django.db.migrations.executor.MigrationExecutor.record_migration",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Run a migration backwards.\"\"\"",
+            "name": "unapply_migration",
+            "namespace": "django.db.migrations.executor.MigrationExecutor.unapply_migration",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Mark replacement migrations applied if their replaced set all are.\n\n        Do this unconditionally on every migrate, rather than just when\n        migrations are applied or unapplied, to correctly handle the case\n        when a new squash migration is pushed to a deployment that already had\n        all its replaced migrations applied. In this case no new migration will\n        be applied, but the applied state of the squashed migration must be\n        maintained.\n        \"\"\"",
+            "name": "check_replacements",
+            "namespace": "django.db.migrations.executor.MigrationExecutor.check_replacements",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Test whether a migration has been implicitly applied - that the\n        tables or columns it would create exist. This is intended only for use\n        on initial migrations (as it only looks for CreateModel and AddField).\n        \"\"\"",
+            "name": "detect_soft_applied",
+            "namespace": "django.db.migrations.executor.MigrationExecutor.detect_soft_applied",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

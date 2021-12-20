@@ -3,5 +3,63 @@
     "name": "UserSettingsHolder",
     "namespace": "django.conf.UserSettingsHolder",
     "module_name": "django.conf",
-    "package_name": "django.conf"
+    "package_name": "django.conf",
+    "methods": [
+        {
+            "docstring": "\"\"\"\n        Requests for configuration variables not in this class are satisfied\n        from the module specified in default_settings (if possible).\n        \"\"\"",
+            "name": "__init__",
+            "namespace": "django.conf.UserSettingsHolder.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__getattr__",
+            "namespace": "django.conf.UserSettingsHolder.__getattr__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__setattr__",
+            "namespace": "django.conf.UserSettingsHolder.__setattr__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__delattr__",
+            "namespace": "django.conf.UserSettingsHolder.__delattr__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__dir__",
+            "namespace": "django.conf.UserSettingsHolder.__dir__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "is_overridden",
+            "namespace": "django.conf.UserSettingsHolder.is_overridden",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__repr__",
+            "namespace": "django.conf.UserSettingsHolder.__repr__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

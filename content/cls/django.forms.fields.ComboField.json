@@ -3,5 +3,23 @@
     "name": "ComboField",
     "namespace": "django.forms.fields.ComboField",
     "module_name": "django.forms.fields",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.forms.fields.ComboField.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Validate the given value against all of self.fields, which is a\n        list of Field instances.\n        \"\"\"",
+            "name": "clean",
+            "namespace": "django.forms.fields.ComboField.clean",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

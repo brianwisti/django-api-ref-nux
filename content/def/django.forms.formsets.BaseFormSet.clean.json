@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Hook for doing any extra formset-wide cleaning after Form.clean() has\n        been called on every form. Any ValidationError raised by this method\n        will not be associated with a particular form; it will be accessible\n        via formset.non_form_errors()\n        \"\"\"",
+    "name": "clean",
+    "namespace": "django.forms.formsets.BaseFormSet.clean",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

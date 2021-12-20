@@ -5,7 +5,98 @@
         {
             "docstring": "",
             "name": "gdal_char_p",
-            "namespace": "django.contrib.gis.gdal.prototypes.generation.gdal_char_p"
+            "namespace": "django.contrib.gis.gdal.prototypes.generation.gdal_char_p",
+            "methods": []
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\"Generate a ctypes function that returns a boolean value.\"\"\"",
+            "name": "bool_output",
+            "namespace": "django.contrib.gis.gdal.prototypes.generation.bool_output",
+            "class_name": "",
+            "module_name": "django.contrib.gis.gdal.prototypes.generation",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Generate a ctypes function that returns a double value.\"",
+            "name": "double_output",
+            "namespace": "django.contrib.gis.gdal.prototypes.generation.double_output",
+            "class_name": "",
+            "module_name": "django.contrib.gis.gdal.prototypes.generation",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Generate a function that returns a Geometry either by reference\n    or directly (if the return_geom keyword is set to True).\n    \"\"\"",
+            "name": "geom_output",
+            "namespace": "django.contrib.gis.gdal.prototypes.generation.geom_output",
+            "class_name": "",
+            "module_name": "django.contrib.gis.gdal.prototypes.generation",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Generate a ctypes function that returns an integer value.\"",
+            "name": "int_output",
+            "namespace": "django.contrib.gis.gdal.prototypes.generation.int_output",
+            "class_name": "",
+            "module_name": "django.contrib.gis.gdal.prototypes.generation",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Generate a ctypes function that returns a 64-bit integer value.\"",
+            "name": "int64_output",
+            "namespace": "django.contrib.gis.gdal.prototypes.generation.int64_output",
+            "class_name": "",
+            "module_name": "django.contrib.gis.gdal.prototypes.generation",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Generate a ctypes prototype for the given function with\n    the given C arguments that returns a pointer to an OGR\n    Spatial Reference System.\n    \"\"\"",
+            "name": "srs_output",
+            "namespace": "django.contrib.gis.gdal.prototypes.generation.srs_output",
+            "class_name": "",
+            "module_name": "django.contrib.gis.gdal.prototypes.generation",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "const_string_output",
+            "namespace": "django.contrib.gis.gdal.prototypes.generation.const_string_output",
+            "class_name": "",
+            "module_name": "django.contrib.gis.gdal.prototypes.generation",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Generate a ctypes prototype for the given function with the\n    given argument types that returns a string from a GDAL pointer.\n    The `const` flag indicates whether the allocated pointer should\n    be freed via the GDAL library routine VSIFree -- but only applies\n    only when `str_result` is True.\n    \"\"\"",
+            "name": "string_output",
+            "namespace": "django.contrib.gis.gdal.prototypes.generation.string_output",
+            "class_name": "",
+            "module_name": "django.contrib.gis.gdal.prototypes.generation",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    For functions that don't only return an error code that needs to\n    be examined.\n    \"\"\"",
+            "name": "void_output",
+            "namespace": "django.contrib.gis.gdal.prototypes.generation.void_output",
+            "class_name": "",
+            "module_name": "django.contrib.gis.gdal.prototypes.generation",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"For functions that return c_void_p.\"",
+            "name": "voidptr_output",
+            "namespace": "django.contrib.gis.gdal.prototypes.generation.voidptr_output",
+            "class_name": "",
+            "module_name": "django.contrib.gis.gdal.prototypes.generation",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"For functions that return a c_char_p array.\"\"\"",
+            "name": "chararray_output",
+            "namespace": "django.contrib.gis.gdal.prototypes.generation.chararray_output",
+            "class_name": "",
+            "module_name": "django.contrib.gis.gdal.prototypes.generation",
+            "package_name": ""
         }
     ],
     "package_name": "django.contrib.gis.gdal.prototypes"

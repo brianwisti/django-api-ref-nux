@@ -3,5 +3,31 @@
     "name": "CPointerBase",
     "namespace": "django.contrib.gis.ptr.CPointerBase",
     "module_name": "django.contrib.gis.ptr",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "ptr",
+            "namespace": "django.contrib.gis.ptr.CPointerBase.ptr",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "ptr",
+            "namespace": "django.contrib.gis.ptr.CPointerBase.ptr",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Free the memory used by the C++ object.\n        \"\"\"",
+            "name": "__del__",
+            "namespace": "django.contrib.gis.ptr.CPointerBase.__del__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Prepare a value to be used in a query by resolving it if it is an\n        expression and otherwise calling the field's get_db_prep_save().\n        \"\"\"",
+    "name": "prepare_value",
+    "namespace": "django.db.models.sql.compiler.SQLInsertCompiler.prepare_value",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Return the built-in template tag libraries and those from installed\n    applications. Libraries are stored in a dictionary where keys are the\n    individual module names, not the full module paths. Example:\n    django.templatetags.i18n is stored as i18n.\n    \"\"\"",
+    "name": "get_installed_libraries",
+    "namespace": "django.template.backends.django.get_installed_libraries",
+    "class_name": "",
+    "module_name": "django.template.backends.django",
+    "package_name": ""
+}

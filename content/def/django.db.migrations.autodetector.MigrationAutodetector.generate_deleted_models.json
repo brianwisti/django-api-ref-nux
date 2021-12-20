@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Find all deleted models (managed and unmanaged) and make delete\n        operations for them as well as separate operations to delete any\n        foreign key or M2M relationships (these are optimized later, if\n        possible).\n\n        Also bring forward removal of any model options that refer to\n        collections of fields - the inverse of generate_created_models().\n        \"\"\"",
+    "name": "generate_deleted_models",
+    "namespace": "django.db.migrations.autodetector.MigrationAutodetector.generate_deleted_models",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

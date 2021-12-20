@@ -2,46 +2,128 @@
     "name": "django.middleware",
     "docstring": "",
     "package_name": "django",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.middleware.clickjacking",
             "docstring": "\"\"\"\nClickjacking Protection Middleware.\n\nThis module provides a middleware that implements protection against a\nmalicious site loading resources from your site in a hidden frame.\n\"\"\"",
+            "functions": [],
             "package_name": "django.middleware"
         },
         {
             "namespace": "django.middleware.gzip",
             "docstring": "",
+            "functions": [],
             "package_name": "django.middleware"
         },
         {
             "namespace": "django.middleware.csrf",
             "docstring": "\"\"\"\nCross Site Request Forgery Middleware.\n\nThis module provides a middleware that implements protection\nagainst request forgeries from other sites.\n\"\"\"",
+            "functions": [
+                {
+                    "docstring": "\"\"\"Return the view to be used for CSRF rejections.\"\"\"",
+                    "name": "_get_failure_view",
+                    "namespace": "django.middleware.csrf._get_failure_view",
+                    "class_name": "",
+                    "module_name": "django.middleware.csrf",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_get_new_csrf_string",
+                    "namespace": "django.middleware.csrf._get_new_csrf_string",
+                    "class_name": "",
+                    "module_name": "django.middleware.csrf",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Given a secret (assumed to be a string of CSRF_ALLOWED_CHARS), generate a\n    token by adding a mask and applying it to the secret.\n    \"\"\"",
+                    "name": "_mask_cipher_secret",
+                    "namespace": "django.middleware.csrf._mask_cipher_secret",
+                    "class_name": "",
+                    "module_name": "django.middleware.csrf",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Given a token (assumed to be a string of CSRF_ALLOWED_CHARS, of length\n    CSRF_TOKEN_LENGTH, and that its first half is a mask), use it to decrypt\n    the second half to produce the original secret.\n    \"\"\"",
+                    "name": "_unmask_cipher_token",
+                    "namespace": "django.middleware.csrf._unmask_cipher_token",
+                    "class_name": "",
+                    "module_name": "django.middleware.csrf",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Generate a new random CSRF_COOKIE value, and add it to request.META.\"\"\"",
+                    "name": "_add_new_csrf_cookie",
+                    "namespace": "django.middleware.csrf._add_new_csrf_cookie",
+                    "class_name": "",
+                    "module_name": "django.middleware.csrf",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return the CSRF token required for a POST form. The token is an\n    alphanumeric value. A new token is created if one is not already set.\n\n    A side effect of calling this function is to make the csrf_protect\n    decorator and the CsrfViewMiddleware add a CSRF cookie and a 'Vary: Cookie'\n    header to the outgoing response.  For this reason, you may need to use this\n    function lazily, as is done by the csrf context processor.\n    \"\"\"",
+                    "name": "get_token",
+                    "namespace": "django.middleware.csrf.get_token",
+                    "class_name": "",
+                    "module_name": "django.middleware.csrf",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Change the CSRF token in use for a request - should be done on login\n    for security purposes.\n    \"\"\"",
+                    "name": "rotate_token",
+                    "namespace": "django.middleware.csrf.rotate_token",
+                    "class_name": "",
+                    "module_name": "django.middleware.csrf",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_sanitize_token",
+                    "namespace": "django.middleware.csrf._sanitize_token",
+                    "class_name": "",
+                    "module_name": "django.middleware.csrf",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_does_token_match",
+                    "namespace": "django.middleware.csrf._does_token_match",
+                    "class_name": "",
+                    "module_name": "django.middleware.csrf",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.middleware"
         },
         {
             "namespace": "django.middleware.security",
             "docstring": "",
+            "functions": [],
             "package_name": "django.middleware"
         },
         {
             "namespace": "django.middleware.cache",
             "docstring": "\"\"\"\nCache middleware. If enabled, each Django-powered page will be cached based on\nURL. The canonical way to enable cache middleware is to set\n``UpdateCacheMiddleware`` as your first piece of middleware, and\n``FetchFromCacheMiddleware`` as the last::\n\n    MIDDLEWARE = [\n        'django.middleware.cache.UpdateCacheMiddleware',\n        ...\n        'django.middleware.cache.FetchFromCacheMiddleware'\n    ]\n\nThis is counter-intuitive, but correct: ``UpdateCacheMiddleware`` needs to run\nlast during the response phase, which processes middleware bottom-up;\n``FetchFromCacheMiddleware`` needs to run last during the request phase, which\nprocesses middleware top-down.\n\nThe single-class ``CacheMiddleware`` can be used for some simple sites.\nHowever, if any other piece of middleware needs to affect the cache key, you'll\nneed to use the two-part ``UpdateCacheMiddleware`` and\n``FetchFromCacheMiddleware``. This'll most often happen when you're using\nDjango's ``LocaleMiddleware``.\n\nMore details about how the caching works:\n\n* Only GET or HEAD-requests with status code 200 are cached.\n\n* The number of seconds each page is stored for is set by the \"max-age\" section\n  of the response's \"Cache-Control\" header, falling back to the\n  CACHE_MIDDLEWARE_SECONDS setting if the section was not found.\n\n* This middleware expects that a HEAD request is answered with the same response\n  headers exactly like the corresponding GET request.\n\n* When a hit occurs, a shallow copy of the original response object is returned\n  from process_request.\n\n* Pages will be cached based on the contents of the request headers listed in\n  the response's \"Vary\" header.\n\n* This middleware also sets ETag, Last-Modified, Expires and Cache-Control\n  headers on the response object.\n\n\"\"\"",
+            "functions": [],
             "package_name": "django.middleware"
         },
         {
             "namespace": "django.middleware.common",
             "docstring": "",
+            "functions": [],
             "package_name": "django.middleware"
         },
         {
             "namespace": "django.middleware.http",
             "docstring": "",
+            "functions": [],
             "package_name": "django.middleware"
         },
         {
             "namespace": "django.middleware.locale",
             "docstring": "",
+            "functions": [],
             "package_name": "django.middleware"
         }
     ],

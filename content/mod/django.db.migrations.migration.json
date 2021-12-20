@@ -5,12 +5,106 @@
         {
             "docstring": "\"\"\"\n    The base class for all migrations.\n\n    Migration files will import this from django.db.migrations.Migration\n    and subclass it as a class called Migration. It will have one or more\n    of the following attributes:\n\n     - operations: A list of Operation instances, probably from django.db.migrations.operations\n     - dependencies: A list of tuples of (app_path, migration_name)\n     - run_before: A list of tuples of (app_path, migration_name)\n     - replaces: A list of migration_names\n\n    Note that all migrations come out of migrations and into the Loader or\n    Graph as instances, having been initialized with their app label and name.\n    \"\"\"",
             "name": "Migration",
-            "namespace": "django.db.migrations.migration.Migration"
+            "namespace": "django.db.migrations.migration.Migration",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.migrations.migration.Migration.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__eq__",
+                    "namespace": "django.db.migrations.migration.Migration.__eq__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.db.migrations.migration.Migration.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__str__",
+                    "namespace": "django.db.migrations.migration.Migration.__str__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__hash__",
+                    "namespace": "django.db.migrations.migration.Migration.__hash__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Take a ProjectState and return a new one with the migration's\n        operations applied to it. Preserve the original object state by\n        default and return a mutated state from a copy.\n        \"\"\"",
+                    "name": "mutate_state",
+                    "namespace": "django.db.migrations.migration.Migration.mutate_state",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Take a project_state representing all migrations prior to this one\n        and a schema_editor for a live database and apply the migration\n        in a forwards order.\n\n        Return the resulting project state for efficient reuse by following\n        Migrations.\n        \"\"\"",
+                    "name": "apply",
+                    "namespace": "django.db.migrations.migration.Migration.apply",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Take a project_state representing all migrations prior to this one\n        and a schema_editor for a live database and apply the migration\n        in a reverse order.\n\n        The backwards migration process consists of two phases:\n\n        1. The intermediate states from right before the first until right\n           after the last operation inside this migration are preserved.\n        2. The operations are applied in reverse order using the states\n           recorded in step 1.\n        \"\"\"",
+                    "name": "unapply",
+                    "namespace": "django.db.migrations.migration.Migration.unapply",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Suggest a name for the operations this migration might represent. Names\n        are not guaranteed to be unique, but put some effort into the fallback\n        name to avoid VCS conflicts if possible.\n        \"\"\"",
+                    "name": "suggest_name",
+                    "namespace": "django.db.migrations.migration.Migration.suggest_name",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Subclass of tuple so Django can tell this was originally a swappable\n    dependency when it reads the migration file.\n    \"\"\"",
             "name": "SwappableTuple",
-            "namespace": "django.db.migrations.migration.SwappableTuple"
+            "namespace": "django.db.migrations.migration.SwappableTuple",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__new__",
+                    "namespace": "django.db.migrations.migration.SwappableTuple.__new__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\"Turn a setting value into a dependency.\"\"\"",
+            "name": "swappable_dependency",
+            "namespace": "django.db.migrations.migration.swappable_dependency",
+            "class_name": "",
+            "module_name": "django.db.migrations.migration",
+            "package_name": ""
         }
     ],
     "package_name": "django.db.migrations"

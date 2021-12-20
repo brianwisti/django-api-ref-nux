@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    When arg is convertible to float, behave like operator.itemgetter(arg)\n    Otherwise, behave like Variable(arg).resolve\n\n    >>> _property_resolver(1)('abc')\n    'b'\n    >>> _property_resolver('1')('abc')\n    Traceback (most recent call last):\n    ...\n    TypeError: string indices must be integers\n    >>> class Foo:\n    ...     a = 42\n    ...     b = 3.14\n    ...     c = 'Hey!'\n    >>> _property_resolver('b')(Foo())\n    3.14\n    \"\"\"",
+    "name": "_property_resolver",
+    "namespace": "django.template.defaultfilters._property_resolver",
+    "class_name": "",
+    "module_name": "django.template.defaultfilters",
+    "package_name": ""
+}

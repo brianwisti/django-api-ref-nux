@@ -2,71 +2,177 @@
     "name": "django.db.migrations",
     "docstring": "",
     "package_name": "django.db",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.db.migrations.questioner",
             "docstring": "",
+            "functions": [],
             "package_name": "django.db.migrations"
         },
         {
             "namespace": "django.db.migrations.graph",
             "docstring": "",
+            "functions": [],
             "package_name": "django.db.migrations"
         },
         {
             "namespace": "django.db.migrations.recorder",
             "docstring": "",
+            "functions": [],
             "package_name": "django.db.migrations"
         },
         {
             "namespace": "django.db.migrations.autodetector",
             "docstring": "",
+            "functions": [],
             "package_name": "django.db.migrations"
         },
         {
             "namespace": "django.db.migrations.utils",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "get_migration_name_timestamp",
+                    "namespace": "django.db.migrations.utils.get_migration_name_timestamp",
+                    "class_name": "",
+                    "module_name": "django.db.migrations.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Turn a model class or model reference string and return a model tuple.\n\n    app_label and model_name are used to resolve the scope of recursive and\n    unscoped model relationship.\n    \"\"\"",
+                    "name": "resolve_relation",
+                    "namespace": "django.db.migrations.utils.resolve_relation",
+                    "class_name": "",
+                    "module_name": "django.db.migrations.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return either False or a FieldReference if `field` references provided\n    context.\n\n    False positives can be returned if `reference_field_name` is provided\n    without `reference_field` because of the introspection limitation it\n    incurs. This should not be an issue when this function is used to determine\n    whether or not an optimization can take place.\n    \"\"\"",
+                    "name": "field_references",
+                    "namespace": "django.db.migrations.utils.field_references",
+                    "class_name": "",
+                    "module_name": "django.db.migrations.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Generator of (model_state, name, field, reference) referencing\n    provided context.\n\n    If field_tuple is provided only references to this particular field of\n    model_tuple will be generated.\n    \"\"\"",
+                    "name": "get_references",
+                    "namespace": "django.db.migrations.utils.get_references",
+                    "class_name": "",
+                    "module_name": "django.db.migrations.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return whether `field_tuple` is referenced by any state models.\"\"\"",
+                    "name": "field_is_referenced",
+                    "namespace": "django.db.migrations.utils.field_is_referenced",
+                    "class_name": "",
+                    "module_name": "django.db.migrations.utils",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.db.migrations"
         },
         {
             "namespace": "django.db.migrations.loader",
             "docstring": "",
+            "functions": [],
             "package_name": "django.db.migrations"
         },
         {
             "namespace": "django.db.migrations.optimizer",
             "docstring": "",
+            "functions": [],
             "package_name": "django.db.migrations"
         },
         {
             "namespace": "django.db.migrations.serializer",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "serializer_factory",
+                    "namespace": "django.db.migrations.serializer.serializer_factory",
+                    "class_name": "",
+                    "module_name": "django.db.migrations.serializer",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.db.migrations"
         },
         {
             "namespace": "django.db.migrations.exceptions",
             "docstring": "",
+            "functions": [],
             "package_name": "django.db.migrations"
         },
         {
             "namespace": "django.db.migrations.writer",
             "docstring": "",
+            "functions": [],
             "package_name": "django.db.migrations"
         },
         {
             "namespace": "django.db.migrations.migration",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"Turn a setting value into a dependency.\"\"\"",
+                    "name": "swappable_dependency",
+                    "namespace": "django.db.migrations.migration.swappable_dependency",
+                    "class_name": "",
+                    "module_name": "django.db.migrations.migration",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.db.migrations"
         },
         {
             "namespace": "django.db.migrations.executor",
             "docstring": "",
+            "functions": [],
             "package_name": "django.db.migrations"
         },
         {
             "namespace": "django.db.migrations.state",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "_get_app_label_and_model_name",
+                    "namespace": "django.db.migrations.state._get_app_label_and_model_name",
+                    "class_name": "",
+                    "module_name": "django.db.migrations.state",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return all models that have a direct relationship to the given model.\"\"\"",
+                    "name": "_get_related_models",
+                    "namespace": "django.db.migrations.state._get_related_models",
+                    "class_name": "",
+                    "module_name": "django.db.migrations.state",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return a list of typical (app_label, model_name) tuples for all related\n    models for the given model.\n    \"\"\"",
+                    "name": "get_related_models_tuples",
+                    "namespace": "django.db.migrations.state.get_related_models_tuples",
+                    "class_name": "",
+                    "module_name": "django.db.migrations.state",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return all models that have a direct or indirect relationship\n    to the given model.\n\n    Relationships are either defined by explicit relational fields, like\n    ForeignKey, ManyToManyField or OneToOneField, or by inheriting from another\n    model (a superclass is related to its subclasses, but not vice versa). Note,\n    however, that a model inheriting from a concrete model is also related to\n    its superclass through the implicit *_ptr OneToOneField on the subclass.\n    \"\"\"",
+                    "name": "get_related_models_recursive",
+                    "namespace": "django.db.migrations.state.get_related_models_recursive",
+                    "class_name": "",
+                    "module_name": "django.db.migrations.state",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.db.migrations"
         }
     ],
@@ -74,7 +180,8 @@
         {
             "name": "django.db.migrations.operations",
             "docstring": "",
-            "package_name": "django.db.migrations"
+            "package_name": "django.db.migrations",
+            "functions": []
         }
     ]
 }

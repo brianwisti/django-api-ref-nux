@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Context manager that ensures that a connection is established, and\n        if it opened one, closes it to avoid leaving a dangling connection.\n        This is useful for operations outside of the request-response cycle.\n\n        Provide a cursor: with self.temporary_connection() as cursor: ...\n        \"\"\"",
+    "name": "temporary_connection",
+    "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.temporary_connection",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

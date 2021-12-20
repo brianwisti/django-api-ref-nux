@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Convert any URLs in text into clickable links.\n\n    Works on http://, https://, www. links, and also on links ending in one of\n    the original seven gTLDs (.com, .edu, .gov, .int, .mil, .net, and .org).\n    Links can have trailing punctuation (periods, commas, close-parens) and\n    leading punctuation (opening parens) and it'll still do the right thing.\n\n    If trim_url_limit is not None, truncate the URLs in the link text longer\n    than this limit to trim_url_limit - 1 characters and append an ellipsis.\n\n    If nofollow is True, give the links a rel=\"nofollow\" attribute.\n\n    If autoescape is True, autoescape the link text and URLs.\n    \"\"\"",
+    "name": "urlize",
+    "namespace": "django.utils.html.urlize",
+    "class_name": "",
+    "module_name": "django.utils.html",
+    "package_name": ""
+}

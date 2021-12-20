@@ -3,5 +3,119 @@
     "name": "GenericForeignKey",
     "namespace": "django.contrib.contenttypes.fields.GenericForeignKey",
     "module_name": "django.contrib.contenttypes.fields",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.contrib.contenttypes.fields.GenericForeignKey.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "contribute_to_class",
+            "namespace": "django.contrib.contenttypes.fields.GenericForeignKey.contribute_to_class",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"See corresponding method on Field\"\"\"",
+            "name": "get_filter_kwargs_for_object",
+            "namespace": "django.contrib.contenttypes.fields.GenericForeignKey.get_filter_kwargs_for_object",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"See corresponding method on RelatedField\"\"\"",
+            "name": "get_forward_related_filter",
+            "namespace": "django.contrib.contenttypes.fields.GenericForeignKey.get_forward_related_filter",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__str__",
+            "namespace": "django.contrib.contenttypes.fields.GenericForeignKey.__str__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "check",
+            "namespace": "django.contrib.contenttypes.fields.GenericForeignKey.check",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_check_field_name",
+            "namespace": "django.contrib.contenttypes.fields.GenericForeignKey._check_field_name",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_check_object_id_field",
+            "namespace": "django.contrib.contenttypes.fields.GenericForeignKey._check_object_id_field",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Check if field named `field_name` in model `model` exists and is a\n        valid content_type field (is a ForeignKey to ContentType).\n        \"\"\"",
+            "name": "_check_content_type_field",
+            "namespace": "django.contrib.contenttypes.fields.GenericForeignKey._check_content_type_field",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_cache_name",
+            "namespace": "django.contrib.contenttypes.fields.GenericForeignKey.get_cache_name",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_content_type",
+            "namespace": "django.contrib.contenttypes.fields.GenericForeignKey.get_content_type",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_prefetch_queryset",
+            "namespace": "django.contrib.contenttypes.fields.GenericForeignKey.get_prefetch_queryset",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__get__",
+            "namespace": "django.contrib.contenttypes.fields.GenericForeignKey.__get__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__set__",
+            "namespace": "django.contrib.contenttypes.fields.GenericForeignKey.__set__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

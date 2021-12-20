@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    For the attribute 'through_attr' on the given instance, find\n    an object that has a get_prefetch_queryset().\n    Return a 4 tuple containing:\n    (the object with get_prefetch_queryset (or None),\n     the descriptor object representing this relationship (or None),\n     a boolean that is False if the attribute was not found at all,\n     a function that takes an instance and returns a boolean that is True if\n     the attribute has already been fetched for that instance)\n    \"\"\"",
+    "name": "get_prefetcher",
+    "namespace": "django.db.models.query.get_prefetcher",
+    "class_name": "",
+    "module_name": "django.db.models.query",
+    "package_name": ""
+}

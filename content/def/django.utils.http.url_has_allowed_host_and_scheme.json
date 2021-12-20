@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Return ``True`` if the url uses an allowed host and a safe scheme.\n\n    Always return ``False`` on an empty url.\n\n    If ``require_https`` is ``True``, only 'https' will be considered a valid\n    scheme, as opposed to 'http' and 'https' with the default, ``False``.\n\n    Note: \"True\" doesn't entail that a URL is \"safe\". It may still be e.g.\n    quoted incorrectly. Ensure to also use django.utils.encoding.iri_to_uri()\n    on the path component of untrusted URLs.\n    \"\"\"",
+    "name": "url_has_allowed_host_and_scheme",
+    "namespace": "django.utils.http.url_has_allowed_host_and_scheme",
+    "class_name": "",
+    "module_name": "django.utils.http",
+    "package_name": ""
+}

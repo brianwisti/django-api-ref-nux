@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Ensure that primary key values do not confuse the admin URLs by escaping\n    any '/', '_' and ':' and similarly problematic characters.\n    Similar to urllib.parse.quote(), except that the quoting is slightly\n    different so that it doesn't get automatically unquoted by the web browser.\n    \"\"\"",
+    "name": "quote",
+    "namespace": "django.contrib.admin.utils.quote",
+    "class_name": "",
+    "module_name": "django.contrib.admin.utils",
+    "package_name": ""
+}

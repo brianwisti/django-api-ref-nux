@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Remove the current authenticated user in the request which is invalid\n        but only if the user is authenticated via the RemoteUserBackend.\n        \"\"\"",
+    "name": "_remove_invalid_user",
+    "namespace": "django.contrib.auth.middleware.RemoteUserMiddleware._remove_invalid_user",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

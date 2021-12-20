@@ -3,5 +3,15 @@
     "name": "_WKBReader",
     "namespace": "django.contrib.gis.geos.prototypes.io._WKBReader",
     "module_name": "django.contrib.gis.geos.prototypes.io",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "\"Return a _pointer_ to C GEOS Geometry object from the given WKB.\"",
+            "name": "read",
+            "namespace": "django.contrib.gis.geos.prototypes.io._WKBReader.read",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

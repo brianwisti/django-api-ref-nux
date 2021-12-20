@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Return the maximum length of an identifier.\n\n        The maximum length of an identifier is 63 by default, but can be\n        changed by recompiling PostgreSQL after editing the NAMEDATALEN\n        macro in src/include/pg_config_manual.h.\n\n        This implementation returns 63, but can be overridden by a custom\n        database backend that inherits most of its behavior from this one.\n        \"\"\"",
+    "name": "max_name_length",
+    "namespace": "django.db.backends.postgresql.operations.DatabaseOperations.max_name_length",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

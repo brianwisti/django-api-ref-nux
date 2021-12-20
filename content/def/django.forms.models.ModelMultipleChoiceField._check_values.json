@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Given a list of possible PK values, return a QuerySet of the\n        corresponding objects. Raise a ValidationError if a given value is\n        invalid (not a valid PK, not in the queryset, etc.)\n        \"\"\"",
+    "name": "_check_values",
+    "namespace": "django.forms.models.ModelMultipleChoiceField._check_values",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

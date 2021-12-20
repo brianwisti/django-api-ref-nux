@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Distribute test cases across workers.\n\n        Return an identifier of each test case with its result in order to use\n        imap_unordered to show results as soon as they're available.\n\n        To minimize pickling errors when getting results from workers:\n\n        - pass back numeric indexes in self.subsuites instead of tests\n        - make tracebacks picklable with tblib, if available\n\n        Even with tblib, errors may still occur for dynamically created\n        exception classes which cannot be unpickled.\n        \"\"\"",
+    "name": "run",
+    "namespace": "django.test.runner.ParallelTestSuite.run",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

@@ -5,8 +5,139 @@
         {
             "docstring": "",
             "name": "BaseSpatialOperations",
-            "namespace": "django.contrib.gis.db.backends.base.operations.BaseSpatialOperations"
+            "namespace": "django.contrib.gis.db.backends.base.operations.BaseSpatialOperations",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "select_extent",
+                    "namespace": "django.contrib.gis.db.backends.base.operations.BaseSpatialOperations.select_extent",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "convert_extent",
+                    "namespace": "django.contrib.gis.db.backends.base.operations.BaseSpatialOperations.convert_extent",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "convert_extent3d",
+                    "namespace": "django.contrib.gis.db.backends.base.operations.BaseSpatialOperations.convert_extent3d",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "geo_quote_name",
+                    "namespace": "django.contrib.gis.db.backends.base.operations.BaseSpatialOperations.geo_quote_name",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the database column type for the geometry field on\n        the spatial backend.\n        \"\"\"",
+                    "name": "geo_db_type",
+                    "namespace": "django.contrib.gis.db.backends.base.operations.BaseSpatialOperations.geo_db_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the distance parameters for the given geometry field,\n        lookup value, and lookup type.\n        \"\"\"",
+                    "name": "get_distance",
+                    "namespace": "django.contrib.gis.db.backends.base.operations.BaseSpatialOperations.get_distance",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the placeholder for the given geometry field with the given\n        value.  Depending on the spatial backend, the placeholder may contain a\n        stored procedure call to the transformation function of the spatial\n        backend.\n        \"\"\"",
+                    "name": "get_geom_placeholder",
+                    "namespace": "django.contrib.gis.db.backends.base.operations.BaseSpatialOperations.get_geom_placeholder",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check_expression_support",
+                    "namespace": "django.contrib.gis.db.backends.base.operations.BaseSpatialOperations.check_expression_support",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "spatial_aggregate_name",
+                    "namespace": "django.contrib.gis.db.backends.base.operations.BaseSpatialOperations.spatial_aggregate_name",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "spatial_function_name",
+                    "namespace": "django.contrib.gis.db.backends.base.operations.BaseSpatialOperations.spatial_function_name",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "geometry_columns",
+                    "namespace": "django.contrib.gis.db.backends.base.operations.BaseSpatialOperations.geometry_columns",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "spatial_ref_sys",
+                    "namespace": "django.contrib.gis.db.backends.base.operations.BaseSpatialOperations.spatial_ref_sys",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_db_converters",
+                    "namespace": "django.contrib.gis.db.backends.base.operations.BaseSpatialOperations.get_db_converters",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_geometry_converter",
+                    "namespace": "django.contrib.gis.db.backends.base.operations.BaseSpatialOperations.get_geometry_converter",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_area_att_for_field",
+                    "namespace": "django.contrib.gis.db.backends.base.operations.BaseSpatialOperations.get_area_att_for_field",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_distance_att_for_field",
+                    "namespace": "django.contrib.gis.db.backends.base.operations.BaseSpatialOperations.get_distance_att_for_field",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.gis.db.backends.base"
 }

@@ -3,5 +3,63 @@
     "name": "DeleteModel",
     "namespace": "django.db.migrations.operations.models.DeleteModel",
     "module_name": "django.db.migrations.operations.models",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "deconstruct",
+            "namespace": "django.db.migrations.operations.models.DeleteModel.deconstruct",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "state_forwards",
+            "namespace": "django.db.migrations.operations.models.DeleteModel.state_forwards",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "database_forwards",
+            "namespace": "django.db.migrations.operations.models.DeleteModel.database_forwards",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "database_backwards",
+            "namespace": "django.db.migrations.operations.models.DeleteModel.database_backwards",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "references_model",
+            "namespace": "django.db.migrations.operations.models.DeleteModel.references_model",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "describe",
+            "namespace": "django.db.migrations.operations.models.DeleteModel.describe",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "migration_name_fragment",
+            "namespace": "django.db.migrations.operations.models.DeleteModel.migration_name_fragment",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

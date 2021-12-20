@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        The initialization function for base spatial fields. Takes the following\n        as keyword arguments:\n\n        srid:\n         The spatial reference system identifier, an OGC standard.\n         Defaults to 4326 (WGS84).\n\n        spatial_index:\n         Indicates whether to create a spatial index.  Defaults to True.\n         Set this instead of 'db_index' for geographic fields since index\n         creation is different for geometry columns.\n        \"\"\"",
+    "name": "__init__",
+    "namespace": "django.contrib.gis.db.models.fields.BaseSpatialField.__init__",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

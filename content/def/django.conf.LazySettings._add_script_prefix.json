@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Add SCRIPT_NAME prefix to relative paths.\n\n        Useful when the app is being served at a subpath and manually prefixing\n        subpath to STATIC_URL and MEDIA_URL in settings is inconvenient.\n        \"\"\"",
+    "name": "_add_script_prefix",
+    "namespace": "django.conf.LazySettings._add_script_prefix",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

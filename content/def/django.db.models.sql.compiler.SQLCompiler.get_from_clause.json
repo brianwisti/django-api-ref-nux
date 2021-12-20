@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Return a list of strings that are joined together to go after the\n        \"FROM\" part of the query, as well as a list any extra parameters that\n        need to be included. Subclasses, can override this to create a\n        from-clause via a \"select\".\n\n        This should only be called after any SQL construction methods that\n        might change the tables that are needed. This means the select columns,\n        ordering, and distinct must be done first.\n        \"\"\"",
+    "name": "get_from_clause",
+    "namespace": "django.db.models.sql.compiler.SQLCompiler.get_from_clause",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

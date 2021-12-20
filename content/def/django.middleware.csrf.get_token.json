@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Return the CSRF token required for a POST form. The token is an\n    alphanumeric value. A new token is created if one is not already set.\n\n    A side effect of calling this function is to make the csrf_protect\n    decorator and the CsrfViewMiddleware add a CSRF cookie and a 'Vary: Cookie'\n    header to the outgoing response.  For this reason, you may need to use this\n    function lazily, as is done by the csrf context processor.\n    \"\"\"",
+    "name": "get_token",
+    "namespace": "django.middleware.csrf.get_token",
+    "class_name": "",
+    "module_name": "django.middleware.csrf",
+    "package_name": ""
+}

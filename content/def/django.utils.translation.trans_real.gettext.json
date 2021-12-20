@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Translate the 'message' string. It uses the current thread to find the\n    translation object to use. If no current translation is activated, the\n    message will be run through the default translation object.\n    \"\"\"",
+    "name": "gettext",
+    "namespace": "django.utils.translation.trans_real.gettext",
+    "class_name": "",
+    "module_name": "django.utils.translation.trans_real",
+    "package_name": ""
+}

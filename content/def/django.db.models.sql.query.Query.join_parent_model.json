@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Make sure the given 'model' is joined in the query. If 'model' isn't\n        a parent of 'opts' or if it is None this method is a no-op.\n\n        The 'alias' is the root alias for starting the join, 'seen' is a dict\n        of model -> alias of existing joins. It must also contain a mapping\n        of None -> some alias. This will be returned in the no-op case.\n        \"\"\"",
+    "name": "join_parent_model",
+    "namespace": "django.db.models.sql.query.Query.join_parent_model",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

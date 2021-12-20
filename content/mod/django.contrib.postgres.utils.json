@@ -2,5 +2,15 @@
     "namespace": "django.contrib.postgres.utils",
     "docstring": "",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Prefix a validation error message while maintaining the existing\n    validation data structure.\n    \"\"\"",
+            "name": "prefix_validation_error",
+            "namespace": "django.contrib.postgres.utils.prefix_validation_error",
+            "class_name": "",
+            "module_name": "django.contrib.postgres.utils",
+            "package_name": ""
+        }
+    ],
     "package_name": "django.contrib.postgres"
 }

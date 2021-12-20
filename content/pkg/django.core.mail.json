@@ -2,16 +2,77 @@
     "name": "django.core.mail",
     "docstring": "\"\"\"\nTools for sending email.\n\"\"\"",
     "package_name": "django.core",
+    "functions": [
+        {
+            "docstring": "\"\"\"Load an email backend and return an instance of it.\n\n    If backend is None (default), use settings.EMAIL_BACKEND.\n\n    Both fail_silently and other keyword arguments are used in the\n    constructor of the backend.\n    \"\"\"",
+            "name": "get_connection",
+            "namespace": "django.core.mail.get_connection",
+            "class_name": "",
+            "module_name": "django.core.mail",
+            "package_name": "django.core.mail"
+        },
+        {
+            "docstring": "\"\"\"\n    Easy wrapper for sending a single message to a recipient list. All members\n    of the recipient list will see the other recipients in the 'To' field.\n\n    If from_email is None, use the DEFAULT_FROM_EMAIL setting.\n    If auth_user is None, use the EMAIL_HOST_USER setting.\n    If auth_password is None, use the EMAIL_HOST_PASSWORD setting.\n\n    Note: The API for this method is frozen. New code wanting to extend the\n    functionality should use the EmailMessage class directly.\n    \"\"\"",
+            "name": "send_mail",
+            "namespace": "django.core.mail.send_mail",
+            "class_name": "",
+            "module_name": "django.core.mail",
+            "package_name": "django.core.mail"
+        },
+        {
+            "docstring": "\"\"\"\n    Given a datatuple of (subject, message, from_email, recipient_list), send\n    each message to each recipient list. Return the number of emails sent.\n\n    If from_email is None, use the DEFAULT_FROM_EMAIL setting.\n    If auth_user and auth_password are set, use them to log in.\n    If auth_user is None, use the EMAIL_HOST_USER setting.\n    If auth_password is None, use the EMAIL_HOST_PASSWORD setting.\n\n    Note: The API for this method is frozen. New code wanting to extend the\n    functionality should use the EmailMessage class directly.\n    \"\"\"",
+            "name": "send_mass_mail",
+            "namespace": "django.core.mail.send_mass_mail",
+            "class_name": "",
+            "module_name": "django.core.mail",
+            "package_name": "django.core.mail"
+        },
+        {
+            "docstring": "\"\"\"Send a message to the admins, as defined by the ADMINS setting.\"\"\"",
+            "name": "mail_admins",
+            "namespace": "django.core.mail.mail_admins",
+            "class_name": "",
+            "module_name": "django.core.mail",
+            "package_name": "django.core.mail"
+        },
+        {
+            "docstring": "\"\"\"Send a message to the managers, as defined by the MANAGERS setting.\"\"\"",
+            "name": "mail_managers",
+            "namespace": "django.core.mail.mail_managers",
+            "class_name": "",
+            "module_name": "django.core.mail",
+            "package_name": "django.core.mail"
+        }
+    ],
     "classes": [],
     "modules": [
         {
             "namespace": "django.core.mail.message",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"Forbid multi-line headers to prevent header injection.\"\"\"",
+                    "name": "forbid_multi_line_headers",
+                    "namespace": "django.core.mail.message.forbid_multi_line_headers",
+                    "class_name": "",
+                    "module_name": "django.core.mail.message",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Format a pair of (name, address) or an email address string.\n    \"\"\"",
+                    "name": "sanitize_address",
+                    "namespace": "django.core.mail.message.sanitize_address",
+                    "class_name": "",
+                    "module_name": "django.core.mail.message",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.core.mail"
         },
         {
             "namespace": "django.core.mail.utils",
             "docstring": "\"\"\"\nEmail message and email sending related helper functions.\n\"\"\"",
+            "functions": [],
             "package_name": "django.core.mail"
         }
     ],
@@ -19,7 +80,8 @@
         {
             "name": "django.core.mail.backends",
             "docstring": "",
-            "package_name": "django.core.mail"
+            "package_name": "django.core.mail",
+            "functions": []
         }
     ]
 }

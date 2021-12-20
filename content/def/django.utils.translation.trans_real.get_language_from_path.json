@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Return the language code if there's a valid language code found in `path`.\n\n    If `strict` is False (the default), look for a country-specific variant\n    when neither the language code nor its generic variant is found.\n    \"\"\"",
+    "name": "get_language_from_path",
+    "namespace": "django.utils.translation.trans_real.get_language_from_path",
+    "class_name": "",
+    "module_name": "django.utils.translation.trans_real",
+    "package_name": ""
+}

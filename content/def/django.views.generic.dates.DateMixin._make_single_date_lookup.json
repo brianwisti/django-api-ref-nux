@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Get the lookup kwargs for filtering on a single date.\n\n        If the date field is a DateTimeField, we can't just filter on\n        date_field=date because that doesn't take the time into account.\n        \"\"\"",
+    "name": "_make_single_date_lookup",
+    "namespace": "django.views.generic.dates.DateMixin._make_single_date_lookup",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

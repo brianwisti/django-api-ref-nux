@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Analyze the request to find what language the user wants the system to\n    show. Only languages listed in settings.LANGUAGES are taken into account.\n    If the user requests a sublanguage where we have a main language, we send\n    out the main language.\n\n    If check_path is True, the URL path prefix will be checked for a language\n    code, otherwise this is skipped for backwards compatibility.\n    \"\"\"",
+    "name": "get_language_from_request",
+    "namespace": "django.utils.translation.trans_real.get_language_from_request",
+    "class_name": "",
+    "module_name": "django.utils.translation.trans_real",
+    "package_name": ""
+}

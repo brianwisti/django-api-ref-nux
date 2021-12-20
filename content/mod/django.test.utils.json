@@ -5,72 +5,653 @@
         {
             "docstring": "",
             "name": "Approximate",
-            "namespace": "django.test.utils.Approximate"
+            "namespace": "django.test.utils.Approximate",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.test.utils.Approximate.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.test.utils.Approximate.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__eq__",
+                    "namespace": "django.test.utils.Approximate.__eq__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    A wrapper that provides direct key access to context items contained\n    in a list of context objects.\n    \"\"\"",
             "name": "ContextList",
-            "namespace": "django.test.utils.ContextList"
+            "namespace": "django.test.utils.ContextList",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__getitem__",
+                    "namespace": "django.test.utils.ContextList.__getitem__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get",
+                    "namespace": "django.test.utils.ContextList.get",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__contains__",
+                    "namespace": "django.test.utils.ContextList.__contains__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Flattened keys of subcontexts.\n        \"\"\"",
+                    "name": "keys",
+                    "namespace": "django.test.utils.ContextList.keys",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "_TestState",
-            "namespace": "django.test.utils._TestState"
+            "namespace": "django.test.utils._TestState",
+            "methods": []
         },
         {
             "docstring": "\"\"\"\n    A base class that can either be used as a context manager during tests\n    or as a test function or unittest.TestCase subclass decorator to perform\n    temporary alterations.\n\n    `attr_name`: attribute assigned the return value of enable() if used as\n                 a class decorator.\n\n    `kwarg_name`: keyword argument passing the return value of enable() if\n                  used as a function decorator.\n    \"\"\"",
             "name": "TestContextDecorator",
-            "namespace": "django.test.utils.TestContextDecorator"
+            "namespace": "django.test.utils.TestContextDecorator",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.test.utils.TestContextDecorator.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "enable",
+                    "namespace": "django.test.utils.TestContextDecorator.enable",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "disable",
+                    "namespace": "django.test.utils.TestContextDecorator.disable",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__enter__",
+                    "namespace": "django.test.utils.TestContextDecorator.__enter__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__exit__",
+                    "namespace": "django.test.utils.TestContextDecorator.__exit__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "decorate_class",
+                    "namespace": "django.test.utils.TestContextDecorator.decorate_class",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "decorate_callable",
+                    "namespace": "django.test.utils.TestContextDecorator.decorate_callable",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__call__",
+                    "namespace": "django.test.utils.TestContextDecorator.__call__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Act as either a decorator or a context manager. If it's a decorator, take a\n    function and return a wrapped function. If it's a contextmanager, use it\n    with the ``with`` statement. In either event, entering/exiting are called\n    before and after, respectively, the function/block is executed.\n    \"\"\"",
             "name": "override_settings",
-            "namespace": "django.test.utils.override_settings"
+            "namespace": "django.test.utils.override_settings",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.test.utils.override_settings.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "enable",
+                    "namespace": "django.test.utils.override_settings.enable",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "disable",
+                    "namespace": "django.test.utils.override_settings.disable",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "save_options",
+                    "namespace": "django.test.utils.override_settings.save_options",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "decorate_class",
+                    "namespace": "django.test.utils.override_settings.decorate_class",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Like override_settings, but makes it possible to append, prepend, or remove\n    items instead of redefining the entire list.\n    \"\"\"",
             "name": "modify_settings",
-            "namespace": "django.test.utils.modify_settings"
+            "namespace": "django.test.utils.modify_settings",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.test.utils.modify_settings.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "save_options",
+                    "namespace": "django.test.utils.modify_settings.save_options",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "enable",
+                    "namespace": "django.test.utils.modify_settings.enable",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Act as a decorator. Override list of registered system checks.\n    Useful when you override `INSTALLED_APPS`, e.g. if you exclude `auth` app,\n    you also need to exclude its system checks.\n    \"\"\"",
             "name": "override_system_checks",
-            "namespace": "django.test.utils.override_system_checks"
+            "namespace": "django.test.utils.override_system_checks",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.test.utils.override_system_checks.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "enable",
+                    "namespace": "django.test.utils.override_system_checks.enable",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "disable",
+                    "namespace": "django.test.utils.override_system_checks.disable",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Context manager that captures queries executed by the specified connection.\n    \"\"\"",
             "name": "CaptureQueriesContext",
-            "namespace": "django.test.utils.CaptureQueriesContext"
+            "namespace": "django.test.utils.CaptureQueriesContext",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.test.utils.CaptureQueriesContext.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__iter__",
+                    "namespace": "django.test.utils.CaptureQueriesContext.__iter__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__getitem__",
+                    "namespace": "django.test.utils.CaptureQueriesContext.__getitem__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__len__",
+                    "namespace": "django.test.utils.CaptureQueriesContext.__len__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "captured_queries",
+                    "namespace": "django.test.utils.CaptureQueriesContext.captured_queries",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__enter__",
+                    "namespace": "django.test.utils.CaptureQueriesContext.__enter__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__exit__",
+                    "namespace": "django.test.utils.CaptureQueriesContext.__exit__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "ignore_warnings",
-            "namespace": "django.test.utils.ignore_warnings"
+            "namespace": "django.test.utils.ignore_warnings",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.test.utils.ignore_warnings.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "enable",
+                    "namespace": "django.test.utils.ignore_warnings.enable",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "disable",
+                    "namespace": "django.test.utils.ignore_warnings.disable",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"Decorator or context manager to temporary override the script prefix.\"\"\"",
             "name": "override_script_prefix",
-            "namespace": "django.test.utils.override_script_prefix"
+            "namespace": "django.test.utils.override_script_prefix",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.test.utils.override_script_prefix.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "enable",
+                    "namespace": "django.test.utils.override_script_prefix.enable",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "disable",
+                    "namespace": "django.test.utils.override_script_prefix.disable",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Capture the output from the 'django' logger and store it on the class's\n    logger_output attribute.\n    \"\"\"",
             "name": "LoggingCaptureMixin",
-            "namespace": "django.test.utils.LoggingCaptureMixin"
+            "namespace": "django.test.utils.LoggingCaptureMixin",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "setUp",
+                    "namespace": "django.test.utils.LoggingCaptureMixin.setUp",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "tearDown",
+                    "namespace": "django.test.utils.LoggingCaptureMixin.tearDown",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Act as either a decorator or a context manager to register models defined\n    in its wrapped context to an isolated registry.\n\n    The list of installed apps the isolated registry should contain must be\n    passed as arguments.\n\n    Two optional keyword arguments can be specified:\n\n    `attr_name`: attribute assigned the isolated registry if used as a class\n                 decorator.\n\n    `kwarg_name`: keyword argument passing the isolated registry if used as a\n                  function decorator.\n    \"\"\"",
             "name": "isolate_apps",
-            "namespace": "django.test.utils.isolate_apps"
+            "namespace": "django.test.utils.isolate_apps",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.test.utils.isolate_apps.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "enable",
+                    "namespace": "django.test.utils.isolate_apps.enable",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "disable",
+                    "namespace": "django.test.utils.isolate_apps.disable",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "TimeKeeper",
-            "namespace": "django.test.utils.TimeKeeper"
+            "namespace": "django.test.utils.TimeKeeper",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.test.utils.TimeKeeper.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "timed",
+                    "namespace": "django.test.utils.TimeKeeper.timed",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "print_results",
+                    "namespace": "django.test.utils.TimeKeeper.print_results",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "NullTimeKeeper",
-            "namespace": "django.test.utils.NullTimeKeeper"
+            "namespace": "django.test.utils.NullTimeKeeper",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "timed",
+                    "namespace": "django.test.utils.NullTimeKeeper.timed",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "print_results",
+                    "namespace": "django.test.utils.NullTimeKeeper.print_results",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    An instrumented Template render method, providing a signal that can be\n    intercepted by the test Client.\n    \"\"\"",
+            "name": "instrumented_test_render",
+            "namespace": "django.test.utils.instrumented_test_render",
+            "class_name": "",
+            "module_name": "django.test.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Perform global pre-test setup, such as installing the instrumented template\n    renderer and setting the email backend to the locmem email backend.\n    \"\"\"",
+            "name": "setup_test_environment",
+            "namespace": "django.test.utils.setup_test_environment",
+            "class_name": "",
+            "module_name": "django.test.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Perform any global post-test teardown, such as restoring the original\n    template renderer and restoring the email sending functions.\n    \"\"\"",
+            "name": "teardown_test_environment",
+            "namespace": "django.test.utils.teardown_test_environment",
+            "class_name": "",
+            "module_name": "django.test.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Create the test databases.\"\"\"",
+            "name": "setup_databases",
+            "namespace": "django.test.utils.setup_databases",
+            "class_name": "",
+            "module_name": "django.test.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return an iterator over a test suite's unittest.TestCase objects.\n\n    The tests argument can also be an iterable of TestCase objects.\n    \"\"\"",
+            "name": "iter_test_cases",
+            "namespace": "django.test.utils.iter_test_cases",
+            "class_name": "",
+            "module_name": "django.test.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Reorder test_databases into an order that honors the dependencies\n    described in TEST[DEPENDENCIES].\n    \"\"\"",
+            "name": "dependency_ordered",
+            "namespace": "django.test.utils.dependency_ordered",
+            "class_name": "",
+            "module_name": "django.test.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Figure out which databases actually need to be created.\n\n    Deduplicate entries in DATABASES that correspond the same database or are\n    configured as test mirrors.\n\n    Return two values:\n    - test_databases: ordered mapping of signatures to (name, list of aliases)\n                      where all aliases share the same underlying database.\n    - mirrored_aliases: mapping of mirror aliases to original aliases.\n    \"\"\"",
+            "name": "get_unique_databases_and_mirrors",
+            "namespace": "django.test.utils.get_unique_databases_and_mirrors",
+            "class_name": "",
+            "module_name": "django.test.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Destroy all the non-mirror databases.\"\"\"",
+            "name": "teardown_databases",
+            "namespace": "django.test.utils.teardown_databases",
+            "class_name": "",
+            "module_name": "django.test.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_runner",
+            "namespace": "django.test.utils.get_runner",
+            "class_name": "",
+            "module_name": "django.test.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Try to do a 'xml-comparison' of want and got. Plain string comparison\n    doesn't always work because, for example, attribute ordering should not be\n    important. Ignore comment nodes, processing instructions, document type\n    node, and leading and trailing whitespaces.\n\n    Based on https://github.com/lxml/lxml/blob/master/src/lxml/doctestcompare.py\n    \"\"\"",
+            "name": "compare_xml",
+            "namespace": "django.test.utils.compare_xml",
+            "class_name": "",
+            "module_name": "django.test.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Context manager to temporarily add paths to sys.path.\"\"\"",
+            "name": "extend_sys_path",
+            "namespace": "django.test.utils.extend_sys_path",
+            "class_name": "",
+            "module_name": "django.test.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Clear the cache of an LRU cache object on entering and exiting.\"\"\"",
+            "name": "isolate_lru_cache",
+            "namespace": "django.test.utils.isolate_lru_cache",
+            "class_name": "",
+            "module_name": "django.test.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return a context manager used by captured_stdout/stdin/stderr\n    that temporarily replaces the sys stream *stream_name* with a StringIO.\n\n    Note: This function and the following ``captured_std*`` are copied\n          from CPython's ``test.support`` module.\"\"\"",
+            "name": "captured_output",
+            "namespace": "django.test.utils.captured_output",
+            "class_name": "",
+            "module_name": "django.test.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Capture the output of sys.stdout:\n\n       with captured_stdout() as stdout:\n           print(\"hello\")\n       self.assertEqual(stdout.getvalue(), \"hello\\n\")\n    \"\"\"",
+            "name": "captured_stdout",
+            "namespace": "django.test.utils.captured_stdout",
+            "class_name": "",
+            "module_name": "django.test.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Capture the output of sys.stderr:\n\n       with captured_stderr() as stderr:\n           print(\"hello\", file=sys.stderr)\n       self.assertEqual(stderr.getvalue(), \"hello\\n\")\n    \"\"\"",
+            "name": "captured_stderr",
+            "namespace": "django.test.utils.captured_stderr",
+            "class_name": "",
+            "module_name": "django.test.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Capture the input to sys.stdin:\n\n       with captured_stdin() as stdin:\n           stdin.write('hello\\n')\n           stdin.seek(0)\n           # call test code that consumes from sys.stdin\n           captured = input()\n       self.assertEqual(captured, \"hello\")\n    \"\"\"",
+            "name": "captured_stdin",
+            "namespace": "django.test.utils.captured_stdin",
+            "class_name": "",
+            "module_name": "django.test.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Context manager to temporarily freeze time.time(). This temporarily\n    modifies the time function of the time module. Modules which import the\n    time function directly (e.g. `from time import time`) won't be affected\n    This isn't meant as a public API, but helps reduce some repetitive code in\n    Django's test suite.\n    \"\"\"",
+            "name": "freeze_time",
+            "namespace": "django.test.utils.freeze_time",
+            "class_name": "",
+            "module_name": "django.test.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Decorator to enable a Jinja2 template engine in addition to the regular\n    Django template engine for a test or skip it if Jinja2 isn't available.\n    \"\"\"",
+            "name": "require_jinja2",
+            "namespace": "django.test.utils.require_jinja2",
+            "class_name": "",
+            "module_name": "django.test.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Decorator to add tags to a test class or method.\"\"\"",
+            "name": "tag",
+            "namespace": "django.test.utils.tag",
+            "class_name": "",
+            "module_name": "django.test.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Context manager to temporarily register lookups on a model field using\n    lookup_name (or the lookup's lookup_name if not provided).\n    \"\"\"",
+            "name": "register_lookup",
+            "namespace": "django.test.utils.register_lookup",
+            "class_name": "",
+            "module_name": "django.test.utils",
+            "package_name": ""
         }
     ],
     "package_name": "django.test"

@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Custom format for select clauses. For example, EXISTS expressions need\n        to be wrapped in CASE WHEN on Oracle.\n        \"\"\"",
+    "name": "select_format",
+    "namespace": "django.db.models.expressions.BaseExpression.select_format",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

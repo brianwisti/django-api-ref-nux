@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Context manager to temporarily freeze time.time(). This temporarily\n    modifies the time function of the time module. Modules which import the\n    time function directly (e.g. `from time import time`) won't be affected\n    This isn't meant as a public API, but helps reduce some repetitive code in\n    Django's test suite.\n    \"\"\"",
+    "name": "freeze_time",
+    "namespace": "django.test.utils.freeze_time",
+    "class_name": "",
+    "module_name": "django.test.utils",
+    "package_name": ""
+}

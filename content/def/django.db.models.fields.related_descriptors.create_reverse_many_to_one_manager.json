@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Create a manager for the reverse side of a many-to-one relation.\n\n    This manager subclasses another manager, generally the default manager of\n    the related model, and adds behaviors specific to many-to-one relations.\n    \"\"\"",
+    "name": "create_reverse_many_to_one_manager",
+    "namespace": "django.db.models.fields.related_descriptors.create_reverse_many_to_one_manager",
+    "class_name": "",
+    "module_name": "django.db.models.fields.related_descriptors",
+    "package_name": ""
+}

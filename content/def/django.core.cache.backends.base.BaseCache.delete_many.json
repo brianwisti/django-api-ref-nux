@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Delete a bunch of values in the cache at once. For certain backends\n        (memcached), this is much more efficient than calling delete() multiple\n        times.\n        \"\"\"",
+    "name": "delete_many",
+    "namespace": "django.core.cache.backends.base.BaseCache.delete_many",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

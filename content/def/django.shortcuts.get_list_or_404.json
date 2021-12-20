@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Use filter() to return a list of objects, or raise an Http404 exception if\n    the list is empty.\n\n    klass may be a Model, Manager, or QuerySet object. All other passed\n    arguments and keyword arguments are used in the filter() query.\n    \"\"\"",
+    "name": "get_list_or_404",
+    "namespace": "django.shortcuts.get_list_or_404",
+    "class_name": "",
+    "module_name": "django.shortcuts",
+    "package_name": ""
+}

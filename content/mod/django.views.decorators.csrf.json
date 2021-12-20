@@ -5,12 +5,50 @@
         {
             "docstring": "",
             "name": "_EnsureCsrfToken",
-            "namespace": "django.views.decorators.csrf._EnsureCsrfToken"
+            "namespace": "django.views.decorators.csrf._EnsureCsrfToken",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "_reject",
+                    "namespace": "django.views.decorators.csrf._EnsureCsrfToken._reject",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "_EnsureCsrfCookie",
-            "namespace": "django.views.decorators.csrf._EnsureCsrfCookie"
+            "namespace": "django.views.decorators.csrf._EnsureCsrfCookie",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "_reject",
+                    "namespace": "django.views.decorators.csrf._EnsureCsrfCookie._reject",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "process_view",
+                    "namespace": "django.views.decorators.csrf._EnsureCsrfCookie.process_view",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\"Mark a view function as being exempt from the CSRF view protection.\"\"\"",
+            "name": "csrf_exempt",
+            "namespace": "django.views.decorators.csrf.csrf_exempt",
+            "class_name": "",
+            "module_name": "django.views.decorators.csrf",
+            "package_name": ""
         }
     ],
     "package_name": "django.views.decorators"

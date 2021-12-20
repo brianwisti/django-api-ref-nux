@@ -3,5 +3,63 @@
     "name": "LineString",
     "namespace": "django.contrib.gis.gdal.geometries.LineString",
     "module_name": "django.contrib.gis.gdal.geometries",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "\"Return the Point at the given index.\"",
+            "name": "__getitem__",
+            "namespace": "django.contrib.gis.gdal.geometries.LineString.__getitem__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Return the number of points in the LineString.\"",
+            "name": "__len__",
+            "namespace": "django.contrib.gis.gdal.geometries.LineString.__len__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Return the tuple representation of this LineString.\"",
+            "name": "tuple",
+            "namespace": "django.contrib.gis.gdal.geometries.LineString.tuple",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Internal routine that returns a sequence (list) corresponding with\n        the given function.\n        \"\"\"",
+            "name": "_listarr",
+            "namespace": "django.contrib.gis.gdal.geometries.LineString._listarr",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Return the X coordinates in a list.\"",
+            "name": "x",
+            "namespace": "django.contrib.gis.gdal.geometries.LineString.x",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Return the Y coordinates in a list.\"",
+            "name": "y",
+            "namespace": "django.contrib.gis.gdal.geometries.LineString.y",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Return the Z coordinates in a list.\"",
+            "name": "z",
+            "namespace": "django.contrib.gis.gdal.geometries.LineString.z",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

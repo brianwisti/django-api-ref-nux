@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Helper function for prefetch_related_objects().\n\n    Run prefetches on all instances using the prefetcher object,\n    assigning results to relevant caches in instance.\n\n    Return the prefetched objects along with any additional prefetches that\n    must be done due to prefetch_related lookups found from default managers.\n    \"\"\"",
+    "name": "prefetch_one_level",
+    "namespace": "django.db.models.query.prefetch_one_level",
+    "class_name": "",
+    "module_name": "django.db.models.query",
+    "package_name": ""
+}

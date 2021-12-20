@@ -3,5 +3,111 @@
     "name": "LocMemCache",
     "namespace": "django.core.cache.backends.locmem.LocMemCache",
     "module_name": "django.core.cache.backends.locmem",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.core.cache.backends.locmem.LocMemCache.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "add",
+            "namespace": "django.core.cache.backends.locmem.LocMemCache.add",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get",
+            "namespace": "django.core.cache.backends.locmem.LocMemCache.get",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_set",
+            "namespace": "django.core.cache.backends.locmem.LocMemCache._set",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "set",
+            "namespace": "django.core.cache.backends.locmem.LocMemCache.set",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "touch",
+            "namespace": "django.core.cache.backends.locmem.LocMemCache.touch",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "incr",
+            "namespace": "django.core.cache.backends.locmem.LocMemCache.incr",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "has_key",
+            "namespace": "django.core.cache.backends.locmem.LocMemCache.has_key",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_has_expired",
+            "namespace": "django.core.cache.backends.locmem.LocMemCache._has_expired",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_cull",
+            "namespace": "django.core.cache.backends.locmem.LocMemCache._cull",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_delete",
+            "namespace": "django.core.cache.backends.locmem.LocMemCache._delete",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "delete",
+            "namespace": "django.core.cache.backends.locmem.LocMemCache.delete",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "clear",
+            "namespace": "django.core.cache.backends.locmem.LocMemCache.clear",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

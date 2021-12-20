@@ -2,26 +2,106 @@
     "name": "django.http",
     "docstring": "",
     "package_name": "django",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.http.multipartparser",
             "docstring": "\"\"\"\nMulti-part parsing for file uploads.\n\nExposes one class, ``MultiPartParser``, which feeds chunks of uploaded data to\nfile upload handlers for processing.\n\"\"\"",
+            "functions": [
+                {
+                    "docstring": "\"\"\"Exhaust an iterator or stream.\"\"\"",
+                    "name": "exhaust",
+                    "namespace": "django.http.multipartparser.exhaust",
+                    "class_name": "",
+                    "module_name": "django.http.multipartparser",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Parse one and exactly one stream that encapsulates a boundary.\n    \"\"\"",
+                    "name": "parse_boundary_stream",
+                    "namespace": "django.http.multipartparser.parse_boundary_stream",
+                    "class_name": "",
+                    "module_name": "django.http.multipartparser",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Parse the header into a key-value.\n\n    Input (line): bytes, output: str for key/name, bytes for values which\n    will be decoded later.\n    \"\"\"",
+                    "name": "parse_header",
+                    "namespace": "django.http.multipartparser.parse_header",
+                    "class_name": "",
+                    "module_name": "django.http.multipartparser",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_parse_header_params",
+                    "namespace": "django.http.multipartparser._parse_header_params",
+                    "class_name": "",
+                    "module_name": "django.http.multipartparser",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.http"
         },
         {
             "namespace": "django.http.request",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Convert bytes objects to strings, using the given encoding. Illegally\n    encoded input characters are replaced with Unicode \"unknown\" codepoint\n    (\\ufffd).\n\n    Return any non-bytes objects without change.\n    \"\"\"",
+                    "name": "bytes_to_text",
+                    "namespace": "django.http.request.bytes_to_text",
+                    "class_name": "",
+                    "module_name": "django.http.request",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return a (domain, port) tuple from a given host.\n\n    Returned domain is lowercased. If the host is invalid, the domain will be\n    empty.\n    \"\"\"",
+                    "name": "split_domain_port",
+                    "namespace": "django.http.request.split_domain_port",
+                    "class_name": "",
+                    "module_name": "django.http.request",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Validate the given host for this site.\n\n    Check that the host looks valid and matches a host or host pattern in the\n    given list of ``allowed_hosts``. Any pattern beginning with a period\n    matches a domain and all its subdomains (e.g. ``.example.com`` matches\n    ``example.com`` and any subdomain), ``*`` matches anything, and anything\n    else must match exactly.\n\n    Note: This function assumes that the given host is lowercased and has\n    already had the port, if any, stripped off.\n\n    Return ``True`` for a valid host, ``False`` otherwise.\n    \"\"\"",
+                    "name": "validate_host",
+                    "namespace": "django.http.request.validate_host",
+                    "class_name": "",
+                    "module_name": "django.http.request",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "parse_accept_header",
+                    "namespace": "django.http.request.parse_accept_header",
+                    "class_name": "",
+                    "module_name": "django.http.request",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.http"
         },
         {
             "namespace": "django.http.response",
             "docstring": "",
+            "functions": [],
             "package_name": "django.http"
         },
         {
             "namespace": "django.http.cookie",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Return a dictionary parsed from a `Cookie:` header string.\n    \"\"\"",
+                    "name": "parse_cookie",
+                    "namespace": "django.http.cookie.parse_cookie",
+                    "class_name": "",
+                    "module_name": "django.http.cookie",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.http"
         }
     ],

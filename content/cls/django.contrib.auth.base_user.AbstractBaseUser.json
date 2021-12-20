@@ -3,5 +3,119 @@
     "name": "AbstractBaseUser",
     "namespace": "django.contrib.auth.base_user.AbstractBaseUser",
     "module_name": "django.contrib.auth.base_user",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__str__",
+            "namespace": "django.contrib.auth.base_user.AbstractBaseUser.__str__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "save",
+            "namespace": "django.contrib.auth.base_user.AbstractBaseUser.save",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return the username for this User.\"\"\"",
+            "name": "get_username",
+            "namespace": "django.contrib.auth.base_user.AbstractBaseUser.get_username",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "clean",
+            "namespace": "django.contrib.auth.base_user.AbstractBaseUser.clean",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "natural_key",
+            "namespace": "django.contrib.auth.base_user.AbstractBaseUser.natural_key",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Always return False. This is a way of comparing User objects to\n        anonymous users.\n        \"\"\"",
+            "name": "is_anonymous",
+            "namespace": "django.contrib.auth.base_user.AbstractBaseUser.is_anonymous",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Always return True. This is a way to tell if the user has been\n        authenticated in templates.\n        \"\"\"",
+            "name": "is_authenticated",
+            "namespace": "django.contrib.auth.base_user.AbstractBaseUser.is_authenticated",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "set_password",
+            "namespace": "django.contrib.auth.base_user.AbstractBaseUser.set_password",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return a boolean of whether the raw_password was correct. Handles\n        hashing formats behind the scenes.\n        \"\"\"",
+            "name": "check_password",
+            "namespace": "django.contrib.auth.base_user.AbstractBaseUser.check_password",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "set_unusable_password",
+            "namespace": "django.contrib.auth.base_user.AbstractBaseUser.set_unusable_password",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return False if set_unusable_password() has been called for this user.\n        \"\"\"",
+            "name": "has_usable_password",
+            "namespace": "django.contrib.auth.base_user.AbstractBaseUser.has_usable_password",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return an HMAC of the password field.\n        \"\"\"",
+            "name": "get_session_auth_hash",
+            "namespace": "django.contrib.auth.base_user.AbstractBaseUser.get_session_auth_hash",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_email_field_name",
+            "namespace": "django.contrib.auth.base_user.AbstractBaseUser.get_email_field_name",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "normalize_username",
+            "namespace": "django.contrib.auth.base_user.AbstractBaseUser.normalize_username",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Change join types so that the generated query is as efficient as\n        possible, but still correct. So, change as many joins as possible\n        to INNER, but don't make OUTER joins INNER if that could remove\n        results from the query.\n        \"\"\"",
+    "name": "update_join_types",
+    "namespace": "django.db.models.sql.query.JoinPromoter.update_join_types",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

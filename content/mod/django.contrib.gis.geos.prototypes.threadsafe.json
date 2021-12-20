@@ -5,18 +5,104 @@
         {
             "docstring": "\"\"\"Represent a GEOS context handle.\"\"\"",
             "name": "GEOSContextHandle",
-            "namespace": "django.contrib.gis.geos.prototypes.threadsafe.GEOSContextHandle"
+            "namespace": "django.contrib.gis.geos.prototypes.threadsafe.GEOSContextHandle",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.gis.geos.prototypes.threadsafe.GEOSContextHandle.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "GEOSContext",
-            "namespace": "django.contrib.gis.geos.prototypes.threadsafe.GEOSContext"
+            "namespace": "django.contrib.gis.geos.prototypes.threadsafe.GEOSContext",
+            "methods": []
         },
         {
             "docstring": "\"\"\"\n    Serve as a wrapper for GEOS C Functions. Use thread-safe function\n    variants when available.\n    \"\"\"",
             "name": "GEOSFunc",
-            "namespace": "django.contrib.gis.geos.prototypes.threadsafe.GEOSFunc"
+            "namespace": "django.contrib.gis.geos.prototypes.threadsafe.GEOSFunc",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.gis.geos.prototypes.threadsafe.GEOSFunc.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__call__",
+                    "namespace": "django.contrib.gis.geos.prototypes.threadsafe.GEOSFunc.__call__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__str__",
+                    "namespace": "django.contrib.gis.geos.prototypes.threadsafe.GEOSFunc.__str__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_get_argtypes",
+                    "namespace": "django.contrib.gis.geos.prototypes.threadsafe.GEOSFunc._get_argtypes",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_set_argtypes",
+                    "namespace": "django.contrib.gis.geos.prototypes.threadsafe.GEOSFunc._set_argtypes",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_get_restype",
+                    "namespace": "django.contrib.gis.geos.prototypes.threadsafe.GEOSFunc._get_restype",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_set_restype",
+                    "namespace": "django.contrib.gis.geos.prototypes.threadsafe.GEOSFunc._set_restype",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_get_errcheck",
+                    "namespace": "django.contrib.gis.geos.prototypes.threadsafe.GEOSFunc._get_errcheck",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_set_errcheck",
+                    "namespace": "django.contrib.gis.geos.prototypes.threadsafe.GEOSFunc._set_errcheck",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.gis.geos.prototypes"
 }

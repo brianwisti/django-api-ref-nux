@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Check if value is a datetime and converts it to local time if necessary.\n\n    If use_tz is provided and is not None, that will force the value to\n    be converted (or not), overriding the value of settings.USE_TZ.\n\n    This function is designed for use by the template engine.\n    \"\"\"",
+    "name": "template_localtime",
+    "namespace": "django.utils.timezone.template_localtime",
+    "class_name": "",
+    "module_name": "django.utils.timezone",
+    "package_name": ""
+}

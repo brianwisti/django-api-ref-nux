@@ -5,17 +5,56 @@
         {
             "docstring": "\"For coordinate sequence routines that return an integer.\"",
             "name": "CsInt",
-            "namespace": "django.contrib.gis.geos.prototypes.coordseq.CsInt"
+            "namespace": "django.contrib.gis.geos.prototypes.coordseq.CsInt",
+            "methods": []
         },
         {
             "docstring": "\"For coordinate sequence operations.\"",
             "name": "CsOperation",
-            "namespace": "django.contrib.gis.geos.prototypes.coordseq.CsOperation"
+            "namespace": "django.contrib.gis.geos.prototypes.coordseq.CsOperation",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.gis.geos.prototypes.coordseq.CsOperation.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "CsOutput",
-            "namespace": "django.contrib.gis.geos.prototypes.coordseq.CsOutput"
+            "namespace": "django.contrib.gis.geos.prototypes.coordseq.CsOutput",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "errcheck",
+                    "namespace": "django.contrib.gis.geos.prototypes.coordseq.CsOutput.errcheck",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"Check the status code of a coordinate sequence operation.\"",
+            "name": "check_cs_op",
+            "namespace": "django.contrib.gis.geos.prototypes.coordseq.check_cs_op",
+            "class_name": "",
+            "module_name": "django.contrib.gis.geos.prototypes.coordseq",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Check the coordinate sequence retrieval.\"",
+            "name": "check_cs_get",
+            "namespace": "django.contrib.gis.geos.prototypes.coordseq.check_cs_get",
+            "class_name": "",
+            "module_name": "django.contrib.gis.geos.prototypes.coordseq",
+            "package_name": ""
         }
     ],
     "package_name": "django.contrib.gis.geos.prototypes"

@@ -3,5 +3,39 @@
     "name": "EmailMultiAlternatives",
     "namespace": "django.core.mail.message.EmailMultiAlternatives",
     "module_name": "django.core.mail.message",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "\"\"\"\n        Initialize a single email message (which can be sent to multiple\n        recipients).\n        \"\"\"",
+            "name": "__init__",
+            "namespace": "django.core.mail.message.EmailMultiAlternatives.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Attach an alternative content representation.\"\"\"",
+            "name": "attach_alternative",
+            "namespace": "django.core.mail.message.EmailMultiAlternatives.attach_alternative",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_create_message",
+            "namespace": "django.core.mail.message.EmailMultiAlternatives._create_message",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_create_alternatives",
+            "namespace": "django.core.mail.message.EmailMultiAlternatives._create_alternatives",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

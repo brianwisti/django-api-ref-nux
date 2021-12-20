@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Assert that a formset used to render the response has a specific error.\n\n        For field errors, specify the ``form_index`` and the ``field``.\n        For non-field errors, specify the ``form_index`` and the ``field`` as\n        None.\n        For non-form errors, specify ``form_index`` as None and the ``field``\n        as None.\n        \"\"\"",
+    "name": "assertFormsetError",
+    "namespace": "django.test.testcases.SimpleTestCase.assertFormsetError",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

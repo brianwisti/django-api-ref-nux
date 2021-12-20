@@ -2,5 +2,71 @@
     "namespace": "django.utils.inspect",
     "docstring": "",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "",
+            "name": "_get_func_parameters",
+            "namespace": "django.utils.inspect._get_func_parameters",
+            "class_name": "",
+            "module_name": "django.utils.inspect",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_get_callable_parameters",
+            "namespace": "django.utils.inspect._get_callable_parameters",
+            "class_name": "",
+            "module_name": "django.utils.inspect",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_func_args",
+            "namespace": "django.utils.inspect.get_func_args",
+            "class_name": "",
+            "module_name": "django.utils.inspect",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return a list of (argument name, default value) tuples. If the argument\n    does not have a default value, omit it in the tuple. Arguments such as\n    *args and **kwargs are also included.\n    \"\"\"",
+            "name": "get_func_full_args",
+            "namespace": "django.utils.inspect.get_func_full_args",
+            "class_name": "",
+            "module_name": "django.utils.inspect",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return True if function 'func' accepts keyword arguments **kwargs.\"\"\"",
+            "name": "func_accepts_kwargs",
+            "namespace": "django.utils.inspect.func_accepts_kwargs",
+            "class_name": "",
+            "module_name": "django.utils.inspect",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return True if function 'func' accepts positional arguments *args.\n    \"\"\"",
+            "name": "func_accepts_var_args",
+            "namespace": "django.utils.inspect.func_accepts_var_args",
+            "class_name": "",
+            "module_name": "django.utils.inspect",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return True if a method only accepts 'self'.\"\"\"",
+            "name": "method_has_no_args",
+            "namespace": "django.utils.inspect.method_has_no_args",
+            "class_name": "",
+            "module_name": "django.utils.inspect",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "func_supports_parameter",
+            "namespace": "django.utils.inspect.func_supports_parameter",
+            "class_name": "",
+            "module_name": "django.utils.inspect",
+            "package_name": ""
+        }
+    ],
     "package_name": "django.utils"
 }

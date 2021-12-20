@@ -5,22 +5,288 @@
         {
             "docstring": "\"\"\"\n    Provide a generic many-to-one relation through the ``content_type`` and\n    ``object_id`` fields.\n\n    This class also doubles as an accessor to the related object (similar to\n    ForwardManyToOneDescriptor) by adding itself as a model attribute.\n    \"\"\"",
             "name": "GenericForeignKey",
-            "namespace": "django.contrib.contenttypes.fields.GenericForeignKey"
+            "namespace": "django.contrib.contenttypes.fields.GenericForeignKey",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.contenttypes.fields.GenericForeignKey.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "contribute_to_class",
+                    "namespace": "django.contrib.contenttypes.fields.GenericForeignKey.contribute_to_class",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"See corresponding method on Field\"\"\"",
+                    "name": "get_filter_kwargs_for_object",
+                    "namespace": "django.contrib.contenttypes.fields.GenericForeignKey.get_filter_kwargs_for_object",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"See corresponding method on RelatedField\"\"\"",
+                    "name": "get_forward_related_filter",
+                    "namespace": "django.contrib.contenttypes.fields.GenericForeignKey.get_forward_related_filter",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__str__",
+                    "namespace": "django.contrib.contenttypes.fields.GenericForeignKey.__str__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check",
+                    "namespace": "django.contrib.contenttypes.fields.GenericForeignKey.check",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_check_field_name",
+                    "namespace": "django.contrib.contenttypes.fields.GenericForeignKey._check_field_name",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_check_object_id_field",
+                    "namespace": "django.contrib.contenttypes.fields.GenericForeignKey._check_object_id_field",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Check if field named `field_name` in model `model` exists and is a\n        valid content_type field (is a ForeignKey to ContentType).\n        \"\"\"",
+                    "name": "_check_content_type_field",
+                    "namespace": "django.contrib.contenttypes.fields.GenericForeignKey._check_content_type_field",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_cache_name",
+                    "namespace": "django.contrib.contenttypes.fields.GenericForeignKey.get_cache_name",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_content_type",
+                    "namespace": "django.contrib.contenttypes.fields.GenericForeignKey.get_content_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_prefetch_queryset",
+                    "namespace": "django.contrib.contenttypes.fields.GenericForeignKey.get_prefetch_queryset",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__get__",
+                    "namespace": "django.contrib.contenttypes.fields.GenericForeignKey.__get__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__set__",
+                    "namespace": "django.contrib.contenttypes.fields.GenericForeignKey.__set__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Used by GenericRelation to store information about the relation.\n    \"\"\"",
             "name": "GenericRel",
-            "namespace": "django.contrib.contenttypes.fields.GenericRel"
+            "namespace": "django.contrib.contenttypes.fields.GenericRel",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.contenttypes.fields.GenericRel.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Provide a reverse to a relation created by a GenericForeignKey.\n    \"\"\"",
             "name": "GenericRelation",
-            "namespace": "django.contrib.contenttypes.fields.GenericRelation"
+            "namespace": "django.contrib.contenttypes.fields.GenericRelation",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.contenttypes.fields.GenericRelation.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check",
+                    "namespace": "django.contrib.contenttypes.fields.GenericRelation.check",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return True if field is a GenericForeignKey whose content type and\n        object id fields correspond to the equivalent attributes on this\n        GenericRelation.\n        \"\"\"",
+                    "name": "_is_matching_generic_foreign_key",
+                    "namespace": "django.contrib.contenttypes.fields.GenericRelation._is_matching_generic_foreign_key",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_check_generic_foreign_key_existence",
+                    "namespace": "django.contrib.contenttypes.fields.GenericRelation._check_generic_foreign_key_existence",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "resolve_related_fields",
+                    "namespace": "django.contrib.contenttypes.fields.GenericRelation.resolve_related_fields",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the path that joins the current model through any parent models.\n        The idea is that if you have a GFK defined on a parent model then we\n        need to join the parent model first, then the child model.\n        \"\"\"",
+                    "name": "_get_path_info_with_parent",
+                    "namespace": "django.contrib.contenttypes.fields.GenericRelation._get_path_info_with_parent",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_path_info",
+                    "namespace": "django.contrib.contenttypes.fields.GenericRelation.get_path_info",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_reverse_path_info",
+                    "namespace": "django.contrib.contenttypes.fields.GenericRelation.get_reverse_path_info",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "value_to_string",
+                    "namespace": "django.contrib.contenttypes.fields.GenericRelation.value_to_string",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "contribute_to_class",
+                    "namespace": "django.contrib.contenttypes.fields.GenericRelation.contribute_to_class",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "set_attributes_from_rel",
+                    "namespace": "django.contrib.contenttypes.fields.GenericRelation.set_attributes_from_rel",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_internal_type",
+                    "namespace": "django.contrib.contenttypes.fields.GenericRelation.get_internal_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the content type associated with this field's model.\n        \"\"\"",
+                    "name": "get_content_type",
+                    "namespace": "django.contrib.contenttypes.fields.GenericRelation.get_content_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_extra_restriction",
+                    "namespace": "django.contrib.contenttypes.fields.GenericRelation.get_extra_restriction",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return all objects related to ``objs`` via this ``GenericRelation``.\n        \"\"\"",
+                    "name": "bulk_related_objects",
+                    "namespace": "django.contrib.contenttypes.fields.GenericRelation.bulk_related_objects",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Accessor to the related objects manager on the one-to-many relation created\n    by GenericRelation.\n\n    In the example::\n\n        class Post(Model):\n            comments = GenericRelation(Comment)\n\n    ``post.comments`` is a ReverseGenericManyToOneDescriptor instance.\n    \"\"\"",
             "name": "ReverseGenericManyToOneDescriptor",
-            "namespace": "django.contrib.contenttypes.fields.ReverseGenericManyToOneDescriptor"
+            "namespace": "django.contrib.contenttypes.fields.ReverseGenericManyToOneDescriptor",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "related_manager_cls",
+                    "namespace": "django.contrib.contenttypes.fields.ReverseGenericManyToOneDescriptor.related_manager_cls",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Factory function to create a manager that subclasses another manager\n    (generally the default manager of a given model) and adds behaviors\n    specific to generic relations.\n    \"\"\"",
+            "name": "create_generic_related_manager",
+            "namespace": "django.contrib.contenttypes.fields.create_generic_related_manager",
+            "class_name": "",
+            "module_name": "django.contrib.contenttypes.fields",
+            "package_name": ""
         }
     ],
     "package_name": "django.contrib.contenttypes"

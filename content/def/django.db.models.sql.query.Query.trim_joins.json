@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        The 'target' parameter is the final field being joined to, 'joins'\n        is the full list of join aliases. The 'path' contain the PathInfos\n        used to create the joins.\n\n        Return the final target field and table alias and the new active\n        joins.\n\n        Always trim any direct join if the target column is already in the\n        previous table. Can't trim reverse joins as it's unknown if there's\n        anything on the other side of the join.\n        \"\"\"",
+    "name": "trim_joins",
+    "namespace": "django.db.models.sql.query.Query.trim_joins",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

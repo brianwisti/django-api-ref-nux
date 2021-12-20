@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Return the appropriate `verbose_name` or `verbose_name_plural` value for\n    `obj` depending on the count `n`.\n\n    `obj` may be a `Model` instance, `Model` subclass, or `QuerySet` instance.\n    If `obj` is a `QuerySet` instance, `n` is optional and the length of the\n    `QuerySet` is used.\n    \"\"\"",
+    "name": "model_ngettext",
+    "namespace": "django.contrib.admin.utils.model_ngettext",
+    "class_name": "",
+    "module_name": "django.contrib.admin.utils",
+    "package_name": ""
+}

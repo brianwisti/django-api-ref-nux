@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Enable a different set of installed apps for get_app_config[s].\n\n        installed must be an iterable in the same format as INSTALLED_APPS.\n\n        set_installed_apps() must be balanced with unset_installed_apps(),\n        even if it exits with an exception.\n\n        Primarily used as a receiver of the setting_changed signal in tests.\n\n        This method may trigger new imports, which may add new models to the\n        registry of all imported models. They will stay in the registry even\n        after unset_installed_apps(). Since it isn't possible to replay\n        imports safely (e.g. that could lead to registering listeners twice),\n        models are registered when they're imported and never removed.\n        \"\"\"",
+    "name": "set_installed_apps",
+    "namespace": "django.apps.registry.Apps.set_installed_apps",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

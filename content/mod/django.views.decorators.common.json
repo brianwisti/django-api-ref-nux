@@ -2,5 +2,15 @@
     "namespace": "django.views.decorators.common",
     "docstring": "",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Mark a view function as excluded from CommonMiddleware's APPEND_SLASH\n    redirection.\n    \"\"\"",
+            "name": "no_append_slash",
+            "namespace": "django.views.decorators.common.no_append_slash",
+            "class_name": "",
+            "module_name": "django.views.decorators.common",
+            "package_name": ""
+        }
+    ],
     "package_name": "django.views.decorators"
 }

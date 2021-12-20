@@ -5,8 +5,27 @@
         {
             "docstring": "\"\"\"\n    Attributes that exist on both GDALRaster and GDALBand.\n    \"\"\"",
             "name": "GDALRasterBase",
-            "namespace": "django.contrib.gis.gdal.raster.base.GDALRasterBase"
+            "namespace": "django.contrib.gis.gdal.raster.base.GDALRasterBase",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        Return the metadata for this raster or band. The return value is a\n        nested dictionary, where the first-level key is the metadata domain and\n        the second-level is the metadata item names and values for that domain.\n        \"\"\"",
+                    "name": "metadata",
+                    "namespace": "django.contrib.gis.gdal.raster.base.GDALRasterBase.metadata",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Set the metadata. Update only the domains that are contained in the\n        value dictionary.\n        \"\"\"",
+                    "name": "metadata",
+                    "namespace": "django.contrib.gis.gdal.raster.base.GDALRasterBase.metadata",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.gis.gdal.raster"
 }

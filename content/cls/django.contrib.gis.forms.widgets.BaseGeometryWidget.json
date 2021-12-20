@@ -3,5 +3,39 @@
     "name": "BaseGeometryWidget",
     "namespace": "django.contrib.gis.forms.widgets.BaseGeometryWidget",
     "module_name": "django.contrib.gis.forms.widgets",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.contrib.gis.forms.widgets.BaseGeometryWidget.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "serialize",
+            "namespace": "django.contrib.gis.forms.widgets.BaseGeometryWidget.serialize",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "deserialize",
+            "namespace": "django.contrib.gis.forms.widgets.BaseGeometryWidget.deserialize",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_context",
+            "namespace": "django.contrib.gis.forms.widgets.BaseGeometryWidget.get_context",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

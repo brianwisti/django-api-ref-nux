@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Convert a date into a datetime when the date field is a DateTimeField.\n\n        When time zone support is enabled, `date` is assumed to be in the\n        current time zone, so that displayed items are consistent with the URL.\n        \"\"\"",
+    "name": "_make_date_lookup_arg",
+    "namespace": "django.views.generic.dates.DateMixin._make_date_lookup_arg",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

@@ -3,5 +3,63 @@
     "name": "IntegerField",
     "namespace": "django.db.models.fields.IntegerField",
     "module_name": "django.db.models.fields",
-    "package_name": "django.db.models.fields"
+    "package_name": "django.db.models.fields",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "check",
+            "namespace": "django.db.models.fields.IntegerField.check",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_check_max_length_warning",
+            "namespace": "django.db.models.fields.IntegerField._check_max_length_warning",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "validators",
+            "namespace": "django.db.models.fields.IntegerField.validators",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_prep_value",
+            "namespace": "django.db.models.fields.IntegerField.get_prep_value",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_internal_type",
+            "namespace": "django.db.models.fields.IntegerField.get_internal_type",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "to_python",
+            "namespace": "django.db.models.fields.IntegerField.to_python",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "formfield",
+            "namespace": "django.db.models.fields.IntegerField.formfield",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

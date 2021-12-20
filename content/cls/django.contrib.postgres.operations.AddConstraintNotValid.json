@@ -3,5 +3,39 @@
     "name": "AddConstraintNotValid",
     "namespace": "django.contrib.postgres.operations.AddConstraintNotValid",
     "module_name": "django.contrib.postgres.operations",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.contrib.postgres.operations.AddConstraintNotValid.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "describe",
+            "namespace": "django.contrib.postgres.operations.AddConstraintNotValid.describe",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "database_forwards",
+            "namespace": "django.contrib.postgres.operations.AddConstraintNotValid.database_forwards",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "migration_name_fragment",
+            "namespace": "django.contrib.postgres.operations.AddConstraintNotValid.migration_name_fragment",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

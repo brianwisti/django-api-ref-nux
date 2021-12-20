@@ -3,5 +3,55 @@
     "name": "Reference",
     "namespace": "django.db.backends.ddl_references.Reference",
     "module_name": "django.db.backends.ddl_references",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "\"\"\"\n        Return whether or not this instance references the specified table.\n        \"\"\"",
+            "name": "references_table",
+            "namespace": "django.db.backends.ddl_references.Reference.references_table",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return whether or not this instance references the specified column.\n        \"\"\"",
+            "name": "references_column",
+            "namespace": "django.db.backends.ddl_references.Reference.references_column",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Rename all references to the old_name to the new_table.\n        \"\"\"",
+            "name": "rename_table_references",
+            "namespace": "django.db.backends.ddl_references.Reference.rename_table_references",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Rename all references to the old_column to the new_column.\n        \"\"\"",
+            "name": "rename_column_references",
+            "namespace": "django.db.backends.ddl_references.Reference.rename_column_references",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__repr__",
+            "namespace": "django.db.backends.ddl_references.Reference.__repr__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__str__",
+            "namespace": "django.db.backends.ddl_references.Reference.__str__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

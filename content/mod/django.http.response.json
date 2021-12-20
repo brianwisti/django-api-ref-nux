@@ -5,93 +5,609 @@
         {
             "docstring": "",
             "name": "ResponseHeaders",
-            "namespace": "django.http.response.ResponseHeaders"
+            "namespace": "django.http.response.ResponseHeaders",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        Populate the initial data using __setitem__ to ensure values are\n        correctly encoded.\n        \"\"\"",
+                    "name": "__init__",
+                    "namespace": "django.http.response.ResponseHeaders.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Convert headers key/value to ascii/latin-1 native strings.\n        `charset` must be 'ascii' or 'latin-1'. If `mime_encode` is True and\n        `value` can't be represented in the given charset, apply MIME-encoding.\n        \"\"\"",
+                    "name": "_convert_to_charset",
+                    "namespace": "django.http.response.ResponseHeaders._convert_to_charset",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__delitem__",
+                    "namespace": "django.http.response.ResponseHeaders.__delitem__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__setitem__",
+                    "namespace": "django.http.response.ResponseHeaders.__setitem__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "pop",
+                    "namespace": "django.http.response.ResponseHeaders.pop",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "setdefault",
+                    "namespace": "django.http.response.ResponseHeaders.setdefault",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "BadHeaderError",
-            "namespace": "django.http.response.BadHeaderError"
+            "namespace": "django.http.response.BadHeaderError",
+            "methods": []
         },
         {
             "docstring": "\"\"\"\n    An HTTP response base class with dictionary-accessed headers.\n\n    This class doesn't handle content. It should not be used directly.\n    Use the HttpResponse and StreamingHttpResponse subclasses instead.\n    \"\"\"",
             "name": "HttpResponseBase",
-            "namespace": "django.http.response.HttpResponseBase"
+            "namespace": "django.http.response.HttpResponseBase",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.http.response.HttpResponseBase.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "reason_phrase",
+                    "namespace": "django.http.response.HttpResponseBase.reason_phrase",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "reason_phrase",
+                    "namespace": "django.http.response.HttpResponseBase.reason_phrase",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "charset",
+                    "namespace": "django.http.response.HttpResponseBase.charset",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "charset",
+                    "namespace": "django.http.response.HttpResponseBase.charset",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"HTTP headers as a bytestring.\"\"\"",
+                    "name": "serialize_headers",
+                    "namespace": "django.http.response.HttpResponseBase.serialize_headers",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_content_type_for_repr",
+                    "namespace": "django.http.response.HttpResponseBase._content_type_for_repr",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__setitem__",
+                    "namespace": "django.http.response.HttpResponseBase.__setitem__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__delitem__",
+                    "namespace": "django.http.response.HttpResponseBase.__delitem__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__getitem__",
+                    "namespace": "django.http.response.HttpResponseBase.__getitem__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Case-insensitive check for a header.\"\"\"",
+                    "name": "has_header",
+                    "namespace": "django.http.response.HttpResponseBase.has_header",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "items",
+                    "namespace": "django.http.response.HttpResponseBase.items",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get",
+                    "namespace": "django.http.response.HttpResponseBase.get",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Set a cookie.\n\n        ``expires`` can be:\n        - a string in the correct format,\n        - a naive ``datetime.datetime`` object in UTC,\n        - an aware ``datetime.datetime`` object in any time zone.\n        If it is a ``datetime.datetime`` object then calculate ``max_age``.\n        \"\"\"",
+                    "name": "set_cookie",
+                    "namespace": "django.http.response.HttpResponseBase.set_cookie",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Set a header unless it has already been set.\"\"\"",
+                    "name": "setdefault",
+                    "namespace": "django.http.response.HttpResponseBase.setdefault",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "set_signed_cookie",
+                    "namespace": "django.http.response.HttpResponseBase.set_signed_cookie",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "delete_cookie",
+                    "namespace": "django.http.response.HttpResponseBase.delete_cookie",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Turn a value into a bytestring encoded in the output charset.\"\"\"",
+                    "name": "make_bytes",
+                    "namespace": "django.http.response.HttpResponseBase.make_bytes",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "close",
+                    "namespace": "django.http.response.HttpResponseBase.close",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "write",
+                    "namespace": "django.http.response.HttpResponseBase.write",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "flush",
+                    "namespace": "django.http.response.HttpResponseBase.flush",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "tell",
+                    "namespace": "django.http.response.HttpResponseBase.tell",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "readable",
+                    "namespace": "django.http.response.HttpResponseBase.readable",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "seekable",
+                    "namespace": "django.http.response.HttpResponseBase.seekable",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "writable",
+                    "namespace": "django.http.response.HttpResponseBase.writable",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "writelines",
+                    "namespace": "django.http.response.HttpResponseBase.writelines",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    An HTTP response class with a string as content.\n\n    This content can be read, appended to, or replaced.\n    \"\"\"",
             "name": "HttpResponse",
-            "namespace": "django.http.response.HttpResponse"
+            "namespace": "django.http.response.HttpResponse",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.http.response.HttpResponse.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.http.response.HttpResponse.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Full HTTP message, including headers, as a bytestring.\"\"\"",
+                    "name": "serialize",
+                    "namespace": "django.http.response.HttpResponse.serialize",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "content",
+                    "namespace": "django.http.response.HttpResponse.content",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "content",
+                    "namespace": "django.http.response.HttpResponse.content",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__iter__",
+                    "namespace": "django.http.response.HttpResponse.__iter__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "write",
+                    "namespace": "django.http.response.HttpResponse.write",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "tell",
+                    "namespace": "django.http.response.HttpResponse.tell",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "getvalue",
+                    "namespace": "django.http.response.HttpResponse.getvalue",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "writable",
+                    "namespace": "django.http.response.HttpResponse.writable",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "writelines",
+                    "namespace": "django.http.response.HttpResponse.writelines",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    A streaming HTTP response class with an iterator as content.\n\n    This should only be iterated once, when the response is streamed to the\n    client. However, it can be appended to or replaced with a new iterator\n    that wraps the original content (or yields entirely new content).\n    \"\"\"",
             "name": "StreamingHttpResponse",
-            "namespace": "django.http.response.StreamingHttpResponse"
+            "namespace": "django.http.response.StreamingHttpResponse",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.http.response.StreamingHttpResponse.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.http.response.StreamingHttpResponse.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "content",
+                    "namespace": "django.http.response.StreamingHttpResponse.content",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "streaming_content",
+                    "namespace": "django.http.response.StreamingHttpResponse.streaming_content",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "streaming_content",
+                    "namespace": "django.http.response.StreamingHttpResponse.streaming_content",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_set_streaming_content",
+                    "namespace": "django.http.response.StreamingHttpResponse._set_streaming_content",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__iter__",
+                    "namespace": "django.http.response.StreamingHttpResponse.__iter__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "getvalue",
+                    "namespace": "django.http.response.StreamingHttpResponse.getvalue",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    A streaming HTTP response class optimized for files.\n    \"\"\"",
             "name": "FileResponse",
-            "namespace": "django.http.response.FileResponse"
+            "namespace": "django.http.response.FileResponse",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.http.response.FileResponse.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_set_streaming_content",
+                    "namespace": "django.http.response.FileResponse._set_streaming_content",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Set some common response headers (Content-Length, Content-Type, and\n        Content-Disposition) based on the `filelike` response content.\n        \"\"\"",
+                    "name": "set_headers",
+                    "namespace": "django.http.response.FileResponse.set_headers",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "HttpResponseRedirectBase",
-            "namespace": "django.http.response.HttpResponseRedirectBase"
+            "namespace": "django.http.response.HttpResponseRedirectBase",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.http.response.HttpResponseRedirectBase.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.http.response.HttpResponseRedirectBase.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "HttpResponseRedirect",
-            "namespace": "django.http.response.HttpResponseRedirect"
+            "namespace": "django.http.response.HttpResponseRedirect",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "HttpResponsePermanentRedirect",
-            "namespace": "django.http.response.HttpResponsePermanentRedirect"
+            "namespace": "django.http.response.HttpResponsePermanentRedirect",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "HttpResponseNotModified",
-            "namespace": "django.http.response.HttpResponseNotModified"
+            "namespace": "django.http.response.HttpResponseNotModified",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.http.response.HttpResponseNotModified.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "content",
+                    "namespace": "django.http.response.HttpResponseNotModified.content",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "HttpResponseBadRequest",
-            "namespace": "django.http.response.HttpResponseBadRequest"
+            "namespace": "django.http.response.HttpResponseBadRequest",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "HttpResponseNotFound",
-            "namespace": "django.http.response.HttpResponseNotFound"
+            "namespace": "django.http.response.HttpResponseNotFound",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "HttpResponseForbidden",
-            "namespace": "django.http.response.HttpResponseForbidden"
+            "namespace": "django.http.response.HttpResponseForbidden",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "HttpResponseNotAllowed",
-            "namespace": "django.http.response.HttpResponseNotAllowed"
+            "namespace": "django.http.response.HttpResponseNotAllowed",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.http.response.HttpResponseNotAllowed.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.http.response.HttpResponseNotAllowed.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "HttpResponseGone",
-            "namespace": "django.http.response.HttpResponseGone"
+            "namespace": "django.http.response.HttpResponseGone",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "HttpResponseServerError",
-            "namespace": "django.http.response.HttpResponseServerError"
+            "namespace": "django.http.response.HttpResponseServerError",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "Http404",
-            "namespace": "django.http.response.Http404"
+            "namespace": "django.http.response.Http404",
+            "methods": []
         },
         {
             "docstring": "\"\"\"\n    An HTTP response class that consumes data to be serialized to JSON.\n\n    :param data: Data to be dumped into json. By default only ``dict`` objects\n      are allowed to be passed due to a security flaw before ECMAScript 5. See\n      the ``safe`` parameter for more information.\n    :param encoder: Should be a json encoder class. Defaults to\n      ``django.core.serializers.json.DjangoJSONEncoder``.\n    :param safe: Controls if only ``dict`` objects may be serialized. Defaults\n      to ``True``.\n    :param json_dumps_params: A dictionary of kwargs passed to json.dumps().\n    \"\"\"",
             "name": "JsonResponse",
-            "namespace": "django.http.response.JsonResponse"
+            "namespace": "django.http.response.JsonResponse",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.http.response.JsonResponse.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.http"
 }

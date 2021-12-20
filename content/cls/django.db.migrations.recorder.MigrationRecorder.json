@@ -3,5 +3,79 @@
     "name": "MigrationRecorder",
     "namespace": "django.db.migrations.recorder.MigrationRecorder",
     "module_name": "django.db.migrations.recorder",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "\"\"\"\n        Lazy load to avoid AppRegistryNotReady if installed apps import\n        MigrationRecorder.\n        \"\"\"",
+            "name": "Migration",
+            "namespace": "django.db.migrations.recorder.MigrationRecorder.Migration",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.db.migrations.recorder.MigrationRecorder.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "migration_qs",
+            "namespace": "django.db.migrations.recorder.MigrationRecorder.migration_qs",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return True if the django_migrations table exists.\"\"\"",
+            "name": "has_table",
+            "namespace": "django.db.migrations.recorder.MigrationRecorder.has_table",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Ensure the table exists and has the correct schema.\"\"\"",
+            "name": "ensure_schema",
+            "namespace": "django.db.migrations.recorder.MigrationRecorder.ensure_schema",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return a dict mapping (app_name, migration_name) to Migration instances\n        for all applied migrations.\n        \"\"\"",
+            "name": "applied_migrations",
+            "namespace": "django.db.migrations.recorder.MigrationRecorder.applied_migrations",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Record that a migration was applied.\"\"\"",
+            "name": "record_applied",
+            "namespace": "django.db.migrations.recorder.MigrationRecorder.record_applied",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Record that a migration was unapplied.\"\"\"",
+            "name": "record_unapplied",
+            "namespace": "django.db.migrations.recorder.MigrationRecorder.record_unapplied",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Delete all migration records. Useful for testing migrations.\"\"\"",
+            "name": "flush",
+            "namespace": "django.db.migrations.recorder.MigrationRecorder.flush",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

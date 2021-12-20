@@ -3,5 +3,487 @@
     "name": "Field",
     "namespace": "django.db.models.fields.Field",
     "module_name": "django.db.models.fields",
-    "package_name": "django.db.models.fields"
+    "package_name": "django.db.models.fields",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "_description",
+            "namespace": "django.db.models.fields.Field._description",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.db.models.fields.Field.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return \"app_label.model_label.field_name\" for fields attached to\n        models.\n        \"\"\"",
+            "name": "__str__",
+            "namespace": "django.db.models.fields.Field.__str__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Display the module, class, and name of the field.\"\"\"",
+            "name": "__repr__",
+            "namespace": "django.db.models.fields.Field.__repr__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "check",
+            "namespace": "django.db.models.fields.Field.check",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Check if field name is valid, i.e. 1) does not end with an\n        underscore, 2) does not contain \"__\" and 3) is not \"pk\".\n        \"\"\"",
+            "name": "_check_field_name",
+            "namespace": "django.db.models.fields.Field._check_field_name",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_choices_is_value",
+            "namespace": "django.db.models.fields.Field._choices_is_value",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_check_choices",
+            "namespace": "django.db.models.fields.Field._check_choices",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_check_db_index",
+            "namespace": "django.db.models.fields.Field._check_db_index",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_check_null_allowed_for_primary_keys",
+            "namespace": "django.db.models.fields.Field._check_null_allowed_for_primary_keys",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_check_backend_specific_checks",
+            "namespace": "django.db.models.fields.Field._check_backend_specific_checks",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_check_validators",
+            "namespace": "django.db.models.fields.Field._check_validators",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_check_deprecation_details",
+            "namespace": "django.db.models.fields.Field._check_deprecation_details",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_col",
+            "namespace": "django.db.models.fields.Field.get_col",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "cached_col",
+            "namespace": "django.db.models.fields.Field.cached_col",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Custom format for select clauses. For example, GIS columns need to be\n        selected as AsText(table.col) on MySQL as the table.col data can't be\n        used by Django.\n        \"\"\"",
+            "name": "select_format",
+            "namespace": "django.db.models.fields.Field.select_format",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return enough information to recreate the field as a 4-tuple:\n\n         * The name of the field on the model, if contribute_to_class() has\n           been run.\n         * The import path of the field, including the class, e.g.\n           django.db.models.IntegerField. This should be the most portable\n           version, so less specific may be better.\n         * A list of positional arguments.\n         * A dict of keyword arguments.\n\n        Note that the positional or keyword arguments must contain values of\n        the following types (including inner values of collection types):\n\n         * None, bool, str, int, float, complex, set, frozenset, list, tuple,\n           dict\n         * UUID\n         * datetime.datetime (naive), datetime.date\n         * top-level classes, top-level functions - will be referenced by their\n           full import path\n         * Storage instances - these have their own deconstruct() method\n\n        This is because the values here must be serialized into a text format\n        (possibly new Python code, possibly JSON) and these are the only types\n        with encoding handlers defined.\n\n        There's no need to return the exact way the field was instantiated this\n        time, just ensure that the resulting field is the same - prefer keyword\n        arguments over positional ones, and omit parameters with their default\n        values.\n        \"\"\"",
+            "name": "deconstruct",
+            "namespace": "django.db.models.fields.Field.deconstruct",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Uses deconstruct() to clone a new copy of this Field.\n        Will not preserve any class attachments/attribute names.\n        \"\"\"",
+            "name": "clone",
+            "namespace": "django.db.models.fields.Field.clone",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__eq__",
+            "namespace": "django.db.models.fields.Field.__eq__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__lt__",
+            "namespace": "django.db.models.fields.Field.__lt__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__hash__",
+            "namespace": "django.db.models.fields.Field.__hash__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__deepcopy__",
+            "namespace": "django.db.models.fields.Field.__deepcopy__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__copy__",
+            "namespace": "django.db.models.fields.Field.__copy__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Pickling should return the model._meta.fields instance of the field,\n        not a new copy of that field. So, use the app registry to load the\n        model and then the field back.\n        \"\"\"",
+            "name": "__reduce__",
+            "namespace": "django.db.models.fields.Field.__reduce__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Hook to generate new PK values on save. This method is called when\n        saving instances with no primary key value set. If this method returns\n        something else than None, then the returned value is used when saving\n        the new instance.\n        \"\"\"",
+            "name": "get_pk_value_on_save",
+            "namespace": "django.db.models.fields.Field.get_pk_value_on_save",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Convert the input value into the expected Python data type, raising\n        django.core.exceptions.ValidationError if the data can't be converted.\n        Return the converted value. Subclasses should override this.\n        \"\"\"",
+            "name": "to_python",
+            "namespace": "django.db.models.fields.Field.to_python",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Some validators can't be created at field initialization time.\n        This method provides a way to delay their creation until required.\n        \"\"\"",
+            "name": "validators",
+            "namespace": "django.db.models.fields.Field.validators",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "run_validators",
+            "namespace": "django.db.models.fields.Field.run_validators",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Validate value and raise ValidationError if necessary. Subclasses\n        should override this to provide validation logic.\n        \"\"\"",
+            "name": "validate",
+            "namespace": "django.db.models.fields.Field.validate",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Convert the value's type and run validation. Validation errors\n        from to_python() and validate() are propagated. Return the correct\n        value if no error is raised.\n        \"\"\"",
+            "name": "clean",
+            "namespace": "django.db.models.fields.Field.clean",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "db_type_parameters",
+            "namespace": "django.db.models.fields.Field.db_type_parameters",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return the database column check constraint for this field, for the\n        provided connection. Works the same way as db_type() for the case that\n        get_internal_type() does not map to a preexisting model field.\n        \"\"\"",
+            "name": "db_check",
+            "namespace": "django.db.models.fields.Field.db_check",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return the database column data type for this field, for the provided\n        connection.\n        \"\"\"",
+            "name": "db_type",
+            "namespace": "django.db.models.fields.Field.db_type",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return the data type that a related field pointing to this field should\n        use. For example, this method is called by ForeignKey and OneToOneField\n        to determine its data type.\n        \"\"\"",
+            "name": "rel_db_type",
+            "namespace": "django.db.models.fields.Field.rel_db_type",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return the data type to use in the Cast() function.\"\"\"",
+            "name": "cast_db_type",
+            "namespace": "django.db.models.fields.Field.cast_db_type",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Extension of db_type(), providing a range of different return values\n        (type, checks). This will look at db_type(), allowing custom model\n        fields to override it.\n        \"\"\"",
+            "name": "db_parameters",
+            "namespace": "django.db.models.fields.Field.db_parameters",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "db_type_suffix",
+            "namespace": "django.db.models.fields.Field.db_type_suffix",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_db_converters",
+            "namespace": "django.db.models.fields.Field.get_db_converters",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "unique",
+            "namespace": "django.db.models.fields.Field.unique",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "db_tablespace",
+            "namespace": "django.db.models.fields.Field.db_tablespace",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Private API intended only to be used by Django itself. Currently only\n        the PostgreSQL backend supports returning multiple fields on a model.\n        \"\"\"",
+            "name": "db_returning",
+            "namespace": "django.db.models.fields.Field.db_returning",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "set_attributes_from_name",
+            "namespace": "django.db.models.fields.Field.set_attributes_from_name",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Register the field with the model class it belongs to.\n\n        If private_only is True, create a separate instance of this field\n        for every subclass of cls, even if cls is not an abstract model.\n        \"\"\"",
+            "name": "contribute_to_class",
+            "namespace": "django.db.models.fields.Field.contribute_to_class",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return a dict that when passed as kwargs to self.model.filter(), would\n        yield all instances having the same value for this field as obj has.\n        \"\"\"",
+            "name": "get_filter_kwargs_for_object",
+            "namespace": "django.db.models.fields.Field.get_filter_kwargs_for_object",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_attname",
+            "namespace": "django.db.models.fields.Field.get_attname",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_attname_column",
+            "namespace": "django.db.models.fields.Field.get_attname_column",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_internal_type",
+            "namespace": "django.db.models.fields.Field.get_internal_type",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return field's value just before saving.\"\"\"",
+            "name": "pre_save",
+            "namespace": "django.db.models.fields.Field.pre_save",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Perform preliminary non-db specific value checks and conversions.\"\"\"",
+            "name": "get_prep_value",
+            "namespace": "django.db.models.fields.Field.get_prep_value",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return field's value prepared for interacting with the database backend.\n\n        Used by the default implementations of get_db_prep_save().\n        \"\"\"",
+            "name": "get_db_prep_value",
+            "namespace": "django.db.models.fields.Field.get_db_prep_value",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return field's value prepared for saving into a database.\"\"\"",
+            "name": "get_db_prep_save",
+            "namespace": "django.db.models.fields.Field.get_db_prep_save",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return a boolean of whether this field has a default value.\"\"\"",
+            "name": "has_default",
+            "namespace": "django.db.models.fields.Field.has_default",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return the default value for this field.\"\"\"",
+            "name": "get_default",
+            "namespace": "django.db.models.fields.Field.get_default",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_get_default",
+            "namespace": "django.db.models.fields.Field._get_default",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return choices with a default blank choices included, for use\n        as <select> choices for this field.\n        \"\"\"",
+            "name": "get_choices",
+            "namespace": "django.db.models.fields.Field.get_choices",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return a string value of this field from the passed obj.\n        This is used by the serialization framework.\n        \"\"\"",
+            "name": "value_to_string",
+            "namespace": "django.db.models.fields.Field.value_to_string",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Flattened version of choices tuple.\"\"\"",
+            "name": "_get_flatchoices",
+            "namespace": "django.db.models.fields.Field._get_flatchoices",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "save_form_data",
+            "namespace": "django.db.models.fields.Field.save_form_data",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return a django.forms.Field instance for this field.\"\"\"",
+            "name": "formfield",
+            "namespace": "django.db.models.fields.Field.formfield",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return the value of this field in the given model instance.\"\"\"",
+            "name": "value_from_object",
+            "namespace": "django.db.models.fields.Field.value_from_object",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

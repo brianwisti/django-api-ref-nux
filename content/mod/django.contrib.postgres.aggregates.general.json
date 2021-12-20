@@ -5,43 +5,87 @@
         {
             "docstring": "",
             "name": "DeprecatedConvertValueMixin",
-            "namespace": "django.contrib.postgres.aggregates.general.DeprecatedConvertValueMixin"
+            "namespace": "django.contrib.postgres.aggregates.general.DeprecatedConvertValueMixin",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.postgres.aggregates.general.DeprecatedConvertValueMixin.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "convert_value",
+                    "namespace": "django.contrib.postgres.aggregates.general.DeprecatedConvertValueMixin.convert_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "ArrayAgg",
-            "namespace": "django.contrib.postgres.aggregates.general.ArrayAgg"
+            "namespace": "django.contrib.postgres.aggregates.general.ArrayAgg",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "output_field",
+                    "namespace": "django.contrib.postgres.aggregates.general.ArrayAgg.output_field",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "BitAnd",
-            "namespace": "django.contrib.postgres.aggregates.general.BitAnd"
+            "namespace": "django.contrib.postgres.aggregates.general.BitAnd",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "BitOr",
-            "namespace": "django.contrib.postgres.aggregates.general.BitOr"
+            "namespace": "django.contrib.postgres.aggregates.general.BitOr",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "BoolAnd",
-            "namespace": "django.contrib.postgres.aggregates.general.BoolAnd"
+            "namespace": "django.contrib.postgres.aggregates.general.BoolAnd",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "BoolOr",
-            "namespace": "django.contrib.postgres.aggregates.general.BoolOr"
+            "namespace": "django.contrib.postgres.aggregates.general.BoolOr",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "JSONBAgg",
-            "namespace": "django.contrib.postgres.aggregates.general.JSONBAgg"
+            "namespace": "django.contrib.postgres.aggregates.general.JSONBAgg",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "StringAgg",
-            "namespace": "django.contrib.postgres.aggregates.general.StringAgg"
+            "namespace": "django.contrib.postgres.aggregates.general.StringAgg",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.postgres.aggregates.general.StringAgg.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.postgres.aggregates"
 }

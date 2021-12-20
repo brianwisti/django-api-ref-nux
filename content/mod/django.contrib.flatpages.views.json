@@ -2,5 +2,23 @@
     "namespace": "django.contrib.flatpages.views",
     "docstring": "",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Public interface to the flat page view.\n\n    Models: `flatpages.flatpages`\n    Templates: Uses the template defined by the ``template_name`` field,\n        or :template:`flatpages/default.html` if template_name is not defined.\n    Context:\n        flatpage\n            `flatpages.flatpages` object\n    \"\"\"",
+            "name": "flatpage",
+            "namespace": "django.contrib.flatpages.views.flatpage",
+            "class_name": "",
+            "module_name": "django.contrib.flatpages.views",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Internal interface to the flat page view.\n    \"\"\"",
+            "name": "render_flatpage",
+            "namespace": "django.contrib.flatpages.views.render_flatpage",
+            "class_name": "",
+            "module_name": "django.contrib.flatpages.views",
+            "package_name": ""
+        }
+    ],
     "package_name": "django.contrib.flatpages"
 }

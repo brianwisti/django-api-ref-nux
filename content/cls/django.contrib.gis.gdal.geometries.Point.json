@@ -3,5 +3,55 @@
     "name": "Point",
     "namespace": "django.contrib.gis.gdal.geometries.Point",
     "module_name": "django.contrib.gis.gdal.geometries",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "_geos_ptr",
+            "namespace": "django.contrib.gis.gdal.geometries.Point._geos_ptr",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_create_empty",
+            "namespace": "django.contrib.gis.gdal.geometries.Point._create_empty",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Return the X coordinate for this Point.\"",
+            "name": "x",
+            "namespace": "django.contrib.gis.gdal.geometries.Point.x",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Return the Y coordinate for this Point.\"",
+            "name": "y",
+            "namespace": "django.contrib.gis.gdal.geometries.Point.y",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Return the Z coordinate for this Point.\"",
+            "name": "z",
+            "namespace": "django.contrib.gis.gdal.geometries.Point.z",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Return the tuple of this point.\"",
+            "name": "tuple",
+            "namespace": "django.contrib.gis.gdal.geometries.Point.tuple",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

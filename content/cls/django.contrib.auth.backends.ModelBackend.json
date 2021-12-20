@@ -3,5 +3,103 @@
     "name": "ModelBackend",
     "namespace": "django.contrib.auth.backends.ModelBackend",
     "module_name": "django.contrib.auth.backends",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "authenticate",
+            "namespace": "django.contrib.auth.backends.ModelBackend.authenticate",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Reject users with is_active=False. Custom user models that don't have\n        that attribute are allowed.\n        \"\"\"",
+            "name": "user_can_authenticate",
+            "namespace": "django.contrib.auth.backends.ModelBackend.user_can_authenticate",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_get_user_permissions",
+            "namespace": "django.contrib.auth.backends.ModelBackend._get_user_permissions",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_get_group_permissions",
+            "namespace": "django.contrib.auth.backends.ModelBackend._get_group_permissions",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return the permissions of `user_obj` from `from_name`. `from_name` can\n        be either \"group\" or \"user\" to return permissions from\n        `_get_group_permissions` or `_get_user_permissions` respectively.\n        \"\"\"",
+            "name": "_get_permissions",
+            "namespace": "django.contrib.auth.backends.ModelBackend._get_permissions",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return a set of permission strings the user `user_obj` has from their\n        `user_permissions`.\n        \"\"\"",
+            "name": "get_user_permissions",
+            "namespace": "django.contrib.auth.backends.ModelBackend.get_user_permissions",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return a set of permission strings the user `user_obj` has from the\n        groups they belong.\n        \"\"\"",
+            "name": "get_group_permissions",
+            "namespace": "django.contrib.auth.backends.ModelBackend.get_group_permissions",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_all_permissions",
+            "namespace": "django.contrib.auth.backends.ModelBackend.get_all_permissions",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "has_perm",
+            "namespace": "django.contrib.auth.backends.ModelBackend.has_perm",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return True if user_obj has any permissions in the given app_label.\n        \"\"\"",
+            "name": "has_module_perms",
+            "namespace": "django.contrib.auth.backends.ModelBackend.has_module_perms",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return users that have permission \"perm\". By default, filter out\n        inactive users and include superusers.\n        \"\"\"",
+            "name": "with_perm",
+            "namespace": "django.contrib.auth.backends.ModelBackend.with_perm",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_user",
+            "namespace": "django.contrib.auth.backends.ModelBackend.get_user",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

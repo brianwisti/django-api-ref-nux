@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Shortcut to transform a model from old_model into new_model\n\n        This follows the correct procedure to perform non-rename or column\n        addition operations based on SQLite's documentation\n\n        https://www.sqlite.org/lang_altertable.html#caution\n\n        The essential steps are:\n          1. Create a table with the updated definition called \"new__app_model\"\n          2. Copy the data from the existing \"app_model\" table to the new table\n          3. Drop the \"app_model\" table\n          4. Rename the \"new__app_model\" table to \"app_model\"\n          5. Restore any index of the previous \"app_model\" table.\n        \"\"\"",
+    "name": "_remake_table",
+    "namespace": "django.db.backends.sqlite3.schema.DatabaseSchemaEditor._remake_table",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

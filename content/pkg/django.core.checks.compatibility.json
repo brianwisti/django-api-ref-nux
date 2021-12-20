@@ -2,11 +2,22 @@
     "name": "django.core.checks.compatibility",
     "docstring": "",
     "package_name": "django.core.checks",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.core.checks.compatibility.django_4_0",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "check_csrf_trusted_origins",
+                    "namespace": "django.core.checks.compatibility.django_4_0.check_csrf_trusted_origins",
+                    "class_name": "",
+                    "module_name": "django.core.checks.compatibility.django_4_0",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.core.checks.compatibility"
         }
     ],

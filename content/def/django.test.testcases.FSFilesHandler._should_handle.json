@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Check if the path should be handled. Ignore the path if:\n        * the host is provided as part of the base_url\n        * the request's path isn't under the media path (or equal)\n        \"\"\"",
+    "name": "_should_handle",
+    "namespace": "django.test.testcases.FSFilesHandler._should_handle",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

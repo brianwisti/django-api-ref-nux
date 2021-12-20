@@ -3,5 +3,47 @@
     "name": "GeometryCollection",
     "namespace": "django.contrib.gis.gdal.geometries.GeometryCollection",
     "module_name": "django.contrib.gis.gdal.geometries",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "\"Get the Geometry at the specified index.\"",
+            "name": "__getitem__",
+            "namespace": "django.contrib.gis.gdal.geometries.GeometryCollection.__getitem__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Return the number of geometries in this Geometry Collection.\"",
+            "name": "__len__",
+            "namespace": "django.contrib.gis.gdal.geometries.GeometryCollection.__len__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Add the geometry to this Geometry Collection.\"",
+            "name": "add",
+            "namespace": "django.contrib.gis.gdal.geometries.GeometryCollection.add",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Return the number of Points in this Geometry Collection.\"",
+            "name": "point_count",
+            "namespace": "django.contrib.gis.gdal.geometries.GeometryCollection.point_count",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Return a tuple representation of this Geometry Collection.\"",
+            "name": "tuple",
+            "namespace": "django.contrib.gis.gdal.geometries.GeometryCollection.tuple",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Set a bunch of values in the cache at once from a dict of key/value\n        pairs.  For certain backends (memcached), this is much more efficient\n        than calling set() multiple times.\n\n        If timeout is given, use that timeout for the key; otherwise use the\n        default cache timeout.\n\n        On backends that support it, return a list of keys that failed\n        insertion, or an empty list if all keys were inserted successfully.\n        \"\"\"",
+    "name": "set_many",
+    "namespace": "django.core.cache.backends.base.BaseCache.set_many",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

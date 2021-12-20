@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Assert that two URLs are the same, ignoring the order of query string\n        parameters except for parameters with the same name.\n\n        For example, /path/?x=1&y=2 is equal to /path/?y=2&x=1, but\n        /path/?a=1&a=2 isn't equal to /path/?a=2&a=1.\n        \"\"\"",
+    "name": "assertURLEqual",
+    "namespace": "django.test.testcases.SimpleTestCase.assertURLEqual",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Escape all the HTML/XML special characters with their unicode escapes, so\n    value is safe to be output anywhere except for inside a tag attribute. Wrap\n    the escaped JSON in a script tag.\n    \"\"\"",
+    "name": "json_script",
+    "namespace": "django.utils.html.json_script",
+    "class_name": "",
+    "module_name": "django.utils.html",
+    "package_name": ""
+}

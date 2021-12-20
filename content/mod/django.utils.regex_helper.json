@@ -5,17 +5,78 @@
         {
             "docstring": "\"\"\"Represent multiple possibilities at this point in a pattern string.\"\"\"",
             "name": "Choice",
-            "namespace": "django.utils.regex_helper.Choice"
+            "namespace": "django.utils.regex_helper.Choice",
+            "methods": []
         },
         {
             "docstring": "\"\"\"Represent a capturing group in the pattern string.\"\"\"",
             "name": "Group",
-            "namespace": "django.utils.regex_helper.Group"
+            "namespace": "django.utils.regex_helper.Group",
+            "methods": []
         },
         {
             "docstring": "\"\"\"Represent a non-capturing group in the pattern string.\"\"\"",
             "name": "NonCapture",
-            "namespace": "django.utils.regex_helper.NonCapture"
+            "namespace": "django.utils.regex_helper.NonCapture",
+            "methods": []
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "r\"\"\"\n    Given a reg-exp pattern, normalize it to an iterable of forms that\n    suffice for reverse matching. This does the following:\n\n    (1) For any repeating sections, keeps the minimum number of occurrences\n        permitted (this means zero for optional groups).\n    (2) If an optional group includes parameters, include one occurrence of\n        that group (along with the zero occurrence case from step (1)).\n    (3) Select the first (essentially an arbitrary) element from any character\n        class. Select an arbitrary character for any unordered class (e.g. '.'\n        or '\\w') in the pattern.\n    (4) Ignore look-ahead and look-behind assertions.\n    (5) Raise an error on any disjunctive ('|') constructs.\n\n    Django's URLs for forward resolving are either all positional arguments or\n    all keyword arguments. That is assumed here, as well. Although reverse\n    resolving can be done using positional args when keyword args are\n    specified, the two cannot be mixed in the same reverse() call.\n    \"\"\"",
+            "name": "normalize",
+            "namespace": "django.utils.regex_helper.normalize",
+            "class_name": "",
+            "module_name": "django.utils.regex_helper",
+            "package_name": ""
+        },
+        {
+            "docstring": "r\"\"\"\n    An iterator that yields the next character from \"pattern_iter\", respecting\n    escape sequences. An escaped character is replaced by a representative of\n    its class (e.g. \\w -> \"x\"). If the escaped character is one that is\n    skipped, it is not returned (the next character is returned instead).\n\n    Yield the next character, along with a boolean indicating whether it is a\n    raw (unescaped) character or not.\n    \"\"\"",
+            "name": "next_char",
+            "namespace": "django.utils.regex_helper.next_char",
+            "class_name": "",
+            "module_name": "django.utils.regex_helper",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    The iterator is currently inside a capturing group. Walk to the close of\n    this group, skipping over any nested groups and handling escaped\n    parentheses correctly.\n    \"\"\"",
+            "name": "walk_to_end",
+            "namespace": "django.utils.regex_helper.walk_to_end",
+            "class_name": "",
+            "module_name": "django.utils.regex_helper",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Parse a quantifier from the input, where \"ch\" is the first character in the\n    quantifier.\n\n    Return the minimum number of occurrences permitted by the quantifier and\n    either None or the next character from the input_iter if the next character\n    is not part of the quantifier.\n    \"\"\"",
+            "name": "get_quantifier",
+            "namespace": "django.utils.regex_helper.get_quantifier",
+            "class_name": "",
+            "module_name": "django.utils.regex_helper",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return True if the \"source\" contains an instance of \"inst\". False,\n    otherwise.\n    \"\"\"",
+            "name": "contains",
+            "namespace": "django.utils.regex_helper.contains",
+            "class_name": "",
+            "module_name": "django.utils.regex_helper",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Turn the given source sequence into a list of reg-exp possibilities and\n    their arguments. Return a list of strings and a list of argument lists.\n    Each of the two lists will be of the same length.\n    \"\"\"",
+            "name": "flatten_result",
+            "namespace": "django.utils.regex_helper.flatten_result",
+            "class_name": "",
+            "module_name": "django.utils.regex_helper",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Lazily compile a regex with flags.\"\"\"",
+            "name": "_lazy_re_compile",
+            "namespace": "django.utils.regex_helper._lazy_re_compile",
+            "class_name": "",
+            "module_name": "django.utils.regex_helper",
+            "package_name": ""
         }
     ],
     "package_name": "django.utils"

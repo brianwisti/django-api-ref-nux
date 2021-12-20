@@ -2,5 +2,71 @@
     "namespace": "django.core.management.utils",
     "docstring": "",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Friendly wrapper around Popen.\n\n    Return stdout output, stderr output, and OS status code.\n    \"\"\"",
+            "name": "popen_wrapper",
+            "namespace": "django.core.management.utils.popen_wrapper",
+            "class_name": "",
+            "module_name": "django.core.management.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Organize multiple extensions that are separated with commas or passed by\n    using --extension/-e multiple times.\n\n    For example: running 'django-admin makemessages -e js,txt -e xhtml -a'\n    would result in an extension list: ['.js', '.txt', '.xhtml']\n\n    >>> handle_extensions(['.html', 'html,js,py,py,py,.py', 'py,.py'])\n    {'.html', '.js', '.py'}\n    >>> handle_extensions(['.html, txt,.tpl'])\n    {'.html', '.tpl', '.txt'}\n    \"\"\"",
+            "name": "handle_extensions",
+            "namespace": "django.core.management.utils.handle_extensions",
+            "class_name": "",
+            "module_name": "django.core.management.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "find_command",
+            "namespace": "django.core.management.utils.find_command",
+            "class_name": "",
+            "module_name": "django.core.management.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return a 50 character random string usable as a SECRET_KEY setting value.\n    \"\"\"",
+            "name": "get_random_secret_key",
+            "namespace": "django.core.management.utils.get_random_secret_key",
+            "class_name": "",
+            "module_name": "django.core.management.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Parse a list of \"app_label.ModelName\" or \"app_label\" strings into actual\n    objects and return a two-element tuple:\n        (set of model classes, set of app_configs).\n    Raise a CommandError if some specified models or apps don't exist.\n    \"\"\"",
+            "name": "parse_apps_and_model_labels",
+            "namespace": "django.core.management.utils.parse_apps_and_model_labels",
+            "class_name": "",
+            "module_name": "django.core.management.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return the value of a command line option (which should include leading\n    dashes, e.g. '--testrunner') from an argument list. Return None if the\n    option wasn't passed or if the argument list couldn't be parsed.\n    \"\"\"",
+            "name": "get_command_line_option",
+            "namespace": "django.core.management.utils.get_command_line_option",
+            "class_name": "",
+            "module_name": "django.core.management.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Normalize an iterable of glob style patterns based on OS.\"\"\"",
+            "name": "normalize_path_patterns",
+            "namespace": "django.core.management.utils.normalize_path_patterns",
+            "class_name": "",
+            "module_name": "django.core.management.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Check if the given path should be ignored or not based on matching\n    one of the glob style `ignore_patterns`.\n    \"\"\"",
+            "name": "is_ignored_path",
+            "namespace": "django.core.management.utils.is_ignored_path",
+            "class_name": "",
+            "module_name": "django.core.management.utils",
+            "package_name": ""
+        }
+    ],
     "package_name": "django.core.management"
 }

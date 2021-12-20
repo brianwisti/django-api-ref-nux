@@ -2,11 +2,30 @@
     "name": "django.contrib.auth.handlers",
     "docstring": "",
     "package_name": "django.contrib.auth",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.contrib.auth.handlers.modwsgi",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Authenticate against Django's auth database.\n\n    mod_wsgi docs specify None, True, False as return value depending\n    on whether the user exists and authenticates.\n    \"\"\"",
+                    "name": "check_password",
+                    "namespace": "django.contrib.auth.handlers.modwsgi.check_password",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth.handlers.modwsgi",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Authorize a user based on groups\n    \"\"\"",
+                    "name": "groups_for_user",
+                    "namespace": "django.contrib.auth.handlers.modwsgi.groups_for_user",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth.handlers.modwsgi",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.auth.handlers"
         }
     ],

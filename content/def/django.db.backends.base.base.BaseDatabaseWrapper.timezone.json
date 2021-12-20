@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Return a tzinfo of the database connection time zone.\n\n        This is only used when time zone support is enabled. When a datetime is\n        read from the database, it is always returned in this time zone.\n\n        When the database backend supports time zones, it doesn't matter which\n        time zone Django uses, as long as aware datetimes are used everywhere.\n        Other users connecting to the database can choose their own time zone.\n\n        When the database backend doesn't support time zones, the time zone\n        Django uses may be constrained by the requirements of other users of\n        the database.\n        \"\"\"",
+    "name": "timezone",
+    "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.timezone",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

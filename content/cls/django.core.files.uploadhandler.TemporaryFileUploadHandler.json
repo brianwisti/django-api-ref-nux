@@ -3,5 +3,39 @@
     "name": "TemporaryFileUploadHandler",
     "namespace": "django.core.files.uploadhandler.TemporaryFileUploadHandler",
     "module_name": "django.core.files.uploadhandler",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "\"\"\"\n        Create the file object to append to as data is coming in.\n        \"\"\"",
+            "name": "new_file",
+            "namespace": "django.core.files.uploadhandler.TemporaryFileUploadHandler.new_file",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "receive_data_chunk",
+            "namespace": "django.core.files.uploadhandler.TemporaryFileUploadHandler.receive_data_chunk",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "file_complete",
+            "namespace": "django.core.files.uploadhandler.TemporaryFileUploadHandler.file_complete",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "upload_interrupted",
+            "namespace": "django.core.files.uploadhandler.TemporaryFileUploadHandler.upload_interrupted",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

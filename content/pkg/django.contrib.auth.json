@@ -2,96 +2,461 @@
     "name": "django.contrib.auth",
     "docstring": "",
     "package_name": "django.contrib",
+    "functions": [
+        {
+            "docstring": "",
+            "name": "load_backend",
+            "namespace": "django.contrib.auth.load_backend",
+            "class_name": "",
+            "module_name": "django.contrib.auth",
+            "package_name": "django.contrib.auth"
+        },
+        {
+            "docstring": "",
+            "name": "_get_backends",
+            "namespace": "django.contrib.auth._get_backends",
+            "class_name": "",
+            "module_name": "django.contrib.auth",
+            "package_name": "django.contrib.auth"
+        },
+        {
+            "docstring": "",
+            "name": "get_backends",
+            "namespace": "django.contrib.auth.get_backends",
+            "class_name": "",
+            "module_name": "django.contrib.auth",
+            "package_name": "django.contrib.auth"
+        },
+        {
+            "docstring": "\"\"\"\n    Clean a dictionary of credentials of potentially sensitive info before\n    sending to less secure functions.\n\n    Not comprehensive - intended for user_login_failed signal\n    \"\"\"",
+            "name": "_clean_credentials",
+            "namespace": "django.contrib.auth._clean_credentials",
+            "class_name": "",
+            "module_name": "django.contrib.auth",
+            "package_name": "django.contrib.auth"
+        },
+        {
+            "docstring": "",
+            "name": "_get_user_session_key",
+            "namespace": "django.contrib.auth._get_user_session_key",
+            "class_name": "",
+            "module_name": "django.contrib.auth",
+            "package_name": "django.contrib.auth"
+        },
+        {
+            "docstring": "\"\"\"\n    If the given credentials are valid, return a User object.\n    \"\"\"",
+            "name": "authenticate",
+            "namespace": "django.contrib.auth.authenticate",
+            "class_name": "",
+            "module_name": "django.contrib.auth",
+            "package_name": "django.contrib.auth"
+        },
+        {
+            "docstring": "\"\"\"\n    Persist a user id and a backend in the request. This way a user doesn't\n    have to reauthenticate on every request. Note that data set during\n    the anonymous session is retained when the user logs in.\n    \"\"\"",
+            "name": "login",
+            "namespace": "django.contrib.auth.login",
+            "class_name": "",
+            "module_name": "django.contrib.auth",
+            "package_name": "django.contrib.auth"
+        },
+        {
+            "docstring": "\"\"\"\n    Remove the authenticated user's ID from the request and flush their session\n    data.\n    \"\"\"",
+            "name": "logout",
+            "namespace": "django.contrib.auth.logout",
+            "class_name": "",
+            "module_name": "django.contrib.auth",
+            "package_name": "django.contrib.auth"
+        },
+        {
+            "docstring": "\"\"\"\n    Return the User model that is active in this project.\n    \"\"\"",
+            "name": "get_user_model",
+            "namespace": "django.contrib.auth.get_user_model",
+            "class_name": "",
+            "module_name": "django.contrib.auth",
+            "package_name": "django.contrib.auth"
+        },
+        {
+            "docstring": "\"\"\"\n    Return the user model instance associated with the given request session.\n    If no user is retrieved, return an instance of `AnonymousUser`.\n    \"\"\"",
+            "name": "get_user",
+            "namespace": "django.contrib.auth.get_user",
+            "class_name": "",
+            "module_name": "django.contrib.auth",
+            "package_name": "django.contrib.auth"
+        },
+        {
+            "docstring": "\"\"\"\n    Return the codename of the permission for the specified action.\n    \"\"\"",
+            "name": "get_permission_codename",
+            "namespace": "django.contrib.auth.get_permission_codename",
+            "class_name": "",
+            "module_name": "django.contrib.auth",
+            "package_name": "django.contrib.auth"
+        },
+        {
+            "docstring": "\"\"\"\n    Updating a user's password logs out all sessions for the user.\n\n    Take the current request and the updated user object from which the new\n    session hash will be derived and update the session hash appropriately to\n    prevent a password change from logging out the session from which the\n    password was changed.\n    \"\"\"",
+            "name": "update_session_auth_hash",
+            "namespace": "django.contrib.auth.update_session_auth_hash",
+            "class_name": "",
+            "module_name": "django.contrib.auth",
+            "package_name": "django.contrib.auth"
+        }
+    ],
     "classes": [],
     "modules": [
         {
             "namespace": "django.contrib.auth.signals",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.auth"
         },
         {
             "namespace": "django.contrib.auth.mixins",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.auth"
         },
         {
             "namespace": "django.contrib.auth.password_validation",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "get_default_password_validators",
+                    "namespace": "django.contrib.auth.password_validation.get_default_password_validators",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth.password_validation",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_password_validators",
+                    "namespace": "django.contrib.auth.password_validation.get_password_validators",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth.password_validation",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Validate whether the password meets all validator requirements.\n\n    If the password is valid, return ``None``.\n    If the password is invalid, raise ValidationError with all error messages.\n    \"\"\"",
+                    "name": "validate_password",
+                    "namespace": "django.contrib.auth.password_validation.validate_password",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth.password_validation",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Inform all validators that have implemented a password_changed() method\n    that the password has been changed.\n    \"\"\"",
+                    "name": "password_changed",
+                    "namespace": "django.contrib.auth.password_validation.password_changed",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth.password_validation",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return a list of all help texts of all configured validators.\n    \"\"\"",
+                    "name": "password_validators_help_texts",
+                    "namespace": "django.contrib.auth.password_validation.password_validators_help_texts",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth.password_validation",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return an HTML string with all help texts of all configured validators\n    in an <ul>.\n    \"\"\"",
+                    "name": "_password_validators_help_text_html",
+                    "namespace": "django.contrib.auth.password_validation._password_validators_help_text_html",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth.password_validation",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.auth"
         },
         {
             "namespace": "django.contrib.auth.models",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    A signal receiver which updates the last_login date for\n    the user logging in.\n    \"\"\"",
+                    "name": "update_last_login",
+                    "namespace": "django.contrib.auth.models.update_last_login",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth.models",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_user_get_permissions",
+                    "namespace": "django.contrib.auth.models._user_get_permissions",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth.models",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    A backend can raise `PermissionDenied` to short-circuit permission checking.\n    \"\"\"",
+                    "name": "_user_has_perm",
+                    "namespace": "django.contrib.auth.models._user_has_perm",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth.models",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    A backend can raise `PermissionDenied` to short-circuit permission checking.\n    \"\"\"",
+                    "name": "_user_has_module_perms",
+                    "namespace": "django.contrib.auth.models._user_has_module_perms",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth.models",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.auth"
         },
         {
             "namespace": "django.contrib.auth.validators",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.auth"
         },
         {
             "namespace": "django.contrib.auth.checks",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "check_user_model",
+                    "namespace": "django.contrib.auth.checks.check_user_model",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth.checks",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check_models_permissions",
+                    "namespace": "django.contrib.auth.checks.check_models_permissions",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth.checks",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.auth"
         },
         {
             "namespace": "django.contrib.auth.base_user",
             "docstring": "\"\"\"\nThis module allows importing AbstractBaseUser even when django.contrib.auth is\nnot in INSTALLED_APPS.\n\"\"\"",
+            "functions": [],
             "package_name": "django.contrib.auth"
         },
         {
             "namespace": "django.contrib.auth.tokens",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.auth"
         },
         {
             "namespace": "django.contrib.auth.apps",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.auth"
         },
         {
             "namespace": "django.contrib.auth.forms",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Perform case-insensitive comparison of two identifiers, using the\n    recommended algorithm from Unicode Technical Report 36, section\n    2.11.2(B)(2).\n    \"\"\"",
+                    "name": "_unicode_ci_compare",
+                    "namespace": "django.contrib.auth.forms._unicode_ci_compare",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth.forms",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.auth"
         },
         {
             "namespace": "django.contrib.auth.backends",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.auth"
         },
         {
             "namespace": "django.contrib.auth.context_processors",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Return context variables required by apps that use Django's authentication\n    system.\n\n    If there is no 'user' attribute in the request, use AnonymousUser (from\n    django.contrib.auth).\n    \"\"\"",
+                    "name": "auth",
+                    "namespace": "django.contrib.auth.context_processors.auth",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth.context_processors",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.auth"
         },
         {
             "namespace": "django.contrib.auth.admin",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.auth"
         },
         {
             "namespace": "django.contrib.auth.hashers",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Return True if this password wasn't generated by\n    User.set_unusable_password(), i.e. make_password(None).\n    \"\"\"",
+                    "name": "is_password_usable",
+                    "namespace": "django.contrib.auth.hashers.is_password_usable",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth.hashers",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return a boolean of whether the raw password matches the three\n    part encoded digest.\n\n    If setter is specified, it'll be called when you need to\n    regenerate the password.\n    \"\"\"",
+                    "name": "check_password",
+                    "namespace": "django.contrib.auth.hashers.check_password",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth.hashers",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Turn a plain-text password into a hash for database storage\n\n    Same as encode() but generate a new random salt. If password is None then\n    return a concatenation of UNUSABLE_PASSWORD_PREFIX and a random string,\n    which disallows logins. Additional random string reduces chances of gaining\n    access to staff or superuser accounts. See ticket #20079 for more info.\n    \"\"\"",
+                    "name": "make_password",
+                    "namespace": "django.contrib.auth.hashers.make_password",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth.hashers",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_hashers",
+                    "namespace": "django.contrib.auth.hashers.get_hashers",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth.hashers",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_hashers_by_algorithm",
+                    "namespace": "django.contrib.auth.hashers.get_hashers_by_algorithm",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth.hashers",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "reset_hashers",
+                    "namespace": "django.contrib.auth.hashers.reset_hashers",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth.hashers",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return an instance of a loaded password hasher.\n\n    If algorithm is 'default', return the default hasher. Lazily import hashers\n    specified in the project's settings file if needed.\n    \"\"\"",
+                    "name": "get_hasher",
+                    "namespace": "django.contrib.auth.hashers.get_hasher",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth.hashers",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return an instance of a loaded password hasher.\n\n    Identify hasher algorithm by examining encoded hash, and call\n    get_hasher() to return hasher. Raise ValueError if\n    algorithm cannot be identified, or if hasher is not loaded.\n    \"\"\"",
+                    "name": "identify_hasher",
+                    "namespace": "django.contrib.auth.hashers.identify_hasher",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth.hashers",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return the given hash, with only the first ``show`` number shown. The\n    rest are masked with ``char`` for security reasons.\n    \"\"\"",
+                    "name": "mask_hash",
+                    "namespace": "django.contrib.auth.hashers.mask_hash",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth.hashers",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "must_update_salt",
+                    "namespace": "django.contrib.auth.hashers.must_update_salt",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth.hashers",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.auth"
         },
         {
             "namespace": "django.contrib.auth.urls",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.auth"
         },
         {
             "namespace": "django.contrib.auth.middleware",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "get_user",
+                    "namespace": "django.contrib.auth.middleware.get_user",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth.middleware",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.auth"
         },
         {
             "namespace": "django.contrib.auth.views",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Log out the user if they are logged in. Then redirect to the login page.\n    \"\"\"",
+                    "name": "logout_then_login",
+                    "namespace": "django.contrib.auth.views.logout_then_login",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth.views",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Redirect the user to the login page, passing the given 'next' page.\n    \"\"\"",
+                    "name": "redirect_to_login",
+                    "namespace": "django.contrib.auth.views.redirect_to_login",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth.views",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.auth"
         },
         {
             "namespace": "django.contrib.auth.decorators",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Decorator for views that checks that the user passes the given test,\n    redirecting to the log-in page if necessary. The test should be a callable\n    that takes the user object and returns True if the user passes.\n    \"\"\"",
+                    "name": "user_passes_test",
+                    "namespace": "django.contrib.auth.decorators.user_passes_test",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth.decorators",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Decorator for views that checks that the user is logged in, redirecting\n    to the log-in page if necessary.\n    \"\"\"",
+                    "name": "login_required",
+                    "namespace": "django.contrib.auth.decorators.login_required",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth.decorators",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Decorator for views that checks whether a user has a particular permission\n    enabled, redirecting to the log-in page if necessary.\n    If the raise_exception parameter is given the PermissionDenied exception\n    is raised.\n    \"\"\"",
+                    "name": "permission_required",
+                    "namespace": "django.contrib.auth.decorators.permission_required",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth.decorators",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.auth"
         }
     ],
@@ -99,17 +464,61 @@
         {
             "name": "django.contrib.auth.migrations",
             "docstring": "",
-            "package_name": "django.contrib.auth"
+            "package_name": "django.contrib.auth",
+            "functions": []
         },
         {
             "name": "django.contrib.auth.management",
             "docstring": "\"\"\"\nCreates permissions for all installed apps that need permissions.\n\"\"\"",
-            "package_name": "django.contrib.auth"
+            "package_name": "django.contrib.auth",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Return (codename, name) for all permissions in the given opts.\n    \"\"\"",
+                    "name": "_get_all_permissions",
+                    "namespace": "django.contrib.auth.management._get_all_permissions",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth.management",
+                    "package_name": "django.contrib.auth.management"
+                },
+                {
+                    "docstring": "\"\"\"\n    Return (codename, name) for all autogenerated permissions.\n    By default, this is ('add', 'change', 'delete', 'view')\n    \"\"\"",
+                    "name": "_get_builtin_permissions",
+                    "namespace": "django.contrib.auth.management._get_builtin_permissions",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth.management",
+                    "package_name": "django.contrib.auth.management"
+                },
+                {
+                    "docstring": "",
+                    "name": "create_permissions",
+                    "namespace": "django.contrib.auth.management.create_permissions",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth.management",
+                    "package_name": "django.contrib.auth.management"
+                },
+                {
+                    "docstring": "\"\"\"\n    Return the current system user's username, or an empty string if the\n    username could not be determined.\n    \"\"\"",
+                    "name": "get_system_username",
+                    "namespace": "django.contrib.auth.management.get_system_username",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth.management",
+                    "package_name": "django.contrib.auth.management"
+                },
+                {
+                    "docstring": "\"\"\"\n    Try to determine the current system user's username to use as a default.\n\n    :param check_db: If ``True``, requires that the username does not match an\n        existing ``auth.User`` (otherwise returns an empty string).\n    :param database: The database where the unique check will be performed.\n    :returns: The username, or an empty string if no username can be\n        determined or the suggested username is already taken.\n    \"\"\"",
+                    "name": "get_default_username",
+                    "namespace": "django.contrib.auth.management.get_default_username",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth.management",
+                    "package_name": "django.contrib.auth.management"
+                }
+            ]
         },
         {
             "name": "django.contrib.auth.handlers",
             "docstring": "",
-            "package_name": "django.contrib.auth"
+            "package_name": "django.contrib.auth",
+            "functions": []
         }
     ]
 }

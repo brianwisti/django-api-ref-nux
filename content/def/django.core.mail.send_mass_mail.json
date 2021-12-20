@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Given a datatuple of (subject, message, from_email, recipient_list), send\n    each message to each recipient list. Return the number of emails sent.\n\n    If from_email is None, use the DEFAULT_FROM_EMAIL setting.\n    If auth_user and auth_password are set, use them to log in.\n    If auth_user is None, use the EMAIL_HOST_USER setting.\n    If auth_password is None, use the EMAIL_HOST_PASSWORD setting.\n\n    Note: The API for this method is frozen. New code wanting to extend the\n    functionality should use the EmailMessage class directly.\n    \"\"\"",
+    "name": "send_mass_mail",
+    "namespace": "django.core.mail.send_mass_mail",
+    "class_name": "",
+    "module_name": "django.core.mail",
+    "package_name": "django.core.mail"
+}

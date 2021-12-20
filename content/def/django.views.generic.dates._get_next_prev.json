@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Get the next or the previous valid date. The idea is to allow links on\n    month/day views to never be 404s by never providing a date that'll be\n    invalid for the given view.\n\n    This is a bit complicated since it handles different intervals of time,\n    hence the coupling to generic_view.\n\n    However in essence the logic comes down to:\n\n        * If allow_empty and allow_future are both true, this is easy: just\n          return the naive result (just the next/previous day/week/month,\n          regardless of object existence.)\n\n        * If allow_empty is true, allow_future is false, and the naive result\n          isn't in the future, then return it; otherwise return None.\n\n        * If allow_empty is false and allow_future is true, return the next\n          date *that contains a valid object*, even if it's in the future. If\n          there are no next objects, return None.\n\n        * If allow_empty is false and allow_future is false, return the next\n          date that contains a valid object. If that date is in the future, or\n          if there are no next objects, return None.\n    \"\"\"",
+    "name": "_get_next_prev",
+    "namespace": "django.views.generic.dates._get_next_prev",
+    "class_name": "",
+    "module_name": "django.views.generic.dates",
+    "package_name": ""
+}

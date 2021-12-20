@@ -3,5 +3,31 @@
     "name": "SQLiteCursorWrapper",
     "namespace": "django.db.backends.sqlite3.base.SQLiteCursorWrapper",
     "module_name": "django.db.backends.sqlite3.base",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "execute",
+            "namespace": "django.db.backends.sqlite3.base.SQLiteCursorWrapper.execute",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "executemany",
+            "namespace": "django.db.backends.sqlite3.base.SQLiteCursorWrapper.executemany",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "convert_query",
+            "namespace": "django.db.backends.sqlite3.base.SQLiteCursorWrapper.convert_query",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

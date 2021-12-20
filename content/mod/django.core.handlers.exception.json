@@ -2,5 +2,39 @@
     "namespace": "django.core.handlers.exception",
     "docstring": "",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Wrap the given get_response callable in exception-to-response conversion.\n\n    All exceptions will be converted. All known 4xx exceptions (Http404,\n    PermissionDenied, MultiPartParserError, SuspiciousOperation) will be\n    converted to the appropriate response, and all other exceptions will be\n    converted to 500 responses.\n\n    This decorator is automatically applied to all middleware to ensure that\n    no middleware leaks an exception and that the next middleware in the stack\n    can rely on getting a response instead of an exception.\n    \"\"\"",
+            "name": "convert_exception_to_response",
+            "namespace": "django.core.handlers.exception.convert_exception_to_response",
+            "class_name": "",
+            "module_name": "django.core.handlers.exception",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "response_for_exception",
+            "namespace": "django.core.handlers.exception.response_for_exception",
+            "class_name": "",
+            "module_name": "django.core.handlers.exception",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_exception_response",
+            "namespace": "django.core.handlers.exception.get_exception_response",
+            "class_name": "",
+            "module_name": "django.core.handlers.exception",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Processing for any otherwise uncaught exceptions (those that will\n    generate HTTP 500 responses).\n    \"\"\"",
+            "name": "handle_uncaught_exception",
+            "namespace": "django.core.handlers.exception.handle_uncaught_exception",
+            "class_name": "",
+            "module_name": "django.core.handlers.exception",
+            "package_name": ""
+        }
+    ],
     "package_name": "django.core.handlers"
 }

@@ -3,5 +3,23 @@
     "name": "XFrameOptionsMiddleware",
     "namespace": "django.middleware.clickjacking.XFrameOptionsMiddleware",
     "module_name": "django.middleware.clickjacking",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "process_response",
+            "namespace": "django.middleware.clickjacking.XFrameOptionsMiddleware.process_response",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Get the value to set for the X_FRAME_OPTIONS header. Use the value from\n        the X_FRAME_OPTIONS setting, or 'DENY' if not set.\n\n        This method can be overridden if needed, allowing it to vary based on\n        the request or response.\n        \"\"\"",
+            "name": "get_xframe_options_value",
+            "namespace": "django.middleware.clickjacking.XFrameOptionsMiddleware.get_xframe_options_value",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

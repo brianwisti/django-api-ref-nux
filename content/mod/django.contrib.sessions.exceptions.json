@@ -5,18 +5,22 @@
         {
             "docstring": "\"\"\"Invalid characters in session key\"\"\"",
             "name": "InvalidSessionKey",
-            "namespace": "django.contrib.sessions.exceptions.InvalidSessionKey"
+            "namespace": "django.contrib.sessions.exceptions.InvalidSessionKey",
+            "methods": []
         },
         {
             "docstring": "\"\"\"The session may be tampered with\"\"\"",
             "name": "SuspiciousSession",
-            "namespace": "django.contrib.sessions.exceptions.SuspiciousSession"
+            "namespace": "django.contrib.sessions.exceptions.SuspiciousSession",
+            "methods": []
         },
         {
             "docstring": "\"\"\"The session was interrupted.\"\"\"",
             "name": "SessionInterrupted",
-            "namespace": "django.contrib.sessions.exceptions.SessionInterrupted"
+            "namespace": "django.contrib.sessions.exceptions.SessionInterrupted",
+            "methods": []
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.sessions"
 }

@@ -3,5 +3,47 @@
     "name": "EngineHandler",
     "namespace": "django.template.utils.EngineHandler",
     "module_name": "django.template.utils",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "\"\"\"\n        templates is an optional list of template engine definitions\n        (structured like settings.TEMPLATES).\n        \"\"\"",
+            "name": "__init__",
+            "namespace": "django.template.utils.EngineHandler.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "templates",
+            "namespace": "django.template.utils.EngineHandler.templates",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__getitem__",
+            "namespace": "django.template.utils.EngineHandler.__getitem__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__iter__",
+            "namespace": "django.template.utils.EngineHandler.__iter__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "all",
+            "namespace": "django.template.utils.EngineHandler.all",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

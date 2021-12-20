@@ -2,5 +2,15 @@
     "namespace": "django.contrib.gis.utils.ogrinfo",
     "docstring": "\"\"\"\nThis module includes some utility functions for inspecting the layout\nof a GDAL data source -- the functionality is analogous to the output\nproduced by the `ogrinfo` utility.\n\"\"\"",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Walk the available layers in the supplied `data_source`, displaying\n    the fields for the first `num_features` features.\n    \"\"\"",
+            "name": "ogrinfo",
+            "namespace": "django.contrib.gis.utils.ogrinfo.ogrinfo",
+            "class_name": "",
+            "module_name": "django.contrib.gis.utils.ogrinfo",
+            "package_name": ""
+        }
+    ],
     "package_name": "django.contrib.gis.utils"
 }

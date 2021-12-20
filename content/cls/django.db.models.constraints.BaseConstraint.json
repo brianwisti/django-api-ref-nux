@@ -3,5 +3,63 @@
     "name": "BaseConstraint",
     "namespace": "django.db.models.constraints.BaseConstraint",
     "module_name": "django.db.models.constraints",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.db.models.constraints.BaseConstraint.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "contains_expressions",
+            "namespace": "django.db.models.constraints.BaseConstraint.contains_expressions",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "constraint_sql",
+            "namespace": "django.db.models.constraints.BaseConstraint.constraint_sql",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "create_sql",
+            "namespace": "django.db.models.constraints.BaseConstraint.create_sql",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "remove_sql",
+            "namespace": "django.db.models.constraints.BaseConstraint.remove_sql",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "deconstruct",
+            "namespace": "django.db.models.constraints.BaseConstraint.deconstruct",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "clone",
+            "namespace": "django.db.models.constraints.BaseConstraint.clone",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

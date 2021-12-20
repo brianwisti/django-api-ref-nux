@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Return a new list of the items in a shuffled order.\n\n        The `key` is a function that accepts an item in `items` and returns\n        a string unique for that item that can be viewed as a string id. The\n        order of the return value is deterministic. It depends on the seed\n        and key function but not on the original order.\n        \"\"\"",
+    "name": "shuffle",
+    "namespace": "django.test.runner.Shuffler.shuffle",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

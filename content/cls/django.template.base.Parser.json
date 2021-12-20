@@ -3,5 +3,119 @@
     "name": "Parser",
     "namespace": "django.template.base.Parser",
     "module_name": "django.template.base",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.template.base.Parser.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__repr__",
+            "namespace": "django.template.base.Parser.__repr__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Iterate through the parser tokens and compiles each one into a node.\n\n        If parse_until is provided, parsing will stop once one of the\n        specified tokens has been reached. This is formatted as a list of\n        tokens, e.g. ['elif', 'else', 'endif']. If no matching token is\n        reached, raise an exception with the unclosed block tag details.\n        \"\"\"",
+            "name": "parse",
+            "namespace": "django.template.base.Parser.parse",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "skip_past",
+            "namespace": "django.template.base.Parser.skip_past",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "extend_nodelist",
+            "namespace": "django.template.base.Parser.extend_nodelist",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return an exception annotated with the originating token. Since the\n        parser can be called recursively, check if a token is already set. This\n        ensures the innermost token is highlighted if an exception occurs,\n        e.g. a compile error within the body of an if statement.\n        \"\"\"",
+            "name": "error",
+            "namespace": "django.template.base.Parser.error",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "invalid_block_tag",
+            "namespace": "django.template.base.Parser.invalid_block_tag",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "unclosed_block_tag",
+            "namespace": "django.template.base.Parser.unclosed_block_tag",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "next_token",
+            "namespace": "django.template.base.Parser.next_token",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "prepend_token",
+            "namespace": "django.template.base.Parser.prepend_token",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "delete_first_token",
+            "namespace": "django.template.base.Parser.delete_first_token",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "add_library",
+            "namespace": "django.template.base.Parser.add_library",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Convenient wrapper for FilterExpression\n        \"\"\"",
+            "name": "compile_filter",
+            "namespace": "django.template.base.Parser.compile_filter",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "find_filter",
+            "namespace": "django.template.base.Parser.find_filter",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

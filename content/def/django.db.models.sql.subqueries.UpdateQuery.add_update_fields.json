@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Append a sequence of (field, model, value) triples to the internal list\n        that will be used to generate the UPDATE query. Might be more usefully\n        called add_update_targets() to hint at the extra information here.\n        \"\"\"",
+    "name": "add_update_fields",
+    "namespace": "django.db.models.sql.subqueries.UpdateQuery.add_update_fields",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

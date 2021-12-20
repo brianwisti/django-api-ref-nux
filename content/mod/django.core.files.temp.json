@@ -5,8 +5,51 @@
         {
             "docstring": "\"\"\"\n        Temporary file object constructor that supports reopening of the\n        temporary file in Windows.\n\n        Unlike tempfile.NamedTemporaryFile from the standard library,\n        __init__() doesn't support the 'delete', 'buffering', 'encoding', or\n        'newline' keyword arguments.\n        \"\"\"",
             "name": "TemporaryFile",
-            "namespace": "django.core.files.temp.TemporaryFile"
+            "namespace": "django.core.files.temp.TemporaryFile",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.core.files.temp.TemporaryFile.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "close",
+                    "namespace": "django.core.files.temp.TemporaryFile.close",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__del__",
+                    "namespace": "django.core.files.temp.TemporaryFile.__del__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__enter__",
+                    "namespace": "django.core.files.temp.TemporaryFile.__enter__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__exit__",
+                    "namespace": "django.core.files.temp.TemporaryFile.__exit__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.core.files"
 }

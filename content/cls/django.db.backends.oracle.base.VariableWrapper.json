@@ -3,5 +3,39 @@
     "name": "VariableWrapper",
     "namespace": "django.db.backends.oracle.base.VariableWrapper",
     "module_name": "django.db.backends.oracle.base",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.db.backends.oracle.base.VariableWrapper.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "bind_parameter",
+            "namespace": "django.db.backends.oracle.base.VariableWrapper.bind_parameter",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__getattr__",
+            "namespace": "django.db.backends.oracle.base.VariableWrapper.__getattr__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__setattr__",
+            "namespace": "django.db.backends.oracle.base.VariableWrapper.__setattr__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

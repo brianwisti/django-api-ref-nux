@@ -3,5 +3,23 @@
     "name": "BaseYearArchiveView",
     "namespace": "django.views.generic.dates.BaseYearArchiveView",
     "module_name": "django.views.generic.dates",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "\"\"\"Return (date_list, items, extra_context) for this request.\"\"\"",
+            "name": "get_dated_items",
+            "namespace": "django.views.generic.dates.BaseYearArchiveView.get_dated_items",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return `True` if this view should contain the full list of objects in\n        the given year.\n        \"\"\"",
+            "name": "get_make_object_list",
+            "namespace": "django.views.generic.dates.BaseYearArchiveView.get_make_object_list",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

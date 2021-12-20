@@ -3,5 +3,95 @@
     "name": "ModelState",
     "namespace": "django.db.migrations.state.ModelState",
     "module_name": "django.db.migrations.state",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.db.migrations.state.ModelState.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "name_lower",
+            "namespace": "django.db.migrations.state.ModelState.name_lower",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_field",
+            "namespace": "django.db.migrations.state.ModelState.get_field",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Given a model, return a ModelState representing it.\"\"\"",
+            "name": "from_model",
+            "namespace": "django.db.migrations.state.ModelState.from_model",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Deep-clone the managers using deconstruction.\"\"\"",
+            "name": "construct_managers",
+            "namespace": "django.db.migrations.state.ModelState.construct_managers",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return an exact copy of this ModelState.\"\"\"",
+            "name": "clone",
+            "namespace": "django.db.migrations.state.ModelState.clone",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Create a Model object from our current state into the given apps.\"\"\"",
+            "name": "render",
+            "namespace": "django.db.migrations.state.ModelState.render",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_index_by_name",
+            "namespace": "django.db.migrations.state.ModelState.get_index_by_name",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_constraint_by_name",
+            "namespace": "django.db.migrations.state.ModelState.get_constraint_by_name",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__repr__",
+            "namespace": "django.db.migrations.state.ModelState.__repr__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__eq__",
+            "namespace": "django.db.migrations.state.ModelState.__eq__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

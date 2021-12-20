@@ -5,18 +5,113 @@
         {
             "docstring": "\"\"\"\n    Common methods used by WSGI and ASGI handlers.\n    \"\"\"",
             "name": "StaticFilesHandlerMixin",
-            "namespace": "django.contrib.staticfiles.handlers.StaticFilesHandlerMixin"
+            "namespace": "django.contrib.staticfiles.handlers.StaticFilesHandlerMixin",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "load_middleware",
+                    "namespace": "django.contrib.staticfiles.handlers.StaticFilesHandlerMixin.load_middleware",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_base_url",
+                    "namespace": "django.contrib.staticfiles.handlers.StaticFilesHandlerMixin.get_base_url",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Check if the path should be handled. Ignore the path if:\n        * the host is provided as part of the base_url\n        * the request's path isn't under the media path (or equal)\n        \"\"\"",
+                    "name": "_should_handle",
+                    "namespace": "django.contrib.staticfiles.handlers.StaticFilesHandlerMixin._should_handle",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the relative path to the media file on disk for the given URL.\n        \"\"\"",
+                    "name": "file_path",
+                    "namespace": "django.contrib.staticfiles.handlers.StaticFilesHandlerMixin.file_path",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Serve the request path.\"\"\"",
+                    "name": "serve",
+                    "namespace": "django.contrib.staticfiles.handlers.StaticFilesHandlerMixin.serve",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_response",
+                    "namespace": "django.contrib.staticfiles.handlers.StaticFilesHandlerMixin.get_response",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_response_async",
+                    "namespace": "django.contrib.staticfiles.handlers.StaticFilesHandlerMixin.get_response_async",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    WSGI middleware that intercepts calls to the static files directory, as\n    defined by the STATIC_URL setting, and serves those files.\n    \"\"\"",
             "name": "StaticFilesHandler",
-            "namespace": "django.contrib.staticfiles.handlers.StaticFilesHandler"
+            "namespace": "django.contrib.staticfiles.handlers.StaticFilesHandler",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.staticfiles.handlers.StaticFilesHandler.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__call__",
+                    "namespace": "django.contrib.staticfiles.handlers.StaticFilesHandler.__call__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    ASGI application which wraps another and intercepts requests for static\n    files, passing them off to Django's static file serving.\n    \"\"\"",
             "name": "ASGIStaticFilesHandler",
-            "namespace": "django.contrib.staticfiles.handlers.ASGIStaticFilesHandler"
+            "namespace": "django.contrib.staticfiles.handlers.ASGIStaticFilesHandler",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.staticfiles.handlers.ASGIStaticFilesHandler.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__call__",
+                    "namespace": "django.contrib.staticfiles.handlers.ASGIStaticFilesHandler.__call__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.staticfiles"
 }

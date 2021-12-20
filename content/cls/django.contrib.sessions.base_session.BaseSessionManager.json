@@ -3,5 +3,23 @@
     "name": "BaseSessionManager",
     "namespace": "django.contrib.sessions.base_session.BaseSessionManager",
     "module_name": "django.contrib.sessions.base_session",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "\"\"\"\n        Return the given session dictionary serialized and encoded as a string.\n        \"\"\"",
+            "name": "encode",
+            "namespace": "django.contrib.sessions.base_session.BaseSessionManager.encode",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "save",
+            "namespace": "django.contrib.sessions.base_session.BaseSessionManager.save",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

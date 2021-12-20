@@ -2,16 +2,28 @@
     "name": "django.contrib.syndication",
     "docstring": "",
     "package_name": "django.contrib",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.contrib.syndication.apps",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.syndication"
         },
         {
             "namespace": "django.contrib.syndication.views",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "add_domain",
+                    "namespace": "django.contrib.syndication.views.add_domain",
+                    "class_name": "",
+                    "module_name": "django.contrib.syndication.views",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.syndication"
         }
     ],

@@ -5,7 +5,59 @@
         {
             "docstring": "",
             "name": "LocalizeNode",
-            "namespace": "django.templatetags.l10n.LocalizeNode"
+            "namespace": "django.templatetags.l10n.LocalizeNode",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.templatetags.l10n.LocalizeNode.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.templatetags.l10n.LocalizeNode.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "render",
+                    "namespace": "django.templatetags.l10n.LocalizeNode.render",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Force a value to be rendered as a localized value,\n    regardless of the value of ``settings.USE_L10N``.\n    \"\"\"",
+            "name": "localize",
+            "namespace": "django.templatetags.l10n.localize",
+            "class_name": "",
+            "module_name": "django.templatetags.l10n",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Force a value to be rendered as a non-localized value,\n    regardless of the value of ``settings.USE_L10N``.\n    \"\"\"",
+            "name": "unlocalize",
+            "namespace": "django.templatetags.l10n.unlocalize",
+            "class_name": "",
+            "module_name": "django.templatetags.l10n",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Force or prevents localization of values, regardless of the value of\n    `settings.USE_L10N`.\n\n    Sample usage::\n\n        {% localize off %}\n            var pi = {{ 3.1415 }};\n        {% endlocalize %}\n    \"\"\"",
+            "name": "localize_tag",
+            "namespace": "django.templatetags.l10n.localize_tag",
+            "class_name": "",
+            "module_name": "django.templatetags.l10n",
+            "package_name": ""
         }
     ],
     "package_name": "django.templatetags"

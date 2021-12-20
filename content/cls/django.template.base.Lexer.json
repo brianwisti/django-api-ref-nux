@@ -3,5 +3,39 @@
     "name": "Lexer",
     "namespace": "django.template.base.Lexer",
     "module_name": "django.template.base",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.template.base.Lexer.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__repr__",
+            "namespace": "django.template.base.Lexer.__repr__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return a list of tokens from a given template_string.\n        \"\"\"",
+            "name": "tokenize",
+            "namespace": "django.template.base.Lexer.tokenize",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Convert the given token string into a new Token object and return it.\n        If in_tag is True, we are processing something that matched a tag,\n        otherwise it should be treated as a literal string.\n        \"\"\"",
+            "name": "create_token",
+            "namespace": "django.template.base.Lexer.create_token",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

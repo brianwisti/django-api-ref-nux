@@ -1,0 +1,8 @@
+{
+    "docstring": "r\"\"\"\n    Given a reg-exp pattern, normalize it to an iterable of forms that\n    suffice for reverse matching. This does the following:\n\n    (1) For any repeating sections, keeps the minimum number of occurrences\n        permitted (this means zero for optional groups).\n    (2) If an optional group includes parameters, include one occurrence of\n        that group (along with the zero occurrence case from step (1)).\n    (3) Select the first (essentially an arbitrary) element from any character\n        class. Select an arbitrary character for any unordered class (e.g. '.'\n        or '\\w') in the pattern.\n    (4) Ignore look-ahead and look-behind assertions.\n    (5) Raise an error on any disjunctive ('|') constructs.\n\n    Django's URLs for forward resolving are either all positional arguments or\n    all keyword arguments. That is assumed here, as well. Although reverse\n    resolving can be done using positional args when keyword args are\n    specified, the two cannot be mixed in the same reverse() call.\n    \"\"\"",
+    "name": "normalize",
+    "namespace": "django.utils.regex_helper.normalize",
+    "class_name": "",
+    "module_name": "django.utils.regex_helper",
+    "package_name": ""
+}

@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Try to do a 'xml-comparison' of want and got. Plain string comparison\n    doesn't always work because, for example, attribute ordering should not be\n    important. Ignore comment nodes, processing instructions, document type\n    node, and leading and trailing whitespaces.\n\n    Based on https://github.com/lxml/lxml/blob/master/src/lxml/doctestcompare.py\n    \"\"\"",
+    "name": "compare_xml",
+    "namespace": "django.test.utils.compare_xml",
+    "class_name": "",
+    "module_name": "django.test.utils",
+    "package_name": ""
+}

@@ -2,5 +2,31 @@
     "namespace": "django.contrib.admin.decorators",
     "docstring": "",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Conveniently add attributes to an action function::\n\n        @admin.action(\n            permissions=['publish'],\n            description='Mark selected stories as published',\n        )\n        def make_published(self, request, queryset):\n            queryset.update(status='p')\n\n    This is equivalent to setting some attributes (with the original, longer\n    names) on the function directly::\n\n        def make_published(self, request, queryset):\n            queryset.update(status='p')\n        make_published.allowed_permissions = ['publish']\n        make_published.short_description = 'Mark selected stories as published'\n    \"\"\"",
+            "name": "action",
+            "namespace": "django.contrib.admin.decorators.action",
+            "class_name": "",
+            "module_name": "django.contrib.admin.decorators",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Conveniently add attributes to a display function::\n\n        @admin.display(\n            boolean=True,\n            ordering='-publish_date',\n            description='Is Published?',\n        )\n        def is_published(self, obj):\n            return obj.publish_date is not None\n\n    This is equivalent to setting some attributes (with the original, longer\n    names) on the function directly::\n\n        def is_published(self, obj):\n            return obj.publish_date is not None\n        is_published.boolean = True\n        is_published.admin_order_field = '-publish_date'\n        is_published.short_description = 'Is Published?'\n    \"\"\"",
+            "name": "display",
+            "namespace": "django.contrib.admin.decorators.display",
+            "class_name": "",
+            "module_name": "django.contrib.admin.decorators",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Register the given model(s) classes and wrapped ModelAdmin class with\n    admin site:\n\n    @register(Author)\n    class AuthorAdmin(admin.ModelAdmin):\n        pass\n\n    The `site` kwarg is an admin site to use instead of the default admin site.\n    \"\"\"",
+            "name": "register",
+            "namespace": "django.contrib.admin.decorators.register",
+            "class_name": "",
+            "module_name": "django.contrib.admin.decorators",
+            "package_name": ""
+        }
+    ],
     "package_name": "django.contrib.admin"
 }

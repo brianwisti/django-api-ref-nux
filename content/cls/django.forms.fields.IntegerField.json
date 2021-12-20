@@ -3,5 +3,31 @@
     "name": "IntegerField",
     "namespace": "django.forms.fields.IntegerField",
     "module_name": "django.forms.fields",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.forms.fields.IntegerField.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Validate that int() can be called on the input. Return the result\n        of int() or None for empty values.\n        \"\"\"",
+            "name": "to_python",
+            "namespace": "django.forms.fields.IntegerField.to_python",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "widget_attrs",
+            "namespace": "django.forms.fields.IntegerField.widget_attrs",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

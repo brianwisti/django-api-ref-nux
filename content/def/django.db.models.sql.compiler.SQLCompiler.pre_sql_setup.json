@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Do any necessary class setup immediately prior to producing SQL. This\n        is for things that can't necessarily be done in __init__ because we\n        might not have all the pieces in place at that time.\n        \"\"\"",
+    "name": "pre_sql_setup",
+    "namespace": "django.db.models.sql.compiler.SQLCompiler.pre_sql_setup",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

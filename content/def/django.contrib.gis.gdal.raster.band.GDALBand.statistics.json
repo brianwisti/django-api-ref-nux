@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Compute statistics on the pixel values of this band.\n\n        The return value is a tuple with the following structure:\n        (minimum, maximum, mean, standard deviation).\n\n        If approximate=True, the statistics may be computed based on overviews\n        or a subset of image tiles.\n\n        If refresh=True, the statistics will be computed from the data directly,\n        and the cache will be updated where applicable.\n\n        For empty bands (where all pixel values are nodata), all statistics\n        values are returned as None.\n\n        For raster formats using Persistent Auxiliary Metadata (PAM) services,\n        the statistics might be cached in an auxiliary file.\n        \"\"\"",
+    "name": "statistics",
+    "namespace": "django.contrib.gis.gdal.raster.band.GDALBand.statistics",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

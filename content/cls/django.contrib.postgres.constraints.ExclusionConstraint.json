@@ -3,5 +3,87 @@
     "name": "ExclusionConstraint",
     "namespace": "django.contrib.postgres.constraints.ExclusionConstraint",
     "module_name": "django.contrib.postgres.constraints",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.contrib.postgres.constraints.ExclusionConstraint.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_get_expression_sql",
+            "namespace": "django.contrib.postgres.constraints.ExclusionConstraint._get_expression_sql",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_get_condition_sql",
+            "namespace": "django.contrib.postgres.constraints.ExclusionConstraint._get_condition_sql",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "constraint_sql",
+            "namespace": "django.contrib.postgres.constraints.ExclusionConstraint.constraint_sql",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "create_sql",
+            "namespace": "django.contrib.postgres.constraints.ExclusionConstraint.create_sql",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "remove_sql",
+            "namespace": "django.contrib.postgres.constraints.ExclusionConstraint.remove_sql",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "check_supported",
+            "namespace": "django.contrib.postgres.constraints.ExclusionConstraint.check_supported",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "deconstruct",
+            "namespace": "django.contrib.postgres.constraints.ExclusionConstraint.deconstruct",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__eq__",
+            "namespace": "django.contrib.postgres.constraints.ExclusionConstraint.__eq__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__repr__",
+            "namespace": "django.contrib.postgres.constraints.ExclusionConstraint.__repr__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

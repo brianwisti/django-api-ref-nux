@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Use get() to return an object, or raise an Http404 exception if the object\n    does not exist.\n\n    klass may be a Model, Manager, or QuerySet object. All other passed\n    arguments and keyword arguments are used in the get() query.\n\n    Like with QuerySet.get(), MultipleObjectsReturned is raised if more than\n    one object is found.\n    \"\"\"",
+    "name": "get_object_or_404",
+    "namespace": "django.shortcuts.get_object_or_404",
+    "class_name": "",
+    "module_name": "django.shortcuts",
+    "package_name": ""
+}

@@ -5,8 +5,19 @@
         {
             "docstring": "",
             "name": "AuthConfig",
-            "namespace": "django.contrib.auth.apps.AuthConfig"
+            "namespace": "django.contrib.auth.apps.AuthConfig",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "ready",
+                    "namespace": "django.contrib.auth.apps.AuthConfig.ready",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.auth"
 }

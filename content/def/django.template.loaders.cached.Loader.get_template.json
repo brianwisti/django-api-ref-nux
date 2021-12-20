@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Perform the caching that gives this loader its name. Often many of the\n        templates attempted will be missing, so memory use is of concern here.\n        To keep it in check, caching behavior is a little complicated when a\n        template is not found. See ticket #26306 for more details.\n\n        With template debugging disabled, cache the TemplateDoesNotExist class\n        for every missing template and raise a new instance of it after\n        fetching it from the cache.\n\n        With template debugging enabled, a unique TemplateDoesNotExist object\n        is cached for each missing template to preserve debug data. When\n        raising an exception, Python sets __traceback__, __context__, and\n        __cause__ attributes on it. Those attributes can contain references to\n        all sorts of objects up the call chain and caching them creates a\n        memory leak. Thus, unraised copies of the exceptions are cached and\n        copies of those copies are raised after they're fetched from the cache.\n        \"\"\"",
+    "name": "get_template",
+    "namespace": "django.template.loaders.cached.Loader.get_template",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

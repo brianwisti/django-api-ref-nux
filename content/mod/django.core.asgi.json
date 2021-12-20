@@ -2,5 +2,15 @@
     "namespace": "django.core.asgi",
     "docstring": "",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    The public interface to Django's ASGI support. Return an ASGI 3 callable.\n\n    Avoids making django.core.handlers.ASGIHandler a public API, in case the\n    internal implementation changes or moves in the future.\n    \"\"\"",
+            "name": "get_asgi_application",
+            "namespace": "django.core.asgi.get_asgi_application",
+            "class_name": "",
+            "module_name": "django.core.asgi",
+            "package_name": ""
+        }
+    ],
     "package_name": "django.core"
 }

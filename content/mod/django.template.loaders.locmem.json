@@ -5,8 +5,35 @@
         {
             "docstring": "",
             "name": "Loader",
-            "namespace": "django.template.loaders.locmem.Loader"
+            "namespace": "django.template.loaders.locmem.Loader",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.template.loaders.locmem.Loader.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_contents",
+                    "namespace": "django.template.loaders.locmem.Loader.get_contents",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_template_sources",
+                    "namespace": "django.template.loaders.locmem.Loader.get_template_sources",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.template.loaders"
 }

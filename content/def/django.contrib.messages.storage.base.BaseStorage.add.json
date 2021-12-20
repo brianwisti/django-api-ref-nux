@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Queue a message to be stored.\n\n        The message is only queued if it contained something and its level is\n        not less than the recording level (``self.level``).\n        \"\"\"",
+    "name": "add",
+    "namespace": "django.contrib.messages.storage.base.BaseStorage.add",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

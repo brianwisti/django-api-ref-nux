@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Return the SQL that will be used in a query to define the tablespace.\n\n        Return '' if the backend doesn't support tablespaces.\n\n        If `inline` is True, append the SQL to a row; otherwise append it to\n        the entire CREATE TABLE or CREATE INDEX statement.\n        \"\"\"",
+    "name": "tablespace_sql",
+    "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.tablespace_sql",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

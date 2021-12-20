@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        A version of update() that accepts field objects instead of field names.\n        Used primarily for model saving and not intended for use by general\n        code (it requires too much poking around at model internals to be\n        useful at that level).\n        \"\"\"",
+    "name": "_update",
+    "namespace": "django.db.models.query.QuerySet._update",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

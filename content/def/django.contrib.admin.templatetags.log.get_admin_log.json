@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Populate a template variable with the admin log for the given criteria.\n\n    Usage::\n\n        {% get_admin_log [limit] as [varname] for_user [context_var_containing_user_obj] %}\n\n    Examples::\n\n        {% get_admin_log 10 as admin_log for_user 23 %}\n        {% get_admin_log 10 as admin_log for_user user %}\n        {% get_admin_log 10 as admin_log %}\n\n    Note that ``context_var_containing_user_obj`` can be a hard-coded integer\n    (user ID) or the name of a template context variable containing the user\n    object whose ID you want.\n    \"\"\"",
+    "name": "get_admin_log",
+    "namespace": "django.contrib.admin.templatetags.log.get_admin_log",
+    "class_name": "",
+    "module_name": "django.contrib.admin.templatetags.log",
+    "package_name": ""
+}

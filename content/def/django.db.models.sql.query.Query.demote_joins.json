@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Change join type from LOUTER to INNER for all joins in aliases.\n\n        Similarly to promote_joins(), this method must ensure no join chains\n        containing first an outer, then an inner join are generated. If we\n        are demoting b->c join in chain a LOUTER b LOUTER c then we must\n        demote a->b automatically, or otherwise the demotion of b->c doesn't\n        actually change anything in the query results. .\n        \"\"\"",
+    "name": "demote_joins",
+    "namespace": "django.db.models.sql.query.Query.demote_joins",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

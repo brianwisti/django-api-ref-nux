@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    A wrapper of format_html, for the common case of a group of arguments that\n    need to be formatted using the same format string, and then joined using\n    'sep'. 'sep' is also passed through conditional_escape.\n\n    'args_generator' should be an iterator that returns the sequence of 'args'\n    that will be passed to format_html.\n\n    Example:\n\n      format_html_join('\\n', \"<li>{} {}</li>\", ((u.first_name, u.last_name)\n                                                  for u in users))\n    \"\"\"",
+    "name": "format_html_join",
+    "namespace": "django.utils.html.format_html_join",
+    "class_name": "",
+    "module_name": "django.utils.html",
+    "package_name": ""
+}

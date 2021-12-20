@@ -5,8 +5,139 @@
         {
             "docstring": "\"\"\"\n    The SpatialRefSysMixin is a class used by the database-dependent\n    SpatialRefSys objects to reduce redundant code.\n    \"\"\"",
             "name": "SpatialRefSysMixin",
-            "namespace": "django.contrib.gis.db.backends.base.models.SpatialRefSysMixin"
+            "namespace": "django.contrib.gis.db.backends.base.models.SpatialRefSysMixin",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        Return a GDAL SpatialReference object.\n        \"\"\"",
+                    "name": "srs",
+                    "namespace": "django.contrib.gis.db.backends.base.models.SpatialRefSysMixin.srs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return a tuple of the ellipsoid parameters:\n        (semimajor axis, semiminor axis, and inverse flattening).\n        \"\"\"",
+                    "name": "ellipsoid",
+                    "namespace": "django.contrib.gis.db.backends.base.models.SpatialRefSysMixin.ellipsoid",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Return the projection name.\"",
+                    "name": "name",
+                    "namespace": "django.contrib.gis.db.backends.base.models.SpatialRefSysMixin.name",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Return the spheroid name for this spatial reference.\"",
+                    "name": "spheroid",
+                    "namespace": "django.contrib.gis.db.backends.base.models.SpatialRefSysMixin.spheroid",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Return the datum for this spatial reference.\"",
+                    "name": "datum",
+                    "namespace": "django.contrib.gis.db.backends.base.models.SpatialRefSysMixin.datum",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Is this Spatial Reference projected?\"",
+                    "name": "projected",
+                    "namespace": "django.contrib.gis.db.backends.base.models.SpatialRefSysMixin.projected",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Is this Spatial Reference local?\"",
+                    "name": "local",
+                    "namespace": "django.contrib.gis.db.backends.base.models.SpatialRefSysMixin.local",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Is this Spatial Reference geographic?\"",
+                    "name": "geographic",
+                    "namespace": "django.contrib.gis.db.backends.base.models.SpatialRefSysMixin.geographic",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Return the linear units name.\"",
+                    "name": "linear_name",
+                    "namespace": "django.contrib.gis.db.backends.base.models.SpatialRefSysMixin.linear_name",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Return the linear units.\"",
+                    "name": "linear_units",
+                    "namespace": "django.contrib.gis.db.backends.base.models.SpatialRefSysMixin.linear_units",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Return the name of the angular units.\"",
+                    "name": "angular_name",
+                    "namespace": "django.contrib.gis.db.backends.base.models.SpatialRefSysMixin.angular_name",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Return the angular units.\"",
+                    "name": "angular_units",
+                    "namespace": "django.contrib.gis.db.backends.base.models.SpatialRefSysMixin.angular_units",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Return a tuple of the units and the name.\"",
+                    "name": "units",
+                    "namespace": "django.contrib.gis.db.backends.base.models.SpatialRefSysMixin.units",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return a tuple of (unit_value, unit_name) for the given WKT without\n        using any of the database fields.\n        \"\"\"",
+                    "name": "get_units",
+                    "namespace": "django.contrib.gis.db.backends.base.models.SpatialRefSysMixin.get_units",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Class method used by GeometryField on initialization to\n        retrieve the `SPHEROID[..]` parameters from the given WKT.\n        \"\"\"",
+                    "name": "get_spheroid",
+                    "namespace": "django.contrib.gis.db.backends.base.models.SpatialRefSysMixin.get_spheroid",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the string representation, a 'pretty' OGC WKT.\n        \"\"\"",
+                    "name": "__str__",
+                    "namespace": "django.contrib.gis.db.backends.base.models.SpatialRefSysMixin.__str__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.gis.db.backends.base"
 }

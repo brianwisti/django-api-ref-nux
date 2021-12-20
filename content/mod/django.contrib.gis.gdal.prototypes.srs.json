@@ -2,5 +2,23 @@
     "namespace": "django.contrib.gis.gdal.prototypes.srs",
     "docstring": "",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Create a function prototype for the OSR routines that take\n    the OSRSpatialReference object and return a double value.\n    \"\"\"",
+            "name": "srs_double",
+            "namespace": "django.contrib.gis.gdal.prototypes.srs.srs_double",
+            "class_name": "",
+            "module_name": "django.contrib.gis.gdal.prototypes.srs",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Create a ctypes function prototype for OSR units functions, e.g.,\n    OSRGetAngularUnits, OSRGetLinearUnits.\n    \"\"\"",
+            "name": "units_func",
+            "namespace": "django.contrib.gis.gdal.prototypes.srs.units_func",
+            "class_name": "",
+            "module_name": "django.contrib.gis.gdal.prototypes.srs",
+            "package_name": ""
+        }
+    ],
     "package_name": "django.contrib.gis.gdal.prototypes"
 }

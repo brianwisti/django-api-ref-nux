@@ -3,5 +3,31 @@
     "name": "SecurityMiddleware",
     "namespace": "django.middleware.security.SecurityMiddleware",
     "module_name": "django.middleware.security",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.middleware.security.SecurityMiddleware.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "process_request",
+            "namespace": "django.middleware.security.SecurityMiddleware.process_request",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "process_response",
+            "namespace": "django.middleware.security.SecurityMiddleware.process_response",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

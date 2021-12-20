@@ -5,7 +5,51 @@
         {
             "docstring": "",
             "name": "Command",
-            "namespace": "django.core.management.commands.diffsettings.Command"
+            "namespace": "django.core.management.commands.diffsettings.Command",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "add_arguments",
+                    "namespace": "django.core.management.commands.diffsettings.Command.add_arguments",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "handle",
+                    "namespace": "django.core.management.commands.diffsettings.Command.handle",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "output_hash",
+                    "namespace": "django.core.management.commands.diffsettings.Command.output_hash",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "output_unified",
+                    "namespace": "django.core.management.commands.diffsettings.Command.output_unified",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\"Convert a module namespace to a Python dictionary.\"\"\"",
+            "name": "module_to_dict",
+            "namespace": "django.core.management.commands.diffsettings.module_to_dict",
+            "class_name": "",
+            "module_name": "django.core.management.commands.diffsettings",
+            "package_name": ""
         }
     ],
     "package_name": "django.core.management.commands"

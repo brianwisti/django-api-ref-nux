@@ -5,17 +5,73 @@
         {
             "docstring": "\"\"\"\n    A specification for a token class.\n    \"\"\"",
             "name": "Tok",
-            "namespace": "django.utils.jslex.Tok"
+            "namespace": "django.utils.jslex.Tok",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.utils.jslex.Tok.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    A generic multi-state regex-based lexer.\n    \"\"\"",
             "name": "Lexer",
-            "namespace": "django.utils.jslex.Lexer"
+            "namespace": "django.utils.jslex.Lexer",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.utils.jslex.Lexer.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Lexically analyze `text`.\n\n        Yield pairs (`name`, `tokentext`).\n        \"\"\"",
+                    "name": "lex",
+                    "namespace": "django.utils.jslex.Lexer.lex",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    A JavaScript lexer\n\n    >>> lexer = JsLexer()\n    >>> list(lexer.lex(\"a = 1\"))\n    [('id', 'a'), ('ws', ' '), ('punct', '='), ('ws', ' '), ('dnum', '1')]\n\n    This doesn't properly handle non-ASCII characters in the JavaScript source.\n    \"\"\"",
             "name": "JsLexer",
-            "namespace": "django.utils.jslex.JsLexer"
+            "namespace": "django.utils.jslex.JsLexer",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.utils.jslex.JsLexer.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Create a regex from a space-separated list of literal `choices`.\n\n    If provided, `prefix` and `suffix` will be attached to each choice\n    individually.\n    \"\"\"",
+            "name": "literals",
+            "namespace": "django.utils.jslex.literals",
+            "class_name": "",
+            "module_name": "django.utils.jslex",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Convert the JavaScript source `js` into something resembling C for\n    xgettext.\n\n    What actually happens is that all the regex literals are replaced with\n    \"REGEX\".\n    \"\"\"",
+            "name": "prepare_js_for_gettext",
+            "namespace": "django.utils.jslex.prepare_js_for_gettext",
+            "class_name": "",
+            "module_name": "django.utils.jslex",
+            "package_name": ""
         }
     ],
     "package_name": "django.utils"

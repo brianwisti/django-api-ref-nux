@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Escape a value for use in a URL.\n\n    The ``safe`` parameter determines the characters which should not be\n    escaped by Python's quote() function. If not provided, use the default safe\n    characters (but an empty string can be provided when *all* characters\n    should be escaped).\n    \"\"\"",
+    "name": "urlencode",
+    "namespace": "django.template.defaultfilters.urlencode",
+    "class_name": "",
+    "module_name": "django.template.defaultfilters",
+    "package_name": ""
+}

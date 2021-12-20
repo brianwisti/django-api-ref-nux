@@ -2,5 +2,15 @@
     "namespace": "django.contrib.admin.views.decorators",
     "docstring": "",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Decorator for views that checks that the user is logged in and is a staff\n    member, redirecting to the login page if necessary.\n    \"\"\"",
+            "name": "staff_member_required",
+            "namespace": "django.contrib.admin.views.decorators.staff_member_required",
+            "class_name": "",
+            "module_name": "django.contrib.admin.views.decorators",
+            "package_name": ""
+        }
+    ],
     "package_name": "django.contrib.admin.views"
 }

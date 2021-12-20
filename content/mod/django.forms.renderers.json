@@ -5,27 +5,94 @@
         {
             "docstring": "",
             "name": "BaseRenderer",
-            "namespace": "django.forms.renderers.BaseRenderer"
+            "namespace": "django.forms.renderers.BaseRenderer",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_template",
+                    "namespace": "django.forms.renderers.BaseRenderer.get_template",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "render",
+                    "namespace": "django.forms.renderers.BaseRenderer.render",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "EngineMixin",
-            "namespace": "django.forms.renderers.EngineMixin"
+            "namespace": "django.forms.renderers.EngineMixin",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_template",
+                    "namespace": "django.forms.renderers.EngineMixin.get_template",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "engine",
+                    "namespace": "django.forms.renderers.EngineMixin.engine",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Load Django templates from the built-in widget templates in\n    django/forms/templates and from apps' 'templates' directory.\n    \"\"\"",
             "name": "DjangoTemplates",
-            "namespace": "django.forms.renderers.DjangoTemplates"
+            "namespace": "django.forms.renderers.DjangoTemplates",
+            "methods": []
         },
         {
             "docstring": "\"\"\"\n    Load Jinja2 templates from the built-in widget templates in\n    django/forms/jinja2 and from apps' 'jinja2' directory.\n    \"\"\"",
             "name": "Jinja2",
-            "namespace": "django.forms.renderers.Jinja2"
+            "namespace": "django.forms.renderers.Jinja2",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "backend",
+                    "namespace": "django.forms.renderers.Jinja2.backend",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Load templates using template.loader.get_template() which is configured\n    based on settings.TEMPLATES.\n    \"\"\"",
             "name": "TemplatesSetting",
-            "namespace": "django.forms.renderers.TemplatesSetting"
+            "namespace": "django.forms.renderers.TemplatesSetting",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_template",
+                    "namespace": "django.forms.renderers.TemplatesSetting.get_template",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "",
+            "name": "get_default_renderer",
+            "namespace": "django.forms.renderers.get_default_renderer",
+            "class_name": "",
+            "module_name": "django.forms.renderers",
+            "package_name": ""
         }
     ],
     "package_name": "django.forms"

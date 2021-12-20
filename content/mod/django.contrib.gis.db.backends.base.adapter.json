@@ -5,8 +5,51 @@
         {
             "docstring": "\"\"\"\n    An adaptor for Geometries sent to the MySQL and Oracle database backends.\n    \"\"\"",
             "name": "WKTAdapter",
-            "namespace": "django.contrib.gis.db.backends.base.adapter.WKTAdapter"
+            "namespace": "django.contrib.gis.db.backends.base.adapter.WKTAdapter",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.gis.db.backends.base.adapter.WKTAdapter.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__eq__",
+                    "namespace": "django.contrib.gis.db.backends.base.adapter.WKTAdapter.__eq__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__hash__",
+                    "namespace": "django.contrib.gis.db.backends.base.adapter.WKTAdapter.__hash__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__str__",
+                    "namespace": "django.contrib.gis.db.backends.base.adapter.WKTAdapter.__str__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_fix_polygon",
+                    "namespace": "django.contrib.gis.db.backends.base.adapter.WKTAdapter._fix_polygon",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.gis.db.backends.base"
 }

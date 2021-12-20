@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"Parse a duration string and return a datetime.timedelta.\n\n    The preferred format for durations in Django is '%d %H:%M:%S.%f'.\n\n    Also supports ISO 8601 representation and PostgreSQL's day-time interval\n    format.\n    \"\"\"",
+    "name": "parse_duration",
+    "namespace": "django.utils.dateparse.parse_duration",
+    "class_name": "",
+    "module_name": "django.utils.dateparse",
+    "package_name": ""
+}

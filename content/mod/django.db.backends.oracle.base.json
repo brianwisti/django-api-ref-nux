@@ -5,27 +5,319 @@
         {
             "docstring": "",
             "name": "_UninitializedOperatorsDescriptor",
-            "namespace": "django.db.backends.oracle.base._UninitializedOperatorsDescriptor"
+            "namespace": "django.db.backends.oracle.base._UninitializedOperatorsDescriptor",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__get__",
+                    "namespace": "django.db.backends.oracle.base._UninitializedOperatorsDescriptor.__get__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "DatabaseWrapper",
-            "namespace": "django.db.backends.oracle.base.DatabaseWrapper"
+            "namespace": "django.db.backends.oracle.base.DatabaseWrapper",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.backends.oracle.base.DatabaseWrapper.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_connection_params",
+                    "namespace": "django.db.backends.oracle.base.DatabaseWrapper.get_connection_params",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_new_connection",
+                    "namespace": "django.db.backends.oracle.base.DatabaseWrapper.get_new_connection",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "init_connection_state",
+                    "namespace": "django.db.backends.oracle.base.DatabaseWrapper.init_connection_state",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "create_cursor",
+                    "namespace": "django.db.backends.oracle.base.DatabaseWrapper.create_cursor",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_commit",
+                    "namespace": "django.db.backends.oracle.base.DatabaseWrapper._commit",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_savepoint_commit",
+                    "namespace": "django.db.backends.oracle.base.DatabaseWrapper._savepoint_commit",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_set_autocommit",
+                    "namespace": "django.db.backends.oracle.base.DatabaseWrapper._set_autocommit",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Check constraints by setting them to immediate. Return them to deferred\n        afterward.\n        \"\"\"",
+                    "name": "check_constraints",
+                    "namespace": "django.db.backends.oracle.base.DatabaseWrapper.check_constraints",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "is_usable",
+                    "namespace": "django.db.backends.oracle.base.DatabaseWrapper.is_usable",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "cx_oracle_version",
+                    "namespace": "django.db.backends.oracle.base.DatabaseWrapper.cx_oracle_version",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "oracle_version",
+                    "namespace": "django.db.backends.oracle.base.DatabaseWrapper.oracle_version",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Wrapper object for formatting parameters for Oracle. If the string\n    representation of the value is large enough (greater than 4000 characters)\n    the input size needs to be set as CLOB. Alternatively, if the parameter\n    has an `input_size` attribute, then the value of the `input_size` attribute\n    will be used instead. Otherwise, no input size will be set for the\n    parameter when executing the query.\n    \"\"\"",
             "name": "OracleParam",
-            "namespace": "django.db.backends.oracle.base.OracleParam"
+            "namespace": "django.db.backends.oracle.base.OracleParam",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.backends.oracle.base.OracleParam.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    An adapter class for cursor variables that prevents the wrapped object\n    from being converted into a string when used to instantiate an OracleParam.\n    This can be used generally for any other object that should be passed into\n    Cursor.execute as-is.\n    \"\"\"",
             "name": "VariableWrapper",
-            "namespace": "django.db.backends.oracle.base.VariableWrapper"
+            "namespace": "django.db.backends.oracle.base.VariableWrapper",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.backends.oracle.base.VariableWrapper.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "bind_parameter",
+                    "namespace": "django.db.backends.oracle.base.VariableWrapper.bind_parameter",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__getattr__",
+                    "namespace": "django.db.backends.oracle.base.VariableWrapper.__getattr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__setattr__",
+                    "namespace": "django.db.backends.oracle.base.VariableWrapper.__setattr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Django uses \"format\" (e.g. '%s') style placeholders, but Oracle uses \":var\"\n    style. This fixes it -- but note that if you want to use a literal \"%s\" in\n    a query, you'll need to use \"%%s\".\n    \"\"\"",
             "name": "FormatStylePlaceholderCursor",
-            "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor"
+            "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_output_number_converter",
+                    "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor._output_number_converter",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_get_decimal_converter",
+                    "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor._get_decimal_converter",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Called for each db column fetched from cursors. Return numbers as the\n        appropriate Python type.\n        \"\"\"",
+                    "name": "_output_type_handler",
+                    "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor._output_type_handler",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_format_params",
+                    "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor._format_params",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_guess_input_sizes",
+                    "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor._guess_input_sizes",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_param_generator",
+                    "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor._param_generator",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_fix_for_params",
+                    "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor._fix_for_params",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "execute",
+                    "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor.execute",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "executemany",
+                    "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor.executemany",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "close",
+                    "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor.close",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "var",
+                    "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor.var",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "arrayvar",
+                    "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor.arrayvar",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__getattr__",
+                    "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor.__getattr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__iter__",
+                    "namespace": "django.db.backends.oracle.base.FormatStylePlaceholderCursor.__iter__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "",
+            "name": "_setup_environment",
+            "namespace": "django.db.backends.oracle.base._setup_environment",
+            "class_name": "",
+            "module_name": "django.db.backends.oracle.base",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "wrap_oracle_errors",
+            "namespace": "django.db.backends.oracle.base.wrap_oracle_errors",
+            "class_name": "",
+            "module_name": "django.db.backends.oracle.base",
+            "package_name": ""
         }
     ],
     "package_name": "django.db.backends.oracle"

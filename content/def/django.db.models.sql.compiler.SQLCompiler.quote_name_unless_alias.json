@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        A wrapper around connection.ops.quote_name that doesn't quote aliases\n        for table names. This avoids problems with some SQL dialects that treat\n        quoted strings specially (e.g. PostgreSQL).\n        \"\"\"",
+    "name": "quote_name_unless_alias",
+    "namespace": "django.db.models.sql.compiler.SQLCompiler.quote_name_unless_alias",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

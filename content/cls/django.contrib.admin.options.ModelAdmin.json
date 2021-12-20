@@ -3,5 +3,543 @@
     "name": "ModelAdmin",
     "namespace": "django.contrib.admin.options.ModelAdmin",
     "module_name": "django.contrib.admin.options",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.contrib.admin.options.ModelAdmin.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__str__",
+            "namespace": "django.contrib.admin.options.ModelAdmin.__str__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__repr__",
+            "namespace": "django.contrib.admin.options.ModelAdmin.__repr__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_inline_instances",
+            "namespace": "django.contrib.admin.options.ModelAdmin.get_inline_instances",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_urls",
+            "namespace": "django.contrib.admin.options.ModelAdmin.get_urls",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "urls",
+            "namespace": "django.contrib.admin.options.ModelAdmin.urls",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "media",
+            "namespace": "django.contrib.admin.options.ModelAdmin.media",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return a dict of all perms for this model. This dict has the keys\n        ``add``, ``change``, ``delete``, and ``view`` mapping to the True/False\n        for each of those actions.\n        \"\"\"",
+            "name": "get_model_perms",
+            "namespace": "django.contrib.admin.options.ModelAdmin.get_model_perms",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_get_form_for_get_fields",
+            "namespace": "django.contrib.admin.options.ModelAdmin._get_form_for_get_fields",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return a Form class for use in the admin add view. This is used by\n        add_view and change_view.\n        \"\"\"",
+            "name": "get_form",
+            "namespace": "django.contrib.admin.options.ModelAdmin.get_form",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return the ChangeList class for use on the changelist page.\n        \"\"\"",
+            "name": "get_changelist",
+            "namespace": "django.contrib.admin.options.ModelAdmin.get_changelist",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return a `ChangeList` instance based on `request`. May raise\n        `IncorrectLookupParameters`.\n        \"\"\"",
+            "name": "get_changelist_instance",
+            "namespace": "django.contrib.admin.options.ModelAdmin.get_changelist_instance",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return an instance matching the field and value provided, the primary\n        key is used if no field is provided. Return ``None`` if no match is\n        found or the object_id fails validation.\n        \"\"\"",
+            "name": "get_object",
+            "namespace": "django.contrib.admin.options.ModelAdmin.get_object",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return a Form class for use in the Formset on the changelist page.\n        \"\"\"",
+            "name": "get_changelist_form",
+            "namespace": "django.contrib.admin.options.ModelAdmin.get_changelist_form",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return a FormSet class for use on the changelist page if list_editable\n        is used.\n        \"\"\"",
+            "name": "get_changelist_formset",
+            "namespace": "django.contrib.admin.options.ModelAdmin.get_changelist_formset",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Yield formsets and the corresponding inlines.\n        \"\"\"",
+            "name": "get_formsets_with_inlines",
+            "namespace": "django.contrib.admin.options.ModelAdmin.get_formsets_with_inlines",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_paginator",
+            "namespace": "django.contrib.admin.options.ModelAdmin.get_paginator",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Log that an object has been successfully added.\n\n        The default implementation creates an admin LogEntry object.\n        \"\"\"",
+            "name": "log_addition",
+            "namespace": "django.contrib.admin.options.ModelAdmin.log_addition",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Log that an object has been successfully changed.\n\n        The default implementation creates an admin LogEntry object.\n        \"\"\"",
+            "name": "log_change",
+            "namespace": "django.contrib.admin.options.ModelAdmin.log_change",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Log that an object will be deleted. Note that this method must be\n        called before the deletion.\n\n        The default implementation creates an admin LogEntry object.\n        \"\"\"",
+            "name": "log_deletion",
+            "namespace": "django.contrib.admin.options.ModelAdmin.log_deletion",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        A list_display column containing a checkbox widget.\n        \"\"\"",
+            "name": "action_checkbox",
+            "namespace": "django.contrib.admin.options.ModelAdmin.action_checkbox",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_get_action_description",
+            "namespace": "django.contrib.admin.options.ModelAdmin._get_action_description",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return the list of actions, prior to any request-based filtering.\"\"\"",
+            "name": "_get_base_actions",
+            "namespace": "django.contrib.admin.options.ModelAdmin._get_base_actions",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Filter out any actions that the user doesn't have access to.\"\"\"",
+            "name": "_filter_actions_by_permissions",
+            "namespace": "django.contrib.admin.options.ModelAdmin._filter_actions_by_permissions",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return a dictionary mapping the names of all actions for this\n        ModelAdmin to a tuple of (callable, name, description) for each action.\n        \"\"\"",
+            "name": "get_actions",
+            "namespace": "django.contrib.admin.options.ModelAdmin.get_actions",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return a list of choices for use in a form object.  Each choice is a\n        tuple (name, description).\n        \"\"\"",
+            "name": "get_action_choices",
+            "namespace": "django.contrib.admin.options.ModelAdmin.get_action_choices",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return a given action from a parameter, which can either be a callable,\n        or the name of a method on the ModelAdmin.  Return is a tuple of\n        (callable, name, description).\n        \"\"\"",
+            "name": "get_action",
+            "namespace": "django.contrib.admin.options.ModelAdmin.get_action",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return a sequence containing the fields to be displayed on the\n        changelist.\n        \"\"\"",
+            "name": "get_list_display",
+            "namespace": "django.contrib.admin.options.ModelAdmin.get_list_display",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return a sequence containing the fields to be displayed as links\n        on the changelist. The list_display parameter is the list of fields\n        returned by get_list_display().\n        \"\"\"",
+            "name": "get_list_display_links",
+            "namespace": "django.contrib.admin.options.ModelAdmin.get_list_display_links",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return a sequence containing the fields to be displayed as filters in\n        the right sidebar of the changelist page.\n        \"\"\"",
+            "name": "get_list_filter",
+            "namespace": "django.contrib.admin.options.ModelAdmin.get_list_filter",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return a list of fields to add to the select_related() part of the\n        changelist items query.\n        \"\"\"",
+            "name": "get_list_select_related",
+            "namespace": "django.contrib.admin.options.ModelAdmin.get_list_select_related",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return a sequence containing the fields to be searched whenever\n        somebody submits a search query.\n        \"\"\"",
+            "name": "get_search_fields",
+            "namespace": "django.contrib.admin.options.ModelAdmin.get_search_fields",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return a tuple containing a queryset to implement the search\n        and a boolean indicating if the results may contain duplicates.\n        \"\"\"",
+            "name": "get_search_results",
+            "namespace": "django.contrib.admin.options.ModelAdmin.get_search_results",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return the preserved filters querystring.\n        \"\"\"",
+            "name": "get_preserved_filters",
+            "namespace": "django.contrib.admin.options.ModelAdmin.get_preserved_filters",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Construct a JSON structure describing changes from a changed object.\n        \"\"\"",
+            "name": "construct_change_message",
+            "namespace": "django.contrib.admin.options.ModelAdmin.construct_change_message",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Send a message to the user. The default implementation\n        posts a message using the django.contrib.messages backend.\n\n        Exposes almost the same API as messages.add_message(), but accepts the\n        positional arguments in a different order to maintain backwards\n        compatibility. For convenience, it accepts the `level` argument as\n        a string rather than the usual level number.\n        \"\"\"",
+            "name": "message_user",
+            "namespace": "django.contrib.admin.options.ModelAdmin.message_user",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Given a ModelForm return an unsaved instance. ``change`` is True if\n        the object is being changed, and False if it's being added.\n        \"\"\"",
+            "name": "save_form",
+            "namespace": "django.contrib.admin.options.ModelAdmin.save_form",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Given a model instance save it to the database.\n        \"\"\"",
+            "name": "save_model",
+            "namespace": "django.contrib.admin.options.ModelAdmin.save_model",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Given a model instance delete it from the database.\n        \"\"\"",
+            "name": "delete_model",
+            "namespace": "django.contrib.admin.options.ModelAdmin.delete_model",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Given a queryset, delete it from the database.\"\"\"",
+            "name": "delete_queryset",
+            "namespace": "django.contrib.admin.options.ModelAdmin.delete_queryset",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Given an inline formset save it to the database.\n        \"\"\"",
+            "name": "save_formset",
+            "namespace": "django.contrib.admin.options.ModelAdmin.save_formset",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Given the ``HttpRequest``, the parent ``ModelForm`` instance, the\n        list of inline formsets and a boolean value based on whether the\n        parent is being added or changed, save the related objects to the\n        database. Note that at this point save_form() and save_model() have\n        already been called.\n        \"\"\"",
+            "name": "save_related",
+            "namespace": "django.contrib.admin.options.ModelAdmin.save_related",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "render_change_form",
+            "namespace": "django.contrib.admin.options.ModelAdmin.render_change_form",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Determine the HttpResponse for the add_view stage.\n        \"\"\"",
+            "name": "response_add",
+            "namespace": "django.contrib.admin.options.ModelAdmin.response_add",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Determine the HttpResponse for the change_view stage.\n        \"\"\"",
+            "name": "response_change",
+            "namespace": "django.contrib.admin.options.ModelAdmin.response_change",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_response_post_save",
+            "namespace": "django.contrib.admin.options.ModelAdmin._response_post_save",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Figure out where to redirect after the 'Save' button has been pressed\n        when adding a new object.\n        \"\"\"",
+            "name": "response_post_save_add",
+            "namespace": "django.contrib.admin.options.ModelAdmin.response_post_save_add",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Figure out where to redirect after the 'Save' button has been pressed\n        when editing an existing object.\n        \"\"\"",
+            "name": "response_post_save_change",
+            "namespace": "django.contrib.admin.options.ModelAdmin.response_post_save_change",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Handle an admin action. This is called if a request is POSTed to the\n        changelist; it returns an HttpResponse if the action was handled, and\n        None otherwise.\n        \"\"\"",
+            "name": "response_action",
+            "namespace": "django.contrib.admin.options.ModelAdmin.response_action",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Determine the HttpResponse for the delete_view stage.\n        \"\"\"",
+            "name": "response_delete",
+            "namespace": "django.contrib.admin.options.ModelAdmin.response_delete",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "render_delete_form",
+            "namespace": "django.contrib.admin.options.ModelAdmin.render_delete_form",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_inline_formsets",
+            "namespace": "django.contrib.admin.options.ModelAdmin.get_inline_formsets",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Get the initial form data from the request's GET params.\n        \"\"\"",
+            "name": "get_changeform_initial_data",
+            "namespace": "django.contrib.admin.options.ModelAdmin.get_changeform_initial_data",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Create a message informing the user that the object doesn't exist\n        and return a redirect to the admin index page.\n        \"\"\"",
+            "name": "_get_obj_does_not_exist_redirect",
+            "namespace": "django.contrib.admin.options.ModelAdmin._get_obj_does_not_exist_redirect",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "changeform_view",
+            "namespace": "django.contrib.admin.options.ModelAdmin.changeform_view",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_changeform_view",
+            "namespace": "django.contrib.admin.options.ModelAdmin._changeform_view",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "add_view",
+            "namespace": "django.contrib.admin.options.ModelAdmin.add_view",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "change_view",
+            "namespace": "django.contrib.admin.options.ModelAdmin.change_view",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return POST data values of list_editable primary keys.\"\"\"",
+            "name": "_get_edited_object_pks",
+            "namespace": "django.contrib.admin.options.ModelAdmin._get_edited_object_pks",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Based on POST data, return a queryset of the objects that were edited\n        via list_editable.\n        \"\"\"",
+            "name": "_get_list_editable_queryset",
+            "namespace": "django.contrib.admin.options.ModelAdmin._get_list_editable_queryset",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        The 'change list' admin view for this model.\n        \"\"\"",
+            "name": "changelist_view",
+            "namespace": "django.contrib.admin.options.ModelAdmin.changelist_view",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Hook for customizing the delete process for the delete view and the\n        \"delete selected\" action.\n        \"\"\"",
+            "name": "get_deleted_objects",
+            "namespace": "django.contrib.admin.options.ModelAdmin.get_deleted_objects",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "delete_view",
+            "namespace": "django.contrib.admin.options.ModelAdmin.delete_view",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"The 'delete' admin view for this model.\"",
+            "name": "_delete_view",
+            "namespace": "django.contrib.admin.options.ModelAdmin._delete_view",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"The 'history' admin view for this model.\"",
+            "name": "history_view",
+            "namespace": "django.contrib.admin.options.ModelAdmin.history_view",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_formset_kwargs",
+            "namespace": "django.contrib.admin.options.ModelAdmin.get_formset_kwargs",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Helper function to generate formsets for add/change_view.\"",
+            "name": "_create_formsets",
+            "namespace": "django.contrib.admin.options.ModelAdmin._create_formsets",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

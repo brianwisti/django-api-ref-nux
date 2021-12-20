@@ -5,13 +5,57 @@
         {
             "docstring": "\"\"\"\n    A minimal hook to produce KML sitemaps.\n    \"\"\"",
             "name": "KMLSitemap",
-            "namespace": "django.contrib.gis.sitemaps.kml.KMLSitemap"
+            "namespace": "django.contrib.gis.sitemaps.kml.KMLSitemap",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.gis.sitemaps.kml.KMLSitemap.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Go through the given sources and return a 3-tuple of the application\n        label, module name, and field name of every GeometryField encountered\n        in the sources.\n\n        If no sources are provided, then all models.\n        \"\"\"",
+                    "name": "_build_kml_sources",
+                    "namespace": "django.contrib.gis.sitemaps.kml.KMLSitemap._build_kml_sources",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        This method is overridden so the appropriate `geo_format` attribute\n        is placed on each URL element.\n        \"\"\"",
+                    "name": "get_urls",
+                    "namespace": "django.contrib.gis.sitemaps.kml.KMLSitemap.get_urls",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "items",
+                    "namespace": "django.contrib.gis.sitemaps.kml.KMLSitemap.items",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "location",
+                    "namespace": "django.contrib.gis.sitemaps.kml.KMLSitemap.location",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "KMZSitemap",
-            "namespace": "django.contrib.gis.sitemaps.kml.KMZSitemap"
+            "namespace": "django.contrib.gis.sitemaps.kml.KMZSitemap",
+            "methods": []
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.gis.sitemaps"
 }

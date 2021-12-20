@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Watch a directory with a specific glob. If the directory doesn't yet\n        exist, attempt to watch the parent directory and amend the patterns to\n        include this. It's important this method isn't called more than one per\n        directory when updating all subscriptions. Subsequent calls will\n        overwrite the named subscription, so it must include all possible glob\n        expressions.\n        \"\"\"",
+    "name": "_watch_glob",
+    "namespace": "django.utils.autoreload.WatchmanReloader._watch_glob",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

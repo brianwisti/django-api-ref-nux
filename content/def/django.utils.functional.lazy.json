@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Turn any callable into a lazy evaluated callable. result classes or types\n    is required -- at least one is needed so that the automatic forcing of\n    the lazy evaluation code is triggered. Results are not memoized; the\n    function is evaluated on every access.\n    \"\"\"",
+    "name": "lazy",
+    "namespace": "django.utils.functional.lazy",
+    "class_name": "",
+    "module_name": "django.utils.functional",
+    "package_name": ""
+}

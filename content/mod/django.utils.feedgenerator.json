@@ -5,32 +5,254 @@
         {
             "docstring": "\"Base class for all syndication feeds. Subclasses should provide write()\"",
             "name": "SyndicationFeed",
-            "namespace": "django.utils.feedgenerator.SyndicationFeed"
+            "namespace": "django.utils.feedgenerator.SyndicationFeed",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.utils.feedgenerator.SyndicationFeed.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Add an item to the feed. All args are expected to be strings except\n        pubdate and updateddate, which are datetime.datetime objects, and\n        enclosures, which is an iterable of instances of the Enclosure class.\n        \"\"\"",
+                    "name": "add_item",
+                    "namespace": "django.utils.feedgenerator.SyndicationFeed.add_item",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "num_items",
+                    "namespace": "django.utils.feedgenerator.SyndicationFeed.num_items",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return extra attributes to place on the root (i.e. feed/channel) element.\n        Called from write().\n        \"\"\"",
+                    "name": "root_attributes",
+                    "namespace": "django.utils.feedgenerator.SyndicationFeed.root_attributes",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Add elements in the root (i.e. feed/channel) element. Called\n        from write().\n        \"\"\"",
+                    "name": "add_root_elements",
+                    "namespace": "django.utils.feedgenerator.SyndicationFeed.add_root_elements",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return extra attributes to place on each item (i.e. item/entry) element.\n        \"\"\"",
+                    "name": "item_attributes",
+                    "namespace": "django.utils.feedgenerator.SyndicationFeed.item_attributes",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Add elements on each item (i.e. item/entry) element.\n        \"\"\"",
+                    "name": "add_item_elements",
+                    "namespace": "django.utils.feedgenerator.SyndicationFeed.add_item_elements",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Output the feed in the given encoding to outfile, which is a file-like\n        object. Subclasses should override this.\n        \"\"\"",
+                    "name": "write",
+                    "namespace": "django.utils.feedgenerator.SyndicationFeed.write",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the feed in the given encoding as a string.\n        \"\"\"",
+                    "name": "writeString",
+                    "namespace": "django.utils.feedgenerator.SyndicationFeed.writeString",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the latest item's pubdate or updateddate. If no items\n        have either of these attributes this return the current UTC date/time.\n        \"\"\"",
+                    "name": "latest_post_date",
+                    "namespace": "django.utils.feedgenerator.SyndicationFeed.latest_post_date",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"An RSS enclosure\"\"\"",
             "name": "Enclosure",
-            "namespace": "django.utils.feedgenerator.Enclosure"
+            "namespace": "django.utils.feedgenerator.Enclosure",
+            "methods": [
+                {
+                    "docstring": "\"All args are expected to be strings\"",
+                    "name": "__init__",
+                    "namespace": "django.utils.feedgenerator.Enclosure.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "RssFeed",
-            "namespace": "django.utils.feedgenerator.RssFeed"
+            "namespace": "django.utils.feedgenerator.RssFeed",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "write",
+                    "namespace": "django.utils.feedgenerator.RssFeed.write",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "rss_attributes",
+                    "namespace": "django.utils.feedgenerator.RssFeed.rss_attributes",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "write_items",
+                    "namespace": "django.utils.feedgenerator.RssFeed.write_items",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "add_root_elements",
+                    "namespace": "django.utils.feedgenerator.RssFeed.add_root_elements",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "endChannelElement",
+                    "namespace": "django.utils.feedgenerator.RssFeed.endChannelElement",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "RssUserland091Feed",
-            "namespace": "django.utils.feedgenerator.RssUserland091Feed"
+            "namespace": "django.utils.feedgenerator.RssUserland091Feed",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "add_item_elements",
+                    "namespace": "django.utils.feedgenerator.RssUserland091Feed.add_item_elements",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Rss201rev2Feed",
-            "namespace": "django.utils.feedgenerator.Rss201rev2Feed"
+            "namespace": "django.utils.feedgenerator.Rss201rev2Feed",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "add_item_elements",
+                    "namespace": "django.utils.feedgenerator.Rss201rev2Feed.add_item_elements",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Atom1Feed",
-            "namespace": "django.utils.feedgenerator.Atom1Feed"
+            "namespace": "django.utils.feedgenerator.Atom1Feed",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "write",
+                    "namespace": "django.utils.feedgenerator.Atom1Feed.write",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "root_attributes",
+                    "namespace": "django.utils.feedgenerator.Atom1Feed.root_attributes",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "add_root_elements",
+                    "namespace": "django.utils.feedgenerator.Atom1Feed.add_root_elements",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "write_items",
+                    "namespace": "django.utils.feedgenerator.Atom1Feed.write_items",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "add_item_elements",
+                    "namespace": "django.utils.feedgenerator.Atom1Feed.add_item_elements",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "",
+            "name": "rfc2822_date",
+            "namespace": "django.utils.feedgenerator.rfc2822_date",
+            "class_name": "",
+            "module_name": "django.utils.feedgenerator",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "rfc3339_date",
+            "namespace": "django.utils.feedgenerator.rfc3339_date",
+            "class_name": "",
+            "module_name": "django.utils.feedgenerator",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Create a TagURI.\n\n    See https://web.archive.org/web/20110514113830/http://diveintomark.org/archives/2004/05/28/howto-atom-id\n    \"\"\"",
+            "name": "get_tag_uri",
+            "namespace": "django.utils.feedgenerator.get_tag_uri",
+            "class_name": "",
+            "module_name": "django.utils.feedgenerator",
+            "package_name": ""
         }
     ],
     "package_name": "django.utils"

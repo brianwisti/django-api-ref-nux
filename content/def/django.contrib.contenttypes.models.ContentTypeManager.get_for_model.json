@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Return the ContentType object for a given model, creating the\n        ContentType if necessary. Lookups are cached so that subsequent lookups\n        for the same model don't hit the database.\n        \"\"\"",
+    "name": "get_for_model",
+    "namespace": "django.contrib.contenttypes.models.ContentTypeManager.get_for_model",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

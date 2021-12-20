@@ -2,5 +2,39 @@
     "namespace": "django.views.defaults",
     "docstring": "",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Default 404 handler.\n\n    Templates: :template:`404.html`\n    Context:\n        request_path\n            The path of the requested URL (e.g., '/app/pages/bad_page/'). It's\n            quoted to prevent a content injection attack.\n        exception\n            The message from the exception which triggered the 404 (if one was\n            supplied), or the exception class name\n    \"\"\"",
+            "name": "page_not_found",
+            "namespace": "django.views.defaults.page_not_found",
+            "class_name": "",
+            "module_name": "django.views.defaults",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    500 error handler.\n\n    Templates: :template:`500.html`\n    Context: None\n    \"\"\"",
+            "name": "server_error",
+            "namespace": "django.views.defaults.server_error",
+            "class_name": "",
+            "module_name": "django.views.defaults",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    400 error handler.\n\n    Templates: :template:`400.html`\n    Context: None\n    \"\"\"",
+            "name": "bad_request",
+            "namespace": "django.views.defaults.bad_request",
+            "class_name": "",
+            "module_name": "django.views.defaults",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Permission denied (403) handler.\n\n    Templates: :template:`403.html`\n    Context:\n        exception\n            The message from the exception which triggered the 403 (if one was\n            supplied).\n\n    If the template does not exist, an Http403 response containing the text\n    \"403 Forbidden\" (as per RFC 7231) will be returned.\n    \"\"\"",
+            "name": "permission_denied",
+            "namespace": "django.views.defaults.permission_denied",
+            "class_name": "",
+            "module_name": "django.views.defaults",
+            "package_name": ""
+        }
+    ],
     "package_name": "django.views"
 }

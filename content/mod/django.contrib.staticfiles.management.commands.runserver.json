@@ -5,8 +5,27 @@
         {
             "docstring": "",
             "name": "Command",
-            "namespace": "django.contrib.staticfiles.management.commands.runserver.Command"
+            "namespace": "django.contrib.staticfiles.management.commands.runserver.Command",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "add_arguments",
+                    "namespace": "django.contrib.staticfiles.management.commands.runserver.Command.add_arguments",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the static files serving handler wrapping the default handler,\n        if static files should be served. Otherwise return the default handler.\n        \"\"\"",
+                    "name": "get_handler",
+                    "namespace": "django.contrib.staticfiles.management.commands.runserver.Command.get_handler",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.staticfiles.management.commands"
 }

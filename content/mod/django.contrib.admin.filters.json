@@ -5,53 +5,394 @@
         {
             "docstring": "",
             "name": "ListFilter",
-            "namespace": "django.contrib.admin.filters.ListFilter"
+            "namespace": "django.contrib.admin.filters.ListFilter",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.admin.filters.ListFilter.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return True if some choices would be output for this filter.\n        \"\"\"",
+                    "name": "has_output",
+                    "namespace": "django.contrib.admin.filters.ListFilter.has_output",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return choices ready to be output in the template.\n\n        `changelist` is the ChangeList to be displayed.\n        \"\"\"",
+                    "name": "choices",
+                    "namespace": "django.contrib.admin.filters.ListFilter.choices",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the filtered queryset.\n        \"\"\"",
+                    "name": "queryset",
+                    "namespace": "django.contrib.admin.filters.ListFilter.queryset",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the list of parameter names that are expected from the\n        request's query string and that will be used by this filter.\n        \"\"\"",
+                    "name": "expected_parameters",
+                    "namespace": "django.contrib.admin.filters.ListFilter.expected_parameters",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "SimpleListFilter",
-            "namespace": "django.contrib.admin.filters.SimpleListFilter"
+            "namespace": "django.contrib.admin.filters.SimpleListFilter",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.admin.filters.SimpleListFilter.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "has_output",
+                    "namespace": "django.contrib.admin.filters.SimpleListFilter.has_output",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the value (in string format) provided in the request's\n        query string for this filter, if any, or None if the value wasn't\n        provided.\n        \"\"\"",
+                    "name": "value",
+                    "namespace": "django.contrib.admin.filters.SimpleListFilter.value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Must be overridden to return a list of tuples (value, verbose value)\n        \"\"\"",
+                    "name": "lookups",
+                    "namespace": "django.contrib.admin.filters.SimpleListFilter.lookups",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "expected_parameters",
+                    "namespace": "django.contrib.admin.filters.SimpleListFilter.expected_parameters",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "choices",
+                    "namespace": "django.contrib.admin.filters.SimpleListFilter.choices",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "FieldListFilter",
-            "namespace": "django.contrib.admin.filters.FieldListFilter"
+            "namespace": "django.contrib.admin.filters.FieldListFilter",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.admin.filters.FieldListFilter.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "has_output",
+                    "namespace": "django.contrib.admin.filters.FieldListFilter.has_output",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "queryset",
+                    "namespace": "django.contrib.admin.filters.FieldListFilter.queryset",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "register",
+                    "namespace": "django.contrib.admin.filters.FieldListFilter.register",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "create",
+                    "namespace": "django.contrib.admin.filters.FieldListFilter.create",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "RelatedFieldListFilter",
-            "namespace": "django.contrib.admin.filters.RelatedFieldListFilter"
+            "namespace": "django.contrib.admin.filters.RelatedFieldListFilter",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.admin.filters.RelatedFieldListFilter.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return True if a \"(None)\" choice should be included, which filters\n        out everything except empty relationships.\n        \"\"\"",
+                    "name": "include_empty_choice",
+                    "namespace": "django.contrib.admin.filters.RelatedFieldListFilter.include_empty_choice",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "has_output",
+                    "namespace": "django.contrib.admin.filters.RelatedFieldListFilter.has_output",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "expected_parameters",
+                    "namespace": "django.contrib.admin.filters.RelatedFieldListFilter.expected_parameters",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the model admin's ordering for related field, if provided.\n        \"\"\"",
+                    "name": "field_admin_ordering",
+                    "namespace": "django.contrib.admin.filters.RelatedFieldListFilter.field_admin_ordering",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "field_choices",
+                    "namespace": "django.contrib.admin.filters.RelatedFieldListFilter.field_choices",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "choices",
+                    "namespace": "django.contrib.admin.filters.RelatedFieldListFilter.choices",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "BooleanFieldListFilter",
-            "namespace": "django.contrib.admin.filters.BooleanFieldListFilter"
+            "namespace": "django.contrib.admin.filters.BooleanFieldListFilter",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.admin.filters.BooleanFieldListFilter.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "expected_parameters",
+                    "namespace": "django.contrib.admin.filters.BooleanFieldListFilter.expected_parameters",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "choices",
+                    "namespace": "django.contrib.admin.filters.BooleanFieldListFilter.choices",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "ChoicesFieldListFilter",
-            "namespace": "django.contrib.admin.filters.ChoicesFieldListFilter"
+            "namespace": "django.contrib.admin.filters.ChoicesFieldListFilter",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.admin.filters.ChoicesFieldListFilter.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "expected_parameters",
+                    "namespace": "django.contrib.admin.filters.ChoicesFieldListFilter.expected_parameters",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "choices",
+                    "namespace": "django.contrib.admin.filters.ChoicesFieldListFilter.choices",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "DateFieldListFilter",
-            "namespace": "django.contrib.admin.filters.DateFieldListFilter"
+            "namespace": "django.contrib.admin.filters.DateFieldListFilter",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.admin.filters.DateFieldListFilter.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "expected_parameters",
+                    "namespace": "django.contrib.admin.filters.DateFieldListFilter.expected_parameters",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "choices",
+                    "namespace": "django.contrib.admin.filters.DateFieldListFilter.choices",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "AllValuesFieldListFilter",
-            "namespace": "django.contrib.admin.filters.AllValuesFieldListFilter"
+            "namespace": "django.contrib.admin.filters.AllValuesFieldListFilter",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.admin.filters.AllValuesFieldListFilter.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "expected_parameters",
+                    "namespace": "django.contrib.admin.filters.AllValuesFieldListFilter.expected_parameters",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "choices",
+                    "namespace": "django.contrib.admin.filters.AllValuesFieldListFilter.choices",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "RelatedOnlyFieldListFilter",
-            "namespace": "django.contrib.admin.filters.RelatedOnlyFieldListFilter"
+            "namespace": "django.contrib.admin.filters.RelatedOnlyFieldListFilter",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "field_choices",
+                    "namespace": "django.contrib.admin.filters.RelatedOnlyFieldListFilter.field_choices",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "EmptyFieldListFilter",
-            "namespace": "django.contrib.admin.filters.EmptyFieldListFilter"
+            "namespace": "django.contrib.admin.filters.EmptyFieldListFilter",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.admin.filters.EmptyFieldListFilter.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "queryset",
+                    "namespace": "django.contrib.admin.filters.EmptyFieldListFilter.queryset",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "expected_parameters",
+                    "namespace": "django.contrib.admin.filters.EmptyFieldListFilter.expected_parameters",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "choices",
+                    "namespace": "django.contrib.admin.filters.EmptyFieldListFilter.choices",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.admin"
 }

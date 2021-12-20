@@ -5,7 +5,26 @@
         {
             "docstring": "",
             "name": "CyclicDependencyError",
-            "namespace": "django.utils.topological_sort.CyclicDependencyError"
+            "namespace": "django.utils.topological_sort.CyclicDependencyError",
+            "methods": []
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Variation of Kahn's algorithm (1962) that returns sets.\n\n    Take a dependency graph as a dictionary of node => dependencies.\n\n    Yield sets of items in topological order, where the first set contains\n    all nodes without dependencies, and each following set contains all\n    nodes that may depend on the nodes only in the previously yielded sets.\n    \"\"\"",
+            "name": "topological_sort_as_sets",
+            "namespace": "django.utils.topological_sort.topological_sort_as_sets",
+            "class_name": "",
+            "module_name": "django.utils.topological_sort",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "stable_topological_sort",
+            "namespace": "django.utils.topological_sort.stable_topological_sort",
+            "class_name": "",
+            "module_name": "django.utils.topological_sort",
+            "package_name": ""
         }
     ],
     "package_name": "django.utils"

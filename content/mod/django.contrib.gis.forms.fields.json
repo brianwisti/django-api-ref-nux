@@ -5,43 +5,85 @@
         {
             "docstring": "\"\"\"\n    This is the basic form field for a Geometry.  Any textual input that is\n    accepted by GEOSGeometry is accepted by this form.  By default,\n    this includes WKT, HEXEWKB, WKB (in a buffer), and GeoJSON.\n    \"\"\"",
             "name": "GeometryField",
-            "namespace": "django.contrib.gis.forms.fields.GeometryField"
+            "namespace": "django.contrib.gis.forms.fields.GeometryField",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.gis.forms.fields.GeometryField.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Transform the value to a Geometry object.\"\"\"",
+                    "name": "to_python",
+                    "namespace": "django.contrib.gis.forms.fields.GeometryField.to_python",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Validate that the input value can be converted to a Geometry object\n        and return it. Raise a ValidationError if the value cannot be\n        instantiated as a Geometry.\n        \"\"\"",
+                    "name": "clean",
+                    "namespace": "django.contrib.gis.forms.fields.GeometryField.clean",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\" Compare geographic value of data with its initial value. \"\"\"",
+                    "name": "has_changed",
+                    "namespace": "django.contrib.gis.forms.fields.GeometryField.has_changed",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "GeometryCollectionField",
-            "namespace": "django.contrib.gis.forms.fields.GeometryCollectionField"
+            "namespace": "django.contrib.gis.forms.fields.GeometryCollectionField",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "PointField",
-            "namespace": "django.contrib.gis.forms.fields.PointField"
+            "namespace": "django.contrib.gis.forms.fields.PointField",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "MultiPointField",
-            "namespace": "django.contrib.gis.forms.fields.MultiPointField"
+            "namespace": "django.contrib.gis.forms.fields.MultiPointField",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "LineStringField",
-            "namespace": "django.contrib.gis.forms.fields.LineStringField"
+            "namespace": "django.contrib.gis.forms.fields.LineStringField",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "MultiLineStringField",
-            "namespace": "django.contrib.gis.forms.fields.MultiLineStringField"
+            "namespace": "django.contrib.gis.forms.fields.MultiLineStringField",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "PolygonField",
-            "namespace": "django.contrib.gis.forms.fields.PolygonField"
+            "namespace": "django.contrib.gis.forms.fields.PolygonField",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "MultiPolygonField",
-            "namespace": "django.contrib.gis.forms.fields.MultiPolygonField"
+            "namespace": "django.contrib.gis.forms.fields.MultiPolygonField",
+            "methods": []
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.gis.forms"
 }

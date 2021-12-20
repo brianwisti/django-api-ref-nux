@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Schedule `function` to be called once `model` and all `related_models`\n    have been imported and registered with the app registry. `function` will\n    be called with the newly-loaded model classes as its positional arguments,\n    plus any optional keyword arguments.\n\n    The `model` argument must be a model class. Each subsequent positional\n    argument is another model, or a reference to another model - see\n    `resolve_relation()` for the various forms these may take. Any relative\n    references will be resolved relative to `model`.\n\n    This is a convenience wrapper for `Apps.lazy_model_operation` - the app\n    registry model used is the one found in `model._meta.apps`.\n    \"\"\"",
+    "name": "lazy_related_operation",
+    "namespace": "django.db.models.fields.related.lazy_related_operation",
+    "class_name": "",
+    "module_name": "django.db.models.fields.related",
+    "package_name": ""
+}

@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        \"ORDER BY NULL\" prevents MySQL from implicitly ordering by grouped\n        columns. If no ordering would otherwise be applied, we don't want any\n        implicit sorting going on.\n        \"\"\"",
+    "name": "force_no_ordering",
+    "namespace": "django.db.backends.mysql.operations.DatabaseOperations.force_no_ordering",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

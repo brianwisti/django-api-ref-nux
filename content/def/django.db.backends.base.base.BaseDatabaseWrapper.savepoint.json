@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Create a savepoint inside the current transaction. Return an\n        identifier for the savepoint that will be used for the subsequent\n        rollback or commit. Do nothing if savepoints are not supported.\n        \"\"\"",
+    "name": "savepoint",
+    "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.savepoint",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

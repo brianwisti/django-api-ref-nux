@@ -2,51 +2,176 @@
     "name": "django.contrib.gis.geos.prototypes",
     "docstring": "\"\"\"\n This module contains all of the GEOS ctypes function prototypes. Each\n prototype handles the interaction between the GEOS library and Python\n via ctypes.\n\"\"\"",
     "package_name": "django.contrib.gis.geos",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.contrib.gis.geos.prototypes.misc",
             "docstring": "\"\"\"\n This module is for the miscellaneous GEOS routines, particularly the\n ones that return the area, distance, and length.\n\"\"\"",
+            "functions": [],
             "package_name": "django.contrib.gis.geos.prototypes"
         },
         {
             "namespace": "django.contrib.gis.geos.prototypes.predicates",
             "docstring": "\"\"\"\n This module houses the GEOS ctypes prototype functions for the\n unary and binary predicate operations on geometries.\n\"\"\"",
+            "functions": [],
             "package_name": "django.contrib.gis.geos.prototypes"
         },
         {
             "namespace": "django.contrib.gis.geos.prototypes.prepared",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.gis.geos.prototypes"
         },
         {
             "namespace": "django.contrib.gis.geos.prototypes.geom",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.gis.geos.prototypes"
         },
         {
             "namespace": "django.contrib.gis.geos.prototypes.io",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "wkt_r",
+                    "namespace": "django.contrib.gis.geos.prototypes.io.wkt_r",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.geos.prototypes.io",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "wkt_w",
+                    "namespace": "django.contrib.gis.geos.prototypes.io.wkt_w",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.geos.prototypes.io",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "wkb_r",
+                    "namespace": "django.contrib.gis.geos.prototypes.io.wkb_r",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.geos.prototypes.io",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "wkb_w",
+                    "namespace": "django.contrib.gis.geos.prototypes.io.wkb_w",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.geos.prototypes.io",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "ewkb_w",
+                    "namespace": "django.contrib.gis.geos.prototypes.io.ewkb_w",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.geos.prototypes.io",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.gis.geos.prototypes"
         },
         {
             "namespace": "django.contrib.gis.geos.prototypes.coordseq",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"Check the status code of a coordinate sequence operation.\"",
+                    "name": "check_cs_op",
+                    "namespace": "django.contrib.gis.geos.prototypes.coordseq.check_cs_op",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.geos.prototypes.coordseq",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Check the coordinate sequence retrieval.\"",
+                    "name": "check_cs_get",
+                    "namespace": "django.contrib.gis.geos.prototypes.coordseq.check_cs_get",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.geos.prototypes.coordseq",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.gis.geos.prototypes"
         },
         {
             "namespace": "django.contrib.gis.geos.prototypes.topology",
             "docstring": "\"\"\"\n This module houses the GEOS ctypes prototype functions for the\n topological operations on geometries.\n\"\"\"",
+            "functions": [],
             "package_name": "django.contrib.gis.geos.prototypes"
         },
         {
             "namespace": "django.contrib.gis.geos.prototypes.threadsafe",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.gis.geos.prototypes"
         },
         {
             "namespace": "django.contrib.gis.geos.prototypes.errcheck",
             "docstring": "\"\"\"\n Error checking functions for GEOS ctypes prototype functions.\n\"\"\"",
+            "functions": [
+                {
+                    "docstring": "\"Return the last C argument's value by reference.\"",
+                    "name": "last_arg_byref",
+                    "namespace": "django.contrib.gis.geos.prototypes.errcheck.last_arg_byref",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.geos.prototypes.errcheck",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Check the status code and returns the double value passed in by reference.\"",
+                    "name": "check_dbl",
+                    "namespace": "django.contrib.gis.geos.prototypes.errcheck.check_dbl",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.geos.prototypes.errcheck",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Error checking on routines that return Geometries.\"",
+                    "name": "check_geom",
+                    "namespace": "django.contrib.gis.geos.prototypes.errcheck.check_geom",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.geos.prototypes.errcheck",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Error checking on routines that should not return -1.\"",
+                    "name": "check_minus_one",
+                    "namespace": "django.contrib.gis.geos.prototypes.errcheck.check_minus_one",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.geos.prototypes.errcheck",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Error checking for unary/binary predicate functions.\"",
+                    "name": "check_predicate",
+                    "namespace": "django.contrib.gis.geos.prototypes.errcheck.check_predicate",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.geos.prototypes.errcheck",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Error checking for routines that return explicitly sized strings.\n\n    This frees the memory allocated by GEOS at the result pointer.\n    \"\"\"",
+                    "name": "check_sized_string",
+                    "namespace": "django.contrib.gis.geos.prototypes.errcheck.check_sized_string",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.geos.prototypes.errcheck",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Error checking for routines that return strings.\n\n    This frees the memory allocated by GEOS at the result pointer.\n    \"\"\"",
+                    "name": "check_string",
+                    "namespace": "django.contrib.gis.geos.prototypes.errcheck.check_string",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.geos.prototypes.errcheck",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.gis.geos.prototypes"
         }
     ],

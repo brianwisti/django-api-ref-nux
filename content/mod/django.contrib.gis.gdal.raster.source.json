@@ -5,13 +5,266 @@
         {
             "docstring": "",
             "name": "TransformPoint",
-            "namespace": "django.contrib.gis.gdal.raster.source.TransformPoint"
+            "namespace": "django.contrib.gis.gdal.raster.source.TransformPoint",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.gis.gdal.raster.source.TransformPoint.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "x",
+                    "namespace": "django.contrib.gis.gdal.raster.source.TransformPoint.x",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "x",
+                    "namespace": "django.contrib.gis.gdal.raster.source.TransformPoint.x",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "y",
+                    "namespace": "django.contrib.gis.gdal.raster.source.TransformPoint.y",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "y",
+                    "namespace": "django.contrib.gis.gdal.raster.source.TransformPoint.y",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Wrap a raster GDAL Data Source object.\n    \"\"\"",
             "name": "GDALRaster",
-            "namespace": "django.contrib.gis.gdal.raster.source.GDALRaster"
+            "namespace": "django.contrib.gis.gdal.raster.source.GDALRaster",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.gis.gdal.raster.source.GDALRaster.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__del__",
+                    "namespace": "django.contrib.gis.gdal.raster.source.GDALRaster.__del__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__str__",
+                    "namespace": "django.contrib.gis.gdal.raster.source.GDALRaster.__str__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Short-hand representation because WKB may be very large.\n        \"\"\"",
+                    "name": "__repr__",
+                    "namespace": "django.contrib.gis.gdal.raster.source.GDALRaster.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Flush all data from memory into the source file if it exists.\n        The data that needs flushing are geotransforms, coordinate systems,\n        nodata_values and pixel values. This function will be called\n        automatically wherever it is needed.\n        \"\"\"",
+                    "name": "_flush",
+                    "namespace": "django.contrib.gis.gdal.raster.source.GDALRaster._flush",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "vsi_buffer",
+                    "namespace": "django.contrib.gis.gdal.raster.source.GDALRaster.vsi_buffer",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "is_vsi_based",
+                    "namespace": "django.contrib.gis.gdal.raster.source.GDALRaster.is_vsi_based",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the name of this raster. Corresponds to filename\n        for file-based rasters.\n        \"\"\"",
+                    "name": "name",
+                    "namespace": "django.contrib.gis.gdal.raster.source.GDALRaster.name",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the GDAL Driver used for this raster.\n        \"\"\"",
+                    "name": "driver",
+                    "namespace": "django.contrib.gis.gdal.raster.source.GDALRaster.driver",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Width (X axis) in pixels.\n        \"\"\"",
+                    "name": "width",
+                    "namespace": "django.contrib.gis.gdal.raster.source.GDALRaster.width",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Height (Y axis) in pixels.\n        \"\"\"",
+                    "name": "height",
+                    "namespace": "django.contrib.gis.gdal.raster.source.GDALRaster.height",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the SpatialReference used in this GDALRaster.\n        \"\"\"",
+                    "name": "srs",
+                    "namespace": "django.contrib.gis.gdal.raster.source.GDALRaster.srs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Set the spatial reference used in this GDALRaster. The input can be\n        a SpatialReference or any parameter accepted by the SpatialReference\n        constructor.\n        \"\"\"",
+                    "name": "srs",
+                    "namespace": "django.contrib.gis.gdal.raster.source.GDALRaster.srs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Shortcut to access the srid of this GDALRaster.\n        \"\"\"",
+                    "name": "srid",
+                    "namespace": "django.contrib.gis.gdal.raster.source.GDALRaster.srid",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Shortcut to set this GDALRaster's srs from an srid.\n        \"\"\"",
+                    "name": "srid",
+                    "namespace": "django.contrib.gis.gdal.raster.source.GDALRaster.srid",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the geotransform of the data source.\n        Return the default geotransform if it does not exist or has not been\n        set previously. The default is [0.0, 1.0, 0.0, 0.0, 0.0, -1.0].\n        \"\"\"",
+                    "name": "geotransform",
+                    "namespace": "django.contrib.gis.gdal.raster.source.GDALRaster.geotransform",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Set the geotransform for the data source.\"",
+                    "name": "geotransform",
+                    "namespace": "django.contrib.gis.gdal.raster.source.GDALRaster.geotransform",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Coordinates of the raster origin.\n        \"\"\"",
+                    "name": "origin",
+                    "namespace": "django.contrib.gis.gdal.raster.source.GDALRaster.origin",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Pixel scale in units of the raster projection.\n        \"\"\"",
+                    "name": "scale",
+                    "namespace": "django.contrib.gis.gdal.raster.source.GDALRaster.scale",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Skew of pixels (rotation parameters).\n        \"\"\"",
+                    "name": "skew",
+                    "namespace": "django.contrib.gis.gdal.raster.source.GDALRaster.skew",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the extent as a 4-tuple (xmin, ymin, xmax, ymax).\n        \"\"\"",
+                    "name": "extent",
+                    "namespace": "django.contrib.gis.gdal.raster.source.GDALRaster.extent",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "bands",
+                    "namespace": "django.contrib.gis.gdal.raster.source.GDALRaster.bands",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return a warped GDALRaster with the given input characteristics.\n\n        The input is expected to be a dictionary containing the parameters\n        of the target raster. Allowed values are width, height, SRID, origin,\n        scale, skew, datatype, driver, and name (filename).\n\n        By default, the warp functions keeps all parameters equal to the values\n        of the original source raster. For the name of the target raster, the\n        name of the source raster will be used and appended with\n        _copy. + source_driver_name.\n\n        In addition, the resampling algorithm can be specified with the \"resampling\"\n        input parameter. The default is NearestNeighbor. For a list of all options\n        consult the GDAL_RESAMPLE_ALGORITHMS constant.\n        \"\"\"",
+                    "name": "warp",
+                    "namespace": "django.contrib.gis.gdal.raster.source.GDALRaster.warp",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return a clone of this GDALRaster.\"\"\"",
+                    "name": "clone",
+                    "namespace": "django.contrib.gis.gdal.raster.source.GDALRaster.clone",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return a copy of this raster reprojected into the given spatial\n        reference system.\n        \"\"\"",
+                    "name": "transform",
+                    "namespace": "django.contrib.gis.gdal.raster.source.GDALRaster.transform",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return information about this raster in a string format equivalent\n        to the output of the gdalinfo command line utility.\n        \"\"\"",
+                    "name": "info",
+                    "namespace": "django.contrib.gis.gdal.raster.source.GDALRaster.info",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.gis.gdal.raster"
 }

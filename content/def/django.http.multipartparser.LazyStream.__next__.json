@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Used when the exact number of bytes to read is unimportant.\n\n        Return whatever chunk is conveniently returned from the iterator.\n        Useful to avoid unnecessary bookkeeping if performance is an issue.\n        \"\"\"",
+    "name": "__next__",
+    "namespace": "django.http.multipartparser.LazyStream.__next__",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

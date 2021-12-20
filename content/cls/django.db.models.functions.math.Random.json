@@ -3,5 +3,39 @@
     "name": "Random",
     "namespace": "django.db.models.functions.math.Random",
     "module_name": "django.db.models.functions.math",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "as_mysql",
+            "namespace": "django.db.models.functions.math.Random.as_mysql",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "as_oracle",
+            "namespace": "django.db.models.functions.math.Random.as_oracle",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "as_sqlite",
+            "namespace": "django.db.models.functions.math.Random.as_sqlite",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_group_by_cols",
+            "namespace": "django.db.models.functions.math.Random.get_group_by_cols",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

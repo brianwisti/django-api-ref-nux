@@ -3,5 +3,103 @@
     "name": "ExceptionReporter",
     "namespace": "django.views.debug.ExceptionReporter",
     "module_name": "django.views.debug",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "html_template_path",
+            "namespace": "django.views.debug.ExceptionReporter.html_template_path",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "text_template_path",
+            "namespace": "django.views.debug.ExceptionReporter.text_template_path",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.views.debug.ExceptionReporter.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return an absolute URI from variables available in this request. Skip\n        allowed hosts protection, so may return insecure URI.\n        \"\"\"",
+            "name": "_get_raw_insecure_uri",
+            "namespace": "django.views.debug.ExceptionReporter._get_raw_insecure_uri",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return a dictionary containing traceback information.\"\"\"",
+            "name": "get_traceback_data",
+            "namespace": "django.views.debug.ExceptionReporter.get_traceback_data",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return HTML version of debug 500 HTTP error page.\"\"\"",
+            "name": "get_traceback_html",
+            "namespace": "django.views.debug.ExceptionReporter.get_traceback_html",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return plain text version of debug 500 HTTP error page.\"\"\"",
+            "name": "get_traceback_text",
+            "namespace": "django.views.debug.ExceptionReporter.get_traceback_text",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_get_source",
+            "namespace": "django.views.debug.ExceptionReporter._get_source",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return context_lines before and after lineno from file.\n        Return (pre_context_lineno, pre_context, context_line, post_context).\n        \"\"\"",
+            "name": "_get_lines_from_file",
+            "namespace": "django.views.debug.ExceptionReporter._get_lines_from_file",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_get_explicit_or_implicit_cause",
+            "namespace": "django.views.debug.ExceptionReporter._get_explicit_or_implicit_cause",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_traceback_frames",
+            "namespace": "django.views.debug.ExceptionReporter.get_traceback_frames",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_exception_traceback_frames",
+            "namespace": "django.views.debug.ExceptionReporter.get_exception_traceback_frames",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

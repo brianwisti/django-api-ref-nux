@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Assert that expected_message is found in the message of a raised\n        exception.\n\n        Args:\n            expected_exception: Exception class expected to be raised.\n            expected_message: expected error message string value.\n            args: Function to be called and extra positional args.\n            kwargs: Extra kwargs.\n        \"\"\"",
+    "name": "assertRaisesMessage",
+    "namespace": "django.test.testcases.SimpleTestCase.assertRaisesMessage",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

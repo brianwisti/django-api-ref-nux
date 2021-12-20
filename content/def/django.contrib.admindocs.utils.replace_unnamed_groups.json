@@ -1,0 +1,8 @@
+{
+    "docstring": "r\"\"\"\n    Find unnamed groups in `pattern` and replace them with '<var>'. E.g.,\n    1. ^(?P<a>\\w+)/b/(\\w+)$ ==> ^(?P<a>\\w+)/b/<var>$\n    2. ^(?P<a>\\w+)/b/((x|y)\\w+)$ ==> ^(?P<a>\\w+)/b/<var>$\n    3. ^(?P<a>\\w+)/b/(\\w+) ==> ^(?P<a>\\w+)/b/<var>\n    4. ^(?P<a>\\w+)/b/((x|y)\\w+) ==> ^(?P<a>\\w+)/b/<var>\n    \"\"\"",
+    "name": "replace_unnamed_groups",
+    "namespace": "django.contrib.admindocs.utils.replace_unnamed_groups",
+    "class_name": "",
+    "module_name": "django.contrib.admindocs.utils",
+    "package_name": ""
+}

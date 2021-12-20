@@ -5,7 +5,51 @@
         {
             "docstring": "\"\"\"\n    A formset for generic inline objects to a parent.\n    \"\"\"",
             "name": "BaseGenericInlineFormSet",
-            "namespace": "django.contrib.contenttypes.forms.BaseGenericInlineFormSet"
+            "namespace": "django.contrib.contenttypes.forms.BaseGenericInlineFormSet",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.contenttypes.forms.BaseGenericInlineFormSet.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "initial_form_count",
+                    "namespace": "django.contrib.contenttypes.forms.BaseGenericInlineFormSet.initial_form_count",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_default_prefix",
+                    "namespace": "django.contrib.contenttypes.forms.BaseGenericInlineFormSet.get_default_prefix",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "save_new",
+                    "namespace": "django.contrib.contenttypes.forms.BaseGenericInlineFormSet.save_new",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Return a ``GenericInlineFormSet`` for the given kwargs.\n\n    You must provide ``ct_field`` and ``fk_field`` if they are different from\n    the defaults ``content_type`` and ``object_id`` respectively.\n    \"\"\"",
+            "name": "generic_inlineformset_factory",
+            "namespace": "django.contrib.contenttypes.forms.generic_inlineformset_factory",
+            "class_name": "",
+            "module_name": "django.contrib.contenttypes.forms",
+            "package_name": ""
         }
     ],
     "package_name": "django.contrib.contenttypes"

@@ -2,5 +2,55 @@
     "namespace": "django.contrib.gis.gdal.libgdal",
     "docstring": "",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Return the correct STDCALL function for certain OSR routines on Win32\n    platforms.\n    \"\"\"",
+            "name": "std_call",
+            "namespace": "django.contrib.gis.gdal.libgdal.std_call",
+            "class_name": "",
+            "module_name": "django.contrib.gis.gdal.libgdal",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Return only the GDAL version number information.\"",
+            "name": "gdal_version",
+            "namespace": "django.contrib.gis.gdal.libgdal.gdal_version",
+            "class_name": "",
+            "module_name": "django.contrib.gis.gdal.libgdal",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Return the full GDAL version information.\"",
+            "name": "gdal_full_version",
+            "namespace": "django.contrib.gis.gdal.libgdal.gdal_full_version",
+            "class_name": "",
+            "module_name": "django.contrib.gis.gdal.libgdal",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "gdal_version_info",
+            "namespace": "django.contrib.gis.gdal.libgdal.gdal_version_info",
+            "class_name": "",
+            "module_name": "django.contrib.gis.gdal.libgdal",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "err_handler",
+            "namespace": "django.contrib.gis.gdal.libgdal.err_handler",
+            "class_name": "",
+            "module_name": "django.contrib.gis.gdal.libgdal",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "function",
+            "namespace": "django.contrib.gis.gdal.libgdal.function",
+            "class_name": "",
+            "module_name": "django.contrib.gis.gdal.libgdal",
+            "package_name": ""
+        }
+    ],
     "package_name": "django.contrib.gis.gdal"
 }

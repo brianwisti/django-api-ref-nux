@@ -5,113 +5,331 @@
         {
             "docstring": "\"\"\"A class that represents range boundaries.\"\"\"",
             "name": "RangeBoundary",
-            "namespace": "django.contrib.postgres.fields.ranges.RangeBoundary"
+            "namespace": "django.contrib.postgres.fields.ranges.RangeBoundary",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.postgres.fields.ranges.RangeBoundary.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.contrib.postgres.fields.ranges.RangeBoundary.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "RangeOperators",
-            "namespace": "django.contrib.postgres.fields.ranges.RangeOperators"
+            "namespace": "django.contrib.postgres.fields.ranges.RangeOperators",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "RangeField",
-            "namespace": "django.contrib.postgres.fields.ranges.RangeField"
+            "namespace": "django.contrib.postgres.fields.ranges.RangeField",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.postgres.fields.ranges.RangeField.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "model",
+                    "namespace": "django.contrib.postgres.fields.ranges.RangeField.model",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "model",
+                    "namespace": "django.contrib.postgres.fields.ranges.RangeField.model",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_choices_is_value",
+                    "namespace": "django.contrib.postgres.fields.ranges.RangeField._choices_is_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_prep_value",
+                    "namespace": "django.contrib.postgres.fields.ranges.RangeField.get_prep_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "to_python",
+                    "namespace": "django.contrib.postgres.fields.ranges.RangeField.to_python",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "set_attributes_from_name",
+                    "namespace": "django.contrib.postgres.fields.ranges.RangeField.set_attributes_from_name",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "value_to_string",
+                    "namespace": "django.contrib.postgres.fields.ranges.RangeField.value_to_string",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "formfield",
+                    "namespace": "django.contrib.postgres.fields.ranges.RangeField.formfield",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "IntegerRangeField",
-            "namespace": "django.contrib.postgres.fields.ranges.IntegerRangeField"
+            "namespace": "django.contrib.postgres.fields.ranges.IntegerRangeField",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "db_type",
+                    "namespace": "django.contrib.postgres.fields.ranges.IntegerRangeField.db_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "BigIntegerRangeField",
-            "namespace": "django.contrib.postgres.fields.ranges.BigIntegerRangeField"
+            "namespace": "django.contrib.postgres.fields.ranges.BigIntegerRangeField",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "db_type",
+                    "namespace": "django.contrib.postgres.fields.ranges.BigIntegerRangeField.db_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "DecimalRangeField",
-            "namespace": "django.contrib.postgres.fields.ranges.DecimalRangeField"
+            "namespace": "django.contrib.postgres.fields.ranges.DecimalRangeField",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "db_type",
+                    "namespace": "django.contrib.postgres.fields.ranges.DecimalRangeField.db_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "DateTimeRangeField",
-            "namespace": "django.contrib.postgres.fields.ranges.DateTimeRangeField"
+            "namespace": "django.contrib.postgres.fields.ranges.DateTimeRangeField",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "db_type",
+                    "namespace": "django.contrib.postgres.fields.ranges.DateTimeRangeField.db_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "DateRangeField",
-            "namespace": "django.contrib.postgres.fields.ranges.DateRangeField"
+            "namespace": "django.contrib.postgres.fields.ranges.DateRangeField",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "db_type",
+                    "namespace": "django.contrib.postgres.fields.ranges.DateRangeField.db_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Lookup for Date/DateTimeRange containment to cast the rhs to the correct\n    type.\n    \"\"\"",
             "name": "DateTimeRangeContains",
-            "namespace": "django.contrib.postgres.fields.ranges.DateTimeRangeContains"
+            "namespace": "django.contrib.postgres.fields.ranges.DateTimeRangeContains",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "process_rhs",
+                    "namespace": "django.contrib.postgres.fields.ranges.DateTimeRangeContains.process_rhs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_postgresql",
+                    "namespace": "django.contrib.postgres.fields.ranges.DateTimeRangeContains.as_postgresql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "RangeContainedBy",
-            "namespace": "django.contrib.postgres.fields.ranges.RangeContainedBy"
+            "namespace": "django.contrib.postgres.fields.ranges.RangeContainedBy",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "process_rhs",
+                    "namespace": "django.contrib.postgres.fields.ranges.RangeContainedBy.process_rhs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "process_lhs",
+                    "namespace": "django.contrib.postgres.fields.ranges.RangeContainedBy.process_lhs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_prep_lookup",
+                    "namespace": "django.contrib.postgres.fields.ranges.RangeContainedBy.get_prep_lookup",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "FullyLessThan",
-            "namespace": "django.contrib.postgres.fields.ranges.FullyLessThan"
+            "namespace": "django.contrib.postgres.fields.ranges.FullyLessThan",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "FullGreaterThan",
-            "namespace": "django.contrib.postgres.fields.ranges.FullGreaterThan"
+            "namespace": "django.contrib.postgres.fields.ranges.FullGreaterThan",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "NotLessThan",
-            "namespace": "django.contrib.postgres.fields.ranges.NotLessThan"
+            "namespace": "django.contrib.postgres.fields.ranges.NotLessThan",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "NotGreaterThan",
-            "namespace": "django.contrib.postgres.fields.ranges.NotGreaterThan"
+            "namespace": "django.contrib.postgres.fields.ranges.NotGreaterThan",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "AdjacentToLookup",
-            "namespace": "django.contrib.postgres.fields.ranges.AdjacentToLookup"
+            "namespace": "django.contrib.postgres.fields.ranges.AdjacentToLookup",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "RangeStartsWith",
-            "namespace": "django.contrib.postgres.fields.ranges.RangeStartsWith"
+            "namespace": "django.contrib.postgres.fields.ranges.RangeStartsWith",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "output_field",
+                    "namespace": "django.contrib.postgres.fields.ranges.RangeStartsWith.output_field",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "RangeEndsWith",
-            "namespace": "django.contrib.postgres.fields.ranges.RangeEndsWith"
+            "namespace": "django.contrib.postgres.fields.ranges.RangeEndsWith",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "output_field",
+                    "namespace": "django.contrib.postgres.fields.ranges.RangeEndsWith.output_field",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "IsEmpty",
-            "namespace": "django.contrib.postgres.fields.ranges.IsEmpty"
+            "namespace": "django.contrib.postgres.fields.ranges.IsEmpty",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "LowerInclusive",
-            "namespace": "django.contrib.postgres.fields.ranges.LowerInclusive"
+            "namespace": "django.contrib.postgres.fields.ranges.LowerInclusive",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "LowerInfinite",
-            "namespace": "django.contrib.postgres.fields.ranges.LowerInfinite"
+            "namespace": "django.contrib.postgres.fields.ranges.LowerInfinite",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "UpperInclusive",
-            "namespace": "django.contrib.postgres.fields.ranges.UpperInclusive"
+            "namespace": "django.contrib.postgres.fields.ranges.UpperInclusive",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "UpperInfinite",
-            "namespace": "django.contrib.postgres.fields.ranges.UpperInfinite"
+            "namespace": "django.contrib.postgres.fields.ranges.UpperInfinite",
+            "methods": []
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.postgres.fields"
 }

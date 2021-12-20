@@ -3,5 +3,135 @@
     "name": "WatchmanReloader",
     "namespace": "django.utils.autoreload.WatchmanReloader",
     "module_name": "django.utils.autoreload",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.utils.autoreload.WatchmanReloader.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "client",
+            "namespace": "django.utils.autoreload.WatchmanReloader.client",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_watch_root",
+            "namespace": "django.utils.autoreload.WatchmanReloader._watch_root",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_get_clock",
+            "namespace": "django.utils.autoreload.WatchmanReloader._get_clock",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_subscribe",
+            "namespace": "django.utils.autoreload.WatchmanReloader._subscribe",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_subscribe_dir",
+            "namespace": "django.utils.autoreload.WatchmanReloader._subscribe_dir",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Watch a directory with a specific glob. If the directory doesn't yet\n        exist, attempt to watch the parent directory and amend the patterns to\n        include this. It's important this method isn't called more than one per\n        directory when updating all subscriptions. Subsequent calls will\n        overwrite the named subscription, so it must include all possible glob\n        expressions.\n        \"\"\"",
+            "name": "_watch_glob",
+            "namespace": "django.utils.autoreload.WatchmanReloader._watch_glob",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "watched_roots",
+            "namespace": "django.utils.autoreload.WatchmanReloader.watched_roots",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_update_watches",
+            "namespace": "django.utils.autoreload.WatchmanReloader._update_watches",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "update_watches",
+            "namespace": "django.utils.autoreload.WatchmanReloader.update_watches",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_check_subscription",
+            "namespace": "django.utils.autoreload.WatchmanReloader._check_subscription",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "request_processed",
+            "namespace": "django.utils.autoreload.WatchmanReloader.request_processed",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "tick",
+            "namespace": "django.utils.autoreload.WatchmanReloader.tick",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "stop",
+            "namespace": "django.utils.autoreload.WatchmanReloader.stop",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return True if the server is available.\"\"\"",
+            "name": "check_server_status",
+            "namespace": "django.utils.autoreload.WatchmanReloader.check_server_status",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "check_availability",
+            "namespace": "django.utils.autoreload.WatchmanReloader.check_availability",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

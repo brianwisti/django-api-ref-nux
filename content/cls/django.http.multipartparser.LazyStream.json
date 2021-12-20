@@ -3,5 +3,71 @@
     "name": "LazyStream",
     "namespace": "django.http.multipartparser.LazyStream",
     "module_name": "django.http.multipartparser",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "\"\"\"\n        Every LazyStream must have a producer when instantiated.\n\n        A producer is an iterable that returns a string each time it\n        is called.\n        \"\"\"",
+            "name": "__init__",
+            "namespace": "django.http.multipartparser.LazyStream.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "tell",
+            "namespace": "django.http.multipartparser.LazyStream.tell",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "read",
+            "namespace": "django.http.multipartparser.LazyStream.read",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Used when the exact number of bytes to read is unimportant.\n\n        Return whatever chunk is conveniently returned from the iterator.\n        Useful to avoid unnecessary bookkeeping if performance is an issue.\n        \"\"\"",
+            "name": "__next__",
+            "namespace": "django.http.multipartparser.LazyStream.__next__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Used to invalidate/disable this lazy stream.\n\n        Replace the producer with an empty list. Any leftover bytes that have\n        already been read will still be reported upon read() and/or next().\n        \"\"\"",
+            "name": "close",
+            "namespace": "django.http.multipartparser.LazyStream.close",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__iter__",
+            "namespace": "django.http.multipartparser.LazyStream.__iter__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Place bytes back onto the front of the lazy stream.\n\n        Future calls to read() will return those bytes first. The\n        stream position and thus tell() will be rewound.\n        \"\"\"",
+            "name": "unget",
+            "namespace": "django.http.multipartparser.LazyStream.unget",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Update the unget history as a sanity check to see if we've pushed\n        back the same number of bytes in one chunk. If we keep ungetting the\n        same number of bytes many times (here, 50), we're mostly likely in an\n        infinite loop of some sort. This is usually caused by a\n        maliciously-malformed MIME request.\n        \"\"\"",
+            "name": "_update_unget_history",
+            "namespace": "django.http.multipartparser.LazyStream._update_unget_history",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

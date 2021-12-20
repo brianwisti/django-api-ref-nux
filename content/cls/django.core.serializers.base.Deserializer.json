@@ -3,5 +3,31 @@
     "name": "Deserializer",
     "namespace": "django.core.serializers.base.Deserializer",
     "module_name": "django.core.serializers.base",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "\"\"\"\n        Init this serializer given a stream or a string\n        \"\"\"",
+            "name": "__init__",
+            "namespace": "django.core.serializers.base.Deserializer.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__iter__",
+            "namespace": "django.core.serializers.base.Deserializer.__iter__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Iteration interface -- return the next item in the stream\"\"\"",
+            "name": "__next__",
+            "namespace": "django.core.serializers.base.Deserializer.__next__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

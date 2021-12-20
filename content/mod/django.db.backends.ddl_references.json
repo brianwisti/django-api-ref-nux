@@ -5,48 +5,347 @@
         {
             "docstring": "\"\"\"Base class that defines the reference interface.\"\"\"",
             "name": "Reference",
-            "namespace": "django.db.backends.ddl_references.Reference"
+            "namespace": "django.db.backends.ddl_references.Reference",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        Return whether or not this instance references the specified table.\n        \"\"\"",
+                    "name": "references_table",
+                    "namespace": "django.db.backends.ddl_references.Reference.references_table",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return whether or not this instance references the specified column.\n        \"\"\"",
+                    "name": "references_column",
+                    "namespace": "django.db.backends.ddl_references.Reference.references_column",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Rename all references to the old_name to the new_table.\n        \"\"\"",
+                    "name": "rename_table_references",
+                    "namespace": "django.db.backends.ddl_references.Reference.rename_table_references",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Rename all references to the old_column to the new_column.\n        \"\"\"",
+                    "name": "rename_column_references",
+                    "namespace": "django.db.backends.ddl_references.Reference.rename_column_references",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.db.backends.ddl_references.Reference.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__str__",
+                    "namespace": "django.db.backends.ddl_references.Reference.__str__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"Hold a reference to a table.\"\"\"",
             "name": "Table",
-            "namespace": "django.db.backends.ddl_references.Table"
+            "namespace": "django.db.backends.ddl_references.Table",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.backends.ddl_references.Table.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "references_table",
+                    "namespace": "django.db.backends.ddl_references.Table.references_table",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "rename_table_references",
+                    "namespace": "django.db.backends.ddl_references.Table.rename_table_references",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__str__",
+                    "namespace": "django.db.backends.ddl_references.Table.__str__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"Base class for references to multiple columns of a table.\"\"\"",
             "name": "TableColumns",
-            "namespace": "django.db.backends.ddl_references.TableColumns"
+            "namespace": "django.db.backends.ddl_references.TableColumns",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.backends.ddl_references.TableColumns.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "references_column",
+                    "namespace": "django.db.backends.ddl_references.TableColumns.references_column",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "rename_column_references",
+                    "namespace": "django.db.backends.ddl_references.TableColumns.rename_column_references",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"Hold a reference to one or many columns.\"\"\"",
             "name": "Columns",
-            "namespace": "django.db.backends.ddl_references.Columns"
+            "namespace": "django.db.backends.ddl_references.Columns",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.backends.ddl_references.Columns.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__str__",
+                    "namespace": "django.db.backends.ddl_references.Columns.__str__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"Hold a reference to an index name.\"\"\"",
             "name": "IndexName",
-            "namespace": "django.db.backends.ddl_references.IndexName"
+            "namespace": "django.db.backends.ddl_references.IndexName",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.backends.ddl_references.IndexName.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__str__",
+                    "namespace": "django.db.backends.ddl_references.IndexName.__str__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "IndexColumns",
-            "namespace": "django.db.backends.ddl_references.IndexColumns"
+            "namespace": "django.db.backends.ddl_references.IndexColumns",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.backends.ddl_references.IndexColumns.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__str__",
+                    "namespace": "django.db.backends.ddl_references.IndexColumns.__str__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"Hold a reference to a foreign key name.\"\"\"",
             "name": "ForeignKeyName",
-            "namespace": "django.db.backends.ddl_references.ForeignKeyName"
+            "namespace": "django.db.backends.ddl_references.ForeignKeyName",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.backends.ddl_references.ForeignKeyName.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "references_table",
+                    "namespace": "django.db.backends.ddl_references.ForeignKeyName.references_table",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "references_column",
+                    "namespace": "django.db.backends.ddl_references.ForeignKeyName.references_column",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "rename_table_references",
+                    "namespace": "django.db.backends.ddl_references.ForeignKeyName.rename_table_references",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "rename_column_references",
+                    "namespace": "django.db.backends.ddl_references.ForeignKeyName.rename_column_references",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__str__",
+                    "namespace": "django.db.backends.ddl_references.ForeignKeyName.__str__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Statement template and formatting parameters container.\n\n    Allows keeping a reference to a statement without interpolating identifiers\n    that might have to be adjusted if they're referencing a table or column\n    that is removed\n    \"\"\"",
             "name": "Statement",
-            "namespace": "django.db.backends.ddl_references.Statement"
+            "namespace": "django.db.backends.ddl_references.Statement",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.backends.ddl_references.Statement.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "references_table",
+                    "namespace": "django.db.backends.ddl_references.Statement.references_table",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "references_column",
+                    "namespace": "django.db.backends.ddl_references.Statement.references_column",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "rename_table_references",
+                    "namespace": "django.db.backends.ddl_references.Statement.rename_table_references",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "rename_column_references",
+                    "namespace": "django.db.backends.ddl_references.Statement.rename_column_references",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__str__",
+                    "namespace": "django.db.backends.ddl_references.Statement.__str__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Expressions",
-            "namespace": "django.db.backends.ddl_references.Expressions"
+            "namespace": "django.db.backends.ddl_references.Expressions",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.backends.ddl_references.Expressions.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "rename_table_references",
+                    "namespace": "django.db.backends.ddl_references.Expressions.rename_table_references",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "rename_column_references",
+                    "namespace": "django.db.backends.ddl_references.Expressions.rename_column_references",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__str__",
+                    "namespace": "django.db.backends.ddl_references.Expressions.__str__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.db.backends"
 }

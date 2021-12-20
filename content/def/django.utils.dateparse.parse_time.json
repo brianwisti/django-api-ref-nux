@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"Parse a string and return a datetime.time.\n\n    This function doesn't support time zone offsets.\n\n    Raise ValueError if the input is well formatted but not a valid time.\n    Return None if the input isn't well formatted, in particular if it\n    contains an offset.\n    \"\"\"",
+    "name": "parse_time",
+    "namespace": "django.utils.dateparse.parse_time",
+    "class_name": "",
+    "module_name": "django.utils.dateparse",
+    "package_name": ""
+}

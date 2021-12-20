@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Validate the given host for this site.\n\n    Check that the host looks valid and matches a host or host pattern in the\n    given list of ``allowed_hosts``. Any pattern beginning with a period\n    matches a domain and all its subdomains (e.g. ``.example.com`` matches\n    ``example.com`` and any subdomain), ``*`` matches anything, and anything\n    else must match exactly.\n\n    Note: This function assumes that the given host is lowercased and has\n    already had the port, if any, stripped off.\n\n    Return ``True`` for a valid host, ``False`` otherwise.\n    \"\"\"",
+    "name": "validate_host",
+    "namespace": "django.http.request.validate_host",
+    "class_name": "",
+    "module_name": "django.http.request",
+    "package_name": ""
+}

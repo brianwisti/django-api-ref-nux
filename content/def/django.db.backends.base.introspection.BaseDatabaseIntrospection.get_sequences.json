@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Return a list of introspected sequences for table_name. Each sequence\n        is a dict: {'table': <table_name>, 'column': <column_name>}. An optional\n        'name' key can be added if the backend supports named sequences.\n        \"\"\"",
+    "name": "get_sequences",
+    "namespace": "django.db.backends.base.introspection.BaseDatabaseIntrospection.get_sequences",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

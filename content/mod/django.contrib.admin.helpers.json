@@ -5,53 +5,361 @@
         {
             "docstring": "",
             "name": "ActionForm",
-            "namespace": "django.contrib.admin.helpers.ActionForm"
+            "namespace": "django.contrib.admin.helpers.ActionForm",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "AdminForm",
-            "namespace": "django.contrib.admin.helpers.AdminForm"
+            "namespace": "django.contrib.admin.helpers.AdminForm",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.admin.helpers.AdminForm.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.contrib.admin.helpers.AdminForm.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__iter__",
+                    "namespace": "django.contrib.admin.helpers.AdminForm.__iter__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "errors",
+                    "namespace": "django.contrib.admin.helpers.AdminForm.errors",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "non_field_errors",
+                    "namespace": "django.contrib.admin.helpers.AdminForm.non_field_errors",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "media",
+                    "namespace": "django.contrib.admin.helpers.AdminForm.media",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Fieldset",
-            "namespace": "django.contrib.admin.helpers.Fieldset"
+            "namespace": "django.contrib.admin.helpers.Fieldset",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.admin.helpers.Fieldset.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "media",
+                    "namespace": "django.contrib.admin.helpers.Fieldset.media",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__iter__",
+                    "namespace": "django.contrib.admin.helpers.Fieldset.__iter__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Fieldline",
-            "namespace": "django.contrib.admin.helpers.Fieldline"
+            "namespace": "django.contrib.admin.helpers.Fieldline",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.admin.helpers.Fieldline.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__iter__",
+                    "namespace": "django.contrib.admin.helpers.Fieldline.__iter__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "errors",
+                    "namespace": "django.contrib.admin.helpers.Fieldline.errors",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "AdminField",
-            "namespace": "django.contrib.admin.helpers.AdminField"
+            "namespace": "django.contrib.admin.helpers.AdminField",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.admin.helpers.AdminField.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "label_tag",
+                    "namespace": "django.contrib.admin.helpers.AdminField.label_tag",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "errors",
+                    "namespace": "django.contrib.admin.helpers.AdminField.errors",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "AdminReadonlyField",
-            "namespace": "django.contrib.admin.helpers.AdminReadonlyField"
+            "namespace": "django.contrib.admin.helpers.AdminReadonlyField",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.admin.helpers.AdminReadonlyField.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "label_tag",
+                    "namespace": "django.contrib.admin.helpers.AdminReadonlyField.label_tag",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_admin_url",
+                    "namespace": "django.contrib.admin.helpers.AdminReadonlyField.get_admin_url",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "contents",
+                    "namespace": "django.contrib.admin.helpers.AdminReadonlyField.contents",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    A wrapper around an inline formset for use in the admin system.\n    \"\"\"",
             "name": "InlineAdminFormSet",
-            "namespace": "django.contrib.admin.helpers.InlineAdminFormSet"
+            "namespace": "django.contrib.admin.helpers.InlineAdminFormSet",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.admin.helpers.InlineAdminFormSet.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__iter__",
+                    "namespace": "django.contrib.admin.helpers.InlineAdminFormSet.__iter__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "fields",
+                    "namespace": "django.contrib.admin.helpers.InlineAdminFormSet.fields",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "inline_formset_data",
+                    "namespace": "django.contrib.admin.helpers.InlineAdminFormSet.inline_formset_data",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "forms",
+                    "namespace": "django.contrib.admin.helpers.InlineAdminFormSet.forms",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "non_form_errors",
+                    "namespace": "django.contrib.admin.helpers.InlineAdminFormSet.non_form_errors",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "media",
+                    "namespace": "django.contrib.admin.helpers.InlineAdminFormSet.media",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    A wrapper around an inline form for use in the admin system.\n    \"\"\"",
             "name": "InlineAdminForm",
-            "namespace": "django.contrib.admin.helpers.InlineAdminForm"
+            "namespace": "django.contrib.admin.helpers.InlineAdminForm",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.admin.helpers.InlineAdminForm.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__iter__",
+                    "namespace": "django.contrib.admin.helpers.InlineAdminForm.__iter__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "needs_explicit_pk_field",
+                    "namespace": "django.contrib.admin.helpers.InlineAdminForm.needs_explicit_pk_field",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "pk_field",
+                    "namespace": "django.contrib.admin.helpers.InlineAdminForm.pk_field",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "fk_field",
+                    "namespace": "django.contrib.admin.helpers.InlineAdminForm.fk_field",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "deletion_field",
+                    "namespace": "django.contrib.admin.helpers.InlineAdminForm.deletion_field",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "ordering_field",
+                    "namespace": "django.contrib.admin.helpers.InlineAdminForm.ordering_field",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "InlineFieldset",
-            "namespace": "django.contrib.admin.helpers.InlineFieldset"
+            "namespace": "django.contrib.admin.helpers.InlineFieldset",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.admin.helpers.InlineFieldset.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__iter__",
+                    "namespace": "django.contrib.admin.helpers.InlineFieldset.__iter__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"Store errors for the form/formsets in an add/change view.\"\"\"",
             "name": "AdminErrorList",
-            "namespace": "django.contrib.admin.helpers.AdminErrorList"
+            "namespace": "django.contrib.admin.helpers.AdminErrorList",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.admin.helpers.AdminErrorList.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.admin"
 }

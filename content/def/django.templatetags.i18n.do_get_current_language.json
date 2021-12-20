@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Store the current language in the context.\n\n    Usage::\n\n        {% get_current_language as language %}\n\n    This fetches the currently active language and puts its value into the\n    ``language`` context variable.\n    \"\"\"",
+    "name": "do_get_current_language",
+    "namespace": "django.templatetags.i18n.do_get_current_language",
+    "class_name": "",
+    "module_name": "django.templatetags.i18n",
+    "package_name": ""
+}

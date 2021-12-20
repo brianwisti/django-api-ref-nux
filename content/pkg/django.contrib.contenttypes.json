@@ -2,41 +2,93 @@
     "name": "django.contrib.contenttypes",
     "docstring": "",
     "package_name": "django.contrib",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.contrib.contenttypes.models",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.contenttypes"
         },
         {
             "namespace": "django.contrib.contenttypes.fields",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Factory function to create a manager that subclasses another manager\n    (generally the default manager of a given model) and adds behaviors\n    specific to generic relations.\n    \"\"\"",
+                    "name": "create_generic_related_manager",
+                    "namespace": "django.contrib.contenttypes.fields.create_generic_related_manager",
+                    "class_name": "",
+                    "module_name": "django.contrib.contenttypes.fields",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.contenttypes"
         },
         {
             "namespace": "django.contrib.contenttypes.checks",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "check_generic_foreign_keys",
+                    "namespace": "django.contrib.contenttypes.checks.check_generic_foreign_keys",
+                    "class_name": "",
+                    "module_name": "django.contrib.contenttypes.checks",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check_model_name_lengths",
+                    "namespace": "django.contrib.contenttypes.checks.check_model_name_lengths",
+                    "class_name": "",
+                    "module_name": "django.contrib.contenttypes.checks",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.contenttypes"
         },
         {
             "namespace": "django.contrib.contenttypes.apps",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.contenttypes"
         },
         {
             "namespace": "django.contrib.contenttypes.forms",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Return a ``GenericInlineFormSet`` for the given kwargs.\n\n    You must provide ``ct_field`` and ``fk_field`` if they are different from\n    the defaults ``content_type`` and ``object_id`` respectively.\n    \"\"\"",
+                    "name": "generic_inlineformset_factory",
+                    "namespace": "django.contrib.contenttypes.forms.generic_inlineformset_factory",
+                    "class_name": "",
+                    "module_name": "django.contrib.contenttypes.forms",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.contenttypes"
         },
         {
             "namespace": "django.contrib.contenttypes.admin",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.contenttypes"
         },
         {
             "namespace": "django.contrib.contenttypes.views",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Redirect to an object's page based on a content-type ID and an object ID.\n    \"\"\"",
+                    "name": "shortcut",
+                    "namespace": "django.contrib.contenttypes.views.shortcut",
+                    "class_name": "",
+                    "module_name": "django.contrib.contenttypes.views",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.contenttypes"
         }
     ],
@@ -44,12 +96,39 @@
         {
             "name": "django.contrib.contenttypes.migrations",
             "docstring": "",
-            "package_name": "django.contrib.contenttypes"
+            "package_name": "django.contrib.contenttypes",
+            "functions": []
         },
         {
             "name": "django.contrib.contenttypes.management",
             "docstring": "",
-            "package_name": "django.contrib.contenttypes"
+            "package_name": "django.contrib.contenttypes",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Insert a `RenameContentType` operation after every planned `RenameModel`\n    operation.\n    \"\"\"",
+                    "name": "inject_rename_contenttypes_operations",
+                    "namespace": "django.contrib.contenttypes.management.inject_rename_contenttypes_operations",
+                    "class_name": "",
+                    "module_name": "django.contrib.contenttypes.management",
+                    "package_name": "django.contrib.contenttypes.management"
+                },
+                {
+                    "docstring": "",
+                    "name": "get_contenttypes_and_models",
+                    "namespace": "django.contrib.contenttypes.management.get_contenttypes_and_models",
+                    "class_name": "",
+                    "module_name": "django.contrib.contenttypes.management",
+                    "package_name": "django.contrib.contenttypes.management"
+                },
+                {
+                    "docstring": "\"\"\"\n    Create content types for models in the given app.\n    \"\"\"",
+                    "name": "create_contenttypes",
+                    "namespace": "django.contrib.contenttypes.management.create_contenttypes",
+                    "class_name": "",
+                    "module_name": "django.contrib.contenttypes.management",
+                    "package_name": "django.contrib.contenttypes.management"
+                }
+            ]
         }
     ]
 }

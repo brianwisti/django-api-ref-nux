@@ -3,5 +3,23 @@
     "name": "NodeList",
     "namespace": "django.template.base.NodeList",
     "module_name": "django.template.base",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "render",
+            "namespace": "django.template.base.NodeList.render",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Return a list of all nodes of the given type\"",
+            "name": "get_nodes_by_type",
+            "namespace": "django.template.base.NodeList.get_nodes_by_type",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

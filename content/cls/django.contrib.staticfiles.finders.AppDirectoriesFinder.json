@@ -3,5 +3,39 @@
     "name": "AppDirectoriesFinder",
     "namespace": "django.contrib.staticfiles.finders.AppDirectoriesFinder",
     "module_name": "django.contrib.staticfiles.finders",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.contrib.staticfiles.finders.AppDirectoriesFinder.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        List all files in all app storages.\n        \"\"\"",
+            "name": "list",
+            "namespace": "django.contrib.staticfiles.finders.AppDirectoriesFinder.list",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Look for files in the app directories.\n        \"\"\"",
+            "name": "find",
+            "namespace": "django.contrib.staticfiles.finders.AppDirectoriesFinder.find",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Find a requested static file in an app's static locations.\n        \"\"\"",
+            "name": "find_in_app",
+            "namespace": "django.contrib.staticfiles.finders.AppDirectoriesFinder.find_in_app",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

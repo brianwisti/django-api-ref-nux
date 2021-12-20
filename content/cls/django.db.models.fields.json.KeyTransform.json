@@ -3,5 +3,55 @@
     "name": "KeyTransform",
     "namespace": "django.db.models.fields.json.KeyTransform",
     "module_name": "django.db.models.fields.json",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.db.models.fields.json.KeyTransform.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "preprocess_lhs",
+            "namespace": "django.db.models.fields.json.KeyTransform.preprocess_lhs",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "as_mysql",
+            "namespace": "django.db.models.fields.json.KeyTransform.as_mysql",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "as_oracle",
+            "namespace": "django.db.models.fields.json.KeyTransform.as_oracle",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "as_postgresql",
+            "namespace": "django.db.models.fields.json.KeyTransform.as_postgresql",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "as_sqlite",
+            "namespace": "django.db.models.fields.json.KeyTransform.as_sqlite",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

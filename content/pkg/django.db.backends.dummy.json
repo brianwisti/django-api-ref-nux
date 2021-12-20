@@ -2,16 +2,36 @@
     "name": "django.db.backends.dummy",
     "docstring": "",
     "package_name": "django.db.backends",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.db.backends.dummy.features",
             "docstring": "",
+            "functions": [],
             "package_name": "django.db.backends.dummy"
         },
         {
             "namespace": "django.db.backends.dummy.base",
             "docstring": "\"\"\"\nDummy database backend for Django.\n\nDjango uses this if the database ENGINE setting is empty (None or empty string).\n\nEach of these API functions, except connection.close(), raise\nImproperlyConfigured.\n\"\"\"",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "complain",
+                    "namespace": "django.db.backends.dummy.base.complain",
+                    "class_name": "",
+                    "module_name": "django.db.backends.dummy.base",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "ignore",
+                    "namespace": "django.db.backends.dummy.base.ignore",
+                    "class_name": "",
+                    "module_name": "django.db.backends.dummy.base",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.db.backends.dummy"
         }
     ],

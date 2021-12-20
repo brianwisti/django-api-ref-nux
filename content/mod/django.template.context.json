@@ -5,32 +5,309 @@
         {
             "docstring": "\"pop() has been called more times than push()\"",
             "name": "ContextPopException",
-            "namespace": "django.template.context.ContextPopException"
+            "namespace": "django.template.context.ContextPopException",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "ContextDict",
-            "namespace": "django.template.context.ContextDict"
+            "namespace": "django.template.context.ContextDict",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.template.context.ContextDict.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__enter__",
+                    "namespace": "django.template.context.ContextDict.__enter__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__exit__",
+                    "namespace": "django.template.context.ContextDict.__exit__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "BaseContext",
-            "namespace": "django.template.context.BaseContext"
+            "namespace": "django.template.context.BaseContext",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.template.context.BaseContext.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_reset_dicts",
+                    "namespace": "django.template.context.BaseContext._reset_dicts",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__copy__",
+                    "namespace": "django.template.context.BaseContext.__copy__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.template.context.BaseContext.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__iter__",
+                    "namespace": "django.template.context.BaseContext.__iter__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "push",
+                    "namespace": "django.template.context.BaseContext.push",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "pop",
+                    "namespace": "django.template.context.BaseContext.pop",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Set a variable in the current context\"",
+                    "name": "__setitem__",
+                    "namespace": "django.template.context.BaseContext.__setitem__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Set a variable in one of the higher contexts if it exists there,\n        otherwise in the current context.\n        \"\"\"",
+                    "name": "set_upward",
+                    "namespace": "django.template.context.BaseContext.set_upward",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Get a variable's value, starting at the current context and going upward\"",
+                    "name": "__getitem__",
+                    "namespace": "django.template.context.BaseContext.__getitem__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Delete a variable from the current context\"",
+                    "name": "__delitem__",
+                    "namespace": "django.template.context.BaseContext.__delitem__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__contains__",
+                    "namespace": "django.template.context.BaseContext.__contains__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get",
+                    "namespace": "django.template.context.BaseContext.get",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "setdefault",
+                    "namespace": "django.template.context.BaseContext.setdefault",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return a new context with the same properties, but with only the\n        values given in 'values' stored.\n        \"\"\"",
+                    "name": "new",
+                    "namespace": "django.template.context.BaseContext.new",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return self.dicts as one dictionary.\n        \"\"\"",
+                    "name": "flatten",
+                    "namespace": "django.template.context.BaseContext.flatten",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Compare two contexts by comparing theirs 'dicts' attributes.\n        \"\"\"",
+                    "name": "__eq__",
+                    "namespace": "django.template.context.BaseContext.__eq__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"A stack container for variable context\"",
             "name": "Context",
-            "namespace": "django.template.context.Context"
+            "namespace": "django.template.context.Context",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.template.context.Context.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "bind_template",
+                    "namespace": "django.template.context.Context.bind_template",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__copy__",
+                    "namespace": "django.template.context.Context.__copy__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Push other_dict to the stack of dictionaries in the Context\"",
+                    "name": "update",
+                    "namespace": "django.template.context.Context.update",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    A stack container for storing Template state.\n\n    RenderContext simplifies the implementation of template Nodes by providing a\n    safe place to store state between invocations of a node's `render` method.\n\n    The RenderContext also provides scoping rules that are more sensible for\n    'template local' variables. The render context stack is pushed before each\n    template is rendered, creating a fresh scope with nothing in it. Name\n    resolution fails if a variable is not found at the top of the RequestContext\n    stack. Thus, variables are local to a specific template and don't affect the\n    rendering of other templates as they would if they were stored in the normal\n    template context.\n    \"\"\"",
             "name": "RenderContext",
-            "namespace": "django.template.context.RenderContext"
+            "namespace": "django.template.context.RenderContext",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__iter__",
+                    "namespace": "django.template.context.RenderContext.__iter__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__contains__",
+                    "namespace": "django.template.context.RenderContext.__contains__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get",
+                    "namespace": "django.template.context.RenderContext.get",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__getitem__",
+                    "namespace": "django.template.context.RenderContext.__getitem__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "push_state",
+                    "namespace": "django.template.context.RenderContext.push_state",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    This subclass of template.Context automatically populates itself using\n    the processors defined in the engine's configuration.\n    Additional processors can be specified as a list of callables\n    using the \"processors\" keyword argument.\n    \"\"\"",
             "name": "RequestContext",
-            "namespace": "django.template.context.RequestContext"
+            "namespace": "django.template.context.RequestContext",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.template.context.RequestContext.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "bind_template",
+                    "namespace": "django.template.context.RequestContext.bind_template",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "new",
+                    "namespace": "django.template.context.RequestContext.new",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Create a suitable Context from a plain dict and optionally an HttpRequest.\n    \"\"\"",
+            "name": "make_context",
+            "namespace": "django.template.context.make_context",
+            "class_name": "",
+            "module_name": "django.template.context",
+            "package_name": ""
         }
     ],
     "package_name": "django.template"

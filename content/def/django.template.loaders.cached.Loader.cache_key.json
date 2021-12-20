@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Generate a cache key for the template name and skip.\n\n        If skip is provided, only origins that match template_name are included\n        in the cache key. This ensures each template is only parsed and cached\n        once if contained in different extend chains like:\n\n            x -> a -> a\n            y -> a -> a\n            z -> a -> a\n        \"\"\"",
+    "name": "cache_key",
+    "namespace": "django.template.loaders.cached.Loader.cache_key",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

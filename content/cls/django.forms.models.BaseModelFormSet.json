@@ -3,5 +3,151 @@
     "name": "BaseModelFormSet",
     "namespace": "django.forms.models.BaseModelFormSet",
     "module_name": "django.forms.models",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.forms.models.BaseModelFormSet.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return the number of forms that are required in this FormSet.\"\"\"",
+            "name": "initial_form_count",
+            "namespace": "django.forms.models.BaseModelFormSet.initial_form_count",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_existing_object",
+            "namespace": "django.forms.models.BaseModelFormSet._existing_object",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        If the field is a related field, fetch the concrete field's (that\n        is, the ultimate pointed-to field's) to_python.\n        \"\"\"",
+            "name": "_get_to_python",
+            "namespace": "django.forms.models.BaseModelFormSet._get_to_python",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_construct_form",
+            "namespace": "django.forms.models.BaseModelFormSet._construct_form",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_queryset",
+            "namespace": "django.forms.models.BaseModelFormSet.get_queryset",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Save and return a new model instance for the given form.\"\"\"",
+            "name": "save_new",
+            "namespace": "django.forms.models.BaseModelFormSet.save_new",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Save and return an existing model instance for the given form.\"\"\"",
+            "name": "save_existing",
+            "namespace": "django.forms.models.BaseModelFormSet.save_existing",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Deletes an existing model instance.\"\"\"",
+            "name": "delete_existing",
+            "namespace": "django.forms.models.BaseModelFormSet.delete_existing",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Save model instances for every form, adding and changing instances\n        as necessary, and return the list of instances.\n        \"\"\"",
+            "name": "save",
+            "namespace": "django.forms.models.BaseModelFormSet.save",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "clean",
+            "namespace": "django.forms.models.BaseModelFormSet.clean",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "validate_unique",
+            "namespace": "django.forms.models.BaseModelFormSet.validate_unique",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_unique_error_message",
+            "namespace": "django.forms.models.BaseModelFormSet.get_unique_error_message",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_date_error_message",
+            "namespace": "django.forms.models.BaseModelFormSet.get_date_error_message",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_form_error",
+            "namespace": "django.forms.models.BaseModelFormSet.get_form_error",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "save_existing_objects",
+            "namespace": "django.forms.models.BaseModelFormSet.save_existing_objects",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "save_new_objects",
+            "namespace": "django.forms.models.BaseModelFormSet.save_new_objects",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Add a hidden field for the object's primary key.\"\"\"",
+            "name": "add_fields",
+            "namespace": "django.forms.models.BaseModelFormSet.add_fields",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

@@ -3,5 +3,63 @@
     "name": "ConnectionRouter",
     "namespace": "django.db.utils.ConnectionRouter",
     "module_name": "django.db.utils",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "\"\"\"\n        If routers is not specified, default to settings.DATABASE_ROUTERS.\n        \"\"\"",
+            "name": "__init__",
+            "namespace": "django.db.utils.ConnectionRouter.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "routers",
+            "namespace": "django.db.utils.ConnectionRouter.routers",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_router_func",
+            "namespace": "django.db.utils.ConnectionRouter._router_func",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "allow_relation",
+            "namespace": "django.db.utils.ConnectionRouter.allow_relation",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "allow_migrate",
+            "namespace": "django.db.utils.ConnectionRouter.allow_migrate",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "allow_migrate_model",
+            "namespace": "django.db.utils.ConnectionRouter.allow_migrate_model",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return app models allowed to be migrated on provided db.\"\"\"",
+            "name": "get_migratable_models",
+            "namespace": "django.db.utils.ConnectionRouter.get_migratable_models",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

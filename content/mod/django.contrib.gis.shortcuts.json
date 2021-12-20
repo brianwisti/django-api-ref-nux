@@ -2,5 +2,31 @@
     "namespace": "django.contrib.gis.shortcuts",
     "docstring": "",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "\"Return compressed KMZ from the given KML string.\"",
+            "name": "compress_kml",
+            "namespace": "django.contrib.gis.shortcuts.compress_kml",
+            "class_name": "",
+            "module_name": "django.contrib.gis.shortcuts",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Render the response as KML (using the correct MIME type).\"",
+            "name": "render_to_kml",
+            "namespace": "django.contrib.gis.shortcuts.render_to_kml",
+            "class_name": "",
+            "module_name": "django.contrib.gis.shortcuts",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Compress the KML content and return as KMZ (using the correct\n    MIME type).\n    \"\"\"",
+            "name": "render_to_kmz",
+            "namespace": "django.contrib.gis.shortcuts.render_to_kmz",
+            "class_name": "",
+            "module_name": "django.contrib.gis.shortcuts",
+            "package_name": ""
+        }
+    ],
     "package_name": "django.contrib.gis"
 }

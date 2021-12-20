@@ -3,5 +3,199 @@
     "name": "DateFormat",
     "namespace": "django.utils.dateformat.DateFormat",
     "module_name": "django.utils.dateformat",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "\"Month, textual, 3 letters, lowercase; e.g. 'jan'\"",
+            "name": "b",
+            "namespace": "django.utils.dateformat.DateFormat.b",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        ISO 8601 Format\n        Example : '2008-01-02T10:30:00.000123'\n        \"\"\"",
+            "name": "c",
+            "namespace": "django.utils.dateformat.DateFormat.c",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Day of the month, 2 digits with leading zeros; i.e. '01' to '31'\"",
+            "name": "d",
+            "namespace": "django.utils.dateformat.DateFormat.d",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Day of the week, textual, 3 letters; e.g. 'Fri'\"",
+            "name": "D",
+            "namespace": "django.utils.dateformat.DateFormat.D",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Alternative month names as required by some locales. Proprietary extension.\"",
+            "name": "E",
+            "namespace": "django.utils.dateformat.DateFormat.E",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Month, textual, long; e.g. 'January'\"",
+            "name": "F",
+            "namespace": "django.utils.dateformat.DateFormat.F",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"'1' if daylight saving time, '0' otherwise.\"",
+            "name": "I",
+            "namespace": "django.utils.dateformat.DateFormat.I",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Day of the month without leading zeros; i.e. '1' to '31'\"",
+            "name": "j",
+            "namespace": "django.utils.dateformat.DateFormat.j",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Day of the week, textual, long; e.g. 'Friday'\"",
+            "name": "l",
+            "namespace": "django.utils.dateformat.DateFormat.l",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Boolean for whether it is a leap year; i.e. True or False\"",
+            "name": "L",
+            "namespace": "django.utils.dateformat.DateFormat.L",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Month; i.e. '01' to '12'\"",
+            "name": "m",
+            "namespace": "django.utils.dateformat.DateFormat.m",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Month, textual, 3 letters; e.g. 'Jan'\"",
+            "name": "M",
+            "namespace": "django.utils.dateformat.DateFormat.M",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Month without leading zeros; i.e. '1' to '12'\"",
+            "name": "n",
+            "namespace": "django.utils.dateformat.DateFormat.n",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Month abbreviation in Associated Press style. Proprietary extension.\"",
+            "name": "N",
+            "namespace": "django.utils.dateformat.DateFormat.N",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"ISO 8601 year number matching the ISO week number (W)\"",
+            "name": "o",
+            "namespace": "django.utils.dateformat.DateFormat.o",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"RFC 5322 formatted date; e.g. 'Thu, 21 Dec 2000 16:01:07 +0200'\"",
+            "name": "r",
+            "namespace": "django.utils.dateformat.DateFormat.r",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"English ordinal suffix for the day of the month, 2 characters; i.e. 'st', 'nd', 'rd' or 'th'\"",
+            "name": "S",
+            "namespace": "django.utils.dateformat.DateFormat.S",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Number of days in the given month; i.e. '28' to '31'\"",
+            "name": "t",
+            "namespace": "django.utils.dateformat.DateFormat.t",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Seconds since the Unix epoch (January 1 1970 00:00:00 GMT)\"",
+            "name": "U",
+            "namespace": "django.utils.dateformat.DateFormat.U",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Day of the week, numeric, i.e. '0' (Sunday) to '6' (Saturday)\"",
+            "name": "w",
+            "namespace": "django.utils.dateformat.DateFormat.w",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"ISO-8601 week number of year, weeks starting on Monday\"",
+            "name": "W",
+            "namespace": "django.utils.dateformat.DateFormat.W",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Year, 2 digits with leading zeros; e.g. '99'.\"\"\"",
+            "name": "y",
+            "namespace": "django.utils.dateformat.DateFormat.y",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Year, 4 digits with leading zeros; e.g. '1999'.\"\"\"",
+            "name": "Y",
+            "namespace": "django.utils.dateformat.DateFormat.Y",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Day of the year, i.e. 1 to 366.\"\"\"",
+            "name": "z",
+            "namespace": "django.utils.dateformat.DateFormat.z",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

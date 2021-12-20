@@ -5,17 +5,89 @@
         {
             "docstring": "",
             "name": "Jinja2",
-            "namespace": "django.template.backends.jinja2.Jinja2"
+            "namespace": "django.template.backends.jinja2.Jinja2",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.template.backends.jinja2.Jinja2.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "from_string",
+                    "namespace": "django.template.backends.jinja2.Jinja2.from_string",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_template",
+                    "namespace": "django.template.backends.jinja2.Jinja2.get_template",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "template_context_processors",
+                    "namespace": "django.template.backends.jinja2.Jinja2.template_context_processors",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Template",
-            "namespace": "django.template.backends.jinja2.Template"
+            "namespace": "django.template.backends.jinja2.Template",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.template.backends.jinja2.Template.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "render",
+                    "namespace": "django.template.backends.jinja2.Template.render",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    A container to hold debug information as described in the template API\n    documentation.\n    \"\"\"",
             "name": "Origin",
-            "namespace": "django.template.backends.jinja2.Origin"
+            "namespace": "django.template.backends.jinja2.Origin",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.template.backends.jinja2.Origin.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Format exception information for display on the debug page using the\n    structure described in the template API documentation.\n    \"\"\"",
+            "name": "get_exception_info",
+            "namespace": "django.template.backends.jinja2.get_exception_info",
+            "class_name": "",
+            "module_name": "django.template.backends.jinja2",
+            "package_name": ""
         }
     ],
     "package_name": "django.template.backends"

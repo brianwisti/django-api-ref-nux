@@ -3,5 +3,71 @@
     "name": "BaseModelForm",
     "namespace": "django.forms.models.BaseModelForm",
     "module_name": "django.forms.models",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.forms.models.BaseModelForm.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        For backwards-compatibility, exclude several types of fields from model\n        validation. See tickets #12507, #12521, #12553.\n        \"\"\"",
+            "name": "_get_validation_exclusions",
+            "namespace": "django.forms.models.BaseModelForm._get_validation_exclusions",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "clean",
+            "namespace": "django.forms.models.BaseModelForm.clean",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_update_errors",
+            "namespace": "django.forms.models.BaseModelForm._update_errors",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_post_clean",
+            "namespace": "django.forms.models.BaseModelForm._post_clean",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Call the instance's validate_unique() method and update the form's\n        validation errors if any were raised.\n        \"\"\"",
+            "name": "validate_unique",
+            "namespace": "django.forms.models.BaseModelForm.validate_unique",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Save the many-to-many fields and generic relations for this form.\n        \"\"\"",
+            "name": "_save_m2m",
+            "namespace": "django.forms.models.BaseModelForm._save_m2m",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Save this form's self.instance object if commit=True. Otherwise, add\n        a save_m2m() method to the form which can be called after the instance\n        is saved manually at a later time. Return the model instance.\n        \"\"\"",
+            "name": "save",
+            "namespace": "django.forms.models.BaseModelForm.save",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

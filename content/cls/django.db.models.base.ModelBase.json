@@ -3,5 +3,47 @@
     "name": "ModelBase",
     "namespace": "django.db.models.base.ModelBase",
     "module_name": "django.db.models.base",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__new__",
+            "namespace": "django.db.models.base.ModelBase.__new__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "add_to_class",
+            "namespace": "django.db.models.base.ModelBase.add_to_class",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Create some methods once self._meta has been populated.\"\"\"",
+            "name": "_prepare",
+            "namespace": "django.db.models.base.ModelBase._prepare",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_base_manager",
+            "namespace": "django.db.models.base.ModelBase._base_manager",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_default_manager",
+            "namespace": "django.db.models.base.ModelBase._default_manager",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

@@ -5,208 +5,719 @@
         {
             "docstring": "",
             "name": "Lookup",
-            "namespace": "django.db.models.lookups.Lookup"
+            "namespace": "django.db.models.lookups.Lookup",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.lookups.Lookup.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "apply_bilateral_transforms",
+                    "namespace": "django.db.models.lookups.Lookup.apply_bilateral_transforms",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.db.models.lookups.Lookup.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "batch_process_rhs",
+                    "namespace": "django.db.models.lookups.Lookup.batch_process_rhs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_source_expressions",
+                    "namespace": "django.db.models.lookups.Lookup.get_source_expressions",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "set_source_expressions",
+                    "namespace": "django.db.models.lookups.Lookup.set_source_expressions",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_prep_lookup",
+                    "namespace": "django.db.models.lookups.Lookup.get_prep_lookup",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_prep_lhs",
+                    "namespace": "django.db.models.lookups.Lookup.get_prep_lhs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_db_prep_lookup",
+                    "namespace": "django.db.models.lookups.Lookup.get_db_prep_lookup",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "process_lhs",
+                    "namespace": "django.db.models.lookups.Lookup.process_lhs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "process_rhs",
+                    "namespace": "django.db.models.lookups.Lookup.process_rhs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "rhs_is_direct_value",
+                    "namespace": "django.db.models.lookups.Lookup.rhs_is_direct_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_group_by_cols",
+                    "namespace": "django.db.models.lookups.Lookup.get_group_by_cols",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_oracle",
+                    "namespace": "django.db.models.lookups.Lookup.as_oracle",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "output_field",
+                    "namespace": "django.db.models.lookups.Lookup.output_field",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "identity",
+                    "namespace": "django.db.models.lookups.Lookup.identity",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__eq__",
+                    "namespace": "django.db.models.lookups.Lookup.__eq__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__hash__",
+                    "namespace": "django.db.models.lookups.Lookup.__hash__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "resolve_expression",
+                    "namespace": "django.db.models.lookups.Lookup.resolve_expression",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "select_format",
+                    "namespace": "django.db.models.lookups.Lookup.select_format",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    RegisterLookupMixin() is first so that get_lookup() and get_transform()\n    first examine self and then check output_field.\n    \"\"\"",
             "name": "Transform",
-            "namespace": "django.db.models.lookups.Transform"
+            "namespace": "django.db.models.lookups.Transform",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "lhs",
+                    "namespace": "django.db.models.lookups.Transform.lhs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_bilateral_transforms",
+                    "namespace": "django.db.models.lookups.Transform.get_bilateral_transforms",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "BuiltinLookup",
-            "namespace": "django.db.models.lookups.BuiltinLookup"
+            "namespace": "django.db.models.lookups.BuiltinLookup",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "process_lhs",
+                    "namespace": "django.db.models.lookups.BuiltinLookup.process_lhs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.db.models.lookups.BuiltinLookup.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_rhs_op",
+                    "namespace": "django.db.models.lookups.BuiltinLookup.get_rhs_op",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Some lookups require Field.get_db_prep_value() to be called on their\n    inputs.\n    \"\"\"",
             "name": "FieldGetDbPrepValueMixin",
-            "namespace": "django.db.models.lookups.FieldGetDbPrepValueMixin"
+            "namespace": "django.db.models.lookups.FieldGetDbPrepValueMixin",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_db_prep_lookup",
+                    "namespace": "django.db.models.lookups.FieldGetDbPrepValueMixin.get_db_prep_lookup",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Some lookups require Field.get_db_prep_value() to be called on each value\n    in an iterable.\n    \"\"\"",
             "name": "FieldGetDbPrepValueIterableMixin",
-            "namespace": "django.db.models.lookups.FieldGetDbPrepValueIterableMixin"
+            "namespace": "django.db.models.lookups.FieldGetDbPrepValueIterableMixin",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_prep_lookup",
+                    "namespace": "django.db.models.lookups.FieldGetDbPrepValueIterableMixin.get_prep_lookup",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "process_rhs",
+                    "namespace": "django.db.models.lookups.FieldGetDbPrepValueIterableMixin.process_rhs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "resolve_expression_parameter",
+                    "namespace": "django.db.models.lookups.FieldGetDbPrepValueIterableMixin.resolve_expression_parameter",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "batch_process_rhs",
+                    "namespace": "django.db.models.lookups.FieldGetDbPrepValueIterableMixin.batch_process_rhs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"Lookup defined by operators on PostgreSQL.\"\"\"",
             "name": "PostgresOperatorLookup",
-            "namespace": "django.db.models.lookups.PostgresOperatorLookup"
+            "namespace": "django.db.models.lookups.PostgresOperatorLookup",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "as_postgresql",
+                    "namespace": "django.db.models.lookups.PostgresOperatorLookup.as_postgresql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Exact",
-            "namespace": "django.db.models.lookups.Exact"
+            "namespace": "django.db.models.lookups.Exact",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "process_rhs",
+                    "namespace": "django.db.models.lookups.Exact.process_rhs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.db.models.lookups.Exact.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "IExact",
-            "namespace": "django.db.models.lookups.IExact"
+            "namespace": "django.db.models.lookups.IExact",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "process_rhs",
+                    "namespace": "django.db.models.lookups.IExact.process_rhs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "GreaterThan",
-            "namespace": "django.db.models.lookups.GreaterThan"
+            "namespace": "django.db.models.lookups.GreaterThan",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "GreaterThanOrEqual",
-            "namespace": "django.db.models.lookups.GreaterThanOrEqual"
+            "namespace": "django.db.models.lookups.GreaterThanOrEqual",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "LessThan",
-            "namespace": "django.db.models.lookups.LessThan"
+            "namespace": "django.db.models.lookups.LessThan",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "LessThanOrEqual",
-            "namespace": "django.db.models.lookups.LessThanOrEqual"
+            "namespace": "django.db.models.lookups.LessThanOrEqual",
+            "methods": []
         },
         {
             "docstring": "\"\"\"\n    Allow floats to work as query values for IntegerField. Without this, the\n    decimal portion of the float would always be discarded.\n    \"\"\"",
             "name": "IntegerFieldFloatRounding",
-            "namespace": "django.db.models.lookups.IntegerFieldFloatRounding"
+            "namespace": "django.db.models.lookups.IntegerFieldFloatRounding",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_prep_lookup",
+                    "namespace": "django.db.models.lookups.IntegerFieldFloatRounding.get_prep_lookup",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "IntegerGreaterThanOrEqual",
-            "namespace": "django.db.models.lookups.IntegerGreaterThanOrEqual"
+            "namespace": "django.db.models.lookups.IntegerGreaterThanOrEqual",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "IntegerLessThan",
-            "namespace": "django.db.models.lookups.IntegerLessThan"
+            "namespace": "django.db.models.lookups.IntegerLessThan",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "In",
-            "namespace": "django.db.models.lookups.In"
+            "namespace": "django.db.models.lookups.In",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "process_rhs",
+                    "namespace": "django.db.models.lookups.In.process_rhs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_group_by_cols",
+                    "namespace": "django.db.models.lookups.In.get_group_by_cols",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_rhs_op",
+                    "namespace": "django.db.models.lookups.In.get_rhs_op",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.db.models.lookups.In.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "split_parameter_list_as_sql",
+                    "namespace": "django.db.models.lookups.In.split_parameter_list_as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "PatternLookup",
-            "namespace": "django.db.models.lookups.PatternLookup"
+            "namespace": "django.db.models.lookups.PatternLookup",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_rhs_op",
+                    "namespace": "django.db.models.lookups.PatternLookup.get_rhs_op",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "process_rhs",
+                    "namespace": "django.db.models.lookups.PatternLookup.process_rhs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Contains",
-            "namespace": "django.db.models.lookups.Contains"
+            "namespace": "django.db.models.lookups.Contains",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "IContains",
-            "namespace": "django.db.models.lookups.IContains"
+            "namespace": "django.db.models.lookups.IContains",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "StartsWith",
-            "namespace": "django.db.models.lookups.StartsWith"
+            "namespace": "django.db.models.lookups.StartsWith",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "IStartsWith",
-            "namespace": "django.db.models.lookups.IStartsWith"
+            "namespace": "django.db.models.lookups.IStartsWith",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "EndsWith",
-            "namespace": "django.db.models.lookups.EndsWith"
+            "namespace": "django.db.models.lookups.EndsWith",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "IEndsWith",
-            "namespace": "django.db.models.lookups.IEndsWith"
+            "namespace": "django.db.models.lookups.IEndsWith",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "Range",
-            "namespace": "django.db.models.lookups.Range"
+            "namespace": "django.db.models.lookups.Range",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_rhs_op",
+                    "namespace": "django.db.models.lookups.Range.get_rhs_op",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "IsNull",
-            "namespace": "django.db.models.lookups.IsNull"
+            "namespace": "django.db.models.lookups.IsNull",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.db.models.lookups.IsNull.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Regex",
-            "namespace": "django.db.models.lookups.Regex"
+            "namespace": "django.db.models.lookups.Regex",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.db.models.lookups.Regex.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "IRegex",
-            "namespace": "django.db.models.lookups.IRegex"
+            "namespace": "django.db.models.lookups.IRegex",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "YearLookup",
-            "namespace": "django.db.models.lookups.YearLookup"
+            "namespace": "django.db.models.lookups.YearLookup",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "year_lookup_bounds",
+                    "namespace": "django.db.models.lookups.YearLookup.year_lookup_bounds",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.db.models.lookups.YearLookup.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_direct_rhs_sql",
+                    "namespace": "django.db.models.lookups.YearLookup.get_direct_rhs_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_bound_params",
+                    "namespace": "django.db.models.lookups.YearLookup.get_bound_params",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "YearExact",
-            "namespace": "django.db.models.lookups.YearExact"
+            "namespace": "django.db.models.lookups.YearExact",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_direct_rhs_sql",
+                    "namespace": "django.db.models.lookups.YearExact.get_direct_rhs_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_bound_params",
+                    "namespace": "django.db.models.lookups.YearExact.get_bound_params",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "YearGt",
-            "namespace": "django.db.models.lookups.YearGt"
+            "namespace": "django.db.models.lookups.YearGt",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_bound_params",
+                    "namespace": "django.db.models.lookups.YearGt.get_bound_params",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "YearGte",
-            "namespace": "django.db.models.lookups.YearGte"
+            "namespace": "django.db.models.lookups.YearGte",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_bound_params",
+                    "namespace": "django.db.models.lookups.YearGte.get_bound_params",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "YearLt",
-            "namespace": "django.db.models.lookups.YearLt"
+            "namespace": "django.db.models.lookups.YearLt",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_bound_params",
+                    "namespace": "django.db.models.lookups.YearLt.get_bound_params",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "YearLte",
-            "namespace": "django.db.models.lookups.YearLte"
+            "namespace": "django.db.models.lookups.YearLte",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_bound_params",
+                    "namespace": "django.db.models.lookups.YearLte.get_bound_params",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Strip hyphens from a value when filtering a UUIDField on backends without\n    a native datatype for UUID.\n    \"\"\"",
             "name": "UUIDTextMixin",
-            "namespace": "django.db.models.lookups.UUIDTextMixin"
+            "namespace": "django.db.models.lookups.UUIDTextMixin",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "process_rhs",
+                    "namespace": "django.db.models.lookups.UUIDTextMixin.process_rhs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "UUIDIExact",
-            "namespace": "django.db.models.lookups.UUIDIExact"
+            "namespace": "django.db.models.lookups.UUIDIExact",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "UUIDContains",
-            "namespace": "django.db.models.lookups.UUIDContains"
+            "namespace": "django.db.models.lookups.UUIDContains",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "UUIDIContains",
-            "namespace": "django.db.models.lookups.UUIDIContains"
+            "namespace": "django.db.models.lookups.UUIDIContains",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "UUIDStartsWith",
-            "namespace": "django.db.models.lookups.UUIDStartsWith"
+            "namespace": "django.db.models.lookups.UUIDStartsWith",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "UUIDIStartsWith",
-            "namespace": "django.db.models.lookups.UUIDIStartsWith"
+            "namespace": "django.db.models.lookups.UUIDIStartsWith",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "UUIDEndsWith",
-            "namespace": "django.db.models.lookups.UUIDEndsWith"
+            "namespace": "django.db.models.lookups.UUIDEndsWith",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "UUIDIEndsWith",
-            "namespace": "django.db.models.lookups.UUIDIEndsWith"
+            "namespace": "django.db.models.lookups.UUIDIEndsWith",
+            "methods": []
         }
     ],
+    "functions": [],
     "package_name": "django.db.models"
 }

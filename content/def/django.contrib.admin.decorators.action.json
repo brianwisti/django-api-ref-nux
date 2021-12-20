@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Conveniently add attributes to an action function::\n\n        @admin.action(\n            permissions=['publish'],\n            description='Mark selected stories as published',\n        )\n        def make_published(self, request, queryset):\n            queryset.update(status='p')\n\n    This is equivalent to setting some attributes (with the original, longer\n    names) on the function directly::\n\n        def make_published(self, request, queryset):\n            queryset.update(status='p')\n        make_published.allowed_permissions = ['publish']\n        make_published.short_description = 'Mark selected stories as published'\n    \"\"\"",
+    "name": "action",
+    "namespace": "django.contrib.admin.decorators.action",
+    "class_name": "",
+    "module_name": "django.contrib.admin.decorators",
+    "package_name": ""
+}

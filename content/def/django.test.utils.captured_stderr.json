@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"Capture the output of sys.stderr:\n\n       with captured_stderr() as stderr:\n           print(\"hello\", file=sys.stderr)\n       self.assertEqual(stderr.getvalue(), \"hello\\n\")\n    \"\"\"",
+    "name": "captured_stderr",
+    "namespace": "django.test.utils.captured_stderr",
+    "class_name": "",
+    "module_name": "django.test.utils",
+    "package_name": ""
+}

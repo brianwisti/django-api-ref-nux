@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        This method is used by each model to find its reverse objects. As this\n        method is very expensive and is accessed frequently (it looks up every\n        field in a model, in every app), it is computed on first access and then\n        is set as a property on every model.\n        \"\"\"",
+    "name": "_populate_directed_relation_graph",
+    "namespace": "django.db.models.options.Options._populate_directed_relation_graph",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

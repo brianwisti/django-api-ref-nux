@@ -3,5 +3,79 @@
     "name": "Subquery",
     "namespace": "django.db.models.expressions.Subquery",
     "module_name": "django.db.models.expressions",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.db.models.expressions.Subquery.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_source_expressions",
+            "namespace": "django.db.models.expressions.Subquery.get_source_expressions",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "set_source_expressions",
+            "namespace": "django.db.models.expressions.Subquery.set_source_expressions",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_resolve_output_field",
+            "namespace": "django.db.models.expressions.Subquery._resolve_output_field",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "copy",
+            "namespace": "django.db.models.expressions.Subquery.copy",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "external_aliases",
+            "namespace": "django.db.models.expressions.Subquery.external_aliases",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_external_cols",
+            "namespace": "django.db.models.expressions.Subquery.get_external_cols",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "as_sql",
+            "namespace": "django.db.models.expressions.Subquery.as_sql",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_group_by_cols",
+            "namespace": "django.db.models.expressions.Subquery.get_group_by_cols",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

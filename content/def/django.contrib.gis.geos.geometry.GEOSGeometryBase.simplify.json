@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Return the Geometry, simplified using the Douglas-Peucker algorithm\n        to the specified tolerance (higher tolerance => less points).  If no\n        tolerance provided, defaults to 0.\n\n        By default, don't preserve topology - e.g. polygons can be split,\n        collapse to lines or disappear holes can be created or disappear, and\n        lines can cross. By specifying preserve_topology=True, the result will\n        have the same dimension and number of components as the input. This is\n        significantly slower.\n        \"\"\"",
+    "name": "simplify",
+    "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.simplify",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

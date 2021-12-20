@@ -5,12 +5,82 @@
         {
             "docstring": "",
             "name": "date",
-            "namespace": "django.utils.datetime_safe.date"
+            "namespace": "django.utils.datetime_safe.date",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "strftime",
+                    "namespace": "django.utils.datetime_safe.date.strftime",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "datetime",
-            "namespace": "django.utils.datetime_safe.datetime"
+            "namespace": "django.utils.datetime_safe.datetime",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "strftime",
+                    "namespace": "django.utils.datetime_safe.datetime.strftime",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "combine",
+                    "namespace": "django.utils.datetime_safe.datetime.combine",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "date",
+                    "namespace": "django.utils.datetime_safe.datetime.date",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"Generate a safe date from a datetime.date object.\"",
+            "name": "new_date",
+            "namespace": "django.utils.datetime_safe.new_date",
+            "class_name": "",
+            "module_name": "django.utils.datetime_safe",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Generate a safe datetime from a datetime.date or datetime.datetime object.\n    \"\"\"",
+            "name": "new_datetime",
+            "namespace": "django.utils.datetime_safe.new_datetime",
+            "class_name": "",
+            "module_name": "django.utils.datetime_safe",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_findall",
+            "namespace": "django.utils.datetime_safe._findall",
+            "class_name": "",
+            "module_name": "django.utils.datetime_safe",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "strftime",
+            "namespace": "django.utils.datetime_safe.strftime",
+            "class_name": "",
+            "module_name": "django.utils.datetime_safe",
+            "package_name": ""
         }
     ],
     "package_name": "django.utils"

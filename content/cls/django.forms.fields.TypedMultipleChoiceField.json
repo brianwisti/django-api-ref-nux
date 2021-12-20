@@ -3,5 +3,39 @@
     "name": "TypedMultipleChoiceField",
     "namespace": "django.forms.fields.TypedMultipleChoiceField",
     "module_name": "django.forms.fields",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.forms.fields.TypedMultipleChoiceField.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Validate that the values are in self.choices and can be coerced to the\n        right type.\n        \"\"\"",
+            "name": "_coerce",
+            "namespace": "django.forms.fields.TypedMultipleChoiceField._coerce",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "clean",
+            "namespace": "django.forms.fields.TypedMultipleChoiceField.clean",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "validate",
+            "namespace": "django.forms.fields.TypedMultipleChoiceField.validate",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

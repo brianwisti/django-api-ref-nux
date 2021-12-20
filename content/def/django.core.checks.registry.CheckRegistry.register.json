@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Can be used as a function or a decorator. Register given function\n        `f` labeled with given `tags`. The function should receive **kwargs\n        and return list of Errors and Warnings.\n\n        Example::\n\n            registry = CheckRegistry()\n            @registry.register('mytag', 'anothertag')\n            def my_check(app_configs, **kwargs):\n                # ... perform checks and collect `errors` ...\n                return errors\n            # or\n            registry.register(my_check, 'mytag', 'anothertag')\n        \"\"\"",
+    "name": "register",
+    "namespace": "django.core.checks.registry.CheckRegistry.register",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

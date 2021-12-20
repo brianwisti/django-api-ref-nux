@@ -3,5 +3,47 @@
     "name": "CollationOperation",
     "namespace": "django.contrib.postgres.operations.CollationOperation",
     "module_name": "django.contrib.postgres.operations",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.contrib.postgres.operations.CollationOperation.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "state_forwards",
+            "namespace": "django.contrib.postgres.operations.CollationOperation.state_forwards",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "deconstruct",
+            "namespace": "django.contrib.postgres.operations.CollationOperation.deconstruct",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "create_collation",
+            "namespace": "django.contrib.postgres.operations.CollationOperation.create_collation",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "remove_collation",
+            "namespace": "django.contrib.postgres.operations.CollationOperation.remove_collation",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

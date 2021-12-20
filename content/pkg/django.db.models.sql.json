@@ -2,36 +2,93 @@
     "name": "django.db.models.sql",
     "docstring": "",
     "package_name": "django.db.models",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.db.models.sql.compiler",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Yield blocks of rows from a cursor and ensure the cursor is closed when\n    done.\n    \"\"\"",
+                    "name": "cursor_iter",
+                    "namespace": "django.db.models.sql.compiler.cursor_iter",
+                    "class_name": "",
+                    "module_name": "django.db.models.sql.compiler",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.db.models.sql"
         },
         {
             "namespace": "django.db.models.sql.query",
             "docstring": "\"\"\"\nCreate SQL statements for QuerySets.\n\nThe code in here encapsulates all of the SQL construction so that QuerySets\nthemselves do not have to (and could be backed by things other than SQL\ndatabases). The abstraction barrier only works one way: this module has to know\nall about the internals of models in order to get the information it needs.\n\"\"\"",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "get_field_names_from_opts",
+                    "namespace": "django.db.models.sql.query.get_field_names_from_opts",
+                    "class_name": "",
+                    "module_name": "django.db.models.sql.query",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_children_from_q",
+                    "namespace": "django.db.models.sql.query.get_children_from_q",
+                    "class_name": "",
+                    "module_name": "django.db.models.sql.query",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return the field name and direction for an order specification. For\n    example, '-foo' is returned as ('foo', 'DESC').\n\n    The 'default' param is used to indicate which way no prefix (or a '+'\n    prefix) should sort. The '-' prefix always sorts the opposite way.\n    \"\"\"",
+                    "name": "get_order_dir",
+                    "namespace": "django.db.models.sql.query.get_order_dir",
+                    "class_name": "",
+                    "module_name": "django.db.models.sql.query",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Add \"value\" to the set of values for \"key\", whether or not \"key\" already\n    exists.\n    \"\"\"",
+                    "name": "add_to_dict",
+                    "namespace": "django.db.models.sql.query.add_to_dict",
+                    "class_name": "",
+                    "module_name": "django.db.models.sql.query",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Check if the given field is reverse-o2o. The field is expected to be some\n    sort of relation field or related object.\n    \"\"\"",
+                    "name": "is_reverse_o2o",
+                    "namespace": "django.db.models.sql.query.is_reverse_o2o",
+                    "class_name": "",
+                    "module_name": "django.db.models.sql.query",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.db.models.sql"
         },
         {
             "namespace": "django.db.models.sql.subqueries",
             "docstring": "\"\"\"\nQuery subclasses which provide extra functionality beyond simple data retrieval.\n\"\"\"",
+            "functions": [],
             "package_name": "django.db.models.sql"
         },
         {
             "namespace": "django.db.models.sql.where",
             "docstring": "\"\"\"\nCode to manage the creation and SQL rendering of 'where' constraints.\n\"\"\"",
+            "functions": [],
             "package_name": "django.db.models.sql"
         },
         {
             "namespace": "django.db.models.sql.constants",
             "docstring": "\"\"\"\nConstants specific to the SQL storage portion of the ORM.\n\"\"\"",
+            "functions": [],
             "package_name": "django.db.models.sql"
         },
         {
             "namespace": "django.db.models.sql.datastructures",
             "docstring": "\"\"\"\nUseful auxiliary data structures for query construction. Not useful outside\nthe SQL domain.\n\"\"\"",
+            "functions": [],
             "package_name": "django.db.models.sql"
         }
     ],

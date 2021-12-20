@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Check if a value has changed from the last iteration of a loop.\n\n    The ``{% ifchanged %}`` block tag is used within a loop. It has two\n    possible uses.\n\n    1. Check its own rendered contents against its previous state and only\n       displays the content if it has changed. For example, this displays a\n       list of days, only displaying the month if it changes::\n\n            <h1>Archive for {{ year }}</h1>\n\n            {% for date in days %}\n                {% ifchanged %}<h3>{{ date|date:\"F\" }}</h3>{% endifchanged %}\n                <a href=\"{{ date|date:\"M/d\"|lower }}/\">{{ date|date:\"j\" }}</a>\n            {% endfor %}\n\n    2. If given one or more variables, check whether any variable has changed.\n       For example, the following shows the date every time it changes, while\n       showing the hour if either the hour or the date has changed::\n\n            {% for date in days %}\n                {% ifchanged date.date %} {{ date.date }} {% endifchanged %}\n                {% ifchanged date.hour date.date %}\n                    {{ date.hour }}\n                {% endifchanged %}\n            {% endfor %}\n    \"\"\"",
+    "name": "ifchanged",
+    "namespace": "django.template.defaulttags.ifchanged",
+    "class_name": "",
+    "module_name": "django.template.defaulttags",
+    "package_name": ""
+}

@@ -2,292 +2,2245 @@
     "name": "django.db.models.fields",
     "docstring": "",
     "package_name": "django.db.models",
+    "functions": [
+        {
+            "docstring": "",
+            "name": "_load_field",
+            "namespace": "django.db.models.fields._load_field",
+            "class_name": "",
+            "module_name": "django.db.models.fields",
+            "package_name": "django.db.models.fields"
+        },
+        {
+            "docstring": "",
+            "name": "_empty",
+            "namespace": "django.db.models.fields._empty",
+            "class_name": "",
+            "module_name": "django.db.models.fields",
+            "package_name": "django.db.models.fields"
+        },
+        {
+            "docstring": "",
+            "name": "return_None",
+            "namespace": "django.db.models.fields.return_None",
+            "class_name": "",
+            "module_name": "django.db.models.fields",
+            "package_name": "django.db.models.fields"
+        },
+        {
+            "docstring": "",
+            "name": "_to_naive",
+            "namespace": "django.db.models.fields._to_naive",
+            "class_name": "",
+            "module_name": "django.db.models.fields",
+            "package_name": "django.db.models.fields"
+        },
+        {
+            "docstring": "",
+            "name": "_get_naive_now",
+            "namespace": "django.db.models.fields._get_naive_now",
+            "class_name": "",
+            "module_name": "django.db.models.fields",
+            "package_name": "django.db.models.fields"
+        }
+    ],
     "classes": [
         {
             "docstring": "",
             "name": "Empty",
             "namespace": "django.db.models.fields.Empty",
             "module_name": "django.db.models.fields",
-            "package_name": "django.db.models.fields"
+            "package_name": "django.db.models.fields",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "NOT_PROVIDED",
             "namespace": "django.db.models.fields.NOT_PROVIDED",
             "module_name": "django.db.models.fields",
-            "package_name": "django.db.models.fields"
+            "package_name": "django.db.models.fields",
+            "methods": []
         },
         {
             "docstring": "\"\"\"Base class for all field types\"\"\"",
             "name": "Field",
             "namespace": "django.db.models.fields.Field",
             "module_name": "django.db.models.fields",
-            "package_name": "django.db.models.fields"
+            "package_name": "django.db.models.fields",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "_description",
+                    "namespace": "django.db.models.fields.Field._description",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.fields.Field.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return \"app_label.model_label.field_name\" for fields attached to\n        models.\n        \"\"\"",
+                    "name": "__str__",
+                    "namespace": "django.db.models.fields.Field.__str__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Display the module, class, and name of the field.\"\"\"",
+                    "name": "__repr__",
+                    "namespace": "django.db.models.fields.Field.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check",
+                    "namespace": "django.db.models.fields.Field.check",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Check if field name is valid, i.e. 1) does not end with an\n        underscore, 2) does not contain \"__\" and 3) is not \"pk\".\n        \"\"\"",
+                    "name": "_check_field_name",
+                    "namespace": "django.db.models.fields.Field._check_field_name",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_choices_is_value",
+                    "namespace": "django.db.models.fields.Field._choices_is_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_check_choices",
+                    "namespace": "django.db.models.fields.Field._check_choices",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_check_db_index",
+                    "namespace": "django.db.models.fields.Field._check_db_index",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_check_null_allowed_for_primary_keys",
+                    "namespace": "django.db.models.fields.Field._check_null_allowed_for_primary_keys",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_check_backend_specific_checks",
+                    "namespace": "django.db.models.fields.Field._check_backend_specific_checks",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_check_validators",
+                    "namespace": "django.db.models.fields.Field._check_validators",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_check_deprecation_details",
+                    "namespace": "django.db.models.fields.Field._check_deprecation_details",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_col",
+                    "namespace": "django.db.models.fields.Field.get_col",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "cached_col",
+                    "namespace": "django.db.models.fields.Field.cached_col",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Custom format for select clauses. For example, GIS columns need to be\n        selected as AsText(table.col) on MySQL as the table.col data can't be\n        used by Django.\n        \"\"\"",
+                    "name": "select_format",
+                    "namespace": "django.db.models.fields.Field.select_format",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return enough information to recreate the field as a 4-tuple:\n\n         * The name of the field on the model, if contribute_to_class() has\n           been run.\n         * The import path of the field, including the class, e.g.\n           django.db.models.IntegerField. This should be the most portable\n           version, so less specific may be better.\n         * A list of positional arguments.\n         * A dict of keyword arguments.\n\n        Note that the positional or keyword arguments must contain values of\n        the following types (including inner values of collection types):\n\n         * None, bool, str, int, float, complex, set, frozenset, list, tuple,\n           dict\n         * UUID\n         * datetime.datetime (naive), datetime.date\n         * top-level classes, top-level functions - will be referenced by their\n           full import path\n         * Storage instances - these have their own deconstruct() method\n\n        This is because the values here must be serialized into a text format\n        (possibly new Python code, possibly JSON) and these are the only types\n        with encoding handlers defined.\n\n        There's no need to return the exact way the field was instantiated this\n        time, just ensure that the resulting field is the same - prefer keyword\n        arguments over positional ones, and omit parameters with their default\n        values.\n        \"\"\"",
+                    "name": "deconstruct",
+                    "namespace": "django.db.models.fields.Field.deconstruct",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Uses deconstruct() to clone a new copy of this Field.\n        Will not preserve any class attachments/attribute names.\n        \"\"\"",
+                    "name": "clone",
+                    "namespace": "django.db.models.fields.Field.clone",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__eq__",
+                    "namespace": "django.db.models.fields.Field.__eq__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__lt__",
+                    "namespace": "django.db.models.fields.Field.__lt__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__hash__",
+                    "namespace": "django.db.models.fields.Field.__hash__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__deepcopy__",
+                    "namespace": "django.db.models.fields.Field.__deepcopy__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__copy__",
+                    "namespace": "django.db.models.fields.Field.__copy__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Pickling should return the model._meta.fields instance of the field,\n        not a new copy of that field. So, use the app registry to load the\n        model and then the field back.\n        \"\"\"",
+                    "name": "__reduce__",
+                    "namespace": "django.db.models.fields.Field.__reduce__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Hook to generate new PK values on save. This method is called when\n        saving instances with no primary key value set. If this method returns\n        something else than None, then the returned value is used when saving\n        the new instance.\n        \"\"\"",
+                    "name": "get_pk_value_on_save",
+                    "namespace": "django.db.models.fields.Field.get_pk_value_on_save",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Convert the input value into the expected Python data type, raising\n        django.core.exceptions.ValidationError if the data can't be converted.\n        Return the converted value. Subclasses should override this.\n        \"\"\"",
+                    "name": "to_python",
+                    "namespace": "django.db.models.fields.Field.to_python",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Some validators can't be created at field initialization time.\n        This method provides a way to delay their creation until required.\n        \"\"\"",
+                    "name": "validators",
+                    "namespace": "django.db.models.fields.Field.validators",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "run_validators",
+                    "namespace": "django.db.models.fields.Field.run_validators",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Validate value and raise ValidationError if necessary. Subclasses\n        should override this to provide validation logic.\n        \"\"\"",
+                    "name": "validate",
+                    "namespace": "django.db.models.fields.Field.validate",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Convert the value's type and run validation. Validation errors\n        from to_python() and validate() are propagated. Return the correct\n        value if no error is raised.\n        \"\"\"",
+                    "name": "clean",
+                    "namespace": "django.db.models.fields.Field.clean",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "db_type_parameters",
+                    "namespace": "django.db.models.fields.Field.db_type_parameters",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the database column check constraint for this field, for the\n        provided connection. Works the same way as db_type() for the case that\n        get_internal_type() does not map to a preexisting model field.\n        \"\"\"",
+                    "name": "db_check",
+                    "namespace": "django.db.models.fields.Field.db_check",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the database column data type for this field, for the provided\n        connection.\n        \"\"\"",
+                    "name": "db_type",
+                    "namespace": "django.db.models.fields.Field.db_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the data type that a related field pointing to this field should\n        use. For example, this method is called by ForeignKey and OneToOneField\n        to determine its data type.\n        \"\"\"",
+                    "name": "rel_db_type",
+                    "namespace": "django.db.models.fields.Field.rel_db_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return the data type to use in the Cast() function.\"\"\"",
+                    "name": "cast_db_type",
+                    "namespace": "django.db.models.fields.Field.cast_db_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Extension of db_type(), providing a range of different return values\n        (type, checks). This will look at db_type(), allowing custom model\n        fields to override it.\n        \"\"\"",
+                    "name": "db_parameters",
+                    "namespace": "django.db.models.fields.Field.db_parameters",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "db_type_suffix",
+                    "namespace": "django.db.models.fields.Field.db_type_suffix",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_db_converters",
+                    "namespace": "django.db.models.fields.Field.get_db_converters",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "unique",
+                    "namespace": "django.db.models.fields.Field.unique",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "db_tablespace",
+                    "namespace": "django.db.models.fields.Field.db_tablespace",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Private API intended only to be used by Django itself. Currently only\n        the PostgreSQL backend supports returning multiple fields on a model.\n        \"\"\"",
+                    "name": "db_returning",
+                    "namespace": "django.db.models.fields.Field.db_returning",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "set_attributes_from_name",
+                    "namespace": "django.db.models.fields.Field.set_attributes_from_name",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Register the field with the model class it belongs to.\n\n        If private_only is True, create a separate instance of this field\n        for every subclass of cls, even if cls is not an abstract model.\n        \"\"\"",
+                    "name": "contribute_to_class",
+                    "namespace": "django.db.models.fields.Field.contribute_to_class",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return a dict that when passed as kwargs to self.model.filter(), would\n        yield all instances having the same value for this field as obj has.\n        \"\"\"",
+                    "name": "get_filter_kwargs_for_object",
+                    "namespace": "django.db.models.fields.Field.get_filter_kwargs_for_object",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_attname",
+                    "namespace": "django.db.models.fields.Field.get_attname",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_attname_column",
+                    "namespace": "django.db.models.fields.Field.get_attname_column",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_internal_type",
+                    "namespace": "django.db.models.fields.Field.get_internal_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return field's value just before saving.\"\"\"",
+                    "name": "pre_save",
+                    "namespace": "django.db.models.fields.Field.pre_save",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Perform preliminary non-db specific value checks and conversions.\"\"\"",
+                    "name": "get_prep_value",
+                    "namespace": "django.db.models.fields.Field.get_prep_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return field's value prepared for interacting with the database backend.\n\n        Used by the default implementations of get_db_prep_save().\n        \"\"\"",
+                    "name": "get_db_prep_value",
+                    "namespace": "django.db.models.fields.Field.get_db_prep_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return field's value prepared for saving into a database.\"\"\"",
+                    "name": "get_db_prep_save",
+                    "namespace": "django.db.models.fields.Field.get_db_prep_save",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return a boolean of whether this field has a default value.\"\"\"",
+                    "name": "has_default",
+                    "namespace": "django.db.models.fields.Field.has_default",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return the default value for this field.\"\"\"",
+                    "name": "get_default",
+                    "namespace": "django.db.models.fields.Field.get_default",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_get_default",
+                    "namespace": "django.db.models.fields.Field._get_default",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return choices with a default blank choices included, for use\n        as <select> choices for this field.\n        \"\"\"",
+                    "name": "get_choices",
+                    "namespace": "django.db.models.fields.Field.get_choices",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return a string value of this field from the passed obj.\n        This is used by the serialization framework.\n        \"\"\"",
+                    "name": "value_to_string",
+                    "namespace": "django.db.models.fields.Field.value_to_string",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Flattened version of choices tuple.\"\"\"",
+                    "name": "_get_flatchoices",
+                    "namespace": "django.db.models.fields.Field._get_flatchoices",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "save_form_data",
+                    "namespace": "django.db.models.fields.Field.save_form_data",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return a django.forms.Field instance for this field.\"\"\"",
+                    "name": "formfield",
+                    "namespace": "django.db.models.fields.Field.formfield",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return the value of this field in the given model instance.\"\"\"",
+                    "name": "value_from_object",
+                    "namespace": "django.db.models.fields.Field.value_from_object",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "BooleanField",
             "namespace": "django.db.models.fields.BooleanField",
             "module_name": "django.db.models.fields",
-            "package_name": "django.db.models.fields"
+            "package_name": "django.db.models.fields",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_internal_type",
+                    "namespace": "django.db.models.fields.BooleanField.get_internal_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "to_python",
+                    "namespace": "django.db.models.fields.BooleanField.to_python",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_prep_value",
+                    "namespace": "django.db.models.fields.BooleanField.get_prep_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "formfield",
+                    "namespace": "django.db.models.fields.BooleanField.formfield",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "CharField",
             "namespace": "django.db.models.fields.CharField",
             "module_name": "django.db.models.fields",
-            "package_name": "django.db.models.fields"
+            "package_name": "django.db.models.fields",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.fields.CharField.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check",
+                    "namespace": "django.db.models.fields.CharField.check",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_check_max_length_attribute",
+                    "namespace": "django.db.models.fields.CharField._check_max_length_attribute",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_check_db_collation",
+                    "namespace": "django.db.models.fields.CharField._check_db_collation",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "cast_db_type",
+                    "namespace": "django.db.models.fields.CharField.cast_db_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_internal_type",
+                    "namespace": "django.db.models.fields.CharField.get_internal_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "to_python",
+                    "namespace": "django.db.models.fields.CharField.to_python",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_prep_value",
+                    "namespace": "django.db.models.fields.CharField.get_prep_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "formfield",
+                    "namespace": "django.db.models.fields.CharField.formfield",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "deconstruct",
+                    "namespace": "django.db.models.fields.CharField.deconstruct",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "CommaSeparatedIntegerField",
             "namespace": "django.db.models.fields.CommaSeparatedIntegerField",
             "module_name": "django.db.models.fields",
-            "package_name": "django.db.models.fields"
+            "package_name": "django.db.models.fields",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "DateTimeCheckMixin",
             "namespace": "django.db.models.fields.DateTimeCheckMixin",
             "module_name": "django.db.models.fields",
-            "package_name": "django.db.models.fields"
+            "package_name": "django.db.models.fields",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "check",
+                    "namespace": "django.db.models.fields.DateTimeCheckMixin.check",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_check_mutually_exclusive_options",
+                    "namespace": "django.db.models.fields.DateTimeCheckMixin._check_mutually_exclusive_options",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_check_fix_default_value",
+                    "namespace": "django.db.models.fields.DateTimeCheckMixin._check_fix_default_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Check if the given value appears to have been provided as a \"fixed\"\n        time value, and include a warning in the returned list if it does. The\n        value argument must be a date object or aware/naive datetime object. If\n        now is provided, it must be a naive datetime object.\n        \"\"\"",
+                    "name": "_check_if_value_fixed",
+                    "namespace": "django.db.models.fields.DateTimeCheckMixin._check_if_value_fixed",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "DateField",
             "namespace": "django.db.models.fields.DateField",
             "module_name": "django.db.models.fields",
-            "package_name": "django.db.models.fields"
+            "package_name": "django.db.models.fields",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.fields.DateField.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Warn that using an actual date or datetime value is probably wrong;\n        it's only evaluated on server startup.\n        \"\"\"",
+                    "name": "_check_fix_default_value",
+                    "namespace": "django.db.models.fields.DateField._check_fix_default_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "deconstruct",
+                    "namespace": "django.db.models.fields.DateField.deconstruct",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_internal_type",
+                    "namespace": "django.db.models.fields.DateField.get_internal_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "to_python",
+                    "namespace": "django.db.models.fields.DateField.to_python",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "pre_save",
+                    "namespace": "django.db.models.fields.DateField.pre_save",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "contribute_to_class",
+                    "namespace": "django.db.models.fields.DateField.contribute_to_class",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_prep_value",
+                    "namespace": "django.db.models.fields.DateField.get_prep_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_db_prep_value",
+                    "namespace": "django.db.models.fields.DateField.get_db_prep_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "value_to_string",
+                    "namespace": "django.db.models.fields.DateField.value_to_string",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "formfield",
+                    "namespace": "django.db.models.fields.DateField.formfield",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "DateTimeField",
             "namespace": "django.db.models.fields.DateTimeField",
             "module_name": "django.db.models.fields",
-            "package_name": "django.db.models.fields"
+            "package_name": "django.db.models.fields",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        Warn that using an actual date or datetime value is probably wrong;\n        it's only evaluated on server startup.\n        \"\"\"",
+                    "name": "_check_fix_default_value",
+                    "namespace": "django.db.models.fields.DateTimeField._check_fix_default_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_internal_type",
+                    "namespace": "django.db.models.fields.DateTimeField.get_internal_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "to_python",
+                    "namespace": "django.db.models.fields.DateTimeField.to_python",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "pre_save",
+                    "namespace": "django.db.models.fields.DateTimeField.pre_save",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_prep_value",
+                    "namespace": "django.db.models.fields.DateTimeField.get_prep_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_db_prep_value",
+                    "namespace": "django.db.models.fields.DateTimeField.get_db_prep_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "value_to_string",
+                    "namespace": "django.db.models.fields.DateTimeField.value_to_string",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "formfield",
+                    "namespace": "django.db.models.fields.DateTimeField.formfield",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "DecimalField",
             "namespace": "django.db.models.fields.DecimalField",
             "module_name": "django.db.models.fields",
-            "package_name": "django.db.models.fields"
+            "package_name": "django.db.models.fields",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.fields.DecimalField.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check",
+                    "namespace": "django.db.models.fields.DecimalField.check",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_check_decimal_places",
+                    "namespace": "django.db.models.fields.DecimalField._check_decimal_places",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_check_max_digits",
+                    "namespace": "django.db.models.fields.DecimalField._check_max_digits",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_check_decimal_places_and_max_digits",
+                    "namespace": "django.db.models.fields.DecimalField._check_decimal_places_and_max_digits",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "validators",
+                    "namespace": "django.db.models.fields.DecimalField.validators",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "context",
+                    "namespace": "django.db.models.fields.DecimalField.context",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "deconstruct",
+                    "namespace": "django.db.models.fields.DecimalField.deconstruct",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_internal_type",
+                    "namespace": "django.db.models.fields.DecimalField.get_internal_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "to_python",
+                    "namespace": "django.db.models.fields.DecimalField.to_python",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_db_prep_save",
+                    "namespace": "django.db.models.fields.DecimalField.get_db_prep_save",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_prep_value",
+                    "namespace": "django.db.models.fields.DecimalField.get_prep_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "formfield",
+                    "namespace": "django.db.models.fields.DecimalField.formfield",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Store timedelta objects.\n\n    Use interval on PostgreSQL, INTERVAL DAY TO SECOND on Oracle, and bigint\n    of microseconds on other databases.\n    \"\"\"",
             "name": "DurationField",
             "namespace": "django.db.models.fields.DurationField",
             "module_name": "django.db.models.fields",
-            "package_name": "django.db.models.fields"
+            "package_name": "django.db.models.fields",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_internal_type",
+                    "namespace": "django.db.models.fields.DurationField.get_internal_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "to_python",
+                    "namespace": "django.db.models.fields.DurationField.to_python",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_db_prep_value",
+                    "namespace": "django.db.models.fields.DurationField.get_db_prep_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_db_converters",
+                    "namespace": "django.db.models.fields.DurationField.get_db_converters",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "value_to_string",
+                    "namespace": "django.db.models.fields.DurationField.value_to_string",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "formfield",
+                    "namespace": "django.db.models.fields.DurationField.formfield",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "EmailField",
             "namespace": "django.db.models.fields.EmailField",
             "module_name": "django.db.models.fields",
-            "package_name": "django.db.models.fields"
+            "package_name": "django.db.models.fields",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.fields.EmailField.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "deconstruct",
+                    "namespace": "django.db.models.fields.EmailField.deconstruct",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "formfield",
+                    "namespace": "django.db.models.fields.EmailField.formfield",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "FilePathField",
             "namespace": "django.db.models.fields.FilePathField",
             "module_name": "django.db.models.fields",
-            "package_name": "django.db.models.fields"
+            "package_name": "django.db.models.fields",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.fields.FilePathField.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check",
+                    "namespace": "django.db.models.fields.FilePathField.check",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_check_allowing_files_or_folders",
+                    "namespace": "django.db.models.fields.FilePathField._check_allowing_files_or_folders",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "deconstruct",
+                    "namespace": "django.db.models.fields.FilePathField.deconstruct",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_prep_value",
+                    "namespace": "django.db.models.fields.FilePathField.get_prep_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "formfield",
+                    "namespace": "django.db.models.fields.FilePathField.formfield",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_internal_type",
+                    "namespace": "django.db.models.fields.FilePathField.get_internal_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "FloatField",
             "namespace": "django.db.models.fields.FloatField",
             "module_name": "django.db.models.fields",
-            "package_name": "django.db.models.fields"
+            "package_name": "django.db.models.fields",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_prep_value",
+                    "namespace": "django.db.models.fields.FloatField.get_prep_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_internal_type",
+                    "namespace": "django.db.models.fields.FloatField.get_internal_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "to_python",
+                    "namespace": "django.db.models.fields.FloatField.to_python",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "formfield",
+                    "namespace": "django.db.models.fields.FloatField.formfield",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "IntegerField",
             "namespace": "django.db.models.fields.IntegerField",
             "module_name": "django.db.models.fields",
-            "package_name": "django.db.models.fields"
+            "package_name": "django.db.models.fields",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "check",
+                    "namespace": "django.db.models.fields.IntegerField.check",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_check_max_length_warning",
+                    "namespace": "django.db.models.fields.IntegerField._check_max_length_warning",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "validators",
+                    "namespace": "django.db.models.fields.IntegerField.validators",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_prep_value",
+                    "namespace": "django.db.models.fields.IntegerField.get_prep_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_internal_type",
+                    "namespace": "django.db.models.fields.IntegerField.get_internal_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "to_python",
+                    "namespace": "django.db.models.fields.IntegerField.to_python",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "formfield",
+                    "namespace": "django.db.models.fields.IntegerField.formfield",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "BigIntegerField",
             "namespace": "django.db.models.fields.BigIntegerField",
             "module_name": "django.db.models.fields",
-            "package_name": "django.db.models.fields"
+            "package_name": "django.db.models.fields",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_internal_type",
+                    "namespace": "django.db.models.fields.BigIntegerField.get_internal_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "formfield",
+                    "namespace": "django.db.models.fields.BigIntegerField.formfield",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "SmallIntegerField",
             "namespace": "django.db.models.fields.SmallIntegerField",
             "module_name": "django.db.models.fields",
-            "package_name": "django.db.models.fields"
+            "package_name": "django.db.models.fields",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_internal_type",
+                    "namespace": "django.db.models.fields.SmallIntegerField.get_internal_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "IPAddressField",
             "namespace": "django.db.models.fields.IPAddressField",
             "module_name": "django.db.models.fields",
-            "package_name": "django.db.models.fields"
+            "package_name": "django.db.models.fields",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.fields.IPAddressField.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "deconstruct",
+                    "namespace": "django.db.models.fields.IPAddressField.deconstruct",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_prep_value",
+                    "namespace": "django.db.models.fields.IPAddressField.get_prep_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_internal_type",
+                    "namespace": "django.db.models.fields.IPAddressField.get_internal_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "GenericIPAddressField",
             "namespace": "django.db.models.fields.GenericIPAddressField",
             "module_name": "django.db.models.fields",
-            "package_name": "django.db.models.fields"
+            "package_name": "django.db.models.fields",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.fields.GenericIPAddressField.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check",
+                    "namespace": "django.db.models.fields.GenericIPAddressField.check",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_check_blank_and_null_values",
+                    "namespace": "django.db.models.fields.GenericIPAddressField._check_blank_and_null_values",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "deconstruct",
+                    "namespace": "django.db.models.fields.GenericIPAddressField.deconstruct",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_internal_type",
+                    "namespace": "django.db.models.fields.GenericIPAddressField.get_internal_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "to_python",
+                    "namespace": "django.db.models.fields.GenericIPAddressField.to_python",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_db_prep_value",
+                    "namespace": "django.db.models.fields.GenericIPAddressField.get_db_prep_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_prep_value",
+                    "namespace": "django.db.models.fields.GenericIPAddressField.get_prep_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "formfield",
+                    "namespace": "django.db.models.fields.GenericIPAddressField.formfield",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "NullBooleanField",
             "namespace": "django.db.models.fields.NullBooleanField",
             "module_name": "django.db.models.fields",
-            "package_name": "django.db.models.fields"
+            "package_name": "django.db.models.fields",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.fields.NullBooleanField.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "deconstruct",
+                    "namespace": "django.db.models.fields.NullBooleanField.deconstruct",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "PositiveIntegerRelDbTypeMixin",
             "namespace": "django.db.models.fields.PositiveIntegerRelDbTypeMixin",
             "module_name": "django.db.models.fields",
-            "package_name": "django.db.models.fields"
+            "package_name": "django.db.models.fields",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init_subclass__",
+                    "namespace": "django.db.models.fields.PositiveIntegerRelDbTypeMixin.__init_subclass__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the data type that a related field pointing to this field should\n        use. In most cases, a foreign key pointing to a positive integer\n        primary key will have an integer column data type but some databases\n        (e.g. MySQL) have an unsigned integer type. In that case\n        (related_fields_match_type=True), the primary key should return its\n        db_type.\n        \"\"\"",
+                    "name": "rel_db_type",
+                    "namespace": "django.db.models.fields.PositiveIntegerRelDbTypeMixin.rel_db_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "PositiveBigIntegerField",
             "namespace": "django.db.models.fields.PositiveBigIntegerField",
             "module_name": "django.db.models.fields",
-            "package_name": "django.db.models.fields"
+            "package_name": "django.db.models.fields",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_internal_type",
+                    "namespace": "django.db.models.fields.PositiveBigIntegerField.get_internal_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "formfield",
+                    "namespace": "django.db.models.fields.PositiveBigIntegerField.formfield",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "PositiveIntegerField",
             "namespace": "django.db.models.fields.PositiveIntegerField",
             "module_name": "django.db.models.fields",
-            "package_name": "django.db.models.fields"
+            "package_name": "django.db.models.fields",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_internal_type",
+                    "namespace": "django.db.models.fields.PositiveIntegerField.get_internal_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "formfield",
+                    "namespace": "django.db.models.fields.PositiveIntegerField.formfield",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "PositiveSmallIntegerField",
             "namespace": "django.db.models.fields.PositiveSmallIntegerField",
             "module_name": "django.db.models.fields",
-            "package_name": "django.db.models.fields"
+            "package_name": "django.db.models.fields",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_internal_type",
+                    "namespace": "django.db.models.fields.PositiveSmallIntegerField.get_internal_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "formfield",
+                    "namespace": "django.db.models.fields.PositiveSmallIntegerField.formfield",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "SlugField",
             "namespace": "django.db.models.fields.SlugField",
             "module_name": "django.db.models.fields",
-            "package_name": "django.db.models.fields"
+            "package_name": "django.db.models.fields",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.fields.SlugField.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "deconstruct",
+                    "namespace": "django.db.models.fields.SlugField.deconstruct",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_internal_type",
+                    "namespace": "django.db.models.fields.SlugField.get_internal_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "formfield",
+                    "namespace": "django.db.models.fields.SlugField.formfield",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "TextField",
             "namespace": "django.db.models.fields.TextField",
             "module_name": "django.db.models.fields",
-            "package_name": "django.db.models.fields"
+            "package_name": "django.db.models.fields",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.fields.TextField.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check",
+                    "namespace": "django.db.models.fields.TextField.check",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_check_db_collation",
+                    "namespace": "django.db.models.fields.TextField._check_db_collation",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_internal_type",
+                    "namespace": "django.db.models.fields.TextField.get_internal_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "to_python",
+                    "namespace": "django.db.models.fields.TextField.to_python",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_prep_value",
+                    "namespace": "django.db.models.fields.TextField.get_prep_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "formfield",
+                    "namespace": "django.db.models.fields.TextField.formfield",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "deconstruct",
+                    "namespace": "django.db.models.fields.TextField.deconstruct",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "TimeField",
             "namespace": "django.db.models.fields.TimeField",
             "module_name": "django.db.models.fields",
-            "package_name": "django.db.models.fields"
+            "package_name": "django.db.models.fields",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.fields.TimeField.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Warn that using an actual date or datetime value is probably wrong;\n        it's only evaluated on server startup.\n        \"\"\"",
+                    "name": "_check_fix_default_value",
+                    "namespace": "django.db.models.fields.TimeField._check_fix_default_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "deconstruct",
+                    "namespace": "django.db.models.fields.TimeField.deconstruct",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_internal_type",
+                    "namespace": "django.db.models.fields.TimeField.get_internal_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "to_python",
+                    "namespace": "django.db.models.fields.TimeField.to_python",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "pre_save",
+                    "namespace": "django.db.models.fields.TimeField.pre_save",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_prep_value",
+                    "namespace": "django.db.models.fields.TimeField.get_prep_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_db_prep_value",
+                    "namespace": "django.db.models.fields.TimeField.get_db_prep_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "value_to_string",
+                    "namespace": "django.db.models.fields.TimeField.value_to_string",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "formfield",
+                    "namespace": "django.db.models.fields.TimeField.formfield",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "URLField",
             "namespace": "django.db.models.fields.URLField",
             "module_name": "django.db.models.fields",
-            "package_name": "django.db.models.fields"
+            "package_name": "django.db.models.fields",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.fields.URLField.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "deconstruct",
+                    "namespace": "django.db.models.fields.URLField.deconstruct",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "formfield",
+                    "namespace": "django.db.models.fields.URLField.formfield",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "BinaryField",
             "namespace": "django.db.models.fields.BinaryField",
             "module_name": "django.db.models.fields",
-            "package_name": "django.db.models.fields"
+            "package_name": "django.db.models.fields",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.fields.BinaryField.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check",
+                    "namespace": "django.db.models.fields.BinaryField.check",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_check_str_default_value",
+                    "namespace": "django.db.models.fields.BinaryField._check_str_default_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "deconstruct",
+                    "namespace": "django.db.models.fields.BinaryField.deconstruct",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_internal_type",
+                    "namespace": "django.db.models.fields.BinaryField.get_internal_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_placeholder",
+                    "namespace": "django.db.models.fields.BinaryField.get_placeholder",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_default",
+                    "namespace": "django.db.models.fields.BinaryField.get_default",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_db_prep_value",
+                    "namespace": "django.db.models.fields.BinaryField.get_db_prep_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Binary data is serialized as base64\"\"\"",
+                    "name": "value_to_string",
+                    "namespace": "django.db.models.fields.BinaryField.value_to_string",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "to_python",
+                    "namespace": "django.db.models.fields.BinaryField.to_python",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "UUIDField",
             "namespace": "django.db.models.fields.UUIDField",
             "module_name": "django.db.models.fields",
-            "package_name": "django.db.models.fields"
+            "package_name": "django.db.models.fields",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.fields.UUIDField.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "deconstruct",
+                    "namespace": "django.db.models.fields.UUIDField.deconstruct",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_internal_type",
+                    "namespace": "django.db.models.fields.UUIDField.get_internal_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_prep_value",
+                    "namespace": "django.db.models.fields.UUIDField.get_prep_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_db_prep_value",
+                    "namespace": "django.db.models.fields.UUIDField.get_db_prep_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "to_python",
+                    "namespace": "django.db.models.fields.UUIDField.to_python",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "formfield",
+                    "namespace": "django.db.models.fields.UUIDField.formfield",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "AutoFieldMixin",
             "namespace": "django.db.models.fields.AutoFieldMixin",
             "module_name": "django.db.models.fields",
-            "package_name": "django.db.models.fields"
+            "package_name": "django.db.models.fields",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.fields.AutoFieldMixin.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check",
+                    "namespace": "django.db.models.fields.AutoFieldMixin.check",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_check_primary_key",
+                    "namespace": "django.db.models.fields.AutoFieldMixin._check_primary_key",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "deconstruct",
+                    "namespace": "django.db.models.fields.AutoFieldMixin.deconstruct",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "validate",
+                    "namespace": "django.db.models.fields.AutoFieldMixin.validate",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_db_prep_value",
+                    "namespace": "django.db.models.fields.AutoFieldMixin.get_db_prep_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "contribute_to_class",
+                    "namespace": "django.db.models.fields.AutoFieldMixin.contribute_to_class",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "formfield",
+                    "namespace": "django.db.models.fields.AutoFieldMixin.formfield",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Metaclass to maintain backward inheritance compatibility for AutoField.\n\n    It is intended that AutoFieldMixin become public API when it is possible to\n    create a non-integer automatically-generated field using column defaults\n    stored in the database.\n\n    In many areas Django also relies on using isinstance() to check for an\n    automatically-generated field as a subclass of AutoField. A new flag needs\n    to be implemented on Field to be used instead.\n\n    When these issues have been addressed, this metaclass could be used to\n    deprecate inheritance from AutoField and use of isinstance() with AutoField\n    for detecting automatically-generated fields.\n    \"\"\"",
             "name": "AutoFieldMeta",
             "namespace": "django.db.models.fields.AutoFieldMeta",
             "module_name": "django.db.models.fields",
-            "package_name": "django.db.models.fields"
+            "package_name": "django.db.models.fields",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "_subclasses",
+                    "namespace": "django.db.models.fields.AutoFieldMeta._subclasses",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__instancecheck__",
+                    "namespace": "django.db.models.fields.AutoFieldMeta.__instancecheck__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__subclasscheck__",
+                    "namespace": "django.db.models.fields.AutoFieldMeta.__subclasscheck__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "AutoField",
             "namespace": "django.db.models.fields.AutoField",
             "module_name": "django.db.models.fields",
-            "package_name": "django.db.models.fields"
+            "package_name": "django.db.models.fields",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_internal_type",
+                    "namespace": "django.db.models.fields.AutoField.get_internal_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "rel_db_type",
+                    "namespace": "django.db.models.fields.AutoField.rel_db_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "BigAutoField",
             "namespace": "django.db.models.fields.BigAutoField",
             "module_name": "django.db.models.fields",
-            "package_name": "django.db.models.fields"
+            "package_name": "django.db.models.fields",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_internal_type",
+                    "namespace": "django.db.models.fields.BigAutoField.get_internal_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "rel_db_type",
+                    "namespace": "django.db.models.fields.BigAutoField.rel_db_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "SmallAutoField",
             "namespace": "django.db.models.fields.SmallAutoField",
             "module_name": "django.db.models.fields",
-            "package_name": "django.db.models.fields"
+            "package_name": "django.db.models.fields",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_internal_type",
+                    "namespace": "django.db.models.fields.SmallAutoField.get_internal_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "rel_db_type",
+                    "namespace": "django.db.models.fields.SmallAutoField.rel_db_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
     "modules": [
         {
             "namespace": "django.db.models.fields.related_descriptors",
             "docstring": "\"\"\"\nAccessors for related objects.\n\nWhen a field defines a relation between two models, each model class provides\nan attribute to access related instances of the other model class (unless the\nreverse accessor has been disabled with related_name='+').\n\nAccessors are implemented as descriptors in order to customize access and\nassignment. This module defines the descriptor classes.\n\nForward accessors follow foreign keys. Reverse accessors trace them back. For\nexample, with the following models::\n\n    class Parent(Model):\n        pass\n\n    class Child(Model):\n        parent = ForeignKey(Parent, related_name='children')\n\n ``child.parent`` is a forward many-to-one relation. ``parent.children`` is a\nreverse many-to-one relation.\n\nThere are three types of relations (many-to-one, one-to-one, and many-to-many)\nand two directions (forward and reverse) for a total of six combinations.\n\n1. Related instance on the forward side of a many-to-one relation:\n   ``ForwardManyToOneDescriptor``.\n\n   Uniqueness of foreign key values is irrelevant to accessing the related\n   instance, making the many-to-one and one-to-one cases identical as far as\n   the descriptor is concerned. The constraint is checked upstream (unicity\n   validation in forms) or downstream (unique indexes in the database).\n\n2. Related instance on the forward side of a one-to-one\n   relation: ``ForwardOneToOneDescriptor``.\n\n   It avoids querying the database when accessing the parent link field in\n   a multi-table inheritance scenario.\n\n3. Related instance on the reverse side of a one-to-one relation:\n   ``ReverseOneToOneDescriptor``.\n\n   One-to-one relations are asymmetrical, despite the apparent symmetry of the\n   name, because they're implemented in the database with a foreign key from\n   one table to another. As a consequence ``ReverseOneToOneDescriptor`` is\n   slightly different from ``ForwardManyToOneDescriptor``.\n\n4. Related objects manager for related instances on the reverse side of a\n   many-to-one relation: ``ReverseManyToOneDescriptor``.\n\n   Unlike the previous two classes, this one provides access to a collection\n   of objects. It returns a manager rather than an instance.\n\n5. Related objects manager for related instances on the forward or reverse\n   sides of a many-to-many relation: ``ManyToManyDescriptor``.\n\n   Many-to-many relations are symmetrical. The syntax of Django models\n   requires declaring them on one side but that's an implementation detail.\n   They could be declared on the other side without any change in behavior.\n   Therefore the forward and reverse descriptors can be the same.\n\n   If you're looking for ``ForwardManyToManyDescriptor`` or\n   ``ReverseManyToManyDescriptor``, use ``ManyToManyDescriptor`` instead.\n\"\"\"",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Create a manager for the reverse side of a many-to-one relation.\n\n    This manager subclasses another manager, generally the default manager of\n    the related model, and adds behaviors specific to many-to-one relations.\n    \"\"\"",
+                    "name": "create_reverse_many_to_one_manager",
+                    "namespace": "django.db.models.fields.related_descriptors.create_reverse_many_to_one_manager",
+                    "class_name": "",
+                    "module_name": "django.db.models.fields.related_descriptors",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Create a manager for the either side of a many-to-many relation.\n\n    This manager subclasses another manager, generally the default manager of\n    the related model, and adds behaviors specific to many-to-many relations.\n    \"\"\"",
+                    "name": "create_forward_many_to_many_manager",
+                    "namespace": "django.db.models.fields.related_descriptors.create_forward_many_to_many_manager",
+                    "class_name": "",
+                    "module_name": "django.db.models.fields.related_descriptors",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.db.models.fields"
         },
         {
             "namespace": "django.db.models.fields.files",
             "docstring": "",
+            "functions": [],
             "package_name": "django.db.models.fields"
         },
         {
             "namespace": "django.db.models.fields.mixins",
             "docstring": "",
+            "functions": [],
             "package_name": "django.db.models.fields"
         },
         {
             "namespace": "django.db.models.fields.related",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Transform relation into a model or fully-qualified model string of the form\n    \"app_label.ModelName\", relative to scope_model.\n\n    The relation argument can be:\n      * RECURSIVE_RELATIONSHIP_CONSTANT, i.e. the string \"self\", in which case\n        the model argument will be returned.\n      * A bare model name without an app_label, in which case scope_model's\n        app_label will be prepended.\n      * An \"app_label.ModelName\" string.\n      * A model class, which will be returned unchanged.\n    \"\"\"",
+                    "name": "resolve_relation",
+                    "namespace": "django.db.models.fields.related.resolve_relation",
+                    "class_name": "",
+                    "module_name": "django.db.models.fields.related",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Schedule `function` to be called once `model` and all `related_models`\n    have been imported and registered with the app registry. `function` will\n    be called with the newly-loaded model classes as its positional arguments,\n    plus any optional keyword arguments.\n\n    The `model` argument must be a model class. Each subsequent positional\n    argument is another model, or a reference to another model - see\n    `resolve_relation()` for the various forms these may take. Any relative\n    references will be resolved relative to `model`.\n\n    This is a convenience wrapper for `Apps.lazy_model_operation` - the app\n    registry model used is the one found in `model._meta.apps`.\n    \"\"\"",
+                    "name": "lazy_related_operation",
+                    "namespace": "django.db.models.fields.related.lazy_related_operation",
+                    "class_name": "",
+                    "module_name": "django.db.models.fields.related",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "create_many_to_many_intermediary_model",
+                    "namespace": "django.db.models.fields.related.create_many_to_many_intermediary_model",
+                    "class_name": "",
+                    "module_name": "django.db.models.fields.related",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.db.models.fields"
         },
         {
             "namespace": "django.db.models.fields.proxy",
             "docstring": "\"\"\"\nField-like classes that aren't really fields. It's easier to use objects that\nhave the same attributes as fields sometimes (avoids a lot of special casing).\n\"\"\"",
+            "functions": [],
             "package_name": "django.db.models.fields"
         },
         {
             "namespace": "django.db.models.fields.reverse_related",
             "docstring": "\"\"\"\n\"Rel objects\" for related fields.\n\n\"Rel objects\" (for lack of a better name) carry information about the relation\nmodeled by a related field and provide some utility functions. They're stored\nin the ``remote_field`` attribute of the field.\n\nThey also act as reverse fields for the purposes of the Meta API because\nthey're the closest concept currently available.\n\"\"\"",
+            "functions": [],
             "package_name": "django.db.models.fields"
         },
         {
             "namespace": "django.db.models.fields.related_lookups",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "get_normalized_value",
+                    "namespace": "django.db.models.fields.related_lookups.get_normalized_value",
+                    "class_name": "",
+                    "module_name": "django.db.models.fields.related_lookups",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.db.models.fields"
         },
         {
             "namespace": "django.db.models.fields.json",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "compile_json_path",
+                    "namespace": "django.db.models.fields.json.compile_json_path",
+                    "class_name": "",
+                    "module_name": "django.db.models.fields.json",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.db.models.fields"
         }
     ],

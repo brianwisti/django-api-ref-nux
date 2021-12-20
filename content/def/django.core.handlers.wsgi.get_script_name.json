@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Return the equivalent of the HTTP request's SCRIPT_NAME environment\n    variable. If Apache mod_rewrite is used, return what would have been\n    the script name prior to any rewriting (so it's the script name as seen\n    from the client's perspective), unless the FORCE_SCRIPT_NAME setting is\n    set (to anything).\n    \"\"\"",
+    "name": "get_script_name",
+    "namespace": "django.core.handlers.wsgi.get_script_name",
+    "class_name": "",
+    "module_name": "django.core.handlers.wsgi",
+    "package_name": ""
+}

@@ -3,5 +3,111 @@
     "name": "InlineModelAdmin",
     "namespace": "django.contrib.admin.options.InlineModelAdmin",
     "module_name": "django.contrib.admin.options",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.contrib.admin.options.InlineModelAdmin.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "media",
+            "namespace": "django.contrib.admin.options.InlineModelAdmin.media",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Hook for customizing the number of extra inline forms.\"\"\"",
+            "name": "get_extra",
+            "namespace": "django.contrib.admin.options.InlineModelAdmin.get_extra",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Hook for customizing the min number of inline forms.\"\"\"",
+            "name": "get_min_num",
+            "namespace": "django.contrib.admin.options.InlineModelAdmin.get_min_num",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Hook for customizing the max number of extra inline forms.\"\"\"",
+            "name": "get_max_num",
+            "namespace": "django.contrib.admin.options.InlineModelAdmin.get_max_num",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return a BaseInlineFormSet class for use in admin add/change views.\"\"\"",
+            "name": "get_formset",
+            "namespace": "django.contrib.admin.options.InlineModelAdmin.get_formset",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_get_form_for_get_fields",
+            "namespace": "django.contrib.admin.options.InlineModelAdmin._get_form_for_get_fields",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_queryset",
+            "namespace": "django.contrib.admin.options.InlineModelAdmin.get_queryset",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        This method is called only when the ModelAdmin's model is for an\n        ManyToManyField's implicit through model (if self.opts.auto_created).\n        Return True if the user has any of the given permissions ('add',\n        'change', etc.) for the model that points to the through model.\n        \"\"\"",
+            "name": "_has_any_perms_for_target_model",
+            "namespace": "django.contrib.admin.options.InlineModelAdmin._has_any_perms_for_target_model",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "has_add_permission",
+            "namespace": "django.contrib.admin.options.InlineModelAdmin.has_add_permission",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "has_change_permission",
+            "namespace": "django.contrib.admin.options.InlineModelAdmin.has_change_permission",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "has_delete_permission",
+            "namespace": "django.contrib.admin.options.InlineModelAdmin.has_delete_permission",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "has_view_permission",
+            "namespace": "django.contrib.admin.options.InlineModelAdmin.has_view_permission",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

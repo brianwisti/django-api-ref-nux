@@ -3,5 +3,55 @@
     "name": "BaseBackend",
     "namespace": "django.contrib.auth.backends.BaseBackend",
     "module_name": "django.contrib.auth.backends",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "authenticate",
+            "namespace": "django.contrib.auth.backends.BaseBackend.authenticate",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_user",
+            "namespace": "django.contrib.auth.backends.BaseBackend.get_user",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_user_permissions",
+            "namespace": "django.contrib.auth.backends.BaseBackend.get_user_permissions",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_group_permissions",
+            "namespace": "django.contrib.auth.backends.BaseBackend.get_group_permissions",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_all_permissions",
+            "namespace": "django.contrib.auth.backends.BaseBackend.get_all_permissions",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "has_perm",
+            "namespace": "django.contrib.auth.backends.BaseBackend.has_perm",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

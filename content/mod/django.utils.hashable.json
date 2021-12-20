@@ -2,5 +2,15 @@
     "namespace": "django.utils.hashable",
     "docstring": "",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Attempt to make value hashable or raise a TypeError if it fails.\n\n    The returned value should generate the same hash for equal values.\n    \"\"\"",
+            "name": "make_hashable",
+            "namespace": "django.utils.hashable.make_hashable",
+            "class_name": "",
+            "module_name": "django.utils.hashable",
+            "package_name": ""
+        }
+    ],
     "package_name": "django.utils"
 }

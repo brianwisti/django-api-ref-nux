@@ -3,5 +3,31 @@
     "name": "ServerHandler",
     "namespace": "django.core.servers.basehttp.ServerHandler",
     "module_name": "django.core.servers.basehttp",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "\"\"\"\n        Use a LimitedStream so that unread request data will be ignored at\n        the end of the request. WSGIRequest uses a LimitedStream but it\n        shouldn't discard the data since the upstream servers usually do this.\n        This fix applies only for testserver/runserver.\n        \"\"\"",
+            "name": "__init__",
+            "namespace": "django.core.servers.basehttp.ServerHandler.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "cleanup_headers",
+            "namespace": "django.core.servers.basehttp.ServerHandler.cleanup_headers",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "close",
+            "namespace": "django.core.servers.basehttp.ServerHandler.close",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

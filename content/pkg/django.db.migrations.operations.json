@@ -2,26 +2,40 @@
     "name": "django.db.migrations.operations",
     "docstring": "",
     "package_name": "django.db.migrations",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.db.migrations.operations.models",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "_check_for_duplicates",
+                    "namespace": "django.db.migrations.operations.models._check_for_duplicates",
+                    "class_name": "",
+                    "module_name": "django.db.migrations.operations.models",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.db.migrations.operations"
         },
         {
             "namespace": "django.db.migrations.operations.fields",
             "docstring": "",
+            "functions": [],
             "package_name": "django.db.migrations.operations"
         },
         {
             "namespace": "django.db.migrations.operations.special",
             "docstring": "",
+            "functions": [],
             "package_name": "django.db.migrations.operations"
         },
         {
             "namespace": "django.db.migrations.operations.base",
             "docstring": "",
+            "functions": [],
             "package_name": "django.db.migrations.operations"
         }
     ],

@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Return a list of functions needed to convert field data.\n\n        Some field types on some backends do not provide data in the correct\n        format, this is the hook for converter functions.\n        \"\"\"",
+    "name": "get_db_converters",
+    "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.get_db_converters",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

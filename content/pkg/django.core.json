@@ -2,41 +2,197 @@
     "name": "django.core",
     "docstring": "",
     "package_name": "django",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.core.signing",
             "docstring": "\"\"\"\nFunctions for creating and restoring url-safe signed JSON objects.\n\nThe format used looks like this:\n\n>>> signing.dumps(\"hello\")\n'ImhlbGxvIg:1QaUZC:YIye-ze3TTx7gtSv422nZA4sgmk'\n\nThere are two components here, separated by a ':'. The first component is a\nURLsafe base64 encoded JSON of the object passed to dumps(). The second\ncomponent is a base64 encoded hmac/SHA1 hash of \"$first_component:$secret\"\n\nsigning.loads(s) checks the signature and returns the deserialized object.\nIf the signature fails, a BadSignature exception is raised.\n\n>>> signing.loads(\"ImhlbGxvIg:1QaUZC:YIye-ze3TTx7gtSv422nZA4sgmk\")\n'hello'\n>>> signing.loads(\"ImhlbGxvIg:1QaUZC:YIye-ze3TTx7gtSv422nZA4sgmk-modified\")\n...\nBadSignature: Signature failed: ImhlbGxvIg:1QaUZC:YIye-ze3TTx7gtSv422nZA4sgmk-modified\n\nYou can optionally compress the JSON prior to base64 encoding it to save\nspace, using the compress=True argument. This checks if compression actually\nhelps and only applies compression if the result is a shorter string:\n\n>>> signing.dumps(list(range(1, 20)), compress=True)\n'.eJwFwcERACAIwLCF-rCiILN47r-GyZVJsNgkxaFxoDgxcOHGxMKD_T7vhAml:1QaUaL:BA0thEZrp4FQVXIXuOvYJtLJSrQ'\n\nThe fact that the string is compressed is signalled by the prefixed '.' at the\nstart of the base64 JSON.\n\nThere are 65 url-safe characters: the 64 used by url-safe base64 and the ':'.\nThese functions make use of all of them.\n\"\"\"",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "b62_encode",
+                    "namespace": "django.core.signing.b62_encode",
+                    "class_name": "",
+                    "module_name": "django.core.signing",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "b62_decode",
+                    "namespace": "django.core.signing.b62_decode",
+                    "class_name": "",
+                    "module_name": "django.core.signing",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "b64_encode",
+                    "namespace": "django.core.signing.b64_encode",
+                    "class_name": "",
+                    "module_name": "django.core.signing",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "b64_decode",
+                    "namespace": "django.core.signing.b64_decode",
+                    "class_name": "",
+                    "module_name": "django.core.signing",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "base64_hmac",
+                    "namespace": "django.core.signing.base64_hmac",
+                    "class_name": "",
+                    "module_name": "django.core.signing",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_cookie_signer",
+                    "namespace": "django.core.signing.get_cookie_signer",
+                    "class_name": "",
+                    "module_name": "django.core.signing",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return URL-safe, hmac signed base64 compressed JSON string. If key is\n    None, use settings.SECRET_KEY instead. The hmac algorithm is the default\n    Signer algorithm.\n\n    If compress is True (not the default), check if compressing using zlib can\n    save some space. Prepend a '.' to signify compression. This is included\n    in the signature, to protect against zip bombs.\n\n    Salt can be used to namespace the hash, so that a signed string is\n    only valid for a given namespace. Leaving this at the default\n    value or re-using a salt value across different parts of your\n    application without good cause is a security risk.\n\n    The serializer is expected to return a bytestring.\n    \"\"\"",
+                    "name": "dumps",
+                    "namespace": "django.core.signing.dumps",
+                    "class_name": "",
+                    "module_name": "django.core.signing",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Reverse of dumps(), raise BadSignature if signature fails.\n\n    The serializer is expected to accept a bytestring.\n    \"\"\"",
+                    "name": "loads",
+                    "namespace": "django.core.signing.loads",
+                    "class_name": "",
+                    "module_name": "django.core.signing",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.core"
         },
         {
             "namespace": "django.core.signals",
             "docstring": "",
+            "functions": [],
             "package_name": "django.core"
         },
         {
             "namespace": "django.core.validators",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "validate_integer",
+                    "namespace": "django.core.validators.validate_integer",
+                    "class_name": "",
+                    "module_name": "django.core.validators",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "validate_ipv4_address",
+                    "namespace": "django.core.validators.validate_ipv4_address",
+                    "class_name": "",
+                    "module_name": "django.core.validators",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "validate_ipv6_address",
+                    "namespace": "django.core.validators.validate_ipv6_address",
+                    "class_name": "",
+                    "module_name": "django.core.validators",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "validate_ipv46_address",
+                    "namespace": "django.core.validators.validate_ipv46_address",
+                    "class_name": "",
+                    "module_name": "django.core.validators",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Depending on the given parameters, return the appropriate validators for\n    the GenericIPAddressField.\n    \"\"\"",
+                    "name": "ip_address_validators",
+                    "namespace": "django.core.validators.ip_address_validators",
+                    "class_name": "",
+                    "module_name": "django.core.validators",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "int_list_validator",
+                    "namespace": "django.core.validators.int_list_validator",
+                    "class_name": "",
+                    "module_name": "django.core.validators",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_available_image_extensions",
+                    "namespace": "django.core.validators.get_available_image_extensions",
+                    "class_name": "",
+                    "module_name": "django.core.validators",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "validate_image_file_extension",
+                    "namespace": "django.core.validators.validate_image_file_extension",
+                    "class_name": "",
+                    "module_name": "django.core.validators",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.core"
         },
         {
             "namespace": "django.core.asgi",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    The public interface to Django's ASGI support. Return an ASGI 3 callable.\n\n    Avoids making django.core.handlers.ASGIHandler a public API, in case the\n    internal implementation changes or moves in the future.\n    \"\"\"",
+                    "name": "get_asgi_application",
+                    "namespace": "django.core.asgi.get_asgi_application",
+                    "class_name": "",
+                    "module_name": "django.core.asgi",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.core"
         },
         {
             "namespace": "django.core.paginator",
             "docstring": "",
+            "functions": [],
             "package_name": "django.core"
         },
         {
             "namespace": "django.core.exceptions",
             "docstring": "\"\"\"\nGlobal Django exception and warning classes.\n\"\"\"",
+            "functions": [],
             "package_name": "django.core"
         },
         {
             "namespace": "django.core.wsgi",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    The public interface to Django's WSGI support. Return a WSGI callable.\n\n    Avoids making django.core.handlers.WSGIHandler a public API, in case the\n    internal WSGI implementation changes or moves in the future.\n    \"\"\"",
+                    "name": "get_wsgi_application",
+                    "namespace": "django.core.wsgi.get_wsgi_application",
+                    "class_name": "",
+                    "module_name": "django.core.wsgi",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.core"
         }
     ],
@@ -44,42 +200,222 @@
         {
             "name": "django.core.cache",
             "docstring": "\"\"\"\nCaching framework.\n\nThis package defines set of cache backends that all conform to a simple API.\nIn a nutshell, a cache is a set of values -- which can be any object that\nmay be pickled -- identified by string keys.  For the complete API, see\nthe abstract BaseCache class in django.core.cache.backends.base.\n\nClient code should use the `cache` variable defined here to access the default\ncache backend and look up non-default cache backends in the `caches` dict-like\nobject.\n\nSee docs/topics/cache.txt for information on the public API.\n\"\"\"",
-            "package_name": "django.core"
+            "package_name": "django.core",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "close_caches",
+                    "namespace": "django.core.cache.close_caches",
+                    "class_name": "",
+                    "module_name": "django.core.cache",
+                    "package_name": "django.core.cache"
+                }
+            ]
         },
         {
             "name": "django.core.mail",
             "docstring": "\"\"\"\nTools for sending email.\n\"\"\"",
-            "package_name": "django.core"
+            "package_name": "django.core",
+            "functions": [
+                {
+                    "docstring": "\"\"\"Load an email backend and return an instance of it.\n\n    If backend is None (default), use settings.EMAIL_BACKEND.\n\n    Both fail_silently and other keyword arguments are used in the\n    constructor of the backend.\n    \"\"\"",
+                    "name": "get_connection",
+                    "namespace": "django.core.mail.get_connection",
+                    "class_name": "",
+                    "module_name": "django.core.mail",
+                    "package_name": "django.core.mail"
+                },
+                {
+                    "docstring": "\"\"\"\n    Easy wrapper for sending a single message to a recipient list. All members\n    of the recipient list will see the other recipients in the 'To' field.\n\n    If from_email is None, use the DEFAULT_FROM_EMAIL setting.\n    If auth_user is None, use the EMAIL_HOST_USER setting.\n    If auth_password is None, use the EMAIL_HOST_PASSWORD setting.\n\n    Note: The API for this method is frozen. New code wanting to extend the\n    functionality should use the EmailMessage class directly.\n    \"\"\"",
+                    "name": "send_mail",
+                    "namespace": "django.core.mail.send_mail",
+                    "class_name": "",
+                    "module_name": "django.core.mail",
+                    "package_name": "django.core.mail"
+                },
+                {
+                    "docstring": "\"\"\"\n    Given a datatuple of (subject, message, from_email, recipient_list), send\n    each message to each recipient list. Return the number of emails sent.\n\n    If from_email is None, use the DEFAULT_FROM_EMAIL setting.\n    If auth_user and auth_password are set, use them to log in.\n    If auth_user is None, use the EMAIL_HOST_USER setting.\n    If auth_password is None, use the EMAIL_HOST_PASSWORD setting.\n\n    Note: The API for this method is frozen. New code wanting to extend the\n    functionality should use the EmailMessage class directly.\n    \"\"\"",
+                    "name": "send_mass_mail",
+                    "namespace": "django.core.mail.send_mass_mail",
+                    "class_name": "",
+                    "module_name": "django.core.mail",
+                    "package_name": "django.core.mail"
+                },
+                {
+                    "docstring": "\"\"\"Send a message to the admins, as defined by the ADMINS setting.\"\"\"",
+                    "name": "mail_admins",
+                    "namespace": "django.core.mail.mail_admins",
+                    "class_name": "",
+                    "module_name": "django.core.mail",
+                    "package_name": "django.core.mail"
+                },
+                {
+                    "docstring": "\"\"\"Send a message to the managers, as defined by the MANAGERS setting.\"\"\"",
+                    "name": "mail_managers",
+                    "namespace": "django.core.mail.mail_managers",
+                    "class_name": "",
+                    "module_name": "django.core.mail",
+                    "package_name": "django.core.mail"
+                }
+            ]
         },
         {
             "name": "django.core.checks",
             "docstring": "",
-            "package_name": "django.core"
+            "package_name": "django.core",
+            "functions": []
         },
         {
             "name": "django.core.management",
             "docstring": "",
-            "package_name": "django.core"
+            "package_name": "django.core",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Given a path to a management directory, return a list of all the command\n    names that are available.\n    \"\"\"",
+                    "name": "find_commands",
+                    "namespace": "django.core.management.find_commands",
+                    "class_name": "",
+                    "module_name": "django.core.management",
+                    "package_name": "django.core.management"
+                },
+                {
+                    "docstring": "\"\"\"\n    Given a command name and an application name, return the Command\n    class instance. Allow all errors raised by the import process\n    (ImportError, AttributeError) to propagate.\n    \"\"\"",
+                    "name": "load_command_class",
+                    "namespace": "django.core.management.load_command_class",
+                    "class_name": "",
+                    "module_name": "django.core.management",
+                    "package_name": "django.core.management"
+                },
+                {
+                    "docstring": "\"\"\"\n    Return a dictionary mapping command names to their callback applications.\n\n    Look for a management.commands package in django.core, and in each\n    installed application -- if a commands package exists, register all\n    commands in that package.\n\n    Core commands are always included. If a settings module has been\n    specified, also include user-defined commands.\n\n    The dictionary is in the format {command_name: app_name}. Key-value\n    pairs from this dictionary can then be used in calls to\n    load_command_class(app_name, command_name)\n\n    If a specific version of a command must be loaded (e.g., with the\n    startapp command), the instantiated module can be placed in the\n    dictionary in place of the application name.\n\n    The dictionary is cached on the first call and reused on subsequent\n    calls.\n    \"\"\"",
+                    "name": "get_commands",
+                    "namespace": "django.core.management.get_commands",
+                    "class_name": "",
+                    "module_name": "django.core.management",
+                    "package_name": "django.core.management"
+                },
+                {
+                    "docstring": "\"\"\"\n    Call the given command, with the given options and args/kwargs.\n\n    This is the primary API you should use for calling specific commands.\n\n    `command_name` may be a string or a command object. Using a string is\n    preferred unless the command object is required for further processing or\n    testing.\n\n    Some examples:\n        call_command('migrate')\n        call_command('shell', plain=True)\n        call_command('sqlmigrate', 'myapp')\n\n        from django.core.management.commands import flush\n        cmd = flush.Command()\n        call_command(cmd, verbosity=0, interactive=False)\n        # Do something with cmd ...\n    \"\"\"",
+                    "name": "call_command",
+                    "namespace": "django.core.management.call_command",
+                    "class_name": "",
+                    "module_name": "django.core.management",
+                    "package_name": "django.core.management"
+                },
+                {
+                    "docstring": "\"\"\"Run a ManagementUtility.\"\"\"",
+                    "name": "execute_from_command_line",
+                    "namespace": "django.core.management.execute_from_command_line",
+                    "class_name": "",
+                    "module_name": "django.core.management",
+                    "package_name": "django.core.management"
+                }
+            ]
         },
         {
             "name": "django.core.serializers",
             "docstring": "\"\"\"\nInterfaces for serializing Django objects.\n\nUsage::\n\n    from django.core import serializers\n    json = serializers.serialize(\"json\", some_queryset)\n    objects = list(serializers.deserialize(\"json\", json))\n\nTo add your own serializers, use the SERIALIZATION_MODULES setting::\n\n    SERIALIZATION_MODULES = {\n        \"csv\": \"path.to.csv.serializer\",\n        \"txt\": \"path.to.txt.serializer\",\n    }\n\n\"\"\"",
-            "package_name": "django.core"
+            "package_name": "django.core",
+            "functions": [
+                {
+                    "docstring": "\"\"\"Register a new serializer.\n\n    ``serializer_module`` should be the fully qualified module name\n    for the serializer.\n\n    If ``serializers`` is provided, the registration will be added\n    to the provided dictionary.\n\n    If ``serializers`` is not provided, the registration will be made\n    directly into the global register of serializers. Adding serializers\n    directly is not a thread-safe operation.\n    \"\"\"",
+                    "name": "register_serializer",
+                    "namespace": "django.core.serializers.register_serializer",
+                    "class_name": "",
+                    "module_name": "django.core.serializers",
+                    "package_name": "django.core.serializers"
+                },
+                {
+                    "docstring": "\"Unregister a given serializer. This is not a thread-safe operation.\"",
+                    "name": "unregister_serializer",
+                    "namespace": "django.core.serializers.unregister_serializer",
+                    "class_name": "",
+                    "module_name": "django.core.serializers",
+                    "package_name": "django.core.serializers"
+                },
+                {
+                    "docstring": "",
+                    "name": "get_serializer",
+                    "namespace": "django.core.serializers.get_serializer",
+                    "class_name": "",
+                    "module_name": "django.core.serializers",
+                    "package_name": "django.core.serializers"
+                },
+                {
+                    "docstring": "",
+                    "name": "get_serializer_formats",
+                    "namespace": "django.core.serializers.get_serializer_formats",
+                    "class_name": "",
+                    "module_name": "django.core.serializers",
+                    "package_name": "django.core.serializers"
+                },
+                {
+                    "docstring": "",
+                    "name": "get_public_serializer_formats",
+                    "namespace": "django.core.serializers.get_public_serializer_formats",
+                    "class_name": "",
+                    "module_name": "django.core.serializers",
+                    "package_name": "django.core.serializers"
+                },
+                {
+                    "docstring": "",
+                    "name": "get_deserializer",
+                    "namespace": "django.core.serializers.get_deserializer",
+                    "class_name": "",
+                    "module_name": "django.core.serializers",
+                    "package_name": "django.core.serializers"
+                },
+                {
+                    "docstring": "\"\"\"\n    Serialize a queryset (or any iterator that returns database objects) using\n    a certain serializer.\n    \"\"\"",
+                    "name": "serialize",
+                    "namespace": "django.core.serializers.serialize",
+                    "class_name": "",
+                    "module_name": "django.core.serializers",
+                    "package_name": "django.core.serializers"
+                },
+                {
+                    "docstring": "\"\"\"\n    Deserialize a stream or a string. Return an iterator that yields ``(obj,\n    m2m_relation_dict)``, where ``obj`` is an instantiated -- but *unsaved* --\n    object, and ``m2m_relation_dict`` is a dictionary of ``{m2m_field_name :\n    list_of_related_objects}``.\n    \"\"\"",
+                    "name": "deserialize",
+                    "namespace": "django.core.serializers.deserialize",
+                    "class_name": "",
+                    "module_name": "django.core.serializers",
+                    "package_name": "django.core.serializers"
+                },
+                {
+                    "docstring": "\"\"\"\n    Register built-in and settings-defined serializers. This is done lazily so\n    that user code has a chance to (e.g.) set up custom settings without\n    needing to be careful of import order.\n    \"\"\"",
+                    "name": "_load_serializers",
+                    "namespace": "django.core.serializers._load_serializers",
+                    "class_name": "",
+                    "module_name": "django.core.serializers",
+                    "package_name": "django.core.serializers"
+                },
+                {
+                    "docstring": "\"\"\"Sort a list of (app_config, models) pairs into a single list of models.\n\n    The single list of models is sorted so that any model with a natural key\n    is serialized before a normal model, and any model with a natural key\n    dependency has it's dependencies serialized first.\n\n    If allow_cycles is True, return the best-effort ordering that will respect\n    most of dependencies but ignore some of them to break the cycles.\n    \"\"\"",
+                    "name": "sort_dependencies",
+                    "namespace": "django.core.serializers.sort_dependencies",
+                    "class_name": "",
+                    "module_name": "django.core.serializers",
+                    "package_name": "django.core.serializers"
+                }
+            ]
         },
         {
             "name": "django.core.files",
             "docstring": "",
-            "package_name": "django.core"
+            "package_name": "django.core",
+            "functions": []
         },
         {
             "name": "django.core.handlers",
             "docstring": "",
-            "package_name": "django.core"
+            "package_name": "django.core",
+            "functions": []
         },
         {
             "name": "django.core.servers",
             "docstring": "",
-            "package_name": "django.core"
+            "package_name": "django.core",
+            "functions": []
         }
     ]
 }

@@ -3,5 +3,23 @@
     "name": "OpenLayersWidget",
     "namespace": "django.contrib.gis.admin.widgets.OpenLayersWidget",
     "module_name": "django.contrib.gis.admin.widgets",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "get_context",
+            "namespace": "django.contrib.gis.admin.widgets.OpenLayersWidget.get_context",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Build the map options hash for the OpenLayers template.\"\"\"",
+            "name": "map_options",
+            "namespace": "django.contrib.gis.admin.widgets.OpenLayersWidget.map_options",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

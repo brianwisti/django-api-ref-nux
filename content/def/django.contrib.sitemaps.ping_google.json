@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Alert Google that the sitemap for the current site has been updated.\n    If sitemap_url is provided, it should be an absolute path to the sitemap\n    for this site -- e.g., '/sitemap.xml'. If sitemap_url is not provided, this\n    function will attempt to deduce it by using urls.reverse().\n    \"\"\"",
+    "name": "ping_google",
+    "namespace": "django.contrib.sitemaps.ping_google",
+    "class_name": "",
+    "module_name": "django.contrib.sitemaps",
+    "package_name": "django.contrib.sitemaps"
+}

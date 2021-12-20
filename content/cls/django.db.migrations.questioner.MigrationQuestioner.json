@@ -3,5 +3,71 @@
     "name": "MigrationQuestioner",
     "namespace": "django.db.migrations.questioner.MigrationQuestioner",
     "module_name": "django.db.migrations.questioner",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.db.migrations.questioner.MigrationQuestioner.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Should we create an initial migration for the app?\"\"\"",
+            "name": "ask_initial",
+            "namespace": "django.db.migrations.questioner.MigrationQuestioner.ask_initial",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Adding a NOT NULL field to a model.\"\"\"",
+            "name": "ask_not_null_addition",
+            "namespace": "django.db.migrations.questioner.MigrationQuestioner.ask_not_null_addition",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Changing a NULL field to NOT NULL.\"\"\"",
+            "name": "ask_not_null_alteration",
+            "namespace": "django.db.migrations.questioner.MigrationQuestioner.ask_not_null_alteration",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Was this field really renamed?\"\"\"",
+            "name": "ask_rename",
+            "namespace": "django.db.migrations.questioner.MigrationQuestioner.ask_rename",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Was this model really renamed?\"\"\"",
+            "name": "ask_rename_model",
+            "namespace": "django.db.migrations.questioner.MigrationQuestioner.ask_rename_model",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Should these migrations really be merged?\"\"\"",
+            "name": "ask_merge",
+            "namespace": "django.db.migrations.questioner.MigrationQuestioner.ask_merge",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Adding an auto_now_add field to a model.\"\"\"",
+            "name": "ask_auto_now_add_addition",
+            "namespace": "django.db.migrations.questioner.MigrationQuestioner.ask_auto_now_add_addition",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

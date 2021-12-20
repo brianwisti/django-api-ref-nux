@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Send a message to the user. The default implementation\n        posts a message using the django.contrib.messages backend.\n\n        Exposes almost the same API as messages.add_message(), but accepts the\n        positional arguments in a different order to maintain backwards\n        compatibility. For convenience, it accepts the `level` argument as\n        a string rather than the usual level number.\n        \"\"\"",
+    "name": "message_user",
+    "namespace": "django.contrib.admin.options.ModelAdmin.message_user",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

@@ -3,5 +3,39 @@
     "name": "Node",
     "namespace": "django.template.base.Node",
     "module_name": "django.template.base",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "\"\"\"\n        Return the node rendered as a string.\n        \"\"\"",
+            "name": "render",
+            "namespace": "django.template.base.Node.render",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Render the node. If debug is True and an exception occurs during\n        rendering, the exception is annotated with contextual line information\n        where it occurred in the template. For internal usage this method is\n        preferred over using the render method directly.\n        \"\"\"",
+            "name": "render_annotated",
+            "namespace": "django.template.base.Node.render_annotated",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__iter__",
+            "namespace": "django.template.base.Node.__iter__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return a list of all nodes (within this node and its nodelist)\n        of the given type\n        \"\"\"",
+            "name": "get_nodes_by_type",
+            "namespace": "django.template.base.Node.get_nodes_by_type",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

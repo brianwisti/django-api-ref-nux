@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Convert the JavaScript source `js` into something resembling C for\n    xgettext.\n\n    What actually happens is that all the regex literals are replaced with\n    \"REGEX\".\n    \"\"\"",
+    "name": "prepare_js_for_gettext",
+    "namespace": "django.utils.jslex.prepare_js_for_gettext",
+    "class_name": "",
+    "module_name": "django.utils.jslex",
+    "package_name": ""
+}

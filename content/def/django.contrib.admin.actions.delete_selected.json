@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Default action which deletes the selected objects.\n\n    This action first displays a confirmation page which shows all the\n    deletable objects, or, if the user has no permission one of the related\n    childs (foreignkeys), a \"permission denied\" message.\n\n    Next, it deletes all selected objects and redirects back to the change list.\n    \"\"\"",
+    "name": "delete_selected",
+    "namespace": "django.contrib.admin.actions.delete_selected",
+    "class_name": "",
+    "module_name": "django.contrib.admin.actions",
+    "package_name": ""
+}

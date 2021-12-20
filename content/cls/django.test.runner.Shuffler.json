@@ -3,5 +3,47 @@
     "name": "Shuffler",
     "namespace": "django.test.runner.Shuffler",
     "module_name": "django.test.runner",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "_hash_text",
+            "namespace": "django.test.runner.Shuffler._hash_text",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.test.runner.Shuffler.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "seed_display",
+            "namespace": "django.test.runner.Shuffler.seed_display",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_hash_item",
+            "namespace": "django.test.runner.Shuffler._hash_item",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return a new list of the items in a shuffled order.\n\n        The `key` is a function that accepts an item in `items` and returns\n        a string unique for that item that can be viewed as a string id. The\n        order of the return value is deterministic. It depends on the seed\n        and key function but not on the original order.\n        \"\"\"",
+            "name": "shuffle",
+            "namespace": "django.test.runner.Shuffler.shuffle",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

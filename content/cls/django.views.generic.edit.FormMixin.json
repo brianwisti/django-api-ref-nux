@@ -3,5 +3,79 @@
     "name": "FormMixin",
     "namespace": "django.views.generic.edit.FormMixin",
     "module_name": "django.views.generic.edit",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "\"\"\"Return the initial data to use for forms on this view.\"\"\"",
+            "name": "get_initial",
+            "namespace": "django.views.generic.edit.FormMixin.get_initial",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return the prefix to use for forms.\"\"\"",
+            "name": "get_prefix",
+            "namespace": "django.views.generic.edit.FormMixin.get_prefix",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return the form class to use.\"\"\"",
+            "name": "get_form_class",
+            "namespace": "django.views.generic.edit.FormMixin.get_form_class",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return an instance of the form to be used in this view.\"\"\"",
+            "name": "get_form",
+            "namespace": "django.views.generic.edit.FormMixin.get_form",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return the keyword arguments for instantiating the form.\"\"\"",
+            "name": "get_form_kwargs",
+            "namespace": "django.views.generic.edit.FormMixin.get_form_kwargs",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return the URL to redirect to after processing a valid form.\"\"\"",
+            "name": "get_success_url",
+            "namespace": "django.views.generic.edit.FormMixin.get_success_url",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"If the form is valid, redirect to the supplied URL.\"\"\"",
+            "name": "form_valid",
+            "namespace": "django.views.generic.edit.FormMixin.form_valid",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"If the form is invalid, render the invalid form.\"\"\"",
+            "name": "form_invalid",
+            "namespace": "django.views.generic.edit.FormMixin.form_invalid",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Insert the form into the context dict.\"\"\"",
+            "name": "get_context_data",
+            "namespace": "django.views.generic.edit.FormMixin.get_context_data",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

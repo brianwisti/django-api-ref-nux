@@ -3,5 +3,63 @@
     "name": "NestedObjects",
     "namespace": "django.contrib.admin.utils.NestedObjects",
     "module_name": "django.contrib.admin.utils",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.contrib.admin.utils.NestedObjects.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "add_edge",
+            "namespace": "django.contrib.admin.utils.NestedObjects.add_edge",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "collect",
+            "namespace": "django.contrib.admin.utils.NestedObjects.collect",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "related_objects",
+            "namespace": "django.contrib.admin.utils.NestedObjects.related_objects",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_nested",
+            "namespace": "django.contrib.admin.utils.NestedObjects._nested",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return the graph as a nested list.\n        \"\"\"",
+            "name": "nested",
+            "namespace": "django.contrib.admin.utils.NestedObjects.nested",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        We always want to load the objects into memory so that we can display\n        them to the user in confirm page.\n        \"\"\"",
+            "name": "can_fast_delete",
+            "namespace": "django.contrib.admin.utils.NestedObjects.can_fast_delete",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

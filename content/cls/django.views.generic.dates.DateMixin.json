@@ -3,5 +3,47 @@
     "name": "DateMixin",
     "namespace": "django.views.generic.dates.DateMixin",
     "module_name": "django.views.generic.dates",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "\"\"\"Get the name of the date field to be used to filter by.\"\"\"",
+            "name": "get_date_field",
+            "namespace": "django.views.generic.dates.DateMixin.get_date_field",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return `True` if the view should be allowed to display objects from\n        the future.\n        \"\"\"",
+            "name": "get_allow_future",
+            "namespace": "django.views.generic.dates.DateMixin.get_allow_future",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return `True` if the date field is a `DateTimeField` and `False`\n        if it's a `DateField`.\n        \"\"\"",
+            "name": "uses_datetime_field",
+            "namespace": "django.views.generic.dates.DateMixin.uses_datetime_field",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Convert a date into a datetime when the date field is a DateTimeField.\n\n        When time zone support is enabled, `date` is assumed to be in the\n        current time zone, so that displayed items are consistent with the URL.\n        \"\"\"",
+            "name": "_make_date_lookup_arg",
+            "namespace": "django.views.generic.dates.DateMixin._make_date_lookup_arg",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Get the lookup kwargs for filtering on a single date.\n\n        If the date field is a DateTimeField, we can't just filter on\n        date_field=date because that doesn't take the time into account.\n        \"\"\"",
+            "name": "_make_single_date_lookup",
+            "namespace": "django.views.generic.dates.DateMixin._make_single_date_lookup",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

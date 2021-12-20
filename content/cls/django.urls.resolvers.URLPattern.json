@@ -3,5 +3,63 @@
     "name": "URLPattern",
     "namespace": "django.urls.resolvers.URLPattern",
     "module_name": "django.urls.resolvers",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.urls.resolvers.URLPattern.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__repr__",
+            "namespace": "django.urls.resolvers.URLPattern.__repr__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "check",
+            "namespace": "django.urls.resolvers.URLPattern.check",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Check that the pattern name does not contain a colon.\n        \"\"\"",
+            "name": "_check_pattern_name",
+            "namespace": "django.urls.resolvers.URLPattern._check_pattern_name",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_check_callback",
+            "namespace": "django.urls.resolvers.URLPattern._check_callback",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "resolve",
+            "namespace": "django.urls.resolvers.URLPattern.resolve",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        A string that identifies the view (e.g. 'path.to.view_function' or\n        'path.to.ClassBasedView').\n        \"\"\"",
+            "name": "lookup_str",
+            "namespace": "django.urls.resolvers.URLPattern.lookup_str",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

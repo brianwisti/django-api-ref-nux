@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Raise an exception if trying to pickle an unrendered response. Pickle\n        only rendered data, not the data used to construct the response.\n        \"\"\"",
+    "name": "__getstate__",
+    "namespace": "django.template.response.SimpleTemplateResponse.__getstate__",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

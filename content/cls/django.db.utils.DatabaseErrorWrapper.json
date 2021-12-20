@@ -3,5 +3,39 @@
     "name": "DatabaseErrorWrapper",
     "namespace": "django.db.utils.DatabaseErrorWrapper",
     "module_name": "django.db.utils",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "\"\"\"\n        wrapper is a database wrapper.\n\n        It must have a Database attribute defining PEP-249 exceptions.\n        \"\"\"",
+            "name": "__init__",
+            "namespace": "django.db.utils.DatabaseErrorWrapper.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__enter__",
+            "namespace": "django.db.utils.DatabaseErrorWrapper.__enter__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__exit__",
+            "namespace": "django.db.utils.DatabaseErrorWrapper.__exit__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__call__",
+            "namespace": "django.db.utils.DatabaseErrorWrapper.__call__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

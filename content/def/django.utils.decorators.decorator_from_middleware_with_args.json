@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Like decorator_from_middleware, but return a function\n    that accepts the arguments to be passed to the middleware_class.\n    Use like::\n\n         cache_page = decorator_from_middleware_with_args(CacheMiddleware)\n         # ...\n\n         @cache_page(3600)\n         def my_view(request):\n             # ...\n    \"\"\"",
+    "name": "decorator_from_middleware_with_args",
+    "namespace": "django.utils.decorators.decorator_from_middleware_with_args",
+    "class_name": "",
+    "module_name": "django.utils.decorators",
+    "package_name": ""
+}

@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Return a dictionary mapping command names to their callback applications.\n\n    Look for a management.commands package in django.core, and in each\n    installed application -- if a commands package exists, register all\n    commands in that package.\n\n    Core commands are always included. If a settings module has been\n    specified, also include user-defined commands.\n\n    The dictionary is in the format {command_name: app_name}. Key-value\n    pairs from this dictionary can then be used in calls to\n    load_command_class(app_name, command_name)\n\n    If a specific version of a command must be loaded (e.g., with the\n    startapp command), the instantiated module can be placed in the\n    dictionary in place of the application name.\n\n    The dictionary is cached on the first call and reused on subsequent\n    calls.\n    \"\"\"",
+    "name": "get_commands",
+    "namespace": "django.core.management.get_commands",
+    "class_name": "",
+    "module_name": "django.core.management",
+    "package_name": "django.core.management"
+}

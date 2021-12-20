@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        The `deepcopy` routine is used by the `Node` class of django.utils.tree;\n        thus, the protocol routine needs to be implemented to return correct\n        copies (clones) of these GEOS objects, which use C pointers.\n        \"\"\"",
+    "name": "__deepcopy__",
+    "namespace": "django.contrib.gis.geos.geometry.GEOSGeometryBase.__deepcopy__",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

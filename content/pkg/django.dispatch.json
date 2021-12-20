@@ -2,11 +2,30 @@
     "name": "django.dispatch",
     "docstring": "\"\"\"Multi-consumer multi-producer dispatching mechanism\n\nOriginally based on pydispatch (BSD) https://pypi.org/project/PyDispatcher/2.0.1/\nSee license.txt for original license.\n\nHeavily modified for Django's purposes.\n\"\"\"",
     "package_name": "django",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.dispatch.dispatcher",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "_make_id",
+                    "namespace": "django.dispatch.dispatcher._make_id",
+                    "class_name": "",
+                    "module_name": "django.dispatch.dispatcher",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    A decorator for connecting receivers to signals. Used by passing in the\n    signal (or list of signals) and keyword arguments to connect::\n\n        @receiver(post_save, sender=MyModel)\n        def signal_receiver(sender, **kwargs):\n            ...\n\n        @receiver([post_save, post_delete], sender=MyModel)\n        def signals_receiver(sender, **kwargs):\n            ...\n    \"\"\"",
+                    "name": "receiver",
+                    "namespace": "django.dispatch.dispatcher.receiver",
+                    "class_name": "",
+                    "module_name": "django.dispatch.dispatcher",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.dispatch"
         }
     ],

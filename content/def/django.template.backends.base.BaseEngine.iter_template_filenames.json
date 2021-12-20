@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Iterate over candidate files for template_name.\n\n        Ignore files that don't lie inside configured template dirs to avoid\n        directory traversal attacks.\n        \"\"\"",
+    "name": "iter_template_filenames",
+    "namespace": "django.template.backends.base.BaseEngine.iter_template_filenames",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

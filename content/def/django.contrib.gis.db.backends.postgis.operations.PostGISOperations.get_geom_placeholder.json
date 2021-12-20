@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Provide a proper substitution value for Geometries or rasters that are\n        not in the SRID of the field. Specifically, this routine will\n        substitute in the ST_Transform() function call.\n        \"\"\"",
+    "name": "get_geom_placeholder",
+    "namespace": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.get_geom_placeholder",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

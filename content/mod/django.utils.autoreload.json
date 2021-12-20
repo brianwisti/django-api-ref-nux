@@ -5,22 +5,391 @@
         {
             "docstring": "",
             "name": "BaseReloader",
-            "namespace": "django.utils.autoreload.BaseReloader"
+            "namespace": "django.utils.autoreload.BaseReloader",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.utils.autoreload.BaseReloader.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "watch_dir",
+                    "namespace": "django.utils.autoreload.BaseReloader.watch_dir",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Yield all files that need to be watched, including module files and\n        files within globs.\n        \"\"\"",
+                    "name": "watched_files",
+                    "namespace": "django.utils.autoreload.BaseReloader.watched_files",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Wait until Django reports that the apps have been loaded. If the given\n        thread has terminated before the apps are ready, then a SyntaxError or\n        other non-recoverable error has been raised. In that case, stop waiting\n        for the apps_ready event and continue processing.\n\n        Return True if the thread is alive and the ready event has been\n        triggered, or False if the thread is terminated while waiting for the\n        event.\n        \"\"\"",
+                    "name": "wait_for_apps_ready",
+                    "namespace": "django.utils.autoreload.BaseReloader.wait_for_apps_ready",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "run",
+                    "namespace": "django.utils.autoreload.BaseReloader.run",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "run_loop",
+                    "namespace": "django.utils.autoreload.BaseReloader.run_loop",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        This generator is called in a loop from run_loop. It's important that\n        the method takes care of pausing or otherwise waiting for a period of\n        time. This split between run_loop() and tick() is to improve the\n        testability of the reloader implementations by decoupling the work they\n        do from the loop.\n        \"\"\"",
+                    "name": "tick",
+                    "namespace": "django.utils.autoreload.BaseReloader.tick",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check_availability",
+                    "namespace": "django.utils.autoreload.BaseReloader.check_availability",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "notify_file_changed",
+                    "namespace": "django.utils.autoreload.BaseReloader.notify_file_changed",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "should_stop",
+                    "namespace": "django.utils.autoreload.BaseReloader.should_stop",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "stop",
+                    "namespace": "django.utils.autoreload.BaseReloader.stop",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "StatReloader",
-            "namespace": "django.utils.autoreload.StatReloader"
+            "namespace": "django.utils.autoreload.StatReloader",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "tick",
+                    "namespace": "django.utils.autoreload.StatReloader.tick",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "snapshot_files",
+                    "namespace": "django.utils.autoreload.StatReloader.snapshot_files",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check_availability",
+                    "namespace": "django.utils.autoreload.StatReloader.check_availability",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "WatchmanUnavailable",
-            "namespace": "django.utils.autoreload.WatchmanUnavailable"
+            "namespace": "django.utils.autoreload.WatchmanUnavailable",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "WatchmanReloader",
-            "namespace": "django.utils.autoreload.WatchmanReloader"
+            "namespace": "django.utils.autoreload.WatchmanReloader",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.utils.autoreload.WatchmanReloader.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "client",
+                    "namespace": "django.utils.autoreload.WatchmanReloader.client",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_watch_root",
+                    "namespace": "django.utils.autoreload.WatchmanReloader._watch_root",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_get_clock",
+                    "namespace": "django.utils.autoreload.WatchmanReloader._get_clock",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_subscribe",
+                    "namespace": "django.utils.autoreload.WatchmanReloader._subscribe",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_subscribe_dir",
+                    "namespace": "django.utils.autoreload.WatchmanReloader._subscribe_dir",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Watch a directory with a specific glob. If the directory doesn't yet\n        exist, attempt to watch the parent directory and amend the patterns to\n        include this. It's important this method isn't called more than one per\n        directory when updating all subscriptions. Subsequent calls will\n        overwrite the named subscription, so it must include all possible glob\n        expressions.\n        \"\"\"",
+                    "name": "_watch_glob",
+                    "namespace": "django.utils.autoreload.WatchmanReloader._watch_glob",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "watched_roots",
+                    "namespace": "django.utils.autoreload.WatchmanReloader.watched_roots",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_update_watches",
+                    "namespace": "django.utils.autoreload.WatchmanReloader._update_watches",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "update_watches",
+                    "namespace": "django.utils.autoreload.WatchmanReloader.update_watches",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_check_subscription",
+                    "namespace": "django.utils.autoreload.WatchmanReloader._check_subscription",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "request_processed",
+                    "namespace": "django.utils.autoreload.WatchmanReloader.request_processed",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "tick",
+                    "namespace": "django.utils.autoreload.WatchmanReloader.tick",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "stop",
+                    "namespace": "django.utils.autoreload.WatchmanReloader.stop",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return True if the server is available.\"\"\"",
+                    "name": "check_server_status",
+                    "namespace": "django.utils.autoreload.WatchmanReloader.check_server_status",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check_availability",
+                    "namespace": "django.utils.autoreload.WatchmanReloader.check_availability",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\"Return True if the given module is nested under Django.\"\"\"",
+            "name": "is_django_module",
+            "namespace": "django.utils.autoreload.is_django_module",
+            "class_name": "",
+            "module_name": "django.utils.autoreload",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return True if the given file path is nested under Django.\"\"\"",
+            "name": "is_django_path",
+            "namespace": "django.utils.autoreload.is_django_path",
+            "class_name": "",
+            "module_name": "django.utils.autoreload",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "check_errors",
+            "namespace": "django.utils.autoreload.check_errors",
+            "class_name": "",
+            "module_name": "django.utils.autoreload",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "raise_last_exception",
+            "namespace": "django.utils.autoreload.raise_last_exception",
+            "class_name": "",
+            "module_name": "django.utils.autoreload",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Ensure that echo mode is enabled. Some tools such as PDB disable\n    it which causes usability issues after reload.\n    \"\"\"",
+            "name": "ensure_echo_on",
+            "namespace": "django.utils.autoreload.ensure_echo_on",
+            "class_name": "",
+            "module_name": "django.utils.autoreload",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "iter_all_python_module_files",
+            "namespace": "django.utils.autoreload.iter_all_python_module_files",
+            "class_name": "",
+            "module_name": "django.utils.autoreload",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Iterate through all modules needed to be watched.\"\"\"",
+            "name": "iter_modules_and_files",
+            "namespace": "django.utils.autoreload.iter_modules_and_files",
+            "class_name": "",
+            "module_name": "django.utils.autoreload",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return a tuple of common roots that are shared between the given paths.\n    File system watchers operate on directories and aren't cheap to create.\n    Try to find the minimum set of directories to watch that encompass all of\n    the files that need to be watched.\n    \"\"\"",
+            "name": "common_roots",
+            "namespace": "django.utils.autoreload.common_roots",
+            "class_name": "",
+            "module_name": "django.utils.autoreload",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Yield absolute directories from sys.path, ignoring entries that don't\n    exist.\n    \"\"\"",
+            "name": "sys_path_directories",
+            "namespace": "django.utils.autoreload.sys_path_directories",
+            "class_name": "",
+            "module_name": "django.utils.autoreload",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return the executable. This contains a workaround for Windows if the\n    executable is reported to not have the .exe extension which can cause bugs\n    on reloading.\n    \"\"\"",
+            "name": "get_child_arguments",
+            "namespace": "django.utils.autoreload.get_child_arguments",
+            "class_name": "",
+            "module_name": "django.utils.autoreload",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "trigger_reload",
+            "namespace": "django.utils.autoreload.trigger_reload",
+            "class_name": "",
+            "module_name": "django.utils.autoreload",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "restart_with_reloader",
+            "namespace": "django.utils.autoreload.restart_with_reloader",
+            "class_name": "",
+            "module_name": "django.utils.autoreload",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return the most suitable reloader for this environment.\"\"\"",
+            "name": "get_reloader",
+            "namespace": "django.utils.autoreload.get_reloader",
+            "class_name": "",
+            "module_name": "django.utils.autoreload",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "start_django",
+            "namespace": "django.utils.autoreload.start_django",
+            "class_name": "",
+            "module_name": "django.utils.autoreload",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "run_with_reloader",
+            "namespace": "django.utils.autoreload.run_with_reloader",
+            "class_name": "",
+            "module_name": "django.utils.autoreload",
+            "package_name": ""
         }
     ],
     "package_name": "django.utils"

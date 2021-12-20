@@ -3,5 +3,31 @@
     "name": "NonInteractiveMigrationQuestioner",
     "namespace": "django.db.migrations.questioner.NonInteractiveMigrationQuestioner",
     "module_name": "django.db.migrations.questioner",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "ask_not_null_addition",
+            "namespace": "django.db.migrations.questioner.NonInteractiveMigrationQuestioner.ask_not_null_addition",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "ask_not_null_alteration",
+            "namespace": "django.db.migrations.questioner.NonInteractiveMigrationQuestioner.ask_not_null_alteration",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "ask_auto_now_add_addition",
+            "namespace": "django.db.migrations.questioner.NonInteractiveMigrationQuestioner.ask_auto_now_add_addition",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

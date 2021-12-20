@@ -3,5 +3,87 @@
     "name": "DatabaseIntrospection",
     "namespace": "django.db.backends.oracle.introspection.DatabaseIntrospection",
     "module_name": "django.db.backends.oracle.introspection",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "data_types_reverse",
+            "namespace": "django.db.backends.oracle.introspection.DatabaseIntrospection.data_types_reverse",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_field_type",
+            "namespace": "django.db.backends.oracle.introspection.DatabaseIntrospection.get_field_type",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return a list of table and view names in the current database.\"\"\"",
+            "name": "get_table_list",
+            "namespace": "django.db.backends.oracle.introspection.DatabaseIntrospection.get_table_list",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return a description of the table with the DB-API cursor.description\n        interface.\n        \"\"\"",
+            "name": "get_table_description",
+            "namespace": "django.db.backends.oracle.introspection.DatabaseIntrospection.get_table_description",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Identifier comparison is case insensitive under Oracle.\"\"\"",
+            "name": "identifier_converter",
+            "namespace": "django.db.backends.oracle.introspection.DatabaseIntrospection.identifier_converter",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_sequences",
+            "namespace": "django.db.backends.oracle.introspection.DatabaseIntrospection.get_sequences",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return a dictionary of {field_name: (field_name_other_table, other_table)}\n        representing all relationships to the given table.\n        \"\"\"",
+            "name": "get_relations",
+            "namespace": "django.db.backends.oracle.introspection.DatabaseIntrospection.get_relations",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_key_columns",
+            "namespace": "django.db.backends.oracle.introspection.DatabaseIntrospection.get_key_columns",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_primary_key_column",
+            "namespace": "django.db.backends.oracle.introspection.DatabaseIntrospection.get_primary_key_column",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Retrieve any constraints or keys (unique, pk, fk, check, index) across\n        one or more columns.\n        \"\"\"",
+            "name": "get_constraints",
+            "namespace": "django.db.backends.oracle.introspection.DatabaseIntrospection.get_constraints",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

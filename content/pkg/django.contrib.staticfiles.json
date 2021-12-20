@@ -2,51 +2,138 @@
     "name": "django.contrib.staticfiles",
     "docstring": "",
     "package_name": "django.contrib",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.contrib.staticfiles.finders",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Find a static file with the given path using all enabled finders.\n\n    If ``all`` is ``False`` (default), return the first matching\n    absolute path (or ``None`` if no match). Otherwise return a list.\n    \"\"\"",
+                    "name": "find",
+                    "namespace": "django.contrib.staticfiles.finders.find",
+                    "class_name": "",
+                    "module_name": "django.contrib.staticfiles.finders",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_finders",
+                    "namespace": "django.contrib.staticfiles.finders.get_finders",
+                    "class_name": "",
+                    "module_name": "django.contrib.staticfiles.finders",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Import the staticfiles finder class described by import_path, where\n    import_path is the full Python path to the class.\n    \"\"\"",
+                    "name": "get_finder",
+                    "namespace": "django.contrib.staticfiles.finders.get_finder",
+                    "class_name": "",
+                    "module_name": "django.contrib.staticfiles.finders",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.staticfiles"
         },
         {
             "namespace": "django.contrib.staticfiles.checks",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"Check all registered staticfiles finders.\"\"\"",
+                    "name": "check_finders",
+                    "namespace": "django.contrib.staticfiles.checks.check_finders",
+                    "class_name": "",
+                    "module_name": "django.contrib.staticfiles.checks",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.staticfiles"
         },
         {
             "namespace": "django.contrib.staticfiles.handlers",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.staticfiles"
         },
         {
             "namespace": "django.contrib.staticfiles.apps",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.staticfiles"
         },
         {
             "namespace": "django.contrib.staticfiles.utils",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Return True or False depending on whether the ``path`` should be\n    ignored (if it matches any pattern in ``ignore_patterns``).\n    \"\"\"",
+                    "name": "matches_patterns",
+                    "namespace": "django.contrib.staticfiles.utils.matches_patterns",
+                    "class_name": "",
+                    "module_name": "django.contrib.staticfiles.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Recursively walk the storage directories yielding the paths\n    of all files that should be copied.\n    \"\"\"",
+                    "name": "get_files",
+                    "namespace": "django.contrib.staticfiles.utils.get_files",
+                    "class_name": "",
+                    "module_name": "django.contrib.staticfiles.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Check if the staticfiles settings have sane values.\n    \"\"\"",
+                    "name": "check_settings",
+                    "namespace": "django.contrib.staticfiles.utils.check_settings",
+                    "class_name": "",
+                    "module_name": "django.contrib.staticfiles.utils",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.staticfiles"
         },
         {
             "namespace": "django.contrib.staticfiles.storage",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.staticfiles"
         },
         {
             "namespace": "django.contrib.staticfiles.testing",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.staticfiles"
         },
         {
             "namespace": "django.contrib.staticfiles.urls",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Helper function to return a URL pattern for serving static files.\n    \"\"\"",
+                    "name": "staticfiles_urlpatterns",
+                    "namespace": "django.contrib.staticfiles.urls.staticfiles_urlpatterns",
+                    "class_name": "",
+                    "module_name": "django.contrib.staticfiles.urls",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.staticfiles"
         },
         {
             "namespace": "django.contrib.staticfiles.views",
             "docstring": "\"\"\"\nViews and functions for serving static files. These are only to be used during\ndevelopment, and SHOULD NOT be used in a production setting.\n\n\"\"\"",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Serve static files below a given point in the directory structure or\n    from locations inferred from the staticfiles finders.\n\n    To use, put a URL pattern such as::\n\n        from django.contrib.staticfiles import views\n\n        path('<path:path>', views.serve)\n\n    in your URLconf.\n\n    It uses the django.views.static.serve() view to serve the found files.\n    \"\"\"",
+                    "name": "serve",
+                    "namespace": "django.contrib.staticfiles.views.serve",
+                    "class_name": "",
+                    "module_name": "django.contrib.staticfiles.views",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.staticfiles"
         }
     ],
@@ -54,7 +141,8 @@
         {
             "name": "django.contrib.staticfiles.management",
             "docstring": "",
-            "package_name": "django.contrib.staticfiles"
+            "package_name": "django.contrib.staticfiles",
+            "functions": []
         }
     ]
 }

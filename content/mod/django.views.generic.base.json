@@ -5,28 +5,191 @@
         {
             "docstring": "\"\"\"\n    A default context mixin that passes the keyword arguments received by\n    get_context_data() as the template context.\n    \"\"\"",
             "name": "ContextMixin",
-            "namespace": "django.views.generic.base.ContextMixin"
+            "namespace": "django.views.generic.base.ContextMixin",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_context_data",
+                    "namespace": "django.views.generic.base.ContextMixin.get_context_data",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Intentionally simple parent class for all views. Only implements\n    dispatch-by-method and simple sanity checking.\n    \"\"\"",
             "name": "View",
-            "namespace": "django.views.generic.base.View"
+            "namespace": "django.views.generic.base.View",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        Constructor. Called in the URLconf; can contain helpful extra\n        keyword arguments, and other things.\n        \"\"\"",
+                    "name": "__init__",
+                    "namespace": "django.views.generic.base.View.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Main entry point for a request-response process.\"\"\"",
+                    "name": "as_view",
+                    "namespace": "django.views.generic.base.View.as_view",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Initialize attributes shared by all view methods.\"\"\"",
+                    "name": "setup",
+                    "namespace": "django.views.generic.base.View.setup",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "dispatch",
+                    "namespace": "django.views.generic.base.View.dispatch",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "http_method_not_allowed",
+                    "namespace": "django.views.generic.base.View.http_method_not_allowed",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Handle responding to requests for the OPTIONS HTTP verb.\"\"\"",
+                    "name": "options",
+                    "namespace": "django.views.generic.base.View.options",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_allowed_methods",
+                    "namespace": "django.views.generic.base.View._allowed_methods",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"A mixin that can be used to render a template.\"\"\"",
             "name": "TemplateResponseMixin",
-            "namespace": "django.views.generic.base.TemplateResponseMixin"
+            "namespace": "django.views.generic.base.TemplateResponseMixin",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        Return a response, using the `response_class` for this view, with a\n        template rendered with the given context.\n\n        Pass response_kwargs to the constructor of the response class.\n        \"\"\"",
+                    "name": "render_to_response",
+                    "namespace": "django.views.generic.base.TemplateResponseMixin.render_to_response",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return a list of template names to be used for the request. Must return\n        a list. May not be called if render_to_response() is overridden.\n        \"\"\"",
+                    "name": "get_template_names",
+                    "namespace": "django.views.generic.base.TemplateResponseMixin.get_template_names",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Render a template. Pass keyword arguments from the URLconf to the context.\n    \"\"\"",
             "name": "TemplateView",
-            "namespace": "django.views.generic.base.TemplateView"
+            "namespace": "django.views.generic.base.TemplateView",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get",
+                    "namespace": "django.views.generic.base.TemplateView.get",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"Provide a redirect on any GET request.\"\"\"",
             "name": "RedirectView",
-            "namespace": "django.views.generic.base.RedirectView"
+            "namespace": "django.views.generic.base.RedirectView",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        Return the URL redirect to. Keyword arguments from the URL pattern\n        match generating the redirect request are provided as kwargs to this\n        method.\n        \"\"\"",
+                    "name": "get_redirect_url",
+                    "namespace": "django.views.generic.base.RedirectView.get_redirect_url",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get",
+                    "namespace": "django.views.generic.base.RedirectView.get",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "head",
+                    "namespace": "django.views.generic.base.RedirectView.head",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "post",
+                    "namespace": "django.views.generic.base.RedirectView.post",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "options",
+                    "namespace": "django.views.generic.base.RedirectView.options",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "delete",
+                    "namespace": "django.views.generic.base.RedirectView.delete",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "put",
+                    "namespace": "django.views.generic.base.RedirectView.put",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "patch",
+                    "namespace": "django.views.generic.base.RedirectView.patch",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.views.generic"
 }

@@ -5,152 +5,502 @@
         {
             "docstring": "",
             "name": "JSONField",
-            "namespace": "django.db.models.fields.json.JSONField"
+            "namespace": "django.db.models.fields.json.JSONField",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.fields.json.JSONField.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check",
+                    "namespace": "django.db.models.fields.json.JSONField.check",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_check_supported",
+                    "namespace": "django.db.models.fields.json.JSONField._check_supported",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "deconstruct",
+                    "namespace": "django.db.models.fields.json.JSONField.deconstruct",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "from_db_value",
+                    "namespace": "django.db.models.fields.json.JSONField.from_db_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_internal_type",
+                    "namespace": "django.db.models.fields.json.JSONField.get_internal_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_prep_value",
+                    "namespace": "django.db.models.fields.json.JSONField.get_prep_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_transform",
+                    "namespace": "django.db.models.fields.json.JSONField.get_transform",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "validate",
+                    "namespace": "django.db.models.fields.json.JSONField.validate",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "value_to_string",
+                    "namespace": "django.db.models.fields.json.JSONField.value_to_string",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "formfield",
+                    "namespace": "django.db.models.fields.json.JSONField.formfield",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "DataContains",
-            "namespace": "django.db.models.fields.json.DataContains"
+            "namespace": "django.db.models.fields.json.DataContains",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.db.models.fields.json.DataContains.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "ContainedBy",
-            "namespace": "django.db.models.fields.json.ContainedBy"
+            "namespace": "django.db.models.fields.json.ContainedBy",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.db.models.fields.json.ContainedBy.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "HasKeyLookup",
-            "namespace": "django.db.models.fields.json.HasKeyLookup"
+            "namespace": "django.db.models.fields.json.HasKeyLookup",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.db.models.fields.json.HasKeyLookup.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_mysql",
+                    "namespace": "django.db.models.fields.json.HasKeyLookup.as_mysql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_oracle",
+                    "namespace": "django.db.models.fields.json.HasKeyLookup.as_oracle",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_postgresql",
+                    "namespace": "django.db.models.fields.json.HasKeyLookup.as_postgresql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sqlite",
+                    "namespace": "django.db.models.fields.json.HasKeyLookup.as_sqlite",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "HasKey",
-            "namespace": "django.db.models.fields.json.HasKey"
+            "namespace": "django.db.models.fields.json.HasKey",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "HasKeys",
-            "namespace": "django.db.models.fields.json.HasKeys"
+            "namespace": "django.db.models.fields.json.HasKeys",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_prep_lookup",
+                    "namespace": "django.db.models.fields.json.HasKeys.get_prep_lookup",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "HasAnyKeys",
-            "namespace": "django.db.models.fields.json.HasAnyKeys"
+            "namespace": "django.db.models.fields.json.HasAnyKeys",
+            "methods": []
         },
         {
             "docstring": "\"\"\"\n    Mixin to allow case-insensitive comparison of JSON values on MySQL.\n    MySQL handles strings used in JSON context using the utf8mb4_bin collation.\n    Because utf8mb4_bin is a binary collation, comparison of JSON values is\n    case-sensitive.\n    \"\"\"",
             "name": "CaseInsensitiveMixin",
-            "namespace": "django.db.models.fields.json.CaseInsensitiveMixin"
+            "namespace": "django.db.models.fields.json.CaseInsensitiveMixin",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "process_lhs",
+                    "namespace": "django.db.models.fields.json.CaseInsensitiveMixin.process_lhs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "process_rhs",
+                    "namespace": "django.db.models.fields.json.CaseInsensitiveMixin.process_rhs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "JSONExact",
-            "namespace": "django.db.models.fields.json.JSONExact"
+            "namespace": "django.db.models.fields.json.JSONExact",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "process_rhs",
+                    "namespace": "django.db.models.fields.json.JSONExact.process_rhs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "JSONIContains",
-            "namespace": "django.db.models.fields.json.JSONIContains"
+            "namespace": "django.db.models.fields.json.JSONIContains",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "KeyTransform",
-            "namespace": "django.db.models.fields.json.KeyTransform"
+            "namespace": "django.db.models.fields.json.KeyTransform",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.fields.json.KeyTransform.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "preprocess_lhs",
+                    "namespace": "django.db.models.fields.json.KeyTransform.preprocess_lhs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_mysql",
+                    "namespace": "django.db.models.fields.json.KeyTransform.as_mysql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_oracle",
+                    "namespace": "django.db.models.fields.json.KeyTransform.as_oracle",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_postgresql",
+                    "namespace": "django.db.models.fields.json.KeyTransform.as_postgresql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sqlite",
+                    "namespace": "django.db.models.fields.json.KeyTransform.as_sqlite",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "KeyTextTransform",
-            "namespace": "django.db.models.fields.json.KeyTextTransform"
+            "namespace": "django.db.models.fields.json.KeyTextTransform",
+            "methods": []
         },
         {
             "docstring": "\"\"\"\n    Mixin for combining with a lookup expecting a text lhs from a JSONField\n    key lookup. On PostgreSQL, make use of the ->> operator instead of casting\n    key values to text and performing the lookup on the resulting\n    representation.\n    \"\"\"",
             "name": "KeyTransformTextLookupMixin",
-            "namespace": "django.db.models.fields.json.KeyTransformTextLookupMixin"
+            "namespace": "django.db.models.fields.json.KeyTransformTextLookupMixin",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.fields.json.KeyTransformTextLookupMixin.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "KeyTransformIsNull",
-            "namespace": "django.db.models.fields.json.KeyTransformIsNull"
+            "namespace": "django.db.models.fields.json.KeyTransformIsNull",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "as_oracle",
+                    "namespace": "django.db.models.fields.json.KeyTransformIsNull.as_oracle",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sqlite",
+                    "namespace": "django.db.models.fields.json.KeyTransformIsNull.as_sqlite",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "KeyTransformIn",
-            "namespace": "django.db.models.fields.json.KeyTransformIn"
+            "namespace": "django.db.models.fields.json.KeyTransformIn",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "resolve_expression_parameter",
+                    "namespace": "django.db.models.fields.json.KeyTransformIn.resolve_expression_parameter",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "KeyTransformExact",
-            "namespace": "django.db.models.fields.json.KeyTransformExact"
+            "namespace": "django.db.models.fields.json.KeyTransformExact",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "process_rhs",
+                    "namespace": "django.db.models.fields.json.KeyTransformExact.process_rhs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_oracle",
+                    "namespace": "django.db.models.fields.json.KeyTransformExact.as_oracle",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "KeyTransformIExact",
-            "namespace": "django.db.models.fields.json.KeyTransformIExact"
+            "namespace": "django.db.models.fields.json.KeyTransformIExact",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "KeyTransformIContains",
-            "namespace": "django.db.models.fields.json.KeyTransformIContains"
+            "namespace": "django.db.models.fields.json.KeyTransformIContains",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "KeyTransformStartsWith",
-            "namespace": "django.db.models.fields.json.KeyTransformStartsWith"
+            "namespace": "django.db.models.fields.json.KeyTransformStartsWith",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "KeyTransformIStartsWith",
-            "namespace": "django.db.models.fields.json.KeyTransformIStartsWith"
+            "namespace": "django.db.models.fields.json.KeyTransformIStartsWith",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "KeyTransformEndsWith",
-            "namespace": "django.db.models.fields.json.KeyTransformEndsWith"
+            "namespace": "django.db.models.fields.json.KeyTransformEndsWith",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "KeyTransformIEndsWith",
-            "namespace": "django.db.models.fields.json.KeyTransformIEndsWith"
+            "namespace": "django.db.models.fields.json.KeyTransformIEndsWith",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "KeyTransformRegex",
-            "namespace": "django.db.models.fields.json.KeyTransformRegex"
+            "namespace": "django.db.models.fields.json.KeyTransformRegex",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "KeyTransformIRegex",
-            "namespace": "django.db.models.fields.json.KeyTransformIRegex"
+            "namespace": "django.db.models.fields.json.KeyTransformIRegex",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "KeyTransformNumericLookupMixin",
-            "namespace": "django.db.models.fields.json.KeyTransformNumericLookupMixin"
+            "namespace": "django.db.models.fields.json.KeyTransformNumericLookupMixin",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "process_rhs",
+                    "namespace": "django.db.models.fields.json.KeyTransformNumericLookupMixin.process_rhs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "KeyTransformLt",
-            "namespace": "django.db.models.fields.json.KeyTransformLt"
+            "namespace": "django.db.models.fields.json.KeyTransformLt",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "KeyTransformLte",
-            "namespace": "django.db.models.fields.json.KeyTransformLte"
+            "namespace": "django.db.models.fields.json.KeyTransformLte",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "KeyTransformGt",
-            "namespace": "django.db.models.fields.json.KeyTransformGt"
+            "namespace": "django.db.models.fields.json.KeyTransformGt",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "KeyTransformGte",
-            "namespace": "django.db.models.fields.json.KeyTransformGte"
+            "namespace": "django.db.models.fields.json.KeyTransformGte",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "KeyTransformFactory",
-            "namespace": "django.db.models.fields.json.KeyTransformFactory"
+            "namespace": "django.db.models.fields.json.KeyTransformFactory",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.fields.json.KeyTransformFactory.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__call__",
+                    "namespace": "django.db.models.fields.json.KeyTransformFactory.__call__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "",
+            "name": "compile_json_path",
+            "namespace": "django.db.models.fields.json.compile_json_path",
+            "class_name": "",
+            "module_name": "django.db.models.fields.json",
+            "package_name": ""
         }
     ],
     "package_name": "django.db.models.fields"

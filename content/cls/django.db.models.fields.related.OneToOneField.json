@@ -3,5 +3,47 @@
     "name": "OneToOneField",
     "namespace": "django.db.models.fields.related.OneToOneField",
     "module_name": "django.db.models.fields.related",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.db.models.fields.related.OneToOneField.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "deconstruct",
+            "namespace": "django.db.models.fields.related.OneToOneField.deconstruct",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "formfield",
+            "namespace": "django.db.models.fields.related.OneToOneField.formfield",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "save_form_data",
+            "namespace": "django.db.models.fields.related.OneToOneField.save_form_data",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_check_unique",
+            "namespace": "django.db.models.fields.related.OneToOneField._check_unique",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

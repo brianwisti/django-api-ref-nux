@@ -3,5 +3,39 @@
     "name": "DatabaseCreation",
     "namespace": "django.db.backends.mysql.creation.DatabaseCreation",
     "module_name": "django.db.backends.mysql.creation",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "sql_table_creation_suffix",
+            "namespace": "django.db.backends.mysql.creation.DatabaseCreation.sql_table_creation_suffix",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_execute_create_test_db",
+            "namespace": "django.db.backends.mysql.creation.DatabaseCreation._execute_create_test_db",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_clone_test_db",
+            "namespace": "django.db.backends.mysql.creation.DatabaseCreation._clone_test_db",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_clone_db",
+            "namespace": "django.db.backends.mysql.creation.DatabaseCreation._clone_db",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

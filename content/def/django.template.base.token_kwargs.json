@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Parse token keyword arguments and return a dictionary of the arguments\n    retrieved from the ``bits`` token list.\n\n    `bits` is a list containing the remainder of the token (split by spaces)\n    that is to be checked for arguments. Valid arguments are removed from this\n    list.\n\n    `support_legacy` - if True, the legacy format ``1 as foo`` is accepted.\n    Otherwise, only the standard ``foo=1`` format is allowed.\n\n    There is no requirement for all remaining token ``bits`` to be keyword\n    arguments, so return the dictionary as soon as an invalid argument format\n    is reached.\n    \"\"\"",
+    "name": "token_kwargs",
+    "namespace": "django.template.base.token_kwargs",
+    "class_name": "",
+    "module_name": "django.template.base",
+    "package_name": ""
+}

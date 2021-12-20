@@ -2,5 +2,23 @@
     "namespace": "django.utils.translation.template",
     "docstring": "",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Change every non-whitespace character to the given char.\n    Used in the templatize function.\n    \"\"\"",
+            "name": "blankout",
+            "namespace": "django.utils.translation.template.blankout",
+            "class_name": "",
+            "module_name": "django.utils.translation.template",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Turn a Django template into something that is understood by xgettext. It\n    does so by translating the Django translation tags into standard gettext\n    function invocations.\n    \"\"\"",
+            "name": "templatize",
+            "namespace": "django.utils.translation.template.templatize",
+            "class_name": "",
+            "module_name": "django.utils.translation.template",
+            "package_name": ""
+        }
+    ],
     "package_name": "django.utils.translation"
 }

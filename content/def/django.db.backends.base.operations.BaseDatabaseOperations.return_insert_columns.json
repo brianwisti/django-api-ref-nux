@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        For backends that support returning columns as part of an insert query,\n        return the SQL and params to append to the INSERT query. The returned\n        fragment should contain a format string to hold the appropriate column.\n        \"\"\"",
+    "name": "return_insert_columns",
+    "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.return_insert_columns",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

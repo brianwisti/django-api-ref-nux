@@ -3,5 +3,231 @@
     "name": "SQLCompiler",
     "namespace": "django.db.models.sql.compiler.SQLCompiler",
     "module_name": "django.db.models.sql.compiler",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.db.models.sql.compiler.SQLCompiler.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "setup_query",
+            "namespace": "django.db.models.sql.compiler.SQLCompiler.setup_query",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Do any necessary class setup immediately prior to producing SQL. This\n        is for things that can't necessarily be done in __init__ because we\n        might not have all the pieces in place at that time.\n        \"\"\"",
+            "name": "pre_sql_setup",
+            "namespace": "django.db.models.sql.compiler.SQLCompiler.pre_sql_setup",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return a list of 2-tuples of form (sql, params).\n\n        The logic of what exactly the GROUP BY clause contains is hard\n        to describe in other words than \"if it passes the test suite,\n        then it is correct\".\n        \"\"\"",
+            "name": "get_group_by",
+            "namespace": "django.db.models.sql.compiler.SQLCompiler.get_group_by",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "collapse_group_by",
+            "namespace": "django.db.models.sql.compiler.SQLCompiler.collapse_group_by",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return three values:\n        - a list of 3-tuples of (expression, (sql, params), alias)\n        - a klass_info structure,\n        - a dictionary of annotations\n\n        The (sql, params) is what the expression will produce, and alias is the\n        \"AS alias\" for the column (possibly None).\n\n        The klass_info structure contains the following information:\n        - The base model of the query.\n        - Which columns for that model are present in the query (by\n          position of the select clause).\n        - related_klass_infos: [f, klass_info] to descent into\n\n        The annotations is a dictionary of {'attname': column position} values.\n        \"\"\"",
+            "name": "get_select",
+            "namespace": "django.db.models.sql.compiler.SQLCompiler.get_select",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_order_by_pairs",
+            "namespace": "django.db.models.sql.compiler.SQLCompiler._order_by_pairs",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return a list of 2-tuples of the form (expr, (sql, params, is_ref)) for\n        the ORDER BY clause.\n\n        The order_by clause can alter the select clause (for example it can add\n        aliases to clauses that do not yet have one, or it can add totally new\n        select clauses).\n        \"\"\"",
+            "name": "get_order_by",
+            "namespace": "django.db.models.sql.compiler.SQLCompiler.get_order_by",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_extra_select",
+            "namespace": "django.db.models.sql.compiler.SQLCompiler.get_extra_select",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        A wrapper around connection.ops.quote_name that doesn't quote aliases\n        for table names. This avoids problems with some SQL dialects that treat\n        quoted strings specially (e.g. PostgreSQL).\n        \"\"\"",
+            "name": "quote_name_unless_alias",
+            "namespace": "django.db.models.sql.compiler.SQLCompiler.quote_name_unless_alias",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "compile",
+            "namespace": "django.db.models.sql.compiler.SQLCompiler.compile",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_combinator_sql",
+            "namespace": "django.db.models.sql.compiler.SQLCompiler.get_combinator_sql",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Create the SQL for this query. Return the SQL string and list of\n        parameters.\n\n        If 'with_limits' is False, any limit/offset information is not included\n        in the query.\n        \"\"\"",
+            "name": "as_sql",
+            "namespace": "django.db.models.sql.compiler.SQLCompiler.as_sql",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Compute the default columns for selecting every field in the base\n        model. Will sometimes be called to pull in related models (e.g. via\n        select_related), in which case \"opts\" and \"start_alias\" will be given\n        to provide a starting point for the traversal.\n\n        Return a list of strings, quoted appropriately for use in SQL\n        directly, as well as a set of aliases used in the select statement (if\n        'as_pairs' is True, return a list of (alias, col_name) pairs instead\n        of strings as the first component and None as the second component).\n        \"\"\"",
+            "name": "get_default_columns",
+            "namespace": "django.db.models.sql.compiler.SQLCompiler.get_default_columns",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return a quoted list of fields to use in DISTINCT ON part of the query.\n\n        This method can alter the tables in the query, and thus it must be\n        called before get_from_clause().\n        \"\"\"",
+            "name": "get_distinct",
+            "namespace": "django.db.models.sql.compiler.SQLCompiler.get_distinct",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return the table alias (the name might be ambiguous, the alias will\n        not be) and column name for ordering by the given 'name' parameter.\n        The 'name' is of the form 'field1__field2__...__fieldN'.\n        \"\"\"",
+            "name": "find_ordering_name",
+            "namespace": "django.db.models.sql.compiler.SQLCompiler.find_ordering_name",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Helper method for get_order_by() and get_distinct().\n\n        get_ordering() and get_distinct() must produce same target columns on\n        same input, as the prefixes of get_ordering() and get_distinct() must\n        match. Executing SQL where this is not true is an error.\n        \"\"\"",
+            "name": "_setup_joins",
+            "namespace": "django.db.models.sql.compiler.SQLCompiler._setup_joins",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return a list of strings that are joined together to go after the\n        \"FROM\" part of the query, as well as a list any extra parameters that\n        need to be included. Subclasses, can override this to create a\n        from-clause via a \"select\".\n\n        This should only be called after any SQL construction methods that\n        might change the tables that are needed. This means the select columns,\n        ordering, and distinct must be done first.\n        \"\"\"",
+            "name": "get_from_clause",
+            "namespace": "django.db.models.sql.compiler.SQLCompiler.get_from_clause",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Fill in the information needed for a select_related query. The current\n        depth is measured as the number of connections away from the root model\n        (for example, cur_depth=1 means we are looking at models with direct\n        connections to the root model).\n        \"\"\"",
+            "name": "get_related_selections",
+            "namespace": "django.db.models.sql.compiler.SQLCompiler.get_related_selections",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return a quoted list of arguments for the SELECT FOR UPDATE OF part of\n        the query.\n        \"\"\"",
+            "name": "get_select_for_update_of_arguments",
+            "namespace": "django.db.models.sql.compiler.SQLCompiler.get_select_for_update_of_arguments",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Convert the self.deferred_loading data structure to mapping of table\n        names to sets of column names which are to be loaded. Return the\n        dictionary.\n        \"\"\"",
+            "name": "deferred_to_columns",
+            "namespace": "django.db.models.sql.compiler.SQLCompiler.deferred_to_columns",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_converters",
+            "namespace": "django.db.models.sql.compiler.SQLCompiler.get_converters",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "apply_converters",
+            "namespace": "django.db.models.sql.compiler.SQLCompiler.apply_converters",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return an iterator over the results from executing this query.\"\"\"",
+            "name": "results_iter",
+            "namespace": "django.db.models.sql.compiler.SQLCompiler.results_iter",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Backends (e.g. NoSQL) can override this in order to use optimized\n        versions of \"query has any results.\"\n        \"\"\"",
+            "name": "has_results",
+            "namespace": "django.db.models.sql.compiler.SQLCompiler.has_results",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Run the query against the database and return the result(s). The\n        return value is a single data item if result_type is SINGLE, or an\n        iterator over the results if the result_type is MULTI.\n\n        result_type is either MULTI (use fetchmany() to retrieve all rows),\n        SINGLE (only retrieve a single row), or None. In this last case, the\n        cursor is returned if any query is executed, since it's used by\n        subclasses such as InsertQuery). It's possible, however, that no query\n        is needed, as the filters describe an empty set. In that case, None is\n        returned, to avoid any unnecessary database interaction.\n        \"\"\"",
+            "name": "execute_sql",
+            "namespace": "django.db.models.sql.compiler.SQLCompiler.execute_sql",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "as_subquery_condition",
+            "namespace": "django.db.models.sql.compiler.SQLCompiler.as_subquery_condition",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "explain_query",
+            "namespace": "django.db.models.sql.compiler.SQLCompiler.explain_query",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

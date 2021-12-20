@@ -5,7 +5,171 @@
         {
             "docstring": "\"\"\"\n    Wrapper class used to return items in a list_editable changelist, annotated\n    with the form object for error reporting purposes. Needed to maintain\n    backwards compatibility with existing admin templates.\n    \"\"\"",
             "name": "ResultList",
-            "namespace": "django.contrib.admin.templatetags.admin_list.ResultList"
+            "namespace": "django.contrib.admin.templatetags.admin_list.ResultList",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.admin.templatetags.admin_list.ResultList.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Generate an individual page index link in a paginated list.\n    \"\"\"",
+            "name": "paginator_number",
+            "namespace": "django.contrib.admin.templatetags.admin_list.paginator_number",
+            "class_name": "",
+            "module_name": "django.contrib.admin.templatetags.admin_list",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Generate the series of links to the pages in a paginated list.\n    \"\"\"",
+            "name": "pagination",
+            "namespace": "django.contrib.admin.templatetags.admin_list.pagination",
+            "class_name": "",
+            "module_name": "django.contrib.admin.templatetags.admin_list",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "pagination_tag",
+            "namespace": "django.contrib.admin.templatetags.admin_list.pagination_tag",
+            "class_name": "",
+            "module_name": "django.contrib.admin.templatetags.admin_list",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Generate the list column headers.\n    \"\"\"",
+            "name": "result_headers",
+            "namespace": "django.contrib.admin.templatetags.admin_list.result_headers",
+            "class_name": "",
+            "module_name": "django.contrib.admin.templatetags.admin_list",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_boolean_icon",
+            "namespace": "django.contrib.admin.templatetags.admin_list._boolean_icon",
+            "class_name": "",
+            "module_name": "django.contrib.admin.templatetags.admin_list",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Coerce a field_name (which may be a callable) to a string.\n    \"\"\"",
+            "name": "_coerce_field_name",
+            "namespace": "django.contrib.admin.templatetags.admin_list._coerce_field_name",
+            "class_name": "",
+            "module_name": "django.contrib.admin.templatetags.admin_list",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Generate the actual list of data.\n    \"\"\"",
+            "name": "items_for_result",
+            "namespace": "django.contrib.admin.templatetags.admin_list.items_for_result",
+            "class_name": "",
+            "module_name": "django.contrib.admin.templatetags.admin_list",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "results",
+            "namespace": "django.contrib.admin.templatetags.admin_list.results",
+            "class_name": "",
+            "module_name": "django.contrib.admin.templatetags.admin_list",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "result_hidden_fields",
+            "namespace": "django.contrib.admin.templatetags.admin_list.result_hidden_fields",
+            "class_name": "",
+            "module_name": "django.contrib.admin.templatetags.admin_list",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Display the headers and data list together.\n    \"\"\"",
+            "name": "result_list",
+            "namespace": "django.contrib.admin.templatetags.admin_list.result_list",
+            "class_name": "",
+            "module_name": "django.contrib.admin.templatetags.admin_list",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "result_list_tag",
+            "namespace": "django.contrib.admin.templatetags.admin_list.result_list_tag",
+            "class_name": "",
+            "module_name": "django.contrib.admin.templatetags.admin_list",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Display the date hierarchy for date drill-down functionality.\n    \"\"\"",
+            "name": "date_hierarchy",
+            "namespace": "django.contrib.admin.templatetags.admin_list.date_hierarchy",
+            "class_name": "",
+            "module_name": "django.contrib.admin.templatetags.admin_list",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "date_hierarchy_tag",
+            "namespace": "django.contrib.admin.templatetags.admin_list.date_hierarchy_tag",
+            "class_name": "",
+            "module_name": "django.contrib.admin.templatetags.admin_list",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Display a search form for searching the list.\n    \"\"\"",
+            "name": "search_form",
+            "namespace": "django.contrib.admin.templatetags.admin_list.search_form",
+            "class_name": "",
+            "module_name": "django.contrib.admin.templatetags.admin_list",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "search_form_tag",
+            "namespace": "django.contrib.admin.templatetags.admin_list.search_form_tag",
+            "class_name": "",
+            "module_name": "django.contrib.admin.templatetags.admin_list",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "admin_list_filter",
+            "namespace": "django.contrib.admin.templatetags.admin_list.admin_list_filter",
+            "class_name": "",
+            "module_name": "django.contrib.admin.templatetags.admin_list",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Track the number of times the action field has been rendered on the page,\n    so we know which value to use.\n    \"\"\"",
+            "name": "admin_actions",
+            "namespace": "django.contrib.admin.templatetags.admin_list.admin_actions",
+            "class_name": "",
+            "module_name": "django.contrib.admin.templatetags.admin_list",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "admin_actions_tag",
+            "namespace": "django.contrib.admin.templatetags.admin_list.admin_actions_tag",
+            "class_name": "",
+            "module_name": "django.contrib.admin.templatetags.admin_list",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Display the row of change list object tools.\"\"\"",
+            "name": "change_list_object_tools_tag",
+            "namespace": "django.contrib.admin.templatetags.admin_list.change_list_object_tools_tag",
+            "class_name": "",
+            "module_name": "django.contrib.admin.templatetags.admin_list",
+            "package_name": ""
         }
     ],
     "package_name": "django.contrib.admin.templatetags"

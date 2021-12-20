@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Register the given model(s) with the given admin class.\n\n        The model(s) should be Model classes, not instances.\n\n        If an admin class isn't given, use ModelAdmin (the default admin\n        options). If keyword arguments are given -- e.g., list_display --\n        apply them as options to the admin class.\n\n        If a model is already registered, raise AlreadyRegistered.\n\n        If a model is abstract, raise ImproperlyConfigured.\n        \"\"\"",
+    "name": "register",
+    "namespace": "django.contrib.admin.sites.AdminSite.register",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

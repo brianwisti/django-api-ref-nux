@@ -5,27 +5,247 @@
         {
             "docstring": "",
             "name": "RenderableMixin",
-            "namespace": "django.forms.utils.RenderableMixin"
+            "namespace": "django.forms.utils.RenderableMixin",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_context",
+                    "namespace": "django.forms.utils.RenderableMixin.get_context",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "render",
+                    "namespace": "django.forms.utils.RenderableMixin.render",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "RenderableFormMixin",
-            "namespace": "django.forms.utils.RenderableFormMixin"
+            "namespace": "django.forms.utils.RenderableFormMixin",
+            "methods": [
+                {
+                    "docstring": "\"\"\"Render as <p> elements.\"\"\"",
+                    "name": "as_p",
+                    "namespace": "django.forms.utils.RenderableFormMixin.as_p",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Render as <tr> elements excluding the surrounding <table> tag.\"\"\"",
+                    "name": "as_table",
+                    "namespace": "django.forms.utils.RenderableFormMixin.as_table",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Render as <li> elements excluding the surrounding <ul> tag.\"\"\"",
+                    "name": "as_ul",
+                    "namespace": "django.forms.utils.RenderableFormMixin.as_ul",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "RenderableErrorMixin",
-            "namespace": "django.forms.utils.RenderableErrorMixin"
+            "namespace": "django.forms.utils.RenderableErrorMixin",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "as_json",
+                    "namespace": "django.forms.utils.RenderableErrorMixin.as_json",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_text",
+                    "namespace": "django.forms.utils.RenderableErrorMixin.as_text",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_ul",
+                    "namespace": "django.forms.utils.RenderableErrorMixin.as_ul",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    A collection of errors that knows how to display itself in various formats.\n\n    The dictionary keys are the field names, and the values are the errors.\n    \"\"\"",
             "name": "ErrorDict",
-            "namespace": "django.forms.utils.ErrorDict"
+            "namespace": "django.forms.utils.ErrorDict",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.forms.utils.ErrorDict.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_data",
+                    "namespace": "django.forms.utils.ErrorDict.as_data",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_json_data",
+                    "namespace": "django.forms.utils.ErrorDict.get_json_data",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_context",
+                    "namespace": "django.forms.utils.ErrorDict.get_context",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    A collection of errors that knows how to display itself in various formats.\n    \"\"\"",
             "name": "ErrorList",
-            "namespace": "django.forms.utils.ErrorList"
+            "namespace": "django.forms.utils.ErrorList",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.forms.utils.ErrorList.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_data",
+                    "namespace": "django.forms.utils.ErrorList.as_data",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "copy",
+                    "namespace": "django.forms.utils.ErrorList.copy",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_json_data",
+                    "namespace": "django.forms.utils.ErrorList.get_json_data",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_context",
+                    "namespace": "django.forms.utils.ErrorList.get_context",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.forms.utils.ErrorList.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__contains__",
+                    "namespace": "django.forms.utils.ErrorList.__contains__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__eq__",
+                    "namespace": "django.forms.utils.ErrorList.__eq__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__getitem__",
+                    "namespace": "django.forms.utils.ErrorList.__getitem__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__reduce_ex__",
+                    "namespace": "django.forms.utils.ErrorList.__reduce_ex__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\"Convert 'first_name' to 'First name'.\"\"\"",
+            "name": "pretty_name",
+            "namespace": "django.forms.utils.pretty_name",
+            "class_name": "",
+            "module_name": "django.forms.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Convert a dictionary of attributes to a single string.\n    The returned string will contain a leading space followed by key=\"value\",\n    XML-style pairs. In the case of a boolean value, the key will appear\n    without a value. It is assumed that the keys do not need to be\n    XML-escaped. If the passed dictionary is empty, then return an empty\n    string.\n\n    The result is passed through 'mark_safe' (by way of 'format_html_join').\n    \"\"\"",
+            "name": "flatatt",
+            "namespace": "django.forms.utils.flatatt",
+            "class_name": "",
+            "module_name": "django.forms.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    When time zone support is enabled, convert naive datetimes\n    entered in the current time zone to aware datetimes.\n    \"\"\"",
+            "name": "from_current_timezone",
+            "namespace": "django.forms.utils.from_current_timezone",
+            "class_name": "",
+            "module_name": "django.forms.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    When time zone support is enabled, convert aware datetimes\n    to naive datetimes in the current time zone for display.\n    \"\"\"",
+            "name": "to_current_timezone",
+            "namespace": "django.forms.utils.to_current_timezone",
+            "class_name": "",
+            "module_name": "django.forms.utils",
+            "package_name": ""
         }
     ],
     "package_name": "django.forms"

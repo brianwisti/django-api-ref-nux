@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Strip quotes off of quoted table names to make them safe for use in index\n    names, sequence names, etc. For example '\"USER\".\"TABLE\"' (an Oracle naming\n    scheme) becomes 'USER\".\"TABLE'.\n    \"\"\"",
+    "name": "strip_quotes",
+    "namespace": "django.db.backends.utils.strip_quotes",
+    "class_name": "",
+    "module_name": "django.db.backends.utils",
+    "package_name": ""
+}

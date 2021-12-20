@@ -5,12 +5,58 @@
         {
             "docstring": "",
             "name": "SafeData",
-            "namespace": "django.utils.safestring.SafeData"
+            "namespace": "django.utils.safestring.SafeData",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        Return the html representation of a string for interoperability.\n\n        This allows other template engines to understand Django's SafeData.\n        \"\"\"",
+                    "name": "__html__",
+                    "namespace": "django.utils.safestring.SafeData.__html__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    A str subclass that has been specifically marked as \"safe\" for HTML output\n    purposes.\n    \"\"\"",
             "name": "SafeString",
-            "namespace": "django.utils.safestring.SafeString"
+            "namespace": "django.utils.safestring.SafeString",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        Concatenating a safe string with another safe bytestring or\n        safe string is safe. Otherwise, the result is no longer safe.\n        \"\"\"",
+                    "name": "__add__",
+                    "namespace": "django.utils.safestring.SafeString.__add__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__str__",
+                    "namespace": "django.utils.safestring.SafeString.__str__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "",
+            "name": "_safety_decorator",
+            "namespace": "django.utils.safestring._safety_decorator",
+            "class_name": "",
+            "module_name": "django.utils.safestring",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Explicitly mark a string as safe for (HTML) output purposes. The returned\n    object can be used everywhere a string is appropriate.\n\n    If used on a method as a decorator, mark the returned data as safe.\n\n    Can be called multiple times on a single string.\n    \"\"\"",
+            "name": "mark_safe",
+            "namespace": "django.utils.safestring.mark_safe",
+            "class_name": "",
+            "module_name": "django.utils.safestring",
+            "package_name": ""
         }
     ],
     "package_name": "django.utils"

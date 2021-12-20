@@ -5,8 +5,35 @@
         {
             "docstring": "\"\"\"\n    Signal subclass that allows the sender to be lazily specified as a string\n    of the `app_label.ModelName` form.\n    \"\"\"",
             "name": "ModelSignal",
-            "namespace": "django.db.models.signals.ModelSignal"
+            "namespace": "django.db.models.signals.ModelSignal",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "_lazy_method",
+                    "namespace": "django.db.models.signals.ModelSignal._lazy_method",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "connect",
+                    "namespace": "django.db.models.signals.ModelSignal.connect",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "disconnect",
+                    "namespace": "django.db.models.signals.ModelSignal.disconnect",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.db.models"
 }

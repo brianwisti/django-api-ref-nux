@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Load a custom template tag library into the parser.\n\n    For example, to load the template tags in\n    ``django/templatetags/news/photos.py``::\n\n        {% load news.photos %}\n\n    Can also be used to load an individual tag/filter from\n    a library::\n\n        {% load byline from news %}\n    \"\"\"",
+    "name": "load",
+    "namespace": "django.template.defaulttags.load",
+    "class_name": "",
+    "module_name": "django.template.defaulttags",
+    "package_name": ""
+}

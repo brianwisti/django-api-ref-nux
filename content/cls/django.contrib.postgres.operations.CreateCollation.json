@@ -3,5 +3,39 @@
     "name": "CreateCollation",
     "namespace": "django.contrib.postgres.operations.CreateCollation",
     "module_name": "django.contrib.postgres.operations",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "database_forwards",
+            "namespace": "django.contrib.postgres.operations.CreateCollation.database_forwards",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "database_backwards",
+            "namespace": "django.contrib.postgres.operations.CreateCollation.database_backwards",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "describe",
+            "namespace": "django.contrib.postgres.operations.CreateCollation.describe",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "migration_name_fragment",
+            "namespace": "django.contrib.postgres.operations.CreateCollation.migration_name_fragment",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

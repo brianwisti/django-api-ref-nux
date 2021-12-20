@@ -5,8 +5,27 @@
         {
             "docstring": "\"\"\"\n    Set the X-Frame-Options HTTP header in HTTP responses.\n\n    Do not set the header if it's already set or if the response contains\n    a xframe_options_exempt value set to True.\n\n    By default, set the X-Frame-Options header to 'SAMEORIGIN', meaning the\n    response can only be loaded on a frame within the same site. To prevent the\n    response from being loaded in a frame in any site, set X_FRAME_OPTIONS in\n    your project's Django settings to 'DENY'.\n    \"\"\"",
             "name": "XFrameOptionsMiddleware",
-            "namespace": "django.middleware.clickjacking.XFrameOptionsMiddleware"
+            "namespace": "django.middleware.clickjacking.XFrameOptionsMiddleware",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "process_response",
+                    "namespace": "django.middleware.clickjacking.XFrameOptionsMiddleware.process_response",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Get the value to set for the X_FRAME_OPTIONS header. Use the value from\n        the X_FRAME_OPTIONS setting, or 'DENY' if not set.\n\n        This method can be overridden if needed, allowing it to vary based on\n        the request or response.\n        \"\"\"",
+                    "name": "get_xframe_options_value",
+                    "namespace": "django.middleware.clickjacking.XFrameOptionsMiddleware.get_xframe_options_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.middleware"
 }

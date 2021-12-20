@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Return a cache key based on the request URL and query. It can be used\n    in the request phase because it pulls the list of headers to take into\n    account from the global URL registry and uses those to build a cache key\n    to check against.\n\n    If there isn't a headerlist stored, return None, indicating that the page\n    needs to be rebuilt.\n    \"\"\"",
+    "name": "get_cache_key",
+    "namespace": "django.utils.cache.get_cache_key",
+    "class_name": "",
+    "module_name": "django.utils.cache",
+    "package_name": ""
+}

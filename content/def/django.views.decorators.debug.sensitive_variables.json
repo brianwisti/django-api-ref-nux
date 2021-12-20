@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Indicate which variables used in the decorated function are sensitive so\n    that those variables can later be treated in a special way, for example\n    by hiding them when logging unhandled exceptions.\n\n    Accept two forms:\n\n    * with specified variable names:\n\n        @sensitive_variables('user', 'password', 'credit_card')\n        def my_function(user):\n            password = user.pass_word\n            credit_card = user.credit_card_number\n            ...\n\n    * without any specified variable names, in which case consider all\n      variables are sensitive:\n\n        @sensitive_variables()\n        def my_function()\n            ...\n    \"\"\"",
+    "name": "sensitive_variables",
+    "namespace": "django.views.decorators.debug.sensitive_variables",
+    "class_name": "",
+    "module_name": "django.views.decorators.debug",
+    "package_name": ""
+}

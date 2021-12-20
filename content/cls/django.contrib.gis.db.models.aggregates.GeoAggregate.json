@@ -3,5 +3,39 @@
     "name": "GeoAggregate",
     "namespace": "django.contrib.gis.db.models.aggregates.GeoAggregate",
     "module_name": "django.contrib.gis.db.models.aggregates",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "output_field",
+            "namespace": "django.contrib.gis.db.models.aggregates.GeoAggregate.output_field",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "as_sql",
+            "namespace": "django.contrib.gis.db.models.aggregates.GeoAggregate.as_sql",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "as_oracle",
+            "namespace": "django.contrib.gis.db.models.aggregates.GeoAggregate.as_oracle",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "resolve_expression",
+            "namespace": "django.contrib.gis.db.models.aggregates.GeoAggregate.resolve_expression",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

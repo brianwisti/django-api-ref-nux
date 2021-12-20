@@ -3,5 +3,111 @@
     "name": "Field",
     "namespace": "django.contrib.gis.gdal.field.Field",
     "module_name": "django.contrib.gis.gdal.field",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "\"\"\"\n        Initialize on the feature object and the integer index of\n        the field within the feature.\n        \"\"\"",
+            "name": "__init__",
+            "namespace": "django.contrib.gis.gdal.field.Field.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Return the string representation of the Field.\"",
+            "name": "__str__",
+            "namespace": "django.contrib.gis.gdal.field.Field.__str__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Retrieve the Field's value as a double (float).\"",
+            "name": "as_double",
+            "namespace": "django.contrib.gis.gdal.field.Field.as_double",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Retrieve the Field's value as an integer.\"",
+            "name": "as_int",
+            "namespace": "django.contrib.gis.gdal.field.Field.as_int",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Retrieve the Field's value as a string.\"",
+            "name": "as_string",
+            "namespace": "django.contrib.gis.gdal.field.Field.as_string",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Retrieve the Field's value as a tuple of date & time components.\"",
+            "name": "as_datetime",
+            "namespace": "django.contrib.gis.gdal.field.Field.as_datetime",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Return True if the value of this field isn't null, False otherwise.\"",
+            "name": "is_set",
+            "namespace": "django.contrib.gis.gdal.field.Field.is_set",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Return the name of this Field.\"",
+            "name": "name",
+            "namespace": "django.contrib.gis.gdal.field.Field.name",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Return the precision of this Field.\"",
+            "name": "precision",
+            "namespace": "django.contrib.gis.gdal.field.Field.precision",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Return the OGR type of this Field.\"",
+            "name": "type",
+            "namespace": "django.contrib.gis.gdal.field.Field.type",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Return the OGR field type name for this Field.\"",
+            "name": "type_name",
+            "namespace": "django.contrib.gis.gdal.field.Field.type_name",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Return the value of this Field.\"",
+            "name": "value",
+            "namespace": "django.contrib.gis.gdal.field.Field.value",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Return the width of this Field.\"",
+            "name": "width",
+            "namespace": "django.contrib.gis.gdal.field.Field.width",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

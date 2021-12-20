@@ -5,7 +5,26 @@
         {
             "docstring": "",
             "name": "Migration",
-            "namespace": "django.contrib.auth.migrations.0011_update_proxy_permissions.Migration"
+            "namespace": "django.contrib.auth.migrations.0011_update_proxy_permissions.Migration",
+            "methods": []
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Update the content_type of proxy model permissions to use the ContentType\n    of the proxy model.\n    \"\"\"",
+            "name": "update_proxy_model_permissions",
+            "namespace": "django.contrib.auth.migrations.0011_update_proxy_permissions.update_proxy_model_permissions",
+            "class_name": "",
+            "module_name": "django.contrib.auth.migrations.0011_update_proxy_permissions",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Update the content_type of proxy model permissions to use the ContentType\n    of the concrete model.\n    \"\"\"",
+            "name": "revert_proxy_model_permissions",
+            "namespace": "django.contrib.auth.migrations.0011_update_proxy_permissions.revert_proxy_model_permissions",
+            "class_name": "",
+            "module_name": "django.contrib.auth.migrations.0011_update_proxy_permissions",
+            "package_name": ""
         }
     ],
     "package_name": "django.contrib.auth.migrations"

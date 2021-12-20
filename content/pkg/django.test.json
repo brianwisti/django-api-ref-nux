@@ -2,41 +2,559 @@
     "name": "django.test",
     "docstring": "\"\"\"Django Unit Test framework.\"\"\"",
     "package_name": "django",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.test.signals",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "clear_cache_handlers",
+                    "namespace": "django.test.signals.clear_cache_handlers",
+                    "class_name": "",
+                    "module_name": "django.test.signals",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "update_installed_apps",
+                    "namespace": "django.test.signals.update_installed_apps",
+                    "class_name": "",
+                    "module_name": "django.test.signals",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "update_connections_time_zone",
+                    "namespace": "django.test.signals.update_connections_time_zone",
+                    "class_name": "",
+                    "module_name": "django.test.signals",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "clear_routers_cache",
+                    "namespace": "django.test.signals.clear_routers_cache",
+                    "class_name": "",
+                    "module_name": "django.test.signals",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "reset_template_engines",
+                    "namespace": "django.test.signals.reset_template_engines",
+                    "class_name": "",
+                    "module_name": "django.test.signals",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "clear_serializers_cache",
+                    "namespace": "django.test.signals.clear_serializers_cache",
+                    "class_name": "",
+                    "module_name": "django.test.signals",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "language_changed",
+                    "namespace": "django.test.signals.language_changed",
+                    "class_name": "",
+                    "module_name": "django.test.signals",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "localize_settings_changed",
+                    "namespace": "django.test.signals.localize_settings_changed",
+                    "class_name": "",
+                    "module_name": "django.test.signals",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "file_storage_changed",
+                    "namespace": "django.test.signals.file_storage_changed",
+                    "class_name": "",
+                    "module_name": "django.test.signals",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "complex_setting_changed",
+                    "namespace": "django.test.signals.complex_setting_changed",
+                    "class_name": "",
+                    "module_name": "django.test.signals",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "root_urlconf_changed",
+                    "namespace": "django.test.signals.root_urlconf_changed",
+                    "class_name": "",
+                    "module_name": "django.test.signals",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "static_storage_changed",
+                    "namespace": "django.test.signals.static_storage_changed",
+                    "class_name": "",
+                    "module_name": "django.test.signals",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "static_finders_changed",
+                    "namespace": "django.test.signals.static_finders_changed",
+                    "class_name": "",
+                    "module_name": "django.test.signals",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "auth_password_validators_changed",
+                    "namespace": "django.test.signals.auth_password_validators_changed",
+                    "class_name": "",
+                    "module_name": "django.test.signals",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "user_model_swapped",
+                    "namespace": "django.test.signals.user_model_swapped",
+                    "class_name": "",
+                    "module_name": "django.test.signals",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.test"
         },
         {
             "namespace": "django.test.runner",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    The maximum number of test processes when using the --parallel option.\n    \"\"\"",
+                    "name": "get_max_test_processes",
+                    "namespace": "django.test.runner.get_max_test_processes",
+                    "class_name": "",
+                    "module_name": "django.test.runner",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Parse value passed to the --parallel option.\"\"\"",
+                    "name": "parallel_type",
+                    "namespace": "django.test.runner.parallel_type",
+                    "class_name": "",
+                    "module_name": "django.test.runner",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Switch to databases dedicated to this worker.\n\n    This helper lives at module-level because of the multiprocessing module's\n    requirements.\n    \"\"\"",
+                    "name": "_init_worker",
+                    "namespace": "django.test.runner._init_worker",
+                    "class_name": "",
+                    "module_name": "django.test.runner",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Run a suite of tests with a RemoteTestRunner and return a RemoteTestResult.\n\n    This helper lives at module-level and its arguments are wrapped in a tuple\n    because of the multiprocessing module's requirements.\n    \"\"\"",
+                    "name": "_run_subsuite",
+                    "namespace": "django.test.runner._run_subsuite",
+                    "class_name": "",
+                    "module_name": "django.test.runner",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Try importing a test label, and return (is_importable, is_package).\n\n    Relative labels like \".\" and \"..\" are seen as directories.\n    \"\"\"",
+                    "name": "try_importing",
+                    "namespace": "django.test.runner.try_importing",
+                    "class_name": "",
+                    "module_name": "django.test.runner",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "find_top_level",
+                    "namespace": "django.test.runner.find_top_level",
+                    "class_name": "",
+                    "module_name": "django.test.runner",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_class_shuffle_key",
+                    "namespace": "django.test.runner._class_shuffle_key",
+                    "class_name": "",
+                    "module_name": "django.test.runner",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return an iterator over the given tests in a shuffled order, keeping tests\n    next to other tests of their class.\n\n    `tests` should be an iterable of tests.\n    \"\"\"",
+                    "name": "shuffle_tests",
+                    "namespace": "django.test.runner.shuffle_tests",
+                    "class_name": "",
+                    "module_name": "django.test.runner",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return an iterator that reorders the given tests, keeping tests next to\n    other tests of their class.\n\n    `tests` should be an iterable of tests that supports reversed().\n    \"\"\"",
+                    "name": "reorder_test_bin",
+                    "namespace": "django.test.runner.reorder_test_bin",
+                    "class_name": "",
+                    "module_name": "django.test.runner",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Reorder an iterable of tests, grouping by the given TestCase classes.\n\n    This function also removes any duplicates and reorders so that tests of the\n    same type are consecutive.\n\n    The result is returned as an iterator. `classes` is a sequence of types.\n    Tests that are instances of `classes[0]` are grouped first, followed by\n    instances of `classes[1]`, etc. Tests that are not instances of any of the\n    classes are grouped last.\n\n    If `reverse` is True, the tests within each `classes` group are reversed,\n    but without reversing the order of `classes` itself.\n\n    The `shuffler` argument is an optional instance of this module's `Shuffler`\n    class. If provided, tests will be shuffled within each `classes` group, but\n    keeping tests with other tests of their TestCase class. Reversing is\n    applied after shuffling to allow reversing the same random order.\n    \"\"\"",
+                    "name": "reorder_tests",
+                    "namespace": "django.test.runner.reorder_tests",
+                    "class_name": "",
+                    "module_name": "django.test.runner",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Partition a test suite by test case, preserving the order of tests.\"\"\"",
+                    "name": "partition_suite_by_case",
+                    "namespace": "django.test.runner.partition_suite_by_case",
+                    "class_name": "",
+                    "module_name": "django.test.runner",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "test_match_tags",
+                    "namespace": "django.test.runner.test_match_tags",
+                    "class_name": "",
+                    "module_name": "django.test.runner",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return the matching tests as an iterator.\"\"\"",
+                    "name": "filter_tests_by_tags",
+                    "namespace": "django.test.runner.filter_tests_by_tags",
+                    "class_name": "",
+                    "module_name": "django.test.runner",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.test"
         },
         {
             "namespace": "django.test.client",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "closing_iterator_wrapper",
+                    "namespace": "django.test.client.closing_iterator_wrapper",
+                    "class_name": "",
+                    "module_name": "django.test.client",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Simulate the behavior of most web servers by removing the content of\n    responses for HEAD requests, 1xx, 204, and 304 responses. Ensure\n    compliance with RFC 7230, section 3.3.3.\n    \"\"\"",
+                    "name": "conditional_content_removal",
+                    "namespace": "django.test.client.conditional_content_removal",
+                    "class_name": "",
+                    "module_name": "django.test.client",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Store templates and contexts that are rendered.\n\n    The context is copied so that it is an accurate representation at the time\n    of rendering.\n    \"\"\"",
+                    "name": "store_rendered_templates",
+                    "namespace": "django.test.client.store_rendered_templates",
+                    "class_name": "",
+                    "module_name": "django.test.client",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Encode multipart POST data from a dictionary of form values.\n\n    The key will be used as the form data name; the value will be transmitted\n    as content. If the value is a file, the contents of the file will be sent\n    as an application/octet-stream; otherwise, str(value) will be sent.\n    \"\"\"",
+                    "name": "encode_multipart",
+                    "namespace": "django.test.client.encode_multipart",
+                    "class_name": "",
+                    "module_name": "django.test.client",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "encode_file",
+                    "namespace": "django.test.client.encode_file",
+                    "class_name": "",
+                    "module_name": "django.test.client",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.test"
         },
         {
             "namespace": "django.test.html",
             "docstring": "\"\"\"Compare two HTML documents.\"\"\"",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "normalize_whitespace",
+                    "namespace": "django.test.html.normalize_whitespace",
+                    "class_name": "",
+                    "module_name": "django.test.html",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "normalize_attributes",
+                    "namespace": "django.test.html.normalize_attributes",
+                    "class_name": "",
+                    "module_name": "django.test.html",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Take a string that contains HTML and turn it into a Python object structure\n    that can be easily compared against other HTML on semantic equivalence.\n    Syntactical differences like which quotation is used on arguments will be\n    ignored.\n    \"\"\"",
+                    "name": "parse_html",
+                    "namespace": "django.test.html.parse_html",
+                    "class_name": "",
+                    "module_name": "django.test.html",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.test"
         },
         {
             "namespace": "django.test.selenium",
             "docstring": "",
+            "functions": [],
             "package_name": "django.test"
         },
         {
             "namespace": "django.test.utils",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    An instrumented Template render method, providing a signal that can be\n    intercepted by the test Client.\n    \"\"\"",
+                    "name": "instrumented_test_render",
+                    "namespace": "django.test.utils.instrumented_test_render",
+                    "class_name": "",
+                    "module_name": "django.test.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Perform global pre-test setup, such as installing the instrumented template\n    renderer and setting the email backend to the locmem email backend.\n    \"\"\"",
+                    "name": "setup_test_environment",
+                    "namespace": "django.test.utils.setup_test_environment",
+                    "class_name": "",
+                    "module_name": "django.test.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Perform any global post-test teardown, such as restoring the original\n    template renderer and restoring the email sending functions.\n    \"\"\"",
+                    "name": "teardown_test_environment",
+                    "namespace": "django.test.utils.teardown_test_environment",
+                    "class_name": "",
+                    "module_name": "django.test.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Create the test databases.\"\"\"",
+                    "name": "setup_databases",
+                    "namespace": "django.test.utils.setup_databases",
+                    "class_name": "",
+                    "module_name": "django.test.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return an iterator over a test suite's unittest.TestCase objects.\n\n    The tests argument can also be an iterable of TestCase objects.\n    \"\"\"",
+                    "name": "iter_test_cases",
+                    "namespace": "django.test.utils.iter_test_cases",
+                    "class_name": "",
+                    "module_name": "django.test.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Reorder test_databases into an order that honors the dependencies\n    described in TEST[DEPENDENCIES].\n    \"\"\"",
+                    "name": "dependency_ordered",
+                    "namespace": "django.test.utils.dependency_ordered",
+                    "class_name": "",
+                    "module_name": "django.test.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Figure out which databases actually need to be created.\n\n    Deduplicate entries in DATABASES that correspond the same database or are\n    configured as test mirrors.\n\n    Return two values:\n    - test_databases: ordered mapping of signatures to (name, list of aliases)\n                      where all aliases share the same underlying database.\n    - mirrored_aliases: mapping of mirror aliases to original aliases.\n    \"\"\"",
+                    "name": "get_unique_databases_and_mirrors",
+                    "namespace": "django.test.utils.get_unique_databases_and_mirrors",
+                    "class_name": "",
+                    "module_name": "django.test.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Destroy all the non-mirror databases.\"\"\"",
+                    "name": "teardown_databases",
+                    "namespace": "django.test.utils.teardown_databases",
+                    "class_name": "",
+                    "module_name": "django.test.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_runner",
+                    "namespace": "django.test.utils.get_runner",
+                    "class_name": "",
+                    "module_name": "django.test.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Try to do a 'xml-comparison' of want and got. Plain string comparison\n    doesn't always work because, for example, attribute ordering should not be\n    important. Ignore comment nodes, processing instructions, document type\n    node, and leading and trailing whitespaces.\n\n    Based on https://github.com/lxml/lxml/blob/master/src/lxml/doctestcompare.py\n    \"\"\"",
+                    "name": "compare_xml",
+                    "namespace": "django.test.utils.compare_xml",
+                    "class_name": "",
+                    "module_name": "django.test.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Context manager to temporarily add paths to sys.path.\"\"\"",
+                    "name": "extend_sys_path",
+                    "namespace": "django.test.utils.extend_sys_path",
+                    "class_name": "",
+                    "module_name": "django.test.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Clear the cache of an LRU cache object on entering and exiting.\"\"\"",
+                    "name": "isolate_lru_cache",
+                    "namespace": "django.test.utils.isolate_lru_cache",
+                    "class_name": "",
+                    "module_name": "django.test.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return a context manager used by captured_stdout/stdin/stderr\n    that temporarily replaces the sys stream *stream_name* with a StringIO.\n\n    Note: This function and the following ``captured_std*`` are copied\n          from CPython's ``test.support`` module.\"\"\"",
+                    "name": "captured_output",
+                    "namespace": "django.test.utils.captured_output",
+                    "class_name": "",
+                    "module_name": "django.test.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Capture the output of sys.stdout:\n\n       with captured_stdout() as stdout:\n           print(\"hello\")\n       self.assertEqual(stdout.getvalue(), \"hello\\n\")\n    \"\"\"",
+                    "name": "captured_stdout",
+                    "namespace": "django.test.utils.captured_stdout",
+                    "class_name": "",
+                    "module_name": "django.test.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Capture the output of sys.stderr:\n\n       with captured_stderr() as stderr:\n           print(\"hello\", file=sys.stderr)\n       self.assertEqual(stderr.getvalue(), \"hello\\n\")\n    \"\"\"",
+                    "name": "captured_stderr",
+                    "namespace": "django.test.utils.captured_stderr",
+                    "class_name": "",
+                    "module_name": "django.test.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Capture the input to sys.stdin:\n\n       with captured_stdin() as stdin:\n           stdin.write('hello\\n')\n           stdin.seek(0)\n           # call test code that consumes from sys.stdin\n           captured = input()\n       self.assertEqual(captured, \"hello\")\n    \"\"\"",
+                    "name": "captured_stdin",
+                    "namespace": "django.test.utils.captured_stdin",
+                    "class_name": "",
+                    "module_name": "django.test.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Context manager to temporarily freeze time.time(). This temporarily\n    modifies the time function of the time module. Modules which import the\n    time function directly (e.g. `from time import time`) won't be affected\n    This isn't meant as a public API, but helps reduce some repetitive code in\n    Django's test suite.\n    \"\"\"",
+                    "name": "freeze_time",
+                    "namespace": "django.test.utils.freeze_time",
+                    "class_name": "",
+                    "module_name": "django.test.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Decorator to enable a Jinja2 template engine in addition to the regular\n    Django template engine for a test or skip it if Jinja2 isn't available.\n    \"\"\"",
+                    "name": "require_jinja2",
+                    "namespace": "django.test.utils.require_jinja2",
+                    "class_name": "",
+                    "module_name": "django.test.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Decorator to add tags to a test class or method.\"\"\"",
+                    "name": "tag",
+                    "namespace": "django.test.utils.tag",
+                    "class_name": "",
+                    "module_name": "django.test.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Context manager to temporarily register lookups on a model field using\n    lookup_name (or the lookup's lookup_name if not provided).\n    \"\"\"",
+                    "name": "register_lookup",
+                    "namespace": "django.test.utils.register_lookup",
+                    "class_name": "",
+                    "module_name": "django.test.utils",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.test"
         },
         {
             "namespace": "django.test.testcases",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Put value into a list if it's not already one. Return an empty list if\n    value is None.\n    \"\"\"",
+                    "name": "to_list",
+                    "namespace": "django.test.testcases.to_list",
+                    "class_name": "",
+                    "module_name": "django.test.testcases",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "assert_and_parse_html",
+                    "namespace": "django.test.testcases.assert_and_parse_html",
+                    "class_name": "",
+                    "module_name": "django.test.testcases",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return whether or not all (or specified) connections support\n    transactions.\n    \"\"\"",
+                    "name": "connections_support_transactions",
+                    "namespace": "django.test.testcases.connections_support_transactions",
+                    "class_name": "",
+                    "module_name": "django.test.testcases",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_deferredSkip",
+                    "namespace": "django.test.testcases._deferredSkip",
+                    "class_name": "",
+                    "module_name": "django.test.testcases",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Skip a test if a database has at least one of the named features.\"\"\"",
+                    "name": "skipIfDBFeature",
+                    "namespace": "django.test.testcases.skipIfDBFeature",
+                    "class_name": "",
+                    "module_name": "django.test.testcases",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Skip a test unless a database has all the named features.\"\"\"",
+                    "name": "skipUnlessDBFeature",
+                    "namespace": "django.test.testcases.skipUnlessDBFeature",
+                    "class_name": "",
+                    "module_name": "django.test.testcases",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Skip a test unless a database has any of the named features.\"\"\"",
+                    "name": "skipUnlessAnyDBFeature",
+                    "namespace": "django.test.testcases.skipUnlessAnyDBFeature",
+                    "class_name": "",
+                    "module_name": "django.test.testcases",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.test"
         }
     ],

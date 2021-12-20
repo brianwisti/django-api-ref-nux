@@ -5,13 +5,42 @@
         {
             "docstring": "",
             "name": "Command",
-            "namespace": "django.contrib.contenttypes.management.commands.remove_stale_contenttypes.Command"
+            "namespace": "django.contrib.contenttypes.management.commands.remove_stale_contenttypes.Command",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "add_arguments",
+                    "namespace": "django.contrib.contenttypes.management.commands.remove_stale_contenttypes.Command.add_arguments",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "handle",
+                    "namespace": "django.contrib.contenttypes.management.commands.remove_stale_contenttypes.Command.handle",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "NoFastDeleteCollector",
-            "namespace": "django.contrib.contenttypes.management.commands.remove_stale_contenttypes.NoFastDeleteCollector"
+            "namespace": "django.contrib.contenttypes.management.commands.remove_stale_contenttypes.NoFastDeleteCollector",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        Always load related objects to display them when showing confirmation.\n        \"\"\"",
+                    "name": "can_fast_delete",
+                    "namespace": "django.contrib.contenttypes.management.commands.remove_stale_contenttypes.NoFastDeleteCollector.can_fast_delete",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.contenttypes.management.commands"
 }

@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Given a DataSource, generate a dictionary that may be used\n    for invoking the LayerMapping utility.\n\n    Keyword Arguments:\n     `geom_name` => The name of the geometry field to use for the model.\n\n     `layer_key` => The key for specifying which layer in the DataSource to use;\n       defaults to 0 (the first layer).  May be an integer index or a string\n       identifier for the layer.\n\n     `multi_geom` => Boolean (default: False) - specify as multigeometry.\n    \"\"\"",
+    "name": "mapping",
+    "namespace": "django.contrib.gis.utils.ogrinspect.mapping",
+    "class_name": "",
+    "module_name": "django.contrib.gis.utils.ogrinspect",
+    "package_name": ""
+}

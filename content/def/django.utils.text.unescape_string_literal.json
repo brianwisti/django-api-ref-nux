@@ -1,0 +1,8 @@
+{
+    "docstring": "r\"\"\"\n    Convert quoted string literals to unquoted strings with escaped quotes and\n    backslashes unquoted::\n\n        >>> unescape_string_literal('\"abc\"')\n        'abc'\n        >>> unescape_string_literal(\"'abc'\")\n        'abc'\n        >>> unescape_string_literal('\"a \\\"bc\\\"\"')\n        'a \"bc\"'\n        >>> unescape_string_literal(\"'\\'ab\\' c'\")\n        \"'ab' c\"\n    \"\"\"",
+    "name": "unescape_string_literal",
+    "namespace": "django.utils.text.unescape_string_literal",
+    "class_name": "",
+    "module_name": "django.utils.text",
+    "package_name": ""
+}

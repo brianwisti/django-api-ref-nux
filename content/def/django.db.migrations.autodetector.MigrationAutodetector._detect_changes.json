@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Return a dict of migration plans which will achieve the\n        change from from_state to to_state. The dict has app labels\n        as keys and a list of migrations as values.\n\n        The resulting migrations aren't specially named, but the names\n        do matter for dependencies inside the set.\n\n        convert_apps is the list of apps to convert to use migrations\n        (i.e. to make initial migrations for, in the usual case)\n\n        graph is an optional argument that, if provided, can help improve\n        dependency generation and avoid potential circular dependencies.\n        \"\"\"",
+    "name": "_detect_changes",
+    "namespace": "django.db.migrations.autodetector.MigrationAutodetector._detect_changes",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

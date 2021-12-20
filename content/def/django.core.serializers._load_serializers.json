@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Register built-in and settings-defined serializers. This is done lazily so\n    that user code has a chance to (e.g.) set up custom settings without\n    needing to be careful of import order.\n    \"\"\"",
+    "name": "_load_serializers",
+    "namespace": "django.core.serializers._load_serializers",
+    "class_name": "",
+    "module_name": "django.core.serializers",
+    "package_name": "django.core.serializers"
+}

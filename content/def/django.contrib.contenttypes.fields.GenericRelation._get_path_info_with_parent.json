@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Return the path that joins the current model through any parent models.\n        The idea is that if you have a GFK defined on a parent model then we\n        need to join the parent model first, then the child model.\n        \"\"\"",
+    "name": "_get_path_info_with_parent",
+    "namespace": "django.contrib.contenttypes.fields.GenericRelation._get_path_info_with_parent",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

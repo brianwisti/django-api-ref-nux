@@ -5,27 +5,158 @@
         {
             "docstring": "",
             "name": "InvalidTemplateLibrary",
-            "namespace": "django.template.library.InvalidTemplateLibrary"
+            "namespace": "django.template.library.InvalidTemplateLibrary",
+            "methods": []
         },
         {
             "docstring": "\"\"\"\n    A class for registering template tags and filters. Compiled filter and\n    template tag functions are stored in the filters and tags attributes.\n    The filter, simple_tag, and inclusion_tag methods provide a convenient\n    way to register callables as tags.\n    \"\"\"",
             "name": "Library",
-            "namespace": "django.template.library.Library"
+            "namespace": "django.template.library.Library",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.template.library.Library.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "tag",
+                    "namespace": "django.template.library.Library.tag",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "tag_function",
+                    "namespace": "django.template.library.Library.tag_function",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Register a callable as a template filter. Example:\n\n        @register.filter\n        def lower(value):\n            return value.lower()\n        \"\"\"",
+                    "name": "filter",
+                    "namespace": "django.template.library.Library.filter",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "filter_function",
+                    "namespace": "django.template.library.Library.filter_function",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Register a callable as a compiled template tag. Example:\n\n        @register.simple_tag\n        def hello(*args, **kwargs):\n            return 'world'\n        \"\"\"",
+                    "name": "simple_tag",
+                    "namespace": "django.template.library.Library.simple_tag",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Register a callable as an inclusion tag:\n\n        @register.inclusion_tag('results.html')\n        def show_results(poll):\n            choices = poll.choice_set.all()\n            return {'choices': choices}\n        \"\"\"",
+                    "name": "inclusion_tag",
+                    "namespace": "django.template.library.Library.inclusion_tag",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Base class for tag helper nodes such as SimpleNode and InclusionNode.\n    Manages the positional and keyword arguments to be passed to the decorated\n    function.\n    \"\"\"",
             "name": "TagHelperNode",
-            "namespace": "django.template.library.TagHelperNode"
+            "namespace": "django.template.library.TagHelperNode",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.template.library.TagHelperNode.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_resolved_arguments",
+                    "namespace": "django.template.library.TagHelperNode.get_resolved_arguments",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "SimpleNode",
-            "namespace": "django.template.library.SimpleNode"
+            "namespace": "django.template.library.SimpleNode",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.template.library.SimpleNode.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "render",
+                    "namespace": "django.template.library.SimpleNode.render",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "InclusionNode",
-            "namespace": "django.template.library.InclusionNode"
+            "namespace": "django.template.library.InclusionNode",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.template.library.InclusionNode.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Render the specified template and context. Cache the template object\n        in render_context to avoid reparsing and loading when used in a for\n        loop.\n        \"\"\"",
+                    "name": "render",
+                    "namespace": "django.template.library.InclusionNode.render",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Parse bits for template tag helpers simple_tag and inclusion_tag, in\n    particular by detecting syntax errors and by extracting positional and\n    keyword arguments.\n    \"\"\"",
+            "name": "parse_bits",
+            "namespace": "django.template.library.parse_bits",
+            "class_name": "",
+            "module_name": "django.template.library",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Load a Library object from a template tag module.\n    \"\"\"",
+            "name": "import_library",
+            "namespace": "django.template.library.import_library",
+            "class_name": "",
+            "module_name": "django.template.library",
+            "package_name": ""
         }
     ],
     "package_name": "django.template"

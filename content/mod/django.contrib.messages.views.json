@@ -5,8 +5,27 @@
         {
             "docstring": "\"\"\"\n    Add a success message on successful form submission.\n    \"\"\"",
             "name": "SuccessMessageMixin",
-            "namespace": "django.contrib.messages.views.SuccessMessageMixin"
+            "namespace": "django.contrib.messages.views.SuccessMessageMixin",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "form_valid",
+                    "namespace": "django.contrib.messages.views.SuccessMessageMixin.form_valid",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_success_message",
+                    "namespace": "django.contrib.messages.views.SuccessMessageMixin.get_success_message",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.messages"
 }

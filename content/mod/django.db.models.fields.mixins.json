@@ -5,13 +5,74 @@
         {
             "docstring": "\"\"\"Provide an API for working with the model's fields value cache.\"\"\"",
             "name": "FieldCacheMixin",
-            "namespace": "django.db.models.fields.mixins.FieldCacheMixin"
+            "namespace": "django.db.models.fields.mixins.FieldCacheMixin",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_cache_name",
+                    "namespace": "django.db.models.fields.mixins.FieldCacheMixin.get_cache_name",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_cached_value",
+                    "namespace": "django.db.models.fields.mixins.FieldCacheMixin.get_cached_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "is_cached",
+                    "namespace": "django.db.models.fields.mixins.FieldCacheMixin.is_cached",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "set_cached_value",
+                    "namespace": "django.db.models.fields.mixins.FieldCacheMixin.set_cached_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "delete_cached_value",
+                    "namespace": "django.db.models.fields.mixins.FieldCacheMixin.delete_cached_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "CheckFieldDefaultMixin",
-            "namespace": "django.db.models.fields.mixins.CheckFieldDefaultMixin"
+            "namespace": "django.db.models.fields.mixins.CheckFieldDefaultMixin",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "_check_default",
+                    "namespace": "django.db.models.fields.mixins.CheckFieldDefaultMixin._check_default",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check",
+                    "namespace": "django.db.models.fields.mixins.CheckFieldDefaultMixin.check",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.db.models.fields"
 }

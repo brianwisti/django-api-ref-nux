@@ -5,8 +5,75 @@
         {
             "docstring": "",
             "name": "PostGISAdapter",
-            "namespace": "django.contrib.gis.db.backends.postgis.adapter.PostGISAdapter"
+            "namespace": "django.contrib.gis.db.backends.postgis.adapter.PostGISAdapter",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        Initialize on the spatial object.\n        \"\"\"",
+                    "name": "__init__",
+                    "namespace": "django.contrib.gis.db.backends.postgis.adapter.PostGISAdapter.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Does the given protocol conform to what Psycopg2 expects?\"\"\"",
+                    "name": "__conform__",
+                    "namespace": "django.contrib.gis.db.backends.postgis.adapter.PostGISAdapter.__conform__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__eq__",
+                    "namespace": "django.contrib.gis.db.backends.postgis.adapter.PostGISAdapter.__eq__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__hash__",
+                    "namespace": "django.contrib.gis.db.backends.postgis.adapter.PostGISAdapter.__hash__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__str__",
+                    "namespace": "django.contrib.gis.db.backends.postgis.adapter.PostGISAdapter.__str__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_fix_polygon",
+                    "namespace": "django.contrib.gis.db.backends.postgis.adapter.PostGISAdapter._fix_polygon",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        This method allows escaping the binary in the style required by the\n        server's `standard_conforming_string` setting.\n        \"\"\"",
+                    "name": "prepare",
+                    "namespace": "django.contrib.gis.db.backends.postgis.adapter.PostGISAdapter.prepare",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return a properly quoted string for use in PostgreSQL/PostGIS.\n        \"\"\"",
+                    "name": "getquoted",
+                    "namespace": "django.contrib.gis.db.backends.postgis.adapter.PostGISAdapter.getquoted",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.gis.db.backends.postgis"
 }

@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Stop the template engine from rendering the contents of this block tag.\n\n    Usage::\n\n        {% verbatim %}\n            {% don't process this %}\n        {% endverbatim %}\n\n    You can also designate a specific closing tag block (allowing the\n    unrendered use of ``{% endverbatim %}``)::\n\n        {% verbatim myblock %}\n            ...\n        {% endverbatim myblock %}\n    \"\"\"",
+    "name": "verbatim",
+    "namespace": "django.template.defaulttags.verbatim",
+    "class_name": "",
+    "module_name": "django.template.defaulttags",
+    "package_name": ""
+}

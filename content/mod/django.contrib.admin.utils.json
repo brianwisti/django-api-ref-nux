@@ -5,17 +5,239 @@
         {
             "docstring": "\"\"\"A field is a foreign key attname, i.e. <FK>_id.\"\"\"",
             "name": "FieldIsAForeignKeyColumnName",
-            "namespace": "django.contrib.admin.utils.FieldIsAForeignKeyColumnName"
+            "namespace": "django.contrib.admin.utils.FieldIsAForeignKeyColumnName",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "NestedObjects",
-            "namespace": "django.contrib.admin.utils.NestedObjects"
+            "namespace": "django.contrib.admin.utils.NestedObjects",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.admin.utils.NestedObjects.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "add_edge",
+                    "namespace": "django.contrib.admin.utils.NestedObjects.add_edge",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "collect",
+                    "namespace": "django.contrib.admin.utils.NestedObjects.collect",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "related_objects",
+                    "namespace": "django.contrib.admin.utils.NestedObjects.related_objects",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_nested",
+                    "namespace": "django.contrib.admin.utils.NestedObjects._nested",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the graph as a nested list.\n        \"\"\"",
+                    "name": "nested",
+                    "namespace": "django.contrib.admin.utils.NestedObjects.nested",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        We always want to load the objects into memory so that we can display\n        them to the user in confirm page.\n        \"\"\"",
+                    "name": "can_fast_delete",
+                    "namespace": "django.contrib.admin.utils.NestedObjects.can_fast_delete",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "NotRelationField",
-            "namespace": "django.contrib.admin.utils.NotRelationField"
+            "namespace": "django.contrib.admin.utils.NotRelationField",
+            "methods": []
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Return True if the given lookup path spawns duplicates.\n    \"\"\"",
+            "name": "lookup_spawns_duplicates",
+            "namespace": "django.contrib.admin.utils.lookup_spawns_duplicates",
+            "class_name": "",
+            "module_name": "django.contrib.admin.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return a lookup value prepared to be used in queryset filtering.\n    \"\"\"",
+            "name": "prepare_lookup_value",
+            "namespace": "django.contrib.admin.utils.prepare_lookup_value",
+            "class_name": "",
+            "module_name": "django.contrib.admin.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Ensure that primary key values do not confuse the admin URLs by escaping\n    any '/', '_' and ':' and similarly problematic characters.\n    Similar to urllib.parse.quote(), except that the quoting is slightly\n    different so that it doesn't get automatically unquoted by the web browser.\n    \"\"\"",
+            "name": "quote",
+            "namespace": "django.contrib.admin.utils.quote",
+            "class_name": "",
+            "module_name": "django.contrib.admin.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Undo the effects of quote().\"\"\"",
+            "name": "unquote",
+            "namespace": "django.contrib.admin.utils.unquote",
+            "class_name": "",
+            "module_name": "django.contrib.admin.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return a list which is a single level of flattening of the original list.\n    \"\"\"",
+            "name": "flatten",
+            "namespace": "django.contrib.admin.utils.flatten",
+            "class_name": "",
+            "module_name": "django.contrib.admin.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return a list of field names from an admin fieldsets structure.\"\"\"",
+            "name": "flatten_fieldsets",
+            "namespace": "django.contrib.admin.utils.flatten_fieldsets",
+            "class_name": "",
+            "module_name": "django.contrib.admin.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Find all objects related to ``objs`` that should also be deleted. ``objs``\n    must be a homogeneous iterable of objects (e.g. a QuerySet).\n\n    Return a nested list of strings suitable for display in the\n    template with the ``unordered_list`` filter.\n    \"\"\"",
+            "name": "get_deleted_objects",
+            "namespace": "django.contrib.admin.utils.get_deleted_objects",
+            "class_name": "",
+            "module_name": "django.contrib.admin.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return a `dict` with keys 'verbose_name' and 'verbose_name_plural',\n    typically for use with string formatting.\n\n    `obj` may be a `Model` instance, `Model` subclass, or `QuerySet` instance.\n    \"\"\"",
+            "name": "model_format_dict",
+            "namespace": "django.contrib.admin.utils.model_format_dict",
+            "class_name": "",
+            "module_name": "django.contrib.admin.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return the appropriate `verbose_name` or `verbose_name_plural` value for\n    `obj` depending on the count `n`.\n\n    `obj` may be a `Model` instance, `Model` subclass, or `QuerySet` instance.\n    If `obj` is a `QuerySet` instance, `n` is optional and the length of the\n    `QuerySet` is used.\n    \"\"\"",
+            "name": "model_ngettext",
+            "namespace": "django.contrib.admin.utils.model_ngettext",
+            "class_name": "",
+            "module_name": "django.contrib.admin.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "lookup_field",
+            "namespace": "django.contrib.admin.utils.lookup_field",
+            "class_name": "",
+            "module_name": "django.contrib.admin.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    For historical reasons, the admin app relies on GenericForeignKeys as being\n    \"not found\" by get_field(). This could likely be cleaned up.\n\n    Reverse relations should also be excluded as these aren't attributes of the\n    model (rather something like `foo_set`).\n    \"\"\"",
+            "name": "_get_non_gfk_field",
+            "namespace": "django.contrib.admin.utils._get_non_gfk_field",
+            "class_name": "",
+            "module_name": "django.contrib.admin.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return a sensible label for a field name. The name can be a callable,\n    property (but not created with @property decorator), or the name of an\n    object's attribute, as well as a model field. If return_attr is True, also\n    return the resolved attribute (which could be a callable). This will be\n    None if (and only if) the name refers to a field.\n    \"\"\"",
+            "name": "label_for_field",
+            "namespace": "django.contrib.admin.utils.label_for_field",
+            "class_name": "",
+            "module_name": "django.contrib.admin.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "help_text_for_field",
+            "namespace": "django.contrib.admin.utils.help_text_for_field",
+            "class_name": "",
+            "module_name": "django.contrib.admin.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "display_for_field",
+            "namespace": "django.contrib.admin.utils.display_for_field",
+            "class_name": "",
+            "module_name": "django.contrib.admin.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "display_for_value",
+            "namespace": "django.contrib.admin.utils.display_for_value",
+            "class_name": "",
+            "module_name": "django.contrib.admin.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_model_from_relation",
+            "namespace": "django.contrib.admin.utils.get_model_from_relation",
+            "class_name": "",
+            "module_name": "django.contrib.admin.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\" Create a reversed field path.\n\n    E.g. Given (Order, \"user__groups\"),\n    return (Group, \"user__order\").\n\n    Final field must be a related model, not a data field.\n    \"\"\"",
+            "name": "reverse_field_path",
+            "namespace": "django.contrib.admin.utils.reverse_field_path",
+            "class_name": "",
+            "module_name": "django.contrib.admin.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\" Return list of Fields given path relative to model.\n\n    e.g. (ModelX, \"user__groups__name\") -> [\n        <django.db.models.fields.related.ForeignKey object at 0x...>,\n        <django.db.models.fields.related.ManyToManyField object at 0x...>,\n        <django.db.models.fields.CharField object at 0x...>,\n    ]\n    \"\"\"",
+            "name": "get_fields_from_path",
+            "namespace": "django.contrib.admin.utils.get_fields_from_path",
+            "class_name": "",
+            "module_name": "django.contrib.admin.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Construct a JSON structure describing changes from a changed object.\n    Translations are deactivated so that strings are stored untranslated.\n    Translation happens later on LogEntry access.\n    \"\"\"",
+            "name": "construct_change_message",
+            "namespace": "django.contrib.admin.utils.construct_change_message",
+            "class_name": "",
+            "module_name": "django.contrib.admin.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_get_changed_field_labels_from_form",
+            "namespace": "django.contrib.admin.utils._get_changed_field_labels_from_form",
+            "class_name": "",
+            "module_name": "django.contrib.admin.utils",
+            "package_name": ""
         }
     ],
     "package_name": "django.contrib.admin"

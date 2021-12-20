@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Return your text, enclosed in ANSI graphics codes.\n\n    Depends on the keyword arguments 'fg' and 'bg', and the contents of\n    the opts tuple/list.\n\n    Return the RESET code if no parameters are given.\n\n    Valid colors:\n        'black', 'red', 'green', 'yellow', 'blue', 'magenta', 'cyan', 'white'\n\n    Valid options:\n        'bold'\n        'underscore'\n        'blink'\n        'reverse'\n        'conceal'\n        'noreset' - string will not be auto-terminated with the RESET code\n\n    Examples:\n        colorize('hello', fg='red', bg='blue', opts=('blink',))\n        colorize()\n        colorize('goodbye', opts=('underscore',))\n        print(colorize('first line', fg='red', opts=('noreset',)))\n        print('this should be red too')\n        print(colorize('and so should this'))\n        print('this should not be red')\n    \"\"\"",
+    "name": "colorize",
+    "namespace": "django.utils.termcolors.colorize",
+    "class_name": "",
+    "module_name": "django.utils.termcolors",
+    "package_name": ""
+}

@@ -5,117 +5,765 @@
         {
             "docstring": "\"\"\"Implement the actions of the autoescape tag.\"\"\"",
             "name": "AutoEscapeControlNode",
-            "namespace": "django.template.defaulttags.AutoEscapeControlNode"
+            "namespace": "django.template.defaulttags.AutoEscapeControlNode",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.template.defaulttags.AutoEscapeControlNode.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "render",
+                    "namespace": "django.template.defaulttags.AutoEscapeControlNode.render",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "CommentNode",
-            "namespace": "django.template.defaulttags.CommentNode"
+            "namespace": "django.template.defaulttags.CommentNode",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "render",
+                    "namespace": "django.template.defaulttags.CommentNode.render",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "CsrfTokenNode",
-            "namespace": "django.template.defaulttags.CsrfTokenNode"
+            "namespace": "django.template.defaulttags.CsrfTokenNode",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "render",
+                    "namespace": "django.template.defaulttags.CsrfTokenNode.render",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "CycleNode",
-            "namespace": "django.template.defaulttags.CycleNode"
+            "namespace": "django.template.defaulttags.CycleNode",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.template.defaulttags.CycleNode.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "render",
+                    "namespace": "django.template.defaulttags.CycleNode.render",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Reset the cycle iteration back to the beginning.\n        \"\"\"",
+                    "name": "reset",
+                    "namespace": "django.template.defaulttags.CycleNode.reset",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "DebugNode",
-            "namespace": "django.template.defaulttags.DebugNode"
+            "namespace": "django.template.defaulttags.DebugNode",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "render",
+                    "namespace": "django.template.defaulttags.DebugNode.render",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "FilterNode",
-            "namespace": "django.template.defaulttags.FilterNode"
+            "namespace": "django.template.defaulttags.FilterNode",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.template.defaulttags.FilterNode.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "render",
+                    "namespace": "django.template.defaulttags.FilterNode.render",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "FirstOfNode",
-            "namespace": "django.template.defaulttags.FirstOfNode"
+            "namespace": "django.template.defaulttags.FirstOfNode",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.template.defaulttags.FirstOfNode.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "render",
+                    "namespace": "django.template.defaulttags.FirstOfNode.render",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "ForNode",
-            "namespace": "django.template.defaulttags.ForNode"
+            "namespace": "django.template.defaulttags.ForNode",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.template.defaulttags.ForNode.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.template.defaulttags.ForNode.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "render",
+                    "namespace": "django.template.defaulttags.ForNode.render",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "IfChangedNode",
-            "namespace": "django.template.defaulttags.IfChangedNode"
+            "namespace": "django.template.defaulttags.IfChangedNode",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.template.defaulttags.IfChangedNode.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "render",
+                    "namespace": "django.template.defaulttags.IfChangedNode.render",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_get_context_stack_frame",
+                    "namespace": "django.template.defaulttags.IfChangedNode._get_context_stack_frame",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "IfNode",
-            "namespace": "django.template.defaulttags.IfNode"
+            "namespace": "django.template.defaulttags.IfNode",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.template.defaulttags.IfNode.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.template.defaulttags.IfNode.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__iter__",
+                    "namespace": "django.template.defaulttags.IfNode.__iter__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "nodelist",
+                    "namespace": "django.template.defaulttags.IfNode.nodelist",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "render",
+                    "namespace": "django.template.defaulttags.IfNode.render",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "LoremNode",
-            "namespace": "django.template.defaulttags.LoremNode"
+            "namespace": "django.template.defaulttags.LoremNode",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.template.defaulttags.LoremNode.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "render",
+                    "namespace": "django.template.defaulttags.LoremNode.render",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "RegroupNode",
-            "namespace": "django.template.defaulttags.RegroupNode"
+            "namespace": "django.template.defaulttags.RegroupNode",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.template.defaulttags.RegroupNode.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "resolve_expression",
+                    "namespace": "django.template.defaulttags.RegroupNode.resolve_expression",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "render",
+                    "namespace": "django.template.defaulttags.RegroupNode.render",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "LoadNode",
-            "namespace": "django.template.defaulttags.LoadNode"
+            "namespace": "django.template.defaulttags.LoadNode",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "render",
+                    "namespace": "django.template.defaulttags.LoadNode.render",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "NowNode",
-            "namespace": "django.template.defaulttags.NowNode"
+            "namespace": "django.template.defaulttags.NowNode",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.template.defaulttags.NowNode.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "render",
+                    "namespace": "django.template.defaulttags.NowNode.render",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "ResetCycleNode",
-            "namespace": "django.template.defaulttags.ResetCycleNode"
+            "namespace": "django.template.defaulttags.ResetCycleNode",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.template.defaulttags.ResetCycleNode.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "render",
+                    "namespace": "django.template.defaulttags.ResetCycleNode.render",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "SpacelessNode",
-            "namespace": "django.template.defaulttags.SpacelessNode"
+            "namespace": "django.template.defaulttags.SpacelessNode",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.template.defaulttags.SpacelessNode.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "render",
+                    "namespace": "django.template.defaulttags.SpacelessNode.render",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "TemplateTagNode",
-            "namespace": "django.template.defaulttags.TemplateTagNode"
+            "namespace": "django.template.defaulttags.TemplateTagNode",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.template.defaulttags.TemplateTagNode.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "render",
+                    "namespace": "django.template.defaulttags.TemplateTagNode.render",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "URLNode",
-            "namespace": "django.template.defaulttags.URLNode"
+            "namespace": "django.template.defaulttags.URLNode",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.template.defaulttags.URLNode.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.template.defaulttags.URLNode.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "render",
+                    "namespace": "django.template.defaulttags.URLNode.render",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "VerbatimNode",
-            "namespace": "django.template.defaulttags.VerbatimNode"
+            "namespace": "django.template.defaulttags.VerbatimNode",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.template.defaulttags.VerbatimNode.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "render",
+                    "namespace": "django.template.defaulttags.VerbatimNode.render",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "WidthRatioNode",
-            "namespace": "django.template.defaulttags.WidthRatioNode"
+            "namespace": "django.template.defaulttags.WidthRatioNode",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.template.defaulttags.WidthRatioNode.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "render",
+                    "namespace": "django.template.defaulttags.WidthRatioNode.render",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "WithNode",
-            "namespace": "django.template.defaulttags.WithNode"
+            "namespace": "django.template.defaulttags.WithNode",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.template.defaulttags.WithNode.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.template.defaulttags.WithNode.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "render",
+                    "namespace": "django.template.defaulttags.WithNode.render",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "TemplateLiteral",
-            "namespace": "django.template.defaulttags.TemplateLiteral"
+            "namespace": "django.template.defaulttags.TemplateLiteral",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.template.defaulttags.TemplateLiteral.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "display",
+                    "namespace": "django.template.defaulttags.TemplateLiteral.display",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "eval",
+                    "namespace": "django.template.defaulttags.TemplateLiteral.eval",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "TemplateIfParser",
-            "namespace": "django.template.defaulttags.TemplateIfParser"
+            "namespace": "django.template.defaulttags.TemplateIfParser",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.template.defaulttags.TemplateIfParser.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "create_var",
+                    "namespace": "django.template.defaulttags.TemplateIfParser.create_var",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Force autoescape behavior for this block.\n    \"\"\"",
+            "name": "autoescape",
+            "namespace": "django.template.defaulttags.autoescape",
+            "class_name": "",
+            "module_name": "django.template.defaulttags",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Ignore everything between ``{% comment %}`` and ``{% endcomment %}``.\n    \"\"\"",
+            "name": "comment",
+            "namespace": "django.template.defaulttags.comment",
+            "class_name": "",
+            "module_name": "django.template.defaulttags",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Cycle among the given strings each time this tag is encountered.\n\n    Within a loop, cycles among the given strings each time through\n    the loop::\n\n        {% for o in some_list %}\n            <tr class=\"{% cycle 'row1' 'row2' %}\">\n                ...\n            </tr>\n        {% endfor %}\n\n    Outside of a loop, give the values a unique name the first time you call\n    it, then use that name each successive time through::\n\n            <tr class=\"{% cycle 'row1' 'row2' 'row3' as rowcolors %}\">...</tr>\n            <tr class=\"{% cycle rowcolors %}\">...</tr>\n            <tr class=\"{% cycle rowcolors %}\">...</tr>\n\n    You can use any number of values, separated by spaces. Commas can also\n    be used to separate values; if a comma is used, the cycle values are\n    interpreted as literal strings.\n\n    The optional flag \"silent\" can be used to prevent the cycle declaration\n    from returning any value::\n\n        {% for o in some_list %}\n            {% cycle 'row1' 'row2' as rowcolors silent %}\n            <tr class=\"{{ rowcolors }}\">{% include \"subtemplate.html \" %}</tr>\n        {% endfor %}\n    \"\"\"",
+            "name": "cycle",
+            "namespace": "django.template.defaulttags.cycle",
+            "class_name": "",
+            "module_name": "django.template.defaulttags",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "csrf_token",
+            "namespace": "django.template.defaulttags.csrf_token",
+            "class_name": "",
+            "module_name": "django.template.defaulttags",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Output a whole load of debugging information, including the current\n    context and imported modules.\n\n    Sample usage::\n\n        <pre>\n            {% debug %}\n        </pre>\n    \"\"\"",
+            "name": "debug",
+            "namespace": "django.template.defaulttags.debug",
+            "class_name": "",
+            "module_name": "django.template.defaulttags",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Filter the contents of the block through variable filters.\n\n    Filters can also be piped through each other, and they can have\n    arguments -- just like in variable syntax.\n\n    Sample usage::\n\n        {% filter force_escape|lower %}\n            This text will be HTML-escaped, and will appear in lowercase.\n        {% endfilter %}\n\n    Note that the ``escape`` and ``safe`` filters are not acceptable arguments.\n    Instead, use the ``autoescape`` tag to manage autoescaping for blocks of\n    template code.\n    \"\"\"",
+            "name": "do_filter",
+            "namespace": "django.template.defaulttags.do_filter",
+            "class_name": "",
+            "module_name": "django.template.defaulttags",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Output the first variable passed that is not False.\n\n    Output nothing if all the passed variables are False.\n\n    Sample usage::\n\n        {% firstof var1 var2 var3 as myvar %}\n\n    This is equivalent to::\n\n        {% if var1 %}\n            {{ var1 }}\n        {% elif var2 %}\n            {{ var2 }}\n        {% elif var3 %}\n            {{ var3 }}\n        {% endif %}\n\n    but much cleaner!\n\n    You can also use a literal string as a fallback value in case all\n    passed variables are False::\n\n        {% firstof var1 var2 var3 \"fallback value\" %}\n\n    If you want to disable auto-escaping of variables you can use::\n\n        {% autoescape off %}\n            {% firstof var1 var2 var3 \"<strong>fallback value</strong>\" %}\n        {% autoescape %}\n\n    Or if only some variables should be escaped, you can use::\n\n        {% firstof var1 var2|safe var3 \"<strong>fallback value</strong>\"|safe %}\n    \"\"\"",
+            "name": "firstof",
+            "namespace": "django.template.defaulttags.firstof",
+            "class_name": "",
+            "module_name": "django.template.defaulttags",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Loop over each item in an array.\n\n    For example, to display a list of athletes given ``athlete_list``::\n\n        <ul>\n        {% for athlete in athlete_list %}\n            <li>{{ athlete.name }}</li>\n        {% endfor %}\n        </ul>\n\n    You can loop over a list in reverse by using\n    ``{% for obj in list reversed %}``.\n\n    You can also unpack multiple values from a two-dimensional array::\n\n        {% for key,value in dict.items %}\n            {{ key }}: {{ value }}\n        {% endfor %}\n\n    The ``for`` tag can take an optional ``{% empty %}`` clause that will\n    be displayed if the given array is empty or could not be found::\n\n        <ul>\n          {% for athlete in athlete_list %}\n            <li>{{ athlete.name }}</li>\n          {% empty %}\n            <li>Sorry, no athletes in this list.</li>\n          {% endfor %}\n        <ul>\n\n    The above is equivalent to -- but shorter, cleaner, and possibly faster\n    than -- the following::\n\n        <ul>\n          {% if athlete_list %}\n            {% for athlete in athlete_list %}\n              <li>{{ athlete.name }}</li>\n            {% endfor %}\n          {% else %}\n            <li>Sorry, no athletes in this list.</li>\n          {% endif %}\n        </ul>\n\n    The for loop sets a number of variables available within the loop:\n\n        ==========================  ================================================\n        Variable                    Description\n        ==========================  ================================================\n        ``forloop.counter``         The current iteration of the loop (1-indexed)\n        ``forloop.counter0``        The current iteration of the loop (0-indexed)\n        ``forloop.revcounter``      The number of iterations from the end of the\n                                    loop (1-indexed)\n        ``forloop.revcounter0``     The number of iterations from the end of the\n                                    loop (0-indexed)\n        ``forloop.first``           True if this is the first time through the loop\n        ``forloop.last``            True if this is the last time through the loop\n        ``forloop.parentloop``      For nested loops, this is the loop \"above\" the\n                                    current one\n        ==========================  ================================================\n    \"\"\"",
+            "name": "do_for",
+            "namespace": "django.template.defaulttags.do_for",
+            "class_name": "",
+            "module_name": "django.template.defaulttags",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Evaluate a variable, and if that variable is \"true\" (i.e., exists, is not\n    empty, and is not a false boolean value), output the contents of the block:\n\n    ::\n\n        {% if athlete_list %}\n            Number of athletes: {{ athlete_list|count }}\n        {% elif athlete_in_locker_room_list %}\n            Athletes should be out of the locker room soon!\n        {% else %}\n            No athletes.\n        {% endif %}\n\n    In the above, if ``athlete_list`` is not empty, the number of athletes will\n    be displayed by the ``{{ athlete_list|count }}`` variable.\n\n    The ``if`` tag may take one or several `` {% elif %}`` clauses, as well as\n    an ``{% else %}`` clause that will be displayed if all previous conditions\n    fail. These clauses are optional.\n\n    ``if`` tags may use ``or``, ``and`` or ``not`` to test a number of\n    variables or to negate a given variable::\n\n        {% if not athlete_list %}\n            There are no athletes.\n        {% endif %}\n\n        {% if athlete_list or coach_list %}\n            There are some athletes or some coaches.\n        {% endif %}\n\n        {% if athlete_list and coach_list %}\n            Both athletes and coaches are available.\n        {% endif %}\n\n        {% if not athlete_list or coach_list %}\n            There are no athletes, or there are some coaches.\n        {% endif %}\n\n        {% if athlete_list and not coach_list %}\n            There are some athletes and absolutely no coaches.\n        {% endif %}\n\n    Comparison operators are also available, and the use of filters is also\n    allowed, for example::\n\n        {% if articles|length >= 5 %}...{% endif %}\n\n    Arguments and operators _must_ have a space between them, so\n    ``{% if 1>2 %}`` is not a valid if tag.\n\n    All supported operators are: ``or``, ``and``, ``in``, ``not in``\n    ``==``, ``!=``, ``>``, ``>=``, ``<`` and ``<=``.\n\n    Operator precedence follows Python.\n    \"\"\"",
+            "name": "do_if",
+            "namespace": "django.template.defaulttags.do_if",
+            "class_name": "",
+            "module_name": "django.template.defaulttags",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Check if a value has changed from the last iteration of a loop.\n\n    The ``{% ifchanged %}`` block tag is used within a loop. It has two\n    possible uses.\n\n    1. Check its own rendered contents against its previous state and only\n       displays the content if it has changed. For example, this displays a\n       list of days, only displaying the month if it changes::\n\n            <h1>Archive for {{ year }}</h1>\n\n            {% for date in days %}\n                {% ifchanged %}<h3>{{ date|date:\"F\" }}</h3>{% endifchanged %}\n                <a href=\"{{ date|date:\"M/d\"|lower }}/\">{{ date|date:\"j\" }}</a>\n            {% endfor %}\n\n    2. If given one or more variables, check whether any variable has changed.\n       For example, the following shows the date every time it changes, while\n       showing the hour if either the hour or the date has changed::\n\n            {% for date in days %}\n                {% ifchanged date.date %} {{ date.date }} {% endifchanged %}\n                {% ifchanged date.hour date.date %}\n                    {{ date.hour }}\n                {% endifchanged %}\n            {% endfor %}\n    \"\"\"",
+            "name": "ifchanged",
+            "namespace": "django.template.defaulttags.ifchanged",
+            "class_name": "",
+            "module_name": "django.template.defaulttags",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "find_library",
+            "namespace": "django.template.defaulttags.find_library",
+            "class_name": "",
+            "module_name": "django.template.defaulttags",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return a subset of tags and filters from a library.\n    \"\"\"",
+            "name": "load_from_library",
+            "namespace": "django.template.defaulttags.load_from_library",
+            "class_name": "",
+            "module_name": "django.template.defaulttags",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Load a custom template tag library into the parser.\n\n    For example, to load the template tags in\n    ``django/templatetags/news/photos.py``::\n\n        {% load news.photos %}\n\n    Can also be used to load an individual tag/filter from\n    a library::\n\n        {% load byline from news %}\n    \"\"\"",
+            "name": "load",
+            "namespace": "django.template.defaulttags.load",
+            "class_name": "",
+            "module_name": "django.template.defaulttags",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Create random Latin text useful for providing test data in templates.\n\n    Usage format::\n\n        {% lorem [count] [method] [random] %}\n\n    ``count`` is a number (or variable) containing the number of paragraphs or\n    words to generate (default is 1).\n\n    ``method`` is either ``w`` for words, ``p`` for HTML paragraphs, ``b`` for\n    plain-text paragraph blocks (default is ``b``).\n\n    ``random`` is the word ``random``, which if given, does not use the common\n    paragraph (starting \"Lorem ipsum dolor sit amet, consectetuer...\").\n\n    Examples:\n\n    * ``{% lorem %}`` outputs the common \"lorem ipsum\" paragraph\n    * ``{% lorem 3 p %}`` outputs the common \"lorem ipsum\" paragraph\n      and two random paragraphs each wrapped in HTML ``<p>`` tags\n    * ``{% lorem 2 w random %}`` outputs two random latin words\n    \"\"\"",
+            "name": "lorem",
+            "namespace": "django.template.defaulttags.lorem",
+            "class_name": "",
+            "module_name": "django.template.defaulttags",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Display the date, formatted according to the given string.\n\n    Use the same format as PHP's ``date()`` function; see https://php.net/date\n    for all the possible values.\n\n    Sample usage::\n\n        It is {% now \"jS F Y H:i\" %}\n    \"\"\"",
+            "name": "now",
+            "namespace": "django.template.defaulttags.now",
+            "class_name": "",
+            "module_name": "django.template.defaulttags",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Regroup a list of alike objects by a common attribute.\n\n    This complex tag is best illustrated by use of an example: say that\n    ``musicians`` is a list of ``Musician`` objects that have ``name`` and\n    ``instrument`` attributes, and you'd like to display a list that\n    looks like:\n\n        * Guitar:\n            * Django Reinhardt\n            * Emily Remler\n        * Piano:\n            * Lovie Austin\n            * Bud Powell\n        * Trumpet:\n            * Duke Ellington\n\n    The following snippet of template code would accomplish this dubious task::\n\n        {% regroup musicians by instrument as grouped %}\n        <ul>\n        {% for group in grouped %}\n            <li>{{ group.grouper }}\n            <ul>\n                {% for musician in group.list %}\n                <li>{{ musician.name }}</li>\n                {% endfor %}\n            </ul>\n        {% endfor %}\n        </ul>\n\n    As you can see, ``{% regroup %}`` populates a variable with a list of\n    objects with ``grouper`` and ``list`` attributes. ``grouper`` contains the\n    item that was grouped by; ``list`` contains the list of objects that share\n    that ``grouper``. In this case, ``grouper`` would be ``Guitar``, ``Piano``\n    and ``Trumpet``, and ``list`` is the list of musicians who play this\n    instrument.\n\n    Note that ``{% regroup %}`` does not work when the list to be grouped is not\n    sorted by the key you are grouping by! This means that if your list of\n    musicians was not sorted by instrument, you'd need to make sure it is sorted\n    before using it, i.e.::\n\n        {% regroup musicians|dictsort:\"instrument\" by instrument as grouped %}\n    \"\"\"",
+            "name": "regroup",
+            "namespace": "django.template.defaulttags.regroup",
+            "class_name": "",
+            "module_name": "django.template.defaulttags",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Reset a cycle tag.\n\n    If an argument is given, reset the last rendered cycle tag whose name\n    matches the argument, else reset the last rendered cycle tag (named or\n    unnamed).\n    \"\"\"",
+            "name": "resetcycle",
+            "namespace": "django.template.defaulttags.resetcycle",
+            "class_name": "",
+            "module_name": "django.template.defaulttags",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Remove whitespace between HTML tags, including tab and newline characters.\n\n    Example usage::\n\n        {% spaceless %}\n            <p>\n                <a href=\"foo/\">Foo</a>\n            </p>\n        {% endspaceless %}\n\n    This example returns this HTML::\n\n        <p><a href=\"foo/\">Foo</a></p>\n\n    Only space between *tags* is normalized -- not space between tags and text.\n    In this example, the space around ``Hello`` isn't stripped::\n\n        {% spaceless %}\n            <strong>\n                Hello\n            </strong>\n        {% endspaceless %}\n    \"\"\"",
+            "name": "spaceless",
+            "namespace": "django.template.defaulttags.spaceless",
+            "class_name": "",
+            "module_name": "django.template.defaulttags",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Output one of the bits used to compose template tags.\n\n    Since the template system has no concept of \"escaping\", to display one of\n    the bits used in template tags, you must use the ``{% templatetag %}`` tag.\n\n    The argument tells which template bit to output:\n\n        ==================  =======\n        Argument            Outputs\n        ==================  =======\n        ``openblock``       ``{%``\n        ``closeblock``      ``%}``\n        ``openvariable``    ``{{``\n        ``closevariable``   ``}}``\n        ``openbrace``       ``{``\n        ``closebrace``      ``}``\n        ``opencomment``     ``{#``\n        ``closecomment``    ``#}``\n        ==================  =======\n    \"\"\"",
+            "name": "templatetag",
+            "namespace": "django.template.defaulttags.templatetag",
+            "class_name": "",
+            "module_name": "django.template.defaulttags",
+            "package_name": ""
+        },
+        {
+            "docstring": "r\"\"\"\n    Return an absolute URL matching the given view with its parameters.\n\n    This is a way to define links that aren't tied to a particular URL\n    configuration::\n\n        {% url \"url_name\" arg1 arg2 %}\n\n        or\n\n        {% url \"url_name\" name1=value1 name2=value2 %}\n\n    The first argument is a URL pattern name. Other arguments are\n    space-separated values that will be filled in place of positional and\n    keyword arguments in the URL. Don't mix positional and keyword arguments.\n    All arguments for the URL must be present.\n\n    For example, if you have a view ``app_name.views.client_details`` taking\n    the client's id and the corresponding line in a URLconf looks like this::\n\n        path('client/<int:id>/', views.client_details, name='client-detail-view')\n\n    and this app's URLconf is included into the project's URLconf under some\n    path::\n\n        path('clients/', include('app_name.urls'))\n\n    then in a template you can create a link for a certain client like this::\n\n        {% url \"client-detail-view\" client.id %}\n\n    The URL will look like ``/clients/client/123/``.\n\n    The first argument may also be the name of a template variable that will be\n    evaluated to obtain the view name or the URL name, e.g.::\n\n        {% with url_name=\"client-detail-view\" %}\n        {% url url_name client.id %}\n        {% endwith %}\n    \"\"\"",
+            "name": "url",
+            "namespace": "django.template.defaulttags.url",
+            "class_name": "",
+            "module_name": "django.template.defaulttags",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Stop the template engine from rendering the contents of this block tag.\n\n    Usage::\n\n        {% verbatim %}\n            {% don't process this %}\n        {% endverbatim %}\n\n    You can also designate a specific closing tag block (allowing the\n    unrendered use of ``{% endverbatim %}``)::\n\n        {% verbatim myblock %}\n            ...\n        {% endverbatim myblock %}\n    \"\"\"",
+            "name": "verbatim",
+            "namespace": "django.template.defaulttags.verbatim",
+            "class_name": "",
+            "module_name": "django.template.defaulttags",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    For creating bar charts and such. Calculate the ratio of a given value to a\n    maximum value, and then apply that ratio to a constant.\n\n    For example::\n\n        <img src=\"bar.png\" alt=\"Bar\"\n             height=\"10\" width=\"{% widthratio this_value max_value max_width %}\">\n\n    If ``this_value`` is 175, ``max_value`` is 200, and ``max_width`` is 100,\n    the image in the above example will be 88 pixels wide\n    (because 175/200 = .875; .875 * 100 = 87.5 which is rounded up to 88).\n\n    In some cases you might want to capture the result of widthratio in a\n    variable. It can be useful for instance in a blocktranslate like this::\n\n        {% widthratio this_value max_value max_width as width %}\n        {% blocktranslate %}The width is: {{ width }}{% endblocktranslate %}\n    \"\"\"",
+            "name": "widthratio",
+            "namespace": "django.template.defaulttags.widthratio",
+            "class_name": "",
+            "module_name": "django.template.defaulttags",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Add one or more values to the context (inside of this block) for caching\n    and easy access.\n\n    For example::\n\n        {% with total=person.some_sql_method %}\n            {{ total }} object{{ total|pluralize }}\n        {% endwith %}\n\n    Multiple values can be added to the context::\n\n        {% with foo=1 bar=2 %}\n            ...\n        {% endwith %}\n\n    The legacy format of ``{% with person.some_sql_method as total %}`` is\n    still accepted.\n    \"\"\"",
+            "name": "do_with",
+            "namespace": "django.template.defaulttags.do_with",
+            "class_name": "",
+            "module_name": "django.template.defaulttags",
+            "package_name": ""
         }
     ],
     "package_name": "django.template"

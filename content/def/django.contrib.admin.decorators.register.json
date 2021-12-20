@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Register the given model(s) classes and wrapped ModelAdmin class with\n    admin site:\n\n    @register(Author)\n    class AuthorAdmin(admin.ModelAdmin):\n        pass\n\n    The `site` kwarg is an admin site to use instead of the default admin site.\n    \"\"\"",
+    "name": "register",
+    "namespace": "django.contrib.admin.decorators.register",
+    "class_name": "",
+    "module_name": "django.contrib.admin.decorators",
+    "package_name": ""
+}

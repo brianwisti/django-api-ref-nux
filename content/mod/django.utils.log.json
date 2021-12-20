@@ -5,27 +5,151 @@
         {
             "docstring": "\"\"\"An exception log handler that emails log entries to site admins.\n\n    If the request is passed as the first argument to the log record,\n    request data will be provided in the email report.\n    \"\"\"",
             "name": "AdminEmailHandler",
-            "namespace": "django.utils.log.AdminEmailHandler"
+            "namespace": "django.utils.log.AdminEmailHandler",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.utils.log.AdminEmailHandler.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "emit",
+                    "namespace": "django.utils.log.AdminEmailHandler.emit",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "send_mail",
+                    "namespace": "django.utils.log.AdminEmailHandler.send_mail",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "connection",
+                    "namespace": "django.utils.log.AdminEmailHandler.connection",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Escape CR and LF characters.\n        \"\"\"",
+                    "name": "format_subject",
+                    "namespace": "django.utils.log.AdminEmailHandler.format_subject",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    A logging filter that checks the return value of a given callable (which\n    takes the record-to-be-logged as its only parameter) to decide whether to\n    log a record.\n    \"\"\"",
             "name": "CallbackFilter",
-            "namespace": "django.utils.log.CallbackFilter"
+            "namespace": "django.utils.log.CallbackFilter",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.utils.log.CallbackFilter.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "filter",
+                    "namespace": "django.utils.log.CallbackFilter.filter",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "RequireDebugFalse",
-            "namespace": "django.utils.log.RequireDebugFalse"
+            "namespace": "django.utils.log.RequireDebugFalse",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "filter",
+                    "namespace": "django.utils.log.RequireDebugFalse.filter",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "RequireDebugTrue",
-            "namespace": "django.utils.log.RequireDebugTrue"
+            "namespace": "django.utils.log.RequireDebugTrue",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "filter",
+                    "namespace": "django.utils.log.RequireDebugTrue.filter",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "ServerFormatter",
-            "namespace": "django.utils.log.ServerFormatter"
+            "namespace": "django.utils.log.ServerFormatter",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.utils.log.ServerFormatter.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "format",
+                    "namespace": "django.utils.log.ServerFormatter.format",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "uses_server_time",
+                    "namespace": "django.utils.log.ServerFormatter.uses_server_time",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "",
+            "name": "configure_logging",
+            "namespace": "django.utils.log.configure_logging",
+            "class_name": "",
+            "module_name": "django.utils.log",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Log errors based on HttpResponse status.\n\n    Log 5xx responses as errors and 4xx responses as warnings (unless a level\n    is given as a keyword argument). The HttpResponse status_code and the\n    request are passed to the logger's extra parameter.\n    \"\"\"",
+            "name": "log_response",
+            "namespace": "django.utils.log.log_response",
+            "class_name": "",
+            "module_name": "django.utils.log",
+            "package_name": ""
         }
     ],
     "package_name": "django.utils"

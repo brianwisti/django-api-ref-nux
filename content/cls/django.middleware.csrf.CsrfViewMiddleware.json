@@ -3,5 +3,119 @@
     "name": "CsrfViewMiddleware",
     "namespace": "django.middleware.csrf.CsrfViewMiddleware",
     "module_name": "django.middleware.csrf",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "csrf_trusted_origins_hosts",
+            "namespace": "django.middleware.csrf.CsrfViewMiddleware.csrf_trusted_origins_hosts",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "allowed_origins_exact",
+            "namespace": "django.middleware.csrf.CsrfViewMiddleware.allowed_origins_exact",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        A mapping of allowed schemes to list of allowed netlocs, where all\n        subdomains of the netloc are allowed.\n        \"\"\"",
+            "name": "allowed_origin_subdomains",
+            "namespace": "django.middleware.csrf.CsrfViewMiddleware.allowed_origin_subdomains",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_accept",
+            "namespace": "django.middleware.csrf.CsrfViewMiddleware._accept",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_reject",
+            "namespace": "django.middleware.csrf.CsrfViewMiddleware._reject",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_get_token",
+            "namespace": "django.middleware.csrf.CsrfViewMiddleware._get_token",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_set_csrf_cookie",
+            "namespace": "django.middleware.csrf.CsrfViewMiddleware._set_csrf_cookie",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_origin_verified",
+            "namespace": "django.middleware.csrf.CsrfViewMiddleware._origin_verified",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_check_referer",
+            "namespace": "django.middleware.csrf.CsrfViewMiddleware._check_referer",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_bad_token_message",
+            "namespace": "django.middleware.csrf.CsrfViewMiddleware._bad_token_message",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_check_token",
+            "namespace": "django.middleware.csrf.CsrfViewMiddleware._check_token",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "process_request",
+            "namespace": "django.middleware.csrf.CsrfViewMiddleware.process_request",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "process_view",
+            "namespace": "django.middleware.csrf.CsrfViewMiddleware.process_view",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "process_response",
+            "namespace": "django.middleware.csrf.CsrfViewMiddleware.process_response",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

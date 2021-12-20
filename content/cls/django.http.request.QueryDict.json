@@ -3,5 +3,151 @@
     "name": "QueryDict",
     "namespace": "django.http.request.QueryDict",
     "module_name": "django.http.request",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.http.request.QueryDict.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return a new QueryDict with keys (may be repeated) from an iterable and\n        values from value.\n        \"\"\"",
+            "name": "fromkeys",
+            "namespace": "django.http.request.QueryDict.fromkeys",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "encoding",
+            "namespace": "django.http.request.QueryDict.encoding",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "encoding",
+            "namespace": "django.http.request.QueryDict.encoding",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_assert_mutable",
+            "namespace": "django.http.request.QueryDict._assert_mutable",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__setitem__",
+            "namespace": "django.http.request.QueryDict.__setitem__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__delitem__",
+            "namespace": "django.http.request.QueryDict.__delitem__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__copy__",
+            "namespace": "django.http.request.QueryDict.__copy__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__deepcopy__",
+            "namespace": "django.http.request.QueryDict.__deepcopy__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "setlist",
+            "namespace": "django.http.request.QueryDict.setlist",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "setlistdefault",
+            "namespace": "django.http.request.QueryDict.setlistdefault",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "appendlist",
+            "namespace": "django.http.request.QueryDict.appendlist",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "pop",
+            "namespace": "django.http.request.QueryDict.pop",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "popitem",
+            "namespace": "django.http.request.QueryDict.popitem",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "clear",
+            "namespace": "django.http.request.QueryDict.clear",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "setdefault",
+            "namespace": "django.http.request.QueryDict.setdefault",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return a mutable copy of this object.\"\"\"",
+            "name": "copy",
+            "namespace": "django.http.request.QueryDict.copy",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return an encoded string of all query string arguments.\n\n        `safe` specifies characters which don't require quoting, for example::\n\n            >>> q = QueryDict(mutable=True)\n            >>> q['next'] = '/a&b/'\n            >>> q.urlencode()\n            'next=%2Fa%26b%2F'\n            >>> q.urlencode(safe='/')\n            'next=/a%26b/'\n        \"\"\"",
+            "name": "urlencode",
+            "namespace": "django.http.request.QueryDict.urlencode",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

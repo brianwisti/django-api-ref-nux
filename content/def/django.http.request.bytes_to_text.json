@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Convert bytes objects to strings, using the given encoding. Illegally\n    encoded input characters are replaced with Unicode \"unknown\" codepoint\n    (\\ufffd).\n\n    Return any non-bytes objects without change.\n    \"\"\"",
+    "name": "bytes_to_text",
+    "namespace": "django.http.request.bytes_to_text",
+    "class_name": "",
+    "module_name": "django.http.request",
+    "package_name": ""
+}

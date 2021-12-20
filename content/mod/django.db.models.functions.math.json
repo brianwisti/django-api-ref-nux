@@ -5,118 +5,263 @@
         {
             "docstring": "",
             "name": "Abs",
-            "namespace": "django.db.models.functions.math.Abs"
+            "namespace": "django.db.models.functions.math.Abs",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "ACos",
-            "namespace": "django.db.models.functions.math.ACos"
+            "namespace": "django.db.models.functions.math.ACos",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "ASin",
-            "namespace": "django.db.models.functions.math.ASin"
+            "namespace": "django.db.models.functions.math.ASin",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "ATan",
-            "namespace": "django.db.models.functions.math.ATan"
+            "namespace": "django.db.models.functions.math.ATan",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "ATan2",
-            "namespace": "django.db.models.functions.math.ATan2"
+            "namespace": "django.db.models.functions.math.ATan2",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "as_sqlite",
+                    "namespace": "django.db.models.functions.math.ATan2.as_sqlite",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Ceil",
-            "namespace": "django.db.models.functions.math.Ceil"
+            "namespace": "django.db.models.functions.math.Ceil",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "as_oracle",
+                    "namespace": "django.db.models.functions.math.Ceil.as_oracle",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Cos",
-            "namespace": "django.db.models.functions.math.Cos"
+            "namespace": "django.db.models.functions.math.Cos",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "Cot",
-            "namespace": "django.db.models.functions.math.Cot"
+            "namespace": "django.db.models.functions.math.Cot",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "as_oracle",
+                    "namespace": "django.db.models.functions.math.Cot.as_oracle",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Degrees",
-            "namespace": "django.db.models.functions.math.Degrees"
+            "namespace": "django.db.models.functions.math.Degrees",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "as_oracle",
+                    "namespace": "django.db.models.functions.math.Degrees.as_oracle",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Exp",
-            "namespace": "django.db.models.functions.math.Exp"
+            "namespace": "django.db.models.functions.math.Exp",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "Floor",
-            "namespace": "django.db.models.functions.math.Floor"
+            "namespace": "django.db.models.functions.math.Floor",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "Ln",
-            "namespace": "django.db.models.functions.math.Ln"
+            "namespace": "django.db.models.functions.math.Ln",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "Log",
-            "namespace": "django.db.models.functions.math.Log"
+            "namespace": "django.db.models.functions.math.Log",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "as_sqlite",
+                    "namespace": "django.db.models.functions.math.Log.as_sqlite",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Mod",
-            "namespace": "django.db.models.functions.math.Mod"
+            "namespace": "django.db.models.functions.math.Mod",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "Pi",
-            "namespace": "django.db.models.functions.math.Pi"
+            "namespace": "django.db.models.functions.math.Pi",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "as_oracle",
+                    "namespace": "django.db.models.functions.math.Pi.as_oracle",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Power",
-            "namespace": "django.db.models.functions.math.Power"
+            "namespace": "django.db.models.functions.math.Power",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "Radians",
-            "namespace": "django.db.models.functions.math.Radians"
+            "namespace": "django.db.models.functions.math.Radians",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "as_oracle",
+                    "namespace": "django.db.models.functions.math.Radians.as_oracle",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Random",
-            "namespace": "django.db.models.functions.math.Random"
+            "namespace": "django.db.models.functions.math.Random",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "as_mysql",
+                    "namespace": "django.db.models.functions.math.Random.as_mysql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_oracle",
+                    "namespace": "django.db.models.functions.math.Random.as_oracle",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sqlite",
+                    "namespace": "django.db.models.functions.math.Random.as_sqlite",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_group_by_cols",
+                    "namespace": "django.db.models.functions.math.Random.get_group_by_cols",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Round",
-            "namespace": "django.db.models.functions.math.Round"
+            "namespace": "django.db.models.functions.math.Round",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.functions.math.Round.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sqlite",
+                    "namespace": "django.db.models.functions.math.Round.as_sqlite",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_resolve_output_field",
+                    "namespace": "django.db.models.functions.math.Round._resolve_output_field",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Sign",
-            "namespace": "django.db.models.functions.math.Sign"
+            "namespace": "django.db.models.functions.math.Sign",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "Sin",
-            "namespace": "django.db.models.functions.math.Sin"
+            "namespace": "django.db.models.functions.math.Sin",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "Sqrt",
-            "namespace": "django.db.models.functions.math.Sqrt"
+            "namespace": "django.db.models.functions.math.Sqrt",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "Tan",
-            "namespace": "django.db.models.functions.math.Tan"
+            "namespace": "django.db.models.functions.math.Tan",
+            "methods": []
         }
     ],
+    "functions": [],
     "package_name": "django.db.models.functions"
 }

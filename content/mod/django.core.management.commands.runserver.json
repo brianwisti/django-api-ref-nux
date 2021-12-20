@@ -5,8 +5,59 @@
         {
             "docstring": "",
             "name": "Command",
-            "namespace": "django.core.management.commands.runserver.Command"
+            "namespace": "django.core.management.commands.runserver.Command",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "add_arguments",
+                    "namespace": "django.core.management.commands.runserver.Command.add_arguments",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "execute",
+                    "namespace": "django.core.management.commands.runserver.Command.execute",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return the default WSGI handler for the runner.\"\"\"",
+                    "name": "get_handler",
+                    "namespace": "django.core.management.commands.runserver.Command.get_handler",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "handle",
+                    "namespace": "django.core.management.commands.runserver.Command.handle",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Run the server, using the autoreloader if needed.\"\"\"",
+                    "name": "run",
+                    "namespace": "django.core.management.commands.runserver.Command.run",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "inner_run",
+                    "namespace": "django.core.management.commands.runserver.Command.inner_run",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.core.management.commands"
 }

@@ -2,5 +2,15 @@
     "namespace": "django.conf.global_settings",
     "docstring": "\"\"\"\nDefault Django settings. Override these with settings in the module pointed to\nby the DJANGO_SETTINGS_MODULE environment variable.\n\"\"\"",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "",
+            "name": "gettext_noop",
+            "namespace": "django.conf.global_settings.gettext_noop",
+            "class_name": "",
+            "module_name": "django.conf.global_settings",
+            "package_name": ""
+        }
+    ],
     "package_name": "django.conf"
 }

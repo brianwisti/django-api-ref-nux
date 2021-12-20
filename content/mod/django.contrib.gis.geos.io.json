@@ -5,13 +5,34 @@
         {
             "docstring": "",
             "name": "WKBReader",
-            "namespace": "django.contrib.gis.geos.io.WKBReader"
+            "namespace": "django.contrib.gis.geos.io.WKBReader",
+            "methods": [
+                {
+                    "docstring": "\"Return a GEOSGeometry for the given WKB buffer.\"",
+                    "name": "read",
+                    "namespace": "django.contrib.gis.geos.io.WKBReader.read",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "WKTReader",
-            "namespace": "django.contrib.gis.geos.io.WKTReader"
+            "namespace": "django.contrib.gis.geos.io.WKTReader",
+            "methods": [
+                {
+                    "docstring": "\"Return a GEOSGeometry for the given WKT string.\"",
+                    "name": "read",
+                    "namespace": "django.contrib.gis.geos.io.WKTReader.read",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.gis.geos"
 }

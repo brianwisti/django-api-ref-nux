@@ -3,5 +3,23 @@
     "name": "Lexer",
     "namespace": "django.utils.jslex.Lexer",
     "module_name": "django.utils.jslex",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.utils.jslex.Lexer.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Lexically analyze `text`.\n\n        Yield pairs (`name`, `tokentext`).\n        \"\"\"",
+            "name": "lex",
+            "namespace": "django.utils.jslex.Lexer.lex",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

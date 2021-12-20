@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Convert the self.deferred_loading data structure to an alternate data\n        structure, describing the field that *will* be loaded. This is used to\n        compute the columns to select from the database and also by the\n        QuerySet class to work out which fields are being initialized on each\n        model. Models that have all their fields included aren't mentioned in\n        the result, only those that have field restrictions in place.\n\n        The \"target\" parameter is the instance that is populated (in place).\n        The \"callback\" is a function that is called whenever a (model, field)\n        pair need to be added to \"target\". It accepts three parameters:\n        \"target\", and the model and list of fields being added for that model.\n        \"\"\"",
+    "name": "deferred_to_data",
+    "namespace": "django.db.models.sql.query.Query.deferred_to_data",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

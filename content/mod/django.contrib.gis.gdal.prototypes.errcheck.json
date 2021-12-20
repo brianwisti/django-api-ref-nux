@@ -2,5 +2,103 @@
     "namespace": "django.contrib.gis.gdal.prototypes.errcheck",
     "docstring": "\"\"\"\n This module houses the error-checking routines used by the GDAL\n ctypes prototypes.\n\"\"\"",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "\"Return the pointer argument's by-reference value.\"",
+            "name": "arg_byref",
+            "namespace": "django.contrib.gis.gdal.prototypes.errcheck.arg_byref",
+            "class_name": "",
+            "module_name": "django.contrib.gis.gdal.prototypes.errcheck",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Return the pointer argument passed in by-reference.\"",
+            "name": "ptr_byref",
+            "namespace": "django.contrib.gis.gdal.prototypes.errcheck.ptr_byref",
+            "class_name": "",
+            "module_name": "django.contrib.gis.gdal.prototypes.errcheck",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Similar functionality to `check_string`, but does not free the pointer.\n    \"\"\"",
+            "name": "check_const_string",
+            "namespace": "django.contrib.gis.gdal.prototypes.errcheck.check_const_string",
+            "class_name": "",
+            "module_name": "django.contrib.gis.gdal.prototypes.errcheck",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Check the string output returned from the given function, and free\n    the string pointer allocated by OGR.  The `str_result` keyword\n    may be used when the result is the string pointer, otherwise\n    the OGR error code is assumed.  The `offset` keyword may be used\n    to extract the string pointer passed in by-reference at the given\n    slice offset in the function arguments.\n    \"\"\"",
+            "name": "check_string",
+            "namespace": "django.contrib.gis.gdal.prototypes.errcheck.check_string",
+            "class_name": "",
+            "module_name": "django.contrib.gis.gdal.prototypes.errcheck",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Check a function that returns an OGR Envelope by reference.\"",
+            "name": "check_envelope",
+            "namespace": "django.contrib.gis.gdal.prototypes.errcheck.check_envelope",
+            "class_name": "",
+            "module_name": "django.contrib.gis.gdal.prototypes.errcheck",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Check a function that returns a geometry.\"",
+            "name": "check_geom",
+            "namespace": "django.contrib.gis.gdal.prototypes.errcheck.check_geom",
+            "class_name": "",
+            "module_name": "django.contrib.gis.gdal.prototypes.errcheck",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Check the geometry at the given offset in the C parameter list.\"",
+            "name": "check_geom_offset",
+            "namespace": "django.contrib.gis.gdal.prototypes.errcheck.check_geom_offset",
+            "class_name": "",
+            "module_name": "django.contrib.gis.gdal.prototypes.errcheck",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "check_srs",
+            "namespace": "django.contrib.gis.gdal.prototypes.errcheck.check_srs",
+            "class_name": "",
+            "module_name": "django.contrib.gis.gdal.prototypes.errcheck",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    The error code is returned in the last argument, by reference.\n    Check its value with `check_err` before returning the result.\n    \"\"\"",
+            "name": "check_arg_errcode",
+            "namespace": "django.contrib.gis.gdal.prototypes.errcheck.check_arg_errcode",
+            "class_name": "",
+            "module_name": "django.contrib.gis.gdal.prototypes.errcheck",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Check the error code returned (c_int).\n    \"\"\"",
+            "name": "check_errcode",
+            "namespace": "django.contrib.gis.gdal.prototypes.errcheck.check_errcode",
+            "class_name": "",
+            "module_name": "django.contrib.gis.gdal.prototypes.errcheck",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Make sure the result pointer is valid.\"",
+            "name": "check_pointer",
+            "namespace": "django.contrib.gis.gdal.prototypes.errcheck.check_pointer",
+            "class_name": "",
+            "module_name": "django.contrib.gis.gdal.prototypes.errcheck",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    This is for the OSRGet[Angular|Linear]Units functions, which\n    require that the returned string pointer not be freed.  This\n    returns both the double and string values.\n    \"\"\"",
+            "name": "check_str_arg",
+            "namespace": "django.contrib.gis.gdal.prototypes.errcheck.check_str_arg",
+            "class_name": "",
+            "module_name": "django.contrib.gis.gdal.prototypes.errcheck",
+            "package_name": ""
+        }
+    ],
     "package_name": "django.contrib.gis.gdal.prototypes"
 }

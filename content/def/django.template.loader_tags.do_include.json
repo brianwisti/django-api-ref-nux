@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Load a template and render it with the current context. You can pass\n    additional context using keyword arguments.\n\n    Example::\n\n        {% include \"foo/some_include\" %}\n        {% include \"foo/some_include\" with bar=\"BAZZ!\" baz=\"BING!\" %}\n\n    Use the ``only`` argument to exclude the current context when rendering\n    the included template::\n\n        {% include \"foo/some_include\" only %}\n        {% include \"foo/some_include\" with bar=\"1\" only %}\n    \"\"\"",
+    "name": "do_include",
+    "namespace": "django.template.loader_tags.do_include",
+    "class_name": "",
+    "module_name": "django.template.loader_tags",
+    "package_name": ""
+}

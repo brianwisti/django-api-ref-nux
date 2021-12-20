@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Mark replacement migrations applied if their replaced set all are.\n\n        Do this unconditionally on every migrate, rather than just when\n        migrations are applied or unapplied, to correctly handle the case\n        when a new squash migration is pushed to a deployment that already had\n        all its replaced migrations applied. In this case no new migration will\n        be applied, but the applied state of the squashed migration must be\n        maintained.\n        \"\"\"",
+    "name": "check_replacements",
+    "namespace": "django.db.migrations.executor.MigrationExecutor.check_replacements",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

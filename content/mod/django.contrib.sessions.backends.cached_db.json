@@ -5,8 +5,67 @@
         {
             "docstring": "\"\"\"\n    Implement cached, database backed sessions.\n    \"\"\"",
             "name": "SessionStore",
-            "namespace": "django.contrib.sessions.backends.cached_db.SessionStore"
+            "namespace": "django.contrib.sessions.backends.cached_db.SessionStore",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.sessions.backends.cached_db.SessionStore.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "cache_key",
+                    "namespace": "django.contrib.sessions.backends.cached_db.SessionStore.cache_key",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "load",
+                    "namespace": "django.contrib.sessions.backends.cached_db.SessionStore.load",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "exists",
+                    "namespace": "django.contrib.sessions.backends.cached_db.SessionStore.exists",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "save",
+                    "namespace": "django.contrib.sessions.backends.cached_db.SessionStore.save",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "delete",
+                    "namespace": "django.contrib.sessions.backends.cached_db.SessionStore.delete",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Remove the current session data from the database and regenerate the\n        key.\n        \"\"\"",
+                    "name": "flush",
+                    "namespace": "django.contrib.sessions.backends.cached_db.SessionStore.flush",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.sessions.backends"
 }

@@ -5,47 +5,273 @@
         {
             "docstring": "\"\"\"\n    Simple wrapper around pickle to be used in signing.dumps()/loads() and\n    cache backends.\n    \"\"\"",
             "name": "PickleSerializer",
-            "namespace": "django.core.serializers.base.PickleSerializer"
+            "namespace": "django.core.serializers.base.PickleSerializer",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.core.serializers.base.PickleSerializer.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "dumps",
+                    "namespace": "django.core.serializers.base.PickleSerializer.dumps",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "loads",
+                    "namespace": "django.core.serializers.base.PickleSerializer.loads",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"The requested serializer was not found.\"\"\"",
             "name": "SerializerDoesNotExist",
-            "namespace": "django.core.serializers.base.SerializerDoesNotExist"
+            "namespace": "django.core.serializers.base.SerializerDoesNotExist",
+            "methods": []
         },
         {
             "docstring": "\"\"\"Something bad happened during serialization.\"\"\"",
             "name": "SerializationError",
-            "namespace": "django.core.serializers.base.SerializationError"
+            "namespace": "django.core.serializers.base.SerializationError",
+            "methods": []
         },
         {
             "docstring": "\"\"\"Something bad happened during deserialization.\"\"\"",
             "name": "DeserializationError",
-            "namespace": "django.core.serializers.base.DeserializationError"
+            "namespace": "django.core.serializers.base.DeserializationError",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        Factory method for creating a deserialization error which has a more\n        explanatory message.\n        \"\"\"",
+                    "name": "WithData",
+                    "namespace": "django.core.serializers.base.DeserializationError.WithData",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"Something bad happened during deserialization of a ManyToManyField.\"\"\"",
             "name": "M2MDeserializationError",
-            "namespace": "django.core.serializers.base.M2MDeserializationError"
+            "namespace": "django.core.serializers.base.M2MDeserializationError",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.core.serializers.base.M2MDeserializationError.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "ProgressBar",
-            "namespace": "django.core.serializers.base.ProgressBar"
+            "namespace": "django.core.serializers.base.ProgressBar",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.core.serializers.base.ProgressBar.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "update",
+                    "namespace": "django.core.serializers.base.ProgressBar.update",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Abstract serializer base class.\n    \"\"\"",
             "name": "Serializer",
-            "namespace": "django.core.serializers.base.Serializer"
+            "namespace": "django.core.serializers.base.Serializer",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        Serialize a queryset.\n        \"\"\"",
+                    "name": "serialize",
+                    "namespace": "django.core.serializers.base.Serializer.serialize",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Called when serializing of the queryset starts.\n        \"\"\"",
+                    "name": "start_serialization",
+                    "namespace": "django.core.serializers.base.Serializer.start_serialization",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Called when serializing of the queryset ends.\n        \"\"\"",
+                    "name": "end_serialization",
+                    "namespace": "django.core.serializers.base.Serializer.end_serialization",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Called when serializing of an object starts.\n        \"\"\"",
+                    "name": "start_object",
+                    "namespace": "django.core.serializers.base.Serializer.start_object",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Called when serializing of an object ends.\n        \"\"\"",
+                    "name": "end_object",
+                    "namespace": "django.core.serializers.base.Serializer.end_object",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Called to handle each individual (non-relational) field on an object.\n        \"\"\"",
+                    "name": "handle_field",
+                    "namespace": "django.core.serializers.base.Serializer.handle_field",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Called to handle a ForeignKey field.\n        \"\"\"",
+                    "name": "handle_fk_field",
+                    "namespace": "django.core.serializers.base.Serializer.handle_fk_field",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Called to handle a ManyToManyField.\n        \"\"\"",
+                    "name": "handle_m2m_field",
+                    "namespace": "django.core.serializers.base.Serializer.handle_m2m_field",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the fully serialized queryset (or None if the output stream is\n        not seekable).\n        \"\"\"",
+                    "name": "getvalue",
+                    "namespace": "django.core.serializers.base.Serializer.getvalue",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Abstract base deserializer class.\n    \"\"\"",
             "name": "Deserializer",
-            "namespace": "django.core.serializers.base.Deserializer"
+            "namespace": "django.core.serializers.base.Deserializer",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        Init this serializer given a stream or a string\n        \"\"\"",
+                    "name": "__init__",
+                    "namespace": "django.core.serializers.base.Deserializer.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__iter__",
+                    "namespace": "django.core.serializers.base.Deserializer.__iter__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Iteration interface -- return the next item in the stream\"\"\"",
+                    "name": "__next__",
+                    "namespace": "django.core.serializers.base.Deserializer.__next__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    A deserialized model.\n\n    Basically a container for holding the pre-saved deserialized data along\n    with the many-to-many data saved with the object.\n\n    Call ``save()`` to save the object (with the many-to-many data) to the\n    database; call ``save(save_m2m=False)`` to save just the object fields\n    (and not touch the many-to-many stuff.)\n    \"\"\"",
             "name": "DeserializedObject",
-            "namespace": "django.core.serializers.base.DeserializedObject"
+            "namespace": "django.core.serializers.base.DeserializedObject",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.core.serializers.base.DeserializedObject.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.core.serializers.base.DeserializedObject.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "save",
+                    "namespace": "django.core.serializers.base.DeserializedObject.save",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "save_deferred_fields",
+                    "namespace": "django.core.serializers.base.DeserializedObject.save_deferred_fields",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Build a model instance.\n\n    If the model instance doesn't have a primary key and the model supports\n    natural keys, try to retrieve it from the database.\n    \"\"\"",
+            "name": "build_instance",
+            "namespace": "django.core.serializers.base.build_instance",
+            "class_name": "",
+            "module_name": "django.core.serializers.base",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "deserialize_m2m_values",
+            "namespace": "django.core.serializers.base.deserialize_m2m_values",
+            "class_name": "",
+            "module_name": "django.core.serializers.base",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "deserialize_fk_value",
+            "namespace": "django.core.serializers.base.deserialize_fk_value",
+            "class_name": "",
+            "module_name": "django.core.serializers.base",
+            "package_name": ""
         }
     ],
     "package_name": "django.core.serializers"

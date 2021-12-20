@@ -5,63 +5,94 @@
         {
             "docstring": "",
             "name": "StatAggregate",
-            "namespace": "django.contrib.postgres.aggregates.statistics.StatAggregate"
+            "namespace": "django.contrib.postgres.aggregates.statistics.StatAggregate",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.postgres.aggregates.statistics.StatAggregate.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Corr",
-            "namespace": "django.contrib.postgres.aggregates.statistics.Corr"
+            "namespace": "django.contrib.postgres.aggregates.statistics.Corr",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "CovarPop",
-            "namespace": "django.contrib.postgres.aggregates.statistics.CovarPop"
+            "namespace": "django.contrib.postgres.aggregates.statistics.CovarPop",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.postgres.aggregates.statistics.CovarPop.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "RegrAvgX",
-            "namespace": "django.contrib.postgres.aggregates.statistics.RegrAvgX"
+            "namespace": "django.contrib.postgres.aggregates.statistics.RegrAvgX",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "RegrAvgY",
-            "namespace": "django.contrib.postgres.aggregates.statistics.RegrAvgY"
+            "namespace": "django.contrib.postgres.aggregates.statistics.RegrAvgY",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "RegrCount",
-            "namespace": "django.contrib.postgres.aggregates.statistics.RegrCount"
+            "namespace": "django.contrib.postgres.aggregates.statistics.RegrCount",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "RegrIntercept",
-            "namespace": "django.contrib.postgres.aggregates.statistics.RegrIntercept"
+            "namespace": "django.contrib.postgres.aggregates.statistics.RegrIntercept",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "RegrR2",
-            "namespace": "django.contrib.postgres.aggregates.statistics.RegrR2"
+            "namespace": "django.contrib.postgres.aggregates.statistics.RegrR2",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "RegrSlope",
-            "namespace": "django.contrib.postgres.aggregates.statistics.RegrSlope"
+            "namespace": "django.contrib.postgres.aggregates.statistics.RegrSlope",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "RegrSXX",
-            "namespace": "django.contrib.postgres.aggregates.statistics.RegrSXX"
+            "namespace": "django.contrib.postgres.aggregates.statistics.RegrSXX",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "RegrSXY",
-            "namespace": "django.contrib.postgres.aggregates.statistics.RegrSXY"
+            "namespace": "django.contrib.postgres.aggregates.statistics.RegrSXY",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "RegrSYY",
-            "namespace": "django.contrib.postgres.aggregates.statistics.RegrSYY"
+            "namespace": "django.contrib.postgres.aggregates.statistics.RegrSYY",
+            "methods": []
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.postgres.aggregates"
 }

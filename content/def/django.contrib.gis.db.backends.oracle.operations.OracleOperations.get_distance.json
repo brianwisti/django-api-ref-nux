@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Return the distance parameters given the value and the lookup type.\n        On Oracle, geometry columns with a geodetic coordinate system behave\n        implicitly like a geography column, and thus meters will be used as\n        the distance parameter on them.\n        \"\"\"",
+    "name": "get_distance",
+    "namespace": "django.contrib.gis.db.backends.oracle.operations.OracleOperations.get_distance",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Try to extract transforms and lookup from given lhs.\n\n        The lhs value is something that works like SQLExpression.\n        The rhs value is what the lookup is going to compare against.\n        The lookups is a list of names to extract using get_lookup()\n        and get_transform().\n        \"\"\"",
+    "name": "build_lookup",
+    "namespace": "django.db.models.sql.query.Query.build_lookup",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

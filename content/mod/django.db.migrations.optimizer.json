@@ -5,8 +5,27 @@
         {
             "docstring": "\"\"\"\n    Power the optimization process, where you provide a list of Operations\n    and you are returned a list of equal or shorter length - operations\n    are merged into one if possible.\n\n    For example, a CreateModel and an AddField can be optimized into a\n    new CreateModel, and CreateModel and DeleteModel can be optimized into\n    nothing.\n    \"\"\"",
             "name": "MigrationOptimizer",
-            "namespace": "django.db.migrations.optimizer.MigrationOptimizer"
+            "namespace": "django.db.migrations.optimizer.MigrationOptimizer",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        Main optimization entry point. Pass in a list of Operation instances,\n        get out a new list of Operation instances.\n\n        Unfortunately, due to the scope of the optimization (two combinable\n        operations might be separated by several hundred others), this can't be\n        done as a peephole optimization with checks/output implemented on\n        the Operations themselves; instead, the optimizer looks at each\n        individual operation and scans forwards in the list to see if there\n        are any matches, stopping at boundaries - operations which can't\n        be optimized over (RunSQL, operations on the same field/model, etc.)\n\n        The inner loop is run until the starting list is the same as the result\n        list, and then the result is returned. This means that operation\n        optimization must be stable and always return an equal or shorter list.\n        \"\"\"",
+                    "name": "optimize",
+                    "namespace": "django.db.migrations.optimizer.MigrationOptimizer.optimize",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Inner optimization loop.\"\"\"",
+                    "name": "optimize_inner",
+                    "namespace": "django.db.migrations.optimizer.MigrationOptimizer.optimize_inner",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.db.migrations"
 }

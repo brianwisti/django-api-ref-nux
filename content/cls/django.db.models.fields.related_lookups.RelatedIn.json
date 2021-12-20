@@ -3,5 +3,23 @@
     "name": "RelatedIn",
     "namespace": "django.db.models.fields.related_lookups.RelatedIn",
     "module_name": "django.db.models.fields.related_lookups",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "get_prep_lookup",
+            "namespace": "django.db.models.fields.related_lookups.RelatedIn.get_prep_lookup",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "as_sql",
+            "namespace": "django.db.models.fields.related_lookups.RelatedIn.as_sql",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

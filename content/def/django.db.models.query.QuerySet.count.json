@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Perform a SELECT COUNT() and return the number of records as an\n        integer.\n\n        If the QuerySet is already fully cached, return the length of the\n        cached results set to avoid multiple SELECT COUNT(*) calls.\n        \"\"\"",
+    "name": "count",
+    "namespace": "django.db.models.query.QuerySet.count",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

@@ -2,5 +2,127 @@
     "namespace": "django.test.signals",
     "docstring": "",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "",
+            "name": "clear_cache_handlers",
+            "namespace": "django.test.signals.clear_cache_handlers",
+            "class_name": "",
+            "module_name": "django.test.signals",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "update_installed_apps",
+            "namespace": "django.test.signals.update_installed_apps",
+            "class_name": "",
+            "module_name": "django.test.signals",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "update_connections_time_zone",
+            "namespace": "django.test.signals.update_connections_time_zone",
+            "class_name": "",
+            "module_name": "django.test.signals",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "clear_routers_cache",
+            "namespace": "django.test.signals.clear_routers_cache",
+            "class_name": "",
+            "module_name": "django.test.signals",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "reset_template_engines",
+            "namespace": "django.test.signals.reset_template_engines",
+            "class_name": "",
+            "module_name": "django.test.signals",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "clear_serializers_cache",
+            "namespace": "django.test.signals.clear_serializers_cache",
+            "class_name": "",
+            "module_name": "django.test.signals",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "language_changed",
+            "namespace": "django.test.signals.language_changed",
+            "class_name": "",
+            "module_name": "django.test.signals",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "localize_settings_changed",
+            "namespace": "django.test.signals.localize_settings_changed",
+            "class_name": "",
+            "module_name": "django.test.signals",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "file_storage_changed",
+            "namespace": "django.test.signals.file_storage_changed",
+            "class_name": "",
+            "module_name": "django.test.signals",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "complex_setting_changed",
+            "namespace": "django.test.signals.complex_setting_changed",
+            "class_name": "",
+            "module_name": "django.test.signals",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "root_urlconf_changed",
+            "namespace": "django.test.signals.root_urlconf_changed",
+            "class_name": "",
+            "module_name": "django.test.signals",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "static_storage_changed",
+            "namespace": "django.test.signals.static_storage_changed",
+            "class_name": "",
+            "module_name": "django.test.signals",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "static_finders_changed",
+            "namespace": "django.test.signals.static_finders_changed",
+            "class_name": "",
+            "module_name": "django.test.signals",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "auth_password_validators_changed",
+            "namespace": "django.test.signals.auth_password_validators_changed",
+            "class_name": "",
+            "module_name": "django.test.signals",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "user_model_swapped",
+            "namespace": "django.test.signals.user_model_swapped",
+            "class_name": "",
+            "module_name": "django.test.signals",
+            "package_name": ""
+        }
+    ],
     "package_name": "django.test"
 }

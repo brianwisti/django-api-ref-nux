@@ -1,0 +1,8 @@
+{
+    "docstring": "r\"\"\"\n    Return an absolute URL matching the given view with its parameters.\n\n    This is a way to define links that aren't tied to a particular URL\n    configuration::\n\n        {% url \"url_name\" arg1 arg2 %}\n\n        or\n\n        {% url \"url_name\" name1=value1 name2=value2 %}\n\n    The first argument is a URL pattern name. Other arguments are\n    space-separated values that will be filled in place of positional and\n    keyword arguments in the URL. Don't mix positional and keyword arguments.\n    All arguments for the URL must be present.\n\n    For example, if you have a view ``app_name.views.client_details`` taking\n    the client's id and the corresponding line in a URLconf looks like this::\n\n        path('client/<int:id>/', views.client_details, name='client-detail-view')\n\n    and this app's URLconf is included into the project's URLconf under some\n    path::\n\n        path('clients/', include('app_name.urls'))\n\n    then in a template you can create a link for a certain client like this::\n\n        {% url \"client-detail-view\" client.id %}\n\n    The URL will look like ``/clients/client/123/``.\n\n    The first argument may also be the name of a template variable that will be\n    evaluated to obtain the view name or the URL name, e.g.::\n\n        {% with url_name=\"client-detail-view\" %}\n        {% url url_name client.id %}\n        {% endwith %}\n    \"\"\"",
+    "name": "url",
+    "namespace": "django.template.defaulttags.url",
+    "class_name": "",
+    "module_name": "django.template.defaulttags",
+    "package_name": ""
+}

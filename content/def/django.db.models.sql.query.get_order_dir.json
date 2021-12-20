@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Return the field name and direction for an order specification. For\n    example, '-foo' is returned as ('foo', 'DESC').\n\n    The 'default' param is used to indicate which way no prefix (or a '+'\n    prefix) should sort. The '-' prefix always sorts the opposite way.\n    \"\"\"",
+    "name": "get_order_dir",
+    "namespace": "django.db.models.sql.query.get_order_dir",
+    "class_name": "",
+    "module_name": "django.db.models.sql.query",
+    "package_name": ""
+}

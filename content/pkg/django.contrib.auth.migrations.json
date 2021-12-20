@@ -2,66 +2,96 @@
     "name": "django.contrib.auth.migrations",
     "docstring": "",
     "package_name": "django.contrib.auth",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.contrib.auth.migrations.0012_alter_user_first_name_max_length",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.auth.migrations"
         },
         {
             "namespace": "django.contrib.auth.migrations.0004_alter_user_username_opts",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.auth.migrations"
         },
         {
             "namespace": "django.contrib.auth.migrations.0010_alter_group_name_max_length",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.auth.migrations"
         },
         {
             "namespace": "django.contrib.auth.migrations.0005_alter_user_last_login_null",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.auth.migrations"
         },
         {
             "namespace": "django.contrib.auth.migrations.0009_alter_user_last_name_max_length",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.auth.migrations"
         },
         {
             "namespace": "django.contrib.auth.migrations.0003_alter_user_email_max_length",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.auth.migrations"
         },
         {
             "namespace": "django.contrib.auth.migrations.0007_alter_validators_add_error_messages",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.auth.migrations"
         },
         {
             "namespace": "django.contrib.auth.migrations.0006_require_contenttypes_0002",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.auth.migrations"
         },
         {
             "namespace": "django.contrib.auth.migrations.0011_update_proxy_permissions",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Update the content_type of proxy model permissions to use the ContentType\n    of the proxy model.\n    \"\"\"",
+                    "name": "update_proxy_model_permissions",
+                    "namespace": "django.contrib.auth.migrations.0011_update_proxy_permissions.update_proxy_model_permissions",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth.migrations.0011_update_proxy_permissions",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Update the content_type of proxy model permissions to use the ContentType\n    of the concrete model.\n    \"\"\"",
+                    "name": "revert_proxy_model_permissions",
+                    "namespace": "django.contrib.auth.migrations.0011_update_proxy_permissions.revert_proxy_model_permissions",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth.migrations.0011_update_proxy_permissions",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.auth.migrations"
         },
         {
             "namespace": "django.contrib.auth.migrations.0002_alter_permission_name_max_length",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.auth.migrations"
         },
         {
             "namespace": "django.contrib.auth.migrations.0001_initial",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.auth.migrations"
         },
         {
             "namespace": "django.contrib.auth.migrations.0008_alter_user_username_max_length",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.auth.migrations"
         }
     ],

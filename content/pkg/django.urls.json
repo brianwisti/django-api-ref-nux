@@ -2,36 +2,216 @@
     "name": "django.urls",
     "docstring": "",
     "package_name": "django",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.urls.resolvers",
             "docstring": "\"\"\"\nThis module converts requested URLs to callback view functions.\n\nURLResolver is the main class here. Its resolve() method takes a URL (as\na string) and returns a ResolverMatch object which provides access to all\nattributes of the resolved URL match.\n\"\"\"",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "get_resolver",
+                    "namespace": "django.urls.resolvers.get_resolver",
+                    "class_name": "",
+                    "module_name": "django.urls.resolvers",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_get_cached_resolver",
+                    "namespace": "django.urls.resolvers._get_cached_resolver",
+                    "class_name": "",
+                    "module_name": "django.urls.resolvers",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_ns_resolver",
+                    "namespace": "django.urls.resolvers.get_ns_resolver",
+                    "class_name": "",
+                    "module_name": "django.urls.resolvers",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Convert a path pattern into a regular expression. Return the regular\n    expression and a dictionary mapping the capture names to the converters.\n    For example, 'foo/<int:pk>' returns '^foo\\\\/(?P<pk>[0-9]+)'\n    and {'pk': <django.urls.converters.IntConverter>}.\n    \"\"\"",
+                    "name": "_route_to_regex",
+                    "namespace": "django.urls.resolvers._route_to_regex",
+                    "class_name": "",
+                    "module_name": "django.urls.resolvers",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.urls"
         },
         {
             "namespace": "django.urls.conf",
             "docstring": "\"\"\"Functions for use in URLsconfs.\"\"\"",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "include",
+                    "namespace": "django.urls.conf.include",
+                    "class_name": "",
+                    "module_name": "django.urls.conf",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_path",
+                    "namespace": "django.urls.conf._path",
+                    "class_name": "",
+                    "module_name": "django.urls.conf",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.urls"
         },
         {
             "namespace": "django.urls.utils",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Return a callable corresponding to lookup_view.\n    * If lookup_view is already a callable, return it.\n    * If lookup_view is a string import path that can be resolved to a callable,\n      import that callable and return it, otherwise raise an exception\n      (ImportError or ViewDoesNotExist).\n    \"\"\"",
+                    "name": "get_callable",
+                    "namespace": "django.urls.utils.get_callable",
+                    "class_name": "",
+                    "module_name": "django.urls.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_mod_func",
+                    "namespace": "django.urls.utils.get_mod_func",
+                    "class_name": "",
+                    "module_name": "django.urls.utils",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.urls"
         },
         {
             "namespace": "django.urls.exceptions",
             "docstring": "",
+            "functions": [],
             "package_name": "django.urls"
         },
         {
             "namespace": "django.urls.converters",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "register_converter",
+                    "namespace": "django.urls.converters.register_converter",
+                    "class_name": "",
+                    "module_name": "django.urls.converters",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_converters",
+                    "namespace": "django.urls.converters.get_converters",
+                    "class_name": "",
+                    "module_name": "django.urls.converters",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_converter",
+                    "namespace": "django.urls.converters.get_converter",
+                    "class_name": "",
+                    "module_name": "django.urls.converters",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.urls"
         },
         {
             "namespace": "django.urls.base",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "resolve",
+                    "namespace": "django.urls.base.resolve",
+                    "class_name": "",
+                    "module_name": "django.urls.base",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "reverse",
+                    "namespace": "django.urls.base.reverse",
+                    "class_name": "",
+                    "module_name": "django.urls.base",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "clear_url_caches",
+                    "namespace": "django.urls.base.clear_url_caches",
+                    "class_name": "",
+                    "module_name": "django.urls.base",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Set the script prefix for the current thread.\n    \"\"\"",
+                    "name": "set_script_prefix",
+                    "namespace": "django.urls.base.set_script_prefix",
+                    "class_name": "",
+                    "module_name": "django.urls.base",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return the currently active script prefix. Useful for client code that\n    wishes to construct their own URLs manually (although accessing the request\n    instance is normally going to be a lot cleaner).\n    \"\"\"",
+                    "name": "get_script_prefix",
+                    "namespace": "django.urls.base.get_script_prefix",
+                    "class_name": "",
+                    "module_name": "django.urls.base",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Unset the script prefix for the current thread.\n    \"\"\"",
+                    "name": "clear_script_prefix",
+                    "namespace": "django.urls.base.clear_script_prefix",
+                    "class_name": "",
+                    "module_name": "django.urls.base",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Set the URLconf for the current thread (overriding the default one in\n    settings). If urlconf_name is None, revert back to the default.\n    \"\"\"",
+                    "name": "set_urlconf",
+                    "namespace": "django.urls.base.set_urlconf",
+                    "class_name": "",
+                    "module_name": "django.urls.base",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return the root URLconf to use for the current thread if it has been\n    changed from the default one.\n    \"\"\"",
+                    "name": "get_urlconf",
+                    "namespace": "django.urls.base.get_urlconf",
+                    "class_name": "",
+                    "module_name": "django.urls.base",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return the ResolverMatch if the given path resolves against the default URL\n    resolver, False otherwise. This is a convenience method to make working\n    with \"is this a match?\" cases easier, avoiding try...except blocks.\n    \"\"\"",
+                    "name": "is_valid_path",
+                    "namespace": "django.urls.base.is_valid_path",
+                    "class_name": "",
+                    "module_name": "django.urls.base",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Given a URL (absolute or relative), try to get its translated version in\n    the `lang_code` language (either by i18n_patterns or by translated regex).\n    Return the original URL if no translated version is found.\n    \"\"\"",
+                    "name": "translate_url",
+                    "namespace": "django.urls.base.translate_url",
+                    "class_name": "",
+                    "module_name": "django.urls.base",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.urls"
         }
     ],

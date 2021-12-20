@@ -5,8 +5,243 @@
         {
             "docstring": "\"\"\"\n    A base class which provides complete list interface.\n    Derived classes must call ListMixin's __init__() function\n    and implement the following:\n\n    function _get_single_external(self, i):\n        Return single item with index i for general use.\n        The index i will always satisfy 0 <= i < len(self).\n\n    function _get_single_internal(self, i):\n        Same as above, but for use within the class [Optional]\n        Note that if _get_single_internal and _get_single_internal return\n        different types of objects, _set_list must distinguish\n        between the two and handle each appropriately.\n\n    function _set_list(self, length, items):\n        Recreate the entire object.\n\n        NOTE: items may be a generator which calls _get_single_internal.\n        Therefore, it is necessary to cache the values in a temporary:\n            temp = list(items)\n        before clobbering the original storage.\n\n    function _set_single(self, i, value):\n        Set the single item at index i to value [Optional]\n        If left undefined, all mutations will result in rebuilding\n        the object using _set_list.\n\n    function __len__(self):\n        Return the length\n\n    int _minlength:\n        The minimum legal length [Optional]\n\n    int _maxlength:\n        The maximum legal length [Optional]\n\n    type or tuple _allowed:\n        A type or tuple of allowed item types [Optional]\n    \"\"\"",
             "name": "ListMixin",
-            "namespace": "django.contrib.gis.geos.mutable_list.ListMixin"
+            "namespace": "django.contrib.gis.geos.mutable_list.ListMixin",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.gis.geos.mutable_list.ListMixin.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Get the item(s) at the specified index/slice.\"",
+                    "name": "__getitem__",
+                    "namespace": "django.contrib.gis.geos.mutable_list.ListMixin.__getitem__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Delete the item(s) at the specified index/slice.\"",
+                    "name": "__delitem__",
+                    "namespace": "django.contrib.gis.geos.mutable_list.ListMixin.__delitem__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Set the item(s) at the specified index/slice.\"",
+                    "name": "__setitem__",
+                    "namespace": "django.contrib.gis.geos.mutable_list.ListMixin.__setitem__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "'add another list-like object'",
+                    "name": "__add__",
+                    "namespace": "django.contrib.gis.geos.mutable_list.ListMixin.__add__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "'add to another list-like object'",
+                    "name": "__radd__",
+                    "namespace": "django.contrib.gis.geos.mutable_list.ListMixin.__radd__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "'add another list-like object to self'",
+                    "name": "__iadd__",
+                    "namespace": "django.contrib.gis.geos.mutable_list.ListMixin.__iadd__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "'multiply'",
+                    "name": "__mul__",
+                    "namespace": "django.contrib.gis.geos.mutable_list.ListMixin.__mul__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "'multiply'",
+                    "name": "__rmul__",
+                    "namespace": "django.contrib.gis.geos.mutable_list.ListMixin.__rmul__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "'multiply'",
+                    "name": "__imul__",
+                    "namespace": "django.contrib.gis.geos.mutable_list.ListMixin.__imul__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__eq__",
+                    "namespace": "django.contrib.gis.geos.mutable_list.ListMixin.__eq__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__lt__",
+                    "namespace": "django.contrib.gis.geos.mutable_list.ListMixin.__lt__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Standard list count method\"",
+                    "name": "count",
+                    "namespace": "django.contrib.gis.geos.mutable_list.ListMixin.count",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Standard list index method\"",
+                    "name": "index",
+                    "namespace": "django.contrib.gis.geos.mutable_list.ListMixin.index",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Standard list append method\"",
+                    "name": "append",
+                    "namespace": "django.contrib.gis.geos.mutable_list.ListMixin.append",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Standard list extend method\"",
+                    "name": "extend",
+                    "namespace": "django.contrib.gis.geos.mutable_list.ListMixin.extend",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Standard list insert method\"",
+                    "name": "insert",
+                    "namespace": "django.contrib.gis.geos.mutable_list.ListMixin.insert",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Standard list pop method\"",
+                    "name": "pop",
+                    "namespace": "django.contrib.gis.geos.mutable_list.ListMixin.pop",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Standard list remove method\"",
+                    "name": "remove",
+                    "namespace": "django.contrib.gis.geos.mutable_list.ListMixin.remove",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Standard list reverse method\"",
+                    "name": "reverse",
+                    "namespace": "django.contrib.gis.geos.mutable_list.ListMixin.reverse",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Standard list sort method\"",
+                    "name": "sort",
+                    "namespace": "django.contrib.gis.geos.mutable_list.ListMixin.sort",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_rebuild",
+                    "namespace": "django.contrib.gis.geos.mutable_list.ListMixin._rebuild",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_set_single_rebuild",
+                    "namespace": "django.contrib.gis.geos.mutable_list.ListMixin._set_single_rebuild",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_checkindex",
+                    "namespace": "django.contrib.gis.geos.mutable_list.ListMixin._checkindex",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_check_allowed",
+                    "namespace": "django.contrib.gis.geos.mutable_list.ListMixin._check_allowed",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Assign values to a slice of the object\"",
+                    "name": "_set_slice",
+                    "namespace": "django.contrib.gis.geos.mutable_list.ListMixin._set_slice",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "'Assign an extended slice by rebuilding entire list'",
+                    "name": "_assign_extended_slice_rebuild",
+                    "namespace": "django.contrib.gis.geos.mutable_list.ListMixin._assign_extended_slice_rebuild",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "'Assign an extended slice by re-assigning individual items'",
+                    "name": "_assign_extended_slice",
+                    "namespace": "django.contrib.gis.geos.mutable_list.ListMixin._assign_extended_slice",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "'Assign a simple slice; Can assign slice of any length'",
+                    "name": "_assign_simple_slice",
+                    "namespace": "django.contrib.gis.geos.mutable_list.ListMixin._assign_simple_slice",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.gis.geos"
 }

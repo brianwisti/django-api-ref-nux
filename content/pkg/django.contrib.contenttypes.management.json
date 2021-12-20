@@ -2,13 +2,73 @@
     "name": "django.contrib.contenttypes.management",
     "docstring": "",
     "package_name": "django.contrib.contenttypes",
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Insert a `RenameContentType` operation after every planned `RenameModel`\n    operation.\n    \"\"\"",
+            "name": "inject_rename_contenttypes_operations",
+            "namespace": "django.contrib.contenttypes.management.inject_rename_contenttypes_operations",
+            "class_name": "",
+            "module_name": "django.contrib.contenttypes.management",
+            "package_name": "django.contrib.contenttypes.management"
+        },
+        {
+            "docstring": "",
+            "name": "get_contenttypes_and_models",
+            "namespace": "django.contrib.contenttypes.management.get_contenttypes_and_models",
+            "class_name": "",
+            "module_name": "django.contrib.contenttypes.management",
+            "package_name": "django.contrib.contenttypes.management"
+        },
+        {
+            "docstring": "\"\"\"\n    Create content types for models in the given app.\n    \"\"\"",
+            "name": "create_contenttypes",
+            "namespace": "django.contrib.contenttypes.management.create_contenttypes",
+            "class_name": "",
+            "module_name": "django.contrib.contenttypes.management",
+            "package_name": "django.contrib.contenttypes.management"
+        }
+    ],
     "classes": [
         {
             "docstring": "",
             "name": "RenameContentType",
             "namespace": "django.contrib.contenttypes.management.RenameContentType",
             "module_name": "django.contrib.contenttypes.management",
-            "package_name": "django.contrib.contenttypes.management"
+            "package_name": "django.contrib.contenttypes.management",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.contenttypes.management.RenameContentType.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_rename",
+                    "namespace": "django.contrib.contenttypes.management.RenameContentType._rename",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "rename_forward",
+                    "namespace": "django.contrib.contenttypes.management.RenameContentType.rename_forward",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "rename_backward",
+                    "namespace": "django.contrib.contenttypes.management.RenameContentType.rename_backward",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
     "modules": [],
@@ -16,7 +76,8 @@
         {
             "name": "django.contrib.contenttypes.management.commands",
             "docstring": "",
-            "package_name": "django.contrib.contenttypes.management"
+            "package_name": "django.contrib.contenttypes.management",
+            "functions": []
         }
     ]
 }

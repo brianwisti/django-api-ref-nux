@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Check that self.model is compatible with target_opts. Compatibility\n    is OK if:\n      1) model and opts match (where proxy inheritance is removed)\n      2) model is parent of opts' model or the other way around\n    \"\"\"",
+    "name": "check_rel_lookup_compatibility",
+    "namespace": "django.db.models.query_utils.check_rel_lookup_compatibility",
+    "class_name": "",
+    "module_name": "django.db.models.query_utils",
+    "package_name": ""
+}

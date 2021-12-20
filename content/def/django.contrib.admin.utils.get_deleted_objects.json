@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Find all objects related to ``objs`` that should also be deleted. ``objs``\n    must be a homogeneous iterable of objects (e.g. a QuerySet).\n\n    Return a nested list of strings suitable for display in the\n    template with the ``unordered_list`` filter.\n    \"\"\"",
+    "name": "get_deleted_objects",
+    "namespace": "django.contrib.admin.utils.get_deleted_objects",
+    "class_name": "",
+    "module_name": "django.contrib.admin.utils",
+    "package_name": ""
+}

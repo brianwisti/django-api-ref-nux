@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Used to invalidate/disable this lazy stream.\n\n        Replace the producer with an empty list. Any leftover bytes that have\n        already been read will still be reported upon read() and/or next().\n        \"\"\"",
+    "name": "close",
+    "namespace": "django.http.multipartparser.LazyStream.close",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

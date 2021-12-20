@@ -5,12 +5,298 @@
         {
             "docstring": "",
             "name": "DatabaseWrapper",
-            "namespace": "django.db.backends.sqlite3.base.DatabaseWrapper"
+            "namespace": "django.db.backends.sqlite3.base.DatabaseWrapper",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_connection_params",
+                    "namespace": "django.db.backends.sqlite3.base.DatabaseWrapper.get_connection_params",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_new_connection",
+                    "namespace": "django.db.backends.sqlite3.base.DatabaseWrapper.get_new_connection",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "init_connection_state",
+                    "namespace": "django.db.backends.sqlite3.base.DatabaseWrapper.init_connection_state",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "create_cursor",
+                    "namespace": "django.db.backends.sqlite3.base.DatabaseWrapper.create_cursor",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "close",
+                    "namespace": "django.db.backends.sqlite3.base.DatabaseWrapper.close",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_savepoint_allowed",
+                    "namespace": "django.db.backends.sqlite3.base.DatabaseWrapper._savepoint_allowed",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_set_autocommit",
+                    "namespace": "django.db.backends.sqlite3.base.DatabaseWrapper._set_autocommit",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "disable_constraint_checking",
+                    "namespace": "django.db.backends.sqlite3.base.DatabaseWrapper.disable_constraint_checking",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "enable_constraint_checking",
+                    "namespace": "django.db.backends.sqlite3.base.DatabaseWrapper.enable_constraint_checking",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Check each table name in `table_names` for rows with invalid foreign\n        key references. This method is intended to be used in conjunction with\n        `disable_constraint_checking()` and `enable_constraint_checking()`, to\n        determine if rows with invalid references were entered while constraint\n        checks were off.\n        \"\"\"",
+                    "name": "check_constraints",
+                    "namespace": "django.db.backends.sqlite3.base.DatabaseWrapper.check_constraints",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "is_usable",
+                    "namespace": "django.db.backends.sqlite3.base.DatabaseWrapper.is_usable",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Start a transaction explicitly in autocommit mode.\n\n        Staying in autocommit mode works around a bug of sqlite3 that breaks\n        savepoints when autocommit is disabled.\n        \"\"\"",
+                    "name": "_start_transaction_under_autocommit",
+                    "namespace": "django.db.backends.sqlite3.base.DatabaseWrapper._start_transaction_under_autocommit",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "is_in_memory_db",
+                    "namespace": "django.db.backends.sqlite3.base.DatabaseWrapper.is_in_memory_db",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Django uses \"format\" style placeholders, but pysqlite2 uses \"qmark\" style.\n    This fixes it -- but note that if you want to use a literal \"%s\" in a query,\n    you'll need to use \"%%s\".\n    \"\"\"",
             "name": "SQLiteCursorWrapper",
-            "namespace": "django.db.backends.sqlite3.base.SQLiteCursorWrapper"
+            "namespace": "django.db.backends.sqlite3.base.SQLiteCursorWrapper",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "execute",
+                    "namespace": "django.db.backends.sqlite3.base.SQLiteCursorWrapper.execute",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "executemany",
+                    "namespace": "django.db.backends.sqlite3.base.SQLiteCursorWrapper.executemany",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "convert_query",
+                    "namespace": "django.db.backends.sqlite3.base.SQLiteCursorWrapper.convert_query",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Convert bytestrings from Python's sqlite3 interface to a regular string.\n    \"\"\"",
+            "name": "decoder",
+            "namespace": "django.db.backends.sqlite3.base.decoder",
+            "class_name": "",
+            "module_name": "django.db.backends.sqlite3.base",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Decorator that returns None if any of the arguments to the decorated\n    function are None. Many SQL functions return NULL if any of their arguments\n    are NULL. This decorator simplifies the implementation of this for the\n    custom functions registered below.\n    \"\"\"",
+            "name": "none_guard",
+            "namespace": "django.db.backends.sqlite3.base.none_guard",
+            "class_name": "",
+            "module_name": "django.db.backends.sqlite3.base",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return an aggregate class that accumulates values in a list and applies\n    the provided function to the data.\n    \"\"\"",
+            "name": "list_aggregate",
+            "namespace": "django.db.backends.sqlite3.base.list_aggregate",
+            "class_name": "",
+            "module_name": "django.db.backends.sqlite3.base",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "check_sqlite_version",
+            "namespace": "django.db.backends.sqlite3.base.check_sqlite_version",
+            "class_name": "",
+            "module_name": "django.db.backends.sqlite3.base",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_sqlite_datetime_parse",
+            "namespace": "django.db.backends.sqlite3.base._sqlite_datetime_parse",
+            "class_name": "",
+            "module_name": "django.db.backends.sqlite3.base",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_sqlite_date_trunc",
+            "namespace": "django.db.backends.sqlite3.base._sqlite_date_trunc",
+            "class_name": "",
+            "module_name": "django.db.backends.sqlite3.base",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_sqlite_time_trunc",
+            "namespace": "django.db.backends.sqlite3.base._sqlite_time_trunc",
+            "class_name": "",
+            "module_name": "django.db.backends.sqlite3.base",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_sqlite_datetime_cast_date",
+            "namespace": "django.db.backends.sqlite3.base._sqlite_datetime_cast_date",
+            "class_name": "",
+            "module_name": "django.db.backends.sqlite3.base",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_sqlite_datetime_cast_time",
+            "namespace": "django.db.backends.sqlite3.base._sqlite_datetime_cast_time",
+            "class_name": "",
+            "module_name": "django.db.backends.sqlite3.base",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_sqlite_datetime_extract",
+            "namespace": "django.db.backends.sqlite3.base._sqlite_datetime_extract",
+            "class_name": "",
+            "module_name": "django.db.backends.sqlite3.base",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_sqlite_datetime_trunc",
+            "namespace": "django.db.backends.sqlite3.base._sqlite_datetime_trunc",
+            "class_name": "",
+            "module_name": "django.db.backends.sqlite3.base",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_sqlite_time_extract",
+            "namespace": "django.db.backends.sqlite3.base._sqlite_time_extract",
+            "class_name": "",
+            "module_name": "django.db.backends.sqlite3.base",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_sqlite_prepare_dtdelta_param",
+            "namespace": "django.db.backends.sqlite3.base._sqlite_prepare_dtdelta_param",
+            "class_name": "",
+            "module_name": "django.db.backends.sqlite3.base",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    LHS and RHS can be either:\n    - An integer number of microseconds\n    - A string representing a datetime\n    - A scalar value, e.g. float\n    \"\"\"",
+            "name": "_sqlite_format_dtdelta",
+            "namespace": "django.db.backends.sqlite3.base._sqlite_format_dtdelta",
+            "class_name": "",
+            "module_name": "django.db.backends.sqlite3.base",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_sqlite_time_diff",
+            "namespace": "django.db.backends.sqlite3.base._sqlite_time_diff",
+            "class_name": "",
+            "module_name": "django.db.backends.sqlite3.base",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_sqlite_timestamp_diff",
+            "namespace": "django.db.backends.sqlite3.base._sqlite_timestamp_diff",
+            "class_name": "",
+            "module_name": "django.db.backends.sqlite3.base",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_sqlite_regexp",
+            "namespace": "django.db.backends.sqlite3.base._sqlite_regexp",
+            "class_name": "",
+            "module_name": "django.db.backends.sqlite3.base",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_sqlite_lpad",
+            "namespace": "django.db.backends.sqlite3.base._sqlite_lpad",
+            "class_name": "",
+            "module_name": "django.db.backends.sqlite3.base",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_sqlite_rpad",
+            "namespace": "django.db.backends.sqlite3.base._sqlite_rpad",
+            "class_name": "",
+            "module_name": "django.db.backends.sqlite3.base",
+            "package_name": ""
         }
     ],
     "package_name": "django.db.backends.sqlite3"

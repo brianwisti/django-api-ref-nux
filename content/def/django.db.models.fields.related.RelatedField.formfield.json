@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Pass ``limit_choices_to`` to the field being constructed.\n\n        Only passes it if there is a type that supports related fields.\n        This is a similar strategy used to pass the ``queryset`` to the field\n        being constructed.\n        \"\"\"",
+    "name": "formfield",
+    "namespace": "django.db.models.fields.related.RelatedField.formfield",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

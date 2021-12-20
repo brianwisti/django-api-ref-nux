@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Return a QuerySet or a Manager.\n    Duck typing in action: any class with a `get()` method (for\n    get_object_or_404) or a `filter()` method (for get_list_or_404) might do\n    the job.\n    \"\"\"",
+    "name": "_get_queryset",
+    "namespace": "django.shortcuts._get_queryset",
+    "class_name": "",
+    "module_name": "django.shortcuts",
+    "package_name": ""
+}

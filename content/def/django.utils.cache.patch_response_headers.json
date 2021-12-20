@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Add HTTP caching headers to the given HttpResponse: Expires and\n    Cache-Control.\n\n    Each header is only added if it isn't already set.\n\n    cache_timeout is in seconds. The CACHE_MIDDLEWARE_SECONDS setting is used\n    by default.\n    \"\"\"",
+    "name": "patch_response_headers",
+    "namespace": "django.utils.cache.patch_response_headers",
+    "class_name": "",
+    "module_name": "django.utils.cache",
+    "package_name": ""
+}

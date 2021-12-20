@@ -3,5 +3,143 @@
     "name": "BaseContext",
     "namespace": "django.template.context.BaseContext",
     "module_name": "django.template.context",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.template.context.BaseContext.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_reset_dicts",
+            "namespace": "django.template.context.BaseContext._reset_dicts",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__copy__",
+            "namespace": "django.template.context.BaseContext.__copy__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__repr__",
+            "namespace": "django.template.context.BaseContext.__repr__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__iter__",
+            "namespace": "django.template.context.BaseContext.__iter__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "push",
+            "namespace": "django.template.context.BaseContext.push",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "pop",
+            "namespace": "django.template.context.BaseContext.pop",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Set a variable in the current context\"",
+            "name": "__setitem__",
+            "namespace": "django.template.context.BaseContext.__setitem__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Set a variable in one of the higher contexts if it exists there,\n        otherwise in the current context.\n        \"\"\"",
+            "name": "set_upward",
+            "namespace": "django.template.context.BaseContext.set_upward",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Get a variable's value, starting at the current context and going upward\"",
+            "name": "__getitem__",
+            "namespace": "django.template.context.BaseContext.__getitem__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"Delete a variable from the current context\"",
+            "name": "__delitem__",
+            "namespace": "django.template.context.BaseContext.__delitem__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__contains__",
+            "namespace": "django.template.context.BaseContext.__contains__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get",
+            "namespace": "django.template.context.BaseContext.get",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "setdefault",
+            "namespace": "django.template.context.BaseContext.setdefault",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return a new context with the same properties, but with only the\n        values given in 'values' stored.\n        \"\"\"",
+            "name": "new",
+            "namespace": "django.template.context.BaseContext.new",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return self.dicts as one dictionary.\n        \"\"\"",
+            "name": "flatten",
+            "namespace": "django.template.context.BaseContext.flatten",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Compare two contexts by comparing theirs 'dicts' attributes.\n        \"\"\"",
+            "name": "__eq__",
+            "namespace": "django.template.context.BaseContext.__eq__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

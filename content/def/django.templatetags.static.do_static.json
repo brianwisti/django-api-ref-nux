@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Join the given path with the STATIC_URL setting.\n\n    Usage::\n\n        {% static path [as varname] %}\n\n    Examples::\n\n        {% static \"myapp/css/base.css\" %}\n        {% static variable_with_path %}\n        {% static \"myapp/css/base.css\" as admin_base_css %}\n        {% static variable_with_path as varname %}\n    \"\"\"",
+    "name": "do_static",
+    "namespace": "django.templatetags.static.do_static",
+    "class_name": "",
+    "module_name": "django.templatetags.static",
+    "package_name": ""
+}

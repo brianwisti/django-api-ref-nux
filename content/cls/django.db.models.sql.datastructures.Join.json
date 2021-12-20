@@ -3,5 +3,79 @@
     "name": "Join",
     "namespace": "django.db.models.sql.datastructures.Join",
     "module_name": "django.db.models.sql.datastructures",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.db.models.sql.datastructures.Join.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Generate the full\n           LEFT OUTER JOIN sometable ON sometable.somecol = othertable.othercol, params\n        clause for this join.\n        \"\"\"",
+            "name": "as_sql",
+            "namespace": "django.db.models.sql.datastructures.Join.as_sql",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "relabeled_clone",
+            "namespace": "django.db.models.sql.datastructures.Join.relabeled_clone",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "identity",
+            "namespace": "django.db.models.sql.datastructures.Join.identity",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__eq__",
+            "namespace": "django.db.models.sql.datastructures.Join.__eq__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__hash__",
+            "namespace": "django.db.models.sql.datastructures.Join.__hash__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "equals",
+            "namespace": "django.db.models.sql.datastructures.Join.equals",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "demote",
+            "namespace": "django.db.models.sql.datastructures.Join.demote",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "promote",
+            "namespace": "django.db.models.sql.datastructures.Join.promote",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

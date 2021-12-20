@@ -3,5 +3,55 @@
     "name": "Command",
     "namespace": "django.core.management.commands.inspectdb.Command",
     "module_name": "django.core.management.commands.inspectdb",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "add_arguments",
+            "namespace": "django.core.management.commands.inspectdb.Command.add_arguments",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "handle",
+            "namespace": "django.core.management.commands.inspectdb.Command.handle",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "handle_inspection",
+            "namespace": "django.core.management.commands.inspectdb.Command.handle_inspection",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Modify the column name to make it Python-compatible as a field name\n        \"\"\"",
+            "name": "normalize_col_name",
+            "namespace": "django.core.management.commands.inspectdb.Command.normalize_col_name",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Given the database connection, the table name, and the cursor row\n        description, this routine will return the given field type name, as\n        well as any additional keyword parameters and notes for the field.\n        \"\"\"",
+            "name": "get_field_type",
+            "namespace": "django.core.management.commands.inspectdb.Command.get_field_type",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return a sequence comprising the lines of code necessary\n        to construct the inner Meta class for the model corresponding\n        to the given database table name.\n        \"\"\"",
+            "name": "get_meta",
+            "namespace": "django.core.management.commands.inspectdb.Command.get_meta",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

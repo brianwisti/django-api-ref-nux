@@ -5,47 +5,178 @@
         {
             "docstring": "\"\"\"\n    Base view for admindocs views.\n    \"\"\"",
             "name": "BaseAdminDocsView",
-            "namespace": "django.contrib.admindocs.views.BaseAdminDocsView"
+            "namespace": "django.contrib.admindocs.views.BaseAdminDocsView",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "dispatch",
+                    "namespace": "django.contrib.admindocs.views.BaseAdminDocsView.dispatch",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_context_data",
+                    "namespace": "django.contrib.admindocs.views.BaseAdminDocsView.get_context_data",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "BookmarkletsView",
-            "namespace": "django.contrib.admindocs.views.BookmarkletsView"
+            "namespace": "django.contrib.admindocs.views.BookmarkletsView",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "TemplateTagIndexView",
-            "namespace": "django.contrib.admindocs.views.TemplateTagIndexView"
+            "namespace": "django.contrib.admindocs.views.TemplateTagIndexView",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_context_data",
+                    "namespace": "django.contrib.admindocs.views.TemplateTagIndexView.get_context_data",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "TemplateFilterIndexView",
-            "namespace": "django.contrib.admindocs.views.TemplateFilterIndexView"
+            "namespace": "django.contrib.admindocs.views.TemplateFilterIndexView",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_context_data",
+                    "namespace": "django.contrib.admindocs.views.TemplateFilterIndexView.get_context_data",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "ViewIndexView",
-            "namespace": "django.contrib.admindocs.views.ViewIndexView"
+            "namespace": "django.contrib.admindocs.views.ViewIndexView",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_context_data",
+                    "namespace": "django.contrib.admindocs.views.ViewIndexView.get_context_data",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "ViewDetailView",
-            "namespace": "django.contrib.admindocs.views.ViewDetailView"
+            "namespace": "django.contrib.admindocs.views.ViewDetailView",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "_get_view_func",
+                    "namespace": "django.contrib.admindocs.views.ViewDetailView._get_view_func",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_context_data",
+                    "namespace": "django.contrib.admindocs.views.ViewDetailView.get_context_data",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "ModelIndexView",
-            "namespace": "django.contrib.admindocs.views.ModelIndexView"
+            "namespace": "django.contrib.admindocs.views.ModelIndexView",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_context_data",
+                    "namespace": "django.contrib.admindocs.views.ModelIndexView.get_context_data",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "ModelDetailView",
-            "namespace": "django.contrib.admindocs.views.ModelDetailView"
+            "namespace": "django.contrib.admindocs.views.ModelDetailView",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_context_data",
+                    "namespace": "django.contrib.admindocs.views.ModelDetailView.get_context_data",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "TemplateDetailView",
-            "namespace": "django.contrib.admindocs.views.TemplateDetailView"
+            "namespace": "django.contrib.admindocs.views.TemplateDetailView",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_context_data",
+                    "namespace": "django.contrib.admindocs.views.TemplateDetailView.get_context_data",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\"Return a somewhat-helpful data type given a function name\"\"\"",
+            "name": "get_return_data_type",
+            "namespace": "django.contrib.admindocs.views.get_return_data_type",
+            "class_name": "",
+            "module_name": "django.contrib.admindocs.views",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return the description for a given field type, if it exists. Fields'\n    descriptions can contain format strings, which will be interpolated with\n    the values of field.__dict__ before being output.\n    \"\"\"",
+            "name": "get_readable_field_data_type",
+            "namespace": "django.contrib.admindocs.views.get_readable_field_data_type",
+            "class_name": "",
+            "module_name": "django.contrib.admindocs.views",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return a list of views from a list of urlpatterns.\n\n    Each object in the returned list is a two-tuple: (view_func, regex)\n    \"\"\"",
+            "name": "extract_views_from_urlpatterns",
+            "namespace": "django.contrib.admindocs.views.extract_views_from_urlpatterns",
+            "class_name": "",
+            "module_name": "django.contrib.admindocs.views",
+            "package_name": ""
+        },
+        {
+            "docstring": "r\"\"\"\n    Clean up urlpattern regexes into something more readable by humans. For\n    example, turn \"^(?P<sport_slug>\\w+)/athletes/(?P<athlete_slug>\\w+)/$\"\n    into \"/<sport_slug>/athletes/<athlete_slug>/\".\n    \"\"\"",
+            "name": "simplify_regex",
+            "namespace": "django.contrib.admindocs.views.simplify_regex",
+            "class_name": "",
+            "module_name": "django.contrib.admindocs.views",
+            "package_name": ""
         }
     ],
     "package_name": "django.contrib.admindocs"

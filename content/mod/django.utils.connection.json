@@ -5,18 +5,144 @@
         {
             "docstring": "\"\"\"Proxy for accessing a connection object's attributes.\"\"\"",
             "name": "ConnectionProxy",
-            "namespace": "django.utils.connection.ConnectionProxy"
+            "namespace": "django.utils.connection.ConnectionProxy",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.utils.connection.ConnectionProxy.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__getattr__",
+                    "namespace": "django.utils.connection.ConnectionProxy.__getattr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__setattr__",
+                    "namespace": "django.utils.connection.ConnectionProxy.__setattr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__delattr__",
+                    "namespace": "django.utils.connection.ConnectionProxy.__delattr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__contains__",
+                    "namespace": "django.utils.connection.ConnectionProxy.__contains__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__eq__",
+                    "namespace": "django.utils.connection.ConnectionProxy.__eq__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "ConnectionDoesNotExist",
-            "namespace": "django.utils.connection.ConnectionDoesNotExist"
+            "namespace": "django.utils.connection.ConnectionDoesNotExist",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "BaseConnectionHandler",
-            "namespace": "django.utils.connection.BaseConnectionHandler"
+            "namespace": "django.utils.connection.BaseConnectionHandler",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.utils.connection.BaseConnectionHandler.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "settings",
+                    "namespace": "django.utils.connection.BaseConnectionHandler.settings",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "configure_settings",
+                    "namespace": "django.utils.connection.BaseConnectionHandler.configure_settings",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "create_connection",
+                    "namespace": "django.utils.connection.BaseConnectionHandler.create_connection",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__getitem__",
+                    "namespace": "django.utils.connection.BaseConnectionHandler.__getitem__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__setitem__",
+                    "namespace": "django.utils.connection.BaseConnectionHandler.__setitem__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__delitem__",
+                    "namespace": "django.utils.connection.BaseConnectionHandler.__delitem__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__iter__",
+                    "namespace": "django.utils.connection.BaseConnectionHandler.__iter__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "all",
+                    "namespace": "django.utils.connection.BaseConnectionHandler.all",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.utils"
 }

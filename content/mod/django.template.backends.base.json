@@ -5,8 +5,59 @@
         {
             "docstring": "",
             "name": "BaseEngine",
-            "namespace": "django.template.backends.base.BaseEngine"
+            "namespace": "django.template.backends.base.BaseEngine",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        Initialize the template engine.\n\n        `params` is a dict of configuration settings.\n        \"\"\"",
+                    "name": "__init__",
+                    "namespace": "django.template.backends.base.BaseEngine.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "app_dirname",
+                    "namespace": "django.template.backends.base.BaseEngine.app_dirname",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Create and return a template for the given source code.\n\n        This method is optional.\n        \"\"\"",
+                    "name": "from_string",
+                    "namespace": "django.template.backends.base.BaseEngine.from_string",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Load and return a template for the given name.\n\n        Raise TemplateDoesNotExist if no such template exists.\n        \"\"\"",
+                    "name": "get_template",
+                    "namespace": "django.template.backends.base.BaseEngine.get_template",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return a list of directories to search for templates.\n        \"\"\"",
+                    "name": "template_dirs",
+                    "namespace": "django.template.backends.base.BaseEngine.template_dirs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Iterate over candidate files for template_name.\n\n        Ignore files that don't lie inside configured template dirs to avoid\n        directory traversal attacks.\n        \"\"\"",
+                    "name": "iter_template_filenames",
+                    "namespace": "django.template.backends.base.BaseEngine.iter_template_filenames",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.template.backends"
 }

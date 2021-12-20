@@ -2,16 +2,19 @@
     "name": "django.contrib.auth.management.commands",
     "docstring": "",
     "package_name": "django.contrib.auth.management",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.contrib.auth.management.commands.createsuperuser",
             "docstring": "\"\"\"\nManagement utility to create superusers.\n\"\"\"",
+            "functions": [],
             "package_name": "django.contrib.auth.management.commands"
         },
         {
             "namespace": "django.contrib.auth.management.commands.changepassword",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.auth.management.commands"
         }
     ],

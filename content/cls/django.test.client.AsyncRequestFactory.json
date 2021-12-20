@@ -3,5 +3,31 @@
     "name": "AsyncRequestFactory",
     "namespace": "django.test.client.AsyncRequestFactory",
     "module_name": "django.test.client",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "\"\"\"The base scope for a request.\"\"\"",
+            "name": "_base_scope",
+            "namespace": "django.test.client.AsyncRequestFactory._base_scope",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Construct a generic request object.\"\"\"",
+            "name": "request",
+            "namespace": "django.test.client.AsyncRequestFactory.request",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Construct an arbitrary HTTP request.\"\"\"",
+            "name": "generic",
+            "namespace": "django.test.client.AsyncRequestFactory.generic",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

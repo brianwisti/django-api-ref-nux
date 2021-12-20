@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    As per section 3.2 of RFC 3987, step three of converting a URI into an IRI,\n    repercent-encode any octet produced that is not part of a strictly legal\n    UTF-8 octet sequence.\n    \"\"\"",
+    "name": "repercent_broken_unicode",
+    "namespace": "django.utils.encoding.repercent_broken_unicode",
+    "class_name": "",
+    "module_name": "django.utils.encoding",
+    "package_name": ""
+}

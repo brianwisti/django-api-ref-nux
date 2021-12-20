@@ -2,16 +2,36 @@
     "name": "django.contrib.gis.sitemaps",
     "docstring": "",
     "package_name": "django.contrib.gis",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.contrib.gis.sitemaps.kml",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.gis.sitemaps"
         },
         {
             "namespace": "django.contrib.gis.sitemaps.views",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    This view generates KML for the given app label, model, and field name.\n\n    The field name must be that of a geographic field.\n    \"\"\"",
+                    "name": "kml",
+                    "namespace": "django.contrib.gis.sitemaps.views.kml",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.sitemaps.views",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return KMZ for the given app label, model, and field name.\n    \"\"\"",
+                    "name": "kmz",
+                    "namespace": "django.contrib.gis.sitemaps.views.kmz",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.sitemaps.views",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.gis.sitemaps"
         }
     ],

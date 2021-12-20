@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Backends can override this method if they can apply constraint\n        checking (e.g. via \"SET CONSTRAINTS ALL IMMEDIATE\"). Should raise an\n        IntegrityError if any invalid foreign key references are encountered.\n        \"\"\"",
+    "name": "check_constraints",
+    "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.check_constraints",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

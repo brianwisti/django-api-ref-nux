@@ -5,33 +5,134 @@
         {
             "docstring": "",
             "name": "CheckMessage",
-            "namespace": "django.core.checks.messages.CheckMessage"
+            "namespace": "django.core.checks.messages.CheckMessage",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.core.checks.messages.CheckMessage.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__eq__",
+                    "namespace": "django.core.checks.messages.CheckMessage.__eq__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__str__",
+                    "namespace": "django.core.checks.messages.CheckMessage.__str__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.core.checks.messages.CheckMessage.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "is_serious",
+                    "namespace": "django.core.checks.messages.CheckMessage.is_serious",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "is_silenced",
+                    "namespace": "django.core.checks.messages.CheckMessage.is_silenced",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Debug",
-            "namespace": "django.core.checks.messages.Debug"
+            "namespace": "django.core.checks.messages.Debug",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.core.checks.messages.Debug.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Info",
-            "namespace": "django.core.checks.messages.Info"
+            "namespace": "django.core.checks.messages.Info",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.core.checks.messages.Info.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Warning",
-            "namespace": "django.core.checks.messages.Warning"
+            "namespace": "django.core.checks.messages.Warning",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.core.checks.messages.Warning.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Error",
-            "namespace": "django.core.checks.messages.Error"
+            "namespace": "django.core.checks.messages.Error",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.core.checks.messages.Error.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Critical",
-            "namespace": "django.core.checks.messages.Critical"
+            "namespace": "django.core.checks.messages.Critical",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.core.checks.messages.Critical.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.core.checks"
 }

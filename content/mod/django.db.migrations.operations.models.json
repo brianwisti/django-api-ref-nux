@@ -5,87 +5,939 @@
         {
             "docstring": "",
             "name": "ModelOperation",
-            "namespace": "django.db.migrations.operations.models.ModelOperation"
+            "namespace": "django.db.migrations.operations.models.ModelOperation",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.migrations.operations.models.ModelOperation.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "name_lower",
+                    "namespace": "django.db.migrations.operations.models.ModelOperation.name_lower",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "references_model",
+                    "namespace": "django.db.migrations.operations.models.ModelOperation.references_model",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "reduce",
+                    "namespace": "django.db.migrations.operations.models.ModelOperation.reduce",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"Create a model's table.\"\"\"",
             "name": "CreateModel",
-            "namespace": "django.db.migrations.operations.models.CreateModel"
+            "namespace": "django.db.migrations.operations.models.CreateModel",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.migrations.operations.models.CreateModel.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "deconstruct",
+                    "namespace": "django.db.migrations.operations.models.CreateModel.deconstruct",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "state_forwards",
+                    "namespace": "django.db.migrations.operations.models.CreateModel.state_forwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "database_forwards",
+                    "namespace": "django.db.migrations.operations.models.CreateModel.database_forwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "database_backwards",
+                    "namespace": "django.db.migrations.operations.models.CreateModel.database_backwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "describe",
+                    "namespace": "django.db.migrations.operations.models.CreateModel.describe",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "migration_name_fragment",
+                    "namespace": "django.db.migrations.operations.models.CreateModel.migration_name_fragment",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "references_model",
+                    "namespace": "django.db.migrations.operations.models.CreateModel.references_model",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "reduce",
+                    "namespace": "django.db.migrations.operations.models.CreateModel.reduce",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"Drop a model's table.\"\"\"",
             "name": "DeleteModel",
-            "namespace": "django.db.migrations.operations.models.DeleteModel"
+            "namespace": "django.db.migrations.operations.models.DeleteModel",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "deconstruct",
+                    "namespace": "django.db.migrations.operations.models.DeleteModel.deconstruct",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "state_forwards",
+                    "namespace": "django.db.migrations.operations.models.DeleteModel.state_forwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "database_forwards",
+                    "namespace": "django.db.migrations.operations.models.DeleteModel.database_forwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "database_backwards",
+                    "namespace": "django.db.migrations.operations.models.DeleteModel.database_backwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "references_model",
+                    "namespace": "django.db.migrations.operations.models.DeleteModel.references_model",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "describe",
+                    "namespace": "django.db.migrations.operations.models.DeleteModel.describe",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "migration_name_fragment",
+                    "namespace": "django.db.migrations.operations.models.DeleteModel.migration_name_fragment",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"Rename a model.\"\"\"",
             "name": "RenameModel",
-            "namespace": "django.db.migrations.operations.models.RenameModel"
+            "namespace": "django.db.migrations.operations.models.RenameModel",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.migrations.operations.models.RenameModel.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "old_name_lower",
+                    "namespace": "django.db.migrations.operations.models.RenameModel.old_name_lower",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "new_name_lower",
+                    "namespace": "django.db.migrations.operations.models.RenameModel.new_name_lower",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "deconstruct",
+                    "namespace": "django.db.migrations.operations.models.RenameModel.deconstruct",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "state_forwards",
+                    "namespace": "django.db.migrations.operations.models.RenameModel.state_forwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "database_forwards",
+                    "namespace": "django.db.migrations.operations.models.RenameModel.database_forwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "database_backwards",
+                    "namespace": "django.db.migrations.operations.models.RenameModel.database_backwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "references_model",
+                    "namespace": "django.db.migrations.operations.models.RenameModel.references_model",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "describe",
+                    "namespace": "django.db.migrations.operations.models.RenameModel.describe",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "migration_name_fragment",
+                    "namespace": "django.db.migrations.operations.models.RenameModel.migration_name_fragment",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "reduce",
+                    "namespace": "django.db.migrations.operations.models.RenameModel.reduce",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "ModelOptionOperation",
-            "namespace": "django.db.migrations.operations.models.ModelOptionOperation"
+            "namespace": "django.db.migrations.operations.models.ModelOptionOperation",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "reduce",
+                    "namespace": "django.db.migrations.operations.models.ModelOptionOperation.reduce",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"Rename a model's table.\"\"\"",
             "name": "AlterModelTable",
-            "namespace": "django.db.migrations.operations.models.AlterModelTable"
+            "namespace": "django.db.migrations.operations.models.AlterModelTable",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.migrations.operations.models.AlterModelTable.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "deconstruct",
+                    "namespace": "django.db.migrations.operations.models.AlterModelTable.deconstruct",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "state_forwards",
+                    "namespace": "django.db.migrations.operations.models.AlterModelTable.state_forwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "database_forwards",
+                    "namespace": "django.db.migrations.operations.models.AlterModelTable.database_forwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "database_backwards",
+                    "namespace": "django.db.migrations.operations.models.AlterModelTable.database_backwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "describe",
+                    "namespace": "django.db.migrations.operations.models.AlterModelTable.describe",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "migration_name_fragment",
+                    "namespace": "django.db.migrations.operations.models.AlterModelTable.migration_name_fragment",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "AlterTogetherOptionOperation",
-            "namespace": "django.db.migrations.operations.models.AlterTogetherOptionOperation"
+            "namespace": "django.db.migrations.operations.models.AlterTogetherOptionOperation",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.migrations.operations.models.AlterTogetherOptionOperation.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "option_value",
+                    "namespace": "django.db.migrations.operations.models.AlterTogetherOptionOperation.option_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "deconstruct",
+                    "namespace": "django.db.migrations.operations.models.AlterTogetherOptionOperation.deconstruct",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "state_forwards",
+                    "namespace": "django.db.migrations.operations.models.AlterTogetherOptionOperation.state_forwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "database_forwards",
+                    "namespace": "django.db.migrations.operations.models.AlterTogetherOptionOperation.database_forwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "database_backwards",
+                    "namespace": "django.db.migrations.operations.models.AlterTogetherOptionOperation.database_backwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "references_field",
+                    "namespace": "django.db.migrations.operations.models.AlterTogetherOptionOperation.references_field",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "describe",
+                    "namespace": "django.db.migrations.operations.models.AlterTogetherOptionOperation.describe",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "migration_name_fragment",
+                    "namespace": "django.db.migrations.operations.models.AlterTogetherOptionOperation.migration_name_fragment",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Change the value of unique_together to the target one.\n    Input value of unique_together must be a set of tuples.\n    \"\"\"",
             "name": "AlterUniqueTogether",
-            "namespace": "django.db.migrations.operations.models.AlterUniqueTogether"
+            "namespace": "django.db.migrations.operations.models.AlterUniqueTogether",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.migrations.operations.models.AlterUniqueTogether.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Change the value of index_together to the target one.\n    Input value of index_together must be a set of tuples.\n    \"\"\"",
             "name": "AlterIndexTogether",
-            "namespace": "django.db.migrations.operations.models.AlterIndexTogether"
+            "namespace": "django.db.migrations.operations.models.AlterIndexTogether",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.migrations.operations.models.AlterIndexTogether.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"Represent a change with the order_with_respect_to option.\"\"\"",
             "name": "AlterOrderWithRespectTo",
-            "namespace": "django.db.migrations.operations.models.AlterOrderWithRespectTo"
+            "namespace": "django.db.migrations.operations.models.AlterOrderWithRespectTo",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.migrations.operations.models.AlterOrderWithRespectTo.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "deconstruct",
+                    "namespace": "django.db.migrations.operations.models.AlterOrderWithRespectTo.deconstruct",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "state_forwards",
+                    "namespace": "django.db.migrations.operations.models.AlterOrderWithRespectTo.state_forwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "database_forwards",
+                    "namespace": "django.db.migrations.operations.models.AlterOrderWithRespectTo.database_forwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "database_backwards",
+                    "namespace": "django.db.migrations.operations.models.AlterOrderWithRespectTo.database_backwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "references_field",
+                    "namespace": "django.db.migrations.operations.models.AlterOrderWithRespectTo.references_field",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "describe",
+                    "namespace": "django.db.migrations.operations.models.AlterOrderWithRespectTo.describe",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "migration_name_fragment",
+                    "namespace": "django.db.migrations.operations.models.AlterOrderWithRespectTo.migration_name_fragment",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Set new model options that don't directly affect the database schema\n    (like verbose_name, permissions, ordering). Python code in migrations\n    may still need them.\n    \"\"\"",
             "name": "AlterModelOptions",
-            "namespace": "django.db.migrations.operations.models.AlterModelOptions"
+            "namespace": "django.db.migrations.operations.models.AlterModelOptions",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.migrations.operations.models.AlterModelOptions.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "deconstruct",
+                    "namespace": "django.db.migrations.operations.models.AlterModelOptions.deconstruct",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "state_forwards",
+                    "namespace": "django.db.migrations.operations.models.AlterModelOptions.state_forwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "database_forwards",
+                    "namespace": "django.db.migrations.operations.models.AlterModelOptions.database_forwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "database_backwards",
+                    "namespace": "django.db.migrations.operations.models.AlterModelOptions.database_backwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "describe",
+                    "namespace": "django.db.migrations.operations.models.AlterModelOptions.describe",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "migration_name_fragment",
+                    "namespace": "django.db.migrations.operations.models.AlterModelOptions.migration_name_fragment",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"Alter the model's managers.\"\"\"",
             "name": "AlterModelManagers",
-            "namespace": "django.db.migrations.operations.models.AlterModelManagers"
+            "namespace": "django.db.migrations.operations.models.AlterModelManagers",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.migrations.operations.models.AlterModelManagers.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "deconstruct",
+                    "namespace": "django.db.migrations.operations.models.AlterModelManagers.deconstruct",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "state_forwards",
+                    "namespace": "django.db.migrations.operations.models.AlterModelManagers.state_forwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "database_forwards",
+                    "namespace": "django.db.migrations.operations.models.AlterModelManagers.database_forwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "database_backwards",
+                    "namespace": "django.db.migrations.operations.models.AlterModelManagers.database_backwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "describe",
+                    "namespace": "django.db.migrations.operations.models.AlterModelManagers.describe",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "migration_name_fragment",
+                    "namespace": "django.db.migrations.operations.models.AlterModelManagers.migration_name_fragment",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "IndexOperation",
-            "namespace": "django.db.migrations.operations.models.IndexOperation"
+            "namespace": "django.db.migrations.operations.models.IndexOperation",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "model_name_lower",
+                    "namespace": "django.db.migrations.operations.models.IndexOperation.model_name_lower",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"Add an index on a model.\"\"\"",
             "name": "AddIndex",
-            "namespace": "django.db.migrations.operations.models.AddIndex"
+            "namespace": "django.db.migrations.operations.models.AddIndex",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.migrations.operations.models.AddIndex.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "state_forwards",
+                    "namespace": "django.db.migrations.operations.models.AddIndex.state_forwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "database_forwards",
+                    "namespace": "django.db.migrations.operations.models.AddIndex.database_forwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "database_backwards",
+                    "namespace": "django.db.migrations.operations.models.AddIndex.database_backwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "deconstruct",
+                    "namespace": "django.db.migrations.operations.models.AddIndex.deconstruct",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "describe",
+                    "namespace": "django.db.migrations.operations.models.AddIndex.describe",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "migration_name_fragment",
+                    "namespace": "django.db.migrations.operations.models.AddIndex.migration_name_fragment",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"Remove an index from a model.\"\"\"",
             "name": "RemoveIndex",
-            "namespace": "django.db.migrations.operations.models.RemoveIndex"
+            "namespace": "django.db.migrations.operations.models.RemoveIndex",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.migrations.operations.models.RemoveIndex.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "state_forwards",
+                    "namespace": "django.db.migrations.operations.models.RemoveIndex.state_forwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "database_forwards",
+                    "namespace": "django.db.migrations.operations.models.RemoveIndex.database_forwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "database_backwards",
+                    "namespace": "django.db.migrations.operations.models.RemoveIndex.database_backwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "deconstruct",
+                    "namespace": "django.db.migrations.operations.models.RemoveIndex.deconstruct",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "describe",
+                    "namespace": "django.db.migrations.operations.models.RemoveIndex.describe",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "migration_name_fragment",
+                    "namespace": "django.db.migrations.operations.models.RemoveIndex.migration_name_fragment",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "AddConstraint",
-            "namespace": "django.db.migrations.operations.models.AddConstraint"
+            "namespace": "django.db.migrations.operations.models.AddConstraint",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.migrations.operations.models.AddConstraint.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "state_forwards",
+                    "namespace": "django.db.migrations.operations.models.AddConstraint.state_forwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "database_forwards",
+                    "namespace": "django.db.migrations.operations.models.AddConstraint.database_forwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "database_backwards",
+                    "namespace": "django.db.migrations.operations.models.AddConstraint.database_backwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "deconstruct",
+                    "namespace": "django.db.migrations.operations.models.AddConstraint.deconstruct",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "describe",
+                    "namespace": "django.db.migrations.operations.models.AddConstraint.describe",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "migration_name_fragment",
+                    "namespace": "django.db.migrations.operations.models.AddConstraint.migration_name_fragment",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "RemoveConstraint",
-            "namespace": "django.db.migrations.operations.models.RemoveConstraint"
+            "namespace": "django.db.migrations.operations.models.RemoveConstraint",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.migrations.operations.models.RemoveConstraint.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "state_forwards",
+                    "namespace": "django.db.migrations.operations.models.RemoveConstraint.state_forwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "database_forwards",
+                    "namespace": "django.db.migrations.operations.models.RemoveConstraint.database_forwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "database_backwards",
+                    "namespace": "django.db.migrations.operations.models.RemoveConstraint.database_backwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "deconstruct",
+                    "namespace": "django.db.migrations.operations.models.RemoveConstraint.deconstruct",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "describe",
+                    "namespace": "django.db.migrations.operations.models.RemoveConstraint.describe",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "migration_name_fragment",
+                    "namespace": "django.db.migrations.operations.models.RemoveConstraint.migration_name_fragment",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "",
+            "name": "_check_for_duplicates",
+            "namespace": "django.db.migrations.operations.models._check_for_duplicates",
+            "class_name": "",
+            "module_name": "django.db.migrations.operations.models",
+            "package_name": ""
         }
     ],
     "package_name": "django.db.migrations.operations"

@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Rearrange the fields according to field_order.\n\n        field_order is a list of field names specifying the order. Append fields\n        not included in the list in the default order for backward compatibility\n        with subclasses not overriding field_order. If field_order is None,\n        keep all fields in the order defined in the class. Ignore unknown\n        fields in field_order to allow disabling fields in form subclasses\n        without redefining ordering.\n        \"\"\"",
+    "name": "order_fields",
+    "namespace": "django.forms.forms.BaseForm.order_fields",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Run the query against the database and return the result(s). The\n        return value is a single data item if result_type is SINGLE, or an\n        iterator over the results if the result_type is MULTI.\n\n        result_type is either MULTI (use fetchmany() to retrieve all rows),\n        SINGLE (only retrieve a single row), or None. In this last case, the\n        cursor is returned if any query is executed, since it's used by\n        subclasses such as InsertQuery). It's possible, however, that no query\n        is needed, as the filters describe an empty set. In that case, None is\n        returned, to avoid any unnecessary database interaction.\n        \"\"\"",
+    "name": "execute_sql",
+    "namespace": "django.db.models.sql.compiler.SQLCompiler.execute_sql",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

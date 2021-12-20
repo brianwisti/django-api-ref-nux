@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Store a list of available languages in the context.\n\n    Usage::\n\n        {% get_available_languages as languages %}\n        {% for language in languages %}\n        ...\n        {% endfor %}\n\n    This puts settings.LANGUAGES into the named variable.\n    \"\"\"",
+    "name": "do_get_available_languages",
+    "namespace": "django.templatetags.i18n.do_get_available_languages",
+    "class_name": "",
+    "module_name": "django.templatetags.i18n",
+    "package_name": ""
+}

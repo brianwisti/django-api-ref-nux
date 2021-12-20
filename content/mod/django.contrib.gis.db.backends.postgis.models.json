@@ -5,13 +5,50 @@
         {
             "docstring": "\"\"\"\n    The 'geometry_columns' view from PostGIS. See the PostGIS\n    documentation at Ch. 4.3.2.\n    \"\"\"",
             "name": "PostGISGeometryColumns",
-            "namespace": "django.contrib.gis.db.backends.postgis.models.PostGISGeometryColumns"
+            "namespace": "django.contrib.gis.db.backends.postgis.models.PostGISGeometryColumns",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__str__",
+                    "namespace": "django.contrib.gis.db.backends.postgis.models.PostGISGeometryColumns.__str__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the name of the metadata column used to store the feature table\n        name.\n        \"\"\"",
+                    "name": "table_name_col",
+                    "namespace": "django.contrib.gis.db.backends.postgis.models.PostGISGeometryColumns.table_name_col",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the name of the metadata column used to store the feature\n        geometry column.\n        \"\"\"",
+                    "name": "geom_col_name",
+                    "namespace": "django.contrib.gis.db.backends.postgis.models.PostGISGeometryColumns.geom_col_name",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    The 'spatial_ref_sys' table from PostGIS. See the PostGIS\n    documentation at Ch. 4.2.1.\n    \"\"\"",
             "name": "PostGISSpatialRefSys",
-            "namespace": "django.contrib.gis.db.backends.postgis.models.PostGISSpatialRefSys"
+            "namespace": "django.contrib.gis.db.backends.postgis.models.PostGISSpatialRefSys",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "wkt",
+                    "namespace": "django.contrib.gis.db.backends.postgis.models.PostGISSpatialRefSys.wkt",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.gis.db.backends.postgis"
 }

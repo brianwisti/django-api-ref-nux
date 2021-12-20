@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Return a path to a builtin template.\n\n    Avoid calling this function at the module level or in a class-definition\n    because __file__ may not exist, e.g. in frozen environments.\n    \"\"\"",
+    "name": "builtin_template_path",
+    "namespace": "django.views.debug.builtin_template_path",
+    "class_name": "",
+    "module_name": "django.views.debug",
+    "package_name": ""
+}

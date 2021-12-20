@@ -3,5 +3,55 @@
     "name": "ModelMultipleChoiceField",
     "namespace": "django.forms.models.ModelMultipleChoiceField",
     "module_name": "django.forms.models",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.forms.models.ModelMultipleChoiceField.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "to_python",
+            "namespace": "django.forms.models.ModelMultipleChoiceField.to_python",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "clean",
+            "namespace": "django.forms.models.ModelMultipleChoiceField.clean",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Given a list of possible PK values, return a QuerySet of the\n        corresponding objects. Raise a ValidationError if a given value is\n        invalid (not a valid PK, not in the queryset, etc.)\n        \"\"\"",
+            "name": "_check_values",
+            "namespace": "django.forms.models.ModelMultipleChoiceField._check_values",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "prepare_value",
+            "namespace": "django.forms.models.ModelMultipleChoiceField.prepare_value",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "has_changed",
+            "namespace": "django.forms.models.ModelMultipleChoiceField.has_changed",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

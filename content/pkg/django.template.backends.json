@@ -2,31 +2,88 @@
     "name": "django.template.backends",
     "docstring": "",
     "package_name": "django.template",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.template.backends.django",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Create a new TemplateDoesNotExist. Preserve its declared attributes and\n    template debug data but discard __traceback__, __context__, and __cause__\n    to make this object suitable for keeping around (in a cache, for example).\n    \"\"\"",
+                    "name": "copy_exception",
+                    "namespace": "django.template.backends.django.copy_exception",
+                    "class_name": "",
+                    "module_name": "django.template.backends.django",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Reraise TemplateDoesNotExist while maintaining template debug information.\n    \"\"\"",
+                    "name": "reraise",
+                    "namespace": "django.template.backends.django.reraise",
+                    "class_name": "",
+                    "module_name": "django.template.backends.django",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return the built-in template tag libraries and those from installed\n    applications. Libraries are stored in a dictionary where keys are the\n    individual module names, not the full module paths. Example:\n    django.templatetags.i18n is stored as i18n.\n    \"\"\"",
+                    "name": "get_installed_libraries",
+                    "namespace": "django.template.backends.django.get_installed_libraries",
+                    "class_name": "",
+                    "module_name": "django.template.backends.django",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Recursively yield template tag libraries defined in submodules of a\n    package.\n    \"\"\"",
+                    "name": "get_package_libraries",
+                    "namespace": "django.template.backends.django.get_package_libraries",
+                    "class_name": "",
+                    "module_name": "django.template.backends.django",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.template.backends"
         },
         {
             "namespace": "django.template.backends.jinja2",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Format exception information for display on the debug page using the\n    structure described in the template API documentation.\n    \"\"\"",
+                    "name": "get_exception_info",
+                    "namespace": "django.template.backends.jinja2.get_exception_info",
+                    "class_name": "",
+                    "module_name": "django.template.backends.jinja2",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.template.backends"
         },
         {
             "namespace": "django.template.backends.utils",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "csrf_input",
+                    "namespace": "django.template.backends.utils.csrf_input",
+                    "class_name": "",
+                    "module_name": "django.template.backends.utils",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.template.backends"
         },
         {
             "namespace": "django.template.backends.dummy",
             "docstring": "",
+            "functions": [],
             "package_name": "django.template.backends"
         },
         {
             "namespace": "django.template.backends.base",
             "docstring": "",
+            "functions": [],
             "package_name": "django.template.backends"
         }
     ],

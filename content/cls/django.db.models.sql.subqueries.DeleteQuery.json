@@ -3,5 +3,23 @@
     "name": "DeleteQuery",
     "namespace": "django.db.models.sql.subqueries.DeleteQuery",
     "module_name": "django.db.models.sql.subqueries",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "do_query",
+            "namespace": "django.db.models.sql.subqueries.DeleteQuery.do_query",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Set up and execute delete queries for all the objects in pk_list.\n\n        More than one physical query may be executed if there are a\n        lot of values in pk_list.\n        \"\"\"",
+            "name": "delete_batch",
+            "namespace": "django.db.models.sql.subqueries.DeleteQuery.delete_batch",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

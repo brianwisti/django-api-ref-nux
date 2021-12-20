@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Transform relation into a model or fully-qualified model string of the form\n    \"app_label.ModelName\", relative to scope_model.\n\n    The relation argument can be:\n      * RECURSIVE_RELATIONSHIP_CONSTANT, i.e. the string \"self\", in which case\n        the model argument will be returned.\n      * A bare model name without an app_label, in which case scope_model's\n        app_label will be prepended.\n      * An \"app_label.ModelName\" string.\n      * A model class, which will be returned unchanged.\n    \"\"\"",
+    "name": "resolve_relation",
+    "namespace": "django.db.models.fields.related.resolve_relation",
+    "class_name": "",
+    "module_name": "django.db.models.fields.related",
+    "package_name": ""
+}

@@ -3,5 +3,111 @@
     "name": "MigrationLoader",
     "namespace": "django.db.migrations.loader.MigrationLoader",
     "module_name": "django.db.migrations.loader",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.db.migrations.loader.MigrationLoader.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return the path to the migrations module for the specified app_label\n        and a boolean indicating if the module is specified in\n        settings.MIGRATION_MODULE.\n        \"\"\"",
+            "name": "migrations_module",
+            "namespace": "django.db.migrations.loader.MigrationLoader.migrations_module",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Load the migrations from all INSTALLED_APPS from disk.\"\"\"",
+            "name": "load_disk",
+            "namespace": "django.db.migrations.loader.MigrationLoader.load_disk",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return the named migration or raise NodeNotFoundError.\"\"\"",
+            "name": "get_migration",
+            "namespace": "django.db.migrations.loader.MigrationLoader.get_migration",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return the migration(s) which match the given app label and name_prefix.\n        \"\"\"",
+            "name": "get_migration_by_prefix",
+            "namespace": "django.db.migrations.loader.MigrationLoader.get_migration_by_prefix",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "check_key",
+            "namespace": "django.db.migrations.loader.MigrationLoader.check_key",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Internal dependencies need to be added first to ensure `__first__`\n        dependencies find the correct root node.\n        \"\"\"",
+            "name": "add_internal_dependencies",
+            "namespace": "django.db.migrations.loader.MigrationLoader.add_internal_dependencies",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "add_external_dependencies",
+            "namespace": "django.db.migrations.loader.MigrationLoader.add_external_dependencies",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Build a migration dependency graph using both the disk and database.\n        You'll need to rebuild the graph if you apply migrations. This isn't\n        usually a problem as generally migration stuff runs in a one-shot process.\n        \"\"\"",
+            "name": "build_graph",
+            "namespace": "django.db.migrations.loader.MigrationLoader.build_graph",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Raise InconsistentMigrationHistory if any applied migrations have\n        unapplied dependencies.\n        \"\"\"",
+            "name": "check_consistent_history",
+            "namespace": "django.db.migrations.loader.MigrationLoader.check_consistent_history",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Look through the loaded graph and detect any conflicts - apps\n        with more than one leaf migration. Return a dict of the app labels\n        that conflict with the migration names that conflict.\n        \"\"\"",
+            "name": "detect_conflicts",
+            "namespace": "django.db.migrations.loader.MigrationLoader.detect_conflicts",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return a ProjectState object representing the most recent state\n        that the loaded migrations represent.\n\n        See graph.make_state() for the meaning of \"nodes\" and \"at_end\".\n        \"\"\"",
+            "name": "project_state",
+            "namespace": "django.db.migrations.loader.MigrationLoader.project_state",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Take a migration plan and return a list of collected SQL statements\n        that represent the best-efforts version of that plan.\n        \"\"\"",
+            "name": "collect_sql",
+            "namespace": "django.db.migrations.loader.MigrationLoader.collect_sql",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Create exception subclass. Used by ModelBase below.\n\n    The exception is created in a way that allows it to be pickled, assuming\n    that the returned exception class will be added as an attribute to the\n    'attached_to' class.\n    \"\"\"",
+    "name": "subclass_exception",
+    "namespace": "django.db.models.base.subclass_exception",
+    "class_name": "",
+    "module_name": "django.db.models.base",
+    "package_name": ""
+}

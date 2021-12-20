@@ -3,5 +3,31 @@
     "name": "MemcachedCache",
     "namespace": "django.core.cache.backends.memcached.MemcachedCache",
     "module_name": "django.core.cache.backends.memcached",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.core.cache.backends.memcached.MemcachedCache.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get",
+            "namespace": "django.core.cache.backends.memcached.MemcachedCache.get",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "delete",
+            "namespace": "django.core.cache.backends.memcached.MemcachedCache.delete",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

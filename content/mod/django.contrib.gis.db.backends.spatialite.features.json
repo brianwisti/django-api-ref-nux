@@ -5,8 +5,27 @@
         {
             "docstring": "",
             "name": "DatabaseFeatures",
-            "namespace": "django.contrib.gis.db.backends.spatialite.features.DatabaseFeatures"
+            "namespace": "django.contrib.gis.db.backends.spatialite.features.DatabaseFeatures",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "supports_area_geodetic",
+                    "namespace": "django.contrib.gis.db.backends.spatialite.features.DatabaseFeatures.supports_area_geodetic",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "django_test_skips",
+                    "namespace": "django.contrib.gis.db.backends.spatialite.features.DatabaseFeatures.django_test_skips",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.gis.db.backends.spatialite"
 }

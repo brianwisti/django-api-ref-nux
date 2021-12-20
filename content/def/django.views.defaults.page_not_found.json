@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Default 404 handler.\n\n    Templates: :template:`404.html`\n    Context:\n        request_path\n            The path of the requested URL (e.g., '/app/pages/bad_page/'). It's\n            quoted to prevent a content injection attack.\n        exception\n            The message from the exception which triggered the 404 (if one was\n            supplied), or the exception class name\n    \"\"\"",
+    "name": "page_not_found",
+    "namespace": "django.views.defaults.page_not_found",
+    "class_name": "",
+    "module_name": "django.views.defaults",
+    "package_name": ""
+}

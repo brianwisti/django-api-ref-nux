@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Given a node, return a list of which previous nodes (dependencies) must\n        be applied, ending with the node itself. This is the list you would\n        follow if applying the migrations to a database.\n        \"\"\"",
+    "name": "forwards_plan",
+    "namespace": "django.db.migrations.graph.MigrationGraph.forwards_plan",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

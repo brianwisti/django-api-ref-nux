@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Serve static files below a given point in the directory structure or\n    from locations inferred from the staticfiles finders.\n\n    To use, put a URL pattern such as::\n\n        from django.contrib.staticfiles import views\n\n        path('<path:path>', views.serve)\n\n    in your URLconf.\n\n    It uses the django.views.static.serve() view to serve the found files.\n    \"\"\"",
+    "name": "serve",
+    "namespace": "django.contrib.staticfiles.views.serve",
+    "class_name": "",
+    "module_name": "django.contrib.staticfiles.views",
+    "package_name": ""
+}

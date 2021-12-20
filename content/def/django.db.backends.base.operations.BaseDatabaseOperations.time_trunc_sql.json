@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Given a lookup_type of 'hour', 'minute' or 'second', return the SQL\n        that truncates the given time or datetime field field_name to a time\n        object with only the given specificity.\n\n        If `tzname` is provided, the given value is truncated in a specific\n        timezone.\n        \"\"\"",
+    "name": "time_trunc_sql",
+    "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.time_trunc_sql",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

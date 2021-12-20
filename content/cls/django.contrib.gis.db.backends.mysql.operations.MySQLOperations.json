@@ -3,5 +3,79 @@
     "name": "MySQLOperations",
     "namespace": "django.contrib.gis.db.backends.mysql.operations.MySQLOperations",
     "module_name": "django.contrib.gis.db.backends.mysql.operations",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "mariadb",
+            "namespace": "django.contrib.gis.db.backends.mysql.operations.MySQLOperations.mariadb",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "mysql",
+            "namespace": "django.contrib.gis.db.backends.mysql.operations.MySQLOperations.mysql",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "select",
+            "namespace": "django.contrib.gis.db.backends.mysql.operations.MySQLOperations.select",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "from_text",
+            "namespace": "django.contrib.gis.db.backends.mysql.operations.MySQLOperations.from_text",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "gis_operators",
+            "namespace": "django.contrib.gis.db.backends.mysql.operations.MySQLOperations.gis_operators",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "unsupported_functions",
+            "namespace": "django.contrib.gis.db.backends.mysql.operations.MySQLOperations.unsupported_functions",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "geo_db_type",
+            "namespace": "django.contrib.gis.db.backends.mysql.operations.MySQLOperations.geo_db_type",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_distance",
+            "namespace": "django.contrib.gis.db.backends.mysql.operations.MySQLOperations.get_distance",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_geometry_converter",
+            "namespace": "django.contrib.gis.db.backends.mysql.operations.MySQLOperations.get_geometry_converter",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

@@ -5,18 +5,265 @@
         {
             "docstring": "\"\"\"\n    A single node in the migration graph. Contains direct links to adjacent\n    nodes in either direction.\n    \"\"\"",
             "name": "Node",
-            "namespace": "django.db.migrations.graph.Node"
+            "namespace": "django.db.migrations.graph.Node",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.migrations.graph.Node.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__eq__",
+                    "namespace": "django.db.migrations.graph.Node.__eq__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__lt__",
+                    "namespace": "django.db.migrations.graph.Node.__lt__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__hash__",
+                    "namespace": "django.db.migrations.graph.Node.__hash__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__getitem__",
+                    "namespace": "django.db.migrations.graph.Node.__getitem__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__str__",
+                    "namespace": "django.db.migrations.graph.Node.__str__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.db.migrations.graph.Node.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "add_child",
+                    "namespace": "django.db.migrations.graph.Node.add_child",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "add_parent",
+                    "namespace": "django.db.migrations.graph.Node.add_parent",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    A node that doesn't correspond to a migration file on disk.\n    (A squashed migration that was removed, for example.)\n\n    After the migration graph is processed, all dummy nodes should be removed.\n    If there are any left, a nonexistent dependency error is raised.\n    \"\"\"",
             "name": "DummyNode",
-            "namespace": "django.db.migrations.graph.DummyNode"
+            "namespace": "django.db.migrations.graph.DummyNode",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.migrations.graph.DummyNode.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "raise_error",
+                    "namespace": "django.db.migrations.graph.DummyNode.raise_error",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Represent the digraph of all migrations in a project.\n\n    Each migration is a node, and each dependency is an edge. There are\n    no implicit dependencies between numbered migrations - the numbering is\n    merely a convention to aid file listing. Every new numbered migration\n    has a declared dependency to the previous number, meaning that VCS\n    branch merges can be detected and resolved.\n\n    Migrations files can be marked as replacing another set of migrations -\n    this is to support the \"squash\" feature. The graph handler isn't responsible\n    for these; instead, the code to load them in here should examine the\n    migration files and if the replaced migrations are all either unapplied\n    or not present, it should ignore the replaced ones, load in just the\n    replacing migration, and repoint any dependencies that pointed to the\n    replaced migrations to point to the replacing one.\n\n    A node should be a tuple: (app_path, migration_name). The tree special-cases\n    things within an app - namely, root nodes and leaf nodes ignore dependencies\n    to other apps.\n    \"\"\"",
             "name": "MigrationGraph",
-            "namespace": "django.db.migrations.graph.MigrationGraph"
+            "namespace": "django.db.migrations.graph.MigrationGraph",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.migrations.graph.MigrationGraph.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "add_node",
+                    "namespace": "django.db.migrations.graph.MigrationGraph.add_node",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "add_dummy_node",
+                    "namespace": "django.db.migrations.graph.MigrationGraph.add_dummy_node",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        This may create dummy nodes if they don't yet exist. If\n        `skip_validation=True`, validate_consistency() should be called\n        afterward.\n        \"\"\"",
+                    "name": "add_dependency",
+                    "namespace": "django.db.migrations.graph.MigrationGraph.add_dependency",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Remove each of the `replaced` nodes (when they exist). Any\n        dependencies that were referencing them are changed to reference the\n        `replacement` node instead.\n        \"\"\"",
+                    "name": "remove_replaced_nodes",
+                    "namespace": "django.db.migrations.graph.MigrationGraph.remove_replaced_nodes",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        The inverse operation to `remove_replaced_nodes`. Almost. Remove the\n        replacement node `replacement` and remap its child nodes to `replaced`\n        - the list of nodes it would have replaced. Don't remap its parent\n        nodes as they are expected to be correct already.\n        \"\"\"",
+                    "name": "remove_replacement_node",
+                    "namespace": "django.db.migrations.graph.MigrationGraph.remove_replacement_node",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Ensure there are no dummy nodes remaining in the graph.\"\"\"",
+                    "name": "validate_consistency",
+                    "namespace": "django.db.migrations.graph.MigrationGraph.validate_consistency",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Given a node, return a list of which previous nodes (dependencies) must\n        be applied, ending with the node itself. This is the list you would\n        follow if applying the migrations to a database.\n        \"\"\"",
+                    "name": "forwards_plan",
+                    "namespace": "django.db.migrations.graph.MigrationGraph.forwards_plan",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Given a node, return a list of which dependent nodes (dependencies)\n        must be unapplied, ending with the node itself. This is the list you\n        would follow if removing the migrations from a database.\n        \"\"\"",
+                    "name": "backwards_plan",
+                    "namespace": "django.db.migrations.graph.MigrationGraph.backwards_plan",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Iterative depth-first search for finding dependencies.\"\"\"",
+                    "name": "iterative_dfs",
+                    "namespace": "django.db.migrations.graph.MigrationGraph.iterative_dfs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return all root nodes - that is, nodes with no dependencies inside\n        their app. These are the starting point for an app.\n        \"\"\"",
+                    "name": "root_nodes",
+                    "namespace": "django.db.migrations.graph.MigrationGraph.root_nodes",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return all leaf nodes - that is, nodes with no dependents in their app.\n        These are the \"most current\" version of an app's schema.\n        Having more than one per app is technically an error, but one that\n        gets handled further up, in the interactive command - it's usually the\n        result of a VCS merge and needs some user input.\n        \"\"\"",
+                    "name": "leaf_nodes",
+                    "namespace": "django.db.migrations.graph.MigrationGraph.leaf_nodes",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "ensure_not_cyclic",
+                    "namespace": "django.db.migrations.graph.MigrationGraph.ensure_not_cyclic",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__str__",
+                    "namespace": "django.db.migrations.graph.MigrationGraph.__str__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.db.migrations.graph.MigrationGraph.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_nodes_and_edges",
+                    "namespace": "django.db.migrations.graph.MigrationGraph._nodes_and_edges",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_generate_plan",
+                    "namespace": "django.db.migrations.graph.MigrationGraph._generate_plan",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Given a migration node or nodes, return a complete ProjectState for it.\n        If at_end is False, return the state before the migration has run.\n        If nodes is not provided, return the overall most current project state.\n        \"\"\"",
+                    "name": "make_state",
+                    "namespace": "django.db.migrations.graph.MigrationGraph.make_state",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__contains__",
+                    "namespace": "django.db.migrations.graph.MigrationGraph.__contains__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.db.migrations"
 }

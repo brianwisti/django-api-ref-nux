@@ -3,5 +3,167 @@
     "name": "FileSystemStorage",
     "namespace": "django.core.files.storage.FileSystemStorage",
     "module_name": "django.core.files.storage",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.core.files.storage.FileSystemStorage.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Reset setting based property values.\"\"\"",
+            "name": "_clear_cached_properties",
+            "namespace": "django.core.files.storage.FileSystemStorage._clear_cached_properties",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_value_or_setting",
+            "namespace": "django.core.files.storage.FileSystemStorage._value_or_setting",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "base_location",
+            "namespace": "django.core.files.storage.FileSystemStorage.base_location",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "location",
+            "namespace": "django.core.files.storage.FileSystemStorage.location",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "base_url",
+            "namespace": "django.core.files.storage.FileSystemStorage.base_url",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "file_permissions_mode",
+            "namespace": "django.core.files.storage.FileSystemStorage.file_permissions_mode",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "directory_permissions_mode",
+            "namespace": "django.core.files.storage.FileSystemStorage.directory_permissions_mode",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_open",
+            "namespace": "django.core.files.storage.FileSystemStorage._open",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_save",
+            "namespace": "django.core.files.storage.FileSystemStorage._save",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "delete",
+            "namespace": "django.core.files.storage.FileSystemStorage.delete",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "exists",
+            "namespace": "django.core.files.storage.FileSystemStorage.exists",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "listdir",
+            "namespace": "django.core.files.storage.FileSystemStorage.listdir",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "path",
+            "namespace": "django.core.files.storage.FileSystemStorage.path",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "size",
+            "namespace": "django.core.files.storage.FileSystemStorage.size",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "url",
+            "namespace": "django.core.files.storage.FileSystemStorage.url",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        If timezone support is enabled, make an aware datetime object in UTC;\n        otherwise make a naive one in the local timezone.\n        \"\"\"",
+            "name": "_datetime_from_timestamp",
+            "namespace": "django.core.files.storage.FileSystemStorage._datetime_from_timestamp",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_accessed_time",
+            "namespace": "django.core.files.storage.FileSystemStorage.get_accessed_time",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_created_time",
+            "namespace": "django.core.files.storage.FileSystemStorage.get_created_time",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_modified_time",
+            "namespace": "django.core.files.storage.FileSystemStorage.get_modified_time",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

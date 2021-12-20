@@ -3,5 +3,47 @@
     "name": "SessionStorage",
     "namespace": "django.contrib.messages.storage.session.SessionStorage",
     "module_name": "django.contrib.messages.storage.session",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.contrib.messages.storage.session.SessionStorage.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Retrieve a list of messages from the request's session. This storage\n        always stores everything it is given, so return True for the\n        all_retrieved flag.\n        \"\"\"",
+            "name": "_get",
+            "namespace": "django.contrib.messages.storage.session.SessionStorage._get",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Store a list of messages to the request's session.\n        \"\"\"",
+            "name": "_store",
+            "namespace": "django.contrib.messages.storage.session.SessionStorage._store",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "serialize_messages",
+            "namespace": "django.contrib.messages.storage.session.SessionStorage.serialize_messages",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "deserialize_messages",
+            "namespace": "django.contrib.messages.storage.session.SessionStorage.deserialize_messages",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

@@ -2,5 +2,31 @@
     "namespace": "django.views.decorators.clickjacking",
     "docstring": "",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Modify a view function so its response has the X-Frame-Options HTTP\n    header set to 'DENY' as long as the response doesn't already have that\n    header set. Usage:\n\n    @xframe_options_deny\n    def some_view(request):\n        ...\n    \"\"\"",
+            "name": "xframe_options_deny",
+            "namespace": "django.views.decorators.clickjacking.xframe_options_deny",
+            "class_name": "",
+            "module_name": "django.views.decorators.clickjacking",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Modify a view function so its response has the X-Frame-Options HTTP\n    header set to 'SAMEORIGIN' as long as the response doesn't already have\n    that header set. Usage:\n\n    @xframe_options_sameorigin\n    def some_view(request):\n        ...\n    \"\"\"",
+            "name": "xframe_options_sameorigin",
+            "namespace": "django.views.decorators.clickjacking.xframe_options_sameorigin",
+            "class_name": "",
+            "module_name": "django.views.decorators.clickjacking",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Modify a view function by setting a response variable that instructs\n    XFrameOptionsMiddleware to NOT set the X-Frame-Options HTTP header. Usage:\n\n    @xframe_options_exempt\n    def some_view(request):\n        ...\n    \"\"\"",
+            "name": "xframe_options_exempt",
+            "namespace": "django.views.decorators.clickjacking.xframe_options_exempt",
+            "class_name": "",
+            "module_name": "django.views.decorators.clickjacking",
+            "package_name": ""
+        }
+    ],
     "package_name": "django.views.decorators"
 }

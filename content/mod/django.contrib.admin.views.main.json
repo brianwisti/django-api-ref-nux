@@ -5,13 +5,146 @@
         {
             "docstring": "",
             "name": "ChangeListSearchForm",
-            "namespace": "django.contrib.admin.views.main.ChangeListSearchForm"
+            "namespace": "django.contrib.admin.views.main.ChangeListSearchForm",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.admin.views.main.ChangeListSearchForm.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "ChangeList",
-            "namespace": "django.contrib.admin.views.main.ChangeList"
+            "namespace": "django.contrib.admin.views.main.ChangeList",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.admin.views.main.ChangeList.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.contrib.admin.views.main.ChangeList.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return all params except IGNORED_PARAMS.\n        \"\"\"",
+                    "name": "get_filters_params",
+                    "namespace": "django.contrib.admin.views.main.ChangeList.get_filters_params",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_filters",
+                    "namespace": "django.contrib.admin.views.main.ChangeList.get_filters",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_query_string",
+                    "namespace": "django.contrib.admin.views.main.ChangeList.get_query_string",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_results",
+                    "namespace": "django.contrib.admin.views.main.ChangeList.get_results",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_get_default_ordering",
+                    "namespace": "django.contrib.admin.views.main.ChangeList._get_default_ordering",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the proper model field name corresponding to the given\n        field_name to use for ordering. field_name may either be the name of a\n        proper model field or the name of a method (on the admin or model) or a\n        callable with the 'admin_order_field' attribute. Return None if no\n        proper model field name can be matched.\n        \"\"\"",
+                    "name": "get_ordering_field",
+                    "namespace": "django.contrib.admin.views.main.ChangeList.get_ordering_field",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the list of ordering fields for the change list.\n        First check the get_ordering() method in model admin, then check\n        the object's default ordering. Then, any manually-specified ordering\n        from the query string overrides anything. Finally, a deterministic\n        order is guaranteed by calling _get_deterministic_ordering() with the\n        constructed ordering.\n        \"\"\"",
+                    "name": "get_ordering",
+                    "namespace": "django.contrib.admin.views.main.ChangeList.get_ordering",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Ensure a deterministic order across all database backends. Search for a\n        single field or unique together set of fields providing a total\n        ordering. If these are missing, augment the ordering with a descendant\n        primary key.\n        \"\"\"",
+                    "name": "_get_deterministic_ordering",
+                    "namespace": "django.contrib.admin.views.main.ChangeList._get_deterministic_ordering",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return a dictionary of ordering field column numbers and asc/desc.\n        \"\"\"",
+                    "name": "get_ordering_field_columns",
+                    "namespace": "django.contrib.admin.views.main.ChangeList.get_ordering_field_columns",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_queryset",
+                    "namespace": "django.contrib.admin.views.main.ChangeList.get_queryset",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "apply_select_related",
+                    "namespace": "django.contrib.admin.views.main.ChangeList.apply_select_related",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "has_related_field_in_list_display",
+                    "namespace": "django.contrib.admin.views.main.ChangeList.has_related_field_in_list_display",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "url_for_result",
+                    "namespace": "django.contrib.admin.views.main.ChangeList.url_for_result",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.admin.views"
 }

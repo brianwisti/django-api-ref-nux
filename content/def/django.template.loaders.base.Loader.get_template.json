@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Call self.get_template_sources() and return a Template object for\n        the first template matching template_name. If skip is provided, ignore\n        template origins in skip. This is used to avoid recursion during\n        template extending.\n        \"\"\"",
+    "name": "get_template",
+    "namespace": "django.template.loaders.base.Loader.get_template",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

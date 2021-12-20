@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Store the name of the current time zone in the context.\n\n    Usage::\n\n        {% get_current_timezone as TIME_ZONE %}\n\n    This will fetch the currently active time zone and put its name\n    into the ``TIME_ZONE`` context variable.\n    \"\"\"",
+    "name": "get_current_timezone_tag",
+    "namespace": "django.templatetags.tz.get_current_timezone_tag",
+    "class_name": "",
+    "module_name": "django.templatetags.tz",
+    "package_name": ""
+}

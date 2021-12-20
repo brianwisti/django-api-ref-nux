@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Promote recursively the join type of given aliases and its children to\n        an outer join. If 'unconditional' is False, only promote the join if\n        it is nullable or the parent join is an outer join.\n\n        The children promotion is done to avoid join chains that contain a LOUTER\n        b INNER c. So, if we have currently a INNER b INNER c and a->b is promoted,\n        then we must also promote b->c automatically, or otherwise the promotion\n        of a->b doesn't actually change anything in the query results.\n        \"\"\"",
+    "name": "promote_joins",
+    "namespace": "django.db.models.sql.query.Query.promote_joins",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

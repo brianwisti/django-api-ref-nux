@@ -3,5 +3,31 @@
     "name": "Substr",
     "namespace": "django.db.models.functions.text.Substr",
     "module_name": "django.db.models.functions.text",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "\"\"\"\n        expression: the name of a field, or an expression returning a string\n        pos: an integer > 0, or an expression returning an integer\n        length: an optional number of characters to return\n        \"\"\"",
+            "name": "__init__",
+            "namespace": "django.db.models.functions.text.Substr.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "as_sqlite",
+            "namespace": "django.db.models.functions.text.Substr.as_sqlite",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "as_oracle",
+            "namespace": "django.db.models.functions.text.Substr.as_oracle",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

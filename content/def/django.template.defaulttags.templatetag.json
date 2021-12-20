@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Output one of the bits used to compose template tags.\n\n    Since the template system has no concept of \"escaping\", to display one of\n    the bits used in template tags, you must use the ``{% templatetag %}`` tag.\n\n    The argument tells which template bit to output:\n\n        ==================  =======\n        Argument            Outputs\n        ==================  =======\n        ``openblock``       ``{%``\n        ``closeblock``      ``%}``\n        ``openvariable``    ``{{``\n        ``closevariable``   ``}}``\n        ``openbrace``       ``{``\n        ``closebrace``      ``}``\n        ``opencomment``     ``{#``\n        ``closecomment``    ``#}``\n        ==================  =======\n    \"\"\"",
+    "name": "templatetag",
+    "namespace": "django.template.defaulttags.templatetag",
+    "class_name": "",
+    "module_name": "django.template.defaulttags",
+    "package_name": ""
+}

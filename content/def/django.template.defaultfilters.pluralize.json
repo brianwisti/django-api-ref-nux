@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Return a plural suffix if the value is not 1, '1', or an object of\n    length 1. By default, use 's' as the suffix:\n\n    * If value is 0, vote{{ value|pluralize }} display \"votes\".\n    * If value is 1, vote{{ value|pluralize }} display \"vote\".\n    * If value is 2, vote{{ value|pluralize }} display \"votes\".\n\n    If an argument is provided, use that string instead:\n\n    * If value is 0, class{{ value|pluralize:\"es\" }} display \"classes\".\n    * If value is 1, class{{ value|pluralize:\"es\" }} display \"class\".\n    * If value is 2, class{{ value|pluralize:\"es\" }} display \"classes\".\n\n    If the provided argument contains a comma, use the text before the comma\n    for the singular case and the text after the comma for the plural case:\n\n    * If value is 0, cand{{ value|pluralize:\"y,ies\" }} display \"candies\".\n    * If value is 1, cand{{ value|pluralize:\"y,ies\" }} display \"candy\".\n    * If value is 2, cand{{ value|pluralize:\"y,ies\" }} display \"candies\".\n    \"\"\"",
+    "name": "pluralize",
+    "namespace": "django.template.defaultfilters.pluralize",
+    "class_name": "",
+    "module_name": "django.template.defaultfilters",
+    "package_name": ""
+}

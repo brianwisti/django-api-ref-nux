@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Callable with the same interface as the storage classes.\n\n    This isn't just default_storage = import_string(settings.MESSAGE_STORAGE)\n    to avoid accessing the settings at the module level.\n    \"\"\"",
+    "name": "default_storage",
+    "namespace": "django.contrib.messages.storage.default_storage",
+    "class_name": "",
+    "module_name": "django.contrib.messages.storage",
+    "package_name": "django.contrib.messages.storage"
+}

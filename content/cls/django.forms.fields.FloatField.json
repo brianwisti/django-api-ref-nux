@@ -3,5 +3,31 @@
     "name": "FloatField",
     "namespace": "django.forms.fields.FloatField",
     "module_name": "django.forms.fields",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "\"\"\"\n        Validate that float() can be called on the input. Return the result\n        of float() or None for empty values.\n        \"\"\"",
+            "name": "to_python",
+            "namespace": "django.forms.fields.FloatField.to_python",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "validate",
+            "namespace": "django.forms.fields.FloatField.validate",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "widget_attrs",
+            "namespace": "django.forms.fields.FloatField.widget_attrs",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

@@ -5,27 +5,109 @@
         {
             "docstring": "",
             "name": "IntConverter",
-            "namespace": "django.urls.converters.IntConverter"
+            "namespace": "django.urls.converters.IntConverter",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "to_python",
+                    "namespace": "django.urls.converters.IntConverter.to_python",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "to_url",
+                    "namespace": "django.urls.converters.IntConverter.to_url",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "StringConverter",
-            "namespace": "django.urls.converters.StringConverter"
+            "namespace": "django.urls.converters.StringConverter",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "to_python",
+                    "namespace": "django.urls.converters.StringConverter.to_python",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "to_url",
+                    "namespace": "django.urls.converters.StringConverter.to_url",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "UUIDConverter",
-            "namespace": "django.urls.converters.UUIDConverter"
+            "namespace": "django.urls.converters.UUIDConverter",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "to_python",
+                    "namespace": "django.urls.converters.UUIDConverter.to_python",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "to_url",
+                    "namespace": "django.urls.converters.UUIDConverter.to_url",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "SlugConverter",
-            "namespace": "django.urls.converters.SlugConverter"
+            "namespace": "django.urls.converters.SlugConverter",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "PathConverter",
-            "namespace": "django.urls.converters.PathConverter"
+            "namespace": "django.urls.converters.PathConverter",
+            "methods": []
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "",
+            "name": "register_converter",
+            "namespace": "django.urls.converters.register_converter",
+            "class_name": "",
+            "module_name": "django.urls.converters",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_converters",
+            "namespace": "django.urls.converters.get_converters",
+            "class_name": "",
+            "module_name": "django.urls.converters",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_converter",
+            "namespace": "django.urls.converters.get_converter",
+            "class_name": "",
+            "module_name": "django.urls.converters",
+            "package_name": ""
         }
     ],
     "package_name": "django.urls"

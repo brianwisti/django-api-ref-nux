@@ -5,18 +5,57 @@
         {
             "docstring": "",
             "name": "FixDecimalInputMixin",
-            "namespace": "django.db.models.functions.mixins.FixDecimalInputMixin"
+            "namespace": "django.db.models.functions.mixins.FixDecimalInputMixin",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "as_postgresql",
+                    "namespace": "django.db.models.functions.mixins.FixDecimalInputMixin.as_postgresql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "FixDurationInputMixin",
-            "namespace": "django.db.models.functions.mixins.FixDurationInputMixin"
+            "namespace": "django.db.models.functions.mixins.FixDurationInputMixin",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "as_mysql",
+                    "namespace": "django.db.models.functions.mixins.FixDurationInputMixin.as_mysql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_oracle",
+                    "namespace": "django.db.models.functions.mixins.FixDurationInputMixin.as_oracle",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "NumericOutputFieldMixin",
-            "namespace": "django.db.models.functions.mixins.NumericOutputFieldMixin"
+            "namespace": "django.db.models.functions.mixins.NumericOutputFieldMixin",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "_resolve_output_field",
+                    "namespace": "django.db.models.functions.mixins.NumericOutputFieldMixin._resolve_output_field",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.db.models.functions"
 }

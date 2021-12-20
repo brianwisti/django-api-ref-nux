@@ -3,5 +3,31 @@
     "name": "BaseFinder",
     "namespace": "django.contrib.staticfiles.finders.BaseFinder",
     "module_name": "django.contrib.staticfiles.finders",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "check",
+            "namespace": "django.contrib.staticfiles.finders.BaseFinder.check",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Given a relative file path, find an absolute file path.\n\n        If the ``all`` parameter is False (default) return only the first found\n        file path; if True, return a list of all found files paths.\n        \"\"\"",
+            "name": "find",
+            "namespace": "django.contrib.staticfiles.finders.BaseFinder.find",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Given an optional list of paths to ignore, return a two item iterable\n        consisting of the relative path and storage instance.\n        \"\"\"",
+            "name": "list",
+            "namespace": "django.contrib.staticfiles.finders.BaseFinder.list",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

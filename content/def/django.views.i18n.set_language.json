@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Redirect to a given URL while setting the chosen language in the session\n    (if enabled) and in a cookie. The URL and the language code need to be\n    specified in the request parameters.\n\n    Since this view changes how the user will see the rest of the site, it must\n    only be accessed as a POST request. If called as a GET request, it will\n    redirect to the page in the request (the 'next' parameter) without changing\n    any state.\n    \"\"\"",
+    "name": "set_language",
+    "namespace": "django.views.i18n.set_language",
+    "class_name": "",
+    "module_name": "django.views.i18n",
+    "package_name": ""
+}

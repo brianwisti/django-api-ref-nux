@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"Return a context manager used by captured_stdout/stdin/stderr\n    that temporarily replaces the sys stream *stream_name* with a StringIO.\n\n    Note: This function and the following ``captured_std*`` are copied\n          from CPython's ``test.support`` module.\"\"\"",
+    "name": "captured_output",
+    "namespace": "django.test.utils.captured_output",
+    "class_name": "",
+    "module_name": "django.test.utils",
+    "package_name": ""
+}

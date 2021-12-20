@@ -2,11 +2,71 @@
     "name": "django",
     "docstring": "",
     "package_name": "",
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Configure the settings (this happens as a side effect of accessing the\n    first setting), configure logging and populate the app registry.\n    Set the thread-local urlresolvers script prefix if `set_prefix` is True.\n    \"\"\"",
+            "name": "setup",
+            "namespace": "django.setup",
+            "class_name": "",
+            "module_name": "django",
+            "package_name": "django"
+        }
+    ],
     "classes": [],
     "modules": [
         {
             "namespace": "django.shortcuts",
             "docstring": "\"\"\"\nThis module collects helper functions and classes that \"span\" multiple levels\nof MVC. In other words, these functions/classes introduce controlled coupling\nfor convenience's sake.\n\"\"\"",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Return an HttpResponse whose content is filled with the result of calling\n    django.template.loader.render_to_string() with the passed arguments.\n    \"\"\"",
+                    "name": "render",
+                    "namespace": "django.shortcuts.render",
+                    "class_name": "",
+                    "module_name": "django.shortcuts",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return an HttpResponseRedirect to the appropriate URL for the arguments\n    passed.\n\n    The arguments could be:\n\n        * A model: the model's `get_absolute_url()` function will be called.\n\n        * A view name, possibly with arguments: `urls.reverse()` will be used\n          to reverse-resolve the name.\n\n        * A URL, which will be used as-is for the redirect location.\n\n    Issues a temporary redirect by default; pass permanent=True to issue a\n    permanent redirect.\n    \"\"\"",
+                    "name": "redirect",
+                    "namespace": "django.shortcuts.redirect",
+                    "class_name": "",
+                    "module_name": "django.shortcuts",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return a QuerySet or a Manager.\n    Duck typing in action: any class with a `get()` method (for\n    get_object_or_404) or a `filter()` method (for get_list_or_404) might do\n    the job.\n    \"\"\"",
+                    "name": "_get_queryset",
+                    "namespace": "django.shortcuts._get_queryset",
+                    "class_name": "",
+                    "module_name": "django.shortcuts",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Use get() to return an object, or raise an Http404 exception if the object\n    does not exist.\n\n    klass may be a Model, Manager, or QuerySet object. All other passed\n    arguments and keyword arguments are used in the get() query.\n\n    Like with QuerySet.get(), MultipleObjectsReturned is raised if more than\n    one object is found.\n    \"\"\"",
+                    "name": "get_object_or_404",
+                    "namespace": "django.shortcuts.get_object_or_404",
+                    "class_name": "",
+                    "module_name": "django.shortcuts",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Use filter() to return a list of objects, or raise an Http404 exception if\n    the list is empty.\n\n    klass may be a Model, Manager, or QuerySet object. All other passed\n    arguments and keyword arguments are used in the filter() query.\n    \"\"\"",
+                    "name": "get_list_or_404",
+                    "namespace": "django.shortcuts.get_list_or_404",
+                    "class_name": "",
+                    "module_name": "django.shortcuts",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Return a URL appropriate for the arguments passed.\n\n    The arguments could be:\n\n        * A model: the model's `get_absolute_url()` function will be called.\n\n        * A view name, possibly with arguments: `urls.reverse()` will be used\n          to reverse-resolve the name.\n\n        * A URL, which will be returned as-is.\n    \"\"\"",
+                    "name": "resolve_url",
+                    "namespace": "django.shortcuts.resolve_url",
+                    "class_name": "",
+                    "module_name": "django.shortcuts",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django"
         }
     ],
@@ -14,77 +74,109 @@
         {
             "name": "django.templatetags",
             "docstring": "",
-            "package_name": "django"
+            "package_name": "django",
+            "functions": []
         },
         {
             "name": "django.middleware",
             "docstring": "",
-            "package_name": "django"
+            "package_name": "django",
+            "functions": []
         },
         {
             "name": "django.forms",
             "docstring": "\"\"\"\nDjango validation and HTML form handling.\n\"\"\"",
-            "package_name": "django"
+            "package_name": "django",
+            "functions": []
         },
         {
             "name": "django.core",
             "docstring": "",
-            "package_name": "django"
+            "package_name": "django",
+            "functions": []
         },
         {
             "name": "django.test",
             "docstring": "\"\"\"Django Unit Test framework.\"\"\"",
-            "package_name": "django"
+            "package_name": "django",
+            "functions": []
         },
         {
             "name": "django.dispatch",
             "docstring": "\"\"\"Multi-consumer multi-producer dispatching mechanism\n\nOriginally based on pydispatch (BSD) https://pypi.org/project/PyDispatcher/2.0.1/\nSee license.txt for original license.\n\nHeavily modified for Django's purposes.\n\"\"\"",
-            "package_name": "django"
+            "package_name": "django",
+            "functions": []
         },
         {
             "name": "django.template",
             "docstring": "\"\"\"\nDjango's support for templates.\n\nThe django.template namespace contains two independent subsystems:\n\n1. Multiple Template Engines: support for pluggable template backends,\n   built-in backends and backend-independent APIs\n2. Django Template Language: Django's own template engine, including its\n   built-in loaders, context processors, tags and filters.\n\nIdeally these subsystems would be implemented in distinct packages. However\nkeeping them together made the implementation of Multiple Template Engines\nless disruptive .\n\nHere's a breakdown of which modules belong to which subsystem.\n\nMultiple Template Engines:\n\n- django.template.backends.*\n- django.template.loader\n- django.template.response\n\nDjango Template Language:\n\n- django.template.base\n- django.template.context\n- django.template.context_processors\n- django.template.loaders.*\n- django.template.debug\n- django.template.defaultfilters\n- django.template.defaulttags\n- django.template.engine\n- django.template.loader_tags\n- django.template.smartif\n\nShared:\n\n- django.template.utils\n\n\"\"\"",
-            "package_name": "django"
+            "package_name": "django",
+            "functions": []
         },
         {
             "name": "django.utils",
             "docstring": "",
-            "package_name": "django"
+            "package_name": "django",
+            "functions": []
         },
         {
             "name": "django.contrib",
             "docstring": "",
-            "package_name": "django"
+            "package_name": "django",
+            "functions": []
         },
         {
             "name": "django.http",
             "docstring": "",
-            "package_name": "django"
+            "package_name": "django",
+            "functions": []
         },
         {
             "name": "django.urls",
             "docstring": "",
-            "package_name": "django"
+            "package_name": "django",
+            "functions": []
         },
         {
             "name": "django.db",
             "docstring": "",
-            "package_name": "django"
+            "package_name": "django",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "reset_queries",
+                    "namespace": "django.db.reset_queries",
+                    "class_name": "",
+                    "module_name": "django.db",
+                    "package_name": "django.db"
+                },
+                {
+                    "docstring": "",
+                    "name": "close_old_connections",
+                    "namespace": "django.db.close_old_connections",
+                    "class_name": "",
+                    "module_name": "django.db",
+                    "package_name": "django.db"
+                }
+            ]
         },
         {
             "name": "django.views",
             "docstring": "",
-            "package_name": "django"
+            "package_name": "django",
+            "functions": []
         },
         {
             "name": "django.conf",
             "docstring": "\"\"\"\nSettings and configuration for Django.\n\nRead values from the module specified by the DJANGO_SETTINGS_MODULE environment\nvariable, and then from django.conf.global_settings; see the global_settings.py\nfor a list of all possible variables.\n\"\"\"",
-            "package_name": "django"
+            "package_name": "django",
+            "functions": []
         },
         {
             "name": "django.apps",
             "docstring": "",
-            "package_name": "django"
+            "package_name": "django",
+            "functions": []
         }
     ]
 }

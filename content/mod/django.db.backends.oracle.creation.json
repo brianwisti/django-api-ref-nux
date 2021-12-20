@@ -5,8 +5,267 @@
         {
             "docstring": "",
             "name": "DatabaseCreation",
-            "namespace": "django.db.backends.oracle.creation.DatabaseCreation"
+            "namespace": "django.db.backends.oracle.creation.DatabaseCreation",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        This is analogous to other backends' `_nodb_connection` property,\n        which allows access to an \"administrative\" connection which can\n        be used to manage the test databases.\n        For Oracle, the only connection that can be used for that purpose\n        is the main (non-test) connection.\n        \"\"\"",
+                    "name": "_maindb_connection",
+                    "namespace": "django.db.backends.oracle.creation.DatabaseCreation._maindb_connection",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_create_test_db",
+                    "namespace": "django.db.backends.oracle.creation.DatabaseCreation._create_test_db",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Switch to the user that's used for creating the test database.\n\n        Oracle doesn't have the concept of separate databases under the same\n        user, so a separate user is used; see _create_test_db(). The main user\n        is also needed for cleanup when testing is completed, so save its\n        credentials in the SAVED_USER/SAVED_PASSWORD key in the settings dict.\n        \"\"\"",
+                    "name": "_switch_to_test_user",
+                    "namespace": "django.db.backends.oracle.creation.DatabaseCreation._switch_to_test_user",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Set this database up to be used in testing as a mirror of a primary\n        database whose settings are given.\n        \"\"\"",
+                    "name": "set_as_test_mirror",
+                    "namespace": "django.db.backends.oracle.creation.DatabaseCreation.set_as_test_mirror",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_handle_objects_preventing_db_destruction",
+                    "namespace": "django.db.backends.oracle.creation.DatabaseCreation._handle_objects_preventing_db_destruction",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Destroy a test database, prompting the user for confirmation if the\n        database already exists. Return the name of the test database created.\n        \"\"\"",
+                    "name": "_destroy_test_db",
+                    "namespace": "django.db.backends.oracle.creation.DatabaseCreation._destroy_test_db",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_execute_test_db_creation",
+                    "namespace": "django.db.backends.oracle.creation.DatabaseCreation._execute_test_db_creation",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_create_test_user",
+                    "namespace": "django.db.backends.oracle.creation.DatabaseCreation._create_test_user",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_execute_test_db_destruction",
+                    "namespace": "django.db.backends.oracle.creation.DatabaseCreation._execute_test_db_destruction",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_destroy_test_user",
+                    "namespace": "django.db.backends.oracle.creation.DatabaseCreation._destroy_test_user",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_execute_statements",
+                    "namespace": "django.db.backends.oracle.creation.DatabaseCreation._execute_statements",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Execute statements which are allowed to fail silently if the Oracle\n        error code given by `acceptable_ora_err` is raised. Return True if the\n        statements execute without an exception, or False otherwise.\n        \"\"\"",
+                    "name": "_execute_allow_fail_statements",
+                    "namespace": "django.db.backends.oracle.creation.DatabaseCreation._execute_allow_fail_statements",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_get_test_db_params",
+                    "namespace": "django.db.backends.oracle.creation.DatabaseCreation._get_test_db_params",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return a value from the test settings dict, or a given default, or a\n        prefixed entry from the main settings dict.\n        \"\"\"",
+                    "name": "_test_settings_get",
+                    "namespace": "django.db.backends.oracle.creation.DatabaseCreation._test_settings_get",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_test_database_name",
+                    "namespace": "django.db.backends.oracle.creation.DatabaseCreation._test_database_name",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_test_database_create",
+                    "namespace": "django.db.backends.oracle.creation.DatabaseCreation._test_database_create",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_test_user_create",
+                    "namespace": "django.db.backends.oracle.creation.DatabaseCreation._test_user_create",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_test_database_user",
+                    "namespace": "django.db.backends.oracle.creation.DatabaseCreation._test_database_user",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_test_database_passwd",
+                    "namespace": "django.db.backends.oracle.creation.DatabaseCreation._test_database_passwd",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_test_database_tblspace",
+                    "namespace": "django.db.backends.oracle.creation.DatabaseCreation._test_database_tblspace",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_test_database_tblspace_tmp",
+                    "namespace": "django.db.backends.oracle.creation.DatabaseCreation._test_database_tblspace_tmp",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_test_database_tblspace_datafile",
+                    "namespace": "django.db.backends.oracle.creation.DatabaseCreation._test_database_tblspace_datafile",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_test_database_tblspace_tmp_datafile",
+                    "namespace": "django.db.backends.oracle.creation.DatabaseCreation._test_database_tblspace_tmp_datafile",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_test_database_tblspace_maxsize",
+                    "namespace": "django.db.backends.oracle.creation.DatabaseCreation._test_database_tblspace_maxsize",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_test_database_tblspace_tmp_maxsize",
+                    "namespace": "django.db.backends.oracle.creation.DatabaseCreation._test_database_tblspace_tmp_maxsize",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_test_database_tblspace_size",
+                    "namespace": "django.db.backends.oracle.creation.DatabaseCreation._test_database_tblspace_size",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_test_database_tblspace_tmp_size",
+                    "namespace": "django.db.backends.oracle.creation.DatabaseCreation._test_database_tblspace_tmp_size",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_test_database_tblspace_extsize",
+                    "namespace": "django.db.backends.oracle.creation.DatabaseCreation._test_database_tblspace_extsize",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_test_database_tblspace_tmp_extsize",
+                    "namespace": "django.db.backends.oracle.creation.DatabaseCreation._test_database_tblspace_tmp_extsize",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_test_database_oracle_managed_files",
+                    "namespace": "django.db.backends.oracle.creation.DatabaseCreation._test_database_oracle_managed_files",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the 'production' DB name to get the test DB creation machinery\n        to work. This isn't a great deal in this case because DB names as\n        handled by Django don't have real counterparts in Oracle.\n        \"\"\"",
+                    "name": "_get_test_db_name",
+                    "namespace": "django.db.backends.oracle.creation.DatabaseCreation._get_test_db_name",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "test_db_signature",
+                    "namespace": "django.db.backends.oracle.creation.DatabaseCreation.test_db_signature",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.db.backends.oracle"
 }

@@ -5,8 +5,51 @@
         {
             "docstring": "",
             "name": "EmailBackend",
-            "namespace": "django.core.mail.backends.filebased.EmailBackend"
+            "namespace": "django.core.mail.backends.filebased.EmailBackend",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.core.mail.backends.filebased.EmailBackend.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "write_message",
+                    "namespace": "django.core.mail.backends.filebased.EmailBackend.write_message",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return a unique file name.\"\"\"",
+                    "name": "_get_filename",
+                    "namespace": "django.core.mail.backends.filebased.EmailBackend._get_filename",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "open",
+                    "namespace": "django.core.mail.backends.filebased.EmailBackend.open",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "close",
+                    "namespace": "django.core.mail.backends.filebased.EmailBackend.close",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.core.mail.backends"
 }

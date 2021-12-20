@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Set or unset the \"needs rollback\" flag -- for *advanced use* only.\n\n    When `rollback` is `True`, trigger a rollback when exiting the innermost\n    enclosing atomic block that has `savepoint=True` (that's the default). Use\n    this to force a rollback without raising an exception.\n\n    When `rollback` is `False`, prevent such a rollback. Use this only after\n    rolling back to a known-good state! Otherwise, you break the atomic block\n    and data corruption may occur.\n    \"\"\"",
+    "name": "set_rollback",
+    "namespace": "django.db.transaction.set_rollback",
+    "class_name": "",
+    "module_name": "django.db.transaction",
+    "package_name": ""
+}

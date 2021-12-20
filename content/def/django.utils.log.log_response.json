@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Log errors based on HttpResponse status.\n\n    Log 5xx responses as errors and 4xx responses as warnings (unless a level\n    is given as a keyword argument). The HttpResponse status_code and the\n    request are passed to the logger's extra parameter.\n    \"\"\"",
+    "name": "log_response",
+    "namespace": "django.utils.log.log_response",
+    "class_name": "",
+    "module_name": "django.utils.log",
+    "package_name": ""
+}

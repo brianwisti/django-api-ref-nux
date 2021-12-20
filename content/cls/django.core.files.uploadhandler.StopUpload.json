@@ -3,5 +3,23 @@
     "name": "StopUpload",
     "namespace": "django.core.files.uploadhandler.StopUpload",
     "module_name": "django.core.files.uploadhandler",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "\"\"\"\n        If ``connection_reset`` is ``True``, Django knows will halt the upload\n        without consuming the rest of the upload. This will cause the browser to\n        show a \"connection reset\" error.\n        \"\"\"",
+            "name": "__init__",
+            "namespace": "django.core.files.uploadhandler.StopUpload.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__str__",
+            "namespace": "django.core.files.uploadhandler.StopUpload.__str__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

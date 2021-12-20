@@ -5,7 +5,27 @@
         {
             "docstring": "",
             "name": "PostgresConfig",
-            "namespace": "django.contrib.postgres.apps.PostgresConfig"
+            "namespace": "django.contrib.postgres.apps.PostgresConfig",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "ready",
+                    "namespace": "django.contrib.postgres.apps.PostgresConfig.ready",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Undo the effects of PostgresConfig.ready() when django.contrib.postgres\n    is \"uninstalled\" by override_settings().\n    \"\"\"",
+            "name": "uninstall_if_needed",
+            "namespace": "django.contrib.postgres.apps.uninstall_if_needed",
+            "class_name": "",
+            "module_name": "django.contrib.postgres.apps",
+            "package_name": ""
         }
     ],
     "package_name": "django.contrib.postgres"

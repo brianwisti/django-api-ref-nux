@@ -2,16 +2,36 @@
     "name": "django.contrib.gis.geoip2",
     "docstring": "\"\"\"\nThis module houses the GeoIP2 object, a wrapper for the MaxMind GeoIP2(R)\nPython API (https://geoip2.readthedocs.io/). This is an alternative to the\nPython GeoIP2 interface provided by MaxMind.\n\nGeoIP(R) is a registered trademark of MaxMind, Inc.\n\nFor IP-based geolocation, this module requires the GeoLite2 Country and City\ndatasets, in binary format (CSV will not work!). The datasets may be\ndownloaded from MaxMind at http://dev.maxmind.com/geoip/geoip2/geolite2/.\nGrab GeoLite2-Country.mmdb.gz and GeoLite2-City.mmdb.gz, and unzip them in the\ndirectory corresponding to settings.GEOIP_PATH.\n\"\"\"",
     "package_name": "django.contrib.gis",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.contrib.gis.geoip2.resources",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "City",
+                    "namespace": "django.contrib.gis.geoip2.resources.City",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.geoip2.resources",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "Country",
+                    "namespace": "django.contrib.gis.geoip2.resources.Country",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.geoip2.resources",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.gis.geoip2"
         },
         {
             "namespace": "django.contrib.gis.geoip2.base",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.gis.geoip2"
         }
     ],

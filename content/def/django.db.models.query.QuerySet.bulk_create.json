@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Insert each of the instances into the database. Do *not* call\n        save() on each of the instances, do not send any pre/post_save\n        signals, and do not set the primary key attribute if it is an\n        autoincrement field (except if features.can_return_rows_from_bulk_insert=True).\n        Multi-table models are not supported.\n        \"\"\"",
+    "name": "bulk_create",
+    "namespace": "django.db.models.query.QuerySet.bulk_create",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

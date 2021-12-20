@@ -5,28 +5,140 @@
         {
             "docstring": "",
             "name": "SDOOperator",
-            "namespace": "django.contrib.gis.db.backends.oracle.operations.SDOOperator"
+            "namespace": "django.contrib.gis.db.backends.oracle.operations.SDOOperator",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "SDODWithin",
-            "namespace": "django.contrib.gis.db.backends.oracle.operations.SDODWithin"
+            "namespace": "django.contrib.gis.db.backends.oracle.operations.SDODWithin",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "SDODisjoint",
-            "namespace": "django.contrib.gis.db.backends.oracle.operations.SDODisjoint"
+            "namespace": "django.contrib.gis.db.backends.oracle.operations.SDODisjoint",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "SDORelate",
-            "namespace": "django.contrib.gis.db.backends.oracle.operations.SDORelate"
+            "namespace": "django.contrib.gis.db.backends.oracle.operations.SDORelate",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "check_relate_argument",
+                    "namespace": "django.contrib.gis.db.backends.oracle.operations.SDORelate.check_relate_argument",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.contrib.gis.db.backends.oracle.operations.SDORelate.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "OracleOperations",
-            "namespace": "django.contrib.gis.db.backends.oracle.operations.OracleOperations"
+            "namespace": "django.contrib.gis.db.backends.oracle.operations.OracleOperations",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "geo_quote_name",
+                    "namespace": "django.contrib.gis.db.backends.oracle.operations.OracleOperations.geo_quote_name",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "convert_extent",
+                    "namespace": "django.contrib.gis.db.backends.oracle.operations.OracleOperations.convert_extent",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the geometry database type for Oracle. Unlike other spatial\n        backends, no stored procedure is necessary and it's the same for all\n        geometry types.\n        \"\"\"",
+                    "name": "geo_db_type",
+                    "namespace": "django.contrib.gis.db.backends.oracle.operations.OracleOperations.geo_db_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the distance parameters given the value and the lookup type.\n        On Oracle, geometry columns with a geodetic coordinate system behave\n        implicitly like a geography column, and thus meters will be used as\n        the distance parameter on them.\n        \"\"\"",
+                    "name": "get_distance",
+                    "namespace": "django.contrib.gis.db.backends.oracle.operations.OracleOperations.get_distance",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_geom_placeholder",
+                    "namespace": "django.contrib.gis.db.backends.oracle.operations.OracleOperations.get_geom_placeholder",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the spatial aggregate SQL name.\n        \"\"\"",
+                    "name": "spatial_aggregate_name",
+                    "namespace": "django.contrib.gis.db.backends.oracle.operations.OracleOperations.spatial_aggregate_name",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "geometry_columns",
+                    "namespace": "django.contrib.gis.db.backends.oracle.operations.OracleOperations.geometry_columns",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "spatial_ref_sys",
+                    "namespace": "django.contrib.gis.db.backends.oracle.operations.OracleOperations.spatial_ref_sys",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Drop out insert parameters for NULL placeholder. Needed for Oracle Spatial\n        backend due to #10888.\n        \"\"\"",
+                    "name": "modify_insert_params",
+                    "namespace": "django.contrib.gis.db.backends.oracle.operations.OracleOperations.modify_insert_params",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_geometry_converter",
+                    "namespace": "django.contrib.gis.db.backends.oracle.operations.OracleOperations.get_geometry_converter",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_area_att_for_field",
+                    "namespace": "django.contrib.gis.db.backends.oracle.operations.OracleOperations.get_area_att_for_field",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.gis.db.backends.oracle"
 }

@@ -3,5 +3,31 @@
     "name": "HttpHeaders",
     "namespace": "django.http.request.HttpHeaders",
     "module_name": "django.http.request",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.http.request.HttpHeaders.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Allow header lookup using underscores in place of hyphens.\"\"\"",
+            "name": "__getitem__",
+            "namespace": "django.http.request.HttpHeaders.__getitem__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "parse_header_name",
+            "namespace": "django.http.request.HttpHeaders.parse_header_name",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

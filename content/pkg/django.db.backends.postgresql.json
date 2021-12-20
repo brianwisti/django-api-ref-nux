@@ -2,41 +2,58 @@
     "name": "django.db.backends.postgresql",
     "docstring": "",
     "package_name": "django.db.backends",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.db.backends.postgresql.creation",
             "docstring": "",
+            "functions": [],
             "package_name": "django.db.backends.postgresql"
         },
         {
             "namespace": "django.db.backends.postgresql.client",
             "docstring": "",
+            "functions": [],
             "package_name": "django.db.backends.postgresql"
         },
         {
             "namespace": "django.db.backends.postgresql.features",
             "docstring": "",
+            "functions": [],
             "package_name": "django.db.backends.postgresql"
         },
         {
             "namespace": "django.db.backends.postgresql.operations",
             "docstring": "",
+            "functions": [],
             "package_name": "django.db.backends.postgresql"
         },
         {
             "namespace": "django.db.backends.postgresql.introspection",
             "docstring": "",
+            "functions": [],
             "package_name": "django.db.backends.postgresql"
         },
         {
             "namespace": "django.db.backends.postgresql.base",
             "docstring": "\"\"\"\nPostgreSQL database backend for Django.\n\nRequires psycopg 2: https://www.psycopg.org/\n\"\"\"",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "psycopg2_version",
+                    "namespace": "django.db.backends.postgresql.base.psycopg2_version",
+                    "class_name": "",
+                    "module_name": "django.db.backends.postgresql.base",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.db.backends.postgresql"
         },
         {
             "namespace": "django.db.backends.postgresql.schema",
             "docstring": "",
+            "functions": [],
             "package_name": "django.db.backends.postgresql"
         }
     ],

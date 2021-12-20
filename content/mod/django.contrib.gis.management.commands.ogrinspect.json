@@ -5,18 +5,57 @@
         {
             "docstring": "\"\"\"\n    Custom argparse action for the `ogrinspect` `layer_key` keyword option\n    which may be an integer or a string.\n    \"\"\"",
             "name": "LayerOptionAction",
-            "namespace": "django.contrib.gis.management.commands.ogrinspect.LayerOptionAction"
+            "namespace": "django.contrib.gis.management.commands.ogrinspect.LayerOptionAction",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__call__",
+                    "namespace": "django.contrib.gis.management.commands.ogrinspect.LayerOptionAction.__call__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Custom argparse action for `ogrinspect` keywords that require\n    a string list. If the string is 'True'/'true' then the option\n    value will be a boolean instead.\n    \"\"\"",
             "name": "ListOptionAction",
-            "namespace": "django.contrib.gis.management.commands.ogrinspect.ListOptionAction"
+            "namespace": "django.contrib.gis.management.commands.ogrinspect.ListOptionAction",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__call__",
+                    "namespace": "django.contrib.gis.management.commands.ogrinspect.ListOptionAction.__call__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Command",
-            "namespace": "django.contrib.gis.management.commands.ogrinspect.Command"
+            "namespace": "django.contrib.gis.management.commands.ogrinspect.Command",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "add_arguments",
+                    "namespace": "django.contrib.gis.management.commands.ogrinspect.Command.add_arguments",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "handle",
+                    "namespace": "django.contrib.gis.management.commands.ogrinspect.Command.handle",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.gis.management.commands"
 }

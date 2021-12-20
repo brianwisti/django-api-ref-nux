@@ -2,11 +2,62 @@
     "name": "django.contrib.humanize.templatetags",
     "docstring": "",
     "package_name": "django.contrib.humanize",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.contrib.humanize.templatetags.humanize",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Convert an integer to its ordinal as a string. 1 is '1st', 2 is '2nd',\n    3 is '3rd', etc. Works for any integer.\n    \"\"\"",
+                    "name": "ordinal",
+                    "namespace": "django.contrib.humanize.templatetags.humanize.ordinal",
+                    "class_name": "",
+                    "module_name": "django.contrib.humanize.templatetags.humanize",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Convert an integer to a string containing commas every three digits.\n    For example, 3000 becomes '3,000' and 45000 becomes '45,000'.\n    \"\"\"",
+                    "name": "intcomma",
+                    "namespace": "django.contrib.humanize.templatetags.humanize.intcomma",
+                    "class_name": "",
+                    "module_name": "django.contrib.humanize.templatetags.humanize",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Convert a large integer to a friendly text representation. Works best\n    for numbers over 1 million. For example, 1000000 becomes '1.0 million',\n    1200000 becomes '1.2 million' and '1200000000' becomes '1.2 billion'.\n    \"\"\"",
+                    "name": "intword",
+                    "namespace": "django.contrib.humanize.templatetags.humanize.intword",
+                    "class_name": "",
+                    "module_name": "django.contrib.humanize.templatetags.humanize",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    For numbers 1-9, return the number spelled out. Otherwise, return the\n    number. This follows Associated Press style.\n    \"\"\"",
+                    "name": "apnumber",
+                    "namespace": "django.contrib.humanize.templatetags.humanize.apnumber",
+                    "class_name": "",
+                    "module_name": "django.contrib.humanize.templatetags.humanize",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    For date values that are tomorrow, today or yesterday compared to\n    present day return representing string. Otherwise, return a string\n    formatted according to settings.DATE_FORMAT.\n    \"\"\"",
+                    "name": "naturalday",
+                    "namespace": "django.contrib.humanize.templatetags.humanize.naturalday",
+                    "class_name": "",
+                    "module_name": "django.contrib.humanize.templatetags.humanize",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    For date and time values show how many seconds, minutes, or hours ago\n    compared to current timestamp return representing string.\n    \"\"\"",
+                    "name": "naturaltime",
+                    "namespace": "django.contrib.humanize.templatetags.humanize.naturaltime",
+                    "class_name": "",
+                    "module_name": "django.contrib.humanize.templatetags.humanize",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.humanize.templatetags"
         }
     ],

@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Return the list of ordering fields for the change list.\n        First check the get_ordering() method in model admin, then check\n        the object's default ordering. Then, any manually-specified ordering\n        from the query string overrides anything. Finally, a deterministic\n        order is guaranteed by calling _get_deterministic_ordering() with the\n        constructed ordering.\n        \"\"\"",
+    "name": "get_ordering",
+    "namespace": "django.contrib.admin.views.main.ChangeList.get_ordering",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Similar to str.format, but pass all arguments through conditional_escape(),\n    and call mark_safe() on the result. This function should be used instead\n    of str.format or % interpolation to build up small HTML fragments.\n    \"\"\"",
+    "name": "format_html",
+    "namespace": "django.utils.html.format_html",
+    "class_name": "",
+    "module_name": "django.utils.html",
+    "package_name": ""
+}

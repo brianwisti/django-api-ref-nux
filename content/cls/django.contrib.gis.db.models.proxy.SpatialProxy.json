@@ -3,5 +3,31 @@
     "name": "SpatialProxy",
     "namespace": "django.contrib.gis.db.models.proxy.SpatialProxy",
     "module_name": "django.contrib.gis.db.models.proxy",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "\"\"\"\n        Initialize on the given Geometry or Raster class (not an instance)\n        and the corresponding field.\n        \"\"\"",
+            "name": "__init__",
+            "namespace": "django.contrib.gis.db.models.proxy.SpatialProxy.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Retrieve the geometry or raster, initializing it using the\n        corresponding class specified during initialization and the value of\n        the field. Currently, GEOS or OGR geometries as well as GDALRasters are\n        supported.\n        \"\"\"",
+            "name": "__get__",
+            "namespace": "django.contrib.gis.db.models.proxy.SpatialProxy.__get__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Retrieve the proxied geometry or raster with the corresponding class\n        specified during initialization.\n\n        To set geometries, use values of None, HEXEWKB, or WKT.\n        To set rasters, use JSON or dict values.\n        \"\"\"",
+            "name": "__set__",
+            "namespace": "django.contrib.gis.db.models.proxy.SpatialProxy.__set__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

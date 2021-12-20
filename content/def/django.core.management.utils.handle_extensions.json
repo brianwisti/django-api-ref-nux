@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Organize multiple extensions that are separated with commas or passed by\n    using --extension/-e multiple times.\n\n    For example: running 'django-admin makemessages -e js,txt -e xhtml -a'\n    would result in an extension list: ['.js', '.txt', '.xhtml']\n\n    >>> handle_extensions(['.html', 'html,js,py,py,py,.py', 'py,.py'])\n    {'.html', '.js', '.py'}\n    >>> handle_extensions(['.html, txt,.tpl'])\n    {'.html', '.tpl', '.txt'}\n    \"\"\"",
+    "name": "handle_extensions",
+    "namespace": "django.core.management.utils.handle_extensions",
+    "class_name": "",
+    "module_name": "django.core.management.utils",
+    "package_name": ""
+}

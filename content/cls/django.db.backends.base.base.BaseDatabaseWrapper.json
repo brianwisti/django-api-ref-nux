@@ -3,5 +3,479 @@
     "name": "BaseDatabaseWrapper",
     "namespace": "django.db.backends.base.base.BaseDatabaseWrapper",
     "module_name": "django.db.backends.base.base",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Ensure the connection's timezone is set to `self.timezone_name` and\n        return whether it changed or not.\n        \"\"\"",
+            "name": "ensure_timezone",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.ensure_timezone",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return a tzinfo of the database connection time zone.\n\n        This is only used when time zone support is enabled. When a datetime is\n        read from the database, it is always returned in this time zone.\n\n        When the database backend supports time zones, it doesn't matter which\n        time zone Django uses, as long as aware datetimes are used everywhere.\n        Other users connecting to the database can choose their own time zone.\n\n        When the database backend doesn't support time zones, the time zone\n        Django uses may be constrained by the requirements of other users of\n        the database.\n        \"\"\"",
+            "name": "timezone",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.timezone",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Name of the time zone of the database connection.\n        \"\"\"",
+            "name": "timezone_name",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.timezone_name",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "queries_logged",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.queries_logged",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "queries",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.queries",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return a dict of parameters suitable for get_new_connection.\"\"\"",
+            "name": "get_connection_params",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.get_connection_params",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Open a connection to the database.\"\"\"",
+            "name": "get_new_connection",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.get_new_connection",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Initialize the database connection settings.\"\"\"",
+            "name": "init_connection_state",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.init_connection_state",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Create a cursor. Assume that a connection is established.\"\"\"",
+            "name": "create_cursor",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.create_cursor",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Connect to the database. Assume that the connection is closed.\"\"\"",
+            "name": "connect",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.connect",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "check_settings",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.check_settings",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Guarantee that a connection to the database is established.\"\"\"",
+            "name": "ensure_connection",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.ensure_connection",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Validate the connection is usable and perform database cursor wrapping.\n        \"\"\"",
+            "name": "_prepare_cursor",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper._prepare_cursor",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_cursor",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper._cursor",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_commit",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper._commit",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_rollback",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper._rollback",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_close",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper._close",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Create a cursor, opening a connection if necessary.\"\"\"",
+            "name": "cursor",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.cursor",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Commit a transaction and reset the dirty flag.\"\"\"",
+            "name": "commit",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.commit",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Roll back a transaction and reset the dirty flag.\"\"\"",
+            "name": "rollback",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.rollback",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Close the connection to the database.\"\"\"",
+            "name": "close",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.close",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_savepoint",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper._savepoint",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_savepoint_rollback",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper._savepoint_rollback",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_savepoint_commit",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper._savepoint_commit",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_savepoint_allowed",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper._savepoint_allowed",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Create a savepoint inside the current transaction. Return an\n        identifier for the savepoint that will be used for the subsequent\n        rollback or commit. Do nothing if savepoints are not supported.\n        \"\"\"",
+            "name": "savepoint",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.savepoint",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Roll back to a savepoint. Do nothing if savepoints are not supported.\n        \"\"\"",
+            "name": "savepoint_rollback",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.savepoint_rollback",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Release a savepoint. Do nothing if savepoints are not supported.\n        \"\"\"",
+            "name": "savepoint_commit",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.savepoint_commit",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Reset the counter used to generate unique savepoint ids in this thread.\n        \"\"\"",
+            "name": "clean_savepoints",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.clean_savepoints",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Backend-specific implementation to enable or disable autocommit.\n        \"\"\"",
+            "name": "_set_autocommit",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper._set_autocommit",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Get the autocommit state.\"\"\"",
+            "name": "get_autocommit",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.get_autocommit",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Enable or disable autocommit.\n\n        The usual way to start a transaction is to turn autocommit off.\n        SQLite does not properly start a transaction when disabling\n        autocommit. To avoid this buggy behavior and to actually enter a new\n        transaction, an explicit BEGIN is required. Using\n        force_begin_transaction_with_broken_autocommit=True will issue an\n        explicit BEGIN with SQLite. This option will be ignored for other\n        backends.\n        \"\"\"",
+            "name": "set_autocommit",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.set_autocommit",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Get the \"needs rollback\" flag -- for *advanced use* only.\"\"\"",
+            "name": "get_rollback",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.get_rollback",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Set or unset the \"needs rollback\" flag -- for *advanced use* only.\n        \"\"\"",
+            "name": "set_rollback",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.set_rollback",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Raise an error if an atomic block is active.\"\"\"",
+            "name": "validate_no_atomic_block",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.validate_no_atomic_block",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "validate_no_broken_transaction",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.validate_no_broken_transaction",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Disable foreign key constraint checking.\n        \"\"\"",
+            "name": "constraint_checks_disabled",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.constraint_checks_disabled",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Backends can implement as needed to temporarily disable foreign key\n        constraint checking. Should return True if the constraints were\n        disabled and will need to be reenabled.\n        \"\"\"",
+            "name": "disable_constraint_checking",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.disable_constraint_checking",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Backends can implement as needed to re-enable foreign key constraint\n        checking.\n        \"\"\"",
+            "name": "enable_constraint_checking",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.enable_constraint_checking",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Backends can override this method if they can apply constraint\n        checking (e.g. via \"SET CONSTRAINTS ALL IMMEDIATE\"). Should raise an\n        IntegrityError if any invalid foreign key references are encountered.\n        \"\"\"",
+            "name": "check_constraints",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.check_constraints",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Test if the database connection is usable.\n\n        This method may assume that self.connection is not None.\n\n        Actual implementations should take care not to raise exceptions\n        as that may prevent Django from recycling unusable connections.\n        \"\"\"",
+            "name": "is_usable",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.is_usable",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Close the current connection if unrecoverable errors have occurred\n        or if it outlived its maximum age.\n        \"\"\"",
+            "name": "close_if_unusable_or_obsolete",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.close_if_unusable_or_obsolete",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "allow_thread_sharing",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.allow_thread_sharing",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "inc_thread_sharing",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.inc_thread_sharing",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "dec_thread_sharing",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.dec_thread_sharing",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Validate that the connection isn't accessed by another thread than the\n        one which originally created it, unless the connection was explicitly\n        authorized to be shared between threads (via the `inc_thread_sharing()`\n        method). Raise an exception if the validation fails.\n        \"\"\"",
+            "name": "validate_thread_sharing",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.validate_thread_sharing",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Hook to do any database check or preparation, generally called before\n        migrating a project or an app.\n        \"\"\"",
+            "name": "prepare_database",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.prepare_database",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Context manager and decorator that re-throws backend-specific database\n        exceptions using Django's common wrappers.\n        \"\"\"",
+            "name": "wrap_database_errors",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.wrap_database_errors",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return a cursor that tries to avoid caching in the database (if\n        supported by the database), otherwise return a regular cursor.\n        \"\"\"",
+            "name": "chunked_cursor",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.chunked_cursor",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Create a cursor that logs all queries in self.queries_log.\"\"\"",
+            "name": "make_debug_cursor",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.make_debug_cursor",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Create a cursor without debug logging.\"\"\"",
+            "name": "make_cursor",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.make_cursor",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Context manager that ensures that a connection is established, and\n        if it opened one, closes it to avoid leaving a dangling connection.\n        This is useful for operations outside of the request-response cycle.\n\n        Provide a cursor: with self.temporary_connection() as cursor: ...\n        \"\"\"",
+            "name": "temporary_connection",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.temporary_connection",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return a cursor from an alternative connection to be used when there is\n        no need to access the main database, specifically for test db\n        creation/deletion. This also prevents the production database from\n        being exposed to potential child threads while (or after) the test\n        database is destroyed. Refs #10868, #17786, #16969.\n        \"\"\"",
+            "name": "_nodb_cursor",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper._nodb_cursor",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return a new instance of this backend's SchemaEditor.\n        \"\"\"",
+            "name": "schema_editor",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.schema_editor",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "on_commit",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.on_commit",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "run_and_clear_commit_hooks",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.run_and_clear_commit_hooks",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return a context manager under which the wrapper is applied to suitable\n        database query executions.\n        \"\"\"",
+            "name": "execute_wrapper",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.execute_wrapper",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return a copy of this connection.\n\n        For tests that require two connections to the same database.\n        \"\"\"",
+            "name": "copy",
+            "namespace": "django.db.backends.base.base.BaseDatabaseWrapper.copy",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

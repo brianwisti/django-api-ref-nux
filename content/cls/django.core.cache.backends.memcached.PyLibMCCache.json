@@ -3,5 +3,39 @@
     "name": "PyLibMCCache",
     "namespace": "django.core.cache.backends.memcached.PyLibMCCache",
     "module_name": "django.core.cache.backends.memcached",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.core.cache.backends.memcached.PyLibMCCache.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "client_servers",
+            "namespace": "django.core.cache.backends.memcached.PyLibMCCache.client_servers",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "touch",
+            "namespace": "django.core.cache.backends.memcached.PyLibMCCache.touch",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "close",
+            "namespace": "django.core.cache.backends.memcached.PyLibMCCache.close",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

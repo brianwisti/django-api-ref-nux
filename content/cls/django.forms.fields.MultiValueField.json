@@ -3,5 +3,55 @@
     "name": "MultiValueField",
     "namespace": "django.forms.fields.MultiValueField",
     "module_name": "django.forms.fields",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.forms.fields.MultiValueField.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__deepcopy__",
+            "namespace": "django.forms.fields.MultiValueField.__deepcopy__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "validate",
+            "namespace": "django.forms.fields.MultiValueField.validate",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Validate every value in the given list. A value is validated against\n        the corresponding Field in self.fields.\n\n        For example, if this MultiValueField was instantiated with\n        fields=(DateField(), TimeField()), clean() would call\n        DateField.clean(value[0]) and TimeField.clean(value[1]).\n        \"\"\"",
+            "name": "clean",
+            "namespace": "django.forms.fields.MultiValueField.clean",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return a single value for the given list of values. The values can be\n        assumed to be valid.\n\n        For example, if this MultiValueField was instantiated with\n        fields=(DateField(), TimeField()), this might return a datetime\n        object created by combining the date and time in data_list.\n        \"\"\"",
+            "name": "compress",
+            "namespace": "django.forms.fields.MultiValueField.compress",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "has_changed",
+            "namespace": "django.forms.fields.MultiValueField.has_changed",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

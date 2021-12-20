@@ -5,27 +5,141 @@
         {
             "docstring": "",
             "name": "UnknownTimezoneException",
-            "namespace": "django.templatetags.tz.UnknownTimezoneException"
+            "namespace": "django.templatetags.tz.UnknownTimezoneException",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "datetimeobject",
-            "namespace": "django.templatetags.tz.datetimeobject"
+            "namespace": "django.templatetags.tz.datetimeobject",
+            "methods": []
         },
         {
             "docstring": "\"\"\"\n    Template node class used by ``localtime_tag``.\n    \"\"\"",
             "name": "LocalTimeNode",
-            "namespace": "django.templatetags.tz.LocalTimeNode"
+            "namespace": "django.templatetags.tz.LocalTimeNode",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.templatetags.tz.LocalTimeNode.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "render",
+                    "namespace": "django.templatetags.tz.LocalTimeNode.render",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Template node class used by ``timezone_tag``.\n    \"\"\"",
             "name": "TimezoneNode",
-            "namespace": "django.templatetags.tz.TimezoneNode"
+            "namespace": "django.templatetags.tz.TimezoneNode",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.templatetags.tz.TimezoneNode.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "render",
+                    "namespace": "django.templatetags.tz.TimezoneNode.render",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Template node class used by ``get_current_timezone_tag``.\n    \"\"\"",
             "name": "GetCurrentTimezoneNode",
-            "namespace": "django.templatetags.tz.GetCurrentTimezoneNode"
+            "namespace": "django.templatetags.tz.GetCurrentTimezoneNode",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.templatetags.tz.GetCurrentTimezoneNode.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "render",
+                    "namespace": "django.templatetags.tz.GetCurrentTimezoneNode.render",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "",
+            "name": "timezone_constructor",
+            "namespace": "django.templatetags.tz.timezone_constructor",
+            "class_name": "",
+            "module_name": "django.templatetags.tz",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Convert a datetime to local time in the active time zone.\n\n    This only makes sense within a {% localtime off %} block.\n    \"\"\"",
+            "name": "localtime",
+            "namespace": "django.templatetags.tz.localtime",
+            "class_name": "",
+            "module_name": "django.templatetags.tz",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Convert a datetime to UTC.\n    \"\"\"",
+            "name": "utc",
+            "namespace": "django.templatetags.tz.utc",
+            "class_name": "",
+            "module_name": "django.templatetags.tz",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Convert a datetime to local time in a given time zone.\n\n    The argument must be an instance of a tzinfo subclass or a time zone name.\n\n    Naive datetimes are assumed to be in local time in the default time zone.\n    \"\"\"",
+            "name": "do_timezone",
+            "namespace": "django.templatetags.tz.do_timezone",
+            "class_name": "",
+            "module_name": "django.templatetags.tz",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Force or prevent conversion of datetime objects to local time,\n    regardless of the value of ``settings.USE_TZ``.\n\n    Sample usage::\n\n        {% localtime off %}{{ value_in_utc }}{% endlocaltime %}\n    \"\"\"",
+            "name": "localtime_tag",
+            "namespace": "django.templatetags.tz.localtime_tag",
+            "class_name": "",
+            "module_name": "django.templatetags.tz",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Enable a given time zone just for this block.\n\n    The ``timezone`` argument must be an instance of a ``tzinfo`` subclass, a\n    time zone name, or ``None``. If it is ``None``, the default time zone is\n    used within the block.\n\n    Sample usage::\n\n        {% timezone \"Europe/Paris\" %}\n            It is {{ now }} in Paris.\n        {% endtimezone %}\n    \"\"\"",
+            "name": "timezone_tag",
+            "namespace": "django.templatetags.tz.timezone_tag",
+            "class_name": "",
+            "module_name": "django.templatetags.tz",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Store the name of the current time zone in the context.\n\n    Usage::\n\n        {% get_current_timezone as TIME_ZONE %}\n\n    This will fetch the currently active time zone and put its name\n    into the ``TIME_ZONE`` context variable.\n    \"\"\"",
+            "name": "get_current_timezone_tag",
+            "namespace": "django.templatetags.tz.get_current_timezone_tag",
+            "class_name": "",
+            "module_name": "django.templatetags.tz",
+            "package_name": ""
         }
     ],
     "package_name": "django.templatetags"

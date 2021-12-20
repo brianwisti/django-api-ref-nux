@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Determine if a given datetime.datetime is naive.\n\n    The concept is defined in Python's docs:\n    https://docs.python.org/library/datetime.html#datetime.tzinfo\n\n    Assuming value.tzinfo is either None or a proper datetime.tzinfo,\n    value.utcoffset() implements the appropriate logic.\n    \"\"\"",
+    "name": "is_naive",
+    "namespace": "django.utils.timezone.is_naive",
+    "class_name": "",
+    "module_name": "django.utils.timezone",
+    "package_name": ""
+}

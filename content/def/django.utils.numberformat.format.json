@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Get a number (as a number or string), and return it as a string,\n    using formats defined as arguments:\n\n    * decimal_sep: Decimal separator symbol (for example \".\")\n    * decimal_pos: Number of decimal positions\n    * grouping: Number of digits in every group limited by thousand separator.\n        For non-uniform digit grouping, it can be a sequence with the number\n        of digit group sizes following the format used by the Python locale\n        module in locale.localeconv() LC_NUMERIC grouping (e.g. (3, 2, 0)).\n    * thousand_sep: Thousand separator symbol (for example \",\")\n    \"\"\"",
+    "name": "format",
+    "namespace": "django.utils.numberformat.format",
+    "class_name": "",
+    "module_name": "django.utils.numberformat",
+    "package_name": ""
+}

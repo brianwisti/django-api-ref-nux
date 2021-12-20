@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Return a URL appropriate for the arguments passed.\n\n    The arguments could be:\n\n        * A model: the model's `get_absolute_url()` function will be called.\n\n        * A view name, possibly with arguments: `urls.reverse()` will be used\n          to reverse-resolve the name.\n\n        * A URL, which will be returned as-is.\n    \"\"\"",
+    "name": "resolve_url",
+    "namespace": "django.shortcuts.resolve_url",
+    "class_name": "",
+    "module_name": "django.shortcuts",
+    "package_name": ""
+}

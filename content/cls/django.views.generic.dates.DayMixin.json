@@ -3,5 +3,55 @@
     "name": "DayMixin",
     "namespace": "django.views.generic.dates.DayMixin",
     "module_name": "django.views.generic.dates",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "\"\"\"\n        Get a day format string in strptime syntax to be used to parse the day\n        from url variables.\n        \"\"\"",
+            "name": "get_day_format",
+            "namespace": "django.views.generic.dates.DayMixin.get_day_format",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return the day for which this view should display data.\"\"\"",
+            "name": "get_day",
+            "namespace": "django.views.generic.dates.DayMixin.get_day",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Get the next valid day.\"\"\"",
+            "name": "get_next_day",
+            "namespace": "django.views.generic.dates.DayMixin.get_next_day",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Get the previous valid day.\"\"\"",
+            "name": "get_previous_day",
+            "namespace": "django.views.generic.dates.DayMixin.get_previous_day",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return the start date of the next interval.\n\n        The interval is defined by start date <= item date < next start date.\n        \"\"\"",
+            "name": "_get_next_day",
+            "namespace": "django.views.generic.dates.DayMixin._get_next_day",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return the start date of the current interval.\"\"\"",
+            "name": "_get_current_day",
+            "namespace": "django.views.generic.dates.DayMixin._get_current_day",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

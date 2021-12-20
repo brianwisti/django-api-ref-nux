@@ -3,5 +3,55 @@
     "name": "Message",
     "namespace": "django.contrib.messages.storage.base.Message",
     "module_name": "django.contrib.messages.storage.base",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.contrib.messages.storage.base.Message.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Prepare the message for serialization by forcing the ``message``\n        and ``extra_tags`` to str in case they are lazy translations.\n        \"\"\"",
+            "name": "_prepare",
+            "namespace": "django.contrib.messages.storage.base.Message._prepare",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__eq__",
+            "namespace": "django.contrib.messages.storage.base.Message.__eq__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__str__",
+            "namespace": "django.contrib.messages.storage.base.Message.__str__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "tags",
+            "namespace": "django.contrib.messages.storage.base.Message.tags",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "level_tag",
+            "namespace": "django.contrib.messages.storage.base.Message.level_tag",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

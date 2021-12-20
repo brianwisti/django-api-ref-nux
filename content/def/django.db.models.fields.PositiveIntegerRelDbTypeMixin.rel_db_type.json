@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Return the data type that a related field pointing to this field should\n        use. In most cases, a foreign key pointing to a positive integer\n        primary key will have an integer column data type but some databases\n        (e.g. MySQL) have an unsigned integer type. In that case\n        (related_fields_match_type=True), the primary key should return its\n        db_type.\n        \"\"\"",
+    "name": "rel_db_type",
+    "namespace": "django.db.models.fields.PositiveIntegerRelDbTypeMixin.rel_db_type",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Force or prevents localization of values, regardless of the value of\n    `settings.USE_L10N`.\n\n    Sample usage::\n\n        {% localize off %}\n            var pi = {{ 3.1415 }};\n        {% endlocalize %}\n    \"\"\"",
+    "name": "localize_tag",
+    "namespace": "django.templatetags.l10n.localize_tag",
+    "class_name": "",
+    "module_name": "django.templatetags.l10n",
+    "package_name": ""
+}

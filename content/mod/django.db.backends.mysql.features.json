@@ -5,8 +5,211 @@
         {
             "docstring": "",
             "name": "DatabaseFeatures",
-            "namespace": "django.db.backends.mysql.features.DatabaseFeatures"
+            "namespace": "django.db.backends.mysql.features.DatabaseFeatures",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "test_collations",
+                    "namespace": "django.db.backends.mysql.features.DatabaseFeatures.test_collations",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "django_test_skips",
+                    "namespace": "django.db.backends.mysql.features.DatabaseFeatures.django_test_skips",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Internal method used in Django tests. Don't rely on this from your code\"",
+                    "name": "_mysql_storage_engine",
+                    "namespace": "django.db.backends.mysql.features.DatabaseFeatures._mysql_storage_engine",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Autoincrement primary key can be set to 0 if it doesn't generate new\n        autoincrement values.\n        \"\"\"",
+                    "name": "allows_auto_pk_0",
+                    "namespace": "django.db.backends.mysql.features.DatabaseFeatures.allows_auto_pk_0",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "update_can_self_select",
+                    "namespace": "django.db.backends.mysql.features.DatabaseFeatures.update_can_self_select",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Confirm support for introspected foreign keys\"",
+                    "name": "can_introspect_foreign_keys",
+                    "namespace": "django.db.backends.mysql.features.DatabaseFeatures.can_introspect_foreign_keys",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "introspected_field_types",
+                    "namespace": "django.db.backends.mysql.features.DatabaseFeatures.introspected_field_types",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "can_return_columns_from_insert",
+                    "namespace": "django.db.backends.mysql.features.DatabaseFeatures.can_return_columns_from_insert",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "has_zoneinfo_database",
+                    "namespace": "django.db.backends.mysql.features.DatabaseFeatures.has_zoneinfo_database",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "is_sql_auto_is_null_enabled",
+                    "namespace": "django.db.backends.mysql.features.DatabaseFeatures.is_sql_auto_is_null_enabled",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "supports_over_clause",
+                    "namespace": "django.db.backends.mysql.features.DatabaseFeatures.supports_over_clause",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "supports_column_check_constraints",
+                    "namespace": "django.db.backends.mysql.features.DatabaseFeatures.supports_column_check_constraints",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "can_introspect_check_constraints",
+                    "namespace": "django.db.backends.mysql.features.DatabaseFeatures.can_introspect_check_constraints",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "has_select_for_update_skip_locked",
+                    "namespace": "django.db.backends.mysql.features.DatabaseFeatures.has_select_for_update_skip_locked",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "has_select_for_update_nowait",
+                    "namespace": "django.db.backends.mysql.features.DatabaseFeatures.has_select_for_update_nowait",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "has_select_for_update_of",
+                    "namespace": "django.db.backends.mysql.features.DatabaseFeatures.has_select_for_update_of",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "supports_explain_analyze",
+                    "namespace": "django.db.backends.mysql.features.DatabaseFeatures.supports_explain_analyze",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "supported_explain_formats",
+                    "namespace": "django.db.backends.mysql.features.DatabaseFeatures.supported_explain_formats",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        All storage engines except MyISAM support transactions.\n        \"\"\"",
+                    "name": "supports_transactions",
+                    "namespace": "django.db.backends.mysql.features.DatabaseFeatures.supports_transactions",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "ignores_table_name_case",
+                    "namespace": "django.db.backends.mysql.features.DatabaseFeatures.ignores_table_name_case",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "supports_default_in_lead_lag",
+                    "namespace": "django.db.backends.mysql.features.DatabaseFeatures.supports_default_in_lead_lag",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "supports_json_field",
+                    "namespace": "django.db.backends.mysql.features.DatabaseFeatures.supports_json_field",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "can_introspect_json_field",
+                    "namespace": "django.db.backends.mysql.features.DatabaseFeatures.can_introspect_json_field",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "supports_index_column_ordering",
+                    "namespace": "django.db.backends.mysql.features.DatabaseFeatures.supports_index_column_ordering",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "supports_expression_indexes",
+                    "namespace": "django.db.backends.mysql.features.DatabaseFeatures.supports_expression_indexes",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.db.backends.mysql"
 }

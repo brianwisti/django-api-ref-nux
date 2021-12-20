@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        MySQL has the following field length restriction:\n        No character (varchar) fields can have a length exceeding 255\n        characters if they have a unique index on them.\n        MySQL doesn't support a database index on some data types.\n        \"\"\"",
+    "name": "check_field_type",
+    "namespace": "django.db.backends.mysql.validation.DatabaseValidation.check_field_type",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

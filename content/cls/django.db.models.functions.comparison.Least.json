@@ -3,5 +3,23 @@
     "name": "Least",
     "namespace": "django.db.models.functions.comparison.Least",
     "module_name": "django.db.models.functions.comparison",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.db.models.functions.comparison.Least.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Use the MIN function on SQLite.\"\"\"",
+            "name": "as_sqlite",
+            "namespace": "django.db.models.functions.comparison.Least.as_sqlite",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

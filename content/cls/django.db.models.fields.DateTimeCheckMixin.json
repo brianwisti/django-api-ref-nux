@@ -3,5 +3,39 @@
     "name": "DateTimeCheckMixin",
     "namespace": "django.db.models.fields.DateTimeCheckMixin",
     "module_name": "django.db.models.fields",
-    "package_name": "django.db.models.fields"
+    "package_name": "django.db.models.fields",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "check",
+            "namespace": "django.db.models.fields.DateTimeCheckMixin.check",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_check_mutually_exclusive_options",
+            "namespace": "django.db.models.fields.DateTimeCheckMixin._check_mutually_exclusive_options",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_check_fix_default_value",
+            "namespace": "django.db.models.fields.DateTimeCheckMixin._check_fix_default_value",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Check if the given value appears to have been provided as a \"fixed\"\n        time value, and include a warning in the returned list if it does. The\n        value argument must be a date object or aware/naive datetime object. If\n        now is provided, it must be a naive datetime object.\n        \"\"\"",
+            "name": "_check_if_value_fixed",
+            "namespace": "django.db.models.fields.DateTimeCheckMixin._check_if_value_fixed",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

@@ -2,5 +2,39 @@
     "namespace": "django.template.autoreload",
     "docstring": "",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "",
+            "name": "get_template_directories",
+            "namespace": "django.template.autoreload.get_template_directories",
+            "class_name": "",
+            "module_name": "django.template.autoreload",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "reset_loaders",
+            "namespace": "django.template.autoreload.reset_loaders",
+            "class_name": "",
+            "module_name": "django.template.autoreload",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "watch_for_template_changes",
+            "namespace": "django.template.autoreload.watch_for_template_changes",
+            "class_name": "",
+            "module_name": "django.template.autoreload",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "template_changed",
+            "namespace": "django.template.autoreload.template_changed",
+            "class_name": "",
+            "module_name": "django.template.autoreload",
+            "package_name": ""
+        }
+    ],
     "package_name": "django.template"
 }

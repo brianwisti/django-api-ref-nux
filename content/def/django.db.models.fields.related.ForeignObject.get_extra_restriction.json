@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Return a pair condition used for joining and subquery pushdown. The\n        condition is something that responds to as_sql(compiler, connection)\n        method.\n\n        Note that currently referring both the 'alias' and 'related_alias'\n        will not work in some conditions, like subquery pushdown.\n\n        A parallel method is get_extra_descriptor_filter() which is used in\n        instance.fieldname related object fetching.\n        \"\"\"",
+    "name": "get_extra_restriction",
+    "namespace": "django.db.models.fields.related.ForeignObject.get_extra_restriction",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

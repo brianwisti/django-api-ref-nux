@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Return all related objects pointing to the current model. The related\n        objects can come from a one-to-one, one-to-many, or many-to-many field\n        relation type.\n\n        Private API intended only to be used by Django itself; get_fields()\n        combined with filtering of field properties is the public API for\n        obtaining this field list.\n        \"\"\"",
+    "name": "related_objects",
+    "namespace": "django.db.models.options.Options.related_objects",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

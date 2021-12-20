@@ -5,12 +5,106 @@
         {
             "docstring": "",
             "name": "PermLookupDict",
-            "namespace": "django.contrib.auth.context_processors.PermLookupDict"
+            "namespace": "django.contrib.auth.context_processors.PermLookupDict",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.auth.context_processors.PermLookupDict.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.contrib.auth.context_processors.PermLookupDict.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__getitem__",
+                    "namespace": "django.contrib.auth.context_processors.PermLookupDict.__getitem__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__iter__",
+                    "namespace": "django.contrib.auth.context_processors.PermLookupDict.__iter__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__bool__",
+                    "namespace": "django.contrib.auth.context_processors.PermLookupDict.__bool__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "PermWrapper",
-            "namespace": "django.contrib.auth.context_processors.PermWrapper"
+            "namespace": "django.contrib.auth.context_processors.PermWrapper",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.auth.context_processors.PermWrapper.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.contrib.auth.context_processors.PermWrapper.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__getitem__",
+                    "namespace": "django.contrib.auth.context_processors.PermWrapper.__getitem__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__iter__",
+                    "namespace": "django.contrib.auth.context_processors.PermWrapper.__iter__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Lookup by \"someapp\" or \"someapp.someperm\" in perms.\n        \"\"\"",
+                    "name": "__contains__",
+                    "namespace": "django.contrib.auth.context_processors.PermWrapper.__contains__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Return context variables required by apps that use Django's authentication\n    system.\n\n    If there is no 'user' attribute in the request, use AnonymousUser (from\n    django.contrib.auth).\n    \"\"\"",
+            "name": "auth",
+            "namespace": "django.contrib.auth.context_processors.auth",
+            "class_name": "",
+            "module_name": "django.contrib.auth.context_processors",
+            "package_name": ""
         }
     ],
     "package_name": "django.contrib.auth"

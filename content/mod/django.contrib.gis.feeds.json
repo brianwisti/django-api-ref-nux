@@ -5,28 +5,151 @@
         {
             "docstring": "\"\"\"\n    This mixin provides the necessary routines for SyndicationFeed subclasses\n    to produce simple GeoRSS or W3C Geo elements.\n    \"\"\"",
             "name": "GeoFeedMixin",
-            "namespace": "django.contrib.gis.feeds.GeoFeedMixin"
+            "namespace": "django.contrib.gis.feeds.GeoFeedMixin",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        In GeoRSS coordinate pairs are ordered by lat/lon and separated by\n        a single white space. Given a tuple of coordinates, return a string\n        GeoRSS representation.\n        \"\"\"",
+                    "name": "georss_coords",
+                    "namespace": "django.contrib.gis.feeds.GeoFeedMixin.georss_coords",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Adds a GeoRSS point with the given coords using the given handler.\n        Handles the differences between simple GeoRSS and the more popular\n        W3C Geo specification.\n        \"\"\"",
+                    "name": "add_georss_point",
+                    "namespace": "django.contrib.gis.feeds.GeoFeedMixin.add_georss_point",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Add a GeoRSS XML element using the given item and handler.\"\"\"",
+                    "name": "add_georss_element",
+                    "namespace": "django.contrib.gis.feeds.GeoFeedMixin.add_georss_element",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "GeoRSSFeed",
-            "namespace": "django.contrib.gis.feeds.GeoRSSFeed"
+            "namespace": "django.contrib.gis.feeds.GeoRSSFeed",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "rss_attributes",
+                    "namespace": "django.contrib.gis.feeds.GeoRSSFeed.rss_attributes",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "add_item_elements",
+                    "namespace": "django.contrib.gis.feeds.GeoRSSFeed.add_item_elements",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "add_root_elements",
+                    "namespace": "django.contrib.gis.feeds.GeoRSSFeed.add_root_elements",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "GeoAtom1Feed",
-            "namespace": "django.contrib.gis.feeds.GeoAtom1Feed"
+            "namespace": "django.contrib.gis.feeds.GeoAtom1Feed",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "root_attributes",
+                    "namespace": "django.contrib.gis.feeds.GeoAtom1Feed.root_attributes",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "add_item_elements",
+                    "namespace": "django.contrib.gis.feeds.GeoAtom1Feed.add_item_elements",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "add_root_elements",
+                    "namespace": "django.contrib.gis.feeds.GeoAtom1Feed.add_root_elements",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "W3CGeoFeed",
-            "namespace": "django.contrib.gis.feeds.W3CGeoFeed"
+            "namespace": "django.contrib.gis.feeds.W3CGeoFeed",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "rss_attributes",
+                    "namespace": "django.contrib.gis.feeds.W3CGeoFeed.rss_attributes",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "add_item_elements",
+                    "namespace": "django.contrib.gis.feeds.W3CGeoFeed.add_item_elements",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "add_root_elements",
+                    "namespace": "django.contrib.gis.feeds.W3CGeoFeed.add_root_elements",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    This is a subclass of the `Feed` from `django.contrib.syndication`.\n    This allows users to define a `geometry(obj)` and/or `item_geometry(item)`\n    methods on their own subclasses so that geo-referenced information may\n    placed in the feed.\n    \"\"\"",
             "name": "Feed",
-            "namespace": "django.contrib.gis.feeds.Feed"
+            "namespace": "django.contrib.gis.feeds.Feed",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "feed_extra_kwargs",
+                    "namespace": "django.contrib.gis.feeds.Feed.feed_extra_kwargs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "item_extra_kwargs",
+                    "namespace": "django.contrib.gis.feeds.Feed.item_extra_kwargs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.gis"
 }

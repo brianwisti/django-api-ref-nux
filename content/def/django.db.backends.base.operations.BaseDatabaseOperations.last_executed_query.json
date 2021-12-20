@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Return a string of the query last executed by the given cursor, with\n        placeholders replaced with actual values.\n\n        `sql` is the raw query containing placeholders and `params` is the\n        sequence of parameters. These are used by default, but this method\n        exists for database backends to provide a better implementation\n        according to their own quoting schemes.\n        \"\"\"",
+    "name": "last_executed_query",
+    "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.last_executed_query",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

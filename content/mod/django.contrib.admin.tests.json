@@ -5,13 +5,154 @@
         {
             "docstring": "\"\"\"The admin's JavaScript should be compatible with CSP.\"\"\"",
             "name": "CSPMiddleware",
-            "namespace": "django.contrib.admin.tests.CSPMiddleware"
+            "namespace": "django.contrib.admin.tests.CSPMiddleware",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "process_response",
+                    "namespace": "django.contrib.admin.tests.CSPMiddleware.process_response",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "AdminSeleniumTestCase",
-            "namespace": "django.contrib.admin.tests.AdminSeleniumTestCase"
+            "namespace": "django.contrib.admin.tests.AdminSeleniumTestCase",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        Block the execution of the tests until the specified callback returns a\n        value that is not falsy. This method can be called, for example, after\n        clicking a link or submitting a form. See the other public methods that\n        call this function for more details.\n        \"\"\"",
+                    "name": "wait_until",
+                    "namespace": "django.contrib.admin.tests.AdminSeleniumTestCase.wait_until",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Block until `num_windows` are present and are ready (usually 2, but can\n        be overridden in the case of pop-ups opening other pop-ups). Switch the\n        current window to the new pop-up.\n        \"\"\"",
+                    "name": "wait_for_and_switch_to_popup",
+                    "namespace": "django.contrib.admin.tests.AdminSeleniumTestCase.wait_for_and_switch_to_popup",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Block until a CSS selector is found on the page.\n        \"\"\"",
+                    "name": "wait_for",
+                    "namespace": "django.contrib.admin.tests.AdminSeleniumTestCase.wait_for",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Block until the text is found in the CSS selector.\n        \"\"\"",
+                    "name": "wait_for_text",
+                    "namespace": "django.contrib.admin.tests.AdminSeleniumTestCase.wait_for_text",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Block until the value is found in the CSS selector.\n        \"\"\"",
+                    "name": "wait_for_value",
+                    "namespace": "django.contrib.admin.tests.AdminSeleniumTestCase.wait_for_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Block until the element described by the CSS selector is visible.\n        \"\"\"",
+                    "name": "wait_until_visible",
+                    "namespace": "django.contrib.admin.tests.AdminSeleniumTestCase.wait_until_visible",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Block until the element described by the CSS selector is invisible.\n        \"\"\"",
+                    "name": "wait_until_invisible",
+                    "namespace": "django.contrib.admin.tests.AdminSeleniumTestCase.wait_until_invisible",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Block until the  page is ready.\n        \"\"\"",
+                    "name": "wait_page_ready",
+                    "namespace": "django.contrib.admin.tests.AdminSeleniumTestCase.wait_page_ready",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Block until a new page has loaded and is ready.\n        \"\"\"",
+                    "name": "wait_page_loaded",
+                    "namespace": "django.contrib.admin.tests.AdminSeleniumTestCase.wait_page_loaded",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Log in to the admin.\n        \"\"\"",
+                    "name": "admin_login",
+                    "namespace": "django.contrib.admin.tests.AdminSeleniumTestCase.admin_login",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Select the <OPTION> with the value `value` inside the <SELECT> widget\n        identified by the CSS selector `selector`.\n        \"\"\"",
+                    "name": "select_option",
+                    "namespace": "django.contrib.admin.tests.AdminSeleniumTestCase.select_option",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Deselect the <OPTION> with the value `value` inside the <SELECT> widget\n        identified by the CSS selector `selector`.\n        \"\"\"",
+                    "name": "deselect_option",
+                    "namespace": "django.contrib.admin.tests.AdminSeleniumTestCase.deselect_option",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_assertOptionsValues",
+                    "namespace": "django.contrib.admin.tests.AdminSeleniumTestCase._assertOptionsValues",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Assert that the <SELECT> widget identified by `selector` has the\n        options with the given `values`.\n        \"\"\"",
+                    "name": "assertSelectOptions",
+                    "namespace": "django.contrib.admin.tests.AdminSeleniumTestCase.assertSelectOptions",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Assert that the <SELECT> widget identified by `selector` has the\n        selected options with the given `values`.\n        \"\"\"",
+                    "name": "assertSelectedOptions",
+                    "namespace": "django.contrib.admin.tests.AdminSeleniumTestCase.assertSelectedOptions",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return True if the element identified by `selector` has the CSS class\n        `klass`.\n        \"\"\"",
+                    "name": "has_css_class",
+                    "namespace": "django.contrib.admin.tests.AdminSeleniumTestCase.has_css_class",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.admin"
 }

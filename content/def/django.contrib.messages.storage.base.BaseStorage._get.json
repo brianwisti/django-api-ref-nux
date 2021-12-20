@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Retrieve a list of stored messages. Return a tuple of the messages\n        and a flag indicating whether or not all the messages originally\n        intended to be stored in this storage were, in fact, stored and\n        retrieved; e.g., ``(messages, all_retrieved)``.\n\n        **This method must be implemented by a subclass.**\n\n        If it is possible to tell if the backend was not used (as opposed to\n        just containing no messages) then ``None`` should be returned in\n        place of ``messages``.\n        \"\"\"",
+    "name": "_get",
+    "namespace": "django.contrib.messages.storage.base.BaseStorage._get",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

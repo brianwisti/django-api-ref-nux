@@ -3,5 +3,71 @@
     "name": "CheckConstraint",
     "namespace": "django.db.models.constraints.CheckConstraint",
     "module_name": "django.db.models.constraints",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.db.models.constraints.CheckConstraint.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_get_check_sql",
+            "namespace": "django.db.models.constraints.CheckConstraint._get_check_sql",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "constraint_sql",
+            "namespace": "django.db.models.constraints.CheckConstraint.constraint_sql",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "create_sql",
+            "namespace": "django.db.models.constraints.CheckConstraint.create_sql",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "remove_sql",
+            "namespace": "django.db.models.constraints.CheckConstraint.remove_sql",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__repr__",
+            "namespace": "django.db.models.constraints.CheckConstraint.__repr__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__eq__",
+            "namespace": "django.db.models.constraints.CheckConstraint.__eq__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "deconstruct",
+            "namespace": "django.db.models.constraints.CheckConstraint.deconstruct",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

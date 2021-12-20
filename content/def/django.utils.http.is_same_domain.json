@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Return ``True`` if the host is either an exact match or a match\n    to the wildcard pattern.\n\n    Any pattern beginning with a period matches a domain and all of its\n    subdomains. (e.g. ``.example.com`` matches ``example.com`` and\n    ``foo.example.com``). Anything else is an exact string match.\n    \"\"\"",
+    "name": "is_same_domain",
+    "namespace": "django.utils.http.is_same_domain",
+    "class_name": "",
+    "module_name": "django.utils.http",
+    "package_name": ""
+}

@@ -5,43 +5,168 @@
         {
             "docstring": "",
             "name": "Aggregate",
-            "namespace": "django.db.models.aggregates.Aggregate"
+            "namespace": "django.db.models.aggregates.Aggregate",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.aggregates.Aggregate.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_source_fields",
+                    "namespace": "django.db.models.aggregates.Aggregate.get_source_fields",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_source_expressions",
+                    "namespace": "django.db.models.aggregates.Aggregate.get_source_expressions",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "set_source_expressions",
+                    "namespace": "django.db.models.aggregates.Aggregate.set_source_expressions",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "resolve_expression",
+                    "namespace": "django.db.models.aggregates.Aggregate.resolve_expression",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "default_alias",
+                    "namespace": "django.db.models.aggregates.Aggregate.default_alias",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_group_by_cols",
+                    "namespace": "django.db.models.aggregates.Aggregate.get_group_by_cols",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.db.models.aggregates.Aggregate.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_get_repr_options",
+                    "namespace": "django.db.models.aggregates.Aggregate._get_repr_options",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Avg",
-            "namespace": "django.db.models.aggregates.Avg"
+            "namespace": "django.db.models.aggregates.Avg",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "Count",
-            "namespace": "django.db.models.aggregates.Count"
+            "namespace": "django.db.models.aggregates.Count",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.aggregates.Count.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Max",
-            "namespace": "django.db.models.aggregates.Max"
+            "namespace": "django.db.models.aggregates.Max",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "Min",
-            "namespace": "django.db.models.aggregates.Min"
+            "namespace": "django.db.models.aggregates.Min",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "StdDev",
-            "namespace": "django.db.models.aggregates.StdDev"
+            "namespace": "django.db.models.aggregates.StdDev",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.aggregates.StdDev.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_get_repr_options",
+                    "namespace": "django.db.models.aggregates.StdDev._get_repr_options",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Sum",
-            "namespace": "django.db.models.aggregates.Sum"
+            "namespace": "django.db.models.aggregates.Sum",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "Variance",
-            "namespace": "django.db.models.aggregates.Variance"
+            "namespace": "django.db.models.aggregates.Variance",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.aggregates.Variance.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_get_repr_options",
+                    "namespace": "django.db.models.aggregates.Variance._get_repr_options",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.db.models"
 }

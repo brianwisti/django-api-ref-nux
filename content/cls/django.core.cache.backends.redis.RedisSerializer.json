@@ -3,5 +3,23 @@
     "name": "RedisSerializer",
     "namespace": "django.core.cache.backends.redis.RedisSerializer",
     "module_name": "django.core.cache.backends.redis",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "dumps",
+            "namespace": "django.core.cache.backends.redis.RedisSerializer.dumps",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "loads",
+            "namespace": "django.core.cache.backends.redis.RedisSerializer.loads",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

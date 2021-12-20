@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Clean an IPv6 address string.\n\n    Raise ValidationError if the address is invalid.\n\n    Replace the longest continuous zero-sequence with \"::\", remove leading\n    zeroes, and make sure all hextets are lowercase.\n\n    Args:\n        ip_str: A valid IPv6 address.\n        unpack_ipv4: if an IPv4-mapped address is found,\n        return the plain IPv4 address (default=False).\n        error_message: An error message used in the ValidationError.\n\n    Return a compressed IPv6 address or the same value.\n    \"\"\"",
+    "name": "clean_ipv6_address",
+    "namespace": "django.utils.ipv6.clean_ipv6_address",
+    "class_name": "",
+    "module_name": "django.utils.ipv6",
+    "package_name": ""
+}

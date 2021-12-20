@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"Load an email backend and return an instance of it.\n\n    If backend is None (default), use settings.EMAIL_BACKEND.\n\n    Both fail_silently and other keyword arguments are used in the\n    constructor of the backend.\n    \"\"\"",
+    "name": "get_connection",
+    "namespace": "django.core.mail.get_connection",
+    "class_name": "",
+    "module_name": "django.core.mail",
+    "package_name": "django.core.mail"
+}

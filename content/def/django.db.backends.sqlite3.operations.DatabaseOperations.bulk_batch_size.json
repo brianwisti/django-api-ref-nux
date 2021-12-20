@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        SQLite has a compile-time default (SQLITE_LIMIT_VARIABLE_NUMBER) of\n        999 variables per query.\n\n        If there's only a single field to insert, the limit is 500\n        (SQLITE_MAX_COMPOUND_SELECT).\n        \"\"\"",
+    "name": "bulk_batch_size",
+    "namespace": "django.db.backends.sqlite3.operations.DatabaseOperations.bulk_batch_size",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

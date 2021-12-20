@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    If redirecting to an absolute path (two leading slashes), a slash must be\n    escaped to prevent browsers from handling the path as schemaless and\n    redirecting to another host.\n    \"\"\"",
+    "name": "escape_leading_slashes",
+    "namespace": "django.utils.http.escape_leading_slashes",
+    "class_name": "",
+    "module_name": "django.utils.http",
+    "package_name": ""
+}

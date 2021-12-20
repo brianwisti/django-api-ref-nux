@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Take a result from changes() and a MigrationGraph, and fix the names\n        and dependencies of the changes so they extend the graph from the leaf\n        nodes for each app.\n        \"\"\"",
+    "name": "arrange_for_graph",
+    "namespace": "django.db.migrations.autodetector.MigrationAutodetector.arrange_for_graph",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Pickling should return the instance attached by self.field on the\n        model, not a new copy of that descriptor. Use getattr() to retrieve\n        the instance directly from the model.\n        \"\"\"",
+    "name": "__reduce__",
+    "namespace": "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor.__reduce__",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Decorator to support conditional retrieval (or change) for a view\n    function.\n\n    The parameters are callables to compute the ETag and last modified time for\n    the requested resource, respectively. The callables are passed the same\n    parameters as the view itself. The ETag function should return a string (or\n    None if the resource doesn't exist), while the last_modified function\n    should return a datetime object (or None if the resource doesn't exist).\n\n    The ETag function should return a complete ETag, including quotes (e.g.\n    '\"etag\"'), since that's the only way to distinguish between weak and strong\n    ETags. If an unquoted ETag is returned (e.g. 'etag'), it will be converted\n    to a strong ETag by adding quotes.\n\n    This decorator will either pass control to the wrapped view function or\n    return an HTTP 304 response (unmodified) or 412 response (precondition\n    failed), depending upon the request method. In either case, the decorator\n    will add the generated ETag and Last-Modified headers to the response if\n    the headers aren't already set and if the request's method is safe.\n    \"\"\"",
+    "name": "condition",
+    "namespace": "django.views.decorators.http.condition",
+    "class_name": "",
+    "module_name": "django.views.decorators.http",
+    "package_name": ""
+}

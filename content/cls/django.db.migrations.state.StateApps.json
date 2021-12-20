@@ -3,5 +3,55 @@
     "name": "StateApps",
     "namespace": "django.db.migrations.state.StateApps",
     "module_name": "django.db.migrations.state",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.db.migrations.state.StateApps.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "bulk_update",
+            "namespace": "django.db.migrations.state.StateApps.bulk_update",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "render_multiple",
+            "namespace": "django.db.migrations.state.StateApps.render_multiple",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return a clone of this registry.\"\"\"",
+            "name": "clone",
+            "namespace": "django.db.migrations.state.StateApps.clone",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "register_model",
+            "namespace": "django.db.migrations.state.StateApps.register_model",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "unregister_model",
+            "namespace": "django.db.migrations.state.StateApps.unregister_model",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

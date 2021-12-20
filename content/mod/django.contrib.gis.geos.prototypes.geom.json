@@ -5,23 +5,28 @@
         {
             "docstring": "",
             "name": "geos_char_p",
-            "namespace": "django.contrib.gis.geos.prototypes.geom.geos_char_p"
+            "namespace": "django.contrib.gis.geos.prototypes.geom.geos_char_p",
+            "methods": []
         },
         {
             "docstring": "\"For GEOS routines that return a geometry.\"",
             "name": "GeomOutput",
-            "namespace": "django.contrib.gis.geos.prototypes.geom.GeomOutput"
+            "namespace": "django.contrib.gis.geos.prototypes.geom.GeomOutput",
+            "methods": []
         },
         {
             "docstring": "\"Argument is a geometry, return type is an integer.\"",
             "name": "IntFromGeom",
-            "namespace": "django.contrib.gis.geos.prototypes.geom.IntFromGeom"
+            "namespace": "django.contrib.gis.geos.prototypes.geom.IntFromGeom",
+            "methods": []
         },
         {
             "docstring": "\"Argument is a Geometry, return type is a string.\"",
             "name": "StringFromGeom",
-            "namespace": "django.contrib.gis.geos.prototypes.geom.StringFromGeom"
+            "namespace": "django.contrib.gis.geos.prototypes.geom.StringFromGeom",
+            "methods": []
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.gis.geos.prototypes"
 }

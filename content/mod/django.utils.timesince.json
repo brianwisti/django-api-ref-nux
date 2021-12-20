@@ -2,5 +2,23 @@
     "namespace": "django.utils.timesince",
     "docstring": "",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Take two datetime objects and return the time between d and now as a nicely\n    formatted string, e.g. \"10 minutes\". If d occurs after now, return\n    \"0 minutes\".\n\n    Units used are years, months, weeks, days, hours, and minutes.\n    Seconds and microseconds are ignored. Up to `depth` adjacent units will be\n    displayed.  For example, \"2 weeks, 3 days\" and \"1 year, 3 months\" are\n    possible outputs, but \"2 weeks, 3 hours\" and \"1 year, 5 days\" are not.\n\n    `time_strings` is an optional dict of strings to replace the default\n    TIME_STRINGS dict.\n\n    `depth` is an optional integer to control the number of adjacent time\n    units returned.\n\n    Adapted from\n    https://web.archive.org/web/20060617175230/http://blog.natbat.co.uk/archive/2003/Jun/14/time_since\n    \"\"\"",
+            "name": "timesince",
+            "namespace": "django.utils.timesince.timesince",
+            "class_name": "",
+            "module_name": "django.utils.timesince",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Like timesince, but return a string measuring the time until the given time.\n    \"\"\"",
+            "name": "timeuntil",
+            "namespace": "django.utils.timesince.timeuntil",
+            "class_name": "",
+            "module_name": "django.utils.timesince",
+            "package_name": ""
+        }
+    ],
     "package_name": "django.utils"
 }

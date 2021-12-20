@@ -5,17 +5,225 @@
         {
             "docstring": "",
             "name": "InvalidTokenFormat",
-            "namespace": "django.middleware.csrf.InvalidTokenFormat"
+            "namespace": "django.middleware.csrf.InvalidTokenFormat",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.middleware.csrf.InvalidTokenFormat.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "RejectRequest",
-            "namespace": "django.middleware.csrf.RejectRequest"
+            "namespace": "django.middleware.csrf.RejectRequest",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.middleware.csrf.RejectRequest.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Require a present and correct csrfmiddlewaretoken for POST requests that\n    have a CSRF cookie, and set an outgoing CSRF cookie.\n\n    This middleware should be used in conjunction with the {% csrf_token %}\n    template tag.\n    \"\"\"",
             "name": "CsrfViewMiddleware",
-            "namespace": "django.middleware.csrf.CsrfViewMiddleware"
+            "namespace": "django.middleware.csrf.CsrfViewMiddleware",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "csrf_trusted_origins_hosts",
+                    "namespace": "django.middleware.csrf.CsrfViewMiddleware.csrf_trusted_origins_hosts",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "allowed_origins_exact",
+                    "namespace": "django.middleware.csrf.CsrfViewMiddleware.allowed_origins_exact",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        A mapping of allowed schemes to list of allowed netlocs, where all\n        subdomains of the netloc are allowed.\n        \"\"\"",
+                    "name": "allowed_origin_subdomains",
+                    "namespace": "django.middleware.csrf.CsrfViewMiddleware.allowed_origin_subdomains",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_accept",
+                    "namespace": "django.middleware.csrf.CsrfViewMiddleware._accept",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_reject",
+                    "namespace": "django.middleware.csrf.CsrfViewMiddleware._reject",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_get_token",
+                    "namespace": "django.middleware.csrf.CsrfViewMiddleware._get_token",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_set_csrf_cookie",
+                    "namespace": "django.middleware.csrf.CsrfViewMiddleware._set_csrf_cookie",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_origin_verified",
+                    "namespace": "django.middleware.csrf.CsrfViewMiddleware._origin_verified",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_check_referer",
+                    "namespace": "django.middleware.csrf.CsrfViewMiddleware._check_referer",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_bad_token_message",
+                    "namespace": "django.middleware.csrf.CsrfViewMiddleware._bad_token_message",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_check_token",
+                    "namespace": "django.middleware.csrf.CsrfViewMiddleware._check_token",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "process_request",
+                    "namespace": "django.middleware.csrf.CsrfViewMiddleware.process_request",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "process_view",
+                    "namespace": "django.middleware.csrf.CsrfViewMiddleware.process_view",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "process_response",
+                    "namespace": "django.middleware.csrf.CsrfViewMiddleware.process_response",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\"Return the view to be used for CSRF rejections.\"\"\"",
+            "name": "_get_failure_view",
+            "namespace": "django.middleware.csrf._get_failure_view",
+            "class_name": "",
+            "module_name": "django.middleware.csrf",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_get_new_csrf_string",
+            "namespace": "django.middleware.csrf._get_new_csrf_string",
+            "class_name": "",
+            "module_name": "django.middleware.csrf",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Given a secret (assumed to be a string of CSRF_ALLOWED_CHARS), generate a\n    token by adding a mask and applying it to the secret.\n    \"\"\"",
+            "name": "_mask_cipher_secret",
+            "namespace": "django.middleware.csrf._mask_cipher_secret",
+            "class_name": "",
+            "module_name": "django.middleware.csrf",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Given a token (assumed to be a string of CSRF_ALLOWED_CHARS, of length\n    CSRF_TOKEN_LENGTH, and that its first half is a mask), use it to decrypt\n    the second half to produce the original secret.\n    \"\"\"",
+            "name": "_unmask_cipher_token",
+            "namespace": "django.middleware.csrf._unmask_cipher_token",
+            "class_name": "",
+            "module_name": "django.middleware.csrf",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Generate a new random CSRF_COOKIE value, and add it to request.META.\"\"\"",
+            "name": "_add_new_csrf_cookie",
+            "namespace": "django.middleware.csrf._add_new_csrf_cookie",
+            "class_name": "",
+            "module_name": "django.middleware.csrf",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return the CSRF token required for a POST form. The token is an\n    alphanumeric value. A new token is created if one is not already set.\n\n    A side effect of calling this function is to make the csrf_protect\n    decorator and the CsrfViewMiddleware add a CSRF cookie and a 'Vary: Cookie'\n    header to the outgoing response.  For this reason, you may need to use this\n    function lazily, as is done by the csrf context processor.\n    \"\"\"",
+            "name": "get_token",
+            "namespace": "django.middleware.csrf.get_token",
+            "class_name": "",
+            "module_name": "django.middleware.csrf",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Change the CSRF token in use for a request - should be done on login\n    for security purposes.\n    \"\"\"",
+            "name": "rotate_token",
+            "namespace": "django.middleware.csrf.rotate_token",
+            "class_name": "",
+            "module_name": "django.middleware.csrf",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_sanitize_token",
+            "namespace": "django.middleware.csrf._sanitize_token",
+            "class_name": "",
+            "module_name": "django.middleware.csrf",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_does_token_match",
+            "namespace": "django.middleware.csrf._does_token_match",
+            "class_name": "",
+            "module_name": "django.middleware.csrf",
+            "package_name": ""
         }
     ],
     "package_name": "django.middleware"

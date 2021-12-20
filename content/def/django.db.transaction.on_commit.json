@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Register `func` to be called when the current transaction is committed.\n    If the current transaction is rolled back, `func` will not be called.\n    \"\"\"",
+    "name": "on_commit",
+    "namespace": "django.db.transaction.on_commit",
+    "class_name": "",
+    "module_name": "django.db.transaction",
+    "package_name": ""
+}

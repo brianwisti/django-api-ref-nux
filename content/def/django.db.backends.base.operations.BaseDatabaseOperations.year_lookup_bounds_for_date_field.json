@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Return a two-elements list with the lower and upper bound to be used\n        with a BETWEEN operator to query a DateField value using a year\n        lookup.\n\n        `value` is an int, containing the looked-up year.\n        If `iso_year` is True, return bounds for ISO-8601 week-numbering years.\n        \"\"\"",
+    "name": "year_lookup_bounds_for_date_field",
+    "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.year_lookup_bounds_for_date_field",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

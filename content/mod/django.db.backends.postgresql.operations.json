@@ -5,8 +5,291 @@
         {
             "docstring": "",
             "name": "DatabaseOperations",
-            "namespace": "django.db.backends.postgresql.operations.DatabaseOperations"
+            "namespace": "django.db.backends.postgresql.operations.DatabaseOperations",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "unification_cast_sql",
+                    "namespace": "django.db.backends.postgresql.operations.DatabaseOperations.unification_cast_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "date_extract_sql",
+                    "namespace": "django.db.backends.postgresql.operations.DatabaseOperations.date_extract_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "date_trunc_sql",
+                    "namespace": "django.db.backends.postgresql.operations.DatabaseOperations.date_trunc_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_prepare_tzname_delta",
+                    "namespace": "django.db.backends.postgresql.operations.DatabaseOperations._prepare_tzname_delta",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_convert_field_to_tz",
+                    "namespace": "django.db.backends.postgresql.operations.DatabaseOperations._convert_field_to_tz",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "datetime_cast_date_sql",
+                    "namespace": "django.db.backends.postgresql.operations.DatabaseOperations.datetime_cast_date_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "datetime_cast_time_sql",
+                    "namespace": "django.db.backends.postgresql.operations.DatabaseOperations.datetime_cast_time_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "datetime_extract_sql",
+                    "namespace": "django.db.backends.postgresql.operations.DatabaseOperations.datetime_extract_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "datetime_trunc_sql",
+                    "namespace": "django.db.backends.postgresql.operations.DatabaseOperations.datetime_trunc_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "time_trunc_sql",
+                    "namespace": "django.db.backends.postgresql.operations.DatabaseOperations.time_trunc_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "deferrable_sql",
+                    "namespace": "django.db.backends.postgresql.operations.DatabaseOperations.deferrable_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Given a cursor object that has just performed an INSERT...RETURNING\n        statement into a table, return the tuple of returned data.\n        \"\"\"",
+                    "name": "fetch_returned_insert_rows",
+                    "namespace": "django.db.backends.postgresql.operations.DatabaseOperations.fetch_returned_insert_rows",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "lookup_cast",
+                    "namespace": "django.db.backends.postgresql.operations.DatabaseOperations.lookup_cast",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "no_limit_value",
+                    "namespace": "django.db.backends.postgresql.operations.DatabaseOperations.no_limit_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "prepare_sql_script",
+                    "namespace": "django.db.backends.postgresql.operations.DatabaseOperations.prepare_sql_script",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "quote_name",
+                    "namespace": "django.db.backends.postgresql.operations.DatabaseOperations.quote_name",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "set_time_zone_sql",
+                    "namespace": "django.db.backends.postgresql.operations.DatabaseOperations.set_time_zone_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "sql_flush",
+                    "namespace": "django.db.backends.postgresql.operations.DatabaseOperations.sql_flush",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "sequence_reset_by_name_sql",
+                    "namespace": "django.db.backends.postgresql.operations.DatabaseOperations.sequence_reset_by_name_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "tablespace_sql",
+                    "namespace": "django.db.backends.postgresql.operations.DatabaseOperations.tablespace_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "sequence_reset_sql",
+                    "namespace": "django.db.backends.postgresql.operations.DatabaseOperations.sequence_reset_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "prep_for_iexact_query",
+                    "namespace": "django.db.backends.postgresql.operations.DatabaseOperations.prep_for_iexact_query",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the maximum length of an identifier.\n\n        The maximum length of an identifier is 63 by default, but can be\n        changed by recompiling PostgreSQL after editing the NAMEDATALEN\n        macro in src/include/pg_config_manual.h.\n\n        This implementation returns 63, but can be overridden by a custom\n        database backend that inherits most of its behavior from this one.\n        \"\"\"",
+                    "name": "max_name_length",
+                    "namespace": "django.db.backends.postgresql.operations.DatabaseOperations.max_name_length",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "distinct_sql",
+                    "namespace": "django.db.backends.postgresql.operations.DatabaseOperations.distinct_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "last_executed_query",
+                    "namespace": "django.db.backends.postgresql.operations.DatabaseOperations.last_executed_query",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "return_insert_columns",
+                    "namespace": "django.db.backends.postgresql.operations.DatabaseOperations.return_insert_columns",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "bulk_insert_sql",
+                    "namespace": "django.db.backends.postgresql.operations.DatabaseOperations.bulk_insert_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "adapt_datefield_value",
+                    "namespace": "django.db.backends.postgresql.operations.DatabaseOperations.adapt_datefield_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "adapt_datetimefield_value",
+                    "namespace": "django.db.backends.postgresql.operations.DatabaseOperations.adapt_datetimefield_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "adapt_timefield_value",
+                    "namespace": "django.db.backends.postgresql.operations.DatabaseOperations.adapt_timefield_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "adapt_decimalfield_value",
+                    "namespace": "django.db.backends.postgresql.operations.DatabaseOperations.adapt_decimalfield_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "adapt_ipaddressfield_value",
+                    "namespace": "django.db.backends.postgresql.operations.DatabaseOperations.adapt_ipaddressfield_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "subtract_temporals",
+                    "namespace": "django.db.backends.postgresql.operations.DatabaseOperations.subtract_temporals",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "explain_query_prefix",
+                    "namespace": "django.db.backends.postgresql.operations.DatabaseOperations.explain_query_prefix",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "ignore_conflicts_suffix_sql",
+                    "namespace": "django.db.backends.postgresql.operations.DatabaseOperations.ignore_conflicts_suffix_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.db.backends.postgresql"
 }

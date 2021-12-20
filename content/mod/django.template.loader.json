@@ -2,5 +2,39 @@
     "namespace": "django.template.loader",
     "docstring": "",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Load and return a template for the given name.\n\n    Raise TemplateDoesNotExist if no such template exists.\n    \"\"\"",
+            "name": "get_template",
+            "namespace": "django.template.loader.get_template",
+            "class_name": "",
+            "module_name": "django.template.loader",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Load and return a template for one of the given names.\n\n    Try names in order and return the first template found.\n\n    Raise TemplateDoesNotExist if no such template exists.\n    \"\"\"",
+            "name": "select_template",
+            "namespace": "django.template.loader.select_template",
+            "class_name": "",
+            "module_name": "django.template.loader",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Load a template and render it with a context. Return a string.\n\n    template_name may be a string or a list of strings.\n    \"\"\"",
+            "name": "render_to_string",
+            "namespace": "django.template.loader.render_to_string",
+            "class_name": "",
+            "module_name": "django.template.loader",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_engine_list",
+            "namespace": "django.template.loader._engine_list",
+            "class_name": "",
+            "module_name": "django.template.loader",
+            "package_name": ""
+        }
+    ],
     "package_name": "django.template"
 }

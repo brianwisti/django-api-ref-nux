@@ -5,7 +5,35 @@
         {
             "docstring": "",
             "name": "CacheNode",
-            "namespace": "django.templatetags.cache.CacheNode"
+            "namespace": "django.templatetags.cache.CacheNode",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.templatetags.cache.CacheNode.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "render",
+                    "namespace": "django.templatetags.cache.CacheNode.render",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    This will cache the contents of a template fragment for a given amount\n    of time.\n\n    Usage::\n\n        {% load cache %}\n        {% cache [expire_time] [fragment_name] %}\n            .. some expensive processing ..\n        {% endcache %}\n\n    This tag also supports varying by a list of arguments::\n\n        {% load cache %}\n        {% cache [expire_time] [fragment_name] [var1] [var2] .. %}\n            .. some expensive processing ..\n        {% endcache %}\n\n    Optionally the cache to use may be specified thus::\n\n        {% cache ....  using=\"cachename\" %}\n\n    Each unique set of arguments will result in a unique cache entry.\n    \"\"\"",
+            "name": "do_cache",
+            "namespace": "django.templatetags.cache.do_cache",
+            "class_name": "",
+            "module_name": "django.templatetags.cache",
+            "package_name": ""
         }
     ],
     "package_name": "django.templatetags"

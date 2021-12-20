@@ -5,8 +5,315 @@
         {
             "docstring": "",
             "name": "DatabaseOperations",
-            "namespace": "django.db.backends.sqlite3.operations.DatabaseOperations"
+            "namespace": "django.db.backends.sqlite3.operations.DatabaseOperations",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        SQLite has a compile-time default (SQLITE_LIMIT_VARIABLE_NUMBER) of\n        999 variables per query.\n\n        If there's only a single field to insert, the limit is 500\n        (SQLITE_MAX_COMPOUND_SELECT).\n        \"\"\"",
+                    "name": "bulk_batch_size",
+                    "namespace": "django.db.backends.sqlite3.operations.DatabaseOperations.bulk_batch_size",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check_expression_support",
+                    "namespace": "django.db.backends.sqlite3.operations.DatabaseOperations.check_expression_support",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Support EXTRACT with a user-defined function django_date_extract()\n        that's registered in connect(). Use single quotes because this is a\n        string and could otherwise cause a collision with a field name.\n        \"\"\"",
+                    "name": "date_extract_sql",
+                    "namespace": "django.db.backends.sqlite3.operations.DatabaseOperations.date_extract_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Given a cursor object that has just performed an INSERT...RETURNING\n        statement into a table, return the list of returned data.\n        \"\"\"",
+                    "name": "fetch_returned_insert_rows",
+                    "namespace": "django.db.backends.sqlite3.operations.DatabaseOperations.fetch_returned_insert_rows",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Do nothing since formatting is handled in the custom function.\"\"\"",
+                    "name": "format_for_duration_arithmetic",
+                    "namespace": "django.db.backends.sqlite3.operations.DatabaseOperations.format_for_duration_arithmetic",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "date_trunc_sql",
+                    "namespace": "django.db.backends.sqlite3.operations.DatabaseOperations.date_trunc_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "time_trunc_sql",
+                    "namespace": "django.db.backends.sqlite3.operations.DatabaseOperations.time_trunc_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_convert_tznames_to_sql",
+                    "namespace": "django.db.backends.sqlite3.operations.DatabaseOperations._convert_tznames_to_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "datetime_cast_date_sql",
+                    "namespace": "django.db.backends.sqlite3.operations.DatabaseOperations.datetime_cast_date_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "datetime_cast_time_sql",
+                    "namespace": "django.db.backends.sqlite3.operations.DatabaseOperations.datetime_cast_time_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "datetime_extract_sql",
+                    "namespace": "django.db.backends.sqlite3.operations.DatabaseOperations.datetime_extract_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "datetime_trunc_sql",
+                    "namespace": "django.db.backends.sqlite3.operations.DatabaseOperations.datetime_trunc_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "time_extract_sql",
+                    "namespace": "django.db.backends.sqlite3.operations.DatabaseOperations.time_extract_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "pk_default_value",
+                    "namespace": "django.db.backends.sqlite3.operations.DatabaseOperations.pk_default_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Only for last_executed_query! Don't use this to execute SQL queries!\n        \"\"\"",
+                    "name": "_quote_params_for_last_executed_query",
+                    "namespace": "django.db.backends.sqlite3.operations.DatabaseOperations._quote_params_for_last_executed_query",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "last_executed_query",
+                    "namespace": "django.db.backends.sqlite3.operations.DatabaseOperations.last_executed_query",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "quote_name",
+                    "namespace": "django.db.backends.sqlite3.operations.DatabaseOperations.quote_name",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "no_limit_value",
+                    "namespace": "django.db.backends.sqlite3.operations.DatabaseOperations.no_limit_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__references_graph",
+                    "namespace": "django.db.backends.sqlite3.operations.DatabaseOperations.__references_graph",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_references_graph",
+                    "namespace": "django.db.backends.sqlite3.operations.DatabaseOperations._references_graph",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "sql_flush",
+                    "namespace": "django.db.backends.sqlite3.operations.DatabaseOperations.sql_flush",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "sequence_reset_by_name_sql",
+                    "namespace": "django.db.backends.sqlite3.operations.DatabaseOperations.sequence_reset_by_name_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "adapt_datetimefield_value",
+                    "namespace": "django.db.backends.sqlite3.operations.DatabaseOperations.adapt_datetimefield_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "adapt_timefield_value",
+                    "namespace": "django.db.backends.sqlite3.operations.DatabaseOperations.adapt_timefield_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_db_converters",
+                    "namespace": "django.db.backends.sqlite3.operations.DatabaseOperations.get_db_converters",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "convert_datetimefield_value",
+                    "namespace": "django.db.backends.sqlite3.operations.DatabaseOperations.convert_datetimefield_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "convert_datefield_value",
+                    "namespace": "django.db.backends.sqlite3.operations.DatabaseOperations.convert_datefield_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "convert_timefield_value",
+                    "namespace": "django.db.backends.sqlite3.operations.DatabaseOperations.convert_timefield_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_decimalfield_converter",
+                    "namespace": "django.db.backends.sqlite3.operations.DatabaseOperations.get_decimalfield_converter",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "convert_uuidfield_value",
+                    "namespace": "django.db.backends.sqlite3.operations.DatabaseOperations.convert_uuidfield_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "convert_booleanfield_value",
+                    "namespace": "django.db.backends.sqlite3.operations.DatabaseOperations.convert_booleanfield_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "bulk_insert_sql",
+                    "namespace": "django.db.backends.sqlite3.operations.DatabaseOperations.bulk_insert_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "combine_expression",
+                    "namespace": "django.db.backends.sqlite3.operations.DatabaseOperations.combine_expression",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "combine_duration_expression",
+                    "namespace": "django.db.backends.sqlite3.operations.DatabaseOperations.combine_duration_expression",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "integer_field_range",
+                    "namespace": "django.db.backends.sqlite3.operations.DatabaseOperations.integer_field_range",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "subtract_temporals",
+                    "namespace": "django.db.backends.sqlite3.operations.DatabaseOperations.subtract_temporals",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "insert_statement",
+                    "namespace": "django.db.backends.sqlite3.operations.DatabaseOperations.insert_statement",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "return_insert_columns",
+                    "namespace": "django.db.backends.sqlite3.operations.DatabaseOperations.return_insert_columns",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.db.backends.sqlite3"
 }

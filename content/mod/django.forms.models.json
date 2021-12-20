@@ -5,57 +5,664 @@
         {
             "docstring": "",
             "name": "ModelFormOptions",
-            "namespace": "django.forms.models.ModelFormOptions"
+            "namespace": "django.forms.models.ModelFormOptions",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.forms.models.ModelFormOptions.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "ModelFormMetaclass",
-            "namespace": "django.forms.models.ModelFormMetaclass"
+            "namespace": "django.forms.models.ModelFormMetaclass",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__new__",
+                    "namespace": "django.forms.models.ModelFormMetaclass.__new__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "BaseModelForm",
-            "namespace": "django.forms.models.BaseModelForm"
+            "namespace": "django.forms.models.BaseModelForm",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.forms.models.BaseModelForm.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        For backwards-compatibility, exclude several types of fields from model\n        validation. See tickets #12507, #12521, #12553.\n        \"\"\"",
+                    "name": "_get_validation_exclusions",
+                    "namespace": "django.forms.models.BaseModelForm._get_validation_exclusions",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "clean",
+                    "namespace": "django.forms.models.BaseModelForm.clean",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_update_errors",
+                    "namespace": "django.forms.models.BaseModelForm._update_errors",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_post_clean",
+                    "namespace": "django.forms.models.BaseModelForm._post_clean",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Call the instance's validate_unique() method and update the form's\n        validation errors if any were raised.\n        \"\"\"",
+                    "name": "validate_unique",
+                    "namespace": "django.forms.models.BaseModelForm.validate_unique",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Save the many-to-many fields and generic relations for this form.\n        \"\"\"",
+                    "name": "_save_m2m",
+                    "namespace": "django.forms.models.BaseModelForm._save_m2m",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Save this form's self.instance object if commit=True. Otherwise, add\n        a save_m2m() method to the form which can be called after the instance\n        is saved manually at a later time. Return the model instance.\n        \"\"\"",
+                    "name": "save",
+                    "namespace": "django.forms.models.BaseModelForm.save",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "ModelForm",
-            "namespace": "django.forms.models.ModelForm"
+            "namespace": "django.forms.models.ModelForm",
+            "methods": []
         },
         {
             "docstring": "\"\"\"\n    A ``FormSet`` for editing a queryset and/or adding new objects to it.\n    \"\"\"",
             "name": "BaseModelFormSet",
-            "namespace": "django.forms.models.BaseModelFormSet"
+            "namespace": "django.forms.models.BaseModelFormSet",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.forms.models.BaseModelFormSet.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return the number of forms that are required in this FormSet.\"\"\"",
+                    "name": "initial_form_count",
+                    "namespace": "django.forms.models.BaseModelFormSet.initial_form_count",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_existing_object",
+                    "namespace": "django.forms.models.BaseModelFormSet._existing_object",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        If the field is a related field, fetch the concrete field's (that\n        is, the ultimate pointed-to field's) to_python.\n        \"\"\"",
+                    "name": "_get_to_python",
+                    "namespace": "django.forms.models.BaseModelFormSet._get_to_python",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_construct_form",
+                    "namespace": "django.forms.models.BaseModelFormSet._construct_form",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_queryset",
+                    "namespace": "django.forms.models.BaseModelFormSet.get_queryset",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Save and return a new model instance for the given form.\"\"\"",
+                    "name": "save_new",
+                    "namespace": "django.forms.models.BaseModelFormSet.save_new",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Save and return an existing model instance for the given form.\"\"\"",
+                    "name": "save_existing",
+                    "namespace": "django.forms.models.BaseModelFormSet.save_existing",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Deletes an existing model instance.\"\"\"",
+                    "name": "delete_existing",
+                    "namespace": "django.forms.models.BaseModelFormSet.delete_existing",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Save model instances for every form, adding and changing instances\n        as necessary, and return the list of instances.\n        \"\"\"",
+                    "name": "save",
+                    "namespace": "django.forms.models.BaseModelFormSet.save",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "clean",
+                    "namespace": "django.forms.models.BaseModelFormSet.clean",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "validate_unique",
+                    "namespace": "django.forms.models.BaseModelFormSet.validate_unique",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_unique_error_message",
+                    "namespace": "django.forms.models.BaseModelFormSet.get_unique_error_message",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_date_error_message",
+                    "namespace": "django.forms.models.BaseModelFormSet.get_date_error_message",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_form_error",
+                    "namespace": "django.forms.models.BaseModelFormSet.get_form_error",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "save_existing_objects",
+                    "namespace": "django.forms.models.BaseModelFormSet.save_existing_objects",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "save_new_objects",
+                    "namespace": "django.forms.models.BaseModelFormSet.save_new_objects",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Add a hidden field for the object's primary key.\"\"\"",
+                    "name": "add_fields",
+                    "namespace": "django.forms.models.BaseModelFormSet.add_fields",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"A formset for child objects related to a parent.\"\"\"",
             "name": "BaseInlineFormSet",
-            "namespace": "django.forms.models.BaseInlineFormSet"
+            "namespace": "django.forms.models.BaseInlineFormSet",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.forms.models.BaseInlineFormSet.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "initial_form_count",
+                    "namespace": "django.forms.models.BaseInlineFormSet.initial_form_count",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_construct_form",
+                    "namespace": "django.forms.models.BaseInlineFormSet._construct_form",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_default_prefix",
+                    "namespace": "django.forms.models.BaseInlineFormSet.get_default_prefix",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "save_new",
+                    "namespace": "django.forms.models.BaseInlineFormSet.save_new",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "add_fields",
+                    "namespace": "django.forms.models.BaseInlineFormSet.add_fields",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_unique_error_message",
+                    "namespace": "django.forms.models.BaseInlineFormSet.get_unique_error_message",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    A basic integer field that deals with validating the given value to a\n    given parent instance in an inline.\n    \"\"\"",
             "name": "InlineForeignKeyField",
-            "namespace": "django.forms.models.InlineForeignKeyField"
+            "namespace": "django.forms.models.InlineForeignKeyField",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.forms.models.InlineForeignKeyField.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "clean",
+                    "namespace": "django.forms.models.InlineForeignKeyField.clean",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "has_changed",
+                    "namespace": "django.forms.models.InlineForeignKeyField.has_changed",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "ModelChoiceIteratorValue",
-            "namespace": "django.forms.models.ModelChoiceIteratorValue"
+            "namespace": "django.forms.models.ModelChoiceIteratorValue",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.forms.models.ModelChoiceIteratorValue.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__str__",
+                    "namespace": "django.forms.models.ModelChoiceIteratorValue.__str__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__hash__",
+                    "namespace": "django.forms.models.ModelChoiceIteratorValue.__hash__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__eq__",
+                    "namespace": "django.forms.models.ModelChoiceIteratorValue.__eq__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "ModelChoiceIterator",
-            "namespace": "django.forms.models.ModelChoiceIterator"
+            "namespace": "django.forms.models.ModelChoiceIterator",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.forms.models.ModelChoiceIterator.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__iter__",
+                    "namespace": "django.forms.models.ModelChoiceIterator.__iter__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__len__",
+                    "namespace": "django.forms.models.ModelChoiceIterator.__len__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__bool__",
+                    "namespace": "django.forms.models.ModelChoiceIterator.__bool__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "choice",
+                    "namespace": "django.forms.models.ModelChoiceIterator.choice",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"A ChoiceField whose choices are a model QuerySet.\"\"\"",
             "name": "ModelChoiceField",
-            "namespace": "django.forms.models.ModelChoiceField"
+            "namespace": "django.forms.models.ModelChoiceField",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.forms.models.ModelChoiceField.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return ``limit_choices_to`` for this form field.\n\n        If it is a callable, invoke it and return the result.\n        \"\"\"",
+                    "name": "get_limit_choices_to",
+                    "namespace": "django.forms.models.ModelChoiceField.get_limit_choices_to",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__deepcopy__",
+                    "namespace": "django.forms.models.ModelChoiceField.__deepcopy__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_get_queryset",
+                    "namespace": "django.forms.models.ModelChoiceField._get_queryset",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_set_queryset",
+                    "namespace": "django.forms.models.ModelChoiceField._set_queryset",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Convert objects into strings and generate the labels for the choices\n        presented by this object. Subclasses can override this method to\n        customize the display of the choices.\n        \"\"\"",
+                    "name": "label_from_instance",
+                    "namespace": "django.forms.models.ModelChoiceField.label_from_instance",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_get_choices",
+                    "namespace": "django.forms.models.ModelChoiceField._get_choices",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "prepare_value",
+                    "namespace": "django.forms.models.ModelChoiceField.prepare_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "to_python",
+                    "namespace": "django.forms.models.ModelChoiceField.to_python",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "validate",
+                    "namespace": "django.forms.models.ModelChoiceField.validate",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "has_changed",
+                    "namespace": "django.forms.models.ModelChoiceField.has_changed",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"A MultipleChoiceField whose choices are a model QuerySet.\"\"\"",
             "name": "ModelMultipleChoiceField",
-            "namespace": "django.forms.models.ModelMultipleChoiceField"
+            "namespace": "django.forms.models.ModelMultipleChoiceField",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.forms.models.ModelMultipleChoiceField.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "to_python",
+                    "namespace": "django.forms.models.ModelMultipleChoiceField.to_python",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "clean",
+                    "namespace": "django.forms.models.ModelMultipleChoiceField.clean",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Given a list of possible PK values, return a QuerySet of the\n        corresponding objects. Raise a ValidationError if a given value is\n        invalid (not a valid PK, not in the queryset, etc.)\n        \"\"\"",
+                    "name": "_check_values",
+                    "namespace": "django.forms.models.ModelMultipleChoiceField._check_values",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "prepare_value",
+                    "namespace": "django.forms.models.ModelMultipleChoiceField.prepare_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "has_changed",
+                    "namespace": "django.forms.models.ModelMultipleChoiceField.has_changed",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Construct and return a model instance from the bound ``form``'s\n    ``cleaned_data``, but do not save the returned instance to the database.\n    \"\"\"",
+            "name": "construct_instance",
+            "namespace": "django.forms.models.construct_instance",
+            "class_name": "",
+            "module_name": "django.forms.models",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return a dict containing the data in ``instance`` suitable for passing as\n    a Form's ``initial`` keyword argument.\n\n    ``fields`` is an optional list of field names. If provided, return only the\n    named.\n\n    ``exclude`` is an optional list of field names. If provided, exclude the\n    named from the returned dict, even if they are listed in the ``fields``\n    argument.\n    \"\"\"",
+            "name": "model_to_dict",
+            "namespace": "django.forms.models.model_to_dict",
+            "class_name": "",
+            "module_name": "django.forms.models",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Apply limit_choices_to to the formfield's queryset if needed.\"\"\"",
+            "name": "apply_limit_choices_to_to_formfield",
+            "namespace": "django.forms.models.apply_limit_choices_to_to_formfield",
+            "class_name": "",
+            "module_name": "django.forms.models",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return a dictionary containing form fields for the given model.\n\n    ``fields`` is an optional list of field names. If provided, return only the\n    named fields.\n\n    ``exclude`` is an optional list of field names. If provided, exclude the\n    named fields from the returned fields, even if they are listed in the\n    ``fields`` argument.\n\n    ``widgets`` is a dictionary of model field names mapped to a widget.\n\n    ``formfield_callback`` is a callable that takes a model field and returns\n    a form field.\n\n    ``localized_fields`` is a list of names of fields which should be localized.\n\n    ``labels`` is a dictionary of model field names mapped to a label.\n\n    ``help_texts`` is a dictionary of model field names mapped to a help text.\n\n    ``error_messages`` is a dictionary of model field names mapped to a\n    dictionary of error messages.\n\n    ``field_classes`` is a dictionary of model field names mapped to a form\n    field class.\n\n    ``apply_limit_choices_to`` is a boolean indicating if limit_choices_to\n    should be applied to a field's queryset.\n    \"\"\"",
+            "name": "fields_for_model",
+            "namespace": "django.forms.models.fields_for_model",
+            "class_name": "",
+            "module_name": "django.forms.models",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return a ModelForm containing form fields for the given model. You can\n    optionally pass a `form` argument to use as a starting point for\n    constructing the ModelForm.\n\n    ``fields`` is an optional list of field names. If provided, include only\n    the named fields in the returned fields. If omitted or '__all__', use all\n    fields.\n\n    ``exclude`` is an optional list of field names. If provided, exclude the\n    named fields from the returned fields, even if they are listed in the\n    ``fields`` argument.\n\n    ``widgets`` is a dictionary of model field names mapped to a widget.\n\n    ``localized_fields`` is a list of names of fields which should be localized.\n\n    ``formfield_callback`` is a callable that takes a model field and returns\n    a form field.\n\n    ``labels`` is a dictionary of model field names mapped to a label.\n\n    ``help_texts`` is a dictionary of model field names mapped to a help text.\n\n    ``error_messages`` is a dictionary of model field names mapped to a\n    dictionary of error messages.\n\n    ``field_classes`` is a dictionary of model field names mapped to a form\n    field class.\n    \"\"\"",
+            "name": "modelform_factory",
+            "namespace": "django.forms.models.modelform_factory",
+            "class_name": "",
+            "module_name": "django.forms.models",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return a FormSet class for the given Django model class.\"\"\"",
+            "name": "modelformset_factory",
+            "namespace": "django.forms.models.modelformset_factory",
+            "class_name": "",
+            "module_name": "django.forms.models",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Find and return the ForeignKey from model to parent if there is one\n    (return None if can_fail is True and no such field exists). If fk_name is\n    provided, assume it is the name of the ForeignKey field. Unless can_fail is\n    True, raise an exception if there isn't a ForeignKey from model to\n    parent_model.\n    \"\"\"",
+            "name": "_get_foreign_key",
+            "namespace": "django.forms.models._get_foreign_key",
+            "class_name": "",
+            "module_name": "django.forms.models",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return an ``InlineFormSet`` for the given kwargs.\n\n    ``fk_name`` must be provided if ``model`` has more than one ``ForeignKey``\n    to ``parent_model``.\n    \"\"\"",
+            "name": "inlineformset_factory",
+            "namespace": "django.forms.models.inlineformset_factory",
+            "class_name": "",
+            "module_name": "django.forms.models",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "modelform_defines_fields",
+            "namespace": "django.forms.models.modelform_defines_fields",
+            "class_name": "",
+            "module_name": "django.forms.models",
+            "package_name": ""
         }
     ],
     "package_name": "django.forms"

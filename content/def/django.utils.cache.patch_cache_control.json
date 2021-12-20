@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Patch the Cache-Control header by adding all keyword arguments to it.\n    The transformation is as follows:\n\n    * All keyword parameter names are turned to lowercase, and underscores\n      are converted to hyphens.\n    * If the value of a parameter is True (exactly True, not just a\n      true value), only the parameter name is added to the header.\n    * All other parameters are added with their value, after applying\n      str() to it.\n    \"\"\"",
+    "name": "patch_cache_control",
+    "namespace": "django.utils.cache.patch_cache_control",
+    "class_name": "",
+    "module_name": "django.utils.cache",
+    "package_name": ""
+}

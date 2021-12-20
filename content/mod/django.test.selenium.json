@@ -5,13 +5,106 @@
         {
             "docstring": "",
             "name": "SeleniumTestCaseBase",
-            "namespace": "django.test.selenium.SeleniumTestCaseBase"
+            "namespace": "django.test.selenium.SeleniumTestCaseBase",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        Dynamically create new classes and add them to the test module when\n        multiple browsers specs are provided (e.g. --selenium=firefox,chrome).\n        \"\"\"",
+                    "name": "__new__",
+                    "namespace": "django.test.selenium.SeleniumTestCaseBase.__new__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "import_webdriver",
+                    "namespace": "django.test.selenium.SeleniumTestCaseBase.import_webdriver",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "import_options",
+                    "namespace": "django.test.selenium.SeleniumTestCaseBase.import_options",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_capability",
+                    "namespace": "django.test.selenium.SeleniumTestCaseBase.get_capability",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "create_options",
+                    "namespace": "django.test.selenium.SeleniumTestCaseBase.create_options",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "create_webdriver",
+                    "namespace": "django.test.selenium.SeleniumTestCaseBase.create_webdriver",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "SeleniumTestCase",
-            "namespace": "django.test.selenium.SeleniumTestCase"
+            "namespace": "django.test.selenium.SeleniumTestCase",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "live_server_url",
+                    "namespace": "django.test.selenium.SeleniumTestCase.live_server_url",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "allowed_host",
+                    "namespace": "django.test.selenium.SeleniumTestCase.allowed_host",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "setUpClass",
+                    "namespace": "django.test.selenium.SeleniumTestCase.setUpClass",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_tearDownClassInternal",
+                    "namespace": "django.test.selenium.SeleniumTestCase._tearDownClassInternal",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Disable the default implicit wait.\"\"\"",
+                    "name": "disable_implicit_wait",
+                    "namespace": "django.test.selenium.SeleniumTestCase.disable_implicit_wait",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.test"
 }

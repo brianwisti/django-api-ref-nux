@@ -3,5 +3,23 @@
     "name": "LocaleMiddleware",
     "namespace": "django.middleware.locale.LocaleMiddleware",
     "module_name": "django.middleware.locale",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "process_request",
+            "namespace": "django.middleware.locale.LocaleMiddleware.process_request",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "process_response",
+            "namespace": "django.middleware.locale.LocaleMiddleware.process_response",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

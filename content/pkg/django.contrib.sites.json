@@ -2,51 +2,105 @@
     "name": "django.contrib.sites",
     "docstring": "",
     "package_name": "django.contrib",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.contrib.sites.models",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Validate that the given value contains no whitespaces to prevent common\n    typos.\n    \"\"\"",
+                    "name": "_simple_domain_name_validator",
+                    "namespace": "django.contrib.sites.models._simple_domain_name_validator",
+                    "class_name": "",
+                    "module_name": "django.contrib.sites.models",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Clear the cache (if primed) each time a site is saved or deleted.\n    \"\"\"",
+                    "name": "clear_site_cache",
+                    "namespace": "django.contrib.sites.models.clear_site_cache",
+                    "class_name": "",
+                    "module_name": "django.contrib.sites.models",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.sites"
         },
         {
             "namespace": "django.contrib.sites.shortcuts",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Check if contrib.sites is installed and return either the current\n    ``Site`` object or a ``RequestSite`` object based on the request.\n    \"\"\"",
+                    "name": "get_current_site",
+                    "namespace": "django.contrib.sites.shortcuts.get_current_site",
+                    "class_name": "",
+                    "module_name": "django.contrib.sites.shortcuts",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.sites"
         },
         {
             "namespace": "django.contrib.sites.checks",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "check_site_id",
+                    "namespace": "django.contrib.sites.checks.check_site_id",
+                    "class_name": "",
+                    "module_name": "django.contrib.sites.checks",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.sites"
         },
         {
             "namespace": "django.contrib.sites.apps",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.sites"
         },
         {
             "namespace": "django.contrib.sites.admin",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.sites"
         },
         {
             "namespace": "django.contrib.sites.management",
             "docstring": "\"\"\"\nCreates the default Site object.\n\"\"\"",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "create_default_site",
+                    "namespace": "django.contrib.sites.management.create_default_site",
+                    "class_name": "",
+                    "module_name": "django.contrib.sites.management",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.sites"
         },
         {
             "namespace": "django.contrib.sites.requests",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.sites"
         },
         {
             "namespace": "django.contrib.sites.middleware",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.sites"
         },
         {
             "namespace": "django.contrib.sites.managers",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.sites"
         }
     ],
@@ -54,7 +108,8 @@
         {
             "name": "django.contrib.sites.migrations",
             "docstring": "",
-            "package_name": "django.contrib.sites"
+            "package_name": "django.contrib.sites",
+            "functions": []
         }
     ]
 }

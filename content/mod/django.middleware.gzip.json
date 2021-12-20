@@ -5,8 +5,19 @@
         {
             "docstring": "\"\"\"\n    Compress content if the browser allows gzip compression.\n    Set the Vary header accordingly, so that caches will base their storage\n    on the Accept-Encoding header.\n    \"\"\"",
             "name": "GZipMiddleware",
-            "namespace": "django.middleware.gzip.GZipMiddleware"
+            "namespace": "django.middleware.gzip.GZipMiddleware",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "process_response",
+                    "namespace": "django.middleware.gzip.GZipMiddleware.process_response",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.middleware"
 }

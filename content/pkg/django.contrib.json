@@ -2,83 +2,222 @@
     "name": "django.contrib",
     "docstring": "",
     "package_name": "django",
+    "functions": [],
     "classes": [],
     "modules": [],
     "subpackages": [
         {
             "name": "django.contrib.syndication",
             "docstring": "",
-            "package_name": "django.contrib"
+            "package_name": "django.contrib",
+            "functions": []
         },
         {
             "name": "django.contrib.messages",
             "docstring": "",
-            "package_name": "django.contrib"
+            "package_name": "django.contrib",
+            "functions": []
         },
         {
             "name": "django.contrib.auth",
             "docstring": "",
-            "package_name": "django.contrib"
+            "package_name": "django.contrib",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "load_backend",
+                    "namespace": "django.contrib.auth.load_backend",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth",
+                    "package_name": "django.contrib.auth"
+                },
+                {
+                    "docstring": "",
+                    "name": "_get_backends",
+                    "namespace": "django.contrib.auth._get_backends",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth",
+                    "package_name": "django.contrib.auth"
+                },
+                {
+                    "docstring": "",
+                    "name": "get_backends",
+                    "namespace": "django.contrib.auth.get_backends",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth",
+                    "package_name": "django.contrib.auth"
+                },
+                {
+                    "docstring": "\"\"\"\n    Clean a dictionary of credentials of potentially sensitive info before\n    sending to less secure functions.\n\n    Not comprehensive - intended for user_login_failed signal\n    \"\"\"",
+                    "name": "_clean_credentials",
+                    "namespace": "django.contrib.auth._clean_credentials",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth",
+                    "package_name": "django.contrib.auth"
+                },
+                {
+                    "docstring": "",
+                    "name": "_get_user_session_key",
+                    "namespace": "django.contrib.auth._get_user_session_key",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth",
+                    "package_name": "django.contrib.auth"
+                },
+                {
+                    "docstring": "\"\"\"\n    If the given credentials are valid, return a User object.\n    \"\"\"",
+                    "name": "authenticate",
+                    "namespace": "django.contrib.auth.authenticate",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth",
+                    "package_name": "django.contrib.auth"
+                },
+                {
+                    "docstring": "\"\"\"\n    Persist a user id and a backend in the request. This way a user doesn't\n    have to reauthenticate on every request. Note that data set during\n    the anonymous session is retained when the user logs in.\n    \"\"\"",
+                    "name": "login",
+                    "namespace": "django.contrib.auth.login",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth",
+                    "package_name": "django.contrib.auth"
+                },
+                {
+                    "docstring": "\"\"\"\n    Remove the authenticated user's ID from the request and flush their session\n    data.\n    \"\"\"",
+                    "name": "logout",
+                    "namespace": "django.contrib.auth.logout",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth",
+                    "package_name": "django.contrib.auth"
+                },
+                {
+                    "docstring": "\"\"\"\n    Return the User model that is active in this project.\n    \"\"\"",
+                    "name": "get_user_model",
+                    "namespace": "django.contrib.auth.get_user_model",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth",
+                    "package_name": "django.contrib.auth"
+                },
+                {
+                    "docstring": "\"\"\"\n    Return the user model instance associated with the given request session.\n    If no user is retrieved, return an instance of `AnonymousUser`.\n    \"\"\"",
+                    "name": "get_user",
+                    "namespace": "django.contrib.auth.get_user",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth",
+                    "package_name": "django.contrib.auth"
+                },
+                {
+                    "docstring": "\"\"\"\n    Return the codename of the permission for the specified action.\n    \"\"\"",
+                    "name": "get_permission_codename",
+                    "namespace": "django.contrib.auth.get_permission_codename",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth",
+                    "package_name": "django.contrib.auth"
+                },
+                {
+                    "docstring": "\"\"\"\n    Updating a user's password logs out all sessions for the user.\n\n    Take the current request and the updated user object from which the new\n    session hash will be derived and update the session hash appropriately to\n    prevent a password change from logging out the session from which the\n    password was changed.\n    \"\"\"",
+                    "name": "update_session_auth_hash",
+                    "namespace": "django.contrib.auth.update_session_auth_hash",
+                    "class_name": "",
+                    "module_name": "django.contrib.auth",
+                    "package_name": "django.contrib.auth"
+                }
+            ]
         },
         {
             "name": "django.contrib.admin",
             "docstring": "",
-            "package_name": "django.contrib"
+            "package_name": "django.contrib",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "autodiscover",
+                    "namespace": "django.contrib.admin.autodiscover",
+                    "class_name": "",
+                    "module_name": "django.contrib.admin",
+                    "package_name": "django.contrib.admin"
+                }
+            ]
         },
         {
             "name": "django.contrib.staticfiles",
             "docstring": "",
-            "package_name": "django.contrib"
+            "package_name": "django.contrib",
+            "functions": []
         },
         {
             "name": "django.contrib.flatpages",
             "docstring": "",
-            "package_name": "django.contrib"
+            "package_name": "django.contrib",
+            "functions": []
         },
         {
             "name": "django.contrib.sites",
             "docstring": "",
-            "package_name": "django.contrib"
+            "package_name": "django.contrib",
+            "functions": []
         },
         {
             "name": "django.contrib.postgres",
             "docstring": "",
-            "package_name": "django.contrib"
+            "package_name": "django.contrib",
+            "functions": []
         },
         {
             "name": "django.contrib.redirects",
             "docstring": "",
-            "package_name": "django.contrib"
+            "package_name": "django.contrib",
+            "functions": []
         },
         {
             "name": "django.contrib.sessions",
             "docstring": "",
-            "package_name": "django.contrib"
+            "package_name": "django.contrib",
+            "functions": []
         },
         {
             "name": "django.contrib.sitemaps",
             "docstring": "",
-            "package_name": "django.contrib"
+            "package_name": "django.contrib",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Alert Google that the sitemap for the current site has been updated.\n    If sitemap_url is provided, it should be an absolute path to the sitemap\n    for this site -- e.g., '/sitemap.xml'. If sitemap_url is not provided, this\n    function will attempt to deduce it by using urls.reverse().\n    \"\"\"",
+                    "name": "ping_google",
+                    "namespace": "django.contrib.sitemaps.ping_google",
+                    "class_name": "",
+                    "module_name": "django.contrib.sitemaps",
+                    "package_name": "django.contrib.sitemaps"
+                },
+                {
+                    "docstring": "",
+                    "name": "_get_sitemap_full_url",
+                    "namespace": "django.contrib.sitemaps._get_sitemap_full_url",
+                    "class_name": "",
+                    "module_name": "django.contrib.sitemaps",
+                    "package_name": "django.contrib.sitemaps"
+                }
+            ]
         },
         {
             "name": "django.contrib.humanize",
             "docstring": "",
-            "package_name": "django.contrib"
+            "package_name": "django.contrib",
+            "functions": []
         },
         {
             "name": "django.contrib.contenttypes",
             "docstring": "",
-            "package_name": "django.contrib"
+            "package_name": "django.contrib",
+            "functions": []
         },
         {
             "name": "django.contrib.gis",
             "docstring": "",
-            "package_name": "django.contrib"
+            "package_name": "django.contrib",
+            "functions": []
         },
         {
             "name": "django.contrib.admindocs",
             "docstring": "",
-            "package_name": "django.contrib"
+            "package_name": "django.contrib",
+            "functions": []
         }
     ]
 }

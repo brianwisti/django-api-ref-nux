@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Look through the loaded graph and detect any conflicts - apps\n        with more than one leaf migration. Return a dict of the app labels\n        that conflict with the migration names that conflict.\n        \"\"\"",
+    "name": "detect_conflicts",
+    "namespace": "django.db.migrations.loader.MigrationLoader.detect_conflicts",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

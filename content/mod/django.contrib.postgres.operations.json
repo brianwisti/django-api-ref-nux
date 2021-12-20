@@ -5,88 +5,491 @@
         {
             "docstring": "",
             "name": "CreateExtension",
-            "namespace": "django.contrib.postgres.operations.CreateExtension"
+            "namespace": "django.contrib.postgres.operations.CreateExtension",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.postgres.operations.CreateExtension.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "state_forwards",
+                    "namespace": "django.contrib.postgres.operations.CreateExtension.state_forwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "database_forwards",
+                    "namespace": "django.contrib.postgres.operations.CreateExtension.database_forwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "database_backwards",
+                    "namespace": "django.contrib.postgres.operations.CreateExtension.database_backwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "extension_exists",
+                    "namespace": "django.contrib.postgres.operations.CreateExtension.extension_exists",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "describe",
+                    "namespace": "django.contrib.postgres.operations.CreateExtension.describe",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "migration_name_fragment",
+                    "namespace": "django.contrib.postgres.operations.CreateExtension.migration_name_fragment",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "BloomExtension",
-            "namespace": "django.contrib.postgres.operations.BloomExtension"
+            "namespace": "django.contrib.postgres.operations.BloomExtension",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.postgres.operations.BloomExtension.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "BtreeGinExtension",
-            "namespace": "django.contrib.postgres.operations.BtreeGinExtension"
+            "namespace": "django.contrib.postgres.operations.BtreeGinExtension",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.postgres.operations.BtreeGinExtension.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "BtreeGistExtension",
-            "namespace": "django.contrib.postgres.operations.BtreeGistExtension"
+            "namespace": "django.contrib.postgres.operations.BtreeGistExtension",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.postgres.operations.BtreeGistExtension.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "CITextExtension",
-            "namespace": "django.contrib.postgres.operations.CITextExtension"
+            "namespace": "django.contrib.postgres.operations.CITextExtension",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.postgres.operations.CITextExtension.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "CryptoExtension",
-            "namespace": "django.contrib.postgres.operations.CryptoExtension"
+            "namespace": "django.contrib.postgres.operations.CryptoExtension",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.postgres.operations.CryptoExtension.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "HStoreExtension",
-            "namespace": "django.contrib.postgres.operations.HStoreExtension"
+            "namespace": "django.contrib.postgres.operations.HStoreExtension",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.postgres.operations.HStoreExtension.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "TrigramExtension",
-            "namespace": "django.contrib.postgres.operations.TrigramExtension"
+            "namespace": "django.contrib.postgres.operations.TrigramExtension",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.postgres.operations.TrigramExtension.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "UnaccentExtension",
-            "namespace": "django.contrib.postgres.operations.UnaccentExtension"
+            "namespace": "django.contrib.postgres.operations.UnaccentExtension",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.postgres.operations.UnaccentExtension.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "NotInTransactionMixin",
-            "namespace": "django.contrib.postgres.operations.NotInTransactionMixin"
+            "namespace": "django.contrib.postgres.operations.NotInTransactionMixin",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "_ensure_not_in_transaction",
+                    "namespace": "django.contrib.postgres.operations.NotInTransactionMixin._ensure_not_in_transaction",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"Create an index using PostgreSQL's CREATE INDEX CONCURRENTLY syntax.\"\"\"",
             "name": "AddIndexConcurrently",
-            "namespace": "django.contrib.postgres.operations.AddIndexConcurrently"
+            "namespace": "django.contrib.postgres.operations.AddIndexConcurrently",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "describe",
+                    "namespace": "django.contrib.postgres.operations.AddIndexConcurrently.describe",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "database_forwards",
+                    "namespace": "django.contrib.postgres.operations.AddIndexConcurrently.database_forwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "database_backwards",
+                    "namespace": "django.contrib.postgres.operations.AddIndexConcurrently.database_backwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"Remove an index using PostgreSQL's DROP INDEX CONCURRENTLY syntax.\"\"\"",
             "name": "RemoveIndexConcurrently",
-            "namespace": "django.contrib.postgres.operations.RemoveIndexConcurrently"
+            "namespace": "django.contrib.postgres.operations.RemoveIndexConcurrently",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "describe",
+                    "namespace": "django.contrib.postgres.operations.RemoveIndexConcurrently.describe",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "database_forwards",
+                    "namespace": "django.contrib.postgres.operations.RemoveIndexConcurrently.database_forwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "database_backwards",
+                    "namespace": "django.contrib.postgres.operations.RemoveIndexConcurrently.database_backwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "CollationOperation",
-            "namespace": "django.contrib.postgres.operations.CollationOperation"
+            "namespace": "django.contrib.postgres.operations.CollationOperation",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.postgres.operations.CollationOperation.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "state_forwards",
+                    "namespace": "django.contrib.postgres.operations.CollationOperation.state_forwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "deconstruct",
+                    "namespace": "django.contrib.postgres.operations.CollationOperation.deconstruct",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "create_collation",
+                    "namespace": "django.contrib.postgres.operations.CollationOperation.create_collation",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "remove_collation",
+                    "namespace": "django.contrib.postgres.operations.CollationOperation.remove_collation",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"Create a collation.\"\"\"",
             "name": "CreateCollation",
-            "namespace": "django.contrib.postgres.operations.CreateCollation"
+            "namespace": "django.contrib.postgres.operations.CreateCollation",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "database_forwards",
+                    "namespace": "django.contrib.postgres.operations.CreateCollation.database_forwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "database_backwards",
+                    "namespace": "django.contrib.postgres.operations.CreateCollation.database_backwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "describe",
+                    "namespace": "django.contrib.postgres.operations.CreateCollation.describe",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "migration_name_fragment",
+                    "namespace": "django.contrib.postgres.operations.CreateCollation.migration_name_fragment",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"Remove a collation.\"\"\"",
             "name": "RemoveCollation",
-            "namespace": "django.contrib.postgres.operations.RemoveCollation"
+            "namespace": "django.contrib.postgres.operations.RemoveCollation",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "database_forwards",
+                    "namespace": "django.contrib.postgres.operations.RemoveCollation.database_forwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "database_backwards",
+                    "namespace": "django.contrib.postgres.operations.RemoveCollation.database_backwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "describe",
+                    "namespace": "django.contrib.postgres.operations.RemoveCollation.describe",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "migration_name_fragment",
+                    "namespace": "django.contrib.postgres.operations.RemoveCollation.migration_name_fragment",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Add a table constraint without enforcing validation, using PostgreSQL's\n    NOT VALID syntax.\n    \"\"\"",
             "name": "AddConstraintNotValid",
-            "namespace": "django.contrib.postgres.operations.AddConstraintNotValid"
+            "namespace": "django.contrib.postgres.operations.AddConstraintNotValid",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.postgres.operations.AddConstraintNotValid.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "describe",
+                    "namespace": "django.contrib.postgres.operations.AddConstraintNotValid.describe",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "database_forwards",
+                    "namespace": "django.contrib.postgres.operations.AddConstraintNotValid.database_forwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "migration_name_fragment",
+                    "namespace": "django.contrib.postgres.operations.AddConstraintNotValid.migration_name_fragment",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"Validate a table NOT VALID constraint.\"\"\"",
             "name": "ValidateConstraint",
-            "namespace": "django.contrib.postgres.operations.ValidateConstraint"
+            "namespace": "django.contrib.postgres.operations.ValidateConstraint",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.postgres.operations.ValidateConstraint.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "describe",
+                    "namespace": "django.contrib.postgres.operations.ValidateConstraint.describe",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "database_forwards",
+                    "namespace": "django.contrib.postgres.operations.ValidateConstraint.database_forwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "database_backwards",
+                    "namespace": "django.contrib.postgres.operations.ValidateConstraint.database_backwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "state_forwards",
+                    "namespace": "django.contrib.postgres.operations.ValidateConstraint.state_forwards",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "migration_name_fragment",
+                    "namespace": "django.contrib.postgres.operations.ValidateConstraint.migration_name_fragment",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "deconstruct",
+                    "namespace": "django.contrib.postgres.operations.ValidateConstraint.deconstruct",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.postgres"
 }

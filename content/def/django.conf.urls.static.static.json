@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Return a URL pattern for serving files in debug mode.\n\n    from django.conf import settings\n    from django.conf.urls.static import static\n\n    urlpatterns = [\n        # ... the rest of your URLconf goes here ...\n    ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)\n    \"\"\"",
+    "name": "static",
+    "namespace": "django.conf.urls.static.static",
+    "class_name": "",
+    "module_name": "django.conf.urls.static",
+    "package_name": ""
+}

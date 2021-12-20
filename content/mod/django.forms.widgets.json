@@ -5,152 +5,965 @@
         {
             "docstring": "",
             "name": "MediaOrderConflictWarning",
-            "namespace": "django.forms.widgets.MediaOrderConflictWarning"
+            "namespace": "django.forms.widgets.MediaOrderConflictWarning",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "Media",
-            "namespace": "django.forms.widgets.Media"
+            "namespace": "django.forms.widgets.Media",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.forms.widgets.Media.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.forms.widgets.Media.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__str__",
+                    "namespace": "django.forms.widgets.Media.__str__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_css",
+                    "namespace": "django.forms.widgets.Media._css",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_js",
+                    "namespace": "django.forms.widgets.Media._js",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "render",
+                    "namespace": "django.forms.widgets.Media.render",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "render_js",
+                    "namespace": "django.forms.widgets.Media.render_js",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "render_css",
+                    "namespace": "django.forms.widgets.Media.render_css",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Given a relative or absolute path to a static asset, return an absolute\n        path. An absolute path will be returned unchanged while a relative path\n        will be passed to django.templatetags.static.static().\n        \"\"\"",
+                    "name": "absolute_path",
+                    "namespace": "django.forms.widgets.Media.absolute_path",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return a Media object that only contains media of the given type.\"\"\"",
+                    "name": "__getitem__",
+                    "namespace": "django.forms.widgets.Media.__getitem__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Merge lists while trying to keep the relative order of the elements.\n        Warn if the lists have the same elements in a different relative order.\n\n        For static assets it can be important to have them included in the DOM\n        in a certain order. In JavaScript you may not be able to reference a\n        global or in CSS you might want to override a style.\n        \"\"\"",
+                    "name": "merge",
+                    "namespace": "django.forms.widgets.Media.merge",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__add__",
+                    "namespace": "django.forms.widgets.Media.__add__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Metaclass for classes that can have media definitions.\n    \"\"\"",
             "name": "MediaDefiningClass",
-            "namespace": "django.forms.widgets.MediaDefiningClass"
+            "namespace": "django.forms.widgets.MediaDefiningClass",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__new__",
+                    "namespace": "django.forms.widgets.MediaDefiningClass.__new__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Widget",
-            "namespace": "django.forms.widgets.Widget"
+            "namespace": "django.forms.widgets.Widget",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.forms.widgets.Widget.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__deepcopy__",
+                    "namespace": "django.forms.widgets.Widget.__deepcopy__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "is_hidden",
+                    "namespace": "django.forms.widgets.Widget.is_hidden",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "subwidgets",
+                    "namespace": "django.forms.widgets.Widget.subwidgets",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return a value as it should appear when rendered in a template.\n        \"\"\"",
+                    "name": "format_value",
+                    "namespace": "django.forms.widgets.Widget.format_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_context",
+                    "namespace": "django.forms.widgets.Widget.get_context",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Render the widget as an HTML string.\"\"\"",
+                    "name": "render",
+                    "namespace": "django.forms.widgets.Widget.render",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_render",
+                    "namespace": "django.forms.widgets.Widget._render",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Build an attribute dictionary.\"\"\"",
+                    "name": "build_attrs",
+                    "namespace": "django.forms.widgets.Widget.build_attrs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Given a dictionary of data and this widget's name, return the value\n        of this widget or None if it's not provided.\n        \"\"\"",
+                    "name": "value_from_datadict",
+                    "namespace": "django.forms.widgets.Widget.value_from_datadict",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "value_omitted_from_data",
+                    "namespace": "django.forms.widgets.Widget.value_omitted_from_data",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the HTML ID attribute of this Widget for use by a <label>,\n        given the ID of the field. Return None if no ID is available.\n\n        This hook is necessary because some widgets have multiple HTML\n        elements and, thus, multiple IDs. In that case, this method should\n        return an ID value that corresponds to the first ID in the widget's\n        tags.\n        \"\"\"",
+                    "name": "id_for_label",
+                    "namespace": "django.forms.widgets.Widget.id_for_label",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "use_required_attribute",
+                    "namespace": "django.forms.widgets.Widget.use_required_attribute",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Base class for all <input> widgets.\n    \"\"\"",
             "name": "Input",
-            "namespace": "django.forms.widgets.Input"
+            "namespace": "django.forms.widgets.Input",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.forms.widgets.Input.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_context",
+                    "namespace": "django.forms.widgets.Input.get_context",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "TextInput",
-            "namespace": "django.forms.widgets.TextInput"
+            "namespace": "django.forms.widgets.TextInput",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "NumberInput",
-            "namespace": "django.forms.widgets.NumberInput"
+            "namespace": "django.forms.widgets.NumberInput",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "EmailInput",
-            "namespace": "django.forms.widgets.EmailInput"
+            "namespace": "django.forms.widgets.EmailInput",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "URLInput",
-            "namespace": "django.forms.widgets.URLInput"
+            "namespace": "django.forms.widgets.URLInput",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "PasswordInput",
-            "namespace": "django.forms.widgets.PasswordInput"
+            "namespace": "django.forms.widgets.PasswordInput",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.forms.widgets.PasswordInput.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_context",
+                    "namespace": "django.forms.widgets.PasswordInput.get_context",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "HiddenInput",
-            "namespace": "django.forms.widgets.HiddenInput"
+            "namespace": "django.forms.widgets.HiddenInput",
+            "methods": []
         },
         {
             "docstring": "\"\"\"\n    Handle <input type=\"hidden\"> for fields that have a list\n    of values.\n    \"\"\"",
             "name": "MultipleHiddenInput",
-            "namespace": "django.forms.widgets.MultipleHiddenInput"
+            "namespace": "django.forms.widgets.MultipleHiddenInput",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_context",
+                    "namespace": "django.forms.widgets.MultipleHiddenInput.get_context",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "value_from_datadict",
+                    "namespace": "django.forms.widgets.MultipleHiddenInput.value_from_datadict",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "format_value",
+                    "namespace": "django.forms.widgets.MultipleHiddenInput.format_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "FileInput",
-            "namespace": "django.forms.widgets.FileInput"
+            "namespace": "django.forms.widgets.FileInput",
+            "methods": [
+                {
+                    "docstring": "\"\"\"File input never renders a value.\"\"\"",
+                    "name": "format_value",
+                    "namespace": "django.forms.widgets.FileInput.format_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"File widgets take data from FILES, not POST\"",
+                    "name": "value_from_datadict",
+                    "namespace": "django.forms.widgets.FileInput.value_from_datadict",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "value_omitted_from_data",
+                    "namespace": "django.forms.widgets.FileInput.value_omitted_from_data",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "use_required_attribute",
+                    "namespace": "django.forms.widgets.FileInput.use_required_attribute",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "ClearableFileInput",
-            "namespace": "django.forms.widgets.ClearableFileInput"
+            "namespace": "django.forms.widgets.ClearableFileInput",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        Given the name of the file input, return the name of the clear checkbox\n        input.\n        \"\"\"",
+                    "name": "clear_checkbox_name",
+                    "namespace": "django.forms.widgets.ClearableFileInput.clear_checkbox_name",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Given the name of the clear checkbox input, return the HTML id for it.\n        \"\"\"",
+                    "name": "clear_checkbox_id",
+                    "namespace": "django.forms.widgets.ClearableFileInput.clear_checkbox_id",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return whether value is considered to be initial value.\n        \"\"\"",
+                    "name": "is_initial",
+                    "namespace": "django.forms.widgets.ClearableFileInput.is_initial",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return the file object if it has a defined url attribute.\n        \"\"\"",
+                    "name": "format_value",
+                    "namespace": "django.forms.widgets.ClearableFileInput.format_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_context",
+                    "namespace": "django.forms.widgets.ClearableFileInput.get_context",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "value_from_datadict",
+                    "namespace": "django.forms.widgets.ClearableFileInput.value_from_datadict",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "value_omitted_from_data",
+                    "namespace": "django.forms.widgets.ClearableFileInput.value_omitted_from_data",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Textarea",
-            "namespace": "django.forms.widgets.Textarea"
+            "namespace": "django.forms.widgets.Textarea",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.forms.widgets.Textarea.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "DateTimeBaseInput",
-            "namespace": "django.forms.widgets.DateTimeBaseInput"
+            "namespace": "django.forms.widgets.DateTimeBaseInput",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.forms.widgets.DateTimeBaseInput.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "format_value",
+                    "namespace": "django.forms.widgets.DateTimeBaseInput.format_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "DateInput",
-            "namespace": "django.forms.widgets.DateInput"
+            "namespace": "django.forms.widgets.DateInput",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "DateTimeInput",
-            "namespace": "django.forms.widgets.DateTimeInput"
+            "namespace": "django.forms.widgets.DateTimeInput",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "TimeInput",
-            "namespace": "django.forms.widgets.TimeInput"
+            "namespace": "django.forms.widgets.TimeInput",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "CheckboxInput",
-            "namespace": "django.forms.widgets.CheckboxInput"
+            "namespace": "django.forms.widgets.CheckboxInput",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.forms.widgets.CheckboxInput.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Only return the 'value' attribute if value isn't empty.\"\"\"",
+                    "name": "format_value",
+                    "namespace": "django.forms.widgets.CheckboxInput.format_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_context",
+                    "namespace": "django.forms.widgets.CheckboxInput.get_context",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "value_from_datadict",
+                    "namespace": "django.forms.widgets.CheckboxInput.value_from_datadict",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "value_omitted_from_data",
+                    "namespace": "django.forms.widgets.CheckboxInput.value_omitted_from_data",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "ChoiceWidget",
-            "namespace": "django.forms.widgets.ChoiceWidget"
+            "namespace": "django.forms.widgets.ChoiceWidget",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.forms.widgets.ChoiceWidget.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__deepcopy__",
+                    "namespace": "django.forms.widgets.ChoiceWidget.__deepcopy__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Yield all \"subwidgets\" of this widget. Used to enable iterating\n        options from a BoundField for choice widgets.\n        \"\"\"",
+                    "name": "subwidgets",
+                    "namespace": "django.forms.widgets.ChoiceWidget.subwidgets",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Yield a flat list of options for this widgets.\"\"\"",
+                    "name": "options",
+                    "namespace": "django.forms.widgets.ChoiceWidget.options",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return a list of optgroups for this widget.\"\"\"",
+                    "name": "optgroups",
+                    "namespace": "django.forms.widgets.ChoiceWidget.optgroups",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "create_option",
+                    "namespace": "django.forms.widgets.ChoiceWidget.create_option",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_context",
+                    "namespace": "django.forms.widgets.ChoiceWidget.get_context",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Use an incremented id for each option where the main widget\n        references the zero index.\n        \"\"\"",
+                    "name": "id_for_label",
+                    "namespace": "django.forms.widgets.ChoiceWidget.id_for_label",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "value_from_datadict",
+                    "namespace": "django.forms.widgets.ChoiceWidget.value_from_datadict",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return selected values as a list.\"\"\"",
+                    "name": "format_value",
+                    "namespace": "django.forms.widgets.ChoiceWidget.format_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Select",
-            "namespace": "django.forms.widgets.Select"
+            "namespace": "django.forms.widgets.Select",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_context",
+                    "namespace": "django.forms.widgets.Select.get_context",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return True if the choice's value is empty string or None.\"\"\"",
+                    "name": "_choice_has_empty_value",
+                    "namespace": "django.forms.widgets.Select._choice_has_empty_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Don't render 'required' if the first <option> has a value, as that's\n        invalid HTML.\n        \"\"\"",
+                    "name": "use_required_attribute",
+                    "namespace": "django.forms.widgets.Select.use_required_attribute",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    A Select Widget intended to be used with NullBooleanField.\n    \"\"\"",
             "name": "NullBooleanSelect",
-            "namespace": "django.forms.widgets.NullBooleanSelect"
+            "namespace": "django.forms.widgets.NullBooleanSelect",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.forms.widgets.NullBooleanSelect.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "format_value",
+                    "namespace": "django.forms.widgets.NullBooleanSelect.format_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "value_from_datadict",
+                    "namespace": "django.forms.widgets.NullBooleanSelect.value_from_datadict",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "SelectMultiple",
-            "namespace": "django.forms.widgets.SelectMultiple"
+            "namespace": "django.forms.widgets.SelectMultiple",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "value_from_datadict",
+                    "namespace": "django.forms.widgets.SelectMultiple.value_from_datadict",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "value_omitted_from_data",
+                    "namespace": "django.forms.widgets.SelectMultiple.value_omitted_from_data",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "RadioSelect",
-            "namespace": "django.forms.widgets.RadioSelect"
+            "namespace": "django.forms.widgets.RadioSelect",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        Don't include for=\"field_0\" in <label> to improve accessibility when\n        using a screen reader, in addition clicking such a label would toggle\n        the first input.\n        \"\"\"",
+                    "name": "id_for_label",
+                    "namespace": "django.forms.widgets.RadioSelect.id_for_label",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "CheckboxSelectMultiple",
-            "namespace": "django.forms.widgets.CheckboxSelectMultiple"
+            "namespace": "django.forms.widgets.CheckboxSelectMultiple",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "use_required_attribute",
+                    "namespace": "django.forms.widgets.CheckboxSelectMultiple.use_required_attribute",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "value_omitted_from_data",
+                    "namespace": "django.forms.widgets.CheckboxSelectMultiple.value_omitted_from_data",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    A widget that is composed of multiple widgets.\n\n    In addition to the values added by Widget.get_context(), this widget\n    adds a list of subwidgets to the context as widget['subwidgets'].\n    These can be looped over and rendered like normal widgets.\n\n    You'll probably want to use this class with MultiValueField.\n    \"\"\"",
             "name": "MultiWidget",
-            "namespace": "django.forms.widgets.MultiWidget"
+            "namespace": "django.forms.widgets.MultiWidget",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.forms.widgets.MultiWidget.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "is_hidden",
+                    "namespace": "django.forms.widgets.MultiWidget.is_hidden",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_context",
+                    "namespace": "django.forms.widgets.MultiWidget.get_context",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "id_for_label",
+                    "namespace": "django.forms.widgets.MultiWidget.id_for_label",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "value_from_datadict",
+                    "namespace": "django.forms.widgets.MultiWidget.value_from_datadict",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "value_omitted_from_data",
+                    "namespace": "django.forms.widgets.MultiWidget.value_omitted_from_data",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return a list of decompressed values for the given compressed value.\n        The given value can be assumed to be valid, but not necessarily\n        non-empty.\n        \"\"\"",
+                    "name": "decompress",
+                    "namespace": "django.forms.widgets.MultiWidget.decompress",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Media for a multiwidget is the combination of all media of the\n        subwidgets.\n        \"\"\"",
+                    "name": "_get_media",
+                    "namespace": "django.forms.widgets.MultiWidget._get_media",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__deepcopy__",
+                    "namespace": "django.forms.widgets.MultiWidget.__deepcopy__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "needs_multipart_form",
+                    "namespace": "django.forms.widgets.MultiWidget.needs_multipart_form",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    A widget that splits datetime input into two <input type=\"text\"> boxes.\n    \"\"\"",
             "name": "SplitDateTimeWidget",
-            "namespace": "django.forms.widgets.SplitDateTimeWidget"
+            "namespace": "django.forms.widgets.SplitDateTimeWidget",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.forms.widgets.SplitDateTimeWidget.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "decompress",
+                    "namespace": "django.forms.widgets.SplitDateTimeWidget.decompress",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    A widget that splits datetime input into two <input type=\"hidden\"> inputs.\n    \"\"\"",
             "name": "SplitHiddenDateTimeWidget",
-            "namespace": "django.forms.widgets.SplitHiddenDateTimeWidget"
+            "namespace": "django.forms.widgets.SplitHiddenDateTimeWidget",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.forms.widgets.SplitHiddenDateTimeWidget.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    A widget that splits date input into three <select> boxes.\n\n    This also serves as an example of a Widget that has more than one HTML\n    element and hence implements value_from_datadict.\n    \"\"\"",
             "name": "SelectDateWidget",
-            "namespace": "django.forms.widgets.SelectDateWidget"
+            "namespace": "django.forms.widgets.SelectDateWidget",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.forms.widgets.SelectDateWidget.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_context",
+                    "namespace": "django.forms.widgets.SelectDateWidget.get_context",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return a dict containing the year, month, and day of the current value.\n        Use dict instead of a datetime to allow invalid dates such as February\n        31 to display correctly.\n        \"\"\"",
+                    "name": "format_value",
+                    "namespace": "django.forms.widgets.SelectDateWidget.format_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_parse_date_fmt",
+                    "namespace": "django.forms.widgets.SelectDateWidget._parse_date_fmt",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "id_for_label",
+                    "namespace": "django.forms.widgets.SelectDateWidget.id_for_label",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "value_from_datadict",
+                    "namespace": "django.forms.widgets.SelectDateWidget.value_from_datadict",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "value_omitted_from_data",
+                    "namespace": "django.forms.widgets.SelectDateWidget.value_omitted_from_data",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "",
+            "name": "media_property",
+            "namespace": "django.forms.widgets.media_property",
+            "class_name": "",
+            "module_name": "django.forms.widgets",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "boolean_check",
+            "namespace": "django.forms.widgets.boolean_check",
+            "class_name": "",
+            "module_name": "django.forms.widgets",
+            "package_name": ""
         }
     ],
     "package_name": "django.forms"

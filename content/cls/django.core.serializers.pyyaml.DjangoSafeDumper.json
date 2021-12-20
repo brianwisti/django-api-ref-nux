@@ -3,5 +3,23 @@
     "name": "DjangoSafeDumper",
     "namespace": "django.core.serializers.pyyaml.DjangoSafeDumper",
     "module_name": "django.core.serializers.pyyaml",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "represent_decimal",
+            "namespace": "django.core.serializers.pyyaml.DjangoSafeDumper.represent_decimal",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "represent_ordered_dict",
+            "namespace": "django.core.serializers.pyyaml.DjangoSafeDumper.represent_ordered_dict",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

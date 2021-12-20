@@ -2,5 +2,15 @@
     "namespace": "django.http.cookie",
     "docstring": "",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Return a dictionary parsed from a `Cookie:` header string.\n    \"\"\"",
+            "name": "parse_cookie",
+            "namespace": "django.http.cookie.parse_cookie",
+            "class_name": "",
+            "module_name": "django.http.cookie",
+            "package_name": ""
+        }
+    ],
     "package_name": "django.http"
 }

@@ -3,5 +3,95 @@
     "name": "Page",
     "namespace": "django.core.paginator.Page",
     "module_name": "django.core.paginator",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.core.paginator.Page.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__repr__",
+            "namespace": "django.core.paginator.Page.__repr__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__len__",
+            "namespace": "django.core.paginator.Page.__len__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__getitem__",
+            "namespace": "django.core.paginator.Page.__getitem__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "has_next",
+            "namespace": "django.core.paginator.Page.has_next",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "has_previous",
+            "namespace": "django.core.paginator.Page.has_previous",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "has_other_pages",
+            "namespace": "django.core.paginator.Page.has_other_pages",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "next_page_number",
+            "namespace": "django.core.paginator.Page.next_page_number",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "previous_page_number",
+            "namespace": "django.core.paginator.Page.previous_page_number",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return the 1-based index of the first object on this page,\n        relative to total objects in the paginator.\n        \"\"\"",
+            "name": "start_index",
+            "namespace": "django.core.paginator.Page.start_index",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return the 1-based index of the last object on this page,\n        relative to total objects found (hits).\n        \"\"\"",
+            "name": "end_index",
+            "namespace": "django.core.paginator.Page.end_index",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

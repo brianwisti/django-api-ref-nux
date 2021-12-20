@@ -3,5 +3,23 @@
     "name": "DictWrapper",
     "namespace": "django.utils.datastructures.DictWrapper",
     "module_name": "django.utils.datastructures",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.utils.datastructures.DictWrapper.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Retrieve the real value after stripping the prefix string (if\n        present). If the prefix is present, pass the value through self.func\n        before returning, otherwise return the raw value.\n        \"\"\"",
+            "name": "__getitem__",
+            "namespace": "django.utils.datastructures.DictWrapper.__getitem__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

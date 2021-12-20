@@ -5,27 +5,191 @@
         {
             "docstring": "\"\"\"\n    A base file finder to be used for custom staticfiles finder classes.\n    \"\"\"",
             "name": "BaseFinder",
-            "namespace": "django.contrib.staticfiles.finders.BaseFinder"
+            "namespace": "django.contrib.staticfiles.finders.BaseFinder",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "check",
+                    "namespace": "django.contrib.staticfiles.finders.BaseFinder.check",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Given a relative file path, find an absolute file path.\n\n        If the ``all`` parameter is False (default) return only the first found\n        file path; if True, return a list of all found files paths.\n        \"\"\"",
+                    "name": "find",
+                    "namespace": "django.contrib.staticfiles.finders.BaseFinder.find",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Given an optional list of paths to ignore, return a two item iterable\n        consisting of the relative path and storage instance.\n        \"\"\"",
+                    "name": "list",
+                    "namespace": "django.contrib.staticfiles.finders.BaseFinder.list",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    A static files finder that uses the ``STATICFILES_DIRS`` setting\n    to locate files.\n    \"\"\"",
             "name": "FileSystemFinder",
-            "namespace": "django.contrib.staticfiles.finders.FileSystemFinder"
+            "namespace": "django.contrib.staticfiles.finders.FileSystemFinder",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.staticfiles.finders.FileSystemFinder.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check",
+                    "namespace": "django.contrib.staticfiles.finders.FileSystemFinder.check",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Look for files in the extra locations as defined in STATICFILES_DIRS.\n        \"\"\"",
+                    "name": "find",
+                    "namespace": "django.contrib.staticfiles.finders.FileSystemFinder.find",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Find a requested static file in a location and return the found\n        absolute path (or ``None`` if no match).\n        \"\"\"",
+                    "name": "find_location",
+                    "namespace": "django.contrib.staticfiles.finders.FileSystemFinder.find_location",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        List all files in all locations.\n        \"\"\"",
+                    "name": "list",
+                    "namespace": "django.contrib.staticfiles.finders.FileSystemFinder.list",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    A static files finder that looks in the directory of each app as\n    specified in the source_dir attribute.\n    \"\"\"",
             "name": "AppDirectoriesFinder",
-            "namespace": "django.contrib.staticfiles.finders.AppDirectoriesFinder"
+            "namespace": "django.contrib.staticfiles.finders.AppDirectoriesFinder",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.staticfiles.finders.AppDirectoriesFinder.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        List all files in all app storages.\n        \"\"\"",
+                    "name": "list",
+                    "namespace": "django.contrib.staticfiles.finders.AppDirectoriesFinder.list",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Look for files in the app directories.\n        \"\"\"",
+                    "name": "find",
+                    "namespace": "django.contrib.staticfiles.finders.AppDirectoriesFinder.find",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Find a requested static file in an app's static locations.\n        \"\"\"",
+                    "name": "find_in_app",
+                    "namespace": "django.contrib.staticfiles.finders.AppDirectoriesFinder.find_in_app",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    A base static files finder to be used to extended\n    with an own storage class.\n    \"\"\"",
             "name": "BaseStorageFinder",
-            "namespace": "django.contrib.staticfiles.finders.BaseStorageFinder"
+            "namespace": "django.contrib.staticfiles.finders.BaseStorageFinder",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.staticfiles.finders.BaseStorageFinder.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Look for files in the default file storage, if it's local.\n        \"\"\"",
+                    "name": "find",
+                    "namespace": "django.contrib.staticfiles.finders.BaseStorageFinder.find",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        List all files of the storage.\n        \"\"\"",
+                    "name": "list",
+                    "namespace": "django.contrib.staticfiles.finders.BaseStorageFinder.list",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    A static files finder that uses the default storage backend.\n    \"\"\"",
             "name": "DefaultStorageFinder",
-            "namespace": "django.contrib.staticfiles.finders.DefaultStorageFinder"
+            "namespace": "django.contrib.staticfiles.finders.DefaultStorageFinder",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.staticfiles.finders.DefaultStorageFinder.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Find a static file with the given path using all enabled finders.\n\n    If ``all`` is ``False`` (default), return the first matching\n    absolute path (or ``None`` if no match). Otherwise return a list.\n    \"\"\"",
+            "name": "find",
+            "namespace": "django.contrib.staticfiles.finders.find",
+            "class_name": "",
+            "module_name": "django.contrib.staticfiles.finders",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_finders",
+            "namespace": "django.contrib.staticfiles.finders.get_finders",
+            "class_name": "",
+            "module_name": "django.contrib.staticfiles.finders",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Import the staticfiles finder class described by import_path, where\n    import_path is the full Python path to the class.\n    \"\"\"",
+            "name": "get_finder",
+            "namespace": "django.contrib.staticfiles.finders.get_finder",
+            "class_name": "",
+            "module_name": "django.contrib.staticfiles.finders",
+            "package_name": ""
         }
     ],
     "package_name": "django.contrib.staticfiles"

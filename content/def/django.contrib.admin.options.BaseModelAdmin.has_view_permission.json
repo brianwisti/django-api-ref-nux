@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Return True if the given request has permission to view the given\n        Django model instance. The default implementation doesn't examine the\n        `obj` parameter.\n\n        If overridden by the user in subclasses, it should return True if the\n        given request has permission to view the `obj` model instance. If `obj`\n        is None, it should return True if the request has permission to view\n        any object of the given type.\n        \"\"\"",
+    "name": "has_view_permission",
+    "namespace": "django.contrib.admin.options.BaseModelAdmin.has_view_permission",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

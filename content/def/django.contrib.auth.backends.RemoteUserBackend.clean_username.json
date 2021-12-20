@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Perform any cleaning on the \"username\" prior to using it to get or\n        create the user object.  Return the cleaned username.\n\n        By default, return the username unchanged.\n        \"\"\"",
+    "name": "clean_username",
+    "namespace": "django.contrib.auth.backends.RemoteUserBackend.clean_username",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

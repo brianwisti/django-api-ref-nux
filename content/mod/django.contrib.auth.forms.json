@@ -5,52 +5,290 @@
         {
             "docstring": "",
             "name": "ReadOnlyPasswordHashWidget",
-            "namespace": "django.contrib.auth.forms.ReadOnlyPasswordHashWidget"
+            "namespace": "django.contrib.auth.forms.ReadOnlyPasswordHashWidget",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_context",
+                    "namespace": "django.contrib.auth.forms.ReadOnlyPasswordHashWidget.get_context",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "id_for_label",
+                    "namespace": "django.contrib.auth.forms.ReadOnlyPasswordHashWidget.id_for_label",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "ReadOnlyPasswordHashField",
-            "namespace": "django.contrib.auth.forms.ReadOnlyPasswordHashField"
+            "namespace": "django.contrib.auth.forms.ReadOnlyPasswordHashField",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.auth.forms.ReadOnlyPasswordHashField.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "UsernameField",
-            "namespace": "django.contrib.auth.forms.UsernameField"
+            "namespace": "django.contrib.auth.forms.UsernameField",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "to_python",
+                    "namespace": "django.contrib.auth.forms.UsernameField.to_python",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "widget_attrs",
+                    "namespace": "django.contrib.auth.forms.UsernameField.widget_attrs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    A form that creates a user, with no privileges, from the given username and\n    password.\n    \"\"\"",
             "name": "UserCreationForm",
-            "namespace": "django.contrib.auth.forms.UserCreationForm"
+            "namespace": "django.contrib.auth.forms.UserCreationForm",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.auth.forms.UserCreationForm.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "clean_password2",
+                    "namespace": "django.contrib.auth.forms.UserCreationForm.clean_password2",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_post_clean",
+                    "namespace": "django.contrib.auth.forms.UserCreationForm._post_clean",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "save",
+                    "namespace": "django.contrib.auth.forms.UserCreationForm.save",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "UserChangeForm",
-            "namespace": "django.contrib.auth.forms.UserChangeForm"
+            "namespace": "django.contrib.auth.forms.UserChangeForm",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.auth.forms.UserChangeForm.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Base class for authenticating users. Extend this to get a form that accepts\n    username/password logins.\n    \"\"\"",
             "name": "AuthenticationForm",
-            "namespace": "django.contrib.auth.forms.AuthenticationForm"
+            "namespace": "django.contrib.auth.forms.AuthenticationForm",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        The 'request' parameter is set for custom auth use by subclasses.\n        The form data comes in via the standard 'data' kwarg.\n        \"\"\"",
+                    "name": "__init__",
+                    "namespace": "django.contrib.auth.forms.AuthenticationForm.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "clean",
+                    "namespace": "django.contrib.auth.forms.AuthenticationForm.clean",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Controls whether the given User may log in. This is a policy setting,\n        independent of end-user authentication. This default behavior is to\n        allow login by active users, and reject login by inactive users.\n\n        If the given user cannot log in, this method should raise a\n        ``ValidationError``.\n\n        If the given user may log in, this method should return None.\n        \"\"\"",
+                    "name": "confirm_login_allowed",
+                    "namespace": "django.contrib.auth.forms.AuthenticationForm.confirm_login_allowed",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_user",
+                    "namespace": "django.contrib.auth.forms.AuthenticationForm.get_user",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_invalid_login_error",
+                    "namespace": "django.contrib.auth.forms.AuthenticationForm.get_invalid_login_error",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "PasswordResetForm",
-            "namespace": "django.contrib.auth.forms.PasswordResetForm"
+            "namespace": "django.contrib.auth.forms.PasswordResetForm",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        Send a django.core.mail.EmailMultiAlternatives to `to_email`.\n        \"\"\"",
+                    "name": "send_mail",
+                    "namespace": "django.contrib.auth.forms.PasswordResetForm.send_mail",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Given an email, return matching user(s) who should receive a reset.\n\n        This allows subclasses to more easily customize the default policies\n        that prevent inactive users and users with unusable passwords from\n        resetting their password.\n        \"\"\"",
+                    "name": "get_users",
+                    "namespace": "django.contrib.auth.forms.PasswordResetForm.get_users",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Generate a one-use only link for resetting password and send it to the\n        user.\n        \"\"\"",
+                    "name": "save",
+                    "namespace": "django.contrib.auth.forms.PasswordResetForm.save",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    A form that lets a user change set their password without entering the old\n    password\n    \"\"\"",
             "name": "SetPasswordForm",
-            "namespace": "django.contrib.auth.forms.SetPasswordForm"
+            "namespace": "django.contrib.auth.forms.SetPasswordForm",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.auth.forms.SetPasswordForm.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "clean_new_password2",
+                    "namespace": "django.contrib.auth.forms.SetPasswordForm.clean_new_password2",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "save",
+                    "namespace": "django.contrib.auth.forms.SetPasswordForm.save",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    A form that lets a user change their password by entering their old\n    password.\n    \"\"\"",
             "name": "PasswordChangeForm",
-            "namespace": "django.contrib.auth.forms.PasswordChangeForm"
+            "namespace": "django.contrib.auth.forms.PasswordChangeForm",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        Validate that the old_password field is correct.\n        \"\"\"",
+                    "name": "clean_old_password",
+                    "namespace": "django.contrib.auth.forms.PasswordChangeForm.clean_old_password",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    A form used to change the password of a user in the admin interface.\n    \"\"\"",
             "name": "AdminPasswordChangeForm",
-            "namespace": "django.contrib.auth.forms.AdminPasswordChangeForm"
+            "namespace": "django.contrib.auth.forms.AdminPasswordChangeForm",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.auth.forms.AdminPasswordChangeForm.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "clean_password2",
+                    "namespace": "django.contrib.auth.forms.AdminPasswordChangeForm.clean_password2",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Save the new password.\"\"\"",
+                    "name": "save",
+                    "namespace": "django.contrib.auth.forms.AdminPasswordChangeForm.save",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "changed_data",
+                    "namespace": "django.contrib.auth.forms.AdminPasswordChangeForm.changed_data",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Perform case-insensitive comparison of two identifiers, using the\n    recommended algorithm from Unicode Technical Report 36, section\n    2.11.2(B)(2).\n    \"\"\"",
+            "name": "_unicode_ci_compare",
+            "namespace": "django.contrib.auth.forms._unicode_ci_compare",
+            "class_name": "",
+            "module_name": "django.contrib.auth.forms",
+            "package_name": ""
         }
     ],
     "package_name": "django.contrib.auth"

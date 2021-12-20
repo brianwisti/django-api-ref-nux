@@ -3,5 +3,23 @@
     "name": "SafeString",
     "namespace": "django.utils.safestring.SafeString",
     "module_name": "django.utils.safestring",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "\"\"\"\n        Concatenating a safe string with another safe bytestring or\n        safe string is safe. Otherwise, the result is no longer safe.\n        \"\"\"",
+            "name": "__add__",
+            "namespace": "django.utils.safestring.SafeString.__add__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__str__",
+            "namespace": "django.utils.safestring.SafeString.__str__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

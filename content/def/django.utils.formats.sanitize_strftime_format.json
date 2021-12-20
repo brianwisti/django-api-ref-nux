@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Ensure that certain specifiers are correctly padded with leading zeros.\n\n    For years < 1000 specifiers %C, %F, %G, and %Y don't work as expected for\n    strftime provided by glibc on Linux as they don't pad the year or century\n    with leading zeros. Support for specifying the padding explicitly is\n    available, however, which can be used to fix this issue.\n\n    FreeBSD, macOS, and Windows do not support explicitly specifying the\n    padding, but return four digit years (with leading zeros) as expected.\n\n    This function checks whether the %Y produces a correctly padded string and,\n    if not, makes the following substitutions:\n\n    - %C \u2192 %02C\n    - %F \u2192 %010F\n    - %G \u2192 %04G\n    - %Y \u2192 %04Y\n\n    See https://bugs.python.org/issue13305 for more details.\n    \"\"\"",
+    "name": "sanitize_strftime_format",
+    "namespace": "django.utils.formats.sanitize_strftime_format",
+    "class_name": "",
+    "module_name": "django.utils.formats",
+    "package_name": ""
+}

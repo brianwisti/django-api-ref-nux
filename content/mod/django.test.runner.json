@@ -5,42 +5,660 @@
         {
             "docstring": "",
             "name": "DebugSQLTextTestResult",
-            "namespace": "django.test.runner.DebugSQLTextTestResult"
+            "namespace": "django.test.runner.DebugSQLTextTestResult",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.test.runner.DebugSQLTextTestResult.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "startTest",
+                    "namespace": "django.test.runner.DebugSQLTextTestResult.startTest",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "stopTest",
+                    "namespace": "django.test.runner.DebugSQLTextTestResult.stopTest",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "addError",
+                    "namespace": "django.test.runner.DebugSQLTextTestResult.addError",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "addFailure",
+                    "namespace": "django.test.runner.DebugSQLTextTestResult.addFailure",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "addSubTest",
+                    "namespace": "django.test.runner.DebugSQLTextTestResult.addSubTest",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "printErrorList",
+                    "namespace": "django.test.runner.DebugSQLTextTestResult.printErrorList",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Custom result class that triggers a PDB session when an error or failure\n    occurs.\n    \"\"\"",
             "name": "PDBDebugResult",
-            "namespace": "django.test.runner.PDBDebugResult"
+            "namespace": "django.test.runner.PDBDebugResult",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "addError",
+                    "namespace": "django.test.runner.PDBDebugResult.addError",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "addFailure",
+                    "namespace": "django.test.runner.PDBDebugResult.addFailure",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "addSubTest",
+                    "namespace": "django.test.runner.PDBDebugResult.addSubTest",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "debug",
+                    "namespace": "django.test.runner.PDBDebugResult.debug",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Dummy list class for faking storage of results in unittest.TestResult.\n    \"\"\"",
             "name": "DummyList",
-            "namespace": "django.test.runner.DummyList"
+            "namespace": "django.test.runner.DummyList",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "append",
+                    "namespace": "django.test.runner.DummyList.append",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Extend unittest.TestResult to record events in the child processes so they\n    can be replayed in the parent process. Events include things like which\n    tests succeeded or failed.\n    \"\"\"",
             "name": "RemoteTestResult",
-            "namespace": "django.test.runner.RemoteTestResult"
+            "namespace": "django.test.runner.RemoteTestResult",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.test.runner.RemoteTestResult.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__getstate__",
+                    "namespace": "django.test.runner.RemoteTestResult.__getstate__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "test_index",
+                    "namespace": "django.test.runner.RemoteTestResult.test_index",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Confirm that obj can be pickled and unpickled as multiprocessing will\n        need to pickle the exception in the child process and unpickle it in\n        the parent process. Let the exception rise, if not.\n        \"\"\"",
+                    "name": "_confirm_picklable",
+                    "namespace": "django.test.runner.RemoteTestResult._confirm_picklable",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_print_unpicklable_subtest",
+                    "namespace": "django.test.runner.RemoteTestResult._print_unpicklable_subtest",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check_picklable",
+                    "namespace": "django.test.runner.RemoteTestResult.check_picklable",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check_subtest_picklable",
+                    "namespace": "django.test.runner.RemoteTestResult.check_subtest_picklable",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "startTestRun",
+                    "namespace": "django.test.runner.RemoteTestResult.startTestRun",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "stopTestRun",
+                    "namespace": "django.test.runner.RemoteTestResult.stopTestRun",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "startTest",
+                    "namespace": "django.test.runner.RemoteTestResult.startTest",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "stopTest",
+                    "namespace": "django.test.runner.RemoteTestResult.stopTest",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "addError",
+                    "namespace": "django.test.runner.RemoteTestResult.addError",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "addFailure",
+                    "namespace": "django.test.runner.RemoteTestResult.addFailure",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "addSubTest",
+                    "namespace": "django.test.runner.RemoteTestResult.addSubTest",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "addSuccess",
+                    "namespace": "django.test.runner.RemoteTestResult.addSuccess",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "addSkip",
+                    "namespace": "django.test.runner.RemoteTestResult.addSkip",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "addExpectedFailure",
+                    "namespace": "django.test.runner.RemoteTestResult.addExpectedFailure",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "addUnexpectedSuccess",
+                    "namespace": "django.test.runner.RemoteTestResult.addUnexpectedSuccess",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Tells whether or not this result was a success.\"\"\"",
+                    "name": "wasSuccessful",
+                    "namespace": "django.test.runner.RemoteTestResult.wasSuccessful",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_exc_info_to_string",
+                    "namespace": "django.test.runner.RemoteTestResult._exc_info_to_string",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Run tests and record everything but don't display anything.\n\n    The implementation matches the unpythonic coding style of unittest2.\n    \"\"\"",
             "name": "RemoteTestRunner",
-            "namespace": "django.test.runner.RemoteTestRunner"
+            "namespace": "django.test.runner.RemoteTestRunner",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.test.runner.RemoteTestRunner.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "run",
+                    "namespace": "django.test.runner.RemoteTestRunner.run",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Run a series of tests in parallel in several processes.\n\n    While the unittest module's documentation implies that orchestrating the\n    execution of tests is the responsibility of the test runner, in practice,\n    it appears that TestRunner classes are more concerned with formatting and\n    displaying test results.\n\n    Since there are fewer use cases for customizing TestSuite than TestRunner,\n    implementing parallelization at the level of the TestSuite improves\n    interoperability with existing custom test runners. A single instance of a\n    test runner can still collect results from all tests without being aware\n    that they have been run in parallel.\n    \"\"\"",
             "name": "ParallelTestSuite",
-            "namespace": "django.test.runner.ParallelTestSuite"
+            "namespace": "django.test.runner.ParallelTestSuite",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.test.runner.ParallelTestSuite.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Distribute test cases across workers.\n\n        Return an identifier of each test case with its result in order to use\n        imap_unordered to show results as soon as they're available.\n\n        To minimize pickling errors when getting results from workers:\n\n        - pass back numeric indexes in self.subsuites instead of tests\n        - make tracebacks picklable with tblib, if available\n\n        Even with tblib, errors may still occur for dynamically created\n        exception classes which cannot be unpickled.\n        \"\"\"",
+                    "name": "run",
+                    "namespace": "django.test.runner.ParallelTestSuite.run",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__iter__",
+                    "namespace": "django.test.runner.ParallelTestSuite.__iter__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    This class implements shuffling with a special consistency property.\n    Consistency means that, for a given seed and key function, if two sets of\n    items are shuffled, the resulting order will agree on the intersection of\n    the two sets. For example, if items are removed from an original set, the\n    shuffled order for the new set will be the shuffled order of the original\n    set restricted to the smaller set.\n    \"\"\"",
             "name": "Shuffler",
-            "namespace": "django.test.runner.Shuffler"
+            "namespace": "django.test.runner.Shuffler",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "_hash_text",
+                    "namespace": "django.test.runner.Shuffler._hash_text",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.test.runner.Shuffler.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "seed_display",
+                    "namespace": "django.test.runner.Shuffler.seed_display",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_hash_item",
+                    "namespace": "django.test.runner.Shuffler._hash_item",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return a new list of the items in a shuffled order.\n\n        The `key` is a function that accepts an item in `items` and returns\n        a string unique for that item that can be viewed as a string id. The\n        order of the return value is deterministic. It depends on the seed\n        and key function but not on the original order.\n        \"\"\"",
+                    "name": "shuffle",
+                    "namespace": "django.test.runner.Shuffler.shuffle",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"A Django test runner that uses unittest2 test discovery.\"\"\"",
             "name": "DiscoverRunner",
-            "namespace": "django.test.runner.DiscoverRunner"
+            "namespace": "django.test.runner.DiscoverRunner",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.test.runner.DiscoverRunner.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "add_arguments",
+                    "namespace": "django.test.runner.DiscoverRunner.add_arguments",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "shuffle_seed",
+                    "namespace": "django.test.runner.DiscoverRunner.shuffle_seed",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Log the message at the given logging level (the default is INFO).\n\n        If a logger isn't set, the message is instead printed to the console,\n        respecting the configured verbosity. A verbosity of 0 prints no output,\n        a verbosity of 1 prints INFO and above, and a verbosity of 2 or higher\n        prints all levels.\n        \"\"\"",
+                    "name": "log",
+                    "namespace": "django.test.runner.DiscoverRunner.log",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "setup_test_environment",
+                    "namespace": "django.test.runner.DiscoverRunner.setup_test_environment",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "setup_shuffler",
+                    "namespace": "django.test.runner.DiscoverRunner.setup_shuffler",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "load_with_patterns",
+                    "namespace": "django.test.runner.DiscoverRunner.load_with_patterns",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "load_tests_for_label",
+                    "namespace": "django.test.runner.DiscoverRunner.load_tests_for_label",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "build_suite",
+                    "namespace": "django.test.runner.DiscoverRunner.build_suite",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "setup_databases",
+                    "namespace": "django.test.runner.DiscoverRunner.setup_databases",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_resultclass",
+                    "namespace": "django.test.runner.DiscoverRunner.get_resultclass",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_test_runner_kwargs",
+                    "namespace": "django.test.runner.DiscoverRunner.get_test_runner_kwargs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "run_checks",
+                    "namespace": "django.test.runner.DiscoverRunner.run_checks",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "run_suite",
+                    "namespace": "django.test.runner.DiscoverRunner.run_suite",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Destroy all the non-mirror databases.\"\"\"",
+                    "name": "teardown_databases",
+                    "namespace": "django.test.runner.DiscoverRunner.teardown_databases",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "teardown_test_environment",
+                    "namespace": "django.test.runner.DiscoverRunner.teardown_test_environment",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "suite_result",
+                    "namespace": "django.test.runner.DiscoverRunner.suite_result",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_get_databases",
+                    "namespace": "django.test.runner.DiscoverRunner._get_databases",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_databases",
+                    "namespace": "django.test.runner.DiscoverRunner.get_databases",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Run the unit tests for all the test labels in the provided list.\n\n        Test labels should be dotted Python paths to test modules, test\n        classes, or test methods.\n\n        Return the number of tests that failed.\n        \"\"\"",
+                    "name": "run_tests",
+                    "namespace": "django.test.runner.DiscoverRunner.run_tests",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    The maximum number of test processes when using the --parallel option.\n    \"\"\"",
+            "name": "get_max_test_processes",
+            "namespace": "django.test.runner.get_max_test_processes",
+            "class_name": "",
+            "module_name": "django.test.runner",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Parse value passed to the --parallel option.\"\"\"",
+            "name": "parallel_type",
+            "namespace": "django.test.runner.parallel_type",
+            "class_name": "",
+            "module_name": "django.test.runner",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Switch to databases dedicated to this worker.\n\n    This helper lives at module-level because of the multiprocessing module's\n    requirements.\n    \"\"\"",
+            "name": "_init_worker",
+            "namespace": "django.test.runner._init_worker",
+            "class_name": "",
+            "module_name": "django.test.runner",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Run a suite of tests with a RemoteTestRunner and return a RemoteTestResult.\n\n    This helper lives at module-level and its arguments are wrapped in a tuple\n    because of the multiprocessing module's requirements.\n    \"\"\"",
+            "name": "_run_subsuite",
+            "namespace": "django.test.runner._run_subsuite",
+            "class_name": "",
+            "module_name": "django.test.runner",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Try importing a test label, and return (is_importable, is_package).\n\n    Relative labels like \".\" and \"..\" are seen as directories.\n    \"\"\"",
+            "name": "try_importing",
+            "namespace": "django.test.runner.try_importing",
+            "class_name": "",
+            "module_name": "django.test.runner",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "find_top_level",
+            "namespace": "django.test.runner.find_top_level",
+            "class_name": "",
+            "module_name": "django.test.runner",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_class_shuffle_key",
+            "namespace": "django.test.runner._class_shuffle_key",
+            "class_name": "",
+            "module_name": "django.test.runner",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return an iterator over the given tests in a shuffled order, keeping tests\n    next to other tests of their class.\n\n    `tests` should be an iterable of tests.\n    \"\"\"",
+            "name": "shuffle_tests",
+            "namespace": "django.test.runner.shuffle_tests",
+            "class_name": "",
+            "module_name": "django.test.runner",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return an iterator that reorders the given tests, keeping tests next to\n    other tests of their class.\n\n    `tests` should be an iterable of tests that supports reversed().\n    \"\"\"",
+            "name": "reorder_test_bin",
+            "namespace": "django.test.runner.reorder_test_bin",
+            "class_name": "",
+            "module_name": "django.test.runner",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Reorder an iterable of tests, grouping by the given TestCase classes.\n\n    This function also removes any duplicates and reorders so that tests of the\n    same type are consecutive.\n\n    The result is returned as an iterator. `classes` is a sequence of types.\n    Tests that are instances of `classes[0]` are grouped first, followed by\n    instances of `classes[1]`, etc. Tests that are not instances of any of the\n    classes are grouped last.\n\n    If `reverse` is True, the tests within each `classes` group are reversed,\n    but without reversing the order of `classes` itself.\n\n    The `shuffler` argument is an optional instance of this module's `Shuffler`\n    class. If provided, tests will be shuffled within each `classes` group, but\n    keeping tests with other tests of their TestCase class. Reversing is\n    applied after shuffling to allow reversing the same random order.\n    \"\"\"",
+            "name": "reorder_tests",
+            "namespace": "django.test.runner.reorder_tests",
+            "class_name": "",
+            "module_name": "django.test.runner",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Partition a test suite by test case, preserving the order of tests.\"\"\"",
+            "name": "partition_suite_by_case",
+            "namespace": "django.test.runner.partition_suite_by_case",
+            "class_name": "",
+            "module_name": "django.test.runner",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "test_match_tags",
+            "namespace": "django.test.runner.test_match_tags",
+            "class_name": "",
+            "module_name": "django.test.runner",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return the matching tests as an iterator.\"\"\"",
+            "name": "filter_tests_by_tags",
+            "namespace": "django.test.runner.filter_tests_by_tags",
+            "class_name": "",
+            "module_name": "django.test.runner",
+            "package_name": ""
         }
     ],
     "package_name": "django.test"

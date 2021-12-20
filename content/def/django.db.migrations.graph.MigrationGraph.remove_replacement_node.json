@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        The inverse operation to `remove_replaced_nodes`. Almost. Remove the\n        replacement node `replacement` and remap its child nodes to `replaced`\n        - the list of nodes it would have replaced. Don't remap its parent\n        nodes as they are expected to be correct already.\n        \"\"\"",
+    "name": "remove_replacement_node",
+    "namespace": "django.db.migrations.graph.MigrationGraph.remove_replacement_node",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

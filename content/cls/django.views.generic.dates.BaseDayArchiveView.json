@@ -3,5 +3,23 @@
     "name": "BaseDayArchiveView",
     "namespace": "django.views.generic.dates.BaseDayArchiveView",
     "module_name": "django.views.generic.dates",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "\"\"\"Return (date_list, items, extra_context) for this request.\"\"\"",
+            "name": "get_dated_items",
+            "namespace": "django.views.generic.dates.BaseDayArchiveView.get_dated_items",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Do the actual heavy lifting of getting the dated items; this accepts a\n        date object so that TodayArchiveView can be trivial.\n        \"\"\"",
+            "name": "_get_dated_items",
+            "namespace": "django.views.generic.dates.BaseDayArchiveView._get_dated_items",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

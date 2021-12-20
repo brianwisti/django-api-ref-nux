@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        GDAL uses OFTReals to represent OFTIntegers in created\n        shapefiles -- forcing the type here since the underlying field\n        type may actually be OFTReal.\n        \"\"\"",
+    "name": "type",
+    "namespace": "django.contrib.gis.gdal.field.OFTInteger.type",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

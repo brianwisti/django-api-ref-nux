@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Return the proper model field name corresponding to the given\n        field_name to use for ordering. field_name may either be the name of a\n        proper model field or the name of a method (on the admin or model) or a\n        callable with the 'admin_order_field' attribute. Return None if no\n        proper model field name can be matched.\n        \"\"\"",
+    "name": "get_ordering_field",
+    "namespace": "django.contrib.admin.views.main.ChangeList.get_ordering_field",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

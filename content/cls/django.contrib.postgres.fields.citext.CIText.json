@@ -3,5 +3,23 @@
     "name": "CIText",
     "namespace": "django.contrib.postgres.fields.citext.CIText",
     "module_name": "django.contrib.postgres.fields.citext",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "get_internal_type",
+            "namespace": "django.contrib.postgres.fields.citext.CIText.get_internal_type",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "db_type",
+            "namespace": "django.contrib.postgres.fields.citext.CIText.db_type",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

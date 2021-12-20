@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Walk the list of names and turns them into PathInfo tuples. A single\n        name in 'names' can generate multiple PathInfos (m2m, for example).\n\n        'names' is the path of names to travel, 'opts' is the model Options we\n        start the name resolving from, 'allow_many' is as for setup_joins().\n        If fail_on_missing is set to True, then a name that can't be resolved\n        will generate a FieldError.\n\n        Return a list of PathInfo tuples. In addition return the final field\n        (the last used join field) and target (which is a field guaranteed to\n        contain the same value as the final field). Finally, return those names\n        that weren't found (which are likely transforms and the final lookup).\n        \"\"\"",
+    "name": "names_to_path",
+    "namespace": "django.db.models.sql.query.Query.names_to_path",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

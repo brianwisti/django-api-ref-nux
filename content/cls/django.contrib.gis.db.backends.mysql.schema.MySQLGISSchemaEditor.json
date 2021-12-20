@@ -3,5 +3,71 @@
     "name": "MySQLGISSchemaEditor",
     "namespace": "django.contrib.gis.db.backends.mysql.schema.MySQLGISSchemaEditor",
     "module_name": "django.contrib.gis.db.backends.mysql.schema",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.contrib.gis.db.backends.mysql.schema.MySQLGISSchemaEditor.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "skip_default",
+            "namespace": "django.contrib.gis.db.backends.mysql.schema.MySQLGISSchemaEditor.skip_default",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "column_sql",
+            "namespace": "django.contrib.gis.db.backends.mysql.schema.MySQLGISSchemaEditor.column_sql",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "create_model",
+            "namespace": "django.contrib.gis.db.backends.mysql.schema.MySQLGISSchemaEditor.create_model",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "add_field",
+            "namespace": "django.contrib.gis.db.backends.mysql.schema.MySQLGISSchemaEditor.add_field",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "remove_field",
+            "namespace": "django.contrib.gis.db.backends.mysql.schema.MySQLGISSchemaEditor.remove_field",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_create_spatial_index_name",
+            "namespace": "django.contrib.gis.db.backends.mysql.schema.MySQLGISSchemaEditor._create_spatial_index_name",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "create_spatial_indexes",
+            "namespace": "django.contrib.gis.db.backends.mysql.schema.MySQLGISSchemaEditor.create_spatial_indexes",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

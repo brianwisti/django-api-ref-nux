@@ -3,5 +3,31 @@
     "name": "TimestampSigner",
     "namespace": "django.core.signing.TimestampSigner",
     "module_name": "django.core.signing",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "timestamp",
+            "namespace": "django.core.signing.TimestampSigner.timestamp",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "sign",
+            "namespace": "django.core.signing.TimestampSigner.sign",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Retrieve original value and check it wasn't signed more\n        than max_age seconds ago.\n        \"\"\"",
+            "name": "unsign",
+            "namespace": "django.core.signing.TimestampSigner.unsign",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

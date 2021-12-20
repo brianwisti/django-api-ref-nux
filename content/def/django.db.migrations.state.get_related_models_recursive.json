@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Return all models that have a direct or indirect relationship\n    to the given model.\n\n    Relationships are either defined by explicit relational fields, like\n    ForeignKey, ManyToManyField or OneToOneField, or by inheriting from another\n    model (a superclass is related to its subclasses, but not vice versa). Note,\n    however, that a model inheriting from a concrete model is also related to\n    its superclass through the implicit *_ptr OneToOneField on the subclass.\n    \"\"\"",
+    "name": "get_related_models_recursive",
+    "namespace": "django.db.migrations.state.get_related_models_recursive",
+    "class_name": "",
+    "module_name": "django.db.migrations.state",
+    "package_name": ""
+}

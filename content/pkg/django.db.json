@@ -2,16 +2,174 @@
     "name": "django.db",
     "docstring": "",
     "package_name": "django",
+    "functions": [
+        {
+            "docstring": "",
+            "name": "reset_queries",
+            "namespace": "django.db.reset_queries",
+            "class_name": "",
+            "module_name": "django.db",
+            "package_name": "django.db"
+        },
+        {
+            "docstring": "",
+            "name": "close_old_connections",
+            "namespace": "django.db.close_old_connections",
+            "class_name": "",
+            "module_name": "django.db",
+            "package_name": "django.db"
+        }
+    ],
     "classes": [],
     "modules": [
         {
             "namespace": "django.db.transaction",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Get a database connection by name, or the default database connection\n    if no name is provided. This is a private API.\n    \"\"\"",
+                    "name": "get_connection",
+                    "namespace": "django.db.transaction.get_connection",
+                    "class_name": "",
+                    "module_name": "django.db.transaction",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Get the autocommit status of the connection.\"\"\"",
+                    "name": "get_autocommit",
+                    "namespace": "django.db.transaction.get_autocommit",
+                    "class_name": "",
+                    "module_name": "django.db.transaction",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Set the autocommit status of the connection.\"\"\"",
+                    "name": "set_autocommit",
+                    "namespace": "django.db.transaction.set_autocommit",
+                    "class_name": "",
+                    "module_name": "django.db.transaction",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Commit a transaction.\"\"\"",
+                    "name": "commit",
+                    "namespace": "django.db.transaction.commit",
+                    "class_name": "",
+                    "module_name": "django.db.transaction",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Roll back a transaction.\"\"\"",
+                    "name": "rollback",
+                    "namespace": "django.db.transaction.rollback",
+                    "class_name": "",
+                    "module_name": "django.db.transaction",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Create a savepoint (if supported and required by the backend) inside the\n    current transaction. Return an identifier for the savepoint that will be\n    used for the subsequent rollback or commit.\n    \"\"\"",
+                    "name": "savepoint",
+                    "namespace": "django.db.transaction.savepoint",
+                    "class_name": "",
+                    "module_name": "django.db.transaction",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Roll back the most recent savepoint (if one exists). Do nothing if\n    savepoints are not supported.\n    \"\"\"",
+                    "name": "savepoint_rollback",
+                    "namespace": "django.db.transaction.savepoint_rollback",
+                    "class_name": "",
+                    "module_name": "django.db.transaction",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Commit the most recent savepoint (if one exists). Do nothing if\n    savepoints are not supported.\n    \"\"\"",
+                    "name": "savepoint_commit",
+                    "namespace": "django.db.transaction.savepoint_commit",
+                    "class_name": "",
+                    "module_name": "django.db.transaction",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Reset the counter used to generate unique savepoint ids in this thread.\n    \"\"\"",
+                    "name": "clean_savepoints",
+                    "namespace": "django.db.transaction.clean_savepoints",
+                    "class_name": "",
+                    "module_name": "django.db.transaction",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Get the \"needs rollback\" flag -- for *advanced use* only.\"\"\"",
+                    "name": "get_rollback",
+                    "namespace": "django.db.transaction.get_rollback",
+                    "class_name": "",
+                    "module_name": "django.db.transaction",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Set or unset the \"needs rollback\" flag -- for *advanced use* only.\n\n    When `rollback` is `True`, trigger a rollback when exiting the innermost\n    enclosing atomic block that has `savepoint=True` (that's the default). Use\n    this to force a rollback without raising an exception.\n\n    When `rollback` is `False`, prevent such a rollback. Use this only after\n    rolling back to a known-good state! Otherwise, you break the atomic block\n    and data corruption may occur.\n    \"\"\"",
+                    "name": "set_rollback",
+                    "namespace": "django.db.transaction.set_rollback",
+                    "class_name": "",
+                    "module_name": "django.db.transaction",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Internal low-level utility to mark a transaction as \"needs rollback\" when\n    an exception is raised while not enforcing the enclosed block to be in a\n    transaction. This is needed by Model.save() and friends to avoid starting a\n    transaction when in autocommit mode and a single query is executed.\n\n    It's equivalent to:\n\n        connection = get_connection(using)\n        if connection.get_autocommit():\n            yield\n        else:\n            with transaction.atomic(using=using, savepoint=False):\n                yield\n\n    but it uses low-level utilities to avoid performance overhead.\n    \"\"\"",
+                    "name": "mark_for_rollback_on_error",
+                    "namespace": "django.db.transaction.mark_for_rollback_on_error",
+                    "class_name": "",
+                    "module_name": "django.db.transaction",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Register `func` to be called when the current transaction is committed.\n    If the current transaction is rolled back, `func` will not be called.\n    \"\"\"",
+                    "name": "on_commit",
+                    "namespace": "django.db.transaction.on_commit",
+                    "class_name": "",
+                    "module_name": "django.db.transaction",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "atomic",
+                    "namespace": "django.db.transaction.atomic",
+                    "class_name": "",
+                    "module_name": "django.db.transaction",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_non_atomic_requests",
+                    "namespace": "django.db.transaction._non_atomic_requests",
+                    "class_name": "",
+                    "module_name": "django.db.transaction",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "non_atomic_requests",
+                    "namespace": "django.db.transaction.non_atomic_requests",
+                    "class_name": "",
+                    "module_name": "django.db.transaction",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.db"
         },
         {
             "namespace": "django.db.utils",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Return a database backend's \"base\" module given a fully qualified database\n    backend name, or raise an error if it doesn't exist.\n    \"\"\"",
+                    "name": "load_backend",
+                    "namespace": "django.db.utils.load_backend",
+                    "class_name": "",
+                    "module_name": "django.db.utils",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.db"
         }
     ],
@@ -19,17 +177,20 @@
         {
             "name": "django.db.migrations",
             "docstring": "",
-            "package_name": "django.db"
+            "package_name": "django.db",
+            "functions": []
         },
         {
             "name": "django.db.backends",
             "docstring": "",
-            "package_name": "django.db"
+            "package_name": "django.db",
+            "functions": []
         },
         {
             "name": "django.db.models",
             "docstring": "",
-            "package_name": "django.db"
+            "package_name": "django.db",
+            "functions": []
         }
     ]
 }

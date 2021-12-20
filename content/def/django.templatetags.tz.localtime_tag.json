@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Force or prevent conversion of datetime objects to local time,\n    regardless of the value of ``settings.USE_TZ``.\n\n    Sample usage::\n\n        {% localtime off %}{{ value_in_utc }}{% endlocaltime %}\n    \"\"\"",
+    "name": "localtime_tag",
+    "namespace": "django.templatetags.tz.localtime_tag",
+    "class_name": "",
+    "module_name": "django.templatetags.tz",
+    "package_name": ""
+}

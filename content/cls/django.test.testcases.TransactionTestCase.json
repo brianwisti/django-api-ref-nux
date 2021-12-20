@@ -3,5 +3,79 @@
     "name": "TransactionTestCase",
     "namespace": "django.test.testcases.TransactionTestCase",
     "module_name": "django.test.testcases",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "\"\"\"\n        Perform pre-test setup:\n        * If the class has an 'available_apps' attribute, restrict the app\n          registry to these applications, then fire the post_migrate signal --\n          it must run with the correct set of applications for the test case.\n        * If the class has a 'fixtures' attribute, install those fixtures.\n        \"\"\"",
+            "name": "_pre_setup",
+            "namespace": "django.test.testcases.TransactionTestCase._pre_setup",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_databases_names",
+            "namespace": "django.test.testcases.TransactionTestCase._databases_names",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_reset_sequences",
+            "namespace": "django.test.testcases.TransactionTestCase._reset_sequences",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_fixture_setup",
+            "namespace": "django.test.testcases.TransactionTestCase._fixture_setup",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_should_reload_connections",
+            "namespace": "django.test.testcases.TransactionTestCase._should_reload_connections",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Perform post-test things:\n        * Flush the contents of the database to leave a clean slate. If the\n          class has an 'available_apps' attribute, don't fire post_migrate.\n        * Force-close the connection so the next test gets a clean cursor.\n        \"\"\"",
+            "name": "_post_teardown",
+            "namespace": "django.test.testcases.TransactionTestCase._post_teardown",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_fixture_teardown",
+            "namespace": "django.test.testcases.TransactionTestCase._fixture_teardown",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "assertQuerysetEqual",
+            "namespace": "django.test.testcases.TransactionTestCase.assertQuerysetEqual",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "assertNumQueries",
+            "namespace": "django.test.testcases.TransactionTestCase.assertNumQueries",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

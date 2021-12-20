@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Given a field instance, return the SQL that casts the result of a union\n        to that type. The resulting string should contain a '%s' placeholder\n        for the expression being cast.\n        \"\"\"",
+    "name": "unification_cast_sql",
+    "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.unification_cast_sql",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

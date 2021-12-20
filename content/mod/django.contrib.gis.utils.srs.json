@@ -2,5 +2,15 @@
     "namespace": "django.contrib.gis.utils.srs",
     "docstring": "",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Take a GDAL SpatialReference system and add its information to the\n    `spatial_ref_sys` table of the spatial backend. Doing this enables\n    database-level spatial transformations for the backend.  Thus, this utility\n    is useful for adding spatial reference systems not included by default with\n    the backend:\n\n    >>> from django.contrib.gis.utils import add_srs_entry\n    >>> add_srs_entry(3857)\n\n    Keyword Arguments:\n     auth_name:\n       This keyword may be customized with the value of the `auth_name` field.\n       Defaults to 'EPSG'.\n\n     auth_srid:\n       This keyword may be customized with the value of the `auth_srid` field.\n       Defaults to the SRID determined by GDAL.\n\n     ref_sys_name:\n       For SpatiaLite users only, sets the value of the `ref_sys_name` field.\n       Defaults to the name determined by GDAL.\n\n     database:\n      The name of the database connection to use; the default is the value\n      of `django.db.DEFAULT_DB_ALIAS` (at the time of this writing, its value\n      is 'default').\n    \"\"\"",
+            "name": "add_srs_entry",
+            "namespace": "django.contrib.gis.utils.srs.add_srs_entry",
+            "class_name": "",
+            "module_name": "django.contrib.gis.utils.srs",
+            "package_name": ""
+        }
+    ],
     "package_name": "django.contrib.gis.utils"
 }

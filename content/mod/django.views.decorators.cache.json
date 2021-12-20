@@ -2,5 +2,31 @@
     "namespace": "django.views.decorators.cache",
     "docstring": "",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Decorator for views that tries getting the page from the cache and\n    populates the cache if the page isn't in the cache yet.\n\n    The cache is keyed by the URL and some data from the headers.\n    Additionally there is the key prefix that is used to distinguish different\n    cache areas in a multi-site setup. You could use the\n    get_current_site().domain, for example, as that is unique across a Django\n    project.\n\n    Additionally, all headers from the response's Vary header will be taken\n    into account on caching -- just like the middleware does.\n    \"\"\"",
+            "name": "cache_page",
+            "namespace": "django.views.decorators.cache.cache_page",
+            "class_name": "",
+            "module_name": "django.views.decorators.cache",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "cache_control",
+            "namespace": "django.views.decorators.cache.cache_control",
+            "class_name": "",
+            "module_name": "django.views.decorators.cache",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Decorator that adds headers to a response so that it will never be cached.\n    \"\"\"",
+            "name": "never_cache",
+            "namespace": "django.views.decorators.cache.never_cache",
+            "class_name": "",
+            "module_name": "django.views.decorators.cache",
+            "package_name": ""
+        }
+    ],
     "package_name": "django.views.decorators"
 }

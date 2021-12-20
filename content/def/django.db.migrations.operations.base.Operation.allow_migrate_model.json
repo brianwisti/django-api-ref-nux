@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Return whether or not a model may be migrated.\n\n        This is a thin wrapper around router.allow_migrate_model() that\n        preemptively rejects any proxy, swapped out, or unmanaged model.\n        \"\"\"",
+    "name": "allow_migrate_model",
+    "namespace": "django.db.migrations.operations.base.Operation.allow_migrate_model",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

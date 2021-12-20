@@ -2,5 +2,31 @@
     "namespace": "django.core.management.sql",
     "docstring": "",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Return a list of the SQL statements used to flush the database.\n    \"\"\"",
+            "name": "sql_flush",
+            "namespace": "django.core.management.sql.sql_flush",
+            "class_name": "",
+            "module_name": "django.core.management.sql",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "emit_pre_migrate_signal",
+            "namespace": "django.core.management.sql.emit_pre_migrate_signal",
+            "class_name": "",
+            "module_name": "django.core.management.sql",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "emit_post_migrate_signal",
+            "namespace": "django.core.management.sql.emit_post_migrate_signal",
+            "class_name": "",
+            "module_name": "django.core.management.sql",
+            "package_name": ""
+        }
+    ],
     "package_name": "django.core.management"
 }

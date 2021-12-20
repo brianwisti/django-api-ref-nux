@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Figure out which databases actually need to be created.\n\n    Deduplicate entries in DATABASES that correspond the same database or are\n    configured as test mirrors.\n\n    Return two values:\n    - test_databases: ordered mapping of signatures to (name, list of aliases)\n                      where all aliases share the same underlying database.\n    - mirrored_aliases: mapping of mirror aliases to original aliases.\n    \"\"\"",
+    "name": "get_unique_databases_and_mirrors",
+    "namespace": "django.test.utils.get_unique_databases_and_mirrors",
+    "class_name": "",
+    "module_name": "django.test.utils",
+    "package_name": ""
+}

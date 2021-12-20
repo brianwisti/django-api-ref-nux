@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Certain backends do not accept some values for \"serial\" fields\n        (for example zero in MySQL). Raise a ValueError if the value is\n        invalid, otherwise return the validated value.\n        \"\"\"",
+    "name": "validate_autopk_value",
+    "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.validate_autopk_value",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

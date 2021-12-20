@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Move a file from one location to another in the safest way possible.\n\n    First, try ``os.rename``, which is simple but will break across filesystems.\n    If that fails, stream manually from one file to another in pure Python.\n\n    If the destination file exists and ``allow_overwrite`` is ``False``, raise\n    ``FileExistsError``.\n    \"\"\"",
+    "name": "file_move_safe",
+    "namespace": "django.core.files.move.file_move_safe",
+    "class_name": "",
+    "module_name": "django.core.files.move",
+    "package_name": ""
+}

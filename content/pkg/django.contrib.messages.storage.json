@@ -2,26 +2,40 @@
     "name": "django.contrib.messages.storage",
     "docstring": "",
     "package_name": "django.contrib.messages",
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Callable with the same interface as the storage classes.\n\n    This isn't just default_storage = import_string(settings.MESSAGE_STORAGE)\n    to avoid accessing the settings at the module level.\n    \"\"\"",
+            "name": "default_storage",
+            "namespace": "django.contrib.messages.storage.default_storage",
+            "class_name": "",
+            "module_name": "django.contrib.messages.storage",
+            "package_name": "django.contrib.messages.storage"
+        }
+    ],
     "classes": [],
     "modules": [
         {
             "namespace": "django.contrib.messages.storage.session",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.messages.storage"
         },
         {
             "namespace": "django.contrib.messages.storage.cookie",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.messages.storage"
         },
         {
             "namespace": "django.contrib.messages.storage.fallback",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.messages.storage"
         },
         {
             "namespace": "django.contrib.messages.storage.base",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.messages.storage"
         }
     ],

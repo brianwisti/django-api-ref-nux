@@ -3,5 +3,31 @@
     "name": "SearchVector",
     "namespace": "django.contrib.postgres.search.SearchVector",
     "module_name": "django.contrib.postgres.search",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.contrib.postgres.search.SearchVector.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "resolve_expression",
+            "namespace": "django.contrib.postgres.search.SearchVector.resolve_expression",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "as_sql",
+            "namespace": "django.contrib.postgres.search.SearchVector.as_sql",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

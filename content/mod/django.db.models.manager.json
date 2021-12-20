@@ -5,23 +5,191 @@
         {
             "docstring": "",
             "name": "BaseManager",
-            "namespace": "django.db.models.manager.BaseManager"
+            "namespace": "django.db.models.manager.BaseManager",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__new__",
+                    "namespace": "django.db.models.manager.BaseManager.__new__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.manager.BaseManager.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return \"app_label.model_label.manager_name\".\"\"\"",
+                    "name": "__str__",
+                    "namespace": "django.db.models.manager.BaseManager.__str__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__class_getitem__",
+                    "namespace": "django.db.models.manager.BaseManager.__class_getitem__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return a 5-tuple of the form (as_manager (True), manager_class,\n        queryset_class, args, kwargs).\n\n        Raise a ValueError if the manager is dynamically generated.\n        \"\"\"",
+                    "name": "deconstruct",
+                    "namespace": "django.db.models.manager.BaseManager.deconstruct",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "check",
+                    "namespace": "django.db.models.manager.BaseManager.check",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_get_queryset_methods",
+                    "namespace": "django.db.models.manager.BaseManager._get_queryset_methods",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "from_queryset",
+                    "namespace": "django.db.models.manager.BaseManager.from_queryset",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "contribute_to_class",
+                    "namespace": "django.db.models.manager.BaseManager.contribute_to_class",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Set the creation counter value for this instance and increment the\n        class-level copy.\n        \"\"\"",
+                    "name": "_set_creation_counter",
+                    "namespace": "django.db.models.manager.BaseManager._set_creation_counter",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "db_manager",
+                    "namespace": "django.db.models.manager.BaseManager.db_manager",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "db",
+                    "namespace": "django.db.models.manager.BaseManager.db",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return a new QuerySet object. Subclasses can override this method to\n        customize the behavior of the Manager.\n        \"\"\"",
+                    "name": "get_queryset",
+                    "namespace": "django.db.models.manager.BaseManager.get_queryset",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "all",
+                    "namespace": "django.db.models.manager.BaseManager.all",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__eq__",
+                    "namespace": "django.db.models.manager.BaseManager.__eq__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__hash__",
+                    "namespace": "django.db.models.manager.BaseManager.__hash__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Manager",
-            "namespace": "django.db.models.manager.Manager"
+            "namespace": "django.db.models.manager.Manager",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "ManagerDescriptor",
-            "namespace": "django.db.models.manager.ManagerDescriptor"
+            "namespace": "django.db.models.manager.ManagerDescriptor",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.manager.ManagerDescriptor.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__get__",
+                    "namespace": "django.db.models.manager.ManagerDescriptor.__get__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "EmptyManager",
-            "namespace": "django.db.models.manager.EmptyManager"
+            "namespace": "django.db.models.manager.EmptyManager",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.manager.EmptyManager.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_queryset",
+                    "namespace": "django.db.models.manager.EmptyManager.get_queryset",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.db.models"
 }

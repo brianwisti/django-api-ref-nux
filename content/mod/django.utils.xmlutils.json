@@ -5,13 +5,41 @@
         {
             "docstring": "",
             "name": "UnserializableContentError",
-            "namespace": "django.utils.xmlutils.UnserializableContentError"
+            "namespace": "django.utils.xmlutils.UnserializableContentError",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "SimplerXMLGenerator",
-            "namespace": "django.utils.xmlutils.SimplerXMLGenerator"
+            "namespace": "django.utils.xmlutils.SimplerXMLGenerator",
+            "methods": [
+                {
+                    "docstring": "\"Convenience method for adding an element with no children\"",
+                    "name": "addQuickElement",
+                    "namespace": "django.utils.xmlutils.SimplerXMLGenerator.addQuickElement",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "characters",
+                    "namespace": "django.utils.xmlutils.SimplerXMLGenerator.characters",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "startElement",
+                    "namespace": "django.utils.xmlutils.SimplerXMLGenerator.startElement",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.utils"
 }

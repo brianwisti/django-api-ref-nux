@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Mark strings for translation but don't translate them now. This can be\n    used to store strings in global variables that should stay in the base\n    language (because they might be used externally) and will be translated\n    later.\n    \"\"\"",
+    "name": "gettext_noop",
+    "namespace": "django.utils.translation.trans_real.gettext_noop",
+    "class_name": "",
+    "module_name": "django.utils.translation.trans_real",
+    "package_name": ""
+}

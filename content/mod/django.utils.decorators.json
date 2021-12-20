@@ -5,7 +5,91 @@
         {
             "docstring": "",
             "name": "classonlymethod",
-            "namespace": "django.utils.decorators.classonlymethod"
+            "namespace": "django.utils.decorators.classonlymethod",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__get__",
+                    "namespace": "django.utils.decorators.classonlymethod.__get__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "",
+            "name": "_update_method_wrapper",
+            "namespace": "django.utils.decorators._update_method_wrapper",
+            "class_name": "",
+            "module_name": "django.utils.decorators",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Decorate `method` with one or more function decorators. `decorators` can be\n    a single decorator or an iterable of decorators.\n    \"\"\"",
+            "name": "_multi_decorate",
+            "namespace": "django.utils.decorators._multi_decorate",
+            "class_name": "",
+            "module_name": "django.utils.decorators",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Convert a function decorator into a method decorator\n    \"\"\"",
+            "name": "method_decorator",
+            "namespace": "django.utils.decorators.method_decorator",
+            "class_name": "",
+            "module_name": "django.utils.decorators",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Like decorator_from_middleware, but return a function\n    that accepts the arguments to be passed to the middleware_class.\n    Use like::\n\n         cache_page = decorator_from_middleware_with_args(CacheMiddleware)\n         # ...\n\n         @cache_page(3600)\n         def my_view(request):\n             # ...\n    \"\"\"",
+            "name": "decorator_from_middleware_with_args",
+            "namespace": "django.utils.decorators.decorator_from_middleware_with_args",
+            "class_name": "",
+            "module_name": "django.utils.decorators",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Given a middleware class (not an instance), return a view decorator. This\n    lets you use middleware functionality on a per-view basis. The middleware\n    is created with no params passed.\n    \"\"\"",
+            "name": "decorator_from_middleware",
+            "namespace": "django.utils.decorators.decorator_from_middleware",
+            "class_name": "",
+            "module_name": "django.utils.decorators",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "make_middleware_decorator",
+            "namespace": "django.utils.decorators.make_middleware_decorator",
+            "class_name": "",
+            "module_name": "django.utils.decorators",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Mark a middleware factory as returning a hybrid middleware supporting both\n    types of request.\n    \"\"\"",
+            "name": "sync_and_async_middleware",
+            "namespace": "django.utils.decorators.sync_and_async_middleware",
+            "class_name": "",
+            "module_name": "django.utils.decorators",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Mark a middleware factory as returning a sync middleware.\n    This is the default.\n    \"\"\"",
+            "name": "sync_only_middleware",
+            "namespace": "django.utils.decorators.sync_only_middleware",
+            "class_name": "",
+            "module_name": "django.utils.decorators",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Mark a middleware factory as returning an async middleware.\"\"\"",
+            "name": "async_only_middleware",
+            "namespace": "django.utils.decorators.async_only_middleware",
+            "class_name": "",
+            "module_name": "django.utils.decorators",
+            "package_name": ""
         }
     ],
     "package_name": "django.utils"

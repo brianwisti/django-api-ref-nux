@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Validate request integrity, extract and return request parameters.\n\n        Since the subsequent view permission check requires the target model\n        admin, which is determined here, raise PermissionDenied if the\n        requested app, model or field are malformed.\n\n        Raise Http404 if the target model admin is not configured properly with\n        search_fields.\n        \"\"\"",
+    "name": "process_request",
+    "namespace": "django.contrib.admin.views.autocomplete.AutocompleteJsonView.process_request",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

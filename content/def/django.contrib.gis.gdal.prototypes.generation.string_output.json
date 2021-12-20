@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Generate a ctypes prototype for the given function with the\n    given argument types that returns a string from a GDAL pointer.\n    The `const` flag indicates whether the allocated pointer should\n    be freed via the GDAL library routine VSIFree -- but only applies\n    only when `str_result` is True.\n    \"\"\"",
+    "name": "string_output",
+    "namespace": "django.contrib.gis.gdal.prototypes.generation.string_output",
+    "class_name": "",
+    "module_name": "django.contrib.gis.gdal.prototypes.generation",
+    "package_name": ""
+}

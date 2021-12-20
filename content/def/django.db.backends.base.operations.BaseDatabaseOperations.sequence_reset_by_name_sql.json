@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Return a list of the SQL statements required to reset sequences\n        passed in `sequences`.\n\n        The `style` argument is a Style object as returned by either\n        color_style() or no_style() in django.core.management.color.\n        \"\"\"",
+    "name": "sequence_reset_by_name_sql",
+    "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.sequence_reset_by_name_sql",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

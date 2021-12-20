@@ -5,37 +5,194 @@
         {
             "docstring": "\"\"\"\n    Any error having to do with uploading files.\n    \"\"\"",
             "name": "UploadFileException",
-            "namespace": "django.core.files.uploadhandler.UploadFileException"
+            "namespace": "django.core.files.uploadhandler.UploadFileException",
+            "methods": []
         },
         {
             "docstring": "\"\"\"\n    This exception is raised when an upload must abort.\n    \"\"\"",
             "name": "StopUpload",
-            "namespace": "django.core.files.uploadhandler.StopUpload"
+            "namespace": "django.core.files.uploadhandler.StopUpload",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        If ``connection_reset`` is ``True``, Django knows will halt the upload\n        without consuming the rest of the upload. This will cause the browser to\n        show a \"connection reset\" error.\n        \"\"\"",
+                    "name": "__init__",
+                    "namespace": "django.core.files.uploadhandler.StopUpload.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__str__",
+                    "namespace": "django.core.files.uploadhandler.StopUpload.__str__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    This exception is raised by an upload handler that wants to skip a given file.\n    \"\"\"",
             "name": "SkipFile",
-            "namespace": "django.core.files.uploadhandler.SkipFile"
+            "namespace": "django.core.files.uploadhandler.SkipFile",
+            "methods": []
         },
         {
             "docstring": "\"\"\"\n    Upload handlers that have handled a file and do not want future handlers to\n    run should raise this exception instead of returning None.\n    \"\"\"",
             "name": "StopFutureHandlers",
-            "namespace": "django.core.files.uploadhandler.StopFutureHandlers"
+            "namespace": "django.core.files.uploadhandler.StopFutureHandlers",
+            "methods": []
         },
         {
             "docstring": "\"\"\"\n    Base class for streaming upload handlers.\n    \"\"\"",
             "name": "FileUploadHandler",
-            "namespace": "django.core.files.uploadhandler.FileUploadHandler"
+            "namespace": "django.core.files.uploadhandler.FileUploadHandler",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.core.files.uploadhandler.FileUploadHandler.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Handle the raw input from the client.\n\n        Parameters:\n\n            :input_data:\n                An object that supports reading via .read().\n            :META:\n                ``request.META``.\n            :content_length:\n                The (integer) value of the Content-Length header from the\n                client.\n            :boundary: The boundary from the Content-Type header. Be sure to\n                prepend two '--'.\n        \"\"\"",
+                    "name": "handle_raw_input",
+                    "namespace": "django.core.files.uploadhandler.FileUploadHandler.handle_raw_input",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Signal that a new file has been started.\n\n        Warning: As with any data from the client, you should not trust\n        content_length (and sometimes won't even get it).\n        \"\"\"",
+                    "name": "new_file",
+                    "namespace": "django.core.files.uploadhandler.FileUploadHandler.new_file",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Receive data from the streamed upload parser. ``start`` is the position\n        in the file of the chunk.\n        \"\"\"",
+                    "name": "receive_data_chunk",
+                    "namespace": "django.core.files.uploadhandler.FileUploadHandler.receive_data_chunk",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Signal that a file has completed. File size corresponds to the actual\n        size accumulated by all the chunks.\n\n        Subclasses should return a valid ``UploadedFile`` object.\n        \"\"\"",
+                    "name": "file_complete",
+                    "namespace": "django.core.files.uploadhandler.FileUploadHandler.file_complete",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Signal that the upload is complete. Subclasses should perform cleanup\n        that is necessary for this handler.\n        \"\"\"",
+                    "name": "upload_complete",
+                    "namespace": "django.core.files.uploadhandler.FileUploadHandler.upload_complete",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Signal that the upload was interrupted. Subclasses should perform\n        cleanup that is necessary for this handler.\n        \"\"\"",
+                    "name": "upload_interrupted",
+                    "namespace": "django.core.files.uploadhandler.FileUploadHandler.upload_interrupted",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Upload handler that streams data into a temporary file.\n    \"\"\"",
             "name": "TemporaryFileUploadHandler",
-            "namespace": "django.core.files.uploadhandler.TemporaryFileUploadHandler"
+            "namespace": "django.core.files.uploadhandler.TemporaryFileUploadHandler",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        Create the file object to append to as data is coming in.\n        \"\"\"",
+                    "name": "new_file",
+                    "namespace": "django.core.files.uploadhandler.TemporaryFileUploadHandler.new_file",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "receive_data_chunk",
+                    "namespace": "django.core.files.uploadhandler.TemporaryFileUploadHandler.receive_data_chunk",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "file_complete",
+                    "namespace": "django.core.files.uploadhandler.TemporaryFileUploadHandler.file_complete",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "upload_interrupted",
+                    "namespace": "django.core.files.uploadhandler.TemporaryFileUploadHandler.upload_interrupted",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    File upload handler to stream uploads into memory (used for small files).\n    \"\"\"",
             "name": "MemoryFileUploadHandler",
-            "namespace": "django.core.files.uploadhandler.MemoryFileUploadHandler"
+            "namespace": "django.core.files.uploadhandler.MemoryFileUploadHandler",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        Use the content_length to signal whether or not this handler should be\n        used.\n        \"\"\"",
+                    "name": "handle_raw_input",
+                    "namespace": "django.core.files.uploadhandler.MemoryFileUploadHandler.handle_raw_input",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "new_file",
+                    "namespace": "django.core.files.uploadhandler.MemoryFileUploadHandler.new_file",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Add the data to the BytesIO file.\"\"\"",
+                    "name": "receive_data_chunk",
+                    "namespace": "django.core.files.uploadhandler.MemoryFileUploadHandler.receive_data_chunk",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return a file object if this handler is activated.\"\"\"",
+                    "name": "file_complete",
+                    "namespace": "django.core.files.uploadhandler.MemoryFileUploadHandler.file_complete",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Given a path to a handler, return an instance of that handler.\n\n    E.g.::\n        >>> from django.http import HttpRequest\n        >>> request = HttpRequest()\n        >>> load_handler('django.core.files.uploadhandler.TemporaryFileUploadHandler', request)\n        <TemporaryFileUploadHandler object at 0x...>\n    \"\"\"",
+            "name": "load_handler",
+            "namespace": "django.core.files.uploadhandler.load_handler",
+            "class_name": "",
+            "module_name": "django.core.files.uploadhandler",
+            "package_name": ""
         }
     ],
     "package_name": "django.core.files"

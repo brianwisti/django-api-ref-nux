@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Create a manager for the either side of a many-to-many relation.\n\n    This manager subclasses another manager, generally the default manager of\n    the related model, and adds behaviors specific to many-to-many relations.\n    \"\"\"",
+    "name": "create_forward_many_to_many_manager",
+    "namespace": "django.db.models.fields.related_descriptors.create_forward_many_to_many_manager",
+    "class_name": "",
+    "module_name": "django.db.models.fields.related_descriptors",
+    "package_name": ""
+}

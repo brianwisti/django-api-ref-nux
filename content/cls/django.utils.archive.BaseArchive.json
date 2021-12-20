@@ -3,5 +3,55 @@
     "name": "BaseArchive",
     "namespace": "django.utils.archive.BaseArchive",
     "module_name": "django.utils.archive",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "\"\"\"\n        If the file in the archive has some permissions (this assumes a file\n        won't be writable/executable without being readable), apply those\n        permissions to the unarchived file.\n        \"\"\"",
+            "name": "_copy_permissions",
+            "namespace": "django.utils.archive.BaseArchive._copy_permissions",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "split_leading_dir",
+            "namespace": "django.utils.archive.BaseArchive.split_leading_dir",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return True if all the paths have the same leading path name\n        (i.e., everything is in one subdirectory in an archive).\n        \"\"\"",
+            "name": "has_leading_dir",
+            "namespace": "django.utils.archive.BaseArchive.has_leading_dir",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "target_filename",
+            "namespace": "django.utils.archive.BaseArchive.target_filename",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "extract",
+            "namespace": "django.utils.archive.BaseArchive.extract",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "list",
+            "namespace": "django.utils.archive.BaseArchive.list",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

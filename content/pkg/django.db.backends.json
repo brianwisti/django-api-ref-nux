@@ -2,21 +2,98 @@
     "name": "django.db.backends",
     "docstring": "",
     "package_name": "django.db",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.db.backends.signals",
             "docstring": "",
+            "functions": [],
             "package_name": "django.db.backends"
         },
         {
             "namespace": "django.db.backends.ddl_references",
             "docstring": "\"\"\"\nHelpers to manipulate deferred DDL statements that might need to be adjusted or\ndiscarded within when executing a migration.\n\"\"\"",
+            "functions": [],
             "package_name": "django.db.backends"
         },
         {
             "namespace": "django.db.backends.utils",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Split a time zone name into a 3-tuple of (name, sign, offset).\n    \"\"\"",
+                    "name": "split_tzname_delta",
+                    "namespace": "django.db.backends.utils.split_tzname_delta",
+                    "class_name": "",
+                    "module_name": "django.db.backends.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "typecast_date",
+                    "namespace": "django.db.backends.utils.typecast_date",
+                    "class_name": "",
+                    "module_name": "django.db.backends.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "typecast_time",
+                    "namespace": "django.db.backends.utils.typecast_time",
+                    "class_name": "",
+                    "module_name": "django.db.backends.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "typecast_timestamp",
+                    "namespace": "django.db.backends.utils.typecast_timestamp",
+                    "class_name": "",
+                    "module_name": "django.db.backends.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Split an SQL identifier into a two element tuple of (namespace, name).\n\n    The identifier could be a table, column, or sequence name might be prefixed\n    by a namespace.\n    \"\"\"",
+                    "name": "split_identifier",
+                    "namespace": "django.db.backends.utils.split_identifier",
+                    "class_name": "",
+                    "module_name": "django.db.backends.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Shorten an SQL identifier to a repeatable mangled version with the given\n    length.\n\n    If a quote stripped name contains a namespace, e.g. USERNAME\".\"TABLE,\n    truncate the table portion only.\n    \"\"\"",
+                    "name": "truncate_name",
+                    "namespace": "django.db.backends.utils.truncate_name",
+                    "class_name": "",
+                    "module_name": "django.db.backends.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Generate a 32-bit digest of a set of arguments that can be used to shorten\n    identifying names.\n    \"\"\"",
+                    "name": "names_digest",
+                    "namespace": "django.db.backends.utils.names_digest",
+                    "class_name": "",
+                    "module_name": "django.db.backends.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Format a number into a string with the requisite number of digits and\n    decimal places.\n    \"\"\"",
+                    "name": "format_number",
+                    "namespace": "django.db.backends.utils.format_number",
+                    "class_name": "",
+                    "module_name": "django.db.backends.utils",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Strip quotes off of quoted table names to make them safe for use in index\n    names, sequence names, etc. For example '\"USER\".\"TABLE\"' (an Oracle naming\n    scheme) becomes 'USER\".\"TABLE'.\n    \"\"\"",
+                    "name": "strip_quotes",
+                    "namespace": "django.db.backends.utils.strip_quotes",
+                    "class_name": "",
+                    "module_name": "django.db.backends.utils",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.db.backends"
         }
     ],
@@ -24,32 +101,38 @@
         {
             "name": "django.db.backends.postgresql",
             "docstring": "",
-            "package_name": "django.db.backends"
+            "package_name": "django.db.backends",
+            "functions": []
         },
         {
             "name": "django.db.backends.dummy",
             "docstring": "",
-            "package_name": "django.db.backends"
+            "package_name": "django.db.backends",
+            "functions": []
         },
         {
             "name": "django.db.backends.oracle",
             "docstring": "",
-            "package_name": "django.db.backends"
+            "package_name": "django.db.backends",
+            "functions": []
         },
         {
             "name": "django.db.backends.sqlite3",
             "docstring": "",
-            "package_name": "django.db.backends"
+            "package_name": "django.db.backends",
+            "functions": []
         },
         {
             "name": "django.db.backends.mysql",
             "docstring": "",
-            "package_name": "django.db.backends"
+            "package_name": "django.db.backends",
+            "functions": []
         },
         {
             "name": "django.db.backends.base",
             "docstring": "",
-            "package_name": "django.db.backends"
+            "package_name": "django.db.backends",
+            "functions": []
         }
     ]
 }

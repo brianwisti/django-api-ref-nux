@@ -2,5 +2,31 @@
     "namespace": "django.contrib.postgres.signals",
     "docstring": "",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "\"\"\"Return hstore and hstore array OIDs.\"\"\"",
+            "name": "get_hstore_oids",
+            "namespace": "django.contrib.postgres.signals.get_hstore_oids",
+            "class_name": "",
+            "module_name": "django.contrib.postgres.signals",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Return citext array OIDs.\"\"\"",
+            "name": "get_citext_oids",
+            "namespace": "django.contrib.postgres.signals.get_citext_oids",
+            "class_name": "",
+            "module_name": "django.contrib.postgres.signals",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "register_type_handlers",
+            "namespace": "django.contrib.postgres.signals.register_type_handlers",
+            "class_name": "",
+            "module_name": "django.contrib.postgres.signals",
+            "package_name": ""
+        }
+    ],
     "package_name": "django.contrib.postgres"
 }

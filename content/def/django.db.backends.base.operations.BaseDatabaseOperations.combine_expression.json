@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Combine a list of subexpressions into a single expression, using\n        the provided connecting operator. This is required because operators\n        can vary between backends (e.g., Oracle with %% and &) and between\n        subexpression types (e.g., date expressions).\n        \"\"\"",
+    "name": "combine_expression",
+    "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.combine_expression",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

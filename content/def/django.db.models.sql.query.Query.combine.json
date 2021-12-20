@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Merge the 'rhs' query into the current one (with any 'rhs' effects\n        being applied *after* (that is, \"to the right of\") anything in the\n        current query. 'rhs' is not modified during a call to this function.\n\n        The 'connector' parameter describes how to connect filters from the\n        'rhs' query.\n        \"\"\"",
+    "name": "combine",
+    "namespace": "django.db.models.sql.query.Query.combine",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

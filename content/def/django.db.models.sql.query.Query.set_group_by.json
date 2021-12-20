@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Expand the GROUP BY clause required by the query.\n\n        This will usually be the set of all non-aggregate fields in the\n        return data. If the database backend supports grouping by the\n        primary key, and the query would be equivalent, the optimization\n        will be made automatically.\n        \"\"\"",
+    "name": "set_group_by",
+    "namespace": "django.db.models.sql.query.Query.set_group_by",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

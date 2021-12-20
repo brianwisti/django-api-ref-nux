@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Save the current instance. Override this in a subclass if you want to\n        control the saving process.\n\n        The 'force_insert' and 'force_update' parameters can be used to insist\n        that the \"save\" must be an SQL insert or update (or equivalent for\n        non-SQL backends), respectively. Normally, they should not be set.\n        \"\"\"",
+    "name": "save",
+    "namespace": "django.db.models.base.Model.save",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

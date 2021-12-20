@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Signal that this template extends a parent template.\n\n    This tag may be used in two ways: ``{% extends \"base\" %}`` (with quotes)\n    uses the literal value \"base\" as the name of the parent template to extend,\n    or ``{% extends variable %}`` uses the value of ``variable`` as either the\n    name of the parent template to extend (if it evaluates to a string) or as\n    the parent template itself (if it evaluates to a Template object).\n    \"\"\"",
+    "name": "do_extends",
+    "namespace": "django.template.loader_tags.do_extends",
+    "class_name": "",
+    "module_name": "django.template.loader_tags",
+    "package_name": ""
+}

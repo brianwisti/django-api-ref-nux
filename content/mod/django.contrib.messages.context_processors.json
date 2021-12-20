@@ -2,5 +2,15 @@
     "namespace": "django.contrib.messages.context_processors",
     "docstring": "",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Return a lazy 'messages' context variable as well as\n    'DEFAULT_MESSAGE_LEVELS'.\n    \"\"\"",
+            "name": "messages",
+            "namespace": "django.contrib.messages.context_processors.messages",
+            "class_name": "",
+            "module_name": "django.contrib.messages.context_processors",
+            "package_name": ""
+        }
+    ],
     "package_name": "django.contrib.messages"
 }

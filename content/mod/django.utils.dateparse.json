@@ -2,5 +2,39 @@
     "namespace": "django.utils.dateparse",
     "docstring": "\"\"\"Functions to parse datetime objects.\"\"\"",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "\"\"\"Parse a string and return a datetime.date.\n\n    Raise ValueError if the input is well formatted but not a valid date.\n    Return None if the input isn't well formatted.\n    \"\"\"",
+            "name": "parse_date",
+            "namespace": "django.utils.dateparse.parse_date",
+            "class_name": "",
+            "module_name": "django.utils.dateparse",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Parse a string and return a datetime.time.\n\n    This function doesn't support time zone offsets.\n\n    Raise ValueError if the input is well formatted but not a valid time.\n    Return None if the input isn't well formatted, in particular if it\n    contains an offset.\n    \"\"\"",
+            "name": "parse_time",
+            "namespace": "django.utils.dateparse.parse_time",
+            "class_name": "",
+            "module_name": "django.utils.dateparse",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Parse a string and return a datetime.datetime.\n\n    This function supports time zone offsets. When the input contains one,\n    the output uses a timezone with a fixed offset from UTC.\n\n    Raise ValueError if the input is well formatted but not a valid datetime.\n    Return None if the input isn't well formatted.\n    \"\"\"",
+            "name": "parse_datetime",
+            "namespace": "django.utils.dateparse.parse_datetime",
+            "class_name": "",
+            "module_name": "django.utils.dateparse",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Parse a duration string and return a datetime.timedelta.\n\n    The preferred format for durations in Django is '%d %H:%M:%S.%f'.\n\n    Also supports ISO 8601 representation and PostgreSQL's day-time interval\n    format.\n    \"\"\"",
+            "name": "parse_duration",
+            "namespace": "django.utils.dateparse.parse_duration",
+            "class_name": "",
+            "module_name": "django.utils.dateparse",
+            "package_name": ""
+        }
+    ],
     "package_name": "django.utils"
 }

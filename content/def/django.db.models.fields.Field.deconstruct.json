@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Return enough information to recreate the field as a 4-tuple:\n\n         * The name of the field on the model, if contribute_to_class() has\n           been run.\n         * The import path of the field, including the class, e.g.\n           django.db.models.IntegerField. This should be the most portable\n           version, so less specific may be better.\n         * A list of positional arguments.\n         * A dict of keyword arguments.\n\n        Note that the positional or keyword arguments must contain values of\n        the following types (including inner values of collection types):\n\n         * None, bool, str, int, float, complex, set, frozenset, list, tuple,\n           dict\n         * UUID\n         * datetime.datetime (naive), datetime.date\n         * top-level classes, top-level functions - will be referenced by their\n           full import path\n         * Storage instances - these have their own deconstruct() method\n\n        This is because the values here must be serialized into a text format\n        (possibly new Python code, possibly JSON) and these are the only types\n        with encoding handlers defined.\n\n        There's no need to return the exact way the field was instantiated this\n        time, just ensure that the resulting field is the same - prefer keyword\n        arguments over positional ones, and omit parameters with their default\n        values.\n        \"\"\"",
+    "name": "deconstruct",
+    "namespace": "django.db.models.fields.Field.deconstruct",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

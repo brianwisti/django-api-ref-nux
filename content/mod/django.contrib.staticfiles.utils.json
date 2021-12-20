@@ -2,5 +2,31 @@
     "namespace": "django.contrib.staticfiles.utils",
     "docstring": "",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Return True or False depending on whether the ``path`` should be\n    ignored (if it matches any pattern in ``ignore_patterns``).\n    \"\"\"",
+            "name": "matches_patterns",
+            "namespace": "django.contrib.staticfiles.utils.matches_patterns",
+            "class_name": "",
+            "module_name": "django.contrib.staticfiles.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Recursively walk the storage directories yielding the paths\n    of all files that should be copied.\n    \"\"\"",
+            "name": "get_files",
+            "namespace": "django.contrib.staticfiles.utils.get_files",
+            "class_name": "",
+            "module_name": "django.contrib.staticfiles.utils",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Check if the staticfiles settings have sane values.\n    \"\"\"",
+            "name": "check_settings",
+            "namespace": "django.contrib.staticfiles.utils.check_settings",
+            "class_name": "",
+            "module_name": "django.contrib.staticfiles.utils",
+            "package_name": ""
+        }
+    ],
     "package_name": "django.contrib.staticfiles"
 }

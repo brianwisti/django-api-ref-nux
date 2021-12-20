@@ -3,5 +3,111 @@
     "name": "Widget",
     "namespace": "django.forms.widgets.Widget",
     "module_name": "django.forms.widgets",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.forms.widgets.Widget.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "__deepcopy__",
+            "namespace": "django.forms.widgets.Widget.__deepcopy__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "is_hidden",
+            "namespace": "django.forms.widgets.Widget.is_hidden",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "subwidgets",
+            "namespace": "django.forms.widgets.Widget.subwidgets",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return a value as it should appear when rendered in a template.\n        \"\"\"",
+            "name": "format_value",
+            "namespace": "django.forms.widgets.Widget.format_value",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_context",
+            "namespace": "django.forms.widgets.Widget.get_context",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Render the widget as an HTML string.\"\"\"",
+            "name": "render",
+            "namespace": "django.forms.widgets.Widget.render",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_render",
+            "namespace": "django.forms.widgets.Widget._render",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Build an attribute dictionary.\"\"\"",
+            "name": "build_attrs",
+            "namespace": "django.forms.widgets.Widget.build_attrs",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Given a dictionary of data and this widget's name, return the value\n        of this widget or None if it's not provided.\n        \"\"\"",
+            "name": "value_from_datadict",
+            "namespace": "django.forms.widgets.Widget.value_from_datadict",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "value_omitted_from_data",
+            "namespace": "django.forms.widgets.Widget.value_omitted_from_data",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Return the HTML ID attribute of this Widget for use by a <label>,\n        given the ID of the field. Return None if no ID is available.\n\n        This hook is necessary because some widgets have multiple HTML\n        elements and, thus, multiple IDs. In that case, this method should\n        return an ID value that corresponds to the first ID in the widget's\n        tags.\n        \"\"\"",
+            "name": "id_for_label",
+            "namespace": "django.forms.widgets.Widget.id_for_label",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "use_required_attribute",
+            "namespace": "django.forms.widgets.Widget.use_required_attribute",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

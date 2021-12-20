@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Enable the given language just for this block.\n\n    Usage::\n\n        {% language \"de\" %}\n            This is {{ bar }} and {{ boo }}.\n        {% endlanguage %}\n    \"\"\"",
+    "name": "language",
+    "namespace": "django.templatetags.i18n.language",
+    "class_name": "",
+    "module_name": "django.templatetags.i18n",
+    "package_name": ""
+}

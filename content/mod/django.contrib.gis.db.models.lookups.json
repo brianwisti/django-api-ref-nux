@@ -5,168 +5,320 @@
         {
             "docstring": "",
             "name": "RasterBandTransform",
-            "namespace": "django.contrib.gis.db.models.lookups.RasterBandTransform"
+            "namespace": "django.contrib.gis.db.models.lookups.RasterBandTransform",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.contrib.gis.db.models.lookups.RasterBandTransform.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "GISLookup",
-            "namespace": "django.contrib.gis.db.models.lookups.GISLookup"
+            "namespace": "django.contrib.gis.db.models.lookups.GISLookup",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.gis.db.models.lookups.GISLookup.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "process_rhs_params",
+                    "namespace": "django.contrib.gis.db.models.lookups.GISLookup.process_rhs_params",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Extract the lhs band index from the band transform class and the rhs\n        band index from the input tuple.\n        \"\"\"",
+                    "name": "process_band_indices",
+                    "namespace": "django.contrib.gis.db.models.lookups.GISLookup.process_band_indices",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_db_prep_lookup",
+                    "namespace": "django.contrib.gis.db.models.lookups.GISLookup.get_db_prep_lookup",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "process_rhs",
+                    "namespace": "django.contrib.gis.db.models.lookups.GISLookup.process_rhs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_rhs_op",
+                    "namespace": "django.contrib.gis.db.models.lookups.GISLookup.get_rhs_op",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.contrib.gis.db.models.lookups.GISLookup.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    The overlaps_left operator returns true if A's bounding box overlaps or is to the\n    left of B's bounding box.\n    \"\"\"",
             "name": "OverlapsLeftLookup",
-            "namespace": "django.contrib.gis.db.models.lookups.OverlapsLeftLookup"
+            "namespace": "django.contrib.gis.db.models.lookups.OverlapsLeftLookup",
+            "methods": []
         },
         {
             "docstring": "\"\"\"\n    The 'overlaps_right' operator returns true if A's bounding box overlaps or is to the\n    right of B's bounding box.\n    \"\"\"",
             "name": "OverlapsRightLookup",
-            "namespace": "django.contrib.gis.db.models.lookups.OverlapsRightLookup"
+            "namespace": "django.contrib.gis.db.models.lookups.OverlapsRightLookup",
+            "methods": []
         },
         {
             "docstring": "\"\"\"\n    The 'overlaps_below' operator returns true if A's bounding box overlaps or is below\n    B's bounding box.\n    \"\"\"",
             "name": "OverlapsBelowLookup",
-            "namespace": "django.contrib.gis.db.models.lookups.OverlapsBelowLookup"
+            "namespace": "django.contrib.gis.db.models.lookups.OverlapsBelowLookup",
+            "methods": []
         },
         {
             "docstring": "\"\"\"\n    The 'overlaps_above' operator returns true if A's bounding box overlaps or is above\n    B's bounding box.\n    \"\"\"",
             "name": "OverlapsAboveLookup",
-            "namespace": "django.contrib.gis.db.models.lookups.OverlapsAboveLookup"
+            "namespace": "django.contrib.gis.db.models.lookups.OverlapsAboveLookup",
+            "methods": []
         },
         {
             "docstring": "\"\"\"\n    The 'left' operator returns true if A's bounding box is strictly to the left\n    of B's bounding box.\n    \"\"\"",
             "name": "LeftLookup",
-            "namespace": "django.contrib.gis.db.models.lookups.LeftLookup"
+            "namespace": "django.contrib.gis.db.models.lookups.LeftLookup",
+            "methods": []
         },
         {
             "docstring": "\"\"\"\n    The 'right' operator returns true if A's bounding box is strictly to the right\n    of B's bounding box.\n    \"\"\"",
             "name": "RightLookup",
-            "namespace": "django.contrib.gis.db.models.lookups.RightLookup"
+            "namespace": "django.contrib.gis.db.models.lookups.RightLookup",
+            "methods": []
         },
         {
             "docstring": "\"\"\"\n    The 'strictly_below' operator returns true if A's bounding box is strictly below B's\n    bounding box.\n    \"\"\"",
             "name": "StrictlyBelowLookup",
-            "namespace": "django.contrib.gis.db.models.lookups.StrictlyBelowLookup"
+            "namespace": "django.contrib.gis.db.models.lookups.StrictlyBelowLookup",
+            "methods": []
         },
         {
             "docstring": "\"\"\"\n    The 'strictly_above' operator returns true if A's bounding box is strictly above B's\n    bounding box.\n    \"\"\"",
             "name": "StrictlyAboveLookup",
-            "namespace": "django.contrib.gis.db.models.lookups.StrictlyAboveLookup"
+            "namespace": "django.contrib.gis.db.models.lookups.StrictlyAboveLookup",
+            "methods": []
         },
         {
             "docstring": "\"\"\"\n    The \"~=\" operator is the \"same as\" operator. It tests actual geometric\n    equality of two features. So if A and B are the same feature,\n    vertex-by-vertex, the operator returns true.\n    \"\"\"",
             "name": "SameAsLookup",
-            "namespace": "django.contrib.gis.db.models.lookups.SameAsLookup"
+            "namespace": "django.contrib.gis.db.models.lookups.SameAsLookup",
+            "methods": []
         },
         {
             "docstring": "\"\"\"\n    The 'bbcontains' operator returns true if A's bounding box completely contains\n    by B's bounding box.\n    \"\"\"",
             "name": "BBContainsLookup",
-            "namespace": "django.contrib.gis.db.models.lookups.BBContainsLookup"
+            "namespace": "django.contrib.gis.db.models.lookups.BBContainsLookup",
+            "methods": []
         },
         {
             "docstring": "\"\"\"\n    The 'bboverlaps' operator returns true if A's bounding box overlaps B's bounding box.\n    \"\"\"",
             "name": "BBOverlapsLookup",
-            "namespace": "django.contrib.gis.db.models.lookups.BBOverlapsLookup"
+            "namespace": "django.contrib.gis.db.models.lookups.BBOverlapsLookup",
+            "methods": []
         },
         {
             "docstring": "\"\"\"\n    The 'contained' operator returns true if A's bounding box is completely contained\n    by B's bounding box.\n    \"\"\"",
             "name": "ContainedLookup",
-            "namespace": "django.contrib.gis.db.models.lookups.ContainedLookup"
+            "namespace": "django.contrib.gis.db.models.lookups.ContainedLookup",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "ContainsLookup",
-            "namespace": "django.contrib.gis.db.models.lookups.ContainsLookup"
+            "namespace": "django.contrib.gis.db.models.lookups.ContainsLookup",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "ContainsProperlyLookup",
-            "namespace": "django.contrib.gis.db.models.lookups.ContainsProperlyLookup"
+            "namespace": "django.contrib.gis.db.models.lookups.ContainsProperlyLookup",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "CoveredByLookup",
-            "namespace": "django.contrib.gis.db.models.lookups.CoveredByLookup"
+            "namespace": "django.contrib.gis.db.models.lookups.CoveredByLookup",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "CoversLookup",
-            "namespace": "django.contrib.gis.db.models.lookups.CoversLookup"
+            "namespace": "django.contrib.gis.db.models.lookups.CoversLookup",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "CrossesLookup",
-            "namespace": "django.contrib.gis.db.models.lookups.CrossesLookup"
+            "namespace": "django.contrib.gis.db.models.lookups.CrossesLookup",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "DisjointLookup",
-            "namespace": "django.contrib.gis.db.models.lookups.DisjointLookup"
+            "namespace": "django.contrib.gis.db.models.lookups.DisjointLookup",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "EqualsLookup",
-            "namespace": "django.contrib.gis.db.models.lookups.EqualsLookup"
+            "namespace": "django.contrib.gis.db.models.lookups.EqualsLookup",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "IntersectsLookup",
-            "namespace": "django.contrib.gis.db.models.lookups.IntersectsLookup"
+            "namespace": "django.contrib.gis.db.models.lookups.IntersectsLookup",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "OverlapsLookup",
-            "namespace": "django.contrib.gis.db.models.lookups.OverlapsLookup"
+            "namespace": "django.contrib.gis.db.models.lookups.OverlapsLookup",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "RelateLookup",
-            "namespace": "django.contrib.gis.db.models.lookups.RelateLookup"
+            "namespace": "django.contrib.gis.db.models.lookups.RelateLookup",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "process_rhs",
+                    "namespace": "django.contrib.gis.db.models.lookups.RelateLookup.process_rhs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "TouchesLookup",
-            "namespace": "django.contrib.gis.db.models.lookups.TouchesLookup"
+            "namespace": "django.contrib.gis.db.models.lookups.TouchesLookup",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "WithinLookup",
-            "namespace": "django.contrib.gis.db.models.lookups.WithinLookup"
+            "namespace": "django.contrib.gis.db.models.lookups.WithinLookup",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "DistanceLookupBase",
-            "namespace": "django.contrib.gis.db.models.lookups.DistanceLookupBase"
+            "namespace": "django.contrib.gis.db.models.lookups.DistanceLookupBase",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "process_rhs_params",
+                    "namespace": "django.contrib.gis.db.models.lookups.DistanceLookupBase.process_rhs_params",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "process_distance",
+                    "namespace": "django.contrib.gis.db.models.lookups.DistanceLookupBase.process_distance",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "DWithinLookup",
-            "namespace": "django.contrib.gis.db.models.lookups.DWithinLookup"
+            "namespace": "django.contrib.gis.db.models.lookups.DWithinLookup",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "process_distance",
+                    "namespace": "django.contrib.gis.db.models.lookups.DWithinLookup.process_distance",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "process_rhs",
+                    "namespace": "django.contrib.gis.db.models.lookups.DWithinLookup.process_rhs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "DistanceLookupFromFunction",
-            "namespace": "django.contrib.gis.db.models.lookups.DistanceLookupFromFunction"
+            "namespace": "django.contrib.gis.db.models.lookups.DistanceLookupFromFunction",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.contrib.gis.db.models.lookups.DistanceLookupFromFunction.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "DistanceGTLookup",
-            "namespace": "django.contrib.gis.db.models.lookups.DistanceGTLookup"
+            "namespace": "django.contrib.gis.db.models.lookups.DistanceGTLookup",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "DistanceGTELookup",
-            "namespace": "django.contrib.gis.db.models.lookups.DistanceGTELookup"
+            "namespace": "django.contrib.gis.db.models.lookups.DistanceGTELookup",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "DistanceLTLookup",
-            "namespace": "django.contrib.gis.db.models.lookups.DistanceLTLookup"
+            "namespace": "django.contrib.gis.db.models.lookups.DistanceLTLookup",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "DistanceLTELookup",
-            "namespace": "django.contrib.gis.db.models.lookups.DistanceLTELookup"
+            "namespace": "django.contrib.gis.db.models.lookups.DistanceLTELookup",
+            "methods": []
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.gis.db.models"
 }

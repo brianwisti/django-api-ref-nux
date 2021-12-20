@@ -2,5 +2,39 @@
     "namespace": "django.core.checks.translation",
     "docstring": "",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "\"\"\"Error if LANGUAGE_CODE setting is invalid.\"\"\"",
+            "name": "check_setting_language_code",
+            "namespace": "django.core.checks.translation.check_setting_language_code",
+            "class_name": "",
+            "module_name": "django.core.checks.translation",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Error if LANGUAGES setting is invalid.\"\"\"",
+            "name": "check_setting_languages",
+            "namespace": "django.core.checks.translation.check_setting_languages",
+            "class_name": "",
+            "module_name": "django.core.checks.translation",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Error if LANGUAGES_BIDI setting is invalid.\"\"\"",
+            "name": "check_setting_languages_bidi",
+            "namespace": "django.core.checks.translation.check_setting_languages_bidi",
+            "class_name": "",
+            "module_name": "django.core.checks.translation",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Error if language settings are not consistent with each other.\"\"\"",
+            "name": "check_language_settings_consistent",
+            "namespace": "django.core.checks.translation.check_language_settings_consistent",
+            "class_name": "",
+            "module_name": "django.core.checks.translation",
+            "package_name": ""
+        }
+    ],
     "package_name": "django.core.checks"
 }

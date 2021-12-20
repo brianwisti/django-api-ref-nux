@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Validate every value in the given list. A value is validated against\n        the corresponding Field in self.fields.\n\n        For example, if this MultiValueField was instantiated with\n        fields=(DateField(), TimeField()), clean() would call\n        DateField.clean(value[0]) and TimeField.clean(value[1]).\n        \"\"\"",
+    "name": "clean",
+    "namespace": "django.forms.fields.MultiValueField.clean",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

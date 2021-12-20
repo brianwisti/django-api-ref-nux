@@ -5,12 +5,138 @@
         {
             "docstring": "",
             "name": "FlexibleFieldLookupDict",
-            "namespace": "django.db.backends.sqlite3.introspection.FlexibleFieldLookupDict"
+            "namespace": "django.db.backends.sqlite3.introspection.FlexibleFieldLookupDict",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__getitem__",
+                    "namespace": "django.db.backends.sqlite3.introspection.FlexibleFieldLookupDict.__getitem__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "DatabaseIntrospection",
-            "namespace": "django.db.backends.sqlite3.introspection.DatabaseIntrospection"
+            "namespace": "django.db.backends.sqlite3.introspection.DatabaseIntrospection",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_field_type",
+                    "namespace": "django.db.backends.sqlite3.introspection.DatabaseIntrospection.get_field_type",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return a list of table and view names in the current database.\"\"\"",
+                    "name": "get_table_list",
+                    "namespace": "django.db.backends.sqlite3.introspection.DatabaseIntrospection.get_table_list",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return a description of the table with the DB-API cursor.description\n        interface.\n        \"\"\"",
+                    "name": "get_table_description",
+                    "namespace": "django.db.backends.sqlite3.introspection.DatabaseIntrospection.get_table_description",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_sequences",
+                    "namespace": "django.db.backends.sqlite3.introspection.DatabaseIntrospection.get_sequences",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return a dictionary of {field_name: (field_name_other_table, other_table)}\n        representing all relationships to the given table.\n        \"\"\"",
+                    "name": "get_relations",
+                    "namespace": "django.db.backends.sqlite3.introspection.DatabaseIntrospection.get_relations",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return a list of (column_name, referenced_table_name, referenced_column_name)\n        for all key columns in given table.\n        \"\"\"",
+                    "name": "get_key_columns",
+                    "namespace": "django.db.backends.sqlite3.introspection.DatabaseIntrospection.get_key_columns",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return the column name of the primary key for the given table.\"\"\"",
+                    "name": "get_primary_key_column",
+                    "namespace": "django.db.backends.sqlite3.introspection.DatabaseIntrospection.get_primary_key_column",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_get_foreign_key_constraints",
+                    "namespace": "django.db.backends.sqlite3.introspection.DatabaseIntrospection._get_foreign_key_constraints",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_parse_column_or_constraint_definition",
+                    "namespace": "django.db.backends.sqlite3.introspection.DatabaseIntrospection._parse_column_or_constraint_definition",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_parse_table_constraints",
+                    "namespace": "django.db.backends.sqlite3.introspection.DatabaseIntrospection._parse_table_constraints",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Retrieve any constraints or keys (unique, pk, fk, check, index) across\n        one or more columns.\n        \"\"\"",
+                    "name": "get_constraints",
+                    "namespace": "django.db.backends.sqlite3.introspection.DatabaseIntrospection.get_constraints",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_get_index_columns_orders",
+                    "namespace": "django.db.backends.sqlite3.introspection.DatabaseIntrospection._get_index_columns_orders",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_get_column_collations",
+                    "namespace": "django.db.backends.sqlite3.introspection.DatabaseIntrospection._get_column_collations",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\" Extract the size number from a \"varchar(11)\" type name \"\"\"",
+            "name": "get_field_size",
+            "namespace": "django.db.backends.sqlite3.introspection.get_field_size",
+            "class_name": "",
+            "module_name": "django.db.backends.sqlite3.introspection",
+            "package_name": ""
         }
     ],
     "package_name": "django.db.backends.sqlite3"

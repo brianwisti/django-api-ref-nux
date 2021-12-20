@@ -5,27 +5,189 @@
         {
             "docstring": "\"\"\"Signature does not match.\"\"\"",
             "name": "BadSignature",
-            "namespace": "django.core.signing.BadSignature"
+            "namespace": "django.core.signing.BadSignature",
+            "methods": []
         },
         {
             "docstring": "\"\"\"Signature timestamp is older than required max_age.\"\"\"",
             "name": "SignatureExpired",
-            "namespace": "django.core.signing.SignatureExpired"
+            "namespace": "django.core.signing.SignatureExpired",
+            "methods": []
         },
         {
             "docstring": "\"\"\"\n    Simple wrapper around json to be used in signing.dumps and\n    signing.loads.\n    \"\"\"",
             "name": "JSONSerializer",
-            "namespace": "django.core.signing.JSONSerializer"
+            "namespace": "django.core.signing.JSONSerializer",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "dumps",
+                    "namespace": "django.core.signing.JSONSerializer.dumps",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "loads",
+                    "namespace": "django.core.signing.JSONSerializer.loads",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Signer",
-            "namespace": "django.core.signing.Signer"
+            "namespace": "django.core.signing.Signer",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.core.signing.Signer.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "signature",
+                    "namespace": "django.core.signing.Signer.signature",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "sign",
+                    "namespace": "django.core.signing.Signer.sign",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "unsign",
+                    "namespace": "django.core.signing.Signer.unsign",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return URL-safe, hmac signed base64 compressed JSON string.\n\n        If compress is True (not the default), check if compressing using zlib\n        can save some space. Prepend a '.' to signify compression. This is\n        included in the signature, to protect against zip bombs.\n\n        The serializer is expected to return a bytestring.\n        \"\"\"",
+                    "name": "sign_object",
+                    "namespace": "django.core.signing.Signer.sign_object",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "unsign_object",
+                    "namespace": "django.core.signing.Signer.unsign_object",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "TimestampSigner",
-            "namespace": "django.core.signing.TimestampSigner"
+            "namespace": "django.core.signing.TimestampSigner",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "timestamp",
+                    "namespace": "django.core.signing.TimestampSigner.timestamp",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "sign",
+                    "namespace": "django.core.signing.TimestampSigner.sign",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Retrieve original value and check it wasn't signed more\n        than max_age seconds ago.\n        \"\"\"",
+                    "name": "unsign",
+                    "namespace": "django.core.signing.TimestampSigner.unsign",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "",
+            "name": "b62_encode",
+            "namespace": "django.core.signing.b62_encode",
+            "class_name": "",
+            "module_name": "django.core.signing",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "b62_decode",
+            "namespace": "django.core.signing.b62_decode",
+            "class_name": "",
+            "module_name": "django.core.signing",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "b64_encode",
+            "namespace": "django.core.signing.b64_encode",
+            "class_name": "",
+            "module_name": "django.core.signing",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "b64_decode",
+            "namespace": "django.core.signing.b64_decode",
+            "class_name": "",
+            "module_name": "django.core.signing",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "base64_hmac",
+            "namespace": "django.core.signing.base64_hmac",
+            "class_name": "",
+            "module_name": "django.core.signing",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_cookie_signer",
+            "namespace": "django.core.signing.get_cookie_signer",
+            "class_name": "",
+            "module_name": "django.core.signing",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return URL-safe, hmac signed base64 compressed JSON string. If key is\n    None, use settings.SECRET_KEY instead. The hmac algorithm is the default\n    Signer algorithm.\n\n    If compress is True (not the default), check if compressing using zlib can\n    save some space. Prepend a '.' to signify compression. This is included\n    in the signature, to protect against zip bombs.\n\n    Salt can be used to namespace the hash, so that a signed string is\n    only valid for a given namespace. Leaving this at the default\n    value or re-using a salt value across different parts of your\n    application without good cause is a security risk.\n\n    The serializer is expected to return a bytestring.\n    \"\"\"",
+            "name": "dumps",
+            "namespace": "django.core.signing.dumps",
+            "class_name": "",
+            "module_name": "django.core.signing",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Reverse of dumps(), raise BadSignature if signature fails.\n\n    The serializer is expected to accept a bytestring.\n    \"\"\"",
+            "name": "loads",
+            "namespace": "django.core.signing.loads",
+            "class_name": "",
+            "module_name": "django.core.signing",
+            "package_name": ""
         }
     ],
     "package_name": "django.core"

@@ -2,46 +2,190 @@
     "name": "django.views.decorators",
     "docstring": "",
     "package_name": "django.views",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.views.decorators.clickjacking",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Modify a view function so its response has the X-Frame-Options HTTP\n    header set to 'DENY' as long as the response doesn't already have that\n    header set. Usage:\n\n    @xframe_options_deny\n    def some_view(request):\n        ...\n    \"\"\"",
+                    "name": "xframe_options_deny",
+                    "namespace": "django.views.decorators.clickjacking.xframe_options_deny",
+                    "class_name": "",
+                    "module_name": "django.views.decorators.clickjacking",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Modify a view function so its response has the X-Frame-Options HTTP\n    header set to 'SAMEORIGIN' as long as the response doesn't already have\n    that header set. Usage:\n\n    @xframe_options_sameorigin\n    def some_view(request):\n        ...\n    \"\"\"",
+                    "name": "xframe_options_sameorigin",
+                    "namespace": "django.views.decorators.clickjacking.xframe_options_sameorigin",
+                    "class_name": "",
+                    "module_name": "django.views.decorators.clickjacking",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Modify a view function by setting a response variable that instructs\n    XFrameOptionsMiddleware to NOT set the X-Frame-Options HTTP header. Usage:\n\n    @xframe_options_exempt\n    def some_view(request):\n        ...\n    \"\"\"",
+                    "name": "xframe_options_exempt",
+                    "namespace": "django.views.decorators.clickjacking.xframe_options_exempt",
+                    "class_name": "",
+                    "module_name": "django.views.decorators.clickjacking",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.views.decorators"
         },
         {
             "namespace": "django.views.decorators.gzip",
             "docstring": "",
+            "functions": [],
             "package_name": "django.views.decorators"
         },
         {
             "namespace": "django.views.decorators.csrf",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"Mark a view function as being exempt from the CSRF view protection.\"\"\"",
+                    "name": "csrf_exempt",
+                    "namespace": "django.views.decorators.csrf.csrf_exempt",
+                    "class_name": "",
+                    "module_name": "django.views.decorators.csrf",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.views.decorators"
         },
         {
             "namespace": "django.views.decorators.vary",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    A view decorator that adds the specified headers to the Vary header of the\n    response. Usage:\n\n       @vary_on_headers('Cookie', 'Accept-language')\n       def index(request):\n           ...\n\n    Note that the header names are not case-sensitive.\n    \"\"\"",
+                    "name": "vary_on_headers",
+                    "namespace": "django.views.decorators.vary.vary_on_headers",
+                    "class_name": "",
+                    "module_name": "django.views.decorators.vary",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    A view decorator that adds \"Cookie\" to the Vary header of a response. This\n    indicates that a page's contents depends on cookies. Usage:\n\n        @vary_on_cookie\n        def index(request):\n            ...\n    \"\"\"",
+                    "name": "vary_on_cookie",
+                    "namespace": "django.views.decorators.vary.vary_on_cookie",
+                    "class_name": "",
+                    "module_name": "django.views.decorators.vary",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.views.decorators"
         },
         {
             "namespace": "django.views.decorators.cache",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Decorator for views that tries getting the page from the cache and\n    populates the cache if the page isn't in the cache yet.\n\n    The cache is keyed by the URL and some data from the headers.\n    Additionally there is the key prefix that is used to distinguish different\n    cache areas in a multi-site setup. You could use the\n    get_current_site().domain, for example, as that is unique across a Django\n    project.\n\n    Additionally, all headers from the response's Vary header will be taken\n    into account on caching -- just like the middleware does.\n    \"\"\"",
+                    "name": "cache_page",
+                    "namespace": "django.views.decorators.cache.cache_page",
+                    "class_name": "",
+                    "module_name": "django.views.decorators.cache",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "cache_control",
+                    "namespace": "django.views.decorators.cache.cache_control",
+                    "class_name": "",
+                    "module_name": "django.views.decorators.cache",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Decorator that adds headers to a response so that it will never be cached.\n    \"\"\"",
+                    "name": "never_cache",
+                    "namespace": "django.views.decorators.cache.never_cache",
+                    "class_name": "",
+                    "module_name": "django.views.decorators.cache",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.views.decorators"
         },
         {
             "namespace": "django.views.decorators.common",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Mark a view function as excluded from CommonMiddleware's APPEND_SLASH\n    redirection.\n    \"\"\"",
+                    "name": "no_append_slash",
+                    "namespace": "django.views.decorators.common.no_append_slash",
+                    "class_name": "",
+                    "module_name": "django.views.decorators.common",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.views.decorators"
         },
         {
             "namespace": "django.views.decorators.debug",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Indicate which variables used in the decorated function are sensitive so\n    that those variables can later be treated in a special way, for example\n    by hiding them when logging unhandled exceptions.\n\n    Accept two forms:\n\n    * with specified variable names:\n\n        @sensitive_variables('user', 'password', 'credit_card')\n        def my_function(user):\n            password = user.pass_word\n            credit_card = user.credit_card_number\n            ...\n\n    * without any specified variable names, in which case consider all\n      variables are sensitive:\n\n        @sensitive_variables()\n        def my_function()\n            ...\n    \"\"\"",
+                    "name": "sensitive_variables",
+                    "namespace": "django.views.decorators.debug.sensitive_variables",
+                    "class_name": "",
+                    "module_name": "django.views.decorators.debug",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Indicate which POST parameters used in the decorated view are sensitive,\n    so that those parameters can later be treated in a special way, for example\n    by hiding them when logging unhandled exceptions.\n\n    Accept two forms:\n\n    * with specified parameters:\n\n        @sensitive_post_parameters('password', 'credit_card')\n        def my_view(request):\n            pw = request.POST['password']\n            cc = request.POST['credit_card']\n            ...\n\n    * without any specified parameters, in which case consider all\n      variables are sensitive:\n\n        @sensitive_post_parameters()\n        def my_view(request)\n            ...\n    \"\"\"",
+                    "name": "sensitive_post_parameters",
+                    "namespace": "django.views.decorators.debug.sensitive_post_parameters",
+                    "class_name": "",
+                    "module_name": "django.views.decorators.debug",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.views.decorators"
         },
         {
             "namespace": "django.views.decorators.http",
             "docstring": "\"\"\"\nDecorators for views based on HTTP headers.\n\"\"\"",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Decorator to make a view only accept particular request methods.  Usage::\n\n        @require_http_methods([\"GET\", \"POST\"])\n        def my_view(request):\n            # I can assume now that only GET or POST requests make it this far\n            # ...\n\n    Note that request methods should be in uppercase.\n    \"\"\"",
+                    "name": "require_http_methods",
+                    "namespace": "django.views.decorators.http.require_http_methods",
+                    "class_name": "",
+                    "module_name": "django.views.decorators.http",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Decorator to support conditional retrieval (or change) for a view\n    function.\n\n    The parameters are callables to compute the ETag and last modified time for\n    the requested resource, respectively. The callables are passed the same\n    parameters as the view itself. The ETag function should return a string (or\n    None if the resource doesn't exist), while the last_modified function\n    should return a datetime object (or None if the resource doesn't exist).\n\n    The ETag function should return a complete ETag, including quotes (e.g.\n    '\"etag\"'), since that's the only way to distinguish between weak and strong\n    ETags. If an unquoted ETag is returned (e.g. 'etag'), it will be converted\n    to a strong ETag by adding quotes.\n\n    This decorator will either pass control to the wrapped view function or\n    return an HTTP 304 response (unmodified) or 412 response (precondition\n    failed), depending upon the request method. In either case, the decorator\n    will add the generated ETag and Last-Modified headers to the response if\n    the headers aren't already set and if the request's method is safe.\n    \"\"\"",
+                    "name": "condition",
+                    "namespace": "django.views.decorators.http.condition",
+                    "class_name": "",
+                    "module_name": "django.views.decorators.http",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "etag",
+                    "namespace": "django.views.decorators.http.etag",
+                    "class_name": "",
+                    "module_name": "django.views.decorators.http",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "last_modified",
+                    "namespace": "django.views.decorators.http.last_modified",
+                    "class_name": "",
+                    "module_name": "django.views.decorators.http",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.views.decorators"
         }
     ],

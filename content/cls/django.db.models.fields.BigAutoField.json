@@ -3,5 +3,23 @@
     "name": "BigAutoField",
     "namespace": "django.db.models.fields.BigAutoField",
     "module_name": "django.db.models.fields",
-    "package_name": "django.db.models.fields"
+    "package_name": "django.db.models.fields",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "get_internal_type",
+            "namespace": "django.db.models.fields.BigAutoField.get_internal_type",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "rel_db_type",
+            "namespace": "django.db.models.fields.BigAutoField.rel_db_type",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

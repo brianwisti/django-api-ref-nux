@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Return a dict containing the data in ``instance`` suitable for passing as\n    a Form's ``initial`` keyword argument.\n\n    ``fields`` is an optional list of field names. If provided, return only the\n    named.\n\n    ``exclude`` is an optional list of field names. If provided, exclude the\n    named from the returned dict, even if they are listed in the ``fields``\n    argument.\n    \"\"\"",
+    "name": "model_to_dict",
+    "namespace": "django.forms.models.model_to_dict",
+    "class_name": "",
+    "module_name": "django.forms.models",
+    "package_name": ""
+}

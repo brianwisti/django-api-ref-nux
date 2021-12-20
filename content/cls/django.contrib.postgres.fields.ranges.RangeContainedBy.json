@@ -3,5 +3,31 @@
     "name": "RangeContainedBy",
     "namespace": "django.contrib.postgres.fields.ranges.RangeContainedBy",
     "module_name": "django.contrib.postgres.fields.ranges",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "process_rhs",
+            "namespace": "django.contrib.postgres.fields.ranges.RangeContainedBy.process_rhs",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "process_lhs",
+            "namespace": "django.contrib.postgres.fields.ranges.RangeContainedBy.process_lhs",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_prep_lookup",
+            "namespace": "django.contrib.postgres.fields.ranges.RangeContainedBy.get_prep_lookup",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Indicate which POST parameters used in the decorated view are sensitive,\n    so that those parameters can later be treated in a special way, for example\n    by hiding them when logging unhandled exceptions.\n\n    Accept two forms:\n\n    * with specified parameters:\n\n        @sensitive_post_parameters('password', 'credit_card')\n        def my_view(request):\n            pw = request.POST['password']\n            cc = request.POST['credit_card']\n            ...\n\n    * without any specified parameters, in which case consider all\n      variables are sensitive:\n\n        @sensitive_post_parameters()\n        def my_view(request)\n            ...\n    \"\"\"",
+    "name": "sensitive_post_parameters",
+    "namespace": "django.views.decorators.debug.sensitive_post_parameters",
+    "class_name": "",
+    "module_name": "django.views.decorators.debug",
+    "package_name": ""
+}

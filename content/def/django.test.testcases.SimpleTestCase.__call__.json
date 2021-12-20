@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Wrapper around default __call__ method to perform common Django test\n        set up. This means that user-defined Test Cases aren't required to\n        include a call to super().setUp().\n        \"\"\"",
+    "name": "__call__",
+    "namespace": "django.test.testcases.SimpleTestCase.__call__",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

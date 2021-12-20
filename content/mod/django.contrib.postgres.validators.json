@@ -5,28 +5,77 @@
         {
             "docstring": "",
             "name": "ArrayMaxLengthValidator",
-            "namespace": "django.contrib.postgres.validators.ArrayMaxLengthValidator"
+            "namespace": "django.contrib.postgres.validators.ArrayMaxLengthValidator",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "ArrayMinLengthValidator",
-            "namespace": "django.contrib.postgres.validators.ArrayMinLengthValidator"
+            "namespace": "django.contrib.postgres.validators.ArrayMinLengthValidator",
+            "methods": []
         },
         {
             "docstring": "\"\"\"A validator designed for HStore to require/restrict keys.\"\"\"",
             "name": "KeysValidator",
-            "namespace": "django.contrib.postgres.validators.KeysValidator"
+            "namespace": "django.contrib.postgres.validators.KeysValidator",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.postgres.validators.KeysValidator.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__call__",
+                    "namespace": "django.contrib.postgres.validators.KeysValidator.__call__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__eq__",
+                    "namespace": "django.contrib.postgres.validators.KeysValidator.__eq__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "RangeMaxValueValidator",
-            "namespace": "django.contrib.postgres.validators.RangeMaxValueValidator"
+            "namespace": "django.contrib.postgres.validators.RangeMaxValueValidator",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "compare",
+                    "namespace": "django.contrib.postgres.validators.RangeMaxValueValidator.compare",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "RangeMinValueValidator",
-            "namespace": "django.contrib.postgres.validators.RangeMinValueValidator"
+            "namespace": "django.contrib.postgres.validators.RangeMinValueValidator",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "compare",
+                    "namespace": "django.contrib.postgres.validators.RangeMinValueValidator.compare",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.postgres"
 }

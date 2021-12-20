@@ -2,5 +2,39 @@
     "namespace": "django.utils.duration",
     "docstring": "",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "",
+            "name": "_get_duration_components",
+            "namespace": "django.utils.duration._get_duration_components",
+            "class_name": "",
+            "module_name": "django.utils.duration",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Version of str(timedelta) which is not English specific.\"\"\"",
+            "name": "duration_string",
+            "namespace": "django.utils.duration.duration_string",
+            "class_name": "",
+            "module_name": "django.utils.duration",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "duration_iso_string",
+            "namespace": "django.utils.duration.duration_iso_string",
+            "class_name": "",
+            "module_name": "django.utils.duration",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "duration_microseconds",
+            "namespace": "django.utils.duration.duration_microseconds",
+            "class_name": "",
+            "module_name": "django.utils.duration",
+            "package_name": ""
+        }
+    ],
     "package_name": "django.utils"
 }

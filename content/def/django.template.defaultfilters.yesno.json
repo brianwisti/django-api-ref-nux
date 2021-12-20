@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Given a string mapping values for true, false, and (optionally) None,\n    return one of those strings according to the value:\n\n    ==========  ======================  ==================================\n    Value       Argument                Outputs\n    ==========  ======================  ==================================\n    ``True``    ``\"yeah,no,maybe\"``     ``yeah``\n    ``False``   ``\"yeah,no,maybe\"``     ``no``\n    ``None``    ``\"yeah,no,maybe\"``     ``maybe``\n    ``None``    ``\"yeah,no\"``           ``\"no\"`` (converts None to False\n                                        if no mapping for None is given.\n    ==========  ======================  ==================================\n    \"\"\"",
+    "name": "yesno",
+    "namespace": "django.template.defaultfilters.yesno",
+    "class_name": "",
+    "module_name": "django.template.defaultfilters",
+    "package_name": ""
+}

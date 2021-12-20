@@ -2,71 +2,143 @@
     "name": "django.contrib.gis.geos",
     "docstring": "\"\"\"\nThe GeoDjango GEOS module.  Please consult the GeoDjango documentation\nfor more details: https://docs.djangoproject.com/en/dev/ref/contrib/gis/geos/\n\"\"\"",
     "package_name": "django.contrib.gis",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.contrib.gis.geos.mutable_list",
             "docstring": "\"\"\"\nThis module contains a base type which provides list-style mutations\nwithout specific data storage methods.\n\nSee also http://static.aryehleib.com/oldsite/MutableLists.html\n\nAuthor: Aryeh Leib Taurog.\n\"\"\"",
+            "functions": [],
             "package_name": "django.contrib.gis.geos"
         },
         {
             "namespace": "django.contrib.gis.geos.error",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.gis.geos"
         },
         {
             "namespace": "django.contrib.gis.geos.prepared",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.gis.geos"
         },
         {
             "namespace": "django.contrib.gis.geos.polygon",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.gis.geos"
         },
         {
             "namespace": "django.contrib.gis.geos.io",
             "docstring": "\"\"\"\nModule that holds classes for performing I/O operations on GEOS geometry\nobjects.  Specifically, this has Python implementations of WKB/WKT\nreader and writer classes.\n\"\"\"",
+            "functions": [],
             "package_name": "django.contrib.gis.geos"
         },
         {
             "namespace": "django.contrib.gis.geos.linestring",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.gis.geos"
         },
         {
             "namespace": "django.contrib.gis.geos.factory",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Given a string file name, returns a GEOSGeometry. The file may contain WKB,\n    WKT, or HEX.\n    \"\"\"",
+                    "name": "fromfile",
+                    "namespace": "django.contrib.gis.geos.factory.fromfile",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.geos.factory",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Given a string value, return a GEOSGeometry object.\"",
+                    "name": "fromstr",
+                    "namespace": "django.contrib.gis.geos.factory.fromstr",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.geos.factory",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.gis.geos"
         },
         {
             "namespace": "django.contrib.gis.geos.coordseq",
             "docstring": "\"\"\"\n This module houses the GEOSCoordSeq object, which is used internally\n by GEOSGeometry to house the actual coordinates of the Point,\n LineString, and LinearRing geometries.\n\"\"\"",
+            "functions": [],
             "package_name": "django.contrib.gis.geos"
         },
         {
             "namespace": "django.contrib.gis.geos.point",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.gis.geos"
         },
         {
             "namespace": "django.contrib.gis.geos.collections",
             "docstring": "\"\"\"\n This module houses the Geometry Collection objects:\n GeometryCollection, MultiPoint, MultiLineString, and MultiPolygon\n\"\"\"",
+            "functions": [],
             "package_name": "django.contrib.gis.geos"
         },
         {
             "namespace": "django.contrib.gis.geos.geometry",
             "docstring": "\"\"\"\n This module contains the 'base' GEOSGeometry object -- all GEOS Geometries\n inherit from this object.\n\"\"\"",
+            "functions": [],
             "package_name": "django.contrib.gis.geos"
         },
         {
             "namespace": "django.contrib.gis.geos.libgeos",
             "docstring": "\"\"\"\n This module houses the ctypes initialization procedures, as well\n as the notice and error handler function callbacks (get called\n when an error occurs in GEOS).\n\n This module also houses GEOS Pointer utilities, including\n get_pointer_arr(), and GEOM_PTR.\n\"\"\"",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "load_geos",
+                    "namespace": "django.contrib.gis.geos.libgeos.load_geos",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.geos.libgeos",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "notice_h",
+                    "namespace": "django.contrib.gis.geos.libgeos.notice_h",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.geos.libgeos",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "error_h",
+                    "namespace": "django.contrib.gis.geos.libgeos.error_h",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.geos.libgeos",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return the string version of the GEOS library.\"\"\"",
+                    "name": "geos_version",
+                    "namespace": "django.contrib.gis.geos.libgeos.geos_version",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.geos.libgeos",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return the GEOS version as a tuple (major, minor, subminor).\"\"\"",
+                    "name": "geos_version_tuple",
+                    "namespace": "django.contrib.gis.geos.libgeos.geos_version_tuple",
+                    "class_name": "",
+                    "module_name": "django.contrib.gis.geos.libgeos",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.contrib.gis.geos"
         },
         {
             "namespace": "django.contrib.gis.geos.base",
             "docstring": "",
+            "functions": [],
             "package_name": "django.contrib.gis.geos"
         }
     ],
@@ -74,7 +146,8 @@
         {
             "name": "django.contrib.gis.geos.prototypes",
             "docstring": "\"\"\"\n This module contains all of the GEOS ctypes function prototypes. Each\n prototype handles the interaction between the GEOS library and Python\n via ctypes.\n\"\"\"",
-            "package_name": "django.contrib.gis.geos"
+            "package_name": "django.contrib.gis.geos",
+            "functions": []
         }
     ]
 }

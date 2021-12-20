@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Return the SQL version of the where clause and the value to be\n        substituted in. Return '', [] if this node matches everything,\n        None, [] if this node is empty, and raise EmptyResultSet if this\n        node can't match anything.\n        \"\"\"",
+    "name": "as_sql",
+    "namespace": "django.db.models.sql.where.WhereNode.as_sql",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

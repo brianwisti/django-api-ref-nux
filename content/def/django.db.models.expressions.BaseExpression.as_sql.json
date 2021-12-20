@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Responsible for returning a (sql, [params]) tuple to be included\n        in the current query.\n\n        Different backends can provide their own implementation, by\n        providing an `as_{vendor}` method and patching the Expression:\n\n        ```\n        def override_as_sql(self, compiler, connection):\n            # custom logic\n            return super().as_sql(compiler, connection)\n        setattr(Expression, 'as_' + connection.vendor, override_as_sql)\n        ```\n\n        Arguments:\n         * compiler: the query compiler responsible for generating the query.\n           Must have a compile method, returning a (sql, [params]) tuple.\n           Calling compiler(value) will return a quoted `value`.\n\n         * connection: the database connection used for the current query.\n\n        Return: (sql, params)\n          Where `sql` is a string containing ordered sql parameters to be\n          replaced with the elements of the list `params`.\n        \"\"\"",
+    "name": "as_sql",
+    "namespace": "django.db.models.expressions.BaseExpression.as_sql",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Some backends don't accept default values for certain columns types\n        (i.e. MySQL longtext and longblob) in the ALTER COLUMN statement.\n        \"\"\"",
+    "name": "skip_default_on_alter",
+    "namespace": "django.db.backends.base.schema.BaseDatabaseSchemaEditor.skip_default_on_alter",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

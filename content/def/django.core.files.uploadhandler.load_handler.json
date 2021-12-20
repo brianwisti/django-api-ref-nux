@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Given a path to a handler, return an instance of that handler.\n\n    E.g.::\n        >>> from django.http import HttpRequest\n        >>> request = HttpRequest()\n        >>> load_handler('django.core.files.uploadhandler.TemporaryFileUploadHandler', request)\n        <TemporaryFileUploadHandler object at 0x...>\n    \"\"\"",
+    "name": "load_handler",
+    "namespace": "django.core.files.uploadhandler.load_handler",
+    "class_name": "",
+    "module_name": "django.core.files.uploadhandler",
+    "package_name": ""
+}

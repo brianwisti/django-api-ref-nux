@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Check that the backend supports the provided expression.\n\n        This is used on specific backends to rule out known expressions\n        that have problematic or nonexistent implementations. If the\n        expression has a known problem, the backend should raise\n        NotSupportedError.\n        \"\"\"",
+    "name": "check_expression_support",
+    "namespace": "django.db.backends.base.operations.BaseDatabaseOperations.check_expression_support",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

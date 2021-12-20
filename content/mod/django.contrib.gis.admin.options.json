@@ -5,23 +5,70 @@
         {
             "docstring": "",
             "name": "GeoModelAdminMixin",
-            "namespace": "django.contrib.gis.admin.options.GeoModelAdminMixin"
+            "namespace": "django.contrib.gis.admin.options.GeoModelAdminMixin",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "formfield_for_dbfield",
+                    "namespace": "django.contrib.gis.admin.options.GeoModelAdminMixin.formfield_for_dbfield",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "GISModelAdmin",
-            "namespace": "django.contrib.gis.admin.options.GISModelAdmin"
+            "namespace": "django.contrib.gis.admin.options.GISModelAdmin",
+            "methods": []
         },
         {
             "docstring": "\"\"\"\n    The administration options class for Geographic models. Map settings\n    may be overloaded from their defaults to create custom maps.\n    \"\"\"",
             "name": "GeoModelAdmin",
-            "namespace": "django.contrib.gis.admin.options.GeoModelAdmin"
+            "namespace": "django.contrib.gis.admin.options.GeoModelAdmin",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.contrib.gis.admin.options.GeoModelAdmin.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"Injects OpenLayers JavaScript into the admin.\"",
+                    "name": "media",
+                    "namespace": "django.contrib.gis.admin.options.GeoModelAdmin.media",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Overloaded from ModelAdmin so that an OpenLayersWidget is used\n        for viewing/editing 2D GeometryFields (OpenLayers 2 does not support\n        3D editing).\n        \"\"\"",
+                    "name": "formfield_for_dbfield",
+                    "namespace": "django.contrib.gis.admin.options.GeoModelAdmin.formfield_for_dbfield",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Return a subclass of the OpenLayersWidget (or whatever was specified\n        in the `widget` attribute) using the settings from the attributes set\n        in this class.\n        \"\"\"",
+                    "name": "get_map_widget",
+                    "namespace": "django.contrib.gis.admin.options.GeoModelAdmin.get_map_widget",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "OSMGeoAdmin",
-            "namespace": "django.contrib.gis.admin.options.OSMGeoAdmin"
+            "namespace": "django.contrib.gis.admin.options.OSMGeoAdmin",
+            "methods": []
         }
     ],
+    "functions": [],
     "package_name": "django.contrib.gis.admin"
 }

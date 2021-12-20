@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Return the query as a string of SQL with the parameter values\n        substituted in (use sql_with_params() to see the unsubstituted string).\n\n        Parameter values won't necessarily be quoted correctly, since that is\n        done by the database interface at execution time.\n        \"\"\"",
+    "name": "__str__",
+    "namespace": "django.db.models.sql.query.Query.__str__",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

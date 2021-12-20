@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Output the first variable passed that is not False.\n\n    Output nothing if all the passed variables are False.\n\n    Sample usage::\n\n        {% firstof var1 var2 var3 as myvar %}\n\n    This is equivalent to::\n\n        {% if var1 %}\n            {{ var1 }}\n        {% elif var2 %}\n            {{ var2 }}\n        {% elif var3 %}\n            {{ var3 }}\n        {% endif %}\n\n    but much cleaner!\n\n    You can also use a literal string as a fallback value in case all\n    passed variables are False::\n\n        {% firstof var1 var2 var3 \"fallback value\" %}\n\n    If you want to disable auto-escaping of variables you can use::\n\n        {% autoescape off %}\n            {% firstof var1 var2 var3 \"<strong>fallback value</strong>\" %}\n        {% autoescape %}\n\n    Or if only some variables should be escaped, you can use::\n\n        {% firstof var1 var2|safe var3 \"<strong>fallback value</strong>\"|safe %}\n    \"\"\"",
+    "name": "firstof",
+    "namespace": "django.template.defaulttags.firstof",
+    "class_name": "",
+    "module_name": "django.template.defaulttags",
+    "package_name": ""
+}

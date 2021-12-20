@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Remove whitespace between HTML tags, including tab and newline characters.\n\n    Example usage::\n\n        {% spaceless %}\n            <p>\n                <a href=\"foo/\">Foo</a>\n            </p>\n        {% endspaceless %}\n\n    This example returns this HTML::\n\n        <p><a href=\"foo/\">Foo</a></p>\n\n    Only space between *tags* is normalized -- not space between tags and text.\n    In this example, the space around ``Hello`` isn't stripped::\n\n        {% spaceless %}\n            <strong>\n                Hello\n            </strong>\n        {% endspaceless %}\n    \"\"\"",
+    "name": "spaceless",
+    "namespace": "django.template.defaulttags.spaceless",
+    "class_name": "",
+    "module_name": "django.template.defaulttags",
+    "package_name": ""
+}

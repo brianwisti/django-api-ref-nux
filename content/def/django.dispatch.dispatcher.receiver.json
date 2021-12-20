@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    A decorator for connecting receivers to signals. Used by passing in the\n    signal (or list of signals) and keyword arguments to connect::\n\n        @receiver(post_save, sender=MyModel)\n        def signal_receiver(sender, **kwargs):\n            ...\n\n        @receiver([post_save, post_delete], sender=MyModel)\n        def signals_receiver(sender, **kwargs):\n            ...\n    \"\"\"",
+    "name": "receiver",
+    "namespace": "django.dispatch.dispatcher.receiver",
+    "class_name": "",
+    "module_name": "django.dispatch.dispatcher",
+    "package_name": ""
+}

@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    A word-wrap function that preserves existing line breaks. Expects that\n    existing line breaks are posix newlines.\n\n    Preserve all white space except added line breaks consume the space on\n    which they break the line.\n\n    Don't wrap long words, thus the output text may have lines longer than\n    ``width``.\n    \"\"\"",
+    "name": "wrap",
+    "namespace": "django.utils.text.wrap",
+    "class_name": "",
+    "module_name": "django.utils.text",
+    "package_name": ""
+}

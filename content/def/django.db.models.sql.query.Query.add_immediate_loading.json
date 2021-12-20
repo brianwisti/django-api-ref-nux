@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Add the given list of model field names to the set of fields to\n        retrieve when the SQL is executed (\"immediate loading\" fields). The\n        field names replace any existing immediate loading field names. If\n        there are field names already specified for deferred loading, remove\n        those names from the new field_names before storing the new names\n        for immediate loading. (That is, immediate loading overrides any\n        existing immediate values, but respects existing deferrals.)\n        \"\"\"",
+    "name": "add_immediate_loading",
+    "namespace": "django.db.models.sql.query.Query.add_immediate_loading",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

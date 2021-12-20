@@ -2,31 +2,178 @@
     "name": "django.views",
     "docstring": "",
     "package_name": "django",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.views.csrf",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Default view used when request fails CSRF protection\n    \"\"\"",
+                    "name": "csrf_failure",
+                    "namespace": "django.views.csrf.csrf_failure",
+                    "class_name": "",
+                    "module_name": "django.views.csrf",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.views"
         },
         {
             "namespace": "django.views.debug",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Return a path to a builtin template.\n\n    Avoid calling this function at the module level or in a class-definition\n    because __file__ may not exist, e.g. in frozen environments.\n    \"\"\"",
+                    "name": "builtin_template_path",
+                    "namespace": "django.views.debug.builtin_template_path",
+                    "class_name": "",
+                    "module_name": "django.views.debug",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Create a technical server error response. The last three arguments are\n    the values returned from sys.exc_info() and friends.\n    \"\"\"",
+                    "name": "technical_500_response",
+                    "namespace": "django.views.debug.technical_500_response",
+                    "class_name": "",
+                    "module_name": "django.views.debug",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_default_exception_reporter_filter",
+                    "namespace": "django.views.debug.get_default_exception_reporter_filter",
+                    "class_name": "",
+                    "module_name": "django.views.debug",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_exception_reporter_filter",
+                    "namespace": "django.views.debug.get_exception_reporter_filter",
+                    "class_name": "",
+                    "module_name": "django.views.debug",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_exception_reporter_class",
+                    "namespace": "django.views.debug.get_exception_reporter_class",
+                    "class_name": "",
+                    "module_name": "django.views.debug",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Create a technical 404 error response. `exception` is the Http404.\"\"\"",
+                    "name": "technical_404_response",
+                    "namespace": "django.views.debug.technical_404_response",
+                    "class_name": "",
+                    "module_name": "django.views.debug",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Create an empty URLconf 404 error response.\"\"\"",
+                    "name": "default_urlconf",
+                    "namespace": "django.views.debug.default_urlconf",
+                    "class_name": "",
+                    "module_name": "django.views.debug",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.views"
         },
         {
             "namespace": "django.views.static",
             "docstring": "\"\"\"\nViews and functions for serving static files. These are only to be used\nduring development, and SHOULD NOT be used in a production setting.\n\"\"\"",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Serve static files below a given point in the directory structure.\n\n    To use, put a URL pattern such as::\n\n        from django.views.static import serve\n\n        path('<path:path>', serve, {'document_root': '/path/to/my/files/'})\n\n    in your URLconf. You must provide the ``document_root`` param. You may\n    also set ``show_indexes`` to ``True`` if you'd like to serve a basic index\n    of the directory.  This index view will use the template hardcoded below,\n    but if you'd like to override it, you can create a template called\n    ``static/directory_index.html``.\n    \"\"\"",
+                    "name": "serve",
+                    "namespace": "django.views.static.serve",
+                    "class_name": "",
+                    "module_name": "django.views.static",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "directory_index",
+                    "namespace": "django.views.static.directory_index",
+                    "class_name": "",
+                    "module_name": "django.views.static",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Was something modified since the user last downloaded it?\n\n    header\n      This is the value of the If-Modified-Since header.  If this is None,\n      I'll just return True.\n\n    mtime\n      This is the modification time of the item we're talking about.\n\n    size\n      This is the size of the item we're talking about.\n    \"\"\"",
+                    "name": "was_modified_since",
+                    "namespace": "django.views.static.was_modified_since",
+                    "class_name": "",
+                    "module_name": "django.views.static",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.views"
         },
         {
             "namespace": "django.views.defaults",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Default 404 handler.\n\n    Templates: :template:`404.html`\n    Context:\n        request_path\n            The path of the requested URL (e.g., '/app/pages/bad_page/'). It's\n            quoted to prevent a content injection attack.\n        exception\n            The message from the exception which triggered the 404 (if one was\n            supplied), or the exception class name\n    \"\"\"",
+                    "name": "page_not_found",
+                    "namespace": "django.views.defaults.page_not_found",
+                    "class_name": "",
+                    "module_name": "django.views.defaults",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    500 error handler.\n\n    Templates: :template:`500.html`\n    Context: None\n    \"\"\"",
+                    "name": "server_error",
+                    "namespace": "django.views.defaults.server_error",
+                    "class_name": "",
+                    "module_name": "django.views.defaults",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    400 error handler.\n\n    Templates: :template:`400.html`\n    Context: None\n    \"\"\"",
+                    "name": "bad_request",
+                    "namespace": "django.views.defaults.bad_request",
+                    "class_name": "",
+                    "module_name": "django.views.defaults",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Permission denied (403) handler.\n\n    Templates: :template:`403.html`\n    Context:\n        exception\n            The message from the exception which triggered the 403 (if one was\n            supplied).\n\n    If the template does not exist, an Http403 response containing the text\n    \"403 Forbidden\" (as per RFC 7231) will be returned.\n    \"\"\"",
+                    "name": "permission_denied",
+                    "namespace": "django.views.defaults.permission_denied",
+                    "class_name": "",
+                    "module_name": "django.views.defaults",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.views"
         },
         {
             "namespace": "django.views.i18n",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Redirect to a given URL while setting the chosen language in the session\n    (if enabled) and in a cookie. The URL and the language code need to be\n    specified in the request parameters.\n\n    Since this view changes how the user will see the rest of the site, it must\n    only be accessed as a POST request. If called as a GET request, it will\n    redirect to the page in the request (the 'next' parameter) without changing\n    any state.\n    \"\"\"",
+                    "name": "set_language",
+                    "namespace": "django.views.i18n.set_language",
+                    "class_name": "",
+                    "module_name": "django.views.i18n",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return all formats strings required for i18n to work.\"\"\"",
+                    "name": "get_formats",
+                    "namespace": "django.views.i18n.get_formats",
+                    "class_name": "",
+                    "module_name": "django.views.i18n",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.views"
         }
     ],
@@ -34,12 +181,14 @@
         {
             "name": "django.views.decorators",
             "docstring": "",
-            "package_name": "django.views"
+            "package_name": "django.views",
+            "functions": []
         },
         {
             "name": "django.views.generic",
             "docstring": "",
-            "package_name": "django.views"
+            "package_name": "django.views",
+            "functions": []
         }
     ]
 }

@@ -3,5 +3,15 @@
     "name": "GEOSGeometry",
     "namespace": "django.contrib.gis.geos.geometry.GEOSGeometry",
     "module_name": "django.contrib.gis.geos.geometry",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "\"\"\"\n        The base constructor for GEOS geometry objects. It may take the\n        following inputs:\n\n         * strings:\n            - WKT\n            - HEXEWKB (a PostGIS-specific canonical form)\n            - GeoJSON (requires GDAL)\n         * buffer:\n            - WKB\n\n        The `srid` keyword specifies the Source Reference Identifier (SRID)\n        number for this Geometry. If not provided, it defaults to None.\n        \"\"\"",
+            "name": "__init__",
+            "namespace": "django.contrib.gis.geos.geometry.GEOSGeometry.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

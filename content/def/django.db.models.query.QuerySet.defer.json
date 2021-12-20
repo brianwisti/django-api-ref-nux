@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Defer the loading of data for certain fields until they are accessed.\n        Add the set of deferred fields to any existing set of deferred fields.\n        The only exception to this is if None is passed in as the only\n        parameter, in which case removal all deferrals.\n        \"\"\"",
+    "name": "defer",
+    "namespace": "django.db.models.query.QuerySet.defer",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

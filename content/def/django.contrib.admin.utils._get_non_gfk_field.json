@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    For historical reasons, the admin app relies on GenericForeignKeys as being\n    \"not found\" by get_field(). This could likely be cleaned up.\n\n    Reverse relations should also be excluded as these aren't attributes of the\n    model (rather something like `foo_set`).\n    \"\"\"",
+    "name": "_get_non_gfk_field",
+    "namespace": "django.contrib.admin.utils._get_non_gfk_field",
+    "class_name": "",
+    "module_name": "django.contrib.admin.utils",
+    "package_name": ""
+}

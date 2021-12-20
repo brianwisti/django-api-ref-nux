@@ -3,5 +3,103 @@
     "name": "DatabaseWrapper",
     "namespace": "django.db.backends.oracle.base.DatabaseWrapper",
     "module_name": "django.db.backends.oracle.base",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "__init__",
+            "namespace": "django.db.backends.oracle.base.DatabaseWrapper.__init__",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_connection_params",
+            "namespace": "django.db.backends.oracle.base.DatabaseWrapper.get_connection_params",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_new_connection",
+            "namespace": "django.db.backends.oracle.base.DatabaseWrapper.get_new_connection",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "init_connection_state",
+            "namespace": "django.db.backends.oracle.base.DatabaseWrapper.init_connection_state",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "create_cursor",
+            "namespace": "django.db.backends.oracle.base.DatabaseWrapper.create_cursor",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_commit",
+            "namespace": "django.db.backends.oracle.base.DatabaseWrapper._commit",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_savepoint_commit",
+            "namespace": "django.db.backends.oracle.base.DatabaseWrapper._savepoint_commit",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_set_autocommit",
+            "namespace": "django.db.backends.oracle.base.DatabaseWrapper._set_autocommit",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Check constraints by setting them to immediate. Return them to deferred\n        afterward.\n        \"\"\"",
+            "name": "check_constraints",
+            "namespace": "django.db.backends.oracle.base.DatabaseWrapper.check_constraints",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "is_usable",
+            "namespace": "django.db.backends.oracle.base.DatabaseWrapper.is_usable",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "cx_oracle_version",
+            "namespace": "django.db.backends.oracle.base.DatabaseWrapper.cx_oracle_version",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "oracle_version",
+            "namespace": "django.db.backends.oracle.base.DatabaseWrapper.oracle_version",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

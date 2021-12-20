@@ -3,5 +3,71 @@
     "name": "RegisterLookupMixin",
     "namespace": "django.db.models.query_utils.RegisterLookupMixin",
     "module_name": "django.db.models.query_utils",
-    "package_name": ""
+    "package_name": "",
+    "methods": [
+        {
+            "docstring": "",
+            "name": "_get_lookup",
+            "namespace": "django.db.models.query_utils.RegisterLookupMixin._get_lookup",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_lookups",
+            "namespace": "django.db.models.query_utils.RegisterLookupMixin.get_lookups",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_lookup",
+            "namespace": "django.db.models.query_utils.RegisterLookupMixin.get_lookup",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "get_transform",
+            "namespace": "django.db.models.query_utils.RegisterLookupMixin.get_transform",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Merge dicts in reverse to preference the order of the original list. e.g.,\n        merge_dicts([a, b]) will preference the keys in 'a' over those in 'b'.\n        \"\"\"",
+            "name": "merge_dicts",
+            "namespace": "django.db.models.query_utils.RegisterLookupMixin.merge_dicts",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_clear_cached_lookups",
+            "namespace": "django.db.models.query_utils.RegisterLookupMixin._clear_cached_lookups",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "register_lookup",
+            "namespace": "django.db.models.query_utils.RegisterLookupMixin.register_lookup",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n        Remove given lookup from cls lookups. For use in tests only as it's\n        not thread-safe.\n        \"\"\"",
+            "name": "_unregister_lookup",
+            "namespace": "django.db.models.query_utils.RegisterLookupMixin._unregister_lookup",
+            "class_name": "",
+            "module_name": "",
+            "package_name": ""
+        }
+    ]
 }

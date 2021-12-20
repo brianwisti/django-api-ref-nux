@@ -5,82 +5,948 @@
         {
             "docstring": "",
             "name": "_AssertNumQueriesContext",
-            "namespace": "django.test.testcases._AssertNumQueriesContext"
+            "namespace": "django.test.testcases._AssertNumQueriesContext",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.test.testcases._AssertNumQueriesContext.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__exit__",
+                    "namespace": "django.test.testcases._AssertNumQueriesContext.__exit__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "_AssertTemplateUsedContext",
-            "namespace": "django.test.testcases._AssertTemplateUsedContext"
+            "namespace": "django.test.testcases._AssertTemplateUsedContext",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.test.testcases._AssertTemplateUsedContext.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "on_template_render",
+                    "namespace": "django.test.testcases._AssertTemplateUsedContext.on_template_render",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "test",
+                    "namespace": "django.test.testcases._AssertTemplateUsedContext.test",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "message",
+                    "namespace": "django.test.testcases._AssertTemplateUsedContext.message",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__enter__",
+                    "namespace": "django.test.testcases._AssertTemplateUsedContext.__enter__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__exit__",
+                    "namespace": "django.test.testcases._AssertTemplateUsedContext.__exit__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "_AssertTemplateNotUsedContext",
-            "namespace": "django.test.testcases._AssertTemplateNotUsedContext"
+            "namespace": "django.test.testcases._AssertTemplateNotUsedContext",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "test",
+                    "namespace": "django.test.testcases._AssertTemplateNotUsedContext.test",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "message",
+                    "namespace": "django.test.testcases._AssertTemplateNotUsedContext.message",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "_DatabaseFailure",
-            "namespace": "django.test.testcases._DatabaseFailure"
+            "namespace": "django.test.testcases._DatabaseFailure",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.test.testcases._DatabaseFailure.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__call__",
+                    "namespace": "django.test.testcases._DatabaseFailure.__call__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "SimpleTestCase",
-            "namespace": "django.test.testcases.SimpleTestCase"
+            "namespace": "django.test.testcases.SimpleTestCase",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "setUpClass",
+                    "namespace": "django.test.testcases.SimpleTestCase.setUpClass",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_validate_databases",
+                    "namespace": "django.test.testcases.SimpleTestCase._validate_databases",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_add_databases_failures",
+                    "namespace": "django.test.testcases.SimpleTestCase._add_databases_failures",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_remove_databases_failures",
+                    "namespace": "django.test.testcases.SimpleTestCase._remove_databases_failures",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Wrapper around default __call__ method to perform common Django test\n        set up. This means that user-defined Test Cases aren't required to\n        include a call to super().setUp().\n        \"\"\"",
+                    "name": "__call__",
+                    "namespace": "django.test.testcases.SimpleTestCase.__call__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Perform the same as __call__(), without catching the exception.\"\"\"",
+                    "name": "debug",
+                    "namespace": "django.test.testcases.SimpleTestCase.debug",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Perform the following in order: pre-setup, run test, post-teardown,\n        skipping pre/post hooks if test is set to be skipped.\n\n        If debug=True, reraise any errors in setup and use super().debug()\n        instead of __call__() to run the test.\n        \"\"\"",
+                    "name": "_setup_and_call",
+                    "namespace": "django.test.testcases.SimpleTestCase._setup_and_call",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Perform pre-test setup:\n        * Create a test client.\n        * Clear the mail test outbox.\n        \"\"\"",
+                    "name": "_pre_setup",
+                    "namespace": "django.test.testcases.SimpleTestCase._pre_setup",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Perform post-test things.\"\"\"",
+                    "name": "_post_teardown",
+                    "namespace": "django.test.testcases.SimpleTestCase._post_teardown",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        A context manager that temporarily sets a setting and reverts to the\n        original value when exiting the context.\n        \"\"\"",
+                    "name": "settings",
+                    "namespace": "django.test.testcases.SimpleTestCase.settings",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        A context manager that temporarily applies changes a list setting and\n        reverts back to the original value when exiting the context.\n        \"\"\"",
+                    "name": "modify_settings",
+                    "namespace": "django.test.testcases.SimpleTestCase.modify_settings",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Assert that a response redirected to a specific URL and that the\n        redirect URL can be loaded.\n\n        Won't work for external links since it uses the test client to do a\n        request (use fetch_redirect_response=False to check such links without\n        fetching them).\n        \"\"\"",
+                    "name": "assertRedirects",
+                    "namespace": "django.test.testcases.SimpleTestCase.assertRedirects",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Assert that two URLs are the same, ignoring the order of query string\n        parameters except for parameters with the same name.\n\n        For example, /path/?x=1&y=2 is equal to /path/?y=2&x=1, but\n        /path/?a=1&a=2 isn't equal to /path/?a=2&a=1.\n        \"\"\"",
+                    "name": "assertURLEqual",
+                    "namespace": "django.test.testcases.SimpleTestCase.assertURLEqual",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_assert_contains",
+                    "namespace": "django.test.testcases.SimpleTestCase._assert_contains",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Assert that a response indicates that some content was retrieved\n        successfully, (i.e., the HTTP status code was as expected) and that\n        ``text`` occurs ``count`` times in the content of the response.\n        If ``count`` is None, the count doesn't matter - the assertion is true\n        if the text occurs at least once in the response.\n        \"\"\"",
+                    "name": "assertContains",
+                    "namespace": "django.test.testcases.SimpleTestCase.assertContains",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Assert that a response indicates that some content was retrieved\n        successfully, (i.e., the HTTP status code was as expected) and that\n        ``text`` doesn't occur in the content of the response.\n        \"\"\"",
+                    "name": "assertNotContains",
+                    "namespace": "django.test.testcases.SimpleTestCase.assertNotContains",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Assert that a form used to render the response has a specific field\n        error.\n        \"\"\"",
+                    "name": "assertFormError",
+                    "namespace": "django.test.testcases.SimpleTestCase.assertFormError",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Assert that a formset used to render the response has a specific error.\n\n        For field errors, specify the ``form_index`` and the ``field``.\n        For non-field errors, specify the ``form_index`` and the ``field`` as\n        None.\n        For non-form errors, specify ``form_index`` as None and the ``field``\n        as None.\n        \"\"\"",
+                    "name": "assertFormsetError",
+                    "namespace": "django.test.testcases.SimpleTestCase.assertFormsetError",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_assert_template_used",
+                    "namespace": "django.test.testcases.SimpleTestCase._assert_template_used",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Assert that the template with the provided name was used in rendering\n        the response. Also usable as context manager.\n        \"\"\"",
+                    "name": "assertTemplateUsed",
+                    "namespace": "django.test.testcases.SimpleTestCase.assertTemplateUsed",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Assert that the template with the provided name was NOT used in\n        rendering the response. Also usable as context manager.\n        \"\"\"",
+                    "name": "assertTemplateNotUsed",
+                    "namespace": "django.test.testcases.SimpleTestCase.assertTemplateNotUsed",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_assert_raises_or_warns_cm",
+                    "namespace": "django.test.testcases.SimpleTestCase._assert_raises_or_warns_cm",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_assertFooMessage",
+                    "namespace": "django.test.testcases.SimpleTestCase._assertFooMessage",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Assert that expected_message is found in the message of a raised\n        exception.\n\n        Args:\n            expected_exception: Exception class expected to be raised.\n            expected_message: expected error message string value.\n            args: Function to be called and extra positional args.\n            kwargs: Extra kwargs.\n        \"\"\"",
+                    "name": "assertRaisesMessage",
+                    "namespace": "django.test.testcases.SimpleTestCase.assertRaisesMessage",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Same as assertRaisesMessage but for assertWarns() instead of\n        assertRaises().\n        \"\"\"",
+                    "name": "assertWarnsMessage",
+                    "namespace": "django.test.testcases.SimpleTestCase.assertWarnsMessage",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n            Assert no messages are logged on the logger, with at least the\n            given level.\n            \"\"\"",
+                    "name": "assertNoLogs",
+                    "namespace": "django.test.testcases.SimpleTestCase.assertNoLogs",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Assert that a form field behaves correctly with various inputs.\n\n        Args:\n            fieldclass: the class of the field to be tested.\n            valid: a dictionary mapping valid inputs to their expected\n                    cleaned values.\n            invalid: a dictionary mapping invalid inputs to one or more\n                    raised error messages.\n            field_args: the args passed to instantiate the field\n            field_kwargs: the kwargs passed to instantiate the field\n            empty_value: the expected clean output for inputs in empty_values\n        \"\"\"",
+                    "name": "assertFieldOutput",
+                    "namespace": "django.test.testcases.SimpleTestCase.assertFieldOutput",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Assert that two HTML snippets are semantically the same.\n        Whitespace in most cases is ignored, and attribute ordering is not\n        significant. The arguments must be valid HTML.\n        \"\"\"",
+                    "name": "assertHTMLEqual",
+                    "namespace": "django.test.testcases.SimpleTestCase.assertHTMLEqual",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Assert that two HTML snippets are not semantically equivalent.\"\"\"",
+                    "name": "assertHTMLNotEqual",
+                    "namespace": "django.test.testcases.SimpleTestCase.assertHTMLNotEqual",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "assertInHTML",
+                    "namespace": "django.test.testcases.SimpleTestCase.assertInHTML",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Assert that the JSON fragments raw and expected_data are equal.\n        Usual JSON non-significant whitespace rules apply as the heavyweight\n        is delegated to the json library.\n        \"\"\"",
+                    "name": "assertJSONEqual",
+                    "namespace": "django.test.testcases.SimpleTestCase.assertJSONEqual",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Assert that the JSON fragments raw and expected_data are not equal.\n        Usual JSON non-significant whitespace rules apply as the heavyweight\n        is delegated to the json library.\n        \"\"\"",
+                    "name": "assertJSONNotEqual",
+                    "namespace": "django.test.testcases.SimpleTestCase.assertJSONNotEqual",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Assert that two XML snippets are semantically the same.\n        Whitespace in most cases is ignored and attribute ordering is not\n        significant. The arguments must be valid XML.\n        \"\"\"",
+                    "name": "assertXMLEqual",
+                    "namespace": "django.test.testcases.SimpleTestCase.assertXMLEqual",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Assert that two XML snippets are not semantically equivalent.\n        Whitespace in most cases is ignored and attribute ordering is not\n        significant. The arguments must be valid XML.\n        \"\"\"",
+                    "name": "assertXMLNotEqual",
+                    "namespace": "django.test.testcases.SimpleTestCase.assertXMLNotEqual",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "TransactionTestCase",
-            "namespace": "django.test.testcases.TransactionTestCase"
+            "namespace": "django.test.testcases.TransactionTestCase",
+            "methods": [
+                {
+                    "docstring": "\"\"\"\n        Perform pre-test setup:\n        * If the class has an 'available_apps' attribute, restrict the app\n          registry to these applications, then fire the post_migrate signal --\n          it must run with the correct set of applications for the test case.\n        * If the class has a 'fixtures' attribute, install those fixtures.\n        \"\"\"",
+                    "name": "_pre_setup",
+                    "namespace": "django.test.testcases.TransactionTestCase._pre_setup",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_databases_names",
+                    "namespace": "django.test.testcases.TransactionTestCase._databases_names",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_reset_sequences",
+                    "namespace": "django.test.testcases.TransactionTestCase._reset_sequences",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_fixture_setup",
+                    "namespace": "django.test.testcases.TransactionTestCase._fixture_setup",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_should_reload_connections",
+                    "namespace": "django.test.testcases.TransactionTestCase._should_reload_connections",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Perform post-test things:\n        * Flush the contents of the database to leave a clean slate. If the\n          class has an 'available_apps' attribute, don't fire post_migrate.\n        * Force-close the connection so the next test gets a clean cursor.\n        \"\"\"",
+                    "name": "_post_teardown",
+                    "namespace": "django.test.testcases.TransactionTestCase._post_teardown",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_fixture_teardown",
+                    "namespace": "django.test.testcases.TransactionTestCase._fixture_teardown",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "assertQuerysetEqual",
+                    "namespace": "django.test.testcases.TransactionTestCase.assertQuerysetEqual",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "assertNumQueries",
+                    "namespace": "django.test.testcases.TransactionTestCase.assertNumQueries",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Descriptor to provide TestCase instance isolation for attributes assigned\n    during the setUpTestData() phase.\n\n    Allow safe alteration of objects assigned in setUpTestData() by test\n    methods by exposing deep copies instead of the original objects.\n\n    Objects are deep copied using a memo kept on the test case instance in\n    order to maintain their original relationships.\n    \"\"\"",
             "name": "TestData",
-            "namespace": "django.test.testcases.TestData"
+            "namespace": "django.test.testcases.TestData",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.test.testcases.TestData.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_memo",
+                    "namespace": "django.test.testcases.TestData.get_memo",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__get__",
+                    "namespace": "django.test.testcases.TestData.__get__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__repr__",
+                    "namespace": "django.test.testcases.TestData.__repr__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Similar to TransactionTestCase, but use `transaction.atomic()` to achieve\n    test isolation.\n\n    In most situations, TestCase should be preferred to TransactionTestCase as\n    it allows faster execution. However, there are some situations where using\n    TransactionTestCase might be necessary (e.g. testing some transactional\n    behavior).\n\n    On database backends with no transaction support, TestCase behaves as\n    TransactionTestCase.\n    \"\"\"",
             "name": "TestCase",
-            "namespace": "django.test.testcases.TestCase"
+            "namespace": "django.test.testcases.TestCase",
+            "methods": [
+                {
+                    "docstring": "\"\"\"Open atomic blocks for multiple databases.\"\"\"",
+                    "name": "_enter_atomics",
+                    "namespace": "django.test.testcases.TestCase._enter_atomics",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Rollback atomic blocks opened by the previous method.\"\"\"",
+                    "name": "_rollback_atomics",
+                    "namespace": "django.test.testcases.TestCase._rollback_atomics",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_databases_support_transactions",
+                    "namespace": "django.test.testcases.TestCase._databases_support_transactions",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "setUpClass",
+                    "namespace": "django.test.testcases.TestCase.setUpClass",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "tearDownClass",
+                    "namespace": "django.test.testcases.TestCase.tearDownClass",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Load initial data for the TestCase.\"\"\"",
+                    "name": "setUpTestData",
+                    "namespace": "django.test.testcases.TestCase.setUpTestData",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_should_reload_connections",
+                    "namespace": "django.test.testcases.TestCase._should_reload_connections",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_fixture_setup",
+                    "namespace": "django.test.testcases.TestCase._fixture_setup",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_fixture_teardown",
+                    "namespace": "django.test.testcases.TestCase._fixture_teardown",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_should_check_constraints",
+                    "namespace": "django.test.testcases.TestCase._should_check_constraints",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Context manager to capture transaction.on_commit() callbacks.\"\"\"",
+                    "name": "captureOnCommitCallbacks",
+                    "namespace": "django.test.testcases.TestCase.captureOnCommitCallbacks",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"Descriptor class for deferred condition checking.\"\"\"",
             "name": "CheckCondition",
-            "namespace": "django.test.testcases.CheckCondition"
+            "namespace": "django.test.testcases.CheckCondition",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.test.testcases.CheckCondition.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "add_condition",
+                    "namespace": "django.test.testcases.CheckCondition.add_condition",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__get__",
+                    "namespace": "django.test.testcases.CheckCondition.__get__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    A WSGIRequestHandler that doesn't log to standard output any of the\n    requests received, so as to not clutter the test result output.\n    \"\"\"",
             "name": "QuietWSGIRequestHandler",
-            "namespace": "django.test.testcases.QuietWSGIRequestHandler"
+            "namespace": "django.test.testcases.QuietWSGIRequestHandler",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "log_message",
+                    "namespace": "django.test.testcases.QuietWSGIRequestHandler.log_message",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    WSGI middleware that intercepts calls to a directory, as defined by one of\n    the *_ROOT settings, and serves those files, publishing them under *_URL.\n    \"\"\"",
             "name": "FSFilesHandler",
-            "namespace": "django.test.testcases.FSFilesHandler"
+            "namespace": "django.test.testcases.FSFilesHandler",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.test.testcases.FSFilesHandler.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Check if the path should be handled. Ignore the path if:\n        * the host is provided as part of the base_url\n        * the request's path isn't under the media path (or equal)\n        \"\"\"",
+                    "name": "_should_handle",
+                    "namespace": "django.test.testcases.FSFilesHandler._should_handle",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Return the relative path to the file on disk for the given URL.\"\"\"",
+                    "name": "file_path",
+                    "namespace": "django.test.testcases.FSFilesHandler.file_path",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_response",
+                    "namespace": "django.test.testcases.FSFilesHandler.get_response",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "serve",
+                    "namespace": "django.test.testcases.FSFilesHandler.serve",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__call__",
+                    "namespace": "django.test.testcases.FSFilesHandler.__call__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Handler for serving static files. A private class that is meant to be used\n    solely as a convenience by LiveServerThread.\n    \"\"\"",
             "name": "_StaticFilesHandler",
-            "namespace": "django.test.testcases._StaticFilesHandler"
+            "namespace": "django.test.testcases._StaticFilesHandler",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_base_dir",
+                    "namespace": "django.test.testcases._StaticFilesHandler.get_base_dir",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_base_url",
+                    "namespace": "django.test.testcases._StaticFilesHandler.get_base_url",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Handler for serving the media files. A private class that is meant to be\n    used solely as a convenience by LiveServerThread.\n    \"\"\"",
             "name": "_MediaFilesHandler",
-            "namespace": "django.test.testcases._MediaFilesHandler"
+            "namespace": "django.test.testcases._MediaFilesHandler",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_base_dir",
+                    "namespace": "django.test.testcases._MediaFilesHandler.get_base_dir",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "get_base_url",
+                    "namespace": "django.test.testcases._MediaFilesHandler.get_base_url",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"Thread for running a live HTTP server while the tests are running.\"\"\"",
             "name": "LiveServerThread",
-            "namespace": "django.test.testcases.LiveServerThread"
+            "namespace": "django.test.testcases.LiveServerThread",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.test.testcases.LiveServerThread.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n        Set up the live server and databases, and then loop over handling\n        HTTP requests.\n        \"\"\"",
+                    "name": "run",
+                    "namespace": "django.test.testcases.LiveServerThread.run",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_create_server",
+                    "namespace": "django.test.testcases.LiveServerThread._create_server",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "terminate",
+                    "namespace": "django.test.testcases.LiveServerThread.terminate",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Do basically the same as TransactionTestCase but also launch a live HTTP\n    server in a separate thread so that the tests may use another testing\n    framework, such as Selenium for example, instead of the built-in dummy\n    client.\n    It inherits from TransactionTestCase instead of TestCase because the\n    threads don't share the same transactions (unless if using in-memory sqlite)\n    and each thread needs to commit all their transactions so that the other\n    thread can see the changes.\n    \"\"\"",
             "name": "LiveServerTestCase",
-            "namespace": "django.test.testcases.LiveServerTestCase"
+            "namespace": "django.test.testcases.LiveServerTestCase",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "live_server_url",
+                    "namespace": "django.test.testcases.LiveServerTestCase.live_server_url",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "allowed_host",
+                    "namespace": "django.test.testcases.LiveServerTestCase.allowed_host",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_make_connections_override",
+                    "namespace": "django.test.testcases.LiveServerTestCase._make_connections_override",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "setUpClass",
+                    "namespace": "django.test.testcases.LiveServerTestCase.setUpClass",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_create_server_thread",
+                    "namespace": "django.test.testcases.LiveServerTestCase._create_server_thread",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "_tearDownClassInternal",
+                    "namespace": "django.test.testcases.LiveServerTestCase._tearDownClassInternal",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "tearDownClass",
+                    "namespace": "django.test.testcases.LiveServerTestCase.tearDownClass",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "\"\"\"\n    Enforce serialization of TestCases that share a common resource.\n\n    Define a common 'lockfile' for each set of TestCases to serialize. This\n    file must exist on the filesystem.\n\n    Place it early in the MRO in order to isolate setUpClass()/tearDownClass().\n    \"\"\"",
             "name": "SerializeMixin",
-            "namespace": "django.test.testcases.SerializeMixin"
+            "namespace": "django.test.testcases.SerializeMixin",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init_subclass__",
+                    "namespace": "django.test.testcases.SerializeMixin.__init_subclass__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "setUpClass",
+                    "namespace": "django.test.testcases.SerializeMixin.setUpClass",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    Put value into a list if it's not already one. Return an empty list if\n    value is None.\n    \"\"\"",
+            "name": "to_list",
+            "namespace": "django.test.testcases.to_list",
+            "class_name": "",
+            "module_name": "django.test.testcases",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "assert_and_parse_html",
+            "namespace": "django.test.testcases.assert_and_parse_html",
+            "class_name": "",
+            "module_name": "django.test.testcases",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"\n    Return whether or not all (or specified) connections support\n    transactions.\n    \"\"\"",
+            "name": "connections_support_transactions",
+            "namespace": "django.test.testcases.connections_support_transactions",
+            "class_name": "",
+            "module_name": "django.test.testcases",
+            "package_name": ""
+        },
+        {
+            "docstring": "",
+            "name": "_deferredSkip",
+            "namespace": "django.test.testcases._deferredSkip",
+            "class_name": "",
+            "module_name": "django.test.testcases",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Skip a test if a database has at least one of the named features.\"\"\"",
+            "name": "skipIfDBFeature",
+            "namespace": "django.test.testcases.skipIfDBFeature",
+            "class_name": "",
+            "module_name": "django.test.testcases",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Skip a test unless a database has all the named features.\"\"\"",
+            "name": "skipUnlessDBFeature",
+            "namespace": "django.test.testcases.skipUnlessDBFeature",
+            "class_name": "",
+            "module_name": "django.test.testcases",
+            "package_name": ""
+        },
+        {
+            "docstring": "\"\"\"Skip a test unless a database has any of the named features.\"\"\"",
+            "name": "skipUnlessAnyDBFeature",
+            "namespace": "django.test.testcases.skipUnlessAnyDBFeature",
+            "class_name": "",
+            "module_name": "django.test.testcases",
+            "package_name": ""
         }
     ],
     "package_name": "django.test"

@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Initialize on an exterior ring and a sequence of holes (both\n        instances may be either LinearRing instances, or a tuple/list\n        that may be constructed into a LinearRing).\n\n        Examples of initialization, where shell, hole1, and hole2 are\n        valid LinearRing geometries:\n        >>> from django.contrib.gis.geos import LinearRing, Polygon\n        >>> shell = hole1 = hole2 = LinearRing()\n        >>> poly = Polygon(shell, hole1, hole2)\n        >>> poly = Polygon(shell, (hole1, hole2))\n\n        >>> # Example where a tuple parameters are used:\n        >>> poly = Polygon(((0, 0), (0, 10), (10, 10), (0, 10), (0, 0)),\n        ...                ((4, 4), (4, 6), (6, 6), (6, 4), (4, 4)))\n        \"\"\"",
+    "name": "__init__",
+    "namespace": "django.contrib.gis.geos.polygon.Polygon.__init__",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

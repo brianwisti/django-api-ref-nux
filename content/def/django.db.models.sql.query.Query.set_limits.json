@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n        Adjust the limits on the rows retrieved. Use low/high to set these,\n        as it makes it more Pythonic to read and write. When the SQL query is\n        created, convert them to the appropriate offset and limit values.\n\n        Apply any limits passed in here to the existing constraints. Add low\n        to the current low value and clamp both to any existing high value.\n        \"\"\"",
+    "name": "set_limits",
+    "namespace": "django.db.models.sql.query.Query.set_limits",
+    "class_name": "",
+    "module_name": "",
+    "package_name": ""
+}

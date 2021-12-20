@@ -2,44 +2,228 @@
     "name": "django.core.serializers",
     "docstring": "\"\"\"\nInterfaces for serializing Django objects.\n\nUsage::\n\n    from django.core import serializers\n    json = serializers.serialize(\"json\", some_queryset)\n    objects = list(serializers.deserialize(\"json\", json))\n\nTo add your own serializers, use the SERIALIZATION_MODULES setting::\n\n    SERIALIZATION_MODULES = {\n        \"csv\": \"path.to.csv.serializer\",\n        \"txt\": \"path.to.txt.serializer\",\n    }\n\n\"\"\"",
     "package_name": "django.core",
+    "functions": [
+        {
+            "docstring": "\"\"\"Register a new serializer.\n\n    ``serializer_module`` should be the fully qualified module name\n    for the serializer.\n\n    If ``serializers`` is provided, the registration will be added\n    to the provided dictionary.\n\n    If ``serializers`` is not provided, the registration will be made\n    directly into the global register of serializers. Adding serializers\n    directly is not a thread-safe operation.\n    \"\"\"",
+            "name": "register_serializer",
+            "namespace": "django.core.serializers.register_serializer",
+            "class_name": "",
+            "module_name": "django.core.serializers",
+            "package_name": "django.core.serializers"
+        },
+        {
+            "docstring": "\"Unregister a given serializer. This is not a thread-safe operation.\"",
+            "name": "unregister_serializer",
+            "namespace": "django.core.serializers.unregister_serializer",
+            "class_name": "",
+            "module_name": "django.core.serializers",
+            "package_name": "django.core.serializers"
+        },
+        {
+            "docstring": "",
+            "name": "get_serializer",
+            "namespace": "django.core.serializers.get_serializer",
+            "class_name": "",
+            "module_name": "django.core.serializers",
+            "package_name": "django.core.serializers"
+        },
+        {
+            "docstring": "",
+            "name": "get_serializer_formats",
+            "namespace": "django.core.serializers.get_serializer_formats",
+            "class_name": "",
+            "module_name": "django.core.serializers",
+            "package_name": "django.core.serializers"
+        },
+        {
+            "docstring": "",
+            "name": "get_public_serializer_formats",
+            "namespace": "django.core.serializers.get_public_serializer_formats",
+            "class_name": "",
+            "module_name": "django.core.serializers",
+            "package_name": "django.core.serializers"
+        },
+        {
+            "docstring": "",
+            "name": "get_deserializer",
+            "namespace": "django.core.serializers.get_deserializer",
+            "class_name": "",
+            "module_name": "django.core.serializers",
+            "package_name": "django.core.serializers"
+        },
+        {
+            "docstring": "\"\"\"\n    Serialize a queryset (or any iterator that returns database objects) using\n    a certain serializer.\n    \"\"\"",
+            "name": "serialize",
+            "namespace": "django.core.serializers.serialize",
+            "class_name": "",
+            "module_name": "django.core.serializers",
+            "package_name": "django.core.serializers"
+        },
+        {
+            "docstring": "\"\"\"\n    Deserialize a stream or a string. Return an iterator that yields ``(obj,\n    m2m_relation_dict)``, where ``obj`` is an instantiated -- but *unsaved* --\n    object, and ``m2m_relation_dict`` is a dictionary of ``{m2m_field_name :\n    list_of_related_objects}``.\n    \"\"\"",
+            "name": "deserialize",
+            "namespace": "django.core.serializers.deserialize",
+            "class_name": "",
+            "module_name": "django.core.serializers",
+            "package_name": "django.core.serializers"
+        },
+        {
+            "docstring": "\"\"\"\n    Register built-in and settings-defined serializers. This is done lazily so\n    that user code has a chance to (e.g.) set up custom settings without\n    needing to be careful of import order.\n    \"\"\"",
+            "name": "_load_serializers",
+            "namespace": "django.core.serializers._load_serializers",
+            "class_name": "",
+            "module_name": "django.core.serializers",
+            "package_name": "django.core.serializers"
+        },
+        {
+            "docstring": "\"\"\"Sort a list of (app_config, models) pairs into a single list of models.\n\n    The single list of models is sorted so that any model with a natural key\n    is serialized before a normal model, and any model with a natural key\n    dependency has it's dependencies serialized first.\n\n    If allow_cycles is True, return the best-effort ordering that will respect\n    most of dependencies but ignore some of them to break the cycles.\n    \"\"\"",
+            "name": "sort_dependencies",
+            "namespace": "django.core.serializers.sort_dependencies",
+            "class_name": "",
+            "module_name": "django.core.serializers",
+            "package_name": "django.core.serializers"
+        }
+    ],
     "classes": [
         {
             "docstring": "\"\"\"\n    Stub serializer to hold exception raised during registration\n\n    This allows the serializer registration to cache serializers and if there\n    is an error raised in the process of creating a serializer it will be\n    raised and passed along to the caller when the serializer is used.\n    \"\"\"",
             "name": "BadSerializer",
             "namespace": "django.core.serializers.BadSerializer",
             "module_name": "django.core.serializers",
-            "package_name": "django.core.serializers"
+            "package_name": "django.core.serializers",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.core.serializers.BadSerializer.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "__call__",
+                    "namespace": "django.core.serializers.BadSerializer.__call__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         }
     ],
     "modules": [
         {
             "namespace": "django.core.serializers.pyyaml",
             "docstring": "\"\"\"\nYAML serializer.\n\nRequires PyYaml (https://pyyaml.org/), but that's checked for in __init__.\n\"\"\"",
+            "functions": [
+                {
+                    "docstring": "\"\"\"Deserialize a stream or string of YAML data.\"\"\"",
+                    "name": "Deserializer",
+                    "namespace": "django.core.serializers.pyyaml.Deserializer",
+                    "class_name": "",
+                    "module_name": "django.core.serializers.pyyaml",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.core.serializers"
         },
         {
             "namespace": "django.core.serializers.xml_serializer",
             "docstring": "\"\"\"\nXML serializer.\n\"\"\"",
+            "functions": [
+                {
+                    "docstring": "\"\"\"Get all the inner text of a DOM node (recursively).\"\"\"",
+                    "name": "getInnerText",
+                    "namespace": "django.core.serializers.xml_serializer.getInnerText",
+                    "class_name": "",
+                    "module_name": "django.core.serializers.xml_serializer",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.core.serializers"
         },
         {
             "namespace": "django.core.serializers.jsonl",
             "docstring": "\"\"\"\nSerialize data to/from JSON Lines\n\"\"\"",
+            "functions": [
+                {
+                    "docstring": "\"\"\"Deserialize a stream or string of JSON data.\"\"\"",
+                    "name": "Deserializer",
+                    "namespace": "django.core.serializers.jsonl.Deserializer",
+                    "class_name": "",
+                    "module_name": "django.core.serializers.jsonl",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.core.serializers"
         },
         {
             "namespace": "django.core.serializers.python",
             "docstring": "\"\"\"\nA Python \"serializer\". Doesn't do much serializing per se -- just converts to\nand from basic Python data types (lists, dicts, strings, etc.). Useful as a basis for\nother serializers.\n\"\"\"",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Deserialize simple Python objects back into Django ORM instances.\n\n    It's expected that you pass the Python objects themselves (instead of a\n    stream or a string) to the constructor\n    \"\"\"",
+                    "name": "Deserializer",
+                    "namespace": "django.core.serializers.python.Deserializer",
+                    "class_name": "",
+                    "module_name": "django.core.serializers.python",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"Look up a model from an \"app_label.model_name\" string.\"\"\"",
+                    "name": "_get_model",
+                    "namespace": "django.core.serializers.python._get_model",
+                    "class_name": "",
+                    "module_name": "django.core.serializers.python",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.core.serializers"
         },
         {
             "namespace": "django.core.serializers.json",
             "docstring": "\"\"\"\nSerialize data to/from JSON\n\"\"\"",
+            "functions": [
+                {
+                    "docstring": "\"\"\"Deserialize a stream or string of JSON data.\"\"\"",
+                    "name": "Deserializer",
+                    "namespace": "django.core.serializers.json.Deserializer",
+                    "class_name": "",
+                    "module_name": "django.core.serializers.json",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.core.serializers"
         },
         {
             "namespace": "django.core.serializers.base",
             "docstring": "\"\"\"\nModule for abstract serializer/unserializer base classes.\n\"\"\"",
+            "functions": [
+                {
+                    "docstring": "\"\"\"\n    Build a model instance.\n\n    If the model instance doesn't have a primary key and the model supports\n    natural keys, try to retrieve it from the database.\n    \"\"\"",
+                    "name": "build_instance",
+                    "namespace": "django.core.serializers.base.build_instance",
+                    "class_name": "",
+                    "module_name": "django.core.serializers.base",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "deserialize_m2m_values",
+                    "namespace": "django.core.serializers.base.deserialize_m2m_values",
+                    "class_name": "",
+                    "module_name": "django.core.serializers.base",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "deserialize_fk_value",
+                    "namespace": "django.core.serializers.base.deserialize_fk_value",
+                    "class_name": "",
+                    "module_name": "django.core.serializers.base",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.core.serializers"
         }
     ],

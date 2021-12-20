@@ -2,126 +2,211 @@
     "name": "django.core.management.commands",
     "docstring": "",
     "package_name": "django.core.management",
+    "functions": [],
     "classes": [],
     "modules": [
         {
             "namespace": "django.core.management.commands.createcachetable",
             "docstring": "",
+            "functions": [],
             "package_name": "django.core.management.commands"
         },
         {
             "namespace": "django.core.management.commands.inspectdb",
             "docstring": "",
+            "functions": [],
             "package_name": "django.core.management.commands"
         },
         {
             "namespace": "django.core.management.commands.squashmigrations",
             "docstring": "",
+            "functions": [],
             "package_name": "django.core.management.commands"
         },
         {
             "namespace": "django.core.management.commands.check",
             "docstring": "",
+            "functions": [],
             "package_name": "django.core.management.commands"
         },
         {
             "namespace": "django.core.management.commands.startapp",
             "docstring": "",
+            "functions": [],
             "package_name": "django.core.management.commands"
         },
         {
             "namespace": "django.core.management.commands.sqlmigrate",
             "docstring": "",
+            "functions": [],
             "package_name": "django.core.management.commands"
         },
         {
             "namespace": "django.core.management.commands.makemigrations",
             "docstring": "",
+            "functions": [],
             "package_name": "django.core.management.commands"
         },
         {
             "namespace": "django.core.management.commands.sqlflush",
             "docstring": "",
+            "functions": [],
             "package_name": "django.core.management.commands"
         },
         {
             "namespace": "django.core.management.commands.makemessages",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "check_programs",
+                    "namespace": "django.core.management.commands.makemessages.check_programs",
+                    "class_name": "",
+                    "module_name": "django.core.management.commands.makemessages",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Take a block of raw text that will be passed through str.splitlines() to\n    get universal newlines treatment.\n\n    Return the resulting block of text with normalized `\\n` EOL sequences ready\n    to be written to disk using current platform's native EOLs.\n    \"\"\"",
+                    "name": "normalize_eols",
+                    "namespace": "django.core.management.commands.makemessages.normalize_eols",
+                    "class_name": "",
+                    "module_name": "django.core.management.commands.makemessages",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "\"\"\"\n    Write the `potfile` with the `msgs` contents, making sure its format is\n    valid.\n    \"\"\"",
+                    "name": "write_pot_file",
+                    "namespace": "django.core.management.commands.makemessages.write_pot_file",
+                    "class_name": "",
+                    "module_name": "django.core.management.commands.makemessages",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.core.management.commands"
         },
         {
             "namespace": "django.core.management.commands.shell",
             "docstring": "",
+            "functions": [],
             "package_name": "django.core.management.commands"
         },
         {
             "namespace": "django.core.management.commands.dumpdata",
             "docstring": "",
+            "functions": [],
             "package_name": "django.core.management.commands"
         },
         {
             "namespace": "django.core.management.commands.test",
             "docstring": "",
+            "functions": [],
             "package_name": "django.core.management.commands"
         },
         {
             "namespace": "django.core.management.commands.flush",
             "docstring": "",
+            "functions": [],
             "package_name": "django.core.management.commands"
         },
         {
             "namespace": "django.core.management.commands.loaddata",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "humanize",
+                    "namespace": "django.core.management.commands.loaddata.humanize",
+                    "class_name": "",
+                    "module_name": "django.core.management.commands.loaddata",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.core.management.commands"
         },
         {
             "namespace": "django.core.management.commands.runserver",
             "docstring": "",
+            "functions": [],
             "package_name": "django.core.management.commands"
         },
         {
             "namespace": "django.core.management.commands.showmigrations",
             "docstring": "",
+            "functions": [],
             "package_name": "django.core.management.commands"
         },
         {
             "namespace": "django.core.management.commands.sqlsequencereset",
             "docstring": "",
+            "functions": [],
             "package_name": "django.core.management.commands"
         },
         {
             "namespace": "django.core.management.commands.dbshell",
             "docstring": "",
+            "functions": [],
             "package_name": "django.core.management.commands"
         },
         {
             "namespace": "django.core.management.commands.sendtestemail",
             "docstring": "",
+            "functions": [],
             "package_name": "django.core.management.commands"
         },
         {
             "namespace": "django.core.management.commands.startproject",
             "docstring": "",
+            "functions": [],
             "package_name": "django.core.management.commands"
         },
         {
             "namespace": "django.core.management.commands.migrate",
             "docstring": "",
+            "functions": [],
             "package_name": "django.core.management.commands"
         },
         {
             "namespace": "django.core.management.commands.compilemessages",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "",
+                    "name": "has_bom",
+                    "namespace": "django.core.management.commands.compilemessages.has_bom",
+                    "class_name": "",
+                    "module_name": "django.core.management.commands.compilemessages",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "is_writable",
+                    "namespace": "django.core.management.commands.compilemessages.is_writable",
+                    "class_name": "",
+                    "module_name": "django.core.management.commands.compilemessages",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.core.management.commands"
         },
         {
             "namespace": "django.core.management.commands.diffsettings",
             "docstring": "",
+            "functions": [
+                {
+                    "docstring": "\"\"\"Convert a module namespace to a Python dictionary.\"\"\"",
+                    "name": "module_to_dict",
+                    "namespace": "django.core.management.commands.diffsettings.module_to_dict",
+                    "class_name": "",
+                    "module_name": "django.core.management.commands.diffsettings",
+                    "package_name": ""
+                }
+            ],
             "package_name": "django.core.management.commands"
         },
         {
             "namespace": "django.core.management.commands.testserver",
             "docstring": "",
+            "functions": [],
             "package_name": "django.core.management.commands"
         }
     ],

@@ -2,5 +2,15 @@
     "namespace": "django.core.wsgi",
     "docstring": "",
     "classes": [],
+    "functions": [
+        {
+            "docstring": "\"\"\"\n    The public interface to Django's WSGI support. Return a WSGI callable.\n\n    Avoids making django.core.handlers.WSGIHandler a public API, in case the\n    internal WSGI implementation changes or moves in the future.\n    \"\"\"",
+            "name": "get_wsgi_application",
+            "namespace": "django.core.wsgi.get_wsgi_application",
+            "class_name": "",
+            "module_name": "django.core.wsgi",
+            "package_name": ""
+        }
+    ],
     "package_name": "django.core"
 }

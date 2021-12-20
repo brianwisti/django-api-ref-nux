@@ -1,0 +1,8 @@
+{
+    "docstring": "r\"\"\"\n    An iterator that yields the next character from \"pattern_iter\", respecting\n    escape sequences. An escaped character is replaced by a representative of\n    its class (e.g. \\w -> \"x\"). If the escaped character is one that is\n    skipped, it is not returned (the next character is returned instead).\n\n    Yield the next character, along with a boolean indicating whether it is a\n    raw (unescaped) character or not.\n    \"\"\"",
+    "name": "next_char",
+    "namespace": "django.utils.regex_helper.next_char",
+    "class_name": "",
+    "module_name": "django.utils.regex_helper",
+    "package_name": ""
+}

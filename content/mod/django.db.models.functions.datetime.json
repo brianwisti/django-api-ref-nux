@@ -5,133 +5,263 @@
         {
             "docstring": "",
             "name": "TimezoneMixin",
-            "namespace": "django.db.models.functions.datetime.TimezoneMixin"
+            "namespace": "django.db.models.functions.datetime.TimezoneMixin",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "get_tzname",
+                    "namespace": "django.db.models.functions.datetime.TimezoneMixin.get_tzname",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Extract",
-            "namespace": "django.db.models.functions.datetime.Extract"
+            "namespace": "django.db.models.functions.datetime.Extract",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.functions.datetime.Extract.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.db.models.functions.datetime.Extract.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "resolve_expression",
+                    "namespace": "django.db.models.functions.datetime.Extract.resolve_expression",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "ExtractYear",
-            "namespace": "django.db.models.functions.datetime.ExtractYear"
+            "namespace": "django.db.models.functions.datetime.ExtractYear",
+            "methods": []
         },
         {
             "docstring": "\"\"\"Return the ISO-8601 week-numbering year.\"\"\"",
             "name": "ExtractIsoYear",
-            "namespace": "django.db.models.functions.datetime.ExtractIsoYear"
+            "namespace": "django.db.models.functions.datetime.ExtractIsoYear",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "ExtractMonth",
-            "namespace": "django.db.models.functions.datetime.ExtractMonth"
+            "namespace": "django.db.models.functions.datetime.ExtractMonth",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "ExtractDay",
-            "namespace": "django.db.models.functions.datetime.ExtractDay"
+            "namespace": "django.db.models.functions.datetime.ExtractDay",
+            "methods": []
         },
         {
             "docstring": "\"\"\"\n    Return 1-52 or 53, based on ISO-8601, i.e., Monday is the first of the\n    week.\n    \"\"\"",
             "name": "ExtractWeek",
-            "namespace": "django.db.models.functions.datetime.ExtractWeek"
+            "namespace": "django.db.models.functions.datetime.ExtractWeek",
+            "methods": []
         },
         {
             "docstring": "\"\"\"\n    Return Sunday=1 through Saturday=7.\n\n    To replicate this in Python: (mydatetime.isoweekday() % 7) + 1\n    \"\"\"",
             "name": "ExtractWeekDay",
-            "namespace": "django.db.models.functions.datetime.ExtractWeekDay"
+            "namespace": "django.db.models.functions.datetime.ExtractWeekDay",
+            "methods": []
         },
         {
             "docstring": "\"\"\"Return Monday=1 through Sunday=7, based on ISO-8601.\"\"\"",
             "name": "ExtractIsoWeekDay",
-            "namespace": "django.db.models.functions.datetime.ExtractIsoWeekDay"
+            "namespace": "django.db.models.functions.datetime.ExtractIsoWeekDay",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "ExtractQuarter",
-            "namespace": "django.db.models.functions.datetime.ExtractQuarter"
+            "namespace": "django.db.models.functions.datetime.ExtractQuarter",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "ExtractHour",
-            "namespace": "django.db.models.functions.datetime.ExtractHour"
+            "namespace": "django.db.models.functions.datetime.ExtractHour",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "ExtractMinute",
-            "namespace": "django.db.models.functions.datetime.ExtractMinute"
+            "namespace": "django.db.models.functions.datetime.ExtractMinute",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "ExtractSecond",
-            "namespace": "django.db.models.functions.datetime.ExtractSecond"
+            "namespace": "django.db.models.functions.datetime.ExtractSecond",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "Now",
-            "namespace": "django.db.models.functions.datetime.Now"
+            "namespace": "django.db.models.functions.datetime.Now",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "as_postgresql",
+                    "namespace": "django.db.models.functions.datetime.Now.as_postgresql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "TruncBase",
-            "namespace": "django.db.models.functions.datetime.TruncBase"
+            "namespace": "django.db.models.functions.datetime.TruncBase",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.functions.datetime.TruncBase.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.db.models.functions.datetime.TruncBase.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "resolve_expression",
+                    "namespace": "django.db.models.functions.datetime.TruncBase.resolve_expression",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                },
+                {
+                    "docstring": "",
+                    "name": "convert_value",
+                    "namespace": "django.db.models.functions.datetime.TruncBase.convert_value",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "Trunc",
-            "namespace": "django.db.models.functions.datetime.Trunc"
+            "namespace": "django.db.models.functions.datetime.Trunc",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "__init__",
+                    "namespace": "django.db.models.functions.datetime.Trunc.__init__",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "TruncYear",
-            "namespace": "django.db.models.functions.datetime.TruncYear"
+            "namespace": "django.db.models.functions.datetime.TruncYear",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "TruncQuarter",
-            "namespace": "django.db.models.functions.datetime.TruncQuarter"
+            "namespace": "django.db.models.functions.datetime.TruncQuarter",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "TruncMonth",
-            "namespace": "django.db.models.functions.datetime.TruncMonth"
+            "namespace": "django.db.models.functions.datetime.TruncMonth",
+            "methods": []
         },
         {
             "docstring": "\"\"\"Truncate to midnight on the Monday of the week.\"\"\"",
             "name": "TruncWeek",
-            "namespace": "django.db.models.functions.datetime.TruncWeek"
+            "namespace": "django.db.models.functions.datetime.TruncWeek",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "TruncDay",
-            "namespace": "django.db.models.functions.datetime.TruncDay"
+            "namespace": "django.db.models.functions.datetime.TruncDay",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "TruncDate",
-            "namespace": "django.db.models.functions.datetime.TruncDate"
+            "namespace": "django.db.models.functions.datetime.TruncDate",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.db.models.functions.datetime.TruncDate.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "TruncTime",
-            "namespace": "django.db.models.functions.datetime.TruncTime"
+            "namespace": "django.db.models.functions.datetime.TruncTime",
+            "methods": [
+                {
+                    "docstring": "",
+                    "name": "as_sql",
+                    "namespace": "django.db.models.functions.datetime.TruncTime.as_sql",
+                    "class_name": "",
+                    "module_name": "",
+                    "package_name": ""
+                }
+            ]
         },
         {
             "docstring": "",
             "name": "TruncHour",
-            "namespace": "django.db.models.functions.datetime.TruncHour"
+            "namespace": "django.db.models.functions.datetime.TruncHour",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "TruncMinute",
-            "namespace": "django.db.models.functions.datetime.TruncMinute"
+            "namespace": "django.db.models.functions.datetime.TruncMinute",
+            "methods": []
         },
         {
             "docstring": "",
             "name": "TruncSecond",
-            "namespace": "django.db.models.functions.datetime.TruncSecond"
+            "namespace": "django.db.models.functions.datetime.TruncSecond",
+            "methods": []
         }
     ],
+    "functions": [],
     "package_name": "django.db.models.functions"
 }

@@ -1,0 +1,8 @@
+{
+    "docstring": "\"\"\"\n    Create random Latin text useful for providing test data in templates.\n\n    Usage format::\n\n        {% lorem [count] [method] [random] %}\n\n    ``count`` is a number (or variable) containing the number of paragraphs or\n    words to generate (default is 1).\n\n    ``method`` is either ``w`` for words, ``p`` for HTML paragraphs, ``b`` for\n    plain-text paragraph blocks (default is ``b``).\n\n    ``random`` is the word ``random``, which if given, does not use the common\n    paragraph (starting \"Lorem ipsum dolor sit amet, consectetuer...\").\n\n    Examples:\n\n    * ``{% lorem %}`` outputs the common \"lorem ipsum\" paragraph\n    * ``{% lorem 3 p %}`` outputs the common \"lorem ipsum\" paragraph\n      and two random paragraphs each wrapped in HTML ``<p>`` tags\n    * ``{% lorem 2 w random %}`` outputs two random latin words\n    \"\"\"",
+    "name": "lorem",
+    "namespace": "django.template.defaulttags.lorem",
+    "class_name": "",
+    "module_name": "django.template.defaulttags",
+    "package_name": ""
+}
