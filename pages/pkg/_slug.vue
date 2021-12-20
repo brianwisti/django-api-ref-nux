@@ -16,6 +16,12 @@
             :packageName="pkg.name"
             />
         </b-col>
+        <b-col>
+          <ClassList
+            :classes="pkg.classes"
+            :parentName="pkg.name"
+            />
+        </b-col>
       </b-row>
     </b-container>
   </div>

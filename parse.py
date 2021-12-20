@@ -2,7 +2,7 @@ import logging
 import os
 import sys
 from pathlib import Path
-from typing import List, Generator, Optional
+from typing import List, Generator, Mapping, Optional
 
 import parso
 import typer
@@ -49,35 +49,36 @@ class ClassDef(BaseModel):
 
     docstring: str = EMPTY_STRING
     name: str
-    parent_name: str
+    namespace: str
+    parent_namespace: str
     _parsed: parso.python.tree.Class = PrivateAttr()
 
+    def to_json(self) -> str:
+        return self.json(indent=4)
+
     @classmethod
-    def from_parsed_class(cls, parent_name: str, parsed_class: parso.python.tree.Class) -> "ClassDef":
+    def from_parsed_class(cls, parent_namespace: str, parsed_class: parso.python.tree.Class) -> "ClassDef":
         docstring = find_node_docstring(parsed_class)
         name = parsed_class.name.value
+        namespace = f"{parent_namespace}.{name}"
         return cls(
             docstring=docstring,
             name=name,
-            parent_name=parent_name,
+            namespace=namespace,
+            parent_namespace=parent_namespace,
             _parsed=parsed_class
         )
 
 class Module(BaseModel):
     """A Python file with some names defined."""
 
-    path: Path
-    docstring: str = EMPTY_STRING
     namespace: str
+    docstring: str = EMPTY_STRING
     classes: List[ClassDef] = Field(default_factory=list)
     _parsed: parso.python.tree.Module = PrivateAttr()
 
     def __init__(self, **data):
         super().__init__(**data)
-        source = self.path.read_text()
-        self._parsed = parso.parse(source).get_root_node()
-        self.docstring = self._find_docstring()
-        self._load_classdefs()
         log.debug("Loaded module %s", self.namespace)
 
     def __repr__(self) -> str:
@@ -88,31 +89,26 @@ class Module(BaseModel):
         """Use the module namespace for stringification"""
         return self.namespace
 
-
-    def add_class_def(self, parsed_class: parso.python.tree.Class):
-        class_def = ClassDef.from_parsed_class(self.namespace, parsed_class)
-        log.info("MODULE %s classdef: %s", self, class_def)
-        self.classes.append(class_def)
-
-    @validator("path")
-    def path_is_file(cls, path):
-        """Validate existence of module file."""
-        assert path.is_file(), "must be a file on disk"
-        return path
+    def all_classes(self) -> Generator[ClassDef, None, None]:
+        for class_def in self.classes:
+            yield class_def
 
     def to_json(self) -> str:
         return self.json(
-            exclude={"path"},
+            exclude={
+                "classes": { "__all__": { "parent_namespace" }},
+            },
             indent=4,
         )
 
-    def _load_classdefs(self):
-        for parsed_class in self._parsed.iter_classdefs():
-            self.add_class_def(parsed_class)
+    @classmethod
+    def from_path(cls, namespace, path: Path):
+        source = path.read_text()
+        parsed = parso.parse(source).get_root_node()
+        docstring = find_node_docstring(parsed)
+        classes = [ClassDef.from_parsed_class(namespace, classdef) for classdef in parsed.iter_classdefs()]
 
-    def _find_docstring(self) -> str:
-        """Return the module's plain text docstring if available."""
-        return find_node_docstring(self._parsed)
+        return cls(namespace=namespace, docstring=docstring, classes=classes, _parsed=parsed)
 
 
 class Package(BaseModel):
@@ -120,6 +116,7 @@ class Package(BaseModel):
 
     name: str
     docstring: str = EMPTY_STRING
+    classes: List[ClassDef] = Field(default_factory=list)
     modules: List[Module] = Field(default_factory=list)
     subpackages: List["Package"] = Field(default_factory=list)
     _package_module: Module = PrivateAttr()
@@ -130,7 +127,8 @@ class Package(BaseModel):
         namespace_path = self.name.replace(".", os.path.sep)
         package_path = Path(namespace_path) / "__init__.py"
         self._path = find_in_sys_path(package_path)
-        self._package_module = Module(path=self._path, namespace=self.name)
+        self._package_module = Module.from_path(path=self._path, namespace=self.name)
+        self.classes = self._find_classes()
         self.modules = self._find_modules()
         self.subpackages = self._find_subpackages()
         self.docstring = self._package_module.docstring
@@ -145,6 +143,16 @@ class Package(BaseModel):
         module_count = len(self.modules)
         subpackage_count = len(self.subpackages)
         return f"Package(name={self.name} modules={module_count}, subpackages={subpackage_count}"
+
+    def all_classes(self) -> Generator[ClassDef, None, None]:
+        for class_def in self.classes:
+            yield class_def
+
+        for module in self.modules:
+            yield from module.all_classes()
+
+        for subpackage in self.subpackages:
+            yield from subpackage.all_classes()
 
     def all_modules(self) -> Generator[Module, None, None]:
         for module in self.modules:
@@ -162,11 +170,23 @@ class Package(BaseModel):
     def to_json(self) -> str:
         return self.json(
             exclude={
-                "modules": {"__all__": {"path"}},
-                "subpackages": {"__all__": {"subpackages", "modules"}},
+                "modules": {"__all__": { "classes" } },
+                "subpackages": {"__all__": {"subpackages", "modules", "classes"}},
             },
             indent=4,
         )
+
+    def _find_classes(self) -> List[ClassDef]:
+        classes = []
+
+        # Not fussing with a deep copy because we should only ever look
+        # at my package module *through me*
+        for classdef in self._package_module.classes:
+            classdef.namespace = f"{self.name}.{classdef.name}"
+            classes.append(classdef)
+
+        return classes
+
 
     def _find_modules(self) -> List[Module]:
         log.debug("Loading modules under %s", self.name)
@@ -176,7 +196,7 @@ class Package(BaseModel):
         log.debug("module paths found: %s", module_list)
 
         return [
-            Module(path=path, namespace=f"{self.name}.{path.stem}")
+            Module.from_path(path=path, namespace=f"{self.name}.{path.stem}")
             for path in module_list
         ]
 
@@ -199,6 +219,10 @@ class CodeLibrary(BaseModel):
     """Tracks all the defined names for serialization."""
 
     packages: List[Package] = Field(default_factory=list)
+
+    def all_classes(self) -> Generator[ClassDef, None, None]:
+        for package in self.packages:
+            yield from package.all_classes()
 
     def all_modules(self) -> Generator[Module, None, None]:
         """Return all modules I loaded."""
@@ -239,6 +263,15 @@ class CodeLibrary(BaseModel):
             module_json_path.write_text(module.to_json())
 
         # classes
+        class_dir = target_dir / "cls"
+        log.info("Serializing classes to %s", class_dir)
+        class_dir.mkdir(exist_ok=True)
+
+        for class_def in self.all_classes():
+            class_json_path = class_dir / f"{class_def.namespace}.json"
+            log.debug("class %s -> %s", class_def, class_json_path)
+            class_json_path.write_text(class_def.to_json())
+
         # functions
         # library.json master list
         serialized_self = self.to_json()
